@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Chillow",
-  "nationalPokedexNumber": 5132,
   "primaryType": "ice",
   "secondaryType": "fairy",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 53,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.32000000000000006,
+  "cannotDynamax": false,
   "abilities": [
     "cottondown",
     "h:thermalexchange"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 40,
@@ -16,37 +48,18 @@
     "special_defence": 55,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 220,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "5:powdersnow",
@@ -104,7 +117,8 @@
     "tm:bestow",
     "tm:healpulse",
     "tm:batonpass",
-    "tm:iceball"  ],
+    "tm:iceball"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
@@ -112,6 +126,9 @@
   "pokedex": [
     "cobblemon.species.chillow.desc"
   ],
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "chillow_mattreeze",
@@ -119,32 +136,19 @@
       "result": "mattreeze",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:ice_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4871,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.875,
+    "height": 1.875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:druidigo",
+  "speciesId": "cobblemon:druidigo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

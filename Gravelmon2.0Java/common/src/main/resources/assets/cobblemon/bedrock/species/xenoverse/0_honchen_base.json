@@ -4,16 +4,69 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_honchen.geo",
       "poser": "cobblemon:xenoverse_honchen",
-      "texture": "cobblemon:textures/pokemon/xenoverse/honchen.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/xenoverse/honchen/honchen.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/honchen_shiny.png"
+      "model": "cobblemon:xenoverse_honchen.geo",
+      "poser": "cobblemon:xenoverse_honchen",
+      "texture": "cobblemon:textures/pokemon/xenoverse/honchen/honchen_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

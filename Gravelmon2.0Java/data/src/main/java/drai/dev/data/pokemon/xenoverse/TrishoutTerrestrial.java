@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,12 +23,12 @@ public class TrishoutTerrestrial extends Pokemon {
                 List.of(new EvolutionEntry("trishout terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("trishoutxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"))),
                         new EvolutionEntry("trishoutastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50"))),
                         new EvolutionEntry("trishoutastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,1),
@@ -102,9 +103,17 @@ public class TrishoutTerrestrial extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Trishout");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setHitbox(0.7, 1.1);
         this.setBaseScale(1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("trishout_terrestrial");
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(0.0, 1.1, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.7, 0));
+        getPosingFileData().head = "head_2";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+        ));
     }
 }

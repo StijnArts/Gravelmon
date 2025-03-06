@@ -13,7 +13,15 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-54",
-      "weight": 6.0
+      "weight": 9.0,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
     }
   ]
 }

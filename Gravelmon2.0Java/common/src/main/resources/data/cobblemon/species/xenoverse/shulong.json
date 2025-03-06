@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Shulong",
-  "nationalPokedexNumber": 2098,
   "primaryType": "water",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 90,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
     "hydration",
     "h:dragonarmor"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 58,
     "attack": 40,
@@ -16,39 +48,19 @@
     "special_defence": 73,
     "speed": 51
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": true,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": true,
-  "baseExperienceYield": 90,
-  "experienceGroup": "slow",
-  "eggCycles": 41,
   "eggGroups": [
     "undiscovered"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "gravelmon:terrestrial_ring",
@@ -131,13 +143,17 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:velvetscales",
-    "tutor:waterpulse"  ],
+    "tutor:waterpulse"
+  ],
   "labels": [
     "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.shulong.desc"
   ],
+  "height": 5,
+  "weight": 70,
+  "aspects": [],
   "evolutions": [
     {
       "id": "shulong_shulong_terrestrial",
@@ -151,8 +167,8 @@
           "itemCondition": "gravelmon:terrestrial_ring"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "shulong_shulong_xenoversal",
       "variant": "level_up",
@@ -165,8 +181,8 @@
           "itemCondition": "gravelmon:xenoversal_ring"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "shulong_shulong_astral",
       "variant": "level_up",
@@ -180,11 +196,11 @@
         },
         {
           "variant": "level",
-          "minLevel": 50
+          "minLevel": "50"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "shulong_shulong_astral",
       "variant": "level_up",
@@ -198,31 +214,20 @@
         },
         {
           "variant": "level",
-          "minLevel": 50
+          "minLevel": "50"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.9,
+  "nationalPokedexNumber": 1773,
+  "shoulderMountable": true,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 70,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

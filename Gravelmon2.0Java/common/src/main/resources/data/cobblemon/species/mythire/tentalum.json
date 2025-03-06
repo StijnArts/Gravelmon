@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Tentalum",
-  "nationalPokedexNumber": 3856,
   "primaryType": "psychic",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3272727272727272,
+  "cannotDynamax": false,
   "abilities": [
     "owntempo",
     "wonderskin",
     "h:lightmetal"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 50,
@@ -16,37 +48,18 @@
     "special_defence": 55,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "1:smokescreen",
@@ -66,7 +79,8 @@
     "1:copycat",
     "1:mefirst",
     "1:detect",
-    "1:morningsun"  ],
+    "1:morningsun"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -74,6 +88,9 @@
   "pokedex": [
     "cobblemon.species.tentalum.desc"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tentalum_octempus",
@@ -84,35 +101,24 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 29
+          "minLevel": "29"
         },
         {
           "variant": "time_range",
           "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3896,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.75,
+    "height": 2.75,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

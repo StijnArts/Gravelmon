@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.vega;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -103,9 +103,16 @@ public class Pumpkid extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setBaseScale(0.5);
         this.setHitbox(0.7,0.7);
-        this.setModeled(true);
+        
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2f, new Vector3(0, -.2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .55, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
     }
 }

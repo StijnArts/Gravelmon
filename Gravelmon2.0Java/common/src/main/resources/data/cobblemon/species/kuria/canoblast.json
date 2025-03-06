@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Canoblast",
-  "nationalPokedexNumber": 4182,
   "primaryType": "fighting",
   "secondaryType": "steel",
+  "catchRate": 95,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 201,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "canoling",
+  "baseScale": 0.5164556962025316,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 90,
@@ -14,37 +48,18 @@
     "special_defence": 80,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 95,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 201,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:bide",
     "8:rocksmash",
@@ -56,7 +71,8 @@
     "28:irondefense",
     "32:coaching",
     "38:focuspunch",
-    "43:ironhead"  ],
+    "43:ironhead"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -66,26 +82,18 @@
   "pokedex": [
     "cobblemon.species.canoblast.desc"
   ],
-  "preEvolution": "canoling",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 17,
   "weight": 652,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4163,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.9375,
+    "height": 4.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Gleamur",
-  "nationalPokedexNumber": 2981,
   "primaryType": "electric",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "winklit",
+  "baseScale": 0.2865671641791045,
+  "cannotDynamax": false,
   "abilities": [
     "static",
     "cheekpouch",
     "h:motordrive"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 60,
@@ -16,37 +49,18 @@
     "special_defence": 85,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:quickattack",
     "4:growl",
@@ -68,7 +82,8 @@
     "tm:shockwave",
     "tm:acrobatics",
     "tm:wildcharge",
-    "tm:paraboliccharge"  ],
+    "tm:paraboliccharge"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -78,26 +93,18 @@
   "pokedex": [
     "cobblemon.species.gleamur.desc"
   ],
-  "preEvolution": "winklit",
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 8,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2979,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.1875,
+    "height": 4.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

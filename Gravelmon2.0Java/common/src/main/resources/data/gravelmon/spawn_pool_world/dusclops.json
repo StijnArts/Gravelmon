@@ -4,21 +4,54 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_dusclops-01",
-      "pokemon": "dusclops fligian",
+      "id": "epoch_dusclops-01",
+      "pokemon": "dusclops epoch",
       "presets": [
-        "underwater"
+        "lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-46",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_dusclops-01",
+      "pokemon": "dusclops avalossian",
+      "presets": [
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "37-52",
-      "weight": 0.4,
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

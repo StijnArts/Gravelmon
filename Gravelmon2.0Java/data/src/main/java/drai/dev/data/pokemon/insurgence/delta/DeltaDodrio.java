@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -117,9 +118,16 @@ public class DeltaDodrio extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Dodrio");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.3f, new Vector3(-0, .9, 0));
+        getPosingFileData().setProfileData( .81f, new Vector3(0, .6, 0));
+        getPosingFileData().head = "head4";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

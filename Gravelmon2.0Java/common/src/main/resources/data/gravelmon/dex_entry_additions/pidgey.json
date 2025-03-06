@@ -2,15 +2,21 @@
   "entryId": "cobblemon:pidgey",
   "forms": [
     {
-      "displayForm": "Delta",
+      "displayForm": "Forman",
       "unlockForms": [
-        "Delta"
+        "Forman"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Mythian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
       ]
     },
     {

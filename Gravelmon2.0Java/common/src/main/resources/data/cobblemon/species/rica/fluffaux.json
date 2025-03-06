@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Fluffaux",
-  "nationalPokedexNumber": 1301,
   "primaryType": "bug",
   "secondaryType": "psychic",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.27169811320754716,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:wonderskin"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 48,
     "attack": 25,
@@ -16,37 +48,18 @@
     "special_defence": 72,
     "speed": 48
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "7:stunspore",
@@ -102,7 +115,8 @@
     "tm:silverwind",
     "tm:ragepowder",
     "tm:magicroom",
-    "tm:spotlight"  ],
+    "tm:spotlight"
+  ],
   "labels": [
     "rica",
     "not_modeled"
@@ -110,6 +124,9 @@
   "pokedex": [
     "cobblemon.species.fluffaux.desc"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "fluffaux_lepillusion",
@@ -120,31 +137,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 29
+          "minLevel": "29"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1187,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.3125,
+    "height": 3.3125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

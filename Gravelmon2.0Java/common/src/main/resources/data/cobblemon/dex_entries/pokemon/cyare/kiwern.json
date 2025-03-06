@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kiwern",
+  "speciesId": "cobblemon:kiwern",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

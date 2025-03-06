@@ -2,6 +2,18 @@
   "entryId": "cobblemon:arbok",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    },
+    {
       "displayForm": "Alteran",
       "unlockForms": [
         "Alteran"

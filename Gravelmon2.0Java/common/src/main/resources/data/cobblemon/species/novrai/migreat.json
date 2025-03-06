@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Migreat",
-  "nationalPokedexNumber": 5350,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.64,
+  "cannotDynamax": false,
   "abilities": [
     "drought",
     "h:magicguard"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 85,
@@ -16,37 +48,18 @@
     "special_defence": 105,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:flamecharge",
     "7:whirlwind",
@@ -112,7 +125,8 @@
     "tm:trailblaze",
     "tm:auroraveil",
     "tm:fly",
-    "tm:heatwave"  ],
+    "tm:heatwave"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
@@ -120,25 +134,18 @@
   "pokedex": [
     "cobblemon.species.migreat.desc"
   ],
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 24,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5045,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.625,
+    "height": 5.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

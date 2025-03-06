@@ -1,17 +1,25 @@
 {
   "species": "cobblemon:raichu",
-  "order": 11,
+  "order": 100,
   "variations": [
     {
       "aspects": [
         "x"
       ],
-      "poser": "cobblemon:generation1_raichux",
       "model": "cobblemon:generation1_raichux.geo",
+      "poser": "cobblemon:generation1_raichux",
       "texture": "cobblemon:textures/pokemon/generation1/raichux/raichux.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
           "name": "heartbeat",
+          "emissive": false,
+          "translucent": false,
           "texture": {
             "frames": [
               "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat1.png",
@@ -27,8 +35,25 @@
             ],
             "fps": 10,
             "loop": true
-          },
-          "emissive": false
+          }
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -37,29 +62,54 @@
         "x",
         "shiny"
       ],
-      "poser": "cobblemon:generation1_raichux",
       "model": "cobblemon:generation1_raichux.geo",
+      "poser": "cobblemon:generation1_raichux",
       "texture": "cobblemon:textures/pokemon/generation1/raichux/raichux_shiny.png",
       "layers": [
         {
-          "name": "flame",
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "heartbeat",
+          "emissive": false,
+          "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny1.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny2.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny3.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny4.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny5.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny6.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny7.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny8.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny9.png",
-              "cobblemon:textures/pokemon/generation1/raichux/heartbeat_shiny/heartbeat_shiny10.png"
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat1_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat2_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat3_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat4_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat5_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat6_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat7_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat8_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat9_shiny.png",
+              "cobblemon:textures/pokemon/generation1/raichux/heartbeat/heartbeat10_shiny.png"
             ],
             "fps": 10,
             "loop": true
-          },
-          "emissive": false
+          }
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

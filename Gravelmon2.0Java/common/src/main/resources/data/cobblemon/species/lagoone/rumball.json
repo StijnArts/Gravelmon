@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Rumball",
-  "nationalPokedexNumber": 1487,
   "primaryType": "bug",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pillunge",
+  "baseScale": 0.36164383561643837,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "h:sturdy"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 82,
@@ -15,37 +48,18 @@
     "special_defence": 80,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "6:infestation",
@@ -57,7 +71,8 @@
     "29:xscissor",
     "35:leechlife",
     "40:nightslash",
-    "46:lunge"  ],
+    "46:lunge"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -67,26 +82,18 @@
   "pokedex": [
     "cobblemon.species.rumball.desc"
   ],
-  "preEvolution": "pillunge",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 11,
   "weight": 930,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1328,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5625,
+    "height": 4.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

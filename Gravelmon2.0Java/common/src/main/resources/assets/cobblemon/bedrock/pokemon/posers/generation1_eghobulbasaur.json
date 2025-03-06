@@ -1,48 +1,79 @@
 {
   "head": "head",
-  "portraitScale": 2.3,
-  "portraitTranslation": [-0.3, -1.4, 0.0],
-  "profileScale": 0.9,
-  "profileTranslation": [0.0, 0.4, 0.0],
-	"faint": "bedrock(bulbasaur_egho, faint)",
+  "portraitScale": 2.299999952316284,
+  "portraitTranslation": [
+    -0.3,
+    -1.4,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(bulbasaur_egho, faint)"
+  },
   "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
-        "animations": [
-          "look",
-          "bedrock(bulbasaur_egho, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(bulbasaur_egho, blink)"]
-          }
-        ]
-      },
-	  "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(bulbasaur_egho, ground_walk)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(bulbasaur_egho, blink)"]
-          }
-        ]
-      },
-	  "sleeping": {
-        "poseName": "sleeping",
-        "transformTicks": 10,
-        "poseTypes": ["SLEEP"],
-        "animations": [
-          "bedrock(bulbasaur_egho, sleep)"
-        ]
-       }
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(bulbasaur_egho, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(bulbasaur_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(bulbasaur_egho, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(bulbasaur_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(bulbasaur_egho, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
+  }
 }

@@ -7,18 +7,26 @@
       "id": "hemocto-01",
       "pokemon": "hemocto",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
       "level": "2-19",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "maxY": 35
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

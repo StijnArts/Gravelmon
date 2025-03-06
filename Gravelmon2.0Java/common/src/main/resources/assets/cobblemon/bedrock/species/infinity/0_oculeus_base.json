@@ -4,15 +4,39 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:infinity_oculeus",
       "model": "cobblemon:infinity_oculeus.geo",
+      "poser": "cobblemon:infinity_oculeus",
       "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus.png",
       "layers": [
         {
           "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/oculeus/oculeus_translucent.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus_translucent.png"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -20,14 +44,41 @@
       "aspects": [
         "shiny"
       ],
+      "model": "cobblemon:infinity_oculeus.geo",
+      "poser": "cobblemon:infinity_oculeus",
       "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus_shiny.png",
       "layers": [
         {
           "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/infinity/oculeus/oculeus_shiny_translucent.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/infinity/oculeus/oculeus_translucent_shiny.png"
+        },
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
-    }  ]
+    }
+  ]
 }

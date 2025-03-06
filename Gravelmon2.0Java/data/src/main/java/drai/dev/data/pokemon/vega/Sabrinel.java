@@ -101,7 +101,7 @@ public class Sabrinel extends Pokemon {
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 42, 2.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,

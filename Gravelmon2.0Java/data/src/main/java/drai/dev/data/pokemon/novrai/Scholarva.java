@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.novrai;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Scholarva extends drai.dev.data.pokemon.Pokemon {
@@ -23,7 +24,7 @@ public class Scholarva extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("It sheds its skin frequently and stores layers of it on its back. Ancient humans would harvest this shed skin and use it as material on which to write."),
                 List.of(new EvolutionEntry("intellibee", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"unown\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"unown")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.CONFIDE,5),

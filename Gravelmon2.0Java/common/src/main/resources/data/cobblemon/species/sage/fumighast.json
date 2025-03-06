@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Fumighast",
-  "nationalPokedexNumber": 1127,
   "primaryType": "poison",
   "secondaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 227,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "noxial",
+  "baseScale": 0.08,
+  "cannotDynamax": false,
   "abilities": [
     "pollution",
     "aftermath",
     "h:liquidooze"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 70,
@@ -17,37 +50,27 @@
     "special_defence": 115,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 227,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 51,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:glass_bottle",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -132,7 +155,8 @@
     "egg:nightshade",
     "egg:nightslash",
     "egg:ominouswind",
-    "egg:smokescreen"  ],
+    "egg:smokescreen"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -142,26 +166,18 @@
   "pokedex": [
     "cobblemon.species.fumighast.desc"
   ],
-  "preEvolution": "noxial",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 17,
   "weight": 43,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1081,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.875,
+    "height": 31.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

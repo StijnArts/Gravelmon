@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -21,7 +20,7 @@ public class DeltaYanma extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by SapphirePhoenix. Though it specializes in camouflage, it is also a great flier capable of quickly chasing down lured prey."),
                 List.of(new EvolutionEntry("deltayanmega", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
@@ -115,6 +114,5 @@ public class DeltaYanma extends Pokemon {
                 List.of());
         this.setLangFileName("Yanma");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

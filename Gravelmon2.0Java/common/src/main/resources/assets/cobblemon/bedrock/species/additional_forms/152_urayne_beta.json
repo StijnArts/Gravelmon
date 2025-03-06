@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:urayne",
-  "order": 3,
+  "order": 152,
   "variations": [
     {
       "aspects": [
         "beta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:uranium_betaurayne",
+      "model": "cobblemon:cutout_gravelmon_78_by_74.geo",
+      "poser": "cobblemon:cutout_gravelmon_78_by_74",
       "texture": "cobblemon:textures/pokemon/uranium/betaurayne.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "beta",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:uranium_betaurayne",
-      "texture": "cobblemon:textures/pokemon/uranium/betaurayne_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

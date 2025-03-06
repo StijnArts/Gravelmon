@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Femurk",
-  "nationalPokedexNumber": 1309,
   "primaryType": "ghost",
   "secondaryType": "ground",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 191,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "skulmet",
+  "baseScale": 0.2953846153846154,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "pickup",
     "h:cursedbody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 67,
     "attack": 95,
@@ -17,38 +50,19 @@
     "special_defence": 65,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 191,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "8:furyattack",
@@ -128,7 +142,8 @@
     "tm:ancientpower",
     "tm:ominouswind",
     "tm:smackdown",
-    "tm:phantomforce"  ],
+    "tm:phantomforce"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -138,7 +153,9 @@
   "pokedex": [
     "cobblemon.species.femurk.desc"
   ],
-  "preEvolution": "skulmet",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "femurk_foromen",
@@ -149,35 +166,24 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         },
         {
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_spooky"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1193,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.0625,
+    "height": 4.0625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

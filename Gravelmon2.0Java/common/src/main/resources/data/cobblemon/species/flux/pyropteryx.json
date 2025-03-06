@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Pyropteryx",
-  "nationalPokedexNumber": 2543,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 265,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "burnychus",
+  "baseScale": 0.4915662650602409,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:toughclaws"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 100,
@@ -16,38 +49,19 @@
     "special_defence": 70,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 265,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:fly",
     "1:dragonclaw",
@@ -70,7 +84,8 @@
     "egg:laserfocus",
     "egg:headsmash",
     "egg:tailwind",
-    "egg:doubleedge"  ],
+    "egg:doubleedge"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -80,26 +95,18 @@
   "pokedex": [
     "cobblemon.species.pyropteryx.desc"
   ],
-  "preEvolution": "burnychus",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 17,
   "weight": 460,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2094,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.1875,
+    "height": 5.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

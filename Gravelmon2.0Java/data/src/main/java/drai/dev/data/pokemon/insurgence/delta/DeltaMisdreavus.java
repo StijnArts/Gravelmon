@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -120,9 +121,16 @@ public class DeltaMisdreavus extends Pokemon {
                 List.of());
         this.setLangFileName("Misdreavus");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
         setBaseScale(1.0);
         setHitbox(1.0, 1.0);
-        setModeled(true);
+        
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.2, -.25, 0));
+        getPosingFileData().setProfileData( .75f, new Vector3(0, 0.8, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
     }
 }

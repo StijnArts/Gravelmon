@@ -1,75 +1,108 @@
 {
   "head": "head",
-  "portraitScale": 0.7,
-  "portraitTranslation": [0, 0.4, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0, 0.4, 0.0],
-  "faint": "bedrock(totodile_egho, faint)",
-  "cry": "q.bedrock_stateful('totodile_egho', 'cry')",
+  "portraitScale": 0.699999988079071,
+  "portraitTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(totodile_egho, faint)",
+    "cry": "q.bedrock_stateful('totodile_egho', 'cry')"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
       "animations": [
+        "look",
         "bedrock(totodile_egho, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(totodile_egho, blink)"]
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": ["WALK"],
       "animations": [
         "bedrock(totodile_egho, ground_walk)"
       ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(totodile_egho, blink)"]
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "floating": {
       "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": ["FLOAT"],
       "animations": [
         "bedrock(totodile_egho, water_idle)"
       ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(totodile_egho, blink)"]
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "swimming": {
       "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": ["SWIM"],
       "animations": [
         "bedrock(totodile_egho, water_swim)"
       ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(totodile_egho, blink)"]
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "sleeping": {
       "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": ["SLEEP"],
       "animations": [
         "bedrock(totodile_egho, sleep)"
-      ]
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

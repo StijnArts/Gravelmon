@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:granbull-ionosian",
+  "speciesId": "cobblemon:granbull",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

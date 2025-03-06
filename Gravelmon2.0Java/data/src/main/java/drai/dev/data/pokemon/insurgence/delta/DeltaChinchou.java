@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -107,10 +108,17 @@ public class DeltaChinchou extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Chinchou");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setHitbox(0.7, 0.6);
         this.setBaseScale(0.6);
         this.setCanFly(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("chinchou_delta");
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.2, -.7, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .5, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink(),
+                AnimationData.hoveringAnimation().withBlink()
+        ));
     }
 }

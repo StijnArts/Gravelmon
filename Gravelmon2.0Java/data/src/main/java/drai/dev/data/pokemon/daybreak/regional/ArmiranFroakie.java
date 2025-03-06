@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.daybreak.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -67,7 +67,7 @@ public class ArmiranFroakie extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.DAYBREAK),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
                         new SpawnCondition(SpawnConditionType.MAXY,"10")
                 ), List.of(),
@@ -75,6 +75,5 @@ public class ArmiranFroakie extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Froakie");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

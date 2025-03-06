@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Morosquatch",
-  "nationalPokedexNumber": 5191,
   "primaryType": "dark",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 186,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "morostache",
+  "baseScale": 0.64,
+  "cannotDynamax": false,
   "abilities": [
     "tanglinghair",
     "h:emergencyexit"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 125,
     "attack": 125,
@@ -16,39 +49,19 @@
     "special_defence": 85,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "gravelmon:hair_tonic",
@@ -161,7 +174,8 @@
     "tm:reversal",
     "tm:acupressure",
     "tm:nightslash",
-    "tm:uproar"  ],
+    "tm:uproar"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -171,26 +185,18 @@
   "pokedex": [
     "cobblemon.species.morosquatch.desc"
   ],
-  "preEvolution": "morostache",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 20,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4914,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.6875,
+    "height": 4.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

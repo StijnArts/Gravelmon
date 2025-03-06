@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Aklyteor",
-  "nationalPokedexNumber": 4244,
   "primaryType": "rock",
   "secondaryType": "cosmic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 226,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "clusteorus",
+  "baseScale": 0.711111111111111,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "h:rockhead"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 135,
@@ -16,38 +49,19 @@
     "special_defence": 90,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 226,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:defensecurl",
     "7:rollout",
@@ -59,7 +73,8 @@
     "38:rockslide",
     "44:doubleedge",
     "47:counter",
-    "55:headsmash"  ],
+    "55:headsmash"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -69,26 +84,18 @@
   "pokedex": [
     "cobblemon.species.aklyteor.desc"
   ],
-  "preEvolution": "clusteorus",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 2771,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4211,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.0625,
+    "height": 5.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

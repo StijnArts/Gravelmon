@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 44,
+  "sortOrder": 57,
   "id": "gravelmon:blazingemerald",
   "entries": [
     "cobblemon:eevee",
@@ -69,6 +69,7 @@
     "cobblemon:dragapult-hoennian",
     "cobblemon:regigigas-hoennian",
     "cobblemon:vitellion",
+    "cobblemon:crawb",
     "cobblemon:metunn"
   ]
 }

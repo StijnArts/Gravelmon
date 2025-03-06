@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Slibbit",
-  "nationalPokedexNumber": 2666,
   "primaryType": "poison",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.2594594594594595,
+  "cannotDynamax": false,
   "abilities": [
     "poisontouch",
     "stickyhold",
     "h:corrosion"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 30,
     "attack": 20,
@@ -16,38 +48,19 @@
     "special_defence": 50,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "5:yawn",
@@ -64,7 +77,8 @@
     "36:gastroacid",
     "41:belch",
     "44:painsplit",
-    "49:gunkshot"  ],
+    "49:gunkshot"
+  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -72,6 +86,9 @@
   "pokedex": [
     "cobblemon.species.slibbit.desc"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "slibbit_caustibian",
@@ -85,28 +102,17 @@
           "move": "sludgebomb"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2286,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.3125,
+    "height": 2.3125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

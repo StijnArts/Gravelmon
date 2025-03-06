@@ -1,12 +1,46 @@
 {
-  "implemented": true,
   "name": "Maynoon",
-  "nationalPokedexNumber": 3797,
   "primaryType": "bug",
   "secondaryType": "flying",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 158,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "naiadawn",
+  "baseScale": 0.4430769230769231,
+  "cannotDynamax": false,
   "abilities": [
     "galewings",
-    "cloudnine"  ],
+    "cloudnine"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 70,
@@ -15,37 +49,18 @@
     "special_defence": 50,
     "speed": 125
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 158,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:quickattack",
     "1:soak",
@@ -59,7 +74,8 @@
     "32:airslash",
     "38:gigadrain",
     "44:bugbuzz",
-    "52:quiverdance"  ],
+    "52:quiverdance"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -69,7 +85,9 @@
   "pokedex": [
     "cobblemon.species.maynoon.desc"
   ],
-  "preEvolution": "naiadawn",
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "maynoon_nymphemeral",
@@ -80,31 +98,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 3855,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.0625,
+    "height": 4.0625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

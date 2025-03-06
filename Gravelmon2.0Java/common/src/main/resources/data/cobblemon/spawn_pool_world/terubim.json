@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "11-27",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -22,6 +22,14 @@
         "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

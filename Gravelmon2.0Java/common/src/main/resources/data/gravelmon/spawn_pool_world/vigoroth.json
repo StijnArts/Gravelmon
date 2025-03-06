@@ -4,8 +4,79 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_vigoroth-01",
-      "pokemon": "vigoroth fligian",
+      "id": "elbian_vigoroth-01",
+      "pokemon": "vigoroth elbian",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_vigoroth-01",
+      "pokemon": "vigoroth ferranian",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_vigoroth-01",
+      "pokemon": "vigoroth epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-36",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_vigoroth-01",
+      "pokemon": "vigoroth avalossian",
       "presets": [
         "natural"
       ],
@@ -13,13 +84,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "18-31",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

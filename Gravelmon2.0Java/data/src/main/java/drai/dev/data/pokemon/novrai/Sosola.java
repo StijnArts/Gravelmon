@@ -89,8 +89,8 @@ public class Sosola extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 22, 41, 1.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN,Biome.IS_FREEZING))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,

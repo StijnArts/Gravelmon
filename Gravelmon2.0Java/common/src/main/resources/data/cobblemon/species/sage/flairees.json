@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Flairees",
-  "nationalPokedexNumber": 1030,
   "primaryType": "fire",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "preEvolution": "pyroat",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:flashfire"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 120,
@@ -16,37 +49,32 @@
     "special_defence": 80,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 241,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 41,
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 80
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -134,7 +162,8 @@
     "egg:stomp",
     "egg:superpower",
     "egg:takedown",
-    "egg:thrash"  ],
+    "egg:thrash"
+  ],
   "labels": [
     "sage",
     "fakemon",
@@ -143,26 +172,18 @@
   "pokedex": [
     "cobblemon.species.flairees.desc"
   ],
-  "preEvolution": "pyroat",
-  "baseScale": 1.0,
-  "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 15,
   "weight": 1823,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1029,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.4,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

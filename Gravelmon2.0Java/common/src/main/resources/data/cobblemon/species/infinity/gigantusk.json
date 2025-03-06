@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Gigantusk",
-  "nationalPokedexNumber": 1436,
   "primaryType": "ice",
   "secondaryType": "steel",
+  "catchRate": 80,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 140,
+  "experienceGroup": "erratic",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "preEvolution": "arctusk",
+  "baseScale": 0.3789473684210526,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "h:simple"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 100,
@@ -16,38 +49,19 @@
     "special_defence": 75,
     "speed": 57
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 80,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "erratic",
-  "eggCycles": 48,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:ironhead",
     "1:doubleedge",
@@ -124,7 +138,8 @@
     "egg:irondefense",
     "egg:pressurize",
     "egg:shellsmash",
-    "egg:wildcharge"  ],
+    "egg:wildcharge"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -134,26 +149,18 @@
   "pokedex": [
     "cobblemon.species.gigantusk.desc"
   ],
-  "preEvolution": "arctusk",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 4400,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1275,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.5,
+    "height": 9.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

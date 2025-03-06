@@ -4,16 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:eternalforest_hamerry",
+      "model": "cobblemon:cutout_gravelmon_440_by_614.geo",
+      "poser": "cobblemon:cutout_gravelmon_440_by_614",
       "texture": "cobblemon:textures/pokemon/eternalforest/hamerry.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/eternalforest/hamerry_shiny.png"
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

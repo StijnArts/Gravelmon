@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Kangaloop",
-  "nationalPokedexNumber": 2647,
   "primaryType": "normal",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 169,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pogoroo",
+  "baseScale": 0.4987012987012987,
+  "cannotDynamax": false,
   "abilities": [
     "scrappy",
     "h:owntempo"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 47,
     "attack": 81,
@@ -15,38 +48,19 @@
     "special_defence": 82,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 169,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "7:quickattack",
@@ -57,7 +71,8 @@
     "28:jumpkick",
     "34:megakick",
     "40:agility",
-    "51:highjumpkick"  ],
+    "51:highjumpkick"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -67,26 +82,18 @@
   "pokedex": [
     "cobblemon.species.kangaloop.desc"
   ],
-  "preEvolution": "pogoroo",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 16,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2278,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.8125,
+    "height": 4.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

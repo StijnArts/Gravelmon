@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lousidogg",
+  "speciesId": "cobblemon:lousidogg",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

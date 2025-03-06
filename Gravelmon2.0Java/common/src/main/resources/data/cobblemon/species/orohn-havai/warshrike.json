@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Warshrike",
-  "nationalPokedexNumber": 2930,
   "primaryType": "dark",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "territore",
+  "baseScale": 0.264406779661017,
+  "cannotDynamax": false,
   "abilities": [
     "moxie",
     "intimidate",
     "h:rivalry"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 84,
     "attack": 110,
@@ -17,37 +50,18 @@
     "special_defence": 81,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:punishment",
     "5:quickattack",
@@ -64,7 +78,8 @@
     "tm:knockoff",
     "tm:crushclaw",
     "tm:tailwind",
-    "tm:honeclaws"  ],
+    "tm:honeclaws"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -74,26 +89,18 @@
   "pokedex": [
     "cobblemon.species.warshrike.desc"
   ],
-  "preEvolution": "territore",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 13,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2947,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 7.374999999999999,
+    "height": 7.374999999999999,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -24,14 +24,10 @@ public class Seregios extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("It is hyper-aggressive and known to invade and kick potential rivals out of their own territory. It can shoot out its scales at foes which are sharp enough to cut through armor and cause severe bleeding."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Seregios");

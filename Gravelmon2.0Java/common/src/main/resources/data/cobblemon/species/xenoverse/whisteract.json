@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Whisteract",
-  "nationalPokedexNumber": 2113,
   "primaryType": "ghost",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "nunvil",
+  "baseScale": 0.36923076923076925,
+  "cannotDynamax": false,
   "abilities": [
     "anticipation",
     "h:cursedbody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 52,
@@ -16,41 +49,26 @@
     "special_defence": 95,
     "speed": 43
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "amorphous",
     "fairy"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
       {
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
@@ -127,7 +145,8 @@
     "tutor:snore",
     "tutor:spite",
     "tutor:trick",
-    "tutor:wonderroom"  ],
+    "tutor:wonderroom"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -137,26 +156,18 @@
   "pokedex": [
     "cobblemon.species.whisteract.desc"
   ],
-  "preEvolution": "nunvil",
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 12,
   "weight": 30,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1788,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.875,
+    "height": 4.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

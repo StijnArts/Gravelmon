@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:cacturne",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,32 @@
       "model": "cobblemon:generation3_cacturnex.geo",
       "poser": "cobblemon:generation3_cacturnex",
       "texture": "cobblemon:textures/pokemon/generation3/cacturnex/cacturnex.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +44,32 @@
       "model": "cobblemon:generation3_cacturnex.geo",
       "poser": "cobblemon:generation3_cacturnex",
       "texture": "cobblemon:textures/pokemon/generation3/cacturnex/cacturnex_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

@@ -5,17 +5,36 @@
     {
       "aspects": [
         "eight"
-     ],
-      "poser": "cobblemon:deneb_hatenazemi",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/8_hatenazemi.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "eight",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/8_hatenazemi_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_41_by_46.geo",
+      "poser": "cobblemon:cutout_gravelmon_41_by_46",
+      "texture": "cobblemon:textures/pokemon/deneb/8.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

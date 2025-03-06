@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Royalert",
-  "nationalPokedexNumber": 4792,
   "primaryType": "fire",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 209,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gardleon",
+  "baseScale": 0.44999999999999996,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:flamebody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 120,
@@ -16,38 +49,19 @@
     "special_defence": 75,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 209,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:thunderfang",
     "1:tackle",
@@ -90,7 +104,8 @@
     "egg:mudslap",
     "egg:outrage",
     "egg:superfang",
-    "egg:wildcharge"  ],
+    "egg:wildcharge"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -100,26 +115,18 @@
   "pokedex": [
     "cobblemon.species.royalert.desc"
   ],
-  "preEvolution": "gardleon",
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 12,
   "weight": 648,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4538,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

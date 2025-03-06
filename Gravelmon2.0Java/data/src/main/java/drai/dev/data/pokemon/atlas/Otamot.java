@@ -84,7 +84,7 @@ public class Otamot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,"tm")                        ),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, 1, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, .1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -147,9 +148,20 @@ public class DeltaGardevoir extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Gardevoir");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.6,2.2);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                SimpleTextureLayerData.glowLayer(this)
+        );
+        getPosingFileData().setPortraitData( 2.6f, new Vector3(-0.2, 1.6, 0));
+        getPosingFileData().setProfileData( .65f, new Vector3(0, 0.7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }

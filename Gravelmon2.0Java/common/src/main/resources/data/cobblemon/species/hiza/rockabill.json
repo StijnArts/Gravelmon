@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Rockabill",
-  "nationalPokedexNumber": 2688,
   "primaryType": "rock",
   "secondaryType": "flying",
+  "catchRate": 72,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kookabill",
+  "baseScale": 0.39069767441860465,
+  "cannotDynamax": false,
   "abilities": [
     "stamina",
     "h:sheerforce"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 68,
     "attack": 113,
@@ -16,38 +49,19 @@
     "special_defence": 77,
     "speed": 96
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 72,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 172,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:quickattack",
@@ -65,7 +79,8 @@
     "36:tailwind",
     "41:dragonclaw",
     "46:thrash",
-    "51:endeavor"  ],
+    "51:endeavor"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -75,26 +90,18 @@
   "pokedex": [
     "cobblemon.species.rockabill.desc"
   ],
-  "preEvolution": "kookabill",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 14,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2296,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.375,
+    "height": 5.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Chrone",
-  "nationalPokedexNumber": 1949,
   "primaryType": "steel",
   "secondaryType": "flying",
+  "catchRate": 170,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 87,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3764705882352941,
+  "cannotDynamax": false,
   "abilities": [
     "motordrive",
     "lightningrod",
     "h:forewarn"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 40,
     "attack": 65,
@@ -17,68 +49,6 @@
     "special_defence": 65,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 170,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 87,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:tackle",
-    "1:lockon"  ],
-  "labels": [
-    "enriko",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.chrone.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "chrone_reconuisance",
-      "variant": "item_interact",
-      "result": "reconuisance",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:upgrade",
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -87,10 +57,44 @@
     "special_defence": 0,
     "speed": 1
   },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [
+    "1:tackle",
+    "1:lockon"
+  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chrone.desc"
+  ],
   "height": 8,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [
+    {
+      "id": "chrone_reconuisance",
+      "variant": "item_interact",
+      "result": "reconuisance",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:upgrade",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 1670,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.1875,
+    "height": 3.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Alfalphalops",
-  "nationalPokedexNumber": 3456,
   "primaryType": "grass",
   "secondaryType": "rock",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "danfluff",
+  "baseScale": 0.673170731707317,
+  "cannotDynamax": false,
   "abilities": [
-    "overgrow"  ],
+    "overgrow"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 110,
     "attack": 80,
@@ -14,38 +48,19 @@
     "special_defence": 115,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:megahorn",
@@ -100,7 +115,8 @@
     "egg:headbutt",
     "egg:sleeptalk",
     "egg:synthesis",
-    "egg:worryseed"  ],
+    "egg:worryseed"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -110,26 +126,18 @@
   "pokedex": [
     "cobblemon.species.alfalphalops.desc"
   ],
-  "preEvolution": "danfluff",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 23,
   "weight": 2025,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3372,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.125,
+    "height": 5.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

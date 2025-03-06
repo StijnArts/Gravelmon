@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Saprodon",
-  "nationalPokedexNumber": 4990,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fungrove",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:effectspore"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 105,
     "attack": 82,
@@ -15,38 +48,19 @@
     "special_defence": 93,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:protect",
     "1:absorb",
@@ -69,7 +83,8 @@
     "tm:curse",
     "tm:leechseed",
     "tm:leafstorm",
-    "tm:doubleedge"  ],
+    "tm:doubleedge"
+  ],
   "labels": [
     "enjin",
     "not_modeled",
@@ -79,26 +94,18 @@
   "pokedex": [
     "cobblemon.species.saprodon.desc"
   ],
-  "preEvolution": "fungrove",
-  "baseScale": 0.3333333333333333,
+  "height": 20,
+  "weight": 1800,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 4670,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 3,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 20,
-  "weight": 1800,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

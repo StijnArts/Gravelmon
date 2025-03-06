@@ -1,0 +1,96 @@
+{
+  "name": "Seweratt",
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sewerunt",
+  "baseScale": 0.051562500000000004,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 62,
+    "attack": 62,
+    "defence": 105,
+    "special_attack": 51,
+    "special_defence": 75,
+    "speed": 51
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:tackle",
+    "1:acid",
+    "1:sleeptalk",
+    "1:bulkup",
+    "1:healbell",
+    "1:toxic"
+  ],
+  "labels": [
+    "aldao",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution",
+    "instagram",
+    "instagram"
+  ],
+  "pokedex": [
+    "cobblemon.species.seweratt.desc"
+  ],
+  "height": 11,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 2819,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

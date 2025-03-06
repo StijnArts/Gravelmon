@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class SeviianFeebas extends Pokemon {
                 51, List.of(EggGroup.WATER_1, EggGroup.DRAGON),
                 List.of(""),
                 List.of(new EvolutionEntry("seviianmilotic", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:prism_scale\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:prism_scale")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH, 1),
                         new MoveLearnSetEntry(Move.TACKLE, 15),
@@ -65,6 +65,5 @@ public class SeviianFeebas extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Feebas");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
     }
 }

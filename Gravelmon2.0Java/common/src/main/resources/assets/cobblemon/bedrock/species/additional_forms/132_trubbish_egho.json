@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:trubbish",
-  "order": 3,
+  "order": 132,
   "variations": [
     {
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_eghotrubbish",
+      "model": "cobblemon:cutout_gravelmon_70_by_101.geo",
+      "poser": "cobblemon:cutout_gravelmon_70_by_101",
       "texture": "cobblemon:textures/pokemon/generation5/eghotrubbish.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "egho",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_eghotrubbish",
-      "texture": "cobblemon:textures/pokemon/generation5/eghotrubbish_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

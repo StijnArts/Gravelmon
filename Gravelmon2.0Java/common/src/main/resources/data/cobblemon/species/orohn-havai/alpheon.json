@@ -1,10 +1,43 @@
 {
-  "implemented": true,
   "name": "Alpheon",
-  "nationalPokedexNumber": 3059,
   "primaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.42105263157894735,
+  "cannotDynamax": false,
   "abilities": [
-    "adaptability"  ],
+    "adaptability"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 130,
@@ -13,37 +46,18 @@
     "special_defence": 65,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:helpinghand",
     "5:sandattack",
@@ -69,7 +83,8 @@
     "tm:naturalgift",
     "tm:captivate",
     "tm:synchronoise",
-    "tm:storedpower"  ],
+    "tm:storedpower"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled"
@@ -77,25 +92,18 @@
   "pokedex": [
     "cobblemon.species.alpheon.desc"
   ],
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 10,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3032,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5625,
+    "height": 3.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

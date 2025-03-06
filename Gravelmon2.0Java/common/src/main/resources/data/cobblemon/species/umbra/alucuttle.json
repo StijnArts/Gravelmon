@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Alucuttle",
-  "nationalPokedexNumber": 3720,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "hemocto",
+  "baseScale": 0.084375,
+  "cannotDynamax": false,
   "abilities": [
     "suctioncups",
     "analytic",
     "h:unnerve"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 100,
@@ -17,38 +50,19 @@
     "special_defence": 70,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:leechlife",
     "1:astonish",
@@ -119,7 +133,8 @@
     "tutor:superfang",
     "tutor:throatchop",
     "tutor:skillswap",
-    "tutor:knockoff"  ],
+    "tutor:knockoff"
+  ],
   "labels": [
     "umbra",
     "not_modeled",
@@ -129,26 +144,18 @@
   "pokedex": [
     "cobblemon.species.alucuttle.desc"
   ],
-  "preEvolution": "hemocto",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 18,
   "weight": 400,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3713,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

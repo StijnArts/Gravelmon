@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Scorment",
-  "nationalPokedexNumber": 4817,
   "primaryType": "fire",
   "secondaryType": "ghost",
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "grieflame",
+  "baseScale": 0.39999999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "flamebody",
     "h:insomnia"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 75,
@@ -16,38 +49,19 @@
     "special_defence": 70,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 60,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 180,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:ember",
     "1:growl",
@@ -117,7 +131,8 @@
     "egg:snatch",
     "egg:solarbeam",
     "egg:sunnyday",
-    "egg:thunderpunch"  ],
+    "egg:thunderpunch"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -127,26 +142,18 @@
   "pokedex": [
     "cobblemon.species.scorment.desc"
   ],
-  "preEvolution": "grieflame",
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 9,
   "weight": 85,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4556,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.375,
+    "height": 3.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

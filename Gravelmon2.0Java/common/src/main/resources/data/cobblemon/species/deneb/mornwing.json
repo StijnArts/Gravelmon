@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Mornwing",
-  "nationalPokedexNumber": 4747,
   "primaryType": "fire",
   "secondaryType": "flying",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 69,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.576,
+  "cannotDynamax": false,
   "abilities": [
     "flashfire",
     "h:flamebody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 50,
@@ -16,38 +48,19 @@
     "special_defence": 35,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 69,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:tackle",
@@ -97,7 +110,8 @@
     "egg:supersonic",
     "egg:takedown",
     "egg:twister",
-    "egg:typhoon"  ],
+    "egg:typhoon"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
@@ -105,6 +119,9 @@
   "pokedex": [
     "cobblemon.species.mornwing.desc"
   ],
+  "height": 12,
+  "weight": 322,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mornwing_guldawn",
@@ -115,31 +132,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 4511,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.125,
+    "height": 3.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 322,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

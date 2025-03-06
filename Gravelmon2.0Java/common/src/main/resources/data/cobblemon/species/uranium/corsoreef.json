@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Corsoreef",
-  "nationalPokedexNumber": 2437,
   "primaryType": "water",
   "secondaryType": "rock",
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 198,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.6646153846153847,
+  "cannotDynamax": false,
   "abilities": [
     "weakarmor",
     "naturalcure",
     "h:regenerator"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 55,
@@ -17,38 +49,19 @@
     "special_defence": 105,
     "speed": 25
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 198,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "4:harden",
@@ -134,7 +147,8 @@
     "egg:mist",
     "egg:naturepower",
     "egg:screech",
-    "egg:waterpulse"  ],
+    "egg:waterpulse"
+  ],
   "labels": [
     "vanguard",
     "not_modeled"
@@ -142,25 +156,18 @@
   "pokedex": [
     "cobblemon.species.corsoreef.desc"
   ],
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 18,
   "weight": 838,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2012,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0625,
+    "height": 4.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

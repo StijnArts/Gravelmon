@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Garakasago",
-  "nationalPokedexNumber": 4954,
   "primaryType": "water",
   "secondaryType": "poison",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "baburun",
+  "baseScale": 0.375,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "h:moldbreaker"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 90,
@@ -16,37 +49,18 @@
     "special_defence": 65,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:darkpulse",
     "1:bubble",
@@ -76,7 +90,8 @@
     "egg:flail",
     "egg:muddywater",
     "egg:captivate",
-    "egg:refresh"  ],
+    "egg:refresh"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -86,26 +101,18 @@
   "pokedex": [
     "cobblemon.species.garakasago.desc"
   ],
-  "preEvolution": "baburun",
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 10,
   "weight": 298,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4646,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

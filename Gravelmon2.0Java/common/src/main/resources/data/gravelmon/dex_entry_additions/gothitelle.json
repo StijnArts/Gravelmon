@@ -2,6 +2,24 @@
   "entryId": "cobblemon:gothitelle",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    },
+    {
       "displayForm": "Cefiran",
       "unlockForms": [
         "Cefiran"

@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Zapouch",
-  "nationalPokedexNumber": 3717,
   "primaryType": "water",
   "secondaryType": "electric",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.046875,
+  "cannotDynamax": false,
   "abilities": [
     "stormdrain",
     "static",
     "h:clearbody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 100,
@@ -17,38 +49,19 @@
     "special_defence": 44,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 68,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:thundershock",
     "1:bind",
@@ -119,7 +132,8 @@
     "tutor:liquidation",
     "tutor:gastroacid",
     "tutor:gunkshot",
-    "tutor:knockoff"  ],
+    "tutor:knockoff"
+  ],
   "labels": [
     "umbra",
     "not_modeled"
@@ -127,6 +141,9 @@
   "pokedex": [
     "cobblemon.species.zapouch.desc"
   ],
+  "height": 10,
+  "weight": 274,
+  "aspects": [],
   "evolutions": [
     {
       "id": "zapouch_mannovolt",
@@ -137,35 +154,24 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 33
+          "minLevel": "33"
         },
         {
           "variant": "time_range",
           "range": "night"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 3710,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 274,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

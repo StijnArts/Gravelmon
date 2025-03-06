@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Sanderon",
-  "nationalPokedexNumber": 2883,
   "primaryType": "ground",
   "secondaryType": "water",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 138,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sandstrum",
+  "baseScale": 0.30000000000000004,
+  "cannotDynamax": false,
   "abilities": [
     "sandveil",
     "watercompaction",
     "h:waterabsorb"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 65,
@@ -17,38 +50,19 @@
     "special_defence": 65,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 138,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:camouflage",
     "6:sandtomb",
@@ -82,7 +96,8 @@
     "tm:rest",
     "tm:sandstorm",
     "tm:raindance",
-    "tm:whirlpool"  ],
+    "tm:whirlpool"
+  ],
   "labels": [
     "junnin",
     "not_modeled",
@@ -92,7 +107,9 @@
   "pokedex": [
     "cobblemon.species.sanderon.desc"
   ],
-  "preEvolution": "sandstrum",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sanderon_shoreking",
@@ -103,31 +120,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": "35"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 2439,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

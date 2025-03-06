@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -94,6 +94,6 @@ public class KaskadianGastly extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gastly");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

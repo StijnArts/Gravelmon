@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Lepillusion",
-  "nationalPokedexNumber": 1302,
   "primaryType": "bug",
   "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "fluffaux",
+  "baseScale": 0.4394366197183099,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:wonderskin"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 50,
@@ -16,37 +49,18 @@
     "special_defence": 100,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "7:stunspore",
@@ -110,7 +124,8 @@
     "tm:silverwind",
     "tm:ragepowder",
     "tm:magicroom",
-    "tm:spotlight"  ],
+    "tm:spotlight"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -120,26 +135,18 @@
   "pokedex": [
     "cobblemon.species.lepillusion.desc"
   ],
-  "preEvolution": "fluffaux",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 13,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1188,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.4375,
+    "height": 4.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

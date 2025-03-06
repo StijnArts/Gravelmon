@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Rosinella",
-  "nationalPokedexNumber": 3632,
   "primaryType": "fairy",
+  "catchRate": 255,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 57,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.22857142857142856,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "harvest",
     "h:magicbounce"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 43,
     "attack": 45,
@@ -16,38 +48,19 @@
     "special_defence": 59,
     "speed": 33
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 57,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "10:tackle",
     "15:vinewhip",
@@ -62,7 +75,8 @@
     "48:mistyterrain",
     "1:moonblast",
     "1:petaldance",
-    "1:solarbeam"  ],
+    "1:solarbeam"
+  ],
   "labels": [
     "nosto",
     "not_modeled"
@@ -70,6 +84,9 @@
   "pokedex": [
     "cobblemon.species.rosinella.desc"
   ],
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "rosinella_sinsenella",
@@ -80,31 +97,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 24
+          "minLevel": "24"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3496,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.625,
+    "height": 2.625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

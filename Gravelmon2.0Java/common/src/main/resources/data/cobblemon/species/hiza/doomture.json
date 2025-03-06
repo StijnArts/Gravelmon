@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Doomture",
-  "nationalPokedexNumber": 2796,
   "primaryType": "poison",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 235,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "carriotten",
+  "baseScale": 0.5161290322580645,
+  "cannotDynamax": false,
   "abilities": [
     "merciless",
     "h:stench"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 115,
@@ -16,38 +49,19 @@
     "special_defence": 55,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 235,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "5:acid",
@@ -108,7 +122,8 @@
     "tm:substitute",
     "tm:fireblast",
     "tm:stompingtantrum",
-    "tm:fly"  ],
+    "tm:fly"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -118,26 +133,18 @@
   "pokedex": [
     "cobblemon.species.doomture.desc"
   ],
-  "preEvolution": "carriotten",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 20,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2389,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.8125,
+    "height": 5.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

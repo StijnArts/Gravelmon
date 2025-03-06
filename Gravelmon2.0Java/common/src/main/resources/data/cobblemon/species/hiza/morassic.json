@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Morassic",
-  "nationalPokedexNumber": 2609,
   "primaryType": "grass",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 245,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "beastalk",
+  "baseScale": 0.6494117647058822,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:harvest"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 110,
@@ -16,38 +49,19 @@
     "special_defence": 70,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "3:vinewhip",
@@ -106,7 +120,8 @@
     "tm:snatch",
     "tm:naturalgift",
     "tm:grasswhistle",
-    "tm:dragondance"  ],
+    "tm:dragondance"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -116,26 +131,18 @@
   "pokedex": [
     "cobblemon.species.morassic.desc"
   ],
-  "preEvolution": "beastalk",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 23,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2254,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.3125,
+    "height": 5.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

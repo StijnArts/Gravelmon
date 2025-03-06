@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -169,9 +170,23 @@ public class Oculeus extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1);
-        setHitbox(1,1);
+        setHitbox(2,2);
+        getSpeciesFileData()
+                .addBasicVariation(this)
+                .addLayer(
+                        new SimpleTextureLayerData("emmisive", "oculeus_translucent",
+                                Optional.of(true), Optional.of(true), false, true)
+                );
+        getPosingFileData().setPortraitData(0.4f, new Vector3(0, 1.3, 0));
+        getPosingFileData().setProfileData(0.4f, new Vector3( 0, 1.3, 0 ));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink(12).markAsBackupPose()
+        ));
+        getPosingFileData().setFaint("q.bedrock_primary('oculeus', 'faint', q.curve('one'))");
+
     }
 }

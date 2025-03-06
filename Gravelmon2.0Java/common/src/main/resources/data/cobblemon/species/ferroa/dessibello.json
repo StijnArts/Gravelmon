@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Dessibello",
-  "nationalPokedexNumber": 1726,
   "primaryType": "normal",
   "secondaryType": "ground",
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lungob",
+  "baseScale": 0.46829268292682924,
+  "cannotDynamax": false,
   "abilities": [
     "hydration",
     "soundproof",
     "h:adaptability"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 130,
     "attack": 40,
@@ -17,38 +50,19 @@
     "special_defence": 95,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 100,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:endure",
     "5:mudslap",
@@ -132,7 +146,8 @@
     "tm:gastroacid",
     "tm:watersport",
     "tm:flail",
-    "tm:psychup"  ],
+    "tm:psychup"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -142,26 +157,18 @@
   "pokedex": [
     "cobblemon.species.dessibello.desc"
   ],
-  "preEvolution": "lungob",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 16,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1506,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.125,
+    "height": 5.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

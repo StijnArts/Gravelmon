@@ -25,7 +25,7 @@ public class Sabroast extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("One kind of Ultra Beast, it absorbs solar energy and stores it in its body. If provoked it can heat up its body and shoot fire from its spines, according to witnesses."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 56, 67, 0.2, List.of(

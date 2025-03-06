@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Bulkpack",
-  "nationalPokedexNumber": 5122,
   "primaryType": "fighting",
+  "catchRate": 75,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "knapback",
+  "baseScale": 0.5694915254237288,
+  "cannotDynamax": false,
   "abilities": [
     "pickup",
     "stalwart",
     "h:vitalspirit"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 86,
@@ -16,37 +49,18 @@
     "special_defence": 68,
     "speed": 39
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:rocksmash",
     "10:stuffcheeks",
@@ -130,7 +144,8 @@
     "tm:coaching",
     "tm:armthrust",
     "tm:revenge",
-    "tm:chipaway"  ],
+    "tm:chipaway"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -140,7 +155,9 @@
   "pokedex": [
     "cobblemon.species.bulkpack.desc"
   ],
-  "preEvolution": "knapback",
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "bulkpack_heftersack",
@@ -151,31 +168,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 180
+          "minLevel": "180"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 4869,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

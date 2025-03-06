@@ -1,10 +1,44 @@
 {
-  "implemented": true,
   "name": "Kecleodon",
-  "nationalPokedexNumber": 1429,
   "primaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "kecleon",
+  "baseScale": 0.4,
+  "cannotDynamax": false,
   "abilities": [
-    "protean"  ],
+    "protean"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 110,
@@ -13,37 +47,18 @@
     "special_defence": 140,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 221,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 39,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:powerwhip",
     "1:thief",
@@ -134,7 +149,8 @@
     "egg:dizzypunch",
     "egg:fakeout",
     "egg:nastyplot",
-    "egg:recover"  ],
+    "egg:recover"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -143,26 +159,18 @@
   "pokedex": [
     "cobblemon.species.kecleodon.desc"
   ],
-  "preEvolution": "kecleon",
-  "baseScale": 0.43333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
   "height": 26,
   "weight": 1420,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1270,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.75,
+    "height": 9.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

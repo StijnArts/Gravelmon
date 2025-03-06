@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:servine",
-  "order": 3,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltaservine",
+      "model": "cobblemon:cutout_gravelmon_90_by_114.geo",
+      "poser": "cobblemon:cutout_gravelmon_90_by_114",
       "texture": "cobblemon:textures/pokemon/generation5/deltaservine.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "delta",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltaservine",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaservine_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

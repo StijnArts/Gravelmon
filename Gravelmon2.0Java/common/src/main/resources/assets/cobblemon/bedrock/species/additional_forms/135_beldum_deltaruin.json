@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:beldum",
-  "order": 3,
+  "order": 135,
   "variations": [
     {
       "aspects": [
-        "delta_ruin"
+        "deltaruin"
       ],
       "model": "cobblemon:generation3_deltaruinbeldum.geo",
       "poser": "cobblemon:generation3_deltaruinbeldum",
       "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,13 +29,16 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
     {
       "aspects": [
-        "delta_ruin",
+        "deltaruin",
         "shiny"
       ],
       "model": "cobblemon:generation3_deltaruinbeldum.geo",
@@ -40,13 +46,16 @@
       "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +64,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

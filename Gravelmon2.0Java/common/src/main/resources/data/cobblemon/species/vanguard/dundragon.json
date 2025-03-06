@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Dundragon",
-  "nationalPokedexNumber": 4102,
   "primaryType": "normal",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 244,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "dunmyth",
+  "baseScale": 0.6068965517241379,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "runaway",
     "h:multiscale"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 140,
     "attack": 95,
@@ -17,37 +50,18 @@
     "special_defence": 90,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 244,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:bugbuzz",
     "1:uturn",
@@ -151,7 +165,8 @@
     "egg:agility",
     "egg:secretpower",
     "egg:sleeptalk",
-    "egg:hex"  ],
+    "egg:hex"
+  ],
   "labels": [
     "vanguard",
     "not_modeled",
@@ -161,26 +176,18 @@
   "pokedex": [
     "cobblemon.species.dundragon.desc"
   ],
-  "preEvolution": "dunmyth",
-  "baseScale": 0.3666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 22,
   "weight": 2340,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4078,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.4375,
+    "height": 5.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

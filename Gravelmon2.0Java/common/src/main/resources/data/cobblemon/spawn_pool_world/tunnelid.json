@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "65-75",
-      "weight": 6.0E-4,
+      "weight": 9.0E-4,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

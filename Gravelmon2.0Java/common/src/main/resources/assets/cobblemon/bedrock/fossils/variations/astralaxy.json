@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:astralaxy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_astralaxy",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/astralaxy.png",
+      "layers": []
+    }
+  ]
+}

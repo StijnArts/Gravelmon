@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class DeltaSceptile extends Pokemon {
@@ -138,7 +137,7 @@ public class DeltaSceptile extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_ARID))),
@@ -146,9 +145,16 @@ public class DeltaSceptile extends Pokemon {
                 0.36, 0.3,
                 List.of());
         this.setLangFileName("Sceptile");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.1);
         this.setHitbox(1,2.2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.8f, new Vector3(0, 1.7, 0));
+        getPosingFileData().setProfileData( 0.7f, new Vector3(0, .7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

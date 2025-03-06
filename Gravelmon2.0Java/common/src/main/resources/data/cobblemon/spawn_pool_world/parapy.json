@@ -7,13 +7,13 @@
       "id": "parapy-01",
       "pokemon": "parapy",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "4-15",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_lukewarm_ocean"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

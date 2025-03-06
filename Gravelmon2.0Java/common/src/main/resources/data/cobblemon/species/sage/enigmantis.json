@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Enigmantis",
-  "nationalPokedexNumber": 1207,
   "primaryType": "bug",
   "secondaryType": "psychic",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "enigmite",
+  "baseScale": 0.051562500000000004,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "forewarn",
     "h:magicbounce"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 54,
@@ -17,37 +50,27 @@
     "special_defence": 82,
     "speed": 112
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:scratch",
     "1:meditate",
@@ -104,7 +127,8 @@
     "egg:psychoshift",
     "egg:rollout",
     "egg:silverwind",
-    "egg:slash"  ],
+    "egg:slash"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -114,26 +138,18 @@
   "pokedex": [
     "cobblemon.species.enigmantis.desc"
   ],
-  "preEvolution": "enigmite",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 11,
   "weight": 162,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1129,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

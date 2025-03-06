@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "4-28",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -23,10 +23,18 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer",
+          "#cobblemon:is_jungle",
           "#cobblemon:has_season/spring",
-          "#cobblemon:has_season/winter"
+          "#cobblemon:is_taiga"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

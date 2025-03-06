@@ -24,7 +24,7 @@ public class Popkern extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokemon's organism is mostly composed of water and thus is very sensible to changes in the weather. If Popkern ever reaches elevated temperatures, it will evolve."),
                 List.of(new EvolutionEntry("pipkorn", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FLAME_CHARGE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.FLAME_CHARGE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,3),

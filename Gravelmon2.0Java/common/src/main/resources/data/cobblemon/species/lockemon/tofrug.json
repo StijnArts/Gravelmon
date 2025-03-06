@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Tofrug",
-  "nationalPokedexNumber": 3480,
   "primaryType": "poison",
   "secondaryType": "fairy",
+  "catchRate": 240,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.192,
+  "cannotDynamax": false,
   "abilities": [
     "poisontouch",
     "druidry",
     "h:prankster"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 50,
@@ -17,38 +49,19 @@
     "special_defence": 45,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 240,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:acid",
@@ -72,7 +85,8 @@
     "egg:feint",
     "egg:headbutt",
     "egg:quickguard",
-    "egg:vacuumwave"  ],
+    "egg:vacuumwave"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
@@ -80,6 +94,9 @@
   "pokedex": [
     "cobblemon.species.tofrug.desc"
   ],
+  "height": 4,
+  "weight": 55,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tofrug_kaskazog",
@@ -90,31 +107,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 29
+          "minLevel": "29"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3389,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.125,
+    "height": 3.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 4,
-  "weight": 55,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

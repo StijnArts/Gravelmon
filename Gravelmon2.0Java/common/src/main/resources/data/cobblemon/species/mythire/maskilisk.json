@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Maskilisk",
-  "nationalPokedexNumber": 3852,
   "primaryType": "dragon",
+  "catchRate": 125,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "facadino",
+  "baseScale": 0.7034482758620689,
+  "cannotDynamax": false,
   "abilities": [
     "steadfast",
     "scrappy",
     "h:rockhead"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 85,
@@ -16,38 +49,19 @@
     "special_defence": 75,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 125,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:skullbash",
     "1:focusenergy",
@@ -64,7 +78,8 @@
     "1:nobleroar",
     "1:bellydrum",
     "1:scaryface",
-    "tm:scaleshot"  ],
+    "tm:scaleshot"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -74,7 +89,9 @@
   "pokedex": [
     "cobblemon.species.maskilisk.desc"
   ],
-  "preEvolution": "facadino",
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "maskilisk_maskrusher",
@@ -85,31 +102,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2833333333333333,
+  "nationalPokedexNumber": 3894,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.625,
+    "height": 3.625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 17,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

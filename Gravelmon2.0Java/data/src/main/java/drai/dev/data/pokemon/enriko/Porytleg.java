@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.enriko;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Porytleg extends drai.dev.data.pokemon.Pokemon {
@@ -23,7 +24,7 @@ public class Porytleg extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("(breed porygon in enriko to hatch porytleg.) The result of an indecent attempt to replicate Porygon's code. They're inferior to Porygon and are infamously vulnerable to diseases and parasites."),
                 List.of(new EvolutionEntry("porytlegz", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:dubious_disc\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dubious_disc")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,4),

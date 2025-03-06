@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Egohiss",
-  "nationalPokedexNumber": 2167,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 146,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "dusmee",
+  "baseScale": 1.1389830508474577,
+  "cannotDynamax": false,
   "abilities": [
     "shedskin",
     "wonderskin",
     "h:marvelscale"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 50,
@@ -16,38 +49,19 @@
     "special_defence": 80,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 146,
-  "experienceGroup": "slow",
-  "eggCycles": 32,
   "eggGroups": [
     "dragon",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:coil",
     "1:leer",
@@ -86,7 +100,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:substitute",
-    "tutor:velvetscales"  ],
+    "tutor:velvetscales"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -96,7 +111,9 @@
   "pokedex": [
     "cobblemon.species.egohiss.desc"
   ],
-  "preEvolution": "dusmee",
+  "height": 28,
+  "weight": 299,
+  "aspects": [],
   "evolutions": [
     {
       "id": "egohiss_egorgeon",
@@ -107,31 +124,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 62
+          "minLevel": "62"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.4666666666666666,
+  "nationalPokedexNumber": 1831,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 28,
-  "weight": 299,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

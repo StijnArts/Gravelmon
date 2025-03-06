@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -89,9 +89,9 @@ public class KaskadianPalossand extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Palossand");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         addAdditionalEvolution("sandygast", new EvolutionEntry("palossand kaskadian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_HIGHLANDS.getId() + ":" + Biome.IS_HIGHLANDS.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_HIGHLANDS.getId() + ":" + Biome.IS_HIGHLANDS.getName()))));
     }
 }

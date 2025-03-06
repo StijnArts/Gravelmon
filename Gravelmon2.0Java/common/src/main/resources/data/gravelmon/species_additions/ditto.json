@@ -1,243 +1,458 @@
 {
-   "target": "cobblemon:ditto",
-   "forms": [{
-  "name": "Norheiman",
-  "primaryType": "ice",
-  "abilities": [
-    "imposter",
-    "icebody",
-    "h:clearbody"
-  ],
-  "baseStats": {
-    "hp": 68,
-    "attack": 48,
-    "defence": 58,
-    "special_attack": 88,
-    "special_defence": 78,
-    "speed": 28
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:ditto",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "nuclear",
+      "catchRate": 80,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.028124999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "truant"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 90,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:harden",
-    "11:frostbreath",
-    "21:irondefense",
-    "31:ancientpower",
-    "41:mirrorcoat",
-    "51:dazzlinggleam",
-    "61:sheercold"  ],
-  "labels": [
-    "norheim",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.norheimanditto.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 165,
-  "aspects": ["norheiman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Delta",
-  "primaryType": "water",
-  "abilities": [
-    "protean"  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 48,
-    "defence": 48,
-    "special_attack": 48,
-    "special_defence": 48,
-    "speed": 48
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanditto.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanditto_animon",
+          "variant": "item_interact",
+          "result": "animon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:metal_coat",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "catchRate": 100,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 101,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.192,
+      "cannotDynamax": false,
+      "abilities": [
+        "limber",
+        "unburden",
+        "h:imposter"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 35,
-  "shoulderMountable": false,
-  "baseExperienceYield": 100,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered",
-    "ditto"
-  ],
-  "moves": [
-    "1:transform",
-    "10:metronome",
-    "20:copycat",
-    "30:mirrormove",
-    "40:mefirst",
-    "50:mimic",
-    "tutor:metronome",
-    "tutor:mimic"  ],
-  "labels": [
-    "gen1",
-    "insurgence"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltaditto.desc"
-  ],
-  "baseScale": 1.0,
-  "hitbox": {
-    "width": 0.5,
-    "height": 0.6,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 40,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-},
-{
-  "name": "X",
-  "primaryType": "dark",
-  "abilities": [
-    "limber",
-    "h:imposter"
-  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 48,
-    "defence": 48,
-    "special_attack": 48,
-    "special_defence": 48,
-    "speed": 48
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "ditto"
+      ],
+      "drops": {},
+      "moves": [
+        "1:transform"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochditto.desc"
+      ],
+      "height": 3,
+      "weight": 40,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Norheiman",
+      "primaryType": "ice",
+      "catchRate": 90,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2594594594594595,
+      "cannotDynamax": false,
+      "abilities": [
+        "imposter",
+        "icebody",
+        "h:clearbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 48,
+        "defence": 58,
+        "special_attack": 88,
+        "special_defence": 78,
+        "speed": 28
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:harden",
+        "11:frostbreath",
+        "21:irondefense",
+        "31:ancientpower",
+        "41:mirrorcoat",
+        "51:dazzlinggleam",
+        "61:sheercold"
+      ],
+      "labels": [
+        "norheim",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.norheimanditto.desc"
+      ],
+      "height": 3,
+      "weight": 165,
+      "aspects": [
+        "norheiman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.3125,
+        "height": 2.3125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "water",
+      "catchRate": 35,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 100,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "protean"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered",
+        "ditto"
+      ],
+      "drops": {},
+      "moves": [
+        "1:transform",
+        "10:metronome",
+        "20:copycat",
+        "30:mirrormove",
+        "40:mefirst",
+        "50:mimic",
+        "tutor:metronome",
+        "tutor:mimic"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltaditto.desc"
+      ],
+      "height": 3,
+      "weight": 40,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "X",
+      "primaryType": "dark",
+      "catchRate": 35,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 101,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "limber",
+        "h:imposter"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:transform"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1"
+      ],
+      "pokedex": [
+        "cobblemon.species.dittox.desc"
+      ],
+      "height": 3,
+      "weight": 40,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.6,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 35,
-  "shoulderMountable": false,
-  "baseExperienceYield": 101,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:transform"  ],
-  "labels": [
-    "xenoverse",
-    "gen1"
-  ],
-  "pokedex": [
-    "cobblemon.species.dittox.desc"
-  ],
-  "baseScale": 1.0,
-  "hitbox": {
-    "width": 0.5,
-    "height": 0.6,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 40,
-  "aspects": ["x"],
-  "cannotDynamax": false
-}
-], "features": [
-"norheiman",
-"delta",
-"x"
+  "features": [
+    "forman",
+    "epoch",
+    "norheiman",
+    "delta",
+    "x"
   ]
 }

@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Mewthree",
-  "nationalPokedexNumber": 1462,
   "primaryType": "psychic",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 306,
+  "experienceGroup": "slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:sturdy"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 150,
     "attack": 100,
@@ -15,37 +47,18 @@
     "special_defence": 95,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 306,
-  "experienceGroup": "slow",
-  "eggCycles": 39,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:mirrorcoat",
     "1:counter",
@@ -160,32 +173,26 @@
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:wonderroom",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "infinity"
   ],
   "pokedex": [
     "cobblemon.species.mewthree.desc"
   ],
-  "baseScale": 0.9,
+  "height": 23,
+  "weight": 1620,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1298,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 1620,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

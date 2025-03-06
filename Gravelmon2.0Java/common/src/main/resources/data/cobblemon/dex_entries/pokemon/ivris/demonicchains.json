@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:demonicchains",
+  "speciesId": "cobblemon:demonicchains",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

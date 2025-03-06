@@ -2,6 +2,18 @@
   "entryId": "cobblemon:ledian",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Alteran",
       "unlockForms": [
         "Alteran"

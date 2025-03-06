@@ -13,13 +13,19 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "65-70",
-      "weight": 2.0E-6,
+      "weight": 3.0E-6,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

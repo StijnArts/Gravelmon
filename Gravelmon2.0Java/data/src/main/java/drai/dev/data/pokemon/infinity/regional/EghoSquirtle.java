@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -95,7 +96,7 @@ public class EghoSquirtle extends Pokemon {
                 List.of(Label.GEN1,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
@@ -103,10 +104,17 @@ public class EghoSquirtle extends Pokemon {
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Squirtle");
-        this.setPortraitXYZ(0,1.8,0);
         this.setCanFly(true);
-        this.setModeled(true);
+        
         this.setBaseScale(0.7);
         this.setCanSwim(false);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.3, -.2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(-0.0, .4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink().withLook()
+        ));
+        getPosingFileData().setAnimationFileName("squirtle_egho");
     }
 }

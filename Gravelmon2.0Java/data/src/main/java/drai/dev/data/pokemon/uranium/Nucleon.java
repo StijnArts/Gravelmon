@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.uranium;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -93,7 +95,25 @@ public class Nucleon extends Pokemon {
                 List.of());
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("nucleon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=nuclear\""),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"minecraft:deep_dark"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"))));
+
+        getSpeciesFileData()
+                .addBasicVariation(this)
+                .addLayer(
+                        new SimpleTextureLayerData("emissive", "nucleon_emissive", Optional.of(true), Optional.of(false), false, true)
+                );
+        getPosingFileData().setAnimationFileName("umbreon");
+        getPosingFileData().setPortraitData(2.41f, new Vector3(-.71, -.73, 0));
+        getPosingFileData().setProfileData(0.9f, new Vector3(0, .35, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
+        ));
+        getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
+
+        setBaseScale(.8);
+        setHitbox(1,1);
     }
 }

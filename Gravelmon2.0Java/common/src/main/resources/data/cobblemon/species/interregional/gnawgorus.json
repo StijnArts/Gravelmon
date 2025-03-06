@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Gnawgorus",
-  "nationalPokedexNumber": 1628,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "shaltuff",
+  "baseScale": 0.4851063829787233,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "h:swiftswim"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 115,
     "attack": 90,
@@ -16,37 +49,18 @@
     "special_defence": 80,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:aquajet",
     "1:leer",
@@ -60,7 +74,8 @@
     "32:crunch",
     "36:agility",
     "40:liquidation",
-    "44:takedown"  ],
+    "44:takedown"
+  ],
   "labels": [
     "interregional",
     "not_modeled",
@@ -70,26 +85,18 @@
   "pokedex": [
     "cobblemon.species.gnawgorus.desc"
   ],
-  "preEvolution": "shaltuff",
-  "baseScale": 0.31666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 19,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1447,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.875000000000001,
+    "height": 5.875000000000001,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

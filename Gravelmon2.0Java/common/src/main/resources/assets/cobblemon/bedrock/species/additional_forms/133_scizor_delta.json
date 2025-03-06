@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:scizor",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltascizor.geo",
+      "model": "cobblemon:generation2_deltascizor.geo",
       "poser": "cobblemon:generation2_deltascizor",
-      "texture": "cobblemon:textures/pokemon/generation2/deltascizor.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltascizor/deltascizor.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltascizor.geo",
+      "model": "cobblemon:generation2_deltascizor.geo",
       "poser": "cobblemon:generation2_deltascizor",
-      "texture": "cobblemon:textures/pokemon/generation2/deltascizor_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation2/deltascizor/deltascizor_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

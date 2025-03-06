@@ -7,26 +7,34 @@
       "id": "atlaxocean-01",
       "pokemon": "atlaxocean",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
       "level": "44-62",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
         ],
-        "timeRange": "day",
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "day"
       },
       "anticondition": {
         "biomes": [
           "#cobblemon:is_cold_ocean",
           "#cobblemon:is_freezing"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

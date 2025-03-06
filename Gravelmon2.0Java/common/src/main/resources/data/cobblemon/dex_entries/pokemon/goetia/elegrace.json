@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elegrace",
+  "speciesId": "cobblemon:elegrace",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

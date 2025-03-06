@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:hoopa",
-  "order": 3,
+  "order": 175,
   "variations": [
     {
       "aspects": [
-        "delta_unleashed"
+        "deltaunleashed"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_deltahoopaunleashed",
+      "model": "cobblemon:cutout_gravelmon_110_by_95.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_95",
       "texture": "cobblemon:textures/pokemon/generation6/deltahoopaunleashed.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "delta_unleashed",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation6_deltahoopaunleashed",
-      "texture": "cobblemon:textures/pokemon/generation6/deltahoopaunleashed_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

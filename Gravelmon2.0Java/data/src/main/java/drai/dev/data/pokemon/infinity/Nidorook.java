@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -14,7 +15,7 @@ public class Nidorook extends Pokemon {
                 List.of(Ability.POISON_POINT, Ability.MERCILESS), Ability.SHEER_FORCE,
                 14, 768,
                 new Stats(0,2,0,0,0,2), 45,
-                1,
+                0.5,
                 214, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD, EggGroup.MONSTER),
@@ -121,14 +122,22 @@ public class Nidorook extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         this.setPreEvolution("nidorino");
         addAdditionalEvolution("nidorina", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:astral_stone"));
         addAdditionalEvolution("nidorino", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:astral_stone"));
-        this.setModeled(true);
+
         this.setBaseScale(1);
         this.setHitbox(1.2,1.3);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.2f, new Vector3(-.7, 0.4, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+                ));
     }
 }

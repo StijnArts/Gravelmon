@@ -6,10 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hungrebe extends drai.dev.data.pokemon.Pokemon {
-    public Hungrebe(Stats stats) {
+    public Hungrebe() {
         super("Hungrebe",
                 Type.FLYING, Type.WATER,
-                stats,
+                new Stats(0,0,0,0,0,0),
                 List.of(Ability.GLUTTONY), Ability.SWIFT_SWIM,
                 14, 670,
                 new Stats(0,0,0,0,0,0), 190,
@@ -18,7 +18,8 @@ public class Hungrebe extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_1),
                 List.of("On land, all it can do is slide on its belly. However, it's capable of performing acrobatic movements in its underwater habitat."),
-                List.of(),
+                List.of(new EvolutionEntry("lungrebe", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dragon_scale")),
                 List.of(
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,1),
                         new MoveLearnSetEntry(Move.TEETER_DANCE,1),
@@ -32,7 +33,7 @@ public class Hungrebe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRILL_PECK,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 2, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 23, 43, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +21,7 @@ public class DeltaScyther extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by EchoTheThird. Its scythes are immensely sharp but also very fragile, and can easily be shattered when hit from the side."),
                 List.of(new EvolutionEntry("deltascizor", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:never_melt_ice\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:never_melt_ice")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VACUUM_WAVE,1),
                         new MoveLearnSetEntry(Move.ICE_SHARD,1),
@@ -124,9 +125,16 @@ public class DeltaScyther extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Scyther");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.9,2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.3f, new Vector3(-.4, 1.5, 0));
+        getPosingFileData().setProfileData( 0.7f, new Vector3(0, .7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

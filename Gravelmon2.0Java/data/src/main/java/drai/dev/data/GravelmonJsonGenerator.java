@@ -1,25 +1,23 @@
 package drai.dev.data;
 
-import com.mojang.authlib.minecraft.client.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.gravelmon.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.jsonwriters.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.pokemon.Pokemon;
+import drai.dev.gravelmon.*;
 import net.fabricmc.api.*;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.*;
 import net.minecraft.client.*;
 
-public class GravelmonJsonGenerator  implements ModInitializer
+public class GravelmonJsonGenerator implements ModInitializer
 {
     private static int dexCounter = 1;
 
     public static void run()
     {
         GameRegistry.registerGames();
-        Pokemon.postRegistration();
+        PostRegistration.postRegistration();
         JSONOutputGenerator.generate(System.getProperty("user.dir").split("data")[0]+"common\\src\\main\\resources");
+
     }
 
     public static void incrementDexCounter(){

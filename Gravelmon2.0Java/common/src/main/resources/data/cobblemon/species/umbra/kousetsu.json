@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Kousetsu",
-  "nationalPokedexNumber": 3684,
   "primaryType": "dark",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "seijitsu",
+  "baseScale": 0.046875,
+  "cannotDynamax": false,
   "abilities": [
     "guts",
     "h:quickfeet"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 97,
@@ -16,37 +49,18 @@
     "special_defence": 52,
     "speed": 93
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:tailwhip",
@@ -110,7 +124,8 @@
     "tutor:laserfocus",
     "tutor:foulplay",
     "tutor:superfang",
-    "tutor:hypervoice"  ],
+    "tutor:hypervoice"
+  ],
   "labels": [
     "umbra",
     "not_modeled",
@@ -120,42 +135,35 @@
   "pokedex": [
     "cobblemon.species.kousetsu.desc"
   ],
-  "preEvolution": "seijitsu",
+  "height": 10,
+  "weight": 330,
+  "aspects": [],
   "evolutions": [
     {
       "id": "kousetsu_mangetsu",
       "variant": "level_up",
       "result": "mangetsu",
       "consumeHeldItem": false,
-      "learnableMoves": [    "icepunch"],
+      "learnableMoves": [
+        "icepunch"
+      ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 3689,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 10,
-  "weight": 330,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

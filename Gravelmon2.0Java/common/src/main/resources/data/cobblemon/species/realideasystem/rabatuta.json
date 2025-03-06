@@ -1,12 +1,46 @@
 {
-  "implemented": true,
   "name": "Rabatuta",
-  "nationalPokedexNumber": 1259,
   "primaryType": "fire",
+  "secondaryType": "sound",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 163,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "mousic",
+  "baseScale": 0.509090909090909,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:solarpower"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 60,
@@ -15,38 +49,19 @@
     "special_defence": 75,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 163,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:ember",
     "1:quickattack",
@@ -76,7 +91,8 @@
     "46:bounce",
     "47:overheat",
     "54:doubleedge",
-    "62:flareblitz"  ],
+    "62:flareblitz"
+  ],
   "labels": [
     "realidea_system",
     "not_modeled",
@@ -86,7 +102,9 @@
   "pokedex": [
     "cobblemon.species.rabatuta.desc"
   ],
-  "preEvolution": "mousic",
+  "height": 14,
+  "weight": 330,
+  "aspects": [],
   "evolutions": [
     {
       "id": "rabatuta_flamelin",
@@ -97,31 +115,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.2333333333333333,
+  "nationalPokedexNumber": 1163,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.125,
+    "height": 4.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 14,
-  "weight": 330,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

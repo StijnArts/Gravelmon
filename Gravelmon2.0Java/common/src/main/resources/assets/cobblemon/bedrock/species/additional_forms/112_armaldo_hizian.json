@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:armaldo",
-  "order": 3,
+  "order": 112,
   "variations": [
     {
       "aspects": [
         "hizian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_hizianarmaldo",
+      "model": "cobblemon:cutout_gravelmon_88_by_74.geo",
+      "poser": "cobblemon:cutout_gravelmon_88_by_74",
       "texture": "cobblemon:textures/pokemon/generation3/hizianarmaldo.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "hizian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_hizianarmaldo",
-      "texture": "cobblemon:textures/pokemon/generation3/hizianarmaldo_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

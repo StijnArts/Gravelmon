@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Silviper",
-  "nationalPokedexNumber": 3754,
   "primaryType": "poison",
   "secondaryType": "steel",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "seviper",
+  "baseScale": 1.4249999999999998,
+  "cannotDynamax": false,
   "abilities": [
     "strongjaw",
     "h:multiscale"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 130,
@@ -16,41 +49,26 @@
     "special_defence": 80,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "dragon",
     "field"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
+      {
+        "item": "gravelmon:silver_scale",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
       {
         "item": "gravelmon:silver_scale",
         "quantityRange": "1-1",
@@ -103,7 +121,8 @@
     "tm:strength",
     "tm:rocksmash",
     "egg:frostbite",
-    "egg:shadowsneak"  ],
+    "egg:shadowsneak"
+  ],
   "labels": [
     "blazing_emerald",
     "not_modeled",
@@ -112,26 +131,18 @@
   "pokedex": [
     "cobblemon.species.silviper.desc"
   ],
-  "preEvolution": "seviper",
-  "baseScale": 0.6333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 38,
   "weight": 1989,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3828,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Hangead",
-  "nationalPokedexNumber": 2111,
   "primaryType": "psychic",
   "secondaryType": "ghost",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "puppillon",
+  "baseScale": 0.5230769230769231,
+  "cannotDynamax": false,
   "abilities": [
     "frisk",
     "h:shadowtag"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 52,
@@ -16,41 +49,26 @@
     "special_defence": 80,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "amorphous",
     "human_like"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
+      {
+        "item": "gravelmon:dread_pendant",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
       {
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
@@ -134,7 +152,8 @@
     "tutor:snatch",
     "tutor:snore",
     "tutor:trick",
-    "tutor:wonderroom"  ],
+    "tutor:wonderroom"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -144,26 +163,18 @@
   "pokedex": [
     "cobblemon.species.hangead.desc"
   ],
-  "preEvolution": "puppillon",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 17,
   "weight": 479,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1786,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.875,
+    "height": 4.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

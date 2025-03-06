@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:shulong",
-  "order": 3,
+  "order": 154,
   "variations": [
     {
       "aspects": [
         "xenoversal"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_shulongxenoversal",
+      "model": "cobblemon:cutout_gravelmon_109_by_85.geo",
+      "poser": "cobblemon:cutout_gravelmon_109_by_85",
       "texture": "cobblemon:textures/pokemon/xenoverse/shulongxenoversal.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "xenoversal",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_shulongxenoversal",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shulongxenoversal_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

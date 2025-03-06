@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Warquila",
-  "nationalPokedexNumber": 1036,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 223,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "aquilor",
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "moxie",
     "h:sandforce"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 105,
@@ -17,37 +50,37 @@
     "special_defence": 70,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 223,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "cobblemon:sharp_beak",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:skydrop",
     "1:peck",
@@ -116,7 +149,8 @@
     "egg:airslash",
     "egg:focusenergy",
     "egg:hurricane",
-    "egg:whirlwind"  ],
+    "egg:whirlwind"
+  ],
   "labels": [
     "sage",
     "fakemon",
@@ -125,26 +159,18 @@
   "pokedex": [
     "cobblemon.species.warquila.desc"
   ],
-  "preEvolution": "aquilor",
-  "baseScale": 1.0,
+  "height": 12,
+  "weight": 249,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1034,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 12,
-  "weight": 249,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

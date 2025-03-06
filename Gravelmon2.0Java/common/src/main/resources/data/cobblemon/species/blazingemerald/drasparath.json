@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Drasparath",
-  "nationalPokedexNumber": 3752,
   "primaryType": "dragon",
   "secondaryType": "electric",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 245,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "dunsparce form=hoennian",
+  "baseScale": 1.8375000000000001,
+  "cannotDynamax": false,
   "abilities": [
-    "aircontrol"  ],
+    "aircontrol"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 90,
@@ -14,37 +48,18 @@
     "special_defence": 65,
     "speed": 142
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:wrap",
     "1:gust",
@@ -89,7 +104,8 @@
     "tm:flash",
     "tm:rocksmash",
     "egg:sleeptalk",
-    "egg:cosmicpower"  ],
+    "egg:cosmicpower"
+  ],
   "labels": [
     "blazing_emerald",
     "gen2",
@@ -99,26 +115,18 @@
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
-  "preEvolution": "dunsparce form=hoennian",
-  "baseScale": 0.8166666666666668,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 49,
   "weight": 780,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3826,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

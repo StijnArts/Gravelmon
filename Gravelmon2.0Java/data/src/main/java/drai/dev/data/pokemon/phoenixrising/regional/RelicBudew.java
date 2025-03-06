@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.phoenixrising.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -72,12 +72,12 @@ public class RelicBudew extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN4),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 28, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Budew");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

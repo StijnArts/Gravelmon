@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:blaziken",
-  "order": 3,
+  "order": 105,
   "variations": [
     {
       "aspects": [
         "mystic"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_mysticblaziken",
+      "model": "cobblemon:cutout_gravelmon_124_by_146.geo",
+      "poser": "cobblemon:cutout_gravelmon_124_by_146",
       "texture": "cobblemon:textures/pokemon/generation3/mysticblaziken.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "mystic",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_mysticblaziken",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticblaziken_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

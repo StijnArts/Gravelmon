@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:articuno-forman",
+  "speciesId": "cobblemon:articuno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

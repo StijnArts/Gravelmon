@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Afunn",
-  "nationalPokedexNumber": 3287,
   "primaryType": "fire",
   "secondaryType": "rock",
+  "catchRate": 50,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.5571428571428572,
+  "cannotDynamax": false,
   "abilities": [
-    "solidrock"  ],
+    "solidrock"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 85,
@@ -14,37 +47,18 @@
     "special_defence": 75,
     "speed": 10
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 50,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "6:rockblast",
@@ -56,7 +70,8 @@
     "42:takedown",
     "48:ancientpower",
     "54:trickroom",
-    "60:zenheadbutt"  ],
+    "60:zenheadbutt"
+  ],
   "labels": [
     "norheim",
     "not_modeled"
@@ -64,6 +79,9 @@
   "pokedex": [
     "cobblemon.species.afunn.desc"
   ],
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "afunn_volcunn",
@@ -74,11 +92,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "afunn_mountunn",
       "variant": "level_up",
@@ -88,11 +106,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "afunn_glacunn",
       "variant": "level_up",
@@ -102,31 +120,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 3217,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

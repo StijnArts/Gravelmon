@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Beadamup",
-  "nationalPokedexNumber": 3514,
   "primaryType": "fighting",
   "secondaryType": "steel",
+  "catchRate": 220,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "kituff",
+  "baseScale": 0.07500000000000001,
+  "cannotDynamax": false,
   "abilities": [
     "technician",
     "h:ferroflux"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 130,
@@ -16,38 +49,19 @@
     "special_defence": 60,
     "speed": 115
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 220,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:copycat",
     "1:detect",
@@ -80,7 +94,8 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howl"  ],
+    "egg:howl"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -90,26 +105,18 @@
   "pokedex": [
     "cobblemon.species.beadamup.desc"
   ],
-  "preEvolution": "kituff",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 16,
   "weight": 1231,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3414,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

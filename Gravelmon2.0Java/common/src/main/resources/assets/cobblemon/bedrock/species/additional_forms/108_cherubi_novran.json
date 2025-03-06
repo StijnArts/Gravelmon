@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:cherubi",
-  "order": 3,
+  "order": 108,
   "variations": [
     {
       "aspects": [
         "novran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_novrancherubi",
+      "model": "cobblemon:cutout_gravelmon_44_by_41.geo",
+      "poser": "cobblemon:cutout_gravelmon_44_by_41",
       "texture": "cobblemon:textures/pokemon/generation4/novrancherubi.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "novran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_novrancherubi",
-      "texture": "cobblemon:textures/pokemon/generation4/novrancherubi_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

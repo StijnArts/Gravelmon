@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -167,9 +169,25 @@ public class DeltaCharizard extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Charizard");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.35);
         this.setHitbox(1,2.1);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                        new AnimatedLayerData("flame",
+                                List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
+                                10, true,
+                                Optional.of(true), Optional.of(false), false, false))
+                .addLayer(new SimpleTextureLayerData("glow", "deltacharizard_emissive",
+                        Optional.of(true), Optional.of(true), false, true));
+        getPosingFileData().setPortraitData( 2f, new Vector3(-0.4, 1.4, 0));
+        getPosingFileData().setProfileData( .55f, new Vector3(0, .95, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().addPoseType(PoseType.FLOAT).addPoseType(PoseType.SWIM).addPoseType(PoseType.WALK).withBlink(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.flyingAnimation().withLook(),
+                AnimationData.hoveringAnimation(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

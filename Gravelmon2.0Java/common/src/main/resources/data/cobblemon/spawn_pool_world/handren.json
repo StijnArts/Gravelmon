@@ -7,13 +7,13 @@
       "id": "handren-01",
       "pokemon": "handren",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
       "level": "11-34",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_cold_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

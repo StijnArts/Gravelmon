@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -111,9 +112,17 @@ public class DeltaDugtrio extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Dugtrio");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( .75f, new Vector3(0, .35, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose(),
+                AnimationData.walkingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(deltadugtrio, faint)");
     }
 }

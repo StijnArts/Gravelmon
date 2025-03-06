@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -23,7 +24,7 @@ public class Mintch extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"))),
                         new EvolutionEntry("signetanblakjak", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.PECK,1),
@@ -100,9 +101,17 @@ public class Mintch extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.7);
-        this.setModeled(true);
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.5f, new Vector3(-.10, -2.2, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, .25, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Douseidon",
-  "nationalPokedexNumber": 1485,
   "primaryType": "water",
   "secondaryType": "psychic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "whirlamari",
+  "baseScale": 0.43636363636363634,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:trace"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 81,
     "attack": 71,
@@ -16,38 +49,19 @@
     "special_defence": 100,
     "speed": 89
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:charm",
     "6:bubble",
@@ -62,7 +76,8 @@
     "39:agility",
     "44:hydropump",
     "52:soak",
-    "58:waterspout"  ],
+    "58:waterspout"
+  ],
   "labels": [
     "lagoone",
     "not_modeled",
@@ -72,26 +87,18 @@
   "pokedex": [
     "cobblemon.species.douseidon.desc"
   ],
-  "preEvolution": "whirlamari",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 16,
   "weight": 430,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1327,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5,
+    "height": 5.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

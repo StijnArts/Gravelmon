@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Whave",
-  "nationalPokedexNumber": 1458,
   "primaryType": "water",
+  "catchRate": 60,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 120,
+  "experienceGroup": "slow",
+  "eggCycles": 62,
+  "baseFriendship": 70,
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "hydration",
     "clearbody",
     "h:prankster"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 80,
@@ -16,38 +48,19 @@
     "special_defence": 60,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 120,
-  "experienceGroup": "slow",
-  "eggCycles": 62,
   "eggGroups": [
     "water_2",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:aquajet",
     "1:fling",
@@ -134,49 +147,43 @@
     "egg:iceshard",
     "egg:iciclespear",
     "egg:powerswap",
-    "egg:snarl"  ],
+    "egg:snarl"
+  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.whave.desc"
   ],
+  "height": 11,
+  "weight": 1240,
+  "aspects": [],
   "evolutions": [
     {
       "id": "whave_orcabyss",
       "variant": "level_up",
       "result": "orcabyss",
       "consumeHeldItem": false,
-      "learnableMoves": [    "calmmind"],
+      "learnableMoves": [
+        "calmmind"
+      ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 52
+          "minLevel": "52"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 1296,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 1240,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

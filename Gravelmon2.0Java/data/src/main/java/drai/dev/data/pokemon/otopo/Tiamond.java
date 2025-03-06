@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tiamond extends drai.dev.data.pokemon.Pokemon {
-    public Tiamond() {
+    public Tiamond(Stats stats) {
         super("Tiamond",
                 Type.ROCK, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -41,11 +36,7 @@ public class Tiamond extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,52)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tiamond");

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Komoragon",
-  "nationalPokedexNumber": 4813,
   "primaryType": "poison",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 186,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "modra",
+  "baseScale": 0.8,
+  "cannotDynamax": false,
   "abilities": [
     "liquidooze",
     "h:shedskin"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 115,
@@ -16,38 +49,19 @@
     "special_defence": 65,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:tackle",
@@ -125,7 +139,8 @@
     "egg:shadowclamp",
     "egg:stoneedge",
     "egg:sunnyday",
-    "egg:twister"  ],
+    "egg:twister"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -135,26 +150,18 @@
   "pokedex": [
     "cobblemon.species.komoragon.desc"
   ],
-  "preEvolution": "modra",
-  "baseScale": 0.35000000000000003,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 21,
   "weight": 1835,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4552,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.9375,
+    "height": 3.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

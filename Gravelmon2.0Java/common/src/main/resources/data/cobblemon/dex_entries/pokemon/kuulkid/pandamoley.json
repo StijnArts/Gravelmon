@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pandamoley",
+  "speciesId": "cobblemon:pandamoley",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

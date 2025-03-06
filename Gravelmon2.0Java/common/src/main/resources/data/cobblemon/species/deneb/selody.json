@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Selody",
-  "nationalPokedexNumber": 4857,
   "primaryType": "water",
   "secondaryType": "ice",
+  "catchRate": 60,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 188,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sealkie",
+  "baseScale": 0.3368421052631579,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "h:cutecharm"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 101,
@@ -16,38 +49,19 @@
     "special_defence": 78,
     "speed": 72
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 188,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:bubble",
@@ -121,7 +135,8 @@
     "egg:uproar",
     "egg:waterpulse",
     "egg:yawn",
-    "egg:zenheadbutt"  ],
+    "egg:zenheadbutt"
+  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -131,26 +146,18 @@
   "pokedex": [
     "cobblemon.species.selody.desc"
   ],
-  "preEvolution": "sealkie",
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 8,
   "weight": 246,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4583,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5625,
+    "height": 3.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

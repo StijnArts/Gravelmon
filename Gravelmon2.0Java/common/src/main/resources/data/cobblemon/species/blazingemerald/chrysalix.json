@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Chrysalix",
-  "nationalPokedexNumber": 3757,
   "primaryType": "rock",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "onix form=hoennian",
+  "baseScale": 1.5,
+  "cannotDynamax": false,
   "abilities": [
-    "crystalcase"  ],
+    "crystalcase"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 45,
@@ -14,37 +48,18 @@
     "special_defence": 200,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 167,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:screech",
     "1:iceshard",
@@ -83,7 +98,8 @@
     "tm:rocksmash",
     "tm:waterfall",
     "tm:dive",
-    "egg:hydrocannon"  ],
+    "egg:hydrocannon"
+  ],
   "labels": [
     "blazing_emerald",
     "fakemonevolution"
@@ -91,26 +107,18 @@
   "pokedex": [
     "cobblemon.species.chrysalix.desc"
   ],
-  "preEvolution": "onix form=hoennian",
-  "baseScale": 1.5,
+  "height": 43,
+  "weight": 3000,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 3830,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
-  "height": 43,
-  "weight": 3000,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

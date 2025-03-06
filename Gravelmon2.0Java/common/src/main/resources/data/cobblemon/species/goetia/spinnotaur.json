@@ -1,0 +1,89 @@
+{
+  "name": "Spinnotaur",
+  "primaryType": "ground",
+  "secondaryType": "dark",
+  "catchRate": 126,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.45569620253164556,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 88,
+    "attack": 75,
+    "defence": 105,
+    "special_attack": 31,
+    "special_defence": 68,
+    "speed": 37
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:mudslap",
+    "1:bite",
+    "1:shoreup",
+    "1:bulkup"
+  ],
+  "labels": [
+    "goetia",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.spinnotaur.desc"
+  ],
+  "height": 15,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6058,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.9375,
+    "height": 4.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

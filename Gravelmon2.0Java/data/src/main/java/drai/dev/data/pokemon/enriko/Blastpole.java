@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.enriko;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Blastpole extends drai.dev.data.pokemon.Pokemon {
@@ -39,7 +40,7 @@ public class Blastpole extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

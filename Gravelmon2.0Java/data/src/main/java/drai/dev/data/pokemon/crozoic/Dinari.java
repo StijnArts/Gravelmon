@@ -23,7 +23,8 @@ public class Dinari extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Based on: Hypsilophodon"),
-                List.of(),
+                List.of(new EvolutionEntry("taltael", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LAST_RESORT,1),
@@ -36,11 +37,7 @@ public class Dinari extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dinari");

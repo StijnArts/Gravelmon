@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Haresquatch",
-  "nationalPokedexNumber": 2727,
   "primaryType": "ice",
   "secondaryType": "ground",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "rabbeti",
+  "baseScale": 0.3384615384615385,
+  "cannotDynamax": false,
   "abilities": [
     "slushrush",
     "soundproof",
     "h:snowwarning"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 122,
     "attack": 105,
@@ -17,37 +50,18 @@
     "special_defence": 55,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "1:tackle",
@@ -60,7 +74,8 @@
     "35:amnesia",
     "40:takedown",
     "45:earthquake",
-    "50:blizzard"  ],
+    "50:blizzard"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -70,26 +85,18 @@
   "pokedex": [
     "cobblemon.species.haresquatch.desc"
   ],
-  "preEvolution": "rabbeti",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 11,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2328,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.875,
+    "height": 4.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

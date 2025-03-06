@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Eldorchard",
-  "nationalPokedexNumber": 3447,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.41379310344827586,
+  "cannotDynamax": false,
   "abilities": [
     "harvest",
     "h:naturalcure"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 120,
@@ -15,37 +47,18 @@
     "special_defence": 70,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 236,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "4:leechseed",
@@ -63,7 +76,8 @@
     "40:woodhammer",
     "44:leafstorm",
     "48:grassyterrain",
-    "56:solarbeam"  ],
+    "56:solarbeam"
+  ],
   "labels": [
     "lonava",
     "not_modeled"
@@ -71,25 +85,18 @@
   "pokedex": [
     "cobblemon.species.eldorchard.desc"
   ],
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 15,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3369,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.4375,
+    "height": 5.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

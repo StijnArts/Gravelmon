@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Sirenaut",
-  "nationalPokedexNumber": 5327,
   "primaryType": "ghost",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 189,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "whirlpoon",
+  "baseScale": 0.44799999999999995,
+  "cannotDynamax": false,
   "abilities": [
     "liquidvoice",
     "h:swiftswim"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 73,
     "attack": 66,
@@ -16,38 +49,19 @@
     "special_defence": 71,
     "speed": 97
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 189,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:spite",
     "16:bubblebeam",
@@ -147,7 +161,8 @@
     "tm:bittermalice",
     "tm:hornattack",
     "tm:splash",
-    "tm:destinybond"  ],
+    "tm:destinybond"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -157,26 +172,18 @@
   "pokedex": [
     "cobblemon.species.sirenaut.desc"
   ],
-  "preEvolution": "whirlpoon",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 14,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5025,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.6875,
+    "height": 4.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

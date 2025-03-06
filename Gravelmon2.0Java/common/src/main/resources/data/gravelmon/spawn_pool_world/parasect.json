@@ -4,8 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_parasect-01",
-      "pokemon": "parasect fligian",
+      "id": "epoch_parasect-01",
+      "pokemon": "parasect epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-43",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_parasect-01",
+      "pokemon": "parasect avalossian",
       "presets": [
         "natural"
       ],
@@ -13,13 +38,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "26-46",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

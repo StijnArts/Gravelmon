@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -57,13 +57,12 @@ public class HoennianPawniard extends Pokemon {
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 55, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Pawniard");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

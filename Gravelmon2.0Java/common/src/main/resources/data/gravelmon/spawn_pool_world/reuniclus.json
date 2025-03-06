@@ -4,6 +4,57 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_reuniclus-01",
+      "pokemon": "reuniclus epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "44-56",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_reuniclus-01",
+      "pokemon": "reuniclus epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "44-61",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_reuniclus-01",
       "pokemon": "reuniclus delta",
       "presets": [
@@ -13,11 +64,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "48-68",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     },
     {
@@ -30,7 +89,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "50-65",
-      "weight": 0.09,
+      "weight": 0.135,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -44,6 +103,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     },
     {
@@ -56,7 +123,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "32-45",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -70,6 +137,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_temperate"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     },
     {
@@ -82,7 +157,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "32-45",
-      "weight": 0.1,
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -90,6 +165,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "maxY": 30
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

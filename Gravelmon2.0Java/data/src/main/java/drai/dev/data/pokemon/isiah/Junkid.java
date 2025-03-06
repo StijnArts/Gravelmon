@@ -24,14 +24,10 @@ public class Junkid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Comprised of pieces of junk screwed together and given life, Junkid are typically timid until approached gingerly. They love to be fed small pieces of discarded garbage."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Junkid");

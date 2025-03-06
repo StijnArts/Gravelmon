@@ -23,8 +23,9 @@ public class Torkit extends drai.dev.data.pokemon.Pokemon {
                 77, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Flame PounceSTAB Fire - Leer Normal 6 Fury Swipes Normal 10 Pursuit Dark 14 Thunder FangSTAB Electric 17 Flame ChargeSTAB Fire 20 Charge Electric 24 Slash Normal 28 Hone Claws Dark 32 Flame BurstSTAB Fire 36 Night Slash Dark 40 Wild ChargeSTAB Electric 44 Agility Psychic 49 Flare BlitzSTAB Fire 54 ThunderSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("scimitear", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,6),
@@ -102,8 +103,8 @@ public class Torkit extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 43, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

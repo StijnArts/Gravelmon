@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Bristilt",
-  "nationalPokedexNumber": 3344,
   "primaryType": "poison",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "stunge",
+  "baseScale": 0.46567164179104475,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "filter",
     "h:toxicdebris"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 37,
@@ -16,38 +49,19 @@
     "special_defence": 93,
     "speed": 106
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:pinmissile",
     "1:purify",
@@ -59,7 +73,8 @@
     "1:bide",
     "1:autotomize",
     "1:recover",
-    "1:toxicspikes"  ],
+    "1:toxicspikes"
+  ],
   "labels": [
     "crozoic",
     "not_modeled",
@@ -69,26 +84,18 @@
   "pokedex": [
     "cobblemon.species.bristilt.desc"
   ],
-  "preEvolution": "stunge",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 13,
   "weight": 70,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3288,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.1875,
+    "height": 4.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

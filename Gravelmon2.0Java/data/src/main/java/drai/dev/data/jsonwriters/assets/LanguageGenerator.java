@@ -1,6 +1,7 @@
 package drai.dev.data.jsonwriters.assets;
 
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.registries.*;
 import org.apache.commons.lang3.*;
 
 public class LanguageGenerator {
@@ -66,6 +67,43 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.dark_rock","Dark Rock");
         LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn","Orange Apricorn");
         LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn","Purple Apricorn");
+
+        LangJSONWriter.writeTranslationKey("item.gravelmon.mauve_ball","Mauve Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_ball","Ancient Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.shiny_ball","Shiny Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.nuzlocke_ball","Nuzlocke Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.snore_ball","Snore Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ark_ball","Ark Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.xeno_ball","Xeno Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_mauve_ball","Ancient Mauve Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_coral_ball","Ancient Coral Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.rocket_ball","Rocket Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ultra_rocket_ball","Ultra Rocket Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.lake_ball","Lake Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.anime_safari_ball","Anime Safari Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.annie_ball","Annie Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.oakley_ball","Oakley Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.fishing_ball","Fishing Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.anime_gs_ball","Anime GS Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.manga_safari_ball","Manga Safari Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.great_rocket_ball","Great Rocket Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.gay_ball","Gay Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.lesbian_ball","Lesbian Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.bi_ball","Bi Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.pan_ball","Pan Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.trans_ball","Trans Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.non_binary_ball","Non Binary Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.ace_ball","Ace Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.aro_ball","Aro Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.coral_ball","Coral Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.lime_ball","Lime Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.luster_ball","Luster Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.sun_ball","Sun Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.dawn_ball","Dawn Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.feather_ball","Feather Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.nuclear_ball","Nuclear Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.atom_ball","Atom Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.delta_ball","Delta Ball");
         Gravelmon.FOSSIL_MAP.keySet().forEach(fossil->{
             LangJSONWriter.writeTranslationKey("item.gravelmon."+fossil, StringUtils.capitalize(fossil.replaceAll("_"," ")));
         });

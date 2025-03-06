@@ -1,103 +1,319 @@
 {
-   "target": "cobblemon:caterpie",
-   "forms": [{
-  "name": "Ayreian",
-  "primaryType": "bug",
-  "secondaryType": "electric",
-  "abilities": [
-    "shielddust",
-    "h:runaway"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 30,
-    "defence": 35,
-    "special_attack": 45,
-    "special_defence": 35,
-    "speed": 20
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
+  "target": "cobblemon:caterpie",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "bug",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.0234375,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
             "canFly": false
-        },
-        "canLook": true,
-        "walk": {
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
+            "avoidsLand": true
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 255,
-  "shoulderMountable": false,
-  "baseExperienceYield": 39,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "bug"
-  ],
-  "moves": [
-    "1:pursuit",
-    "1:stringshot",
-    "3:thunderwave",
-    "7:electroweb",
-    "tutor:bugbite",
-    "tutor:electroweb"  ],
-  "labels": [
-    "gen1",
-    "vanguard",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.ayreiancaterpie.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "caterpie_metapod_ayreian",
-      "variant": "level_up",
-      "result": "metapod ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      },
+      "baseStats": {
+        "hp": 42,
+        "attack": 14,
+        "defence": 19,
+        "special_attack": 22,
+        "special_defence": 56,
+        "speed": 33
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:watergun"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formancaterpie.desc"
+      ],
+      "height": 5,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 10
+          "id": "formancaterpie_bloboon",
+          "variant": "level_up",
+          "result": "bloboon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "8"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 39,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22857142857142856,
+      "cannotDynamax": false,
+      "abilities": [
+        "shielddust"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 20,
+        "defence": 35,
+        "special_attack": 45,
+        "special_defence": 30,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:infestation",
+        "10:strugglebug",
+        "1:stringshot",
+        "tm:strugglebug"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcaterpie.desc"
+      ],
+      "height": 3,
+      "weight": 29,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcaterpie_metapod_epoch",
+          "variant": "level_up",
+          "result": "metapod epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "10"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "secondaryType": "electric",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 39,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.21333333333333335,
+      "cannotDynamax": false,
+      "abilities": [
+        "shielddust",
+        "h:runaway"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 30,
+        "defence": 35,
+        "special_attack": 45,
+        "special_defence": 35,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pursuit",
+        "1:stringshot",
+        "3:thunderwave",
+        "7:electroweb",
+        "tutor:bugbite",
+        "tutor:electroweb"
+      ],
+      "labels": [
+        "gen1",
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiancaterpie.desc"
+      ],
+      "height": 3,
+      "weight": 29,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreiancaterpie_metapod_ayreian",
+          "variant": "level_up",
+          "result": "metapod ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "10"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.8125,
+        "height": 2.8125,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 29,
-  "aspects": ["ayreian"],
-  "cannotDynamax": false
-}
-], "features": [
-"ayreian"
+  "features": [
+    "forman",
+    "epoch",
+    "ayreian"
   ]
 }

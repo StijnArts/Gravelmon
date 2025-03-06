@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Eecroach",
-  "nationalPokedexNumber": 3476,
   "primaryType": "grass",
   "secondaryType": "bug",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 194,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "musleafo",
+  "baseScale": 0.4631578947368421,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 60,
@@ -14,94 +48,19 @@
     "special_defence": 35,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-"forms": [    {
-      "name": "Swarm",
-      "primaryType": "ghost",
-      "secondaryType": "dragon",
-      "abilities": [
-    "keeneye"      ],
-      "baseScale": 1.4,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 120,
-        "defence": 110,
-        "special_attack": 120,
-        "special_defence": 110,
-        "speed": 110
-      },
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 61,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "medium_fast",
-      "eggCycles": 51,
-      "eggGroups": [
-    "bug",
-    "grass"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "lockemon",
-    "not_modeled"
-      ],
-      "aspects": [
-        "swarm"
-      ],
-      "height": 10,
-      "weight": 2130,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
-  "baseExperienceYield": 194,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "1:tackle",
@@ -116,7 +75,8 @@
     "egg:snore",
     "egg:switcheroo",
     "egg:synthesis",
-    "egg:worryseed"  ],
+    "egg:worryseed"
+  ],
   "labels": [
     "lockemon",
     "not_modeled",
@@ -126,26 +86,97 @@
   "pokedex": [
     "cobblemon.species.eecroach.desc"
   ],
-  "preEvolution": "musleafo",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 11,
   "weight": 135,
   "aspects": [],
-"features": [
-"swarm"
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3387,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5625,
+    "height": 3.5625,
+    "fixed": false
+  },
+  "features": [
+    "swarm"
+  ],
+  "implemented": true,
+  "forms": [
+    {
+      "name": "Swarm",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.4940350877192982,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 110,
+        "special_attack": 120,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [],
+      "height": 102,
+      "weight": 213,
+      "aspects": [
+        "swarm"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
 }

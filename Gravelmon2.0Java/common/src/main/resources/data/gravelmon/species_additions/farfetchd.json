@@ -1,22 +1,14 @@
 {
-   "target": "cobblemon:farfetchd",
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:medicinal_leek",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+  "target": "cobblemon:farfetchd",
   "evolutions": [
     {
       "id": "farfetchd_achiefd",
       "variant": "level_up",
       "result": "achiefd",
       "consumeHeldItem": false,
-      "learnableMoves": [    "revenge"],
+      "learnableMoves": [
+        "revenge"
+      ],
       "requirements": [
         {
           "variant": "held_item",
@@ -27,8 +19,8 @@
           "range": "day"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "farfetchd_mallarki",
       "variant": "level_up",
@@ -38,11 +30,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 28
+          "minLevel": "28"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "farfetchd_rduckulus",
       "variant": "level_up",
@@ -52,11 +44,128 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 28
+          "minLevel": "28"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:medicinal_leek",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "rock",
+      "secondaryType": "normal",
+      "catchRate": 160,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.051562500000000004,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 77,
+        "attack": 79,
+        "defence": 77,
+        "special_attack": 26,
+        "special_defence": 59,
+        "speed": 32
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:rockthrow",
+        "1:tackle",
+        "1:bulkup",
+        "1:sleeptalk"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanfarfetchd.desc"
+      ],
+      "height": 11,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanfarfetchd_headfetchd",
+          "variant": "level_up",
+          "result": "Headfetchd",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "35"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "forman"
   ]
-
 }

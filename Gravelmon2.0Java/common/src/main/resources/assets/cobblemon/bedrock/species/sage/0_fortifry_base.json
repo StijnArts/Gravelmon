@@ -4,15 +4,69 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_fortifry",
       "model": "cobblemon:sage_fortifry.geo",
+      "poser": "cobblemon:sage_fortifry",
       "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry_shiny_alt.png"
-    }  ]
+      "model": "cobblemon:sage_fortifry.geo",
+      "poser": "cobblemon:sage_fortifry",
+      "texture": "cobblemon:textures/pokemon/sage/fortifry/fortifry_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

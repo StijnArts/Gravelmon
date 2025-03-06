@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:quetzar",
-  "order": 3,
+  "order": 151,
   "variations": [
     {
       "aspects": [
         "space"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:sage_quetzarspace",
+      "model": "cobblemon:cutout_gravelmon_250_by_133.geo",
+      "poser": "cobblemon:cutout_gravelmon_250_by_133",
       "texture": "cobblemon:textures/pokemon/sage/quetzarspace.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "space",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:sage_quetzarspace",
-      "texture": "cobblemon:textures/pokemon/sage/quetzarspace_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

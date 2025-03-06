@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Prospecktor",
-  "nationalPokedexNumber": 5161,
   "primaryType": "ground",
   "secondaryType": "flying",
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 134,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "tunnowl",
+  "baseScale": 0.28965517241379307,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:sandrush"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 62,
     "attack": 88,
@@ -16,38 +49,19 @@
     "special_defence": 47,
     "speed": 73
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 80,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 134,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "6:growl",
@@ -114,7 +128,8 @@
     "tm:drillpeck",
     "tm:pluck",
     "tm:laserfocus",
-    "tm:rototiller"  ],
+    "tm:rototiller"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -124,7 +139,9 @@
   "pokedex": [
     "cobblemon.species.prospecktor.desc"
   ],
-  "preEvolution": "tunnowl",
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "prospecktor_raptorado",
@@ -135,31 +152,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 39
+          "minLevel": "39"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 4894,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.625,
+    "height": 3.625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

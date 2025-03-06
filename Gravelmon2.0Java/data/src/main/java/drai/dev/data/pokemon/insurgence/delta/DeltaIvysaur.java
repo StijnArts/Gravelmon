@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -126,9 +127,17 @@ public class DeltaIvysaur extends Pokemon {
                 List.of());
         this.setLangFileName("Ivysaur");
         this.setHasGenderDifferences(true);
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setHitbox(0.7,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(-.45, -1.21, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }

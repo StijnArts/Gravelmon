@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Cachaleen",
-  "nationalPokedexNumber": 2256,
   "primaryType": "water",
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 67,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 1.008,
+  "cannotDynamax": false,
   "abilities": [
     "waterveil",
     "h:simple"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 76,
     "attack": 71,
@@ -15,38 +47,19 @@
     "special_defence": 32,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 160,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "15:bite",
@@ -60,7 +73,8 @@
     "39:crunch",
     "44:irondefense",
     "49:hydropump",
-    "54:skullbash"  ],
+    "54:skullbash"
+  ],
   "labels": [
     "oceane",
     "not_modeled"
@@ -68,6 +82,9 @@
   "pokedex": [
     "cobblemon.species.cachaleen.desc"
   ],
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "cachaleen_submalot",
@@ -78,31 +95,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 44
+          "minLevel": "44"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.35000000000000003,
+  "nationalPokedexNumber": 1886,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.125,
+    "height": 3.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 21,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:smeargle",
-  "order": 3,
+  "order": 131,
   "variations": [
     {
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiransmeargle",
+      "model": "cobblemon:cutout_gravelmon_104_by_96.geo",
+      "poser": "cobblemon:cutout_gravelmon_104_by_96",
       "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,59 +29,12 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "cefiran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiransmeargle",
-      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
-    },
-    {
-      "aspects": [
-        "female",
-        "cefiran"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiransmeargle",
-      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_female.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "female",
-        "cefiran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiransmeargle",
-      "texture": "cobblemon:textures/pokemon/generation2/cefiransmeargle_female_shiny.png",
-      "layers": []
     }
   ]
 }

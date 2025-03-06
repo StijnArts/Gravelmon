@@ -2,15 +2,27 @@
   "entryId": "cobblemon:riolu",
   "forms": [
     {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Ayreian",
       "unlockForms": [
-        "Mythian"
+        "Ayreian"
       ]
     },
     {

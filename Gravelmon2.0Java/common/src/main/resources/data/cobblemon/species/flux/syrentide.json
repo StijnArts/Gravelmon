@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Syrentide",
-  "nationalPokedexNumber": 2552,
   "primaryType": "water",
   "secondaryType": "fairy",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "selkid",
+  "baseScale": 0.47472527472527476,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "swiftswim",
     "h:pixilate"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 45,
@@ -17,38 +50,19 @@
     "special_defence": 111,
     "speed": 74
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 63,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:aquaring",
     "1:sing",
@@ -73,7 +87,8 @@
     "egg:uproar",
     "egg:mist",
     "egg:coralbreak",
-    "egg:refresh"  ],
+    "egg:refresh"
+  ],
   "labels": [
     "flux",
     "not_modeled",
@@ -83,26 +98,18 @@
   "pokedex": [
     "cobblemon.species.syrentide.desc"
   ],
-  "preEvolution": "selkid",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 18,
   "weight": 325,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2101,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.6875,
+    "height": 5.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

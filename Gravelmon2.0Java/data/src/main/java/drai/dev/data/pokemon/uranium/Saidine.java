@@ -100,7 +100,6 @@ public class Saidine extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

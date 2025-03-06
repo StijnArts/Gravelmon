@@ -24,7 +24,7 @@ public class Froska extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.HUMAN_LIKE),
                 List.of("Froska enjoy spending their time making small snowmen whenever they can, making each one have at least one thing unique to them. Whenever they make similar ones, they topple over the older ones instead."),
                 List.of(new EvolutionEntry("mafreozee", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.ANCIENT_POWER.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.COLDSNAP,1),

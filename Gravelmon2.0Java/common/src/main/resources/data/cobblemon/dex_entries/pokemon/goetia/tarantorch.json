@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tarantorch",
+  "speciesId": "cobblemon:tarantorch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -112,6 +112,6 @@ public class DeltaPichu extends Pokemon {
                 List.of());
         this.setLangFileName("Pichu");
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

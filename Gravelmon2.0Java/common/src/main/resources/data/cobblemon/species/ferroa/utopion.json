@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Utopion",
-  "nationalPokedexNumber": 1731,
   "primaryType": "steel",
   "secondaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 165,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "sprouton",
+  "baseScale": 0.5393258426966292,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:grassysurge"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 55,
@@ -16,38 +49,19 @@
     "special_defence": 130,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:irondefense",
     "5:rapidspin",
@@ -101,7 +115,8 @@
     "tm:endure",
     "tm:leafstorm",
     "tm:petaldance",
-    "tm:metalburst"  ],
+    "tm:metalburst"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -111,26 +126,18 @@
   "pokedex": [
     "cobblemon.species.utopion.desc"
   ],
-  "preEvolution": "sprouton",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 20,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1511,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5625,
+    "height": 5.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,10 +1,44 @@
 {
-  "implemented": true,
   "name": "Papalgae",
-  "nationalPokedexNumber": 2298,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "baseExperienceYield": 186,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "grasstache",
+  "baseScale": 0.5,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 183,
     "attack": 63,
@@ -13,38 +47,19 @@
     "special_defence": 87,
     "speed": 41
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "grass",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:astonish",
     "1:growl",
@@ -58,7 +73,8 @@
     "28:gigadrain",
     "33:raindance",
     "38:zenheadbutt",
-    "43:energyball"  ],
+    "43:energyball"
+  ],
   "labels": [
     "oceane",
     "not_modeled",
@@ -68,26 +84,18 @@
   "pokedex": [
     "cobblemon.species.papalgae.desc"
   ],
-  "preEvolution": "grasstache",
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 15,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1907,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5,
+    "height": 4.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

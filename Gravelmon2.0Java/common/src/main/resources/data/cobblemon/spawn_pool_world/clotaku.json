@@ -13,13 +13,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-19",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

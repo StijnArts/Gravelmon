@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Gellin",
-  "nationalPokedexNumber": 2444,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "nupin",
+  "baseScale": 0.4307692307692308,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "h:solarpower"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 35,
@@ -16,37 +49,18 @@
     "special_defence": 100,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
   },
-  "catchRate": 90,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 63,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:acupressure",
     "1:magnetrise",
@@ -120,7 +134,8 @@
     "egg:seedbomb",
     "egg:grassknot",
     "egg:powergem",
-    "egg:zapcannon"  ],
+    "egg:zapcannon"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -130,26 +145,18 @@
   "pokedex": [
     "cobblemon.species.gellin.desc"
   ],
-  "preEvolution": "nupin",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 1
-  },
   "height": 14,
   "weight": 382,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2019,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.875,
+    "height": 4.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

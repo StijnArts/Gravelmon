@@ -79,7 +79,7 @@ public class Icheon extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Icheon");
         addAdditionalEvolution("eevee", new EvolutionEntry("icheon", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:throat_spray\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:throat_spray"))));
     }
 
 

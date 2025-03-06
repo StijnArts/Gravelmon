@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Glacieros",
-  "nationalPokedexNumber": 1438,
   "primaryType": "ice",
   "secondaryType": "ground",
+  "catchRate": 80,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 140,
+  "experienceGroup": "erratic",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "preEvolution": "iceros",
+  "baseScale": 0.2923076923076923,
+  "cannotDynamax": false,
   "abilities": [
     "icebody",
     "h:sheerforce"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 120,
@@ -16,38 +49,19 @@
     "special_defence": 76,
     "speed": 84
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 80,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "erratic",
-  "eggCycles": 48,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:drillrun",
     "1:tackle",
@@ -113,7 +127,8 @@
     "egg:groomguard",
     "egg:heavyslam",
     "egg:ironhead",
-    "egg:slackoff"  ],
+    "egg:slackoff"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -123,26 +138,18 @@
   "pokedex": [
     "cobblemon.species.glacieros.desc"
   ],
-  "preEvolution": "iceros",
-  "baseScale": 0.31666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 19,
   "weight": 1320,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1277,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.75,
+    "height": 9.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

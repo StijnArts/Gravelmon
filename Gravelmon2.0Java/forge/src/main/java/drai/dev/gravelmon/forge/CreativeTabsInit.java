@@ -17,7 +17,7 @@ import java.util.function.*;
 
 import static drai.dev.gravelmon.Gravelmon.FOSSIL_ITEM_MAP;
 
-@EventBusSubscriber(modid = Gravelmon.MOD_ID)
+@EventBusSubscriber(modid = Gravelmon.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class CreativeTabsInit {
 
     @SubscribeEvent
@@ -210,7 +210,6 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance());
         }
 
         if(event.getTab() == CobblemonItemGroups.getUTILITY_ITEMS()) {

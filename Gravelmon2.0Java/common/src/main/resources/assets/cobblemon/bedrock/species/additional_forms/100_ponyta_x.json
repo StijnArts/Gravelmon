@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:ponyta",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -11,14 +11,28 @@
       "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive"
         },
-        {},
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
         {
           "name": "flame"
         },
         {
-          "name": "emissive"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -32,14 +46,28 @@
       "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax_shiny.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive"
         },
-        {},
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
         {
           "name": "flame"
         },
         {
-          "name": "emissive"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

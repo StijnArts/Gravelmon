@@ -4,20 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mythian_ampharos-01",
-      "pokemon": "ampharos mythian",
+      "id": "epoch_ampharos-01",
+      "pokemon": "ampharos epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "30-51",
-      "weight": 0.1,
+      "level": "37-54",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_forest"
+          "#minecraft:is_end"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

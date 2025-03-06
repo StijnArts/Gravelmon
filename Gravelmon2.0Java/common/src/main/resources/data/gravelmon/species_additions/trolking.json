@@ -1,0 +1,25 @@
+{
+  "target": "cobblemon:trolking",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:decorated_pot_sherds",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "evolutions": [
+    {
+      "id": "trolking_vesground",
+      "variant": "item_interact",
+      "result": "vesground",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:decorated_pot_sherds",
+      "permanent": true
+    }
+  ]
+}

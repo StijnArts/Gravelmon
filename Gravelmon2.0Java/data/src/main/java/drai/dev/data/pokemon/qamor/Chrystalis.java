@@ -25,7 +25,7 @@ public class Chrystalis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Pupentre live high up in the trees of thick canopies and reflect light in a wide variety of colors, resembling a chandelier. Their lights will attract prey for them to eat, and also confuse predators that might want to eat them."),
                 List.of(new EvolutionEntry("crysteavenly", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_MAGICAL.getId() + ":" + Biome.IS_MAGICAL.getName() +"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_MAGICAL.getId() + ":" + Biome.IS_MAGICAL.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.REFLECT,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,4),
@@ -45,7 +45,7 @@ public class Chrystalis extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 34, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,

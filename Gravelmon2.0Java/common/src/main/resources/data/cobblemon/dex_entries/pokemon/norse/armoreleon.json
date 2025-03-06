@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armoreleon",
+  "speciesId": "cobblemon:armoreleon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

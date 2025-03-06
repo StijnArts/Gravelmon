@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -113,16 +113,28 @@ public class Aguade extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:prismarine",50, 1,2),
                         new ItemDrop("minecraft:leather",50, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.9, 0.7,
                 List.of());
         this.setCanSwim(true);
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(0.9);
+        this.setHitbox(1,1);
 
-        this.setModeled(true);
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.floatingAnimation().withLook().withBlink(),
+                AnimationData.swimmingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock(aguade, faint)");
     }
 }

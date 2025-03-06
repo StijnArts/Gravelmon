@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Sparroing",
-  "nationalPokedexNumber": 3838,
   "primaryType": "fighting",
   "secondaryType": "steel",
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "heeleap",
+  "baseScale": 0.5714285714285714,
+  "cannotDynamax": false,
   "abilities": [
     "quickfeet",
     "reckless",
     "h:prankster"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 80,
@@ -17,38 +50,19 @@
     "special_defence": 75,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 1
   },
-  "catchRate": 100,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 142,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:bounce",
     "1:skyuppercut",
@@ -60,7 +74,8 @@
     "1:agility",
     "tm:axekick",
     "tm:pounce",
-    "tm:megakick"  ],
+    "tm:megakick"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -70,26 +85,18 @@
   "pokedex": [
     "cobblemon.species.sparroing.desc"
   ],
-  "preEvolution": "heeleap",
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 1
-  },
   "height": 15,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3885,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.9375,
+    "height": 3.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

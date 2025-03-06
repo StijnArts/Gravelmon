@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Chimaooze",
-  "nationalPokedexNumber": 2160,
   "primaryType": "poison",
   "secondaryType": "ground",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 63,
+  "experienceGroup": "fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 0.0588957055214724,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 20,
@@ -14,95 +47,19 @@
     "special_defence": 35,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-"forms": [    {
-      "name": "Monster",
-      "primaryType": "poison",
-      "secondaryType": "fighting",
-      "abilities": [
-    "keeneye"      ],
-      "baseScale": 1.4,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 45,
-        "attack": 130,
-        "defence": 140,
-        "special_attack": 135,
-        "special_defence": 140,
-        "speed": 30
-      },
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 63,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "fast",
-      "eggCycles": 32,
-      "eggGroups": [
-    "amorphous",
-    "water_3"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "xenoverse",
-    "gen1",
-    "not_modeled"
-      ],
-      "aspects": [
-        "monster"
-      ],
-      "height": 7,
-      "weight": 27480,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
-  "baseExperienceYield": 63,
-  "experienceGroup": "fast",
-  "eggCycles": 32,
   "eggGroups": [
     "amorphous",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "1:poisongas",
@@ -153,7 +110,8 @@
     "tutor:gunkshot",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled"
@@ -161,25 +119,98 @@
   "pokedex": [
     "cobblemon.species.chimaooze.desc"
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 3,
   "weight": 1,
   "aspects": [],
-"features": [
-"monster"
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1827,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 10.1875,
+    "height": 10.1875,
+    "fixed": false
+  },
+  "features": [
+    "monster"
+  ],
+  "implemented": true,
+  "forms": [
+    {
+      "name": "Monster",
+      "primaryType": "poison",
+      "secondaryType": "fighting",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 63,
+      "experienceGroup": "fast",
+      "eggCycles": 32,
+      "baseFriendship": 70,
+      "baseScale": 2.8269938650306754,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 130,
+        "defence": 140,
+        "special_attack": 135,
+        "special_defence": 140,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "xenoverse",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [],
+      "height": 78,
+      "weight": 2748,
+      "aspects": [
+        "monster"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
 }

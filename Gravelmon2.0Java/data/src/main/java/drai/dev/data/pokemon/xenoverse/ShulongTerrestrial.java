@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,12 +23,12 @@ public class ShulongTerrestrial extends Pokemon {
                 List.of(new EvolutionEntry("shulong terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"))),
                         new EvolutionEntry("shulongastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50"))),
                         new EvolutionEntry("shulongastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
@@ -104,11 +105,23 @@ public class ShulongTerrestrial extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Shulong");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setModeled(true);
+
         this.setHitbox(0.7, 1.2);
         this.setBaseScale(1.2);
+        getPosingFileData().setAnimationFileName("shulong_terrestrial");
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3f, new Vector3(0, -.4, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .40, 0));
+        getPosingFileData().head = "head_2";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("shulong_terrestrial");
     }
 }

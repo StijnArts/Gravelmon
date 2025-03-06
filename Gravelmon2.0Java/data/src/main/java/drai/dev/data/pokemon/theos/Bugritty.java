@@ -24,14 +24,10 @@ public class Bugritty extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Upon evolution Bugritty gains a hard shell somewhat resembling a Pokèball. This allows them to sneak into the bags of trainers undetected and eat all that’s inside."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bugritty");

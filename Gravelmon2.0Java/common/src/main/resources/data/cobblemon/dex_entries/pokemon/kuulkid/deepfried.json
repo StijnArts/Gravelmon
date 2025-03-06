@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deepfried",
+  "speciesId": "cobblemon:deepfried",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -12,13 +12,21 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-58",
-      "weight": 0.8,
+      "level": "36-53",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
           "#cobblemon:nether/is_crimson"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

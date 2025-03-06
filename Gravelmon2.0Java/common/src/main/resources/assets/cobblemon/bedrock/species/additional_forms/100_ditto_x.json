@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:ditto",
-  "order": 12,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,32 @@
       "model": "cobblemon:generation1_dittox.geo",
       "poser": "cobblemon:generation1_dittox",
       "texture": "cobblemon:textures/pokemon/generation1/dittox/dittox.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +44,32 @@
       "model": "cobblemon:generation1_dittox.geo",
       "poser": "cobblemon:generation1_dittox",
       "texture": "cobblemon:textures/pokemon/generation1/dittox/dittox_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

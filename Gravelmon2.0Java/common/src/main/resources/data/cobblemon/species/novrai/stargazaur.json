@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Stargazaur",
-  "nationalPokedexNumber": 5270,
   "primaryType": "psychic",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 157,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "protauri",
+  "baseScale": 0.36164383561643837,
+  "cannotDynamax": false,
   "abilities": [
     "victorystar",
     "insomnia",
     "h:analytic"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 58,
@@ -17,37 +50,18 @@
     "special_defence": 72,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 157,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:teleport",
     "12:twister",
@@ -138,7 +152,8 @@
     "tm:rockclimb",
     "tm:powertrick",
     "tm:aurorabeam",
-    "tm:eerieimpulse"  ],
+    "tm:eerieimpulse"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -148,7 +163,9 @@
   "pokedex": [
     "cobblemon.species.stargazaur.desc"
   ],
-  "preEvolution": "protauri",
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "stargazaur_kaijupiter",
@@ -159,35 +176,24 @@
       "requirements": [
         {
           "variant": "time_range",
-          "range": night
+          "range": "night"
         },
         {
           "variant": "friendship",
-          "amount": 180
+          "amount": "180"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 4974,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.5625,
+    "height": 4.5625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

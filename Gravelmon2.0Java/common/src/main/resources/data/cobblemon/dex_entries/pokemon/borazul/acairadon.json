@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:acairadon",
+  "speciesId": "cobblemon:acairadon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

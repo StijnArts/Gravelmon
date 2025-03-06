@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:dauspector",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_dauspector",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/dauspector.png",
+      "layers": []
+    }
+  ]
+}

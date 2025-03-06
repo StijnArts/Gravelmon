@@ -25,7 +25,7 @@ public class Skowl extends drai.dev.data.pokemon.Pokemon {
                 List.of("Active during the night, groups of Skowl gather at spots where there is supernatural activity, especially on nights of the full moon when activity is peaked. An old tale says if Skowl are on top your roof during the nights of a full moon, those who reside in the house will be cursed with misfortunes."),
                 List.of(new EvolutionEntry("owlminous", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

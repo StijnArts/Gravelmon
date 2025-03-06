@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "41-56",
-      "weight": 0.07,
+      "weight": 0.10500000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

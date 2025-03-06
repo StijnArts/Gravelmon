@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -69,12 +69,13 @@ public class Mallarki extends Pokemon {
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO))
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setLangFileName("Mallar'Ki");
         this.setPreEvolution("farfetchd");
         addAdditionalEvolution("farfetchd", new EvolutionEntry("mallarki", EvolutionType.LEVEL_UP, List.of(),

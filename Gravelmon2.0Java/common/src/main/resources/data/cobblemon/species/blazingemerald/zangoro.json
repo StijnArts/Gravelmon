@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Zangoro",
-  "nationalPokedexNumber": 3755,
   "primaryType": "normal",
   "secondaryType": "dark",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "preEvolution": "zangoose",
+  "baseScale": 0.7619047619047619,
+  "cannotDynamax": false,
   "abilities": [
     "noguard",
     "h:arenatrap"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 150,
@@ -16,40 +49,25 @@
     "special_defence": 65,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 51,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
+      {
+        "item": "gravelmon:murky_claw",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
       {
         "item": "gravelmon:murky_claw",
         "quantityRange": "1-1",
@@ -103,7 +121,8 @@
     "60:bulkup",
     "70:shadowsneak",
     "80:revenge",
-    "90:superpower"  ],
+    "90:superpower"
+  ],
   "labels": [
     "blazing_emerald",
     "not_modeled",
@@ -112,26 +131,18 @@
   "pokedex": [
     "cobblemon.species.zangoro.desc"
   ],
-  "preEvolution": "zangoose",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 20,
   "weight": 822,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3829,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.9375,
+    "height": 3.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

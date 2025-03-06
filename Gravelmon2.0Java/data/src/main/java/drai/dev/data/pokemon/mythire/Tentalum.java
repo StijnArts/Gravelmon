@@ -25,7 +25,7 @@ public class Tentalum extends drai.dev.data.pokemon.Pokemon {
                 List.of("It sits motionless for hours until the sun shines on it just right. It's believed that it uses the sun's rays to tell the time so it can stick to its routine."),
                 List.of(new EvolutionEntry("octempus", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(                   new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.OCTAZOOKA,1),

@@ -4,18 +4,23 @@ import com.cobblemon.mod.common.api.pokedex.entry.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.data.jsonwriters.data.*;
+import drai.dev.data.util.*;
 
-import static drai.dev.data.jsonwriters.assets.LanguageGenerator.generateLangFile;
+import static drai.dev.data.jsonwriters.assets.LanguageGenerator.*;
 
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {
-        GameRegistry.games.forEach(Game::init);
+        GameRegistry.games.forEach(game -> {
+            game.init(resourcesDir);
+            game.getNewPokemon().forEach(pokemon -> pokemon.processAssets(resourcesDir));
+        });
         SpeciesAdditionsWriter.writeAdditions(resourcesDir);
         PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
         AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
         AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
         FossilJSONWriter.writeFossils(resourcesDir);
         PokeBallEffectWriter.writeEffects(resourcesDir);
+        LangJSONWriter.writeStarterCategories();
         generateLangFile();
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
@@ -28,6 +33,7 @@ public class JSONOutputGenerator {
         LangJSONWriter.finalizeLang(resourcesDir);
         PokeDexWriter.finalizeDexes(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
+//        FakemonExcelGenerator.generateExcel(resourcesDir);
     }
 
     private static void generateJsonFiles(Game game,String resourcesDir) {

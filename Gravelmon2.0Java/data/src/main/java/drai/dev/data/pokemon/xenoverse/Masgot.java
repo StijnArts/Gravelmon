@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Masgot extends Pokemon {
@@ -631,7 +632,7 @@ public class Masgot extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         0.3, 0.3
@@ -771,7 +772,7 @@ public class Masgot extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         0.3, 0.3
@@ -1191,7 +1192,7 @@ public class Masgot extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                         List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
@@ -1260,12 +1261,11 @@ public class Masgot extends Pokemon {
                         List.of(Label.XENOVERSE),
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                         List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 )));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

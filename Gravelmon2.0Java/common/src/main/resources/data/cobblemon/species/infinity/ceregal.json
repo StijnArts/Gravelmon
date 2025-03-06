@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Ceregal",
-  "nationalPokedexNumber": 1444,
   "primaryType": "bug",
   "secondaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 220,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "dragalis",
+  "baseScale": 0.34285714285714286,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:intimidate"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 145,
@@ -16,38 +49,19 @@
     "special_defence": 75,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 220,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "bug",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:dragonclaw",
     "1:scaryface",
@@ -130,7 +144,8 @@
     "egg:leechlife",
     "egg:suckerpunch",
     "egg:swordsdance",
-    "egg:taunt"  ],
+    "egg:taunt"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -140,26 +155,18 @@
   "pokedex": [
     "cobblemon.species.ceregal.desc"
   ],
-  "preEvolution": "dragalis",
-  "baseScale": 0.3666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 3,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 22,
   "weight": 700,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1283,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.625,
+    "height": 9.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

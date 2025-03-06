@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Makakari",
-  "nationalPokedexNumber": 1345,
   "primaryType": "grass",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "colobud",
+  "baseScale": 0.45882352941176474,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "h:technician"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 105,
@@ -16,38 +49,19 @@
     "special_defence": 70,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 186,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:torment",
     "6:vinewhip",
@@ -136,7 +150,8 @@
     "tm:cut",
     "tm:rocksmash",
     "tm:strength",
-    "tm:tailslap"  ],
+    "tm:tailslap"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -146,26 +161,18 @@
   "pokedex": [
     "cobblemon.species.makakari.desc"
   ],
-  "preEvolution": "colobud",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 13,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1217,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.25,
+    "height": 4.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

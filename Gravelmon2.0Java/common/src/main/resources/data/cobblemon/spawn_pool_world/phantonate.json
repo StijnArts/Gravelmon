@@ -7,17 +7,25 @@
       "id": "phantonate-01",
       "pokemon": "phantonate",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
       "level": "22-54",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:growlithe-palmian",
+  "speciesId": "cobblemon:growlithe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    }
+  ],
+  "variations": []
+}

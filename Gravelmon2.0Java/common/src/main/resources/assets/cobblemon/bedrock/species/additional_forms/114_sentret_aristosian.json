@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:sentret",
-  "order": 3,
+  "order": 114,
   "variations": [
     {
       "aspects": [
         "aristosian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_aristosiansentret",
+      "model": "cobblemon:cutout_gravelmon_30_by_68.geo",
+      "poser": "cobblemon:cutout_gravelmon_30_by_68",
       "texture": "cobblemon:textures/pokemon/generation2/aristosiansentret.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "aristosian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_aristosiansentret",
-      "texture": "cobblemon:textures/pokemon/generation2/aristosiansentret_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

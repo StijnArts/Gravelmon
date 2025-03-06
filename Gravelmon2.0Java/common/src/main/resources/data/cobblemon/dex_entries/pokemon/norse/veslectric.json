@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:veslectric",
+  "speciesId": "cobblemon:veslectric",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

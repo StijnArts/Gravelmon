@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chompper",
+  "speciesId": "cobblemon:chompper",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

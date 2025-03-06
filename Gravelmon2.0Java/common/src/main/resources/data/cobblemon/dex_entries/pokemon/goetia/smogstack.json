@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:smogstack",
+  "speciesId": "cobblemon:smogstack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

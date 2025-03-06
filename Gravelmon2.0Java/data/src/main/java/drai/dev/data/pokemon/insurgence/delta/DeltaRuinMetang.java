@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -123,9 +125,22 @@ public class DeltaRuinMetang extends Pokemon {
                 List.of());
         this.setLangFileName("Metang");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
-        setModeled(true);
+        
         setBaseScale(1);
         setHitbox(1,1.2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.battleIdleAnimation().withBlink(),
+                AnimationData.standingAnimation().notBattle().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().addPoseType(PoseType.FLOAT).withBlink(),
+                AnimationData.flyingAnimation().addPoseType(PoseType.SWIM).withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("metang");
+        getPosingFileData().setCry("q.bedrock_stateful('metang', 'cry')");
     }
 }

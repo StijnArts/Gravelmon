@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Lumbrill",
-  "nationalPokedexNumber": 2867,
   "primaryType": "steel",
   "secondaryType": "bug",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 182,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ploworm",
+  "baseScale": 0.48607594936708864,
+  "cannotDynamax": false,
   "abilities": [
     "infiltrator",
     "h:limber"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 56,
     "attack": 118,
@@ -16,38 +49,19 @@
     "special_defence": 78,
     "speed": 122
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 182,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:autotomize",
     "38:irontail",
@@ -93,7 +107,8 @@
     "tm:headbutt",
     "tm:rapidspin",
     "tm:zenheadbutt",
-    "tm:irontail"  ],
+    "tm:irontail"
+  ],
   "labels": [
     "junnin",
     "not_modeled",
@@ -103,26 +118,18 @@
   "pokedex": [
     "cobblemon.species.lumbrill.desc"
   ],
-  "preEvolution": "ploworm",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 16,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2433,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.9375,
+    "height": 4.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

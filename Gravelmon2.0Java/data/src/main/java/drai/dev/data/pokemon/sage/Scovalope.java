@@ -89,11 +89,11 @@ public class Scovalope extends Pokemon {
                         new ItemDrop("minecraft:seeds",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 35, 53, 1.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

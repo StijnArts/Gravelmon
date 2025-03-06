@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -90,7 +92,7 @@ public class EghoNoctowl extends Pokemon {
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 43, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -98,10 +100,20 @@ public class EghoNoctowl extends Pokemon {
                 0.39, 0.3,
                 List.of());
         this.setLangFileName("Noctowl");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(0.95);
         setHitbox(1.25,1.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.3, 1, 0.0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0.0, .6825, -20.0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.hoveringAnimation().withLook()
+                        .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
+                        .withBlink().addPoseType(PoseType.FLY)
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('eghonoctowl', 'cry')");
     }
 }

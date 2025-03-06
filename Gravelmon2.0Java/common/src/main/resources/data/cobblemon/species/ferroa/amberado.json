@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Amberado",
-  "nationalPokedexNumber": 1819,
   "primaryType": "bug",
+  "catchRate": 60,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.6545454545454544,
+  "cannotDynamax": false,
   "abilities": [
     "honeygather",
     "sweetveil",
     "h:pressure"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 165,
     "attack": 90,
@@ -16,38 +48,19 @@
     "special_defence": 55,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "5:sweetscent",
     "9:infestation",
@@ -131,7 +144,8 @@
     "tm:drainpunch",
     "tm:acidarmor",
     "tm:pinmissile",
-    "tm:spikecannon"  ],
+    "tm:spikecannon"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
@@ -139,25 +153,18 @@
   "pokedex": [
     "cobblemon.species.amberado.desc"
   ],
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1583,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5,
+    "height": 5.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

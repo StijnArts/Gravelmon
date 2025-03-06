@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:dubwool",
-  "order": 3,
+  "order": 104,
   "variations": [
     {
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_kaskadiandubwool",
+      "model": "cobblemon:cutout_gravelmon_222_by_214.geo",
+      "poser": "cobblemon:cutout_gravelmon_222_by_214",
       "texture": "cobblemon:textures/pokemon/generation8/kaskadiandubwool.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "kaskadian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_kaskadiandubwool",
-      "texture": "cobblemon:textures/pokemon/generation8/kaskadiandubwool_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

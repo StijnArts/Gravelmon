@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ertheno-tribal",
+  "speciesId": "cobblemon:ertheno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

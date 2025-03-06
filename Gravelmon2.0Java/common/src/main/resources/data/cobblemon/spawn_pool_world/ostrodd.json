@@ -6,21 +6,50 @@
     {
       "id": "ostrodd-01",
       "pokemon": "ostrodd",
-      "presets": [
-        "freshwater"
-      ],
+      "presets": [],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
       "level": "5-23",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest",
-          "#cobblemon:is_grassland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_freshwater"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ostrodd-11",
+      "pokemon": "ostrodd",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "5-23",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_freshwater"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

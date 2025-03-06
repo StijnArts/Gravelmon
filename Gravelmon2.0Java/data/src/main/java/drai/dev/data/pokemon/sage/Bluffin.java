@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -94,9 +95,16 @@ public class Bluffin extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(0.5);
         this.setHitbox(1,0.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, .7, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .7, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
     }
 }

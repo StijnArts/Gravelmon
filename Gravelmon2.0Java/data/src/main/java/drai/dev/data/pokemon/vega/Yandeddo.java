@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.vega;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class Yandeddo extends Pokemon {
@@ -75,13 +74,20 @@ public class Yandeddo extends Pokemon {
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 53, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FOLIAGE),
                 0.4, 0.3,
                 List.of());
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.5f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
     }
 }

@@ -1,20 +1,41 @@
 {
   "species": "cobblemon:maractus",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltamaractus.geo",
+      "model": "cobblemon:generation5_deltamaractus.geo",
       "poser": "cobblemon:generation5_deltamaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -23,15 +44,36 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltamaractus.geo",
+      "model": "cobblemon:generation5_deltamaractus.geo",
       "poser": "cobblemon:generation5_deltamaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
           "name": "glow",
-          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny_emissive.png",
           "emissive": true,
-          "translucent": true
+          "translucent": true,
+          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_emissive_shiny.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

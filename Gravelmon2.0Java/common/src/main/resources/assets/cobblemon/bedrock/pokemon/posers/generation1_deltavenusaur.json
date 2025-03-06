@@ -1,40 +1,67 @@
 {
-    "head": "head",
-    "portraitScale": 1.65,
-    "portraitTranslation": [-0.5, -0.8, 0],
-    "profileScale": 0.9,
-    "profileTranslation": [0.07, 0.38, 0],
-    "faint": "bedrock(deltavenusaur, faint)",
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
-        "animations": [
-          "look",
-          "bedrock(deltavenusaur, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(deltavenusaur, blink)"]
-          }
-        ]
-      },
-      "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(deltavenusaur, ground_walk)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(deltavenusaur, blink)"]
-          }
-        ]
-      }
+  "head": "head",
+  "portraitScale": 1.649999976158142,
+  "portraitTranslation": [
+    -0.5,
+    -0.8,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.07,
+    0.38,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(deltavenusaur, faint)"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(deltavenusaur, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(deltavenusaur, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(deltavenusaur, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(deltavenusaur, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
     }
   }
+}

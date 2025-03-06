@@ -1,23 +1,29 @@
 {
   "species": "cobblemon:maractus",
-  "order": 3,
+  "order": 25,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation5_hoennianmaractus.geo",
       "poser": "cobblemon:generation5_hoennianmaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_emissive.png"
         },
         {
-          "name": "emissive2"
+          "name": "transparentEmissive"
         },
         {
-          "name": "emissive"
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +32,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -35,18 +44,24 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation5_hoennianmaractus.geo",
       "poser": "cobblemon:generation5_hoennianmaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_shiny.png",
       "layers": [
         {
-          "name": "glow"
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation5/hoennianmaractus/hoennianmaractus_emissive_shiny.png"
         },
         {
-          "name": "emissive2"
+          "name": "transparentEmissive"
         },
         {
-          "name": "emissive"
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +70,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

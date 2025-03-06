@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:tentacruel",
-  "order": 3,
+  "order": 116,
   "variations": [
     {
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_relictentacruel",
+      "model": "cobblemon:cutout_gravelmon_77_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_78",
       "texture": "cobblemon:textures/pokemon/generation1/relictentacruel.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "relic",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_relictentacruel",
-      "texture": "cobblemon:textures/pokemon/generation1/relictentacruel_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

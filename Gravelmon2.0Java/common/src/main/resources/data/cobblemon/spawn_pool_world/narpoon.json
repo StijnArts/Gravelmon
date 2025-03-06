@@ -7,19 +7,26 @@
       "id": "narpoon-01",
       "pokemon": "narpoon",
       "presets": [
-        "natural"
+        "water",
+        "shipwreck"
       ],
       "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "16-36",
-      "weight": 4.0,
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "11-35",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_frozen"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
-   "target": "cobblemon:zangoose",
+  "target": "cobblemon:zangoose",
   "drops": {
-    "amount": "1",
+    "amount": 3,
     "entries": [
       {
         "item": "gravelmon:murky_claw",
@@ -14,10 +14,10 @@
         "percentage": 10
       }
     ]
-      },
+  },
   "evolutions": [
     {
-      "id": "zangoose_Zangarsh",
+      "id": "zangoose_zangarsh",
       "variant": "level_up",
       "result": "Zangarsh",
       "consumeHeldItem": false,
@@ -25,23 +25,21 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 39
+          "minLevel": "39"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "zangoose_zangoro",
       "variant": "item_interact",
       "result": "zangoro",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:murky_claw",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "zangoose_viperzang",
       "variant": "level_up",
@@ -55,20 +53,17 @@
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "zangoose_viperzang",
       "variant": "item_interact",
       "result": "viperzang",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

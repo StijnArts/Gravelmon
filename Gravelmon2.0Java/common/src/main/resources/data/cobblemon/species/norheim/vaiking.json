@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Vaiking",
-  "nationalPokedexNumber": 3187,
   "primaryType": "steel",
   "secondaryType": "fighting",
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "falinks form=norheiman",
+  "baseScale": 0.7285714285714285,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "h:steelyspirit"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 120,
@@ -16,38 +49,19 @@
     "special_defence": 50,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:copycat",
     "1:detect",
@@ -134,7 +148,8 @@
     "tm:hyperbeam",
     "tm:closecombat",
     "tm:steelbeam",
-    "tm:terablast"  ],
+    "tm:terablast"
+  ],
   "labels": [
     "norheim",
     "not_modeled",
@@ -144,26 +159,18 @@
   "pokedex": [
     "cobblemon.species.vaiking.desc"
   ],
-  "preEvolution": "falinks form=norheiman",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 17,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3131,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5,
+    "height": 3.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

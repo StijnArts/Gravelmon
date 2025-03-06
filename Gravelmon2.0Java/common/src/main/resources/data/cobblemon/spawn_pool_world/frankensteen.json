@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "39-51",
-      "weight": 0.02,
+      "weight": 0.03,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:hydreigon",
-  "order": 3,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltahydreigon",
+      "model": "cobblemon:cutout_gravelmon_176_by_164.geo",
+      "poser": "cobblemon:cutout_gravelmon_176_by_164",
       "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,27 +29,33 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
     {
       "aspects": [
         "delta",
-        "shiny"
+        "female"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltahydreigon",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_shiny.png",
+      "model": "cobblemon:cutout_gravelmon_176_by_164.geo",
+      "poser": "cobblemon:cutout_gravelmon_176_by_164",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,30 +64,12 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
-    },
-    {
-      "aspects": [
-        "female",
-        "delta"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltahydreigon",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "female",
-        "delta",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_deltahydreigon",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female_shiny.png",
-      "layers": []
     }
   ]
 }

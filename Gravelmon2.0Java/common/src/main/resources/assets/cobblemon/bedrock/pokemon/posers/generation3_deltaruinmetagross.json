@@ -1,146 +1,129 @@
 {
   "portraitScale": 0.5,
-  "portraitTranslation": [ 0, 0.8, 0 ],
+  "portraitTranslation": [
+    0.0,
+    0.8,
+    0.0
+  ],
   "profileScale": 0.5,
-  "profileTranslation": [ 0, 0.8, 0 ],
+  "profileTranslation": [
+    0.0,
+    0.8,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('metagross', 'cry')"
   },
   "poses": {
     "battle-idle": {
       "poseName": "battle-idle",
+      "animations": [
+        "bedrock(metagross, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
       "transformTicks": 10,
-      "poseTypes": ["STAND"],
       "isBattle": true,
-      "animations": ["bedrock(metagross, battle_idle)"],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(metagross, blink)"]
+          "animations": [
+            "bedrock(metagross, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "bedrock(metagross, ground_idle)"
       ],
+      "poseTypes": [
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(metagross, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
       "animations": [
         "bedrock(metagross, ground_walk)"
       ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(metagross, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "hovering": {
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
       "animations": [
         "bedrock(metagross, air_idle)"
       ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(metagross, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "flying": {
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLY"
-      ],
       "animations": [
         "bedrock(metagross, air_fly)"
       ],
+      "poseTypes": [
+        "FLY",
+        "SWIM"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(metagross, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "sleeping": {
       "poseName": "sleeping",
-      "transformTicks": 10,
+      "animations": [
+        "bedrock(metagross, sleep)"
+      ],
       "poseTypes": [
         "SLEEP"
       ],
-      "animations": [
-        "bedrock(metagross, sleep)"
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
       "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "bedrock(metagross, air_fly)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(metagross, blink)"
-          ]
-        }
-      ]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "bedrock(metagross, air_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(metagross, blink)"
-          ]
-        }
-      ]
+      "quirks": []
     }
   }
 }

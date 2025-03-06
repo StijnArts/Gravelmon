@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Cosmoose",
-  "nationalPokedexNumber": 4249,
   "primaryType": "cosmic",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 231,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "astralf",
+  "baseScale": 0.6181818181818182,
+  "cannotDynamax": false,
   "abilities": [
     "oblivious",
     "sapsipper",
     "h:unaware"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 121,
     "attack": 121,
@@ -16,37 +49,18 @@
     "special_defence": 86,
     "speed": 63
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 231,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "5:kinesis",
@@ -59,7 +73,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"  ],
+    "57:recover"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -69,26 +84,18 @@
   "pokedex": [
     "cobblemon.species.cosmoose.desc"
   ],
-  "preEvolution": "astralf",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 17,
   "weight": 971,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4215,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.125,
+    "height": 4.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

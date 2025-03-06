@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Ogrelisk",
-  "nationalPokedexNumber": 2819,
   "primaryType": "rock",
   "secondaryType": "psychic",
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.7404255319148936,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 100,
@@ -14,37 +47,18 @@
     "special_defence": 195,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 300,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:electricterrain",
     "1:hornattack",
@@ -61,7 +75,8 @@
     "70:megahorn",
     "77:quickguard",
     "84:stoneedge",
-    "91:gigaimpact"  ],
+    "91:gigaimpact"
+  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -69,25 +84,18 @@
   "pokedex": [
     "cobblemon.species.ogrelisk.desc"
   ],
-  "baseScale": 0.48333333333333334,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
   "height": 29,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2406,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.875000000000001,
+    "height": 5.875000000000001,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

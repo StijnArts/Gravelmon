@@ -7,13 +7,13 @@
       "id": "tubareel-01",
       "pokemon": "tubareel",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "34-59",
-      "weight": 1.5,
+      "weight": 2.25,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -21,6 +21,14 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "maxY": 35
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "38-56",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom",
@@ -22,8 +22,16 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_jungle"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

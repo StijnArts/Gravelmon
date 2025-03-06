@@ -2,6 +2,18 @@
   "entryId": "cobblemon:herdier",
   "forms": [
     {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Novran",
       "unlockForms": [
         "Novran"

@@ -1,0 +1,160 @@
+{
+  "target": "cobblemon:walrein",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "ground",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sealeo form=epoch",
+      "baseScale": 0.44799999999999995,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb",
+        "swiftswim",
+        "h:oblivious"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 100,
+        "defence": 100,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:stompingtantrum",
+        "16:shoreup",
+        "1:defensecurl",
+        "46:iciclecrash",
+        "1:iceball",
+        "38:amnesia",
+        "28:avalanche",
+        "4:growl",
+        "20:bulldoze",
+        "35:bodyslam",
+        "8:iceshard",
+        "50:earthquake",
+        "12:steamroller",
+        "32:nobleroar",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:crunch",
+        "tm:curse",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:flipturn",
+        "tm:frostbite",
+        "tm:gyroball",
+        "tm:hail",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:mist",
+        "tm:mudslide",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochwalrein.desc"
+      ],
+      "height": 14,
+      "weight": 1506,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "epoch"
+  ]
+}

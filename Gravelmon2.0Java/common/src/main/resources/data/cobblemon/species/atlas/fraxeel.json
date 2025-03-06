@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Fraxeel",
-  "nationalPokedexNumber": 5540,
   "primaryType": "ice",
   "secondaryType": "dragon",
+  "catchRate": 82,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "icee",
+  "baseScale": 0.384,
+  "cannotDynamax": false,
   "abilities": [
     "arenatrap",
     "h:strongjaw"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 85,
@@ -16,38 +49,19 @@
     "special_defence": 40,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 82,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 140,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "5:powdersnow",
@@ -66,7 +80,8 @@
     "tm:aurorabeam",
     "tm:dragonbreath",
     "tm:shadowsneak",
-    "tm:coil"  ],
+    "tm:coil"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -76,7 +91,9 @@
   "pokedex": [
     "cobblemon.species.fraxeel.desc"
   ],
-  "preEvolution": "icee",
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "fraxeel_colosseel",
@@ -87,31 +104,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 52
+          "minLevel": "52"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 5152,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.125,
+    "height": 3.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

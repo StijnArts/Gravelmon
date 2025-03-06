@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_ludicolo-01",
+      "pokemon": "ludicolo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-54",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "egho_ludicolo-01",
       "pokemon": "ludicolo egho",
       "presets": [
@@ -13,11 +40,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "39-49",
-      "weight": 2.3,
+      "weight": 3.4499999999999997,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     },
     {
@@ -30,14 +65,20 @@
       "context": "grounded",
       "bucket": "common",
       "level": "38-58",
-      "weight": 0.02,
+      "weight": 0.03,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
           "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
       }
     }
   ]

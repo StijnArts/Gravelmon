@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Mampth",
-  "nationalPokedexNumber": 5575,
   "primaryType": "ice",
   "secondaryType": "rock",
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.6697674418604651,
+  "cannotDynamax": false,
   "abilities": [
-    "snowcloak"  ],
+    "snowcloak"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 100,
@@ -14,37 +47,18 @@
     "special_defence": 60,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 100,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "1:powdersnow",
@@ -92,7 +106,8 @@
     "tm:roar",
     "tm:calmmind",
     "tm:taunt",
-    "tm:toxic"  ],
+    "tm:toxic"
+  ],
   "labels": [
     "atlas",
     "not_modeled"
@@ -100,6 +115,9 @@
   "pokedex": [
     "cobblemon.species.mampth.desc"
   ],
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mampth_mammolaya",
@@ -107,31 +125,18 @@
       "result": "mammolaya",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "permanent": true   
- }
+      "requirements": [],
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 5171,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.6875,
+    "height": 2.6875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

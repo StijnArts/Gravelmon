@@ -4,6 +4,109 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "ferranian_lapras-01",
+      "pokemon": "lapras ferranian",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_lapras-01",
+      "pokemon": "lapras forman",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "31-59",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_lapras-01",
+      "pokemon": "lapras epoch",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-46",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_lapras-01",
+      "pokemon": "lapras epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "32-54",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "novran_lapras-01",
       "pokemon": "lapras novran",
       "presets": [
@@ -13,19 +116,27 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "29-54",
-      "weight": 4.0,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
         ],
-        "isThundering": true,
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     },
     {
-      "id": "mythian_lapras-01",
-      "pokemon": "lapras mythian",
+      "id": "ayreian_lapras-01",
+      "pokemon": "lapras ayreian",
       "presets": [
         "natural"
       ],
@@ -33,18 +144,25 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-53",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "isThundering": true
+          "#cobblemon:is_warm_ocean"
+        ]
       },
       "anticondition": {
         "biomes": [
           "#cobblemon:is_cold",
           "#cobblemon:is_frozen"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     },
     {
@@ -57,11 +175,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-53",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

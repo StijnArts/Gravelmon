@@ -4,16 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:orohn-havai_impferno",
-      "texture": "cobblemon:textures/pokemon/orohn-havai/impferno.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/orohn-havai/impferno_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_58_by_55.geo",
+      "poser": "cobblemon:cutout_gravelmon_58_by_55",
+      "texture": "cobblemon:textures/pokemon/orohnhavai/impferno.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

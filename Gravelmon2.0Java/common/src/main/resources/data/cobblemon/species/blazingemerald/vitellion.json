@@ -1,10 +1,43 @@
 {
-  "implemented": true,
   "name": "Vitellion",
-  "nationalPokedexNumber": 3760,
   "primaryType": "questionmark",
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 600,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
-    "amalgam"  ],
+    "amalgam"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 250,
     "attack": 10,
@@ -13,37 +46,18 @@
     "special_defence": 130,
     "speed": 10
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 15,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 600,
-  "experienceGroup": "slow",
-  "eggCycles": 51,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "tm:cut",
     "tm:fly",
@@ -64,34 +78,27 @@
     "35:toxic",
     "40:shadowsneak",
     "45:cosmicpower",
-    "50:shadetrance"  ],
+    "50:shadetrance"
+  ],
   "labels": [
     "blazing_emerald",
-    "joke",
-    "not_modeled"
+    "joke"
   ],
   "pokedex": [
     "cobblemon.species.vitellion.desc"
   ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 7,
   "weight": 45,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3833,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

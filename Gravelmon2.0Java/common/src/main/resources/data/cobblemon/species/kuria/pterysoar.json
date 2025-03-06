@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Pterysoar",
-  "nationalPokedexNumber": 4246,
   "primaryType": "rock",
   "secondaryType": "flying",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 144,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ferociraptor",
+  "baseScale": 0.4067796610169492,
+  "cannotDynamax": false,
   "abilities": [
     "strongjaw",
     "sandforce",
     "h:unburden"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 95,
@@ -17,38 +50,19 @@
     "special_defence": 55,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:harden",
     "6:rockthrow",
@@ -60,7 +74,8 @@
     "39:painsplit",
     "46:stealthrock",
     "52:skydrop",
-    "61:stoneedge"  ],
+    "61:stoneedge"
+  ],
   "labels": [
     "kuria",
     "not_modeled",
@@ -70,7 +85,9 @@
   "pokedex": [
     "cobblemon.species.pterysoar.desc"
   ],
-  "preEvolution": "ferociraptor",
+  "height": 10,
+  "weight": 226,
+  "aspects": [],
   "evolutions": [
     {
       "id": "pterysoar_hoatzan",
@@ -81,31 +98,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 44
+          "minLevel": "44"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 4213,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 226,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

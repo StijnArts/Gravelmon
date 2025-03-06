@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Jamphibian",
-  "nationalPokedexNumber": 3402,
   "primaryType": "fairy",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "jarmalade",
+  "baseScale": 0.35744680851063826,
+  "cannotDynamax": false,
   "abilities": [
     "gooey",
     "stickyhold",
     "h:aromaveil"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 65,
@@ -17,37 +50,18 @@
     "special_defence": 130,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:naturalgift",
     "tm:acrobatics",
@@ -88,7 +102,8 @@
     "tm:swagger",
     "tm:takedown",
     "tm:toxic",
-    "tm:watergun"  ],
+    "tm:watergun"
+  ],
   "labels": [
     "lonava",
     "not_modeled",
@@ -98,26 +113,18 @@
   "pokedex": [
     "cobblemon.species.jamphibian.desc"
   ],
-  "preEvolution": "jarmalade",
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 7,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3331,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Aotius",
-  "nationalPokedexNumber": 2535,
   "primaryType": "flying",
   "secondaryType": "fire",
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 360,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 1.152,
+  "cannotDynamax": false,
   "abilities": [
-    "pressure"  ],
+    "pressure"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 110,
     "attack": 100,
@@ -14,56 +47,6 @@
     "special_defence": 100,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 3,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 360,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:atomicpunch",
-    "10:nuclearwaste",
-    "30:halflife"  ],
-  "labels": [
-    "uranium",
-    "legendary",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.aotius.desc"
-  ],
-  "baseScale": 0.7999999999999999,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 1,
     "attack": 0,
@@ -72,10 +55,35 @@
     "special_defence": 1,
     "speed": 0
   },
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {},
+  "moves": [
+    "1:atomicpunch",
+    "10:nuclearwaste",
+    "30:halflife"
+  ],
+  "labels": [
+    "uranium",
+    "legendary",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aotius.desc"
+  ],
   "height": 48,
   "weight": 3592,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2088,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 6.25,
+    "height": 6.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

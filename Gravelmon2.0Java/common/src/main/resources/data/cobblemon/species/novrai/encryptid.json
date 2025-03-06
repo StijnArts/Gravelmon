@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Encryptid",
-  "nationalPokedexNumber": 5215,
   "primaryType": "electric",
   "secondaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.7304347826086957,
+  "cannotDynamax": false,
   "abilities": [
     "download",
     "h:electricsurge"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 90,
@@ -16,38 +48,19 @@
     "special_defence": 80,
     "speed": 120
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:charge",
     "4:supersonic",
@@ -134,7 +147,8 @@
     "tm:hex",
     "tm:leechlife",
     "tm:gravity",
-    "tm:cut"  ],
+    "tm:cut"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
@@ -142,25 +156,18 @@
   "pokedex": [
     "cobblemon.species.encryptid.desc"
   ],
-  "baseScale": 0.35000000000000003,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 21,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4928,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.3125,
+    "height": 4.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

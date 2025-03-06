@@ -1,0 +1,92 @@
+{
+  "name": "Aristocarp",
+  "primaryType": "poison",
+  "secondaryType": "fairy",
+  "catchRate": 115,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "luxuroe",
+  "baseScale": 0.37714285714285717,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 139,
+    "attack": 53,
+    "defence": 143,
+    "special_attack": 34,
+    "special_defence": 34,
+    "speed": 19
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:poisonsting",
+    "1:disarmingvoice",
+    "1:bulkup",
+    "1:bulkup"
+  ],
+  "labels": [
+    "goetia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aristocarp.desc"
+  ],
+  "height": 11,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 5972,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.375,
+    "height": 4.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

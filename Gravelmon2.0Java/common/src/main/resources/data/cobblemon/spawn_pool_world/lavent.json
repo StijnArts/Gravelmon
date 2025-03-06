@@ -13,11 +13,19 @@
       "context": "submerged",
       "bucket": "common",
       "level": "33-57",
-      "weight": 5.5,
+      "weight": 8.25,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

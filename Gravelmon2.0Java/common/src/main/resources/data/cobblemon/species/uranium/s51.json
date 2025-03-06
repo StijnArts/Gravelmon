@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "S51",
-  "nationalPokedexNumber": 2448,
   "primaryType": "psychic",
   "secondaryType": "steel",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 72,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.25263157894736843,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "h:analytic"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 60,
@@ -16,38 +48,19 @@
     "special_defence": 60,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 72,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "monster",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:confusion",
     "4:growl",
@@ -140,7 +153,8 @@
     "egg:teleport",
     "egg:healblock",
     "egg:psychup",
-    "egg:ironhead"  ],
+    "egg:ironhead"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -148,6 +162,9 @@
   "pokedex": [
     "cobblemon.species.s51.desc"
   ],
+  "height": 3,
+  "weight": 125,
+  "aspects": [],
   "evolutions": [
     {
       "id": "s51_s51a",
@@ -158,31 +175,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2022,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.375,
+    "height": 2.375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 125,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

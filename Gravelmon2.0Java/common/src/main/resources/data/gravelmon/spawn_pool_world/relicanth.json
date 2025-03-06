@@ -7,17 +7,25 @@
       "id": "ayreian_relicanth-01",
       "pokemon": "relicanth ayreian",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
       "level": "20-48",
-      "weight": 10.0,
+      "weight": 15.0,
       "condition": {
         "minSkyLight": 0,
         "maxSkyLight": 7,
         "maxY": 0
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

@@ -1,12 +1,46 @@
 {
-  "implemented": true,
   "name": "Grumbale",
-  "nationalPokedexNumber": 3845,
   "primaryType": "dragon",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "draybale",
+  "baseScale": 0.5142857142857142,
+  "cannotDynamax": false,
   "abilities": [
     "lightningrod",
-    "angerpoint"  ],
+    "angerpoint"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 93,
     "attack": 87,
@@ -15,38 +49,19 @@
     "special_defence": 65,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:outrage",
     "1:stunspore",
@@ -60,7 +75,8 @@
     "tm:iondeluge",
     "tm:dragonbreath",
     "tm:lunge",
-    "tm:pinmissile"  ],
+    "tm:pinmissile"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -70,26 +86,18 @@
   "pokedex": [
     "cobblemon.species.grumbale.desc"
   ],
-  "preEvolution": "draybale",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 18,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3889,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.25,
+    "height": 5.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

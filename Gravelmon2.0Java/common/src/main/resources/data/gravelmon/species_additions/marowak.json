@@ -1,15 +1,5 @@
 {
-   "target": "cobblemon:marowak",
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:long_club",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-      },
+  "target": "cobblemon:marowak",
   "evolutions": [
     {
       "id": "marowak_terathwack",
@@ -23,8 +13,280 @@
           "itemCondition": "gravelmon:long_club"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:long_club",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cubone form=forman",
+      "baseScale": 0.046875,
+      "cannotDynamax": false,
+      "abilities": [
+        "justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 64,
+        "attack": 94,
+        "defence": 55,
+        "special_attack": 34,
+        "special_defence": 61,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:mudslap"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanmarowak.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanmarowak_dreadnok",
+          "variant": "level_up",
+          "result": "dreadnok",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "rock",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "cubone form=epoch",
+      "baseScale": 0.3287671232876712,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockhead",
+        "sapsipper"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 70,
+        "defence": 80,
+        "special_attack": 45,
+        "special_defence": 50,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "16:stealthrock",
+        "1:rockthrow",
+        "4:aquajet",
+        "32:aquaring",
+        "44:surgingstrikes",
+        "1:withdraw",
+        "12:rockpolish",
+        "8:spikecannon",
+        "40:rockslide",
+        "52:headsmash",
+        "24:rockblast",
+        "29:razorshell",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flipturn",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mudslide",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:stealthrock",
+        "tm:steameruption",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmarowak.desc"
+      ],
+      "height": 10,
+      "weight": 450,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5625,
+        "height": 4.5625,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "forman",
+    "epoch"
   ]
-
 }

@@ -128,8 +128,8 @@ public class NovranLapras extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 29, 54, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
@@ -137,6 +137,7 @@ public class NovranLapras extends drai.dev.data.pokemon.Pokemon {
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);
+        setCanWalkOnWater(true);
 
     }
 

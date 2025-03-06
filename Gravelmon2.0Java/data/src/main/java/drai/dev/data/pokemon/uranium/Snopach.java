@@ -101,6 +101,6 @@ public class Snopach extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

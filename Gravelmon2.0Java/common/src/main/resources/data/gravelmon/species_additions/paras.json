@@ -1,171 +1,468 @@
 {
-   "target": "cobblemon:paras",
-   "forms": [{
-  "name": "Fligian",
-  "primaryType": "ghost",
-  "secondaryType": "bug",
-  "abilities": [
-    "aftermath",
-    "effectspore",
-    "h:toxicboost"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 50,
-    "defence": 60,
-    "special_attack": 50,
-    "special_defence": 85,
-    "speed": 10
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:paras",
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "catchRate": 220,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "parant",
+      "baseScale": 0.032812499999999994,
+      "cannotDynamax": false,
+      "abilities": [
+        "arenatrap"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 155,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:crosspoison",
-    "1:absorb",
-    "1:scratch",
-    "6:poisonpowder",
-    "6:stunspore",
-    "11:bugbite",
-    "17:payback",
-    "22:spore",
-    "29:shadowclaw",
-    "34:ingrain",
-    "37:growth",
-    "51:strengthsap",
-    "tm:snore",
-    "tm:gigadrain",
-    "tm:synthesis",
-    "tm:knockoff",
-    "tm:worryseed",
-    "tm:seedbomb",
-    "tm:bugbite",
-    "tm:afteryou",
-    "tm:throatchop",
-    "tm:venomdrench",
-    "tm:poltergeist",
-    "tm:swordsdance",
-    "tm:hyperbeam",
-    "tm:toxic",
-    "tm:doubleteam",
-    "tm:lightscreen",
-    "tm:leechlife",
-    "tm:rest",
-    "tm:substitute",
-    "tm:thief",
-    "tm:protect",
-    "tm:sludgebomb",
-    "tm:falseswipe",
-    "tm:swagger",
-    "tm:attract",
-    "tm:sleeptalk",
-    "tm:return",
-    "tm:frustration",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:facade",
-    "tm:naturepower",
-    "tm:brickbreak",
-    "tm:aerialace",
-    "tm:xscissor",
-    "tm:energyball",
-    "tm:gigaimpact",
-    "tm:venoshock",
-    "tm:round",
-    "tm:confide",
-    "tm:swordsdance",
-    "tm:toxic",
-    "tm:bodyslam",
-    "tm:takedown",
-    "tm:doubleedge",
-    "tm:hyperbeam",
-    "tm:rage",
-    "tm:megadrain",
-    "tm:solarbeam",
-    "tm:dig",
-    "tm:mimic",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:bide",
-    "tm:skullbash",
-    "tm:rest",
-    "tm:substitute",
-    "tm:cut",
-    "tm:flash",
-    "tm:counter",
-    "tm:shadowball",
-    "tm:darkpulse"  ],
-  "labels": [
-    "fliga",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.fligianparas.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "paras_parasect_fligian",
-      "variant": "level_up",
-      "result": "parasect fligian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      },
+      "baseStats": {
+        "hp": 61,
+        "attack": 21,
+        "defence": 82,
+        "special_attack": 61,
+        "special_defence": 42,
+        "speed": 11
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:mudslap",
+        "1:bulkup",
+        "1:shoreup",
+        "1:pollenpuff",
+        "1:healbell"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanparas.desc"
+      ],
+      "height": 7,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
         {
-          "variant": "has_move",
-          "move": "shadowclaw"
+          "id": "formanparas_traffasict",
+          "variant": "level_up",
+          "result": "Traffasict",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "ghost",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18461538461538463,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "dryskin",
+        "h:contrary"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 30,
+        "defence": 60,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "8:poisonpowder",
+        "21:speedswap",
+        "1:infestation",
+        "5:acidspray",
+        "24:gigadrain",
+        "1:firstimpression",
+        "31:spore",
+        "11:megadrain",
+        "39:destinybond",
+        "35:sludgebomb",
+        "14:hex",
+        "8:stunspore",
+        "8:sleeppowder",
+        "21:powerswap",
+        "21:guardswap",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:stealthrock",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "egg:stickyweb",
+        "egg:healorder",
+        "egg:defendorder",
+        "egg:attackorder",
+        "egg:banefulbunker",
+        "egg:gastroacid",
+        "egg:venomdrench",
+        "egg:spite",
+        "egg:strengthsap",
+        "egg:perishsong",
+        "egg:skillswap"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochparas.desc"
+      ],
+      "height": 3,
+      "weight": 54,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochparas_parasect_epoch",
+          "variant": "level_up",
+          "result": "parasect epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Avalossian",
+      "primaryType": "ghost",
+      "secondaryType": "bug",
+      "catchRate": 155,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.33599999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "aftermath",
+        "effectspore",
+        "h:toxicboost"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 50,
+        "special_defence": 85,
+        "speed": 10
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:crosspoison",
+        "1:absorb",
+        "1:scratch",
+        "6:poisonpowder",
+        "6:stunspore",
+        "11:bugbite",
+        "17:payback",
+        "22:spore",
+        "29:shadowclaw",
+        "34:ingrain",
+        "37:growth",
+        "51:strengthsap",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:knockoff",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:bugbite",
+        "tm:afteryou",
+        "tm:throatchop",
+        "tm:venomdrench",
+        "tm:poltergeist",
+        "tm:swordsdance",
+        "tm:hyperbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:leechlife",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:falseswipe",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:brickbreak",
+        "tm:aerialace",
+        "tm:xscissor",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:swordsdance",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:solarbeam",
+        "tm:dig",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:bide",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute",
+        "tm:cut",
+        "tm:flash",
+        "tm:counter",
+        "tm:shadowball",
+        "tm:darkpulse"
+      ],
+      "labels": [
+        "fliga",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.avalossianparas.desc"
+      ],
+      "height": 7,
+      "weight": 0,
+      "aspects": [
+        "avalossian"
+      ],
+      "evolutions": [
+        {
+          "id": "avalossianparas_parasect_avalossian",
+          "variant": "level_up",
+          "result": "parasect avalossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "shadowclaw"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 0,
-  "aspects": ["fligian"],
-  "cannotDynamax": false
-}
-], "features": [
-"fligian"
+  "features": [
+    "forman",
+    "epoch",
+    "avalossian"
   ]
 }

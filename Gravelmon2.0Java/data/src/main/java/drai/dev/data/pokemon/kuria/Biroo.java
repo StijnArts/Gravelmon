@@ -25,7 +25,7 @@ public class Biroo extends drai.dev.data.pokemon.Pokemon {
                 List.of("It runs away from its own shadow most of the day, fearing something that we don't know. Some believe that the shadow is alive."),
                 List.of(new EvolutionEntry("noctoa", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(            new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

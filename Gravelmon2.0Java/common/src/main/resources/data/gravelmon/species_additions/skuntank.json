@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:skuntank",
+  "target": "cobblemon:skuntank",
   "evolutions": [
     {
       "id": "skuntank_skuntank_kaskadian",
@@ -10,15 +10,14 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 34
+          "minLevel": "34"
         },
         {
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_cold"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

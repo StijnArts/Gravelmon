@@ -25,7 +25,7 @@ public class Wotwot extends drai.dev.data.pokemon.Pokemon {
                 List.of("Wotwot will do the bidding of whatever they look up to, no matter how dark or unsafe the job is. For this reason, they're often stereotyped as 'evil' Pokemon."),
                 List.of(new EvolutionEntry("dunnoboss", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -45,8 +45,8 @@ public class Wotwot extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 5.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

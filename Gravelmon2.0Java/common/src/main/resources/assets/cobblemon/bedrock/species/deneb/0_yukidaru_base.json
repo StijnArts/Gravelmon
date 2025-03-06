@@ -7,13 +7,66 @@
       "model": "cobblemon:deneb_yukidaru.geo",
       "poser": "cobblemon:deneb_yukidaru",
       "texture": "cobblemon:textures/pokemon/deneb/yukidaru/yukidaru.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/yukidaru/yukidaru_shiny.png"
+      "model": "cobblemon:deneb_yukidaru.geo",
+      "poser": "cobblemon:deneb_yukidaru",
+      "texture": "cobblemon:textures/pokemon/deneb/yukidaru/yukidaru_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

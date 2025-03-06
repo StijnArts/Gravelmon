@@ -1,155 +1,167 @@
 {
-   "target": "cobblemon:deltawaterlilligant",
-   "forms": [{
-  "name": "Deltawater",
-  "primaryType": "water",
-  "abilities": [
-    "stormdrain",
-    "flashfire",
-    "h:regenerator"
-  ],
-  "baseStats": {
-    "hp": 70,
-    "attack": 60,
-    "defence": 75,
-    "special_attack": 110,
-    "special_defence": 75,
-    "speed": 90
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:deltawaterlilligant",
+  "forms": [
+    {
+      "name": "Deltawater",
+      "primaryType": "water",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "deltawaterpetilil form=delta_water",
+      "baseScale": 0.17837837837837842,
+      "cannotDynamax": false,
+      "abilities": [
+        "stormdrain",
+        "flashfire",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": true
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": true
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 60,
+        "defence": 75,
+        "special_attack": 110,
+        "special_defence": 75,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "1:aquaring",
+        "1:ember",
+        "1:recover",
+        "10:confuseray",
+        "28:tailglow",
+        "46:hydropump",
+        "50:fierydance",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:fireblast",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:brine",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:gigaimpact",
+        "tm:thunderwave",
+        "tm:venoshock",
+        "tm:shockwave",
+        "tm:poisonjab",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:dive",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:aquatail",
+        "tutor:bind",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:gastroacid",
+        "tutor:gigadrain",
+        "tutor:healbell",
+        "tutor:heatwave",
+        "tutor:magiccoat",
+        "tutor:mimic",
+        "tutor:painsplit",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:waterpulse",
+        "tutor:whirlpool"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltawaterlilligant.desc"
+      ],
+      "height": 11,
+      "weight": 163,
+      "aspects": [
+        "deltawater"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.25,
+        "height": 9.25,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 168,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:bubble",
-    "1:aquaring",
-    "1:ember",
-    "1:recover",
-    "10:confuseray",
-    "28:tailglow",
-    "46:hydropump",
-    "50:fierydance",
-    "tm:calmmind",
-    "tm:toxic",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:hyperbeam",
-    "tm:lightscreen",
-    "tm:protect",
-    "tm:raindance",
-    "tm:safeguard",
-    "tm:frustration",
-    "tm:solarbeam",
-    "tm:thunderbolt",
-    "tm:return",
-    "tm:doubleteam",
-    "tm:flamethrower",
-    "tm:sludgebomb",
-    "tm:fireblast",
-    "tm:facade",
-    "tm:flamecharge",
-    "tm:rest",
-    "tm:attract",
-    "tm:scald",
-    "tm:overheat",
-    "tm:energyball",
-    "tm:brine",
-    "tm:chargebeam",
-    "tm:willowisp",
-    "tm:gigaimpact",
-    "tm:thunderwave",
-    "tm:venoshock",
-    "tm:shockwave",
-    "tm:poisonjab",
-    "tm:swagger",
-    "tm:substitute",
-    "tm:sleeptalk",
-    "tm:dazzlinggleam",
-    "tm:achillesheel",
-    "tm:incinerate",
-    "tm:round",
-    "tm:captivate",
-    "tm:confide",
-    "tm:secretpower",
-    "tm:surf",
-    "tm:waterfall",
-    "tm:dive",
-    "tutor:acid",
-    "tutor:afteryou",
-    "tutor:aquatail",
-    "tutor:bind",
-    "tutor:earthpower",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:gastroacid",
-    "tutor:gigadrain",
-    "tutor:healbell",
-    "tutor:heatwave",
-    "tutor:magiccoat",
-    "tutor:mimic",
-    "tutor:painsplit",
-    "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:spite",
-    "tutor:waterpulse",
-    "tutor:whirlpool"  ],
-  "labels": [
-    "gen5",
-    "insurgence",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltawaterlilligant.desc"
-  ],
-  "preEvolution": "deltawaterpetilil form=delta_water",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 163,
-  "aspects": ["delta_water"],
-  "cannotDynamax": false
-}
-], "features": [
-"delta_water"
+  "features": [
+    "deltawater"
   ]
 }

@@ -6,6 +6,7 @@ import com.cobblemon.mod.common.pokemon.helditem.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.items.apricorn.*;
+import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelsextendedbattles.loot.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.resources.*;
@@ -36,13 +37,13 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SILVER_SCALE = item("silver_scale");
     public static RegistrySupplier<Item> ANCIENT_GLYPH = item("ancient_glyph");
     //    public static RegistrySupplier<Item> VOIDIX = item("voidix");
-//    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
-//    public static RegistrySupplier<Item> BURIX = item("burix");
-//    public static RegistrySupplier<Item> AQUIX = item("aquix");
-//    public static RegistrySupplier<Item> VERDIX = item("verdix");
-//    public static RegistrySupplier<Item> ZERIX = item("zerix");
-//    public static RegistrySupplier<Item> PATHIX = item("pathix");
-//    public static RegistrySupplier<Item> PIXIX = item("pixix");
+    //    public static RegistrySupplier<Item> ELECTRIX = item("electrix");
+    //    public static RegistrySupplier<Item> BURIX = item("burix");
+    //    public static RegistrySupplier<Item> AQUIX = item("aquix");
+    //    public static RegistrySupplier<Item> VERDIX = item("verdix");
+    //    public static RegistrySupplier<Item> ZERIX = item("zerix");
+    //    public static RegistrySupplier<Item> PATHIX = item("pathix");
+    //    public static RegistrySupplier<Item> PIXIX = item("pixix");
     public static RegistrySupplier<Item> SLOWPOKE_TAIL = item("slowpoke_tail");
     public static RegistrySupplier<Item> DREAD_PENDANT = item("dread_pendant");
     public static RegistrySupplier<Item> SPARE_PARTS = item("spare_parts");
@@ -51,7 +52,6 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> XENOVERSAL_RING = item("xenoversal_ring");
     public static RegistrySupplier<Item> INDUCTIVE_RING = item("inductive_ring");
 
-    //todo integrate new items
     public static RegistrySupplier<Item> GOLDEN_FEATHER = item("golden_feather");
     public static RegistrySupplier<Item> PIXIE_DUST = item("pixie_dust");
     public static RegistrySupplier<Item> OCARINA = item("ocarina");
@@ -98,7 +98,7 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore", GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore", GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
     public static RegistrySupplier<Item> SOLID_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.SOLID_STONE_BLOCK);
-    public static RegistrySupplier<Item> VARIA_STONE_BLOCK = blockItem("solid_stone_block", GravelmonBlocks.VARIA_STONE_BLOCK);
+    public static RegistrySupplier<Item> VARIA_STONE_BLOCK = blockItem("varia_stone_block", GravelmonBlocks.VARIA_STONE_BLOCK);
 
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;
@@ -167,9 +167,10 @@ public class GravelmonItems {
         return item;
     }
 
-    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, PokeBall pokeBall) {
+    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, GravelmonPokeBall pokeBall) {
         var item = ITEMS.register(name, () -> new PokeBallItem(pokeBall));
         POKE_BALLS.add(item);
+        pokeBall.setPokeBallItem(item);
         return item;
     }
 

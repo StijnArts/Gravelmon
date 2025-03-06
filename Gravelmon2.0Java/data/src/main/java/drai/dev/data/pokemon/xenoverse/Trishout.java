@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,14 +21,14 @@ public class Trishout extends Pokemon {
                 41, List.of(EggGroup.UNDISCOVERED),
                 List.of("Despite its size, it can already shout very loudly. If it cries too much, it becomes voiceless and coughs smoke."),
                 List.of(new EvolutionEntry("trishoutterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
                         new EvolutionEntry("trishoutxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"))),
                         new EvolutionEntry("trishoutastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50"))),
                         new EvolutionEntry("trishoutastral", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\""),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring"),
                                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
@@ -89,7 +90,7 @@ public class Trishout extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
@@ -97,8 +98,18 @@ public class Trishout extends Pokemon {
                 List.of());
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(0.9);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.6f, new Vector3(0.2, -2.4, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
+        getPosingFileData().setFaint("bedrock(trishout, faint)");
     }
 }

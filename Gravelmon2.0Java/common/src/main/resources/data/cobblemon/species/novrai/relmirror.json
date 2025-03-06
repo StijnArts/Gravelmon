@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Relmirror",
-  "nationalPokedexNumber": 5338,
   "primaryType": "steel",
   "secondaryType": "fairy",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 285,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.7263157894736841,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:wonderskin"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 75,
@@ -16,37 +48,18 @@
     "special_defence": 145,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 285,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:magiccoat",
     "6:astonish",
@@ -121,7 +134,8 @@
     "tm:confide",
     "tm:skillswap",
     "tm:icespinner",
-    "tm:hex"  ],
+    "tm:hex"
+  ],
   "labels": [
     "novrai",
     "not_modeled"
@@ -129,25 +143,18 @@
   "pokedex": [
     "cobblemon.species.relmirror.desc"
   ],
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 3,
-    "speed": 0
-  },
   "height": 23,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5034,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.75,
+    "height": 4.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

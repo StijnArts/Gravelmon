@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.vega;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -41,8 +42,16 @@ public class Doodloo extends Pokemon {
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.4, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(0.9);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.5f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
+        getPosingFileData().head = "torso";
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

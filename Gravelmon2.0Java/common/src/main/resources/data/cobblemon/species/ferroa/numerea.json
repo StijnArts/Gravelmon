@@ -1,10 +1,43 @@
 {
-  "implemented": true,
   "name": "Numerea",
-  "nationalPokedexNumber": 1818,
   "primaryType": "water",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 50,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.26666666666666666,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 35,
@@ -13,38 +46,19 @@
     "special_defence": 35,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 50,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "water_3"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "5:watergun",
@@ -129,7 +143,8 @@
     "tm:bind",
     "tm:refresh",
     "tm:flail",
-    "tm:eerieimpulse"  ],
+    "tm:eerieimpulse"
+  ],
   "labels": [
     "ferroa",
     "not_modeled"
@@ -137,25 +152,18 @@
   "pokedex": [
     "cobblemon.species.numerea.desc"
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 1,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1583,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.25,
+    "height": 2.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

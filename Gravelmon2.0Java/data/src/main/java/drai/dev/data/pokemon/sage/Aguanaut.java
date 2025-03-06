@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -141,8 +142,15 @@ public class Aguanaut extends Pokemon {
                 0.6, 0.3,
                 List.of());
         this.setCanSwim(true);
-        this.setPortraitXYZ(0.1, 1.5, 0);
-        this.setModeled(true);
+
         this.setBaseScale(1);
+        this.setHitbox(1,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.4, 1.6, 0));
+        getPosingFileData().setProfileData( .48f, new Vector3(0, 1.04, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+        ));
     }
 }

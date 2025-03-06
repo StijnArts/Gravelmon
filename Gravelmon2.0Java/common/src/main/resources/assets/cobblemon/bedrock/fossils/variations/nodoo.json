@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:nodoo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_nodoo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/nodoo.png",
+      "layers": []
+    }
+  ]
+}

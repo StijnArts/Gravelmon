@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beroxic",
+  "speciesId": "cobblemon:beroxic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

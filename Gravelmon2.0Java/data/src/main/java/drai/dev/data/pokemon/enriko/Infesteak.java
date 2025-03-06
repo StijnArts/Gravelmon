@@ -24,14 +24,10 @@ public class Infesteak extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("(Hemo/Poison type.) The worm embedded in its body impairs its vision, but also alerts it to danger. The bone in its gut can be removed and used as a weapon."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Infesteak");

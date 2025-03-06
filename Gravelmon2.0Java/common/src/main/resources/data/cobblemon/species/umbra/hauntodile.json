@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Hauntodile",
-  "nationalPokedexNumber": 3726,
   "primaryType": "ghost",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.028124999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "cursedbody",
     "h:stench"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 20,
     "attack": 60,
@@ -15,38 +47,19 @@
     "special_defence": 50,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 50,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:leer",
@@ -93,7 +106,8 @@
     "tutor:spite",
     "tutor:aquatail",
     "tutor:icywind",
-    "tutor:foulplay"  ],
+    "tutor:foulplay"
+  ],
   "labels": [
     "umbra",
     "not_modeled"
@@ -101,41 +115,35 @@
   "pokedex": [
     "cobblemon.species.hauntodile.desc"
   ],
+  "height": 6,
+  "weight": 86,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hauntodile_necrodile",
       "variant": "level_up",
       "result": "necrodile",
       "consumeHeldItem": false,
-      "learnableMoves": [    "hammerarm"],
+      "learnableMoves": [
+        "hammerarm"
+      ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 40
+          "minLevel": "40"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 3714,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 86,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

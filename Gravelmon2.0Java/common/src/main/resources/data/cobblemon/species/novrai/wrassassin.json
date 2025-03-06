@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Wrassassin",
-  "nationalPokedexNumber": 5202,
   "primaryType": "water",
   "secondaryType": "dark",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "wrassure",
+  "baseScale": 0.41739130434782606,
+  "cannotDynamax": false,
   "abilities": [
     "merciless",
     "h:infiltrator"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 127,
@@ -16,37 +49,18 @@
     "special_defence": 58,
     "speed": 88
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 177,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:absorb",
     "11:poisonfang",
@@ -140,7 +154,8 @@
     "tm:muddywater",
     "tm:wrap",
     "tm:purify",
-    "tm:chillingwater"  ],
+    "tm:chillingwater"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -150,26 +165,18 @@
   "pokedex": [
     "cobblemon.species.wrassassin.desc"
   ],
-  "preEvolution": "wrassure",
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 12,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4921,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.3125,
+    "height": 4.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

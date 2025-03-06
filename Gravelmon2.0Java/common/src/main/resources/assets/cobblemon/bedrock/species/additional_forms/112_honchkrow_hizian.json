@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:honchkrow",
-  "order": 3,
+  "order": 112,
   "variations": [
     {
       "aspects": [
         "hizian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_hizianhonchkrow",
+      "model": "cobblemon:cutout_gravelmon_77_by_72.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_72",
       "texture": "cobblemon:textures/pokemon/generation4/hizianhonchkrow.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "hizian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_hizianhonchkrow",
-      "texture": "cobblemon:textures/pokemon/generation4/hizianhonchkrow_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

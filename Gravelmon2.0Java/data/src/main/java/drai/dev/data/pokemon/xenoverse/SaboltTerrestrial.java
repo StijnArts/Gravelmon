@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class SaboltTerrestrial extends Pokemon {
                 List.of("It looks like the Red Energy had somehow affected this Pokemon. Wrapped in the darkness of its cloak, it shoots thunderbolts all of sudden."),
                 List.of(new EvolutionEntry("sabolt terrestrial=false", EvolutionType.LEVEL_UP, false, List.of(), List.of()),
                         new EvolutionEntry("saboltxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_PUNCH,1),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,1),
@@ -89,6 +89,6 @@ public class SaboltTerrestrial extends Pokemon {
                 0.9, 1,
                 List.of());
         this.setLangFileName("Sabolt");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

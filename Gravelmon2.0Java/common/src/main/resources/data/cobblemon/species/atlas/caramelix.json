@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Caramelix",
-  "nationalPokedexNumber": 5413,
   "primaryType": "fairy",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 148,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lickypop",
+  "baseScale": 0.32542372881355935,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:stickyhold"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 54,
     "attack": 82,
@@ -15,38 +48,19 @@
     "special_defence": 73,
     "speed": 97
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 148,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:refresh",
     "5:mefirst",
@@ -95,7 +109,8 @@
     "tm:present",
     "tm:followme",
     "tm:refresh",
-    "tm:gastroacid"  ],
+    "tm:gastroacid"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -105,26 +120,18 @@
   "pokedex": [
     "cobblemon.species.caramelix.desc"
   ],
-  "preEvolution": "lickypop",
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 8,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5077,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

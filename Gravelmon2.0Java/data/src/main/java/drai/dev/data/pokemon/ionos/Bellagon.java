@@ -16,7 +16,7 @@ public class Bellagon extends drai.dev.data.pokemon.Pokemon {
                         90,
                         90),
                 List.of(Ability.DANCER), Ability.DANCER,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.12,
                 0, ExperienceGroup.ERRATIC,
@@ -50,13 +50,13 @@ public class Bellagon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Bellagon");
 
     }

@@ -4,6 +4,54 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "mahalian_trubbish-01",
+      "pokemon": "trubbish mahalian",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_trubbish-01",
+      "pokemon": "trubbish epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-36",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "egho_trubbish-01",
       "pokemon": "trubbish egho",
       "presets": [
@@ -13,13 +61,21 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-32",
-      "weight": 2.9,
+      "weight": 4.35,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
       }
     }
   ]

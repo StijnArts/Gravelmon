@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:ditto",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaditto.geo",
+      "model": "cobblemon:generation1_deltaditto.geo",
       "poser": "cobblemon:generation1_deltaditto",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaditto.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaditto/deltaditto.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaditto.geo",
+      "model": "cobblemon:generation1_deltaditto.geo",
       "poser": "cobblemon:generation1_deltaditto",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaditto_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaditto/deltaditto_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

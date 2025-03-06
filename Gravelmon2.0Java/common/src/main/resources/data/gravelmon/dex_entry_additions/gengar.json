@@ -2,6 +2,18 @@
   "entryId": "cobblemon:gengar",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Havaiian",
       "unlockForms": [
         "Havaiian"

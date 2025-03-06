@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Comossus",
-  "nationalPokedexNumber": 1232,
   "primaryType": "rock",
   "secondaryType": "grass",
+  "catchRate": 15,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 193,
+  "experienceGroup": "slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "preEvolution": "grolem",
+  "baseScale": 0.20625000000000002,
+  "cannotDynamax": false,
   "abilities": [
     "sheerforce",
     "h:solarpower"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 89,
     "attack": 80,
@@ -16,38 +49,28 @@
     "special_defence": 91,
     "speed": 64
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 15,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 193,
-  "experienceGroup": "slow",
-  "eggCycles": 76,
   "eggGroups": [
     "mineral",
     "grass"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:mossy_cobblestone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:flashcannon",
     "1:chargebeam",
@@ -136,7 +159,8 @@
     "tutor:synthesis",
     "tutor:thunderpunch",
     "tutor:trick",
-    "tutor:zenheadbutt"  ],
+    "tutor:zenheadbutt"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -146,26 +170,18 @@
   "pokedex": [
     "cobblemon.species.comossus.desc"
   ],
-  "preEvolution": "grolem",
-  "baseScale": 0.7333333333333334,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 44,
   "weight": 4836,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1144,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Punchbug",
-  "nationalPokedexNumber": 2123,
   "primaryType": "bug",
   "secondaryType": "fighting",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "beefle",
+  "baseScale": 0.21176470588235294,
+  "cannotDynamax": false,
   "abilities": [
     "swarm",
     "battlearmor",
     "h:hugepower"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 73,
@@ -17,37 +50,18 @@
     "special_defence": 64,
     "speed": 15
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 130,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:protect",
     "1:tackle",
@@ -97,7 +111,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:strugglebug",
-    "tutor:superpower"  ],
+    "tutor:superpower"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -107,7 +122,9 @@
   "pokedex": [
     "cobblemon.species.punchbug.desc"
   ],
-  "preEvolution": "beefle",
+  "height": 6,
+  "weight": 328,
+  "aspects": [],
   "evolutions": [
     {
       "id": "punchbug_hercurcules",
@@ -118,31 +135,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": "38"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1794,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.25,
+    "height": 4.25,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 6,
-  "weight": 328,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

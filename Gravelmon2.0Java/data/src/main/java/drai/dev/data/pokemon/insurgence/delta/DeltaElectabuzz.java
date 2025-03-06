@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class DeltaElectabuzz extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("After midnight they can be seen congregating on rooftops. However, they always make sure to return to their original positions before morning."),
                 List.of(new EvolutionEntry("deltaelectivire", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:electirizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:electirizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -134,6 +134,5 @@ public class DeltaElectabuzz extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Electabuzz");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

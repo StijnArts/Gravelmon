@@ -24,7 +24,8 @@ public class QamoranGrumpig extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Grumpig act like admins to Spoink, making them do the hard work as they nap lazily on beaches. But even they have to report to their Boss when it calls for them."),
-                List.of(),
+                List.of(new EvolutionEntry("grumpork", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TORMENT,1),
                         new MoveLearnSetEntry(Move.ROCK_SMASH,7),

@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:bergmite",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltabergmite.geo",
+      "model": "cobblemon:generation6_deltabergmite.geo",
       "poser": "cobblemon:generation6_deltabergmite",
-      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite/deltabergmite.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltabergmite.geo",
+      "model": "cobblemon:generation6_deltabergmite.geo",
       "poser": "cobblemon:generation6_deltabergmite",
-      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite/deltabergmite_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

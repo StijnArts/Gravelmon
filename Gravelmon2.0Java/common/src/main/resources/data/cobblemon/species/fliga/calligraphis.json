@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Calligraphis",
-  "nationalPokedexNumber": 3963,
   "primaryType": "ghost",
   "secondaryType": "water",
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 257,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.8869565217391304,
+  "cannotDynamax": false,
   "abilities": [
-    "beastboost"  ],
+    "beastboost"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 41,
     "attack": 73,
@@ -14,37 +47,18 @@
     "special_defence": 113,
     "speed": 163
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 30,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 257,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "4:watergun",
@@ -62,7 +76,8 @@
     "40:aquaring",
     "42:soak",
     "46:hydropump",
-    "49:phantomforce"  ],
+    "49:phantomforce"
+  ],
   "labels": [
     "fliga",
     "not_modeled"
@@ -70,25 +85,18 @@
   "pokedex": [
     "cobblemon.species.calligraphis.desc"
   ],
-  "baseScale": 0.5666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
   "height": 34,
   "weight": 0,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3978,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.75,
+    "height": 5.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

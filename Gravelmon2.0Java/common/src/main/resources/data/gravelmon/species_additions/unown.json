@@ -1,5 +1,5 @@
 {
-   "target": "cobblemon:unown",
+  "target": "cobblemon:unown",
   "evolutions": [
     {
       "id": "unown_metunn",
@@ -7,15 +7,13 @@
       "result": "metunn",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "gravelmon:ancient_glyph",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
   "drops": {
-    "amount": "1",
+    "amount": 3,
     "entries": [
       {
         "item": "gravelmon:ancient_glyph",
@@ -23,232 +21,371 @@
         "percentage": 10
       }
     ]
+  },
+  "forms": [
+    {
+      "name": "Forman",
+      "primaryType": "dark",
+      "secondaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
       },
-   "forms": [{
-  "name": "Norheiman",
-  "primaryType": "psychic",
-  "secondaryType": "rock",
-  "abilities": [
-    "levitate"  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 48,
-    "defence": 72,
-    "special_attack": 72,
-    "special_defence": 48,
-    "speed": 48
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      "baseStats": {
+        "hp": 54,
+        "attack": 99,
+        "defence": 58,
+        "special_attack": 29,
+        "special_defence": 58,
+        "speed": 84
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:confusion",
+        "1:quickattack",
+        "1:agility"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanunown.desc"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanunown_chainown",
+          "variant": "level_up",
+          "result": "chainown",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Norheiman",
+      "primaryType": "psychic",
+      "secondaryType": "rock",
+      "catchRate": 225,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.36363636363636365,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 225,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:hiddenpower",
-    "21:cosmicpower",
-    "41:ancientpower",
-    "61:storedpower"  ],
-  "labels": [
-    "norheim",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.norheimanunown.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": ["norheiman"],
-  "cannotDynamax": false
-},
-{
-  "name": "Earth",
-  "primaryType": "psychic",
-  "abilities": [
-    "levitate"  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 72,
-    "defence": 48,
-    "special_attack": 72,
-    "special_defence": 48,
-    "speed": 48
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 48,
+        "defence": 72,
+        "special_attack": 72,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:hiddenpower",
+        "21:cosmicpower",
+        "41:ancientpower",
+        "61:storedpower"
+      ],
+      "labels": [
+        "norheim",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.norheimanunown.desc"
+      ],
+      "height": 5,
+      "weight": 165,
+      "aspects": [
+        "norheiman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.0625,
+        "height": 2.0625,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Earth",
+      "primaryType": "psychic",
+      "catchRate": 225,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 118,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "baseScale": 0.09375,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 225,
-  "shoulderMountable": false,
-  "baseExperienceYield": 118,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:hiddenpower"  ],
-  "labels": [
-    "xenoverse",
-    "gen2",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.unownearth.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["earth"],
-  "cannotDynamax": false
-},
-{
-  "name": "Xenoverse",
-  "primaryType": "psychic",
-  "abilities": [
-    "levitate"  ],
-  "baseStats": {
-    "hp": 48,
-    "attack": 72,
-    "defence": 48,
-    "special_attack": 72,
-    "special_defence": 48,
-    "speed": 48
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 72,
+        "defence": 48,
+        "special_attack": 72,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:hiddenpower"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.unownearth.desc"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "earth"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Xenoverse",
+      "primaryType": "psychic",
+      "catchRate": 225,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 118,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "baseScale": 0.09375,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 48,
+        "attack": 72,
+        "defence": 48,
+        "special_attack": 72,
+        "special_defence": 48,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:hiddenpower"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.unownxenoverse.desc"
+      ],
+      "height": 5,
+      "weight": 50,
+      "aspects": [
+        "xenoverse"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.0,
+        "height": 8.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 225,
-  "shoulderMountable": false,
-  "baseExperienceYield": 118,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:hiddenpower"  ],
-  "labels": [
-    "xenoverse",
-    "gen2",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.unownxenoverse.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 50,
-  "aspects": ["xenoverse"],
-  "cannotDynamax": false
-}
-], "features": [
-"norheiman",
-"earth",
-"xenoverse"
+  "features": [
+    "forman",
+    "norheiman",
+    "earth",
+    "xenoverse"
   ]
 }

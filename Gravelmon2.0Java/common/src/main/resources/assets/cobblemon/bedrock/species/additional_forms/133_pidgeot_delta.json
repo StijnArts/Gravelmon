@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:pidgeot",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltapidgeot.geo",
+      "model": "cobblemon:generation1_deltapidgeot.geo",
       "poser": "cobblemon:generation1_deltapidgeot",
-      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeot.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeot/deltapidgeot.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltapidgeot.geo",
+      "model": "cobblemon:generation1_deltapidgeot.geo",
       "poser": "cobblemon:generation1_deltapidgeot",
-      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeot_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgeot/deltapidgeot_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

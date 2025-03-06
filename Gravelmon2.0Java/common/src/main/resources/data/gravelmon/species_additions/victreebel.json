@@ -1,151 +1,264 @@
 {
-   "target": "cobblemon:victreebel",
-   "forms": [{
-  "name": "Aristosian",
-  "primaryType": "grass",
-  "secondaryType": "fire",
-  "abilities": [
-    "chlorophyll",
-    "h:flashfire"
-  ],
-  "baseStats": {
-    "hp": 80,
-    "attack": 90,
-    "defence": 65,
-    "special_attack": 115,
-    "special_defence": 70,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:victreebel",
+  "forms": [
+    {
+      "name": "Avalossian",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 221,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5666666666666667,
+      "cannotDynamax": false,
+      "abilities": [
+        "corrosion"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defence": 75,
+        "special_attack": 110,
+        "special_defence": 70,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:poisonsting",
+        "4:absorb",
+        "7:growth",
+        "10:leechseed",
+        "13:sandattack",
+        "16:bulletseed",
+        "19:powertrip",
+        "22:ingrain",
+        "26:payback",
+        "30:spikes",
+        "34:suckerpunch",
+        "38:pinmissile",
+        "42:energyball",
+        "46:cottonspore",
+        "50:sandstorm",
+        "54:destinybond"
+      ],
+      "labels": [
+        "fliga",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.avalossianvictreebel.desc"
+      ],
+      "height": 17,
+      "weight": 0,
+      "aspects": [
+        "avalossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5,
+        "height": 4.5,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Aristosian",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 221,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "weepinbell form=aristosian",
+      "baseScale": 0.5806451612903225,
+      "cannotDynamax": false,
+      "abilities": [
+        "chlorophyll",
+        "h:flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 90,
+        "defence": 65,
+        "special_attack": 115,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:weatherball",
+        "32:leafstorm",
+        "45:firelash",
+        "tm:bind",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:knockoff",
+        "tm:gastroacid",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:swordsdance",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:poisonjab",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:infestation",
+        "tm:swordsdance",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:solarbeam",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:bide",
+        "tm:rest",
+        "tm:substitute",
+        "tm:cut",
+        "tm:flash",
+        "tm:leechlife",
+        "tm:encore",
+        "tm:ingrain",
+        "tm:tickle",
+        "tm:bulletseed",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:powerwhip",
+        "tm:acidspray",
+        "tm:clearsmog",
+        "tm:belch",
+        "tm:strengthsap"
+      ],
+      "labels": [
+        "aristos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.aristosianvictreebel.desc"
+      ],
+      "height": 15,
+      "weight": 131,
+      "aspects": [
+        "aristosian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.875,
+        "height": 3.875,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 221,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "grass"
   ],
-  "moves": [
-    "1:weatherball",
-    "32:leafstorm",
-    "45:firelash",
-    "tm:bind",
-    "tm:snore",
-    "tm:gigadrain",
-    "tm:synthesis",
-    "tm:knockoff",
-    "tm:gastroacid",
-    "tm:worryseed",
-    "tm:seedbomb",
-    "tm:swordsdance",
-    "tm:hyperbeam",
-    "tm:solarbeam",
-    "tm:toxic",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:rest",
-    "tm:substitute",
-    "tm:thief",
-    "tm:protect",
-    "tm:sludgebomb",
-    "tm:swagger",
-    "tm:attract",
-    "tm:sleeptalk",
-    "tm:return",
-    "tm:frustration",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:facade",
-    "tm:naturepower",
-    "tm:poisonjab",
-    "tm:energyball",
-    "tm:gigaimpact",
-    "tm:grassknot",
-    "tm:venoshock",
-    "tm:round",
-    "tm:confide",
-    "tm:infestation",
-    "tm:swordsdance",
-    "tm:toxic",
-    "tm:bodyslam",
-    "tm:takedown",
-    "tm:doubleedge",
-    "tm:hyperbeam",
-    "tm:rage",
-    "tm:megadrain",
-    "tm:solarbeam",
-    "tm:mimic",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:bide",
-    "tm:rest",
-    "tm:substitute",
-    "tm:cut",
-    "tm:flash",
-    "tm:leechlife",
-    "tm:encore",
-    "tm:ingrain",
-    "tm:tickle",
-    "tm:bulletseed",
-    "tm:magicalleaf",
-    "tm:naturalgift",
-    "tm:powerwhip",
-    "tm:acidspray",
-    "tm:clearsmog",
-    "tm:belch",
-    "tm:strengthsap"  ],
-  "labels": [
-    "aristos",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.aristosianvictreebel.desc"
-  ],
-  "preEvolution": "weepinbell form=aristosian",
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 131,
-  "aspects": ["aristosian"],
-  "cannotDynamax": false
-}
-], "features": [
-"aristosian"
+  "features": [
+    "avalossian",
+    "aristosian"
   ]
 }

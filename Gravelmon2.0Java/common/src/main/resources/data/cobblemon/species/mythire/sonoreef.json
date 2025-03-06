@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Sonoreef",
-  "nationalPokedexNumber": 3793,
   "primaryType": "water",
   "secondaryType": "flying",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "quarina",
+  "baseScale": 0.36000000000000004,
+  "cannotDynamax": false,
   "abilities": [
     "liquidvoice",
     "h:serenegrace"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 72,
     "attack": 55,
@@ -16,37 +49,18 @@
     "special_defence": 98,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 158,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "5:helpinghand",
     "12:sing",
@@ -104,7 +118,8 @@
     "tm:watergun",
     "tm:waterfall",
     "tm:whirlwind",
-    "tm:aircutter"  ],
+    "tm:aircutter"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -114,26 +129,18 @@
   "pokedex": [
     "cobblemon.species.sonoreef.desc"
   ],
-  "preEvolution": "quarina",
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 9,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3854,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.75,
+    "height": 3.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

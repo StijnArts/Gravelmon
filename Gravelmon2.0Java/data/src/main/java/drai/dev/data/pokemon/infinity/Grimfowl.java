@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -93,7 +95,7 @@ public class Grimfowl extends Pokemon {
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 51, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -101,9 +103,23 @@ public class Grimfowl extends Pokemon {
                 0.43, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(0.85);
         setHitbox(1.2, 2.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("grimfowl");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.6, 2.1, -10.0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0.0, 1.05, 0.0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().withLook()
+                        .addPoseType(PoseType.SWIM)
+                        .addPoseType(PoseType.FLOAT)
+                        .addPoseType(PoseType.SLEEP).addPoseType(PoseType.WALK),
+                AnimationData.hoveringAnimation().addPoseType(PoseType.FLY).withLook().addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')").withBlink()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('grimfowl', 'cry')");
+
     }
 }

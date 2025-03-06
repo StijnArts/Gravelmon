@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Iguadium",
-  "nationalPokedexNumber": 1032,
   "primaryType": "water",
   "secondaryType": "fighting",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "preEvolution": "aguade",
+  "baseScale": 0.7,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:toughclaws"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 75,
@@ -16,38 +49,33 @@
     "special_defence": 60,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 145,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 41,
   "eggGroups": [
     "water_1",
     "monster"
   ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:prismarine",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:scratch",
     "1:tailwhip",
@@ -146,7 +174,8 @@
     "egg:metalclaw",
     "egg:rockslide",
     "egg:superpower",
-    "egg:waterpulse"  ],
+    "egg:waterpulse"
+  ],
   "labels": [
     "sage",
     "fakemon",
@@ -155,7 +184,9 @@
   "pokedex": [
     "cobblemon.species.iguadium.desc"
   ],
-  "preEvolution": "aguade",
+  "height": 11,
+  "weight": 290,
+  "aspects": [],
   "evolutions": [
     {
       "id": "iguadium_aguanaut",
@@ -166,31 +197,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 36
+          "minLevel": "36"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.7,
+  "nationalPokedexNumber": 1030,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 1.1,
-    "height": 1.1,
+    "width": 1.0,
+    "height": 1.4,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 290,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Tamareath",
-  "nationalPokedexNumber": 3850,
   "primaryType": "ghost",
   "secondaryType": "fairy",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.192,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "synchronize",
     "h:wanderingspirit"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 50,
@@ -17,38 +49,19 @@
     "special_defence": 130,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:ominouswind",
     "1:destinybond",
@@ -98,7 +111,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:whirlwind",
-    "tm:willowisp"  ],
+    "tm:willowisp"
+  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -106,25 +120,18 @@
   "pokedex": [
     "cobblemon.species.tamareath.desc"
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 3,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3893,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.125,
+    "height": 3.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

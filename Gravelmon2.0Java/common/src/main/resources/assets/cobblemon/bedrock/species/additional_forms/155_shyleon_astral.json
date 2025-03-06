@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:shyleon",
-  "order": 3,
+  "order": 155,
   "variations": [
     {
       "aspects": [
         "astral"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_shyleonastral.geo",
       "poser": "cobblemon:xenoverse_shyleonastral",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral/shyleonastral.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -35,18 +41,21 @@
         "astral",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_shyleonastral.geo",
       "poser": "cobblemon:xenoverse_shyleonastral",
-      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral_shiny.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleonastral/shyleonastral_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +64,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

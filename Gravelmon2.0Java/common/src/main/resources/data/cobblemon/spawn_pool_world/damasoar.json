@@ -8,13 +8,13 @@
       "pokemon": "damasoar",
       "presets": [
         "natural",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
-      "level": "36-58",
-      "weight": 0.8,
+      "level": "36-53",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",
@@ -22,6 +22,14 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

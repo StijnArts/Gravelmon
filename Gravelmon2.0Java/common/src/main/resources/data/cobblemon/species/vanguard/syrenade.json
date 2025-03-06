@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Syrenade",
-  "nationalPokedexNumber": 4111,
   "primaryType": "poison",
   "secondaryType": "sound",
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 139,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "syrallure",
+  "baseScale": 0.47472527472527476,
+  "cannotDynamax": false,
   "abilities": [
     "queenlymajesty",
     "h:regenerator"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 85,
@@ -16,38 +49,19 @@
     "special_defence": 128,
     "speed": 162
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 45,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 139,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_1",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:acidarmor",
     "1:sparklingaria",
@@ -129,7 +143,8 @@
     "tutor:weatherball",
     "tutor:whirlpool",
     "tutor:wonderroom",
-    "tutor:workup"  ],
+    "tutor:workup"
+  ],
   "labels": [
     "vanguard",
     "not_modeled",
@@ -139,26 +154,18 @@
   "pokedex": [
     "cobblemon.species.syrenade.desc"
   ],
-  "preEvolution": "syrallure",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
   "height": 18,
   "weight": 1440,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4085,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.6875,
+    "height": 5.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

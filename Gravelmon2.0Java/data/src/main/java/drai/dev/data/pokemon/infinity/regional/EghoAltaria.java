@@ -112,6 +112,6 @@ public class EghoAltaria extends Pokemon {
                 List.of());
         this.setCanFly(true);
         this.setLangFileName("Altaria");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

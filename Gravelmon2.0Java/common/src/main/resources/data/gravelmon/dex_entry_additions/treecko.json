@@ -2,15 +2,33 @@
   "entryId": "cobblemon:treecko",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Forman",
       "unlockForms": [
-        "Fligian"
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     },
     {

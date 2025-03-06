@@ -2,6 +2,12 @@
   "entryId": "cobblemon:toxapex",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "X",
       "unlockForms": [
         "X"

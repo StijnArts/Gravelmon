@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -97,7 +97,7 @@ public class Hydranticus extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:slime_ball",100, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 56, 3.5, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 35, 56, 3.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN,Biome.IS_FRESHWATER))),
@@ -107,6 +107,7 @@ public class Hydranticus extends Pokemon {
         this.setCanFly(true);
         setCanBreathUnderwater(true);
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        setCanWalkOnWater(true);
+
     }
 }

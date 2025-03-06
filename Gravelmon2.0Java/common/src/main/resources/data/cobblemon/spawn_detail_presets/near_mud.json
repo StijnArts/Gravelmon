@@ -1,8 +1,5 @@
 {
   "condition": {
-    "neededNearbyBlocks": [
-      "minecraft:mud",
-      "minecraft:muddy_mangrove_roots"
-    ]
+    "neededNearbyBlocks": ["minecraft:mud"]
   }
 }

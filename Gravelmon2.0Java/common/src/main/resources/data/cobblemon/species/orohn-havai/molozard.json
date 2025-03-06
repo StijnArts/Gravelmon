@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Molozard",
-  "nationalPokedexNumber": 2984,
   "primaryType": "fire",
+  "catchRate": 47,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 136,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "chemecko",
+  "baseScale": 0.37714285714285717,
+  "cannotDynamax": false,
   "abilities": [
     "frisk",
     "limber",
     "h:dryskin"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 68,
     "attack": 102,
@@ -16,38 +49,19 @@
     "special_defence": 57,
     "speed": 126
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 47,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 136,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:ember",
     "6:quickattack",
@@ -68,7 +82,8 @@
     "tm:willowisp",
     "tm:revenge",
     "tm:knockoff",
-    "tm:suckerpunch"  ],
+    "tm:suckerpunch"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -78,26 +93,18 @@
   "pokedex": [
     "cobblemon.species.molozard.desc"
   ],
-  "preEvolution": "chemecko",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 11,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2980,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.375,
+    "height": 4.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

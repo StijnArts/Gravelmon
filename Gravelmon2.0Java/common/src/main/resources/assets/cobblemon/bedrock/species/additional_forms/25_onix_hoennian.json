@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:onix",
-  "order": 3,
+  "order": 25,
   "variations": [
     {
       "aspects": [
@@ -11,13 +11,16 @@
       "texture": "cobblemon:textures/pokemon/generation1/hoennianonix/hoennianonix.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -40,13 +46,16 @@
       "texture": "cobblemon:textures/pokemon/generation1/hoennianonix/hoennianonix_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +64,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

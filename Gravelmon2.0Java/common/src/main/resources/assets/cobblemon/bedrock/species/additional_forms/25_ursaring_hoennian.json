@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:ursaring",
-  "order": 10,
+  "order": 25,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,32 @@
       "model": "cobblemon:generation2_hoennianursaring.geo",
       "poser": "cobblemon:generation2_hoennianursaring",
       "texture": "cobblemon:textures/pokemon/generation2/hoennianursaring/hoennianursaring.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +44,32 @@
       "model": "cobblemon:generation2_hoennianursaring.geo",
       "poser": "cobblemon:generation2_hoennianursaring",
       "texture": "cobblemon:textures/pokemon/generation2/hoennianursaring/hoennianursaring_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

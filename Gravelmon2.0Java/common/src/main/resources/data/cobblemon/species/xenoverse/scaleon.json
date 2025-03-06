@@ -1,10 +1,43 @@
 {
-  "implemented": true,
   "name": "Scaleon",
-  "nationalPokedexNumber": 2162,
   "primaryType": "dragon",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "baseFriendship": 70,
+  "baseScale": 0.4235294117647059,
+  "cannotDynamax": false,
   "abilities": [
-    "hypercutter"  ],
+    "hypercutter"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 95,
     "attack": 130,
@@ -13,37 +46,18 @@
     "special_defence": 65,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 184,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 35,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:dragonpledge",
     "1:helpinghand",
@@ -128,7 +142,8 @@
     "tutor:outrage",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "infinity",
     "not_modeled"
@@ -136,25 +151,18 @@
   "pokedex": [
     "cobblemon.species.scaleon.desc"
   ],
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 12,
   "weight": 309,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1828,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.25,
+    "height": 4.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

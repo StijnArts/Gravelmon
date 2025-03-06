@@ -5,17 +5,36 @@
     {
       "aspects": [
         "snowy"
-     ],
-      "poser": "cobblemon:deneb_terubim",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/deneb/snowy_terubim.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "snowy",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/deneb/snowy_terubim_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_37_by_41.geo",
+      "poser": "cobblemon:cutout_gravelmon_37_by_41",
+      "texture": "cobblemon:textures/pokemon/deneb/snowy.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

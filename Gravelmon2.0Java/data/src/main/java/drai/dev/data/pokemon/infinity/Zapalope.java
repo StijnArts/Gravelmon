@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class Zapalope extends Pokemon {
                 20, List.of(EggGroup.GRASS, EggGroup.FAIRY),
                 List.of("A Pokemon that zips through dense forests with ease. Its electrical energy allows it to move at high speeds. You can tell a Zapalope trail by the singed edges of the plants around it."),
                 List.of(new EvolutionEntry("joltalope", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.HORN_LEECH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.HORN_LEECH.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,1),
                         new MoveLearnSetEntry(Move.PAY_DAY,1),
@@ -111,11 +111,11 @@ public class Zapalope extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

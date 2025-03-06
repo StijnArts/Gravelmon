@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Orbtholod",
-  "nationalPokedexNumber": 3549,
   "primaryType": "psychic",
   "secondaryType": "dark",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 365,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 70,
+  "baseScale": 0.09843750000000001,
+  "cannotDynamax": false,
   "abilities": [
     "beastboost",
     "h:magicguard"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 79,
     "attack": 41,
@@ -16,37 +48,18 @@
     "special_defence": 113,
     "speed": 103
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 365,
-  "experienceGroup": "slow",
-  "eggCycles": 200,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:allyswitch",
     "1:confusion",
@@ -109,7 +122,8 @@
     "tm:focusblast",
     "tm:trickroom",
     "tm:hyperbeam",
-    "tm:terablast"  ],
+    "tm:terablast"
+  ],
   "labels": [
     "lockemon",
     "not_modeled"
@@ -117,25 +131,18 @@
   "pokedex": [
     "cobblemon.species.orbtholod.desc"
   ],
-  "baseScale": 0.35000000000000003,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 21,
   "weight": 937,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3445,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

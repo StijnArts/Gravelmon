@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Karmilarie",
-  "nationalPokedexNumber": 2599,
   "primaryType": "bug",
   "secondaryType": "electric",
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.6,
+  "cannotDynamax": false,
   "abilities": [
     "triage",
     "h:punkrock"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 52,
     "attack": 96,
@@ -16,38 +48,19 @@
     "special_defence": 87,
     "speed": 112
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 30,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:megadrain",
     "1:strugglebug",
@@ -69,7 +82,8 @@
     "egg:acidspray",
     "egg:confuseray",
     "egg:uproar",
-    "egg:powertrip"  ],
+    "egg:powertrip"
+  ],
   "labels": [
     "flux",
     "not_modeled"
@@ -77,25 +91,18 @@
   "pokedex": [
     "cobblemon.species.karmilarie.desc"
   ],
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 18,
   "weight": 330,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2133,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5,
+    "height": 4.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

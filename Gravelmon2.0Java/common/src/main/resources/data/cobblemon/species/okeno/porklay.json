@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Porklay",
-  "nationalPokedexNumber": 4645,
   "primaryType": "ground",
   "secondaryType": "fighting",
+  "catchRate": 90,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "piglitt",
+  "baseScale": 0.4444444444444444,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "h:scrappy"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 83,
@@ -16,37 +49,18 @@
     "special_defence": 54,
     "speed": 46
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:mudslap",
     "6:mudsport",
@@ -64,7 +78,8 @@
     "tm:heavyslam",
     "tm:bellydrum",
     "tm:bodypress",
-    "tm:heatcrash"  ],
+    "tm:heatcrash"
+  ],
   "labels": [
     "okeno",
     "not_modeled",
@@ -74,7 +89,9 @@
   "pokedex": [
     "cobblemon.species.porklay.desc"
   ],
-  "preEvolution": "piglitt",
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "porklay_javernaut",
@@ -82,31 +99,18 @@
       "result": "javernaut",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "permanent": true   
- }
+      "requirements": [],
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 4435,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.375,
+    "height": 3.375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

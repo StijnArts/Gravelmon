@@ -1,74 +1,85 @@
 {
   "head": "head",
-  "portraitScale": 1,
-  "portraitTranslation": [0.0, 0.8, 0.0],
-  "profileScale": 1,
-  "profileTranslation": [0.0, 0.8, -20.0],
-  "cry": "bedrock(warquila, cry)",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.8,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.8,
+    -20.0
+  ],
+  "animations": {
+    "cry": "bedrock(warquila, cry)"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "look",
         "bedrock(warquila, ground_idle)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(warquila, blink)"]
-        }
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
-      "animations": [
-        "look",
-        "bedrock(warquila, air_fly)"
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
       ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(warquila, blink)"]
+          "animations": [
+            "bedrock(warquila, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "flying": {
       "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
       "animations": [
         "look",
         "bedrock(warquila, air_fly)"
       ],
+      "poseTypes": [
+        "FLY",
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(warquila, blink)"]
+          "animations": [
+            "bedrock(warquila, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "hovering": {
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
       "animations": [
         "look",
         "bedrock(warquila, air_idle)"
       ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(warquila, blink)"]
+          "animations": [
+            "bedrock(warquila, blink)"
+          ],
+          "name": "blink"
         }
       ]
     }

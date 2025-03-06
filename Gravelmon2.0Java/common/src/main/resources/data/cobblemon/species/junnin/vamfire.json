@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Vamfire",
-  "nationalPokedexNumber": 2842,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "batrix",
+  "baseScale": 0.42197802197802203,
+  "cannotDynamax": false,
   "abilities": [
-    "blaze"  ],
+    "blaze"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 72,
     "attack": 109,
@@ -14,39 +48,22 @@
     "special_defence": 69,
     "speed": 91
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 239,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "flying"
   ],
+  "drops": {},
   "moves": [
+    "1:ember",
+    "1:metalclaw",
     "tm:lashout",
     "tm:blastburn",
     "tm:burningjealousy",
@@ -110,7 +127,8 @@
     "tm:rocktomb",
     "tm:sandstorm",
     "tm:stoneedge",
-    "tm:gyroball"  ],
+    "tm:gyroball"
+  ],
   "labels": [
     "junnin",
     "not_modeled",
@@ -120,26 +138,18 @@
   "pokedex": [
     "cobblemon.species.vamfire.desc"
   ],
-  "preEvolution": "batrix",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 16,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2420,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.6875,
+    "height": 5.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vesgrass",
+  "speciesId": "cobblemon:vesgrass",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

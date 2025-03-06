@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -133,9 +134,15 @@ public class DeltaMuk extends Pokemon {
                 0.34, 0.3,
                 List.of());
         this.setLangFileName("Muk");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(1.4);
         this.setHitbox(1.4,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.5f, new Vector3(-0.2, -0.2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(-.04, .43, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+        ));
     }
 }

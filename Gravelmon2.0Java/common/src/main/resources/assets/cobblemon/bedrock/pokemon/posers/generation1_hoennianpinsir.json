@@ -1,20 +1,108 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "portraitScale": 1.7999999523162842,
+  "portraitTranslation": [
+    -0.44,
+    -0.07,
+    0.0
+  ],
+  "profileScale": 0.5600000023841858,
+  "profileTranslation": [
+    0.0,
+    0.9,
+    0.0
+  ],
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(hoennianpinsir, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(hoennianpinsir, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(hoennianpinsir, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "animations": [
+        "bedrock(hoennianpinsir, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 10,
+      "isBattle": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
     }
   }
 }

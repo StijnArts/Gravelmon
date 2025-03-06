@@ -1,10 +1,44 @@
 {
-  "implemented": true,
   "name": "Shifuu",
-  "nationalPokedexNumber": 1375,
   "primaryType": "rock",
+  "catchRate": 10,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "pichip",
+  "baseScale": 0.4444444444444444,
+  "cannotDynamax": false,
   "abilities": [
-    "keeneye"  ],
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 92,
     "attack": 110,
@@ -13,38 +47,19 @@
     "special_defence": 118,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 10,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 248,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "9:safeguard",
@@ -119,7 +134,8 @@
     "tm:mirrorcoat",
     "tm:superpower",
     "tm:rockpolish",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -129,26 +145,18 @@
   "pokedex": [
     "cobblemon.species.shifuu.desc"
   ],
-  "preEvolution": "pichip",
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 15,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1238,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.0625,
+    "height": 5.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

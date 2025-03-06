@@ -7,19 +7,27 @@
       "id": "nauticaw-01",
       "pokemon": "nauticaw",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
       "level": "16-31",
-      "weight": 1.32,
+      "weight": 1.98,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

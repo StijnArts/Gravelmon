@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Chainitie extends drai.dev.data.pokemon.Pokemon {
-    public Chainitie() {
+    public Chainitie(Stats stats) {
         super("Chainitie",
                 Type.GHOST, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -40,11 +35,7 @@ public class Chainitie extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,1)                        ),
                 List.of(Label.ULTRASPACE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chainitie");

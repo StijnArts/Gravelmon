@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:swaqueen",
+  "speciesId": "cobblemon:swaqueen",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

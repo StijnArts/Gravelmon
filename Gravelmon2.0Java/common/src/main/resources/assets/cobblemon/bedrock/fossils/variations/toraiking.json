@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:toraiking",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_toraiking",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/toraiking.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Mustmite",
+  "primaryType": "poison",
+  "secondaryType": "bug",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.18113207547169813,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 64,
+    "attack": 54,
+    "defence": 76,
+    "special_attack": 22,
+    "special_defence": 49,
+    "speed": 27
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:acid",
+    "1:strugglebug",
+    "1:bulkup",
+    "1:bulkup",
+    "1:toxic",
+    "1:pollenpuff"
+  ],
+  "labels": [
+    "goetia",
+    "joke",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mustmite.desc"
+  ],
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "mustmite_dustmighty",
+      "variant": "level_up",
+      "result": "dustmighty",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "25"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 5962,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.3125,
+    "height": 3.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

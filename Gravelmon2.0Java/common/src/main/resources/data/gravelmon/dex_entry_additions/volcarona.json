@@ -2,15 +2,21 @@
   "entryId": "cobblemon:volcarona",
   "forms": [
     {
-      "displayForm": "Delta",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Delta"
+        "Epoch"
       ]
     },
     {
-      "displayForm": "Mythian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Mythian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
       ]
     }
   ]

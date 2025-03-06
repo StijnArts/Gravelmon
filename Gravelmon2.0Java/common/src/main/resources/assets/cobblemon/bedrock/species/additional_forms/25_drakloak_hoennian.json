@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:drakloak",
-  "order": 3,
+  "order": 25,
   "variations": [
     {
       "aspects": [
@@ -8,21 +8,25 @@
       ],
       "model": "cobblemon:generation8_hoenniandrakloak.geo",
       "poser": "cobblemon:generation8_hoenniandrakloak",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/hoenniandrakloak.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire.png"
         },
         {
           "name": "emissive"
         },
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire.png",
-          "emissive": true
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -31,7 +35,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -42,21 +49,25 @@
       ],
       "model": "cobblemon:generation8_hoenniandrakloak.geo",
       "poser": "cobblemon:generation8_hoenniandrakloak",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/hoenniandrakloak_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire_shiny.png"
         },
         {
           "name": "emissive"
         },
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/generation8/hoenniandrakloak/drakloak_fire_shiny.png",
-          "emissive": true
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -65,7 +76,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

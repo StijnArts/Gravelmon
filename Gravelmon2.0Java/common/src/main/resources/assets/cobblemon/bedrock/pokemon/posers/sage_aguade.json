@@ -1,79 +1,115 @@
 {
-    "head": "head",
-    "portraitScale": 1.6,
-    "portraitTranslation": [0, 0.2, 0],
-    "profileScale": 0.8,
-    "profileTranslation": [0, 0.6, 0],
-	"faint": "bedrock(aguade, faint)",
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(aguade, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(aguade, blink)"]
-          }
-        ]
-      },
-	  "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(aguade, ground_walk)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(aguade, blink)"]
-          }
-        ]
-      },
-	  "floating": {
-        "poseName": "floating",
-        "transformTicks": 10,
-        "poseTypes": ["FLOAT"],
-        "animations": [
-          "look",
-          "bedrock(aguade, water_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(aguade, blink)"]
-          }
-        ]
-      },
-	  "swimming": {
-        "poseName": "swimming",
-        "transformTicks": 10,
-        "poseTypes": ["SWIM"],
-        "animations": [
-          "look",
-          "bedrock(aguade, water_swim)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(aguade, blink)"]
-          }
-        ]
-      },
-	  "sleeping": {
-        "poseName": "sleeping",
-        "transformTicks": 10,
-        "poseTypes": ["SLEEP"],
-        "animations": [
-          "look",
-          "bedrock(aguade, sleep)"
-        ]
-       }
+  "head": "head",
+  "portraitScale": 1.600000023841858,
+  "portraitTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    0.0,
+    0.6,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(aguade, faint)"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(aguade, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(aguade, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(aguade, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(aguade, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "look",
+        "bedrock(aguade, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(aguade, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "look",
+        "bedrock(aguade, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(aguade, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(aguade, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
+}

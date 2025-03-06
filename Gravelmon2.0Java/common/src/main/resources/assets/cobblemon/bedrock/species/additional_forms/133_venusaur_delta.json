@@ -1,42 +1,75 @@
 {
   "species": "cobblemon:venusaur",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltavenusaur.geo",
+      "model": "cobblemon:generation1_deltavenusaur.geo",
       "poser": "cobblemon:generation1_deltavenusaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur/deltavenusaur.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltavenusaur.geo",
+      "model": "cobblemon:generation1_deltavenusaur.geo",
       "poser": "cobblemon:generation1_deltavenusaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female_shiny.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "delta",
-        "female"
-      ],
-      "model": "cobblemon:deltavenusaur.geo",
-      "poser": "cobblemon:generation1_deltavenusaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female.png"
-    },
-    {
-      "aspects": [
-        "delta",
-        "female",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur/deltavenusaur_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

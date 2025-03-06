@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:paluducki",
+  "speciesId": "cobblemon:paluducki",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

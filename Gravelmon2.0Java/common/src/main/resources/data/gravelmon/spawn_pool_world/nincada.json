@@ -4,8 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_nincada-01",
-      "pokemon": "nincada fligian",
+      "id": "epoch_nincada-01",
+      "pokemon": "nincada epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_nincada-01",
+      "pokemon": "nincada avalossian",
       "presets": [
         "natural"
       ],
@@ -13,11 +38,19 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

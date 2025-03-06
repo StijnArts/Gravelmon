@@ -2,6 +2,12 @@
   "entryId": "cobblemon:morelull",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Nostan",
       "unlockForms": [
         "Nostan"

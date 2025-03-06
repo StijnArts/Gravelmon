@@ -1,116 +1,128 @@
 {
-   "target": "cobblemon:hariyama",
-   "forms": [{
-  "name": "Cefiran",
-  "primaryType": "fighting",
-  "secondaryType": "psychic",
-  "abilities": [
-    "thickfat",
-    "whitesmoke",
-    "h:magicbounce"
-  ],
-  "baseStats": {
-    "hp": 144,
-    "attack": 40,
-    "defence": 60,
-    "special_attack": 50,
-    "special_defence": 120,
-    "speed": 60
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:hariyama",
+  "forms": [
+    {
+      "name": "Cefiran",
+      "primaryType": "fighting",
+      "secondaryType": "psychic",
+      "catchRate": 180,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 166,
+      "experienceGroup": "fluctuating",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "makuhita form=cefiran",
+      "baseScale": 0.345,
+      "cannotDynamax": false,
+      "abilities": [
+        "thickfat",
+        "whitesmoke",
+        "h:magicbounce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 144,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 50,
+        "special_defence": 120,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:brine",
+        "1:tackle",
+        "1:focusenergy",
+        "4:sandattack",
+        "7:confusion",
+        "10:vacuumwave",
+        "13:fakeout",
+        "16:whirlwind",
+        "19:knockoff",
+        "22:calmmind",
+        "25:mistball",
+        "29:recover",
+        "33:magiccoat",
+        "37:aurasphere",
+        "46:psychic",
+        "51:futuresight",
+        "57:focusblast",
+        "63:lunardance",
+        "egg:bulletpunch",
+        "egg:chipaway",
+        "egg:counter",
+        "egg:crosschop",
+        "egg:detect",
+        "egg:dynamicpunch",
+        "egg:feintattack",
+        "egg:feint",
+        "egg:focuspunch",
+        "egg:foresight",
+        "egg:helpinghand",
+        "egg:revenge",
+        "egg:wakeupslap",
+        "egg:wideguard"
+      ],
+      "labels": [
+        "gen3",
+        "opal",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranhariyama.desc"
+      ],
+      "height": 23,
+      "weight": 2538,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 10.0,
+        "height": 10.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 180,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "fluctuating",
-  "eggCycles": 50,
-  "eggGroups": [
-    "human_like"
   ],
-  "moves": [
-    "1:brine",
-    "1:tackle",
-    "1:focusenergy",
-    "4:sandattack",
-    "7:confusion",
-    "10:vacuumwave",
-    "13:fakeout",
-    "16:whirlwind",
-    "19:knockoff",
-    "22:calmmind",
-    "25:mistball",
-    "29:recover",
-    "33:magiccoat",
-    "37:aurasphere",
-    "46:psychic",
-    "51:futuresight",
-    "57:focusblast",
-    "63:lunardance",
-    "egg:bulletpunch",
-    "egg:chipaway",
-    "egg:counter",
-    "egg:crosschop",
-    "egg:detect",
-    "egg:dynamicpunch",
-    "egg:feintattack",
-    "egg:feint",
-    "egg:focuspunch",
-    "egg:foresight",
-    "egg:helpinghand",
-    "egg:revenge",
-    "egg:wakeupslap",
-    "egg:wideguard"  ],
-  "labels": [
-    "gen3",
-    "opal",
-    "not_modeled",
-    "fakemonevolution"
-  ],
-  "pokedex": [
-    "cobblemon.species.cefiranhariyama.desc"
-  ],
-  "preEvolution": "makuhita form=cefiran",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 23,
-  "weight": 2538,
-  "aspects": ["cefiran"],
-  "cannotDynamax": false
-}
-], "features": [
-"cefiran"
+  "features": [
+    "cefiran"
   ]
 }

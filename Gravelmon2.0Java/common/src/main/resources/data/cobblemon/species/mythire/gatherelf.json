@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Gatherelf",
-  "nationalPokedexNumber": 3784,
   "primaryType": "fairy",
   "secondaryType": "ground",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "helful",
+  "baseScale": 0.35200000000000004,
+  "cannotDynamax": false,
   "abilities": [
     "sandrush",
     "pickup",
     "h:competitive"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 70,
@@ -17,38 +50,19 @@
     "special_defence": 95,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 170,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "5:sandattack",
     "9:fairywind",
@@ -100,7 +114,8 @@
     "tm:gust",
     "tm:tearfullook",
     "tm:cottonspore",
-    "tm:tickle"  ],
+    "tm:tickle"
+  ],
   "labels": [
     "mythire",
     "not_modeled",
@@ -110,26 +125,18 @@
   "pokedex": [
     "cobblemon.species.gatherelf.desc"
   ],
-  "preEvolution": "helful",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 11,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3848,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.6875,
+    "height": 4.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

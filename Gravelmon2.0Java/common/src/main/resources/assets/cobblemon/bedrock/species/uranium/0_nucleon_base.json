@@ -4,16 +4,75 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:uranium_nucleon.geo",
       "poser": "cobblemon:uranium_nucleon",
-      "texture": "cobblemon:textures/pokemon/uranium/nucleon.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/uranium/nucleon/nucleon.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/uranium/nucleon/nucleon_emissive.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/uranium/nucleon_shiny.png"
+      "model": "cobblemon:uranium_nucleon.geo",
+      "poser": "cobblemon:uranium_nucleon",
+      "texture": "cobblemon:textures/pokemon/uranium/nucleon/nucleon_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/uranium/nucleon/nucleon_emissive_shiny.png"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

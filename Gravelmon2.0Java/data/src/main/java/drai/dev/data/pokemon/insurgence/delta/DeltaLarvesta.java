@@ -119,6 +119,5 @@ public class DeltaLarvesta extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Larvesta");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

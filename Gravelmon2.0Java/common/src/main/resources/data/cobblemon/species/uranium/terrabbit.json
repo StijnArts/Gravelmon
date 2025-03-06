@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Terrabbit",
-  "nationalPokedexNumber": 2518,
   "primaryType": "ground",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "sheebit",
+  "baseScale": 0.46567164179104475,
+  "cannotDynamax": false,
   "abilities": [
     "intimidate",
     "h:moxie"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 76,
     "attack": 84,
@@ -15,37 +48,18 @@
     "special_defence": 66,
     "speed": 64
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "1:rage",
@@ -131,7 +145,8 @@
     "egg:pursuit",
     "egg:rockclimb",
     "egg:thunderfang",
-    "egg:uproar"  ],
+    "egg:uproar"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -141,7 +156,9 @@
   "pokedex": [
     "cobblemon.species.terrabbit.desc"
   ],
-  "preEvolution": "sheebit",
+  "height": 13,
+  "weight": 333,
+  "aspects": [],
   "evolutions": [
     {
       "id": "terrabbit_laissure",
@@ -152,31 +169,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 66
+          "minLevel": "66"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 2074,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.1875,
+    "height": 4.1875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 13,
-  "weight": 333,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

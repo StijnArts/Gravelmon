@@ -1,5 +1,15 @@
 {
-   "target": "cobblemon:kecleon",
+  "target": "cobblemon:kecleon",
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "preEvolution": "keclekid",
   "evolutions": [
     {
@@ -14,8 +24,17 @@
           "move": "thief"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    },
+    {
+      "id": "kecleon_primecleon",
+      "variant": "item_interact",
+      "result": "primecleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    }
   ]
-
 }

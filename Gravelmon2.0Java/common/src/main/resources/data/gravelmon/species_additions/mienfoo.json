@@ -1,7 +1,7 @@
 {
-   "target": "cobblemon:mienfoo",
+  "target": "cobblemon:mienfoo",
   "drops": {
-    "amount": "1",
+    "amount": 3,
     "entries": [
       {
         "item": "cobblemon:thunder_stone",
@@ -9,20 +9,19 @@
         "percentage": 10
       }
     ]
-      },
+  },
   "evolutions": [
     {
       "id": "mienfoo_mienflux",
       "variant": "item_interact",
       "result": "mienflux",
       "consumeHeldItem": false,
-      "learnableMoves": [    "thunderpunch"],
-      "requirements": [
-
+      "learnableMoves": [
+        "thunderpunch"
       ],
+      "requirements": [],
       "requiredContext": "cobblemon:thunder_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ]
-
 }

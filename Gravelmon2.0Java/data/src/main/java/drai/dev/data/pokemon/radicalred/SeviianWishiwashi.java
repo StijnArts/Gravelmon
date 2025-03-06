@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -95,7 +95,6 @@ public class SeviianWishiwashi extends Pokemon {
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
         this.setLangFileName("Wishiwashi");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
         this.setCanSwim(true);
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);

@@ -2,15 +2,33 @@
   "entryId": "cobblemon:kirlia",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Fabelian",
       "unlockForms": [
-        "Fligian"
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     }
   ]

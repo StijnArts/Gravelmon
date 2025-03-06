@@ -4,16 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:orohn-havai_kroach",
-      "texture": "cobblemon:textures/pokemon/orohn-havai/kroach.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/orohn-havai/kroach_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_47_by_25.geo",
+      "poser": "cobblemon:cutout_gravelmon_47_by_25",
+      "texture": "cobblemon:textures/pokemon/orohnhavai/kroach.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

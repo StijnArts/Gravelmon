@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:katybud",
+  "speciesId": "cobblemon:katybud",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

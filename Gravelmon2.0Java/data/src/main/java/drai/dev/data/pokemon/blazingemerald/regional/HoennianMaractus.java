@@ -1,9 +1,10 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -70,6 +71,18 @@ public class HoennianMaractus extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Maractus");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new SimpleTextureLayerData("emissive", "hoennianmaractus_emissive", Optional.of(true), Optional.of(false), false, true)
+        );;
+        getPosingFileData().setPortraitData(2.08f, new Vector3(0.03, -0.27, 0));
+        getPosingFileData().setProfileData(.74f, new Vector3(0, 0.63, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

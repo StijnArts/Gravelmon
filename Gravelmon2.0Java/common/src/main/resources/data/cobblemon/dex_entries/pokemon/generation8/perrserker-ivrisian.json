@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:perrserker-ivrisian",
+  "speciesId": "cobblemon:perrserker",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    }
+  ],
+  "variations": []
+}

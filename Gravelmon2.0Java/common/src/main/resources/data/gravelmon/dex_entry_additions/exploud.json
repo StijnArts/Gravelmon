@@ -2,6 +2,18 @@
   "entryId": "cobblemon:exploud",
   "forms": [
     {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Kaskadian",
       "unlockForms": [
         "Kaskadian"

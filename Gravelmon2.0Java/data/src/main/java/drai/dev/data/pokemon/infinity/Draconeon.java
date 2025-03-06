@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.infinity;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -101,12 +103,22 @@ public class Draconeon extends Pokemon {
                     List.of(SpawnPreset.NATURAL),
                     0.24, 0.3,
                     List.of());
-            this.setPortraitXYZ(0.1,2.0,0.0);
-            this.setModeled(true);
+
+            
             this.setBaseScale(0.8);
             this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("draconeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.DRAGON_CLAW, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:dragon_scale\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dragon_scale"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("draconeon");
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.7, -0.3, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER).withLook(),
+                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).withLook()
+        ));
         }
 }

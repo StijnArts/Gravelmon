@@ -1,12 +1,45 @@
 {
-  "implemented": true,
   "name": "Orbizarre",
-  "nationalPokedexNumber": 1295,
   "primaryType": "water",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "ostrodd",
+  "baseScale": 0.2571428571428571,
+  "cannotDynamax": false,
   "abilities": [
     "shellarmor",
     "h:shielddust"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 30,
@@ -15,38 +48,19 @@
     "special_defence": 110,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "water_3",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:flashcannon",
     "4:bubble",
@@ -128,7 +142,8 @@
     "tm:psywave",
     "tm:mudsport",
     "tm:mudshot",
-    "tm:mudbomb"  ],
+    "tm:mudbomb"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -138,26 +153,18 @@
   "pokedex": [
     "cobblemon.species.orbizarre.desc"
   ],
-  "preEvolution": "ostrodd",
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 6,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1186,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.5,
+    "height": 3.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

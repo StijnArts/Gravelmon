@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fafreeze",
+  "speciesId": "cobblemon:fafreeze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -24,7 +24,7 @@ public class Lizgroko extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("When a battle gets heated, their tail and bulb on their back will begin to glow. They really do not like when their opponents run away, and they will chase them to no end."),
                 List.of(new EvolutionEntry("spranamos", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.POISON_JAB.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.POISON_JAB.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,3),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:safauna",
+  "speciesId": "cobblemon:safauna",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

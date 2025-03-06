@@ -115,6 +115,6 @@ public class EghoMuk extends Pokemon {
                 0.32, 0.3,
                 List.of());
         this.setLangFileName("Muk");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:psyduck",
-  "order": 3,
+  "order": 97,
   "variations": [
     {
       "aspects": [
         "qamoran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_qamoranpsyduck",
+      "model": "cobblemon:cutout_gravelmon_33_by_51.geo",
+      "poser": "cobblemon:cutout_gravelmon_33_by_51",
       "texture": "cobblemon:textures/pokemon/generation1/qamoranpsyduck.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "qamoran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_qamoranpsyduck",
-      "texture": "cobblemon:textures/pokemon/generation1/qamoranpsyduck_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:watu",
+  "speciesId": "cobblemon:watu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

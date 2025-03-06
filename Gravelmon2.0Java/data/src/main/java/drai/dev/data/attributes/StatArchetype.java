@@ -14,8 +14,11 @@ public enum StatArchetype {
     SLOW_BULKY_SPECIAL_ATTACKER(135, 50, 135, 135, 115, 30),
     SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER(135, 50, 155, 135, 95, 30),
     FAST_SPECIAL_WALL(135, 50, 65, 75, 155, 110),
+    FAST_PHYSICAL_WALL(135, 75, 155, 50, 65, 110),
     SPECIAL_WALL(165, 50, 75, 75, 195, 30),
-    PHYSICAL_WALL(165, 75, 195, 50, 50, 30);
+    PHYSICAL_WALL(165, 75, 195, 50, 50, 30),
+    MIXED_WALL(135, 60, 195, 45, 195, 30),
+    ALL_ROUND(100, 100, 100, 100, 100, 100);
 
 
     StatArchetype(int hp, int attack, int defence, int specialAttack, int specialDefence, int speed) {
@@ -28,4 +31,32 @@ public enum StatArchetype {
     }
 
     public int hp, attack, defence, specialAttack, specialDefence, speed;
+
+    public static StatArchetype findClosestArchetype(Stats pokemonStats) {
+        StatArchetype closestArchetype = null;
+        double minDistance = Double.MAX_VALUE;
+
+        for (StatArchetype archetype : StatArchetype.values()) {
+            Stats archetypeStats = new Stats(archetype.hp, archetype.attack, archetype.defence, archetype.specialAttack, archetype.specialDefence, archetype.speed);
+            double distance = calculateDistance(pokemonStats, archetypeStats);
+
+            if (distance < minDistance) {
+                minDistance = distance;
+                closestArchetype = archetype;
+            }
+        }
+
+        return closestArchetype;
+    }
+
+    public static double calculateDistance(Stats stats1, Stats stats2) {
+        return Math.sqrt(
+                Math.pow(stats1.getHP() - stats2.getHP(), 2) +
+                        Math.pow(stats1.getAttack() - stats2.getAttack(), 2) +
+                        Math.pow(stats1.getDefence() - stats2.getDefence(), 2) +
+                        Math.pow(stats1.getSpecialAttack() - stats2.getSpecialAttack(), 2) +
+                        Math.pow(stats1.getSpecialDefence() - stats2.getSpecialDefence(), 2) +
+                        Math.pow(stats1.getSpeed() - stats2.getSpeed(), 2)
+        );
+    }
 }

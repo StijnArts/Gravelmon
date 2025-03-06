@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:spiritomb",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -11,7 +11,28 @@
       "texture": "cobblemon:textures/pokemon/generation4/spiritombx/spiritombx.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
           "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -25,7 +46,28 @@
       "texture": "cobblemon:textures/pokemon/generation4/spiritombx/spiritombx_shiny.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
           "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

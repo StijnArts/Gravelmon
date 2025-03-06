@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Chicoatl",
-  "nationalPokedexNumber": 2458,
   "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 22,
+  "experienceGroup": "fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.21052631578947367,
+  "cannotDynamax": false,
   "abilities": [
     "sapsipper",
     "leafguard",
     "h:chlorophyll"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 45,
@@ -16,38 +48,19 @@
     "special_defence": 50,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 22,
-  "experienceGroup": "fast",
-  "eggCycles": 100,
   "eggGroups": [
     "flying",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:peck",
     "1:leer",
@@ -119,7 +132,8 @@
     "egg:bravebird",
     "egg:wingattack",
     "egg:drillpeck",
-    "egg:irontail"  ],
+    "egg:irontail"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -127,6 +141,9 @@
   "pokedex": [
     "cobblemon.species.chicoatl.desc"
   ],
+  "height": 5,
+  "weight": 36,
+  "aspects": [],
   "evolutions": [
     {
       "id": "chicoatl_quetzoral",
@@ -137,31 +154,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2031,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.5625,
+    "height": 3.5625,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 36,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

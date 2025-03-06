@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +21,7 @@ public class DeltaAipom extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by SixteenDraws and EchoTheThird. It sneakily places the end of its tail on people's shoulders, making others wonder if they saw a white hand."),
                 List.of(new EvolutionEntry("deltaambipom", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DOUBLE_HIT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DOUBLE_HIT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SCREECH,1),
@@ -155,9 +156,18 @@ public class DeltaAipom extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Aipom");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.5f, new Vector3(0, -2.2, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, -.1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().shoulderAnimations();
     }
 }

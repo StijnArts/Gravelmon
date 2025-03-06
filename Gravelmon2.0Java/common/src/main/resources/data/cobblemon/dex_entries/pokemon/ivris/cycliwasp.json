@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cycliwasp",
+  "speciesId": "cobblemon:cycliwasp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terrotryma",
+  "speciesId": "cobblemon:terrotryma",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

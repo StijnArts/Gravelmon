@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -80,17 +81,23 @@ public class PyukumukuX extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE, Label.GEN7),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 20, 37, 3.1, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 37, 3.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Pyukumuku");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         this.setCanBreathUnderwater(true);
-        this.setCanSwim(true);
-        this.setModeled(true);
+
         this.setBaseScale(0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("ponyta_x");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(-.15, -.9, 0));
+        getPosingFileData().setProfileData( 1.1f, new Vector3(0, 0, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().clearAnimations().markAsBackupPose()
+        ));
     }
 }

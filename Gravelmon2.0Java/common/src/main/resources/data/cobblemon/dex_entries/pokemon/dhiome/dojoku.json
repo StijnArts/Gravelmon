@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dojoku",
+  "speciesId": "cobblemon:dojoku",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

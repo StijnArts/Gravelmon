@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -22,7 +23,7 @@ public class DeltaKirlia extends Pokemon {
                 List.of(new EvolutionEntry("deltagardevoir", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
                         new EvolutionEntry("deltagallade", EvolutionType.ITEM_INTERACT, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=male\"")),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male")),
                                 List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -111,9 +112,20 @@ public class DeltaKirlia extends Pokemon {
                 0.24, 0.3,
                 List.of());
         this.setLangFileName("Kirlia");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.5,1.4);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                SimpleTextureLayerData.glowLayer(this)
+        );
+        getPosingFileData().setPortraitData( 2.65f, new Vector3(-0.2, -.4, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, 0.55, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
     }
 }

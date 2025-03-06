@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-27",
-      "weight": 5.0,
+      "weight": 7.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",
           "#cobblemon:is_lush"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

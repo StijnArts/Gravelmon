@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Kertruffle",
-  "nationalPokedexNumber": 1072,
   "primaryType": "poison",
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.0234375,
+  "cannotDynamax": false,
   "abilities": [
     "effectspore",
     "gluttony",
     "h:shielddust"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 55,
@@ -16,37 +48,32 @@
     "special_defence": 45,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 235,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 59,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:bide",
     "1:tackle",
@@ -100,7 +127,8 @@
     "egg:gastroacid",
     "egg:lightscreen",
     "egg:psychoshift",
-    "egg:pursuit"  ],
+    "egg:pursuit"
+  ],
   "labels": [
     "sage",
     "not_modeled"
@@ -108,6 +136,9 @@
   "pokedex": [
     "cobblemon.species.kertruffle.desc"
   ],
+  "height": 5,
+  "weight": 56,
+  "aspects": [],
   "evolutions": [
     {
       "id": "kertruffle_mosshroom",
@@ -118,15 +149,15 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         },
         {
           "variant": "held_item",
           "itemCondition": "minecraft:moss"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "kertruffle_lumishroom",
       "variant": "level_up",
@@ -136,15 +167,15 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         },
         {
           "variant": "held_item",
           "itemCondition": "minecraft:glowstone"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "kertruffle_perishroom",
       "variant": "level_up",
@@ -154,35 +185,24 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": "26"
         },
         {
           "variant": "held_item",
           "itemCondition": "minecraft:sculk"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1046,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 56,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

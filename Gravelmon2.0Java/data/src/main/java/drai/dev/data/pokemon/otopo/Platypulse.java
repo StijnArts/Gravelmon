@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Platypulse extends drai.dev.data.pokemon.Pokemon {
-    public Platypulse() {
+    public Platypulse(Stats stats) {
         super("Platypulse",
                 Type.POISON, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SUPERCHARGE), Ability.SUPERCHARGE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -28,11 +23,7 @@ public class Platypulse extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Platypulse");

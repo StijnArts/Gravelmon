@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gonamor",
+  "speciesId": "cobblemon:gonamor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

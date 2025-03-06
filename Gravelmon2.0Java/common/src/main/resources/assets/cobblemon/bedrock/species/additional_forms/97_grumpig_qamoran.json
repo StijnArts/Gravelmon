@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:grumpig",
-  "order": 3,
+  "order": 97,
   "variations": [
     {
       "aspects": [
         "qamoran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_qamorangrumpig",
+      "model": "cobblemon:cutout_gravelmon_76_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_76_by_69",
       "texture": "cobblemon:textures/pokemon/generation3/qamorangrumpig.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "qamoran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation3_qamorangrumpig",
-      "texture": "cobblemon:textures/pokemon/generation3/qamorangrumpig_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

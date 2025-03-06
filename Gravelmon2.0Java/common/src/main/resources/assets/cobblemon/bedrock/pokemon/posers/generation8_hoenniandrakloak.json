@@ -1,123 +1,77 @@
 {
-  "portraitScale": 1,
-  "portraitTranslation": [ 0, 1, 0 ],
-  "profileScale": 1,
-  "profileTranslation": [ 0, 1, 0 ],
+  "head": "head",
+  "portraitScale": 0.6000000238418579,
+  "portraitTranslation": [
+    0.0,
+    1.75,
+    0.0
+  ],
+  "profileScale": 0.6000000238418579,
+  "profileTranslation": [
+    0.0,
+    1.75,
+    0.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('hoenniandrakloak', 'cry')"
   },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "bedrock(hoenniandrakloak, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
+            "bedrock(hoenniandrakloak, blink)",
+            "bedrock(hoenniandrakloak, blink1)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
       "animations": [
         "bedrock(hoenniandrakloak, ground_walk)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
-        }
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
       "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "bedrock(hoenniandrakloak, ground_walk)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
-        }
-      ]
-    },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
-      "animations": [
-        "bedrock(hoenniandrakloak, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
-        }
-      ]
-    },
-    "flying": {
-      "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [
+        "WALK",
+        "SWIM",
         "FLY"
       ],
-      "animations": [
-        "bedrock(hoenniandrakloak, ground_walk)"
-      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
+            "bedrock(hoenniandrakloak, blink)",
+            "bedrock(hoenniandrakloak, blink1)"
+          ],
+          "name": "blink"
         }
       ]
     },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
+    "sleeping": {
+      "poseName": "sleeping",
       "animations": [
-        "bedrock(hoenniandrakloak, ground_idle)"
+        "bedrock(hoenniandrakloak, sleep)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(hoenniandrakloak, blink)","bedrock(hoenniandrakloak, blink2)"
-          ]
-        }
-      ]
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

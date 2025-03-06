@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:nidoranm",
-  "order": 3,
+  "order": 168,
   "variations": [
     {
       "aspects": [
-        "alteran_summer_coat"
+        "alteransummercoat"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_alterannidoransummercoat",
+      "model": "cobblemon:cutout_gravelmon_38_by_39.geo",
+      "poser": "cobblemon:cutout_gravelmon_38_by_39",
       "texture": "cobblemon:textures/pokemon/generation1/alterannidoransummercoat.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "alteran_summer_coat",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_alterannidoransummercoat",
-      "texture": "cobblemon:textures/pokemon/generation1/alterannidoransummercoat_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

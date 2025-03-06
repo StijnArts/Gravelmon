@@ -25,7 +25,7 @@ public class Kraklam extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3,EggGroup.MONSTER),
                 List.of("Due to this invasive species, Shellder have declined on the islands. They seem to also have a taste for Slowpoke tails. Kraklam hide in the reef or near shores, waiting for prey. In a blink of an eye, their tentacle-like tongues grasp their prey and attack with their horn, releasing a paralyzing toxin."),
                 List.of(new EvolutionEntry("krakshen", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WRING_OUT.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.WRING_OUT.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,4),

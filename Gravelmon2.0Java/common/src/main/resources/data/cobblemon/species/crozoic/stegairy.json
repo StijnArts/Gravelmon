@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Stegairy",
-  "nationalPokedexNumber": 3352,
   "primaryType": "fairy",
   "secondaryType": "flying",
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 165,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.561038961038961,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "h:symbiosis"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 50,
@@ -16,59 +48,6 @@
     "special_defence": 60,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 140,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 165,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "fairy",
-    "dragon"
-  ],
-  "moves": [
-    "1:luckychant",
-    "1:playrough",
-    "1:captivate",
-    "1:amnesia",
-    "1:gust",
-    "1:breakingswipe"  ],
-  "labels": [
-    "crozoic",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.stegairy.desc"
-  ],
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -77,10 +56,38 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "fairy",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [
+    "1:luckychant",
+    "1:playrough",
+    "1:captivate",
+    "1:amnesia",
+    "1:gust",
+    "1:breakingswipe"
+  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.stegairy.desc"
+  ],
   "height": 18,
   "weight": 2210,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3298,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.8125,
+    "height": 4.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -99,7 +99,6 @@ public class ArmiranHippowdon extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Hippowdon");
-        this.setPortraitXYZ(0,1.8,0);
         setCanBreathUnderwater(true);
         setCanSwim(true);
     }

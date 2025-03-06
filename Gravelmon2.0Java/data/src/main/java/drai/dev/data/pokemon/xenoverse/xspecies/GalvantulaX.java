@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class GalvantulaX extends Pokemon {
@@ -80,9 +79,19 @@ public class GalvantulaX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Galvantula");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setBaseScale(1);
         this.setHitbox(1, 1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("galvantula_x");
+        getPosingFileData().setPortraitData( 2.4f, new Vector3(-.4, -1.85, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.6, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().addQuirk(new Quirk("blink", List.of("blink1")))
+                        .addQuirk(new Quirk("blink2", List.of("blink2"))).markAsBackupPose(),
+                AnimationData.walkingAnimation().addQuirk(new Quirk("blink", List.of("blink1")))
+                        .addQuirk(new Quirk("blink2", List.of("blink2")))
+        ));
     }
 }

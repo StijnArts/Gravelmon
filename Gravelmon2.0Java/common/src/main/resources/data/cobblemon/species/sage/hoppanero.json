@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Hoppanero",
-  "nationalPokedexNumber": 1084,
   "primaryType": "grass",
   "secondaryType": "fire",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 141,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "peppit",
+  "baseScale": 0.028124999999999997,
+  "cannotDynamax": false,
   "abilities": [
     "chlorophyll",
     "flamebody",
     "h:naturalcure"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 70,
@@ -17,38 +50,28 @@
     "special_defence": 57,
     "speed": 97
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 141,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "grass"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:charm",
@@ -119,7 +142,8 @@
     "egg:ingrain",
     "egg:leafblade",
     "egg:leechseed",
-    "egg:nastyplot"  ],
+    "egg:nastyplot"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -129,7 +153,9 @@
   "pokedex": [
     "cobblemon.species.hoppanero.desc"
   ],
-  "preEvolution": "peppit",
+  "height": 6,
+  "weight": 107,
+  "aspects": [],
   "evolutions": [
     {
       "id": "hoppanero_scovalope",
@@ -137,44 +163,29 @@
       "result": "scovalope",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:fire_stone",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "hoppanero_scovalope",
       "variant": "item_interact",
       "result": "scovalope",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:leaf_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1055,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 6,
-  "weight": 107,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

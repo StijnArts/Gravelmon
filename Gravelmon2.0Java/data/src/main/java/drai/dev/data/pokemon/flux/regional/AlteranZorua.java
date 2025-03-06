@@ -21,7 +21,7 @@ public class AlteranZorua extends Pokemon {
                 List.of("An old fable describes a ZORUA cloaked in so many illusions that it turned into one itself. This form is said to be its descendant."),
                 List.of(new EvolutionEntry("Zorotsune", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
@@ -45,12 +45,12 @@ public class AlteranZorua extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Zorua");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

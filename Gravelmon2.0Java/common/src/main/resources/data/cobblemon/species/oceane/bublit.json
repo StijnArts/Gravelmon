@@ -1,49 +1,63 @@
 {
-  "implemented": true,
   "name": "Bublit",
-  "nationalPokedexNumber": 2221,
   "primaryType": "electric",
-  "abilities": [
-    "keeneye"  ],
-  "baseStats": {
-    "hp": 37,
-    "attack": 19,
-    "defence": 39,
-    "special_attack": 56,
-    "special_defence": 39,
-    "speed": 67
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
-  },
   "catchRate": 45,
   "maleRatio": 0.875,
-  "shoulderMountable": false,
   "baseExperienceYield": 61,
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.34285714285714286,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
   "eggGroups": [
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:wingattack",
     "1:charge",
@@ -54,7 +68,8 @@
     "1:reflecttype",
     "tm:psychic",
     "tm:surf",
-    "tm:heatwave"  ],
+    "tm:heatwave"
+  ],
   "labels": [
     "oceane",
     "not_modeled"
@@ -62,6 +77,9 @@
   "pokedex": [
     "cobblemon.species.bublit.desc"
   ],
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "bublit_nautilite",
@@ -72,31 +90,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1871,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.1875,
+    "height": 2.1875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 5,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,16 +1,6 @@
 package drai.dev.data.pokemon.neonintendo.regional;
 
 
-import drai.dev.data.pokemon.pastelisland.*;
-import drai.dev.data.pokemon.neonintendo.*;
-import drai.dev.data.pokemon.nodorro.*;
-import drai.dev.data.pokemon.orbis.*;
-import drai.dev.data.pokemon.fliga.*;
-import drai.dev.data.pokemon.ruskow.*;
-import drai.dev.data.pokemon.otopo.*;
-import drai.dev.data.pokemon.goetia.*;
-import drai.dev.data.pokemon.ionos.*;
-import drai.dev.data.pokemon.lagoone.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -122,11 +112,7 @@ public class NeoPrinplup extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURA_SPHERE,"tm")                        ),
                 List.of(Label.NEO_NINTENDO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Prinplup");

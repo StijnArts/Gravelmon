@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class DeltaQuagsire extends Pokemon {
@@ -133,9 +132,20 @@ public class DeltaQuagsire extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Quagsire");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.1);
         this.setHitbox(0.8,1.45);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                        new AnimatedLayerData("flame",
+                                List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),
+                                10, true,
+                                Optional.of(true), Optional.of(false), false, false));
+        getPosingFileData().setPortraitData( 1.65f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( 0.8f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

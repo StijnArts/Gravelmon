@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Koinkoin",
-  "nationalPokedexNumber": 2121,
   "primaryType": "normal",
+  "catchRate": 180,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 400,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 0.4044943820224719,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:gluttony"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 120,
     "attack": 60,
@@ -15,38 +47,19 @@
     "special_defence": 105,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 180,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 400,
-  "experienceGroup": "slow",
-  "eggCycles": 32,
   "eggGroups": [
     "field",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:trickroom",
     "1:defensecurl",
@@ -93,7 +106,8 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled"
@@ -101,25 +115,18 @@
   "pokedex": [
     "cobblemon.species.koinkoin.desc"
   ],
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 15,
   "weight": 708,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1793,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5625,
+    "height": 5.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

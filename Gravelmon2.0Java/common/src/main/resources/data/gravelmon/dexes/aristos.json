@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 30,
+  "sortOrder": 31,
   "id": "gravelmon:aristos",
   "entries": [
     "cobblemon:sentret-aristosian",
@@ -19,11 +19,14 @@
     "cobblemon:arcanine-aristosian",
     "cobblemon:magikarp",
     "cobblemon:gyarados",
-    "cobblemon:tropius-aristosian",
     "cobblemon:kamurados",
+    "cobblemon:goobae",
+    "cobblemon:grimer",
+    "cobblemon:muk",
     "cobblemon:weeduza",
     "cobblemon:tangela",
     "cobblemon:tangorgon",
+    "cobblemon:tropius-aristosian",
     "cobblemon:kangazad",
     "cobblemon:kangaskhan-aristosian",
     "cobblemon:epp_v11",

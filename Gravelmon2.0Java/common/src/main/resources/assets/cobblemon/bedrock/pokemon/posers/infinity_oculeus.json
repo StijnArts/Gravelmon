@@ -1,134 +1,59 @@
 {
   "head": "head",
-  "portraitScale": 0.4,
-  "portraitTranslation": [ 0, 1.3, 0 ],
-  "profileScale": 0.4,
-  "profileTranslation": [ 0, 1.3, 0 ],
+  "portraitScale": 0.4000000059604645,
+  "portraitTranslation": [
+    0.0,
+    1.3,
+    0.0
+  ],
+  "profileScale": 0.4000000059604645,
+  "profileTranslation": [
+    0.0,
+    1.3,
+    0.0
+  ],
   "animations": {
     "faint": "q.bedrock_primary('oculeus', 'faint', q.curve('one'))"
   },
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
+      "animations": [
+        "bedrock(oculeus, ground_idle)"
+      ],
       "poseTypes": [
         "STAND",
-        "NONE",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
         "PORTRAIT",
-        "PROFILE"
+        "OPEN",
+        "NONE"
       ],
-      "isBattle": false,
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
-        }
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
       "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
       "quirks": [
         {
-          "name": "blink",
           "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
-        }
-      ]
-    },
-    "hovering": {
-      "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [
-        "HOVER"
-      ],
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
-        }
-      ]
-    },
-    "flying": {
-      "poseName": "flying",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLY"
-      ],
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
-        }
-      ]
-    },
-    "swimming": {
-      "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
-        }
-      ]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "animations": [
-        "bedrock(oculeus, ground_idle)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oculeus, blink)","bedrock(oculeus, blink12)","bedrock(oculeus, blink2)","bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)","bedrock(oculeus, blink5)","bedrock(oculeus, blink6)","bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)","bedrock(oculeus, blink9)","bedrock(oculeus, blink10)","bedrock(oculeus, blink11)"
-          ]
+            "bedrock(oculeus, blink)",
+            "bedrock(oculeus, blink1)",
+            "bedrock(oculeus, blink2)",
+            "bedrock(oculeus, blink3)",
+            "bedrock(oculeus, blink4)",
+            "bedrock(oculeus, blink5)",
+            "bedrock(oculeus, blink6)",
+            "bedrock(oculeus, blink7)",
+            "bedrock(oculeus, blink8)",
+            "bedrock(oculeus, blink9)",
+            "bedrock(oculeus, blink10)",
+            "bedrock(oculeus, blink11)"
+          ],
+          "name": "blink"
         }
       ]
     }

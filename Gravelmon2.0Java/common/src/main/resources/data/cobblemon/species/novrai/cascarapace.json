@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Cascarapace",
-  "nationalPokedexNumber": 5065,
   "primaryType": "water",
   "secondaryType": "bug",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "bubbeetle",
+  "baseScale": 0.5333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "torrent",
     "h:raindish"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 97,
     "attack": 73,
@@ -16,38 +49,19 @@
     "special_defence": 104,
     "speed": 59
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 240,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "water_1"
   ],
+  "drops": {},
   "moves": [
     "1:protect",
     "10:watersport",
@@ -130,7 +144,8 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:spitup",
-    "tm:rototiller"  ],
+    "tm:rototiller"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -140,26 +155,18 @@
   "pokedex": [
     "cobblemon.species.cascarapace.desc"
   ],
-  "preEvolution": "bubbeetle",
-  "baseScale": 0.26666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 16,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4832,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.5,
+    "height": 4.5,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

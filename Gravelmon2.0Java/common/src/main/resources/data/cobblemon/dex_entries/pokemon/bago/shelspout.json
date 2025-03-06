@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shelspout",
+  "speciesId": "cobblemon:shelspout",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

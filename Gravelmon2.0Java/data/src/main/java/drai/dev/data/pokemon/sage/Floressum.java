@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -95,9 +96,20 @@ public class Floressum extends Pokemon {
                 List.of());
         this.setHasGenderDifferences(true);
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
 
         this.setBaseScale(1);
-        this.setModeled(true);
+        this.setHitbox(1,1);
+
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.8f, new Vector3(-0.47, -.88, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0.1, .38, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.hoveringAnimation().withLook().withBlink(),
+                AnimationData.flyingAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

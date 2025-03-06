@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -84,8 +85,15 @@ public class SpiritombX extends Pokemon {
                 0.39, 0.3,
                 List.of());
         this.setLangFileName("Spiritomb");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
         this.setBaseScale(1.3);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("spiritomb_x");
+        getPosingFileData().setPortraitData( 1.3f, new Vector3(-0.35, 0.7, 0));
+        getPosingFileData().setProfileData( .65f, new Vector3(0, .9, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().addAnimation("orbs").markAsBackupPose(),
+                AnimationData.walkingAnimation().addAnimation("orbs").markAsBackupPose()
+        ));
     }
 }

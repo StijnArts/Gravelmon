@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Oarful",
-  "nationalPokedexNumber": 3609,
   "primaryType": "water",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 183,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "buttereef",
+  "baseScale": 0.6,
+  "cannotDynamax": false,
   "abilities": [
-    "swiftswim"  ],
+    "swiftswim"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 89,
     "attack": 107,
@@ -14,38 +48,19 @@
     "special_defence": 59,
     "speed": 110
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 183,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "water_2",
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:wish",
     "6:watergun",
@@ -140,7 +155,8 @@
     "tm:surf",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:whirlpool"  ],
+    "tm:whirlpool"
+  ],
   "labels": [
     "nosto",
     "not_modeled",
@@ -150,26 +166,18 @@
   "pokedex": [
     "cobblemon.species.oarful.desc"
   ],
-  "preEvolution": "buttereef",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 23,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3479,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.75,
+    "height": 5.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

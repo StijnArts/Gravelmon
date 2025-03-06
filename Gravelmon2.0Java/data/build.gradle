@@ -59,6 +59,11 @@ dependencies {
     modImplementation files("libs/gravels_extended_battles-fabric-${gravelmon_file}.jar")
     modImplementation("net.fabricmc:fabric-language-kotlin:${fabric_kotlin}")
 
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+
+
+
 }
 
 def replaceProperties = [mod_id          : mod_id,
@@ -82,6 +87,14 @@ processResources {
 shadowJar {
     configurations = [project.configurations.shadowBundle]
     archiveClassifier = 'dev-shadow'
+    setProperty("zip64", true)
+}
+tasks.withType(Jar).configureEach {
+    zip64 = true
+}
+
+tasks.withType(Zip).configureEach {
+    zip64 = true
 }
 
 remapJar {

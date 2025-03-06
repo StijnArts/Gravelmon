@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Shibalbat",
-  "nationalPokedexNumber": 1104,
   "primaryType": "rock",
   "secondaryType": "fire",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 167,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 60,
+  "baseFriendship": 70,
+  "baseScale": 0.06575342465753424,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:cursedbody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 63,
     "attack": 51,
@@ -16,37 +48,27 @@
     "special_defence": 104,
     "speed": 71
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 167,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 60,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:gold_ingot",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:hypervoice",
     "1:rockthrow",
@@ -122,7 +144,8 @@
     "tutor:stealthrock",
     "tutor:steelwing",
     "tutor:superfang",
-    "tutor:uproar"  ],
+    "tutor:uproar"
+  ],
   "labels": [
     "sage",
     "not_modeled"
@@ -130,25 +153,18 @@
   "pokedex": [
     "cobblemon.species.shibalbat.desc"
   ],
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 14,
   "weight": 1022,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1064,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

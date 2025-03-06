@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Frosulo",
-  "nationalPokedexNumber": 2489,
   "primaryType": "bug",
   "secondaryType": "ice",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 133,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "colarva",
+  "baseScale": 0.48000000000000004,
+  "cannotDynamax": false,
   "abilities": [
-    "icebody"  ],
+    "icebody"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 45,
@@ -14,37 +48,18 @@
     "special_defence": 35,
     "speed": 67
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 133,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:powdersnow",
     "1:stringshot",
@@ -100,7 +115,8 @@
     "egg:bugbuzz",
     "egg:sharpen",
     "egg:iceshard",
-    "egg:icywind"  ],
+    "egg:icywind"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -110,7 +126,9 @@
   "pokedex": [
     "cobblemon.species.frosulo.desc"
   ],
-  "preEvolution": "colarva",
+  "height": 11,
+  "weight": 287,
+  "aspects": [],
   "evolutions": [
     {
       "id": "frosulo_frosthra",
@@ -121,31 +139,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 53
+          "minLevel": "53"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 2051,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.4375,
+    "height": 3.4375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 287,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

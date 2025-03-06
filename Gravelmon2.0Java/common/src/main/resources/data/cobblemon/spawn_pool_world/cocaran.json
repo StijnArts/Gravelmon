@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-21",
-      "weight": 2.5,
+      "weight": 3.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -28,6 +28,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_coast"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
       }
     }
   ]

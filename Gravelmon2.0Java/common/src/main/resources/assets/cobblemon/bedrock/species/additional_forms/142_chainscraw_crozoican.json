@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:chainscraw",
-  "order": 3,
+  "order": 142,
   "variations": [
     {
       "aspects": [
         "crozoican"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:ferroa_crozoicanchainscraw",
+      "model": "cobblemon:cutout_gravelmon_65_by_89.geo",
+      "poser": "cobblemon:cutout_gravelmon_65_by_89",
       "texture": "cobblemon:textures/pokemon/ferroa/crozoicanchainscraw.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "crozoican",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:ferroa_crozoicanchainscraw",
-      "texture": "cobblemon:textures/pokemon/ferroa/crozoicanchainscraw_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

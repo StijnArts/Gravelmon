@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:gurdurr",
-  "order": 3,
+  "order": 104,
   "variations": [
     {
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_kaskadiangurdurr",
+      "model": "cobblemon:cutout_gravelmon_460_by_512.geo",
+      "poser": "cobblemon:cutout_gravelmon_460_by_512",
       "texture": "cobblemon:textures/pokemon/generation5/kaskadiangurdurr.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "kaskadian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_kaskadiangurdurr",
-      "texture": "cobblemon:textures/pokemon/generation5/kaskadiangurdurr_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

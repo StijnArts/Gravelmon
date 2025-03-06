@@ -2,6 +2,12 @@
   "entryId": "cobblemon:ursaring",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Hoennian",
       "unlockForms": [
         "Hoennian"

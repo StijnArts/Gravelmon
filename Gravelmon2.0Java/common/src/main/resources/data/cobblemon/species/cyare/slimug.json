@@ -1,0 +1,100 @@
+{
+  "name": "Slimug",
+  "primaryType": "poison",
+  "catchRate": 181,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.28235294117647064,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 71,
+    "attack": 35,
+    "defence": 51,
+    "special_attack": 47,
+    "special_defence": 61,
+    "speed": 44
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:acid"
+  ],
+  "labels": [
+    "cyare",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.slimug.desc"
+  ],
+  "height": 4,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "slimug_segnapod",
+      "variant": "level_up",
+      "result": "segnapod",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "31"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 5389,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.125,
+    "height": 2.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

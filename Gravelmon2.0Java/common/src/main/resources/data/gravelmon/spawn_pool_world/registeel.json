@@ -7,17 +7,25 @@
       "id": "delta_registeel-01",
       "pokemon": "registeel delta",
       "presets": [
-        "lava_surface"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
       "level": "69-80",
-      "weight": 3.0E-5,
+      "weight": 4.5E-5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

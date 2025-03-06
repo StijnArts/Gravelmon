@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Bawlfrog",
-  "nationalPokedexNumber": 3759,
   "primaryType": "water",
   "secondaryType": "normal",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.4897959183673469,
+  "cannotDynamax": false,
   "abilities": [
-    "empathy"  ],
+    "empathy"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 190,
     "attack": 38,
@@ -14,37 +47,18 @@
     "special_defence": 88,
     "speed": 43
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 51,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:watergun",
     "5:lick",
@@ -84,7 +98,8 @@
     "tm:flash",
     "tm:waterfall",
     "tm:dive",
-    "egg:followme"  ],
+    "egg:followme"
+  ],
   "labels": [
     "blazing_emerald",
     "joke",
@@ -93,25 +108,18 @@
   "pokedex": [
     "cobblemon.species.bawlfrog.desc"
   ],
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 10,
   "weight": 226,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3832,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.0625,
+    "height": 3.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

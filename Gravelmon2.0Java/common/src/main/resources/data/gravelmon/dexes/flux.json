@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 33,
+  "sortOrder": 34,
   "id": "gravelmon:flux",
   "entries": [
     "cobblemon:mozz",
@@ -73,6 +73,8 @@
     "cobblemon:arbok-alteran",
     "cobblemon:cactana",
     "cobblemon:emberge",
+    "cobblemon:glubble",
+    "cobblemon:garblgoyle",
     "cobblemon:aerapin",
     "cobblemon:albashell",
     "cobblemon:grizzlet",

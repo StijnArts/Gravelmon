@@ -121,6 +121,5 @@ public class DeltaKabutops extends Pokemon {
                 List.of());
         this.setLangFileName("Kabutops");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

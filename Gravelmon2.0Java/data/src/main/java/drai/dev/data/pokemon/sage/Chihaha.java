@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -107,9 +108,16 @@ public class Chihaha extends Pokemon {
                 List.of(SpawnPreset.VILLAGE),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+        
+        
         this.setBaseScale(0.3);
         this.setHitbox(2,2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.4f, new Vector3(0, .3, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
     }
 }

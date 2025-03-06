@@ -1,67 +1,96 @@
 {
-  "portraitScale": 3,
-  "portraitTranslation": [0.0, -0.4, 0.0],
-  "profileScale": 0.9,
-  "profileTranslation": [0, 0.4, 0.0],
   "head": "head_2",
+  "portraitScale": 3.0,
+  "portraitTranslation": [
+    0.0,
+    -0.4,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "allPoseTypes": true,
-      "transformTicks": 10,
       "animations": [
-	  "look",
-	  "bedrock(shulong_terrestrial, ground_idle)"
-	  ],
+        "bedrock(shulong_terrestrial, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(shulong_terrestrial, blink)"]
+          "animations": [
+            "bedrock(shulong_terrestrial, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
-  "walking": {
+    "walking": {
       "poseName": "walking",
-      "poseType": ["WALK"],
-      "transformTicks": 10,
       "animations": [
-	  "look",
-	  "bedrock(shulong_terrestrial, ground_walk)"
-	  ],
+        "bedrock(shulong_terrestrial, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(shulong_terrestrial, blink)"]
+          "animations": [
+            "bedrock(shulong_terrestrial, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
-  "floating": {
-      "poseName": "floating",
-      "poseType": ["FLOAT"],
-      "transformTicks": 10,
+    "swimming": {
+      "poseName": "swimming",
       "animations": [
-	  "look",
-	  "bedrock(shulong_terrestrial, water_idle)"
-	  ],
+        "bedrock(shulong_terrestrial, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(shulong_terrestrial, blink)"]
+          "animations": [
+            "bedrock(shulong_terrestrial, blink)"
+          ],
+          "name": "blink"
         }
       ]
-  },
-  "swimming": {
-      "poseName": "swimming",
-      "poseType": ["SWIM"],
-      "transformTicks": 10,
+    },
+    "floating": {
+      "poseName": "floating",
       "animations": [
-	  "look",
-	  "bedrock(shulong_terrestrial, water_swim)"
-	  ],
+        "bedrock(shulong_terrestrial, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(shulong_terrestrial, blink)"]
+          "animations": [
+            "bedrock(shulong_terrestrial, blink)"
+          ],
+          "name": "blink"
         }
       ]
     }

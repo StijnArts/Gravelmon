@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Growdup",
-  "nationalPokedexNumber": 3917,
   "primaryType": "rock",
   "secondaryType": "grass",
+  "catchRate": 72,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "budy",
+  "baseScale": 0.6776470588235294,
+  "cannotDynamax": false,
   "abilities": [
     "damp",
     "grassysurge",
     "h:unaware"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 119,
     "attack": 76,
@@ -17,38 +50,19 @@
     "special_defence": 83,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 72,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:constrict",
     "1:absorb",
@@ -115,7 +129,8 @@
     "tm:endure",
     "tm:mirrorcoat",
     "tm:tickle",
-    "tm:wringout"  ],
+    "tm:wringout"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -125,26 +140,18 @@
   "pokedex": [
     "cobblemon.species.growdup.desc"
   ],
-  "preEvolution": "budy",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 5765,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3937,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.3125,
+    "height": 5.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

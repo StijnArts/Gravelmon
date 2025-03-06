@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Zedakazm",
-  "nationalPokedexNumber": 3070,
   "primaryType": "dark",
   "secondaryType": "ghost",
+  "catchRate": 3,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 306,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.8129032258064516,
+  "cannotDynamax": false,
   "abilities": [
     "pressure",
     "h:shadowtag"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 120,
     "attack": 150,
@@ -16,37 +48,18 @@
     "special_defence": 130,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 306,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:ominouswind",
     "7:feintattack",
@@ -63,7 +76,8 @@
     "73:healblock",
     "79:grudge",
     "85:destinybond",
-    "91:gigaimpact"  ],
+    "91:gigaimpact"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled"
@@ -71,25 +85,18 @@
   "pokedex": [
     "cobblemon.species.zedakazm.desc"
   ],
-  "baseScale": 0.7000000000000001,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 42,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3040,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 7.75,
+    "height": 7.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Dragune",
-  "nationalPokedexNumber": 4779,
   "primaryType": "dragon",
   "secondaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 144,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "laquagon",
+  "baseScale": 2.0625,
+  "cannotDynamax": false,
   "abilities": [
-    "rockhead"  ],
+    "rockhead"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 64,
     "attack": 80,
@@ -14,37 +48,18 @@
     "special_defence": 55,
     "speed": 76
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 144,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon"
   ],
+  "drops": {},
   "moves": [
     "1:headbutt",
     "1:leer",
@@ -98,7 +113,8 @@
     "egg:sunnyday",
     "egg:swagger",
     "egg:thunderfang",
-    "egg:wrap"  ],
+    "egg:wrap"
+  ],
   "labels": [
     "vega",
     "not_modeled",
@@ -108,7 +124,9 @@
   "pokedex": [
     "cobblemon.species.dragune.desc"
   ],
-  "preEvolution": "laquagon",
+  "height": 55,
+  "weight": 1280,
+  "aspects": [],
   "evolutions": [
     {
       "id": "dragune_nostratos",
@@ -119,31 +137,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 50
+          "minLevel": "50"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.9166666666666666,
+  "nationalPokedexNumber": 4534,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 55,
-  "weight": 1280,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

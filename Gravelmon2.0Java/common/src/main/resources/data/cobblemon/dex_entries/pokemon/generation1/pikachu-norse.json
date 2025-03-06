@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pikachu-norse",
+  "speciesId": "cobblemon:pikachu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    }
+  ],
+  "variations": []
+}

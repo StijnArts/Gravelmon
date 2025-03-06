@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Sabolt",
-  "nationalPokedexNumber": 2127,
   "primaryType": "electric",
   "secondaryType": "dark",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "baseScale": 0.21818181818181817,
+  "cannotDynamax": false,
   "abilities": [
-    "download"  ],
+    "download"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 70,
@@ -14,39 +47,19 @@
     "special_defence": 70,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 64,
-  "experienceGroup": "slow",
-  "eggCycles": 41,
   "eggGroups": [
     "undiscovered"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "gravelmon:terrestrial_ring",
@@ -112,7 +125,8 @@
     "tutor:signalbeam",
     "tutor:sleeptalk",
     "tutor:snatch",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled"
@@ -120,6 +134,9 @@
   "pokedex": [
     "cobblemon.species.sabolt.desc"
   ],
+  "height": 5,
+  "weight": 68,
+  "aspects": [],
   "evolutions": [
     {
       "id": "sabolt_sabolt_terrestrial",
@@ -133,8 +150,8 @@
           "itemCondition": "gravelmon:terrestrial_ring"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "sabolt_sabolt_xenoversal",
       "variant": "level_up",
@@ -147,28 +164,17 @@
           "itemCondition": "gravelmon:xenoversal_ring"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1797,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.4375,
+    "height": 3.4375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 5,
-  "weight": 68,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

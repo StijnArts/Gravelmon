@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.lockemon.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -91,9 +91,8 @@ public class KaskadianSkuntank extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Skuntank");
-        this.setPortraitXYZ(0,1.8,0);
         addAdditionalEvolution("Skuntank", new EvolutionEntry("skuntank kaskadian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName()))));
     }
 }

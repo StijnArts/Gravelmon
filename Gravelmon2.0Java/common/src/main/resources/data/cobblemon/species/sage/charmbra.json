@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Charmbra",
-  "nationalPokedexNumber": 1144,
   "primaryType": "ground",
   "secondaryType": "poison",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 38,
+  "baseFriendship": 70,
+  "preEvolution": "cobrasket",
+  "baseScale": 0.07984344422700586,
+  "cannotDynamax": false,
   "abilities": [
     "synchronize",
     "shedskin",
     "h:multiscale"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 81,
     "attack": 90,
@@ -17,38 +50,28 @@
     "special_defence": 91,
     "speed": 58
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 161,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 38,
   "eggGroups": [
     "field",
     "dragon"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:synchronoise",
     "1:nastyplot",
@@ -136,7 +159,8 @@
     "egg:poisontail",
     "egg:spitup",
     "egg:stockpile",
-    "egg:swallow"  ],
+    "egg:swallow"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -146,26 +170,18 @@
   "pokedex": [
     "cobblemon.species.charmbra.desc"
   ],
-  "preEvolution": "cobrasket",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 17,
   "weight": 286,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1096,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

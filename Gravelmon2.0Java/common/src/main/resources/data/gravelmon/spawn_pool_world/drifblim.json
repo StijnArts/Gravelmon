@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_drifblim-01",
+      "pokemon": "drifblim epoch",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "36-54",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_drifblim-01",
       "pokemon": "drifblim delta",
       "presets": [
@@ -13,7 +40,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 1.8,
+      "weight": 2.7,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -22,6 +49,14 @@
         "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     },
     {
@@ -34,7 +69,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "28-50",
-      "weight": 0.2,
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -43,6 +78,14 @@
         "maxSkyLight": 15,
         "timeRange": "night",
         "isRaining": false
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
       }
     }
   ]

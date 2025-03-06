@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -163,9 +163,8 @@ public class Quezsparce extends Pokemon {
                 0.38, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
             this.setPreEvolution("dunsparce");
         addAdditionalEvolution("dunsparce", new EvolutionEntry("quezsparce", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRILL_RUN.getName()+"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRILL_RUN.getName()))));
     }
 }

@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Tricwe",
-  "nationalPokedexNumber": 2428,
   "primaryType": "bug",
+  "catchRate": 255,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.24615384615384617,
+  "cannotDynamax": false,
   "abilities": [
     "swarm",
-    "swarm"  ],
+    "swarm"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 40,
     "attack": 65,
@@ -14,39 +47,19 @@
     "special_defence": 30,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "gravelmon:royal_jelly",
@@ -113,7 +126,8 @@
     "egg:batonpass",
     "egg:pursuit",
     "egg:thunderpunch",
-    "egg:silverwind"  ],
+    "egg:silverwind"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -121,6 +135,9 @@
   "pokedex": [
     "cobblemon.species.tricwe.desc"
   ],
+  "height": 3,
+  "weight": 25,
+  "aspects": [],
   "evolutions": [
     {
       "id": "tricwe_harylect",
@@ -134,8 +151,8 @@
           "move": "wildcharge"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "tricwe_seikamater",
       "variant": "level_up",
@@ -148,28 +165,17 @@
           "itemCondition": "gravelmon:royal_jelly"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 2004,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.4375,
+    "height": 2.4375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 3,
-  "weight": 25,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

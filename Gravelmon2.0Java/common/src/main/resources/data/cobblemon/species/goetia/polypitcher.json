@@ -1,0 +1,107 @@
+{
+  "name": "Polypitcher",
+  "primaryType": "poison",
+  "secondaryType": "grass",
+  "catchRate": 155,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "nepolyp",
+  "baseScale": 0.432,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 77,
+    "attack": 27,
+    "defence": 77,
+    "special_attack": 77,
+    "special_defence": 80,
+    "speed": 15
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:acid",
+    "1:absorb",
+    "1:bulkup",
+    "1:synthesis"
+  ],
+  "labels": [
+    "goetia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.polypitcher.desc"
+  ],
+  "height": 9,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "polypitcher_polypenthes",
+      "variant": "level_up",
+      "result": "polypenthes",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "42"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 5922,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.125,
+    "height": 3.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

@@ -2,6 +2,12 @@
   "entryId": "cobblemon:lumineon",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Lagoonan",
       "unlockForms": [
         "Lagoonan"

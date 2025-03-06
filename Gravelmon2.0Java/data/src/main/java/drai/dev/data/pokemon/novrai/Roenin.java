@@ -24,7 +24,7 @@ public class Roenin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its fins are sharp, and it uses them to chop up aquatic plants to eat. As it grows older, it develops a strong desire to wander from its home."),
                 List.of(new EvolutionEntry("salmurai", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SWORDS_DANCE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SWORDS_DANCE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),
                         new MoveLearnSetEntry(Move.KARATE_CHOP,5),

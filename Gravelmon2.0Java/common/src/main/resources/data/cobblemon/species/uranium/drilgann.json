@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Drilgann",
-  "nationalPokedexNumber": 2433,
   "primaryType": "ground",
   "secondaryType": "dark",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "modrille",
+  "baseScale": 0.7783783783783784,
+  "cannotDynamax": false,
   "abilities": [
     "lightningrod",
     "sandrush",
     "h:moldbreaker"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 140,
@@ -17,38 +50,19 @@
     "special_defence": 75,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:hornattack",
     "1:tailwhip",
@@ -133,7 +147,8 @@
     "egg:magnitude",
     "egg:swordsdance",
     "egg:curse",
-    "egg:crushclaw"  ],
+    "egg:crushclaw"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -143,26 +158,18 @@
   "pokedex": [
     "cobblemon.species.drilgann.desc"
   ],
-  "preEvolution": "modrille",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 1896,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2008,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.625,
+    "height": 4.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

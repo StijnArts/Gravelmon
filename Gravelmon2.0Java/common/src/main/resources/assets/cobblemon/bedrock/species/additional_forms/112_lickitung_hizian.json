@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:lickitung",
-  "order": 3,
+  "order": 112,
   "variations": [
     {
       "aspects": [
         "hizian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_hizianlickitung",
+      "model": "cobblemon:cutout_gravelmon_72_by_53.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_53",
       "texture": "cobblemon:textures/pokemon/generation1/hizianlickitung.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "hizian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_hizianlickitung",
-      "texture": "cobblemon:textures/pokemon/generation1/hizianlickitung_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

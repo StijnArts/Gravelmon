@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Skurrow",
-  "nationalPokedexNumber": 1123,
   "primaryType": "ground",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "baseFriendship": 70,
+  "baseScale": 0.0703125,
+  "cannotDynamax": false,
   "abilities": [
     "dryskin",
     "sandrush",
     "h:stakeout"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 82,
     "attack": 95,
@@ -16,38 +48,19 @@
     "special_defence": 77,
     "speed": 91
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 166,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 51,
   "eggGroups": [
     "field",
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:growl",
     "1:wrap",
@@ -123,7 +136,8 @@
     "egg:nightslash",
     "egg:skullbash",
     "egg:thrash",
-    "egg:wringout"  ],
+    "egg:wringout"
+  ],
   "labels": [
     "sage",
     "not_modeled"
@@ -131,25 +145,18 @@
   "pokedex": [
     "cobblemon.species.skurrow.desc"
   ],
-  "baseScale": 0.25,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
   "height": 15,
   "weight": 171,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1078,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

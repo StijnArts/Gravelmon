@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deployster",
+  "speciesId": "cobblemon:deployster",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

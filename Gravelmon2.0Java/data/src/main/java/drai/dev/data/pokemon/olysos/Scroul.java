@@ -8,7 +8,7 @@ import java.util.*;
 public class Scroul extends drai.dev.data.pokemon.Pokemon {
     public Scroul() {
         super("Scroul",
-                Type.GRASS, Type.GHOST,
+                Type.GRASS,Type.GHOST,
                 new Stats(50,
                         40,
                         60,
@@ -68,11 +68,7 @@ public class Scroul extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REFLECT,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Scroul");

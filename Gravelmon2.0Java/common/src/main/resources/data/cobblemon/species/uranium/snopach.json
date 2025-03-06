@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Snopach",
-  "nationalPokedexNumber": 2462,
   "primaryType": "ice",
   "secondaryType": "rock",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "baseScale": 0.432,
+  "cannotDynamax": false,
   "abilities": [
     "solidrock",
     "snowcloak",
     "h:sturdy"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 80,
@@ -17,38 +49,19 @@
     "special_defence": 40,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "slow",
-  "eggCycles": 48,
   "eggGroups": [
     "mineral",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:rollout",
     "1:growl",
@@ -114,7 +127,8 @@
     "egg:iceball",
     "egg:rapidspin",
     "egg:frostbreath",
-    "egg:glaciate"  ],
+    "egg:glaciate"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -122,6 +136,9 @@
   "pokedex": [
     "cobblemon.species.snopach.desc"
   ],
+  "height": 9,
+  "weight": 1405,
+  "aspects": [],
   "evolutions": [
     {
       "id": "snopach_dermafrost",
@@ -132,31 +149,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.15,
+  "nationalPokedexNumber": 2034,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.125,
+    "height": 3.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 9,
-  "weight": 1405,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

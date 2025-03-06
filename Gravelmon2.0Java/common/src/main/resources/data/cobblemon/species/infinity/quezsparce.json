@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Quezsparce",
-  "nationalPokedexNumber": 1410,
   "primaryType": "fairy",
   "secondaryType": "ground",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "baseFriendship": 70,
+  "preEvolution": "dunsparce",
+  "baseScale": 0.3891891891891892,
+  "cannotDynamax": false,
   "abilities": [
     "serenegrace",
     "shedskin",
     "h:rattled"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 110,
     "attack": 105,
@@ -17,37 +50,18 @@
     "special_defence": 70,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 52,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:gust",
     "1:rage",
@@ -179,7 +193,8 @@
     "egg:hex",
     "egg:magiccoat",
     "egg:secretpower",
-    "egg:trumpcard"  ],
+    "egg:trumpcard"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -188,26 +203,18 @@
   "pokedex": [
     "cobblemon.species.quezsparce.desc"
   ],
-  "preEvolution": "dunsparce",
-  "baseScale": 0.39999999999999997,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 24,
   "weight": 793,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1262,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.25,
+    "height": 9.25,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

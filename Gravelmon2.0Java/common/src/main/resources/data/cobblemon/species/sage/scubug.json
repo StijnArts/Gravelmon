@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Scubug",
-  "nationalPokedexNumber": 1094,
   "primaryType": "bug",
   "secondaryType": "water",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 24,
+  "baseFriendship": 70,
+  "preEvolution": "bouwee",
+  "baseScale": 0.042270058708414875,
+  "cannotDynamax": false,
   "abilities": [
     "swiftswim",
     "tintedlens",
     "h:stickyhold"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 65,
     "attack": 40,
@@ -17,38 +50,28 @@
     "special_defence": 94,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 24,
   "eggGroups": [
     "bug",
     "water_3"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:flash",
     "1:whirlpool",
@@ -116,7 +139,8 @@
     "egg:irondefense",
     "egg:mudshot",
     "egg:psybeam",
-    "egg:scald"  ],
+    "egg:scald"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -126,26 +150,18 @@
   "pokedex": [
     "cobblemon.species.scubug.desc"
   ],
-  "preEvolution": "bouwee",
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 9,
   "weight": 219,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1060,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

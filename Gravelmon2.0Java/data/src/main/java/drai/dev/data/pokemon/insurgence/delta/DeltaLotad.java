@@ -1,6 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -105,13 +107,25 @@ public class DeltaLotad extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Lotad");
-        this.setPortraitXYZ(0,1.8,0);
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData()
+                .addBasicVariation(this);
+        getPosingFileData().setPortraitData(2.22f, new Vector3(-0.1, -1.6, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.26, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose(),
+                AnimationData.walkingAnimation().addPoseType(PoseType.FLY),
+                AnimationData.swimmingAnimation(),
+                AnimationData.floatingAnimation(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

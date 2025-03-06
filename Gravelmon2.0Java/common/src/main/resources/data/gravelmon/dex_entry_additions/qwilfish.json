@@ -2,9 +2,15 @@
   "entryId": "cobblemon:qwilfish",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Forman",
       "unlockForms": [
-        "Fligian"
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {

@@ -49,7 +49,7 @@ public class Moleheimer extends drai.dev.data.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 54, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER,Biome.IS_SPRING))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE,Biome.IS_SPRING))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

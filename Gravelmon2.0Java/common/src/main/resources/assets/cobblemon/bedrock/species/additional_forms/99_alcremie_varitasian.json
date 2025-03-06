@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:alcremie",
-  "order": 3,
+  "order": 99,
   "variations": [
     {
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_varitasianalcremie",
+      "model": "cobblemon:cutout_gravelmon_44_by_60.geo",
+      "poser": "cobblemon:cutout_gravelmon_44_by_60",
       "texture": "cobblemon:textures/pokemon/generation8/varitasianalcremie.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "varitasian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_varitasianalcremie",
-      "texture": "cobblemon:textures/pokemon/generation8/varitasianalcremie_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

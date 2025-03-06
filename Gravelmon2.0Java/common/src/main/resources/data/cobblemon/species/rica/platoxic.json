@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Platoxic",
-  "nationalPokedexNumber": 1351,
   "primaryType": "poison",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "platypoint",
+  "baseScale": 0.32542372881355935,
+  "cannotDynamax": false,
   "abilities": [
     "poisonpoint",
     "poisontouch",
     "h:skilllink"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 107,
@@ -16,37 +49,18 @@
     "special_defence": 73,
     "speed": 88
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": true
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:leer",
     "5:poisonsting",
@@ -122,7 +136,8 @@
     "tm:surf",
     "tm:steamroller",
     "tm:suckerpunch",
-    "tm:rockblast"  ],
+    "tm:rockblast"
+  ],
   "labels": [
     "rica",
     "not_modeled",
@@ -132,26 +147,18 @@
   "pokedex": [
     "cobblemon.species.platoxic.desc"
   ],
-  "preEvolution": "platypoint",
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 8,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1220,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.6874999999999996,
+    "height": 3.6874999999999996,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

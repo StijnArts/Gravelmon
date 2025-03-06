@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class Noxial extends Pokemon {
                 List.of("Noxial have been discovered in both endothermic and exothermic forms. The more extreme the temperature, the more volatile the Noxial."),
                 List.of(new EvolutionEntry("fumighast", EvolutionType.LEVEL_UP, true, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:ice_heal\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:ice_heal")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_GAS,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
@@ -125,7 +125,7 @@ public class Noxial extends Pokemon {
                         List.of("Noxial have been discovered in both endothermic and exothermic forms. The more extreme the temperature, the more volatile the Noxial."),
                         List.of(new EvolutionEntry("fumighast", EvolutionType.LEVEL_UP, true, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
-                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:burn_heal\"")))),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:burn_heal")))),
                         List.of(
                                 new MoveLearnSetEntry(Move.POISON_GAS,1),
                                 new MoveLearnSetEntry(Move.SMOKESCREEN,1),
@@ -216,6 +216,6 @@ public class Noxial extends Pokemon {
                         List.of(SpawnPreset.VILLAGE),
                         0.4, 0.5
                 )));
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

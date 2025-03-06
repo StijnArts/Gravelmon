@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lilibell",
+  "speciesId": "cobblemon:lilibell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

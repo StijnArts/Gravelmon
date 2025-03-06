@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:ekans",
-  "order": 3,
+  "order": 113,
   "variations": [
     {
       "aspects": [
         "alteran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_alteranekans",
+      "model": "cobblemon:cutout_gravelmon_47_by_42.geo",
+      "poser": "cobblemon:cutout_gravelmon_47_by_42",
       "texture": "cobblemon:textures/pokemon/generation1/alteranekans.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "alteran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_alteranekans",
-      "texture": "cobblemon:textures/pokemon/generation1/alteranekans_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

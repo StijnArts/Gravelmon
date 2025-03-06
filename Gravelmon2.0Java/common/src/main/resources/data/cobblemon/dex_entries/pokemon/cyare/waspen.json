@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:waspen",
+  "speciesId": "cobblemon:waspen",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

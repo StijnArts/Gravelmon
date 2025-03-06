@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:gastly",
-  "order": 3,
+  "order": 139,
   "variations": [
     {
       "aspects": [
         "havaiian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_havaiiangastly",
+      "model": "cobblemon:cutout_gravelmon_52_by_57.geo",
+      "poser": "cobblemon:cutout_gravelmon_52_by_57",
       "texture": "cobblemon:textures/pokemon/generation1/havaiiangastly.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "havaiian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_havaiiangastly",
-      "texture": "cobblemon:textures/pokemon/generation1/havaiiangastly_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

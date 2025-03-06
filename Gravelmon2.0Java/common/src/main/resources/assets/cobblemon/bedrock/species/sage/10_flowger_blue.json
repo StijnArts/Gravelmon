@@ -5,17 +5,36 @@
     {
       "aspects": [
         "blue"
-     ],
-      "poser": "cobblemon:sage_flowger",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/sage/blue_flowger.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "blue",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/blue_flowger_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_512_by_450.geo",
+      "poser": "cobblemon:cutout_gravelmon_512_by_450",
+      "texture": "cobblemon:textures/pokemon/sage/blue.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

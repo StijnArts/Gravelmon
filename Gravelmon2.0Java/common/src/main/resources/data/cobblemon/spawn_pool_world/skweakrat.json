@@ -13,13 +13,21 @@
       "context": "grounded",
       "bucket": "common",
       "level": "18-34",
-      "weight": 2.4,
+      "weight": 3.5999999999999996,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

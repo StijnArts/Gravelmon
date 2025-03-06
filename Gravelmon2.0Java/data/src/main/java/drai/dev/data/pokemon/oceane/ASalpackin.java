@@ -24,14 +24,10 @@ public class ASalpackin extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Few Salpackin survive the conditions required to achieve this Formation, a synergism of their previous ones. Each cluster member of those that do now brims with volatile energy highly capable of converting fluids and gases into plasma."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("A-Salpackin");

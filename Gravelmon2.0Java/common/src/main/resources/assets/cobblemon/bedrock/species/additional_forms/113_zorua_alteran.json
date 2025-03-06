@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:zorua",
-  "order": 3,
+  "order": 113,
   "variations": [
     {
       "aspects": [
         "alteran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_alteranzorua",
+      "model": "cobblemon:cutout_gravelmon_51_by_52.geo",
+      "poser": "cobblemon:cutout_gravelmon_51_by_52",
       "texture": "cobblemon:textures/pokemon/generation5/alteranzorua.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "alteran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_alteranzorua",
-      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

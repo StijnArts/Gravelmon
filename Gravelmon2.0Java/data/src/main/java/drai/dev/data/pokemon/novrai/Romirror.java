@@ -24,7 +24,7 @@ public class Romirror extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("Romirror is a vain Pokemon obsessed with keeping itself clean and free of cracks. Its brain cells are distributed across its shiny, reflective surface."),
                 List.of(new EvolutionEntry("resufflect", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.METAL_BURST.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.METAL_BURST.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),
                         new MoveLearnSetEntry(Move.BIDE,5),

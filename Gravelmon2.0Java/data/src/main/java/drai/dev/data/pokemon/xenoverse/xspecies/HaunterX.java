@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -71,9 +72,17 @@ public class HaunterX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Haunter");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1.0);
         setHitbox(1.0, 3.0);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("haunter_x");
+        getPosingFileData().setPortraitData( 1.2f, new Vector3(-.30, 2, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, 1.55, -20));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
     }
 }

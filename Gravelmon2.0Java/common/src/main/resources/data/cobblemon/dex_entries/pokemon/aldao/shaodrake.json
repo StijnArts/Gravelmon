@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shaodrake",
+  "speciesId": "cobblemon:shaodrake",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bulblotel",
+  "speciesId": "cobblemon:bulblotel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

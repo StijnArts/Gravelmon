@@ -1,107 +1,116 @@
 {
   "head": "head",
-  "portraitScale": 0.6,
-  "portraitTranslation": [ -0.3, 0.8, 0 ],
-  "profileScale": 0.6,
-  "profileTranslation": [ -0.3, 0.8, 0 ],
-  "animations": {
-    "cry": "q.bedrock_stateful('oarwish', 'cry')"
-  },
+  "portraitScale": 0.6000000238418579,
+  "portraitTranslation": [
+    -0.3,
+    0.8,
+    0.0
+  ],
+  "profileScale": 0.6000000238418579,
+  "profileTranslation": [
+    -0.3,
+    0.8,
+    0.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "bedrock(oarwish, ground_idle)"
       ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(oarwish, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "walking": {
       "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [
-        "WALK"
-      ],
       "animations": [
         "bedrock(oarwish, ground_walk)"
       ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(oarwish, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "swimming": {
       "poseName": "swimming",
-      "transformTicks": 10,
-      "poseTypes": [
-        "SWIM"
-      ],
-
       "animations": [
         "bedrock(oarwish, water_swim)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": [
-            "bedrock(oarwish, blink)"
-          ]
-        }
-      ]
-    },
-    "floating": {
-      "poseName": "floating",
-      "transformTicks": 10,
       "poseTypes": [
-        "FLOAT"
+        "SWIM"
       ],
-      "isSubmergedInWater": true,
-      "animations": [
-        "bedrock(oarwish, water_idle)"
-      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(oarwish, blink)"
-          ]
+          ],
+          "name": "blink"
         }
       ]
     },
     "on_floating": {
       "poseName": "floating",
-      "transformTicks": 10,
-      "poseTypes": [
-        "FLOAT"
-      ],
-      "isSubmergedInWater": false,
       "animations": [
         "bedrock(oarwish, surface_idle)"
       ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": false,
       "quirks": [
         {
-          "name": "blink",
           "animations": [
             "bedrock(oarwish, blink)"
-          ]
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "bedrock(oarwish, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(oarwish, blink)"
+          ],
+          "name": "blink"
         }
       ]
     }

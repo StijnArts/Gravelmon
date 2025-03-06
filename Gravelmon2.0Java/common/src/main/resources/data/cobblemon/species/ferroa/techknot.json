@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Techknot",
-  "nationalPokedexNumber": 1763,
   "primaryType": "steel",
   "secondaryType": "electric",
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "phoncrawl",
+  "baseScale": 0.3469879518072289,
+  "cannotDynamax": false,
   "abilities": [
     "soundproof",
     "h:download"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 95,
@@ -16,38 +49,19 @@
     "special_defence": 85,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 173,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:barrier",
     "8:thundershock",
@@ -123,7 +137,8 @@
     "tm:voltswitch",
     "tm:wildcharge",
     "tm:workup",
-    "tm:xscissor"  ],
+    "tm:xscissor"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -133,26 +148,18 @@
   "pokedex": [
     "cobblemon.species.techknot.desc"
   ],
-  "preEvolution": "phoncrawl",
-  "baseScale": 0.19999999999999998,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 12,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1540,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.1875,
+    "height": 5.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

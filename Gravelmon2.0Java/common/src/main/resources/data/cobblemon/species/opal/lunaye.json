@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Lunaye",
-  "nationalPokedexNumber": 1671,
   "primaryType": "fire",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 264,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "shaboon",
+  "baseScale": 0.28800000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:intimidate"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 70,
@@ -16,37 +49,18 @@
     "special_defence": 110,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 264,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:ominouswind",
     "1:scratch",
@@ -76,7 +90,8 @@
     "egg:sleeptalk",
     "egg:lavaplume",
     "egg:sweetkiss",
-    "egg:yawn"  ],
+    "egg:yawn"
+  ],
   "labels": [
     "opal",
     "not_modeled",
@@ -86,26 +101,18 @@
   "pokedex": [
     "cobblemon.species.lunaye.desc"
   ],
-  "preEvolution": "shaboon",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 18,
   "weight": 199,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1474,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.375,
+    "height": 9.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -2,6 +2,12 @@
   "entryId": "cobblemon:tangrowth",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Qamoran",
       "unlockForms": [
         "Qamoran"

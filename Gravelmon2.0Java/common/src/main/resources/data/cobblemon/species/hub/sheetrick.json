@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Sheetrick",
-  "nationalPokedexNumber": 1548,
   "primaryType": "ghost",
   "secondaryType": "normal",
+  "catchRate": 120,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 149,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.25,
+  "cannotDynamax": false,
   "abilities": [
-    "tangledfeet"  ],
+    "tangledfeet"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 70,
@@ -14,37 +47,18 @@
     "special_defence": 67,
     "speed": 100
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 120,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 149,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:roleplay",
     "5:rapidspin",
@@ -84,7 +98,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:whirlwind",
-    "tm:uturn"  ],
+    "tm:uturn"
+  ],
   "labels": [
     "hub",
     "not_modeled"
@@ -92,25 +107,18 @@
   "pokedex": [
     "cobblemon.species.sheetrick.desc"
   ],
-  "baseScale": 0.16666666666666666,
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1393,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -122,9 +123,18 @@ public class DeltaMaractus extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Maractus");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.8);
         this.setHitbox(1,1.5);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                SimpleTextureLayerData.glowLayer(this)
+        );
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(-0.2, -.8, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink().withLook()
+        ));
     }
 }

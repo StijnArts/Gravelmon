@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Athcleat",
-  "nationalPokedexNumber": 5179,
   "primaryType": "fighting",
   "secondaryType": "ground",
+  "catchRate": 70,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 175,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "athlace",
+  "baseScale": 0.192,
+  "cannotDynamax": false,
   "abilities": [
     "quickfeet",
     "moxie",
     "h:receiver"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 68,
     "attack": 122,
@@ -17,37 +50,18 @@
     "special_defence": 65,
     "speed": 99
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 70,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 175,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:mudsport",
     "7:rollingkick",
@@ -118,7 +132,8 @@
     "tm:batonpass",
     "tm:submission",
     "tm:highhorsepower",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -128,26 +143,18 @@
   "pokedex": [
     "cobblemon.species.athcleat.desc"
   ],
-  "preEvolution": "athlace",
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 4,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4905,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.125,
+    "height": 3.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

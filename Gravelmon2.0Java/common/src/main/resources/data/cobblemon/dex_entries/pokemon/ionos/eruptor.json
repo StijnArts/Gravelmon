@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:eruptor",
+  "speciesId": "cobblemon:eruptor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -25,7 +25,7 @@ public class VaritasianTogetic extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
                 List.of("Upon evolving, its shell forms into magnificent armor. It is a slightly clumsier flier than standard Togetic because the armor makes it heavier, but has a hardened head to compensate."),
                 List.of(new EvolutionEntry("togetect", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.STEEL_WING.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.STEEL_WING.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF,1),
                         new MoveLearnSetEntry(Move.METRONOME,5),

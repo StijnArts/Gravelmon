@@ -51,7 +51,7 @@ public class NorheimanGlimmora extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Glimmora");
         addAdditionalEvolution("glimmet", new EvolutionEntry("glimmora norheiman", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_FREEZING.getId() + ":" + Biome.IS_FREEZING.getName() +"\""))));
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_FREEZING.getId() + ":" + Biome.IS_FREEZING.getName()))));
 
     }
 

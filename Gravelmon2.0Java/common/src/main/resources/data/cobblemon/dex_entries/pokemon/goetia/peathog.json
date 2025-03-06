@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:peathog",
+  "speciesId": "cobblemon:peathog",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

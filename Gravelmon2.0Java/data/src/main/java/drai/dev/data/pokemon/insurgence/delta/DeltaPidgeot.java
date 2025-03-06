@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -166,9 +168,18 @@ public class DeltaPidgeot extends Pokemon {
                 )));
         this.setLangFileName("Pidgeot");
         this.setCanFly(true);
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.85);
         this.setHitbox(0.75,1.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.1f, new Vector3(-0.4, -1, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().setAnimationFileName("deltapidgeot");
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook(),
+                AnimationData.flyingAnimation().addPoseType(PoseType.HOVER).withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

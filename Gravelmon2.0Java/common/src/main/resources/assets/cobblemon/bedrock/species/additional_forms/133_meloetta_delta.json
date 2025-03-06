@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:meloetta",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltameloetta.geo",
+      "model": "cobblemon:generation5_deltameloetta.geo",
       "poser": "cobblemon:generation5_deltameloetta",
-      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta/deltameloetta.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltameloetta.geo",
+      "model": "cobblemon:generation5_deltameloetta.geo",
       "poser": "cobblemon:generation5_deltameloetta",
-      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation5/deltameloetta/deltameloetta_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

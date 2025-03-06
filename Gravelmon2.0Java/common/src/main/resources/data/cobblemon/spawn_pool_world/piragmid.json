@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-35",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -22,6 +22,14 @@
         "minY": 0,
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
       }
     }
   ]

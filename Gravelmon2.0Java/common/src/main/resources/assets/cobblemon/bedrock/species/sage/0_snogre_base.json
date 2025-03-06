@@ -4,29 +4,69 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:sage_snogre",
+      "model": "cobblemon:cutout_gravelmon_74_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_74_by_69",
       "texture": "cobblemon:textures/pokemon/sage/snogre.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/sage/snogre_shiny.png"
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/snogre_female.png"
-    },
-    {
-      "aspects": [
-        "female",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/sage/snogre_female_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_74_by_69.geo",
+      "poser": "cobblemon:cutout_gravelmon_74_by_69",
+      "texture": "cobblemon:textures/pokemon/sage/snogre_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

@@ -1,9 +1,10 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.data.pokemon.*;
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -21,7 +22,7 @@ public class Fortifry extends Pokemon {
                 50, List.of(EggGroup.WATER_2, EggGroup.DRAGON),
                 List.of("Only Fortifry that learn to care for others will evolve. Though they are numerous and hardy, few Fortifry evolve due to their inherently selfish nature."),
                 List.of(new EvolutionEntry("oarwish", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WISH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.WISH.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -79,9 +80,18 @@ public class Fortifry extends Pokemon {
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0,0,0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.emptyAnimation().withBlink().markAsBackupPose(),
+                AnimationData.swimmingAnimation().addPoseType(PoseType.WALK).withBlink(),
+                AnimationData.floatingAnimation().addPoseType(PoseType.STAND).withBlink()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('fortifry', 'cry')");
     }
 }

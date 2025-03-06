@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Flamaggedon",
-  "nationalPokedexNumber": 2612,
   "primaryType": "fire",
   "secondaryType": "steel",
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 245,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "voladillo",
+  "baseScale": 0.5560975609756097,
+  "cannotDynamax": false,
   "abilities": [
     "blaze",
     "h:filter"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 95,
     "attack": 65,
@@ -16,38 +49,19 @@
     "special_defence": 90,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 245,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "field",
     "monster"
   ],
+  "drops": {},
   "moves": [
     "1:tailwhip",
     "6:ember",
@@ -108,7 +122,8 @@
     "tm:mudsport",
     "tm:burnup",
     "tm:ancientpower",
-    "tm:heatwave"  ],
+    "tm:heatwave"
+  ],
   "labels": [
     "hiza",
     "not_modeled",
@@ -118,26 +133,18 @@
   "pokedex": [
     "cobblemon.species.flamaggedon.desc"
   ],
-  "preEvolution": "voladillo",
-  "baseScale": 0.31666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 19,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2255,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.125,
+    "height": 5.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

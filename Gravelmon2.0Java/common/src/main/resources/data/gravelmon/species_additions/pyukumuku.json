@@ -1,135 +1,403 @@
 {
-   "target": "cobblemon:pyukumuku",
-   "forms": [{
-  "name": "X",
-  "primaryType": "fighting",
-  "abilities": [
-    "ironfist",
-    "h:sheerforce"
-  ],
-  "baseStats": {
-    "hp": 55,
-    "attack": 130,
-    "defence": 60,
-    "special_attack": 5,
-    "special_defence": 30,
-    "speed": 130
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:pyukumuku",
+  "forms": [
+    {
+      "name": "Fabelian",
+      "primaryType": "fire",
+      "catchRate": 128,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": true
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 31,
+        "defence": 48,
+        "special_attack": 48,
+        "special_defence": 146,
+        "speed": 17
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:bulkup"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianpyukumuku.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Novran",
+      "primaryType": "fighting",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.25263157894736843,
+      "cannotDynamax": false,
+      "abilities": [
+        "hugepower",
+        "h:angerpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 60,
+        "defence": 130,
+        "special_attack": 30,
+        "special_defence": 130,
+        "speed": 5
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:doubleslap",
+        "1:rocksmash",
+        "1:fakeout",
+        "1:knockoff",
+        "1:bide",
+        "1:bulletpunch",
+        "5:focusenergy",
+        "9:rage",
+        "13:counter",
+        "17:poweruppunch",
+        "21:jetpunch",
+        "25:lashout",
+        "29:taunt",
+        "33:drainpunch",
+        "37:focuspunch",
+        "41:curse",
+        "45:megapunch",
+        "49:dynamicpunch",
+        "53:hammerarm",
+        "57:painsplit",
+        "61:ragingfury",
+        "65:gigaimpact",
+        "tm:headbutt",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:liquidation",
+        "tm:superpower",
+        "tm:knockoff",
+        "tm:gunkshot",
+        "tm:dualchop",
+        "tm:throatchop",
+        "tm:outrage",
+        "tm:seismictoss",
+        "tm:endeavor",
+        "tm:suckerpunch",
+        "tm:toxicthread",
+        "tm:snore",
+        "tm:focuspunch",
+        "tm:poweruppunch",
+        "tm:closecombat",
+        "tm:focusenergy",
+        "tm:encore",
+        "tm:skittersmack",
+        "tm:workup",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:earthquake",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:painsplit",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:thief",
+        "tm:rocksmash",
+        "tm:drainpunch",
+        "tm:curse",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:avalanche",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:poisonjab",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:naturalgift",
+        "tm:confide",
+        "tm:bodypress",
+        "tm:smackdown",
+        "tm:icespinner",
+        "tm:powerwhip",
+        "tm:attract",
+        "tm:strength",
+        "tm:machpunch",
+        "tm:wakeupslap",
+        "tm:selfdestruct",
+        "tm:fakeout"
+      ],
+      "labels": [
+        "novrai",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.novranpyukumuku.desc"
+      ],
+      "height": 3,
+      "weight": 12,
+      "aspects": [
+        "novran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "X",
+      "primaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 134,
+      "experienceGroup": "fast",
+      "eggCycles": 39,
+      "baseFriendship": 70,
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironfist",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 130,
+        "defence": 60,
+        "special_attack": 5,
+        "special_defence": 30,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:firepunch",
+        "1:thunderpunch",
+        "1:icepunch",
+        "1:focusenergy",
+        "1:batonpass",
+        "5:machpunch",
+        "10:taunt",
+        "15:circlethrow",
+        "20:dizzypunch",
+        "25:bulkup",
+        "30:swagger",
+        "35:skyuppercut",
+        "40:painsplit",
+        "45:drainpunch",
+        "50:quickguard",
+        "55:reversal",
+        "60:dynamicpunch",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:smackdown",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:aerialace",
+        "tm:rest",
+        "tm:attract",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:focusblast",
+        "tm:fling",
+        "tm:payback",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:poweruppunch",
+        "tm:psychup",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tutor:block",
+        "tutor:bounce",
+        "tutor:drainpunch",
+        "tutor:gastroacid",
+        "tutor:helpinghand",
+        "tutor:lowkick",
+        "tutor:painsplit",
+        "tutor:recycle",
+        "tutor:secretpower",
+        "tutor:spite",
+        "tutor:superpower"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen7"
+      ],
+      "pokedex": [
+        "cobblemon.species.pyukumukux.desc"
+      ],
+      "height": 7,
+      "weight": 101,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 134,
-  "experienceGroup": "fast",
-  "eggCycles": 39,
-  "eggGroups": [
-    "undiscovered"
   ],
-  "moves": [
-    "1:firepunch",
-    "1:thunderpunch",
-    "1:icepunch",
-    "1:focusenergy",
-    "1:batonpass",
-    "5:machpunch",
-    "10:taunt",
-    "15:circlethrow",
-    "20:dizzypunch",
-    "25:bulkup",
-    "30:swagger",
-    "35:skyuppercut",
-    "40:painsplit",
-    "45:drainpunch",
-    "50:quickguard",
-    "55:reversal",
-    "60:dynamicpunch",
-    "tm:toxic",
-    "tm:bulkup",
-    "tm:hiddenpower",
-    "tm:taunt",
-    "tm:lightscreen",
-    "tm:protect",
-    "tm:raindance",
-    "tm:safeguard",
-    "tm:smackdown",
-    "tm:return",
-    "tm:brickbreak",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:aerialace",
-    "tm:rest",
-    "tm:attract",
-    "tm:lowsweep",
-    "tm:round",
-    "tm:focusblast",
-    "tm:fling",
-    "tm:payback",
-    "tm:stoneedge",
-    "tm:gyroball",
-    "tm:poweruppunch",
-    "tm:psychup",
-    "tm:swagger",
-    "tm:uturn",
-    "tm:substitute",
-    "tutor:block",
-    "tutor:bounce",
-    "tutor:drainpunch",
-    "tutor:gastroacid",
-    "tutor:helpinghand",
-    "tutor:lowkick",
-    "tutor:painsplit",
-    "tutor:recycle",
-    "tutor:secretpower",
-    "tutor:spite",
-    "tutor:superpower"  ],
-  "labels": [
-    "xenoverse",
-    "gen7"
-  ],
-  "pokedex": [
-    "cobblemon.species.pyukumukux.desc"
-  ],
-  "baseScale": 0.8,
-  "hitbox": {
-    "width": 0.7,
-    "height": 0.7,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 101,
-  "aspects": ["x"],
-  "cannotDynamax": false
-}
-], "features": [
-"x"
+  "features": [
+    "fabelian",
+    "novran",
+    "x"
   ]
 }

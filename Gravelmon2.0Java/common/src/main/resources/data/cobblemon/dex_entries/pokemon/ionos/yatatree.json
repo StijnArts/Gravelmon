@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:yatatree",
+  "speciesId": "cobblemon:yatatree",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

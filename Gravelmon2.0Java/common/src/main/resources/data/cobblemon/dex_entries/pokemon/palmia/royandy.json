@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:royandy",
+  "speciesId": "cobblemon:royandy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

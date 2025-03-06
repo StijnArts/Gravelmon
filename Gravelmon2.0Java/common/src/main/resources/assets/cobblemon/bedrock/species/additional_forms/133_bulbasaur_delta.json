@@ -1,46 +1,146 @@
 {
   "species": "cobblemon:bulbasaur",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltabulbasaur.geo",
+      "model": "cobblemon:generation1_deltabulbasaur.geo",
       "poser": "cobblemon:generation1_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur/deltabulbasaur.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltabulbasaur.geo",
+      "model": "cobblemon:generation1_deltabulbasaur.geo",
       "poser": "cobblemon:generation1_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur/deltabulbasaur_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
-        "female",
-        "delta"
-      ],
-      "model": "cobblemon:deltabulbasaur.geo",
-      "poser": "cobblemon:generation1_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "female",
         "delta",
+        "female"
+      ],
+      "model": "cobblemon:generation1_deltabulbasaur.geo",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur/deltabulbasaur_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "female",
         "shiny"
       ],
-      "model": "cobblemon:deltabulbasaur.geo",
+      "model": "cobblemon:generation1_deltabulbasaur.geo",
       "poser": "cobblemon:generation1_deltabulbasaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur/deltabulbasaur_female_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

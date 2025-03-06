@@ -2,10 +2,7 @@ package drai.dev.data.pokemon.junnin;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
-import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
 public class Cavernight extends drai.dev.data.pokemon.Pokemon {

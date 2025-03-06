@@ -60,15 +60,15 @@ public class Achiefd extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, .9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL, SpawnPreset.WILD),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Achief'd");
         addAdditionalEvolution("farfetchd", new EvolutionEntry("achiefd", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.REVENGE, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:medicinal_leek\""),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"\"day\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:medicinal_leek"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
 
     }
 

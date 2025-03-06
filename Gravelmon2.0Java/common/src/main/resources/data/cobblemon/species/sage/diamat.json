@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Diamat",
-  "nationalPokedexNumber": 1238,
   "primaryType": "dragon",
   "secondaryType": "rock",
+  "catchRate": 5,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "pressaur",
+  "baseScale": 0.09393346379647749,
+  "cannotDynamax": false,
   "abilities": [
     "clearbody",
     "sheerforce",
     "h:conditioning"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 95,
     "attack": 100,
@@ -17,38 +50,28 @@
     "special_defence": 100,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 5,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 270,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "mineral",
     "dragon"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:diamond",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:sharpen",
     "1:rockpolish",
@@ -118,7 +141,8 @@
     "tm:sleeptalk",
     "tm:shieldbash",
     "tm:cut",
-    "tm:strength"  ],
+    "tm:strength"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -128,26 +152,18 @@
   "pokedex": [
     "cobblemon.species.diamat.desc"
   ],
-  "preEvolution": "pressaur",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 20,
   "weight": 4825,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1147,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

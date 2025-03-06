@@ -1,12 +1,46 @@
 {
-  "implemented": true,
   "name": "Harylect",
-  "nationalPokedexNumber": 2429,
   "primaryType": "bug",
   "secondaryType": "electric",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "tricwe",
+  "baseScale": 0.16000000000000003,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
-    "voltabsorb"  ],
+    "voltabsorb"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 100,
@@ -15,37 +49,18 @@
     "special_defence": 60,
     "speed": 85
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 100,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:poisonsting",
     "1:stringshot",
@@ -112,7 +127,8 @@
     "egg:batonpass",
     "egg:pursuit",
     "egg:thunderpunch",
-    "egg:silverwind"  ],
+    "egg:silverwind"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -122,26 +138,18 @@
   "pokedex": [
     "cobblemon.species.harylect.desc"
   ],
-  "preEvolution": "tricwe",
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 3,
   "weight": 25,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2004,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.75,
+    "height": 3.75,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

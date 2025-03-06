@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Peckabone",
-  "nationalPokedexNumber": 2153,
   "primaryType": "ground",
   "secondaryType": "dark",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 117,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "chikaboo",
+  "baseScale": 0.4727272727272728,
+  "cannotDynamax": false,
   "abilities": [
     "pickpocket",
     "h:sandveil"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 70,
@@ -16,38 +49,19 @@
     "special_defence": 55,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 117,
-  "experienceGroup": "slow",
-  "eggCycles": 32,
   "eggGroups": [
     "flying",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:babydolleyes",
     "1:sandattack",
@@ -110,7 +124,8 @@
     "tutor:sleeptalk",
     "tutor:snatch",
     "tutor:snore",
-    "tutor:stealthrock"  ],
+    "tutor:stealthrock"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -120,7 +135,9 @@
   "pokedex": [
     "cobblemon.species.peckabone.desc"
   ],
-  "preEvolution": "chikaboo",
+  "height": 13,
+  "weight": 287,
+  "aspects": [],
   "evolutions": [
     {
       "id": "peckabone_rexquiem",
@@ -128,32 +145,19 @@
       "result": "Rexquiem",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.21666666666666667,
+  "nationalPokedexNumber": 1821,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.125,
+    "height": 4.125,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 13,
-  "weight": 287,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

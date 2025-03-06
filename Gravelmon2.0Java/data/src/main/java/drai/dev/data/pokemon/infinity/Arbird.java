@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -88,6 +89,15 @@ public class Arbird extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
+        setBaseScale(.78);
+        setHitbox(.7,.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(3.05f, new Vector3(-.67, -1.23, 0));
+        getPosingFileData().setProfileData(1f, new Vector3(0, 0.21, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook()
+        ));
     }
 }

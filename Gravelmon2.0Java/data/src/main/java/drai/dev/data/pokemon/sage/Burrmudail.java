@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -104,10 +105,17 @@ public class Burrmudail extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.5,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setCanFly(true);
         this.setBaseScale(0.8);
         this.setHitbox(1,0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 1.4, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .9, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
     }
 }

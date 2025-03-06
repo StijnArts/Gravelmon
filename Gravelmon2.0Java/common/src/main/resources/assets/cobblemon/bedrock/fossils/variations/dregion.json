@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:dregion",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_dregion",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/dregion.png",
+      "layers": []
+    }
+  ]
+}

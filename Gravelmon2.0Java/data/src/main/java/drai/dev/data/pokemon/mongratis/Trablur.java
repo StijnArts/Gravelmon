@@ -24,14 +24,10 @@ public class Trablur extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Trablur avoid any place that has ever been a dwelling for humans. Some people say they have seen it in the distance while alone in the wilderness, but no tracks have ever been found."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Trablur");

@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:twintuff",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_twintuff",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/twintuff.png",
+      "layers": []
+    }
+  ]
+}

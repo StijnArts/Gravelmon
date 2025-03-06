@@ -1,0 +1,127 @@
+{
+  "name": "Flamingle",
+  "primaryType": "fairy",
+  "secondaryType": "dragon",
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.4097560975609756,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye",
+    "h:cutecharm"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 45,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:disarmingvoice",
+    "1:scratch"
+  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.flamingle.desc"
+  ],
+  "height": 7,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "flamingle_madamingo",
+      "variant": "level_up",
+      "result": "madamingo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "flamingle_sirmingo",
+      "variant": "level_up",
+      "result": "sirmingo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=male",
+          "contains": true
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2213,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.5625,
+    "height": 2.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Graceola",
-  "nationalPokedexNumber": 2359,
   "primaryType": "grass",
   "secondaryType": "fairy",
+  "catchRate": 30,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 179,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "grassola",
+  "baseScale": 0.2696629213483146,
+  "cannotDynamax": false,
   "abilities": [
     "magicguard",
     "regenerator",
     "h:serenegrace"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 95,
@@ -17,37 +50,18 @@
     "special_defence": 130,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "grass"
   ],
+  "drops": {},
   "moves": [
     "1:flowershield",
     "7:leechseed",
@@ -63,7 +77,8 @@
     "45:aromatherapy",
     "50:energyball",
     "56:moonblast",
-    "63:petaldance"  ],
+    "63:petaldance"
+  ],
   "labels": [
     "varitas",
     "not_modeled",
@@ -73,26 +88,18 @@
   "pokedex": [
     "cobblemon.species.graceola.desc"
   ],
-  "preEvolution": "grassola",
-  "baseScale": 0.16666666666666666,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 10,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1944,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.5625,
+    "height": 5.5625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

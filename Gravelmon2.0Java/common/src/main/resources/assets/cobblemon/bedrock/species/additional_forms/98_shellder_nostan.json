@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:shellder",
-  "order": 3,
+  "order": 98,
   "variations": [
     {
       "aspects": [
         "nostan"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_nostanshellder",
+      "model": "cobblemon:cutout_gravelmon_42_by_37.geo",
+      "poser": "cobblemon:cutout_gravelmon_42_by_37",
       "texture": "cobblemon:textures/pokemon/generation1/nostanshellder.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "nostan",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_nostanshellder",
-      "texture": "cobblemon:textures/pokemon/generation1/nostanshellder_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

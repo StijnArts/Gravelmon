@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sergeant",
+  "speciesId": "cobblemon:sergeant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

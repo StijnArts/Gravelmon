@@ -24,7 +24,7 @@ public class Neonite extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Neonite live in warm tropical rivers, and are popular as pets because of their bright scales. By flashing their scales at once, they can blind predators and safely escape."),
                 List.of(new EvolutionEntry("tankton", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.IRON_TAIL.getName()+"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.IRON_TAIL.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

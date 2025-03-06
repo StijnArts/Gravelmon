@@ -53,7 +53,7 @@ public class AlteranLedian extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Ledian");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         addAdditionalEvolution("ledyba", new EvolutionEntry("ledian alteran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"))));
     }

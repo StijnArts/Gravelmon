@@ -7,19 +7,27 @@
       "id": "tetoraito-01",
       "pokemon": "tetoraito",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
       "level": "45-66",
-      "weight": 0.05,
+      "weight": 0.07500000000000001,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

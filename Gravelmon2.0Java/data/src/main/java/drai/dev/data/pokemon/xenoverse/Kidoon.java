@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -50,7 +50,18 @@ public class Kidoon extends Pokemon {
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setCanFly(true);
+
+        this.setCanSwim(true);
+        this.setCanBreathUnderwater(true);
+        this.setAvoidsLand(true);
+        this.setCanWalkOnWater(true);
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.55f, new Vector3(0, -0.46, 0));
+        getPosingFileData().setProfileData(.56f, new Vector3(0.7, 0.8, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withBlink()
+        ));
     }
 }

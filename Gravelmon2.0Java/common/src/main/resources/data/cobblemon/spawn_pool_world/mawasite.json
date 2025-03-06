@@ -7,13 +7,13 @@
       "id": "mawasite-01",
       "pokemon": "mawasite",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
       "level": "4-15",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_lukewarm_ocean"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
       }
     }
   ]

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Glacicrawl",
-  "nationalPokedexNumber": 1849,
   "primaryType": "ice",
   "secondaryType": "dragon",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "icicrawl",
+  "baseScale": 0.6000000000000001,
+  "cannotDynamax": false,
   "abilities": [
     "sniper",
     "h:refrigerate"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 60,
@@ -16,38 +49,19 @@
     "special_defence": 75,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "dragon",
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:stringshot",
     "7:iceshard",
@@ -84,7 +98,8 @@
     "tm:haze",
     "tm:amnesia",
     "tm:toxicthread",
-    "tm:iceball"  ],
+    "tm:iceball"
+  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -94,7 +109,9 @@
   "pokedex": [
     "cobblemon.species.glacicrawl.desc"
   ],
-  "preEvolution": "icicrawl",
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "glacicrawl_velvedrake",
@@ -105,31 +122,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 54
+          "minLevel": "54"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.25,
+  "nationalPokedexNumber": 1607,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.75,
+    "height": 3.75,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 15,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,53 +1,67 @@
 {
-  "implemented": true,
   "name": "Hellantern",
-  "nationalPokedexNumber": 3311,
   "primaryType": "bug",
   "secondaryType": "fire",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "surveilant",
+  "baseScale": 0.3826086956521739,
+  "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
     "illuminate",
     "h:contrary"
   ],
-  "baseStats": {
-    "hp": 54,
-    "attack": 126,
-    "defence": 57,
-    "special_attack": 25,
-    "special_defence": 57,
-    "speed": 112
-  },
   "behaviour": {
     "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
     },
     "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
     }
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
+  "baseStats": {
+    "hp": 60,
+    "attack": 141,
+    "defence": 64,
+    "special_attack": 28,
+    "special_defence": 64,
+    "speed": 125
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:circlethrow",
     "1:pinmissile",
@@ -110,7 +124,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:workup"  ],
+    "tm:workup"
+  ],
   "labels": [
     "crozoic",
     "not_modeled",
@@ -120,26 +135,18 @@
   "pokedex": [
     "cobblemon.species.hellantern.desc"
   ],
-  "preEvolution": "surveilant",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 11,
   "weight": 140,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3241,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.3125,
+    "height": 4.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

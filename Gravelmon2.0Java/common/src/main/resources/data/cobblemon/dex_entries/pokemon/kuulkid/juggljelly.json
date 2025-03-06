@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:juggljelly",
+  "speciesId": "cobblemon:juggljelly",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

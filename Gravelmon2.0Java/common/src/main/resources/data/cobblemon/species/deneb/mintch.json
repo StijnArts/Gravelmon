@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Mintch",
-  "nationalPokedexNumber": 4735,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 83,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "baseScale": 0.8,
+  "cannotDynamax": false,
   "abilities": [
     "keeneye",
     "h:insomnia"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 35,
     "attack": 50,
@@ -16,37 +48,18 @@
     "special_defence": 55,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 190,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 83,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 39,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:foresight",
     "1:peck",
@@ -107,13 +120,17 @@
     "egg:roost",
     "egg:secretpower",
     "egg:steelwing",
-    "egg:sunnyday"  ],
+    "egg:sunnyday"
+  ],
   "labels": [
     "deneb"
   ],
   "pokedex": [
     "cobblemon.species.mintch.desc"
   ],
+  "height": 3,
+  "weight": 164,
+  "aspects": [],
   "evolutions": [
     {
       "id": "mintch_blakjak",
@@ -124,11 +141,11 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "mintch_blakjak_signetan",
       "variant": "level_up",
@@ -138,35 +155,24 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 18
+          "minLevel": "18"
         },
         {
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_spooky"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.8,
+  "nationalPokedexNumber": 4504,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 0.6,
     "height": 0.7,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 164,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

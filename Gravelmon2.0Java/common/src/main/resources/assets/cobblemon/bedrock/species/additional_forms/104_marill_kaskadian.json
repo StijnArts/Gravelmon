@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:marill",
-  "order": 3,
+  "order": 104,
   "variations": [
     {
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_kaskadianmarill",
+      "model": "cobblemon:cutout_gravelmon_40_by_34.geo",
+      "poser": "cobblemon:cutout_gravelmon_40_by_34",
       "texture": "cobblemon:textures/pokemon/generation2/kaskadianmarill.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "kaskadian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_kaskadianmarill",
-      "texture": "cobblemon:textures/pokemon/generation2/kaskadianmarill_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:elekid",
-  "order": 12,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,15 +9,67 @@
       "model": "cobblemon:generation2_elekidx.geo",
       "poser": "cobblemon:generation2_elekidx",
       "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "x",
         "shiny"
       ],
+      "model": "cobblemon:generation2_elekidx.geo",
+      "poser": "cobblemon:generation2_elekidx",
       "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

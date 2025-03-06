@@ -1,0 +1,38 @@
+package drai.dev.data.pokemon.sahl.regional;
+
+
+import drai.dev.data.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
+public class SahlianVirizion extends drai.dev.data.pokemon.Pokemon {
+    public SahlianVirizion(String name, Aspect aspect) {
+        super(name, aspect, "SahlianVirizion",
+                Type.ICE,Type.FIGHTING,
+                new Stats(77,
+                        38,
+                        82,
+                        149,
+                        82,
+                        149),
+                List.of(), null,
+                0, 0,
+                new Stats(0,0,0,0,0,0), 0,
+                0.5,
+                0, ExperienceGroup.MEDIUM_FAST,
+                70,
+                50, List.of(),
+                List.of(""),
+                List.of(),
+                List.of(),
+                List.of(Label.SAHL),
+                0, List.of(
+                ), new PokemonSpawnDataBuilder().build(),
+                0.28, 0.3,
+                List.of());
+           setLangFileName("Virizion");
+
+    }
+
+
+}

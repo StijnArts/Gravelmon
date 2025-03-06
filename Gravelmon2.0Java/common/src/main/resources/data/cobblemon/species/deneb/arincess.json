@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Arincess",
-  "nationalPokedexNumber": 4863,
   "primaryType": "bug",
   "secondaryType": "psychic",
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 133,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.3,
+  "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
     "h:arenatrap"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 96,
     "attack": 52,
@@ -16,38 +48,19 @@
     "special_defence": 61,
     "speed": 68
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 133,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "bug",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:furyswipes",
     "1:scratch",
@@ -120,7 +133,8 @@
     "egg:sunnyday",
     "egg:sweetscent",
     "egg:thunderbolt",
-    "egg:toxic"  ],
+    "egg:toxic"
+  ],
   "labels": [
     "deneb",
     "not_modeled"
@@ -128,25 +142,18 @@
   "pokedex": [
     "cobblemon.species.arincess.desc"
   ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 2,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 6,
   "weight": 152,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4588,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

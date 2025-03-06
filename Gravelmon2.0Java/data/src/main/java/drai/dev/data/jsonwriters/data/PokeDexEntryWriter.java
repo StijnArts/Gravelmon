@@ -17,7 +17,7 @@ import java.nio.file.*;
 public class PokeDexEntryWriter {
     static int order = 10;
     public static void write(Game game, String resourcesDir) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
                 try {
                     String dir = resourcesDir + "\\data\\cobblemon\\dex_entries\\pokemon\\"+game.getName().toLowerCase()+"\\";

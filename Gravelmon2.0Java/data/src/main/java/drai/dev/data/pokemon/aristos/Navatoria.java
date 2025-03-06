@@ -25,7 +25,7 @@ public class Navatoria extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("According to rumors it guides sailors who lost their way at sea, only to crash their boats into rocks and wail as they drown. It's one of the Ultra Beasts."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 56, 67, 0.2, List.of(

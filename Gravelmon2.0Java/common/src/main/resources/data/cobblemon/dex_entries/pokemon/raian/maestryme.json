@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:maestryme",
+  "speciesId": "cobblemon:maestryme",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

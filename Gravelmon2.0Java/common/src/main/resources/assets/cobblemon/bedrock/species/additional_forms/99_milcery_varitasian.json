@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:milcery",
-  "order": 3,
+  "order": 99,
   "variations": [
     {
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_varitasianmilcery",
+      "model": "cobblemon:cutout_gravelmon_30_by_30.geo",
+      "poser": "cobblemon:cutout_gravelmon_30_by_30",
       "texture": "cobblemon:textures/pokemon/generation8/varitasianmilcery.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "varitasian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_varitasianmilcery",
-      "texture": "cobblemon:textures/pokemon/generation8/varitasianmilcery_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

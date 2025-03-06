@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:swalot-elbian",
+  "speciesId": "cobblemon:swalot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Elbian",
+      "unlockForms": [
+        "Elbian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,1110 +1,1203 @@
 {
-   "target": "cobblemon:rotom",
-   "forms": [{
-  "name": "Sol",
-  "primaryType": "electric",
-  "secondaryType": "dragon",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:solarpower"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
+  "target": "cobblemon:rotom",
+  "forms": [
+    {
+      "name": "Sol",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:solarpower"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.solrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["sol"],
-  "cannotDynamax": false
-},
-{
-  "name": "Sway",
-  "primaryType": "electric",
-  "secondaryType": "psychic",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:noguard"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.solrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "sol"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Sway",
+      "primaryType": "electric",
+      "secondaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.swayrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["sway"],
-  "cannotDynamax": false
-},
-{
-  "name": "Brawl",
-  "primaryType": "electric",
-  "secondaryType": "fighting",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:moxie"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.swayrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "sway"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Brawl",
+      "primaryType": "electric",
+      "secondaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:moxie"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.brawlrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["brawl"],
-  "cannotDynamax": false
-},
-{
-  "name": "Web",
-  "primaryType": "electric",
-  "secondaryType": "dark",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:infiltrator"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.brawlrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "brawl"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Web",
+      "primaryType": "electric",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.webrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["web"],
-  "cannotDynamax": false
-},
-{
-  "name": "Junk",
-  "primaryType": "electric",
-  "secondaryType": "poison",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:poisonpoint"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.webrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "web"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Junk",
+      "primaryType": "electric",
+      "secondaryType": "poison",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:poisonpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.junkrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["junk"],
-  "cannotDynamax": false
-},
-{
-  "name": "Home",
-  "primaryType": "electric",
-  "secondaryType": "normal",
-  "abilities": [
-    "levitate",
-    "adaptability"  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.junkrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "junk"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Home",
+      "primaryType": "electric",
+      "secondaryType": "normal",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.homerotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["home"],
-  "cannotDynamax": false
-},
-{
-  "name": "Bass",
-  "primaryType": "electric",
-  "secondaryType": "steel",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:punkrock"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.homerotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "home"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Bass",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:punkrock"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.bassrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["bass"],
-  "cannotDynamax": false
-},
-{
-  "name": "Twirl",
-  "primaryType": "electric",
-  "secondaryType": "fairy",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:cutecharm"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.bassrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "bass"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Twirl",
+      "primaryType": "electric",
+      "secondaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:cutecharm"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.twirlrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["twirl"],
-  "cannotDynamax": false
-},
-{
-  "name": "Mix",
-  "primaryType": "electric",
-  "secondaryType": "ground",
-  "abilities": [
-    "levitate",
-    "adaptability",
-    "h:moldbreaker"
-  ],
-  "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 107,
-    "special_attack": 105,
-    "special_defence": 107,
-    "speed": 86
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.twirlrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "twirl"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": true
+    {
+      "name": "Mix",
+      "primaryType": "electric",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "adaptability",
+        "h:moldbreaker"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defence": 107,
+        "special_attack": 105,
+        "special_defence": 107,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:doubleteam",
+        "5:thundershock",
+        "10:confuseray",
+        "15:charge",
+        "20:electroball",
+        "25:thunderwave",
+        "30:shockwave",
+        "35:hex",
+        "40:substitute",
+        "45:trick",
+        "50:discharge",
+        "55:uproar",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:chargebeam",
+        "tm:facade",
+        "tm:hex",
+        "tm:swift",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:voltswitch",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:sleeptalk",
+        "tm:electroball",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:darkpulse",
+        "tm:eerieimpulse",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:thunderbolt",
+        "tm:helpinghand",
+        "tm:electricterrain",
+        "tm:nastyplot",
+        "tm:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mixrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "mix"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
     }
-  },
-  "catchRate": 45,
-  "shoulderMountable": false,
-  "baseExperienceYield": 67,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "amorphous"
   ],
-  "moves": [
-    "1:astonish",
-    "1:doubleteam",
-    "5:thundershock",
-    "10:confuseray",
-    "15:charge",
-    "20:electroball",
-    "25:thunderwave",
-    "30:shockwave",
-    "35:hex",
-    "40:substitute",
-    "45:trick",
-    "50:discharge",
-    "55:uproar",
-    "tm:protect",
-    "tm:confuseray",
-    "tm:thief",
-    "tm:chargebeam",
-    "tm:facade",
-    "tm:hex",
-    "tm:swift",
-    "tm:storedpower",
-    "tm:nightshade",
-    "tm:endure",
-    "tm:voltswitch",
-    "tm:sunnyday",
-    "tm:raindance",
-    "tm:foulplay",
-    "tm:sleeptalk",
-    "tm:electroball",
-    "tm:reflect",
-    "tm:lightscreen",
-    "tm:thunderwave",
-    "tm:rest",
-    "tm:darkpulse",
-    "tm:eerieimpulse",
-    "tm:substitute",
-    "tm:willowisp",
-    "tm:trick",
-    "tm:shadowball",
-    "tm:hypervoice",
-    "tm:thunderbolt",
-    "tm:helpinghand",
-    "tm:electricterrain",
-    "tm:nastyplot",
-    "tm:thunder",
-    "tm:terablast"  ],
-  "labels": [
-    "gen4",
-    "lockemon",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mixrotom.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 3,
-  "aspects": ["mix"],
-  "cannotDynamax": false
-}
-], "features": [
-"sol",
-"sway",
-"brawl",
-"web",
-"junk",
-"home",
-"bass",
-"twirl",
-"mix"
+  "features": [
+    "sol",
+    "sway",
+    "brawl",
+    "web",
+    "junk",
+    "home",
+    "bass",
+    "twirl",
+    "mix"
   ]
 }

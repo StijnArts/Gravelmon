@@ -7,18 +7,26 @@
       "id": "delta_regice-01",
       "pokemon": "regice delta",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
       "level": "69-80",
-      "weight": 0.003,
+      "weight": 0.0045000000000000005,
       "condition": {
         "biomes": [
           "#cobblemon:is_sandy"
         ],
         "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

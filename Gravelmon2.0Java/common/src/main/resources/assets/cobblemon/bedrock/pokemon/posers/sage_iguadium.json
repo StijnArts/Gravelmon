@@ -1,72 +1,48 @@
 {
-    "head": "head",
-    "portraitScale": 1.6,
-    "portraitTranslation": [-0.2, 1.2, 0],
-    "profileScale": 0.6,
-    "profileTranslation": [-0.1, 0.9, 0],
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE","PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(iguadium, ground_idle)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(iguadium, blink)"]
-          }
-        ]
-      },
-	  "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(iguadium, ground_idle)",
-          "bedrock(iguadium, blink)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(iguadium, blink)"]
-          }
-        ]
-      },
-	  "floating": {
-        "poseName": "floating",
-        "transformTicks": 10,
-        "poseTypes": ["FLOAT"],
-        "animations": [
-          "look",
-          "bedrock(iguadium, ground_idle)",
-          "bedrock(iguadium, blink)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(iguadium, blink)"]
-          }
-        ]
-      },
-	  "swimming": {
-        "poseName": "swimming",
-        "transformTicks": 10,
-        "poseTypes": ["SWIM"],
-        "animations": [
-          "look",
-          "bedrock(iguadium, ground_idle)",
-          "bedrock(iguadium, blink)"
-        ],
-        "quirks": [
-          {
-            "name": "blink",
-            "animations": ["bedrock(iguadium, blink)"]
-          }
-        ]
-      }
+  "head": "head",
+  "portraitScale": 1.600000023841858,
+  "portraitTranslation": [
+    -0.2,
+    1.2,
+    0.0
+  ],
+  "profileScale": 0.6000000238418579,
+  "profileTranslation": [
+    -0.1,
+    0.9,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(iguadium, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(iguadium, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
     }
   }
+}

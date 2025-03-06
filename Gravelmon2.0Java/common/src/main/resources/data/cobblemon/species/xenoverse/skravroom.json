@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Skravroom",
-  "nationalPokedexNumber": 2151,
   "primaryType": "steel",
   "secondaryType": "sound",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 174,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "vroombug",
+  "baseScale": 0.4869565217391304,
+  "cannotDynamax": false,
   "abilities": [
     "aftermath",
     "speedboost",
     "h:regenerator"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 67,
     "attack": 115,
@@ -17,40 +50,25 @@
     "special_defence": 65,
     "speed": 128
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 174,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "bug"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
+      {
+        "item": "gravelmon:spare_parts",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
       {
         "item": "gravelmon:spare_parts",
         "quantityRange": "1-1",
@@ -122,7 +140,8 @@
     "tutor:snore",
     "tutor:soundbarrier",
     "tutor:strugglebug",
-    "tutor:uproar"  ],
+    "tutor:uproar"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -132,26 +151,18 @@
   "pokedex": [
     "cobblemon.species.skravroom.desc"
   ],
-  "preEvolution": "vroombug",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 14,
   "weight": 1300,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1819,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.3125,
+    "height": 4.3125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

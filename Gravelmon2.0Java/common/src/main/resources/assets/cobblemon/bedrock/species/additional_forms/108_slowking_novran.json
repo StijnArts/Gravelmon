@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:slowking",
-  "order": 3,
+  "order": 108,
   "variations": [
     {
       "aspects": [
         "novran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_novranslowking",
+      "model": "cobblemon:cutout_gravelmon_53_by_68.geo",
+      "poser": "cobblemon:cutout_gravelmon_53_by_68",
       "texture": "cobblemon:textures/pokemon/generation2/novranslowking.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "novran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_novranslowking",
-      "texture": "cobblemon:textures/pokemon/generation2/novranslowking_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

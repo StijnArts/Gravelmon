@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "30-54",
-      "weight": 1.0,
+      "weight": 1.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"
@@ -26,6 +26,14 @@
           "#cobblemon:is_cold",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
       }
     }
   ]

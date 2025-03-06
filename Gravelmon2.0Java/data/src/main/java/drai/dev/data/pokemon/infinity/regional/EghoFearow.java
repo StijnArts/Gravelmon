@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -109,9 +110,18 @@ public class EghoFearow extends Pokemon {
                 0.32, 0.3,
                 List.of());
         this.setLangFileName("Fearow");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(1.2);
         this.setHitbox(1,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(-1.2,.9, 0));
+        getPosingFileData().setProfileData( 0.7f, new Vector3(-0.0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
+                AnimationData.battleIdleAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("fearow_egho");
     }
 }

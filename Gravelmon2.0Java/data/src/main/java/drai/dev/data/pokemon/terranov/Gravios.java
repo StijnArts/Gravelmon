@@ -24,14 +24,10 @@ public class Gravios extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Despite having large wings its only capable of limited flight due to its weight. Its stone armor deflects most blows and allows it to swim freely inside molten magma."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gravios");

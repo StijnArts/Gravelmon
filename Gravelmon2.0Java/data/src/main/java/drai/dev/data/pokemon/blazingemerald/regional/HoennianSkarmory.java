@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -68,7 +68,6 @@ public class HoennianSkarmory extends Pokemon {
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Skarmory");
-        this.setPortraitXYZ(0,1.8,0);
         this.setCanFly(true);
     }
 }

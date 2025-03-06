@@ -16,14 +16,19 @@ public class Eevvee extends drai.dev.data.pokemon.Pokemon {
                         65,
                         45),
                 List.of(Ability.ANALYTIC), Ability.ANALYTIC,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Around 3,000 years ago, Eevvee was claimed as the true ancestor of Eevee by the royal families of Ionos. The people of the region later found out that it was the other way around. The true intentions of this Pokémon was to control certain events in history; such as war, plagues and even during times of peace. The origins of Eevvee still remains a mystery."),
-                List.of(),
+                List.of(new EvolutionEntry("pacemeon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:soft_sand"),
+                        new EvolutionEntry("pestileon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:poison_barb"),
+                        new EvolutionEntry("duelleon", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"minecraft:iron_helmet")),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.MIMIC,1),
@@ -38,14 +43,15 @@ public class Eevvee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PUNISHMENT,38),
                         new MoveLearnSetEntry(Move.TRI_ATTACK,43),
                         new MoveLearnSetEntry(Move.RECOVER,50),
-                        new MoveLearnSetEntry(Move.LAST_RESORT,55)                        ),
+                        new MoveLearnSetEntry(Move.LAST_RESORT,55)
+                ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eevvee");

@@ -1,9 +1,11 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -78,10 +80,26 @@ public class HoennianDragapult extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Dragapult");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
         setCanFly(true);
-        setModeled(true);
+        
         setBaseScale(0.8);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("hoenniandragapult");
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 1, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink(3).addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
+                AnimationData.walkingAnimation().withBlink(3).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('hoenniandragapult', 'cry')");
+        getPosingFileData().setFaint("q.bedrock_primary('hoenniandragapult', 'faint', q.curve('one'))");
+        getPosingFileData().setRecoil("q.bedrock_stateful('hoenniandragapult', 'recoil')");
+        getPosingFileData().setStatus("q.bedrock_primary('hoenniandragapult', 'status', q.curve('symmetrical_wide'))");
+        getPosingFileData().setPhysical("q.bedrock_primary('hoenniandragapult', 'physical', q.curve('symmetrical_wide'))");
+        getPosingFileData().setSpecial("q.bedrock_primary('hoenniandragapult', 'special', q.curve('symmetrical_wide'))");
     }
 }

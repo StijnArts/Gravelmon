@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.umbra;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class Carapad extends Pokemon {
                 50, List.of(EggGroup.WATER_1, EggGroup.GRASS),
                 List.of("Carapad use their shells to mimic lily pads. People and Pokemon alike often fall for their disguise. But, if disturbed, Carapad will shoot a jet of water at the offender's face."),
                 List.of(new EvolutionEntry("puripad", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.GUST, "")),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.RAIN_DANCE.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.RAIN_DANCE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
@@ -81,7 +81,7 @@ public class Carapad extends Pokemon {
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.COMMON, 7, 31, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.FRESHWATER),
                 0.22, 0.3,

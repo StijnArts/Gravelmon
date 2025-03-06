@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Hiberneedle",
-  "nationalPokedexNumber": 5516,
   "primaryType": "grass",
   "secondaryType": "fighting",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "prickub",
+  "baseScale": 0.5333333333333333,
+  "cannotDynamax": false,
   "abilities": [
     "ironbarbs",
     "moxie",
     "h:vitalspirit"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 101,
@@ -17,38 +50,25 @@
     "special_defence": 84,
     "speed": 61
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 60,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
+    "1:absorb",
+    "1:lowkick",
+    "1:synthesis",
+    "1:drainpunch",
+    "1:poisonpowder",
+    "1:coaching",
     "tm:falseswipe",
     "tm:facade",
     "tm:naturepower",
@@ -91,7 +111,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:grassyterrain"  ],
+    "tm:grassyterrain"
+  ],
   "labels": [
     "atlas",
     "not_modeled",
@@ -101,26 +122,18 @@
   "pokedex": [
     "cobblemon.species.hiberneedle.desc"
   ],
-  "preEvolution": "prickub",
-  "baseScale": 0.3,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 18,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 5141,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.0625,
+    "height": 5.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

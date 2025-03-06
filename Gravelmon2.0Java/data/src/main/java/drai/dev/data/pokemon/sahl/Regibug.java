@@ -1,0 +1,38 @@
+package drai.dev.data.pokemon.sahl;
+
+
+import drai.dev.data.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
+public class Regibug extends drai.dev.data.pokemon.Pokemon {
+    public Regibug() {
+        super("Regibug",
+                Type.BUG,
+                new Stats(126,
+                        44,
+                        58,
+                        68,
+                        169,
+                        102),
+                List.of(), null,
+                0, 0,
+                new Stats(0,0,0,0,0,0), 0,
+                0.5,
+                0, ExperienceGroup.MEDIUM_FAST,
+                70,
+                50, List.of(),
+                List.of(""),
+                List.of(),
+                List.of(),
+                List.of(Label.SAHL),
+                0, List.of(
+                ), new PokemonSpawnDataBuilder().build(),
+                0.28, 0.3,
+                List.of());
+           setLangFileName("Regibug");
+
+    }
+
+
+}

@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:joltik",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
@@ -9,7 +9,32 @@
       "model": "cobblemon:generation5_joltikx.geo",
       "poser": "cobblemon:generation5_joltikx",
       "texture": "cobblemon:textures/pokemon/generation5/joltikx/joltikx.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +44,32 @@
       "model": "cobblemon:generation5_joltikx.geo",
       "poser": "cobblemon:generation5_joltikx",
       "texture": "cobblemon:textures/pokemon/generation5/joltikx/joltikx_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

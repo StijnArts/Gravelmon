@@ -2,6 +2,12 @@
   "entryId": "cobblemon:lickitung",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
       "displayForm": "Hizian",
       "unlockForms": [
         "Hizian"

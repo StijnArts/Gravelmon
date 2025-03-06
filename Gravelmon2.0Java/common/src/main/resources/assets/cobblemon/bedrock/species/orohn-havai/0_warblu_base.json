@@ -4,16 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:orohn-havai_warblu",
-      "texture": "cobblemon:textures/pokemon/orohn-havai/warblu.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/orohn-havai/warblu_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_31_by_41.geo",
+      "poser": "cobblemon:cutout_gravelmon_31_by_41",
+      "texture": "cobblemon:textures/pokemon/orohnhavai/warblu.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

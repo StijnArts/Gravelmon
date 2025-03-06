@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Peadazzled extends drai.dev.data.pokemon.Pokemon {
-    public Peadazzled() {
+    public Peadazzled(Stats stats) {
         super("Peadazzled",
                 Type.PSYCHIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.UNNERVE,Ability.INTIMIDATE), Ability.RATTLED,
                 15, 748,
                 new Stats(0,0,0,0,0,0), 45,
@@ -24,14 +19,10 @@ public class Peadazzled extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("The more confusing and striking the eye-markings on Peadazzled's body are, the more favorably they are treated among their peers."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Peadazzled");

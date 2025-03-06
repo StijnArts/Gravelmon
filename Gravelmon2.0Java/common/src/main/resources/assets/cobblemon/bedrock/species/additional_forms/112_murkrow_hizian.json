@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:murkrow",
-  "order": 3,
+  "order": 112,
   "variations": [
     {
       "aspects": [
         "hizian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_hizianmurkrow",
+      "model": "cobblemon:cutout_gravelmon_38_by_49.geo",
+      "poser": "cobblemon:cutout_gravelmon_38_by_49",
       "texture": "cobblemon:textures/pokemon/generation2/hizianmurkrow.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "hizian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_hizianmurkrow",
-      "texture": "cobblemon:textures/pokemon/generation2/hizianmurkrow_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

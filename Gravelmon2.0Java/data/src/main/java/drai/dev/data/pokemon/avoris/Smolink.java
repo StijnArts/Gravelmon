@@ -24,14 +24,10 @@ public class Smolink extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("As a defense mechanism they shoot ink when stricken with panic. They then make its getaway to hide deep within the reefs. They have highly desirable ink, prized by artists and writers alike. Their mood influences the quality of the ink."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Smolink");

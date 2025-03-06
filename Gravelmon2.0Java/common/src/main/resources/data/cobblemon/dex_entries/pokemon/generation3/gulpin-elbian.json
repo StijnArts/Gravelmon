@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gulpin-elbian",
+  "speciesId": "cobblemon:gulpin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Elbian",
+      "unlockForms": [
+        "Elbian"
+      ]
+    }
+  ],
+  "variations": []
+}

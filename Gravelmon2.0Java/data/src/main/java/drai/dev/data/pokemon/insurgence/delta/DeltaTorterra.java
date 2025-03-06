@@ -117,6 +117,5 @@ public class DeltaTorterra extends Pokemon {
         this.setLangFileName("Torterra");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:ursaring",
-  "order": 3,
+  "order": 131,
   "variations": [
     {
       "aspects": [
         "cefiran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiranursaring",
+      "model": "cobblemon:cutout_gravelmon_122_by_136.geo",
+      "poser": "cobblemon:cutout_gravelmon_122_by_136",
       "texture": "cobblemon:textures/pokemon/generation2/cefiranursaring.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "cefiran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_cefiranursaring",
-      "texture": "cobblemon:textures/pokemon/generation2/cefiranursaring_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

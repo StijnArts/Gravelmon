@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furret-norse",
+  "speciesId": "cobblemon:furret",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    }
+  ],
+  "variations": []
+}

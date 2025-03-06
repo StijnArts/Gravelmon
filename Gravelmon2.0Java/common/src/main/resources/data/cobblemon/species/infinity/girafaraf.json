@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Girafaraf",
-  "nationalPokedexNumber": 1456,
   "primaryType": "fairy",
   "secondaryType": "psychic",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "girafarig",
+  "baseScale": 0.345,
+  "cannotDynamax": false,
   "abilities": [
     "pixilate",
     "pixilate",
     "h:sapsipper"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 75,
     "attack": 80,
@@ -17,39 +50,19 @@
     "special_defence": 105,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 200,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 39,
   "eggGroups": [
     "field"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "cobblemon:dawn_stone",
@@ -165,7 +178,8 @@
     "egg:razorwind",
     "egg:secretpower",
     "egg:takedown",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -174,26 +188,18 @@
   "pokedex": [
     "cobblemon.species.girafaraf.desc"
   ],
-  "preEvolution": "girafarig",
-  "baseScale": 0.3833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 23,
   "weight": 950,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1294,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 10.0,
+    "height": 10.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

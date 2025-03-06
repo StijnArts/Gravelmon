@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bohole",
+  "speciesId": "cobblemon:bohole",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

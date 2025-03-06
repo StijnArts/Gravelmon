@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Asphere",
-  "nationalPokedexNumber": 4786,
   "primaryType": "fire",
   "secondaryType": "dragon",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 255,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 1.875,
+  "cannotDynamax": false,
   "abilities": [
-    "marvelscale"  ],
+    "marvelscale"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 120,
@@ -14,152 +47,18 @@
     "special_defence": 110,
     "speed": 130
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-"forms": [    {
-      "name": "Altair",
-      "pokedex": [
-    "cobblemon.species.asphere.desc1"
-  ],
-      "primaryType": "ice",
-      "secondaryType": "dragon",
-      "abilities": [
-    "marvelscale"      ],
-      "baseScale": 1.4,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 140,
-        "defence": 100,
-        "special_attack": 150,
-        "special_defence": 100,
-        "speed": 130
-      },
-      "catchRate": 3,
-      "maleRatio": -1.0,
-      "baseExperienceYield": 255,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 3,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "slow",
-      "eggCycles": 51,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "vega",
-    "not_modeled"
-      ],
-      "aspects": [
-        "altair"
-      ],
-      "height": 5,
-      "weight": 16000,
-      "cannotDynamax": false,
-      "battleOnly": true
-    },
-    {
-      "name": "Sirius",
-      "pokedex": [
-    "cobblemon.species.asphere.desc1"
-  ],
-      "primaryType": "electric",
-      "secondaryType": "dragon",
-      "abilities": [
-    "marvelscale"      ],
-      "baseScale": 1.4,
-        "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
-          "fixed": false
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 100,
-        "defence": 120,
-        "special_attack": 150,
-        "special_defence": 120,
-        "speed": 130
-      },
-      "catchRate": 3,
-      "maleRatio": -1.0,
-      "baseExperienceYield": 255,
-      "baseFriendship": 70,
-      "evYield": {
-        "hp": 3,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "slow",
-      "eggCycles": 51,
-      "eggGroups": [
-    "undiscovered"
-  ],  "drops": {
-    "amount": "0",
-    "entries": [
-
-    ]
-      },
-      "labels": [
-    "vega",
-    "not_modeled"
-      ],
-      "aspects": [
-        "sirius"
-      ],
-      "height": 5,
-      "weight": 16000,
-      "cannotDynamax": false,
-      "battleOnly": true
-    }
-],
-  "baseExperienceYield": 255,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {},
   "moves": [
     "1:dragondance",
     "1:extremespeed",
@@ -218,7 +117,8 @@
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot"
+  ],
   "labels": [
     "vega",
     "legendary",
@@ -227,26 +127,176 @@
   "pokedex": [
     "cobblemon.species.asphere.desc"
   ],
-  "baseScale": 0.8333333333333334,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 3,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 50,
   "weight": 1600,
   "aspects": [],
-"features": [
-"altair",
-"sirius"
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 4536,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [
+    "altair",
+    "sirius"
+  ],
+  "implemented": true,
+  "forms": [
+    {
+      "name": "Altair",
+      "primaryType": "ice",
+      "secondaryType": "dragon",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 255,
+      "experienceGroup": "slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 2.8571428571428568,
+      "cannotDynamax": false,
+      "abilities": [
+        "marvelscale"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 140,
+        "defence": 100,
+        "special_attack": 150,
+        "special_defence": 100,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "vega",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.altair.desc"
+      ],
+      "height": 50,
+      "weight": 1600,
+      "aspects": [
+        "altair"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    },
+    {
+      "name": "Sirius",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 255,
+      "experienceGroup": "slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 2.8125,
+      "cannotDynamax": false,
+      "abilities": [
+        "marvelscale"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defence": 120,
+        "special_attack": 150,
+        "special_defence": 120,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "vega",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.sirius.desc"
+      ],
+      "height": 50,
+      "weight": 1600,
+      "aspects": [
+        "sirius"
+      ],
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ]
 }

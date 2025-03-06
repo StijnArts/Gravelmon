@@ -1,25 +1,75 @@
 {
-    "species": "cobblemon:emolga",
-    "order": 1,
-    "variations": [
-      {
-        "aspects": [
-          "delta"
-        ],
-        "poser": "cobblemon:generation5_deltaemolga",
-        "model": "cobblemon:deltaemolga.geo",
-        "texture": "cobblemon:textures/pokemon/generation5/deltaemolga.png",
-        "layers": []
-      },
-      {
-        "aspects": [
-          "delta",
-          "shiny"
-        ],
-        "poser": "cobblemon:generation5_deltaemolga",
-        "model": "cobblemon:deltaemolga.geo",
-        "texture": "cobblemon:textures/pokemon/generation5/deltaemolga_shiny.png",
-        "layers": []
-      }
-    ]
-  }
+  "species": "cobblemon:emolga",
+  "order": 133,
+  "variations": [
+    {
+      "aspects": [
+        "delta"
+      ],
+      "model": "cobblemon:generation5_deltaemolga.geo",
+      "poser": "cobblemon:generation5_deltaemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaemolga/deltaemolga.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "delta",
+        "shiny"
+      ],
+      "model": "cobblemon:generation5_deltaemolga.geo",
+      "poser": "cobblemon:generation5_deltaemolga",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaemolga/deltaemolga_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
+}

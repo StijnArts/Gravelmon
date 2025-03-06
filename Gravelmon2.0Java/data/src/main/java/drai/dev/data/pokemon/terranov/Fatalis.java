@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Fatalis extends drai.dev.data.pokemon.Pokemon {
-    public Fatalis() {
+    public Fatalis(Stats stats) {
         super("Fatalis",
                 Type.DRAGON, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
@@ -24,14 +19,10 @@ public class Fatalis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("A legendary black dragon known only as Fatalis, rumored to have destroyed a kingdom in a single night. Many sought to challеngе it, fеw livеd to tеll thе talе..."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.TERRANOV),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fatalis");

@@ -7,13 +7,13 @@
       "id": "laquagon-01",
       "pokemon": "laquagon",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
       "level": "18-39",
-      "weight": 7.0,
+      "weight": 10.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean",
@@ -27,6 +27,14 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:insomnibaa",
+  "speciesId": "cobblemon:insomnibaa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

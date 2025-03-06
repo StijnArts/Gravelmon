@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -134,9 +134,16 @@ public class Iguadium extends Pokemon {
                 0.7, 0.7,
                 List.of());
         this.setCanSwim(true);
-        this.setPortraitXYZ(0.1, 1, 0);
         this.setBaseScale(0.7);
+        this.setHitbox(1,1.4);
 
-        this.setModeled(true);
+        
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(-.20, 1.2, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(-.10, .90, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+        ));
     }
 }

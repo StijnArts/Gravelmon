@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tublip",
+  "speciesId": "cobblemon:tublip",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

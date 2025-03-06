@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:morgrem",
-  "order": 3,
+  "order": 108,
   "variations": [
     {
       "aspects": [
         "novran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_novranmorgrem",
+      "model": "cobblemon:cutout_gravelmon_55_by_58.geo",
+      "poser": "cobblemon:cutout_gravelmon_55_by_58",
       "texture": "cobblemon:textures/pokemon/generation8/novranmorgrem.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "novran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation8_novranmorgrem",
-      "texture": "cobblemon:textures/pokemon/generation8/novranmorgrem_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

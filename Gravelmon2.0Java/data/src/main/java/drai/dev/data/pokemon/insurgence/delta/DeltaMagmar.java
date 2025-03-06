@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,7 +20,7 @@ public class DeltaMagmar extends Pokemon {
                 50, List.of(EggGroup.DELTA),
                 List.of("It can now breath underwater using the oxygen in the tank on its back. It returns to the surface once per week in order to refuel."),
                 List.of(new EvolutionEntry("deltamagmortar", EvolutionType.LEVEL_UP, true, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"cobblemon:magmarizer\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "cobblemon:magmarizer")))),
                 List.of(
                         new MoveLearnSetEntry(Move.METAL_CLAW,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -109,6 +109,5 @@ public class DeltaMagmar extends Pokemon {
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Magmar");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

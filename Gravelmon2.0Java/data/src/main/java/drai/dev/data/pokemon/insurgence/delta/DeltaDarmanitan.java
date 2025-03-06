@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -127,9 +128,15 @@ public class DeltaDarmanitan extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Darmanitan");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+
         this.setBaseScale(1);
         this.setHitbox(1.4,2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("darmanitan_delta");
+        getPosingFileData().setPortraitData( 1.3f, new Vector3(0, 1.4, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, 1.2, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
     }
 }

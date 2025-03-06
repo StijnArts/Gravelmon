@@ -1,11 +1,5 @@
 {
   "condition": {
-    "canSeeSky": true,
-    "neededBaseBlocks": [
-      "minecraft:grass_block"
-     ],
-     "neededNearbyBlocks": [
-      "minecraft:water"
-     ]
+    "neededNearbyBlocks": ["#minecraft:water"]
   }
 }

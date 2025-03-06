@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Foliat",
-  "nationalPokedexNumber": 1025,
   "primaryType": "grass",
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 28,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "baseFriendship": 70,
+  "baseScale": 0.9,
+  "cannotDynamax": false,
   "abilities": [
     "overgrow",
     "h:galewings"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 42,
     "attack": 42,
@@ -15,38 +47,33 @@
     "special_defence": 46,
     "speed": 75
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": true,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": true,
-  "baseExperienceYield": 28,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 41,
   "eggGroups": [
     "grass",
     "flying"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "4:growl",
@@ -111,13 +138,17 @@
     "egg:mirrormove",
     "egg:razorwind",
     "egg:whirlwind",
-    "egg:sweetscent"  ],
+    "egg:sweetscent"
+  ],
   "labels": [
     "sage"
   ],
   "pokedex": [
     "cobblemon.species.foliat.desc"
   ],
+  "height": 3,
+  "weight": 15,
+  "aspects": [],
   "evolutions": [
     {
       "id": "foliat_florabri",
@@ -128,31 +159,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 16
+          "minLevel": "16"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.9,
+  "nationalPokedexNumber": 1026,
+  "shoulderMountable": true,
   "hitbox": {
-    "width": 0.3,
-    "height": 0.3,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 3,
-  "weight": 15,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

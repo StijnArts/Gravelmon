@@ -2,6 +2,12 @@
   "entryId": "cobblemon:dreepy",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Hoennian",
       "unlockForms": [
         "Hoennian"

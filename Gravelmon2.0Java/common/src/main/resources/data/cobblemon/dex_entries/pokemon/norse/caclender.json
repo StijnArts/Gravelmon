@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caclender",
+  "speciesId": "cobblemon:caclender",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

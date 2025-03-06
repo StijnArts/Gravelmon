@@ -1,15 +1,15 @@
 package drai.dev.data.pokemon.realidea;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
 public class Rabatuta extends Pokemon {
     public Rabatuta() {
         super("Rabatuta",
-                Type.FIRE,
+                Type.FIRE, Type.SOUND,
                 new Stats(70,60,75,65,75,75),
                 List.of(Ability.BLAZE), Ability.SOLAR_POWER,
                 14, 330,
@@ -56,7 +56,7 @@ public class Rabatuta extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 29, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

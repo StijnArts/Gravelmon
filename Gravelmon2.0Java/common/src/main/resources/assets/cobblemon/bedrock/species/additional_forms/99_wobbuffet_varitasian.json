@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:wobbuffet",
-  "order": 3,
+  "order": 99,
   "variations": [
     {
       "aspects": [
         "varitasian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_varitasianwobbuffet",
+      "model": "cobblemon:cutout_gravelmon_46_by_66.geo",
+      "poser": "cobblemon:cutout_gravelmon_46_by_66",
       "texture": "cobblemon:textures/pokemon/generation2/varitasianwobbuffet.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "varitasian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_varitasianwobbuffet",
-      "texture": "cobblemon:textures/pokemon/generation2/varitasianwobbuffet_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

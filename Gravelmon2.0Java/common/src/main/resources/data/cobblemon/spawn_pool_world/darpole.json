@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "3-22",
-      "weight": 8.0,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freshwater",
@@ -21,6 +21,37 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "darpole-11",
+      "pokemon": "darpole",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -20,9 +22,11 @@ public class HoennianVenonat extends Pokemon {
                 51, List.of(EggGroup.BUG),
                 List.of("Timid by nature, the wild Venonat in Hoenn prefer to live in damp, dark places. Their large, glowing eyes can see clearly even in total blackness."),
                 List.of(new EvolutionEntry("muramoth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "31"))),
                         new EvolutionEntry("lucemoth", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,5),
@@ -70,6 +74,23 @@ public class HoennianVenonat extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Venonat");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData()
+                .addBasicVariation(this)
+                .addLayer(
+                        new SimpleTextureLayerData("emissive", "hoennianvenonat_emissive", Optional.of(true), Optional.of(false), false, true)
+                );
+        getPosingFileData().setAnimationFileName("hoennianvenonat");
+        getPosingFileData().setPortraitData(1.68999f, new Vector3(-0.1, -0.69, 0));
+        getPosingFileData().setProfileData(.86f, new Vector3(0, 0.43, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withBlink().markAsBackupPose().withCry().addQuirk(Quirk.simpleQuirk("quirk1")).addQuirk(Quirk.simpleQuirk("quirk2")),
+                AnimationData.walkingAnimation().withBlink().withCry().addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY).addQuirk(Quirk.simpleQuirk("quirk1")).addQuirk(Quirk.simpleQuirk("quirk2")),
+                AnimationData.battleIdleAnimation().withBlink().withCry().addQuirk(Quirk.simpleQuirk("quirk1")).addQuirk(Quirk.simpleQuirk("quirk2")),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().addCry();
     }
 }

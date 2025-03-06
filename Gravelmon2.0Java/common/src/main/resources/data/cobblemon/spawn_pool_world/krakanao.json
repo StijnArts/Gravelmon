@@ -7,18 +7,26 @@
       "id": "krakanao-01",
       "pokemon": "krakanao",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
       "level": "65-70",
-      "weight": 5.0E-6,
+      "weight": 7.500000000000001E-6,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "maxY": 30
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

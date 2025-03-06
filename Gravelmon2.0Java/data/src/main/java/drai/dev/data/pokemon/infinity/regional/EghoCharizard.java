@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -130,16 +131,29 @@ public class EghoCharizard extends Pokemon {
                         new ItemDrop("minecraft:coal",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 48, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.42, 0.3,
                 List.of());
         this.setLangFileName("Charizard");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(1.05);
         this.setCanFly(true);
         this.setHitbox(2.3,3.4);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new AnimatedLayerData("flame",
+                        List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4", "flame/flame5", "flame/flame6"),
+                        10, true,
+                        Optional.of(true), Optional.of(false), false, true))
+                .addLayer(new SimpleTextureLayerData("glow", "eghocharizard_emissive",
+                        Optional.of(true), Optional.of(true), true, false));
+        getPosingFileData().setPortraitData( 2.1f, new Vector3(-1.3,3.1, 0));
+        getPosingFileData().setProfileData( 0.4f, new Vector3(-0.4, 1.2, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
+        getPosingFileData().setAnimationFileName("charizard_egho");
     }
 }

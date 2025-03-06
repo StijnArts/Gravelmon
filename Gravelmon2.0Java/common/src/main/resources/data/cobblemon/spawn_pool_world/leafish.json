@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "4-25",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river"
@@ -26,6 +26,42 @@
           "#cobblemon:is_arid",
           "#cobblemon:is_cold"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "leafish-11",
+      "pokemon": "leafish",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

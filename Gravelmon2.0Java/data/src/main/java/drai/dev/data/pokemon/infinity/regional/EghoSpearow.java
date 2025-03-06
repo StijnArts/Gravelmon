@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -103,9 +104,17 @@ public class EghoSpearow extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Spearow");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+        
+        
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.8);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3.4f, new Vector3(-0.1, -2, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(-0.0, .0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink()
+        ));
+        getPosingFileData().setAnimationFileName("spearow_egho");
     }
 }

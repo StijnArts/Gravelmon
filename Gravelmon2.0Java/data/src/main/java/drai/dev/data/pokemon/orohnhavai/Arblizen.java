@@ -25,7 +25,7 @@ public class Arblizen extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("They work together in a pack to hunt down prey. As food goes scarce and tension rises, packs of Arblizen will form rivalries with other packs."),
                 List.of(new EvolutionEntry("siberizen", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.CRUNCH.getName()+"\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CRUNCH.getName())))),
                 List.of(    new MoveLearnSetEntry(Move.POWDER_SNOW,1),
                         new MoveLearnSetEntry(Move.LEER,4),
                         new MoveLearnSetEntry(Move.MIST,7),

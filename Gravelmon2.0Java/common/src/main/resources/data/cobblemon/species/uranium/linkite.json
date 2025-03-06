@@ -1,11 +1,44 @@
 {
-  "implemented": true,
   "name": "Linkite",
-  "nationalPokedexNumber": 2483,
   "primaryType": "ghost",
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.4571428571428571,
+  "cannotDynamax": false,
   "abilities": [
     "shadowtag",
-    "cursedbody"  ],
+    "cursedbody"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 35,
     "attack": 55,
@@ -14,37 +47,18 @@
     "special_defence": 50,
     "speed": 30
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {},
   "moves": [
     "1:curse",
     "1:meanlook",
@@ -125,7 +139,8 @@
     "egg:snatch",
     "egg:embargo",
     "egg:sleeptalk",
-    "egg:grudge"  ],
+    "egg:grudge"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -133,6 +148,9 @@
   "pokedex": [
     "cobblemon.species.linkite.desc"
   ],
+  "height": 12,
+  "weight": 281,
+  "aspects": [],
   "evolutions": [
     {
       "id": "linkite_chainite",
@@ -140,31 +158,18 @@
       "result": "chainite",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "permanent": true   
- }
+      "requirements": [],
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 2047,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.9375,
+    "height": 3.9375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 12,
-  "weight": 281,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

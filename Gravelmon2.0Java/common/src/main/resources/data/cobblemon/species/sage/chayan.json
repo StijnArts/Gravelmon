@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Chayan",
-  "nationalPokedexNumber": 1187,
   "primaryType": "fighting",
+  "catchRate": 125,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 69,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "baseScale": 0.037500000000000006,
+  "cannotDynamax": false,
   "abilities": [
     "braveheart",
     "h:technician"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 55,
     "attack": 70,
@@ -15,37 +47,27 @@
     "special_defence": 60,
     "speed": 60
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 125,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 69,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 76,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "5:fakeout",
@@ -98,7 +120,8 @@
     "tutor:fling",
     "tutor:helpinghand",
     "tutor:ironhead",
-    "tutor:snore"  ],
+    "tutor:snore"
+  ],
   "labels": [
     "sage",
     "not_modeled"
@@ -106,6 +129,9 @@
   "pokedex": [
     "cobblemon.species.chayan.desc"
   ],
+  "height": 8,
+  "weight": 187,
+  "aspects": [],
   "evolutions": [
     {
       "id": "chayan_macuarrior",
@@ -116,7 +142,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         },
         {
           "variant": "properties",
@@ -124,8 +150,8 @@
           "contains": true
         }
       ],
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "chayan_ocerumi",
       "variant": "level_up",
@@ -135,7 +161,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 25
+          "minLevel": "25"
         },
         {
           "variant": "properties",
@@ -143,28 +169,17 @@
           "contains": true
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 1123,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 187,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

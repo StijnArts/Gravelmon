@@ -1,40 +1,77 @@
 {
-    "head": "head",
-    "portraitScale": 2.2,
-    "portraitTranslation": [0, -0.2, 0],
-    "profileScale": 0.8,
-    "profileTranslation": [0, 0.6, 0],
-    "faint": "bedrock(deltasquirtle, faint)",
-    "poses": {
-      "standing": {
-        "poseName": "standing",
-        "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
-        "animations": [
-          "look",
-          "bedrock(deltasquirtle, ground_idle)"
-        ]
-      },
-      "walking": {
-        "poseName": "walking",
-        "transformTicks": 10,
-        "poseTypes": ["WALK"],
-        "animations": [
-          "look",
-          "bedrock(deltasquirtle, ground_walk)"
-        ]
-      },
-      "floating": {
-        "poseName": "floating",
-        "transformTicks": 10,
-        "poseTypes": [ "FLOAT" ],
-        "animations": [ "bedrock(deltasquirtle, water_idle)" ]
-      },
-      "swimming": {
-        "poseName": "swimming",
-        "transformTicks": 10,
-        "poseTypes": [ "SWIM" ],
-        "animations": [ "bedrock(deltasquirtle, water_swim)" ]
-      }
+  "head": "head",
+  "portraitScale": 2.200000047683716,
+  "portraitTranslation": [
+    0.0,
+    -0.2,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    0.0,
+    0.6,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(deltasquirtle, faint)"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(deltasquirtle, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(deltasquirtle, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "look",
+        "bedrock(deltasquirtle, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "look",
+        "bedrock(deltasquirtle, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
+}

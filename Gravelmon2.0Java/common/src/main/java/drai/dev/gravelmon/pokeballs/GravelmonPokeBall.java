@@ -26,4 +26,8 @@ public class GravelmonPokeBall extends PokeBall {
     public PokeBallItem getPokeBallItem() {
         return this.item.get();
     }
+
+    public void registerItem() {
+        this.setItem$common(getPokeBallItem());
+    }
 }

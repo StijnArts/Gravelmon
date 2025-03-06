@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Zapcoon",
-  "nationalPokedexNumber": 2934,
   "primaryType": "bug",
   "secondaryType": "electric",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 126,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "zapillar",
+  "baseScale": 0.27096774193548384,
+  "cannotDynamax": false,
   "abilities": [
     "voltabsorb",
     "static",
     "h:lightningrod"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 45,
@@ -17,37 +50,18 @@
     "special_defence": 70,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 126,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
   "eggGroups": [
     "bug"
   ],
+  "drops": {},
   "moves": [
     "1:leechlife",
     "4:leechlife",
@@ -64,7 +78,8 @@
     "tm:confuseray",
     "tm:signalbeam",
     "tm:electroweb",
-    "tm:paraboliccharge"  ],
+    "tm:paraboliccharge"
+  ],
   "labels": [
     "orohnhavai",
     "not_modeled",
@@ -74,7 +89,9 @@
   "pokedex": [
     "cobblemon.species.zapcoon.desc"
   ],
-  "preEvolution": "zapillar",
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "zapcoon_zaptenna",
@@ -85,31 +102,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 15
+          "minLevel": "15"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.11666666666666665,
+  "nationalPokedexNumber": 2951,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.875,
+    "height": 3.875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -16,7 +16,7 @@ public class Tormightier extends drai.dev.data.pokemon.Pokemon {
                         102,
                         46),
                 List.of(Ability.TORRENT), Ability.REFRIGERATE,
-                0, 0,
+                17, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
@@ -54,13 +54,15 @@ public class Tormightier extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AVALANCHE,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Tormightier");
 
     }

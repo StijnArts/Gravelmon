@@ -1,90 +1,94 @@
 {
   "head": "head",
-  "portraitScale": 1,
-  "portraitTranslation": [0.0, 0, 0.0],
-  "profileScale": 1,
-  "profileTranslation": [0.0,0 , -20.0],
-  "cry": "bedrock(harpee, cry)",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.0,
+    -20.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "poseTypes": [
-        "STAND",
-        "NONE",
-        "PORTRAIT",
-        "PROFILE"
-      ],
-      "isBattle": false,
       "animations": [
         "look",
         "bedrock(harpee, ground_idle)"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(harpee, blink)"]
-        }
-      ]
-    },
-    "walking": {
-      "poseName": "walking",
-      "transformTicks": 10,
-      "poseTypes": [ "WALK" ],
-      "animations": [
-        "look",
-        "bedrock(harpee, air_fly)"
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
       ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(harpee, blink)"]
-        }
-      ]
-    },
-    "flying": {
-      "poseName": "flying",
       "transformTicks": 10,
-      "poseTypes": [ "FLY" ],
-      "animations": [
-        "look",
-        "bedrock(harpee, air_fly)"
-      ],
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(harpee, blink)"]
-        }
-      ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "transformTicks": 10,
-      "poseTypes": [ "SLEEP" ],
-      "animations": [
-        "bedrock(harpee, sleep)"
-      ],
-      "quirks": [
-        {
-          "name": "blink",
-          "animations": ["bedrock(harpee, blink)"]
+          "animations": [
+            "bedrock(harpee, blink)"
+          ],
+          "name": "blink"
         }
       ]
     },
     "hovering": {
       "poseName": "hovering",
-      "transformTicks": 10,
-      "poseTypes": [ "HOVER" ],
       "animations": [
         "look",
         "bedrock(harpee, air_idle)"
       ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "transformTicks": 10,
       "quirks": [
         {
-          "name": "blink",
-          "animations": ["bedrock(harpee, blink)"]
+          "animations": [
+            "bedrock(harpee, blink)"
+          ],
+          "name": "blink"
         }
       ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "look",
+        "bedrock(harpee, air_fly)"
+      ],
+      "poseTypes": [
+        "FLY",
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(harpee, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(harpee, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

@@ -4,21 +4,54 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_dusknoir-01",
-      "pokemon": "dusknoir fligian",
+      "id": "epoch_dusknoir-01",
+      "pokemon": "dusknoir epoch",
       "presets": [
-        "underwater"
+        "lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "53-61",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_dusknoir-01",
+      "pokemon": "dusknoir avalossian",
+      "presets": [
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
       "level": "46-62",
-      "weight": 0.3,
+      "weight": 0.44999999999999996,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slimug",
+  "speciesId": "cobblemon:slimug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

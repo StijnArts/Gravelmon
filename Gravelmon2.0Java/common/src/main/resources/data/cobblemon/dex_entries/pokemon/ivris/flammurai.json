@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flammurai",
+  "speciesId": "cobblemon:flammurai",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

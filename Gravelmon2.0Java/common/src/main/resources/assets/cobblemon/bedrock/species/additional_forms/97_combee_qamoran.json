@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:combee",
-  "order": 3,
+  "order": 97,
   "variations": [
     {
       "aspects": [
         "qamoran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_qamorancombee",
+      "model": "cobblemon:cutout_gravelmon_63_by_33.geo",
+      "poser": "cobblemon:cutout_gravelmon_63_by_33",
       "texture": "cobblemon:textures/pokemon/generation4/qamorancombee.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "qamoran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation4_qamorancombee",
-      "texture": "cobblemon:textures/pokemon/generation4/qamorancombee_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

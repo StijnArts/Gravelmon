@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:pinsir",
-  "order": 3,
+  "order": 25,
   "variations": [
     {
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_hoennianpinsir.geo",
       "poser": "cobblemon:generation1_hoennianpinsir",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir.png",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir/hoennianpinsir.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,7 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -35,18 +41,21 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:generation1_hoennianpinsir.geo",
       "poser": "cobblemon:generation1_hoennianpinsir",
-      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation1/hoennianpinsir/hoennianpinsir_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -55,7 +64,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

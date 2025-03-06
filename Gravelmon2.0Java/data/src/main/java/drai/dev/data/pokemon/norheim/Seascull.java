@@ -40,8 +40,8 @@ public class Seascull extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
@@ -50,7 +50,7 @@ public class Seascull extends drai.dev.data.pokemon.Pokemon {
            setLangFileName("Seascull");
         addAdditionalEvolution("wingull", new EvolutionEntry("seascull", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"),
-                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName() +"\""))));
+                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_COLD.getId() + ":" + Biome.IS_COLD.getName()))));
 
     }
 

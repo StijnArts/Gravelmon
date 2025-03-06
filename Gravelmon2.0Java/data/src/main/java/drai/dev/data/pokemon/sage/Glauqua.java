@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -98,7 +98,7 @@ public class Glauqua extends Pokemon {
         this.setCanFly(true);
         setCanBreathUnderwater(true);
         setCanSwim(true);
-        //TODO make it walk on water
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        setCanWalkOnWater(true);
+
     }
 }

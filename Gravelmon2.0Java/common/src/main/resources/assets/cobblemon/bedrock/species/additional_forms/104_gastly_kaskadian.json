@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:gastly",
-  "order": 3,
+  "order": 104,
   "variations": [
     {
       "aspects": [
         "kaskadian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_kaskadiangastly",
+      "model": "cobblemon:cutout_gravelmon_55_by_42.geo",
+      "poser": "cobblemon:cutout_gravelmon_55_by_42",
       "texture": "cobblemon:textures/pokemon/generation1/kaskadiangastly.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "kaskadian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_kaskadiangastly",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadiangastly_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

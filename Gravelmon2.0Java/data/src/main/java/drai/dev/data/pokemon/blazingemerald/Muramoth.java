@@ -1,9 +1,10 @@
 package drai.dev.data.pokemon.blazingemerald;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -65,5 +66,14 @@ public class Muramoth extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
+        setBaseScale(1);
+        setHitbox(1,1.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.25f, new Vector3(0.14, 0.67, 0));
+        getPosingFileData().setProfileData(.65f, new Vector3(0, 0.77, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook()
+        ));
     }
 }

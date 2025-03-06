@@ -2,6 +2,18 @@
   "entryId": "cobblemon:magnezone",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Egho",
       "unlockForms": [
         "Egho"

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.sage;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -100,9 +101,22 @@ public class Aquilor extends Pokemon {
                 0.4, 0.3,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1.3);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().notBattle().withLook().withBlink().markAsBackupPose(),
+                AnimationData.battleIdleAnimation().withLook().withBlink(),
+                AnimationData.walkingAnimation().withLook().withBlink(),
+                AnimationData.flyingAnimation().withLook().withBlink(),
+                AnimationData.hoveringAnimation().withLook().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setCry("bedrock(aquilor, cry)");
     }
 }

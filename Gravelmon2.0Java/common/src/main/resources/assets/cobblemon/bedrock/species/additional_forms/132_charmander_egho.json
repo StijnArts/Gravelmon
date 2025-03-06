@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:charmander",
-  "order": 10,
+  "order": 132,
   "variations": [
     {
       "aspects": [
@@ -11,10 +11,28 @@
       "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander.png",
       "layers": [
         {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
           "name": "flame"
         },
         {
           "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -26,7 +44,32 @@
       "model": "cobblemon:generation1_eghocharmander.geo",
       "poser": "cobblemon:generation1_eghocharmander",
       "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

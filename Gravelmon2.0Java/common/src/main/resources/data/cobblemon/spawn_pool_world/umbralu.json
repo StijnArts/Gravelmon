@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "16-47",
-      "weight": 11.0,
+      "weight": 16.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -22,6 +22,14 @@
         "maxSkyLight": 15,
         "isRaining": true,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

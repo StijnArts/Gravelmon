@@ -1,18 +1,48 @@
 {
-  "portraitScale": 2.4,
-  "portraitTranslation": [-0.4, 0.2, 0.0],
-  "profileScale": 0.9,
-  "profileTranslation": [0, 0.42, 0.0],
   "head": "head",
+  "portraitScale": 2.4000000953674316,
+  "portraitTranslation": [
+    -0.4,
+    0.2,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.42,
+    0.0
+  ],
   "poses": {
     "standing": {
       "poseName": "standing",
-      "transformTicks": 10,
-      "allPoseTypes": true,
       "animations": [
-		"look",
-		"bedrock(ponyta_x, ground_idle)"
-	  ]
+        "look",
+        "bedrock(ponyta_x, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "WALK",
+        "SLEEP",
+        "HOVER",
+        "FLY",
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(ponyta_x, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
     }
   }
 }

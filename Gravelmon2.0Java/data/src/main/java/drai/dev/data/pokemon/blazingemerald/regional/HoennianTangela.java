@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.blazingemerald.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +21,7 @@ public class HoennianTangela extends Pokemon {
                 51,  List.of(EggGroup.GRASS),
                 List.of("It's body is covered in pointy, dead vines that it collects at a young age. If anyone attempts to peer into it's nest to view it's real body, it becomes highly aggressive."),
                 List.of(new EvolutionEntry("hoenniantangrowth", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\"needlearm\"")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"needlearm")))),
                 List.of(
                         new MoveLearnSetEntry(Move.UTURN,"egg"),
                         new MoveLearnSetEntry(Move.SNATCH,"egg"),
@@ -52,7 +52,6 @@ public class HoennianTangela extends Pokemon {
                         new MoveLearnSetEntry(Move.REVENGE,13),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,19),
                         new MoveLearnSetEntry(Move.BULK_UP,22),
-                        //TODO change the evolution requirement to be bramble bash instead of needle arm.
                         new MoveLearnSetEntry(Move.NEEDLE_ARM,28),
                         new MoveLearnSetEntry(Move.BRAMBLE_BASH,34),
                         new MoveLearnSetEntry(Move.POISON_JAB,37),
@@ -69,6 +68,6 @@ public class HoennianTangela extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Tangela");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

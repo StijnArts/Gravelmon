@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:paradivia",
+  "speciesId": "cobblemon:paradivia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

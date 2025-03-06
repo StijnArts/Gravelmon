@@ -1,0 +1,35 @@
+{
+  "species": "cobblemon:kapkid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon_44_by_47.geo",
+      "poser": "cobblemon:cutout_gravelmon_44_by_47",
+      "texture": "cobblemon:textures/pokemon/sorin/kapkid.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Gnoblety",
-  "nationalPokedexNumber": 5304,
   "primaryType": "ground",
   "secondaryType": "fairy",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gnomad",
+  "baseScale": 0.35294117647058826,
+  "cannotDynamax": false,
   "abilities": [
     "harvest",
     "h:cloudnine"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 54,
@@ -16,38 +49,19 @@
     "special_defence": 66,
     "speed": 82
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:grasswhistle",
     "10:mudshot",
@@ -135,7 +149,8 @@
     "tm:magnitude",
     "tm:healingwish",
     "tm:grassyglide",
-    "tm:charm"  ],
+    "tm:charm"
+  ],
   "labels": [
     "novrai",
     "not_modeled",
@@ -145,7 +160,9 @@
   "pokedex": [
     "cobblemon.species.gnoblety.desc"
   ],
-  "preEvolution": "gnomad",
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "gnoblety_gnotorious",
@@ -156,31 +173,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 54
+          "minLevel": "54"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.16666666666666666,
+  "nationalPokedexNumber": 5003,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.25,
+    "height": 4.25,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

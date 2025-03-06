@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:petrosaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:embryo_petrosaur",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/petrosaur.png",
+      "layers": []
+    }
+  ]
+}

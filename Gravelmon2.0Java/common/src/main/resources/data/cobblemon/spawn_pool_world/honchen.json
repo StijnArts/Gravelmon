@@ -7,13 +7,13 @@
       "id": "honchen-01",
       "pokemon": "honchen",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
       "level": "31-55",
-      "weight": 2.6,
+      "weight": 3.9000000000000004,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
@@ -21,6 +21,14 @@
         "isRaining": false,
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

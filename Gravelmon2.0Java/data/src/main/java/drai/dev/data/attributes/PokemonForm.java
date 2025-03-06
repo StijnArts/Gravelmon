@@ -1,52 +1,18 @@
 package drai.dev.data.attributes;
 
-import com.cobblemon.mod.common.pokemon.*;
+import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.*;
+import drai.dev.data.pokemon.Pokemon;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-public class PokemonForm {
-    public String preEvolution;
-    private String name;
-    private Type primaryType;
-    private Type secondaryType;
-    private List<Ability> abilities;
-    private Ability hiddenAbility;
-    private Stats stats;
-    private int catchRate;
-    private double maleRatio;
-    private int baseExperienceYield;
-    private int baseFriendship;
-    private Stats evYield;
-    private ExperienceGroup experienceGroup;
-    private int eggCycles;
-    private List<EggGroup> eggGroups;
-    private List<MoveLearnSetEntry> learnSet;
-    private List<Label> labels = new ArrayList<>();
-    private List<Aspect> aspects;
-    private int height;
-    private int weight;
-    private List<EvolutionEntry> evolutions;
-    private Boolean cannotDynamax = false;
-    private Boolean isBattleOnly;
-    private final List<PokemonSpawnData> spawnData = new ArrayList<>();
-    private List<String> dexEntries;
-    private List<drai.dev.data.attributes.ItemDrop> drops;
-    private int dropAmount;
-    private double baseScale;
+public class PokemonForm extends AbstractPokemon {
+    private final Boolean isBattleOnly;
     private boolean hasSeparateModel = false;
-    private double portraitScale;
-    private double portraitTranslationX = 0;
-    private double portraitTranslationY = 0;
-    private double portraitTranslationZ = 0;
-
+    private Pokemon formOf;
     public String getFormName() {
         return name;
-    }
-
-    public String getCleanName() {
-        return name.toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
-                .replace("'","").replace("\\.","");
     }
 
     public PokemonForm(String name, Boolean isBattleOnly,
@@ -74,37 +40,12 @@ public class PokemonForm {
                        double baseScale, double portraitScale
 
     ) {
+        super(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
+                eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, spawnContext, spawnPool, minSpawnLevel,
+                maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
         this.name = name;
-        this.primaryType = primaryType;
-        this.abilities = new ArrayList<>();
-        this.abilities.addAll(abilities);
-        if(this.abilities.size() > 2){
-            this.abilities.remove(2);
-        }
-        this.hiddenAbility = hiddenAbility;
-        this.stats = stats;
-        this.catchRate = catchRate;
-        this.maleRatio = maleRatio;
-        this.baseExperienceYield = baseExperienceYield;
-        this.baseFriendship = baseFriendship;
-        this.evYield = evYield;
-        this.experienceGroup = experienceGroup;
-        this.eggCycles = eggCycles;
-        this.eggGroups = eggGroups;
-        this.learnSet = learnSet;
-        this.aspects = aspects;
-        this.height = height;
-        this.weight = weight;
-        this.evolutions = evolutions;
+        this.formOf = formOf;
         this.isBattleOnly = isBattleOnly;
-        this.spawnData.add(new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets));
-        this.dexEntries = dexEntries;
-        this.dropAmount = dropAmount;
-        this.drops = new ArrayList<>();
-        this.baseScale = baseScale;
-        this.portraitScale = portraitScale;
-        this.labels.addAll(labels);
-        this.labels.add(Label.NOT_MODELED);
     }
 
     public PokemonForm(String name, Boolean isBattleOnly,
@@ -137,98 +78,6 @@ public class PokemonForm {
         this.secondaryType = secondaryType;
     }
 
-    public void setPreEvolution(String cleanName) {
-        if(cleanName.equalsIgnoreCase("eevee")){
-            this.labels.add(Label.EEVEELUTION);
-        }
-        this.labels.add(Label.FAKEMON_EVOLUTION);
-        this.preEvolution = cleanName;
-    }
-    public boolean hasSeparateModel() {
-        return hasSeparateModel;
-    }
-
-    public void setHasSeparateModel(boolean hasSeparateModel) {
-        this.hasSeparateModel = hasSeparateModel;
-    }
-
-    public Type getPrimaryType() {
-        return primaryType;
-    }
-
-    public Type getSecondaryType() {
-        return secondaryType;
-    }
-
-    public List<Ability> getAbilities() {
-        return abilities;
-    }
-
-    public Ability getHiddenAbility() {
-        return hiddenAbility;
-    }
-
-    public Stats getStats() {
-        return stats;
-    }
-
-    public int getCatchRate() {
-        return catchRate;
-    }
-
-    public double getMaleRatio() {
-        return maleRatio;
-    }
-
-    public int getBaseExperienceYield() {
-        return baseExperienceYield;
-    }
-
-    public int getBaseFriendship() {
-        return baseFriendship;
-    }
-
-    public Stats getEvYield() {
-        return evYield;
-    }
-
-    public ExperienceGroup getExperienceGroup() {
-        return experienceGroup;
-    }
-
-    public int getEggCycles() {
-        return eggCycles;
-    }
-
-    public List<EggGroup> getEggGroups() {
-        return eggGroups;
-    }
-
-    public List<MoveLearnSetEntry> getLearnSet() {
-        return learnSet;
-    }
-
-    public List<Label> getLabels() {
-        return labels;
-    }
-
-    public List<Aspect> getAspects() {
-        return aspects;
-    }
-
-    public int getHeight() {
-        return height;
-    }
-
-    public int getWeight() {
-        return weight;
-    }
-
-    public List<EvolutionEntry> getEvolutions() {
-        return evolutions;
-    }
-
-
     public Boolean cannotDynamax() {
         return cannotDynamax;
     }
@@ -237,56 +86,15 @@ public class PokemonForm {
         return isBattleOnly;
     }
 
-    public List<String> getDexEntries() {
-        return dexEntries;
+    public void setFormOf(Pokemon cleanName) {
+        formOf = cleanName;
     }
 
-    public List<ItemDrop> getDrops() {
-        return drops;
+    public Pokemon getFormOf() {
+        return formOf;
     }
 
-
-    public int getDropAmount() {
-        return dropAmount;
-    }
-
-    public double getBaseScale() {
-        return baseScale;
-    }
-
-    public double getPortraitScale() {
-        return portraitScale;
-    }
-
-    public double getPortraitTranslationX() {
-        return portraitTranslationX;
-    }
-
-    public double getPortraitTranslationY() {
-        return portraitTranslationY;
-    }
-
-    public double getPortraitTranslationZ() {
-        return portraitTranslationZ;
-    }
-
-    public void setBaseScale(double scale) {
-        this.baseScale = scale;
-    }
-
-    public String getPreEvolution() {
-        return preEvolution;
-    }
-
-    public void setDropAmount(int i) {
-        dropAmount=i;
-    }
-
-    public void setHiddenAbility(Ability ability) {
-        this.hiddenAbility = ability;
-    }
-
-    public List<PokemonSpawnData> getSpawnData() {
-        return spawnData;
+    public Game getGame(){
+        return formOf.getGame();
     }
 }

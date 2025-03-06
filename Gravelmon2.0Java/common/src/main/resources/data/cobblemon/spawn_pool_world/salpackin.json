@@ -7,20 +7,28 @@
       "id": "salpackin-01",
       "pokemon": "salpackin",
       "presets": [
-        "underwater",
+        "water",
         "ocean_monument"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
       "level": "21-45",
-      "weight": 6.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

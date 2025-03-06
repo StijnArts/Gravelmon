@@ -1,233 +1,292 @@
 {
-   "target": "cobblemon:zorua",
-   "forms": [{
-  "name": "Mythian",
-  "primaryType": "fire",
-  "abilities": [
-    "illusion",
-    "h:flamebody"
-  ],
-  "baseStats": {
-    "hp": 35,
-    "attack": 60,
-    "defence": 40,
-    "special_attack": 85,
-    "special_defence": 40,
-    "speed": 70
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:zorua",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "dark",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35744680851063826,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "moxie",
+        "h:anticipation"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 66,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:scratch",
-    "1:leer",
-    "4:torment",
-    "8:ember",
-    "12:flamewheel",
-    "16:willowisp",
-    "20:taunt",
-    "24:firefang",
-    "28:overheat",
-    "32:agility",
-    "36:imprison",
-    "40:nightdaze",
-    "44:nastyplot",
-    "48:foulplay",
-    "egg:snatch",
-    "egg:stockpile",
-    "egg:furyswipes",
-    "egg:counter",
-    "egg:reversal",
-    "egg:uproar",
-    "egg:swallow",
-    "egg:mefirst",
-    "egg:revenge",
-    "egg:finalgambit",
-    "egg:switcheroo"  ],
-  "labels": [
-    "gen5",
-    "myth",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.mythianzorua.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "zorua_zoroark_mythian",
-      "variant": "level_up",
-      "result": "zoroark mythian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 75,
+        "defence": 40,
+        "special_attack": 75,
+        "special_defence": 60,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "29:nightslash",
+        "58:honeclaws",
+        "1:leer",
+        "1:scratch",
+        "21:bite",
+        "33:icepunch",
+        "37:slash",
+        "45:iciclecrash",
+        "41:crunch",
+        "5:pursuit",
+        "13:snarl",
+        "17:icefang",
+        "1:iceshard",
+        "49:playrough",
+        "25:scaryface",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:charm",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:tripleaxel",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:knockoff",
+        "egg:partingshot",
+        "egg:darkestlariat",
+        "egg:psychicfangs",
+        "egg:brickbreak"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochzorua.desc"
+      ],
+      "height": 7,
+      "weight": 125,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 30
+          "id": "epochzorua_zoroark_epoch",
+          "variant": "level_up",
+          "result": "zoroark epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
-  ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 38,
-  "aspects": ["mythian"],
-  "cannotDynamax": false
-},
-{
-  "name": "Alteran",
-  "primaryType": "ghost",
-  "abilities": [
-    "illusion",
-    "h:infiltrator"
-  ],
-  "baseStats": {
-    "hp": 40,
-    "attack": 65,
-    "defence": 40,
-    "special_attack": 85,
-    "special_defence": 45,
-    "speed": 55
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.9375000000000004,
+        "height": 2.9375000000000004,
+        "fixed": false
+      }
     },
-    "moving": {
-        "fly": {
-            "canFly": false
+    {
+      "name": "Alteran",
+      "primaryType": "ghost",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 59,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3230769230769231,
+      "cannotDynamax": false,
+      "abilities": [
+        "illusion",
+        "h:infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 59,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:astonish",
-    "1:babydolleyes",
-    "4:spite",
-    "8:honeclaws",
-    "12:shadowsneak",
-    "16:scaryface",
-    "20:willowisp",
-    "24:hex",
-    "28:tearfullook",
-    "32:curse",
-    "36:imprison",
-    "44:calmmind",
-    "48:phantomforce",
-    "egg:memento",
-    "egg:destinybond",
-    "egg:copycat",
-    "egg:haze"  ],
-  "labels": [
-    "gen5",
-    "flux",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.alteranzorua.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "zorua_Zorotsune",
-      "variant": "level_up",
-      "result": "Zorotsune",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 65,
+        "defence": 40,
+        "special_attack": 85,
+        "special_defence": 45,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:babydolleyes",
+        "4:spite",
+        "8:honeclaws",
+        "12:shadowsneak",
+        "16:scaryface",
+        "20:willowisp",
+        "24:hex",
+        "28:tearfullook",
+        "32:curse",
+        "36:imprison",
+        "44:calmmind",
+        "48:phantomforce",
+        "egg:memento",
+        "egg:destinybond",
+        "egg:copycat",
+        "egg:haze"
+      ],
+      "labels": [
+        "gen5",
+        "flux",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.alteranzorua.desc"
+      ],
+      "height": 7,
+      "weight": 13,
+      "aspects": [
+        "alteran"
+      ],
+      "evolutions": [
         {
-          "variant": "level",
-          "minLevel": 30
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
+          "id": "alteranzorua_zorotsune",
+          "variant": "level_up",
+          "result": "Zorotsune",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.11666666666666665,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 7,
-  "weight": 13,
-  "aspects": ["alteran"],
-  "cannotDynamax": false
-}
-], "features": [
-"mythian",
-"alteran"
+  "features": [
+    "epoch",
+    "alteran"
   ]
 }

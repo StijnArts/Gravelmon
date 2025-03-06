@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:bronzong",
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Africanusan",
+      "unlockForms": [
+        "Africanusan"
+      ]
+    }
+  ]
+}

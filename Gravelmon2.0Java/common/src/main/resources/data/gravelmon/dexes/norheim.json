@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 38,
+  "sortOrder": 48,
   "id": "gravelmon:norheim",
   "entries": [
     "cobblemon:gnatle",
@@ -73,6 +73,7 @@
     "cobblemon:potiti",
     "cobblemon:potota",
     "cobblemon:tadit",
+    "cobblemon:tadit-mastenian",
     "cobblemon:ribhit",
     "cobblemon:thikachoo",
     "cobblemon:surskit",

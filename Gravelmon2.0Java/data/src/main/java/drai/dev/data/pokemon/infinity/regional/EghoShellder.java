@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -104,8 +104,9 @@ public class EghoShellder extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.23, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
         this.setLangFileName("Shellder");
-        this.setPortraitXYZ(0,1.8,0);
                 this.setPreEvolution("shellder");
         addAdditionalEvolution("shellder", new EvolutionEntry("shellder egho", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:slowpoke_tail"));

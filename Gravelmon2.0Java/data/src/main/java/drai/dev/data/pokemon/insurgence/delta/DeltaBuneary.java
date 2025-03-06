@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -159,9 +160,16 @@ public class DeltaBuneary extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Buneary");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setHitbox(1.5, 1.5);
         this.setBaseScale(0.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.65f, new Vector3(-0, 0, 0));
+        getPosingFileData().setProfileData( .75f, new Vector3(0, .6, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

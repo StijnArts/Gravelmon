@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -71,10 +72,21 @@ public class RaichuX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Raichu");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setHitbox(0.8,1.5);
         this.setBaseScale(0.8);
         this.setCanFly(true);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new AnimatedLayerData("heartbeat", AnimatedLayerData.getFrames("heartbeat/heartbeat", 10), 10, true,
+                        Optional.of(false), Optional.of(false), false, true)
+        );
+        getPosingFileData().setAnimationFileName("raichu_x");
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(0.2, 1.1, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .9, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
+        ));
     }
 }

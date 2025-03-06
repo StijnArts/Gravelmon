@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -21,7 +22,6 @@ public class DittoX extends Pokemon {
                 List.of("Following a great number of experiments, it became extremely unstable, but it developed the ability to Transform even without seeing its target."),
                 List.of(),
                 List.of(
-                        //TODO replace transform with X transform
                         new MoveLearnSetEntry(Move.X_TRANSFORM,1),
                         new MoveLearnSetEntry(Move.TRANSFORM,1)
                         ),
@@ -34,9 +34,17 @@ public class DittoX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Ditto");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("ditto_x");
+        getPosingFileData().setPortraitData( 1.9f, new Vector3(0, .5, 0));
+        getPosingFileData().setProfileData( .72f, new Vector3(0, 0.6, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook()
+        ));
     }
 }

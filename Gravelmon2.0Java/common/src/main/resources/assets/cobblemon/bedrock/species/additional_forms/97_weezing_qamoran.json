@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:weezing",
-  "order": 3,
+  "order": 97,
   "variations": [
     {
       "aspects": [
         "qamoran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_qamoranweezing",
+      "model": "cobblemon:cutout_gravelmon_53_by_92.geo",
+      "poser": "cobblemon:cutout_gravelmon_53_by_92",
       "texture": "cobblemon:textures/pokemon/generation1/qamoranweezing.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "qamoran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation1_qamoranweezing",
-      "texture": "cobblemon:textures/pokemon/generation1/qamoranweezing_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

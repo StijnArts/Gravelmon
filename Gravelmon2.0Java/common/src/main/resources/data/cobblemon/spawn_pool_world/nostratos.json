@@ -7,13 +7,13 @@
       "id": "nostratos-01",
       "pokemon": "nostratos",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-67",
-      "weight": 2.0,
+      "weight": 3.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -27,6 +27,14 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
       }
     }
   ]

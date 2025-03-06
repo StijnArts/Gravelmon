@@ -7,13 +7,13 @@
       "id": "ragnarow-01",
       "pokemon": "ragnarow",
       "presets": [
-        "water_surface"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
       "level": "43-58",
-      "weight": 0.5,
+      "weight": 0.75,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean",
@@ -26,6 +26,14 @@
         "biomes": [
           "#cobblemon:is_freshwater"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

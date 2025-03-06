@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.lonava;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Agapray extends drai.dev.data.pokemon.Pokemon {

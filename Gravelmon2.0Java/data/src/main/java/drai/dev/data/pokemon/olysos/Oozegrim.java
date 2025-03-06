@@ -24,14 +24,10 @@ public class Oozegrim extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("Oozegrim is a master of stealth, often lurking beneath murky waters or hidden in the shadows of bridges. When a potential prey draws near, it pounces with surprising agility, using the element of surprise to overwhelm its target. Travelers are cautioned to exercise vigilance when traversing areas known to be inhabited by Oozegrim."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Oozegrim");

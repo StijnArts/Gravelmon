@@ -1,10 +1,10 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
+import com.cobblemon.mod.common.entity.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
-
 import java.util.*;
 
 public class DeltaMeloetta extends Pokemon {
@@ -164,10 +164,17 @@ public class DeltaMeloetta extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Meloetta");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setHitbox(0.5,1.3);
         this.setBaseScale(0.7);
         this.setCanFly(true);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, 1, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.flyingAnimation().withLook().addPoseType(PoseType.HOVER).addPoseType(PoseType.WALK)
+        ));
     }
 }

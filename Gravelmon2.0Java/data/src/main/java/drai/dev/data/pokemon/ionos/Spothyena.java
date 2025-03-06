@@ -24,7 +24,7 @@ public class Spothyena extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Spothyena hunt in moderately sized packs. They are usually impatient and fight with each other over the smallest of things, mainly food."),
                 List.of(new EvolutionEntry("khaheena", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "\"gender=female\"")),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")),
                         List.of(),"cobblemon:moon_stone"),
                         new EvolutionEntry("gormhyena", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),

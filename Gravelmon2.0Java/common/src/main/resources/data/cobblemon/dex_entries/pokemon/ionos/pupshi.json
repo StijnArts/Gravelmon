@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pupshi",
+  "speciesId": "cobblemon:pupshi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -100,9 +101,17 @@ public class GengarX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gengar");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(0.9);
         setHitbox(1.0, 3.5);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("gengar_x");
+        getPosingFileData().setPortraitData( 1f, new Vector3(-.20, 2.4, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, 1.55, -20));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
     }
 }

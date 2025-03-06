@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -120,7 +121,7 @@ public class EghoTotodile extends Pokemon {
                 List.of(Label.GEN2,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -131,9 +132,22 @@ public class EghoTotodile extends Pokemon {
         this.setCanSwim(true);
         this.setBaseScale(0.5);
         this.setLangFileName("Totodile");
-        this.setPortraitXYZ(0,1.8,0);
-        setModeled(true);
+        
         setBaseScale(0.5);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 0.7f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.sleepingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("totodile_egho");
+        getPosingFileData().setCry("q.bedrock_stateful('totodile_egho', 'cry')");
+        getPosingFileData().setFaint("bedrock(totodile_egho, faint)");
     }
 }

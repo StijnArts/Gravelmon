@@ -4,16 +4,35 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:orohn-havai_caraprisma",
-      "texture": "cobblemon:textures/pokemon/orohn-havai/caraprisma.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/orohn-havai/caraprisma_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_72_by_61.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_61",
+      "texture": "cobblemon:textures/pokemon/orohnhavai/caraprisma.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

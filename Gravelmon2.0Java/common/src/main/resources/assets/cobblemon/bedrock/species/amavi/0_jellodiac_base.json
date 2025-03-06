@@ -4,29 +4,69 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:amavi_jellodiac",
+      "model": "cobblemon:cutout_gravelmon_56_by_55.geo",
+      "poser": "cobblemon:cutout_gravelmon_56_by_55",
       "texture": "cobblemon:textures/pokemon/amavi/jellodiac.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/amavi/jellodiac_shiny.png"
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "female"
       ],
-      "texture": "cobblemon:textures/pokemon/amavi/jellodiac_female.png"
-    },
-    {
-      "aspects": [
-        "female",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/amavi/jellodiac_female_shiny.png"
+      "model": "cobblemon:cutout_gravelmon_56_by_55.geo",
+      "poser": "cobblemon:cutout_gravelmon_56_by_55",
+      "texture": "cobblemon:textures/pokemon/amavi/jellodiac_female.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

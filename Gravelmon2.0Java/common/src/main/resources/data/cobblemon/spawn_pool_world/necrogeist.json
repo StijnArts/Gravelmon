@@ -13,12 +13,20 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "45-57",
-      "weight": 0.25,
+      "weight": 0.375,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
       }
     }
   ]

@@ -1,15 +1,40 @@
 {
   "species": "cobblemon:pyukumuku",
-  "order": 10,
+  "order": 100,
   "variations": [
     {
       "aspects": [
         "x"
       ],
-      "poser": "cobblemon:generation7_pyukumukux",
       "model": "cobblemon:generation7_pyukumukux.geo",
+      "poser": "cobblemon:generation7_pyukumukux",
       "texture": "cobblemon:textures/pokemon/generation7/pyukumukux/pyukumukux.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
@@ -19,7 +44,32 @@
       "model": "cobblemon:generation7_pyukumukux.geo",
       "poser": "cobblemon:generation7_pyukumukux",
       "texture": "cobblemon:textures/pokemon/generation7/pyukumukux/pyukumukux_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

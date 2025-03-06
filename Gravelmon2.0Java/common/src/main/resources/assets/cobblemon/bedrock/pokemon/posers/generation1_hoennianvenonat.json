@@ -1,20 +1,149 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "portraitScale": 1.6899900436401367,
+  "portraitTranslation": [
+    -0.1,
+    -0.69,
+    0.0
+  ],
+  "profileScale": 0.8600000143051147,
+  "profileTranslation": [
+    0.0,
+    0.43,
+    0.0
+  ],
+  "animations": {
+    "cry": "bedrock(hoennianvenonat, cry)"
+  },
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(hoennianvenonat, ground_idle)"
+      ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, cry)"
+          ],
+          "name": "cry"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk1)"
+          ],
+          "name": "quirk1"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk2)"
+          ],
+          "name": "quirk2"
+        }
+      ]
     },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(hoennianvenonat, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
       "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, cry)"
+          ],
+          "name": "cry"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk1)"
+          ],
+          "name": "quirk1"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk2)"
+          ],
+          "name": "quirk2"
+        }
+      ]
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "animations": [
+        "bedrock(hoennianvenonat, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 10,
+      "isBattle": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, cry)"
+          ],
+          "name": "cry"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk1)"
+          ],
+          "name": "quirk1"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianvenonat, quirk2)"
+          ],
+          "name": "quirk2"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(hoennianvenonat, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
     }
   }
 }

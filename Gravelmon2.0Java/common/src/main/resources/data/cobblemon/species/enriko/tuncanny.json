@@ -1,12 +1,44 @@
 {
-  "implemented": true,
   "name": "Tuncanny",
-  "nationalPokedexNumber": 2066,
   "primaryType": "steel",
+  "catchRate": 160,
+  "maleRatio": 0.75,
+  "baseExperienceYield": 100,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1875,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "h:innardsout"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 60,
@@ -15,60 +47,6 @@
     "special_defence": 90,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 160,
-  "maleRatio": 0.75,
-  "shoulderMountable": false,
-  "baseExperienceYield": 100,
-  "experienceGroup": "erratic",
-  "eggCycles": 50,
-  "eggGroups": [
-    "mineral",
-    "amorphous"
-  ],
-  "moves": [
-    "1:harden",
-    "1:thundershock",
-    "8:tailwhip",
-    "16:headbutt",
-    "24:thunderwave",
-    "32:acidarmor",
-    "40:flashcannon"  ],
-  "labels": [
-    "enriko",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.tuncanny.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -77,10 +55,39 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "mineral",
+    "amorphous"
+  ],
+  "drops": {},
+  "moves": [
+    "1:harden",
+    "1:thundershock",
+    "8:tailwhip",
+    "16:headbutt",
+    "24:thunderwave",
+    "32:acidarmor",
+    "40:flashcannon"
+  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.tuncanny.desc"
+  ],
   "height": 5,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1747,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.0,
+    "height": 4.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

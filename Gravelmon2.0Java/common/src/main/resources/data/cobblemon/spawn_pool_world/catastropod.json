@@ -7,19 +7,27 @@
       "id": "catastropod-01",
       "pokemon": "catastropod",
       "presets": [
-        "underlava"
+        "lava"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
       "level": "65-75",
-      "weight": 2.0E-4,
+      "weight": 3.0000000000000003E-4,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
       }
     }
   ]

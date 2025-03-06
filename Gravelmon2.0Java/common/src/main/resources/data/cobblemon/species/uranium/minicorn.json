@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Minicorn",
-  "nationalPokedexNumber": 2509,
   "primaryType": "fairy",
   "secondaryType": "normal",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 62,
+  "experienceGroup": "fast",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.5538461538461539,
+  "cannotDynamax": false,
   "abilities": [
     "cutecharm",
     "quickfeet",
     "h:defiant"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 68,
@@ -17,38 +49,19 @@
     "special_defence": 50,
     "speed": 88
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
   },
-  "catchRate": 200,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 62,
-  "experienceGroup": "fast",
-  "eggCycles": 100,
   "eggGroups": [
     "field",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "1:mefirst",
     "1:tackle",
@@ -117,7 +130,8 @@
     "egg:safeguard",
     "egg:ironhead",
     "egg:assist",
-    "egg:sing"  ],
+    "egg:sing"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -125,6 +139,9 @@
   "pokedex": [
     "cobblemon.species.minicorn.desc"
   ],
+  "height": 12,
+  "weight": 298,
+  "aspects": [],
   "evolutions": [
     {
       "id": "minicorn_kiricorn",
@@ -132,44 +149,29 @@
       "result": "kiricorn",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true   
- },
+      "permanent": true
+    },
     {
       "id": "minicorn_oblivicorn",
       "variant": "item_interact",
       "result": "oblivicorn",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [
-
-      ],
+      "requirements": [],
       "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.19999999999999998,
+  "nationalPokedexNumber": 2066,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.25,
+    "height": 3.25,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 12,
-  "weight": 298,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

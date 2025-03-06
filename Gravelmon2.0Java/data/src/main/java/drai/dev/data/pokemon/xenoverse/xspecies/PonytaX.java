@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -72,9 +73,17 @@ public class PonytaX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Ponyta");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("ponyta_x");
+        getPosingFileData().setPortraitData( 2.4f, new Vector3(-.4, .2, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, 0.42, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+        ));
     }
 }

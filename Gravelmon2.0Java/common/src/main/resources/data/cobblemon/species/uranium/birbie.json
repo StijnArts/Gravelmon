@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Birbie",
-  "nationalPokedexNumber": 2391,
   "primaryType": "normal",
   "secondaryType": "flying",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 57,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.20869565217391306,
+  "cannotDynamax": false,
   "abilities": [
     "bigpecks",
     "analytic",
     "h:moody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 50,
     "attack": 36,
@@ -17,37 +49,18 @@
     "special_defence": 50,
     "speed": 43
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 255,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 57,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 100,
   "eggGroups": [
     "flying"
   ],
+  "drops": {},
   "moves": [
     "1:gust",
     "1:flash",
@@ -110,7 +123,8 @@
     "egg:dazzlinggleam",
     "egg:steelwing",
     "egg:uproar",
-    "egg:wish"  ],
+    "egg:wish"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -118,6 +132,9 @@
   "pokedex": [
     "cobblemon.species.birbie.desc"
   ],
+  "height": 2,
+  "weight": 16,
+  "aspects": [],
   "evolutions": [
     {
       "id": "birbie_aveden",
@@ -128,31 +145,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 17
+          "minLevel": "17"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 1977,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 2.875,
+    "height": 2.875,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 1,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 2,
-  "weight": 16,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

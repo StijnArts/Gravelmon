@@ -8,13 +8,13 @@
       "pokemon": "caimar",
       "presets": [
         "natural",
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "5-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",
@@ -22,6 +22,14 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

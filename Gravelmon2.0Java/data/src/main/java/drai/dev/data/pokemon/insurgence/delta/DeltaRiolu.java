@@ -1,9 +1,9 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -124,9 +124,16 @@ public class DeltaRiolu extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Riolu");
-        this.setPortraitXYZ(0,1.8,0);
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setHitbox(0.6,1.3);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 3f, new Vector3(0, -.5, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
     }
 }

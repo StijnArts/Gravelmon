@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Opalian",
-  "nationalPokedexNumber": 3922,
   "primaryType": "rock",
   "secondaryType": "fairy",
+  "catchRate": 55,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 125,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "gallostone",
+  "baseScale": 0.8,
+  "cannotDynamax": false,
   "abilities": [
     "illuminate",
     "soundproof",
     "h:powerspot"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 90,
@@ -17,38 +50,19 @@
     "special_defence": 120,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 55,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 125,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:pound",
     "1:flash",
@@ -118,7 +132,8 @@
     "tm:round",
     "tm:echoedvoice",
     "tm:bulldoze",
-    "tm:confide"  ],
+    "tm:confide"
+  ],
   "labels": [
     "fliga",
     "not_modeled",
@@ -128,26 +143,18 @@
   "pokedex": [
     "cobblemon.species.opalian.desc"
   ],
-  "preEvolution": "gallostone",
-  "baseScale": 0.5,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 30,
   "weight": 3321,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 3941,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.625,
+    "height": 5.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

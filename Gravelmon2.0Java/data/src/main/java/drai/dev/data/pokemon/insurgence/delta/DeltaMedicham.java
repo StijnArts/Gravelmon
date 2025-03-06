@@ -139,8 +139,8 @@ public class DeltaMedicham extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 54, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
@@ -167,6 +167,5 @@ public class DeltaMedicham extends Pokemon {
                         0.48, 0.3
                 )));
         this.setLangFileName("Medicham");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

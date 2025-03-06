@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Jollibird",
-  "nationalPokedexNumber": 1440,
   "primaryType": "ice",
   "secondaryType": "fairy",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 176,
+  "experienceGroup": "fast",
+  "eggCycles": 39,
+  "baseFriendship": 70,
+  "preEvolution": "delibird",
+  "baseScale": 0.2434782608695652,
+  "cannotDynamax": false,
   "abilities": [
     "thickfat",
     "hustle",
     "h:snowwarning"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 80,
     "attack": 95,
@@ -17,39 +50,19 @@
     "special_defence": 120,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 176,
-  "experienceGroup": "fast",
-  "eggCycles": 39,
   "eggGroups": [
     "amorphous"
   ],
   "drops": {
-    "amount": "1",
+    "amount": 1,
     "entries": [
       {
         "item": "gravelmon:astral_stone",
@@ -148,7 +161,8 @@
     "egg:icywind",
     "egg:quickattack",
     "egg:rapidspin",
-    "egg:splash"  ],
+    "egg:splash"
+  ],
   "labels": [
     "infinity",
     "not_modeled",
@@ -157,26 +171,18 @@
   "pokedex": [
     "cobblemon.species.jollibird.desc"
   ],
-  "preEvolution": "delibird",
-  "baseScale": 0.2333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 2,
-    "speed": 0
-  },
   "height": 14,
   "weight": 980,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1279,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 8.625,
+    "height": 8.625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

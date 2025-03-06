@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:avidatto",
+  "speciesId": "cobblemon:avidatto",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

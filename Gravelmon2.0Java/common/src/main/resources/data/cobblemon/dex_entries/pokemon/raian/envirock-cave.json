@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:envirock-cave",
+  "speciesId": "cobblemon:envirock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Cave",
+      "unlockForms": [
+        "Cave"
+      ]
+    }
+  ],
+  "variations": []
+}

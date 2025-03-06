@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Simayan",
-  "nationalPokedexNumber": 1204,
   "primaryType": "fighting",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 76,
+  "baseFriendship": 70,
+  "preEvolution": "chimpoca",
+  "baseScale": 0.051562500000000004,
+  "cannotDynamax": false,
   "abilities": [
     "sheerforce",
     "conditioning",
     "h:gorillatactics"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 105,
@@ -16,38 +49,28 @@
     "special_defence": 55,
     "speed": 45
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 143,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 76,
   "eggGroups": [
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:armthrust",
     "1:leer",
@@ -107,7 +130,8 @@
     "tm:cut",
     "tm:strength",
     "tutor:vacuumwave",
-    "egg:quickguard"  ],
+    "egg:quickguard"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -117,7 +141,9 @@
   "pokedex": [
     "cobblemon.species.simayan.desc"
   ],
-  "preEvolution": "chimpoca",
+  "height": 11,
+  "weight": 310,
+  "aspects": [],
   "evolutions": [
     {
       "id": "simayan_monkezuma",
@@ -128,31 +154,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 43
+          "minLevel": "43"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.18333333333333335,
+  "nationalPokedexNumber": 1129,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 32.0,
+    "height": 32.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 11,
-  "weight": 310,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

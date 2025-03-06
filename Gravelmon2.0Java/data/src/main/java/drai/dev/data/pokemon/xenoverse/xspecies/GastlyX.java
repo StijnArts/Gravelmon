@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -68,9 +69,17 @@ public class GastlyX extends Pokemon {
                 0.22, 0.3,
                 List.of());
         this.setLangFileName("Gastly");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1.2);
         setHitbox(0.7,1.45);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("gastly_x");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, .5, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0.8, -20));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink()
+        ));
     }
 }

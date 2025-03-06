@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Erion",
-  "nationalPokedexNumber": 1246,
   "primaryType": "steel",
   "secondaryType": "poison",
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "baseFriendship": 70,
+  "baseScale": 0.1643835616438356,
+  "cannotDynamax": false,
   "abilities": [
     "filter",
     "h:toxicdebris"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 95,
     "attack": 110,
@@ -16,37 +48,27 @@
     "special_defence": 90,
     "speed": 70
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 3,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 261,
-  "experienceGroup": "slow",
-  "eggCycles": 200,
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_block",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -105,7 +127,8 @@
     "tm:focuspunch",
     "tm:sleeptalk",
     "tm:shieldbash",
-    "tm:strength"  ],
+    "tm:strength"
+  ],
   "labels": [
     "sage",
     "not_modeled"
@@ -113,25 +136,18 @@
   "pokedex": [
     "cobblemon.species.erion.desc"
   ],
-  "baseScale": 0.5833333333333334,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 35,
   "weight": 3783,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1152,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

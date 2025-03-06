@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Gravollum",
-  "nationalPokedexNumber": 1148,
   "primaryType": "rock",
   "secondaryType": "psychic",
+  "catchRate": 75,
+  "maleRatio": -1.0,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 62,
+  "baseFriendship": 70,
+  "preEvolution": "necronite",
+  "baseScale": 0.09375,
+  "cannotDynamax": false,
   "abilities": [
     "levitate",
     "feedback",
     "h:analytic"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 50,
@@ -17,37 +50,27 @@
     "special_defence": 115,
     "speed": 35
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 75,
-  "maleRatio": -1.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 179,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 62,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:powertrick",
     "1:magnetrise",
@@ -134,7 +157,8 @@
     "tutor:gravity",
     "tutor:swift",
     "tutor:ominouswind",
-    "tutor:painsplit"  ],
+    "tutor:painsplit"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -144,26 +168,18 @@
   "pokedex": [
     "cobblemon.species.gravollum.desc"
   ],
-  "preEvolution": "necronite",
-  "baseScale": 0.3333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 20,
   "weight": 3053,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1099,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

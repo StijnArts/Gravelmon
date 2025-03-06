@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:snowroc",
+  "speciesId": "cobblemon:snowroc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

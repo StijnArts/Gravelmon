@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Jungore",
-  "nationalPokedexNumber": 2500,
   "primaryType": "fighting",
   "secondaryType": "rock",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "baseScale": 0.27042253521126763,
+  "cannotDynamax": false,
   "abilities": [
     "battlearmor",
     "h:clearbody"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 100,
@@ -16,38 +48,19 @@
     "special_defence": 50,
     "speed": 40
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 78,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "field",
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:tackle",
     "1:defensecurl",
@@ -117,7 +130,8 @@
     "egg:stoneedge",
     "egg:bulldoze",
     "egg:rockpolish",
-    "egg:headbutt"  ],
+    "egg:headbutt"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -125,6 +139,9 @@
   "pokedex": [
     "cobblemon.species.jungore.desc"
   ],
+  "height": 8,
+  "weight": 568,
+  "aspects": [],
   "evolutions": [
     {
       "id": "jungore_majungold",
@@ -135,31 +152,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 41
+          "minLevel": "41"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.13333333333333333,
+  "nationalPokedexNumber": 2061,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.4375,
+    "height": 4.4375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 1,
-    "attack": 1,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 8,
-  "weight": 568,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

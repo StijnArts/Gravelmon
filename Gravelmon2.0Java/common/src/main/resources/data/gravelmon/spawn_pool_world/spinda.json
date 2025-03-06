@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "10-36",
-      "weight": 9.9,
+      "weight": 14.850000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -21,6 +21,14 @@
         "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     }
   ]

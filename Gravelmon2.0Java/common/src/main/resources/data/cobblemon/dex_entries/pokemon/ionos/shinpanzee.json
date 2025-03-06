@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shinpanzee",
+  "speciesId": "cobblemon:shinpanzee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

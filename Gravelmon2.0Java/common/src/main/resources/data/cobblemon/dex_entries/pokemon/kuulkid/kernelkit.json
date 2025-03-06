@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kernelkit",
+  "speciesId": "cobblemon:kernelkit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

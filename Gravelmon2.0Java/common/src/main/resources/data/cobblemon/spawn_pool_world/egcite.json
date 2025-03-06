@@ -13,11 +13,19 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "1-18",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
+          "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
       }
     }
   ]

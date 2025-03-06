@@ -25,7 +25,7 @@ public class Rokkap extends drai.dev.data.pokemon.Pokemon {
                 List.of("Born from old rocks, they are irritable Pokemon that live in the mountains. They often hike down into the surrounding forests and cause trouble, marking trees by gouging the bark with their claws."),
                 List.of(new EvolutionEntry("dreadcap", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BODY_PRESS,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),

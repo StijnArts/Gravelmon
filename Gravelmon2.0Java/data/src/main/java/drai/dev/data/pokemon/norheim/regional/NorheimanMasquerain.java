@@ -45,7 +45,7 @@ public class NorheimanMasquerain extends drai.dev.data.pokemon.Pokemon {
         setCanFly(true);
            setLangFileName("Masquerain");
         addAdditionalEvolution("surskit", new EvolutionEntry("masquerain norheiman", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_TAIGA.getId() + ":" + Biome.IS_TAIGA.getName() +"\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_TAIGA.getId() + ":" + Biome.IS_TAIGA.getName()))));
 
     }
 

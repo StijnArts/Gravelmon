@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.infinity;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -127,6 +128,15 @@ public class Orcabyss extends Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
+        setBaseScale(1.7);
+        setHitbox(1.6,1.7);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData(1.09f, new Vector3(-.45, -0.35, 0));
+        getPosingFileData().setProfileData(.57f, new Vector3(.05, 0.5, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
     }
 }

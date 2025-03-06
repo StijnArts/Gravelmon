@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Nyanyum",
-  "nationalPokedexNumber": 4634,
   "primaryType": "fairy",
   "secondaryType": "normal",
+  "catchRate": 190,
+  "maleRatio": 0.25,
+  "baseExperienceYield": 70,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.27692307692307694,
+  "cannotDynamax": false,
   "abilities": [
     "sweetveil",
     "pastelveil",
     "h:friendguard"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 76,
     "attack": 37,
@@ -17,38 +49,19 @@
     "special_defence": 40,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 190,
-  "maleRatio": 0.25,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "fairy",
     "field"
   ],
+  "drops": {},
   "moves": [
     "4:babydolleyes",
     "7:doubleslap",
@@ -68,7 +81,8 @@
     "tm:healpulse",
     "tm:healingwish",
     "tm:charm",
-    "tm:playrough"  ],
+    "tm:playrough"
+  ],
   "labels": [
     "okeno",
     "not_modeled"
@@ -76,6 +90,9 @@
   "pokedex": [
     "cobblemon.species.nyanyum.desc"
   ],
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
   "evolutions": [
     {
       "id": "nyanyum_yummyan",
@@ -86,31 +103,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 190
+          "minLevel": "190"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.1,
+  "nationalPokedexNumber": 4431,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.25,
+    "height": 3.25,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
-  "height": 6,
-  "weight": 165,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

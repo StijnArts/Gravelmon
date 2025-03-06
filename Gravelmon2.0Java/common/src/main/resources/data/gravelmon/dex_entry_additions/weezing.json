@@ -2,6 +2,18 @@
   "entryId": "cobblemon:weezing",
   "forms": [
     {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Qamoran",
       "unlockForms": [
         "Qamoran"

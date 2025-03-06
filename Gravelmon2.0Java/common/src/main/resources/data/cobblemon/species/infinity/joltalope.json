@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Joltalope",
-  "nationalPokedexNumber": 1461,
   "primaryType": "grass",
   "secondaryType": "electric",
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "baseFriendship": 70,
+  "preEvolution": "zapalope",
+  "baseScale": 0.17600000000000002,
+  "cannotDynamax": false,
   "abilities": [
     "fluffy",
     "h:cheekpouch"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 109,
@@ -16,38 +49,19 @@
     "special_defence": 55,
     "speed": 131
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
   },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 214,
-  "experienceGroup": "medium_slow",
-  "eggCycles": 20,
   "eggGroups": [
     "grass",
     "fairy"
   ],
+  "drops": {},
   "moves": [
     "0:iondeluge",
     "0:afteryou",
@@ -142,7 +156,8 @@
     "egg:healpulse",
     "egg:magnetrise",
     "egg:shadowsneak",
-    "egg:synthesis"  ],
+    "egg:synthesis"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -152,26 +167,18 @@
   "pokedex": [
     "cobblemon.species.joltalope.desc"
   ],
-  "preEvolution": "zapalope",
-  "baseScale": 0.18333333333333335,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 3
-  },
   "height": 11,
   "weight": 240,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1297,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 9.375,
+    "height": 9.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

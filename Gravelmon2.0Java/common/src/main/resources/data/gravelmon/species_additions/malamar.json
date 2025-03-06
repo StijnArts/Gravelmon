@@ -1,0 +1,117 @@
+{
+  "target": "cobblemon:malamar",
+  "forms": [
+    {
+      "name": "Vesitan",
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4444444444444444,
+      "cannotDynamax": false,
+      "abilities": [
+        "contrary",
+        "suctioncups"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 79,
+        "attack": 95,
+        "defence": 88,
+        "special_attack": 89,
+        "special_defence": 120,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "58:darkpulse",
+        "44:nightslash",
+        "67:hydropump",
+        "53:superpower",
+        "1:tackle",
+        "4:reflect",
+        "42:slash",
+        "40:muddywater",
+        "48:moonblast",
+        "21:drainingkiss",
+        "35:pluck",
+        "27:payback",
+        "18:hypnosis",
+        "1:reversal",
+        "8:babydolleyes",
+        "1:peck",
+        "13:fairywind",
+        "15:topsyturvy",
+        "12:swagger",
+        "37:playrough",
+        "50:swordsdance",
+        "1:constrict",
+        "23:switcheroo",
+        "31:mistyterrain"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanmalamar.desc"
+      ],
+      "height": 15,
+      "weight": 470,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0625,
+        "height": 5.0625,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "vesitan"
+  ]
+}

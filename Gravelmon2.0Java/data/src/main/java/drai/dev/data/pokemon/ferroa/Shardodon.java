@@ -25,7 +25,7 @@ public class Shardodon extends drai.dev.data.pokemon.Pokemon {
                 List.of("As the crystal on its back grows taller, shards of it break off and are left behind. These pieces are often collected and sold as souvenirs, but they are razor-sharp."),
                 List.of(new EvolutionEntry("solardon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"day\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -66,8 +66,8 @@ public class Shardodon extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

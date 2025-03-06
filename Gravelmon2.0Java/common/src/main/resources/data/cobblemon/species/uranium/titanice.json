@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Titanice",
-  "nationalPokedexNumber": 2466,
   "primaryType": "ice",
+  "catchRate": 90,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 209,
+  "experienceGroup": "slow",
+  "eggCycles": 48,
+  "baseFriendship": 70,
+  "baseScale": 1.323076923076923,
+  "cannotDynamax": false,
   "abilities": [
     "forewarn",
     "icebody",
     "h:snowwarning"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 90,
     "attack": 90,
@@ -16,37 +48,18 @@
     "special_defence": 55,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 90,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
-  "baseExperienceYield": 209,
-  "experienceGroup": "slow",
-  "eggCycles": 48,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:aquaring",
     "1:ironhead",
@@ -115,7 +128,8 @@
     "tm:uproar",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:coralbreak"  ],
+    "tm:coralbreak"
+  ],
   "labels": [
     "uranium",
     "not_modeled"
@@ -123,25 +137,18 @@
   "pokedex": [
     "cobblemon.species.titanice.desc"
   ],
-  "baseScale": 0.7166666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 1,
-    "defence": 1,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 43,
   "weight": 10483,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 2038,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.875,
+    "height": 4.875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

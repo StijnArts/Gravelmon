@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Birigiri",
-  "nationalPokedexNumber": 2142,
   "primaryType": "electric",
   "secondaryType": "water",
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "baseScale": 1.0,
+  "cannotDynamax": false,
   "abilities": [
     "unnerve",
     "hustle",
     "h:motordrive"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 70,
     "attack": 80,
@@ -17,37 +49,18 @@
     "special_defence": 75,
     "speed": 95
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 45,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "water_2"
   ],
+  "drops": {},
   "moves": [
     "1:charge",
     "4:watergun",
@@ -97,32 +110,26 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:superfang",
-    "tutor:waterpulse"  ],
+    "tutor:waterpulse"
+  ],
   "labels": [
     "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.birigiri.desc"
   ],
-  "baseScale": 1.0,
+  "height": 5,
+  "weight": 100,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1812,
+  "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
     "height": 1.0,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
-  "height": 5,
-  "weight": 100,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

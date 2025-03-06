@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:lopunny",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltalopunny.geo",
+      "model": "cobblemon:generation4_deltalopunny.geo",
       "poser": "cobblemon:generation4_deltalopunny",
-      "texture": "cobblemon:textures/pokemon/generation4/deltalopunny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltalopunny/deltalopunny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltalopunny.geo",
+      "model": "cobblemon:generation4_deltalopunny.geo",
       "poser": "cobblemon:generation4_deltalopunny",
-      "texture": "cobblemon:textures/pokemon/generation4/deltalopunny_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltalopunny/deltalopunny_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

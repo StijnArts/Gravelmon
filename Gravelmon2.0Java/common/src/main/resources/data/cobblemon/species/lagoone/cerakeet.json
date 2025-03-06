@@ -1,0 +1,87 @@
+{
+  "name": "Cerakeet",
+  "primaryType": "flying",
+  "catchRate": 70,
+  "maleRatio": 0.875,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.39069767441860465,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 72,
+    "attack": 65,
+    "defence": 115,
+    "special_attack": 65,
+    "special_defence": 94,
+    "speed": 54
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "water_3"
+  ],
+  "drops": {},
+  "moves": [
+    "1:gust",
+    "1:bulkup",
+    "1:healbell"
+  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cerakeet.desc"
+  ],
+  "height": 14,
+  "weight": 20,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 1384,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.375,
+    "height": 5.375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

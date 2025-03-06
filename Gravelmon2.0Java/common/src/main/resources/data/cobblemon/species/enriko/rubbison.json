@@ -1,14 +1,46 @@
 {
-  "implemented": true,
   "name": "Rubbison",
-  "nationalPokedexNumber": 2079,
   "primaryType": "grass",
   "secondaryType": "normal",
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 154,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.44835164835164837,
+  "cannotDynamax": false,
   "abilities": [
     "sturdy",
     "magicbounce",
     "h:sapsipper"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 210,
     "attack": 75,
@@ -17,38 +49,19 @@
     "special_defence": 90,
     "speed": 5
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 65,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 154,
-  "experienceGroup": "slow",
-  "eggCycles": 50,
   "eggGroups": [
     "monster",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:razorleaf",
     "7:stockpile",
@@ -63,7 +76,8 @@
     "40:cosmicpower",
     "44:heavyslam",
     "48:storedpower",
-    "54:hyperbeam"  ],
+    "54:hyperbeam"
+  ],
   "labels": [
     "enriko",
     "not_modeled"
@@ -71,25 +85,18 @@
   "pokedex": [
     "cobblemon.species.rubbison.desc"
   ],
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 17,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1757,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.6875,
+    "height": 5.6875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

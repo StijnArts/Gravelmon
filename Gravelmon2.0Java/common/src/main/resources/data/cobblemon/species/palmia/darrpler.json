@@ -1,0 +1,108 @@
+{
+  "name": "Darrpler",
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "catchRate": 228,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.0234375,
+  "cannotDynamax": false,
+  "abilities": [
+    "tintedlens"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 53,
+    "attack": 45,
+    "defence": 63,
+    "special_attack": 18,
+    "special_defence": 41,
+    "speed": 22
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:strugglebug",
+    "1:bite",
+    "1:bulkup",
+    "1:bulkup",
+    "1:pollenpuff",
+    "1:healbell"
+  ],
+  "labels": [
+    "not_modeled",
+    "palmia",
+    "instagram",
+    "instagram"
+  ],
+  "pokedex": [
+    "cobblemon.species.darrpler.desc"
+  ],
+  "height": 5,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "darrpler_darcoon",
+      "variant": "level_up",
+      "result": "Darcoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "15"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2680,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 32.0,
+    "height": 32.0,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

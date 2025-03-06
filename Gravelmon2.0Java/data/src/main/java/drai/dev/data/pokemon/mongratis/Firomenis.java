@@ -24,14 +24,10 @@ public class Firomenis extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of("These mons are large and tough from the many years spent as a Merlicun. Their jaws can crush through trees and bones, and their flight is strong enough to carry people. There are very few Firomenis in the world because most wild Merlicun don't live long enough to evolve, but that is a good thing because their voracious appetites can quickly deplete the vegetation around them."),
                 List.of(),
-                List.of(                        ),
+                List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), new PokemonSpawnDataBuilder().build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Firomenis");

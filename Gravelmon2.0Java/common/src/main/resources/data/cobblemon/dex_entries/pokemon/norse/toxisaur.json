@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxisaur",
+  "speciesId": "cobblemon:toxisaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

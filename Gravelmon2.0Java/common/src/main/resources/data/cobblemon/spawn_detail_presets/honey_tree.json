@@ -1,13 +1,8 @@
 {
   "condition": {
     "neededNearbyBlocks": [
+      "minecraft:beehive",
       "minecraft:bee_nest"
-     ],
-     "minY": 61,
-     "biomes": [
-      "#cobblemon:is_floral",
-      "#cobblemon:is_temperate"
-     ],
-     "isRaining": false
+    ]
   }
 }

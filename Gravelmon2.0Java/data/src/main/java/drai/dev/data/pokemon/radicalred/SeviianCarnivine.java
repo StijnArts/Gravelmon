@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -92,9 +93,17 @@ public class SeviianCarnivine extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Carnivine");
-        this.setPortraitXYZ(0.1, 2.0, 0.0);
-        setModeled(true);
+        
         setBaseScale(0.8);
         setHitbox(1.2,2);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( .5f, new Vector3(0, 1, 0));
+        getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook().withBlink()
+        ));
+        getPosingFileData().setCry("q.bedrock_stateful('seviiancarnivine', 'cry')");
     }
 }

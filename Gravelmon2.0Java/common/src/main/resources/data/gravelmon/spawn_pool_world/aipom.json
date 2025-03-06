@@ -4,8 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fligian_aipom-01",
-      "pokemon": "aipom fligian",
+      "id": "epoch_aipom-01",
+      "pokemon": "aipom epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-28",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_aipom-01",
+      "pokemon": "aipom avalossian",
       "presets": [
         "natural"
       ],
@@ -13,12 +38,20 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-22",
-      "weight": 3.0,
+      "weight": 4.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     },
     {
@@ -31,12 +64,20 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-36",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
       }
     },
     {
@@ -49,11 +90,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "15-36",
-      "weight": 5.4,
+      "weight": 8.100000000000001,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -61,6 +104,14 @@
           "#cobblemon:is_plains",
           "#cobblemon:is_plateau"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

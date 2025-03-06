@@ -2,6 +2,12 @@
   "entryId": "cobblemon:prinplup",
   "forms": [
     {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Interian",
       "unlockForms": [
         "Interian"

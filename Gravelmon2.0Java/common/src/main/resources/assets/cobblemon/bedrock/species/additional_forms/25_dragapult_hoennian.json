@@ -1,6 +1,6 @@
 {
   "species": "cobblemon:dragapult",
-  "order": 3,
+  "order": 25,
   "variations": [
     {
       "aspects": [
@@ -8,21 +8,19 @@
       ],
       "model": "cobblemon:generation8_hoenniandragapult.geo",
       "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult.png",
       "layers": [
-        {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
         {
           "name": "emissive"
         },
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire.png",
-          "emissive": true
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -31,7 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -42,16 +43,19 @@
       ],
       "model": "cobblemon:generation8_hoenniandragapult.geo",
       "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult_shiny.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -60,12 +64,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
+          "name": "glow"
         },
         {
-          "name": "emmisive",
-          "texture":"cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire_shiny.png",
-          "emissive": true
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

@@ -26,7 +26,7 @@ public class NorheimanDiglett extends drai.dev.data.pokemon.Pokemon {
                 List.of("Norheiman Diglett glows in the dark and is rarely seen by itself. Forming groups can make a big crowd of Diglett’s, making it hard to spot who’s a Diglett and who are a Dugtrio. Their ghost like appearance may startle about anyone getting lost in the woods."),
                 List.of(new EvolutionEntry("norheimandugtrio", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "\"night\"")))),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,8),
@@ -46,8 +46,8 @@ public class NorheimanDiglett extends drai.dev.data.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

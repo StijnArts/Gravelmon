@@ -16,24 +16,38 @@ public class Flowerm extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.HYDRATION,Ability.WATER_ABSORB), Ability.ANTICIPATION,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("vermenace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
+                List.of(            new MoveLearnSetEntry(Move.SCARY_FACE,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,5),
+                        new MoveLearnSetEntry(Move.MEGA_DRAIN,8),
+                        new MoveLearnSetEntry(Move.SLUDGE,12),
+                        new MoveLearnSetEntry(Move.STUN_SPORE,15),
+                        new MoveLearnSetEntry(Move.BITE,20),
+                        new MoveLearnSetEntry(Move.GROWTH,23),
+                        new MoveLearnSetEntry(Move.SLEEP_POWDER,28),
+                        new MoveLearnSetEntry(Move.VENOSHOCK,30),
+                        new MoveLearnSetEntry(Move.LASH_OUT,34),
+                        new MoveLearnSetEntry(Move.LEECH_LIFE,40),
+                        new MoveLearnSetEntry(Move.DARK_PULSE,45),
+                        new MoveLearnSetEntry(Move.SPORE,50)            ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 11, 31, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Flowerm");
 
     }

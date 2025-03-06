@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:troglobite",
+  "speciesId": "cobblemon:troglobite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

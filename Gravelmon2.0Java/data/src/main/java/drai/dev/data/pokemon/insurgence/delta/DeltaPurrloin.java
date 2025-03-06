@@ -135,13 +135,11 @@ public class DeltaPurrloin extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 26, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.26, 0.3,
                 List.of());
         this.setLangFileName("Purrloin");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

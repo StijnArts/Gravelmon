@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tentacool-mastenian",
+  "speciesId": "cobblemon:tentacool",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

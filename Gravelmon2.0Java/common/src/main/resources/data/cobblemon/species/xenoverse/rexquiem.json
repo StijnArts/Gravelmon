@@ -1,11 +1,45 @@
 {
-  "implemented": true,
   "name": "Rexquiem",
-  "nationalPokedexNumber": 2154,
   "primaryType": "ground",
   "secondaryType": "dark",
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 247,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "peckabone",
+  "baseScale": 0.4387096774193548,
+  "cannotDynamax": false,
   "abilities": [
-    "pressure"  ],
+    "pressure"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 100,
     "attack": 121,
@@ -14,38 +48,19 @@
     "special_defence": 90,
     "speed": 80
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": true
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
   },
-  "catchRate": 120,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 247,
-  "experienceGroup": "slow",
-  "eggCycles": 32,
   "eggGroups": [
     "flying",
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:boneclub",
     "1:nightslash",
@@ -120,7 +135,8 @@
     "tutor:snatch",
     "tutor:snore",
     "tutor:spite",
-    "tutor:stealthrock"  ],
+    "tutor:stealthrock"
+  ],
   "labels": [
     "xenoverse",
     "not_modeled",
@@ -130,26 +146,18 @@
   "pokedex": [
     "cobblemon.species.rexquiem.desc"
   ],
-  "preEvolution": "peckabone",
-  "baseScale": 0.2833333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 1,
-    "speed": 0
-  },
   "height": 17,
   "weight": 170,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1822,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.8125,
+    "height": 5.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

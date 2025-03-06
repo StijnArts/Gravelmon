@@ -4,23 +4,30 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mythian_zoroark-01",
-      "pokemon": "zoroark mythian",
+      "id": "epoch_zoroark-01",
+      "pokemon": "zoroark epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "30-45",
-      "weight": 0.9,
+      "bucket": "rare",
+      "level": "32-56",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_desert",
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
+          "#cobblemon:is_snowy_forest"
         ],
-        "timeRange": "night"
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
       }
     }
   ]

@@ -105,6 +105,6 @@ public class EghoLombre extends Pokemon {
                 0.27, 0.3,
                 List.of());
         this.setLangFileName("Lombre");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
     }
 }

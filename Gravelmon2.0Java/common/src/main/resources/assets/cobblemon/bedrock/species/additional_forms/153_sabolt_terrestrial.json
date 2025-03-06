@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:sabolt",
-  "order": 3,
+  "order": 153,
   "variations": [
     {
       "aspects": [
         "terrestrial"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_saboltterrestrial",
+      "model": "cobblemon:cutout_gravelmon_81_by_74.geo",
+      "poser": "cobblemon:cutout_gravelmon_81_by_74",
       "texture": "cobblemon:textures/pokemon/xenoverse/saboltterrestrial.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "terrestrial",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:xenoverse_saboltterrestrial",
-      "texture": "cobblemon:textures/pokemon/xenoverse/saboltterrestrial_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

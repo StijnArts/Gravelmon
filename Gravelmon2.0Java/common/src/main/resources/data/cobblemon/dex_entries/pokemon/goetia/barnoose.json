@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:barnoose",
+  "speciesId": "cobblemon:barnoose",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

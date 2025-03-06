@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:roggenrola",
-  "order": 3,
+  "order": 115,
   "variations": [
     {
       "aspects": [
         "armiran"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_armiranroggenrola",
+      "model": "cobblemon:cutout_gravelmon_76_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_76_by_78",
       "texture": "cobblemon:textures/pokemon/generation5/armiranroggenrola.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "armiran",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation5_armiranroggenrola",
-      "texture": "cobblemon:textures/pokemon/generation5/armiranroggenrola_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

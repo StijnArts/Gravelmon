@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Korboral",
-  "nationalPokedexNumber": 1466,
   "primaryType": "normal",
   "secondaryType": "grass",
+  "catchRate": 128,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 151,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "wombabe",
+  "baseScale": 0.5672727272727273,
+  "cannotDynamax": false,
   "abilities": [
     "sapsipper",
     "harvest",
     "h:symbiosis"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 125,
     "attack": 80,
@@ -17,37 +50,18 @@
     "special_defence": 70,
     "speed": 65
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 128,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 151,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
   "eggGroups": [
     "field"
   ],
+  "drops": {},
   "moves": [
     "1:leafage",
     "5:furyswipes",
@@ -98,7 +112,8 @@
     "tm:taunt",
     "tm:thunderwave",
     "tm:toxic",
-    "tm:grassyterrain"  ],
+    "tm:grassyterrain"
+  ],
   "labels": [
     "dhiome",
     "not_modeled",
@@ -108,26 +123,18 @@
   "pokedex": [
     "cobblemon.species.korboral.desc"
   ],
-  "preEvolution": "wombabe",
-  "baseScale": 0.21666666666666667,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 2,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 13,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1303,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.4375,
+    "height": 3.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.xenoverse;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -89,9 +91,17 @@ public class Sputnink extends Pokemon {
                 List.of(SpawnPreset.NEAR_CROPS),
                 0.3, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+
+        
         setBaseScale(1.15);
         setHitbox(0.55, 0.65);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(0, -1.4, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation().withLook().addPoseType(PoseType.FLY)
+        ));
     }
 }

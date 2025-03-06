@@ -4,21 +4,76 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "fabelian_pyukumuku-01",
+      "pokemon": "pyukumuku fabelian",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "novran_pyukumuku-01",
+      "pokemon": "pyukumuku novran",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "20-37",
+      "weight": 4.65,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "x_pyukumuku-01",
       "pokemon": "pyukumuku x",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "seafloor",
       "bucket": "uncommon",
       "level": "20-37",
-      "weight": 3.1,
+      "weight": 4.65,
       "condition": {
         "biomes": [
           "#minecraft:is_end",
           "#minecraft:is_deep_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
       }
     }
   ]

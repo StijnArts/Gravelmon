@@ -2,15 +2,27 @@
   "entryId": "cobblemon:grovyle",
   "forms": [
     {
-      "displayForm": "Fligian",
+      "displayForm": "Epoch",
       "unlockForms": [
-        "Fligian"
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
       ]
     },
     {
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
       ]
     },
     {

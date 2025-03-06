@@ -1,0 +1,102 @@
+{
+  "name": "Bilbysit",
+  "primaryType": "ground",
+  "secondaryType": "fairy",
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.32,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 75,
+    "attack": 52,
+    "defence": 35,
+    "special_attack": 33,
+    "special_defence": 30,
+    "speed": 45
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:mudslap",
+    "1:disarmingvoice"
+  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bilbysit.desc"
+  ],
+  "height": 6,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "bilbysit_macarton",
+      "variant": "level_up",
+      "result": "macarton",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "190"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2198,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.8125,
+    "height": 2.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

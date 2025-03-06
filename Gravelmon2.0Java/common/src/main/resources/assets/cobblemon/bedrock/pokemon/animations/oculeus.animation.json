@@ -586,7 +586,7 @@
 				}
 			}
 		},
-		"animation.oculeus.blink": {
+		"animation.oculeus.blink1": {
 			"animation_length": 0.2083,
 			"bones": {
 				"eye5": {

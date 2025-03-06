@@ -1,12 +1,46 @@
 {
-  "implemented": true,
   "name": "Fallengel",
-  "nationalPokedexNumber": 2524,
   "primaryType": "fire",
   "secondaryType": "dark",
+  "catchRate": 140,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 147,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "baseFriendship": 70,
+  "preEvolution": "devimp",
+  "baseScale": 0.48607594936708864,
+  "cannotDynamax": false,
   "abilities": [
     "defiant",
-    "intimidate"  ],
+    "intimidate"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 105,
@@ -15,37 +49,18 @@
     "special_defence": 55,
     "speed": 55
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 140,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 147,
-  "experienceGroup": "slow",
-  "eggCycles": 100,
   "eggGroups": [
     "human_like"
   ],
+  "drops": {},
   "moves": [
     "1:inferno",
     "1:nastyplot",
@@ -128,7 +143,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:causticbreath"  ],
+    "tm:causticbreath"
+  ],
   "labels": [
     "uranium",
     "not_modeled",
@@ -138,7 +154,9 @@
   "pokedex": [
     "cobblemon.species.fallengel.desc"
   ],
-  "preEvolution": "devimp",
+  "height": 16,
+  "weight": 585,
+  "aspects": [],
   "evolutions": [
     {
       "id": "fallengel_beliaddon",
@@ -149,31 +167,20 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 72
+          "minLevel": "72"
         }
       ],
-      "permanent": true   
- }
+      "permanent": true
+    }
   ],
-  "baseScale": 0.26666666666666666,
+  "nationalPokedexNumber": 2078,
+  "shoulderMountable": false,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 4.9375,
+    "height": 4.9375,
     "fixed": false
   },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 16,
-  "weight": 585,
-  "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

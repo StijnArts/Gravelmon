@@ -1,8 +1,10 @@
 package drai.dev.data.pokemon.sage;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -103,9 +105,19 @@ public class Warquila extends Pokemon {
                 0.5, 0.5,
                 List.of());
         this.setCanFly(true);
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        setModeled(true);
+        
+        
         setBaseScale(1);
         setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, 0.8, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, 0.8, -20));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.flyingAnimation().addPoseType(PoseType.WALK).withLook().withBlink(),
+                AnimationData.hoveringAnimation().withLook().withBlink()
+        ));
+        getPosingFileData().setCry("bedrock(warquila, cry)");
     }
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse.xspecies;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 
@@ -91,9 +92,17 @@ public class AegislashX extends Pokemon {
                 0.21, 0.3,
                 List.of());
         this.setLangFileName("Aegislash");
-        this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
+
+        
         this.setBaseScale(0.9);
         this.setHitbox(1.4, 1.6);
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setAnimationFileName("aegislash_x");
+        getPosingFileData().setPortraitData( 1.8f, new Vector3(0, 2.7, 0));
+        getPosingFileData().setProfileData( .6f, new Vector3(0, 1.4, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose(),
+                AnimationData.walkingAnimation()
+        ));
     }
 }

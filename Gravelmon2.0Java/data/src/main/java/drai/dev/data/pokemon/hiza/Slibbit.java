@@ -24,7 +24,7 @@ public class Slibbit extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("Its body is covered in a thick toxic slime that poisons those who touch it. This slime cannot be contained as it will corrode anything over time."),
                 List.of(new EvolutionEntry("caustibian", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SLUDGE_BOMB.getName()+"\"")))
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SLUDGE_BOMB.getName())))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

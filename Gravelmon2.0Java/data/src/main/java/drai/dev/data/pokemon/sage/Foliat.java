@@ -1,10 +1,9 @@
 package drai.dev.data.pokemon.sage;
 
-import drai.dev.gravelmon.*;
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -92,7 +91,7 @@ public class Foliat extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:melon_seeds",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -102,8 +101,16 @@ public class Foliat extends Pokemon {
         this.setHasGenderDifferences(true);
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
-        this.setPortraitXYZ(0,1.8,0);
         this.setBaseScale(0.9);
-        this.setModeled(true);
+        this.setHitbox(1,1);
+        
+        getSpeciesFileData().addBasicVariation(this);
+        getPosingFileData().setPortraitData( 2.5f, new Vector3(.1, -1.1, 0));
+        getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.sleepingAnimation()
+        ));
     }
 }

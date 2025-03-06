@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:sableye",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltasableye.geo",
+      "model": "cobblemon:generation3_deltasableye.geo",
       "poser": "cobblemon:generation3_deltasableye",
-      "texture": "cobblemon:textures/pokemon/generation3/deltasableye.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltasableye/deltasableye.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltasableye.geo",
+      "model": "cobblemon:generation3_deltasableye.geo",
       "poser": "cobblemon:generation3_deltasableye",
-      "texture": "cobblemon:textures/pokemon/generation3/deltasableye_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation3/deltasableye/deltasableye_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

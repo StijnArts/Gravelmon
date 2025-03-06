@@ -5,17 +5,36 @@
     {
       "aspects": [
         "dragon"
-     ],
-      "poser": "cobblemon:xenoverse_masgot",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/dragon_masgot.png",
-      "layers": []
-    },
-    {
-      "aspects": [
-        "dragon",
-        "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/dragon_masgot_shiny.png"
-    }  ]
+      "model": "cobblemon:cutout_gravelmon_35_by_57.geo",
+      "poser": "cobblemon:cutout_gravelmon_35_by_57",
+      "texture": "cobblemon:textures/pokemon/xenoverse/dragon.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

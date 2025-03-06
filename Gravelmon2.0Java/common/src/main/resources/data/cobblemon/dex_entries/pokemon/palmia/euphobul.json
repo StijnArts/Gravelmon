@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:euphobul",
+  "speciesId": "cobblemon:euphobul",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

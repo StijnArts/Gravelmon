@@ -1,222 +1,505 @@
 {
-   "target": "cobblemon:buneary",
-   "forms": [{
-  "name": "Delta",
-  "primaryType": "fighting",
-  "abilities": [
-    "pickpocket",
-    "frisk",
-    "h:limber"
-  ],
-  "baseStats": {
-    "hp": 55,
-    "attack": 66,
-    "defence": 44,
-    "special_attack": 44,
-    "special_defence": 56,
-    "speed": 85
-  },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
+  "target": "cobblemon:buneary",
+  "forms": [
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18113207547169813,
+      "cannotDynamax": false,
+      "abilities": [
+        "costar",
+        "dancer",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
         },
-        "canLook": true,
-        "walk": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
             "canWalk": true,
             "avoidsLand": false
-        },
-        "swim": {
+          },
+          "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
         }
-    }
-  },
-  "catchRate": 190,
-  "shoulderMountable": false,
-  "baseExperienceYield": 70,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "undiscovered"
-  ],
-  "moves": [
-    "1:meditate",
-    "1:splash",
-    "1:lowkick",
-    "1:foresight",
-    "6:endure",
-    "10:leer",
-    "13:frustration",
-    "16:machpunch",
-    "23:heartstamp",
-    "26:batonpass",
-    "33:nastyplot",
-    "36:dynamicpunch",
-    "43:mefirst",
-    "46:charm",
-    "50:roleplay",
-    "56:jumpkick",
-    "63:wish",
-    "tm:calmmind",
-    "tm:toxic",
-    "tm:bulkup",
-    "tm:hiddenpower",
-    "tm:sunnyday",
-    "tm:taunt",
-    "tm:lightscreen",
-    "tm:protect",
-    "tm:raindance",
-    "tm:snatch",
-    "tm:frustration",
-    "tm:solarbeam",
-    "tm:irontail",
-    "tm:thunderbolt",
-    "tm:thunder",
-    "tm:return",
-    "tm:dig",
-    "tm:psychic",
-    "tm:shadowball",
-    "tm:brickbreak",
-    "tm:doubleteam",
-    "tm:reflect",
-    "tm:sludgebomb",
-    "tm:rocktomb",
-    "tm:aerialace",
-    "tm:torment",
-    "tm:facade",
-    "tm:rest",
-    "tm:attract",
-    "tm:thief",
-    "tm:lowsweep",
-    "tm:focusblast",
-    "tm:energyball",
-    "tm:fling",
-    "tm:chargebeam",
-    "tm:psyshock",
-    "tm:skillswap",
-    "tm:embargo",
-    "tm:payback",
-    "tm:retaliate",
-    "tm:psychup",
-    "tm:thunderwave",
-    "tm:drainpunch",
-    "tm:rockslide",
-    "tm:shockwave",
-    "tm:poisonjab",
-    "tm:dreameater",
-    "tm:grassknot",
-    "tm:swagger",
-    "tm:poweruppunch",
-    "tm:uturn",
-    "tm:substitute",
-    "tm:trickroom",
-    "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:acrobatics",
-    "tm:darkpulse",
-    "tm:achillesheel",
-    "tm:allyswitch",
-    "tm:echoedvoice",
-    "tm:round",
-    "tm:captivate",
-    "tm:snarl",
-    "tm:confide",
-    "tm:darkmatter",
-    "tm:secretpower",
-    "tm:rockclimb",
-    "tm:rocksmash",
-    "tm:workup",
-    "tm:telekinesis",
-    "tm:strength",
-    "tutor:acid",
-    "tutor:afteryou",
-    "tutor:batonpass",
-    "tutor:bounce",
-    "tutor:counter",
-    "tutor:covet",
-    "tutor:dig",
-    "tutor:dualchop",
-    "tutor:dynamicpunch",
-    "tutor:endeavor",
-    "tutor:endure",
-    "tutor:firepunch",
-    "tutor:focuspunch",
-    "tutor:foulplay",
-    "tutor:gunkshot",
-    "tutor:headbutt",
-    "tutor:helpinghand",
-    "tutor:icepunch",
-    "tutor:knockoff",
-    "tutor:lastresort",
-    "tutor:lowkick",
-    "tutor:magiccoat",
-    "tutor:magicroom",
-    "tutor:mimic",
-    "tutor:nastyplot",
-    "tutor:roleplay",
-    "tutor:seismictoss",
-    "tutor:snore",
-    "tutor:suckerpunch",
-    "tutor:superpower",
-    "tutor:swift",
-    "tutor:thunderpunch",
-    "tutor:trick",
-    "tutor:uproar",
-    "tutor:vacuumwave",
-    "tutor:wish",
-    "tutor:wonderroom",
-    "tutor:zenheadbutt"  ],
-  "labels": [
-    "gen4",
-    "insurgence"
-  ],
-  "pokedex": [
-    "cobblemon.species.deltabuneary.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "buneary_lopunny_delta",
-      "variant": "level_up",
-      "result": "lopunny delta",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 66,
+        "defence": 44,
+        "special_attack": 85,
+        "special_defence": 44,
+        "speed": 56
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "20:luckychant",
+        "28:doublekick",
+        "36:jumpkick",
+        "1:babydolleyes",
+        "1:powdersnow",
+        "56:tripleaxel",
+        "12:iceshard",
+        "16:cometpunch",
+        "32:moonlight",
+        "52:instruct",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bounce",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:tripleaxel",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:punishment",
+        "egg:poweruppunch",
+        "egg:covet",
+        "egg:charm",
+        "egg:captivate",
+        "egg:hail",
+        "egg:attract",
+        "egg:swordsdance",
+        "egg:foulplay"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochbuneary.desc"
+      ],
+      "height": 4,
+      "weight": 55,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
         {
-          "variant": "friendship",
-          "amount": 160
+          "id": "epochbuneary_lopunny_epoch",
+          "variant": "level_up",
+          "result": "lopunny epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
         }
       ],
-      "permanent": true   
- }
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "fighting",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 0,
+      "baseScale": 0.5,
+      "cannotDynamax": false,
+      "abilities": [
+        "pickpocket",
+        "frisk",
+        "h:limber"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 66,
+        "defence": 44,
+        "special_attack": 44,
+        "special_defence": 56,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:meditate",
+        "1:splash",
+        "1:lowkick",
+        "1:foresight",
+        "6:endure",
+        "10:leer",
+        "13:frustration",
+        "16:machpunch",
+        "23:heartstamp",
+        "26:batonpass",
+        "33:nastyplot",
+        "36:dynamicpunch",
+        "43:mefirst",
+        "46:charm",
+        "50:roleplay",
+        "56:jumpkick",
+        "63:wish",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:dig",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:sludgebomb",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:lowsweep",
+        "tm:focusblast",
+        "tm:energyball",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:psyshock",
+        "tm:skillswap",
+        "tm:embargo",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:drainpunch",
+        "tm:rockslide",
+        "tm:shockwave",
+        "tm:poisonjab",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:acrobatics",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:telekinesis",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:batonpass",
+        "tutor:bounce",
+        "tutor:counter",
+        "tutor:covet",
+        "tutor:dig",
+        "tutor:dualchop",
+        "tutor:dynamicpunch",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:gunkshot",
+        "tutor:headbutt",
+        "tutor:helpinghand",
+        "tutor:icepunch",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:lowkick",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:mimic",
+        "tutor:nastyplot",
+        "tutor:roleplay",
+        "tutor:seismictoss",
+        "tutor:snore",
+        "tutor:suckerpunch",
+        "tutor:superpower",
+        "tutor:swift",
+        "tutor:thunderpunch",
+        "tutor:trick",
+        "tutor:uproar",
+        "tutor:vacuumwave",
+        "tutor:wish",
+        "tutor:wonderroom",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltabuneary.desc"
+      ],
+      "height": 4,
+      "weight": 55,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltabuneary_lopunny_delta",
+          "variant": "level_up",
+          "result": "lopunny delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": "160"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18620689655172415,
+      "cannotDynamax": false,
+      "abilities": [
+        "slushrush",
+        "h:snowcloak"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 53,
+        "special_attack": 28,
+        "special_defence": 53,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:powdersnow",
+        "1:quickattack"
+      ],
+      "labels": [
+        "gen4",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranbuneary.desc"
+      ],
+      "height": 9,
+      "weight": 505,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranbuneary_lopunny_cefiran",
+          "variant": "level_up",
+          "result": "lopunny cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": "210"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.25,
+        "height": 7.25,
+        "fixed": false
+      }
+    }
   ],
-  "baseScale": 0.5,
-  "hitbox": {
-    "width": 0.4,
-    "height": 0.4,
-    "fixed": false
-  },
-  "baseFriendship": 0,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
-  },
-  "height": 4,
-  "weight": 55,
-  "aspects": ["delta"],
-  "cannotDynamax": false
-}
-], "features": [
-"delta"
+  "features": [
+    "epoch",
+    "delta",
+    "cefiran"
   ]
 }

@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:blakjak",
-  "order": 3,
+  "order": 148,
   "variations": [
     {
       "aspects": [
         "signetan"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:deneb_signetanblakjak",
+      "model": "cobblemon:cutout_gravelmon_64_by_59.geo",
+      "poser": "cobblemon:cutout_gravelmon_64_by_59",
       "texture": "cobblemon:textures/pokemon/deneb/signetanblakjak.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "signetan",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:deneb_signetanblakjak",
-      "texture": "cobblemon:textures/pokemon/deneb/signetanblakjak_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

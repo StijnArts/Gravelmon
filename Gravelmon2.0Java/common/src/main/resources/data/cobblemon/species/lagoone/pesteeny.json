@@ -1,10 +1,43 @@
 {
-  "implemented": true,
   "name": "Pesteeny",
-  "nationalPokedexNumber": 1513,
   "primaryType": "dark",
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 53,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.1959183673469388,
+  "cannotDynamax": false,
   "abilities": [
-    "schooling"  ],
+    "schooling"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 45,
     "attack": 25,
@@ -13,60 +46,6 @@
     "special_defence": 15,
     "speed": 50
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 60,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 53,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "field"
-  ],
-  "moves": [
-    "1:sandattack",
-    "1:brutalswing",
-    "1:nightslash",
-    "1:bite",
-    "1:needlearm",
-    "1:pursuit",
-    "1:obstruct",
-    "1:crunch"  ],
-  "labels": [
-    "lagoone",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.pesteeny.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -75,10 +54,39 @@
     "special_defence": 0,
     "speed": 1
   },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:sandattack",
+    "1:brutalswing",
+    "1:nightslash",
+    "1:bite",
+    "1:needlearm",
+    "1:pursuit",
+    "1:obstruct",
+    "1:crunch"
+  ],
+  "labels": [
+    "lagoone",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pesteeny.desc"
+  ],
   "height": 2,
   "weight": 4,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1343,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.0625,
+    "height": 3.0625,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

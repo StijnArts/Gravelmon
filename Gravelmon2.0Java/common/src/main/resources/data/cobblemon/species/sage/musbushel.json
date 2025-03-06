@@ -1,13 +1,46 @@
 {
-  "implemented": true,
   "name": "Musbushel",
-  "nationalPokedexNumber": 1064,
   "primaryType": "normal",
   "secondaryType": "grass",
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 148,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "baseFriendship": 70,
+  "preEvolution": "musburry",
+  "baseScale": 0.037573385518591,
+  "cannotDynamax": false,
   "abilities": [
     "harvest",
     "h:sweetveil"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 60,
     "attack": 81,
@@ -16,38 +49,38 @@
     "special_defence": 50,
     "speed": 105
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
   },
-  "catchRate": 90,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 148,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 32,
   "eggGroups": [
     "field",
     "grass"
   ],
+  "drops": {
+    "amount": 8,
+    "entries": [
+      {
+        "item": "minecraft:sweet_berry",
+        "quantityRange": "1-3",
+        "percentage": 40
+      },
+      {
+        "item": "minecraft:glow_berry",
+        "quantityRange": "1-3",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:berry_sweet",
+        "quantityRange": "1-2",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -130,7 +163,8 @@
     "egg:stockpile",
     "egg:swallow",
     "egg:sweetscent",
-    "egg:synthesis"  ],
+    "egg:synthesis"
+  ],
   "labels": [
     "sage",
     "not_modeled",
@@ -140,26 +174,18 @@
   "pokedex": [
     "cobblemon.species.musbushel.desc"
   ],
-  "preEvolution": "musburry",
-  "baseScale": 0.13333333333333333,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 2
-  },
   "height": 8,
   "weight": 121,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1045,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 31.9375,
+    "height": 31.9375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

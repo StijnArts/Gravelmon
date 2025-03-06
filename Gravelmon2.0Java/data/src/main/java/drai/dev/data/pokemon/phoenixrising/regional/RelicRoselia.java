@@ -1,8 +1,8 @@
 package drai.dev.data.pokemon.phoenixrising.regional;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -97,12 +97,12 @@ public class RelicRoselia extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN3),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 40, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Roselia");
-        this.setPortraitXYZ(0.1,2.0,0.0);
+
     }
 }

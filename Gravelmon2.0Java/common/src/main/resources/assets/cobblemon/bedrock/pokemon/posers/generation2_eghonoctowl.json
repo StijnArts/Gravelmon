@@ -1,43 +1,67 @@
 {
-  "portraitScale": 1.7,
-  "portraitTranslation": [-0.3, 1.0, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.6825, -20.0],
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    -0.3,
+    1.0,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.6825,
+    -20.0
+  ],
   "animations": {
     "cry": "q.bedrock_stateful('eghonoctowl', 'cry')"
   },
   "poses": {
     "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(eghonoctowl, ground_idle)"
+      ],
       "poseTypes": [
         "STAND",
-        "PROFILE",
-        "PORTRAIT",
-        "NONE",
         "WALK",
+        "SLEEP",
         "FLOAT",
         "SWIM",
-        "SLEEP"
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
       ],
-      "animations": [
-        "q.look('head')",
-        "q.bedrock('eghonoctowl', 'ground_idle')"
-      ],
+      "transformTicks": 10,
       "quirks": [
-        "q.bedrock_quirk('eghonoctowl', 'blink')"
+        {
+          "animations": [
+            "bedrock(eghonoctowl, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     },
-    "flying": {
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "look",
+        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
+        "bedrock(eghonoctowl, air_idle)"
+      ],
       "poseTypes": [
         "HOVER",
         "FLY"
       ],
-      "animations": [
-        "q.look('head')",
-        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
-        "q.bedrock('eghonoctowl', 'air_idle')"
-      ],
+      "transformTicks": 10,
       "quirks": [
-        "q.bedrock_quirk('eghonoctowl', 'blink')"
+        {
+          "animations": [
+            "bedrock(eghonoctowl, blink)"
+          ],
+          "name": "blink"
+        }
       ]
     }
   }

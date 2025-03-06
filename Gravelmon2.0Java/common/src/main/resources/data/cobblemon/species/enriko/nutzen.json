@@ -1,13 +1,45 @@
 {
-  "implemented": true,
   "name": "Nutzen",
-  "nationalPokedexNumber": 2087,
   "primaryType": "steel",
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 123,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.21818181818181817,
+  "cannotDynamax": false,
   "abilities": [
     "analytic",
     "moody",
     "h:motordrive"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 20,
     "attack": 20,
@@ -16,54 +48,6 @@
     "special_defence": 120,
     "speed": 20
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
-  },
-  "catchRate": 180,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
-  "baseExperienceYield": 123,
-  "experienceGroup": "fast",
-  "eggCycles": 50,
-  "eggGroups": [
-    "mineral",
-    "dragon"
-  ],
-  "moves": [
-    "1:autotomize"  ],
-  "labels": [
-    "enriko",
-    "not_modeled"
-  ],
-  "pokedex": [
-    "cobblemon.species.nutzen.desc"
-  ],
-  "baseScale": 0.1,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -72,10 +56,33 @@
     "special_defence": 0,
     "speed": 0
   },
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "drops": {},
+  "moves": [
+    "1:autotomize"
+  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nutzen.desc"
+  ],
   "height": 5,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1763,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.4375,
+    "height": 3.4375,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

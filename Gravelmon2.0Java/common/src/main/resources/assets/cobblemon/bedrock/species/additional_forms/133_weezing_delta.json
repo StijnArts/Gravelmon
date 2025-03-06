@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:weezing",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltaweezing.geo",
+      "model": "cobblemon:generation1_deltaweezing.geo",
       "poser": "cobblemon:generation1_deltaweezing",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaweezing.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaweezing/deltaweezing.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltaweezing.geo",
+      "model": "cobblemon:generation1_deltaweezing.geo",
       "poser": "cobblemon:generation1_deltaweezing",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaweezing_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltaweezing/deltaweezing_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

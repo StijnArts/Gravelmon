@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:scyther",
-  "order": 11,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltascyther.geo",
+      "model": "cobblemon:generation1_deltascyther.geo",
       "poser": "cobblemon:generation1_deltascyther",
-      "texture": "cobblemon:textures/pokemon/generation1/deltascyther.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltascyther/deltascyther.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltascyther.geo",
+      "model": "cobblemon:generation1_deltascyther.geo",
       "poser": "cobblemon:generation1_deltascyther",
-      "texture": "cobblemon:textures/pokemon/generation1/deltascyther_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation1/deltascyther/deltascyther_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

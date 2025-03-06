@@ -2,6 +2,24 @@
   "entryId": "cobblemon:arcanine",
   "forms": [
     {
+      "displayForm": "Palmian",
+      "unlockForms": [
+        "Palmian"
+      ]
+    },
+    {
+      "displayForm": "Raianian",
+      "unlockForms": [
+        "Raianian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
       "displayForm": "Aristosian",
       "unlockForms": [
         "Aristosian"

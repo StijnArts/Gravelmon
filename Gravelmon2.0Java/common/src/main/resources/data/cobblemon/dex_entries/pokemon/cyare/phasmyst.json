@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phasmyst",
+  "speciesId": "cobblemon:phasmyst",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -4,23 +4,33 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sage_pyroat",
       "model": "cobblemon:sage_pyroat.geo",
+      "poser": "cobblemon:sage_pyroat",
       "texture": "cobblemon:textures/pokemon/sage/pyroat/pyroat.png",
       "layers": [
         {
-          "name": "flame",
-          "texture": {
-            "frames": [
-              "cobblemon:textures/pokemon/sage/pyroat/flame/flame1.png",
-              "cobblemon:textures/pokemon/sage/pyroat/flame/flame2.png",
-              "cobblemon:textures/pokemon/sage/pyroat/flame/flame3.png",
-              "cobblemon:textures/pokemon/sage/pyroat/flame/flame4.png"
-            ],
-            "fps": 10,
-            "loop": true
-          },
-          "emissive": true
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -28,7 +38,35 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/pyroat/pyroat_shiny.png"
-    }  
-	]
+      "model": "cobblemon:sage_pyroat.geo",
+      "poser": "cobblemon:sage_pyroat",
+      "texture": "cobblemon:textures/pokemon/sage/pyroat/pyroat_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
+    }
+  ]
 }

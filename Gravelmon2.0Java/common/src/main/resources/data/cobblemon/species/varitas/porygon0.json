@@ -1,14 +1,47 @@
 {
-  "implemented": true,
   "name": "Porygon0",
-  "nationalPokedexNumber": 2365,
   "primaryType": "normal",
   "secondaryType": "bug",
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "porygon2 form=varitasian",
+  "baseScale": 0.4235294117647059,
+  "cannotDynamax": false,
   "abilities": [
     "adaptability",
     "download",
     "h:analytic"
   ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
   "baseStats": {
     "hp": 85,
     "attack": 125,
@@ -17,37 +50,18 @@
     "special_defence": 60,
     "speed": 90
   },
-  "behaviour": {
-    "resting": {
-        "canSleep": true,
-        "willSleepOnBed": false,        "depth": "normal",
-        "light": "0-6"
-    },
-    "moving": {
-        "fly": {
-            "canFly": false
-        },
-        "canLook": true,
-        "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-        },
-        "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        }
-    }
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
   },
-  "catchRate": 30,
-  "maleRatio": 0.0,
-  "shoulderMountable": false,
-  "baseExperienceYield": 241,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 50,
   "eggGroups": [
     "mineral"
   ],
+  "drops": {},
   "moves": [
     "1:stickyweb",
     "12:agility",
@@ -139,7 +153,8 @@
     "tm:psywave",
     "tm:triattack",
     "tm:substitute",
-    "tm:flash"  ],
+    "tm:flash"
+  ],
   "labels": [
     "varitas",
     "not_modeled",
@@ -149,26 +164,18 @@
   "pokedex": [
     "cobblemon.species.porygon0.desc"
   ],
-  "preEvolution": "porygon2 form=varitasian",
-  "baseScale": 0.15,
-  "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
-    "fixed": false
-  },
-  "baseFriendship": 70,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 3,
-    "special_defence": 0,
-    "speed": 0
-  },
   "height": 9,
   "weight": 165,
   "aspects": [],
-"features": [
-
-  ],  "cannotDynamax": false
+  "evolutions": [],
+  "nationalPokedexNumber": 1948,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 3.1875,
+    "height": 3.1875,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
 }

@@ -1,25 +1,75 @@
 {
   "species": "cobblemon:riolu",
-  "order": 10,
+  "order": 133,
   "variations": [
     {
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:deltariolu.geo",
+      "model": "cobblemon:generation4_deltariolu.geo",
       "poser": "cobblemon:generation4_deltariolu",
-      "texture": "cobblemon:textures/pokemon/generation4/deltariolu.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu/deltariolu.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     },
     {
       "aspects": [
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:deltariolu.geo",
+      "model": "cobblemon:generation4_deltariolu.geo",
       "poser": "cobblemon:generation4_deltariolu",
-      "texture": "cobblemon:textures/pokemon/generation4/deltariolu_shiny.png",
-      "layers": []
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu/deltariolu_shiny.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

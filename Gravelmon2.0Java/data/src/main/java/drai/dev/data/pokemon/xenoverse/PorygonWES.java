@@ -1,8 +1,9 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -84,13 +85,25 @@ public class PorygonWES extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        this.setPortraitXYZ(0.1,2.0,0.0);
+        
         this.setPreEvolution("porygon2");
-        this.setModeled(true);
+        
         this.setBaseScale(0.9);
         this.setCanFly(true);
         this.setHitbox(0.8,1.2);
         addAdditionalEvolution("porygon2", new EvolutionEntry("porygonwes", EvolutionType.LEVEL_UP, List.of(),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:wes_update\""))));
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:wes_update"))));
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                SimpleTextureLayerData.glowLayer(this)
+        );
+        getPosingFileData().setPortraitData( 2.4f, new Vector3(0, 1.8, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, 0.9, 0));
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose(),
+                AnimationData.walkingAnimation()
+        ));
+        getPosingFileData().setAnimationFileName("porygon_wes");
+        getPosingFileData().setFaint("bedrock(porygon_wes, faint)");
     }
 }

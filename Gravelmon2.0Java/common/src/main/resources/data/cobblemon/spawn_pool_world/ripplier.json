@@ -7,13 +7,13 @@
       "id": "ripplier-01",
       "pokemon": "ripplier",
       "presets": [
-        "underwater"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
-      "level": "16-46",
-      "weight": 2.0,
+      "level": "16-40",
+      "weight": 1.35,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -25,6 +25,14 @@
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
       }
     }
   ]

@@ -1,0 +1,116 @@
+{
+  "name": "Questnut",
+  "primaryType": "grass",
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 0.28235294117647064,
+  "cannotDynamax": false,
+  "abilities": [
+    "runaway"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 60,
+    "attack": 30,
+    "defence": 60,
+    "special_attack": 25,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:absorb"
+  ],
+  "labels": [
+    "kuulkid",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.questnut.desc"
+  ],
+  "height": 3,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "questnut_barbalmond",
+      "variant": "item_interact",
+      "result": "barbalmond",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:goat_horn",
+      "permanent": true
+    },
+    {
+      "id": "questnut_naturaecorn",
+      "variant": "item_interact",
+      "result": "naturaecorn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:spider_eye",
+      "permanent": true
+    },
+    {
+      "id": "questnut_priestachio",
+      "variant": "item_interact",
+      "result": "priestachio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:lum_berry",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2155,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 2.125,
+    "height": 2.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

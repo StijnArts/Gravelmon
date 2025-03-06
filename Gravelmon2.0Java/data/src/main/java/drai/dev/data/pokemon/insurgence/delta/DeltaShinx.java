@@ -1,9 +1,8 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
-import drai.dev.data.pokemon.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -114,6 +113,5 @@ public class DeltaShinx extends Pokemon {
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Shinx");
-        this.setPortraitXYZ(0,1.8,0);
     }
 }

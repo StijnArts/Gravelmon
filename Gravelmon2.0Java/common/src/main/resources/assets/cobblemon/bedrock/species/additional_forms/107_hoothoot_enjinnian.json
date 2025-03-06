@@ -1,23 +1,26 @@
 {
   "species": "cobblemon:hoothoot",
-  "order": 3,
+  "order": 107,
   "variations": [
     {
       "aspects": [
         "enjinnian"
       ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_enjinnianhoothoot",
+      "model": "cobblemon:cutout_gravelmon_49_by_45.geo",
+      "poser": "cobblemon:cutout_gravelmon_49_by_45",
       "texture": "cobblemon:textures/pokemon/generation2/enjinnianhoothoot.png",
       "layers": [
         {
-          "name": "glow"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
           "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
         },
         {
           "name": "emissive2"
@@ -26,36 +29,10 @@
           "name": "flame"
         },
         {
-          "name": "tail"
-        }
-      ]
-    },
-    {
-      "aspects": [
-        "enjinnian",
-        "shiny"
-      ],
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "poser": "cobblemon:generation2_enjinnianhoothoot",
-      "texture": "cobblemon:textures/pokemon/generation2/enjinnianhoothoot_shiny.png",
-      "layers": [
-        {
           "name": "glow"
         },
         {
-          "name": "emissive2"
-        },
-        {
-          "name": "emissive"
-        },
-        {
-          "name": "emissive2"
-        },
-        {
-          "name": "flame"
-        },
-        {
-          "name": "tail"
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }
