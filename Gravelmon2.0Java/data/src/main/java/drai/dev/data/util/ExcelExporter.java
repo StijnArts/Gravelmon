@@ -26,7 +26,8 @@ public class ExcelExporter {
             String modeledPokemonSheetName = "Modeled Pokemon";
             Sheet modeledPokemonSheet = workbook.createSheet(modeledPokemonSheetName);
             var sortedGames = new ArrayList<>(games).stream().sorted(Comparator.comparing(Game::getCleanName)).toList();
-            for (Game game : games) {
+            for (int i = 0; i < sortedGames.size(); i++) {
+                var game = sortedGames.get(i);
                 List<Pokemon> pokemonList = game.getNewPokemon(); // Get Pokémon from the game
                 if(disallowPasswordMon){
                     var passwordProtectedLabels = Label.getPasswordProtectedLabels();
