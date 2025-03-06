@@ -31,8 +31,10 @@
     "fabric-api": "*",
     "cobblemon": ">=1.6.0",
     "architectury": ">=9.1",
-    "packetfixer": ">=1.1",
     "gravels_extended_battles": ">=1.5"
+  },
+  "recommends": {
+    "packetfixer": ">=1.1"
   },
   "mixins": [
     "gravelmon.mixins.json"

@@ -38,12 +38,6 @@ versionRange="[1.5.0,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gravelmon]]
-modId="packetfixer"
-mandatory=true
-versionRange="[1.1,)"
-ordering="NONE"
-side="BOTH"
-[[dependencies.gravelmon]]
 modId = "architectury"
 type = "required"
 versionRange = "[13.0.8,)"

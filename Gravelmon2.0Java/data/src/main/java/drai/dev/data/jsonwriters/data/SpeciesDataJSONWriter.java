@@ -87,6 +87,10 @@ public class SpeciesDataJSONWriter {
         fileContents.add("eggGroups", getEggGroups(abstractPokemon));
         fileContents.add("drops", getDrops(abstractPokemon.getDropAmount(), abstractPokemon.getDrops()));
         fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
+        var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA, FERRAN));
+        if(!Collections.disjoint(abstractPokemon.getLabels(), instagramLabels)){
+            abstractPokemon.getLabels().add(INSTAGRAM);
+        }
         fileContents.add("labels", getLabels(abstractPokemon.getLabels()));
         fileContents.add("pokedex", getPokedexEntries(abstractPokemon.getDexEntries(), abstractPokemon.getCleanName()));
         fileContents.addProperty("height", abstractPokemon.getHeight());
@@ -142,11 +146,9 @@ public class SpeciesDataJSONWriter {
 
     private static JsonElement getLabels(List<Label> labelList) {
         var labels = new JsonArray();
+
         labelList.forEach(label -> labels.add(label.getName()));
-        var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA));
-        if(!Collections.disjoint(labelList, instagramLabels)){
-            labels.add(INSTAGRAM.getName());
-        }
+
         return labels;
     }
 

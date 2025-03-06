@@ -14,4 +14,13 @@ public class GravelmonUtils {
         }
         return original;
     }
+
+    public static boolean isParsableAsInt(String str) {
+        try {
+            Integer.parseInt(str);
+            return true; // If parsing is successful, return true
+        } catch (NumberFormatException e) {
+            return false; // If an exception is thrown, return false
+        }
+    }
 }

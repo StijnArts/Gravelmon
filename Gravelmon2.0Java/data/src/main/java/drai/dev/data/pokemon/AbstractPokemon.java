@@ -2,6 +2,7 @@ package drai.dev.data.pokemon;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -528,5 +529,21 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         var types = new ArrayList<>(List.of(primaryType));
         if(secondaryType!=null) types.add(secondaryType);
         return types;
+    }
+
+    public List<MoveLearnSetEntry> getLevelUpMoves(){
+        return learnSet.stream().filter(moveLearnSetEntry -> GravelmonUtils.isParsableAsInt(moveLearnSetEntry.getCondition())).toList();
+    }
+
+    public List<MoveLearnSetEntry> getTutorMoves(){
+        return learnSet.stream().filter(moveLearnSetEntry -> moveLearnSetEntry.getCondition().equalsIgnoreCase("tutor")).toList();
+    }
+
+    public List<MoveLearnSetEntry> getTMMoves(){
+        return learnSet.stream().filter(moveLearnSetEntry -> moveLearnSetEntry.getCondition().equalsIgnoreCase("tm")).toList();
+    }
+
+    public List<MoveLearnSetEntry> getEggMoves(){
+        return learnSet.stream().filter(moveLearnSetEntry -> moveLearnSetEntry.getCondition().equalsIgnoreCase("egg")).toList();
     }
 }

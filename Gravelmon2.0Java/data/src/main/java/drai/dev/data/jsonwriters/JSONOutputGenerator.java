@@ -34,6 +34,8 @@ public class JSONOutputGenerator {
         PokeDexWriter.finalizeDexes(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 //        FakemonExcelGenerator.generateExcel(resourcesDir);
+        ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
+        ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
     }
 
     private static void generateJsonFiles(Game game,String resourcesDir) {

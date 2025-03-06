@@ -43,17 +43,15 @@ public class PokemonSpawnData {
 
     @Override
     public String toString() {
-        return "PokemonSpawnData{" +
+        return "PokemonSpawnData[" +
                 "spawnContext=" + spawnContext +
-                ", spawnPool=" + spawnPool +
-                ", minSpawnLevel=" + minSpawnLevel +
-                ", maxSpawnLevel=" + maxSpawnLevel +
-                ", spawnWeight=" + spawnWeight +
-                ", spawnConditions=" + listToString(spawnConditions) +
-                ", spawnAntiConditions=" + listToString(spawnAntiConditions) +
-                ", spawnPresets=" + listToString(spawnPresets) +
-                ", preferredBlocks=" + listToString(preferredBlocks) +
-                '}';
+                ",\nspawnPool=" + spawnPool +
+                ",\nspawnWeight=" + spawnWeight +
+                ",\nspawnConditions=" + listToString(spawnConditions) +
+                ",\nspawnAntiConditions=" + listToString(spawnAntiConditions) +
+                ",\nspawnPresets=" + listToString(spawnPresets) +
+                ",\npreferredBlocks=" + listToString(preferredBlocks) +
+                ']';
     }
 
     public BiomeSpawnCondition getBiomeSpawnCondition(){

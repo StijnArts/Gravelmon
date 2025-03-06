@@ -340,4 +340,9 @@ public class Pokemon extends AbstractPokemon {
             result.getDrops().add(new ItemDrop(evolutionItem, 40, 1, 1));
         }
     }
+
+    public String getSpreadsheetName() {
+        if(isAnAdditionalForm(this)) return getCleanName().toLowerCase().replaceAll(this.getAdditionalAspect().name().toLowerCase(), "");
+        return name;
+    }
 }
