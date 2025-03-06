@@ -25,6 +25,7 @@ public class ExcelExporter {
 
             String modeledPokemonSheetName = "Modeled Pokemon";
             Sheet modeledPokemonSheet = workbook.createSheet(modeledPokemonSheetName);
+            var sortedGames = new ArrayList<>(games).stream().sorted(Comparator.comparing(Game::getCleanName)).toList();
             for (Game game : games) {
                 List<Pokemon> pokemonList = game.getNewPokemon(); // Get Pokémon from the game
                 if(disallowPasswordMon){
@@ -34,7 +35,7 @@ public class ExcelExporter {
                 }
                 if (pokemonList.isEmpty()) continue; // Skip empty games
                 pokemonList = pokemonList.stream().sorted(Comparator.comparingInt(Pokemon::getPokedexNumber)).toList();
-                var sheetName = game.getName();
+                var sheetName = StringUtils.capitalize(game.getName());
                 // Create a new sheet for the game
                 Sheet sheet = workbook.createSheet(sheetName);
                 createSheet(sheet, workbook, sheetName, pokemonList);
@@ -86,7 +87,7 @@ public class ExcelExporter {
 
             //Image
             var imageCell = createNextCell(row, cellCount);
-            imageCell.setCellFormula("Image(\"https://raw.githubusercontent.com/StijnArts/Gravelmon/refs/heads/data/new-imports/Gravelmon2.0Java/common/src/main/resources/assets/cobblemon/textures/pokemon" +
+            imageCell.setCellFormula("Image(\"https://raw.githubusercontent.com/StijnArts/Gravelmon/refs/heads/main/Gravelmon2.0Java/common/src/main/resources/assets/cobblemon/textures/pokemon/" +
                     "/" + pokemon.getGame().getCleanName() + "/" + pokemon.getCleanName() + ".png\")");
 
             // Format stats into a single string
