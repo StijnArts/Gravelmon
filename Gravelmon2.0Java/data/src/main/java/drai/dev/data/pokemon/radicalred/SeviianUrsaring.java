@@ -105,7 +105,6 @@ public class SeviianUrsaring extends Pokemon {
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 55, 0.18, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),

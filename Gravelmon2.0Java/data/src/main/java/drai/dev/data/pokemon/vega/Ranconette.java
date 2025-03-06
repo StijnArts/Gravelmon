@@ -111,8 +111,7 @@ public class Ranconette extends Pokemon {
                 List.of(Label.VEGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 47, 65, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

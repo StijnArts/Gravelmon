@@ -14,6 +14,8 @@ import org.apache.commons.lang3.*;
 import java.io.*;
 import java.nio.file.*;
 
+import static drai.dev.gravelmon.pokemon.attributes.Label.*;
+
 public class SpeciesDataJSONWriter {
     private static String RESOURCES_DIR;
     public static void writeSpecies(Game game, String resourcesDir) {
@@ -141,6 +143,10 @@ public class SpeciesDataJSONWriter {
     private static JsonElement getLabels(List<Label> labelList) {
         var labels = new JsonArray();
         labelList.forEach(label -> labels.add(label.getName()));
+        var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA));
+        if(!Collections.disjoint(labelList, instagramLabels)){
+            labels.add(INSTAGRAM.getName());
+        }
         return labels;
     }
 

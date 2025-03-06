@@ -68,7 +68,8 @@
       ],
       "labels": [
         "fabel",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.fabelianlitwick.desc"
@@ -81,8 +82,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -242,8 +243,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.1875,
+        "height": 2.1875,
         "fixed": false
       }
     },
@@ -342,8 +343,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.5,
+        "height": 2.5,
         "fixed": false
       }
     },
@@ -519,8 +520,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 7.25,
+        "height": 7.25,
         "fixed": false
       }
     }

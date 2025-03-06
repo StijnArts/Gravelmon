@@ -180,8 +180,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.75,
+        "height": 4.75,
         "fixed": false
       }
     },
@@ -349,8 +349,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 9.125,
+        "height": 9.125,
         "fixed": false
       }
     },
@@ -477,8 +477,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.5,
+        "height": 3.5,
         "fixed": false
       }
     },
@@ -493,7 +493,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "tentacool form=relic",
-      "baseScale": 0.3226890756302521,
+      "baseScale": 0.9846153846153847,
       "cannotDynamax": false,
       "abilities": [
         "forewarn"
@@ -605,8 +605,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.420168067226891,
-        "height": 2.420168067226891,
+        "width": 4.875,
+        "height": 4.875,
         "fixed": false
       }
     }

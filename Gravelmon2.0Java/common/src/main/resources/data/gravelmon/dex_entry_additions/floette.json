@@ -18,6 +18,12 @@
       "unlockForms": [
         "Varitasian"
       ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
     }
   ]
 }

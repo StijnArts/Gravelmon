@@ -12,6 +12,12 @@
       "unlockForms": [
         "Vesitan"
       ]
+    },
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
     }
   ]
 }

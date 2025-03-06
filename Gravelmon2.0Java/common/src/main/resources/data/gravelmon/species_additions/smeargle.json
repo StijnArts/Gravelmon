@@ -82,7 +82,8 @@
       ],
       "labels": [
         "fabel",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.fabeliansmeargle.desc"
@@ -95,8 +96,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -165,7 +166,8 @@
       ],
       "labels": [
         "ivris",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.ivrisiansmeargle.desc"
@@ -178,8 +180,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -250,7 +252,8 @@
       ],
       "labels": [
         "form",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formansmeargle.desc"
@@ -263,8 +266,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -530,8 +533,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.5625,
+        "height": 3.5625,
         "fixed": false
       }
     },
@@ -624,8 +627,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     },
@@ -762,8 +765,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.5625,
+        "height": 3.5625,
         "fixed": false
       }
     },
@@ -857,8 +860,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 6.5,
+        "height": 6.5,
         "fixed": false
       }
     }

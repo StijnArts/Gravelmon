@@ -90,7 +90,8 @@
         "form",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formandoduo.desc"
@@ -118,8 +119,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -275,8 +276,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.375,
+        "height": 3.375,
         "fixed": false
       }
     },
@@ -444,8 +445,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.3125,
+        "height": 3.3125,
         "fixed": false
       }
     },
@@ -785,8 +786,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.0,
+        "height": 4.0,
         "fixed": false
       }
     },
@@ -942,8 +943,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.5,
+        "height": 3.5,
         "fixed": false
       }
     }

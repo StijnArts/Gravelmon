@@ -28,6 +28,9 @@
         },
         {
           "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

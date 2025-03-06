@@ -123,6 +123,7 @@ public class Flairees  extends Pokemon {
                 List.of());
 
         this.setBaseScale(1);
+        this.setHitbox(1,1.4);
         
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.33, 1.2, 0));

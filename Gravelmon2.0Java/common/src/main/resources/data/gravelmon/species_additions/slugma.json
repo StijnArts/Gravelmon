@@ -73,7 +73,8 @@
         "form",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formanslugma.desc"
@@ -101,8 +102,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -261,8 +262,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.0625,
+        "height": 2.0625,
         "fixed": false
       }
     },
@@ -450,8 +451,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.25,
+        "height": 2.25,
         "fixed": false
       }
     },
@@ -574,8 +575,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.5,
+        "height": 4.5,
         "fixed": false
       }
     }

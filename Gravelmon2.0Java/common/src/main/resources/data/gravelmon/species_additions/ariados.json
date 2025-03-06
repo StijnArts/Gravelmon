@@ -68,7 +68,8 @@
       ],
       "labels": [
         "fabel",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.fabelianariados.desc"
@@ -81,8 +82,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -156,7 +157,8 @@
         "form",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formanariados.desc"
@@ -169,8 +171,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -312,8 +314,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.6874999999999996,
+        "height": 3.6874999999999996,
         "fixed": false
       }
     },
@@ -476,8 +478,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.1875,
+        "height": 4.1875,
         "fixed": false
       }
     }

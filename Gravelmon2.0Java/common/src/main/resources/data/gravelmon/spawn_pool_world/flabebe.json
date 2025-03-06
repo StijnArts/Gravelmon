@@ -87,6 +87,36 @@
           ]
         }
       }
+    },
+    {
+      "id": "relic_flabebe-01",
+      "pokemon": "flabebe relic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-24",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
     }
   ]
 }

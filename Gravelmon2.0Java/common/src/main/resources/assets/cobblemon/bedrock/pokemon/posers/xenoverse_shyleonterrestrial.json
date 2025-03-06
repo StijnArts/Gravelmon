@@ -17,7 +17,7 @@
       "poseName": "standing",
       "animations": [
         "look",
-        "bedrock(shyleonterrestrial, ground_idle)"
+        "bedrock(shyleon_terrestrial, ground_idle)"
       ],
       "poseTypes": [
         "STAND",

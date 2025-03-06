@@ -55,8 +55,7 @@ public class Oreon extends Pokemon {
                 List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 34, 56, 0.001, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,

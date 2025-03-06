@@ -70,8 +70,7 @@ public class RelicLedyba extends Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN2),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 26, 10.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

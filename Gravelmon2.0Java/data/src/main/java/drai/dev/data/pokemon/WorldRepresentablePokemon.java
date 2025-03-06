@@ -58,6 +58,19 @@ public abstract class WorldRepresentablePokemon {
         if(isModeled()) validate(abstractPokemon, resourcesDir, hasGenderDifferences);
     }
 
+    private void recalculateScales(AbstractPokemon abstractPokemon, double factor) {
+        abstractPokemon.setBaseScale(abstractPokemon.baseScale * factor);
+        double newHitboxWidth = /*Math.min(*/6 / factor/*, 3)*/;
+        double newHitboxHeight =  /*Math.min(*/6 / factor/*, 3)*/;
+        abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
+        var modelSize = getPlaceholderMaxSideSize(abstractPokemon);
+        posingFileData.profileScale = 19.5349 * Math.pow(modelSize, -0.9442);
+        posingFileData.portraitScale = 18.3558 * Math.pow(modelSize, -0.9805);
+        posingFileData.profileCoords.y = 0.2881 * Math.pow(modelSize, 0.2838);
+        posingFileData.portraitCoords.y = 0.3582 * Math.pow(modelSize, 0.2354);
+//        posingFileData.profileCoords.multiply(profileDiff);
+    }
+
     private void validate(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences) {
         //Species File validation
         var modelName = abstractPokemon.getGame().getCleanName()+"_"+abstractPokemon.getCleanName();
@@ -104,21 +117,6 @@ public abstract class WorldRepresentablePokemon {
         if(posingFileData.animationFileName == null || posingFileData.animationFileName.isEmpty()){
             posingFileData.animationFileName = isModeled() ? abstractPokemon.getCleanName() : "cutout";
         }
-    }
-
-    private void recalculateXYZOffsets(double factor) {
-        posingFileData.portraitCoords.divide(factor);
-        posingFileData.profileCoords.divide(factor);
-    }
-
-    private void recalculateScales(AbstractPokemon abstractPokemon, double factor) {
-        abstractPokemon.setBaseScale(abstractPokemon.baseScale * factor);
-        double newHitboxWidth = Math.min(6 * factor, 3);
-        double newHitboxHeight =  Math.min(6 * factor, 3);
-        abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
-        posingFileData.portraitScale *= factor;
-        posingFileData.profileScale *= factor;
-//        recalculateXYZOffsets(factor);//TODO Test
     }
 
     int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {
@@ -191,6 +189,7 @@ public abstract class WorldRepresentablePokemon {
             try {
                 image = ImageIO.read(textureLocation);
             } catch (IOException e) {
+                System.out.println(textureLocation.getAbsolutePath());
                 throw new RuntimeException(e);
             }
         }

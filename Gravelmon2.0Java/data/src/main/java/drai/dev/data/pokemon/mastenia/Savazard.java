@@ -16,7 +16,7 @@ public class Savazard extends drai.dev.data.pokemon.Pokemon {
                         75,
                         70),
                 List.of(Ability.BLAZE), Ability.DRAGONSMAW,
-                0, 0,
+                20, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.87,
                 0, ExperienceGroup.ERRATIC,

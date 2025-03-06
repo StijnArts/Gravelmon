@@ -69,8 +69,7 @@ public class DeltaClamperl extends Pokemon {
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 15, 34, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

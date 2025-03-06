@@ -67,7 +67,8 @@
       ],
       "labels": [
         "form",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formangrimer.desc"
@@ -95,8 +96,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -279,8 +280,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.6874999999999996,
+        "height": 3.6874999999999996,
         "fixed": false
       }
     },
@@ -467,8 +468,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.375,
+        "height": 3.375,
         "fixed": false
       }
     },
@@ -645,8 +646,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.625,
+        "height": 3.625,
         "fixed": false
       }
     },
@@ -831,8 +832,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 5.75,
+        "height": 5.75,
         "fixed": false
       }
     },
@@ -1201,8 +1202,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.3125,
+        "height": 3.3125,
         "fixed": false
       }
     }

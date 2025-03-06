@@ -161,8 +161,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.125,
+        "height": 4.125,
         "fixed": false
       }
     },
@@ -264,8 +264,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.0625,
+        "height": 4.0625,
         "fixed": false
       }
     },
@@ -413,8 +413,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 5.0625,
+        "height": 5.0625,
         "fixed": false
       }
     },
@@ -429,7 +429,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "skiddo form=relic",
-      "baseScale": 0.55,
+      "baseScale": 0.6518518518518519,
       "cannotDynamax": false,
       "abilities": [
         "battlearmor",
@@ -573,8 +573,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 5.0625,
+        "height": 5.0625,
         "fixed": false
       }
     }

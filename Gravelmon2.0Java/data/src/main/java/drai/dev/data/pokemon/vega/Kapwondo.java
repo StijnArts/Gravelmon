@@ -101,8 +101,7 @@ public class Kapwondo extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.SURFACE, SpawnPool.COMMON, 28, 39, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
                 0.4, 0.3,

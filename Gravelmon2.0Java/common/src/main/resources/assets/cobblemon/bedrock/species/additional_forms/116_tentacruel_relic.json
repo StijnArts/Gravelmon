@@ -6,8 +6,8 @@
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon_238_by_186.geo",
-      "poser": "cobblemon:cutout_gravelmon_238_by_186",
+      "model": "cobblemon:cutout_gravelmon_77_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_78",
       "texture": "cobblemon:textures/pokemon/generation1/relictentacruel.png",
       "layers": [
         {
@@ -30,6 +30,9 @@
         },
         {
           "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

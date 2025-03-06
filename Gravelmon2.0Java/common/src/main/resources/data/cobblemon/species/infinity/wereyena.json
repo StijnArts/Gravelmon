@@ -9,7 +9,7 @@
   "eggCycles": 39,
   "baseFriendship": 70,
   "preEvolution": "mightyena",
-  "baseScale": 1.0,
+  "baseScale": 0.9,
   "cannotDynamax": false,
   "abilities": [
     "intimidate",
@@ -198,7 +198,7 @@
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
-    "height": 1.0,
+    "height": 2.0,
     "fixed": false
   },
   "features": [],

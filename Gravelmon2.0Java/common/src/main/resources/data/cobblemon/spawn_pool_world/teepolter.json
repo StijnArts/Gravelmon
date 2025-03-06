@@ -18,9 +18,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "timeRange": "night",
         "minSkyLight": 0,
-        "maxSkyLight": 7,
-        "timeRange": "night"
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

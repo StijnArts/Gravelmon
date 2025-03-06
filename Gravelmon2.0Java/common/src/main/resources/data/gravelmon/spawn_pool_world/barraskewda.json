@@ -16,9 +16,7 @@
         "biomes": [
           "#cobblemon:is_spooky",
           "#cobblemon:is_freshwater"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

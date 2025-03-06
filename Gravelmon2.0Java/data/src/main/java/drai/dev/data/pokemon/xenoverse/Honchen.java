@@ -102,7 +102,7 @@ public class Honchen extends Pokemon {
         this.setCanFly(true);
 
         setBaseScale(1);
-        setHitbox(1,1);
+        setHitbox(1,2);
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData(.88f, new Vector3(-0.4, 0.55, 0));
         getPosingFileData().setProfileData(.51f, new Vector3(0.02, 1.06, 0));

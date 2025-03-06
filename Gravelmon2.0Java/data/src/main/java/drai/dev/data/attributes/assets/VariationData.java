@@ -74,6 +74,9 @@ public class VariationData {
             }
              layerArray.add(value.toJsonObject());
         });
+        var emptyTextureObject = new JsonObject();
+        emptyTextureObject.addProperty("texture", "cobblemon:textures/empty_texture.png");
+        layerArray.add(emptyTextureObject);
         jsonObject.add("layers", layerArray);
         return jsonObject;
     }

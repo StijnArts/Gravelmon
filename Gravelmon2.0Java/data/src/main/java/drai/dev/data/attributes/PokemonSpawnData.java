@@ -37,7 +37,7 @@ public class PokemonSpawnData {
 
     public static List<PokemonSpawnData> placeholder() {
         return new ArrayList<>(java.util.List.of(new PokemonSpawnData(SpawnContext.GROUNDED, SpawnPool.COMMON, 1,
-                1, 0, new ArrayList<>(), new ArrayList<>(),
+                1, 0, new ArrayList<>(List.of(new BiomeSpawnCondition(List.of(Biome.IS_VOID)))), new ArrayList<>(),
                 new ArrayList<>(), new ArrayList<>())));
     }
 

@@ -183,8 +183,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.1875,
+        "height": 3.1875,
         "fixed": false
       }
     },
@@ -419,8 +419,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.6875,
+        "height": 2.6875,
         "fixed": false
       }
     },
@@ -617,8 +617,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 7.625,
+        "height": 7.625,
         "fixed": false
       }
     }

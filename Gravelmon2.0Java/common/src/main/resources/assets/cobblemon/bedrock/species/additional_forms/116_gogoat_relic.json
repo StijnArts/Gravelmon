@@ -6,8 +6,8 @@
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon_78_by_96.geo",
-      "poser": "cobblemon:cutout_gravelmon_78_by_96",
+      "model": "cobblemon:cutout_gravelmon_72_by_81.geo",
+      "poser": "cobblemon:cutout_gravelmon_72_by_81",
       "texture": "cobblemon:textures/pokemon/generation6/relicgogoat.png",
       "layers": [
         {
@@ -30,6 +30,9 @@
         },
         {
           "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

@@ -68,7 +68,8 @@
       ],
       "labels": [
         "elb",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.elbianvigoroth.desc"
@@ -81,8 +82,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -166,8 +167,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -337,8 +338,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.125,
+        "height": 4.125,
         "fixed": false
       }
     },
@@ -500,8 +501,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.1875,
+        "height": 4.1875,
         "fixed": false
       }
     }

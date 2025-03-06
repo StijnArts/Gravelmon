@@ -148,11 +148,11 @@ public class Wereyena extends Pokemon {
         addAdditionalEvolution("mightyena", new EvolutionEntry("wereyena", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:moon_stone"));
 
-        setBaseScale(1);
-        setHitbox(1,1);
+        setBaseScale(.9);
+        setHitbox(1,2);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(1f, new Vector3(-.57, 1.64, 0));
+        getPosingFileData().setProfileData(.52f, new Vector3(-0.06, 1.04, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose().withLook()

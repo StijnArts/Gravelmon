@@ -17,7 +17,7 @@
       "poseName": "standing",
       "animations": [
         "look",
-        "bedrock(trishoutterrestrial, ground_idle)"
+        "bedrock(trishout_terrestrial, ground_idle)"
       ],
       "poseTypes": [
         "STAND",
@@ -38,7 +38,7 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(trishoutterrestrial, blink)"
+            "bedrock(trishout_terrestrial, blink)"
           ],
           "name": "blink"
         }

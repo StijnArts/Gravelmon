@@ -68,7 +68,6 @@ public class Eecroach extends Pokemon {
                         0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 12, 34, 0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),

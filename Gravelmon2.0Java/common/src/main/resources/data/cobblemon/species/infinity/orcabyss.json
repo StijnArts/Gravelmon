@@ -8,7 +8,7 @@
   "eggCycles": 62,
   "baseFriendship": 70,
   "preEvolution": "whave",
-  "baseScale": 1.0,
+  "baseScale": 1.7,
   "cannotDynamax": false,
   "abilities": [
     "pressure",
@@ -172,8 +172,8 @@
   "nationalPokedexNumber": 1296,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.0,
+    "width": 1.6,
+    "height": 1.7,
     "fixed": false
   },
   "features": [],

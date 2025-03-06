@@ -159,8 +159,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.5625,
+        "height": 4.5625,
         "fixed": false
       }
     },
@@ -374,8 +374,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 11.5,
+        "height": 11.5,
         "fixed": false
       }
     },
@@ -389,7 +389,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "aipom form=relic",
-      "baseScale": 0.15135135135135136,
+      "baseScale": 0.3054545454545454,
       "cannotDynamax": false,
       "abilities": [
         "scrappy",
@@ -526,8 +526,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5945945945945947,
-        "height": 2.5945945945945947,
+        "width": 6.875,
+        "height": 6.875,
         "fixed": false
       }
     },
@@ -688,8 +688,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }

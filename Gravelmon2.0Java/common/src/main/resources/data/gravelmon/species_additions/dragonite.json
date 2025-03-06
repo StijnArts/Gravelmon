@@ -70,7 +70,8 @@
       ],
       "labels": [
         "raian",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.raianiandragonite.desc"
@@ -83,8 +84,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -157,7 +158,8 @@
       ],
       "labels": [
         "raian",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.raianiandragoniteone.desc"
@@ -170,8 +172,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -330,8 +332,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 5.125,
+        "height": 5.125,
         "fixed": false
       }
     },
@@ -534,8 +536,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 10.0,
+        "height": 10.0,
         "fixed": false
       }
     },
@@ -714,8 +716,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 5.4375,
+        "height": 5.4375,
         "fixed": false
       }
     }

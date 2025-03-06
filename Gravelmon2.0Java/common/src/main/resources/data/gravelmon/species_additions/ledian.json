@@ -87,7 +87,8 @@
         "form",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formanledian.desc"
@@ -115,8 +116,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -264,8 +265,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.4375,
+        "height": 3.4375,
         "fixed": false
       }
     },
@@ -372,8 +373,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     },
@@ -388,7 +389,7 @@
       "eggCycles": 51,
       "baseFriendship": 70,
       "preEvolution": "ledyba form=relic",
-      "baseScale": 0.11671732522796352,
+      "baseScale": 0.48607594936708864,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",
@@ -503,8 +504,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.7507598784194527,
-        "height": 1.7507598784194527,
+        "width": 4.9375,
+        "height": 4.9375,
         "fixed": false
       }
     }

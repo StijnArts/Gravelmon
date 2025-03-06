@@ -4,10 +4,9 @@
   "package": "drai.dev.gravelmon.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "CobblemonItemsMixin",
     "CobblemonPlacedFeaturesMixin",
     "PokeBallMixin",
-    "PokeBallsMixin"
+    "PokeBallsAccessor"
   ],
   "client": [
   ],

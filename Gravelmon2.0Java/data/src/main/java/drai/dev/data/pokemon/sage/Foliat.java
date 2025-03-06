@@ -102,6 +102,7 @@ public class Foliat extends Pokemon {
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);
         this.setBaseScale(0.9);
+        this.setHitbox(1,1);
         
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 2.5f, new Vector3(.1, -1.1, 0));

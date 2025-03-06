@@ -84,7 +84,8 @@
       ],
       "labels": [
         "form",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.formanledyba.desc"
@@ -112,8 +113,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -278,8 +279,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.8125,
+        "height": 2.8125,
         "fixed": false
       }
     },
@@ -293,7 +294,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.10666666666666667,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
         "ironfist",

@@ -8,7 +8,7 @@
   "eggCycles": 35,
   "baseFriendship": 70,
   "preEvolution": "eevee",
-  "baseScale": 0.31111111111111106,
+  "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -118,7 +118,6 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled",
     "eeveelution",
     "fakemonevolution"
   ],
@@ -132,8 +131,8 @@
   "nationalPokedexNumber": 2044,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

@@ -50,7 +50,8 @@
             "bedrock(oculeus, blink7)",
             "bedrock(oculeus, blink8)",
             "bedrock(oculeus, blink9)",
-            "bedrock(oculeus, blink10)"
+            "bedrock(oculeus, blink10)",
+            "bedrock(oculeus, blink11)"
           ],
           "name": "blink"
         }

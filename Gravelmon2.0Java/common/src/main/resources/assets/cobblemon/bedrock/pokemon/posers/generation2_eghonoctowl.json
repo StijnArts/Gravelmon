@@ -24,7 +24,7 @@
         "STAND",
         "WALK",
         "SLEEP",
-        "HOVER",
+        "FLOAT",
         "SWIM",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
@@ -43,15 +43,15 @@
         }
       ]
     },
-    "floating": {
-      "poseName": "floating",
+    "hovering": {
+      "poseName": "hovering",
       "animations": [
         "look",
         "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
-        "bedrock(eghonoctowl, water_idle)"
+        "bedrock(eghonoctowl, air_idle)"
       ],
       "poseTypes": [
-        "FLOAT",
+        "HOVER",
         "FLY"
       ],
       "transformTicks": 10,

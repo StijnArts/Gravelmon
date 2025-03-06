@@ -1,5 +1,6 @@
 package drai.dev.data.games.original;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.arom.regional.*;
@@ -23,6 +24,8 @@ import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 public class GenerationSix extends Game {
     public GenerationSix() {
@@ -117,6 +120,11 @@ public class GenerationSix extends Game {
 
 //        addNewPokemon(new AristosianLitleo(667)); Missing Art
 
+        //Phoenix Rising
+        addNewPokemon(new RelicFlabebe("", Aspect.RELIC));
+        addNewPokemon(new RelicFloette("", Aspect.RELIC));
+        addNewPokemon(new RelicFlorges("", Aspect.RELIC, new Stats(552, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK, StatType.SPECIAL_DEFENCE, StatType.SPECIAL_ATTACK, StatType.SPEED))));
 
         //Pokemon Insurgance
         addNewPokemon(new DeltaFroakie("Froakie", Aspect.DELTA));

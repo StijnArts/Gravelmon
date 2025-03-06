@@ -8,9 +8,9 @@ import java.util.stream.*;
 
 public class PosingFileData {
     public String animationFileName;
-    public double profileScale = .22;
+    public double profileScale = .26;
     public double portraitScale = .205;
-    public Vector3 profileCoords = new Vector3(0.0, 1.8, 0.0);
+    public Vector3 profileCoords = new Vector3(0.0, 1.46, 0.0);
     public Vector3 portraitCoords = new Vector3(0.09, 1.25999, 0.0);
     public List<AnimationData> animations = new ArrayList<>();
     private String faint;

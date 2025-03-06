@@ -68,7 +68,8 @@
       ],
       "labels": [
         "mahal",
-        "not_modeled"
+        "not_modeled",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.mahalianraichu.desc"
@@ -81,8 +82,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -155,7 +156,8 @@
         "raian",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram"
       ],
       "pokedex": [
         "cobblemon.species.norseraichu.desc"
@@ -168,8 +170,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.125,
-        "height": 1.125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -329,8 +331,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.1875,
+        "height": 4.1875,
         "fixed": false
       }
     },
@@ -507,8 +509,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.691588785046729,
-        "height": 2.691588785046729,
+        "width": 13.375,
+        "height": 13.375,
         "fixed": false
       }
     },
@@ -638,8 +640,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.8,
-        "height": 1.5,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     }

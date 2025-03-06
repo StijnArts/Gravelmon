@@ -93,7 +93,6 @@ public class EghoNoctowl extends Pokemon {
                         new ItemDrop("minecraft:feather",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 43, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -111,7 +110,7 @@ public class EghoNoctowl extends Pokemon {
         getPosingFileData().setProfileData( .7f, new Vector3(0.0, .6825, -20.0));
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withBlink().markAsBackupPose(),
-                AnimationData.floatingAnimation().withLook()
+                AnimationData.hoveringAnimation().withLook()
                         .addAnimation(1,"q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')")
                         .withBlink().addPoseType(PoseType.FLY)
         ));

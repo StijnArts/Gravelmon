@@ -110,6 +110,8 @@ public class Pyroat  extends Pokemon {
                 0.9, 0.7,
                 List.of());
         this.setBaseScale(0.9);
+        this.setHitbox(1,1);
+        this.setHitbox(1,1.4);
 
         
         getSpeciesFileData().addBasicVariation(this);

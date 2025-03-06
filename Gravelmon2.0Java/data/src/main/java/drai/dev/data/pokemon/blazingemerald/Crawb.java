@@ -37,8 +37,8 @@ public class Crawb extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(1.92f, new Vector3(0.03, -1.56, 0));
+        getPosingFileData().setProfileData(.93f, new Vector3(-0.07, -0.03, 0));
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose()
         ));

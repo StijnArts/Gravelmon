@@ -68,11 +68,11 @@ public class Drilladin extends Pokemon {
         addAdditionalEvolution("kakuna", new EvolutionEntry("drilladin", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));
 
-        setBaseScale(1);
+        setBaseScale(.6);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(1.84f, new Vector3(-.23, 0.69, 0));
+        getPosingFileData().setProfileData(.58f, new Vector3(-.12, 0.9, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose().withLook()

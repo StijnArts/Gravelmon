@@ -121,7 +121,6 @@ public class AyreianJynx extends drai.dev.data.pokemon.Pokemon {
 
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 53, 1.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

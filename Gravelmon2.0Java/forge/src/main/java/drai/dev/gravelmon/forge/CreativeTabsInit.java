@@ -210,7 +210,6 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.accept(GravelmonItems.HAFLI_BERRY.get().asItem().getDefaultInstance());
         }
 
         if(event.getTab() == CobblemonItemGroups.getUTILITY_ITEMS()) {

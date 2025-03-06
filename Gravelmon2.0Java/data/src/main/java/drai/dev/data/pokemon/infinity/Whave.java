@@ -128,8 +128,8 @@ public class Whave extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(1.84f, new Vector3(-0.5, -1.25, 0));
+        getPosingFileData().setProfileData(.68f, new Vector3(.2, 0.5, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withBlink().withCry(),

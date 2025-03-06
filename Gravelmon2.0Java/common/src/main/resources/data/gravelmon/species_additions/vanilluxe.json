@@ -134,8 +134,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.75,
+        "height": 4.75,
         "fixed": false
       }
     },
@@ -283,8 +283,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.9375,
+        "height": 4.9375,
         "fixed": false
       }
     },
@@ -438,8 +438,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.3125,
+        "height": 4.3125,
         "fixed": false
       }
     },
@@ -579,8 +579,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.5625,
+        "height": 4.5625,
         "fixed": false
       }
     }

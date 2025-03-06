@@ -496,6 +496,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public void setBaseScale(double scale) {
         this.baseScale = scale;
+        this.setHitbox(1,1);
         if(this instanceof Pokemon pokemon) {
             pokemon.getForms().forEach(forms -> forms.setBaseScale(scale));
         }

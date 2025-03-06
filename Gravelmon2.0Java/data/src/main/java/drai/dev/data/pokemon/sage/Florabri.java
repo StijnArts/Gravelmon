@@ -106,6 +106,7 @@ public class Florabri extends Pokemon {
         this.setCanFly(true);
 
         this.setBaseScale(0.9);
+        this.setHitbox(1,1);
 
         
         getSpeciesFileData().addBasicVariation(this);

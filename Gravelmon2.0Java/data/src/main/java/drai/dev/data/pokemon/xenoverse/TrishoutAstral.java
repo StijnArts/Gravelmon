@@ -96,7 +96,7 @@ public class TrishoutAstral extends Pokemon {
         this.setLangFileName("Trishout");
 
         setBaseScale(1);
-        setHitbox(1,1);
+        setHitbox(1,2);
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData(1.45f, new Vector3(-0.38, 2.88, 0));
         getPosingFileData().setProfileData(.44f, new Vector3(0, 1.1, 0));

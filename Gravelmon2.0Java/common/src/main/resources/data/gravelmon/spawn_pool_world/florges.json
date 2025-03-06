@@ -60,6 +60,36 @@
           ]
         }
       }
+    },
+    {
+      "id": "relic_florges-01",
+      "pokemon": "florges relic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-54",
+      "weight": 0.44999999999999996,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
     }
   ]
 }

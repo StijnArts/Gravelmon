@@ -39,8 +39,7 @@ public class Slamb extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ENJIN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 41, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

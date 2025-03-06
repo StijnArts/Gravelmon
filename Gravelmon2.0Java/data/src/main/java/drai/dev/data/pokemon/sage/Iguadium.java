@@ -135,6 +135,7 @@ public class Iguadium extends Pokemon {
                 List.of());
         this.setCanSwim(true);
         this.setBaseScale(0.7);
+        this.setHitbox(1,1.4);
 
         
         getSpeciesFileData().addBasicVariation(this);

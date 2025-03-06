@@ -11,6 +11,11 @@
       "bucket": "common",
       "level": "1-1",
       "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -28,6 +33,11 @@
       "bucket": "common",
       "level": "1-1",
       "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -45,6 +55,11 @@
       "bucket": "common",
       "level": "1-1",
       "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -62,6 +77,11 @@
       "bucket": "common",
       "level": "1-1",
       "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
@@ -79,6 +99,11 @@
       "bucket": "common",
       "level": "1-1",
       "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {

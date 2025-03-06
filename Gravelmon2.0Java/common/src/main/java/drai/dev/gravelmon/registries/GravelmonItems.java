@@ -6,6 +6,7 @@ import com.cobblemon.mod.common.pokemon.helditem.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.items.apricorn.*;
+import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelsextendedbattles.loot.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.resources.*;
@@ -166,9 +167,10 @@ public class GravelmonItems {
         return item;
     }
 
-    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, PokeBall pokeBall) {
+    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, GravelmonPokeBall pokeBall) {
         var item = ITEMS.register(name, () -> new PokeBallItem(pokeBall));
         POKE_BALLS.add(item);
+        pokeBall.setPokeBallItem(item);
         return item;
     }
 

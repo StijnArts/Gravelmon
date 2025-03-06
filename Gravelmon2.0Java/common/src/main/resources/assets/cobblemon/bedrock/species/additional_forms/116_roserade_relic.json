@@ -6,8 +6,8 @@
       "aspects": [
         "relic"
       ],
-      "model": "cobblemon:cutout_gravelmon_247_by_222.geo",
-      "poser": "cobblemon:cutout_gravelmon_247_by_222",
+      "model": "cobblemon:cutout_gravelmon_73_by_61.geo",
+      "poser": "cobblemon:cutout_gravelmon_73_by_61",
       "texture": "cobblemon:textures/pokemon/generation4/relicroserade.png",
       "layers": [
         {
@@ -30,6 +30,9 @@
         },
         {
           "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

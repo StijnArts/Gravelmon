@@ -2,13 +2,13 @@ package drai.dev.gravelmon;
 
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.events.*;
+import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import drai.dev.gravelsextendedbattles.resorting.*;
 import kotlin.*;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.*;
 import org.apache.logging.log4j.*;
 
 import java.util.*;
@@ -24,6 +24,7 @@ public class Gravelmon
 	public static void init() {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();
+		GravelmonPokeballs.touch();
 		GravelmonBlocks.BLOCKS.register();
 		GravelmonItems.ITEMS.register();
 		CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.HIGH, battleStartedPreEvent -> {

@@ -110,7 +110,7 @@
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,
-    "height": 1.0,
+    "height": 1.5,
     "fixed": false
   },
   "features": [],

@@ -1261,8 +1261,7 @@ public class Masgot extends Pokemon {
                         List.of(Label.XENOVERSE),
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                         List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3

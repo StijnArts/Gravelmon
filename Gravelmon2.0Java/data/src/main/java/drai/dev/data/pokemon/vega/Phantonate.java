@@ -114,8 +114,7 @@ public class Phantonate extends Pokemon {
                 List.of(Label.VEGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 54, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,

@@ -129,11 +129,11 @@ public class Orcabyss extends Pokemon {
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
 
-        setBaseScale(1);
-        setHitbox(1,1);
+        setBaseScale(1.7);
+        setHitbox(1.6,1.7);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(1.09f, new Vector3(-.45, -0.35, 0));
+        getPosingFileData().setProfileData(.57f, new Vector3(.05, 0.5, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose()

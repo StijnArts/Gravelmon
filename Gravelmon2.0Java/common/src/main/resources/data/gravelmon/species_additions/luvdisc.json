@@ -14,20 +14,6 @@
         }
       ],
       "permanent": true
-    },
-    {
-      "id": "luvdisc_delfine",
-      "variant": "level_up",
-      "result": "delfine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "220"
-        }
-      ],
-      "permanent": true
     }
   ],
   "forms": [
@@ -142,8 +128,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.0625,
+        "height": 2.0625,
         "fixed": false
       }
     },
@@ -303,8 +289,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 2.25,
+        "height": 2.25,
         "fixed": false
       }
     }

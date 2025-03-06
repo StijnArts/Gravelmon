@@ -101,6 +101,7 @@ public class Trishout extends Pokemon {
 
         
         this.setBaseScale(0.9);
+        setHitbox(1,1);
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 3.6f, new Vector3(0.2, -2.4, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));

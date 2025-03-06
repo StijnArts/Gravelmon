@@ -44,8 +44,7 @@ public class CefiranVenomoth extends Pokemon {
                 List.of(Label.OPAL, Label.GEN1),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 45, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

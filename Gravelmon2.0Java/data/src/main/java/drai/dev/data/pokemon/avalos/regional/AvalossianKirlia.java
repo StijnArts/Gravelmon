@@ -119,8 +119,7 @@ public class AvalossianKirlia extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.AVALOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 20, 29, .9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

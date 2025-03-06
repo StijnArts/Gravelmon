@@ -45,6 +45,9 @@
           "emissive": true,
           "translucent": true,
           "texture": "cobblemon:textures/pokemon/generation1/deltacharmander/deltacharmander_emissive.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     },
@@ -92,6 +95,9 @@
           "emissive": true,
           "translucent": true,
           "texture": "cobblemon:textures/pokemon/generation1/deltacharmander/deltacharmander_emissive_shiny.png"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
     }

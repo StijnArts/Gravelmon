@@ -26,5 +26,8 @@
     "cobblemon": ">=1.5.1",
     "architectury": ">=9.1",
     "gravels_extended_battles": ">=1.4"
-  }
+  },
+  "mixins": [
+    "gravelmon.mixins.json"
+  ]
 }

@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:wartortle",
-  "evolutions": [
-    {
-      "id": "wartortle_boltoise",
-      "variant": "level_up",
-      "result": "boltoise",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_cold_ocean"
-        },
-        {
-          "variant": "level",
-          "minLevel": "36"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Egho",
@@ -596,8 +576,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.5,
+        "height": 4.5,
         "fixed": false
       }
     }

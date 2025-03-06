@@ -120,7 +120,6 @@ new EvolutionEntry("epochfroslass", EvolutionType.ITEM_INTERACT, false, List.of(
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 4.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

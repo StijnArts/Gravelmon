@@ -182,8 +182,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.3125,
+        "height": 4.3125,
         "fixed": false
       }
     },
@@ -292,8 +292,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 4.0,
+        "height": 4.0,
         "fixed": false
       }
     },
@@ -444,8 +444,175 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 3.875,
+        "height": 3.875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Relic",
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "catchRate": 40,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 131,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "flabebe form=relic",
+      "baseScale": 0.21428571428571427,
+      "cannotDynamax": false,
+      "abilities": [
+        "competitive",
+        "cutecharm",
+        "h:harvest"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 49,
+        "attack": 45,
+        "defence": 79,
+        "special_attack": 110,
+        "special_defence": 58,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:growl",
+        "4:confide",
+        "6:fairywind",
+        "9:flash",
+        "14:shadowsneak",
+        "19:echoedvoice",
+        "23:confuseray",
+        "26:ominouswind",
+        "29:spite",
+        "35:drainingkiss",
+        "41:shadowball",
+        "48:psychic",
+        "52:moonblast",
+        "57:lovelykiss",
+        "61:calmmind",
+        "65:destinybond",
+        "tm:workup",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgebomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:willowisp",
+        "tm:shadowclaw",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:snarl",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:confide",
+        "tm:endeavor",
+        "tm:healbell",
+        "tm:hypervoice",
+        "tm:magiccoat",
+        "tm:painsplit",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:snatch",
+        "tm:trick",
+        "tm:amnesia",
+        "tm:captivate",
+        "tm:copycat",
+        "tm:cosmicpower",
+        "tm:disable",
+        "tm:hex",
+        "tm:luckychant"
+      ],
+      "labels": [
+        "phoenix_rising",
+        "gen6",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.relicfloette.desc"
+      ],
+      "height": 5,
+      "weight": 14,
+      "aspects": [
+        "relic"
+      ],
+      "evolutions": [
+        {
+          "id": "relicfloette_florges_relic",
+          "variant": "item_interact",
+          "result": "florges relic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
         "fixed": false
       }
     }
@@ -453,6 +620,7 @@
   "features": [
     "epoch",
     "vesitan",
-    "varitasian"
+    "varitasian",
+    "relic"
   ]
 }
