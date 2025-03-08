@@ -34,14 +34,7 @@
         "NONE"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(deltaweezing, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     },
     "walking": {
       "poseName": "walking",
@@ -53,14 +46,7 @@
         "WALK"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(deltaweezing, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     }
   }
 }
