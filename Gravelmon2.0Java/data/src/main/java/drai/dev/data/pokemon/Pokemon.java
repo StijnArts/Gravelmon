@@ -163,12 +163,13 @@ public class Pokemon extends AbstractPokemon {
         return map.entrySet().stream().filter(entry -> entry.getValue().contains(value)).map(Map.Entry::getKey).collect(Collectors.toSet());
     }
 
-    protected static void addAdditionalEvolution(String from, EvolutionEntry evolutionEntry) {
+    protected void addAdditionalEvolution(String from, EvolutionEntry evolutionEntry) {
         if (from.contains(" ")) {
             return;
         }
         var forms = ADDITIONAL_EVOLUTIONS.computeIfAbsent(from, k -> new ArrayList<>());
         forms.add(evolutionEntry);
+        this.additionalEvolutions.computeIfAbsent(from, k -> new ArrayList<>()).add(evolutionEntry);
     }
 
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
@@ -341,8 +342,11 @@ public class Pokemon extends AbstractPokemon {
         }
     }
 
-    public String getSpreadsheetName() {
-        if(isAnAdditionalForm(this)) return getCleanName().toLowerCase().replaceAll(this.getAdditionalAspect().name().toLowerCase(), "");
-        return name;
+    public List<String> getEvolutionsForPrint() {
+        var strings = new ArrayList<String>(this.getEvolutions().stream().map(EvolutionEntry::toString).toList());
+        additionalEvolutions.forEach((key, value)-> value.forEach(evolutionEntry -> {
+            strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + key));
+        }));
+        return strings;
     }
 }

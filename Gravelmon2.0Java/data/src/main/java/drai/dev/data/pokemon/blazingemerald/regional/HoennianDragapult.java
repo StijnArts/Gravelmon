@@ -85,15 +85,17 @@ public class HoennianDragapult extends Pokemon {
         
         setBaseScale(0.8);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation(this).addLayer(
+                new SimpleTextureLayerData("emmisive", "dragapult_fire",
+                        Optional.of(true), Optional.of(false), false, true)
+        );;
         getPosingFileData().setAnimationFileName("hoenniandragapult");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 1, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withBlink(3).addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
-                AnimationData.walkingAnimation().withBlink(3).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
-                AnimationData.sleepingAnimation()
+                AnimationData.walkingAnimation().withBlink(3).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
         ));
         getPosingFileData().setCry("q.bedrock_stateful('hoenniandragapult', 'cry')");
         getPosingFileData().setFaint("q.bedrock_primary('hoenniandragapult', 'faint', q.curve('one'))");

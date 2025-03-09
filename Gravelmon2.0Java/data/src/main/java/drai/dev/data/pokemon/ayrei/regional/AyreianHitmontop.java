@@ -163,7 +163,7 @@ public class AyreianHitmontop extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Hitmontop");
            setPreEvolution("tyrogue");
-        Pokemon.addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmontop ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+        addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmontop ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:shiny_stone") );
     }
 

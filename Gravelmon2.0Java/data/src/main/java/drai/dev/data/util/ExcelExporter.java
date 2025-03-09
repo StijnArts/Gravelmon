@@ -116,8 +116,9 @@ public class ExcelExporter {
                     StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
 
             // Evolution (handling null values)
-            createNextCell(row, cellCount).setCellValue(pokemon.getEvolutions().isEmpty() ? "" :
-                    String.join(",\n",  pokemon.getEvolutions().stream().map(EvolutionEntry::toString).toList()));
+            List<String> evolutionsForPrint = pokemon.getEvolutionsForPrint();
+            createNextCell(row, cellCount).setCellValue(evolutionsForPrint.isEmpty() ? "" :
+                    String.join(",\n",  evolutionsForPrint));
 
             // Spawn Conditions (handling null values)
             createNextCell(row, cellCount).setCellValue(pokemon.getSpawnData().isEmpty() ? "" :

@@ -82,7 +82,7 @@ public class HoennianDreepy extends Pokemon {
         getSpeciesFileData()
                 .addBasicVariation(this)
                 .addLayer(
-                        new AnimatedLayerData("flame", List.of("dreepy_flame0_emissive", "dreepy_flame1_emissive"), 4,
+                        new AnimatedLayerData("flame", List.of("flame1", "flame2"), 4,
                                 true, Optional.of(true), Optional.of(false), false, true)
                 );
         getPosingFileData().setAnimationFileName("hoenniandreepy");

@@ -92,8 +92,7 @@ public class HoennianDrakloak extends Pokemon {
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withBlink(2).addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),
-                AnimationData.walkingAnimation().withBlink(2).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY),
-                AnimationData.sleepingAnimation()
+                AnimationData.walkingAnimation().withBlink(2).addPoseType(PoseType.SWIM).addPoseType(PoseType.FLY)
         ));
         getPosingFileData().setCry("q.bedrock_stateful('hoenniandrakloak', 'cry')");
     }

@@ -4,6 +4,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import joptsimple.internal.*;
 
 import java.util.*;
 
@@ -65,6 +66,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean avoidsLand = false;
     protected double hitboxWidth = 1.0;
     protected double hitboxHeight = 1.0;
+    public Map<String, List<EvolutionEntry>> additionalEvolutions = new HashMap<>();
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,

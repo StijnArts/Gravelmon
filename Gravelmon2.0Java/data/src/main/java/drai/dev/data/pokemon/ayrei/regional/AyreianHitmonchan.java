@@ -116,7 +116,7 @@ public class AyreianHitmonchan extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Hitmonchan");
         setPreEvolution("tyrogue");
-        Pokemon.addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonchan ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+        addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonchan ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dusk_stone") );
 
     }

@@ -165,7 +165,7 @@ public class AyreianHitmonlee extends drai.dev.data.pokemon.Pokemon {
                 List.of());
            setLangFileName("Hitmonlee");
         setPreEvolution("tyrogue");
-        Pokemon.addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonlee ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
+        addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonlee ayreian", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dawn_stone") );
 
     }
