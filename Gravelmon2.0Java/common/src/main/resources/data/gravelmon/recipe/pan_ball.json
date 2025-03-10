@@ -7,24 +7,24 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:black_apricorn"
+            "item": "cobblemon:yellow_apricorn"
         },
         "l": {
-            "item": "gravelmon:orange_apricorn"
+            "item": "cobblemon:pink_apricorn"
         },
         "c": {
-            "item": "minecraft:iron_ingot"
+            "item": "minecraft:gold_ingot"
         },
         "r": {
-            "item": "gravelmon:orange_apricorn"
+            "item": "cobblemon:blue_apricorn"
         },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "item": "cobblemon:yellow_apricorn"
         }
     },
     "result":
     {
-        "id": "cobblemon:level_ball",
+        "id": "gravelmon:pan_ball",
         "count": 4
     }
 }

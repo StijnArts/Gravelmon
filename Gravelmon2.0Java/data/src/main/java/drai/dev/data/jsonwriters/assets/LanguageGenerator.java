@@ -18,6 +18,11 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("block.gravelmon.deepslate_solid_stone_ore","Deepslate Solid Stone Ore");
         LangJSONWriter.writeTranslationKey("block.gravelmon.mystic_stone_ore","Mystic Stone Ore");
         LangJSONWriter.writeTranslationKey("block.gravelmon.deepslate_mystic_stone_ore","Deepslate Mystic Stone Ore");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.astral_stone_block","Astral Stone Block");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.mystic_stone_block","Mystic Stone Block");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.solid_stone_block","Solid Stone Block");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.varia_stone_block","Varia Stone Block");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.air_stone_block","Air Stone Block");
 
         //evolution items
         LangJSONWriter.writeTranslationKey("item.gravelmon.astral_stone","Astral Stone");
@@ -65,8 +70,11 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.moss_shard","Moss Shard");
         LangJSONWriter.writeTranslationKey("item.gravelmon.pretty_ribbon","Pretty Ribbon");
         LangJSONWriter.writeTranslationKey("item.gravelmon.dark_rock","Dark Rock");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.spare_parts","Spare Parts");
         LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn","Orange Apricorn");
         LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn","Purple Apricorn");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn_sapling","Purple Apricorn Sprout");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn_sapling","Orange Apricorn Sprout");
 
         LangJSONWriter.writeTranslationKey("item.gravelmon.mauve_ball","Mauve Ball");
         LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_ball","Ancient Ball");
@@ -104,6 +112,12 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.nuclear_ball","Nuclear Ball");
         LangJSONWriter.writeTranslationKey("item.gravelmon.atom_ball","Atom Ball");
         LangJSONWriter.writeTranslationKey("item.gravelmon.delta_ball","Delta Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.gen2_lure_ball","Gen 2 Lure Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.gs_ball","GS Ball");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.typing_ball","Typing Ball");
+
+        addTooltips();
+
         Gravelmon.FOSSIL_MAP.keySet().forEach(fossil->{
             LangJSONWriter.writeTranslationKey("item.gravelmon."+fossil, StringUtils.capitalize(fossil.replaceAll("_"," ")));
         });
@@ -150,5 +164,48 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.norheim","Norheim");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.oceane","Oceane");
         LangJSONWriter.writeTranslationKey("cobblemon.species.eppv11.name","EPP_v1.1");
+    }
+
+    private static void addTooltips() {
+    LangJSONWriter.writeTranslationKey("item.gravelmon.coral_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.mauve_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_coral_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_mauve_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.luster_ball.tooltip", "1× catch rate, makes the caught Pokemon Shiny");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.dawn_ball.tooltip", "3× during the morning and day");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.sun_ball.tooltip", "5× on Fire-types, Cosmic-types and Light-types");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.feather_ball.tooltip", "1× to 4×, decreased by the target's weight");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.typing_ball.tooltip", "1× to 4×, increased by the length of the target's name");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.rocket_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.great_rocket_ball.tooltip", "1.5× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ultra_rocket_ball.tooltip", "2× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.nuclear_ball.tooltip", "3× on Nuclear-types");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.atom_ball.tooltip", "5× on Nuclear-types");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.delta_ball.tooltip", "4× on Delta Pokemon");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_ball.tooltip", "8× on Legendary and Mythical Pokemon");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.shiny_ball.tooltip", "Guaranteed to catch shiny Pokemon, 1× catch rate on normal Pokemon");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.nuzlocke_ball.tooltip1", "2.5× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.nuzlocke_ball.tooltip2", "RELEASES YOUR POKEMON WHEN THEY FAINT");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.snore_ball.tooltip", "5× catch rate if the Pokemon is asleep");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ark_ball.tooltip", "Guaranteed capture");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.lime_ball.tooltip", "1.5× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.lake_ball.tooltip", "3× on Pokémon submerged in water");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.anime_safari_ball.tooltip", "1.5× outside of battle");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.manga_safari_ball.tooltip", "1.5× outside of battle");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.annie_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.oakley_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.fishing_ball.tooltip", "1.5× on Pokémon submerged in water");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.gs_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.anime_gs_ball.tooltip", "1× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.gen2_lure_ball.tooltip", "2× on Water-types, until fishing is added");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.xeno_ball.tooltip", "2× on X Species, 1× otherwise");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.gay_ball.tooltip", "5× if the Pokemon is the same gender");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.lesbian_ball.tooltip", "5× if the Pokemon is the same gender");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.bi_ball.tooltip", "2.5× if the Pokemon is the same species");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.pan_ball.tooltip", "2× if the Pokemon isn't the same species");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.trans_ball.tooltip", "2× catch rate");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.non_binary_ball.tooltip", "3× if the Pokemon has no gender");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.ace_ball.tooltip", "2.5× if the Pokemon cannot be bred");
+    LangJSONWriter.writeTranslationKey("item.gravelmon.aro_ball.tooltip", "2.5× if the Pokemon cannot be bred");
     }
 }

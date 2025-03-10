@@ -7,24 +7,24 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:black_apricorn"
+            "item": "minecraft:slime_ball"
         },
         "l": {
-            "item": "gravelmon:orange_apricorn"
+            "item": "minecraft:slime_ball"
         },
         "c": {
             "item": "minecraft:iron_ingot"
         },
         "r": {
-            "item": "gravelmon:orange_apricorn"
+            "item": "minecraft:slime_ball"
         },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "item": "minecraft:slime_ball"
         }
     },
     "result":
     {
-        "id": "cobblemon:level_ball",
+        "id": "gravelmon:lime_ball",
         "count": 4
     }
 }

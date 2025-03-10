@@ -7,24 +7,24 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:black_apricorn"
+            "tag": "minecraft:leaves"
         },
         "l": {
-            "item": "gravelmon:orange_apricorn"
+            "tag": "minecraft:logs"
         },
         "c": {
-            "item": "minecraft:iron_ingot"
+            "item": "minecraft:copper_ingot"
         },
         "r": {
-            "item": "gravelmon:orange_apricorn"
+            "tag": "minecraft:logs"
         },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "tag": "minecraft:logs"
         }
     },
     "result":
     {
-        "id": "cobblemon:level_ball",
+        "id": "gravelmon:nuzlocke_ball",
         "count": 4
     }
 }

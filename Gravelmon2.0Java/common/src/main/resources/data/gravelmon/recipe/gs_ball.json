@@ -7,24 +7,24 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:red_apricorn"
+            "item": "minecraft:gold_nugget"
         },
         "l": {
-            "item": "cobblemon:pink_apricorn"
+            "item": "minecraft:gold_ingot"
         },
         "c": {
-            "item": "minecraft:diamond"
+            "item": "cobblemon:poke_ball"
         },
         "r": {
-            "item": "cobblemon:pink_apricorn"
+            "item": "minecraft:gold_ingot"
         },
         "b": {
-            "item": "gravelmon:purple_apricorn"
+            "item": "minecraft:gold_ingot"
         }
     },
     "result":
     {
-        "id": "cobblemon:dream_ball",
-        "count": 4
+        "id": "gravelmon:gs_ball",
+        "count": 1
     }
 }

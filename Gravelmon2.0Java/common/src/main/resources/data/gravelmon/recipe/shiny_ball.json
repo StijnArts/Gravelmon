@@ -7,24 +7,24 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:red_apricorn"
+            "item": "minecraft:sea_lantern"
         },
         "l": {
-            "item": "cobblemon:pink_apricorn"
+            "item": "minecraft:diamond_block"
         },
         "c": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:nether_star"
         },
         "r": {
-            "item": "cobblemon:pink_apricorn"
+            "item": "minecraft:diamond_block"
         },
         "b": {
-            "item": "gravelmon:purple_apricorn"
+            "item": "minecraft:sea_lantern"
         }
     },
     "result":
     {
-        "id": "cobblemon:dream_ball",
-        "count": 4
+        "id": "gravelmon:shiny_ball",
+        "count": 1
     }
 }

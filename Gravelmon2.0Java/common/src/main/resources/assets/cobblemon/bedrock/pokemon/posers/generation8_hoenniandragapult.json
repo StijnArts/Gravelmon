@@ -68,17 +68,6 @@
           "name": "blink"
         }
       ]
-    },
-    "sleeping": {
-      "poseName": "sleeping",
-      "animations": [
-        "bedrock(hoenniandragapult, sleep)"
-      ],
-      "poseTypes": [
-        "SLEEP"
-      ],
-      "transformTicks": 10,
-      "quirks": []
     }
   }
 }

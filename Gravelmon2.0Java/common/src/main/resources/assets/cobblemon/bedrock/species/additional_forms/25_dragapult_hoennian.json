@@ -11,6 +11,12 @@
       "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult.png",
       "layers": [
         {
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire.png"
+        },
+        {
           "name": "emissive"
         },
         {
@@ -45,6 +51,12 @@
       "poser": "cobblemon:generation8_hoenniandragapult",
       "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult_shiny.png",
       "layers": [
+        {
+          "name": "emmisive",
+          "emissive": true,
+          "translucent": false,
+          "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire_shiny.png"
+        },
         {
           "name": "emissive"
         },
