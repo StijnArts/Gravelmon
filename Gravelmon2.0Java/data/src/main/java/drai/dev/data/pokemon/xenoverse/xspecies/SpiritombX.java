@@ -91,7 +91,7 @@ public class SpiritombX extends Pokemon {
         getPosingFileData().setAnimationFileName("spiritomb_x");
         getPosingFileData().setPortraitData( 1.3f, new Vector3(-0.35, 0.7, 0));
         getPosingFileData().setProfileData( .65f, new Vector3(0, .9, 0));
-        getPosingFileData().setHead("stem");
+        getPosingFileData().head = "stem";
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().addAnimation("orbs").withLook().markAsBackupPose(),
                 AnimationData.walkingAnimation().addAnimation("orbs").withLook()
