@@ -34,7 +34,7 @@ side = "BOTH"
 [[dependencies.gravelmon]]
 modId="gravels_extended_battles"
 mandatory=true
-versionRange="[1.5.0,)"
+versionRange="[1.5.3,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.gravelmon]]
@@ -46,7 +46,7 @@ side = "BOTH"
 [[dependencies.gravelmon]]
 modId="midnightlib"
 mandatory=true
-versionRange="[1.6,)"
+versionRange="[1.6.1,)"
 ordering="NONE"
 side="BOTH"
 [[mixins]]

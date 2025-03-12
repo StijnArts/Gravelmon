@@ -142,7 +142,7 @@ public class DeltaMuk extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(-.04, .43, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose()
         ));
     }
 }
