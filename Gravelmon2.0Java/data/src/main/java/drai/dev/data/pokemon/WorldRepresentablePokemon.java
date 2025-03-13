@@ -78,10 +78,12 @@ public abstract class WorldRepresentablePokemon {
         if(!new File(modelLocation+ ".geo.json").exists()){
             Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
         }
-        if(!hasGenderDifferences || !hasSeparateFemaleModel) return;
-        if(!new File(modelLocation+ "_female.geo.json").exists()){
-            Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
-        }
+        if(hasGenderDifferences || hasSeparateFemaleModel) {
+            if(!new File(modelLocation+ "_female.geo.json").exists()){
+                Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
+            }
+        };
+
         //Poser File validation
         var animationFileName = posingFileData.animationFileName + ".animation.json";
         var animationLocation = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\animations\\"+animationFileName;
@@ -93,18 +95,51 @@ public abstract class WorldRepresentablePokemon {
             var animationMap = new HashMap<String, String>();
             jsonAnimation.getAsJsonObject("animations").keySet().forEach(key -> {
                         var splitAnimation = key.replaceAll("animation\\.", "").split("\\.");
-                        animationMap.put(splitAnimation[1], splitAnimation[0]);
+                        if(splitAnimation.length == 2){
+                            animationMap.put(splitAnimation[1], splitAnimation[0]);
+                        }
                     });
             posingFileData.animations.forEach(animationData -> {
-                animationData.animations.forEach(animation -> {
-                    if(!animationMap.containsKey(animation) || !animationMap.get(animation).equals(animationFileName)) {
-                        Cobblemon.LOGGER.warn("Animation {} is not present in {}", animation, animationFileName);
-                    }
-                });
+                checkAnimationsExists(animationData, animationMap, animationFileName);
+
             });
         } catch (FileNotFoundException e) {
             Cobblemon.LOGGER.warn("Animation {} is invalid", animationFileName);
         }
+    }
+
+    private void checkAnimationsExists(AnimationData animationData, HashMap<String, String> animationMap, String animationFileName) {
+        var animations = new ArrayList<>(animationData.animations);
+        animations.forEach(animation -> {
+            if(animation.contains("q.")) return;
+            if(!checkAnimationExists(animationMap, animationFileName, animation)){
+                animationData.animations.remove(animation);
+            }
+        });
+        var quirks = new ArrayList<>(animationData.getQuirks());
+        quirks.forEach(quirk -> {
+            var quirkAnimations = new ArrayList<>(quirk.animations);
+            quirkAnimations.forEach(quirkAnimation -> {
+                if(!checkAnimationExists(animationMap, animationFileName, quirkAnimation)){
+                    quirk.animations.remove(quirkAnimation);
+                }
+            });
+            if(quirk.animations.isEmpty()) animationData.getQuirks().remove(quirk);
+        });
+    }
+
+    private boolean checkAnimationExists(HashMap<String, String> animationMap, String animationFileName, String animation) {
+        if (animation.equalsIgnoreCase("look")){
+            if (posingFileData.head == null) return false;
+            return true;
+        }
+        var animationIsPresent = animationMap.containsKey(animation);
+//                    boolean b = !animationMap.get(animation).equals(animationFileName);
+        if(!animationIsPresent/* || b*/) {
+            Cobblemon.LOGGER.warn("Animation {} is not present in {}", animation, animationFileName);
+            return false;
+        }
+        return true;
     }
 
     private void generateSpeciesFileData(AbstractPokemon abstractPokemon) {
@@ -156,7 +191,8 @@ public abstract class WorldRepresentablePokemon {
     }
 
     public boolean isModeled() {
-        return textureDirectory != null && textureDirectory.exists();
+        var directoryExists = textureDirectory.exists();
+        return textureDirectory != null && directoryExists;
     }
 
     public void findOrCreatePlaceholderImage(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){

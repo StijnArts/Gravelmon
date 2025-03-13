@@ -15,7 +15,6 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
         "bedrock(darumaka_delta, ground_idle)"
       ],
       "poseTypes": [
@@ -45,7 +44,7 @@
           "animations": [
             "bedrock(darumaka_delta, cry)"
           ],
-          "name": "spook",
+          "name": "face",
           "minSecondsBetweenOccurrences": 30
         }
       ]

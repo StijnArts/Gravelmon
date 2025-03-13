@@ -15,7 +15,6 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
         "bedrock(deltabergmite, ground_idle)"
       ],
       "poseTypes": [
@@ -45,7 +44,6 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
         "bedrock(deltabergmite, ground_walk)"
       ],
       "poseTypes": [

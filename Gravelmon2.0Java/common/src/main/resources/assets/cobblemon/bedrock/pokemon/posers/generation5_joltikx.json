@@ -35,7 +35,8 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(joltik_x, blink)"
+            "bedrock(joltik_x, blink1)",
+            "bedrock(joltik_x, blink2)"
           ],
           "name": "blink"
         }
@@ -53,7 +54,8 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(joltik_x, blink)"
+            "bedrock(joltik_x, blink1)",
+            "bedrock(joltik_x, blink2)"
           ],
           "name": "blink"
         }

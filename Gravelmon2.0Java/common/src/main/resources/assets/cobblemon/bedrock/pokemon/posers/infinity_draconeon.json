@@ -28,14 +28,7 @@
         "HOVER"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(draconeon, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     },
     "walking": {
       "poseName": "walking",
@@ -49,14 +42,7 @@
         "FLY"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(draconeon, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     }
   }
 }

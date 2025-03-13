@@ -84,8 +84,8 @@ public class JoltikX extends Pokemon {
         getPosingFileData().setPortraitData( 3.5f, new Vector3(-.40, -3.6, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
-                AnimationData.walkingAnimation().withBlink()
+                AnimationData.standingAnimation().withBlink(2).markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink(2)
         ));
     }
 }

@@ -35,14 +35,7 @@
         "NONE"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(deltamuk, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     }
   }
 }

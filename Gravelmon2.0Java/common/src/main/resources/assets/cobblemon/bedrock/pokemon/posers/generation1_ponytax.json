@@ -35,14 +35,7 @@
         "NONE"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(ponyta_x, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     }
   }
 }

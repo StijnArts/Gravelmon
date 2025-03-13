@@ -93,6 +93,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "porygon form=epoch",
       "baseScale": 0.18,
       "cannotDynamax": false,
       "abilities": [
@@ -229,7 +230,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochporygon2.desc"
