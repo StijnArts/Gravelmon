@@ -1122,7 +1122,7 @@
 				}
 			}
 		},
-		"animation.hoenniandragapult.blink": {
+		"animation.hoenniandragapult.blink1": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_right": {

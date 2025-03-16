@@ -35,14 +35,7 @@
         "NONE"
       ],
       "transformTicks": 10,
-      "quirks": [
-        {
-          "animations": [
-            "bedrock(croconaw_egho, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+      "quirks": []
     }
   }
 }

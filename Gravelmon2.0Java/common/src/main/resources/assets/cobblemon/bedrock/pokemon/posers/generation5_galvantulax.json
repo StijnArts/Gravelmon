@@ -35,15 +35,10 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(galvantula_x, blink1)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
+            "bedrock(galvantula_x, blink1)",
             "bedrock(galvantula_x, blink2)"
           ],
-          "name": "blink2"
+          "name": "blink"
         }
       ]
     },
@@ -59,15 +54,10 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(galvantula_x, blink1)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
+            "bedrock(galvantula_x, blink1)",
             "bedrock(galvantula_x, blink2)"
           ],
-          "name": "blink2"
+          "name": "blink"
         }
       ]
     }

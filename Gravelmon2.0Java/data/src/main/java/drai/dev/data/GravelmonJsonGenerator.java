@@ -1,5 +1,6 @@
 package drai.dev.data;
 
+import dev.architectury.platform.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.*;
 import drai.dev.data.pokemon.*;
@@ -17,7 +18,6 @@ public class GravelmonJsonGenerator implements ModInitializer
         GameRegistry.registerGames();
         PostRegistration.postRegistration();
         JSONOutputGenerator.generate(System.getProperty("user.dir").split("data")[0]+"common\\src\\main\\resources");
-
     }
 
     public static void incrementDexCounter(){
@@ -36,10 +36,8 @@ public class GravelmonJsonGenerator implements ModInitializer
     public void onInitialize() {
         Gravelmon.init();
         run();
-        ClientLifecycleEvents.CLIENT_STARTED.register(this::onClientStarted);
-    }
-
-    private void onClientStarted(Minecraft minecraft) {
-        minecraft.stop();
+        if(Platform.getEnv()!=EnvType.SERVER){
+            GravelmonShutDownManager.shutDown();
+        }
     }
 }

@@ -40,7 +40,6 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(oculeus, blink)",
             "bedrock(oculeus, blink1)",
             "bedrock(oculeus, blink2)",
             "bedrock(oculeus, blink3)",
@@ -51,7 +50,8 @@
             "bedrock(oculeus, blink8)",
             "bedrock(oculeus, blink9)",
             "bedrock(oculeus, blink10)",
-            "bedrock(oculeus, blink11)"
+            "bedrock(oculeus, blink11)",
+            "bedrock(oculeus, blink12)"
           ],
           "name": "blink"
         }

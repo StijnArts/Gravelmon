@@ -87,11 +87,12 @@ public class AnimationData extends BasicAnimationData {
     public AnimationData withBlink(int numberOfBlinkAnimations){
         var blinkList = new ArrayList<String>();
         for (int i = 0; i < numberOfBlinkAnimations; i++) {
-            if(i == 0) {
-                blinkList.add("blink");
-                continue;
-            }
-            blinkList.add("blink" + i);
+//            if(i == 0) {
+//                blinkList.add("blink");
+//                continue;
+//            }
+            int blinkIndex = i + 1;
+            blinkList.add("blink" + blinkIndex);
         }
         var quirk = new Quirk("blink", blinkList);
         quirks.add(quirk);
@@ -233,5 +234,9 @@ public class AnimationData extends BasicAnimationData {
 
     public boolean isBackup() {
         return isBackup;
+    }
+
+    public List<Quirk> getQuirks() {
+        return quirks;
     }
 }

@@ -15,7 +15,6 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
         "bedrock(ditto_x, ground_idle)"
       ],
       "poseTypes": [
@@ -38,7 +37,6 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
         "bedrock(ditto_x, ground_walk)"
       ],
       "poseTypes": [

@@ -126,7 +126,7 @@ public class DeltaDarumaka extends Pokemon {
         getPosingFileData().setProfileData( 1f, new Vector3(0, .3, 0));
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink()
-                        .addQuirk(new Quirk("spook", List.of("cry"), 0, 30, 0))
+                        .addQuirk(new Quirk("face", List.of("cry"), 0, 30, 0))
         ));
     }
 }

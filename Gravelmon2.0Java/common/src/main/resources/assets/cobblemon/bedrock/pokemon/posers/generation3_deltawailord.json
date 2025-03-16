@@ -15,7 +15,6 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
         "bedrock(deltawailord, ground_idle)"
       ],
       "poseTypes": [
@@ -36,7 +35,6 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
         "bedrock(deltawailord, ground_walk)"
       ],
       "poseTypes": [
@@ -48,7 +46,6 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
         "bedrock(deltawailord, air_fly)"
       ],
       "poseTypes": [

@@ -39,9 +39,9 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(hoenniandragapult, blink)",
             "bedrock(hoenniandragapult, blink1)",
-            "bedrock(hoenniandragapult, blink2)"
+            "bedrock(hoenniandragapult, blink2)",
+            "bedrock(hoenniandragapult, blink3)"
           ],
           "name": "blink"
         }
@@ -61,9 +61,9 @@
       "quirks": [
         {
           "animations": [
-            "bedrock(hoenniandragapult, blink)",
             "bedrock(hoenniandragapult, blink1)",
-            "bedrock(hoenniandragapult, blink2)"
+            "bedrock(hoenniandragapult, blink2)",
+            "bedrock(hoenniandragapult, blink3)"
           ],
           "name": "blink"
         }

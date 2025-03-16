@@ -1,4 +1,5 @@
 {
+  "head": "stem",
   "portraitScale": 1.2999999523162842,
   "portraitTranslation": [
     -0.35,
@@ -15,12 +16,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
+        "look",
         "bedrock(spiritomb_x, ground_idle)",
         "bedrock(spiritomb_x, orbs)"
       ],
       "poseTypes": [
         "STAND",
-        "WALK",
         "SLEEP",
         "HOVER",
         "FLY",
@@ -39,8 +40,12 @@
     "walking": {
       "poseName": "walking",
       "animations": [
+        "look",
         "bedrock(spiritomb_x, ground_walk)",
         "bedrock(spiritomb_x, orbs)"
+      ],
+      "poseTypes": [
+        "WALK"
       ],
       "transformTicks": 10,
       "quirks": []
