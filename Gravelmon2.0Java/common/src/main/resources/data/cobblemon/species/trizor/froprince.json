@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:lowkick",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:leer",
+    "1:babydolleyes",
+    "4:revenge",
+    "4:drainingkiss",
+    "7:vacuumwave",
+    "7:playnice",
+    "10:brickbreak",
+    "10:dazzlinggleam",
+    "13:aurasphere",
+    "13:hypervoice",
+    "16:focusblast",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2742,
+  "nationalPokedexNumber": 2750,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

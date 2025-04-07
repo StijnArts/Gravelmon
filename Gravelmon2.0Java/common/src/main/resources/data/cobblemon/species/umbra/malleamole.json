@@ -113,7 +113,8 @@
     "tutor:irondefense",
     "tutor:seedbomb",
     "tutor:drillrun",
-    "tutor:earthpower"
+    "tutor:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -126,7 +127,7 @@
   "weight": 120,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3719,
+  "nationalPokedexNumber": 3727,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

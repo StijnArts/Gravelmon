@@ -72,7 +72,8 @@
     "36:superpower",
     "42:sandstorm",
     "48:stoneedge",
-    "54:explosion"
+    "54:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1700,
+  "nationalPokedexNumber": 1703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -72,7 +72,8 @@
     "46:playrough",
     "51:suckerpunch",
     "55:doubleedge",
-    "tm:surf"
+    "tm:surf",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4032,
+  "nationalPokedexNumber": 4040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

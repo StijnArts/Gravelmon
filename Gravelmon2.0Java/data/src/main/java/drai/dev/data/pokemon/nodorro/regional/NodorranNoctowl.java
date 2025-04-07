@@ -50,7 +50,11 @@ public class NodorranNoctowl extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.MANSION).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Noctowl");

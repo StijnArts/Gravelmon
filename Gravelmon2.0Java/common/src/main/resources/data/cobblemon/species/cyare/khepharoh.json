@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:stringshot",
+    "1:screech",
+    "10:leechlife",
+    "10:irontail",
+    "15:lunge",
+    "15:smartstrike",
+    "20:xscissor",
+    "20:ironhead",
+    "25:uturn",
+    "25:meteormash",
+    "30:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5371,
+  "nationalPokedexNumber": 5379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

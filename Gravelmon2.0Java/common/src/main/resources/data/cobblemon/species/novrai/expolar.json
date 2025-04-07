@@ -138,7 +138,8 @@
     "tm:hammerarm",
     "tm:coaching",
     "tm:mist",
-    "tm:machpunch"
+    "tm:machpunch",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4841,
+  "nationalPokedexNumber": 4849,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

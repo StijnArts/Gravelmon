@@ -112,7 +112,7 @@ public class EpochSeedot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

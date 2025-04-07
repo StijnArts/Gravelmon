@@ -135,7 +135,8 @@
     "tm:pinmissile",
     "tm:afteryou",
     "tm:switcheroo",
-    "tm:block"
+    "tm:block",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4844,
+  "nationalPokedexNumber": 4852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

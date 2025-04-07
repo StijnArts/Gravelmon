@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:shoreup"
+    "1:shoreup",
+    "1:growl",
+    "1:bulkup",
+    "10:sandattack",
+    "10:calmmind",
+    "15:mudbomb",
+    "15:taunt",
+    "20:bulldoze",
+    "20:substitute",
+    "25:dig",
+    "25:rest",
+    "30:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -88,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6011,
+  "nationalPokedexNumber": 6019,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

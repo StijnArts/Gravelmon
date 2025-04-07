@@ -104,7 +104,8 @@
     "tm:flash",
     "tm:rocksmash",
     "egg:sleeptalk",
-    "egg:cosmicpower"
+    "egg:cosmicpower",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -119,7 +120,7 @@
   "weight": 780,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3826,
+  "nationalPokedexNumber": 3834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

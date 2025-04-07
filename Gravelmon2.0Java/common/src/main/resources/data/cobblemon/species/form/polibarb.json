@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:acid",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "4:clearsmog",
+    "4:taunt",
+    "7:sludge",
+    "7:substitute",
+    "10:toxicspikes",
+    "10:rest",
+    "13:sludgebomb",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -99,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3750,
+  "nationalPokedexNumber": 3758,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

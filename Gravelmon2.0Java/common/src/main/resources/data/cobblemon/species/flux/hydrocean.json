@@ -84,7 +84,8 @@
     "egg:mist",
     "egg:aquaring",
     "egg:waterspout",
-    "egg:iceshard"
+    "egg:iceshard",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -99,7 +100,7 @@
   "weight": 748,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2095,
+  "nationalPokedexNumber": 2098,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

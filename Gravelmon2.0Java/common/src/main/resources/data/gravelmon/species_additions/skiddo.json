@@ -128,7 +128,8 @@
         "egg:rockpolish",
         "egg:doublekick",
         "egg:jumpkick",
-        "egg:smackdown"
+        "egg:smackdown",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -246,7 +247,8 @@
         "34:bulkup",
         "egg:defensecurl",
         "egg:milkdrink",
-        "egg:rollout"
+        "egg:rollout",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -403,7 +405,8 @@
         "egg:defensecurl",
         "egg:rollout",
         "egg:milkdrink",
-        "egg:grassyterrain"
+        "egg:grassyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -574,7 +577,8 @@
         "egg:headsmash",
         "egg:milkdrink",
         "egg:rollout",
-        "egg:stealthrock"
+        "egg:stealthrock",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

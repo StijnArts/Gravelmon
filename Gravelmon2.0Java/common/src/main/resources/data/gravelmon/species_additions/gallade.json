@@ -75,7 +75,22 @@
         "1:thundershock",
         "1:lowkick",
         "1:quickattack",
-        "1:quickattack"
+        "1:quickattack",
+        "1:leer",
+        "1:leer",
+        "1:swordsdance",
+        "1:swordsdance",
+        "4:charge",
+        "4:revenge",
+        "7:thunderpunch",
+        "7:lowsweep",
+        "10:discharge",
+        "10:brickbreak",
+        "13:wildcharge",
+        "13:karatechop",
+        "16:supercellslam",
+        "16:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -228,7 +243,8 @@
         "tm:willowisp",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -431,7 +447,8 @@
         "tm:grudge",
         "tm:shadowsneak",
         "tm:synchronoise",
-        "tm:mistyterrain"
+        "tm:mistyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -614,7 +631,8 @@
         "tutor:thunderpunch",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -836,7 +854,8 @@
         "tm:zenheadbutt",
         "tm:blizzard",
         "tm:icywind",
-        "tm:powertrip"
+        "tm:powertrip",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -857,6 +876,179 @@
         "height": 5.5,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "dark",
+      "secondaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 233,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kirlia form=ishirian",
+      "baseScale": 0.49230769230769234,
+      "cannotDynamax": false,
+      "abilities": [
+        "justified",
+        "intimidate",
+        "h:technician"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 130,
+        "defence": 65,
+        "special_attack": 65,
+        "special_defence": 100,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:closecombat",
+        "1:storedpower",
+        "1:leafblade",
+        "4:disarmingvoice",
+        "8:feintattack",
+        "9:teleport",
+        "11:confusion",
+        "17:magicalleaf",
+        "19:nightslash",
+        "23:drainingkiss",
+        "26:calmmind",
+        "31:nightdaze",
+        "35:imprison",
+        "40:darkpulse",
+        "43:doubleteam",
+        "45:captivate",
+        "49:psyblade",
+        "53:sacredsword",
+        "56:bitterblade",
+        "56:hypervoice",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:flash",
+        "tm:thunderwave",
+        "tm:psychup",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:dazzlinggleam",
+        "tm:confide",
+        "tm:hyperbeam",
+        "tm:focusblast",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:bulkup",
+        "tm:brickbreak",
+        "tm:lowsweep",
+        "tm:poweruppunch",
+        "tm:rocksmash",
+        "tm:strength",
+        "tm:cut",
+        "tm:snore",
+        "tm:secretpower",
+        "tm:endure",
+        "tm:terablast",
+        "tm:allyswitch",
+        "tm:confuseray",
+        "tm:destinybond",
+        "tm:disable",
+        "tm:encore",
+        "tm:grudge",
+        "tm:meanlook",
+        "tm:memento",
+        "tm:mistyterrain",
+        "tm:shadowsneak",
+        "tm:skillswap",
+        "tm:synchronoise",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriangallade.desc"
+      ],
+      "height": 16,
+      "weight": 520,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -864,6 +1056,7 @@
     "epoch",
     "avalossian",
     "delta",
-    "ayreian"
+    "ayreian",
+    "ishirian"
   ]
 }

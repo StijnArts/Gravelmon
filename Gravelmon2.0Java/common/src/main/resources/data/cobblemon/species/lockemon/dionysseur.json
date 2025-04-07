@@ -79,7 +79,8 @@
     "egg:memento",
     "egg:strengthsap",
     "egg:synthesis",
-    "egg:weatherball"
+    "egg:weatherball",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -94,7 +95,7 @@
   "weight": 2131,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3410,
+  "nationalPokedexNumber": 3418,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

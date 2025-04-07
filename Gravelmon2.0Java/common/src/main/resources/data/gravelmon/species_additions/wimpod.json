@@ -131,7 +131,8 @@
         "egg:xscissor",
         "egg:assurance",
         "egg:beatup",
-        "egg:poisonfang"
+        "egg:poisonfang",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

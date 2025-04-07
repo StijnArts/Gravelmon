@@ -83,7 +83,8 @@
     "tm:poisonfang",
     "tm:jawlock",
     "tm:dragontail",
-    "tm:dragondance"
+    "tm:dragondance",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3179,
+  "nationalPokedexNumber": 3187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

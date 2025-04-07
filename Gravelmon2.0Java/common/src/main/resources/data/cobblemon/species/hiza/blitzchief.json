@@ -74,7 +74,8 @@
     "45:bulletseed",
     "50:crunch",
     "55:aurawheel",
-    "60:thrash"
+    "60:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2317,
+  "nationalPokedexNumber": 2325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

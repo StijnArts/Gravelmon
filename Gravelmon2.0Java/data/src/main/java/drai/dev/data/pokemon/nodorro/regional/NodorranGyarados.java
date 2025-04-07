@@ -27,9 +27,16 @@ public class NodorranGyarados extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(1).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Gyarados");
 
     }

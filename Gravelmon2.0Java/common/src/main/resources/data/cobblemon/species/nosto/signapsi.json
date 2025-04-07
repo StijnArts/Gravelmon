@@ -126,7 +126,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:trickroom",
-    "tm:gyroball"
+    "tm:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 3504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

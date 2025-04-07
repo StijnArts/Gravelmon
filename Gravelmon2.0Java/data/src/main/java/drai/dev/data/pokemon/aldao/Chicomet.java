@@ -79,7 +79,7 @@ public class Chicomet extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 38, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 38, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

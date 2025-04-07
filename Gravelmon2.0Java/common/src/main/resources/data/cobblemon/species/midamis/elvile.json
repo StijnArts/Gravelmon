@@ -74,7 +74,8 @@
     "tm:frustration",
     "tm:batonpass",
     "tm:naturepower",
-    "tm:mefirst"
+    "tm:mefirst",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4302,
+  "nationalPokedexNumber": 4310,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

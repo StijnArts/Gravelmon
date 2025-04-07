@@ -76,7 +76,8 @@
     "37:gigadrain",
     "41:raindance",
     "47:energyball",
-    "52:hydropump"
+    "52:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1848,
+  "nationalPokedexNumber": 1851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

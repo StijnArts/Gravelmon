@@ -62,7 +62,8 @@
     "1:pinmissile",
     "1:gastroacid",
     "1:poisonjab",
-    "1:spikyshield"
+    "1:spikyshield",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1879,
+  "nationalPokedexNumber": 1882,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

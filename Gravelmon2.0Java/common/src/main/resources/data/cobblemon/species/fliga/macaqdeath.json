@@ -109,7 +109,8 @@
     "tm:curse",
     "tm:drainpunch",
     "tm:shadowclaw",
-    "tm:grudge"
+    "tm:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -124,7 +125,7 @@
   "weight": 203,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3943,
+  "nationalPokedexNumber": 3951,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

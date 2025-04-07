@@ -23,7 +23,8 @@ public class Trunkorn extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
                 List.of("The trunk on its horn is known as one of the hardest woods on the world. It willingly lets people harvest its trunk when it overgrows."),
-                List.of(),
+                List.of(new EvolutionEntry("rhintain", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -114,7 +115,11 @@ public class Trunkorn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OLD_GROWTH_TAIGA)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Trunkorn");

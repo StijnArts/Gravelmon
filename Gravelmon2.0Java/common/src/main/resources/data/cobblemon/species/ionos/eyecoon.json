@@ -62,7 +62,8 @@
   "drops": {},
   "moves": [
     "1:meanlook",
-    "20:shadowsneak"
+    "20:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4733,
+  "nationalPokedexNumber": 4741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

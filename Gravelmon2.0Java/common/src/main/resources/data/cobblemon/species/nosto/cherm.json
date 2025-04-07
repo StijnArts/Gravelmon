@@ -64,6 +64,18 @@
     "1:absorb",
     "1:synthesis",
     "1:vacuumwave",
+    "1:leer",
+    "1:bulkup",
+    "1:nastyplot",
+    "4:megadrain",
+    "4:calmmind",
+    "8:magicalleaf",
+    "8:taunt",
+    "12:gigadrain",
+    "12:substitute",
+    "16:energyball",
+    "16:rest",
+    "20:solarbeam",
     "tm:grassyglide",
     "tm:synthesis",
     "tm:worryseed",
@@ -100,7 +112,8 @@
     "tm:swordsdance",
     "tm:toxic",
     "tm:calmmind",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -128,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -133,7 +133,8 @@
     "tm:knockoff",
     "tm:faketears",
     "tm:nastyplot",
-    "tm:crosspoison"
+    "tm:crosspoison",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5134,
+  "nationalPokedexNumber": 5142,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

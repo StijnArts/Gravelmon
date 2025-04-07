@@ -111,7 +111,8 @@
     "tm:tripleaxel",
     "tm:watergun",
     "tm:waterpulse",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3248,
+  "nationalPokedexNumber": 3256,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

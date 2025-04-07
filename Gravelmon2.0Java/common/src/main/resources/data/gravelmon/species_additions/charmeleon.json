@@ -1,5 +1,25 @@
 {
   "target": "cobblemon:charmeleon",
+  "evolutions": [
+    {
+      "id": "charmeleon_savazard",
+      "variant": "level_up",
+      "result": "savazard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "minecraft:cherry_grove"
+        },
+        {
+          "variant": "level",
+          "minLevel": "36"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Epoch",
@@ -146,7 +166,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -340,7 +361,8 @@
         "egg:dragonrush",
         "egg:flareblitz",
         "egg:metalclaw",
-        "egg:outrage"
+        "egg:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -538,7 +560,8 @@
         "tutor:snore",
         "tutor:spite",
         "tutor:twister",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -730,7 +753,8 @@
         "tutor:thunderpunch",
         "tutor:toxic",
         "tutor:weatherball",
-        "tutor:workup"
+        "tutor:workup",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

@@ -75,7 +75,8 @@
     "38:rest",
     "43:ironhead",
     "46:gunkshot",
-    "52:gyroball"
+    "52:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1647,
+  "nationalPokedexNumber": 1650,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

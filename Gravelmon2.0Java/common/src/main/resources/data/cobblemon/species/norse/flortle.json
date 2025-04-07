@@ -61,7 +61,26 @@
   "moves": [
     "1:disarmingvoice",
     "1:bulkup",
-    "1:healbell"
+    "1:healbell",
+    "1:babydolleyes",
+    "1:calmmind",
+    "1:wish",
+    "4:drainingkiss",
+    "4:taunt",
+    "7:playnice",
+    "7:substitute",
+    "10:dazzlinggleam",
+    "10:rest",
+    "13:hypervoice",
+    "16:moonblast",
+    "19:disarmingvoice",
+    "22:babydolleyes",
+    "25:drainingkiss",
+    "28:playnice",
+    "31:dazzlinggleam",
+    "34:playrough",
+    "39:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2592,
+  "nationalPokedexNumber": 2600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

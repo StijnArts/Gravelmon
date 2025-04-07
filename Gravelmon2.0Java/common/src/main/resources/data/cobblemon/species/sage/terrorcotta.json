@@ -149,7 +149,8 @@
     "egg:rockslide",
     "egg:suckerpunch",
     "egg:toxicspikes",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

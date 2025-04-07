@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "10:psybeam",
+    "10:confuseray",
+    "15:futuresight",
+    "15:hex",
+    "20:psychic",
+    "20:shadowclaw",
+    "25:zenheadbutt",
+    "25:phantomforce",
+    "30:psychocut",
+    "30:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4744,
+  "nationalPokedexNumber": 4752,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

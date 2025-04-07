@@ -120,7 +120,8 @@
     "egg:safeguard",
     "egg:sunnyday",
     "egg:vinewhip",
-    "egg:watersport"
+    "egg:watersport",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4515,
+  "nationalPokedexNumber": 4523,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

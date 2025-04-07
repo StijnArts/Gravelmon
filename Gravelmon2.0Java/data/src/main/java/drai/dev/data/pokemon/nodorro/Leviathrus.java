@@ -18,7 +18,7 @@ public class Leviathrus extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 68, 2600,
                 new Stats(0,1,0,2,1,0), 5,
-                0.0,
+                -1.0,
                 300, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
@@ -27,9 +27,15 @@ public class Leviathrus extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Leviathrus");
 
     }

@@ -73,7 +73,8 @@
     "35:amnesia",
     "40:reversal",
     "45:focuspunch",
-    "55:earthpower"
+    "55:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3199,
+  "nationalPokedexNumber": 3207,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -83,7 +83,8 @@
     "tm:ingrain",
     "tm:jumpkick",
     "tm:airslash",
-    "tm:grasspledge"
+    "tm:grasspledge",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -98,7 +99,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4802,
+  "nationalPokedexNumber": 4810,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

@@ -71,7 +71,8 @@
     "36:screech",
     "41:psychicfangs",
     "44:wavecrash",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2425,
+  "nationalPokedexNumber": 2433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

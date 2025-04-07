@@ -104,7 +104,8 @@
     "tm:rocksmash",
     "egg:dragonpulse",
     "egg:aurasphere",
-    "egg:hydropump"
+    "egg:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -118,7 +119,7 @@
   "weight": 2097,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3830,
+  "nationalPokedexNumber": 3838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

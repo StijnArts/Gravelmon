@@ -79,7 +79,8 @@
     "38:thunderfang",
     "44:honeclaws",
     "47:playrough",
-    "53:nightslash"
+    "53:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -94,7 +95,7 @@
   "weight": 499,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4135,
+  "nationalPokedexNumber": 4143,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

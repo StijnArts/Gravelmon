@@ -77,7 +77,8 @@
     "44:nightslash",
     "50:roost",
     "56:stoneedge",
-    "64:bravebird"
+    "64:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4406,
+  "nationalPokedexNumber": 4414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

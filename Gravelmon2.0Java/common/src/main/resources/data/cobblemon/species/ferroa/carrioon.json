@@ -134,7 +134,8 @@
     "tm:switcheroo",
     "tm:honeclaws",
     "tm:scaryface",
-    "tm:twineedle"
+    "tm:twineedle",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1505,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

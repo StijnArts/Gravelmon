@@ -63,7 +63,29 @@
     "1:mudslap",
     "1:powdersnow",
     "1:shoreup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:growl",
+    "1:bulkup",
+    "1:calmmind",
+    "4:sandattack",
+    "4:icywind",
+    "4:calmmind",
+    "4:taunt",
+    "7:mudbomb",
+    "7:icepunch",
+    "7:taunt",
+    "7:substitute",
+    "10:bulldoze",
+    "10:icespinner",
+    "10:substitute",
+    "10:rest",
+    "13:dig",
+    "13:iceshard",
+    "13:rest",
+    "16:earthquake",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -89,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2839,
+  "nationalPokedexNumber": 2847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

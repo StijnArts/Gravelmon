@@ -76,7 +76,8 @@
     "53:agility",
     "59:skullbash",
     "67:hydropump",
-    "73:drainlife"
+    "73:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1965,
+  "nationalPokedexNumber": 1968,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

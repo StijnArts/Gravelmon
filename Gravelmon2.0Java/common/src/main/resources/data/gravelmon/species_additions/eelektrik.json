@@ -141,7 +141,8 @@
         "tm:uturn",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -286,7 +287,8 @@
         "tm:acrobatics",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -423,7 +425,8 @@
         "tm:rocksmash",
         "egg:earthpower",
         "egg:electroburst",
-        "egg:dragonrage"
+        "egg:dragonrage",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

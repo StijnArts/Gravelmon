@@ -32,7 +32,11 @@ public class Palmbrella extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_WIND,51)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Palmbrella");

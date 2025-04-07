@@ -76,7 +76,8 @@
     "42:aquatail",
     "49:fling",
     "57:phantomforce",
-    "66:hydropump"
+    "66:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4201,
+  "nationalPokedexNumber": 4209,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

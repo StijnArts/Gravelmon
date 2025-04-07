@@ -60,7 +60,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "3:psybeam",
+    "6:futuresight",
+    "9:psychic",
+    "12:psyshock",
+    "15:psychoboost",
+    "18:confusion",
+    "21:growl",
+    "24:psybeam",
+    "27:futuresight",
+    "30:psychic",
+    "33:zenheadbutt",
+    "36:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -73,7 +87,7 @@
   "weight": 320,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1367,
+  "nationalPokedexNumber": 1369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

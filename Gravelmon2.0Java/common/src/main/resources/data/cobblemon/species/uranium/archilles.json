@@ -125,7 +125,8 @@
     "egg:bite",
     "egg:outrage",
     "egg:rockslide",
-    "egg:swordsdance"
+    "egg:swordsdance",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -138,7 +139,7 @@
   "weight": 885,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1973,
+  "nationalPokedexNumber": 1976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

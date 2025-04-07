@@ -158,7 +158,8 @@
     "tm:screech",
     "tm:bodyslam",
     "tm:direclaw",
-    "tm:astonish"
+    "tm:astonish",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -173,7 +174,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5013,
+  "nationalPokedexNumber": 5021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

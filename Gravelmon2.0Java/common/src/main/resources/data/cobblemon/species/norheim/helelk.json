@@ -75,7 +75,8 @@
     "36:cottonguard",
     "39:triattack",
     "43:darkpulse",
-    "46:fireblast"
+    "46:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3069,
+  "nationalPokedexNumber": 3077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

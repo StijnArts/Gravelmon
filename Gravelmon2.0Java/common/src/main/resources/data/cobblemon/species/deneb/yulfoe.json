@@ -114,7 +114,8 @@
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:cosmicpower"
+    "tutor:cosmicpower",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -127,7 +128,7 @@
   "weight": 579,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4580,
+  "nationalPokedexNumber": 4588,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

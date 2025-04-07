@@ -133,7 +133,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -282,7 +283,8 @@
         "tm:trickroom",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -451,7 +453,8 @@
         "egg:poisonpowder",
         "egg:sleeppowder",
         "egg:stunspore",
-        "egg:toxicspikes"
+        "egg:toxicspikes",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",

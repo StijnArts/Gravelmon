@@ -81,7 +81,8 @@
     "tm:sleeppowder",
     "tm:gigadrain",
     "tm:gastroacid",
-    "tm:toxicspikes"
+    "tm:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1445,
+  "nationalPokedexNumber": 1448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

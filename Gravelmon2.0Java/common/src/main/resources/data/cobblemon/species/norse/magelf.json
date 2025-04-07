@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:confusion"
+    "1:confusion",
+    "1:leer",
+    "1:growl",
+    "4:payback",
+    "4:psybeam",
+    "7:nightdaze",
+    "7:futuresight",
+    "10:snarl",
+    "10:psychic",
+    "13:knockoff",
+    "13:psyshock",
+    "16:darkpulse",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2596,
+  "nationalPokedexNumber": 2604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -127,7 +127,8 @@
     "tm:worryseed",
     "tm:tearfullook",
     "tm:stomp",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4915,
+  "nationalPokedexNumber": 4923,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

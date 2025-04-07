@@ -136,7 +136,8 @@
         "egg:scorchingsands",
         "egg:scaleshot",
         "egg:lashout",
-        "egg:psychicfangs"
+        "egg:psychicfangs",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -250,7 +251,8 @@
         "40:yawn",
         "45:coil",
         "51:fireblast",
-        "59:eruption"
+        "59:eruption",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

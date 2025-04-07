@@ -71,7 +71,8 @@
     "33:synthesis",
     "38:takedown",
     "43:sunnyday",
-    "48:leafblade"
+    "48:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4111,
+  "nationalPokedexNumber": 4119,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

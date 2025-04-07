@@ -16,8 +16,8 @@ public class Raggedoll extends drai.dev.data.pokemon.Pokemon {
                         80,
                         30),
                 List.of(Ability.SIMPLE,Ability.COTTON_DOWN), Ability.PERISH_BODY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 140,
                 0.0,
                 133, ExperienceGroup.ERRATIC,
                 70,
@@ -55,7 +55,11 @@ public class Raggedoll extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACROBATICS,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Raggedoll");

@@ -111,7 +111,7 @@ public class Navighast extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 55, 67, 8, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 55, 67, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH, Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

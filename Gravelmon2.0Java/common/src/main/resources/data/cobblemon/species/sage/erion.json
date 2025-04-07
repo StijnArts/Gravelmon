@@ -127,7 +127,8 @@
     "tm:focuspunch",
     "tm:sleeptalk",
     "tm:shieldbash",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

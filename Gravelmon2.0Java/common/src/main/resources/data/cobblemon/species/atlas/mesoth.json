@@ -115,7 +115,8 @@
     "tm:toxic",
     "tm:boneclub",
     "tm:icywind",
-    "tm:bonerush"
+    "tm:bonerush",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5173,
+  "nationalPokedexNumber": 5181,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -127,7 +127,8 @@
     "tm:tripleaxel",
     "tm:wildcharge",
     "tm:workup",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3897,
+  "nationalPokedexNumber": 3905,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

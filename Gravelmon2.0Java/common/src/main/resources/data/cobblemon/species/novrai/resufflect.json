@@ -140,7 +140,8 @@
     "tm:smackdown",
     "tm:skillswap",
     "tm:hex",
-    "tm:cut"
+    "tm:cut",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4967,
+  "nationalPokedexNumber": 4975,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

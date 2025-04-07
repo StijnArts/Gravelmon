@@ -74,7 +74,8 @@
     "37:swallow",
     "41:crunch",
     "47:seedbomb",
-    "50:powerwhip"
+    "50:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4308,
+  "nationalPokedexNumber": 4316,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

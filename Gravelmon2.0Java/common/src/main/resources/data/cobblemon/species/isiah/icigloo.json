@@ -74,7 +74,8 @@
     "40:auroraveil",
     "45:swagger",
     "50:iciclecrash",
-    "55:sheercold"
+    "55:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4249,
+  "nationalPokedexNumber": 4257,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

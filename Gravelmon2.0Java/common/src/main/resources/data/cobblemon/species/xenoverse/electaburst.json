@@ -131,7 +131,8 @@
     "tm:flashcannon",
     "tm:wildcharge",
     "tutor:scorchedashes",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -144,7 +145,7 @@
   "weight": 723,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1829,
+  "nationalPokedexNumber": 1832,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.1,

@@ -86,6 +86,7 @@
     "tutor:suckerpunch",
     "tm:frustration",
     "tm:aerialace",
+    "tm:glorywing",
     "tm:fly",
     "egg:acrobatics",
     "egg:razorwind",
@@ -98,7 +99,8 @@
     "egg:steelwing",
     "egg:featherdance",
     "egg:whirlwind",
-    "egg:magiccoat"
+    "egg:magiccoat",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4608,
+  "nationalPokedexNumber": 4616,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

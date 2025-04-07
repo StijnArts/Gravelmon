@@ -157,7 +157,8 @@
         "tm:wildcharge",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

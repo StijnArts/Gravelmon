@@ -77,7 +77,8 @@
     "52:ironhead",
     "57:sludgewave",
     "63:megahorn",
-    "70:shellsmash"
+    "70:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1936,
+  "nationalPokedexNumber": 1939,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

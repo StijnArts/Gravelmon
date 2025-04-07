@@ -145,7 +145,8 @@
     "tm:psywave",
     "tm:simplebeam",
     "tm:foresight",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4861,
+  "nationalPokedexNumber": 4869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

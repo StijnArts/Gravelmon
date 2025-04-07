@@ -63,7 +63,22 @@
     "1:bite",
     "1:peck",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:payback",
+    "4:pluck",
+    "7:nightslash",
+    "7:wingattack",
+    "10:crunch",
+    "10:aerialace",
+    "13:knockoff",
+    "13:drillpeck",
+    "16:suckerpunch",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2851,
+  "nationalPokedexNumber": 2859,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

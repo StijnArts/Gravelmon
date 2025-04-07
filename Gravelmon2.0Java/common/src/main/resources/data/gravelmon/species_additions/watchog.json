@@ -1,5 +1,21 @@
 {
   "target": "cobblemon:watchog",
+  "evolutions": [
+    {
+      "id": "watchog_glanchog",
+      "variant": "level_up",
+      "result": "glanchog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Ferranian",
@@ -64,7 +80,20 @@
       "drops": {},
       "moves": [
         "1:confusion",
-        "1:tackle"
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:psybeam",
+        "4:round",
+        "7:futuresight",
+        "7:swift",
+        "10:psychic",
+        "10:uproar",
+        "13:psyshock",
+        "13:hypervoice",
+        "16:psychoboost",
+        "16:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -222,7 +251,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -73,7 +73,8 @@
     "36:defog",
     "40:dragonpulse",
     "43:sludgebomb",
-    "47:outrage"
+    "47:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1723,
+  "nationalPokedexNumber": 1726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

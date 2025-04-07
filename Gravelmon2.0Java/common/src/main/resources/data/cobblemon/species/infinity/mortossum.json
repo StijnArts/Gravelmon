@@ -151,7 +151,8 @@
     "egg:mist",
     "egg:moonlight",
     "egg:simplebeam",
-    "egg:solarbeam"
+    "egg:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

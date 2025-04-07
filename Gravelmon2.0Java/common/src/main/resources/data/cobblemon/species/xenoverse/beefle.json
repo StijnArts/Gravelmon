@@ -105,7 +105,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:strugglebug",
-    "tutor:superpower"
+    "tutor:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1793,
+  "nationalPokedexNumber": 1796,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

@@ -78,7 +78,8 @@
     "tm:tickle",
     "tm:covet",
     "tm:aquatail",
-    "tm:disarmingvoice"
+    "tm:disarmingvoice",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2954,
+  "nationalPokedexNumber": 2962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

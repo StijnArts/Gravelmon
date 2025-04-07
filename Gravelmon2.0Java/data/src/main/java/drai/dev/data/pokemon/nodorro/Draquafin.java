@@ -55,9 +55,15 @@ public class Draquafin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZEDRY,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Draquafin");
 
     }

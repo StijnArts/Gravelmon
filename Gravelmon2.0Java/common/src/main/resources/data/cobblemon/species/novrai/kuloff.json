@@ -127,7 +127,8 @@
     "tm:whirlpool",
     "tm:morningsun",
     "tm:helpinghand",
-    "tm:iceshard"
+    "tm:iceshard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4931,
+  "nationalPokedexNumber": 4939,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

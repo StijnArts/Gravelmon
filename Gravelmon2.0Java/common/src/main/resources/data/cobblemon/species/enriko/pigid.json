@@ -71,7 +71,8 @@
     "50:bounce",
     "56:nastyplot",
     "60:nightdaze",
-    "68:mist"
+    "68:mist",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1755,
+  "nationalPokedexNumber": 1758,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

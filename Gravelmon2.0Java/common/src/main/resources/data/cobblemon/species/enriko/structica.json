@@ -71,7 +71,8 @@
     "31:snowscape",
     "36:flipturn",
     "46:blizzard",
-    "52:shellsmash"
+    "52:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1735,
+  "nationalPokedexNumber": 1738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

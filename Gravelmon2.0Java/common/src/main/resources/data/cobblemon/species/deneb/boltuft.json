@@ -109,7 +109,8 @@
     "egg:spitup",
     "egg:stockpile",
     "egg:swallow",
-    "egg:weatherball"
+    "egg:weatherball",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -122,7 +123,7 @@
   "weight": 315,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4632,
+  "nationalPokedexNumber": 4640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

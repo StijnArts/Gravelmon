@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "10:payback",
+    "10:irontail",
+    "15:nightslash",
+    "15:smartstrike",
+    "20:crunch",
+    "20:ironhead",
+    "25:knockoff",
+    "25:meteormash",
+    "30:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -74,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4822,
+  "nationalPokedexNumber": 4830,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

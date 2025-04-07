@@ -109,7 +109,8 @@
     "egg:shockwave",
     "egg:spark",
     "egg:teeterdance",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4537,
+  "nationalPokedexNumber": 4545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

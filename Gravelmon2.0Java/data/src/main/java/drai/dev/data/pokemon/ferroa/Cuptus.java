@@ -100,7 +100,7 @@ public class Cuptus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -67,7 +67,8 @@
     "1:uproar",
     "1:sing",
     "1:stomp",
-    "1:psyshock"
+    "1:psyshock",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -80,7 +81,7 @@
   "weight": 2907,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3268,
+  "nationalPokedexNumber": 3276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

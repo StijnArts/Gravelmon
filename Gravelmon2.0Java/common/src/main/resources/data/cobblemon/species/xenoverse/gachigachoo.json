@@ -103,7 +103,8 @@
     "egg:electroball",
     "egg:freezedry",
     "egg:iciclecrash",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -115,7 +116,7 @@
   "weight": 75,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1800,
+  "nationalPokedexNumber": 1803,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

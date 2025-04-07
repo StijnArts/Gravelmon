@@ -73,7 +73,8 @@
     "33:teeterdance",
     "37:echoedvoice",
     "41:irontail",
-    "45:hypervoice"
+    "45:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3184,
+  "nationalPokedexNumber": 3192,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

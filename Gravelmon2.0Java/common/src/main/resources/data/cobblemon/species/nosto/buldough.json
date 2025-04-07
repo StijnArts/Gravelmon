@@ -101,7 +101,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -114,7 +115,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3505,
+  "nationalPokedexNumber": 3513,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

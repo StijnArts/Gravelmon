@@ -64,7 +64,22 @@
     "1:powdersnow",
     "1:thundershock",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:icywind",
+    "4:charge",
+    "7:aurorabeam",
+    "7:shockwave",
+    "10:freezedry",
+    "10:discharge",
+    "13:icebeam",
+    "13:thunderbolt",
+    "16:blizzard",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2740,
+  "nationalPokedexNumber": 2748,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

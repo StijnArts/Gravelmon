@@ -123,7 +123,8 @@
         "egg:defog",
         "egg:swordsdance",
         "egg:burningjealousy",
-        "egg:dazzlinggleam"
+        "egg:dazzlinggleam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

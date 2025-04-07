@@ -131,7 +131,8 @@
     "tm:whirlwind",
     "tm:willowisp",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3023,
+  "nationalPokedexNumber": 3031,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

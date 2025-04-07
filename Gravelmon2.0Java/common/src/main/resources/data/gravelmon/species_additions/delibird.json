@@ -102,7 +102,20 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:gust"
+        "1:gust",
+        "1:growl",
+        "1:leer",
+        "4:firespin",
+        "4:aircutter",
+        "7:flamecharge",
+        "7:wingattack",
+        "10:flameburst",
+        "10:airslash",
+        "13:flamethrower",
+        "13:drillpeck",
+        "16:fireblast",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -254,7 +267,8 @@
         "egg:feint",
         "egg:needlearm",
         "egg:drillpeck",
-        "egg:hammerarm"
+        "egg:hammerarm",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -363,7 +377,8 @@
         "egg:icywind",
         "egg:quickattack",
         "egg:rapidspin",
-        "egg:splash"
+        "egg:splash",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

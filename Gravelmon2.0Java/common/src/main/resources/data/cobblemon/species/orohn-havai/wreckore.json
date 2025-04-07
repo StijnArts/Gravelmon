@@ -86,7 +86,8 @@
     "tm:focuspunch",
     "tm:revenge",
     "tm:payback",
-    "tm:quash"
+    "tm:quash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -101,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2965,
+  "nationalPokedexNumber": 2973,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

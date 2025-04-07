@@ -103,7 +103,8 @@
     "egg:healingwish",
     "egg:ingrain",
     "egg:sweetscent",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -118,7 +119,7 @@
   "weight": 325,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4652,
+  "nationalPokedexNumber": 4660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

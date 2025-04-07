@@ -137,7 +137,8 @@
         "egg:amnesia",
         "egg:aromaticmist",
         "egg:refresh",
-        "egg:pollenpuff"
+        "egg:pollenpuff",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

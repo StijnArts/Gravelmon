@@ -155,7 +155,8 @@
     "tutor:zenheadbutt",
     "egg:freezedry",
     "egg:shadowsneak",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

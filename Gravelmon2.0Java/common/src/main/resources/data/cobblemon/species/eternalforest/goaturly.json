@@ -136,7 +136,8 @@
     "egg:jumpkick",
     "egg:bodyslam",
     "egg:bounce",
-    "egg:ironhead"
+    "egg:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -151,7 +152,7 @@
   "weight": 1050,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3055,
+  "nationalPokedexNumber": 3063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 54.0625,

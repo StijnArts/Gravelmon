@@ -87,6 +87,7 @@
         "tm:hail",
         "tm:haze",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -122,7 +123,8 @@
         "tm:weatherball",
         "tm:wildcharge",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -225,7 +227,8 @@
         "45:flamethrower",
         "5:fairywind",
         "8:playnice",
-        "49:playrough"
+        "49:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -370,7 +373,8 @@
         "tutor:gunkshot",
         "tutor:helpinghand",
         "tutor:secretpower",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

@@ -76,7 +76,8 @@
     "54:takedown",
     "61:dragonrush",
     "66:doubleedge",
-    "72:lastresort"
+    "72:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6087,
+  "nationalPokedexNumber": 6095,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

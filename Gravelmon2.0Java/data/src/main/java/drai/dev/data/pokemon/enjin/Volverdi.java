@@ -22,7 +22,7 @@ public class Volverdi extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 41, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 41, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -70,7 +70,8 @@
     "38:petaldance",
     "44:doubleedge",
     "48:bravebird",
-    "54:shellsmash"
+    "54:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1726,
+  "nationalPokedexNumber": 1729,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

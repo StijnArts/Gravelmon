@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.flux.*;
+import drai.dev.data.pokemon.uranium.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Flux extends Game {
@@ -80,13 +81,19 @@ public class Flux extends Game {
         addNewPokemon(new Jerbolta());
         addNewPokemon(new Karmilarie());
         addPokedexPokemon("ekans-alteran, arbok-alteran");
+        addNewPokemon(new Scarablaze());
         addNewPokemon(new Cactana());
+//        addNewPokemon(new AlteranHagoop()); //unfinished
+        addNewPokemon(new Flintling());
 //        addNewPokemon(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());
         addNewPokemon(new Glubble());
         addNewPokemon(new Garblgoyle());
         addNewPokemon(new Aerapin());
         addNewPokemon(new Albashell());
+        addNewPokemon(new Amperincus());
+        addNewPokemon(new Ramhorn());
+        addNewPokemon(new Purrchance());
         addNewPokemon(new Grizzlet());
         addNewPokemon(new Geogriff());
         addNewPokemon(new Diastryx());

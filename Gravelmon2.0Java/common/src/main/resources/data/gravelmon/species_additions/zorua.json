@@ -127,7 +127,8 @@
         "egg:partingshot",
         "egg:darkestlariat",
         "egg:psychicfangs",
-        "egg:brickbreak"
+        "egg:brickbreak",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -242,7 +243,8 @@
         "egg:memento",
         "egg:destinybond",
         "egg:copycat",
-        "egg:haze"
+        "egg:haze",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

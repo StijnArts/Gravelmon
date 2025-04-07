@@ -89,7 +89,8 @@
     "egg:thunderfang",
     "egg:feint",
     "egg:firefang",
-    "egg:moonblast"
+    "egg:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -104,7 +105,7 @@
   "weight": 880,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2099,
+  "nationalPokedexNumber": 2102,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

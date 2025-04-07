@@ -75,7 +75,8 @@
     "52:roost",
     "57:typhoon",
     "64:raindance",
-    "69:hydropump"
+    "69:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4245,
+  "nationalPokedexNumber": 4253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

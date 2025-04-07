@@ -77,7 +77,8 @@
     "41:inferno",
     "45:phantomforce",
     "50:burnup",
-    "56:destinybond"
+    "56:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3068,
+  "nationalPokedexNumber": 3076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

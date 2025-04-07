@@ -62,7 +62,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:autotomize"
+    "1:autotomize",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -75,7 +76,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1763,
+  "nationalPokedexNumber": 1766,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

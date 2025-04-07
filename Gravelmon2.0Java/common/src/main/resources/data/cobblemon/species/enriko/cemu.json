@@ -72,7 +72,8 @@
     "38:revenge",
     "43:roost",
     "49:swordsdance",
-    "55:eggbomb"
+    "55:eggbomb",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1660,
+  "nationalPokedexNumber": 1663,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

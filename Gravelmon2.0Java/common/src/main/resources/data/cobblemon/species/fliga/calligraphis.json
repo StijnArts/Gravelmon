@@ -76,7 +76,8 @@
     "40:aquaring",
     "42:soak",
     "46:hydropump",
-    "49:phantomforce"
+    "49:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3978,
+  "nationalPokedexNumber": 3986,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

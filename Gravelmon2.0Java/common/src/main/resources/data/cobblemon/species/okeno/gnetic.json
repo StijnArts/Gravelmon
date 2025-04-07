@@ -59,7 +59,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -72,7 +73,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4488,
+  "nationalPokedexNumber": 4496,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -74,7 +74,8 @@
     "40:darkpulse",
     "42:moonlight",
     "48:swordsdance",
-    "54:guillotine"
+    "54:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1746,
+  "nationalPokedexNumber": 1749,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -38,14 +38,17 @@
     {
       "id": "mastenian_larvitar-01",
       "pokemon": "larvitar mastenian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_beach"
         ]
       },
       "weightMultiplier": {
@@ -67,7 +70,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "8-28",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"

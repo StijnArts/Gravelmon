@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
+    "19:thundershock",
+    "22:leer",
+    "25:charge",
+    "28:thunderpunch",
+    "31:discharge",
+    "34:wildcharge",
+    "39:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -74,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5692,
+  "nationalPokedexNumber": 5700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

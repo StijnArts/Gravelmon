@@ -72,7 +72,8 @@
     "39:milkdrink",
     "45:hornleech",
     "51:closecombat",
-    "57:leafstorm"
+    "57:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5298,
+  "nationalPokedexNumber": 5306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

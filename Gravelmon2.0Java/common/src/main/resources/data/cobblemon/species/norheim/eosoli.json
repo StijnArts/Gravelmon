@@ -74,7 +74,8 @@
     "39:quickguard",
     "43:retaliate",
     "48:hypervoice",
-    "54:stoneedge"
+    "54:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3138,
+  "nationalPokedexNumber": 3146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -134,7 +134,8 @@
     "tm:dragondance",
     "tm:crunch",
     "tm:ingrain",
-    "tm:painsplit"
+    "tm:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

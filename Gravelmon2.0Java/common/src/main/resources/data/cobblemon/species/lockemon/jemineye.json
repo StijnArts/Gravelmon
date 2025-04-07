@@ -76,7 +76,8 @@
     "35:stoneedge",
     "40:diamondstorm",
     "45:wonderroom",
-    "50:explosion"
+    "50:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -89,7 +90,7 @@
   "weight": 234,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3421,
+  "nationalPokedexNumber": 3429,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

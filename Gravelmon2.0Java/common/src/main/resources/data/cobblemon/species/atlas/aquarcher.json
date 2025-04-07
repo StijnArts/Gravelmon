@@ -104,7 +104,8 @@
     "tm:raindance",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -119,7 +120,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5150,
+  "nationalPokedexNumber": 5158,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

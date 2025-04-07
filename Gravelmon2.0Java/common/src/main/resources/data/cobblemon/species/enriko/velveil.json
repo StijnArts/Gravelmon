@@ -74,7 +74,8 @@
     "39:speedswap",
     "43:roleplay",
     "47:playrough",
-    "55:mistyterrain"
+    "55:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1663,
+  "nationalPokedexNumber": 1666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

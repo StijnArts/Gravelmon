@@ -136,7 +136,8 @@
     "tm:machpunch",
     "tm:cottonspore",
     "tm:dizzypunch",
-    "tm:detect"
+    "tm:detect",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4855,
+  "nationalPokedexNumber": 4863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

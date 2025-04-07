@@ -160,7 +160,8 @@
     "egg:destinybond",
     "egg:furycutter",
     "egg:irondefense",
-    "egg:scaryface"
+    "egg:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

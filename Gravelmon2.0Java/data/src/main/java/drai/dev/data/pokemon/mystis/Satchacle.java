@@ -16,14 +16,15 @@ public class Satchacle extends drai.dev.data.pokemon.Pokemon {
                         100,
                         45),
                 List.of(Ability.AFTERMATH,Ability.LIQUID_OOZE), Ability.DARKHOLD,
-                0, 0,
-                new Stats(0,0,1,0,1,0), 0,
+                11, 0,
+                new Stats(0,0,1,0,1,0), 120,
                 0.5,
                 156, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Whatever is inside the old rags has grown upon evolving, causing the bottom to tear open. Now it is able to shoot the dark smoke forward to disorient its prey and escape from predators."),
-                List.of(),
+                List.of(new EvolutionEntry("kragken", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:writable_book")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
@@ -143,9 +144,16 @@ public class Satchacle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMOKEBOMB,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(30).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Satchacle");
 
     }

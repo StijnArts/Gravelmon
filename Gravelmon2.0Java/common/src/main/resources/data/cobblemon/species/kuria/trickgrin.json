@@ -76,7 +76,8 @@
     "40:lovelykiss",
     "43:moonblast",
     "46:moonlight",
-    "50:lunarcannon"
+    "50:lunarcannon",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -89,7 +90,7 @@
   "weight": 135,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4137,
+  "nationalPokedexNumber": 4145,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

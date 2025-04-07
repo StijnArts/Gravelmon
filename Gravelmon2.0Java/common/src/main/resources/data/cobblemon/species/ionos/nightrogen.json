@@ -76,7 +76,8 @@
     "63:calmmind",
     "68:moonblast",
     "73:moonlight",
-    "81:thunderbolt"
+    "81:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4826,
+  "nationalPokedexNumber": 4834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

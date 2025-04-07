@@ -73,7 +73,8 @@
     "28:mudbomb",
     "32:acidarmor",
     "38:muddywater",
-    "47:earthquake"
+    "47:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 191,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4178,
+  "nationalPokedexNumber": 4186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

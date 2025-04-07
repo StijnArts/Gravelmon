@@ -67,7 +67,8 @@
     "12:sleeppowder",
     "16:confusion",
     "20:poisonpowder",
-    "24:furycutter"
+    "24:furycutter",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5205,
+  "nationalPokedexNumber": 5213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

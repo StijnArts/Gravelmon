@@ -126,7 +126,8 @@
     "tm:meditate",
     "tm:morningsun",
     "tm:psychoshift",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1495,
+  "nationalPokedexNumber": 1498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

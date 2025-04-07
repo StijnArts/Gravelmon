@@ -72,7 +72,8 @@
     "35:leechlife",
     "40:nightslash",
     "48:lunge",
-    "53:drainlife"
+    "53:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5316,
+  "nationalPokedexNumber": 5324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

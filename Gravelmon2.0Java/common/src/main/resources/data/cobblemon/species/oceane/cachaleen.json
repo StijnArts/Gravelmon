@@ -73,7 +73,8 @@
     "39:crunch",
     "44:irondefense",
     "49:hydropump",
-    "54:skullbash"
+    "54:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1886,
+  "nationalPokedexNumber": 1889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

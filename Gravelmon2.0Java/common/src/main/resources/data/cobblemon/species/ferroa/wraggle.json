@@ -137,7 +137,8 @@
     "tm:taunt",
     "tm:thief",
     "tm:toxic",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1530,
+  "nationalPokedexNumber": 1533,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

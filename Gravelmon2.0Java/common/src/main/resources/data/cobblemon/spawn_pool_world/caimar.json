@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",

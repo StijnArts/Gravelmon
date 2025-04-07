@@ -73,7 +73,8 @@
     "37:icehammer",
     "42:irondefense",
     "45:dynamicpunch",
-    "49:closecombat"
+    "49:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1465,
+  "nationalPokedexNumber": 1468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.4375,

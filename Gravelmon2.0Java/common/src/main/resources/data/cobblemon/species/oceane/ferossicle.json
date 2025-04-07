@@ -75,7 +75,8 @@
     "40:dragonclaw",
     "45:roar",
     "50:spikes",
-    "56:megahorn"
+    "56:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1875,
+  "nationalPokedexNumber": 1878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

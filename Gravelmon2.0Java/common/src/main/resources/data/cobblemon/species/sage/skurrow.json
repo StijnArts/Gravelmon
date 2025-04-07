@@ -136,7 +136,8 @@
     "egg:nightslash",
     "egg:skullbash",
     "egg:thrash",
-    "egg:wringout"
+    "egg:wringout",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

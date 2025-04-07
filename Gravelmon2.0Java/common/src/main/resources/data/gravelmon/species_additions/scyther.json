@@ -64,7 +64,20 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:thundershock"
+        "1:thundershock",
+        "1:stringshot",
+        "1:leer",
+        "4:silverwind",
+        "4:charge",
+        "7:signalbeam",
+        "7:shockwave",
+        "10:infestation",
+        "10:discharge",
+        "13:uturn",
+        "13:thunderbolt",
+        "16:bugbuzz",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -163,7 +176,23 @@
         "1:strugglebug",
         "1:bite",
         "1:uturn",
-        "1:quickattack"
+        "1:quickattack",
+        "1:stringshot",
+        "1:leer",
+        "1:quickattack",
+        "1:swordsdance",
+        "4:leechlife",
+        "4:payback",
+        "4:swordsdance",
+        "7:lunge",
+        "7:nightslash",
+        "10:xscissor",
+        "10:crunch",
+        "13:uturn",
+        "13:knockoff",
+        "16:megahorn",
+        "16:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -285,6 +314,7 @@
         "tm:furycutter",
         "tm:gammaray",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:irondefense",
         "tm:ironhead",
@@ -327,7 +357,8 @@
         "egg:swagger",
         "egg:autotomize",
         "egg:irondefense",
-        "egg:triattack"
+        "egg:triattack",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -433,7 +464,8 @@
         "36:switcheroo",
         "42:dazzlinggleam",
         "48:bugbuzz",
-        "54:quiverdance"
+        "54:quiverdance",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -618,7 +650,8 @@
         "tutor:superpower",
         "tutor:tailwind",
         "tutor:vacuumwave",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

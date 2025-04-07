@@ -73,7 +73,8 @@
     "25:aromatherapy",
     "30:raindance",
     "36:gigadrain",
-    "42:muddywater"
+    "42:muddywater",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5199,
+  "nationalPokedexNumber": 5207,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

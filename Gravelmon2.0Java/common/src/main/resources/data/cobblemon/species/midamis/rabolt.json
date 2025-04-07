@@ -79,7 +79,8 @@
     "tm:mudshot",
     "tm:icefang",
     "tm:firefang",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4301,
+  "nationalPokedexNumber": 4309,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

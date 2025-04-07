@@ -83,7 +83,8 @@
     "tm:bravebird",
     "tm:embargo",
     "tm:fling",
-    "tm:switcheroo"
+    "tm:switcheroo",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -113,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4426,
+  "nationalPokedexNumber": 4434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

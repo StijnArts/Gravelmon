@@ -72,7 +72,8 @@
     "31:flail",
     "34:metalburst",
     "39:wringout",
-    "42:meteormash"
+    "42:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4318,
+  "nationalPokedexNumber": 4326,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

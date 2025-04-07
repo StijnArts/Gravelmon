@@ -76,7 +76,8 @@
     "47:solarbeam",
     "51:aromatherapy",
     "55:snatch",
-    "60:powerwhip"
+    "60:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 2979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

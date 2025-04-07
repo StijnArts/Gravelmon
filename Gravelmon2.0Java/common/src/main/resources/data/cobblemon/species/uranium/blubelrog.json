@@ -123,7 +123,8 @@
     "egg:haze",
     "egg:safeguard",
     "egg:confuseray",
-    "egg:frostbreath"
+    "egg:frostbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -138,7 +139,7 @@
   "weight": 978,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1988,
+  "nationalPokedexNumber": 1991,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

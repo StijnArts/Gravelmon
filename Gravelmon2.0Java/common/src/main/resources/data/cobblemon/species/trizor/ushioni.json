@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:bite"
+    "1:bite",
+    "1:screech",
+    "1:leer",
+    "4:irontail",
+    "4:payback",
+    "7:smartstrike",
+    "7:nightslash",
+    "10:ironhead",
+    "10:crunch",
+    "13:meteormash",
+    "13:knockoff",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2770,
+  "nationalPokedexNumber": 2778,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

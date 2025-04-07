@@ -6,14 +6,17 @@
     {
       "id": "mastenian_breloom-01",
       "pokemon": "breloom mastenian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_magical"
         ]
       },
       "weightMultiplier": {

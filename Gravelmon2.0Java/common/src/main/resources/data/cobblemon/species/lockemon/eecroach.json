@@ -75,7 +75,8 @@
     "egg:snore",
     "egg:switcheroo",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -90,7 +91,7 @@
   "weight": 135,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3387,
+  "nationalPokedexNumber": 3395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,
@@ -164,7 +165,9 @@
         "grass"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "lockemon",
         "not_modeled"

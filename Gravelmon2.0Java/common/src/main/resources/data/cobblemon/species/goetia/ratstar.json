@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "10:charge",
+    "10:taunt",
+    "15:thunderpunch",
+    "15:substitute",
+    "20:discharge",
+    "20:rest",
+    "25:wildcharge",
+    "30:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6005,
+  "nationalPokedexNumber": 6013,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

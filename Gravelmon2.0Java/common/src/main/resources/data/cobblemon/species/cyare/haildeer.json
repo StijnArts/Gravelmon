@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:gust"
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "10:icywind",
+    "10:aircutter",
+    "15:aurorabeam",
+    "15:wingattack",
+    "20:freezedry",
+    "20:airslash",
+    "25:icebeam",
+    "25:drillpeck",
+    "30:blizzard",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5365,
+  "nationalPokedexNumber": 5373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

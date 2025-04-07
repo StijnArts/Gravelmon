@@ -101,7 +101,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:uturn",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5064,
+  "nationalPokedexNumber": 5072,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -124,7 +124,8 @@
         "tm:thunderfang",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -294,7 +295,8 @@
         "tutor:stealthrock",
         "tutor:superfang",
         "tutor:superpower",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -450,7 +452,8 @@
         "tm:heavyslam",
         "tm:flashcannon",
         "tm:solarbeam",
-        "tm:flareblitz"
+        "tm:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -560,7 +563,8 @@
         "egg:hex",
         "egg:rollout",
         "egg:spikes",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:mudslap"
+    "1:mudslap",
+    "1:leer",
+    "1:growl",
+    "4:payback",
+    "4:sandattack",
+    "7:nightslash",
+    "7:mudbomb",
+    "10:crunch",
+    "10:bulldoze",
+    "13:knockoff",
+    "13:dig",
+    "16:suckerpunch",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3771,
+  "nationalPokedexNumber": 3779,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

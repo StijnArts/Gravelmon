@@ -105,7 +105,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:hypnosis",
-    "tm:trickroom"
+    "tm:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5165,
+  "nationalPokedexNumber": 5173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

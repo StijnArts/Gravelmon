@@ -80,7 +80,8 @@
     "tm:tickle",
     "tm:gastroacid",
     "tm:powerwhip",
-    "tm:healpulse"
+    "tm:healpulse",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4479,
+  "nationalPokedexNumber": 4487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

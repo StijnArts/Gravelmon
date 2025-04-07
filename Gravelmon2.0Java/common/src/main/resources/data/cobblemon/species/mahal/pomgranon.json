@@ -63,7 +63,23 @@
     "1:leafage",
     "1:ember",
     "1:grassyglide",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:growl",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:absorb",
+    "4:quickattack",
+    "4:swordsdance",
+    "7:trailblaze",
+    "7:flamecharge",
+    "10:gigadrain",
+    "10:firepunch",
+    "13:seedbomb",
+    "13:willowisp",
+    "16:leafblade",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5542,
+  "nationalPokedexNumber": 5550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

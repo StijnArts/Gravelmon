@@ -130,7 +130,8 @@
     "egg:stoneedge",
     "egg:bulldoze",
     "egg:rockpolish",
-    "egg:headbutt"
+    "egg:headbutt",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2061,
+  "nationalPokedexNumber": 2064,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

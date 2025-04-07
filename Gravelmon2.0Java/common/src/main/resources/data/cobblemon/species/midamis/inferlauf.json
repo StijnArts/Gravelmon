@@ -77,7 +77,8 @@
     "tm:magnitude",
     "tm:willowisp",
     "tm:taunt",
-    "tm:thunderfang"
+    "tm:thunderfang",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4293,
+  "nationalPokedexNumber": 4301,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

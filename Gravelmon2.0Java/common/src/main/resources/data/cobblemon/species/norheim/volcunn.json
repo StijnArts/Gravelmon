@@ -71,7 +71,8 @@
     "42:takedown",
     "48:ancientpower",
     "54:trickroom",
-    "60:zenheadbutt"
+    "60:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3218,
+  "nationalPokedexNumber": 3226,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

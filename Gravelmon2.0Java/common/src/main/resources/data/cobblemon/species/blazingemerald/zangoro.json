@@ -121,7 +121,8 @@
     "60:bulkup",
     "70:shadowsneak",
     "80:revenge",
-    "90:superpower"
+    "90:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -135,7 +136,7 @@
   "weight": 822,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3829,
+  "nationalPokedexNumber": 3837,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

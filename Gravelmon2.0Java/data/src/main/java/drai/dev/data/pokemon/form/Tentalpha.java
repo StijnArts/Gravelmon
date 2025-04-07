@@ -28,7 +28,7 @@ public class Tentalpha extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 8, 25, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 8, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.MAXY,"40"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

@@ -74,7 +74,8 @@
     "36:whirlpool",
     "41:hydropump",
     "44:destinybond",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2385,
+  "nationalPokedexNumber": 2393,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

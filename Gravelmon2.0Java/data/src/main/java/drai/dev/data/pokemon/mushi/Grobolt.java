@@ -66,7 +66,7 @@ public class Grobolt extends drai.dev.data.pokemon.Pokemon {
                         87,
                         54),
                 List.of(Ability.SAP_SIPPER,Ability.LEAF_GUARD), Ability.LIGHTNING_ROD,
-                0, 0,
+                16, 0,
                 new Stats(0,0,2,0,0,0), 50,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -77,7 +77,11 @@ public class Grobolt extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Grobolt");

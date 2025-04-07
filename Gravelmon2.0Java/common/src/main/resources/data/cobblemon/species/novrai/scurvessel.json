@@ -130,7 +130,8 @@
     "tm:pursuit",
     "tm:brine",
     "tm:aquaring",
-    "tm:scaryface"
+    "tm:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -145,7 +146,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4987,
+  "nationalPokedexNumber": 4995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

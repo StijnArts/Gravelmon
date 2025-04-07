@@ -83,7 +83,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:trickroom"
+    "tm:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -96,7 +97,7 @@
   "weight": 72,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

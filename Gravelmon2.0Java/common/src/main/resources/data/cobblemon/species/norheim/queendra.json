@@ -74,7 +74,8 @@
     "53:raindance",
     "60:dragondance",
     "67:outrage",
-    "74:hyperbeam"
+    "74:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3165,
+  "nationalPokedexNumber": 3173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

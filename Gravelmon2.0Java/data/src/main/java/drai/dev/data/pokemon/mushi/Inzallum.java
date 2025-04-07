@@ -16,7 +16,7 @@ public class Inzallum extends drai.dev.data.pokemon.Pokemon {
                         100,
                         94),
                 List.of(Ability.TINTED_LENS,Ability.OBLIVIOUS), Ability.PSYCHIC_SURGE,
-                0, 0,
+                14, 0,
                 new Stats(0,0,0,2,1,1), 45,
                 0.5,
                 245, ExperienceGroup.MEDIUM_FAST,
@@ -27,9 +27,14 @@ public class Inzallum extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(22).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Inzallum");
 
     }

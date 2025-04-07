@@ -191,7 +191,8 @@
     "tm:metalsound",
     "tm:quash",
     "tm:sludge",
-    "tm:snore"
+    "tm:snore",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -206,7 +207,7 @@
   "weight": 4540,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3342,
+  "nationalPokedexNumber": 3350,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

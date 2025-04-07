@@ -167,7 +167,8 @@
     "tm:healblock",
     "tm:curse",
     "tm:guardsplit",
-    "tm:powersplit"
+    "tm:powersplit",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -195,7 +196,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1521,
+  "nationalPokedexNumber": 1524,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -94,6 +94,7 @@
         "tm:falseswipe",
         "tm:firepunch",
         "tm:focusblast",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -125,7 +126,8 @@
         "egg:feintattack",
         "egg:fakeout",
         "egg:drumbeating",
-        "egg:poweruppunch"
+        "egg:poweruppunch",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -313,7 +315,8 @@
         "tutor:synthesis",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

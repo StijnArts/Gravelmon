@@ -95,7 +95,8 @@
     "tm:rest",
     "tm:sandstorm",
     "tm:raindance",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2438,
+  "nationalPokedexNumber": 2446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

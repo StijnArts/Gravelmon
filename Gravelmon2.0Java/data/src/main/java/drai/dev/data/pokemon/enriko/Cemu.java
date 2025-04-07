@@ -41,7 +41,7 @@ public class Cemu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EGG_BOMB,55)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 17, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 17, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

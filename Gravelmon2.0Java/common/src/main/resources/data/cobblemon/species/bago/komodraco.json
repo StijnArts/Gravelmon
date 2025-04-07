@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:poisonsting"
+    "1:poisonsting",
+    "1:leer",
+    "4:venoshock",
+    "7:poisontail",
+    "10:toxicspikes",
+    "13:sludgebomb",
+    "16:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -77,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2796,
+  "nationalPokedexNumber": 2804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

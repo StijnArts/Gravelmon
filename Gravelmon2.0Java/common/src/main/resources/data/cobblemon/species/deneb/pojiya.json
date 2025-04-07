@@ -68,7 +68,8 @@
     "13:pinmissile",
     "17:poisontail",
     "25:steamroller",
-    "27:sludge"
+    "27:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4624,
+  "nationalPokedexNumber": 4632,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

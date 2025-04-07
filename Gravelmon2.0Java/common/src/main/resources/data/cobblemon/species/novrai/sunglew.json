@@ -141,7 +141,8 @@
     "tm:block",
     "tm:leechseed",
     "tm:bellydrum",
-    "tm:bodyslam"
+    "tm:bodyslam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4876,
+  "nationalPokedexNumber": 4884,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:watergun"
+        "1:watergun",
+        "1:stringshot",
+        "1:tailwhip",
+        "4:silverwind",
+        "4:bubblebeam",
+        "7:signalbeam",
+        "7:brine",
+        "10:infestation",
+        "10:surf",
+        "13:uturn",
+        "13:chillingwater",
+        "16:bugbuzz",
+        "16:hydropump",
+        "19:strugglebug",
+        "19:watergun",
+        "22:stringshot",
+        "22:tailwhip",
+        "25:leechlife",
+        "25:bubblebeam",
+        "28:lunge",
+        "28:aquatail",
+        "31:xscissor",
+        "31:surf",
+        "34:uturn",
+        "34:waterfall",
+        "39:megahorn",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -167,7 +194,8 @@
         "1:infestation",
         "10:strugglebug",
         "1:stringshot",
-        "tm:strugglebug"
+        "tm:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -272,7 +300,8 @@
         "3:thunderwave",
         "7:electroweb",
         "tutor:bugbite",
-        "tutor:electroweb"
+        "tutor:electroweb",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

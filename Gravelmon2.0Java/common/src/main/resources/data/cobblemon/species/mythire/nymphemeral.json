@@ -79,7 +79,8 @@
     "43:mindreader",
     "50:shadowball",
     "57:spite",
-    "64:phantomforce"
+    "64:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3856,
+  "nationalPokedexNumber": 3864,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

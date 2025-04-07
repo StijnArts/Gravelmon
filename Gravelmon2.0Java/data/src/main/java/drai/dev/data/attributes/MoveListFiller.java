@@ -31,15 +31,19 @@ public class MoveListFiller {
         while(shouldContinue) {
             if(iterator == moveOptions.size()) iterator = 0;
             var level = MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).get(levelIterator);
+            levelIterator++;
+            int emptyIterators = 0;
             for (int i = iterator; i < moveOptions.size(); i++) {
                 iterator ++;
-                var move = iterators.get(i).next();
-                if(move==null) continue;
-                learnSet.add(new MoveLearnSetEntry(move, level));
-                if(i == moveOptions.size()-1) shouldContinue = false;
-                break;
+                try{
+                    var move = iterators.get(i).next();
+                    if(move==null) continue;
+                    learnSet.add(new MoveLearnSetEntry(move, level));
+                } catch (NoSuchElementException e) {
+                    emptyIterators++;
+                }
             }
-            if(levelIterator == MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).size()-1) shouldContinue = false;
+            if(levelIterator == MOVE_LEARNING_LEVELS.get(pokemon.getExperienceGroup()).size()-1 || emptyIterators == iterators.size()) shouldContinue = false;
         }
         return learnSet;
     }
@@ -150,12 +154,12 @@ public class MoveListFiller {
     }
 
     static {
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.FLUCTUATING, List.of(1, 1, 1, 1, 5, 8, 12, 15, 19, 26, 29, 33, 39, 44, 50, 55));
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.SLOW, List.of(1, 1, 1, 1, 4, 8, 12, 16, 20, 24, 28, 33, 36, 40, 44, 48, 52, 56));
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.MEDIUM_SLOW, List.of(1, 1, 1, 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 44, 51, 58));
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.MEDIUM_FAST, List.of(1, 1, 1, 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 39, 44, 50, 54));
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.FAST, List.of(1, 1, 1, 1, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56));
-        MOVE_LEARNING_LEVELS.put(ExperienceGroup.ERRATIC, List.of(1, 1, 1, 1, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.FLUCTUATING, List.of(1, 1, 5, 8, 12, 15, 19, 26, 29, 33, 39, 44, 50, 55));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.SLOW, List.of(1, 1, 4, 8, 12, 16, 20, 24, 28, 33, 36, 40, 44, 48, 52, 56));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.MEDIUM_SLOW, List.of(1, 1, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 44, 51, 58));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.MEDIUM_FAST, List.of(1, 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 39, 44, 50, 54));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.FAST, List.of(1, 1, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56));
+        MOVE_LEARNING_LEVELS.put(ExperienceGroup.ERRATIC, List.of(1, 1, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60));
 
         var specialMovesPerType = getSpecialMovesPerType();
         var attackMovesPerType = getPhysicalMovesPerType();

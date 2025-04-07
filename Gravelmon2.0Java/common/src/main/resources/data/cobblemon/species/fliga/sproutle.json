@@ -97,7 +97,8 @@
     "tm:powerwhip",
     "tm:shellsmash",
     "tm:woodhammer",
-    "tm:bodypress"
+    "tm:bodypress",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -121,7 +122,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3954,
+  "nationalPokedexNumber": 3962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

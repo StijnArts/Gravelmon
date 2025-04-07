@@ -41,7 +41,7 @@ public class Pooyo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,90)                        ),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 15, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 15, 9, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_CROPS),

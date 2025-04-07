@@ -142,6 +142,7 @@
     "tm:thunder",
     "tm:closecombat",
     "tm:solarbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

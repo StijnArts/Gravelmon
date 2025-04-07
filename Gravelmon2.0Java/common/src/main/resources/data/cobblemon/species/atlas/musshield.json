@@ -107,7 +107,8 @@
     "tm:whirlpool",
     "tm:muddywater",
     "tm:block",
-    "tm:payback"
+    "tm:payback",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5113,
+  "nationalPokedexNumber": 5121,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

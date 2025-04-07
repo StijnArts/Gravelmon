@@ -11,8 +11,8 @@ public class Turteller extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                29, 0,
+                new Stats(0,0,0,0,0,0), 6,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -21,11 +21,16 @@ public class Turteller extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(),
                 List.of(Label.MASTENIA),
-                0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                0, List.of(),
+                new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SKY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Turteller");
+        setCanFly(true);
 
     }
 

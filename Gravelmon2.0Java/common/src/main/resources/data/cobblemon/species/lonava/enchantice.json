@@ -77,7 +77,8 @@
     "39:sunnyday",
     "42:endeavor",
     "45:cottonguard",
-    "48:solarbeam"
+    "48:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3369,
+  "nationalPokedexNumber": 3377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

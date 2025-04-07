@@ -75,7 +75,8 @@
     "40:bugbuzz",
     "43:playrough",
     "47:covet",
-    "50:infestation"
+    "50:infestation",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4024,
+  "nationalPokedexNumber": 4032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

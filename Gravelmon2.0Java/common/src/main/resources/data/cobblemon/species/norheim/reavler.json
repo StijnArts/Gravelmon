@@ -136,6 +136,7 @@
     "tm:nastyplot",
     "tm:blizzard",
     "tm:gigaimpact",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3205,
+  "nationalPokedexNumber": 3213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

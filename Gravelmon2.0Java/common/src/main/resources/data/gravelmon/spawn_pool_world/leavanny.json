@@ -27,6 +27,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "ishirian_leavanny-01",
+      "pokemon": "leavanny ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-55",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
     }
   ]
 }

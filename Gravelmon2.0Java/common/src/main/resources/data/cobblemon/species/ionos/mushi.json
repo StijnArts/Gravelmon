@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "1:leer",
+    "10:venoshock",
+    "10:absorb",
+    "15:poisontail",
+    "15:trailblaze",
+    "20:toxicspikes",
+    "20:gigadrain",
+    "25:sludgebomb",
+    "25:seedbomb",
+    "30:poisonjab",
+    "30:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -103,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4792,
+  "nationalPokedexNumber": 4800,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

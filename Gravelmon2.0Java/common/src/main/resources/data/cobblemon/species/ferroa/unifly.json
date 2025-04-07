@@ -78,7 +78,8 @@
     "tm:gunkshot",
     "tm:knockoff",
     "tm:skyattack",
-    "tm:dualwingbeat"
+    "tm:dualwingbeat",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1576,
+  "nationalPokedexNumber": 1579,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.5,

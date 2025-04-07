@@ -70,7 +70,8 @@
     "38:takedown",
     "43:swagger",
     "48:drillpeck",
-    "54:finalgambit"
+    "54:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3313,
+  "nationalPokedexNumber": 3321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

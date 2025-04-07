@@ -27,9 +27,14 @@ public class Kaisaos extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_END).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Kaisaos");
 
     }

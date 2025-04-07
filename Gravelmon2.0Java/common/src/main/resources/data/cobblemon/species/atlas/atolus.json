@@ -74,7 +74,8 @@
     "36:hammerarm",
     "40:stoneedge",
     "44:superpower",
-    "48:focuspunch"
+    "48:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5158,
+  "nationalPokedexNumber": 5166,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

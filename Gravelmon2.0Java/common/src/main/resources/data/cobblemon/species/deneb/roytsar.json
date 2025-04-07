@@ -109,7 +109,8 @@
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:bugnoise"
+    "tutor:bugnoise",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -123,7 +124,7 @@
   "weight": 981,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4599,
+  "nationalPokedexNumber": 4607,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -94,6 +94,7 @@
         "tm:focusblast",
         "tm:gammaray",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -132,7 +133,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -239,7 +241,8 @@
         "1:bellydrum",
         "75:spikyshield",
         "35:psyshock",
-        "26:psybeam"
+        "26:psybeam",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

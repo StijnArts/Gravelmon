@@ -94,6 +94,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:highhorsepower",
         "tm:icefang",
@@ -142,7 +143,8 @@
         "tm:uturn",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -308,7 +310,8 @@
         "tm:trick",
         "tm:whirlpool",
         "tm:workup",
-        "tm:xscissor"
+        "tm:xscissor",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

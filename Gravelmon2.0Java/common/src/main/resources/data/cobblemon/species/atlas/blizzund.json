@@ -63,6 +63,17 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
+    "1:growl",
+    "10:icywind",
+    "15:aurorabeam",
+    "20:freezedry",
+    "25:icebeam",
+    "30:blizzard",
+    "35:powdersnow",
+    "40:growl",
+    "45:icywind",
+    "50:icepunch",
+    "55:icespinner",
     "tm:facade",
     "tm:frustration",
     "tm:hiddenpower",
@@ -94,7 +105,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -109,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5154,
+  "nationalPokedexNumber": 5162,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

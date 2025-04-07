@@ -74,7 +74,8 @@
     "41:spitup",
     "45:doubleedge",
     "52:thunderbolt",
-    "58:wildcharge"
+    "58:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3352,
+  "nationalPokedexNumber": 3360,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

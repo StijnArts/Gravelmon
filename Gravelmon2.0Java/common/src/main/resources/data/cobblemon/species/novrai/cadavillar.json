@@ -136,7 +136,8 @@
     "tm:electroweb",
     "tm:harden",
     "tm:perishsong",
-    "tm:extrasensory"
+    "tm:extrasensory",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5031,
+  "nationalPokedexNumber": 5039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

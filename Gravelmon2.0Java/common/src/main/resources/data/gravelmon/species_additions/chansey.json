@@ -149,7 +149,8 @@
         "egg:doublehit",
         "egg:heavyslam",
         "egg:selfdestruct",
-        "egg:explosion"
+        "egg:explosion",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -385,7 +386,8 @@
         "tm:present",
         "tm:aromatherapy",
         "tm:naturalgift",
-        "tm:mudbomb"
+        "tm:mudbomb",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -583,7 +585,8 @@
         "egg:outrage",
         "egg:revenge",
         "egg:wakeupslap",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",

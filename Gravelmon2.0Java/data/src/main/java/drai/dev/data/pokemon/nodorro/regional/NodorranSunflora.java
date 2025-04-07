@@ -27,11 +27,16 @@ public class NodorranSunflora extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FLORAL).duringDaytime().canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sunflora");
-
+        addAdditionalEvolution("sunkern",new EvolutionEntry("nodorransunflora", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"suncada"))) );
     }
 
 

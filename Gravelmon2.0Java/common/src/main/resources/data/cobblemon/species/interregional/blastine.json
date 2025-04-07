@@ -72,7 +72,8 @@
     "32:screech",
     "36:slash",
     "40:metalsound",
-    "44:thrash"
+    "44:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1434,
+  "nationalPokedexNumber": 1437,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

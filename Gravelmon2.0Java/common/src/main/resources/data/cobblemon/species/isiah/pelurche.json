@@ -73,7 +73,8 @@
     "34:yawn",
     "36:takedown",
     "40:suckerpunch",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4251,
+  "nationalPokedexNumber": 4259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

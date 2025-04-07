@@ -73,7 +73,8 @@
     "45:falsesurrender",
     "50:inferno",
     "55:outrage",
-    "60:foulplay"
+    "60:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5295,
+  "nationalPokedexNumber": 5303,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

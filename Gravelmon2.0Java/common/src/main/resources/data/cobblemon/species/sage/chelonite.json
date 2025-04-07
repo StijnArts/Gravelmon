@@ -145,7 +145,8 @@
     "egg:moonlight",
     "egg:sandtomb",
     "egg:twister",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

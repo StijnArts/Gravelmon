@@ -67,7 +67,8 @@
     "25:shockwave",
     "34:lightscreen",
     "39:thunderbolt",
-    "43:crunch"
+    "43:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4410,
+  "nationalPokedexNumber": 4418,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

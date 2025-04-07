@@ -60,7 +60,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:flash"
+    "1:flash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1914,
+  "nationalPokedexNumber": 1917,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

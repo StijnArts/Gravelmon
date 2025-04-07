@@ -61,7 +61,27 @@
   "moves": [
     "1:confusion",
     "1:allyswitch",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:healbell",
+    "1:nastyplot",
+    "4:psybeam",
+    "4:wish",
+    "4:agility",
+    "7:futuresight",
+    "7:quickattack",
+    "10:psychic",
+    "10:swordsdance",
+    "13:psyshock",
+    "16:psychoboost",
+    "19:confusion",
+    "22:growl",
+    "25:psybeam",
+    "28:futuresight",
+    "31:psychic",
+    "34:zenheadbutt",
+    "39:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -76,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2526,
+  "nationalPokedexNumber": 2534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

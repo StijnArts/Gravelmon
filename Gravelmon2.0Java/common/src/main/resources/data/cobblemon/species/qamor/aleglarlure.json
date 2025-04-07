@@ -75,7 +75,8 @@
     "43:punishment",
     "49:counter",
     "56:quash",
-    "61:muddywater"
+    "61:muddywater",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4054,
+  "nationalPokedexNumber": 4062,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

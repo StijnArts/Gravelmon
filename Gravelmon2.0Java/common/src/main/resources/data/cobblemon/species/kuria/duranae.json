@@ -82,7 +82,8 @@
     "48:bugbuzz",
     "53:shellsmash",
     "57:gunkshot",
-    "60:fissure"
+    "60:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4127,
+  "nationalPokedexNumber": 4135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

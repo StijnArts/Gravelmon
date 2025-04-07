@@ -72,7 +72,8 @@
     "37:cottonguard",
     "40:hypervoice",
     "44:sleeptalk",
-    "49:dazzlinggleam"
+    "49:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5239,
+  "nationalPokedexNumber": 5247,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -90,7 +90,8 @@
     "tm:mirrorshot",
     "tm:irondefense",
     "tm:irontail",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1505,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

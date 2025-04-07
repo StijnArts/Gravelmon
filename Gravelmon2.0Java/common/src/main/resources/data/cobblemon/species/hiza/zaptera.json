@@ -73,7 +73,8 @@
     "27:dualwingbeat",
     "32:agility",
     "37:voltswitch",
-    "43:discharge"
+    "43:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2370,
+  "nationalPokedexNumber": 2378,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

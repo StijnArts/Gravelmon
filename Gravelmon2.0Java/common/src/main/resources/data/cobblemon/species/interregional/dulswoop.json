@@ -77,7 +77,8 @@
     "47:snowscape",
     "54:weatherball",
     "61:crunch",
-    "68:blizzard"
+    "68:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1442,
+  "nationalPokedexNumber": 1445,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

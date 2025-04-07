@@ -84,7 +84,8 @@
     "tm:dragondance",
     "tm:calmmind",
     "tm:irontail",
-    "tm:assist"
+    "tm:assist",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3998,
+  "nationalPokedexNumber": 4006,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

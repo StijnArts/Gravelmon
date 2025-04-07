@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "10:quickattack",
+    "15:flamecharge",
+    "20:firepunch",
+    "25:willowisp",
+    "30:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5393,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

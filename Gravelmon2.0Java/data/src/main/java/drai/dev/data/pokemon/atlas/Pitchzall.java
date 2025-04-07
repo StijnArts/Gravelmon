@@ -84,7 +84,7 @@ public class Pitchzall extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORM_THROW,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

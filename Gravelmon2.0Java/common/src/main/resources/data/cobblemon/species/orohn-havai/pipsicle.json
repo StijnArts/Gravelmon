@@ -76,7 +76,8 @@
     "38:mirrorcoat",
     "44:icebeam",
     "52:blizzard",
-    "60:sheercold"
+    "60:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3023,
+  "nationalPokedexNumber": 3031,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

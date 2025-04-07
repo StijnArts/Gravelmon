@@ -12,7 +12,7 @@ public class Blockodile extends drai.dev.data.pokemon.Pokemon {
                 stats,
                 List.of(Ability.DRY_SKIN,Ability.ROCK_HEAD), Ability.STRONG_JAW,
                 10, 153,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 130,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,7 +22,11 @@ public class Blockodile extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MOUNTAIN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Blockodile");

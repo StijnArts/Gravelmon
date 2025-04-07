@@ -17,7 +17,7 @@ public class Dynabit extends drai.dev.data.pokemon.Pokemon {
                         117),
                 List.of(Ability.OWN_TEMPO,Ability.QUICK_FEET), Ability.MOTOR_DRIVE,
                 6, 95,
-                new Stats(0,0,0,0,0,2), 0,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Dynabit extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TEMPERATE).isThundering()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dynabit");

@@ -112,7 +112,8 @@
     "egg:headbutt",
     "egg:sleeptalk",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4615,
+  "nationalPokedexNumber": 4623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

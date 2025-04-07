@@ -122,7 +122,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -222,7 +223,8 @@
         "7:absorb",
         "31:sludge",
         "33:pollenpuff",
-        "1:stringshot"
+        "1:stringshot",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",
@@ -393,7 +395,8 @@
         "tm:healingwish",
         "tm:leafstorm",
         "tm:naturepower",
-        "tm:whirlwind"
+        "tm:whirlwind",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

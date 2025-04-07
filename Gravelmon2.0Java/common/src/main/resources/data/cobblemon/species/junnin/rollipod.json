@@ -92,7 +92,8 @@
     "tm:rest",
     "tm:stringshot",
     "tm:mudsport",
-    "tm:toxicthread"
+    "tm:toxicthread",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2431,
+  "nationalPokedexNumber": 2439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

@@ -91,7 +91,8 @@
     "46:bounce",
     "47:overheat",
     "54:doubleedge",
-    "62:flareblitz"
+    "62:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "realidea_system",

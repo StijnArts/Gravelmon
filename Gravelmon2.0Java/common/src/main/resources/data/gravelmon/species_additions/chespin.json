@@ -93,6 +93,7 @@
         "tm:focusblast",
         "tm:gammaray",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -139,7 +140,8 @@
         "egg:wideguard",
         "egg:poweruppunch",
         "egg:flash",
-        "egg:spikyshield"
+        "egg:spikyshield",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -260,7 +262,8 @@
         "egg:quickguard",
         "egg:rollout",
         "egg:spikes",
-        "egg:synthesis"
+        "egg:synthesis",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

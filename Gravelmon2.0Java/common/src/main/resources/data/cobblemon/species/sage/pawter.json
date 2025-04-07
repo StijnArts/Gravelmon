@@ -138,7 +138,8 @@
     "egg:icefang",
     "egg:lastresort",
     "egg:lick",
-    "egg:mist"
+    "egg:mist",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -75,7 +75,8 @@
     "47:lightscreen",
     "50:discharge",
     "60:haze",
-    "65:hydropump"
+    "65:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1646,
+  "nationalPokedexNumber": 1649,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

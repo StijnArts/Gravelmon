@@ -65,7 +65,8 @@
     "1:growl",
     "16:bubblebeam",
     "6:watergun",
-    "10:poisonsting"
+    "10:poisonsting",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1958,
+  "nationalPokedexNumber": 1961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

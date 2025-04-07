@@ -79,7 +79,8 @@
     "36:tailwind",
     "41:dragonclaw",
     "46:thrash",
-    "51:endeavor"
+    "51:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2296,
+  "nationalPokedexNumber": 2304,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

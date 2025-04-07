@@ -102,6 +102,7 @@
         "tm:geomancy",
         "tm:hail",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -144,7 +145,8 @@
         "tm:workup",
         "tm:zenheadbutt",
         "egg:disarmingvoice",
-        "egg:purify"
+        "egg:purify",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -250,7 +252,8 @@
         "41:painsplit",
         "46:extrasensory",
         "50:powergem",
-        "55:overheat"
+        "55:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -428,7 +431,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:waterpulse",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

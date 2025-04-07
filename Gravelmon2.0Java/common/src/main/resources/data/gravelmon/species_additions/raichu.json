@@ -64,7 +64,20 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:ember"
+        "1:ember",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:firespin",
+        "7:shockwave",
+        "7:flamecharge",
+        "10:discharge",
+        "10:flameburst",
+        "13:thunderbolt",
+        "13:flamethrower",
+        "16:thunder",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -150,7 +163,18 @@
       "drops": {},
       "moves": [
         "1:disarmingvoice",
-        "1:bulkup"
+        "1:bulkup",
+        "1:babydolleyes",
+        "1:calmmind",
+        "4:drainingkiss",
+        "4:taunt",
+        "7:playnice",
+        "7:substitute",
+        "10:dazzlinggleam",
+        "10:rest",
+        "13:hypervoice",
+        "16:moonblast",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -312,7 +336,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -490,7 +515,8 @@
         "tutor:tailwind",
         "tutor:thunderpunch",
         "tutor:twister",
-        "egg:volttackle"
+        "egg:volttackle",
+        "tm:terablast"
       ],
       "labels": [
         "insurgence",
@@ -623,7 +649,8 @@
         "tm:rest",
         "tm:round",
         "tm:substitute",
-        "tutor:secretpower"
+        "tutor:secretpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

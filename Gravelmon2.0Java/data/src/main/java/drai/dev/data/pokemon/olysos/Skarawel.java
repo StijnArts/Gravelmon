@@ -46,9 +46,14 @@ public class Skarawel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MINIMIZE,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.DESERT_PYRAMID).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Skarawel");
 
     }

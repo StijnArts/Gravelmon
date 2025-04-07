@@ -70,7 +70,8 @@
     "30:earthpower",
     "35:strengthsap",
     "40:leafstorm",
-    "45:rototiller"
+    "45:rototiller",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5211,
+  "nationalPokedexNumber": 5219,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

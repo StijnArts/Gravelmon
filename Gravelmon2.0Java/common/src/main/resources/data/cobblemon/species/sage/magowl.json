@@ -146,7 +146,8 @@
     "egg:cosmicpower",
     "egg:destinybond",
     "egg:psychoshift",
-    "egg:roost"
+    "egg:roost",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

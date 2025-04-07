@@ -138,7 +138,8 @@
     "tm:workup",
     "tm:healingwish",
     "tm:fairywind",
-    "tm:highhorsepower"
+    "tm:highhorsepower",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3367,
+  "nationalPokedexNumber": 3375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

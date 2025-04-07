@@ -67,7 +67,8 @@
     "27:razorwind",
     "32:acrobatics",
     "17:roost",
-    "16:flamecharge"
+    "16:flamecharge",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1956,
+  "nationalPokedexNumber": 1959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

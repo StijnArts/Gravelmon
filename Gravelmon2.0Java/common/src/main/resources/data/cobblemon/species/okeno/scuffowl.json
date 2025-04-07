@@ -74,7 +74,8 @@
     "31:roost",
     "35:takedown",
     "38:drillpeck",
-    "45:bravebird"
+    "45:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4419,
+  "nationalPokedexNumber": 4427,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

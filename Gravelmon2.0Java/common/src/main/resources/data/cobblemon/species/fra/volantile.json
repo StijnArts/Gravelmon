@@ -63,7 +63,22 @@
     "1:mudslap",
     "1:scratch",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:sandattack",
+    "4:dragonrage",
+    "7:mudbomb",
+    "7:dualchop",
+    "10:bulldoze",
+    "10:breakingswipe",
+    "13:dig",
+    "13:dragonclaw",
+    "16:earthquake",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "fra",
@@ -93,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2922,
+  "nationalPokedexNumber": 2930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

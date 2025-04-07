@@ -78,7 +78,8 @@
     "tm:lashout",
     "tm:powerwhip",
     "tm:fellstinger",
-    "tm:psybeam"
+    "tm:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -91,7 +92,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

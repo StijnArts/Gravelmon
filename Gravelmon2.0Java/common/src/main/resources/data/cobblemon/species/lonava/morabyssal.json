@@ -169,7 +169,8 @@
     "tm:glare",
     "tm:coil",
     "tm:hyperfang",
-    "tm:fishiousrend"
+    "tm:fishiousrend",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -184,7 +185,7 @@
   "weight": 2350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3344,
+  "nationalPokedexNumber": 3352,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.5,

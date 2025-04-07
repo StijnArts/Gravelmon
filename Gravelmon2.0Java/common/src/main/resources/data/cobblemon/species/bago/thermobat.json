@@ -7,7 +7,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "bombat",
   "baseScale": 0.0421875,
   "cannotDynamax": false,
   "abilities": [
@@ -61,13 +60,19 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:swordsdance",
+    "4:quickattack",
+    "7:flamecharge",
+    "10:firepunch",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
     "not_modeled",
-    "fakemon",
-    "fakemonevolution",
     "instagram",
     "instagram"
   ],
@@ -93,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2805,
+  "nationalPokedexNumber": 2813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

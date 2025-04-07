@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "1:growl",
+    "10:confuseray",
+    "10:quickattack",
+    "15:hex",
+    "15:flamecharge",
+    "20:shadowclaw",
+    "20:firepunch",
+    "25:phantomforce",
+    "25:willowisp",
+    "30:poltergeist",
+    "30:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6017,
+  "nationalPokedexNumber": 6025,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

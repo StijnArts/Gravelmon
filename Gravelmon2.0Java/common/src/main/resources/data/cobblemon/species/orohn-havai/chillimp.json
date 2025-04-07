@@ -73,7 +73,8 @@
     "36:doubleteam",
     "38:zenheadbutt",
     "41:iciclecrash",
-    "46:doubleedge"
+    "46:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

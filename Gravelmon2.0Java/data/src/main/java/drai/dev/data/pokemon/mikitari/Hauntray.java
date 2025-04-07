@@ -23,7 +23,8 @@ public class Hauntray extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_2),
                 List.of("When sailing on the sea at night, a small blue light can be observed under the water. This is a school of Hauntrays."),
-                List.of(),
+                List.of(new EvolutionEntry("phantabys", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
@@ -112,9 +113,15 @@ public class Hauntray extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).belowY(40)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Hauntray");
 
     }

@@ -85,7 +85,8 @@
     "tm:brine",
     "tm:aquaring",
     "tm:bravebird",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2949,
+  "nationalPokedexNumber": 2957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

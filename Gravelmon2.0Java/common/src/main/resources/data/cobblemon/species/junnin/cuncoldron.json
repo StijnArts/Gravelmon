@@ -96,7 +96,8 @@
     "tm:sludgewave",
     "tm:toxic",
     "tm:rest",
-    "tm:scald"
+    "tm:scald",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -111,7 +112,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2453,
+  "nationalPokedexNumber": 2461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

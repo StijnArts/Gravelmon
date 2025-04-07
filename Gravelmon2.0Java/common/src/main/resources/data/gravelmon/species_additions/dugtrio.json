@@ -67,7 +67,29 @@
         "1:mudslap",
         "1:watergun",
         "1:shoreup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:sandattack",
+        "1:tailwhip",
+        "1:bulkup",
+        "1:calmmind",
+        "4:mudshot",
+        "4:bubblebeam",
+        "4:calmmind",
+        "4:taunt",
+        "7:mudbomb",
+        "7:brine",
+        "7:taunt",
+        "7:substitute",
+        "10:bulldoze",
+        "10:surf",
+        "10:substitute",
+        "10:rest",
+        "13:scorchingsands",
+        "13:chillingwater",
+        "13:rest",
+        "16:earthpower",
+        "16:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -223,7 +245,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -377,7 +400,8 @@
         "tm:suckerpunch",
         "tm:charm",
         "tm:magicalleaf",
-        "tm:earthpower"
+        "tm:earthpower",
+        "tm:terablast"
       ],
       "labels": [
         "nosto",
@@ -487,7 +511,8 @@
         "42:fling",
         "46:earthquake",
         "51:shadowclaw",
-        "56:destinybond"
+        "56:destinybond",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -654,7 +679,8 @@
         "tutor:snore",
         "tutor:suckerpunch",
         "tutor:superfang",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -808,7 +834,8 @@
         "egg:headbutt",
         "egg:finalgambit",
         "egg:memento",
-        "egg:honeclaws"
+        "egg:honeclaws",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -925,7 +952,8 @@
         "egg:pursuit",
         "egg:reversal",
         "egg:screech",
-        "egg:uproar"
+        "egg:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

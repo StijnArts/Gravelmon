@@ -110,7 +110,8 @@
     "tm:taunt",
     "tm:toxic",
     "tm:roost",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -123,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5141,
+  "nationalPokedexNumber": 5149,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

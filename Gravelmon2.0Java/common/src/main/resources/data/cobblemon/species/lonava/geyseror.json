@@ -106,7 +106,8 @@
     "tm:rollout",
     "tm:superpower",
     "tm:firespin",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -121,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3327,
+  "nationalPokedexNumber": 3335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

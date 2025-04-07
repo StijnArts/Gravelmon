@@ -70,7 +70,8 @@
     "28:featherdance",
     "33:bubblebeam",
     "37:glare",
-    "42:crunch"
+    "42:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3070,
+  "nationalPokedexNumber": 3078,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

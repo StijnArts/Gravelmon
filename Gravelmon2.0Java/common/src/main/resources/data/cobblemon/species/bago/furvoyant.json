@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "4:psybeam",
+    "4:taunt",
+    "7:futuresight",
+    "7:substitute",
+    "10:psychic",
+    "10:rest",
+    "13:psyshock",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -78,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2794,
+  "nationalPokedexNumber": 2802,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

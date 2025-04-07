@@ -105,7 +105,8 @@
     "tm:workup",
     "tm:painsplit",
     "tm:rockblast",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

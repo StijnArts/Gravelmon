@@ -76,7 +76,8 @@
     "44:synchronoise",
     "50:calmmind",
     "56:futuresight",
-    "60:electricterrain"
+    "60:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1684,
+  "nationalPokedexNumber": 1687,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -77,7 +77,8 @@
     "egg:batonpass",
     "egg:stringshot",
     "egg:synthesis",
-    "egg:curse"
+    "egg:curse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2091,
+  "nationalPokedexNumber": 2094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

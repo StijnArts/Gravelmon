@@ -137,7 +137,8 @@
     "egg:crushclaw",
     "egg:megadrain",
     "egg:sandstorm",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2009,
+  "nationalPokedexNumber": 2012,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

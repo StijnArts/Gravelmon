@@ -79,7 +79,8 @@
     "tm:whirlwind",
     "tm:yawn",
     "tm:snore",
-    "tm:moonlight"
+    "tm:moonlight",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4442,
+  "nationalPokedexNumber": 4450,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

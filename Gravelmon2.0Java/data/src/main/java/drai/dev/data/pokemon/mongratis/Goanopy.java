@@ -15,7 +15,7 @@ public class Goanopy extends drai.dev.data.pokemon.Pokemon {
                         62,
                         76,
                         54),
-                List.of(Ability.DRY_SKIN,Ability.BEAST_BOOST), Ability.HYDRATION,
+                List.of(Ability.DRY_SKIN), Ability.HYDRATION,
                 11, 245,
                 new Stats(1,0,0,0,1,0), 45,
                 0.875,
@@ -23,7 +23,8 @@ public class Goanopy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Goanopy spend most of their time resting on the wide bows of tree branches, soaking up the sun, and only descend to hunt for prey. To discourage scavengers, they haul their meals high above the jungle floor before eating them."),
-                List.of(),
+                List.of(new EvolutionEntry("varanitor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,3),
@@ -91,7 +92,11 @@ public class Goanopy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_TORNADO,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(16).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Goanopy");

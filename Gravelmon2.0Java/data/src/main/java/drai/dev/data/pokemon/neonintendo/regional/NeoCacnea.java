@@ -129,7 +129,7 @@ public class NeoCacnea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORN_FALL,"tm")                        ),
                 List.of(Label.NEO_NINTENDO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

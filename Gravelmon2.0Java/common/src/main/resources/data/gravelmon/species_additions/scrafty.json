@@ -96,6 +96,7 @@
         "tm:falseswipe",
         "tm:firepunch",
         "tm:focusblast",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -123,7 +124,8 @@
         "tm:thunderpunch",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -309,7 +311,8 @@
         "tutor:synthesis",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

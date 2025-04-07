@@ -23,7 +23,8 @@ public class Petidaw extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("This little bird loves shiny things. It often steals goods completely unaware."),
-                List.of(),
+                List.of(new EvolutionEntry("croober", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.PECK,1),
@@ -106,7 +107,11 @@ public class Petidaw extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUASH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(9).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA, Biome.IS_PLAINS, Biome.IS_SPOOKY)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Petidaw");

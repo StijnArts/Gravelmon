@@ -75,7 +75,8 @@
     "47:phantomforce",
     "50:nastyplot",
     "55:bravebird",
-    "62:futuresight"
+    "62:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3315,
+  "nationalPokedexNumber": 3323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

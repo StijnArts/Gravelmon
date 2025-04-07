@@ -75,7 +75,8 @@
     "38:zenheadbutt",
     "41:iciclecrash",
     "46:doubleedge",
-    "50:megahorn"
+    "50:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3964,
+  "nationalPokedexNumber": 3972,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

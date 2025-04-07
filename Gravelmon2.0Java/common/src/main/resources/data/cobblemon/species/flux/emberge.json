@@ -65,7 +65,8 @@
     "1:willowisp",
     "1:astonish",
     "1:ember",
-    "1:softboiled"
+    "1:softboiled",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -78,7 +79,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2135,
+  "nationalPokedexNumber": 2140,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -78,7 +78,8 @@
     "1:sleeptalk",
     "1:yawn",
     "1:playnice",
-    "1:playrough"
+    "1:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5237,
+  "nationalPokedexNumber": 5245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

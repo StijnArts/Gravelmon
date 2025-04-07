@@ -118,7 +118,8 @@
     "tutor:signalbeam",
     "tutor:seedbomb",
     "tutor:gastroacid",
-    "tutor:foulplay"
+    "tutor:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -133,7 +134,7 @@
   "weight": 152,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3704,
+  "nationalPokedexNumber": 3712,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

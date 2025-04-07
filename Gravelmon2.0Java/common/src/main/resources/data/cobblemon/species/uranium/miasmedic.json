@@ -136,7 +136,8 @@
     "egg:captivate",
     "egg:disable",
     "egg:refresh",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -150,7 +151,7 @@
   "weight": 155,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2041,
+  "nationalPokedexNumber": 2044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

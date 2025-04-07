@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "4:confuseray",
+    "8:ominouswind",
+    "12:nightshade",
+    "16:hex",
+    "20:shadowball",
+    "24:lick",
+    "28:growl",
+    "33:confuseray",
+    "36:hex",
+    "40:shadowclaw",
+    "44:phantomforce",
+    "48:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -72,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5180,
+  "nationalPokedexNumber": 5188,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

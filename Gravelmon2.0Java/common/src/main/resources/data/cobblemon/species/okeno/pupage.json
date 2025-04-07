@@ -61,7 +61,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:rest"
+    "1:rest",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4416,
+  "nationalPokedexNumber": 4424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -70,7 +70,8 @@
     "28:hex",
     "34:reflect",
     "40:shadowball",
-    "45:moonblast"
+    "45:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3317,
+  "nationalPokedexNumber": 3325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

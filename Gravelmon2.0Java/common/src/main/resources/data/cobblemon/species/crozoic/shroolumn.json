@@ -69,7 +69,8 @@
     "1:ingrain",
     "1:chloroblast",
     "1:mudbomb",
-    "1:healblock"
+    "1:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -82,7 +83,7 @@
   "weight": 1650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3250,
+  "nationalPokedexNumber": 3258,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

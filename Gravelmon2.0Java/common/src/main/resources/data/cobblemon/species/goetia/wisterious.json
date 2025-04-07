@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "10:absorb",
+    "15:trailblaze",
+    "20:gigadrain",
+    "25:seedbomb",
+    "30:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5955,
+  "nationalPokedexNumber": 5963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

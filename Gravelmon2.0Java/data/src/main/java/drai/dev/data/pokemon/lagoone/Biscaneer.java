@@ -41,7 +41,7 @@ public class Biscaneer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,73)               ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.SHIP_WRECK),

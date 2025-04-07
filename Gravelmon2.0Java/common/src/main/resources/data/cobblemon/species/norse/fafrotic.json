@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "4:charge",
+    "4:taunt",
+    "7:thunderpunch",
+    "7:substitute",
+    "10:discharge",
+    "10:rest",
+    "13:wildcharge",
+    "16:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2562,
+  "nationalPokedexNumber": 2570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

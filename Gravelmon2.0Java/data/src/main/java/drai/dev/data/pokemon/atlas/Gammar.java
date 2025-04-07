@@ -98,7 +98,7 @@ public class Gammar extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 24, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

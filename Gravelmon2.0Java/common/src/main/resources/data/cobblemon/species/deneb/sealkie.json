@@ -125,7 +125,8 @@
     "egg:uproar",
     "egg:waterpulse",
     "egg:yawn",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4582,
+  "nationalPokedexNumber": 4590,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

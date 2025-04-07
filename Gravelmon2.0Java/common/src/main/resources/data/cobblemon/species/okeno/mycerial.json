@@ -89,7 +89,8 @@
     "tm:stunspore",
     "tm:clearsmog",
     "tm:nightmare",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4481,
+  "nationalPokedexNumber": 4489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

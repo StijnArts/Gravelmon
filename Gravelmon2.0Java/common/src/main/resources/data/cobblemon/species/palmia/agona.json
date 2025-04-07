@@ -64,7 +64,22 @@
     "1:poisonsting",
     "1:scratch",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:venoshock",
+    "4:dragonrage",
+    "7:poisontail",
+    "7:dualchop",
+    "10:toxicspikes",
+    "10:breakingswipe",
+    "13:sludgebomb",
+    "13:dragonclaw",
+    "16:poisonjab",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2661,
+  "nationalPokedexNumber": 2669,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

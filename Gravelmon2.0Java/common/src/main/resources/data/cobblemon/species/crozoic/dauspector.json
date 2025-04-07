@@ -64,7 +64,8 @@
     "1:rockblast",
     "1:steelwing",
     "1:thief",
-    "1:wingattack"
+    "1:wingattack",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -77,7 +78,7 @@
   "weight": 320,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3268,
+  "nationalPokedexNumber": 3276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

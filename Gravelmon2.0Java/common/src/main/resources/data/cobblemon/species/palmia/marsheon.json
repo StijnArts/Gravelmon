@@ -68,7 +68,14 @@
     ]
   },
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:sandattack",
+    "4:mudshot",
+    "7:mudbomb",
+    "10:bulldoze",
+    "13:scorchingsands",
+    "16:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -83,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2644,
+  "nationalPokedexNumber": 2652,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

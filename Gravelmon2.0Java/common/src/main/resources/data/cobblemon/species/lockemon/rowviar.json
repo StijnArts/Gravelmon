@@ -73,7 +73,8 @@
     "egg:acupressure",
     "egg:nightslash",
     "egg:slash",
-    "egg:thrash"
+    "egg:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3389,
+  "nationalPokedexNumber": 3397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

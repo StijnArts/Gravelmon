@@ -122,7 +122,8 @@
     "tm:drillrun",
     "tm:horndrill",
     "tm:extremespeed",
-    "tm:smartstrike"
+    "tm:smartstrike",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5137,
+  "nationalPokedexNumber": 5145,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

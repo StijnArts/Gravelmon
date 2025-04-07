@@ -142,7 +142,8 @@
     "tm:wringout",
     "tm:discharge",
     "tm:poisonsting",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4968,
+  "nationalPokedexNumber": 4976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

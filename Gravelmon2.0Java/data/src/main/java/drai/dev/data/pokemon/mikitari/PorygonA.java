@@ -119,11 +119,15 @@ public class PorygonA extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TERA_BLAST,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky().setRequiredBlock("cobblemon:pc").build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porygon-A");
-
+        addAdditionalEvolution("porygon", new EvolutionEntry("porygona", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dubious_disc"))));
     }
 
 

@@ -122,7 +122,8 @@
         "egg:storedpower",
         "egg:dazzlinggleam",
         "egg:magnetrise",
-        "egg:flashcannon"
+        "egg:flashcannon",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

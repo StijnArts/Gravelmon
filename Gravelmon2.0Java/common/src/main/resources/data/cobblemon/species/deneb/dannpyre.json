@@ -102,6 +102,7 @@
     "egg:magiccoat",
     "tm:frustration",
     "tm:aerialace",
+    "tm:glorywing",
     "tm:fly",
     "egg:acrobatics",
     "egg:razorwind",
@@ -114,7 +115,8 @@
     "egg:steelwing",
     "egg:featherdance",
     "egg:whirlwind",
-    "egg:magiccoat"
+    "egg:magiccoat",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -129,7 +131,7 @@
   "weight": 147,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4609,
+  "nationalPokedexNumber": 4617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

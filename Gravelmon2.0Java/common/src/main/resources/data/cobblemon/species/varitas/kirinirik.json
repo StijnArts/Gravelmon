@@ -76,7 +76,8 @@
     "1:dragonpulse",
     "48:zenheadbutt",
     "60:outrage",
-    "54:scaryface"
+    "54:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1938,
+  "nationalPokedexNumber": 1941,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

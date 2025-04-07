@@ -59,7 +59,13 @@
   ],
   "drops": {},
   "moves": [
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:screech",
+    "4:irontail",
+    "7:smartstrike",
+    "10:ironhead",
+    "13:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -74,7 +80,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2586,
+  "nationalPokedexNumber": 2594,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

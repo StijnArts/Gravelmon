@@ -137,7 +137,8 @@
         "egg:spiderweb",
         "egg:nightslash",
         "egg:assurance",
-        "egg:poisonjab"
+        "egg:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -279,7 +280,8 @@
         "tutor:secretpower",
         "tutor:signalbeam",
         "tutor:snore",
-        "tutor:strugglebug"
+        "tutor:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

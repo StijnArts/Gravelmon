@@ -81,7 +81,8 @@
     "41:blizzard",
     "46:sheercold",
     "51:superpower",
-    "1:sacredsword"
+    "1:sacredsword",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3182,
+  "nationalPokedexNumber": 3190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

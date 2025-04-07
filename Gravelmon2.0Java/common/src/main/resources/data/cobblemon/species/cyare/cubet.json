@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "10:icywind",
+    "10:taunt",
+    "15:aurorabeam",
+    "15:substitute",
+    "20:freezedry",
+    "20:rest",
+    "25:icebeam",
+    "30:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -88,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5364,
+  "nationalPokedexNumber": 5372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

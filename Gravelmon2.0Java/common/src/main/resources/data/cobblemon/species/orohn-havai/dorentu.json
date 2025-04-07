@@ -76,7 +76,8 @@
     "tm:bite",
     "tm:agility",
     "tm:superfang",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2955,
+  "nationalPokedexNumber": 2963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

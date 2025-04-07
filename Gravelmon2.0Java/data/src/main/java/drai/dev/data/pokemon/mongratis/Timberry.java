@@ -23,7 +23,8 @@ public class Timberry extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Concept, design, name, type, sprites by Magiscarf on Deviant Art Originally made for Magiscarf's Calta Dex. Evo Line: Complete"),
-                List.of(),
+                List.of(new EvolutionEntry("howliage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,1),
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
@@ -31,7 +32,11 @@ public class Timberry extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,1)                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Timberry");

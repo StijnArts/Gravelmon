@@ -71,7 +71,8 @@
     "27:quash",
     "35:wideguard",
     "40:earthpower",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3469,
+  "nationalPokedexNumber": 3477,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

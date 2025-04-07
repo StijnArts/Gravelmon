@@ -76,7 +76,8 @@
     "45:zenheadbutt",
     "49:iciclecrash",
     "55:doubleedge",
-    "61:megahorn"
+    "61:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5251,
+  "nationalPokedexNumber": 5259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

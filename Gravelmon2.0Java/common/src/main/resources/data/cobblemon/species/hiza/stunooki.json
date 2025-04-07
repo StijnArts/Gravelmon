@@ -73,7 +73,8 @@
     "45:bulletseed",
     "50:crunch",
     "55:aurawheel",
-    "60:thrash"
+    "60:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2316,
+  "nationalPokedexNumber": 2324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -141,7 +141,8 @@
     "tm:steelroller",
     "tm:quickattack",
     "tm:poisongas",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4884,
+  "nationalPokedexNumber": 4892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

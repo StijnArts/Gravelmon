@@ -130,7 +130,8 @@
         "tm:taunt",
         "tm:terrainpulse",
         "tm:toxic",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

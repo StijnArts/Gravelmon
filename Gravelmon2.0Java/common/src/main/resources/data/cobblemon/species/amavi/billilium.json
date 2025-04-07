@@ -125,7 +125,8 @@
     "tm:counter",
     "tm:stomp",
     "tm:autotomize",
-    "tm:flail"
+    "tm:flail",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5206,
+  "nationalPokedexNumber": 5214,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

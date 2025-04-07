@@ -125,7 +125,8 @@
     "tm:supersonic",
     "tm:swagger",
     "tm:acid",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2435,
+  "nationalPokedexNumber": 2443,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

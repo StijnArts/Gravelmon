@@ -74,7 +74,8 @@
     "44:dazzlinggleam",
     "47:lightscreen",
     "51:psychic",
-    "62:trickroom"
+    "62:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5368,
+  "nationalPokedexNumber": 5376,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

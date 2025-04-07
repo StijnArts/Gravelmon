@@ -127,7 +127,8 @@
     "tm:suckerpunch",
     "tm:autotomize",
     "tm:flamecharge",
-    "tm:dragontail"
+    "tm:dragontail",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5055,
+  "nationalPokedexNumber": 5063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

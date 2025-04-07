@@ -69,7 +69,18 @@
   },
   "moves": [
     "1:gust",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "4:aircutter",
+    "4:taunt",
+    "7:wingattack",
+    "7:substitute",
+    "10:airslash",
+    "10:rest",
+    "13:drillpeck",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -84,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2536,
+  "nationalPokedexNumber": 2544,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

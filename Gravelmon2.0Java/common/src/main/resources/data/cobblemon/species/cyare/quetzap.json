@@ -110,7 +110,8 @@
     "tm:uturn",
     "tm:voltswitch",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5335,
+  "nationalPokedexNumber": 5343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -64,7 +64,22 @@
     "1:thundershock",
     "1:bite",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:charge",
+    "4:payback",
+    "7:shockwave",
+    "7:nightdaze",
+    "10:discharge",
+    "10:snarl",
+    "13:thunderbolt",
+    "13:knockoff",
+    "16:thunder",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2601,
+  "nationalPokedexNumber": 2609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -125,7 +125,8 @@
     "tm:smellingsalts",
     "tm:uproar",
     "tm:whirlwind",
-    "tm:wish"
+    "tm:wish",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -140,7 +141,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2449,
+  "nationalPokedexNumber": 2457,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

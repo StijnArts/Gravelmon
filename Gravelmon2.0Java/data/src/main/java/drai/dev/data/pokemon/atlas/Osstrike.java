@@ -83,7 +83,7 @@ public class Osstrike extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 48, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 48, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

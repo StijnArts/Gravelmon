@@ -45,7 +45,7 @@ public class Stalagrunt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

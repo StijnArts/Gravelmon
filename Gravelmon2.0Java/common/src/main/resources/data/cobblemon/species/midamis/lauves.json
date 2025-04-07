@@ -71,7 +71,8 @@
     "35:rapidspin",
     "39:healbell",
     "43:solarbeam",
-    "47:substitute"
+    "47:substitute",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4328,
+  "nationalPokedexNumber": 4336,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

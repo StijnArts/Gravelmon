@@ -63,7 +63,22 @@
     "1:tackle",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:screech",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:round",
+    "10:irontail",
+    "15:swift",
+    "15:smartstrike",
+    "20:uproar",
+    "20:mirrorshot",
+    "25:hypervoice",
+    "25:flashcannon",
+    "30:hyperbeam",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5389,
+  "nationalPokedexNumber": 5397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -66,7 +66,8 @@
     "1:flail",
     "1:bite",
     "1:splash",
-    "1:metalsound"
+    "1:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3258,
+  "nationalPokedexNumber": 3266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

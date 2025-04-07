@@ -73,7 +73,8 @@ public class Skindling extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Skindling's back is covered with a flammable substance. It sets itself on fire to scare away predators."),
-                List.of(),
+                List.of(new EvolutionEntry("skingnite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -156,7 +157,11 @@ public class Skindling extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RUSH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OLD_GROWTH_TAIGA)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Skindling");

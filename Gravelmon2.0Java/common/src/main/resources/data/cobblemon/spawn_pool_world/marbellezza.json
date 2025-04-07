@@ -6,11 +6,14 @@
     {
       "id": "marbellezza-01",
       "pokemon": "marbellezza",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"

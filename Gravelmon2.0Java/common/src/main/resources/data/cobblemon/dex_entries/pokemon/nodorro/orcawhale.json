@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:orcawhale",
+  "speciesId": "cobblemon:orcawhale",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

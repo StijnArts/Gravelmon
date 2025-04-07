@@ -79,7 +79,8 @@
     "egg:drillpeck",
     "egg:headsmash",
     "egg:furyattack",
-    "egg:ancientpower"
+    "egg:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2139,
+  "nationalPokedexNumber": 2147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

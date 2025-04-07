@@ -135,7 +135,8 @@
         "egg:acrobatics",
         "egg:stoneedge",
         "egg:iciclecrash",
-        "egg:workup"
+        "egg:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

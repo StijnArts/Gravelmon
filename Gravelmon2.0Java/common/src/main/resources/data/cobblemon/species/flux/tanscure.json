@@ -85,7 +85,8 @@
     "egg:firefang",
     "egg:icefang",
     "egg:thunderfang",
-    "egg:doubleedge"
+    "egg:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -100,7 +101,7 @@
   "weight": 385,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2109,
+  "nationalPokedexNumber": 2112,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

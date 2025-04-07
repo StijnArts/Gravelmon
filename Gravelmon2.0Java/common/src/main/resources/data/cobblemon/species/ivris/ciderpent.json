@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "1:leer",
+    "4:megadrain",
+    "4:twister",
+    "7:magicalleaf",
+    "7:dragonbreath",
+    "10:gigadrain",
+    "10:breakingswipe",
+    "13:energyball",
+    "13:dragonpulse",
+    "16:solarbeam",
+    "16:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3648,
+  "nationalPokedexNumber": 3656,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

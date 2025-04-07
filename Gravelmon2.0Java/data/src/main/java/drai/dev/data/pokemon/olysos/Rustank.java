@@ -18,12 +18,13 @@ public class Rustank extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.STEELWORKER), Ability.STEAM_ENGINE,
                 11, 1200,
                 new Stats(0,2,0,0,0,0), 45,
-                0.0,
+                -1,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its stubborn nature is matched only by its steely resolve, and it is said that nothing can stand in its way when it sets its mind to a task. The rust-colored metal of its body is constantly heated by the coals and firestones it consumes, and its eyes glow yellow from the intense heat. Rustank's ears, tail, and mane are made of pipes that can unleash hot steam or smoke, and it can use the openings on its abdomen and legs to release bursts of scorching heat."),
-                List.of(),
+                List.of(new EvolutionEntry("steamare", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -62,7 +63,11 @@ public class Rustank extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVERSAL,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rustank");

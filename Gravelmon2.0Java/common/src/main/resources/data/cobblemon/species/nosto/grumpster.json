@@ -136,7 +136,8 @@
     "tm:rest",
     "tm:rocktomb",
     "tm:gyroball",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3460,
+  "nationalPokedexNumber": 3468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -11,8 +11,8 @@ public class Nemesusa extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.DRAGON,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,9 +22,15 @@ public class Nemesusa extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_COLD_OCEAN)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Nemesusa");
 
     }

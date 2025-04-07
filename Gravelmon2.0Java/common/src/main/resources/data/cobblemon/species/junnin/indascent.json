@@ -100,7 +100,8 @@
     "tm:smog",
     "tm:poisongas",
     "tm:smokescreen",
-    "tm:withdraw"
+    "tm:withdraw",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2458,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

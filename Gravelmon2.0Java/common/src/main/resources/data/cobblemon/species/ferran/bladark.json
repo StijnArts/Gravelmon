@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:watergun"
+    "1:watergun",
+    "1:leer",
+    "1:tailwhip",
+    "4:payback",
+    "4:bubblebeam",
+    "7:nightslash",
+    "7:aquatail",
+    "10:crunch",
+    "10:surf",
+    "13:knockoff",
+    "13:waterfall",
+    "16:suckerpunch",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5448,
+  "nationalPokedexNumber": 5456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

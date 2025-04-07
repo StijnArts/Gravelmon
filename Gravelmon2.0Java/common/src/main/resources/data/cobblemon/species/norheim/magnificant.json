@@ -73,7 +73,8 @@
     "34:signalbeam",
     "38:flamethrower",
     "44:quiverdance",
-    "50:eruption"
+    "50:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3128,
+  "nationalPokedexNumber": 3136,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

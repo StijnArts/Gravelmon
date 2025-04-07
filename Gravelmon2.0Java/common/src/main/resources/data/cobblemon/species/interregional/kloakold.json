@@ -76,7 +76,8 @@
     "40:mist",
     "44:auroraveil",
     "48:freezedry",
-    "52:blizzard"
+    "52:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1433,
+  "nationalPokedexNumber": 1436,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

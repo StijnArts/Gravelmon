@@ -125,7 +125,8 @@
     "tutor:ironhead",
     "tutor:thunderpunch",
     "tutor:earthpower",
-    "tutor:heatwave"
+    "tutor:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3721,
+  "nationalPokedexNumber": 3729,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:mudslap"
+    "1:mudslap",
+    "1:defensecurl",
+    "1:sandattack",
+    "10:rollout",
+    "10:mudshot",
+    "15:ancientpower",
+    "15:mudbomb",
+    "20:powergem",
+    "20:bulldoze",
+    "25:stealthrock",
+    "25:scorchingsands",
+    "30:meteorbeam",
+    "30:earthpower",
+    "35:rockthrow",
+    "35:mudslap",
+    "40:defensecurl",
+    "40:growl",
+    "45:rollout",
+    "45:sandattack",
+    "50:smackdown",
+    "50:mudbomb",
+    "55:rockblast",
+    "55:bulldoze",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4757,
+  "nationalPokedexNumber": 4765,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

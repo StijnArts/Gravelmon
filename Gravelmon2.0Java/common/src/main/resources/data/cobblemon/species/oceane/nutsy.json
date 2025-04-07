@@ -68,7 +68,8 @@
     "1:vinewhip",
     "1:amnesia",
     "1:rockthrow",
-    "1:barrage"
+    "1:barrage",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -81,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1882,
+  "nationalPokedexNumber": 1885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

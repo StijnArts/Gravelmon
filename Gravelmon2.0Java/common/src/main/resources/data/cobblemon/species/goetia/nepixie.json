@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:absorb"
+    "1:absorb",
+    "1:babydolleyes",
+    "1:leer",
+    "10:drainingkiss",
+    "10:megadrain",
+    "15:playnice",
+    "15:magicalleaf",
+    "20:dazzlinggleam",
+    "20:gigadrain",
+    "25:hypervoice",
+    "25:energyball",
+    "30:moonblast",
+    "30:solarbeam",
+    "35:disarmingvoice",
+    "35:leafage",
+    "40:babydolleyes",
+    "40:leer",
+    "45:drainingkiss",
+    "45:absorb",
+    "50:playnice",
+    "50:trailblaze",
+    "55:dazzlinggleam",
+    "55:gigadrain",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5899,
+  "nationalPokedexNumber": 5907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -116,7 +116,8 @@
     "tm:toxic",
     "tm:wildcharge",
     "tm:workup",
-    "tm:headcharge"
+    "tm:headcharge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2445,
+  "nationalPokedexNumber": 2453,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

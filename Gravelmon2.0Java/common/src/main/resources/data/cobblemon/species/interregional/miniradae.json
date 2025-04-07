@@ -75,7 +75,8 @@
     "36:xscissor",
     "40:rockpolish",
     "44:shellsmash",
-    "48:rockwrecker"
+    "48:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1440,
+  "nationalPokedexNumber": 1443,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

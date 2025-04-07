@@ -74,7 +74,8 @@
     "1:mirrorcoat",
     "1:lightscreen",
     "1:reflect",
-    "1:harden"
+    "1:harden",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1893,
+  "nationalPokedexNumber": 1896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

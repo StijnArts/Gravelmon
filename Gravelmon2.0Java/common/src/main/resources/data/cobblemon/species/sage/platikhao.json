@@ -163,7 +163,8 @@
     "egg:slam",
     "egg:smellingsalts",
     "egg:thrash",
-    "egg:tailslap"
+    "egg:tailslap",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

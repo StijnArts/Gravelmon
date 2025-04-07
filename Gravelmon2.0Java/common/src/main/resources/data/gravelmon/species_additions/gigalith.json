@@ -115,7 +115,8 @@
         "tm:weatherball",
         "tm:whirlpool",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -284,7 +285,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -439,7 +441,8 @@
         "tutor:stealthrock",
         "tutor:stompingtantrum",
         "tutor:superpower",
-        "tutor:swagger"
+        "tutor:swagger",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

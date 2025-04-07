@@ -71,7 +71,8 @@
     "32:swallow",
     "42:storedpower",
     "46:gastroacid",
-    "50:explosion"
+    "50:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1754,
+  "nationalPokedexNumber": 1757,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

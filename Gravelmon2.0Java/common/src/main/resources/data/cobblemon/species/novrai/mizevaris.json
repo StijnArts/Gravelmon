@@ -161,7 +161,8 @@
     "tm:aquatail",
     "tm:gravity",
     "tm:cut",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -174,7 +175,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5042,
+  "nationalPokedexNumber": 5050,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

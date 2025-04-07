@@ -156,7 +156,8 @@
         "egg:psyshock",
         "egg:takedown",
         "egg:magnitude",
-        "egg:magiccoat"
+        "egg:magiccoat",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

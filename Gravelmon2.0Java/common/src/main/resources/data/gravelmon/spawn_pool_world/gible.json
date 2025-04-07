@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "12-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -68,7 +68,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "13-34",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
@@ -96,7 +96,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "5-30",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"
@@ -123,7 +123,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "11-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -149,7 +149,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "12-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

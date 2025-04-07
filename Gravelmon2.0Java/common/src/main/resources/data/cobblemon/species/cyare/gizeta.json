@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "10:psybeam",
+    "10:taunt",
+    "15:futuresight",
+    "15:substitute",
+    "20:psychic",
+    "20:rest",
+    "25:psyshock",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -91,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5347,
+  "nationalPokedexNumber": 5355,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

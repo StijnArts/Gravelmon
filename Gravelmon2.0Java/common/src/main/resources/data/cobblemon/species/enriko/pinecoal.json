@@ -76,7 +76,8 @@
     "42:flamethrower",
     "46:woodhammer",
     "54:fireblast",
-    "60:explosion"
+    "60:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1737,
+  "nationalPokedexNumber": 1740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

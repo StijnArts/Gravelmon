@@ -128,7 +128,8 @@
     "tm:mist",
     "tm:bounce",
     "tm:iceshard",
-    "tm:silverwind"
+    "tm:silverwind",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4943,
+  "nationalPokedexNumber": 4951,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

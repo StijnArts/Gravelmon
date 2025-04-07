@@ -92,7 +92,7 @@ public class Douseidon extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

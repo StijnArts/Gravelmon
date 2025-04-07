@@ -23,7 +23,9 @@ public class Impurp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Impurp are mischievous and playful Pokémon that love to prank weary travellers passing through their territories. If they believe their target has a bad sense of humour they will relentlessly taunt them until they are either scared off, or their target vacates their territory."),
-                List.of(),
+                List.of(new EvolutionEntry("nymfusha", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"dusk")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -84,7 +86,11 @@ public class Impurp extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHTMARE,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(9).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Impurp");

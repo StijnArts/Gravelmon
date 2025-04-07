@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"

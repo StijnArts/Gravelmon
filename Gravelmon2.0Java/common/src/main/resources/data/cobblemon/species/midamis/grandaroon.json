@@ -76,7 +76,8 @@
     "tm:sleeppowder",
     "tm:spore",
     "tm:crunch",
-    "tm:ingrain"
+    "tm:ingrain",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4292,
+  "nationalPokedexNumber": 4300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

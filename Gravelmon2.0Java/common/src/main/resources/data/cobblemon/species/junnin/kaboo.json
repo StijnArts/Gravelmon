@@ -82,7 +82,8 @@
     "tm:toxic",
     "tm:rest",
     "tm:flashcannon",
-    "tm:memento"
+    "tm:memento",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2447,
+  "nationalPokedexNumber": 2455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

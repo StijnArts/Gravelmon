@@ -65,7 +65,8 @@
     "1:splash",
     "1:harden",
     "1:tackle",
-    "tm:scaleshot"
+    "tm:scaleshot",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3873,
+  "nationalPokedexNumber": 3881,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

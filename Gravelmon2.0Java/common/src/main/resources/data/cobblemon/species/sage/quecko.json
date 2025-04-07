@@ -118,7 +118,8 @@
     "egg:grasswhistle",
     "egg:growth",
     "egg:powerwhip",
-    "egg:roost"
+    "egg:roost",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

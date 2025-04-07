@@ -73,7 +73,8 @@
     "45:darkpulse",
     "50:nastyplot",
     "54:drillpeck",
-    "60:mirrormove"
+    "60:mirrormove",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3087,
+  "nationalPokedexNumber": 3095,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

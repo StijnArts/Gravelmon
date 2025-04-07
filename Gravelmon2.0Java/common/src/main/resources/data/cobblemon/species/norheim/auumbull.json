@@ -76,7 +76,8 @@
     "1:focusenergy",
     "1:leer",
     "1:scaryface",
-    "1:zenheadbutt"
+    "1:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3225,
+  "nationalPokedexNumber": 3233,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -16,18 +16,27 @@ public class Caramello extends drai.dev.data.pokemon.Pokemon {
                         90,
                         23),
                 List.of(Ability.GOOEY,Ability.STICKY_HOLD), Ability.UNAWARE,
-                0, 0,
+                11, 0,
                 new Stats(0,0,0,0,1,0), 120,
                 0.5,
                 138, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("goopest", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"))),
+                        new EvolutionEntry("shugatrix", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")))),
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Caramello");

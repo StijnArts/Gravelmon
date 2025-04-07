@@ -6,11 +6,14 @@
     {
       "id": "fabelian_ralts-01",
       "pokemon": "ralts fabelian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -115,7 +118,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-24",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands",
@@ -129,6 +132,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_ralts-01",
+      "pokemon": "ralts ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
           ]
         }
       }

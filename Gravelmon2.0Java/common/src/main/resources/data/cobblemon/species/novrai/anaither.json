@@ -143,7 +143,8 @@
     "tm:skillswap",
     "tm:icespinner",
     "tm:hex",
-    "tm:gravity"
+    "tm:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5042,
+  "nationalPokedexNumber": 5050,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

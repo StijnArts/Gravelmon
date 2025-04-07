@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:babydolleyes",
+    "1:growl",
+    "4:drainingkiss",
+    "4:icywind",
+    "7:playnice",
+    "7:aurorabeam",
+    "10:dazzlinggleam",
+    "10:freezedry",
+    "13:hypervoice",
+    "13:icebeam",
+    "16:moonblast",
+    "16:blizzard",
+    "19:disarmingvoice",
+    "19:powdersnow",
+    "22:babydolleyes",
+    "22:growl",
+    "25:drainingkiss",
+    "25:icywind",
+    "28:playnice",
+    "28:icepunch",
+    "31:dazzlinggleam",
+    "31:icespinner",
+    "34:playrough",
+    "34:iceshard",
+    "39:spiritbreak",
+    "39:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3738,
+  "nationalPokedexNumber": 3746,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

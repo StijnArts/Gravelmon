@@ -74,7 +74,8 @@
     "1:embargo",
     "1:honeclaws",
     "1:knockoff",
-    "1:torment"
+    "1:torment",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3211,
+  "nationalPokedexNumber": 3219,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

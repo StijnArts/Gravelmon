@@ -18,7 +18,7 @@ public class Steamare extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.STEELWORKER), Ability.STEAM_ENGINE,
                 25, 5000,
                 new Stats(2,1,0,0,0,0), 25,
-                0.0,
+                -1,
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
@@ -68,7 +68,11 @@ public class Steamare extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVERSAL,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Steamare");

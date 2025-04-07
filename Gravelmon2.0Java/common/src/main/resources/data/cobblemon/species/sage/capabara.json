@@ -157,7 +157,8 @@
     "egg:overheat",
     "egg:quickattack",
     "egg:revenge",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

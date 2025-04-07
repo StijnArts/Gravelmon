@@ -75,7 +75,8 @@
     "44:ironhead",
     "48:entrainment",
     "52:irondefense",
-    "56:guillotine"
+    "56:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3178,
+  "nationalPokedexNumber": 3186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

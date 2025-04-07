@@ -86,7 +86,33 @@
       "drops": {},
       "moves": [
         "1:rockthrow",
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:defensecurl",
+        "1:screech",
+        "4:rollout",
+        "4:irontail",
+        "7:ancientpower",
+        "7:smartstrike",
+        "10:powergem",
+        "10:mirrorshot",
+        "13:stealthrock",
+        "13:flashcannon",
+        "16:meteorbeam",
+        "16:steelbeam",
+        "19:rockthrow",
+        "19:metalclaw",
+        "22:defensecurl",
+        "22:screech",
+        "25:rollout",
+        "25:irontail",
+        "28:smackdown",
+        "28:smartstrike",
+        "31:rockblast",
+        "31:ironhead",
+        "34:stealthrock",
+        "34:meteormash",
+        "39:stoneedge",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -224,7 +250,8 @@
         "tm:weatherball",
         "tm:whirlpool",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -403,7 +430,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -562,7 +590,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:stompingtantrum",
-        "tutor:swagger"
+        "tutor:swagger",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

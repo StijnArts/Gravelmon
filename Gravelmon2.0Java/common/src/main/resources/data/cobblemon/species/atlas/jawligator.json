@@ -138,7 +138,8 @@
     "tm:magicalleaf",
     "tm:thunderfang",
     "tm:icefang",
-    "tm:firefang"
+    "tm:firefang",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5092,
+  "nationalPokedexNumber": 5100,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

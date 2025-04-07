@@ -122,7 +122,8 @@
     "egg:irondefense",
     "egg:ironhead",
     "egg:outrage",
-    "egg:stomp"
+    "egg:stomp",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -135,7 +136,7 @@
   "weight": 1262,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4645,
+  "nationalPokedexNumber": 4653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

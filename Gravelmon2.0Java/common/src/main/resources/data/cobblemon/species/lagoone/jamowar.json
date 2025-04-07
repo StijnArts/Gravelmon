@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:acid"
+    "1:acid",
+    "1:leer",
+    "1:leer",
+    "5:megadrain",
+    "5:clearsmog",
+    "8:magicalleaf",
+    "8:sludge",
+    "12:gigadrain",
+    "12:toxicspikes",
+    "15:energyball",
+    "15:sludgebomb",
+    "19:solarbeam",
+    "19:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -77,7 +90,7 @@
   "weight": 183,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1370,
+  "nationalPokedexNumber": 1372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

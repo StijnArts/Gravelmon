@@ -137,7 +137,8 @@
     "tm:bulletpunch",
     "tm:eruption",
     "tm:smog",
-    "tm:hammerarm"
+    "tm:hammerarm",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4980,
+  "nationalPokedexNumber": 4988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

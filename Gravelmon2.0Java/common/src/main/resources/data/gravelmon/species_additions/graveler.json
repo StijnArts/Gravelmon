@@ -1,5 +1,31 @@
 {
   "target": "cobblemon:graveler",
+  "evolutions": [
+    {
+      "id": "graveler_qualder",
+      "variant": "level_up",
+      "result": "qualder",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:kings_rock",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "forms": [
     {
       "name": "Epoch",
@@ -126,7 +152,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -316,7 +343,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -526,7 +554,8 @@
         "tutor:superpower",
         "tutor:thunderpunch",
         "tutor:trick",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

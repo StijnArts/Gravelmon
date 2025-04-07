@@ -74,7 +74,8 @@
     "34:explosion",
     "39:irondefense",
     "42:gyroball",
-    "45:doubleedge"
+    "45:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3861,
+  "nationalPokedexNumber": 3869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

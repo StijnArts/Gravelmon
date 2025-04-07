@@ -146,7 +146,8 @@
     "tm:uturn",
     "tm:uproar",
     "tm:waterpulse",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -161,7 +162,7 @@
   "weight": 6372,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2080,
+  "nationalPokedexNumber": 2083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

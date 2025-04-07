@@ -129,7 +129,8 @@
     "egg:watersport",
     "egg:amnesia",
     "egg:sleeptalk",
-    "egg:shadowball"
+    "egg:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -144,7 +145,7 @@
   "weight": 2241,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2014,
+  "nationalPokedexNumber": 2017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -63,7 +63,22 @@
     "1:bite",
     "1:ember",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:payback",
+    "4:quickattack",
+    "7:nightslash",
+    "7:flamecharge",
+    "10:crunch",
+    "10:firepunch",
+    "13:knockoff",
+    "13:willowisp",
+    "16:suckerpunch",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3644,
+  "nationalPokedexNumber": 3652,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

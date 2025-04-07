@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:watergun"
+    "1:watergun",
+    "1:growl",
+    "1:tailwhip",
+    "10:quickattack",
+    "10:bubblebeam",
+    "15:flamecharge",
+    "15:aquatail",
+    "20:firepunch",
+    "20:surf",
+    "25:willowisp",
+    "25:waterfall",
+    "30:flareblitz",
+    "30:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4737,
+  "nationalPokedexNumber": 4745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

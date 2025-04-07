@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:absorb"
+    "1:absorb",
+    "1:babydolleyes",
+    "1:leer",
+    "4:drainingkiss",
+    "4:megadrain",
+    "7:playnice",
+    "7:magicalleaf",
+    "10:dazzlinggleam",
+    "10:gigadrain",
+    "13:hypervoice",
+    "13:energyball",
+    "16:moonblast",
+    "16:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2499,
+  "nationalPokedexNumber": 2507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

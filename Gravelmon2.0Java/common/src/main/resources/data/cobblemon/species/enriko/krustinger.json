@@ -75,7 +75,8 @@
     "40:circlethrow",
     "46:amnesia",
     "51:wildcharge",
-    "56:hammerarm"
+    "56:hammerarm",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1645,
+  "nationalPokedexNumber": 1648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

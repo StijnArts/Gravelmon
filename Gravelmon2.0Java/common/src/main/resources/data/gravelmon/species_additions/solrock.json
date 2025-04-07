@@ -149,7 +149,8 @@
         "tm:zenheadbutt",
         "egg:solarblade",
         "egg:photongeyser",
-        "egg:rockblast"
+        "egg:rockblast",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

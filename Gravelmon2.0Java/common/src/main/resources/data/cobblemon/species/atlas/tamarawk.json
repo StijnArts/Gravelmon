@@ -99,7 +99,8 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:followme",
-    "tm:rockwrecker"
+    "tm:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5116,
+  "nationalPokedexNumber": 5124,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

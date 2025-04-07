@@ -63,7 +63,23 @@
     "1:bite",
     "1:tackle",
     "1:quickattack",
-    "1:extremespeed"
+    "1:extremespeed",
+    "1:leer",
+    "1:growl",
+    "1:swordsdance",
+    "1:quickattack",
+    "4:payback",
+    "4:quickattack",
+    "4:swordsdance",
+    "7:nightslash",
+    "7:bite",
+    "10:crunch",
+    "10:takedown",
+    "13:knockoff",
+    "13:crunch",
+    "16:suckerpunch",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2671,
+  "nationalPokedexNumber": 2679,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

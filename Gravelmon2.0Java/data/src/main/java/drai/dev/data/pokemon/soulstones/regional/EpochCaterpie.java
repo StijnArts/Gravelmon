@@ -33,7 +33,7 @@ public class EpochCaterpie extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

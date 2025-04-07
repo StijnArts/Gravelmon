@@ -137,7 +137,8 @@
         "tm:uturn",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -306,7 +307,8 @@
         "egg:encore",
         "egg:poweruppunch",
         "egg:taunt",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -463,6 +465,7 @@
         "tm:mistyterrain",
         "tm:hydropump",
         "tm:blizzard",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [

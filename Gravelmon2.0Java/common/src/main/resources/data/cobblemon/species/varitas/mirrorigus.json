@@ -126,7 +126,8 @@
     "tm:grassknot",
     "tm:round",
     "tm:confide",
-    "tm:infestation"
+    "tm:infestation",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1947,
+  "nationalPokedexNumber": 1950,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

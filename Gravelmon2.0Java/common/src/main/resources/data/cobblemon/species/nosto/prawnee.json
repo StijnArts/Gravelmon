@@ -116,7 +116,8 @@
     "tm:tickle",
     "tm:aquaring",
     "tm:lifedew",
-    "tm:watersport"
+    "tm:watersport",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3459,
+  "nationalPokedexNumber": 3467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

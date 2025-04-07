@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lamprobe",
+  "speciesId": "cobblemon:lamprobe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

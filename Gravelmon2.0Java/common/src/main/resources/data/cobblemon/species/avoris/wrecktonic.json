@@ -82,7 +82,8 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"
+    "69:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1864,
+  "nationalPokedexNumber": 1867,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.375,

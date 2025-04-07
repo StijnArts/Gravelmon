@@ -173,7 +173,8 @@
         "tm:psychoshift",
         "tm:luckychant",
         "tm:nastyplot",
-        "tm:storedpower"
+        "tm:storedpower",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -399,7 +400,8 @@
         "tm:psychoshift",
         "tm:luckychant",
         "tm:nastyplot",
-        "tm:storedpower"
+        "tm:storedpower",
+        "tm:terablast"
       ],
       "labels": [
         "hub",
@@ -604,7 +606,8 @@
         "tm:swordsdance",
         "tm:shadowclaw",
         "tm:icywind",
-        "tm:icebeam"
+        "tm:icebeam",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

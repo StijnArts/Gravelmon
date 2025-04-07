@@ -42,7 +42,7 @@ public class Gumuppi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISHIOUS_REND,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 2, 24, 8, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 2, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

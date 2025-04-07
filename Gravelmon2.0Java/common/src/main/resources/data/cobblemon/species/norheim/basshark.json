@@ -82,7 +82,8 @@
     "tm:flipturn",
     "tm:rest",
     "tm:dive",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3157,
+  "nationalPokedexNumber": 3165,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

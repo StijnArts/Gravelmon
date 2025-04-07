@@ -75,7 +75,8 @@
     "36:rockblast",
     "42:sandstorm",
     "48:stoneedge",
-    "54:explosion"
+    "54:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2329,
+  "nationalPokedexNumber": 2337,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

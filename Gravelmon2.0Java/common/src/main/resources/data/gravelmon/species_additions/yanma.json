@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:scratch"
+        "1:scratch",
+        "1:stringshot",
+        "1:leer",
+        "4:silverwind",
+        "4:twister",
+        "7:signalbeam",
+        "7:dragonbreath",
+        "10:infestation",
+        "10:breakingswipe",
+        "13:uturn",
+        "13:dragonpulse",
+        "16:bugbuzz",
+        "16:dracometeor",
+        "19:strugglebug",
+        "19:scratch",
+        "22:stringshot",
+        "22:leer",
+        "25:leechlife",
+        "25:dragonrage",
+        "28:lunge",
+        "28:dualchop",
+        "31:xscissor",
+        "31:breakingswipe",
+        "34:uturn",
+        "34:dragonclaw",
+        "39:megahorn",
+        "39:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -222,7 +249,8 @@
         "egg:feint",
         "egg:feintattack",
         "egg:octazooka",
-        "egg:poisonjab"
+        "egg:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -381,7 +409,8 @@
         "egg:metalsound",
         "egg:ironhead",
         "egg:feintattack",
-        "egg:partingshot"
+        "egg:partingshot",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -556,7 +585,8 @@
         "tutor:synthesis",
         "tutor:tailwind",
         "tutor:twister",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -703,7 +733,8 @@
         "tm:terablast",
         "tm:bugbite",
         "tm:lunge",
-        "tm:uproar"
+        "tm:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

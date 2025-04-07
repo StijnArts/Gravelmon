@@ -76,7 +76,8 @@
     "44:doubleedge",
     "50:suckerpunch",
     "57:shellsmash",
-    "66:headsmash"
+    "66:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2355,
+  "nationalPokedexNumber": 2363,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

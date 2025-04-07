@@ -80,7 +80,8 @@
     "tm:dreameater",
     "tm:wish",
     "tm:calmmind",
-    "tm:healpulse"
+    "tm:healpulse",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2966,
+  "nationalPokedexNumber": 2974,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

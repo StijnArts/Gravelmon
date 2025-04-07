@@ -166,7 +166,8 @@
     "tm:rockclimb",
     "tm:powertrick",
     "tm:aurorabeam",
-    "tm:eerieimpulse"
+    "tm:eerieimpulse",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -181,7 +182,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4975,
+  "nationalPokedexNumber": 4983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

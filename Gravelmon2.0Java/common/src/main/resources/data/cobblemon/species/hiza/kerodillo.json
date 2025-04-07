@@ -108,7 +108,8 @@
     "tm:mudsport",
     "tm:burnup",
     "tm:ancientpower",
-    "tm:heatwave"
+    "tm:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2255,
+  "nationalPokedexNumber": 2263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -78,7 +78,8 @@
     "70:petaldance",
     "75:playrough",
     "80:grassyterrain",
-    "85:lastresort"
+    "85:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3233,
+  "nationalPokedexNumber": 3241,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

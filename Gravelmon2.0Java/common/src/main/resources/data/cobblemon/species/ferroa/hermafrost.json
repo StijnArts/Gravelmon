@@ -139,7 +139,8 @@
     "tm:guillotine",
     "tm:doublehit",
     "tm:furycutter",
-    "tm:irondefense"
+    "tm:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1561,
+  "nationalPokedexNumber": 1564,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

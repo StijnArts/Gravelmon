@@ -120,7 +120,8 @@
         "tm:triattack",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -267,7 +268,8 @@
         "tm:weatherball",
         "tm:whirlpool",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -438,7 +440,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -594,7 +597,8 @@
         "egg:haze",
         "egg:mirrormove",
         "egg:naturalgift",
-        "egg:supersonic"
+        "egg:supersonic",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -716,7 +720,8 @@
         "tm:thief",
         "tm:steelwing",
         "egg:endeavor",
-        "egg:highjumpkick"
+        "egg:highjumpkick",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

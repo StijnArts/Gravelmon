@@ -149,7 +149,8 @@
     "tutor:zenheadbutt",
     "egg:aquaring",
     "egg:recover",
-    "egg:soak"
+    "egg:soak",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -70,7 +70,20 @@
   },
   "moves": [
     "1:watergun",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:tailwhip",
+    "1:defensecurl",
+    "10:bubblebeam",
+    "10:rollout",
+    "15:aquatail",
+    "15:smackdown",
+    "20:surf",
+    "20:rockblast",
+    "25:waterfall",
+    "25:stealthrock",
+    "30:liquidation",
+    "30:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -83,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4760,
+  "nationalPokedexNumber": 4768,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

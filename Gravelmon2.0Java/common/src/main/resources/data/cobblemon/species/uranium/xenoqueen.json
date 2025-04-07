@@ -117,7 +117,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:toxicspikes",
-    "tm:causticbreath"
+    "tm:causticbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -132,7 +133,7 @@
   "weight": 4699,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2065,
+  "nationalPokedexNumber": 2068,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

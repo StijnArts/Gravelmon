@@ -72,7 +72,8 @@
     "35:snowscape",
     "44:freezedry",
     "48:disable",
-    "50:blizzard"
+    "50:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2390,
+  "nationalPokedexNumber": 2398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

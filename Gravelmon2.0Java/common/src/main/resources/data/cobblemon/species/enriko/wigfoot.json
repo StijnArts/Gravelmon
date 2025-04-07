@@ -68,7 +68,8 @@
     "32:doublekick",
     "36:slam",
     "40:earthquake",
-    "45:doubleedge"
+    "45:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1657,
+  "nationalPokedexNumber": 1660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

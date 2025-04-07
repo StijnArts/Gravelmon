@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "1:growl",
+    "1:bulkup",
+    "4:round",
+    "4:calmmind",
+    "7:swift",
+    "7:taunt",
+    "10:uproar",
+    "10:substitute",
+    "13:hypervoice",
+    "13:rest",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -86,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2584,
+  "nationalPokedexNumber": 2592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

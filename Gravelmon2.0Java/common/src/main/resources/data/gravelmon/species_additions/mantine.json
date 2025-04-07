@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:bite"
+        "1:bite",
+        "1:tailwhip",
+        "1:leer",
+        "4:bubblebeam",
+        "4:payback",
+        "7:brine",
+        "7:nightdaze",
+        "10:surf",
+        "10:snarl",
+        "13:chillingwater",
+        "13:knockoff",
+        "16:hydropump",
+        "16:darkpulse",
+        "19:watergun",
+        "19:bite",
+        "22:tailwhip",
+        "22:leer",
+        "25:bubblebeam",
+        "25:payback",
+        "28:aquatail",
+        "28:nightslash",
+        "31:surf",
+        "31:crunch",
+        "34:waterfall",
+        "34:knockoff",
+        "39:liquidation",
+        "39:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -238,7 +265,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -381,7 +409,8 @@
         "egg:thunder",
         "egg:thunderwave",
         "egg:twister",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -550,7 +579,8 @@
         "egg:mirrorcoat",
         "egg:splash",
         "egg:tailwind",
-        "egg:confuseray"
+        "egg:confuseray",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

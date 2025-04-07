@@ -78,7 +78,8 @@
     "36:psychup",
     "41:amnesia",
     "46:playrough",
-    "51:mirrormove"
+    "51:mirrormove",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4020,
+  "nationalPokedexNumber": 4028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

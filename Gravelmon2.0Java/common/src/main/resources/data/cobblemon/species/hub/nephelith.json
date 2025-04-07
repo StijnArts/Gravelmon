@@ -73,7 +73,8 @@
     "79:thunder",
     "85:roost",
     "92:hurricane",
-    "99:hydropump"
+    "99:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1400,
+  "nationalPokedexNumber": 1403,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

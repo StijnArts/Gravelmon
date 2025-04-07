@@ -73,7 +73,8 @@
     "32:destinybond",
     "41:perishsong",
     "47:moonblast",
-    "54:strengthsap"
+    "54:strengthsap",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3959,
+  "nationalPokedexNumber": 3967,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

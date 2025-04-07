@@ -62,7 +62,34 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "1:leer",
+    "3:twister",
+    "3:aircutter",
+    "6:dragonbreath",
+    "6:wingattack",
+    "9:breakingswipe",
+    "9:airslash",
+    "12:dragonpulse",
+    "12:drillpeck",
+    "15:dracometeor",
+    "15:hurricane",
+    "18:scratch",
+    "18:peck",
+    "21:leer",
+    "21:leer",
+    "24:dragonrage",
+    "24:pluck",
+    "27:dualchop",
+    "27:wingattack",
+    "30:breakingswipe",
+    "30:aerialace",
+    "33:dragonclaw",
+    "33:drillpeck",
+    "36:outrage",
+    "36:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -90,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1375,
+  "nationalPokedexNumber": 1377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

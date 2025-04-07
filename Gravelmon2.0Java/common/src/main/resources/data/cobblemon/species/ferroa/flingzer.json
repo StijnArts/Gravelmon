@@ -114,7 +114,8 @@
     "tm:swift",
     "tm:gastroacid",
     "tm:stunspore",
-    "tm:barrage"
+    "tm:barrage",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -127,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1543,
+  "nationalPokedexNumber": 1546,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

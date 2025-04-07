@@ -78,7 +78,8 @@
     "33:rockslide",
     "39:powergem",
     "44:acidarmor",
-    "50:sludgewave"
+    "50:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4053,
+  "nationalPokedexNumber": 4061,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

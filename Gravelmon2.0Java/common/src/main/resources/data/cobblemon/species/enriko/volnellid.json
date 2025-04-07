@@ -71,7 +71,8 @@
     "42:ancientpower",
     "48:megahorn",
     "56:eruption",
-    "65:agility"
+    "65:agility",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1734,
+  "nationalPokedexNumber": 1737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

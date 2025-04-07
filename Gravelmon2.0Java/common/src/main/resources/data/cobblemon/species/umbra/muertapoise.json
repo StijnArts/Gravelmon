@@ -134,7 +134,8 @@
     "tutor:trick",
     "tutor:icepunch",
     "tutor:liquidation",
-    "tutor:skillswap"
+    "tutor:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -149,7 +150,7 @@
   "weight": 306,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3723,
+  "nationalPokedexNumber": 3731,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

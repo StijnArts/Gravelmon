@@ -165,7 +165,8 @@
         "egg:aurasphere",
         "egg:twinbeam",
         "egg:storedpower",
-        "egg:substitute"
+        "egg:substitute",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -301,7 +302,8 @@
         "tm:curse",
         "tm:drainpunch",
         "tm:shadowclaw",
-        "tm:grudge"
+        "tm:grudge",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -537,7 +539,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -702,7 +705,8 @@
         "egg:feint",
         "egg:headbutt",
         "egg:quickguard",
-        "egg:wakeupslap"
+        "egg:wakeupslap",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

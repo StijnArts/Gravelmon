@@ -78,7 +78,8 @@
     "46:crunch",
     "51:torment",
     "56:playrough",
-    "60:blizzard"
+    "60:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3204,
+  "nationalPokedexNumber": 3212,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

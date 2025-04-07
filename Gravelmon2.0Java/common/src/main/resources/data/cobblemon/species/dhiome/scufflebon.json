@@ -77,7 +77,8 @@
     "40:hydropump",
     "44:headcharge",
     "50:focuspunch",
-    "61:closecombat"
+    "61:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

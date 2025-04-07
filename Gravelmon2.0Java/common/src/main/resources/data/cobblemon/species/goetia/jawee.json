@@ -62,7 +62,8 @@
   "moves": [
     "5:bubble",
     "7:absorb",
-    "37:crunch"
+    "37:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5981,
+  "nationalPokedexNumber": 5989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

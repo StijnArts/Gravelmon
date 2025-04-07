@@ -128,7 +128,8 @@
     "tm:drillpeck",
     "tm:pluck",
     "tm:laserfocus",
-    "tm:rototiller"
+    "tm:rototiller",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4893,
+  "nationalPokedexNumber": 4901,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -99,7 +99,8 @@
     "tm:wonderroom",
     "tm:skillswap",
     "tm:expandingforce",
-    "tm:meteorbeam"
+    "tm:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -114,7 +115,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3896,
+  "nationalPokedexNumber": 3904,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

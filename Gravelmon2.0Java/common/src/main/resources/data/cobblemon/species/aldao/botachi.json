@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:nastyplot",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -86,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 2838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

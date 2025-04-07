@@ -88,7 +88,8 @@
     "egg:sleeptalk",
     "egg:lavaplume",
     "egg:sweetkiss",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1473,
+  "nationalPokedexNumber": 1476,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.125,

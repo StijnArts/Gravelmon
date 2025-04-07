@@ -68,7 +68,8 @@
     "28:hex",
     "34:reflect",
     "40:shadowball",
-    "45:moonblast"
+    "45:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3317,
+  "nationalPokedexNumber": 3325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

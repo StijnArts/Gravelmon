@@ -23,7 +23,8 @@ public class NodorranHoothoot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Hoothoot has a passion for serving people, its often seen in the housekeep of rich families. Hoothoot are extremely loyal and won't leave the mansion even once."),
-                List.of(),
+                List.of(new EvolutionEntry("nodorrannoctowl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -49,7 +50,11 @@ public class NodorranHoothoot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.MANSION).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hoothoot");

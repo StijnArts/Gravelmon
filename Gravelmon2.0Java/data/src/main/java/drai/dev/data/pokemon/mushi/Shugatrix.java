@@ -16,7 +16,7 @@ public class Shugatrix extends drai.dev.data.pokemon.Pokemon {
                         61,
                         113),
                 List.of(Ability.SWEET_VEIL,Ability.UNBURDEN), Ability.UNAWARE,
-                0, 0,
+                17, 0,
                 new Stats(0,0,0,0,0,2), 45,
                 1.0,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -27,7 +27,11 @@ public class Shugatrix extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(38).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shugatrix");

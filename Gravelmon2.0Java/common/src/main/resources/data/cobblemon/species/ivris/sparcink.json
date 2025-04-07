@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3592,
+  "nationalPokedexNumber": 3600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

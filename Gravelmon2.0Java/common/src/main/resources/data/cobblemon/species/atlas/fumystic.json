@@ -122,7 +122,8 @@
     "tm:willowisp",
     "tm:psychic",
     "tm:fireblast",
-    "tm:sleeptalk"
+    "tm:sleeptalk",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5161,
+  "nationalPokedexNumber": 5169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

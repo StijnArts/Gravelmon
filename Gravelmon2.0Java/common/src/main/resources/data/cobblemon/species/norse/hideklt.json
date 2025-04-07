@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:leer",
+    "1:growl",
+    "4:dragonrage",
+    "4:icywind",
+    "7:dualchop",
+    "7:icepunch",
+    "10:breakingswipe",
+    "10:icespinner",
+    "13:dragonclaw",
+    "13:iceshard",
+    "16:outrage",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2602,
+  "nationalPokedexNumber": 2610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -16,8 +16,8 @@ public class Pastrella extends drai.dev.data.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.SUGARCOAT,Ability.SWEET_VEIL), Ability.TOPPINGS,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.25,
                 168, ExperienceGroup.ERRATIC,
                 70,
@@ -82,7 +82,11 @@ public class Pastrella extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pastrella");

@@ -112,7 +112,8 @@
     "tm:roar",
     "tm:bulkup",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -127,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5370,
+  "nationalPokedexNumber": 5378,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

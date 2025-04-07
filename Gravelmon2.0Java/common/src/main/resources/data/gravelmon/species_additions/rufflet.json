@@ -118,7 +118,8 @@
         "egg:drillpeck",
         "egg:volttackle",
         "egg:roost",
-        "egg:aircutter"
+        "egg:aircutter",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

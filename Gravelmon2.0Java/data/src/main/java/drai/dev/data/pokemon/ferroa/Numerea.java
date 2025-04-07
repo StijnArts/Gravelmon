@@ -112,7 +112,7 @@ public class Numerea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 1, 22, 6, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 1, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

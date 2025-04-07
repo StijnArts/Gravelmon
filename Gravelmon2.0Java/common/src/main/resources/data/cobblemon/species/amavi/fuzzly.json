@@ -69,7 +69,8 @@
     "23:aircutter",
     "25:aromatherapy",
     "27:safeguard",
-    "31:bugbuzz"
+    "31:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -121,7 +122,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5259,
+  "nationalPokedexNumber": 5267,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

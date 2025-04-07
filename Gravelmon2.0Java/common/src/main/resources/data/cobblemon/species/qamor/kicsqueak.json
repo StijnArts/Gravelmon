@@ -75,7 +75,8 @@
     "48:bounce",
     "tm:dig",
     "tm:blazekick",
-    "tm:gyroball"
+    "tm:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3999,
+  "nationalPokedexNumber": 4007,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

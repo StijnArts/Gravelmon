@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:lowkick"
+    "1:lowkick",
+    "1:babydolleyes",
+    "1:leer",
+    "4:drainingkiss",
+    "4:revenge",
+    "7:playnice",
+    "7:lowsweep",
+    "10:dazzlinggleam",
+    "10:brickbreak",
+    "13:playrough",
+    "13:karatechop",
+    "16:spiritbreak",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -78,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2177,
+  "nationalPokedexNumber": 2185,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

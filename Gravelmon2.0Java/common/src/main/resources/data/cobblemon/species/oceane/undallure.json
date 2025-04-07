@@ -79,7 +79,8 @@
     "60:mefirst",
     "tm:flipturn",
     "tm:sludgewave",
-    "tm:luckychant"
+    "tm:luckychant",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

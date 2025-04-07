@@ -75,7 +75,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:megahorn",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4260,
+  "nationalPokedexNumber": 4268,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

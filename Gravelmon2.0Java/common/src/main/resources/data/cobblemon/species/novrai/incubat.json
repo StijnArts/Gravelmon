@@ -145,7 +145,8 @@
     "tm:flamewheel",
     "tm:incinerate",
     "tm:megadrain",
-    "tm:pursuit"
+    "tm:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4829,
+  "nationalPokedexNumber": 4837,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

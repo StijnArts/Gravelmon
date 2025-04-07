@@ -86,7 +86,8 @@
     "egg:drillpeck",
     "egg:headsmash",
     "egg:furyattack",
-    "egg:ancientpower"
+    "egg:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -101,7 +102,7 @@
   "weight": 1980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2140,
+  "nationalPokedexNumber": 2148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

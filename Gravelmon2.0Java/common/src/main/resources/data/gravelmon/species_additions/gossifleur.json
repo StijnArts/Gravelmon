@@ -119,7 +119,8 @@
         "egg:worryseed",
         "egg:poisonjab",
         "egg:bulletseed",
-        "egg:seedbomb"
+        "egg:seedbomb",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

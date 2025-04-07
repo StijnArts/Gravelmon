@@ -64,7 +64,19 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:shoreup"
+    "1:shoreup",
+    "1:sandattack",
+    "1:bulkup",
+    "3:mudshot",
+    "3:calmmind",
+    "6:mudbomb",
+    "6:taunt",
+    "9:bulldoze",
+    "9:substitute",
+    "12:scorchingsands",
+    "12:rest",
+    "15:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -94,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3269,
+  "nationalPokedexNumber": 3277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -65,7 +65,8 @@
     "1:whirlpool",
     "1:twister",
     "1:dragonbreath",
-    "1:outrage"
+    "1:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -78,7 +79,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4468,
+  "nationalPokedexNumber": 4476,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

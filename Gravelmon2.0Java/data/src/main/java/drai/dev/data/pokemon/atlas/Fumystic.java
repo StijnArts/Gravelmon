@@ -91,7 +91,7 @@ public class Fumystic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 31, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

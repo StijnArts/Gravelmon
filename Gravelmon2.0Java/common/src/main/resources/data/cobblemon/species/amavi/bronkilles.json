@@ -74,7 +74,8 @@
     "39:milkdrink",
     "45:hornleech",
     "51:closecombat",
-    "57:leafstorm"
+    "57:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -89,7 +90,7 @@
   "weight": 1034,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5298,
+  "nationalPokedexNumber": 5306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

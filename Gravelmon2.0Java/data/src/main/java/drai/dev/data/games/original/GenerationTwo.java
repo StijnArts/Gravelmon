@@ -23,6 +23,7 @@ import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -103,17 +104,17 @@ public class GenerationTwo extends Game {
 //        addNewPokemon(new TheossianBellossom("", Aspect.THEOSSIAN));
 //        addNewPokemon(new TheossianYanma("", Aspect.THEOSSIAN));
 
-//        addNewPokemon(new NodorranHoothoot("", Aspect.NODORRAN)); TODO
-//        addNewPokemon(new NodorranNoctowl("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranSteelix("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranSudowoodo("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranSunflora("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranTeddiursa("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranUrsaring("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranHoothoot("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranNoctowl("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranSteelix("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranSudowoodo("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranSunflora("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranTeddiursa("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranUrsaring("", Aspect.NODORRAN));
 
         addNewPokemon(new MastenianWooper("", Aspect.MASTENIAN));
         addNewPokemon(new MastenianChinchou("", Aspect.MASTENIAN));
-        addNewPokemon(new MastenianLanturn("", Aspect.MASTENIAN)); //MISSING STATS
+        addNewPokemon(new MastenianLanturn("", Aspect.MASTENIAN));
         addNewPokemon(new MastenianLarvitar("", Aspect.MASTENIAN));
         addNewPokemon(new MastenianPupitar("", Aspect.MASTENIAN));
 

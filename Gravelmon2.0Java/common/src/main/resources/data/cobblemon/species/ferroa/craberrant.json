@@ -150,7 +150,8 @@
     "tm:watersport",
     "tm:liquidation",
     "tm:stormthrow",
-    "tm:breakingswipe"
+    "tm:breakingswipe",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -163,7 +164,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1567,
+  "nationalPokedexNumber": 1570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

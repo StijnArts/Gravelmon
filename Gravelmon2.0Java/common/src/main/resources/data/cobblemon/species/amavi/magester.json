@@ -71,7 +71,8 @@
     "32:heavyslam",
     "36:irondefense",
     "40:metalsound",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5327,
+  "nationalPokedexNumber": 5335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

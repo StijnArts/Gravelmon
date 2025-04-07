@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:tailwhip",
+    "1:babydolleyes",
+    "10:bubblebeam",
+    "10:drainingkiss",
+    "15:brine",
+    "15:playnice",
+    "20:surf",
+    "20:dazzlinggleam",
+    "25:chillingwater",
+    "25:hypervoice",
+    "30:hydropump",
+    "30:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6010,
+  "nationalPokedexNumber": 6018,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

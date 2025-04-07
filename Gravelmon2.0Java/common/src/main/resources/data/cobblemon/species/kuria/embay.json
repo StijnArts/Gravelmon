@@ -76,7 +76,8 @@
     "40:mysticalfire",
     "51:fireblast",
     "55:substitute",
-    "60:mistyterrain"
+    "60:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4176,
+  "nationalPokedexNumber": 4184,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

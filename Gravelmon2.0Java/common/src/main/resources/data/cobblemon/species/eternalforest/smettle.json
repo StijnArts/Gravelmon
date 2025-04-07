@@ -142,7 +142,8 @@
     "egg:nastyplot",
     "egg:worryseed",
     "egg:memento",
-    "egg:leechseed"
+    "egg:leechseed",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3041,
+  "nationalPokedexNumber": 3049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 46.5,

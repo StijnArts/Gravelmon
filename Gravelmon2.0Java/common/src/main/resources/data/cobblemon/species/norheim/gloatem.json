@@ -71,7 +71,8 @@
     "35:amnesia",
     "40:reversal",
     "45:focuspunch",
-    "55:earthpower"
+    "55:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3198,
+  "nationalPokedexNumber": 3206,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

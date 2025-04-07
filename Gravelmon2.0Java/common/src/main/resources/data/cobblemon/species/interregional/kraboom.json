@@ -75,7 +75,8 @@
     "36:thunderbolt",
     "40:flareblitz",
     "44:thrash",
-    "48:thunder"
+    "48:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1428,
+  "nationalPokedexNumber": 1431,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

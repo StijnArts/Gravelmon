@@ -122,7 +122,8 @@
     "tm:waterfall",
     "tm:workup",
     "tm:teleport",
-    "tm:hydropump"
+    "tm:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

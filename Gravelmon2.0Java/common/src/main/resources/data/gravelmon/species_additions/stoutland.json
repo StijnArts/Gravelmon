@@ -124,7 +124,8 @@
         "tm:thunderfang",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -283,7 +284,8 @@
         "tm:howl",
         "tm:pursuit",
         "tm:charm",
-        "tm:bonerush"
+        "tm:bonerush",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

@@ -61,7 +61,8 @@
   "moves": [
     "1:astonish",
     "1:scaryface",
-    "10:bugbite"
+    "10:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4733,
+  "nationalPokedexNumber": 4741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

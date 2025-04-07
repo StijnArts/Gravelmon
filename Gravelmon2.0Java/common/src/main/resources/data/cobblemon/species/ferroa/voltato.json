@@ -145,7 +145,8 @@
     "tm:wringout",
     "tm:dig",
     "tm:leafstorm",
-    "tm:safeguard"
+    "tm:safeguard",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1592,
+  "nationalPokedexNumber": 1595,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

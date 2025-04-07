@@ -114,7 +114,8 @@
     "tm:earthpower",
     "tm:mudbomb",
     "tm:mudslide",
-    "tm:mudslap"
+    "tm:mudslap",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

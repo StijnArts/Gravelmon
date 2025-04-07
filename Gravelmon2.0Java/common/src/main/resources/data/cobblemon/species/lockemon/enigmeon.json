@@ -133,7 +133,8 @@
     "egg:synchronoise",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -148,7 +149,7 @@
   "weight": 250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3394,
+  "nationalPokedexNumber": 3402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

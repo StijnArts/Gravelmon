@@ -163,7 +163,8 @@
     "tm:honeclaws",
     "tm:grudge",
     "tm:agility",
-    "tm:babydolleyes"
+    "tm:babydolleyes",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -178,7 +179,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1496,
+  "nationalPokedexNumber": 1499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

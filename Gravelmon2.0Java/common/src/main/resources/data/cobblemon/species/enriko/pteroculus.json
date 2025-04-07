@@ -75,7 +75,8 @@
     "36:defog",
     "40:dragonpulse",
     "43:sludgebomb",
-    "47:outrage"
+    "47:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1724,
+  "nationalPokedexNumber": 1727,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

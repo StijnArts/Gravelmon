@@ -127,7 +127,7 @@ public class EpochFlabebe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRAFTY_SHIELD,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 28, 5.4, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),

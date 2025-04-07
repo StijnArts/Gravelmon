@@ -145,7 +145,8 @@
     "tm:charm",
     "tm:healblock",
     "tm:miracleeye",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4874,
+  "nationalPokedexNumber": 4882,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

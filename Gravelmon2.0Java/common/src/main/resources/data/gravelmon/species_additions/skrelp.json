@@ -118,7 +118,8 @@
         "egg:icywind",
         "egg:aquajet",
         "egg:sludgewave",
-        "egg:bubblebeam"
+        "egg:bubblebeam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -239,7 +240,8 @@
         "egg:haze",
         "egg:playrough",
         "egg:toxicspikes",
-        "egg:venomdrench"
+        "egg:venomdrench",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -410,7 +412,8 @@
         "tm:leechseed",
         "tm:magicalleaf",
         "tm:ingrain",
-        "tm:dragonrage"
+        "tm:dragonrage",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

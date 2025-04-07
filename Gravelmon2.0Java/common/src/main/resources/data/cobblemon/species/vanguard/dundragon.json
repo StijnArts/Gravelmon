@@ -165,7 +165,8 @@
     "egg:agility",
     "egg:secretpower",
     "egg:sleeptalk",
-    "egg:hex"
+    "egg:hex",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -180,7 +181,7 @@
   "weight": 2340,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4078,
+  "nationalPokedexNumber": 4086,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

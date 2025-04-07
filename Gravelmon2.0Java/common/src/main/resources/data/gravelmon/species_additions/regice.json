@@ -154,7 +154,8 @@
         "tutor:superpower",
         "tutor:thunderpunch",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

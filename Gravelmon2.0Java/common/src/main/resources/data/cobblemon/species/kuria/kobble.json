@@ -73,7 +73,8 @@
     "44:dazzlinggleam",
     "47:lightscreen",
     "51:psychic",
-    "62:trickroom"
+    "62:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4179,
+  "nationalPokedexNumber": 4187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

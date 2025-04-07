@@ -72,7 +72,8 @@
     "1:spikes",
     "1:pursuit",
     "1:extremespeed",
-    "1:sandstorm"
+    "1:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1488,
+  "nationalPokedexNumber": 1491,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

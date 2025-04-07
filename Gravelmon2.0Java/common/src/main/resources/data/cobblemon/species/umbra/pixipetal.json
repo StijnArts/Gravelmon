@@ -109,7 +109,8 @@
     "tutor:magiccoat",
     "tutor:icepunch",
     "tutor:skillswap",
-    "tutor:hypervoice"
+    "tutor:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3710,
+  "nationalPokedexNumber": 3718,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

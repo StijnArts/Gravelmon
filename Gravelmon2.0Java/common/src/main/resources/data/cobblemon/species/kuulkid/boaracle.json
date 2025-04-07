@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:confusion"
+    "1:confusion",
+    "1:leer",
+    "1:growl",
+    "4:megadrain",
+    "4:psybeam",
+    "7:magicalleaf",
+    "7:futuresight",
+    "10:gigadrain",
+    "10:psychic",
+    "13:energyball",
+    "13:psyshock",
+    "16:solarbeam",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2220,
+  "nationalPokedexNumber": 2228,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

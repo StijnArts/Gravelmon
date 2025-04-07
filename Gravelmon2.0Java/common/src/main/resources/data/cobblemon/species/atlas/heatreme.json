@@ -105,7 +105,8 @@
     "tm:venoshock",
     "tm:willowisp",
     "tm:workup",
-    "tm:recover"
+    "tm:recover",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5054,
+  "nationalPokedexNumber": 5062,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

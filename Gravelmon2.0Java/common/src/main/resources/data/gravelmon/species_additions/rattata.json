@@ -10,6 +10,20 @@
       "requirements": [],
       "requiredContext": "cobblemon:ice_stone",
       "permanent": true
+    },
+    {
+      "id": "rattata_ratamie",
+      "variant": "level_up",
+      "result": "ratamie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "190"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -76,7 +90,34 @@
       "drops": {},
       "moves": [
         "1:tackle",
-        "1:acid"
+        "1:acid",
+        "1:growl",
+        "1:leer",
+        "4:round",
+        "4:clearsmog",
+        "7:swift",
+        "7:sludge",
+        "10:uproar",
+        "10:toxicspikes",
+        "13:hypervoice",
+        "13:sludgebomb",
+        "16:hyperbeam",
+        "16:sludgewave",
+        "19:tackle",
+        "19:poisonsting",
+        "22:growl",
+        "22:leer",
+        "25:quickattack",
+        "25:venoshock",
+        "28:bite",
+        "28:poisontail",
+        "31:takedown",
+        "31:toxicspikes",
+        "34:crunch",
+        "34:sludgebomb",
+        "39:doubleedge",
+        "39:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -160,7 +201,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:acid"
+        "1:acid",
+        "1:leer",
+        "4:clearsmog",
+        "7:sludge",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:sludgewave",
+        "19:poisonsting",
+        "22:leer",
+        "25:venoshock",
+        "28:poisontail",
+        "31:toxicspikes",
+        "34:sludgebomb",
+        "39:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -259,7 +314,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:confusion"
+        "1:confusion",
+        "1:growl",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -441,7 +503,8 @@
         "egg:crunch",
         "egg:quickguard",
         "egg:helpinghand",
-        "egg:facade"
+        "egg:facade",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -593,6 +656,7 @@
         "tm:overheat",
         "tm:hyperbeam",
         "tm:dracometeor",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
@@ -764,7 +828,8 @@
         "egg:lastresort",
         "egg:mefirst",
         "egg:revenge",
-        "egg:finalgambit"
+        "egg:finalgambit",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -800,6 +865,148 @@
         "height": 3.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "normal",
+      "secondaryType": "poison",
+      "catchRate": 300,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.17142857142857143,
+      "cannotDynamax": false,
+      "abilities": [
+        "runaway",
+        "guts",
+        "h:hustle"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 65,
+        "defence": 35,
+        "special_attack": 25,
+        "special_defence": 35,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "3:focusenergy",
+        "4:quickattack",
+        "7:bite",
+        "10:poisonfang",
+        "15:howl",
+        "22:crunch",
+        "25:tickle",
+        "28:slash",
+        "33:doubleedge",
+        "37:endeavor",
+        "tm:suckerpunch",
+        "tm:knockoff",
+        "tm:facade",
+        "tm:protect",
+        "tm:fakeout",
+        "tm:honeclaws",
+        "tm:afteryou",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:thunderfang",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:attract",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:protect",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:rest",
+        "tm:terablast",
+        "tm:gunkshot",
+        "tm:headbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianrattata.desc"
+      ],
+      "height": 3,
+      "weight": 35,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [
+        {
+          "id": "ishirianrattata_rattaxic",
+          "variant": "level_up",
+          "result": "rattaxic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -808,6 +1015,7 @@
     "forman",
     "epoch",
     "norheiman",
-    "ayreian"
+    "ayreian",
+    "ishirian"
   ]
 }

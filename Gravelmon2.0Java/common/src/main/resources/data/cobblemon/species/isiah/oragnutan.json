@@ -76,7 +76,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:megahorn",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4261,
+  "nationalPokedexNumber": 4269,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

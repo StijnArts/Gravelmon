@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:lowkick",
-    "1:drainpunch"
+    "1:drainpunch",
+    "1:leer",
+    "1:bulkup",
+    "4:revenge",
+    "4:calmmind",
+    "7:lowsweep",
+    "7:taunt",
+    "10:brickbreak",
+    "10:substitute",
+    "13:karatechop",
+    "13:rest",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -75,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2575,
+  "nationalPokedexNumber": 2583,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -93,7 +93,8 @@
     "tm:sludgebomb",
     "tm:nastyplot",
     "tm:toxic",
-    "tm:hypnosis"
+    "tm:hypnosis",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -108,7 +109,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3851,
+  "nationalPokedexNumber": 3859,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

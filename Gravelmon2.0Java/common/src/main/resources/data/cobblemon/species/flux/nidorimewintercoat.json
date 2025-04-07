@@ -81,7 +81,8 @@
     "egg:counter",
     "egg:disable",
     "egg:headsmash",
-    "egg:icefang"
+    "egg:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2113,
+  "nationalPokedexNumber": 2116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -62,7 +62,7 @@ public class HoennianChinchou extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.COMMON, 9, 31, 5.4, List.of(
+                SpawnContext.SUBMERGED, SpawnPool.COMMON, 9, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.MAXY, "48")
                 ), List.of(),

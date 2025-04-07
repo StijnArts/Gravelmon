@@ -80,7 +80,8 @@
     "egg:bellydrum",
     "egg:defensecurl",
     "egg:lastresort",
-    "egg:rollout"
+    "egg:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -95,7 +96,7 @@
   "weight": 220,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3378,
+  "nationalPokedexNumber": 3386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

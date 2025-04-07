@@ -85,7 +85,8 @@
         "egg:tailwind",
         "egg:doubleedge",
         "egg:moonblast",
-        "egg:lastresort"
+        "egg:lastresort",
+        "tm:terablast"
       ],
       "labels": [
         "uranium",

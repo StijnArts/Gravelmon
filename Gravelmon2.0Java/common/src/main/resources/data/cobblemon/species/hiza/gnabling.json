@@ -106,7 +106,8 @@
     "tm:snatch",
     "tm:naturalgift",
     "tm:grasswhistle",
-    "tm:dragondance"
+    "tm:dragondance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2254,
+  "nationalPokedexNumber": 2262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

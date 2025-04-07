@@ -139,7 +139,8 @@
     "tm:accelerock",
     "tm:headsmash",
     "tm:yawn",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4412,
+  "nationalPokedexNumber": 4420,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

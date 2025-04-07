@@ -139,7 +139,8 @@
     "tutor:dualchop",
     "tutor:drainpunch",
     "tutor:superpower",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -154,7 +155,7 @@
   "weight": 287,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3714,
+  "nationalPokedexNumber": 3722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

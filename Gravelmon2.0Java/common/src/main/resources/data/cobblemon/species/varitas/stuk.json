@@ -115,6 +115,7 @@
     "tm:stoneedge",
     "tm:gigaimpact",
     "tm:hyperbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1942,
+  "nationalPokedexNumber": 1945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

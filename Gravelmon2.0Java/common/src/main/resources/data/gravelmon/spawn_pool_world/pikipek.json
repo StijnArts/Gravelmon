@@ -6,11 +6,14 @@
     {
       "id": "ivrisian_pikipek-01",
       "pokemon": "pikipek ivrisian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -35,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-24",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"

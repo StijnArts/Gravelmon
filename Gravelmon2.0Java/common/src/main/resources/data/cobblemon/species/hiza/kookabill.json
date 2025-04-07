@@ -76,7 +76,8 @@
     "40:metalsound",
     "44:spikes",
     "48:irondefense",
-    "52:bravebird"
+    "52:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2294,
+  "nationalPokedexNumber": 2302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -63,7 +63,22 @@
     "1:lick",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:confuseray",
+    "4:aircutter",
+    "7:ominouswind",
+    "7:wingattack",
+    "10:nightshade",
+    "10:airslash",
+    "13:hex",
+    "13:drillpeck",
+    "16:shadowball",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2609,
+  "nationalPokedexNumber": 2617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -129,7 +129,8 @@
     "tm:minimize",
     "tm:chillingwater",
     "tm:icehammer",
-    "tm:gastroacid"
+    "tm:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5026,
+  "nationalPokedexNumber": 5034,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.75,

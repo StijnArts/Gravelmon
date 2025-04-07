@@ -138,7 +138,8 @@
     "tutor:snore",
     "tutor:soundbarrier",
     "tutor:soundpledge",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -215,7 +216,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1768,
+  "nationalPokedexNumber": 1771,
   "shoulderMountable": true,
   "hitbox": {
     "width": 1.0,

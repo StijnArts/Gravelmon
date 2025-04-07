@@ -74,7 +74,8 @@
     "42:crunch",
     "tm:mist",
     "tm:haze",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4359,
+  "nationalPokedexNumber": 4367,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

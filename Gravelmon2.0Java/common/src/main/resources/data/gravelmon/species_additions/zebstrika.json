@@ -129,7 +129,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -268,7 +269,8 @@
         "egg:sandattack",
         "egg:screech",
         "egg:snatch",
-        "egg:takedown"
+        "egg:takedown",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

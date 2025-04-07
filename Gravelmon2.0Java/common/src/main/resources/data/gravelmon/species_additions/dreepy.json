@@ -133,7 +133,8 @@
         "egg:confuseray",
         "egg:disable",
         "egg:doubleteam",
-        "egg:boomburst"
+        "egg:boomburst",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -272,7 +273,8 @@
         "tm:overheat",
         "tm:flash",
         "egg:outrage",
-        "egg:revenge"
+        "egg:revenge",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

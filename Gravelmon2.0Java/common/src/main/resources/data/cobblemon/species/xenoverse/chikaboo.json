@@ -114,7 +114,8 @@
     "tutor:sleeptalk",
     "tutor:snatch",
     "tutor:snore",
-    "tutor:stealthrock"
+    "tutor:stealthrock",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1820,
+  "nationalPokedexNumber": 1823,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

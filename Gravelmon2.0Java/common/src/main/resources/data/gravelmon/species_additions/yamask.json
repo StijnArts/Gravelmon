@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:rockthrow"
+        "1:rockthrow",
+        "1:growl",
+        "1:defensecurl",
+        "4:confuseray",
+        "4:rollout",
+        "7:ominouswind",
+        "7:ancientpower",
+        "10:nightshade",
+        "10:powergem",
+        "13:hex",
+        "13:stealthrock",
+        "16:shadowball",
+        "16:meteorbeam",
+        "19:lick",
+        "19:rockthrow",
+        "22:growl",
+        "22:defensecurl",
+        "25:confuseray",
+        "25:rollout",
+        "28:hex",
+        "28:smackdown",
+        "31:shadowclaw",
+        "31:rockblast",
+        "34:phantomforce",
+        "34:stealthrock",
+        "39:poltergeist",
+        "39:stoneedge",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -150,7 +177,34 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:confusion"
+        "1:confusion",
+        "1:growl",
+        "1:growl",
+        "4:confuseray",
+        "4:psybeam",
+        "7:ominouswind",
+        "7:futuresight",
+        "10:nightshade",
+        "10:psychic",
+        "13:hex",
+        "13:psyshock",
+        "16:shadowball",
+        "16:psychoboost",
+        "19:lick",
+        "19:confusion",
+        "22:growl",
+        "22:growl",
+        "25:confuseray",
+        "25:psybeam",
+        "28:hex",
+        "28:futuresight",
+        "31:shadowclaw",
+        "31:psychic",
+        "34:phantomforce",
+        "34:zenheadbutt",
+        "39:poltergeist",
+        "39:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -309,7 +363,8 @@
         "egg:bellydrum",
         "egg:confuseray",
         "egg:destinybond",
-        "egg:curse"
+        "egg:curse",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -474,7 +529,8 @@
         "tm:healblock",
         "tm:toxicspikes",
         "tm:nastyplot",
-        "tm:craftyshield"
+        "tm:craftyshield",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -647,7 +703,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:spite",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -786,7 +843,8 @@
         "tm:rockslide",
         "tm:waterfall",
         "tm:substitute",
-        "tutor:secretpower"
+        "tutor:secretpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -823,6 +881,170 @@
         "height": 3.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "Mikitarian",
+      "primaryType": "rock",
+      "secondaryType": "ghost",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22641509433962265,
+      "cannotDynamax": false,
+      "abilities": [
+        "synchronize"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 38,
+        "attack": 55,
+        "defence": 65,
+        "special_attack": 30,
+        "special_defence": 85,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:protect",
+        "1:astonish",
+        "4:haze",
+        "8:nightshade",
+        "12:disable",
+        "16:rockpolish",
+        "20:craftyshield",
+        "24:hex",
+        "28:meanlook",
+        "32:bodyslam",
+        "36:curse",
+        "40:shadowball",
+        "44:stoneedge",
+        "48:powersplit",
+        "48:guardsplit",
+        "52:destinybond",
+        "tm:calmmind",
+        "tm:protect",
+        "tm:raindance",
+        "tm:earthquake",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:skillswap",
+        "tm:energyball",
+        "tm:endure",
+        "tm:willowisp",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:rockpolish",
+        "tm:wonderroom",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:stealthrock",
+        "tm:darkpulse",
+        "tm:rockslide",
+        "tm:sleeptalk",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:brutalswing",
+        "tm:hex",
+        "tm:irondefense",
+        "tm:earthpower",
+        "tm:zenheadbutt",
+        "tm:trick",
+        "tm:meteorbeam",
+        "tm:poltergeist",
+        "tm:rage",
+        "tm:bide",
+        "tm:nightmare",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:secretpower",
+        "tm:naturalgift",
+        "tm:captivate",
+        "tm:memento",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mikitari",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mikitarianyamask.desc"
+      ],
+      "height": 5,
+      "weight": 15,
+      "aspects": [
+        "mikitarian"
+      ],
+      "evolutions": [
+        {
+          "id": "mikitarianyamask_platerigus",
+          "variant": "level_up",
+          "result": "platerigus",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "34"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -831,6 +1053,7 @@
     "epoch",
     "varitasian",
     "delta",
-    "x"
+    "x",
+    "mikitarian"
   ]
 }

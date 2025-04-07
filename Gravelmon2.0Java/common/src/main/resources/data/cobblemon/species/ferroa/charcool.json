@@ -139,7 +139,8 @@
     "tm:stunspore",
     "tm:poisonpowder",
     "tm:sleeppowder",
-    "tm:encore"
+    "tm:encore",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1585,
+  "nationalPokedexNumber": 1588,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

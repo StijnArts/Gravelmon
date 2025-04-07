@@ -118,7 +118,8 @@
     "tm:suckerpunch",
     "tm:charm",
     "tm:magicalleaf",
-    "tm:earthpower"
+    "tm:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3505,
+  "nationalPokedexNumber": 3513,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

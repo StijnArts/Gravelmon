@@ -85,6 +85,7 @@
     "tm:leechseed",
     "tm:frustration",
     "tm:aerialace",
+    "tm:glorywing",
     "tm:cut",
     "tm:fly",
     "tm:strength",
@@ -97,6 +98,7 @@
     "tutor:outrage",
     "tutor:typhoon",
     "egg:razorwind",
+    "egg:quickturn",
     "egg:earthquake",
     "egg:safeguard",
     "egg:rapidgrowth",
@@ -108,7 +110,8 @@
     "egg:petalblizzard",
     "egg:roar",
     "egg:leafblade",
-    "egg:dragonpulse"
+    "egg:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -121,7 +124,7 @@
   "weight": 1450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4630,
+  "nationalPokedexNumber": 4638,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

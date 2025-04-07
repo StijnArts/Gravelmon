@@ -68,7 +68,8 @@
     "15:iceshard",
     "tm:karatechop",
     "tm:crosschop",
-    "tm:crosspoison"
+    "tm:crosspoison",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -81,7 +82,7 @@
   "weight": 410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4471,
+  "nationalPokedexNumber": 4479,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

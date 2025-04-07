@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:thundershock"
+    "1:thundershock",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:charge",
+    "7:brine",
+    "7:shockwave",
+    "10:surf",
+    "10:discharge",
+    "13:chillingwater",
+    "13:thunderbolt",
+    "16:hydropump",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2500,
+  "nationalPokedexNumber": 2508,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

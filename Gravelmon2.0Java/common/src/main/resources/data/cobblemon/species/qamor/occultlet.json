@@ -85,7 +85,8 @@
     "tm:finalgambit",
     "tm:curse",
     "tm:grudge",
-    "tm:focusenergy"
+    "tm:focusenergy",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3989,
+  "nationalPokedexNumber": 3997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

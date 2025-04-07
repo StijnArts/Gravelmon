@@ -138,7 +138,8 @@
     "tm:toxic",
     "tm:calmmind",
     "tm:dreameater",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -153,7 +154,7 @@
   "weight": 410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4676,
+  "nationalPokedexNumber": 4684,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

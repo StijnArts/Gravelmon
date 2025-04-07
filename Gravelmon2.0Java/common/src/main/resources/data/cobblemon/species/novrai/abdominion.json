@@ -155,7 +155,8 @@
     "tm:beatup",
     "tm:furycutter",
     "tm:helpinghand",
-    "tm:scaryface"
+    "tm:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -170,7 +171,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4910,
+  "nationalPokedexNumber": 4918,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

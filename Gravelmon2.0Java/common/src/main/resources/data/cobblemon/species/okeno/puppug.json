@@ -80,7 +80,8 @@
     "tm:helpinghand",
     "tm:snore",
     "tm:belch",
-    "tm:amnesia"
+    "tm:amnesia",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4431,
+  "nationalPokedexNumber": 4439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

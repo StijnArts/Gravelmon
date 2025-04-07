@@ -127,7 +127,8 @@
     "tm:drainingkiss",
     "tm:embargo",
     "tm:healblock",
-    "tm:gust"
+    "tm:gust",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4960,
+  "nationalPokedexNumber": 4968,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

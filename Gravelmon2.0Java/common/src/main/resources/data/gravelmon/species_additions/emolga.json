@@ -136,7 +136,8 @@
         "egg:crosspoison",
         "egg:supersonic",
         "egg:confuseray",
-        "egg:poisontail"
+        "egg:poisontail",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -303,7 +304,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:suckerpunch",
-        "tutor:swift"
+        "tutor:swift",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -422,7 +424,8 @@
         "tm:steelwing",
         "tm:fly",
         "tm:flash",
-        "egg:nightshade"
+        "egg:nightshade",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

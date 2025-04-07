@@ -79,7 +79,8 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"
+    "69:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3197,
+  "nationalPokedexNumber": 3205,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

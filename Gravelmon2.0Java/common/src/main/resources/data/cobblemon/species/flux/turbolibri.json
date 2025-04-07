@@ -75,7 +75,8 @@
     "33:pollenpuff",
     "39:tailwind",
     "44:bravebird",
-    "49:explosion"
+    "49:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -90,7 +91,7 @@
   "weight": 298,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 2107,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

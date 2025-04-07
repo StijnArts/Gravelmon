@@ -150,7 +150,8 @@
     "tm:wringout",
     "tm:watersport",
     "tm:mudsport",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -178,7 +179,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5009,
+  "nationalPokedexNumber": 5017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

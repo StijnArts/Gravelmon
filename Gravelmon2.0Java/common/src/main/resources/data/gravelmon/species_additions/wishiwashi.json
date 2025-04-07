@@ -101,7 +101,8 @@
         "tutor:hex",
         "tutor:mysticalfire",
         "tutor:nastyplot",
-        "tutor:phantomforce"
+        "tutor:phantomforce",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -210,7 +211,8 @@
         "egg:confuseray",
         "egg:brine",
         "egg:soak",
-        "egg:dive"
+        "egg:dive",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

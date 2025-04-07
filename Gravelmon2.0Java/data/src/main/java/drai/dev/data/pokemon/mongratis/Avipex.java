@@ -11,8 +11,8 @@ public class Avipex extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.FLYING,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,9 +22,16 @@ public class Avipex extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TROPICAL, Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setCanFly(true);
            setLangFileName("Avipex");
 
     }

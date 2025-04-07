@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:growl",
+    "1:growl",
+    "4:psybeam",
+    "4:icywind",
+    "7:futuresight",
+    "7:icepunch",
+    "10:psychic",
+    "10:icespinner",
+    "13:zenheadbutt",
+    "13:iceshard",
+    "16:psychocut",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3601,
+  "nationalPokedexNumber": 3609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

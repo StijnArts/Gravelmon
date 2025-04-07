@@ -61,6 +61,12 @@
   "drops": {},
   "moves": [
     "1:thundershock",
+    "1:leer",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
     "tm:bugbite",
     "tm:signalbeam",
     "tm:skittersmack",
@@ -114,7 +120,8 @@
     "tm:supersonic",
     "tm:barrier",
     "tm:guardswap",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -139,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3493,
+  "nationalPokedexNumber": 3501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:disarmingvoice",
-        "1:gust"
+        "1:gust",
+        "1:babydolleyes",
+        "1:leer",
+        "4:drainingkiss",
+        "4:aircutter",
+        "7:playnice",
+        "7:wingattack",
+        "10:dazzlinggleam",
+        "10:airslash",
+        "13:hypervoice",
+        "13:drillpeck",
+        "16:moonblast",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -199,6 +212,7 @@
         "tm:gammaray",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -238,7 +252,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

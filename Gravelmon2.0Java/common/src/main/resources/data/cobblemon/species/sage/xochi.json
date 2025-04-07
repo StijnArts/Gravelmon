@@ -131,7 +131,8 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:sleeptalk",
-    "tm:miraclewill"
+    "tm:miraclewill",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

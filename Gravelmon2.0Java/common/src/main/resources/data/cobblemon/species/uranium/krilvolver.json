@@ -121,7 +121,8 @@
     "egg:aquajet",
     "egg:crabhammer",
     "egg:bulletseed",
-    "egg:soak"
+    "egg:soak",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -136,7 +137,7 @@
   "weight": 327,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2056,
+  "nationalPokedexNumber": 2059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

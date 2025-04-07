@@ -73,7 +73,8 @@
     "28:ominouswind",
     "32:swallow",
     "42:storedpower",
-    "46:gastroacid"
+    "46:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1924,
+  "nationalPokedexNumber": 1927,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

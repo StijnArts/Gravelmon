@@ -125,7 +125,8 @@
     "egg:mirrormove",
     "egg:rage",
     "egg:skyattack",
-    "egg:psywave"
+    "egg:psywave",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 1992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

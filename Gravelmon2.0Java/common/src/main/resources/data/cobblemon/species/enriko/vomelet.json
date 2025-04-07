@@ -74,7 +74,8 @@
     "52:gunkshot",
     "56:shellsmash",
     "60:outrage",
-    "66:rockwrecker"
+    "66:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

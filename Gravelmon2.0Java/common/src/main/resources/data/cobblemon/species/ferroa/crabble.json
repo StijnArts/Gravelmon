@@ -146,7 +146,8 @@
     "tm:furycutter",
     "tm:irondefense",
     "tm:smackdown",
-    "tm:appleacid"
+    "tm:appleacid",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -174,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1485,
+  "nationalPokedexNumber": 1488,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

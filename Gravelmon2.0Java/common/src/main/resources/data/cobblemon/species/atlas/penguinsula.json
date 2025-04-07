@@ -75,7 +75,8 @@
     "38:mirrorcoat",
     "44:icebeam",
     "52:blizzard",
-    "60:sheercold"
+    "60:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5180,
+  "nationalPokedexNumber": 5188,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

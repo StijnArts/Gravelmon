@@ -128,7 +128,8 @@
     "egg:focuspunch",
     "egg:quickattack",
     "egg:dragonbreath",
-    "egg:extremespeed"
+    "egg:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -141,7 +142,7 @@
   "weight": 902,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2020,
+  "nationalPokedexNumber": 2023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

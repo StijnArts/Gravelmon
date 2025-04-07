@@ -72,7 +72,8 @@
     "1:helpinghand",
     "1:pollenpuff",
     "1:sleeppowder",
-    "tm:afteryou"
+    "tm:afteryou",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4459,
+  "nationalPokedexNumber": 4467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

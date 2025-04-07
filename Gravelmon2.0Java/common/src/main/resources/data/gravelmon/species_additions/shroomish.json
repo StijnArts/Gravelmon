@@ -5,13 +5,13 @@
       "name": "Mastenian",
       "primaryType": "dragon",
       "secondaryType": "grass",
-      "catchRate": 255,
+      "catchRate": 220,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -44,12 +44,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 42,
+        "attack": 21,
+        "defence": 45,
+        "special_attack": 82,
+        "special_defence": 45,
+        "speed": 82
       },
       "evYield": {
         "hp": 0,
@@ -65,7 +65,24 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:absorb"
+        "1:absorb",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:twister",
+        "10:megadrain",
+        "15:dragonbreath",
+        "15:magicalleaf",
+        "20:breakingswipe",
+        "20:gigadrain",
+        "25:dragonpulse",
+        "25:energyball",
+        "30:dracometeor",
+        "30:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
@@ -74,12 +91,27 @@
       "pokedex": [
         "cobblemon.species.mastenianshroomish.desc"
       ],
-      "height": 0,
+      "height": 8,
       "weight": 0,
       "aspects": [
         "mastenian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "mastenianshroomish_breloom_mastenian",
+          "variant": "level_up",
+          "result": "breloom mastenian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "23"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 6.0,
@@ -213,7 +245,8 @@
         "egg:heavyslam",
         "egg:rollout",
         "egg:rocktomb",
-        "egg:superpower"
+        "egg:superpower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -331,7 +364,8 @@
         "egg:charm",
         "egg:faketears",
         "egg:moonblast",
-        "egg:moonlight"
+        "egg:moonlight",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

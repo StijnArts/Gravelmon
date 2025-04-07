@@ -77,7 +77,8 @@
     "42:slash",
     "46:xscissor",
     "51:honeclaws",
-    "55:nightslash"
+    "55:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1857,
+  "nationalPokedexNumber": 1860,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

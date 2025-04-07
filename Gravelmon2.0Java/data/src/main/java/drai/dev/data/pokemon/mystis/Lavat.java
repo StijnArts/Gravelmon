@@ -16,18 +16,23 @@ public class Lavat extends drai.dev.data.pokemon.Pokemon {
                         47,
                         70),
                 List.of(Ability.BLAZE), Ability.BOMBARDIER,
-                0, 0,
+                5, 0,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("Flamfluff", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lavat");

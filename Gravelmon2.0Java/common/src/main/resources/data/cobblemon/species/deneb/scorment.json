@@ -131,7 +131,8 @@
     "egg:snatch",
     "egg:solarbeam",
     "egg:sunnyday",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -146,7 +147,7 @@
   "weight": 85,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4556,
+  "nationalPokedexNumber": 4564,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

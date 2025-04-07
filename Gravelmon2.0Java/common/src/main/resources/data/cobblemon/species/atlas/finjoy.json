@@ -115,7 +115,8 @@
     "tm:waterfall",
     "tm:workup",
     "tm:teleport",
-    "tm:hydropump"
+    "tm:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5056,
+  "nationalPokedexNumber": 5064,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

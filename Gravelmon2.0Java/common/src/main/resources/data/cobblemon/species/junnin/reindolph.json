@@ -140,7 +140,8 @@
     "tm:zenheadbutt",
     "tm:raindance",
     "tm:waterfall",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2447,
+  "nationalPokedexNumber": 2455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -137,7 +137,8 @@
     "egg:nastyplot",
     "egg:roost",
     "egg:steelwing",
-    "egg:weatherball"
+    "egg:weatherball",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

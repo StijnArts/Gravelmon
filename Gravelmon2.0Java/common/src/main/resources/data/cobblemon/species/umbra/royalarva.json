@@ -65,7 +65,8 @@
     "11:bugbite",
     "tutor:snore",
     "tutor:electroweb",
-    "tutor:bugbite"
+    "tutor:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -155,7 +155,8 @@
     "egg:hydropump",
     "egg:leafblade",
     "egg:magicalleaf",
-    "egg:watersport"
+    "egg:watersport",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

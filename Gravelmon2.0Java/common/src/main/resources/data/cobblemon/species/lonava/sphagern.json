@@ -109,7 +109,8 @@
     "tm:swagger",
     "tm:takedown",
     "tm:toxic",
-    "tm:watergun"
+    "tm:watergun",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3338,
+  "nationalPokedexNumber": 3346,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

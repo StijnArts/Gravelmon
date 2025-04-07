@@ -129,7 +129,8 @@
         "tm:hurricane",
         "tm:liquidation",
         "tm:hyperbeam",
-        "tm:solarbeam"
+        "tm:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -294,7 +295,8 @@
         "tm:dragondance",
         "tm:naturalgift",
         "tm:leafstorm",
-        "tm:dragonhammer"
+        "tm:dragonhammer",
+        "tm:terablast"
       ],
       "labels": [
         "aristos",
@@ -456,7 +458,8 @@
         "egg:dragondance",
         "egg:bulletseed",
         "egg:naturalgift",
-        "egg:dragonhammer"
+        "egg:dragonhammer",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -603,6 +606,7 @@
         "tm:hurricane",
         "tm:hyperbeam",
         "tm:solarbeam",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [

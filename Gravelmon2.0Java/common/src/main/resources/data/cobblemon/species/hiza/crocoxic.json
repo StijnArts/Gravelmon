@@ -74,7 +74,8 @@
     "43:aquajet",
     "55:aquatail",
     "59:gunkshot",
-    "68:toxic"
+    "68:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2324,
+  "nationalPokedexNumber": 2332,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

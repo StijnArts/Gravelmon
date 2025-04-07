@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "nodorran_foongus-01",
+      "pokemon": "foongus nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "norheiman_foongus-01",
       "pokemon": "foongus norheiman",
       "presets": [
@@ -13,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-43",
-      "weight": 10.5,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"

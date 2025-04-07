@@ -136,7 +136,8 @@
     "egg:sunnyday",
     "egg:thunderbolt",
     "egg:waterpulse",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -151,7 +152,7 @@
   "weight": 416,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4563,
+  "nationalPokedexNumber": 4571,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

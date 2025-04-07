@@ -63,7 +63,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:harden"
+    "1:harden",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3383,
+  "nationalPokedexNumber": 3391,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

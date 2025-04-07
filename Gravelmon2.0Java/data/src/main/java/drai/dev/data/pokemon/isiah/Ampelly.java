@@ -41,7 +41,7 @@ public class Ampelly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZAP_CANNON,50)),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 6, 29, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 6, 29, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

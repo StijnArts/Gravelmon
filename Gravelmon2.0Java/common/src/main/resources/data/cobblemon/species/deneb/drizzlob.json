@@ -128,7 +128,8 @@
     "egg:takedown",
     "egg:tickle",
     "egg:toxic",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -143,7 +144,7 @@
   "weight": 433,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4562,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

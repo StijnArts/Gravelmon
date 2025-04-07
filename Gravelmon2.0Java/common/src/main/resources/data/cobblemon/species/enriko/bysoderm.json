@@ -72,7 +72,8 @@
     "50:bounce",
     "56:nastyplot",
     "60:nightdaze",
-    "68:mist"
+    "68:mist",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1756,
+  "nationalPokedexNumber": 1759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -88,7 +88,7 @@ public class Mesoth extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TUNDRA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -148,7 +148,8 @@
     "tm:skillswap",
     "tm:venomdrench",
     "tm:hex",
-    "tm:gravity"
+    "tm:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5033,
+  "nationalPokedexNumber": 5041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -73,7 +73,8 @@
     "37:energyball",
     "41:waterfall",
     "45:raindance",
-    "49:solarbeam"
+    "49:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5197,
+  "nationalPokedexNumber": 5205,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

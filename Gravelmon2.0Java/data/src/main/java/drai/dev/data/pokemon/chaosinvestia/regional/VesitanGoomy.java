@@ -45,7 +45,7 @@ public class VesitanGoomy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_TAIL,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 34, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 34, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

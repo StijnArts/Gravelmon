@@ -73,7 +73,8 @@
     "32:agility",
     "36:toxic",
     "40:venomdrench",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4299,
+  "nationalPokedexNumber": 4307,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -144,7 +144,8 @@
         "egg:amnesia",
         "egg:heavyslam",
         "egg:outrage",
-        "egg:heatcrash"
+        "egg:heatcrash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -308,7 +309,8 @@
         "tutor:stealthrock",
         "tutor:waterpledge",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

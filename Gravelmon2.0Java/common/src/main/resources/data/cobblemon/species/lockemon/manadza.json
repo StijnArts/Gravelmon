@@ -77,7 +77,8 @@
     "70:doubleedge",
     "77:flareblitz",
     "84:overheat",
-    "91:finalgambit"
+    "91:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -90,7 +91,7 @@
   "weight": 9500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3442,
+  "nationalPokedexNumber": 3450,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

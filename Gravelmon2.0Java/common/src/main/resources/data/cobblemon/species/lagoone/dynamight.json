@@ -72,7 +72,8 @@
     "50:overheat",
     "54:knockoff",
     "59:flareblitz",
-    "63:selfdestruct"
+    "63:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",

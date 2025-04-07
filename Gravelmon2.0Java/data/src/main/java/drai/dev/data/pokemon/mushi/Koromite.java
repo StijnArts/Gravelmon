@@ -16,7 +16,7 @@ public class Koromite extends drai.dev.data.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.SAND_STREAM,Ability.SAP_SIPPER), Ability.WATER_ABSORB,
-                0, 0,
+                18, 0,
                 new Stats(0,1,2,0,0,0), 90,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
@@ -27,7 +27,11 @@ public class Koromite extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Koromite");

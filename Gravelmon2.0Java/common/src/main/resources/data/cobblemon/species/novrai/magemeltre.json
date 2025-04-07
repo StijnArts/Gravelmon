@@ -140,7 +140,8 @@
     "tm:skillswap",
     "tm:hex",
     "tm:gravity",
-    "tm:heatwave"
+    "tm:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5036,
+  "nationalPokedexNumber": 5044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

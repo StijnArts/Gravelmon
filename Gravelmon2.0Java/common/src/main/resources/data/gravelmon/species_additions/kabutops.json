@@ -112,7 +112,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -264,7 +265,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -438,7 +440,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:spite",
-        "tutor:superpower"
+        "tutor:superpower",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

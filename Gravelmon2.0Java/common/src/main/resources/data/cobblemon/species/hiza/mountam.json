@@ -71,7 +71,8 @@
     "38:rockslide",
     "44:doubleedge",
     "47:counter",
-    "55:headsmash"
+    "55:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2270,
+  "nationalPokedexNumber": 2278,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

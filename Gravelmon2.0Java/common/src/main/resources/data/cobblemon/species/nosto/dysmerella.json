@@ -76,7 +76,8 @@
     "48:mistyterrain",
     "1:moonblast",
     "1:petaldance",
-    "1:solarbeam"
+    "1:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 3504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

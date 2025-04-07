@@ -141,7 +141,8 @@
     "tm:gyroball",
     "tm:liquidation",
     "tm:raindance",
-    "tm:surf"
+    "tm:surf",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3506,
+  "nationalPokedexNumber": 3514,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

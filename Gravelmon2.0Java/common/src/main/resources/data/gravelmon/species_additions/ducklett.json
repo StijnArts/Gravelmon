@@ -116,7 +116,8 @@
         "tm:workup",
         "egg:decorate",
         "egg:tailwind",
-        "egg:spotlight"
+        "egg:spotlight",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -304,7 +305,8 @@
         "egg:doubleteam",
         "egg:headsmash",
         "egg:knockoff",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

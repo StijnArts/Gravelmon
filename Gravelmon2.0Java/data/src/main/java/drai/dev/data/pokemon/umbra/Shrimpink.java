@@ -92,7 +92,7 @@ public class Shrimpink extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 24, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

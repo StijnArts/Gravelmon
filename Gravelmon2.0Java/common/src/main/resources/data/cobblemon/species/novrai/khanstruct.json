@@ -145,7 +145,8 @@
     "tm:rockthrow",
     "tm:crosschop",
     "tm:stockpile",
-    "tm:helpinghand"
+    "tm:helpinghand",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4897,
+  "nationalPokedexNumber": 4905,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

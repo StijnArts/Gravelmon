@@ -123,7 +123,8 @@
     "egg:snore",
     "egg:stomp",
     "egg:sunnyday",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -137,7 +138,7 @@
   "weight": 2304,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4597,
+  "nationalPokedexNumber": 4605,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

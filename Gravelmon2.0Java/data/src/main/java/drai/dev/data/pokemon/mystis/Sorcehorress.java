@@ -16,8 +16,8 @@ public class Sorcehorress extends drai.dev.data.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.CURIOUS_MEDICINE), Ability.POWER_OF_ALCHEMY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.125,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Sorcehorress extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(36).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP)
+                        .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES ).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sorcehorress");

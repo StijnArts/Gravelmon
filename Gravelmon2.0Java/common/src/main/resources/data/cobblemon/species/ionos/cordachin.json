@@ -83,7 +83,8 @@
     "tm:spikes",
     "tm:pinmissile",
     "tm:fissure",
-    "tm:gunkshot"
+    "tm:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -96,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4751,
+  "nationalPokedexNumber": 4759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

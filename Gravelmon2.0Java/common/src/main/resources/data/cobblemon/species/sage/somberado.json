@@ -146,7 +146,8 @@
     "egg:hex",
     "egg:ominouswind",
     "egg:scaryface",
-    "egg:smokescreen"
+    "egg:smokescreen",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

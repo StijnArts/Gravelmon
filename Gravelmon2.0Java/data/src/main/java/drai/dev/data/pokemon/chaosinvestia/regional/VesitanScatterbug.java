@@ -35,7 +35,7 @@ public class VesitanScatterbug extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STUN_SPORE,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -72,7 +72,8 @@
     "33:shadowclaw",
     "39:nightmare",
     "44:nightslash",
-    "55:memento"
+    "55:memento",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3525,
+  "nationalPokedexNumber": 3533,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

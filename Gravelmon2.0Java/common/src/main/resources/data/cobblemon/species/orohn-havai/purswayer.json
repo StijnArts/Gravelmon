@@ -76,7 +76,8 @@
     "34:yawn",
     "36:takedown",
     "40:suckerpunch",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

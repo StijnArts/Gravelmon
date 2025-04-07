@@ -78,7 +78,8 @@
     "60:mefirst",
     "tm:flipturn",
     "tm:sludgewave",
-    "tm:luckychant"
+    "tm:luckychant",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

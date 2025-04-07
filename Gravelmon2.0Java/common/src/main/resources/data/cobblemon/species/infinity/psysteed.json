@@ -162,7 +162,8 @@
     "egg:flareblitz",
     "egg:focuspunch",
     "egg:metalclaw",
-    "egg:outrage"
+    "egg:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

@@ -144,7 +144,8 @@
         "tm:thunderwave",
         "tm:toxic",
         "tm:wildcharge",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -308,7 +309,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -468,7 +470,8 @@
         "tm:featherdance",
         "tm:powerswap",
         "tm:dragonrush",
-        "tm:playrough"
+        "tm:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -645,7 +648,8 @@
         "egg:pursuit",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -811,7 +815,8 @@
         "egg:pursuit",
         "egg:rage",
         "egg:roost",
-        "egg:steelwing"
+        "egg:steelwing",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -82,7 +82,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:rest",
-    "tm:fakeout"
+    "tm:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3464,
+  "nationalPokedexNumber": 3472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

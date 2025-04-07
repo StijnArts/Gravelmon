@@ -68,7 +68,8 @@
     "1:lastresort",
     "1:detect",
     "1:featherdance",
-    "1:tailslap"
+    "1:tailslap",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -83,7 +84,7 @@
   "weight": 136,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3238,
+  "nationalPokedexNumber": 3246,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

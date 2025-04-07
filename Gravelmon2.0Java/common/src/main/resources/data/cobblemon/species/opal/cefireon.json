@@ -84,7 +84,8 @@
     "33:featherdance",
     "37:airslash",
     "41:agility",
-    "45:hurricane"
+    "45:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -97,7 +98,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1477,
+  "nationalPokedexNumber": 1480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 8.0,

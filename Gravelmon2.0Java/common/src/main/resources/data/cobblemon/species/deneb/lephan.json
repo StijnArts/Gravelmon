@@ -120,7 +120,8 @@
     "egg:stomp",
     "egg:sunnyday",
     "egg:takedown",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4520,
+  "nationalPokedexNumber": 4528,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

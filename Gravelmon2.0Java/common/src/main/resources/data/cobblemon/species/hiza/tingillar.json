@@ -68,7 +68,8 @@
     "29:infestation",
     "31:stickyweb",
     "36:bugbuzz",
-    "43:reflecttype"
+    "43:reflecttype",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2273,
+  "nationalPokedexNumber": 2281,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

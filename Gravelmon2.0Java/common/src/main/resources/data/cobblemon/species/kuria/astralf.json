@@ -72,7 +72,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"
+    "57:recover",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4215,
+  "nationalPokedexNumber": 4223,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

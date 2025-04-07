@@ -87,7 +87,8 @@
         "egg:entrainment",
         "egg:mefirst",
         "egg:mudsport",
-        "egg:quickguard"
+        "egg:quickguard",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

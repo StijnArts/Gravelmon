@@ -11,8 +11,8 @@ public class Reabuto extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,11 +22,15 @@ public class Reabuto extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Reabuto");
-
+           setCanBreathUnderwater(true);
     }
 
 

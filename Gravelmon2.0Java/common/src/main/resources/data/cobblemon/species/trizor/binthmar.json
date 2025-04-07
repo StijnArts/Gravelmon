@@ -65,7 +65,32 @@
     "1:curse",
     "1:sleeptalk",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:growl",
+    "1:bulkup",
+    "1:bulkup",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:confuseray",
+    "4:round",
+    "4:calmmind",
+    "4:calmmind",
+    "7:ominouswind",
+    "7:swift",
+    "7:taunt",
+    "7:taunt",
+    "10:nightshade",
+    "10:uproar",
+    "10:substitute",
+    "10:substitute",
+    "13:hex",
+    "13:hypervoice",
+    "13:rest",
+    "13:rest",
+    "16:shadowball",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -95,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2733,
+  "nationalPokedexNumber": 2741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

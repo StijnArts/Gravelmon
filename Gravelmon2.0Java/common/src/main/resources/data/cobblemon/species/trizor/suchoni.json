@@ -64,7 +64,22 @@
     "1:strugglebug",
     "1:bite",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:silverwind",
+    "4:payback",
+    "7:signalbeam",
+    "7:nightdaze",
+    "10:infestation",
+    "10:snarl",
+    "13:uturn",
+    "13:knockoff",
+    "16:bugbuzz",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2766,
+  "nationalPokedexNumber": 2774,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

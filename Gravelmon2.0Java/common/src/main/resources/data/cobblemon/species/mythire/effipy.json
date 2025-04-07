@@ -70,7 +70,8 @@
     "1:sing",
     "1:perishsong",
     "1:destinybond",
-    "1:screech"
+    "1:screech",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3911,
+  "nationalPokedexNumber": 3919,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

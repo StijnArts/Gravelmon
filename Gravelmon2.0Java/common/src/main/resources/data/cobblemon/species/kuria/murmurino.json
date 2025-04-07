@@ -75,7 +75,8 @@
     "45:boomburst",
     "51:inferno",
     "56:crunch",
-    "61:flareblitz"
+    "61:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4205,
+  "nationalPokedexNumber": 4213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

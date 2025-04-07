@@ -81,7 +81,8 @@
     "tm:stompingtantrum",
     "tm:superfang",
     "tm:throatchop",
-    "tm:corrosivegas"
+    "tm:corrosivegas",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3855,
+  "nationalPokedexNumber": 3863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

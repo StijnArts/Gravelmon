@@ -74,7 +74,8 @@
     "34:wingattack",
     "38:petaldance",
     "44:doubleedge",
-    "48:bravebird"
+    "48:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4024,
+  "nationalPokedexNumber": 4032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

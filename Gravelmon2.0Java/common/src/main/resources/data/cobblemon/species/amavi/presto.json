@@ -77,7 +77,8 @@
     "40:psychic",
     "43:amnesia",
     "46:darkpulse",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5246,
+  "nationalPokedexNumber": 5254,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

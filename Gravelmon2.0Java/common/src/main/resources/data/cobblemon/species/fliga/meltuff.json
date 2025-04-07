@@ -78,7 +78,8 @@
     "43:recover",
     "48:bodypress",
     "50:earthpower",
-    "55:eruption"
+    "55:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3921,
+  "nationalPokedexNumber": 3929,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

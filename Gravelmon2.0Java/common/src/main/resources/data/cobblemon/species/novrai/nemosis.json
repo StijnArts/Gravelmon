@@ -127,7 +127,8 @@
     "tm:helpinghand",
     "tm:electroball",
     "tm:wavecrash",
-    "tm:batonpass"
+    "tm:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4923,
+  "nationalPokedexNumber": 4931,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

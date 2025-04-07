@@ -149,7 +149,8 @@
     "tm:rockclimb",
     "tm:powertrick",
     "tm:aurorabeam",
-    "tm:eerieimpulse"
+    "tm:eerieimpulse",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -177,7 +178,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4973,
+  "nationalPokedexNumber": 4981,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

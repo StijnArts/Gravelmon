@@ -108,7 +108,8 @@
     "tm:surf",
     "tm:strength",
     "tm:rocksmash",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -121,7 +122,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3448,
+  "nationalPokedexNumber": 3456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

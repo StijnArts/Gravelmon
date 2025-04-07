@@ -76,7 +76,8 @@
     "44:icebeam",
     "52:blizzard",
     "60:sheercold",
-    "1:dig"
+    "1:dig",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4068,
+  "nationalPokedexNumber": 4076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

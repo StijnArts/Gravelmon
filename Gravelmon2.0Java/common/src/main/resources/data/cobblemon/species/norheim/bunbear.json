@@ -79,7 +79,8 @@
     "45:agility",
     "48:doubleedge",
     "51:healbell",
-    "56:fireblast"
+    "56:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3065,
+  "nationalPokedexNumber": 3073,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

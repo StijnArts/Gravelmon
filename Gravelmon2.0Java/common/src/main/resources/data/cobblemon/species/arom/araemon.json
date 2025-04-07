@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "4:quickattack",
+    "7:flamecharge",
+    "10:firepunch",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "sahl",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5811,
+  "nationalPokedexNumber": 5819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -129,7 +129,8 @@
     "tm:sludge",
     "tm:fairywind",
     "tm:dragonrage",
-    "tm:acidarmor"
+    "tm:acidarmor",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4992,
+  "nationalPokedexNumber": 5000,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -90,7 +90,8 @@
     "tm:xscissor",
     "tm:cut",
     "tm:strength",
-    "tm:rocksmash"
+    "tm:rocksmash",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald"
@@ -102,7 +103,7 @@
   "weight": 453,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3825,
+  "nationalPokedexNumber": 3833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

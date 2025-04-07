@@ -120,7 +120,8 @@
     "tm:sandstorm",
     "tm:dragonpulse",
     "tm:sandattack",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2454,
+  "nationalPokedexNumber": 2462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

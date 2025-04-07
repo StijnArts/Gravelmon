@@ -6,11 +6,14 @@
     {
       "id": "fabelian_onix-01",
       "pokemon": "onix fabelian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -76,6 +79,31 @@
       }
     },
     {
+      "id": "nodorran_onix-01",
+      "pokemon": "onix nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_onix-01",
       "pokemon": "onix epoch",
       "presets": [
@@ -112,7 +140,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "14-39",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold",
@@ -123,6 +151,31 @@
       },
       "anticondition": {
         "biomes": []
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_onix-01",
+      "pokemon": "onix ishirian",
+      "presets": [
+        "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

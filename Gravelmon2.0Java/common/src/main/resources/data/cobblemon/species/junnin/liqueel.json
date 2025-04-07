@@ -101,7 +101,8 @@
     "tm:toxic",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2423,
+  "nationalPokedexNumber": 2431,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -122,7 +122,8 @@
     "egg:skyattack",
     "egg:steelwing",
     "egg:swagger",
-    "egg:uproar"
+    "egg:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1999,
+  "nationalPokedexNumber": 2002,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

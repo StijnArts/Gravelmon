@@ -23,7 +23,8 @@ public class Haffy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Haffy spend most of their time of the day up high in the trees where they stay in their nests. They only leave their nest to eat."),
-                List.of(),
+                List.of(new EvolutionEntry("baldawk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.CHIRP,3),
@@ -38,7 +39,11 @@ public class Haffy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAILWIND,35)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_PLAINS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Haffy");

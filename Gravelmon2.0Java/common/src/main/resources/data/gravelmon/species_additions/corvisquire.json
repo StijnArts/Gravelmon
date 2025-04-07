@@ -141,7 +141,8 @@
         "tm:toxic",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -257,7 +258,8 @@
         "45:endeavor",
         "51:bulkup",
         "58:bravebird",
-        "62:skyattack"
+        "62:skyattack",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

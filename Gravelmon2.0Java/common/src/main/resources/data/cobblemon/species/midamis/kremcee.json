@@ -82,7 +82,8 @@
     "tm:revenge",
     "tm:suckerpunch",
     "tm:poisonjab",
-    "tm:shadowsneak"
+    "tm:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4340,
+  "nationalPokedexNumber": 4348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

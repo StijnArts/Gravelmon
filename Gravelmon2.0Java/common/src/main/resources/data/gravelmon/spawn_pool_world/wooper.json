@@ -65,7 +65,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "5-28",
-      "weight": 10.5,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic"

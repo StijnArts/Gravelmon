@@ -78,7 +78,8 @@
     "46:metalsound",
     "52:metalburst",
     "58:selfdestruct",
-    "64:gyroball"
+    "64:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

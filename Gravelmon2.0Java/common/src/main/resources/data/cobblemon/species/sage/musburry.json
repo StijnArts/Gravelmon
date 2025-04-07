@@ -157,7 +157,8 @@
     "egg:stockpile",
     "egg:swallow",
     "egg:sweetscent",
-    "egg:synthesis"
+    "egg:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -123,7 +123,8 @@
         "egg:amnesia",
         "egg:grassyglide",
         "egg:belch",
-        "egg:teatime"
+        "egg:teatime",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

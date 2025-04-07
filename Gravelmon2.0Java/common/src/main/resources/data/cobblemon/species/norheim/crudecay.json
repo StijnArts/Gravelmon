@@ -77,7 +77,8 @@
     "tm:liquidation",
     "tm:crushclaw",
     "tm:crunch",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3172,
+  "nationalPokedexNumber": 3180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

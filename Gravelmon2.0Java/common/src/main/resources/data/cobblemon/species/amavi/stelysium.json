@@ -75,7 +75,8 @@
     "46:healpulse",
     "52:nightslash",
     "56:thunderwave",
-    "63:calmmind"
+    "63:calmmind",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5297,
+  "nationalPokedexNumber": 5305,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

@@ -117,7 +117,8 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2424,
+  "nationalPokedexNumber": 2432,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

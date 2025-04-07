@@ -90,7 +90,8 @@
     "tm:wideguard",
     "tm:acidspray",
     "tm:liquidation",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3838,
+  "nationalPokedexNumber": 3846,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

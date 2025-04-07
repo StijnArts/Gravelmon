@@ -136,7 +136,8 @@
         "egg:grudge",
         "egg:spite",
         "egg:poltergeist",
-        "egg:memento"
+        "egg:memento",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

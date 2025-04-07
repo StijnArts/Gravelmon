@@ -110,7 +110,8 @@
     "tm:lightscreen",
     "tm:reflect",
     "tm:rest",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -125,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3501,
+  "nationalPokedexNumber": 3509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

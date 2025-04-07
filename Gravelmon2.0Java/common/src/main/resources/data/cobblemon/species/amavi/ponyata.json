@@ -70,7 +70,8 @@
     "35:triplekick",
     "40:shadowball",
     "50:teeterdance",
-    "55:phantomforce"
+    "55:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5289,
+  "nationalPokedexNumber": 5297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

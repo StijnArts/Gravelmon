@@ -75,7 +75,8 @@
     "45:afteryou",
     "49:entrainment",
     "53:quiverdance",
-    "57:hurricane"
+    "57:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1762,
+  "nationalPokedexNumber": 1765,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

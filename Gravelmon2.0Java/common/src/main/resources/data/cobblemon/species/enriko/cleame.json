@@ -68,7 +68,8 @@
     "18:clamp",
     "23:smokescreen",
     "28:bide",
-    "50:shellsmash"
+    "50:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 1651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

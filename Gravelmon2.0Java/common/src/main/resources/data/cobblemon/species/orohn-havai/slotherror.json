@@ -81,7 +81,8 @@
     "45:rockpolish",
     "50:rockslide",
     "54:curse",
-    "58:doubleedge"
+    "58:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 3008,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

@@ -72,7 +72,8 @@
     "36:switcheroo",
     "42:dazzlinggleam",
     "48:bugbuzz",
-    "54:quiverdance"
+    "54:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2332,
+  "nationalPokedexNumber": 2340,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

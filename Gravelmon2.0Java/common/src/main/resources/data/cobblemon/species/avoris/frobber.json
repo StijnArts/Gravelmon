@@ -79,7 +79,8 @@
     "48:toxic",
     "50:nightdaze",
     "55:meanlook",
-    "57:foulplay"
+    "57:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1856,
+  "nationalPokedexNumber": 1859,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

@@ -65,7 +65,8 @@
   "moves": [
     "1:quiverdance",
     "tm:acidarmor",
-    "tm:shellsmash"
+    "tm:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1878,
+  "nationalPokedexNumber": 1881,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

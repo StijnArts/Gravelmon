@@ -140,7 +140,8 @@
     "tm:screech",
     "tm:doubleteam",
     "tm:iondeluge",
-    "tm:drainingkiss"
+    "tm:drainingkiss",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5006,
+  "nationalPokedexNumber": 5014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

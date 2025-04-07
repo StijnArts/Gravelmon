@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:confusion"
+    "1:confusion",
+    "1:tailwhip",
+    "1:growl",
+    "4:bubblebeam",
+    "4:psybeam",
+    "7:brine",
+    "7:futuresight",
+    "10:surf",
+    "10:psychic",
+    "13:chillingwater",
+    "13:psyshock",
+    "16:hydropump",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2836,
+  "nationalPokedexNumber": 2844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

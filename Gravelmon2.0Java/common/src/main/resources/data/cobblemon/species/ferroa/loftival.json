@@ -128,7 +128,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:workup",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1545,
+  "nationalPokedexNumber": 1548,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

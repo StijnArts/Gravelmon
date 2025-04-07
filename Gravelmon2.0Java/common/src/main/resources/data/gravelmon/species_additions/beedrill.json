@@ -116,7 +116,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:voltswitch",
-        "tm:wildcharge"
+        "tm:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

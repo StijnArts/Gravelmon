@@ -16,8 +16,8 @@ public class Disasteroid extends drai.dev.data.pokemon.Pokemon {
                         70,
                         129),
                 List.of(Ability.LEVITATE,Ability.ROCK_HEAD), Ability.RECKLESS,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Disasteroid extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_END)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Disasteroid");

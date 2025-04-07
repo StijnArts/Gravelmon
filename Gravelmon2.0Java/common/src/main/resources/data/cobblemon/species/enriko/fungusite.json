@@ -75,7 +75,8 @@
     "39:honeclaws",
     "43:drainpunch",
     "46:foulplay",
-    "50:trickroom"
+    "50:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1653,
+  "nationalPokedexNumber": 1656,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

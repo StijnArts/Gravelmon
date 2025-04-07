@@ -172,7 +172,8 @@
     "egg:heavyslam",
     "egg:mimic",
     "egg:naturepower",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

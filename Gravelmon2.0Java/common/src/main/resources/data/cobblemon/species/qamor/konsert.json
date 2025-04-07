@@ -77,7 +77,8 @@
     "53:clangoroussoul",
     "58:outrage",
     "tm:clangoroussoul",
-    "tm:overdrive"
+    "tm:overdrive",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4008,
+  "nationalPokedexNumber": 4016,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

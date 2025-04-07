@@ -84,7 +84,22 @@
         "1:mudslap",
         "1:powdersnow",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:sandattack",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:mudshot",
+        "4:icywind",
+        "7:mudbomb",
+        "7:aurorabeam",
+        "10:bulldoze",
+        "10:freezedry",
+        "13:scorchingsands",
+        "13:icebeam",
+        "16:earthpower",
+        "16:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -248,7 +263,8 @@
         "egg:storedpower",
         "egg:bravebird",
         "egg:tailwind",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -413,7 +429,8 @@
         "egg:mirrormove",
         "egg:reflect",
         "egg:lightscreen",
-        "egg:batonpass"
+        "egg:batonpass",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -591,7 +608,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -753,7 +771,8 @@
         "egg:haze",
         "egg:mirrormove",
         "egg:naturalgift",
-        "egg:supersonic"
+        "egg:supersonic",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -911,7 +930,8 @@
         "tm:toxic",
         "tm:uproar",
         "tm:workup",
-        "tm:playrough"
+        "tm:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

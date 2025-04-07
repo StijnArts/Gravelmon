@@ -92,7 +92,8 @@
     "tm:nastyplot",
     "tm:playrough",
     "tm:toxic",
-    "tm:trailblaze"
+    "tm:trailblaze",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -107,7 +108,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3845,
+  "nationalPokedexNumber": 3853,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

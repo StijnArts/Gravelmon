@@ -65,7 +65,8 @@
     "38:irondefense",
     "44:electroweb",
     "47:electricterrain",
-    "54:storedpower"
+    "54:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1710,
+  "nationalPokedexNumber": 1713,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

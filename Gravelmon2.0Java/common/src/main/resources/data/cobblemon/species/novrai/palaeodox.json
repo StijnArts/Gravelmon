@@ -158,7 +158,8 @@
     "tm:miracleeye",
     "tm:smokescreen",
     "tm:clearsmog",
-    "tm:bubblebeam"
+    "tm:bubblebeam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -173,7 +174,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4938,
+  "nationalPokedexNumber": 4946,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

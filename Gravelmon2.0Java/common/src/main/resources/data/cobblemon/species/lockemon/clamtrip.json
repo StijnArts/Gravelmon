@@ -78,7 +78,8 @@
     "54:stoneedge",
     "egg:nightslash",
     "egg:sandattack",
-    "egg:switcheroo"
+    "egg:switcheroo",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -91,7 +92,7 @@
   "weight": 335,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3388,
+  "nationalPokedexNumber": 3396,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

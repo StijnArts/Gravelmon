@@ -73,7 +73,8 @@
     "39:fling",
     "43:bonemerang",
     "47:shadowbone",
-    "51:destinybond"
+    "51:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4769,
+  "nationalPokedexNumber": 4777,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -69,7 +69,8 @@
     "25:liquidation",
     "29:bodyslam",
     "32:safeguard",
-    "36:superpower"
+    "36:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4057,
+  "nationalPokedexNumber": 4065,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

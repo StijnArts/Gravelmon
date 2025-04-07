@@ -101,7 +101,8 @@
     "tm:poltergeist",
     "tm:swordsdance",
     "tm:astonish",
-    "tm:powertrick"
+    "tm:powertrick",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1617,
+  "nationalPokedexNumber": 1620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

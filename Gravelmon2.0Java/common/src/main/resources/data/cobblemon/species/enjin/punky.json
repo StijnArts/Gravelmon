@@ -107,7 +107,8 @@
     "tm:sludgebomb",
     "tm:toxic",
     "tm:psychic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -120,7 +121,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4682,
+  "nationalPokedexNumber": 4690,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

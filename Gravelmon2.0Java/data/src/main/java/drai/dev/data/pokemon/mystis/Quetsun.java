@@ -16,8 +16,8 @@ public class Quetsun extends drai.dev.data.pokemon.Pokemon {
                         70,
                         120),
                 List.of(Ability.GALE_WINGS), Ability.PRIDEFULSTANCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                32, 0,
+                new Stats(0,0,0,0,0,0), 20,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -30,7 +30,11 @@ public class Quetsun extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Quetsun");

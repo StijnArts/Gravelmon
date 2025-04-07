@@ -132,7 +132,8 @@
     "egg:healpulse",
     "egg:moonblast",
     "egg:recycle",
-    "egg:spore"
+    "egg:spore",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

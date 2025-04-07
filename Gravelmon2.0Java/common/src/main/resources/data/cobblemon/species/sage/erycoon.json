@@ -151,7 +151,8 @@
     "egg:fakeout",
     "egg:lovelykiss",
     "egg:mirrorcoat",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

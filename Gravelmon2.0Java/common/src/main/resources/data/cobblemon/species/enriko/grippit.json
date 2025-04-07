@@ -82,7 +82,8 @@
     "51:painsplit",
     "55:terrorize",
     "60:destinybond",
-    "64:leafstorm"
+    "64:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1728,
+  "nationalPokedexNumber": 1731,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -161,7 +161,8 @@
     "tm:rockblast",
     "tm:rollout",
     "tm:sandtomb",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -189,7 +190,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3349,
+  "nationalPokedexNumber": 3357,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

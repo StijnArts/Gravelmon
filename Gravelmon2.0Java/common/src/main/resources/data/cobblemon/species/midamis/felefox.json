@@ -75,7 +75,8 @@
     "41:discharge",
     "46:shellsmash",
     "50:fireblast",
-    "55:thunder"
+    "55:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4336,
+  "nationalPokedexNumber": 4344,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

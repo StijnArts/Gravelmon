@@ -98,6 +98,7 @@
         "tm:falseswipe",
         "tm:firepunch",
         "tm:focusblast",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -137,7 +138,8 @@
         "egg:fakeout",
         "egg:switcheroo",
         "egg:foulplay",
-        "egg:covet"
+        "egg:covet",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -314,7 +316,8 @@
         "egg:poisontail",
         "egg:siphon",
         "egg:fakeout",
-        "egg:glare"
+        "egg:glare",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -436,7 +439,8 @@
         "egg:meanlook",
         "egg:miracleeye",
         "egg:mirrorcoat",
-        "egg:uproar"
+        "egg:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

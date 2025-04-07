@@ -77,7 +77,8 @@
     "egg:snatch",
     "egg:suckerpunch",
     "egg:thunderfang",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1954,
+  "nationalPokedexNumber": 1957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

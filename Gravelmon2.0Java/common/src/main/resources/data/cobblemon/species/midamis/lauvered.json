@@ -70,7 +70,8 @@
     "41:healbell",
     "45:solarbeam",
     "49:substitute",
-    "53:hypervoice"
+    "53:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4329,
+  "nationalPokedexNumber": 4337,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

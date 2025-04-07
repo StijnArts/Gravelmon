@@ -154,7 +154,8 @@
     "tm:darkestlariat",
     "tm:highhorsepower",
     "tm:throatchop",
-    "tm:bodypress"
+    "tm:bodypress",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -167,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3916,
+  "nationalPokedexNumber": 3924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

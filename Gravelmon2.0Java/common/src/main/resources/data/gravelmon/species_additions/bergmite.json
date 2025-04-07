@@ -134,7 +134,8 @@
         "egg:heatcrash",
         "egg:rocktomb",
         "egg:shieldbash",
-        "egg:selfdestruct"
+        "egg:selfdestruct",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -254,7 +255,8 @@
         "egg:barrier",
         "egg:mirrorcoat",
         "egg:mist",
-        "egg:recover"
+        "egg:recover",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -434,7 +436,8 @@
         "tutor:superfang",
         "tutor:twister",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

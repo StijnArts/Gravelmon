@@ -66,7 +66,23 @@
         "1:scratch",
         "1:watergun",
         "1:quickattack",
-        "1:flipturn"
+        "1:flipturn",
+        "1:leer",
+        "1:tailwhip",
+        "1:swordsdance",
+        "1:quickattack",
+        "4:dragonrage",
+        "4:bubblebeam",
+        "4:swordsdance",
+        "7:dualchop",
+        "7:aquatail",
+        "10:breakingswipe",
+        "10:surf",
+        "13:dragonclaw",
+        "13:waterfall",
+        "16:outrage",
+        "16:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "aroma",
@@ -154,7 +170,20 @@
       "drops": {},
       "moves": [
         "1:rockthrow",
-        "1:scratch"
+        "1:scratch",
+        "1:defensecurl",
+        "1:leer",
+        "4:rollout",
+        "4:dragonrage",
+        "7:smackdown",
+        "7:dualchop",
+        "10:rockblast",
+        "10:breakingswipe",
+        "13:stealthrock",
+        "13:dragonclaw",
+        "16:stoneedge",
+        "16:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -243,7 +272,20 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:leafage"
+        "1:leafage",
+        "1:leer",
+        "1:leer",
+        "4:dragonrage",
+        "4:absorb",
+        "7:dualchop",
+        "7:trailblaze",
+        "10:breakingswipe",
+        "10:gigadrain",
+        "13:dragonclaw",
+        "13:seedbomb",
+        "16:outrage",
+        "16:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -334,7 +376,22 @@
         "1:scratch",
         "1:thundershock",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:twister",
+        "4:charge",
+        "7:dragonbreath",
+        "7:shockwave",
+        "10:breakingswipe",
+        "10:discharge",
+        "13:dragonpulse",
+        "13:thunderbolt",
+        "16:dracometeor",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -425,7 +482,28 @@
         "1:scratch",
         "1:powdersnow",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:leer",
+        "1:growl",
+        "1:calmmind",
+        "1:calmmind",
+        "4:dragonrage",
+        "4:icywind",
+        "4:taunt",
+        "4:taunt",
+        "7:dualchop",
+        "7:icepunch",
+        "7:substitute",
+        "7:substitute",
+        "10:breakingswipe",
+        "10:icespinner",
+        "10:rest",
+        "10:rest",
+        "13:dragonclaw",
+        "13:iceshard",
+        "16:outrage",
+        "16:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -589,7 +667,8 @@
         "tm:thunderfang",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -748,7 +827,8 @@
         "tm:whirlpool",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -910,7 +990,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:stompingtantrum",
-        "tutor:swagger"
+        "tutor:swagger",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

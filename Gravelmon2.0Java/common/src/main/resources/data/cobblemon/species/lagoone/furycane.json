@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "1:leer",
+    "3:twister",
+    "3:aircutter",
+    "6:dragonbreath",
+    "6:wingattack",
+    "9:breakingswipe",
+    "9:airslash",
+    "12:dragonpulse",
+    "12:drillpeck",
+    "15:dracometeor",
+    "15:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -78,7 +91,7 @@
   "weight": 8,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1376,
+  "nationalPokedexNumber": 1378,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

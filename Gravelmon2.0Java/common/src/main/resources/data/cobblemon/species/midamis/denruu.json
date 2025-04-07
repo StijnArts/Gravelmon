@@ -74,7 +74,8 @@
     "40:psychic",
     "43:amnesia",
     "46:darkpulse",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4392,
+  "nationalPokedexNumber": 4400,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

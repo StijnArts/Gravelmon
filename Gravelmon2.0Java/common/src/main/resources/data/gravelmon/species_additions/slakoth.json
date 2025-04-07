@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:tackle"
+        "1:tackle",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:round",
+        "7:shockwave",
+        "7:swift",
+        "10:discharge",
+        "10:uproar",
+        "13:thunderbolt",
+        "13:hypervoice",
+        "16:thunder",
+        "16:hyperbeam",
+        "19:thundershock",
+        "19:tackle",
+        "22:leer",
+        "22:growl",
+        "25:charge",
+        "25:quickattack",
+        "28:thunderpunch",
+        "28:bite",
+        "31:discharge",
+        "31:takedown",
+        "34:wildcharge",
+        "34:crunch",
+        "39:supercellslam",
+        "39:doubleedge",
+        "tm:terablast"
       ],
       "labels": [
         "elb",
@@ -150,7 +177,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:powdersnow"
+        "1:powdersnow",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:icywind",
+        "7:shockwave",
+        "7:aurorabeam",
+        "10:discharge",
+        "10:freezedry",
+        "13:thunderbolt",
+        "13:icebeam",
+        "16:thunder",
+        "16:blizzard",
+        "19:thundershock",
+        "19:powdersnow",
+        "22:leer",
+        "22:growl",
+        "25:charge",
+        "25:icywind",
+        "28:thunderpunch",
+        "28:icepunch",
+        "31:discharge",
+        "31:icespinner",
+        "34:wildcharge",
+        "34:iceshard",
+        "39:supercellslam",
+        "39:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -311,7 +365,8 @@
         "egg:spitup",
         "egg:bide",
         "egg:drumbeating",
-        "egg:bodypress"
+        "egg:bodypress",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -471,7 +526,8 @@
         "tm:round",
         "tm:bulldoze",
         "tm:workup",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",

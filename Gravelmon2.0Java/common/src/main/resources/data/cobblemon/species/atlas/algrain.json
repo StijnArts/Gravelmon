@@ -73,7 +73,8 @@
     "38:grassknot",
     "42:growth",
     "48:wringout",
-    "53:powerwhip"
+    "53:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5138,
+  "nationalPokedexNumber": 5146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

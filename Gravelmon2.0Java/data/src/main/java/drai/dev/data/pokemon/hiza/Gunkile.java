@@ -42,7 +42,7 @@ public class Gunkile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,58)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 33, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

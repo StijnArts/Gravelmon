@@ -133,7 +133,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

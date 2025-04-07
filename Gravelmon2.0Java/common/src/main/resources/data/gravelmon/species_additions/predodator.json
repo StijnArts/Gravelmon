@@ -64,7 +64,20 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:payback",
+        "4:drainingkiss",
+        "7:nightslash",
+        "7:playnice",
+        "10:crunch",
+        "10:dazzlinggleam",
+        "13:knockoff",
+        "13:playrough",
+        "16:suckerpunch",
+        "16:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "raian",

@@ -63,7 +63,22 @@
     "1:acid",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:screech",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:clearsmog",
+    "10:irontail",
+    "15:sludge",
+    "15:smartstrike",
+    "20:toxicspikes",
+    "20:mirrorshot",
+    "25:sludgebomb",
+    "25:flashcannon",
+    "30:sludgewave",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5986,
+  "nationalPokedexNumber": 5994,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

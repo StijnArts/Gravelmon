@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "4:twister",
+    "7:dragonbreath",
+    "10:breakingswipe",
+    "13:dragonpulse",
+    "16:dracometeor",
+    "19:scratch",
+    "22:leer",
+    "25:dragonrage",
+    "28:dualchop",
+    "31:breakingswipe",
+    "34:dragonclaw",
+    "39:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -89,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3772,
+  "nationalPokedexNumber": 3780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

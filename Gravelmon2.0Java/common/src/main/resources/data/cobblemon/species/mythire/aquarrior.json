@@ -107,7 +107,8 @@
     "tm:throatchop",
     "tm:coaching",
     "tm:lashout",
-    "tm:scaleshot"
+    "tm:scaleshot",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3874,
+  "nationalPokedexNumber": 3882,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

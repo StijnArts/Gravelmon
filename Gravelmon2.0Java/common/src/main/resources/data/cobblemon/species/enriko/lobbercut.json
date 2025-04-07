@@ -75,7 +75,8 @@
     "54:feint",
     "63:pursuit",
     "72:agility",
-    "90:focuspunch"
+    "90:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1645,
+  "nationalPokedexNumber": 1648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

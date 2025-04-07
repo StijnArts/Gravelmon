@@ -75,7 +75,8 @@
     "1:discharge",
     "1:scratch",
     "1:eggbomb",
-    "1:fakeout"
+    "1:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3872,
+  "nationalPokedexNumber": 3880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

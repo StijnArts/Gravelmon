@@ -68,7 +68,14 @@
     ]
   },
   "moves": [
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:babydolleyes",
+    "4:drainingkiss",
+    "7:playnice",
+    "10:dazzlinggleam",
+    "13:hypervoice",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -83,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

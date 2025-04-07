@@ -147,7 +147,8 @@
     "egg:mist",
     "egg:naturepower",
     "egg:screech",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -160,7 +161,7 @@
   "weight": 838,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2012,
+  "nationalPokedexNumber": 2015,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -83,7 +83,8 @@
     "tm:disable",
     "tm:nastyplot",
     "tm:psychicfangs",
-    "tm:belch"
+    "tm:belch",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -98,7 +99,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4480,
+  "nationalPokedexNumber": 4488,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

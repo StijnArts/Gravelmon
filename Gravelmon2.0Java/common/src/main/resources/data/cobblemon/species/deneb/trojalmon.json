@@ -119,7 +119,8 @@
     "egg:scald",
     "egg:taunt",
     "egg:waterpulse",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -134,7 +135,7 @@
   "weight": 2095,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4576,
+  "nationalPokedexNumber": 4584,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

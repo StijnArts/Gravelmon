@@ -62,7 +62,8 @@
   "moves": [
     "1:quickattack",
     "7:defensecurl",
-    "11:headbutt"
+    "11:headbutt",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -75,7 +76,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4340,
+  "nationalPokedexNumber": 4348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -72,7 +72,8 @@
     "39:thunderwave",
     "49:spore",
     "54:powerwhip",
-    "60:electricterrain"
+    "60:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1642,
+  "nationalPokedexNumber": 1645,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

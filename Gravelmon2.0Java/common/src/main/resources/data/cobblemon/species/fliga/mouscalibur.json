@@ -72,7 +72,8 @@
     "39:discharge",
     "48:agility",
     "57:thunder",
-    "62:doubleedge"
+    "62:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3968,
+  "nationalPokedexNumber": 3976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

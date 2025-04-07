@@ -75,7 +75,8 @@
     "56:rockwrecker",
     "tm:snipeshot",
     "tm:seedbomb",
-    "tm:sludgebomb"
+    "tm:sludgebomb",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1887,
+  "nationalPokedexNumber": 1890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

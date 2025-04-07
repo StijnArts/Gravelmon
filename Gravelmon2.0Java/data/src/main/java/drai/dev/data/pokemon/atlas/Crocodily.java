@@ -97,7 +97,7 @@ public class Crocodily extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 6, 27, 7, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 6, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

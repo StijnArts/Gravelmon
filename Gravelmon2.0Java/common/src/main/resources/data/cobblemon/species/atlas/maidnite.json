@@ -129,7 +129,8 @@
     "tm:present",
     "tm:moonlight",
     "tm:tailwind",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5077,
+  "nationalPokedexNumber": 5085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

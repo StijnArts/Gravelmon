@@ -23,7 +23,8 @@ public class Timpot extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("A very timid Pokémon that doesn't like being exposed. Once seen, it runs away and looks for a new hiding place."),
-                List.of(),
+                List.of(new EvolutionEntry("prankmare", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.MEAN_LOOK,1),
@@ -96,7 +97,11 @@ public class Timpot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(16).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Timpot");

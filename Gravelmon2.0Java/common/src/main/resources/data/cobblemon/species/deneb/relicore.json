@@ -125,7 +125,8 @@
     "egg:swagger",
     "egg:waterpulse",
     "egg:watersport",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
   "weight": 831,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4573,
+  "nationalPokedexNumber": 4581,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

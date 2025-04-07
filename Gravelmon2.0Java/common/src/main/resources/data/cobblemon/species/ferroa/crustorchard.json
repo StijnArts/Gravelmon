@@ -153,7 +153,8 @@
     "tm:furycutter",
     "tm:irondefense",
     "tm:smackdown",
-    "tm:appleacid"
+    "tm:appleacid",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1485,
+  "nationalPokedexNumber": 1488,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

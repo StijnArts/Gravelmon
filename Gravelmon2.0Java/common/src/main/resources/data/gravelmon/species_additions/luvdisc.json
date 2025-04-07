@@ -14,6 +14,20 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "luvdisc_delfine",
+      "variant": "level_up",
+      "result": "delfine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "220"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -96,7 +110,8 @@
         "40:aquaring",
         "42:soak",
         "46:hydropump",
-        "49:phantomforce"
+        "49:phantomforce",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -256,7 +271,8 @@
         "egg:aquajet",
         "egg:healpulse",
         "egg:brine",
-        "egg:entrainment"
+        "egg:entrainment",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

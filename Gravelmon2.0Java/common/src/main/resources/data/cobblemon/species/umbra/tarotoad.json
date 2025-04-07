@@ -156,7 +156,8 @@
     "tutor:gastroacid",
     "tutor:skillswap",
     "tutor:hypervoice",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -171,7 +172,7 @@
   "weight": 1572,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3686,
+  "nationalPokedexNumber": 3694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

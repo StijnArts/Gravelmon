@@ -144,7 +144,8 @@
         "egg:armthrust",
         "egg:rollout",
         "egg:obstruct",
-        "egg:quash"
+        "egg:quash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

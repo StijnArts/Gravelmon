@@ -86,7 +86,8 @@
     "tm:curse",
     "tm:ancientpower",
     "tm:sandstorm",
-    "tm:bulletpunch"
+    "tm:bulletpunch",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4818,
+  "nationalPokedexNumber": 4826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

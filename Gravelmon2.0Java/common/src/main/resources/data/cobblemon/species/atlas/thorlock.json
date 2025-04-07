@@ -80,7 +80,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:outrage",
-    "tm:magnitude"
+    "tm:magnitude",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5142,
+  "nationalPokedexNumber": 5150,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

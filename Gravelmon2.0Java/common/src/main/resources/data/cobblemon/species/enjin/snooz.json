@@ -98,7 +98,8 @@
     "tm:rest",
     "tm:teleport",
     "tm:trickroom",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8125,

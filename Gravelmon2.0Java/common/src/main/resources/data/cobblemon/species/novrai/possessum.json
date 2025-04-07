@@ -160,7 +160,8 @@
     "tm:memento",
     "tm:minimize",
     "tm:poisonfang",
-    "tm:smokescreen"
+    "tm:smokescreen",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -175,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4880,
+  "nationalPokedexNumber": 4888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

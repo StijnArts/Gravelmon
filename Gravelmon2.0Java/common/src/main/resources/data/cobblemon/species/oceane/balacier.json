@@ -73,7 +73,8 @@
     "1:sing",
     "1:screech",
     "1:supersonic",
-    "1:depthcharge"
+    "1:depthcharge",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1887,
+  "nationalPokedexNumber": 1890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.0,

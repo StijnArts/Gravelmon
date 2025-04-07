@@ -172,7 +172,8 @@
     "egg:mist",
     "egg:mudslide",
     "egg:sheercold",
-    "egg:skullbash"
+    "egg:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

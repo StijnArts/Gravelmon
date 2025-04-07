@@ -100,7 +100,8 @@
     "egg:ragepowder",
     "egg:rapidgrowth",
     "egg:razorwind",
-    "egg:silverwind"
+    "egg:silverwind",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -113,7 +114,7 @@
   "weight": 474,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4631,
+  "nationalPokedexNumber": 4639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

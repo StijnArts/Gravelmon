@@ -140,7 +140,8 @@
     "tm:thunderfang",
     "tm:toxic",
     "tm:venoshock",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3908,
+  "nationalPokedexNumber": 3916,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

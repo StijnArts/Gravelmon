@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:scratch"
+    "1:scratch",
+    "1:tailwhip",
+    "1:leer",
+    "10:bubblebeam",
+    "10:twister",
+    "15:brine",
+    "15:dragonbreath",
+    "20:surf",
+    "20:breakingswipe",
+    "25:chillingwater",
+    "25:dragonpulse",
+    "30:hydropump",
+    "30:dracometeor",
+    "35:watergun",
+    "35:scratch",
+    "40:tailwhip",
+    "40:leer",
+    "45:bubblebeam",
+    "45:dragonrage",
+    "50:aquatail",
+    "50:dualchop",
+    "55:surf",
+    "55:breakingswipe",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4805,
+  "nationalPokedexNumber": 4813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

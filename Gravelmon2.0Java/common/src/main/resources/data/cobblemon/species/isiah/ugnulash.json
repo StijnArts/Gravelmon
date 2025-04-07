@@ -74,7 +74,8 @@
     "45:swagger",
     "50:thrash",
     "55:doubleedge",
-    "60:gigaimpact"
+    "60:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4255,
+  "nationalPokedexNumber": 4263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

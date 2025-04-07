@@ -76,7 +76,8 @@
     "40:gunkshot",
     "43:acidarmor",
     "46:belch",
-    "48:memento"
+    "48:memento",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1669,
+  "nationalPokedexNumber": 1672,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

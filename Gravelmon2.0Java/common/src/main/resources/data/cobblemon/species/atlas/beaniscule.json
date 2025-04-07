@@ -106,7 +106,8 @@
     "tm:calmmind",
     "tm:thunderwave",
     "tm:grassyterrain",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5175,
+  "nationalPokedexNumber": 5183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

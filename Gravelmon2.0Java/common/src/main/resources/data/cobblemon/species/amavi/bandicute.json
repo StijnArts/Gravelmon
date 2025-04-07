@@ -122,7 +122,8 @@
     "tm:uturn",
     "tm:wildcharge",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5194,
+  "nationalPokedexNumber": 5202,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

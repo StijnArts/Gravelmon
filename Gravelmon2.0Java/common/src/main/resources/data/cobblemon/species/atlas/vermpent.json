@@ -113,7 +113,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:workup",
-    "tm:sandattack"
+    "tm:sandattack",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5069,
+  "nationalPokedexNumber": 5077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

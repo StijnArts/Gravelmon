@@ -41,7 +41,7 @@ public class Oofoe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FUTURE_SIGHT,44)),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 33, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

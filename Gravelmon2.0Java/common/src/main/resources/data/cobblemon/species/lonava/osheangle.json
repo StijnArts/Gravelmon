@@ -141,7 +141,8 @@
     "tm:shoreup",
     "tm:glare",
     "tm:coil",
-    "tm:fishiousrend"
+    "tm:fishiousrend",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -171,7 +172,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3343,
+  "nationalPokedexNumber": 3351,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

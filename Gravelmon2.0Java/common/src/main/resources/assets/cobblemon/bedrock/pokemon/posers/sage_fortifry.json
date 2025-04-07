@@ -15,8 +15,8 @@
     "cry": "q.bedrock_stateful('fortifry', 'cry')"
   },
   "poses": {
-    "none": {
-      "poseName": "none",
+    "standing": {
+      "poseName": "standing",
       "animations": [],
       "poseTypes": [
         "SLEEP",

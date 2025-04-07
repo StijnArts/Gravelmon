@@ -97,6 +97,7 @@
         "tm:gammaray",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -145,7 +146,8 @@
         "egg:wish",
         "egg:healingwish",
         "egg:healpulse",
-        "egg:mistyexplosion"
+        "egg:mistyexplosion",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

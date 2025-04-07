@@ -137,7 +137,8 @@
     "tm:voltswitch",
     "tm:wildcharge",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1540,
+  "nationalPokedexNumber": 1543,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

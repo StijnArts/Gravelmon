@@ -16,8 +16,8 @@ public class Castlossus extends drai.dev.data.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.STURDY), Ability.SOLID_ROCK,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                27, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 168, ExperienceGroup.ERRATIC,
                 70,
@@ -81,7 +81,11 @@ public class Castlossus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MOUNTAIN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Castlossus");

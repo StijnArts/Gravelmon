@@ -148,7 +148,8 @@
     "egg:nightshade",
     "egg:nightslash",
     "egg:ominouswind",
-    "egg:smokescreen"
+    "egg:smokescreen",
+    "tm:terablast"
   ],
   "labels": [
     "sage",
@@ -343,7 +344,8 @@
         "egg:nightshade",
         "egg:nightslash",
         "egg:ominouswind",
-        "egg:smokescreen"
+        "egg:smokescreen",
+        "tm:terablast"
       ],
       "labels": [
         "sage",

@@ -72,7 +72,8 @@
     "41:faketears",
     "45:extrasensory",
     "51:poltergeist",
-    "60:hydropump"
+    "60:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4284,
+  "nationalPokedexNumber": 4292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

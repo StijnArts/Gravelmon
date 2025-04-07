@@ -136,7 +136,8 @@
     "tm:sandtomb",
     "tm:ragepowder",
     "tm:furyswipes",
-    "tm:bite"
+    "tm:bite",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4856,
+  "nationalPokedexNumber": 4864,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

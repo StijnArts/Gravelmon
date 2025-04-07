@@ -77,7 +77,8 @@
     "34:extrasensory",
     "39:powergem",
     "45:rapidspin",
-    "51:iciclecrash"
+    "51:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3012,
+  "nationalPokedexNumber": 3020,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

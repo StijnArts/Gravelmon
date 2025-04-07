@@ -135,7 +135,8 @@
     "egg:sunnyday",
     "egg:superpower",
     "egg:taunt",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
   "weight": 415,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4579,
+  "nationalPokedexNumber": 4587,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -70,7 +70,8 @@
     "34:nastyplot",
     "38:chargebeam",
     "42:steelbeam",
-    "47:electricterrain"
+    "47:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1741,
+  "nationalPokedexNumber": 1744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:confusion"
+    "1:confusion",
+    "1:defensecurl",
+    "1:growl",
+    "4:rollout",
+    "4:psybeam",
+    "7:ancientpower",
+    "7:futuresight",
+    "10:powergem",
+    "10:psychic",
+    "13:stealthrock",
+    "13:psyshock",
+    "16:meteorbeam",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3549,
+  "nationalPokedexNumber": 3557,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -157,7 +157,8 @@
     "egg:hyperfang",
     "egg:rage",
     "egg:shadowsneak",
-    "egg:superfang"
+    "egg:superfang",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

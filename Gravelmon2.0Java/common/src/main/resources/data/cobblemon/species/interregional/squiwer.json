@@ -87,7 +87,8 @@
     "tm:muddywater",
     "tm:mudbomb",
     "tm:foulplay",
-    "tm:clearsmog"
+    "tm:clearsmog",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1443,
+  "nationalPokedexNumber": 1446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

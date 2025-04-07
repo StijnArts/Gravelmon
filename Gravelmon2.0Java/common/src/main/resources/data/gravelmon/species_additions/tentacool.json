@@ -67,7 +67,22 @@
         "1:lick",
         "1:confusion",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:confuseray",
+        "4:psybeam",
+        "7:ominouswind",
+        "7:futuresight",
+        "10:nightshade",
+        "10:psychic",
+        "13:hex",
+        "13:psyshock",
+        "16:shadowball",
+        "16:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -149,12 +164,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 62,
+        "attack": 33,
+        "defence": 54,
+        "special_attack": 93,
+        "special_defence": 60,
+        "speed": 54
       },
       "evYield": {
         "hp": 0,
@@ -170,7 +185,20 @@
       "drops": {},
       "moves": [
         "1:confusion",
-        "1:watergun"
+        "1:watergun",
+        "1:growl",
+        "1:tailwhip",
+        "10:psybeam",
+        "10:bubblebeam",
+        "15:futuresight",
+        "15:brine",
+        "20:psychic",
+        "20:surf",
+        "25:psyshock",
+        "25:chillingwater",
+        "30:psychoboost",
+        "30:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
@@ -352,7 +380,8 @@
         "egg:wonderroom",
         "egg:magicroom",
         "egg:rapidspin",
-        "egg:hyperbeam"
+        "egg:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -526,7 +555,8 @@
         "tutor:spite",
         "tutor:synthesis",
         "tutor:whirlpool",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -664,7 +694,8 @@
         "tm:waterfall",
         "tm:dive",
         "egg:smokescreen",
-        "egg:moonrazer"
+        "egg:moonrazer",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",
@@ -806,7 +837,8 @@
         "tm:trickroom",
         "tm:snarl",
         "tm:dazzlinggleam",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

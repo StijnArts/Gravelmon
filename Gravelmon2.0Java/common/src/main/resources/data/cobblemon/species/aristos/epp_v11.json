@@ -71,7 +71,8 @@
     "29:electroball",
     "32:takedown",
     "35:irondefense",
-    "39:zingzap"
+    "39:zingzap",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1967,
+  "nationalPokedexNumber": 1970,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

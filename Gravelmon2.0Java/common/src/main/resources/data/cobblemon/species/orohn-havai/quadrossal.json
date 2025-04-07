@@ -73,7 +73,8 @@
     "71:calmmind",
     "78:boomburst",
     "85:blizzard",
-    "92:waterspout"
+    "92:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3038,
+  "nationalPokedexNumber": 3046,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.5625,

@@ -71,7 +71,8 @@
     "68:explosion",
     "78:meteormash",
     "88:doomdesire",
-    "98:hyperbeam"
+    "98:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3483,
+  "nationalPokedexNumber": 3491,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

@@ -65,7 +65,8 @@
     "13:irondefense",
     "38:takedown",
     "43:ironhead",
-    "56:doubleedge"
+    "56:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

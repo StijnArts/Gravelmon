@@ -71,7 +71,8 @@
     "44:gigadrain",
     "50:shadowforce",
     "56:destinybond",
-    "60:leechlife"
+    "60:leechlife",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1664,
+  "nationalPokedexNumber": 1667,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

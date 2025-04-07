@@ -37,7 +37,7 @@ public class HizianDrapion extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 39, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 39, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

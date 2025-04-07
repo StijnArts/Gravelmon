@@ -102,7 +102,8 @@
     "egg:thrash",
     "egg:hammerarm",
     "egg:doubleedge",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -132,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1836,
+  "nationalPokedexNumber": 1839,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

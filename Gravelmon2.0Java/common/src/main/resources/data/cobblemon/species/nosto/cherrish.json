@@ -109,7 +109,8 @@
     "tm:lightscreen",
     "tm:reflect",
     "tm:rest",
-    "tm:trickroom"
+    "tm:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -124,7 +125,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

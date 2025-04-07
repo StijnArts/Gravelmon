@@ -74,7 +74,8 @@
     "38:explosion",
     "44:inferno",
     "47:petalblizzard",
-    "53:synthesis"
+    "53:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1417,
+  "nationalPokedexNumber": 1420,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

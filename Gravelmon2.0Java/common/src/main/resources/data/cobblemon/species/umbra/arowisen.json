@@ -128,7 +128,8 @@
     "tutor:magiccoat",
     "tutor:liquidation",
     "tutor:outrage",
-    "tutor:dragonpulse"
+    "tutor:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -143,7 +144,7 @@
   "weight": 1276,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3702,
+  "nationalPokedexNumber": 3710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

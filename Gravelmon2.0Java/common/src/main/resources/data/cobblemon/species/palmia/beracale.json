@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bulkup"
+    "1:bulkup",
+    "1:tailwhip",
+    "1:calmmind",
+    "4:bubblebeam",
+    "4:taunt",
+    "7:brine",
+    "7:substitute",
+    "10:surf",
+    "10:rest",
+    "13:chillingwater",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2624,
+  "nationalPokedexNumber": 2632,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

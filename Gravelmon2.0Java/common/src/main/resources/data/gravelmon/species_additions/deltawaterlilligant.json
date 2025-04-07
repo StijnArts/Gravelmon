@@ -136,7 +136,8 @@
         "tutor:snore",
         "tutor:spite",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

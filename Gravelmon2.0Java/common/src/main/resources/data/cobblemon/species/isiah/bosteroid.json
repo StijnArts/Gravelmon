@@ -107,7 +107,8 @@
     "tm:toxic",
     "tm:workup",
     "tm:visegrip",
-    "tm:dynamicpunch"
+    "tm:dynamicpunch",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4241,
+  "nationalPokedexNumber": 4249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -83,11 +83,13 @@
     "tutor:doublekick",
     "tutor:imprison",
     "tutor:sandtomb",
+    "tutor:astroforce",
     "tutor:psychup",
     "tutor:extrasensory",
     "tutor:hypnosis",
     "tutor:hypnopulse",
     "egg:grudge",
+    "egg:chromeball",
     "egg:vacuumwave",
     "egg:sandattack",
     "egg:trickroom",
@@ -95,7 +97,8 @@
     "egg:powertrick",
     "egg:perishsong",
     "egg:magnitude",
-    "egg:mudshot"
+    "egg:mudshot",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -123,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4631,
+  "nationalPokedexNumber": 4639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

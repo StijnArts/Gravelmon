@@ -79,7 +79,8 @@
     "tm:charm",
     "tm:iceshard",
     "tm:iciclecrash",
-    "tm:freezedry"
+    "tm:freezedry",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4439,
+  "nationalPokedexNumber": 4447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

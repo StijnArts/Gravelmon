@@ -72,7 +72,8 @@
     "tm:tickle",
     "tm:covet",
     "tm:aquatail",
-    "tm:disarmingvoice"
+    "tm:disarmingvoice",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2954,
+  "nationalPokedexNumber": 2962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

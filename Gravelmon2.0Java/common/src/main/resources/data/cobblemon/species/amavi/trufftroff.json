@@ -72,7 +72,8 @@
     "34:morningsun",
     "39:earthquake",
     "44:powerwhip",
-    "50:fissure"
+    "50:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5235,
+  "nationalPokedexNumber": 5243,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

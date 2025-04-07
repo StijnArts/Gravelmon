@@ -77,7 +77,8 @@
     "40:bounce",
     "46:acidarmor",
     "50:sludgewave",
-    "60:playrough"
+    "60:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3208,
+  "nationalPokedexNumber": 3216,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

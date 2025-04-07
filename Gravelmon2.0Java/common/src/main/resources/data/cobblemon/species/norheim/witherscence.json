@@ -108,7 +108,8 @@
     "tm:energyball",
     "tm:leafstorm",
     "tm:grassknot",
-    "tm:pollenpuff"
+    "tm:pollenpuff",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -121,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3136,
+  "nationalPokedexNumber": 3144,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -67,7 +67,28 @@
         "1:metalclaw",
         "1:ember",
         "1:irondefense",
-        "1:bulkup"
+        "1:bulkup",
+        "1:screech",
+        "1:growl",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:quickattack",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:flamecharge",
+        "7:taunt",
+        "7:substitute",
+        "10:ironhead",
+        "10:firepunch",
+        "10:substitute",
+        "10:rest",
+        "13:meteormash",
+        "13:willowisp",
+        "13:rest",
+        "16:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -89,6 +110,109 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 279,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "onix form=nodorran",
+      "baseScale": 60.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "voltabsorb",
+        "h:electricsurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 150,
+        "special_attack": 80,
+        "special_defence": 100,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bind",
+        "1:tackle",
+        "1:harden",
+        "4:thundershock",
+        "9:rockthrow",
+        "11:spark",
+        "14:rockpolish",
+        "17:thunderfang",
+        "24:rockslide",
+        "27:irontail",
+        "30:stealthrock",
+        "36:discharge",
+        "43:earthquake",
+        "55:rockwrecker",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorransteelix.desc"
+      ],
+      "height": 50,
+      "weight": 3990,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -232,7 +356,8 @@
         "tm:uturn",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -255,10 +380,170 @@
         "height": 4.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "steel",
+      "secondaryType": "fairy",
+      "catchRate": 25,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 196,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "onix form=ishirian",
+      "baseScale": 1.1217391304347826,
+      "cannotDynamax": false,
+      "abilities": [
+        "clearbody",
+        "sturdy",
+        "h:moldbreaker"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 85,
+        "defence": 200,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "1:bind",
+        "1:rockthrow",
+        "1:sandtomb",
+        "1:curse",
+        "1:stealthrock",
+        "1:harden",
+        "1:mudsport",
+        "20:rage",
+        "24:rockpolish",
+        "27:dazzlinggleam",
+        "30:gyroball",
+        "34:smackdown",
+        "38:slam",
+        "41:bulldoze",
+        "44:screech",
+        "47:earthquake",
+        "50:irontail",
+        "52:stoneedge",
+        "55:playrough",
+        "tm:protect",
+        "tm:snore",
+        "tm:roar",
+        "tm:toxic",
+        "tm:rest",
+        "tm:substitute",
+        "tm:sandstorm",
+        "tm:attract",
+        "tm:swagger",
+        "tm:charm",
+        "tm:thief",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:hiddenpower",
+        "tm:frustration",
+        "tm:facade",
+        "tm:taunt",
+        "tm:bodypress",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:metalsound",
+        "tm:rollout",
+        "tm:rockthrow",
+        "tm:smackdown",
+        "tm:dazzlinggleam",
+        "tm:moonblast",
+        "tm:playrough",
+        "tm:stoneedge",
+        "tm:earthquake",
+        "tm:screech",
+        "tm:bulldoze",
+        "tm:heavyslam",
+        "tm:slam",
+        "tm:rockpolish",
+        "tm:stealthrock",
+        "tm:secretpower",
+        "tm:round",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:terablast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriansteelix.desc"
+      ],
+      "height": 43,
+      "weight": 4670,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.75,
+        "height": 5.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "forman",
-    "epoch"
+    "nodorran",
+    "epoch",
+    "ishirian"
   ]
 }

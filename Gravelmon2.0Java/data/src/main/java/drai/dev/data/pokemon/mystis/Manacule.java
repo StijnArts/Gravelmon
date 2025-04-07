@@ -17,7 +17,7 @@ public class Manacule extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 3, 500,
-                new Stats(0,0,0,3,0,0), 0,
+                new Stats(0,0,0,3,0,0), 70,
                 0.0,
                 330, ExperienceGroup.ERRATIC,
                 70,
@@ -84,7 +84,11 @@ public class Manacule extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP)
+                        .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Manacule");

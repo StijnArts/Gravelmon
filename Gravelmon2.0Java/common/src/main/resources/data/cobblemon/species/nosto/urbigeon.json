@@ -129,7 +129,8 @@
     "tm:toxic",
     "tm:venoshock",
     "tm:rest",
-    "tm:steelwing"
+    "tm:steelwing",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3462,
+  "nationalPokedexNumber": 3470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 8.125,

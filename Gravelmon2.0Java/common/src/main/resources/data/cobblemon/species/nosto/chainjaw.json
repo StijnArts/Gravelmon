@@ -142,7 +142,8 @@
     "tm:gyroball",
     "tm:liquidation",
     "tm:raindance",
-    "tm:surf"
+    "tm:surf",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -157,7 +158,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3507,
+  "nationalPokedexNumber": 3515,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

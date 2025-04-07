@@ -72,7 +72,8 @@
     "42:dragonpulse",
     "46:solarbeam",
     "56:hyperbeam",
-    "65:dracometeor"
+    "65:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3036,
+  "nationalPokedexNumber": 3044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

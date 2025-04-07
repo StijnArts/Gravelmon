@@ -118,7 +118,8 @@
         "tm:uturn",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -301,7 +302,8 @@
         "tm:supersonic",
         "tm:bodyslam",
         "tm:endure",
-        "tm:shellsmash"
+        "tm:shellsmash",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -467,7 +469,8 @@
         "tutor:snore",
         "tutor:superfang",
         "tutor:twister",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

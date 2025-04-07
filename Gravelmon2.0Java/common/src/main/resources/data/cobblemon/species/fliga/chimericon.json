@@ -158,7 +158,8 @@
     "tm:screech",
     "tm:bodyslam",
     "tm:direclaw",
-    "tm:astonish"
+    "tm:astonish",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -173,7 +174,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3974,
+  "nationalPokedexNumber": 3982,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

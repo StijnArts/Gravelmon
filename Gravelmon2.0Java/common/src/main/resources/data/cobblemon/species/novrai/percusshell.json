@@ -147,7 +147,8 @@
     "tm:highhorsepower",
     "tm:uproar",
     "tm:block",
-    "tm:skullbash"
+    "tm:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -162,7 +163,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5001,
+  "nationalPokedexNumber": 5009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

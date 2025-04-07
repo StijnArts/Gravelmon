@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:gust",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:aircutter",
+    "4:payback",
+    "7:wingattack",
+    "7:nightdaze",
+    "10:airslash",
+    "10:snarl",
+    "13:drillpeck",
+    "13:knockoff",
+    "16:hurricane",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2553,
+  "nationalPokedexNumber": 2561,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

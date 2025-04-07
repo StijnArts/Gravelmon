@@ -82,7 +82,8 @@
     "tm:thunderfang",
     "tm:icefang",
     "tm:firefang",
-    "tm:chipaway"
+    "tm:chipaway",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2995,
+  "nationalPokedexNumber": 3003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

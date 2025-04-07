@@ -113,7 +113,8 @@
     "tm:encore",
     "tm:fakeout",
     "tm:tickle",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

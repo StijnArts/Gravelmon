@@ -106,7 +106,8 @@
     "tm:bulkup",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4237,
+  "nationalPokedexNumber": 4245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

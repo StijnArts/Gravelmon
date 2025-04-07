@@ -74,7 +74,8 @@
     "40:sandstorm",
     "45:extrasensory",
     "50:earthpower",
-    "55:embargo"
+    "55:embargo",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

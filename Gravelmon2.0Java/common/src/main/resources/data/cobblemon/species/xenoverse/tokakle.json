@@ -111,7 +111,8 @@
     "tutor:snatch",
     "tutor:snore",
     "tutor:spite",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -124,7 +125,7 @@
   "weight": 20,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1826,
+  "nationalPokedexNumber": 1829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

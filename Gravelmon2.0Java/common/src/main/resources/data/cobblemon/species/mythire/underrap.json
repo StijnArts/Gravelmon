@@ -146,7 +146,8 @@
     "tm:switcheroo",
     "tm:grudge",
     "tm:wideguard",
-    "tm:coil"
+    "tm:coil",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -161,7 +162,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

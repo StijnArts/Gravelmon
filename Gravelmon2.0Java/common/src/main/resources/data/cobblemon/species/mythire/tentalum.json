@@ -79,7 +79,8 @@
     "1:copycat",
     "1:mefirst",
     "1:detect",
-    "1:morningsun"
+    "1:morningsun",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3896,
+  "nationalPokedexNumber": 3904,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

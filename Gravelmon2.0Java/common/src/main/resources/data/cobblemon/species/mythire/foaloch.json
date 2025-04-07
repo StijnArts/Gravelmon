@@ -79,7 +79,8 @@
     "36:gigadrain",
     "50:zenheadbutt",
     "57:energyball",
-    "64:hydropump"
+    "64:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3852,
+  "nationalPokedexNumber": 3860,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

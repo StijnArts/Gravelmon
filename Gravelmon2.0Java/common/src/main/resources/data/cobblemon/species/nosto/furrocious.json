@@ -206,7 +206,8 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:thrash",
-    "tm:tickle"
+    "tm:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -221,7 +222,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3477,
+  "nationalPokedexNumber": 3485,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.9375,

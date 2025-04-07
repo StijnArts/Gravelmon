@@ -65,7 +65,7 @@ public class Denkyu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -131,7 +131,8 @@
         "tm:toxic",
         "tm:tripleaxel",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -298,7 +299,8 @@
         "tutor:superpower",
         "tutor:synthesis",
         "tutor:thunderpunch",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

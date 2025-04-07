@@ -82,7 +82,8 @@
     "tm:dazzlinggleam",
     "tm:muddywater",
     "tm:aquaring",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4005,
+  "nationalPokedexNumber": 4013,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

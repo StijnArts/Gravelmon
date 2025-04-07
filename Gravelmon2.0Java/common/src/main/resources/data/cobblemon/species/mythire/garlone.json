@@ -134,7 +134,8 @@
     "tm:playrough",
     "tm:dazzlinggleam",
     "tm:darkestlariat",
-    "tm:throatchop"
+    "tm:throatchop",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3917,
+  "nationalPokedexNumber": 3925,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

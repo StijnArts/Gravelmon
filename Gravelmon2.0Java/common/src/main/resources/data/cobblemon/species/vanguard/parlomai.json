@@ -126,7 +126,8 @@
     "egg:fakeout",
     "egg:healpulse",
     "egg:psychup",
-    "egg:psychoshift"
+    "egg:psychoshift",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -139,7 +140,7 @@
   "weight": 780,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4103,
+  "nationalPokedexNumber": 4111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

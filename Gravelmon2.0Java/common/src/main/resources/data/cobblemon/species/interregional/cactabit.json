@@ -133,7 +133,8 @@
     "tm:dragondance",
     "tm:crunch",
     "tm:ingrain",
-    "tm:painsplit"
+    "tm:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

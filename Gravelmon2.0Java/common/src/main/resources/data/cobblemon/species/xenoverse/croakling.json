@@ -101,7 +101,8 @@
     "egg:spikes",
     "egg:zenheadbutt",
     "egg:eruption",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "sage",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1835,
+  "nationalPokedexNumber": 1838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

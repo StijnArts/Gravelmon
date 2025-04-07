@@ -187,7 +187,8 @@
     "37:workup",
     "42:dragonrush",
     "48:mountaingale",
-    "55:thrash"
+    "55:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -202,7 +203,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4705,
+  "nationalPokedexNumber": 4713,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

@@ -91,7 +91,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:takedown",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3330,
+  "nationalPokedexNumber": 3338,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.625,

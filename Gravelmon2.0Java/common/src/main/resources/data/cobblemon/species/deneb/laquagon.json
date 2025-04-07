@@ -110,7 +110,8 @@
     "egg:sunnyday",
     "egg:swagger",
     "egg:thunderfang",
-    "egg:wrap"
+    "egg:wrap",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4533,
+  "nationalPokedexNumber": 4541,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -128,7 +128,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -308,7 +309,8 @@
         "egg:aquajet",
         "egg:mist",
         "egg:yawn",
-        "egg:amnesia"
+        "egg:amnesia",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -482,7 +484,8 @@
         "egg:irondefense",
         "egg:guillotine",
         "egg:sharpen",
-        "egg:lowsweep"
+        "egg:lowsweep",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -668,7 +671,8 @@
         "egg:outrage",
         "egg:snarl",
         "egg:zenheadbutt",
-        "egg:uproar"
+        "egg:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -847,7 +851,8 @@
         "egg:lowsweep",
         "egg:stompingtantrum",
         "egg:zenheadbutt",
-        "egg:uproar"
+        "egg:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1035,7 +1040,8 @@
         "egg:cottonspore",
         "egg:gust",
         "egg:tailwind",
-        "egg:mistyexplosion"
+        "egg:mistyexplosion",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1212,7 +1218,8 @@
         "egg:zenheadbutt",
         "egg:leechlife",
         "egg:confuseray",
-        "egg:dig"
+        "egg:dig",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1386,7 +1393,8 @@
         "egg:bonerush",
         "egg:bite",
         "egg:hyperfang",
-        "egg:superfang"
+        "egg:superfang",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1565,7 +1573,8 @@
         "egg:spitup",
         "egg:rollout",
         "egg:sludgebomb",
-        "egg:appleacid"
+        "egg:appleacid",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1747,7 +1756,8 @@
         "egg:ominouswind",
         "egg:doubleteam",
         "egg:spectralthief",
-        "egg:feintattack"
+        "egg:feintattack",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1937,7 +1947,8 @@
         "egg:camouflage",
         "egg:venomdrench",
         "egg:furyattack",
-        "egg:surgingstrikes"
+        "egg:surgingstrikes",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -2117,7 +2128,8 @@
         "egg:rockblast",
         "egg:swordsdance",
         "egg:takedown",
-        "egg:dragontail"
+        "egg:dragontail",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -2265,7 +2277,8 @@
         "tm:liquidation",
         "tm:poisonjab",
         "tm:zenheadbutt",
-        "tm:chillingwater"
+        "tm:chillingwater",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -2433,7 +2446,8 @@
         "egg:mirrorcoat",
         "egg:yawn",
         "egg:brine",
-        "egg:clearsmog"
+        "egg:clearsmog",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

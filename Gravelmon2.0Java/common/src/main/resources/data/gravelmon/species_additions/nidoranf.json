@@ -81,7 +81,8 @@
         "egg:counter",
         "egg:disable",
         "egg:headsmash",
-        "egg:icefang"
+        "egg:icefang",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

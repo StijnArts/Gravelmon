@@ -70,7 +70,8 @@
     "37:weatherball",
     "42:metronome",
     "tm:roost",
-    "tm:storedpower"
+    "tm:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4376,
+  "nationalPokedexNumber": 4384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

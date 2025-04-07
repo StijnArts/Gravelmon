@@ -69,7 +69,8 @@
     "25:throatchop",
     "30:counter",
     "33:flail",
-    "38:playrough"
+    "38:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 4237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

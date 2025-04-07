@@ -145,7 +145,8 @@
     "egg:spite",
     "egg:disarmingvoice",
     "egg:metalsound",
-    "egg:headsmash"
+    "egg:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -160,7 +161,7 @@
   "weight": 775,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2026,
+  "nationalPokedexNumber": 2029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -125,7 +125,8 @@
     "egg:snatch",
     "egg:submission",
     "egg:torment",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -140,7 +141,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4493,
+  "nationalPokedexNumber": 4501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

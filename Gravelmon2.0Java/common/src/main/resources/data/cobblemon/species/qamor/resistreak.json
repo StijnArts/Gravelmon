@@ -75,7 +75,8 @@
     "43:discharge",
     "48:dazzlinggleam",
     "54:glare",
-    "65:hyperbeam"
+    "65:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4051,
+  "nationalPokedexNumber": 4059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

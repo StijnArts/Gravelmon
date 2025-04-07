@@ -21,6 +21,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -92,13 +93,13 @@ public class GenerationFive extends Game {
 //        addNewPokemon(new TheossianDwebble("", Aspect.THEOSSIAN));
 //        addNewPokemon(new TheossianCrustle("", Aspect.THEOSSIAN));
 
-//        addNewPokemon(new NodorranOshawott("", Aspect.NODORRAN)); TODO
-//        addNewPokemon(new NodorranDewott("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranSamurott("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranFoongus("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranAmoonguss("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranCubchoo("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranBeartic("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranOshawott("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranDewott("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranSamurott("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranFoongus("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranAmoonguss("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranCubchoo("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranBeartic("", Aspect.NODORRAN));
 //        addNewPokemon(new NodorranTynamo("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new NodorranEelektrik("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new NodorranEelektross("", Aspect.NODORRAN)); MISSING ART

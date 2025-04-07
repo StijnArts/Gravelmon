@@ -163,7 +163,8 @@
         "egg:nastyplot",
         "egg:uturn",
         "egg:venoshock",
-        "egg:flamethrower"
+        "egg:flamethrower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -277,7 +278,8 @@
         "egg:agility",
         "egg:camouflage",
         "egg:electricterrain",
-        "egg:glare"
+        "egg:glare",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

@@ -76,7 +76,8 @@
     "46:milkdrink",
     "53:miracleeye",
     "60:amnesia",
-    "64:psychic"
+    "64:psychic",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

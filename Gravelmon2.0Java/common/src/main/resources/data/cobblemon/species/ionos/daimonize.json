@@ -75,7 +75,8 @@
     "32:swagger",
     "36:iciclespear",
     "41:uproar",
-    "50:gunkshot"
+    "50:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4821,
+  "nationalPokedexNumber": 4829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

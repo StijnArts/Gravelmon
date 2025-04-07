@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:confusion"
+        "1:confusion",
+        "1:tailwhip",
+        "1:growl",
+        "4:bubblebeam",
+        "4:psybeam",
+        "7:brine",
+        "7:futuresight",
+        "10:surf",
+        "10:psychic",
+        "13:chillingwater",
+        "13:psyshock",
+        "16:hydropump",
+        "16:psychoboost",
+        "19:watergun",
+        "19:confusion",
+        "22:tailwhip",
+        "22:growl",
+        "25:bubblebeam",
+        "25:psybeam",
+        "28:aquatail",
+        "28:futuresight",
+        "31:surf",
+        "31:psychic",
+        "34:waterfall",
+        "34:zenheadbutt",
+        "39:liquidation",
+        "39:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -149,7 +176,19 @@
       "drops": {},
       "moves": [
         "1:lowkick",
-        "1:drainpunch"
+        "1:drainpunch",
+        "1:leer",
+        "1:bulkup",
+        "4:revenge",
+        "4:calmmind",
+        "7:lowsweep",
+        "7:taunt",
+        "10:brickbreak",
+        "10:substitute",
+        "13:karatechop",
+        "13:rest",
+        "16:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -335,7 +374,8 @@
         "egg:shoreup",
         "egg:waterspout",
         "egg:bounce",
-        "egg:heavyslam"
+        "egg:heavyslam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -451,7 +491,8 @@
         "43:aquatail",
         "47:soak",
         "51:safeguard",
-        "53:leafstorm"
+        "53:leafstorm",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",
@@ -563,7 +604,8 @@
         "48:raindance",
         "50:moonblast",
         "55:perishsong",
-        "57:hydropump"
+        "57:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -698,7 +740,8 @@
         "29:slackoff",
         "37:icepunch",
         "41:knucklefins",
-        "49:bulkup"
+        "49:bulkup",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

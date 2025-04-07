@@ -72,7 +72,8 @@
     "49:swordsdance",
     "54:partingshot",
     "60:guillotine",
-    "tm:crosschop"
+    "tm:crosschop",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1882,
+  "nationalPokedexNumber": 1885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -58,7 +58,7 @@ public class Enigmore extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 56, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 56, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

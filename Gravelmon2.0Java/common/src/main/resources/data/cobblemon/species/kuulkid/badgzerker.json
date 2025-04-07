@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "4:quickattack",
+    "7:bite",
+    "10:takedown",
+    "13:crunch",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2210,
+  "nationalPokedexNumber": 2218,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -71,7 +71,8 @@
     "39:curse",
     "48:sandstorm",
     "54:stoneedge",
-    "60:earthquake"
+    "60:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3318,
+  "nationalPokedexNumber": 3326,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

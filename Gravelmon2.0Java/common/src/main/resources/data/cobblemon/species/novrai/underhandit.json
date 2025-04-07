@@ -141,7 +141,8 @@
     "tm:crosschop",
     "tm:snatch",
     "tm:counter",
-    "tm:beatup"
+    "tm:beatup",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4978,
+  "nationalPokedexNumber": 4986,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

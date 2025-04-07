@@ -73,7 +73,8 @@
     "29:selfdestruct",
     "32:destinybond",
     "36:batonpass",
-    "40:tailwind"
+    "40:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3170,
+  "nationalPokedexNumber": 3178,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

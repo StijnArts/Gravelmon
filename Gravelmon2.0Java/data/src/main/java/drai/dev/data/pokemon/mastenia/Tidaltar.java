@@ -17,7 +17,7 @@ public class Tidaltar extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.DRIZZLE), Ability.UNNERVE,
                 23, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,16 @@ public class Tidaltar extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_WARM_OCEAN)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tidaltar");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
 
     }
 

@@ -79,7 +79,8 @@
     "33:selfdestruct",
     "38:guardsplit",
     "38:powersplit",
-    "43:sandstorm"
+    "43:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3139,
+  "nationalPokedexNumber": 3147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bite"
+    "1:bite",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:payback",
+    "7:aquatail",
+    "7:nightslash",
+    "10:surf",
+    "10:crunch",
+    "13:waterfall",
+    "13:knockoff",
+    "16:liquidation",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2800,
+  "nationalPokedexNumber": 2808,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

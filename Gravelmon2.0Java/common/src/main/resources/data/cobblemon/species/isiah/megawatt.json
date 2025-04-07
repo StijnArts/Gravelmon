@@ -77,7 +77,8 @@
     "45:superfang",
     "49:screech",
     "52:bugbuzz",
-    "56:strengthsap"
+    "56:strengthsap",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4277,
+  "nationalPokedexNumber": 4285,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

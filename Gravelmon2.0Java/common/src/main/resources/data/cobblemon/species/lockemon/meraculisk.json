@@ -78,7 +78,8 @@
     "41:uproar",
     "50:gunkshot",
     "egg:haze",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 1718,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3429,
+  "nationalPokedexNumber": 3437,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

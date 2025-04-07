@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "4:bubblebeam",
+    "7:brine",
+    "10:surf",
+    "13:chillingwater",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -85,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2639,
+  "nationalPokedexNumber": 2647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

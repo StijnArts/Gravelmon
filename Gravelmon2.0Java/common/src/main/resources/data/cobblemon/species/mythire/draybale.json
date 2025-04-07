@@ -75,7 +75,8 @@
     "tm:iondeluge",
     "tm:dragonbreath",
     "tm:lunge",
-    "tm:pinmissile"
+    "tm:pinmissile",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3888,
+  "nationalPokedexNumber": 3896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

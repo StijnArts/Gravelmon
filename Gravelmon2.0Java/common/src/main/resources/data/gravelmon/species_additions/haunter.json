@@ -67,7 +67,23 @@
         "1:tackle",
         "1:poisonsting",
         "1:extremespeed",
-        "1:quickattack"
+        "1:quickattack",
+        "1:growl",
+        "1:leer",
+        "1:quickattack",
+        "1:swordsdance",
+        "4:quickattack",
+        "4:venoshock",
+        "4:swordsdance",
+        "7:bite",
+        "7:poisontail",
+        "10:takedown",
+        "10:toxicspikes",
+        "13:crunch",
+        "13:sludgebomb",
+        "16:doubleedge",
+        "16:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -99,6 +115,122 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "ghost",
+      "secondaryType": "ice",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "gastly form=nodorran",
+      "baseScale": 20.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defence": 45,
+        "special_attack": 110,
+        "special_defence": 60,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:powdersnow",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:confuseray",
+        "10:icywind",
+        "15:ominouswind",
+        "15:aurorabeam",
+        "20:nightshade",
+        "20:freezedry",
+        "25:hex",
+        "25:icebeam",
+        "30:shadowball",
+        "30:blizzard",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranhaunter.desc"
+      ],
+      "height": 17,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranhaunter_gengar_nodorran",
+          "variant": "item_interact",
+          "result": "gengar nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:ice_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -227,7 +359,8 @@
         "tm:waterpulse",
         "tm:weatherball",
         "tm:whirlpool",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -378,7 +511,8 @@
         "tm:haze",
         "tm:spite",
         "tm:burningjealousy",
-        "tm:poltergeist"
+        "tm:poltergeist",
+        "tm:terablast"
       ],
       "labels": [
         "orohnhavai",
@@ -537,7 +671,8 @@
         "tutor:dragonpulse",
         "tutor:outrage",
         "tutor:secretpower",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -725,7 +860,8 @@
         "egg:clearsmog",
         "egg:smog",
         "egg:reflecttype",
-        "egg:toxic"
+        "egg:toxic",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -889,6 +1025,7 @@
         "tm:aquatail",
         "tm:trickroom",
         "tm:thunder",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
@@ -931,6 +1068,7 @@
   ],
   "features": [
     "forman",
+    "nodorran",
     "epoch",
     "havaiian",
     "x",

@@ -76,7 +76,8 @@
     "tm:skillswap",
     "tm:confuseray",
     "tm:silverwind",
-    "tm:psybeam"
+    "tm:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3994,
+  "nationalPokedexNumber": 4002,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

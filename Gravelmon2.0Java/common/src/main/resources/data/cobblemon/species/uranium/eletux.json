@@ -122,7 +122,8 @@
     "egg:mudsport",
     "egg:refresh",
     "egg:thunder",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1974,
+  "nationalPokedexNumber": 1977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

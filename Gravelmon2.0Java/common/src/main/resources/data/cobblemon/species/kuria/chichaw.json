@@ -76,7 +76,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4190,
+  "nationalPokedexNumber": 4198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

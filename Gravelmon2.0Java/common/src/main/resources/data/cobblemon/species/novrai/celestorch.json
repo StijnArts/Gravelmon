@@ -137,7 +137,8 @@
     "tm:lastresort",
     "tm:detect",
     "tm:iciclespear",
-    "tm:celebrate"
+    "tm:celebrate",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5023,
+  "nationalPokedexNumber": 5031,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

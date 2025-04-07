@@ -69,7 +69,8 @@
     "1:slackoff",
     "1:cottonspore",
     "1:muddywater",
-    "1:woodhammer"
+    "1:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -82,7 +83,7 @@
   "weight": 2840,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3260,
+  "nationalPokedexNumber": 3268,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

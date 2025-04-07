@@ -76,7 +76,8 @@
     "70:fly",
     "77:throatchop",
     "84:roost",
-    "91:doubleedge"
+    "91:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4407,
+  "nationalPokedexNumber": 4415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

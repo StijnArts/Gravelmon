@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:synthesis"
+    "1:synthesis",
+    "1:leer",
+    "1:bulkup",
+    "4:absorb",
+    "4:calmmind",
+    "7:trailblaze",
+    "7:taunt",
+    "10:gigadrain",
+    "10:substitute",
+    "13:seedbomb",
+    "13:rest",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -90,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2773,
+  "nationalPokedexNumber": 2781,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -70,7 +70,8 @@
     "38:stompingtantrum",
     "44:headsmash",
     "52:lifedew",
-    "60:burnup"
+    "60:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1656,
+  "nationalPokedexNumber": 1659,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

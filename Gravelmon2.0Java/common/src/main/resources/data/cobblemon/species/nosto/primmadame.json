@@ -103,7 +103,8 @@
     "tm:lightscreen",
     "tm:reflect",
     "tm:rest",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3500,
+  "nationalPokedexNumber": 3508,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

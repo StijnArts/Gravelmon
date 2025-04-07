@@ -142,7 +142,8 @@
     "tm:psywave",
     "tm:simplebeam",
     "tm:foresight",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4860,
+  "nationalPokedexNumber": 4868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

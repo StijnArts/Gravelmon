@@ -79,7 +79,8 @@
     "tm:scald",
     "tm:hurricane",
     "tm:dragonpulse",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3163,
+  "nationalPokedexNumber": 3171,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

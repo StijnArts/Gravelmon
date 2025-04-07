@@ -138,7 +138,8 @@
     "tm:thief",
     "tm:torment",
     "tm:toxic",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2978,
+  "nationalPokedexNumber": 2986,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

@@ -72,7 +72,8 @@
     "38:thrash",
     "40:throatchop",
     "46:stompingtantrum",
-    "50:closecombat"
+    "50:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2289,
+  "nationalPokedexNumber": 2297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

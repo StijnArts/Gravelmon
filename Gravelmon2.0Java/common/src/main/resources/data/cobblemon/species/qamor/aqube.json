@@ -70,7 +70,8 @@
     "30:waterfall",
     "36:doubleedge",
     "41:bellydrum",
-    "50:focuspunch"
+    "50:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4013,
+  "nationalPokedexNumber": 4021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -16,8 +16,8 @@ public class Hederat extends drai.dev.data.pokemon.Pokemon {
                         70,
                         95),
                 List.of(Ability.HERBALIST,Ability.IMMUNITY), Ability.CHLOROPHYLL,
-                0, 0,
-                new Stats(1,1,0,0,0,0), 0,
+                6, 0,
+                new Stats(1,1,0,0,0,0), 170,
                 0.5,
                 154, ExperienceGroup.FAST,
                 70,
@@ -35,7 +35,11 @@ public class Hederat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TERRAIN_PULSE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(27).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hederat");

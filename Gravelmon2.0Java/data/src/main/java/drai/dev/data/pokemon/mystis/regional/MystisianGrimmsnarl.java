@@ -24,12 +24,14 @@ public class MystisianGrimmsnarl extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("- Gold BreakerSTAB Steel - Spirit Break Fairy"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.SPIRIT_BREAK,1),
-                        new MoveLearnSetEntry(Move.GOLD_BREAKER,1)                        ),
+                List.of(                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(42).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Grimmsnarl");

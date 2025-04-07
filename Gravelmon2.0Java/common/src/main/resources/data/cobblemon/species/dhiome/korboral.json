@@ -112,7 +112,8 @@
     "tm:taunt",
     "tm:thunderwave",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

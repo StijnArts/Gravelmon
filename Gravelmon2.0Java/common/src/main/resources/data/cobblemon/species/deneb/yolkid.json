@@ -85,7 +85,8 @@
     "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
-    "tutor:toxic"
+    "tutor:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4562,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

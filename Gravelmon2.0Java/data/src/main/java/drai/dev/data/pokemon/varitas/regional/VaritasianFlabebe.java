@@ -83,7 +83,7 @@ public class VaritasianFlabebe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -80,7 +80,8 @@
     "tm:willowisp",
     "tm:revenge",
     "tm:knockoff",
-    "tm:suckerpunch"
+    "tm:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2980,
+  "nationalPokedexNumber": 2988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

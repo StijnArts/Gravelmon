@@ -70,7 +70,8 @@
     "38:discharge",
     "43:rototiller",
     "48:electricterrain",
-    "53:powerwhip"
+    "53:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4366,
+  "nationalPokedexNumber": 4374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

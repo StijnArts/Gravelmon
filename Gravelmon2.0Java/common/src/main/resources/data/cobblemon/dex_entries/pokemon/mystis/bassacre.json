@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bassacre",
+  "speciesId": "cobblemon:bassacre",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

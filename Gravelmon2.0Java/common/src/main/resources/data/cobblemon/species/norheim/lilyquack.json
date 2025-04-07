@@ -72,7 +72,8 @@
     "41:tailwind",
     "45:airslash",
     "52:aromatherapy",
-    "59:solarbeam"
+    "59:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3061,
+  "nationalPokedexNumber": 3069,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

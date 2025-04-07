@@ -79,7 +79,8 @@
     "38:pinmissile",
     "44:energyball",
     "49:cottonspore",
-    "54:sandstorm"
+    "54:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2299,
+  "nationalPokedexNumber": 2307,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

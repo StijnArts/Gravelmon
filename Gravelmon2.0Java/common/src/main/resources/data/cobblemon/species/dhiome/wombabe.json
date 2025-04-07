@@ -62,6 +62,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
+    "1:growl",
+    "4:round",
+    "8:swift",
+    "12:uproar",
+    "16:hypervoice",
+    "20:hyperbeam",
+    "24:tackle",
+    "28:growl",
+    "32:quickattack",
+    "36:bite",
+    "40:takedown",
+    "44:crunch",
+    "48:doubleedge",
     "tm:facade",
     "tm:naturepower",
     "tm:frustration",
@@ -88,7 +101,8 @@
     "tm:calmmind",
     "tm:taunt",
     "tm:thunderwave",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

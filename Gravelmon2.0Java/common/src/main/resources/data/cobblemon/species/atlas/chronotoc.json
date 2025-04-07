@@ -121,7 +121,8 @@
     "tm:toxic",
     "tm:hypnosis",
     "tm:trickroom",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5157,
+  "nationalPokedexNumber": 5165,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

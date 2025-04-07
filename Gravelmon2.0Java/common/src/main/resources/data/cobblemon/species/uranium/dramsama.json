@@ -142,7 +142,8 @@
     "egg:snatch",
     "egg:aircutter",
     "egg:acrobatics",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -157,7 +158,7 @@
   "weight": 102,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

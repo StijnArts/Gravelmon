@@ -96,7 +96,8 @@
     "tm:bide",
     "tm:takedown",
     "tm:earthquake",
-    "tm:shoreup"
+    "tm:shoreup",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3341,
+  "nationalPokedexNumber": 3349,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

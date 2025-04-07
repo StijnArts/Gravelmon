@@ -74,7 +74,8 @@
     "52:mirrorcoat",
     "59:wringout",
     "tm:rapidspin",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5135,
+  "nationalPokedexNumber": 5143,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

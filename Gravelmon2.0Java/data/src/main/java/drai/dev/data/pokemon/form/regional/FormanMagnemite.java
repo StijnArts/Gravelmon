@@ -29,7 +29,7 @@ public class FormanMagnemite extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 39, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 39, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),

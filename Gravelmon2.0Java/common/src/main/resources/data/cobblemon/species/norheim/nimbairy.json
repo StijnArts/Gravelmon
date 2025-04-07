@@ -80,7 +80,8 @@
     "40:worryseed",
     "43:gigadrain",
     "46:bounce",
-    "49:memento"
+    "49:memento",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3088,
+  "nationalPokedexNumber": 3096,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

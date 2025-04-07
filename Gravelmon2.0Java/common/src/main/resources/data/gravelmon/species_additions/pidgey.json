@@ -63,7 +63,15 @@
       "drops": {},
       "moves": [
         "1:gust",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:nastyplot",
+        "4:aircutter",
+        "7:wingattack",
+        "10:airslash",
+        "13:drillpeck",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -245,7 +253,8 @@
         "egg:aircutter",
         "egg:bravebird",
         "egg:uproar",
-        "egg:freezedry"
+        "egg:freezedry",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -453,7 +462,8 @@
         "tutor:suckerpunch",
         "tutor:tailwind",
         "tutor:twister",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -608,7 +618,8 @@
         "egg:airslash",
         "egg:bravebird",
         "egg:uproar",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

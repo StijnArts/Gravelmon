@@ -8,7 +8,6 @@ import drai.dev.data.games.instagram.fra.*;
 import drai.dev.data.games.original.*;
 import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
-import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.done.*;
 
 import java.util.*;
@@ -104,6 +103,13 @@ public class GameRegistry {
 
         games.add(new Goetia());
 //        games.add(new Sorin());
-//        games.add(new Mastenia());
+        games.add(new Mastenia());
+        games.add(new Mikitari());
+        games.add(new Mushi());
+        games.add(new Mongratis());
+        games.add(new Mystis());
+        games.add(new Nodorro());
+        games.add(new Olysos());
+        games.add(new Ishiria());
     }
 }

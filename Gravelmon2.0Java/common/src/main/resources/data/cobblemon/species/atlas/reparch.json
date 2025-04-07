@@ -118,7 +118,8 @@
     "tm:suckerpunch",
     "tm:autotomize",
     "tm:flamecharge",
-    "tm:dragontail"
+    "tm:dragontail",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5055,
+  "nationalPokedexNumber": 5063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

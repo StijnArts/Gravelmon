@@ -61,7 +61,8 @@
   "moves": [
     "1:stringshot",
     "1:tackle",
-    "9:bugbite"
+    "9:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3077,
+  "nationalPokedexNumber": 3085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

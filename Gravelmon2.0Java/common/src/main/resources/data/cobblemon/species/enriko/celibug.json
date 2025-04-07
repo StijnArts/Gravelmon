@@ -72,7 +72,8 @@
     "43:lunge",
     "47:gastroacid",
     "51:hurricane",
-    "55:outrage"
+    "55:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1699,
+  "nationalPokedexNumber": 1702,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

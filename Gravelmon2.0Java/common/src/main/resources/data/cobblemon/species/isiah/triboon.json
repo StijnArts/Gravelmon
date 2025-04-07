@@ -70,7 +70,8 @@
     "26:slam",
     "tm:hiddenpower",
     "tm:protect",
-    "tm:cometpunch"
+    "tm:cometpunch",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4238,
+  "nationalPokedexNumber": 4246,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

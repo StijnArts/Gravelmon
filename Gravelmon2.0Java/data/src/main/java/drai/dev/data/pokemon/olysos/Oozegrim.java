@@ -18,7 +18,7 @@ public class Oozegrim extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.PICKPOCKET,Ability.MOODY), Ability.POISON_TOUCH,
                 18, 0,
                 new Stats(0,0,0,2,0,0), 90,
-                0.5,
+                0,
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
@@ -27,7 +27,11 @@ public class Oozegrim extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Oozegrim");

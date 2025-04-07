@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "10:confuseray",
+    "10:psybeam",
+    "15:ominouswind",
+    "15:futuresight",
+    "20:nightshade",
+    "20:psychic",
+    "25:hex",
+    "25:psyshock",
+    "30:shadowball",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5362,
+  "nationalPokedexNumber": 5370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

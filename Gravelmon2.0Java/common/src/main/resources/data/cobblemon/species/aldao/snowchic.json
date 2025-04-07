@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:growl",
+    "4:icywind",
+    "7:aurorabeam",
+    "10:freezedry",
+    "13:icebeam",
+    "16:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -85,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2875,
+  "nationalPokedexNumber": 2883,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -81,7 +81,8 @@
     "tm:dig",
     "tm:poisonfang",
     "tm:bugbuzz",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2997,
+  "nationalPokedexNumber": 3005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

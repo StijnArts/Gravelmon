@@ -128,7 +128,8 @@
     "tm:shieldbash",
     "tm:standoff",
     "tm:cut",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

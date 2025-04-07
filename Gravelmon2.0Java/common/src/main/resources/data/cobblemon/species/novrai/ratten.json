@@ -154,7 +154,8 @@
     "tm:memento",
     "tm:minimize",
     "tm:poisonfang",
-    "tm:smokescreen"
+    "tm:smokescreen",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -182,7 +183,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4879,
+  "nationalPokedexNumber": 4887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

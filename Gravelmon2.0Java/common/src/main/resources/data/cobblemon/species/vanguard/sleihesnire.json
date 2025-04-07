@@ -140,7 +140,8 @@
     "tm:willowisp",
     "tm:moonlight",
     "tm:focusblast",
-    "tm:psychic"
+    "tm:psychic",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -153,7 +154,7 @@
   "weight": 2100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4107,
+  "nationalPokedexNumber": 4115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -67,7 +67,28 @@
         "1:strugglebug",
         "1:scratch",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:stringshot",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:leechlife",
+        "4:dragonrage",
+        "4:taunt",
+        "4:taunt",
+        "7:lunge",
+        "7:dualchop",
+        "7:substitute",
+        "7:substitute",
+        "10:xscissor",
+        "10:breakingswipe",
+        "10:rest",
+        "10:rest",
+        "13:uturn",
+        "13:dragonclaw",
+        "16:megahorn",
+        "16:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -156,7 +177,28 @@
         "1:rockthrow",
         "1:scratch",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:defensecurl",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:rollout",
+        "4:dragonrage",
+        "4:taunt",
+        "4:taunt",
+        "7:smackdown",
+        "7:dualchop",
+        "7:substitute",
+        "7:substitute",
+        "10:rockblast",
+        "10:breakingswipe",
+        "10:rest",
+        "10:rest",
+        "13:stealthrock",
+        "13:dragonclaw",
+        "16:stoneedge",
+        "16:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -318,7 +360,8 @@
         "egg:echoedvoice",
         "egg:strangesteam",
         "egg:brine",
-        "egg:waterpulse"
+        "egg:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -478,7 +521,8 @@
         "egg:ancientpower",
         "egg:fissure",
         "egg:irontail",
-        "egg:tailslap"
+        "egg:tailslap",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -659,7 +703,8 @@
         "tm:megahorn",
         "tm:thunderclap",
         "tm:hypnosis",
-        "tm:brine"
+        "tm:brine",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -832,7 +877,8 @@
         "egg:ancientpower",
         "egg:fissure",
         "egg:freezedry",
-        "egg:sparklingaria"
+        "egg:sparklingaria",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -990,7 +1036,8 @@
         "tm:doubleedge",
         "tm:whirlpool",
         "tm:muddywater",
-        "tm:curse"
+        "tm:curse",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

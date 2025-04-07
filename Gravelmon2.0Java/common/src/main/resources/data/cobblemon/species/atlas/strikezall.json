@@ -116,7 +116,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:stormthrow"
+    "tm:stormthrow",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5095,
+  "nationalPokedexNumber": 5103,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

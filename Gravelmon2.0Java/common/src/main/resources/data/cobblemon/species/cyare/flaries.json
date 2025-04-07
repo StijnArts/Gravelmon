@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "1:growl",
+    "10:sandattack",
+    "10:quickattack",
+    "15:mudbomb",
+    "15:flamecharge",
+    "20:bulldoze",
+    "20:firepunch",
+    "25:dig",
+    "25:willowisp",
+    "30:earthquake",
+    "30:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5382,
+  "nationalPokedexNumber": 5390,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

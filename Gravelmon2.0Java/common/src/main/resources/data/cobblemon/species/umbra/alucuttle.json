@@ -133,7 +133,8 @@
     "tutor:superfang",
     "tutor:throatchop",
     "tutor:skillswap",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -148,7 +149,7 @@
   "weight": 400,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3713,
+  "nationalPokedexNumber": 3721,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

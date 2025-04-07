@@ -11,8 +11,8 @@ public class Terrosect extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG,
                 stats,
                 List.of(Ability.TECHNICIAN), Ability.TECHNICIAN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 6,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,7 +22,11 @@ public class Terrosect extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Terrosect");

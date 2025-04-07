@@ -152,7 +152,8 @@
     "tm:meanlook",
     "tm:supersonic",
     "tm:whirlwind",
-    "tm:agility"
+    "tm:agility",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -167,7 +168,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

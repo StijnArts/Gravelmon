@@ -80,7 +80,8 @@
     "tm:ironhead",
     "tm:earthquake",
     "tm:rockslide",
-    "tm:stoneedge"
+    "tm:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -95,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3969,
+  "nationalPokedexNumber": 3977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

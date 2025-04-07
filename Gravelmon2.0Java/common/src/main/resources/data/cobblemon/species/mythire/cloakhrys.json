@@ -71,7 +71,8 @@
     "tm:moonlight",
     "tm:bide",
     "tm:razorwind",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3840,
+  "nationalPokedexNumber": 3848,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

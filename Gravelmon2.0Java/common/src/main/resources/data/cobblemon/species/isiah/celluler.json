@@ -75,7 +75,8 @@
     "55:leafblade",
     "60:sacredsword",
     "65:swordsdance",
-    "70:guillotine"
+    "70:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4257,
+  "nationalPokedexNumber": 4265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -67,7 +67,8 @@
     "1:earthquake",
     "1:stomp",
     "1:bulldoze",
-    "1:sandstorm"
+    "1:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -82,7 +83,7 @@
   "weight": 7500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3269,
+  "nationalPokedexNumber": 3277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:peck"
+    "1:peck",
+    "1:growl",
+    "1:leer",
+    "4:sandattack",
+    "4:pluck",
+    "7:mudbomb",
+    "7:wingattack",
+    "10:bulldoze",
+    "10:aerialace",
+    "13:dig",
+    "13:drillpeck",
+    "16:earthquake",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2467,
+  "nationalPokedexNumber": 2475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

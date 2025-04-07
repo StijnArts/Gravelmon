@@ -71,7 +71,8 @@
     "34:calmmind",
     "40:psychic",
     "47:psychup",
-    "60:recover"
+    "60:recover",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4050,
+  "nationalPokedexNumber": 4058,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

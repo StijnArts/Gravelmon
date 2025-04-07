@@ -74,7 +74,8 @@
     "35:wideguard",
     "40:earthpower",
     "46:stoneedge",
-    "52:magicroom"
+    "52:magicroom",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1870,
+  "nationalPokedexNumber": 1873,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

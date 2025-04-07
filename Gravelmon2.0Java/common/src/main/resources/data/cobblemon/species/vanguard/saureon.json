@@ -147,7 +147,8 @@
     "tm:dracometeor",
     "tm:poisonjab",
     "tm:breakingswipe",
-    "tm:howl"
+    "tm:howl",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -160,7 +161,7 @@
   "weight": 1250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -128,7 +128,8 @@
     "tm:cut",
     "tm:strength",
     "tutor:vacuumwave",
-    "egg:quickguard"
+    "egg:quickguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

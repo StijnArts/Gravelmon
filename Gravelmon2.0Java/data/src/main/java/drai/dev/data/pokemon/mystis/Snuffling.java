@@ -16,19 +16,23 @@ public class Snuffling extends drai.dev.data.pokemon.Pokemon {
                         56,
                         50),
                 List.of(Ability.BIG_PECKS), Ability.ICE_BODY,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("- PeckSTAB Flying"),
+                List.of(new EvolutionEntry("scarfly", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.PECK,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(8).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Snuffling");

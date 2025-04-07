@@ -88,7 +88,8 @@
     "tm:raindance",
     "tm:aurorabeam",
     "tm:auroraveil",
-    "tm:avalanche"
+    "tm:avalanche",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -103,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4715,
+  "nationalPokedexNumber": 4723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

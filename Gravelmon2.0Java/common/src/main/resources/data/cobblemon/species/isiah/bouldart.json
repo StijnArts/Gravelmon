@@ -81,7 +81,8 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"
+    "69:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4263,
+  "nationalPokedexNumber": 4271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

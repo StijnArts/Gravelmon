@@ -77,7 +77,8 @@
     "tm:psybeam",
     "tm:recover",
     "tm:darkpulse",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3027,
+  "nationalPokedexNumber": 3035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

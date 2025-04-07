@@ -63,7 +63,22 @@
     "1:tackle",
     "1:tackle",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:growl",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:round",
+    "4:round",
+    "7:swift",
+    "7:swift",
+    "10:uproar",
+    "10:uproar",
+    "13:hypervoice",
+    "13:hypervoice",
+    "16:hyperbeam",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -93,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2823,
+  "nationalPokedexNumber": 2831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -78,7 +78,8 @@
     "44:toxic",
     "48:aquatail",
     "52:acupressure",
-    "56:destinybond"
+    "56:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 9463,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4156,
+  "nationalPokedexNumber": 4164,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

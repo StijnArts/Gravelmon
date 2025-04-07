@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:irondefense"
+    "1:irondefense",
+    "1:screech",
+    "1:bulkup",
+    "4:irontail",
+    "4:calmmind",
+    "7:smartstrike",
+    "7:taunt",
+    "10:ironhead",
+    "10:substitute",
+    "13:meteormash",
+    "13:rest",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -93,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 3734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

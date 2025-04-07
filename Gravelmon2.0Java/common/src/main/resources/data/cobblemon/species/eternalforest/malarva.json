@@ -63,7 +63,8 @@
   "moves": [
     "1:tackle",
     "1:leechlife",
-    "1:stringshot"
+    "1:stringshot",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3048,
+  "nationalPokedexNumber": 3056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 29.6875,

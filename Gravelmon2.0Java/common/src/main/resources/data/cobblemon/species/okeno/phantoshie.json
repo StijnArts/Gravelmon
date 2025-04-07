@@ -85,7 +85,8 @@
     "tm:covet",
     "tm:flail",
     "tm:dizzypunch",
-    "tm:cottonguard"
+    "tm:cottonguard",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4458,
+  "nationalPokedexNumber": 4466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

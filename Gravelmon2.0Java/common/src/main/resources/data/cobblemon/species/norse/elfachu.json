@@ -64,7 +64,22 @@
     "1:absorb",
     "1:disarmingvoice",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:babydolleyes",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:megadrain",
+    "4:drainingkiss",
+    "7:magicalleaf",
+    "7:playnice",
+    "10:gigadrain",
+    "10:dazzlinggleam",
+    "13:energyball",
+    "13:hypervoice",
+    "16:solarbeam",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2560,
+  "nationalPokedexNumber": 2568,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

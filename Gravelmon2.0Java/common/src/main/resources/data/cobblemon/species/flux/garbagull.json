@@ -84,7 +84,8 @@
     "egg:stockpile",
     "egg:spitup",
     "egg:swallow",
-    "egg:curse"
+    "egg:curse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -99,7 +100,7 @@
   "weight": 1900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2112,
+  "nationalPokedexNumber": 2115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

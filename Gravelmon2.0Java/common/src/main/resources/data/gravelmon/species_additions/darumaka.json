@@ -97,6 +97,7 @@
         "tm:grassyterrain",
         "tm:gyroball",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:highhorsepower",
         "tm:hypervoice",
@@ -144,7 +145,8 @@
         "egg:bodypress",
         "egg:howl",
         "egg:supersonic",
-        "egg:drumbeating"
+        "egg:drumbeating",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -324,7 +326,8 @@
         "tutor:snore",
         "tutor:spite",
         "tutor:suckerpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

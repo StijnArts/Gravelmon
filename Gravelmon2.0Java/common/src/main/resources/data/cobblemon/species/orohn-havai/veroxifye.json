@@ -71,7 +71,8 @@
     "39:luckychant",
     "45:superpower",
     "50:trick",
-    "55:playrough"
+    "55:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3027,
+  "nationalPokedexNumber": 3035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

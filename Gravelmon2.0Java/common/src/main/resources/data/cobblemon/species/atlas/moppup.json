@@ -122,7 +122,8 @@
     "tm:crunch",
     "tm:thunderfang",
     "tm:firefang",
-    "tm:icefang"
+    "tm:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5096,
+  "nationalPokedexNumber": 5104,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

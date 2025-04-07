@@ -45,7 +45,7 @@ public class Picocacto extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEADLONG_RUSH,63)             ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

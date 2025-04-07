@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:growl",
+    "1:defensecurl",
+    "4:psybeam",
+    "4:rollout",
+    "7:futuresight",
+    "7:ancientpower",
+    "10:psychic",
+    "10:powergem",
+    "13:psyshock",
+    "13:stealthrock",
+    "16:psychoboost",
+    "16:meteorbeam",
+    "19:confusion",
+    "19:rockthrow",
+    "22:growl",
+    "22:defensecurl",
+    "25:psybeam",
+    "25:rollout",
+    "28:futuresight",
+    "28:smackdown",
+    "31:psychic",
+    "31:rockblast",
+    "34:zenheadbutt",
+    "34:stealthrock",
+    "39:psychocut",
+    "39:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -85,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1363,
+  "nationalPokedexNumber": 1365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

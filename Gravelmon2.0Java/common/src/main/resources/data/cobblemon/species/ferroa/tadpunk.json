@@ -111,7 +111,8 @@
     "tm:endeavor",
     "tm:mudbomb",
     "tm:dizzypunch",
-    "tm:throatchop"
+    "tm:throatchop",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1579,
+  "nationalPokedexNumber": 1582,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

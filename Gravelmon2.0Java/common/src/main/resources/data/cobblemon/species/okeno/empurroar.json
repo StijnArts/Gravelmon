@@ -130,7 +130,8 @@
     "tm:sleeppowder",
     "tm:poisonpowder",
     "tm:bounce",
-    "tm:fakeout"
+    "tm:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -145,7 +146,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4431,
+  "nationalPokedexNumber": 4439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

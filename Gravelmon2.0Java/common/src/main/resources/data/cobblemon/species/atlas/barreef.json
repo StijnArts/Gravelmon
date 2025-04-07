@@ -115,7 +115,8 @@
     "tm:toxic",
     "tm:venoshock",
     "tm:waterpulse",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5112,
+  "nationalPokedexNumber": 5120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

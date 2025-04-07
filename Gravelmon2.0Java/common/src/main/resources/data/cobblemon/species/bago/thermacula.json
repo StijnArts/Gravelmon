@@ -64,7 +64,22 @@
     "1:ember",
     "1:peck",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:quickattack",
+    "4:pluck",
+    "7:flamecharge",
+    "7:wingattack",
+    "10:firepunch",
+    "10:aerialace",
+    "13:willowisp",
+    "13:drillpeck",
+    "16:flareblitz",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2805,
+  "nationalPokedexNumber": 2813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

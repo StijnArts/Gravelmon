@@ -147,7 +147,8 @@
     "tm:batonpass",
     "tm:craftyshield",
     "tm:corrosivegas",
-    "tm:metronome"
+    "tm:metronome",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4864,
+  "nationalPokedexNumber": 4872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:ember"
+    "1:ember",
+    "1:leer",
+    "1:growl",
+    "4:absorb",
+    "4:quickattack",
+    "7:trailblaze",
+    "7:flamecharge",
+    "10:gigadrain",
+    "10:firepunch",
+    "13:seedbomb",
+    "13:willowisp",
+    "16:leafblade",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2606,
+  "nationalPokedexNumber": 2614,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

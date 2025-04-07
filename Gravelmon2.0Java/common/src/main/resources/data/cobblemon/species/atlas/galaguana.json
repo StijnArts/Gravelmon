@@ -113,7 +113,8 @@
     "tm:raindance",
     "tm:bulkup",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5166,
+  "nationalPokedexNumber": 5174,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

@@ -16,8 +16,8 @@ public class Marvelish extends drai.dev.data.pokemon.Pokemon {
                         95,
                         70),
                 List.of(Ability.SECRETINSIGHT,Ability.MARVEL_SCALE), Ability.MULTISCALE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                27, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,9 +27,16 @@ public class Marvelish extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_FRESHWATER).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Marvelish");
 
     }

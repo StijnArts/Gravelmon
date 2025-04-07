@@ -67,7 +67,8 @@
     "1:tailslap",
     "1:sandattack",
     "1:growl",
-    "1:detect"
+    "1:detect",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3320,
+  "nationalPokedexNumber": 3328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -62,7 +62,34 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:lowkick"
+    "1:lowkick",
+    "1:stringshot",
+    "1:leer",
+    "3:silverwind",
+    "3:revenge",
+    "6:signalbeam",
+    "6:vacuumwave",
+    "9:infestation",
+    "9:brickbreak",
+    "12:uturn",
+    "12:aurasphere",
+    "15:bugbuzz",
+    "15:focusblast",
+    "18:strugglebug",
+    "18:lowkick",
+    "21:stringshot",
+    "21:leer",
+    "24:leechlife",
+    "24:revenge",
+    "27:lunge",
+    "27:lowsweep",
+    "30:xscissor",
+    "30:brickbreak",
+    "33:uturn",
+    "33:karatechop",
+    "36:megahorn",
+    "36:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -90,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1379,
+  "nationalPokedexNumber": 1381,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

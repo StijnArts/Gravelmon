@@ -70,7 +70,8 @@
     "61:sketch",
     "71:sketch",
     "81:sketch",
-    "91:sketch"
+    "91:sketch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -82,7 +83,7 @@
   "weight": 297,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4565,
+  "nationalPokedexNumber": 4573,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

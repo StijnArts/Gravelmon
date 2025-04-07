@@ -73,7 +73,8 @@
     "tm:hypervoice",
     "tm:grasswhistle",
     "tm:magicalleaf",
-    "tm:naturalgift"
+    "tm:naturalgift",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4312,
+  "nationalPokedexNumber": 4320,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

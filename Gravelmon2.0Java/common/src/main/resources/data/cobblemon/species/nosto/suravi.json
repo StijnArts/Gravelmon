@@ -140,7 +140,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:flashcannon",
-    "tm:steelwing"
+    "tm:steelwing",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3530,
+  "nationalPokedexNumber": 3538,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

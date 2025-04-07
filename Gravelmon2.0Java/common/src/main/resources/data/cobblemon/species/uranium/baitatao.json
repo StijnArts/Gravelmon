@@ -90,7 +90,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:waterpulse",
-    "tm:coralbreak"
+    "tm:coralbreak",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -104,7 +105,7 @@
   "weight": 2550,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2082,
+  "nationalPokedexNumber": 2085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

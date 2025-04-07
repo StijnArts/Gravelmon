@@ -116,7 +116,8 @@
     "tm:mistyterrain",
     "tm:leechseed",
     "tm:scorchingsands",
-    "tm:seedbomb"
+    "tm:seedbomb",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5083,
+  "nationalPokedexNumber": 5091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.375,

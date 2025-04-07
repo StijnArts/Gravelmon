@@ -66,8 +66,10 @@
     "1:peck",
     "1:quickattack",
     "6:quickattack",
+    "9:warble",
     "13:sing",
     "18:wingattack",
+    "19:hairpinturn",
     "22:whirlwind",
     "27:aerialace",
     "33:airslash",
@@ -81,6 +83,7 @@
     "tutor:feintattack",
     "tutor:torment",
     "tutor:confide",
+    "tutor:quickturn",
     "tutor:doubleedge",
     "tm:toxic",
     "tm:ominouswind",
@@ -100,7 +103,8 @@
     "egg:uturn",
     "egg:featherdance",
     "egg:furyattack",
-    "egg:foresight"
+    "egg:foresight",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -130,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4606,
+  "nationalPokedexNumber": 4614,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

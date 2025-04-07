@@ -74,7 +74,8 @@
     "36:thunderbolt",
     "40:flareblitz",
     "44:thrash",
-    "48:thunder"
+    "48:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2399,
+  "nationalPokedexNumber": 2407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

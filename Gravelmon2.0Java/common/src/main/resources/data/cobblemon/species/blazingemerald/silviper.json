@@ -121,7 +121,8 @@
     "tm:strength",
     "tm:rocksmash",
     "egg:frostbite",
-    "egg:shadowsneak"
+    "egg:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -135,7 +136,7 @@
   "weight": 1989,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3828,
+  "nationalPokedexNumber": 3836,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

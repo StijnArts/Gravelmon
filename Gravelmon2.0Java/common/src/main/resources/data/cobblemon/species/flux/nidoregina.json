@@ -83,7 +83,8 @@
     "egg:counter",
     "egg:disable",
     "egg:headsmash",
-    "egg:icefang"
+    "egg:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -98,7 +99,7 @@
   "weight": 600,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2115,
+  "nationalPokedexNumber": 2118,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

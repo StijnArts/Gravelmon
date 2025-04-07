@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "4:round",
+    "7:swift",
+    "10:uproar",
+    "13:hypervoice",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -77,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2530,
+  "nationalPokedexNumber": 2538,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

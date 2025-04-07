@@ -112,7 +112,8 @@
     "egg:headbutt",
     "egg:sleeptalk",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3372,
+  "nationalPokedexNumber": 3380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

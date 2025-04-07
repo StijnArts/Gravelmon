@@ -134,7 +134,8 @@
     "tm:brine",
     "tm:aquaring",
     "tm:wideguard",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -147,7 +148,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3928,
+  "nationalPokedexNumber": 3936,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:watergun"
+    "1:watergun",
+    "1:defensecurl",
+    "1:tailwhip",
+    "10:rollout",
+    "10:bubblebeam",
+    "15:ancientpower",
+    "15:brine",
+    "20:powergem",
+    "20:surf",
+    "25:stealthrock",
+    "25:chillingwater",
+    "30:meteorbeam",
+    "30:hydropump",
+    "35:rockthrow",
+    "35:watergun",
+    "40:defensecurl",
+    "40:tailwhip",
+    "45:rollout",
+    "45:bubblebeam",
+    "50:smackdown",
+    "50:aquatail",
+    "55:rockblast",
+    "55:surf",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6038,
+  "nationalPokedexNumber": 6046,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

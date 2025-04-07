@@ -78,7 +78,8 @@
     "tm:bubble",
     "tm:bubblebeam",
     "tm:aquaring",
-    "tm:strugglebug"
+    "tm:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3121,
+  "nationalPokedexNumber": 3129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

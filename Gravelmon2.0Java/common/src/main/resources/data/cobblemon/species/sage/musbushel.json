@@ -62,7 +62,7 @@
     "grass"
   ],
   "drops": {
-    "amount": 8,
+    "amount": 9,
     "entries": [
       {
         "item": "minecraft:sweet_berry",
@@ -163,7 +163,8 @@
     "egg:stockpile",
     "egg:swallow",
     "egg:sweetscent",
-    "egg:synthesis"
+    "egg:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

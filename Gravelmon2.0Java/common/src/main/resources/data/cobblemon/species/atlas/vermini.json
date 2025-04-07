@@ -89,7 +89,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:sandattack"
+    "tm:sandattack",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5068,
+  "nationalPokedexNumber": 5076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

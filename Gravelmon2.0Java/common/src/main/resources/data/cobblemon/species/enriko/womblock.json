@@ -74,7 +74,8 @@
     "49:barrier",
     "55:doubleedge",
     "60:wideguard",
-    "65:headsmash"
+    "65:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1656,
+  "nationalPokedexNumber": 1659,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -73,7 +73,8 @@
     "36:shadowball",
     "40:venoshock",
     "44:megahorn",
-    "50:horndrill"
+    "50:horndrill",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1665,
+  "nationalPokedexNumber": 1668,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

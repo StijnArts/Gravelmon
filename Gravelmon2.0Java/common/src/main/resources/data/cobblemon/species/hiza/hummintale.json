@@ -103,7 +103,8 @@
     "tm:substitute",
     "tm:naturepower",
     "tm:dazzlinggleam",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -118,7 +119,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2263,
+  "nationalPokedexNumber": 2271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

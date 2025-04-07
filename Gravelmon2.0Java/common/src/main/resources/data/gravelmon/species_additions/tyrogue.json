@@ -40,6 +40,16 @@
       "requirements": [],
       "requiredContext": "minecraft:end_crystal",
       "permanent": true
+    },
+    {
+      "id": "tyrogue_hitmonbash",
+      "variant": "item_interact",
+      "result": "hitmonbash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
     }
   ],
   "drops": {
@@ -47,6 +57,11 @@
     "entries": [
       {
         "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }
@@ -120,7 +135,44 @@
         "1:coaching",
         "1:healbell",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:tailwhip",
+        "1:healbell",
+        "1:wish",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:revenge",
+        "4:bubblebeam",
+        "4:wish",
+        "4:quickattack",
+        "4:flipturn",
+        "7:vacuumwave",
+        "7:brine",
+        "7:swordsdance",
+        "7:quickattack",
+        "10:brickbreak",
+        "10:surf",
+        "10:swordsdance",
+        "13:aurasphere",
+        "13:chillingwater",
+        "16:focusblast",
+        "16:hydropump",
+        "19:lowkick",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:revenge",
+        "25:bubblebeam",
+        "28:lowsweep",
+        "28:aquatail",
+        "31:brickbreak",
+        "31:surf",
+        "34:karatechop",
+        "34:waterfall",
+        "39:closecombat",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -298,6 +350,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:knockoff",
@@ -327,7 +380,8 @@
         "egg:circlethrow",
         "egg:highjumpkick",
         "egg:vacuumwave",
-        "egg:endure"
+        "egg:endure",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -483,7 +537,8 @@
         "tm:rapidspin",
         "tm:feint",
         "tm:vacuumwave",
-        "tm:bulletpunch"
+        "tm:bulletpunch",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",
@@ -677,7 +732,8 @@
         "tm:rapidspin",
         "tm:feint",
         "tm:vacuumwave",
-        "tm:bulletpunch"
+        "tm:bulletpunch",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

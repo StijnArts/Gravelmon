@@ -125,7 +125,8 @@
     "tm:wish",
     "tm:flamewheel",
     "tm:jumpkick",
-    "tm:recycle"
+    "tm:recycle",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5066,
+  "nationalPokedexNumber": 5074,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

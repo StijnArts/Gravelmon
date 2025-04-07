@@ -78,7 +78,8 @@
     "egg:mist",
     "egg:aquaring",
     "egg:waterspout",
-    "egg:iceshard"
+    "egg:iceshard",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2095,
+  "nationalPokedexNumber": 2098,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

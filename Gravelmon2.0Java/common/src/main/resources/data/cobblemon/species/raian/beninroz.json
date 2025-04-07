@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:screech",
+    "1:quickattack",
+    "4:irontail",
+    "4:swordsdance",
+    "7:smartstrike",
+    "10:ironhead",
+    "13:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -75,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2526,
+  "nationalPokedexNumber": 2534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -72,7 +72,8 @@
     "38:lightscreen",
     "49:mirrorcoat",
     "60:dazzlinggleam",
-    "65:healingwish"
+    "65:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4400,
+  "nationalPokedexNumber": 4408,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

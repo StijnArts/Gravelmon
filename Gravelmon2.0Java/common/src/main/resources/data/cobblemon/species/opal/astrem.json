@@ -84,7 +84,8 @@
     "66:futuresight",
     "73:airslash",
     "80:cosmicpower",
-    "90:recover"
+    "90:recover",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -97,7 +98,7 @@
   "weight": 1355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1483,
+  "nationalPokedexNumber": 1486,
   "shoulderMountable": false,
   "hitbox": {
     "width": 9.5,

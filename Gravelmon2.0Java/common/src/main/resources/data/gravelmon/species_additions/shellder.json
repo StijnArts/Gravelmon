@@ -76,7 +76,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:tackle"
+        "1:tackle",
+        "1:tailwhip",
+        "1:growl",
+        "4:bubblebeam",
+        "4:round",
+        "7:brine",
+        "7:swift",
+        "10:surf",
+        "10:uproar",
+        "13:chillingwater",
+        "13:hypervoice",
+        "16:hydropump",
+        "16:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -237,7 +250,8 @@
         "tm:mudshot",
         "tm:rockblast",
         "tm:aquaring",
-        "tm:avalanche"
+        "tm:avalanche",
+        "tm:terablast"
       ],
       "labels": [
         "nosto",
@@ -405,7 +419,8 @@
         "egg:refresh",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -577,7 +592,8 @@
         "egg:refresh",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

@@ -17,13 +17,14 @@ public class Pasturlo extends drai.dev.data.pokemon.Pokemon {
                         43),
                 List.of(Ability.OVERCOAT), Ability.OVERCOAT,
                 7, 69,
-                new Stats(1,0,0,0,0,0), 45,
+                new Stats(1,0,0,0,0,0), 220,
                 0.85,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Pasturlo tries its best to stay asleep at all times, but gets extremely angry when it is awoken from its slumber."),
-                List.of(),
+                List.of(new EvolutionEntry("brambull", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,5),
@@ -40,7 +41,11 @@ public class Pasturlo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,45)                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(7).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_GRASSLAND).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pasturlo");

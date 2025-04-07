@@ -150,7 +150,8 @@
         "tm:wonderroom",
         "egg:nightshade",
         "egg:freezedry",
-        "egg:astralbarrage"
+        "egg:astralbarrage",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -326,7 +327,8 @@
         "tutor:toxic",
         "tutor:trickroom",
         "tutor:weatherball",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

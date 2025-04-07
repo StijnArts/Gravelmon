@@ -148,7 +148,8 @@
         "egg:stealthrock",
         "egg:venomdrench",
         "egg:skittersmack",
-        "egg:gastroacid"
+        "egg:gastroacid",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -257,7 +258,8 @@
         "25:metalclaw",
         "30:furyswipes",
         "35:mindreader",
-        "40:dig"
+        "40:dig",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

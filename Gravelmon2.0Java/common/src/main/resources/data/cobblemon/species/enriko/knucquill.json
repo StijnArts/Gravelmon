@@ -72,7 +72,8 @@
     "40:earthpower",
     "44:superpower",
     "50:earthquake",
-    "54:bellydrum"
+    "54:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1637,
+  "nationalPokedexNumber": 1640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

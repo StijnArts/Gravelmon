@@ -111,7 +111,7 @@ public class Flairees  extends Pokemon {
                         new MoveLearnSetEntry(Move.THRASH,"egg")
                         ),
                 List.of(Label.SAGE),
-                6, List.of(
+                9, List.of(
                         new ItemDrop("minecraft:flint",20, 1,2),
                         new ItemDrop("minecraft:leather",80, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 49, 0.1, List.of(

@@ -7,7 +7,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "rockid",
   "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
@@ -61,13 +60,22 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:defensecurl",
+    "1:calmmind",
+    "4:rollout",
+    "4:taunt",
+    "7:smackdown",
+    "7:substitute",
+    "10:rockblast",
+    "10:rest",
+    "13:stealthrock",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
     "not_modeled",
-    "fakemon",
-    "fakemonevolution",
     "instagram",
     "instagram"
   ],
@@ -89,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2854,
+  "nationalPokedexNumber": 2862,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

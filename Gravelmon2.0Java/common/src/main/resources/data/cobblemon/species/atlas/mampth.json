@@ -106,7 +106,8 @@
     "tm:roar",
     "tm:calmmind",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5171,
+  "nationalPokedexNumber": 5179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

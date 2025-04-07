@@ -120,6 +120,7 @@
     "tm:hyperbeam",
     "tm:flareblitz",
     "tm:solarbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -133,7 +134,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3447,
+  "nationalPokedexNumber": 3455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

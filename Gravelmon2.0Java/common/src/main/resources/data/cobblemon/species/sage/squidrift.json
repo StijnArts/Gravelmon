@@ -150,7 +150,8 @@
     "egg:smog",
     "egg:suckerpunch",
     "egg:venoshock",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

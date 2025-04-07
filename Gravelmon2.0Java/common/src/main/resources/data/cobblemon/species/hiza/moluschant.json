@@ -76,7 +76,8 @@
     "33:switcheroo",
     "37:foulplay",
     "42:topsyturvy",
-    "47:superpower"
+    "47:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2344,
+  "nationalPokedexNumber": 2352,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

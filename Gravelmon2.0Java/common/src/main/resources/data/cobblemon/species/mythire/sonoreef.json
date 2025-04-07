@@ -118,7 +118,8 @@
     "tm:watergun",
     "tm:waterfall",
     "tm:whirlwind",
-    "tm:aircutter"
+    "tm:aircutter",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3854,
+  "nationalPokedexNumber": 3862,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

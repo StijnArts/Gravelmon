@@ -77,7 +77,8 @@
     "70:megahorn",
     "77:quickguard",
     "84:stoneedge",
-    "91:gigaimpact"
+    "91:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3026,
+  "nationalPokedexNumber": 3034,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.5,

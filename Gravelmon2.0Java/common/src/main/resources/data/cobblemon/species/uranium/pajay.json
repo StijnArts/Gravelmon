@@ -124,7 +124,8 @@
     "egg:skyattack",
     "egg:steelwing",
     "egg:swagger",
-    "egg:uproar"
+    "egg:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -139,7 +140,7 @@
   "weight": 282,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2000,
+  "nationalPokedexNumber": 2003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

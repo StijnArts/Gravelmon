@@ -120,7 +120,8 @@
     "tm:taunt",
     "tm:toxic",
     "tm:trickroom",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -133,7 +134,7 @@
   "weight": 422,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2045,
+  "nationalPokedexNumber": 2048,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

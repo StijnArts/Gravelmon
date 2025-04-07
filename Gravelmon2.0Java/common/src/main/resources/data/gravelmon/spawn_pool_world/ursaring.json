@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "nodorran_ursaring-01",
+      "pokemon": "ursaring nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_ursaring-01",
       "pokemon": "ursaring epoch",
       "presets": [

@@ -99,7 +99,8 @@
     "tm:sleeptalk",
     "tm:substitute",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -114,7 +115,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4221,
+  "nationalPokedexNumber": 4229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -81,7 +81,8 @@
     "28:mimic",
     "32:gyroball",
     "36:hypervoice",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3468,
+  "nationalPokedexNumber": 3476,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

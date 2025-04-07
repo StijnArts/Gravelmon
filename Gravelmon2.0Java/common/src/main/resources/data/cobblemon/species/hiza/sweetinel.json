@@ -74,7 +74,8 @@
     "30:wish",
     "33:playrough",
     "36:cottonguard",
-    "39:endeavor"
+    "39:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2316,
+  "nationalPokedexNumber": 2324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

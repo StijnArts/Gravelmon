@@ -112,7 +112,8 @@
     "tm:bulkup",
     "tm:taunt",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5141,
+  "nationalPokedexNumber": 5149,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

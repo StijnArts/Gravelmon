@@ -137,7 +137,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:powerwhip",
-    "tm:thrash"
+    "tm:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1558,
+  "nationalPokedexNumber": 1561,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

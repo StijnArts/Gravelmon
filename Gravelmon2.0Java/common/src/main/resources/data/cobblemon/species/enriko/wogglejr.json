@@ -69,7 +69,8 @@
     "29:amnesia",
     "34:bounce",
     "39:quiverdance",
-    "45:superpower"
+    "45:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1628,
+  "nationalPokedexNumber": 1631,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

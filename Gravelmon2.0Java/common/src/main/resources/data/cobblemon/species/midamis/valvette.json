@@ -77,7 +77,8 @@
     "41:discharge",
     "46:shellsmash",
     "50:fireblast",
-    "55:thunder"
+    "55:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4337,
+  "nationalPokedexNumber": 4345,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

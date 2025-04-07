@@ -144,7 +144,8 @@
     "tm:calmmind",
     "tm:dazzlinggleam",
     "tm:drainingkiss",
-    "tm:woodhammer"
+    "tm:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -157,7 +158,7 @@
   "weight": 1250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4100,
+  "nationalPokedexNumber": 4108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

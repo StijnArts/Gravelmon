@@ -61,7 +61,19 @@
   "moves": [
     "1:gust",
     "1:bulkup",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:calmmind",
+    "1:nastyplot",
+    "10:aircutter",
+    "10:taunt",
+    "15:wingattack",
+    "15:substitute",
+    "20:airslash",
+    "20:rest",
+    "25:drillpeck",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -74,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4740,
+  "nationalPokedexNumber": 4748,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

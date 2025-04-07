@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:gust"
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "4:confuseray",
+    "4:aircutter",
+    "7:ominouswind",
+    "7:wingattack",
+    "10:nightshade",
+    "10:airslash",
+    "13:hex",
+    "13:drillpeck",
+    "16:shadowball",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5439,
+  "nationalPokedexNumber": 5447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

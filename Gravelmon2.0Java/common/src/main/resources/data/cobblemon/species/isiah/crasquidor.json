@@ -72,7 +72,8 @@
     "29:shadowclaw",
     "37:razorshell",
     "46:recover",
-    "50:crunch"
+    "50:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4256,
+  "nationalPokedexNumber": 4264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

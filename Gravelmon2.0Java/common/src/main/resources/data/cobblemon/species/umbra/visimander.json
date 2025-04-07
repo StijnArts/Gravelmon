@@ -125,7 +125,8 @@
     "tutor:zenheadbutt",
     "tutor:magiccoat",
     "tutor:liquidation",
-    "tutor:earthpower"
+    "tutor:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -140,7 +141,7 @@
   "weight": 425,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3694,
+  "nationalPokedexNumber": 3702,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -73,7 +73,8 @@
     "36:worryseed",
     "40:phantomforce",
     "47:memento",
-    "52:futuresight"
+    "52:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5219,
+  "nationalPokedexNumber": 5227,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

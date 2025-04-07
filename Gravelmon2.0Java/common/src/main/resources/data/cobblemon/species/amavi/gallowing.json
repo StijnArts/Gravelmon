@@ -73,7 +73,8 @@
     "50:honeclaws",
     "55:airslash",
     "60:foulplay",
-    "67:bravebird"
+    "67:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5264,
+  "nationalPokedexNumber": 5272,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -76,7 +76,8 @@
     "36:drainpunch",
     "40:earthquake",
     "46:leechseed",
-    "50:moonblast"
+    "50:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4010,
+  "nationalPokedexNumber": 4018,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

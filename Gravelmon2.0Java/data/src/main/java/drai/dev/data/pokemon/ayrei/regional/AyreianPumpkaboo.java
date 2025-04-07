@@ -104,7 +104,7 @@ public class AyreianPumpkaboo extends Pokemon {
                 ),
                 List.of(Label.GEN6,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 33, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

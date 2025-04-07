@@ -100,7 +100,8 @@
     "egg:mudshot",
     "egg:mudslap",
     "egg:psybeam",
-    "egg:skullbash"
+    "egg:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -115,7 +116,7 @@
   "weight": 389,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4628,
+  "nationalPokedexNumber": 4636,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

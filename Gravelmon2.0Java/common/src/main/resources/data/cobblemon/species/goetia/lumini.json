@@ -1,7 +1,7 @@
 {
   "name": "Lumini",
   "primaryType": "bug",
-  "catchRate": 255,
+  "catchRate": 0,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
@@ -10,7 +10,8 @@
   "baseScale": 0.26666666666666666,
   "cannotDynamax": false,
   "abilities": [
-    "keeneye"
+    "keeneye",
+    "h:keeneye"
   ],
   "behaviour": {
     "resting": {
@@ -58,9 +59,7 @@
     "field"
   ],
   "drops": {},
-  "moves": [
-    "1:strugglebug"
-  ],
+  "moves": [],
   "labels": [
     "goetia",
     "not_modeled"
@@ -87,7 +86,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5848,
+  "nationalPokedexNumber": 5856,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

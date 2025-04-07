@@ -72,7 +72,8 @@
     "40:playrough",
     "45:nightdaze",
     "50:partingshot",
-    "60:hypervoice"
+    "60:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1462,
+  "nationalPokedexNumber": 1465,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

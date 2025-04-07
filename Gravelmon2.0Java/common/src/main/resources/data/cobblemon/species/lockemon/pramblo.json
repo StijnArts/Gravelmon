@@ -90,7 +90,8 @@
     "egg:stockpile",
     "egg:stomp",
     "egg:swallow",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3396,
+  "nationalPokedexNumber": 3404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -81,7 +81,8 @@
         "30:crabhammer",
         "7:watersport",
         "20:bubblebeam",
-        "25:swordsdance"
+        "25:swordsdance",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -222,7 +223,8 @@
         "egg:entrainment",
         "egg:firstimpression",
         "egg:helpinghand",
-        "egg:snarl"
+        "egg:snarl",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

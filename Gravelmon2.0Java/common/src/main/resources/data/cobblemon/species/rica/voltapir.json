@@ -126,7 +126,8 @@
     "tm:wildcharge",
     "tm:stomp",
     "tm:quickattack",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

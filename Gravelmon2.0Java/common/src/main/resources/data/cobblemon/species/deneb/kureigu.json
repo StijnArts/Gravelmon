@@ -62,7 +62,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:harden"
+    "1:harden",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4622,
+  "nationalPokedexNumber": 4630,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

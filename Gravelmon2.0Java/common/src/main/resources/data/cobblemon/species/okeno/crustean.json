@@ -73,7 +73,8 @@
     "1:mudshot",
     "1:fling",
     "1:mudbomb",
-    "1:poisongas"
+    "1:poisongas",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4465,
+  "nationalPokedexNumber": 4473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

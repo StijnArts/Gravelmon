@@ -77,7 +77,8 @@
     "33:rockslide",
     "39:powergem",
     "44:acidarmor",
-    "50:sludgewave"
+    "50:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4052,
+  "nationalPokedexNumber": 4060,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

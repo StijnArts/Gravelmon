@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:growl",
+    "1:defensecurl",
+    "4:quickattack",
+    "4:rollout",
+    "7:flamecharge",
+    "7:smackdown",
+    "10:firepunch",
+    "10:rockblast",
+    "13:willowisp",
+    "13:stealthrock",
+    "16:flareblitz",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2864,
+  "nationalPokedexNumber": 2872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

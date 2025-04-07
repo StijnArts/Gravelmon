@@ -16,8 +16,8 @@ public class Neuregel extends drai.dev.data.pokemon.Pokemon {
                         130,
                         100),
                 List.of(Ability.NEUROFORCE), Ability.NEUROFORCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 6,
                 0.0,
                 293, ExperienceGroup.SLOW,
                 70,
@@ -27,7 +27,11 @@ public class Neuregel extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Neuregel");

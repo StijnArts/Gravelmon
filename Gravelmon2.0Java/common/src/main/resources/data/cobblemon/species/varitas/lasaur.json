@@ -72,7 +72,8 @@
     "40:rockslide",
     "45:jumpkick",
     "50:slash",
-    "55:thunderbolt"
+    "55:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1949,
+  "nationalPokedexNumber": 1952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

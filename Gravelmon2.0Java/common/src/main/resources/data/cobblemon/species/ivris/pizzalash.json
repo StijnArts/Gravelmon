@@ -63,7 +63,22 @@
     "1:metalclaw",
     "1:disarmingvoice",
     "1:bulletpunch",
-    "1:quickattack"
+    "1:quickattack",
+    "1:screech",
+    "1:babydolleyes",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:irontail",
+    "4:drainingkiss",
+    "4:swordsdance",
+    "7:smartstrike",
+    "7:playnice",
+    "10:ironhead",
+    "10:dazzlinggleam",
+    "13:meteormash",
+    "13:playrough",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3615,
+  "nationalPokedexNumber": 3623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

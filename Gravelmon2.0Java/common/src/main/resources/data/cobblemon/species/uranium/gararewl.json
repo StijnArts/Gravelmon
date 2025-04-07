@@ -118,7 +118,8 @@
     "tm:zenheadbutt",
     "egg:endeavor",
     "egg:bodyslam",
-    "egg:stomp"
+    "egg:stomp",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -133,7 +134,7 @@
   "weight": 1896,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1984,
+  "nationalPokedexNumber": 1987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

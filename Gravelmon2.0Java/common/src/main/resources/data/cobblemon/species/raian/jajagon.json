@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "4:dragonrage",
+    "7:dualchop",
+    "10:breakingswipe",
+    "13:dragonclaw",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2524,
+  "nationalPokedexNumber": 2532,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

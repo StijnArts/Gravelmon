@@ -123,7 +123,8 @@
     "tm:corrosivegas",
     "tm:megadrain",
     "tm:rockblast",
-    "tm:muddywater"
+    "tm:muddywater",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4979,
+  "nationalPokedexNumber": 4987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

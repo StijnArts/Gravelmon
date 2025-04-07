@@ -23,7 +23,8 @@ public class Croober extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Croobers prove they worth through stealing. The more loot one owns the more respect it has among its species."),
-                List.of(),
+                List.of(new EvolutionEntry("ravendler", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -106,7 +107,11 @@ public class Croober extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUASH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(19).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA, Biome.IS_PLAINS, Biome.IS_SPOOKY)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Croober");

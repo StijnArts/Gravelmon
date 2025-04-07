@@ -140,7 +140,8 @@
     "tm:dive",
     "tm:razorwind",
     "tm:assurance",
-    "tm:aurasphere"
+    "tm:aurasphere",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4958,
+  "nationalPokedexNumber": 4966,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

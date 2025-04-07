@@ -74,7 +74,8 @@
     "49:gunkshot",
     "51:acupressure",
     "55:aromaticmist",
-    "60:amnesia"
+    "60:amnesia",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1668,
+  "nationalPokedexNumber": 1671,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -72,7 +72,8 @@
     "38:lightscreen",
     "49:mirrorcoat",
     "60:dazzlinggleam",
-    "65:healingwish"
+    "65:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4399,
+  "nationalPokedexNumber": 4407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

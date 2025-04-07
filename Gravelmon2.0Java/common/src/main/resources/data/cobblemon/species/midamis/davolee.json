@@ -76,7 +76,8 @@
     "tm:watergun",
     "tm:splash",
     "tm:fakeout",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4389,
+  "nationalPokedexNumber": 4397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

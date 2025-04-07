@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:sandattack",
+    "4:confuseray",
+    "7:mudbomb",
+    "7:hex",
+    "10:bulldoze",
+    "10:shadowclaw",
+    "13:dig",
+    "13:phantomforce",
+    "16:earthquake",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5455,
+  "nationalPokedexNumber": 5463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -42,7 +42,7 @@ public class Whelter extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,55)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 32, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

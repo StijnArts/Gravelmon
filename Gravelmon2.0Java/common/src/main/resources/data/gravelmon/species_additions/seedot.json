@@ -131,7 +131,8 @@
         "egg:morningsun",
         "egg:sleeppowder",
         "egg:airslash",
-        "egg:naturepower"
+        "egg:naturepower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -280,7 +281,8 @@
         "tutor:mimic",
         "tutor:signalbeam",
         "tutor:snore",
-        "tutor:twister"
+        "tutor:twister",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

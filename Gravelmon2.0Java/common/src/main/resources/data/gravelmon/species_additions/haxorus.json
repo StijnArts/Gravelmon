@@ -165,7 +165,8 @@
         "tutor:superfang",
         "tutor:superpower",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -340,7 +341,8 @@
         "tm:swordsdance",
         "tm:taunt",
         "tm:toxic",
-        "tm:xscissor"
+        "tm:xscissor",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

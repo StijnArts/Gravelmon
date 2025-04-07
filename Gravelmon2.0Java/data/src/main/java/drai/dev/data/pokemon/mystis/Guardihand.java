@@ -16,19 +16,22 @@ public class Guardihand extends drai.dev.data.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.REFLEXSTRIKE), Ability.REFLEXSTRIKE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Erosion over time has made its body crumble, although its soul will never waver. It will make sure no intruders pass through the area it is protecting. Even after thousands of years of dormancy, it still remains extremely powerful. Artwork from ancient times depicts it as a protector of an ancient civilisation."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.CRUSH_GRIP,1)                        ),
+                List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Guardihand");

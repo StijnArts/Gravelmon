@@ -32,7 +32,7 @@ public class Jawee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,37)                        ),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_WARM_OCEAN))),

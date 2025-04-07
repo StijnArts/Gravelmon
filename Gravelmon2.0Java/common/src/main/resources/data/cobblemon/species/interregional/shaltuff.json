@@ -73,7 +73,8 @@
     "32:crunch",
     "36:agility",
     "40:liquidation",
-    "44:takedown"
+    "44:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1446,
+  "nationalPokedexNumber": 1449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

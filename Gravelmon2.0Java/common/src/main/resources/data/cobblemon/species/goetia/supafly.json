@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:gust"
+    "1:gust",
+    "1:stringshot",
+    "1:leer",
+    "10:silverwind",
+    "10:aircutter",
+    "15:signalbeam",
+    "15:wingattack",
+    "20:infestation",
+    "20:airslash",
+    "25:uturn",
+    "25:drillpeck",
+    "30:bugbuzz",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5940,
+  "nationalPokedexNumber": 5948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

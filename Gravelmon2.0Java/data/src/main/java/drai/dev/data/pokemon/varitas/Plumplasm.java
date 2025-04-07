@@ -43,7 +43,7 @@ public class Plumplasm extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 45, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 45, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

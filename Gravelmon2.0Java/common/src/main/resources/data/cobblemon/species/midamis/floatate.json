@@ -75,7 +75,8 @@
     "39:rest",
     "42:amnesia",
     "45:hydropump",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4358,
+  "nationalPokedexNumber": 4366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -70,7 +70,8 @@
     "48:psychic",
     "58:lifedew",
     "68:waterspout",
-    "74:powerwhip"
+    "74:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3222,
+  "nationalPokedexNumber": 3230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

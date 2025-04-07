@@ -14,6 +14,12 @@
       ]
     },
     {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    },
+    {
       "displayForm": "Epoch",
       "unlockForms": [
         "Epoch"
@@ -41,6 +47,12 @@
       "displayForm": "Delta",
       "unlockForms": [
         "Delta"
+      ]
+    },
+    {
+      "displayForm": "Mikitarian",
+      "unlockForms": [
+        "Mikitarian"
       ]
     }
   ]

@@ -116,7 +116,7 @@ public class EpochZubat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEAN_LOOK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

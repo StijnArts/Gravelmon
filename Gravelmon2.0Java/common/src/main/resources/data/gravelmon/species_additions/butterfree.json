@@ -133,7 +133,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -325,7 +326,8 @@
         "tutor:twister",
         "tutor:uturn",
         "tutor:venoshock",
-        "tutor:whirlwind"
+        "tutor:whirlwind",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

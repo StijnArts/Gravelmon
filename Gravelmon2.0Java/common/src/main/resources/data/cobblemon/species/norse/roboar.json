@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:defensecurl",
+    "4:rollout",
+    "7:smackdown",
+    "10:rockblast",
+    "13:stealthrock",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -89,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2561,
+  "nationalPokedexNumber": 2569,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

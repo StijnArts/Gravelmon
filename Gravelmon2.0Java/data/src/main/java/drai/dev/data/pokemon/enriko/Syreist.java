@@ -42,7 +42,7 @@ public class Syreist extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HORN_DRILL,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

@@ -113,7 +113,8 @@
     "tm:magnetrise",
     "tm:dazzlinggleam",
     "tm:confide",
-    "tm:skillswap"
+    "tm:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4967,
+  "nationalPokedexNumber": 4975,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

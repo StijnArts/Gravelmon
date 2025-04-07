@@ -63,7 +63,22 @@
     "1:lowkick",
     "1:thundershock",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:revenge",
+    "4:charge",
+    "7:lowsweep",
+    "7:thunderpunch",
+    "10:brickbreak",
+    "10:discharge",
+    "13:karatechop",
+    "13:wildcharge",
+    "16:closecombat",
+    "16:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3662,
+  "nationalPokedexNumber": 3670,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

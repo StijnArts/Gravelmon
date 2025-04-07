@@ -72,7 +72,8 @@
     "45:nobleroar",
     "50:flamethrower",
     "56:crunch",
-    "62:fireblast"
+    "62:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3132,
+  "nationalPokedexNumber": 3140,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

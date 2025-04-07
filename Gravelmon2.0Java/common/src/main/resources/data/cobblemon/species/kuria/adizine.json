@@ -67,7 +67,8 @@
     "20:firespin",
     "33:cosmicpower",
     "42:heatwave",
-    "48:wish"
+    "48:wish",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -82,7 +83,7 @@
   "weight": 2565,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4158,
+  "nationalPokedexNumber": 4166,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

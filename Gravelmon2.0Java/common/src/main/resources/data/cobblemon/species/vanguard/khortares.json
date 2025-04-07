@@ -138,7 +138,8 @@
     "tm:energyball",
     "tm:dragonpulse",
     "tm:waterpulse",
-    "tm:darkpulse"
+    "tm:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -151,7 +152,7 @@
   "weight": 15,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4092,
+  "nationalPokedexNumber": 4100,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

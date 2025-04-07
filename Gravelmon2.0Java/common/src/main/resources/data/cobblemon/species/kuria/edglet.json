@@ -76,7 +76,8 @@
     "49:partingshot",
     "egg:shadowsneak",
     "egg:drillpeck",
-    "egg:batonpass"
+    "egg:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4123,
+  "nationalPokedexNumber": 4131,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

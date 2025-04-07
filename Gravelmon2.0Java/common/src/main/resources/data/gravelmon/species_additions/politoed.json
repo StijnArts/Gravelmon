@@ -76,6 +76,7 @@
       "moves": [
         "5:quickguard",
         "18:flipturn",
+        "48:excalibur",
         "1:aquajet",
         "11:aquaring",
         "43:sacredsword",
@@ -149,7 +150,8 @@
         "tm:whirlpool",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

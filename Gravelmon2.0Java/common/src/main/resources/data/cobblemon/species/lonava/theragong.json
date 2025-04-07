@@ -74,7 +74,8 @@
     "32:heavyslam",
     "36:irondefense",
     "40:metalsound",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3322,
+  "nationalPokedexNumber": 3330,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

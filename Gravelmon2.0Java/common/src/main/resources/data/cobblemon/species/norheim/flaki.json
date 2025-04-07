@@ -74,7 +74,8 @@
     "tm:powergem",
     "tm:miracleeye",
     "tm:iceshard",
-    "tm:coil"
+    "tm:coil",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3150,
+  "nationalPokedexNumber": 3158,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

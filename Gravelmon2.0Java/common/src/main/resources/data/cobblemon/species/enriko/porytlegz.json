@@ -71,7 +71,8 @@
     "32:paraboliccharge",
     "38:coil",
     "43:revenge",
-    "48:ironhead"
+    "48:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1741,
+  "nationalPokedexNumber": 1744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

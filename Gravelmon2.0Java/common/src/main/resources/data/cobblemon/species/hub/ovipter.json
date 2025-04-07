@@ -114,7 +114,8 @@
     "tm:doubleedge",
     "tm:uturn",
     "tm:xscissor",
-    "tm:softboiled"
+    "tm:softboiled",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -127,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1389,
+  "nationalPokedexNumber": 1392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

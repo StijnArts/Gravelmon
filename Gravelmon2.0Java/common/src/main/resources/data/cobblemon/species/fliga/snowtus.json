@@ -129,7 +129,8 @@
     "tm:toxic",
     "tm:watergun",
     "tm:weatherball",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3970,
+  "nationalPokedexNumber": 3978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

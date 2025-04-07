@@ -100,7 +100,8 @@
     "tm:followme",
     "tm:grudge",
     "tm:screech",
-    "tm:healblock"
+    "tm:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5144,
+  "nationalPokedexNumber": 5152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -141,7 +141,8 @@
     "tm:poisonjab",
     "tm:swordsdance",
     "tm:drainpunch",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -154,7 +155,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

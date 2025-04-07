@@ -127,7 +127,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -261,7 +262,8 @@
         "tutor:drillrun",
         "tutor:pinmissile",
         "tutor:rockblast",
-        "tutor:stompingtantrum"
+        "tutor:stompingtantrum",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -403,7 +405,8 @@
         "egg:defensecurl",
         "egg:knockoff",
         "egg:rollout",
-        "egg:strugglebug"
+        "egg:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

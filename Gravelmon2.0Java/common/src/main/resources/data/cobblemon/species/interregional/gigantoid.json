@@ -77,7 +77,8 @@
     "49:airslash",
     "55:earthquake",
     "61:nastyplot",
-    "67:hurricane"
+    "67:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1464,
+  "nationalPokedexNumber": 1467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.9375,

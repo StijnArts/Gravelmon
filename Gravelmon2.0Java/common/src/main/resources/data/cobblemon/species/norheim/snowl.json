@@ -72,7 +72,8 @@
     "33:confuseray",
     "38:shadowclaw",
     "42:snowscape",
-    "55:hurricane"
+    "55:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3091,
+  "nationalPokedexNumber": 3099,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

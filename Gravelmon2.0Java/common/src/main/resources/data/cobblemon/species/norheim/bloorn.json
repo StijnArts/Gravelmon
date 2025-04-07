@@ -75,7 +75,8 @@
     "53:slackoff",
     "57:thrash",
     "61:destinybond",
-    "65:trumpcard"
+    "65:trumpcard",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3194,
+  "nationalPokedexNumber": 3202,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

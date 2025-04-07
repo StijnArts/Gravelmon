@@ -76,7 +76,8 @@
     "40:psychic",
     "43:amnesia",
     "46:darkpulse",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1750,
+  "nationalPokedexNumber": 1753,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

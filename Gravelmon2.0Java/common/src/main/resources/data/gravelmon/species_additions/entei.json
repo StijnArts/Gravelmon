@@ -63,7 +63,18 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:bulkup"
+        "1:bulkup",
+        "1:leer",
+        "1:calmmind",
+        "4:payback",
+        "4:taunt",
+        "7:nightdaze",
+        "7:substitute",
+        "10:snarl",
+        "10:rest",
+        "13:knockoff",
+        "16:darkpulse",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -148,7 +159,18 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:calmmind",
+        "4:icywind",
+        "4:taunt",
+        "7:aurorabeam",
+        "7:substitute",
+        "10:freezedry",
+        "10:rest",
+        "13:icebeam",
+        "16:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -294,7 +316,8 @@
         "tm:bide",
         "tm:swift",
         "tm:takedown",
-        "tm:skullbash"
+        "tm:skullbash",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

@@ -6,11 +6,14 @@
     {
       "id": "aromian_meowth-01",
       "pokemon": "meowth aromian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -28,11 +31,14 @@
     {
       "id": "fabelian_meowth-01",
       "pokemon": "meowth fabelian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -50,11 +56,14 @@
     {
       "id": "mahalian_meowth-01",
       "pokemon": "meowth mahalian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -72,11 +81,14 @@
     {
       "id": "ferranian_meowth-01",
       "pokemon": "meowth ferranian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -94,11 +106,14 @@
     {
       "id": "ivrisian_meowth-01",
       "pokemon": "meowth ivrisian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -196,6 +211,32 @@
       }
     },
     {
+      "id": "alteran_meowth-01",
+      "pokemon": "meowth alteran",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "cefiran_fire_meowth-01",
       "pokemon": "meowth cefiran_fire",
       "presets": [
@@ -276,6 +317,32 @@
         "biomes": [
           "#cobblemon:is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_meowth-01",
+      "pokemon": "meowth ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

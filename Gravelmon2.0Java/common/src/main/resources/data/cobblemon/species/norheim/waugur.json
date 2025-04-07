@@ -80,7 +80,8 @@
     "tm:sandtomb",
     "tm:sandattack",
     "tm:venoshock",
-    "tm:mist"
+    "tm:mist",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3140,
+  "nationalPokedexNumber": 3148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

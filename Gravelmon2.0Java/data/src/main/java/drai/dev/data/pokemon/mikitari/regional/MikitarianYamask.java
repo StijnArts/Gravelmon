@@ -23,7 +23,8 @@ public class MikitarianYamask extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("The spirit of a person sacrificed in some ritual became this Pokémon. Its carrying a mask that the person was wearing in its last moments."),
-                List.of(),
+                List.of(new EvolutionEntry("platerigus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PROTECT,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -92,7 +93,11 @@ public class MikitarianYamask extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE).atNight()
+                        .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Yamask");

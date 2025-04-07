@@ -129,7 +129,8 @@
         "tm:uturn",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -275,7 +276,8 @@
         "tm:uturn",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -452,7 +454,8 @@
         "tutor:synthesis",
         "tutor:tailwind",
         "tutor:twister",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

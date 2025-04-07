@@ -79,7 +79,8 @@
     "40:hydropump",
     "44:hurricane",
     "48:thrash",
-    "52:hyperbeam"
+    "52:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4243,
+  "nationalPokedexNumber": 4251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -132,7 +132,8 @@
         "egg:icehammer",
         "egg:bubblebeam",
         "egg:icywind",
-        "egg:avalanche"
+        "egg:avalanche",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -296,7 +297,8 @@
         "tutor:seismictoss",
         "tutor:snore",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

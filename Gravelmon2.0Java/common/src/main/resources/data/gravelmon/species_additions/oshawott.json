@@ -1,0 +1,135 @@
+{
+  "target": "cobblemon:oshawott",
+  "forms": [
+    {
+      "name": "Nodorran",
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 7.199999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 58,
+        "attack": 50,
+        "defence": 43,
+        "special_attack": 66,
+        "special_defence": 51,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:lick",
+        "1:tailwhip",
+        "1:growl",
+        "3:bubblebeam",
+        "3:confuseray",
+        "6:brine",
+        "6:ominouswind",
+        "9:surf",
+        "9:nightshade",
+        "12:chillingwater",
+        "12:hex",
+        "15:hydropump",
+        "15:shadowball",
+        "18:watergun",
+        "18:lick",
+        "21:tailwhip",
+        "21:growl",
+        "24:bubblebeam",
+        "24:confuseray",
+        "27:aquatail",
+        "27:hex",
+        "30:surf",
+        "30:shadowclaw",
+        "33:waterfall",
+        "33:phantomforce",
+        "36:liquidation",
+        "36:poltergeist",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranoshawott.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranoshawott_dewott_nodorran",
+          "variant": "level_up",
+          "result": "dewott nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nodorran"
+  ]
+}

@@ -78,7 +78,8 @@
     "tm:grasswhistle",
     "tm:naturalgift",
     "tm:leaftornado",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2953,
+  "nationalPokedexNumber": 2961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

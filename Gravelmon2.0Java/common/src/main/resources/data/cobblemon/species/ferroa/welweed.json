@@ -120,7 +120,8 @@
     "tm:workup",
     "tm:magicroom",
     "tm:wonderroom",
-    "tm:grudge"
+    "tm:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1533,
+  "nationalPokedexNumber": 1536,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

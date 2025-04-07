@@ -153,7 +153,8 @@
     "tm:crunch",
     "tm:poisonfang",
     "tm:sweetscent",
-    "tm:stuffcheeks"
+    "tm:stuffcheeks",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4840,
+  "nationalPokedexNumber": 4848,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

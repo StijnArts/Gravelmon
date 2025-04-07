@@ -112,7 +112,8 @@
     "egg:infestation",
     "egg:lunge",
     "egg:poisonsting",
-    "egg:strugglebug"
+    "egg:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4643,
+  "nationalPokedexNumber": 4651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

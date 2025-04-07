@@ -121,7 +121,7 @@ public class AyreianRalts extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

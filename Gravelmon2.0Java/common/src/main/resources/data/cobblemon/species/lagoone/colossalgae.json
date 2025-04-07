@@ -79,7 +79,8 @@
     "47:nastyplot",
     "50:sunnyday",
     "54:solarbeam",
-    "57:grudge"
+    "57:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -92,7 +93,7 @@
   "weight": 3900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1365,
+  "nationalPokedexNumber": 1367,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.375,

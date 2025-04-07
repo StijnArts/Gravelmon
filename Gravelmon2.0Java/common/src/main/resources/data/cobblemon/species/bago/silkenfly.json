@@ -64,7 +64,22 @@
     "1:strugglebug",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:silverwind",
+    "4:aircutter",
+    "7:signalbeam",
+    "7:wingattack",
+    "10:infestation",
+    "10:airslash",
+    "13:uturn",
+    "13:drillpeck",
+    "16:bugbuzz",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2793,
+  "nationalPokedexNumber": 2801,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

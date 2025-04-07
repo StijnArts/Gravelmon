@@ -16,18 +16,23 @@ public class Ribbun extends drai.dev.data.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.QUICK_FEET,Ability.THICK_FAT), Ability.HUGE_POWER,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("bunnimbus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_PLAINS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ribbun");

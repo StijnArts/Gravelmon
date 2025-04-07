@@ -117,7 +117,8 @@
     "tm:sandstorm",
     "tm:dragonpulse",
     "tm:sandattack",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2455,
+  "nationalPokedexNumber": 2463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

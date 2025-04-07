@@ -135,7 +135,8 @@
     "tm:stunspore",
     "tm:laserfocus",
     "tm:watersport",
-    "tm:leafstorm"
+    "tm:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4906,
+  "nationalPokedexNumber": 4914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

@@ -79,7 +79,8 @@
         "42:energyball",
         "46:cottonspore",
         "50:sandstorm",
-        "54:destinybond"
+        "54:destinybond",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -232,7 +233,8 @@
         "tm:acidspray",
         "tm:clearsmog",
         "tm:belch",
-        "tm:strengthsap"
+        "tm:strengthsap",
+        "tm:terablast"
       ],
       "labels": [
         "aristos",

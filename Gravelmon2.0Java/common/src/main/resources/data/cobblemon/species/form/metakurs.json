@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:growl",
+    "1:screech",
+    "4:confuseray",
+    "4:irontail",
+    "7:hex",
+    "7:smartstrike",
+    "10:shadowclaw",
+    "10:ironhead",
+    "13:phantomforce",
+    "13:meteormash",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3807,
+  "nationalPokedexNumber": 3815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

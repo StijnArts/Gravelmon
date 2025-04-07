@@ -66,7 +66,28 @@
         "1:acid",
         "1:bite",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:leer",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:clearsmog",
+        "4:payback",
+        "4:taunt",
+        "4:taunt",
+        "7:sludge",
+        "7:nightdaze",
+        "7:substitute",
+        "7:substitute",
+        "10:toxicspikes",
+        "10:snarl",
+        "10:rest",
+        "10:rest",
+        "13:sludgebomb",
+        "13:knockoff",
+        "16:sludgewave",
+        "16:darkpulse",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -152,7 +173,20 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:lick"
+        "1:lick",
+        "1:leer",
+        "1:growl",
+        "4:twister",
+        "4:confuseray",
+        "7:dragonbreath",
+        "7:ominouswind",
+        "10:breakingswipe",
+        "10:nightshade",
+        "13:dragonpulse",
+        "13:hex",
+        "16:dracometeor",
+        "16:shadowball",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -323,7 +357,8 @@
         "tm:wildcharge",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

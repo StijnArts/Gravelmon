@@ -61,7 +61,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:teleport"
+    "1:teleport",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3491,
+  "nationalPokedexNumber": 3499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

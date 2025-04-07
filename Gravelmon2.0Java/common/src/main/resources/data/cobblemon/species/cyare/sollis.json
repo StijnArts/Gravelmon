@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "10:absorb",
+    "15:trailblaze",
+    "20:gigadrain",
+    "25:seedbomb",
+    "30:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5393,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

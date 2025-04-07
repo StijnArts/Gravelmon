@@ -80,7 +80,8 @@
     "44:dragonpulse",
     "51:flamethrower",
     "58:toxic",
-    "1:flareblitz"
+    "1:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3209,
+  "nationalPokedexNumber": 3217,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

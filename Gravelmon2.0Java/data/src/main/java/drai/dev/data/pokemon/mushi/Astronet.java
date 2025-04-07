@@ -66,7 +66,7 @@ public class Astronet extends drai.dev.data.pokemon.Pokemon {
                         58,
                         115),
                 List.of(Ability.RECKLESS,Ability.BLAZE), Ability.LEVITATE,
-                0, 0,
+                14, 0,
                 new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
@@ -77,9 +77,14 @@ public class Astronet extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SKY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Astronet");
 
     }

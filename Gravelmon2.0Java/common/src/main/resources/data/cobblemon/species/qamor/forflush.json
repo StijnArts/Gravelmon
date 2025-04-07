@@ -74,7 +74,8 @@
     "40:healblock",
     "43:recover",
     "47:psychoshift",
-    "56:skillswap"
+    "56:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4028,
+  "nationalPokedexNumber": 4036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

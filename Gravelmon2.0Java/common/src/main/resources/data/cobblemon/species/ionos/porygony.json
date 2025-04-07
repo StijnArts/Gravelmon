@@ -138,7 +138,8 @@
     "tutor:swift",
     "tutor:trick",
     "tutor:wonderroom",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -151,7 +152,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4815,
+  "nationalPokedexNumber": 4823,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

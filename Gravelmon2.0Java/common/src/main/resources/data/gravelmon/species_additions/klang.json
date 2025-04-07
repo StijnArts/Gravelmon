@@ -86,7 +86,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:absorb"
+        "1:absorb",
+        "1:leer",
+        "1:leer",
+        "4:charge",
+        "4:megadrain",
+        "7:shockwave",
+        "7:magicalleaf",
+        "10:discharge",
+        "10:gigadrain",
+        "13:thunderbolt",
+        "13:energyball",
+        "16:thunder",
+        "16:solarbeam",
+        "19:thundershock",
+        "19:leafage",
+        "22:leer",
+        "22:leer",
+        "25:charge",
+        "25:absorb",
+        "28:thunderpunch",
+        "28:trailblaze",
+        "31:discharge",
+        "31:gigadrain",
+        "34:wildcharge",
+        "34:seedbomb",
+        "39:supercellslam",
+        "39:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "aroma",
@@ -237,7 +264,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:wonderroom",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -389,7 +417,8 @@
         "tm:round",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

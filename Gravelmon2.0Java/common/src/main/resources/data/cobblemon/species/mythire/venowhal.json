@@ -155,7 +155,8 @@
     "tm:hornattack",
     "tm:reversal",
     "tm:revenge",
-    "tm:liquidation"
+    "tm:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3895,
+  "nationalPokedexNumber": 3903,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

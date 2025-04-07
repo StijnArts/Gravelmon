@@ -144,7 +144,8 @@
         "tm:trickroom",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -332,7 +333,8 @@
         "tutor:twister",
         "tutor:uproar",
         "tutor:waterpulse",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -529,7 +531,8 @@
         "tutor:twister",
         "tutor:uproar",
         "tutor:waterpulse",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

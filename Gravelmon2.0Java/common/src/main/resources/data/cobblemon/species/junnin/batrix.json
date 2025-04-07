@@ -76,7 +76,8 @@
     "42:flamethrower",
     "47:autotomize",
     "53:fireblast",
-    "59:metalburst"
+    "59:metalburst",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2419,
+  "nationalPokedexNumber": 2427,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

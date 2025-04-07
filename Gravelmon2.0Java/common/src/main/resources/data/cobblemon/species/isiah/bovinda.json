@@ -70,7 +70,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"
+    "57:recover",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4232,
+  "nationalPokedexNumber": 4240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

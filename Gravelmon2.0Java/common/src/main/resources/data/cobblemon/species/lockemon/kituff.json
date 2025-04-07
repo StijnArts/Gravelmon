@@ -82,7 +82,8 @@
     "egg:crosschop",
     "egg:detect",
     "egg:highjumpkick",
-    "egg:howl"
+    "egg:howl",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3414,
+  "nationalPokedexNumber": 3422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

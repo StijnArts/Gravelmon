@@ -145,7 +145,8 @@
     "egg:healpulse",
     "egg:magnetrise",
     "egg:shadowsneak",
-    "egg:synthesis"
+    "egg:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

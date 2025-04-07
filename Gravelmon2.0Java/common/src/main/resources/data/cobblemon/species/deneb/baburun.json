@@ -102,7 +102,8 @@
     "egg:flail",
     "egg:muddywater",
     "egg:captivate",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4646,
+  "nationalPokedexNumber": 4654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -158,7 +158,8 @@
     "egg:fakeout",
     "egg:nightslash",
     "egg:punishment",
-    "egg:superpower"
+    "egg:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

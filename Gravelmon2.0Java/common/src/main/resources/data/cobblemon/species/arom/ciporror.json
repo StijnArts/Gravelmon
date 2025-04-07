@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:lick"
+    "1:lick",
+    "1:leer",
+    "1:growl",
+    "4:absorb",
+    "4:confuseray",
+    "7:trailblaze",
+    "7:hex",
+    "10:gigadrain",
+    "10:shadowclaw",
+    "13:seedbomb",
+    "13:phantomforce",
+    "16:leafblade",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5728,
+  "nationalPokedexNumber": 5736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

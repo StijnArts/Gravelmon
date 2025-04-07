@@ -140,7 +140,8 @@
     "tm:counter",
     "tm:smog",
     "tm:smokescreen",
-    "tm:firecracker"
+    "tm:firecracker",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1554,
+  "nationalPokedexNumber": 1557,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

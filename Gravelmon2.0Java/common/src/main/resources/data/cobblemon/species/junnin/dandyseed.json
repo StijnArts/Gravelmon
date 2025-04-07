@@ -108,7 +108,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

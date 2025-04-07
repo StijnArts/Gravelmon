@@ -16,14 +16,15 @@ public class Gatar extends drai.dev.data.pokemon.Pokemon {
                         50,
                         65),
                 List.of(Ability.SWIFT_SWIM,Ability.MERCILESS), Ability.FILTHYSURGE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                8, 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("- Water Sport Water - Mud Sport Ground - Mud-SlapSTAB Ground - Muddy Water Water - Mud SlideSTAB Ground - Mud BombSTAB Ground - Mud ShotSTAB Ground - Poison TailSTAB Poison - Poison FangSTAB Poison - Gunk ShotSTAB Poison - Stomping TantrumSTAB Ground - High HorsepowerSTAB Ground - EarthquakeSTAB Ground - Oil Fire Fire - Toxic Poison - Gastro Acid Poison - Venom Drench Poison - Toxic Spikes Poison - Filthy Terrain Poison - AcidSTAB Poison - Acid SpraySTAB Poison - Clear SmogSTAB Poison - SludgeSTAB Poison - Cross PoisonSTAB Poison - Toxic FumesSTAB Poison - Corrosive BiteSTAB Poison - Sludge BombSTAB Poison - Sludge WaveSTAB Poison - BelchSTAB Poison - Sand Attack Ground - FissureSTAB Ground - Spikes Ground - BulldozeSTAB Ground - LandslideSTAB Ground - DigSTAB Ground - Sand ShotSTAB Ground - Rain Dance Water - Flip Turn Water - Dive Water - Surf Water - Liquidation Water - Aqua Tail Water - Fire Fang Fire - Ice Fang Ice - Thunder Fang Electric - Psychic Fangs Psychic - Dragon Fang Dragon - Roar Normal - Berserk Fury Dragon - Scale Shot Dragon - Dragon Tail Dragon - Breaking Swipe Dragon - Dragon Claw Dragon - Dragon Rush Dragon - Outrage Dragon - Dragon Dance Dragon - Stealth Rock Rock"),
-                List.of(),
+                List.of(new EvolutionEntry("oiligator", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CROSS_POISON,1),
                         new MoveLearnSetEntry(Move.CORROSIVEBITE,1),
@@ -84,7 +85,11 @@ public class Gatar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLIP_TURN,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gatar");

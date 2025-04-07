@@ -64,7 +64,23 @@
     "1:leafage",
     "1:metalclaw",
     "1:grassyglide",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:leer",
+    "1:screech",
+    "1:quickattack",
+    "1:quickattack",
+    "4:absorb",
+    "4:irontail",
+    "4:swordsdance",
+    "4:swordsdance",
+    "7:trailblaze",
+    "7:smartstrike",
+    "10:gigadrain",
+    "10:ironhead",
+    "13:seedbomb",
+    "13:meteormash",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -80,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2611,
+  "nationalPokedexNumber": 2619,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

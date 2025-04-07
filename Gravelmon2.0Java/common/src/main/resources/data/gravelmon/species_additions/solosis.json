@@ -143,7 +143,8 @@
         "egg:trick",
         "egg:storedpower",
         "egg:bubblebeam",
-        "egg:hypnosis"
+        "egg:hypnosis",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -324,7 +325,8 @@
         "egg:haze",
         "egg:gastroacid",
         "egg:dig",
-        "egg:leechlife"
+        "egg:leechlife",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -513,7 +515,8 @@
         "tutor:synthesis",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -650,7 +653,8 @@
         "tm:rest",
         "tm:attract",
         "egg:growth",
-        "egg:seedbomb"
+        "egg:seedbomb",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",
@@ -812,7 +816,8 @@
         "tm:psychup",
         "tm:endeavor",
         "tm:futuresight",
-        "tm:expandingforce"
+        "tm:expandingforce",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",
@@ -974,7 +979,8 @@
         "tm:psychup",
         "tm:endeavor",
         "tm:futuresight",
-        "tm:expandingforce"
+        "tm:expandingforce",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

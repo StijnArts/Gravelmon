@@ -83,7 +83,7 @@ public class HavaiianGastly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POLTERGEIST,"tm")      ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -83,7 +83,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Shadowl());
         addNewPokemon(new Shamandor());
         addNewPokemon(new Shaodrake());
-        addNewPokemon(new Rockid());
+        addNewPokemon(new Rockid()); //renamed from rockid
         addNewPokemon(new Craggoat());
         addNewPokemon(new Goattain());
         addNewPokemon(new Shockitty());

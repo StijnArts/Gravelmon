@@ -73,7 +73,8 @@
     "31:coaching",
     "36:submission",
     "40:ironhead",
-    "43:superpower"
+    "43:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4387,
+  "nationalPokedexNumber": 4395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

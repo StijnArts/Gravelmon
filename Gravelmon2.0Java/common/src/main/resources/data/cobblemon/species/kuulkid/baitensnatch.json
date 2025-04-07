@@ -63,7 +63,23 @@
     "1:leafage",
     "1:bite",
     "1:grassyglide",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:absorb",
+    "4:payback",
+    "4:swordsdance",
+    "7:trailblaze",
+    "7:nightslash",
+    "10:gigadrain",
+    "10:crunch",
+    "13:seedbomb",
+    "13:knockoff",
+    "16:leafblade",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -76,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2208,
+  "nationalPokedexNumber": 2216,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

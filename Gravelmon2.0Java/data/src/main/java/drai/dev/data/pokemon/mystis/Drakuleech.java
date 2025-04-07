@@ -16,20 +16,26 @@ public class Drakuleech extends drai.dev.data.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.POWERLEECH,Ability.NOCTURNAL), Ability.UNDERLING,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 78, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("It lives in dark caves, feasting on the lifeforce of unsuspecting passersby to grow stronger. Those it feasts on are reported to become very sick, looking almost lifeless."),
-                List.of(),
+                List.of(new EvolutionEntry("nosfernal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Drakuleech");
 
     }

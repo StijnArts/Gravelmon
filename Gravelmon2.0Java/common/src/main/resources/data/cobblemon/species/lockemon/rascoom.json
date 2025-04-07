@@ -78,7 +78,8 @@
     "44:flareblitz",
     "48:playrough",
     "egg:thunderfang",
-    "egg:icefang"
+    "egg:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -91,7 +92,7 @@
   "weight": 1231,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3415,
+  "nationalPokedexNumber": 3423,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

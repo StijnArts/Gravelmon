@@ -80,7 +80,8 @@
     "tm:shadowball",
     "tm:psychic",
     "tm:darkpulse",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5103,
+  "nationalPokedexNumber": 5111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

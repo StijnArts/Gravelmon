@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:bite"
+    "1:bite",
+    "1:growl",
+    "1:leer",
+    "4:sandattack",
+    "4:payback",
+    "7:mudbomb",
+    "7:nightslash",
+    "10:bulldoze",
+    "10:crunch",
+    "13:dig",
+    "13:knockoff",
+    "16:earthquake",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2563,
+  "nationalPokedexNumber": 2571,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

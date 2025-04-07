@@ -63,7 +63,8 @@
     "1:pound",
     "6:powdersnow",
     "10:iceball",
-    "18:rollout"
+    "18:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -76,7 +77,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4697,
+  "nationalPokedexNumber": 4705,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -121,7 +121,8 @@
     "egg:skillswap",
     "egg:snatch",
     "egg:sunnyday",
-    "egg:thief"
+    "egg:thief",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4540,
+  "nationalPokedexNumber": 4548,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

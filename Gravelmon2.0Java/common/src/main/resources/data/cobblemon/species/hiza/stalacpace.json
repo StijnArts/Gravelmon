@@ -76,7 +76,8 @@
     "44:doubleedge",
     "49:suckerpunch",
     "53:shellsmash",
-    "59:headsmash"
+    "59:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2354,
+  "nationalPokedexNumber": 2362,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -96,10 +96,15 @@ public class Granebee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.HONEY_TREE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Granebee");
+        setCanFly(true);
 
     }
 

@@ -138,7 +138,8 @@
     "tm:zenheadbutt",
     "tm:raindance",
     "tm:waterfall",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2447,
+  "nationalPokedexNumber": 2455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

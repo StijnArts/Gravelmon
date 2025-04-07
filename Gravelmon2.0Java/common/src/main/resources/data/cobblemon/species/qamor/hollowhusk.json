@@ -76,7 +76,8 @@
     "43:nightslash",
     "48:metalsound",
     "50:phantomforce",
-    "54:guillotine"
+    "54:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4045,
+  "nationalPokedexNumber": 4053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

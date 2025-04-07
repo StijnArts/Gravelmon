@@ -127,7 +127,8 @@
     "egg:groomguard",
     "egg:heavyslam",
     "egg:ironhead",
-    "egg:slackoff"
+    "egg:slackoff",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

@@ -39,7 +39,7 @@ public class Maglut extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WRING_OUT,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

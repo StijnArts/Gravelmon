@@ -43,7 +43,7 @@ public class Pleech extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 8, 27, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 8, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

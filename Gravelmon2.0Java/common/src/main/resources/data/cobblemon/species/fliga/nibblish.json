@@ -75,7 +75,8 @@
     "42:thrash",
     "46:glare",
     "50:swordsdance",
-    "55:agility"
+    "55:agility",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3923,
+  "nationalPokedexNumber": 3931,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

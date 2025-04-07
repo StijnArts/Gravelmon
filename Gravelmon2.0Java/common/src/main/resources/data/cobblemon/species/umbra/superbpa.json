@@ -64,7 +64,8 @@
     "7:harden",
     "tutor:electroweb",
     "tutor:bugbite",
-    "tutor:irondefense"
+    "tutor:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

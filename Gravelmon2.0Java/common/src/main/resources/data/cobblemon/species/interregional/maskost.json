@@ -72,7 +72,8 @@
     "34:roleplay",
     "38:suckerpunch",
     "42:trick",
-    "48:phantomforce"
+    "48:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1419,
+  "nationalPokedexNumber": 1422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -77,7 +77,8 @@
     "tm:copycat",
     "tm:lastresort",
     "tm:thunderfang",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4306,
+  "nationalPokedexNumber": 4314,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

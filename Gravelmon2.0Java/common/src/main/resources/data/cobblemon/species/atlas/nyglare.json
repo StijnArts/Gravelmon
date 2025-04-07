@@ -125,7 +125,8 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:xscissor",
-    "tm:ancientpower"
+    "tm:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -140,7 +141,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5087,
+  "nationalPokedexNumber": 5095,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

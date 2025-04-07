@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "10:icywind",
+    "10:confuseray",
+    "15:aurorabeam",
+    "15:ominouswind",
+    "20:freezedry",
+    "20:nightshade",
+    "25:icebeam",
+    "25:hex",
+    "30:blizzard",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5398,
+  "nationalPokedexNumber": 5406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

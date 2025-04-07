@@ -74,7 +74,8 @@
     "32:crunch",
     "36:agility",
     "40:liquidation",
-    "44:takedown"
+    "44:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1447,
+  "nationalPokedexNumber": 1450,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

@@ -23,7 +23,8 @@ public class NodorranBonsly extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Bonsly is a good mimic, making it often mistaken for a real rooted carrot. although it can easily be recognized as a fake due to it's curling 'leaves'."),
-                List.of(),
+                List.of(new EvolutionEntry("nodorransudowoodo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COPYCAT,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -39,7 +40,11 @@ public class NodorranBonsly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAUNT,40)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(5).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.VERY_COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bonsly");

@@ -168,7 +168,8 @@
     "tm:metalsound",
     "tm:quash",
     "tm:sludge",
-    "tm:snore"
+    "tm:snore",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -198,7 +199,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3342,
+  "nationalPokedexNumber": 3350,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

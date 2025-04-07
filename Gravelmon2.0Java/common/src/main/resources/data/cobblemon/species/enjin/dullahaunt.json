@@ -76,7 +76,8 @@
     "62:inferno",
     "tm:hypnosis",
     "tm:nightmare",
-    "tm:ominouswind"
+    "tm:ominouswind",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4702,
+  "nationalPokedexNumber": 4710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

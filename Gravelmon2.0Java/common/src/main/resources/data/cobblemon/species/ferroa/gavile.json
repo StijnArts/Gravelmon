@@ -133,7 +133,8 @@
     "tm:toxic",
     "tm:suckerpunch",
     "tm:drainlife",
-    "tm:phantomforce"
+    "tm:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1519,
+  "nationalPokedexNumber": 1522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

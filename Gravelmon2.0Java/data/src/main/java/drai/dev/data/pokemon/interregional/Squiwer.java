@@ -57,7 +57,7 @@ public class Squiwer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLEAR_SMOG,"tm")                         ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 7, 32, 6, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 7, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

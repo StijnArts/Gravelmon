@@ -74,7 +74,8 @@
     "34:yawn",
     "36:takedown",
     "40:suckerpunch",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4251,
+  "nationalPokedexNumber": 4259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

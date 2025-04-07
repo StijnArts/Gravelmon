@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:quickattack"
+    "1:quickattack",
+    "1:babydolleyes",
+    "1:swordsdance",
+    "4:drainingkiss",
+    "7:playnice",
+    "10:dazzlinggleam",
+    "13:playrough",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "fra",
@@ -75,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2921,
+  "nationalPokedexNumber": 2929,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

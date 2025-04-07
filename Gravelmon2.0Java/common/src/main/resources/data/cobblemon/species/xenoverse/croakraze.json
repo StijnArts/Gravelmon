@@ -122,7 +122,8 @@
     "egg:eruption",
     "tutor:blastburn",
     "tutor:scorchedashes",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "sage",
@@ -137,7 +138,7 @@
   "weight": 477,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1835,
+  "nationalPokedexNumber": 1838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

@@ -141,7 +141,8 @@
         "egg:bodyslam",
         "egg:steelroller",
         "egg:frostbite",
-        "egg:stealthrock"
+        "egg:stealthrock",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

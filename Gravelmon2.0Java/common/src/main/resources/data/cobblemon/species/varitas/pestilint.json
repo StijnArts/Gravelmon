@@ -71,7 +71,8 @@
     "37:uproar",
     "45:pollenpuff",
     "52:cottonspore",
-    "60:cottonguard"
+    "60:cottonguard",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1939,
+  "nationalPokedexNumber": 1942,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

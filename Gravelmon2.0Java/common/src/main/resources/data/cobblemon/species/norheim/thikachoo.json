@@ -74,7 +74,8 @@
     "50:blizzard",
     "53:snowscape",
     "58:extremespeed",
-    "64:nastyplot"
+    "64:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3108,
+  "nationalPokedexNumber": 3116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

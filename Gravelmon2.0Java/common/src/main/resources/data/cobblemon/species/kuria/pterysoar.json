@@ -74,7 +74,8 @@
     "39:painsplit",
     "46:stealthrock",
     "52:skydrop",
-    "61:stoneedge"
+    "61:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4213,
+  "nationalPokedexNumber": 4221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

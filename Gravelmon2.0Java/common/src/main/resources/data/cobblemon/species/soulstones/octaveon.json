@@ -134,7 +134,8 @@
     "tm:wish",
     "tm:wonderroom",
     "tm:workup",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "soulstones",
@@ -147,7 +148,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3237,
+  "nationalPokedexNumber": 3245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

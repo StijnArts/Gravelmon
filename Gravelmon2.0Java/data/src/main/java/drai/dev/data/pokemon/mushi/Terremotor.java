@@ -16,7 +16,7 @@ public class Terremotor extends drai.dev.data.pokemon.Pokemon {
                         57,
                         70),
                 List.of(Ability.HEATPROOF,Ability.MOLD_BREAKER), Ability.EARTH_EATER,
-                0, 0,
+                26, 0,
                 new Stats(0,2,2,0,0,0), 50,
                 0.5,
                 178, ExperienceGroup.MEDIUM_SLOW,
@@ -27,7 +27,11 @@ public class Terremotor extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(48).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_CAVE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Terremotor");

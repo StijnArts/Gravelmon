@@ -76,7 +76,8 @@
     "51:stockpile",
     "51:swallow",
     "56:ironhead",
-    "66:guillotine"
+    "66:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1761,
+  "nationalPokedexNumber": 1764,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

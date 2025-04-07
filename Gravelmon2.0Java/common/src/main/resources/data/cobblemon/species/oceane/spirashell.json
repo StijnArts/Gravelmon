@@ -67,7 +67,8 @@
     "10:withdraw",
     "15:protect",
     "tm:acidarmor",
-    "tm:shellsmash"
+    "tm:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1877,
+  "nationalPokedexNumber": 1880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

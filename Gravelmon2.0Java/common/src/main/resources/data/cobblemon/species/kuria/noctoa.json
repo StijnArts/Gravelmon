@@ -79,7 +79,8 @@
     "33:fling",
     "38:flail",
     "43:bellydrum",
-    "48:doubleedge"
+    "48:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -94,7 +95,7 @@
   "weight": 92,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4122,
+  "nationalPokedexNumber": 4130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

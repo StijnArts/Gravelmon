@@ -102,7 +102,8 @@
     "tm:spitup",
     "tm:swallow",
     "tm:helpinghand",
-    "tm:naturalgift"
+    "tm:naturalgift",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2410,
+  "nationalPokedexNumber": 2418,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

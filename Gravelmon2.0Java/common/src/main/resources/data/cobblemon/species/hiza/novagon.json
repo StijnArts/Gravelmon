@@ -74,7 +74,8 @@
     "48:dragonclaw",
     "54:flashcannon",
     "60:metalburst",
-    "66:hyperbeam"
+    "66:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2405,
+  "nationalPokedexNumber": 2413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

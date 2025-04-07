@@ -136,7 +136,8 @@
         "egg:metronome",
         "egg:explosion",
         "egg:recycle",
-        "egg:decorate"
+        "egg:decorate",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -252,7 +253,8 @@
         "egg:curse",
         "egg:endure",
         "egg:irontail",
-        "egg:poisontail"
+        "egg:poisontail",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -418,7 +420,8 @@
         "tutor:stealthrock",
         "tutor:waterpulse",
         "tutor:whirlpool",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -561,7 +564,8 @@
         "tm:rocksmash",
         "egg:dragonpulse",
         "egg:aurasphere",
-        "egg:hydropump"
+        "egg:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

@@ -67,7 +67,8 @@
     "1:earthquake",
     "1:stomp",
     "1:bulldoze",
-    "1:sandstorm"
+    "1:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3269,
+  "nationalPokedexNumber": 3277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

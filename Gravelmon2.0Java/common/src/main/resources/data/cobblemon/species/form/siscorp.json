@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:poisonsting"
+    "1:poisonsting",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:venoshock",
+    "7:aquatail",
+    "7:poisontail",
+    "10:surf",
+    "10:toxicspikes",
+    "13:waterfall",
+    "13:sludgebomb",
+    "16:liquidation",
+    "16:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3816,
+  "nationalPokedexNumber": 3824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

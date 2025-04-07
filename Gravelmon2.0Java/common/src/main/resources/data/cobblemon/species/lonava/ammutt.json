@@ -98,7 +98,8 @@
     "tm:confide",
     "tm:helpinghand",
     "tm:surf",
-    "tm:facade"
+    "tm:facade",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3358,
+  "nationalPokedexNumber": 3366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

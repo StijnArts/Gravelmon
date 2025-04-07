@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:gust"
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "4:firespin",
+    "4:aircutter",
+    "7:flamecharge",
+    "7:wingattack",
+    "10:flameburst",
+    "10:airslash",
+    "13:flamethrower",
+    "13:drillpeck",
+    "16:fireblast",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -87,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2843,
+  "nationalPokedexNumber": 2851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

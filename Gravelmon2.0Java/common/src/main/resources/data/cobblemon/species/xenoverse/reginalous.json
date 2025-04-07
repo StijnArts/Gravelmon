@@ -95,7 +95,8 @@
     "tutor:painsplit",
     "tutor:roleplay",
     "tutor:sleeptalk",
-    "tutor:trick"
+    "tutor:trick",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -108,7 +109,7 @@
   "weight": 3,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1842,
+  "nationalPokedexNumber": 1845,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -75,7 +75,8 @@
     "49:hydropump",
     "54:metalburst",
     "57:phantomforce",
-    "61:wavecrash"
+    "61:wavecrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2342,
+  "nationalPokedexNumber": 2350,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

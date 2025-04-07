@@ -73,7 +73,8 @@
     "38:screech",
     "43:raindance",
     "49:recover",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2376,
+  "nationalPokedexNumber": 2384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

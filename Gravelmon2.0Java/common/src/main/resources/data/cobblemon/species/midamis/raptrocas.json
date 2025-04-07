@@ -74,7 +74,8 @@
     "33:poweruppunch",
     "36:megapunch",
     "40:stoneedge",
-    "44:focuspunch"
+    "44:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4394,
+  "nationalPokedexNumber": 4402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

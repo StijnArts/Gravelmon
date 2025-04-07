@@ -126,7 +126,8 @@
         "egg:smackdown",
         "egg:sandstorm",
         "egg:irondefense",
-        "egg:powergem"
+        "egg:powergem",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

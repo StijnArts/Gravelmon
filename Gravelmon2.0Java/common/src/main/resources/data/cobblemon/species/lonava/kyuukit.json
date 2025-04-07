@@ -73,7 +73,8 @@
     "35:lightscreen",
     "40:strangesteam",
     "44:weatherball",
-    "55:morningsun"
+    "55:morningsun",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3323,
+  "nationalPokedexNumber": 3331,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

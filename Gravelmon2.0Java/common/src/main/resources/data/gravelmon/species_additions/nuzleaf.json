@@ -127,7 +127,8 @@
         "tm:wildcharge",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -296,7 +297,8 @@
         "tutor:snore",
         "tutor:tailwind",
         "tutor:thunderpunch",
-        "tutor:twister"
+        "tutor:twister",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

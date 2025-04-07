@@ -162,7 +162,8 @@
     "tm:bide",
     "tm:crunch",
     "tm:dragonbreath",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -177,7 +178,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4871,
+  "nationalPokedexNumber": 4879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

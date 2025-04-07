@@ -75,7 +75,8 @@
     "40:healblock",
     "43:recover",
     "47:psychoshift",
-    "56:skillswap"
+    "56:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4030,
+  "nationalPokedexNumber": 4038,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

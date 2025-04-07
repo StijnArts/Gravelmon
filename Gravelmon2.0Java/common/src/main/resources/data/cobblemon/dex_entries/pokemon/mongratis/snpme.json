@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:snpme",
+  "speciesId": "cobblemon:snpme",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

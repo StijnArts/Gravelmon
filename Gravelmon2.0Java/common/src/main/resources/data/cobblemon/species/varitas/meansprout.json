@@ -78,7 +78,8 @@
     "68:beatup",
     "76:takedown",
     "85:moonlight",
-    "92:nightslash"
+    "92:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1920,
+  "nationalPokedexNumber": 1923,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

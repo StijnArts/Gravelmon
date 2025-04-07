@@ -1,5 +1,21 @@
 {
   "target": "cobblemon:croagunk",
+  "evolutions": [
+    {
+      "id": "croagunk_staticroak",
+      "variant": "level_up",
+      "result": "staticroak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "thunderpunch"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Epoch",
@@ -101,6 +117,7 @@
         "tm:gigadrain",
         "tm:gunkshot",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -155,7 +172,8 @@
         "egg:bulletpunch",
         "egg:quickguard",
         "egg:lashout",
-        "egg:suckerpunch"
+        "egg:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -334,7 +352,8 @@
         "tutor:stealthrock",
         "tutor:suckerpunch",
         "tutor:thunderpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

@@ -158,7 +158,8 @@
     "tm:painsplit",
     "tm:recover",
     "tm:risingvoltage",
-    "tm:cosmicpower"
+    "tm:cosmicpower",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -173,7 +174,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3360,
+  "nationalPokedexNumber": 3368,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

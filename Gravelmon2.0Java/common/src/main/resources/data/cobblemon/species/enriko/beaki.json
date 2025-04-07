@@ -77,7 +77,8 @@
     "47:bounce",
     "53:boomburst",
     "57:overheat",
-    "60:aeroblast"
+    "60:aeroblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1716,
+  "nationalPokedexNumber": 1719,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

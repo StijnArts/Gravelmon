@@ -69,7 +69,8 @@
     "1:needlearm",
     "1:pursuit",
     "1:obstruct",
-    "1:crunch"
+    "1:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -84,7 +85,7 @@
   "weight": 1324,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3274,
+  "nationalPokedexNumber": 3282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

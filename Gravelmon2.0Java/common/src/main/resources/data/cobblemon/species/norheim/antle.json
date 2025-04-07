@@ -70,7 +70,8 @@
     "34:signalbeam",
     "38:flamethrower",
     "44:quiverdance",
-    "50:eruption"
+    "50:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3127,
+  "nationalPokedexNumber": 3135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

@@ -114,7 +114,8 @@
     "tm:drainlife",
     "tm:beatup",
     "tm:drillpeck",
-    "tm:flatter"
+    "tm:flatter",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3846,
+  "nationalPokedexNumber": 3854,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

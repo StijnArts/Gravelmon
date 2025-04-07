@@ -136,7 +136,8 @@
         "egg:endeavor",
         "egg:superfang",
         "egg:roar",
-        "egg:nobleroar"
+        "egg:nobleroar",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -116,7 +116,8 @@
     "tm:freezedry",
     "tm:shadowball",
     "tm:darkpulse",
-    "tm:swordsdance"
+    "tm:swordsdance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2288,
+  "nationalPokedexNumber": 2296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

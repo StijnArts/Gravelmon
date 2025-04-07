@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:lick"
+    "1:lick",
+    "1:stringshot",
+    "1:growl",
+    "4:leechlife",
+    "4:confuseray",
+    "7:lunge",
+    "7:hex",
+    "10:xscissor",
+    "10:shadowclaw",
+    "13:uturn",
+    "13:phantomforce",
+    "16:megahorn",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2559,
+  "nationalPokedexNumber": 2567,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

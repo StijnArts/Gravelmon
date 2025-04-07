@@ -34,7 +34,7 @@ public class Mimish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIMIC,32)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 20, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 20, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

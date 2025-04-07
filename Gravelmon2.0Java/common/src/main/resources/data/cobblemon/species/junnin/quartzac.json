@@ -71,7 +71,8 @@
     "42:nightslash",
     "46:focusenergy",
     "50:stoneedge",
-    "56:doubleedge"
+    "56:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

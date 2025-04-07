@@ -119,7 +119,8 @@
     "egg:irondefense",
     "egg:reversal",
     "egg:rockslide",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

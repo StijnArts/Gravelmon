@@ -126,7 +126,8 @@
     "tm:selfdestruct",
     "tm:pinmissile",
     "tm:inferno",
-    "tm:razorleaf"
+    "tm:razorleaf",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4877,
+  "nationalPokedexNumber": 4885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

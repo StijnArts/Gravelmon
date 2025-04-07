@@ -74,7 +74,8 @@
     "1:agility",
     "tm:axekick",
     "tm:pounce",
-    "tm:megakick"
+    "tm:megakick",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3885,
+  "nationalPokedexNumber": 3893,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

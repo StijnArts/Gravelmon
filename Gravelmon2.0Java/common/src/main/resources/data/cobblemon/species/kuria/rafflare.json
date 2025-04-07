@@ -73,7 +73,8 @@
     "40:dragonpulse",
     "45:flamethrower",
     "50:toxic",
-    "55:endeavor"
+    "55:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 1761,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4200,
+  "nationalPokedexNumber": 4208,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

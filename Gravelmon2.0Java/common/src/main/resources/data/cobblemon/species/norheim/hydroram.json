@@ -78,7 +78,8 @@
     "36:leechlife",
     "42:irondefense",
     "45:poisonfang",
-    "48:hydropump"
+    "48:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3095,
+  "nationalPokedexNumber": 3103,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

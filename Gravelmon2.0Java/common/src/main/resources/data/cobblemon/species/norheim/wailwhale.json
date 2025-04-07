@@ -74,7 +74,8 @@
     "36:whirlpool",
     "41:hydropump",
     "44:destinybond",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3167,
+  "nationalPokedexNumber": 3175,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

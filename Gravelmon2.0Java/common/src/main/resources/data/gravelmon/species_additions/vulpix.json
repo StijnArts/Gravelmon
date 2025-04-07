@@ -1,5 +1,27 @@
 {
   "target": "cobblemon:vulpix",
+  "evolutions": [
+    {
+      "id": "vulpix_ishirianninetales",
+      "variant": "item_interact",
+      "result": "ishirianninetales",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "forms": [
     {
       "name": "Forman",
@@ -67,7 +89,22 @@
         "1:lick",
         "1:ember",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:confuseray",
+        "4:firespin",
+        "7:ominouswind",
+        "7:flamecharge",
+        "10:nightshade",
+        "10:flameburst",
+        "13:hex",
+        "13:flamethrower",
+        "16:shadowball",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -229,7 +266,8 @@
         "egg:memento",
         "egg:babydolleyes",
         "egg:sweetkiss",
-        "egg:moonlight"
+        "egg:moonlight",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -399,7 +437,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:willowisp",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -564,7 +603,8 @@
         "tm:wavecrash",
         "tm:weatherball",
         "tm:whirlpool",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

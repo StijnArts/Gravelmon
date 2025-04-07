@@ -77,7 +77,8 @@
     "39:swordsdance",
     "42:outrage",
     "45:guillotine",
-    "48:gigaimpact"
+    "48:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1741,
+  "nationalPokedexNumber": 1744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

@@ -29,7 +29,7 @@ public class Marshun extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TELEPORT,1)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 38, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 38, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

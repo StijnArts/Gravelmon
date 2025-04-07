@@ -124,7 +124,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -139,7 +140,7 @@
   "weight": 140,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3241,
+  "nationalPokedexNumber": 3249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

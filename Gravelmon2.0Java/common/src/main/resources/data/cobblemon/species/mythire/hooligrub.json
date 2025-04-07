@@ -144,7 +144,8 @@
     "tm:foulplay",
     "tm:workup",
     "tm:throatchop",
-    "tm:dragonrage"
+    "tm:dragonrage",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3878,
+  "nationalPokedexNumber": 3886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

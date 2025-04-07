@@ -74,7 +74,8 @@
     "36:amnesia",
     "43:bodyslam",
     "47:recover",
-    "54:flamethrower"
+    "54:flamethrower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3143,
+  "nationalPokedexNumber": 3151,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

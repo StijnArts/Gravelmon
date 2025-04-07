@@ -22,7 +22,7 @@ public class ExcelExporter {
         String desktopPath = Paths.get(userHome, "Desktop").toString();
         try (FileOutputStream fileOut = new FileOutputStream(desktopPath + "\\Google Drive\\"+documentName+".xlsx")) {
             Workbook workbook = new XSSFWorkbook();
-
+            var mutableInt = new MutableInt(0);
             String modeledPokemonSheetName = "Modeled Pokemon";
             Sheet modeledPokemonSheet = workbook.createSheet(modeledPokemonSheetName);
             var sortedGames = new ArrayList<>(games).stream().sorted(Comparator.comparing(Game::getCleanName)).toList();
@@ -39,14 +39,14 @@ public class ExcelExporter {
                 var sheetName = StringUtils.capitalize(game.getName());
                 // Create a new sheet for the game
                 Sheet sheet = workbook.createSheet(sheetName);
-                createSheet(sheet, workbook, sheetName, pokemonList);
+                createSheet(sheet, workbook, sheetName, pokemonList, mutableInt);
 
                 pokemonList.forEach(pokemon->{
                     if(pokemon.isModeled()) modeledPokemon.add(pokemon);
                 });
             }
 
-            createSheet(modeledPokemonSheet, workbook, modeledPokemonSheetName, modeledPokemon);
+            createSheet(modeledPokemonSheet, workbook, modeledPokemonSheetName, modeledPokemon, mutableInt);
 
             // Save the Excel file
             workbook.write(fileOut);
@@ -58,7 +58,7 @@ public class ExcelExporter {
         System.out.println("Excel file created: "+documentName+".xlsx");
     }
 
-    private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<Pokemon> pokemonList) {
+    private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<Pokemon> pokemonList, MutableInt mutableInt) {
         // Create header row
         Row header = sheet.createRow(0);
         String[] headers = {"Name", "Form", "Image      ", "Stats", "Type(s)", "Level Up Moves", "TM Moves", "Tutor Moves",
@@ -78,6 +78,7 @@ public class ExcelExporter {
         wrapTextStyle.setWrapText(true);
         // Fill in Pokémon data
         int rowNum = 1;
+
         for (int i = 0; i < pokemonList.size(); i++) {
             var pokemon = pokemonList.get(i);
             var cellCount = new MutableInt(0);
@@ -123,8 +124,16 @@ public class ExcelExporter {
             // Spawn Conditions (handling null values)
             createNextCell(row, cellCount).setCellValue(pokemon.getSpawnData().isEmpty() ? "" :
                     String.join(",\n", pokemon.getSpawnData().stream().map(PokemonSpawnData::toString).toList()));
+            if(!sheetName.equals("Modeled Pokemon")){
+                mutableInt.increment();
+            }
         }
         // Create table based on filled data
+        if(sheetName.equals("Modeled Pokemon")){
+            Row row = sheet.createRow(++rowNum);
+            createNextCell(row, new MutableInt()).setCellValue("Total Number of Pokemon:");
+            createNextCell(row, new MutableInt()).setCellValue(mutableInt.getValue());
+        }
         int lastRowNum = sheet.getLastRowNum(); // Get the last row
         AreaReference areaRef = new AreaReference("A1:K" + (lastRowNum + 1), workbook.getSpreadsheetVersion()); // Table range
         XSSFSheet xssfSheet = (XSSFSheet) sheet;

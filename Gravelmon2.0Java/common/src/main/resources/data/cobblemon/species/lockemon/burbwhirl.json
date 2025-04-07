@@ -78,7 +78,8 @@
     "egg:powersplit",
     "egg:spitup",
     "egg:stickyweb",
-    "egg:stockpile"
+    "egg:stockpile",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3375,
+  "nationalPokedexNumber": 3383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

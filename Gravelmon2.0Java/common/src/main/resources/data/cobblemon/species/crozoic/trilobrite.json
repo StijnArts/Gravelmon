@@ -72,7 +72,8 @@
     "1:rollout",
     "1:defensecurl",
     "1:flash",
-    "1:signalbeam"
+    "1:signalbeam",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3253,
+  "nationalPokedexNumber": 3261,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

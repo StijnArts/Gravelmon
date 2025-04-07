@@ -11,8 +11,8 @@ public class Gireamer extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC, Type.NORMAL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -35,11 +35,17 @@ public class Gireamer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(38).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.WILD).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gireamer");
-
+        addAdditionalEvolution("girafarig", new EvolutionEntry("gireamer", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"dawn"))));
     }
 
 

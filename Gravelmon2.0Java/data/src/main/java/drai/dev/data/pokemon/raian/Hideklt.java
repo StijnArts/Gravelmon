@@ -28,7 +28,7 @@ public class Hideklt extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 37, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 37, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GLACIAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

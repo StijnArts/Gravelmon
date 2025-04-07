@@ -74,7 +74,8 @@
     "50:megahorn",
     "58:ironhead",
     "66:earthpower",
-    "72:stoneedge"
+    "72:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4218,
+  "nationalPokedexNumber": 4226,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -71,7 +71,8 @@
     "41:metalburst",
     "48:toxic",
     "54:memento",
-    "66:sludgewave"
+    "66:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3159,
+  "nationalPokedexNumber": 3167,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -63,7 +63,30 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "1:leer",
+    "10:megadrain",
+    "10:charge",
+    "15:magicalleaf",
+    "15:shockwave",
+    "20:gigadrain",
+    "20:discharge",
+    "25:energyball",
+    "25:thunderbolt",
+    "30:solarbeam",
+    "30:thunder",
+    "35:leafage",
+    "35:thundershock",
+    "40:leer",
+    "40:leer",
+    "45:absorb",
+    "45:charge",
+    "50:trailblaze",
+    "50:thunderpunch",
+    "55:gigadrain",
+    "55:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -87,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4444,
+  "nationalPokedexNumber": 4452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

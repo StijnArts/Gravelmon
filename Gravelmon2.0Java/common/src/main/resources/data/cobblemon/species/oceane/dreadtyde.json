@@ -76,7 +76,8 @@
     "42:darkpulse",
     "48:shadowball",
     "54:destinybond",
-    "60:dreameater"
+    "60:dreameater",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1912,
+  "nationalPokedexNumber": 1915,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

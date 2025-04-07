@@ -76,7 +76,8 @@
     "53:clangoroussoul",
     "58:outrage",
     "tm:clangoroussoul",
-    "tm:overdrive"
+    "tm:overdrive",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4008,
+  "nationalPokedexNumber": 4016,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

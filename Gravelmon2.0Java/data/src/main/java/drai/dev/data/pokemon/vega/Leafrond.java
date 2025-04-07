@@ -90,7 +90,7 @@ public class Leafrond extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 0.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_FLORAL))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),

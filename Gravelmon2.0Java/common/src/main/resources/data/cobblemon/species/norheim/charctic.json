@@ -71,7 +71,8 @@
     "48:liquidation",
     "52:soak",
     "58:scald",
-    "66:flareblitz"
+    "66:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3160,
+  "nationalPokedexNumber": 3168,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

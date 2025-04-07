@@ -78,7 +78,8 @@
     "tm:dig",
     "tm:poisonfang",
     "tm:bugbuzz",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2996,
+  "nationalPokedexNumber": 3004,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

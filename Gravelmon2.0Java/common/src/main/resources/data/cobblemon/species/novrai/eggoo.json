@@ -121,7 +121,8 @@
     "tm:firstimpression",
     "tm:bide",
     "tm:powertrip",
-    "tm:comeuppance"
+    "tm:comeuppance",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4849,
+  "nationalPokedexNumber": 4857,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

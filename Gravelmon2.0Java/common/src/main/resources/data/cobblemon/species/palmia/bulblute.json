@@ -62,7 +62,34 @@
   "drops": {},
   "moves": [
     "1:gust",
-    "1:tackle"
+    "1:tackle",
+    "1:leer",
+    "1:growl",
+    "4:aircutter",
+    "4:round",
+    "7:wingattack",
+    "7:swift",
+    "10:airslash",
+    "10:uproar",
+    "13:drillpeck",
+    "13:hypervoice",
+    "16:hurricane",
+    "16:hyperbeam",
+    "19:peck",
+    "19:tackle",
+    "22:leer",
+    "22:growl",
+    "25:pluck",
+    "25:round",
+    "28:wingattack",
+    "28:swift",
+    "31:aerialace",
+    "31:uproar",
+    "34:drillpeck",
+    "34:hypervoice",
+    "39:bravebird",
+    "39:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -92,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2625,
+  "nationalPokedexNumber": 2633,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

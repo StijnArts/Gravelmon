@@ -82,7 +82,8 @@
     "46:zenheadbutt",
     "50:earthpower",
     "55:powerwhip",
-    "60:leafstorm"
+    "60:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3931,
+  "nationalPokedexNumber": 3939,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

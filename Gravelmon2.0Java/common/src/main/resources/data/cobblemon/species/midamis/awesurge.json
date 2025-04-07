@@ -72,7 +72,8 @@
     "40:zapcannon",
     "45:dragonpulse",
     "tm:thunder",
-    "tm:twister"
+    "tm:twister",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4375,
+  "nationalPokedexNumber": 4383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

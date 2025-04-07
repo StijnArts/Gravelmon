@@ -158,7 +158,8 @@
     "tm:ancientpower",
     "tm:powergem",
     "tm:haze",
-    "tm:mirrorshot"
+    "tm:mirrorshot",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -171,7 +172,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1564,
+  "nationalPokedexNumber": 1567,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

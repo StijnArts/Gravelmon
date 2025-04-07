@@ -75,7 +75,8 @@
     "40:circlethrow",
     "46:amnesia",
     "51:wildcharge",
-    "56:hammerarm"
+    "56:hammerarm",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1645,
+  "nationalPokedexNumber": 1648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

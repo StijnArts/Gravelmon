@@ -110,6 +110,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "ishirian_gardevoir-01",
+      "pokemon": "gardevoir ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
     }
   ]
 }

@@ -74,7 +74,8 @@
     "48:nastyplot",
     "53:shadowball",
     "59:destinybond",
-    "66:phantomforce"
+    "66:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3092,
+  "nationalPokedexNumber": 3100,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

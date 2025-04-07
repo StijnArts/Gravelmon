@@ -20,6 +20,7 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
@@ -94,15 +95,15 @@ public class GenerationFour extends Game {
 //        addNewPokemon(new TheossianToxicroak("", Aspect.THEOSSIAN));
 //        addNewPokemon(new TheossianYanmega("", Aspect.THEOSSIAN));
 
-//        addNewPokemon(new NodorranChimchar("", Aspect.NODORRAN)); TODO
-//        addNewPokemon(new NodorranMonferno("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranInfernape("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranDrifblim("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranDrifloon("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranHippopotas("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranHippowdon("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranProbopass("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranBonsly("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranChimchar("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranMonferno("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranInfernape("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranDrifblim("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranDrifloon("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranHippopotas("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranHippowdon("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranProbopass("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranBonsly("", Aspect.NODORRAN));
 
         registerSoulstonesVariants();
 

@@ -132,7 +132,8 @@
         "egg:mindreader",
         "egg:flipturn",
         "egg:lusterpurge",
-        "egg:boomburst"
+        "egg:boomburst",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -245,7 +246,8 @@
         "45:shadowball",
         "50:lightscreen",
         "50:reflect",
-        "55:typhoon"
+        "55:typhoon",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",

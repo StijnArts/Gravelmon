@@ -147,7 +147,8 @@
     "tm:guardsplit",
     "tm:disable",
     "tm:flail",
-    "tm:steamroller"
+    "tm:steamroller",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -162,7 +163,7 @@
   "weight": 730,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4691,
+  "nationalPokedexNumber": 4699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

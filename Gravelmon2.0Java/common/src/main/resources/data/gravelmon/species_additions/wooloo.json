@@ -62,7 +62,20 @@
       ],
       "drops": {},
       "moves": [
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:screech",
+        "4:irontail",
+        "7:smartstrike",
+        "10:mirrorshot",
+        "13:flashcannon",
+        "16:steelbeam",
+        "19:metalclaw",
+        "22:screech",
+        "25:irontail",
+        "28:smartstrike",
+        "31:ironhead",
+        "34:meteormash",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -223,7 +236,8 @@
         "egg:playrough",
         "egg:skullbash",
         "egg:heavyslam",
-        "egg:endeavor"
+        "egg:endeavor",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -395,7 +409,8 @@
         "egg:flail",
         "egg:playrough",
         "egg:razorleaf",
-        "egg:bodypress"
+        "egg:bodypress",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -558,7 +573,8 @@
         "tm:counter",
         "tm:stomp",
         "tm:autotomize",
-        "tm:flail"
+        "tm:flail",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

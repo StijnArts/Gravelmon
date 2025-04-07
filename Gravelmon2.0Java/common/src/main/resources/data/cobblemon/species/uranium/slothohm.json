@@ -145,7 +145,8 @@
     "egg:volttackle",
     "egg:stoneedge",
     "egg:smackdown",
-    "egg:stealthrock"
+    "egg:stealthrock",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2036,
+  "nationalPokedexNumber": 2039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

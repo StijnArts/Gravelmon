@@ -171,7 +171,8 @@
     "tm:swordsdance",
     "tm:shadowclaw",
     "tm:icywind",
-    "tm:icebeam"
+    "tm:icebeam",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -186,7 +187,7 @@
   "weight": 280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4094,
+  "nationalPokedexNumber": 4102,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

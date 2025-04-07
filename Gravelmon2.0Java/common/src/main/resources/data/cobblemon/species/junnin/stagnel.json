@@ -120,7 +120,8 @@
     "tm:pursuit",
     "tm:screech",
     "tm:signalbeam",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2443,
+  "nationalPokedexNumber": 2451,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

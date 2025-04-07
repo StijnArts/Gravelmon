@@ -78,7 +78,7 @@ public class Gobbeel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 29, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 29, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

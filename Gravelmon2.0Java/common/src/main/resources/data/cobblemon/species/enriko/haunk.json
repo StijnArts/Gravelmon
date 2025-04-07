@@ -70,7 +70,8 @@
     "28:hex",
     "34:reflect",
     "40:shadowball",
-    "45:moonblast"
+    "45:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

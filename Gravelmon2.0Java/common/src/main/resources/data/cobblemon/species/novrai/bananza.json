@@ -146,7 +146,8 @@
     "tm:leechseed",
     "tm:poisonpowder",
     "tm:playnice",
-    "tm:covet"
+    "tm:covet",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4912,
+  "nationalPokedexNumber": 4920,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

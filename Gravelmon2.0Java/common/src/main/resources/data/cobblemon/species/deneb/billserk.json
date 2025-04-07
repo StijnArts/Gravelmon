@@ -84,6 +84,7 @@
     "tm:frustration",
     "tm:flamecharge",
     "tm:aerialace",
+    "tm:glorywing",
     "tm:cut",
     "tm:fly",
     "tutor:rage",
@@ -108,7 +109,9 @@
     "egg:furyattack",
     "egg:mirrormove",
     "egg:mudslap",
-    "egg:pursuit"
+    "egg:pursuit",
+    "egg:rocketdrive",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -121,7 +124,7 @@
   "weight": 632,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4565,
+  "nationalPokedexNumber": 4573,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

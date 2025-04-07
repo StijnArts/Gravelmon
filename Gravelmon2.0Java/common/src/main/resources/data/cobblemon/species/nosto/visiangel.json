@@ -81,7 +81,8 @@
     "44:psychic",
     "50:moonblast",
     "53:trickroom",
-    "57:shadowball"
+    "57:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3491,
+  "nationalPokedexNumber": 3499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

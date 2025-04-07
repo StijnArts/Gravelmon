@@ -70,7 +70,8 @@
         "1:stringshot",
         "egg:poisonpowder",
         "egg:ragepowder",
-        "egg:stunspore"
+        "egg:stunspore",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

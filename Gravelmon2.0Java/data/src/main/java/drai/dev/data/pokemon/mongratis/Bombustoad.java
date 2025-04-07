@@ -11,8 +11,8 @@ public class Bombustoad extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,3), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,3), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,7 +22,11 @@ public class Bombustoad extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bombustoad");

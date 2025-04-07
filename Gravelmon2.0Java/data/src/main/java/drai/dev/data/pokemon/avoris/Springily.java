@@ -42,7 +42,7 @@ public class Springily extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,46)                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

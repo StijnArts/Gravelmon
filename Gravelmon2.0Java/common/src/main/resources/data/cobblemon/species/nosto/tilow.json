@@ -75,7 +75,8 @@
     "44:shadowball",
     "47:memento",
     "50:painsplit",
-    "54:poltergeist"
+    "54:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3521,
+  "nationalPokedexNumber": 3529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

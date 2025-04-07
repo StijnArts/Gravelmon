@@ -73,7 +73,8 @@
     "35:flamethrower",
     "39:sludgebomb",
     "42:willowisp",
-    "47:darkpulse"
+    "47:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3458,
+  "nationalPokedexNumber": 3466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

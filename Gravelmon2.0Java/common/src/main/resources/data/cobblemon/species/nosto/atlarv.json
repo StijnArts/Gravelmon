@@ -126,7 +126,8 @@
     "tm:toxic",
     "tm:psyshock",
     "tm:rest",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3508,
+  "nationalPokedexNumber": 3516,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

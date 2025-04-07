@@ -95,7 +95,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4255,
+  "nationalPokedexNumber": 4263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

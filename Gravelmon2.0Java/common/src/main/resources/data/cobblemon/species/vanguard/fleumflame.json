@@ -138,7 +138,8 @@
     "tm:whirlpool",
     "tm:workup",
     "tm:wavecrash",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -151,7 +152,7 @@
   "weight": 540,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4109,
+  "nationalPokedexNumber": 4117,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -90,6 +90,7 @@
     "tutor:scaryface",
     "tutor:suckerpunch",
     "tutor:glare",
+    "tutor:quickturn",
     "tutor:dracometeor",
     "egg:irontail",
     "egg:thunderfang",
@@ -103,7 +104,8 @@
     "egg:poisonjab",
     "egg:firefang",
     "egg:royalbreath",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -116,7 +118,7 @@
   "weight": 853,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4664,
+  "nationalPokedexNumber": 4672,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

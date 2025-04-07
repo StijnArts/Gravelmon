@@ -96,7 +96,8 @@
     "tutor:hydropump",
     "tutor:nastyplot",
     "tutor:rest",
-    "tutor:toxic"
+    "tutor:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -110,7 +111,7 @@
   "weight": 1232,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4501,
+  "nationalPokedexNumber": 4509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

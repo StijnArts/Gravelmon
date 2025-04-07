@@ -135,7 +135,8 @@
         "egg:tearfullook",
         "egg:waterpledge",
         "egg:mistyterrain",
-        "egg:craftyshield"
+        "egg:craftyshield",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -251,7 +252,8 @@
         "37:mistyterrain",
         "egg:camouflage",
         "egg:captivate",
-        "egg:copycat"
+        "egg:copycat",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -404,7 +406,8 @@
         "tm:camouflage",
         "tm:copycat",
         "tm:captivate",
-        "tm:tearfullook"
+        "tm:tearfullook",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -570,7 +573,8 @@
         "tm:cosmicpower",
         "tm:disable",
         "tm:hex",
-        "tm:luckychant"
+        "tm:luckychant",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

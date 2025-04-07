@@ -74,7 +74,8 @@
     "47:wringout",
     "51:batonpass",
     "57:closecombat",
-    "tm:scaleshot"
+    "tm:scaleshot",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3873,
+  "nationalPokedexNumber": 3881,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

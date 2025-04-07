@@ -71,7 +71,8 @@
     "36:painsplit",
     "40:stealthrock",
     "48:skydrop",
-    "53:stoneedge"
+    "53:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1744,
+  "nationalPokedexNumber": 1747,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

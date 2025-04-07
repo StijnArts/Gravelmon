@@ -74,7 +74,8 @@
     "42:aromatherapy",
     "47:energyball",
     "53:lastresort",
-    "59:petaldance"
+    "59:petaldance",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1855,
+  "nationalPokedexNumber": 1858,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

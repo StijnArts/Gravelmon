@@ -128,7 +128,8 @@
     "tm:xscissor",
     "tm:bulletseed",
     "tm:furyswipes",
-    "tm:infestation"
+    "tm:infestation",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3355,
+  "nationalPokedexNumber": 3363,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -117,7 +117,8 @@
         "tm:taunt",
         "tm:toxic",
         "tm:toxicspikes",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

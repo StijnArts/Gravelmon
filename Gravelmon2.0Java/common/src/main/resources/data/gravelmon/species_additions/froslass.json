@@ -144,7 +144,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -309,7 +310,8 @@
         "tutor:painsplit",
         "tutor:snore",
         "tutor:stealthrock",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -472,7 +474,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:willowisp",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -585,7 +588,8 @@
         "egg:hex",
         "egg:rollout",
         "egg:spikes",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -16,14 +16,15 @@ public class Pyroki extends drai.dev.data.pokemon.Pokemon {
                         40,
                         55),
                 List.of(Ability.BLAZE), Ability.FLASH_FIRE,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,1,0,0), 0,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("- Tackle Normal - Growl Normal - EmberSTAB Fire 7 Struggle BugSTAB Bug 12 Bite Dark 15 Flame ChargeSTAB Fire 17 Smokescreen Normal 21 Bug BiteSTAB Bug 25 Gastro Acid Poison 28 FlamethrowerSTAB Fire 32 Leech LifeSTAB Bug 36 Fire BlastSTAB Fire"),
-                List.of(),
+                List.of(new EvolutionEntry("formidet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -39,7 +40,11 @@ public class Pyroki extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,36)                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pyroki");

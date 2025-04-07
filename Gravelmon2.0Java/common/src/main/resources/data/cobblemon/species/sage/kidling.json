@@ -135,7 +135,8 @@
     "43:flamethrower",
     "46:standoff",
     "49:flareblitz",
-    "52:skullbash"
+    "52:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

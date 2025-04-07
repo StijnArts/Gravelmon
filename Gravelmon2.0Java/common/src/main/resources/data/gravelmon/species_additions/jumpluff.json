@@ -121,7 +121,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:weatherball",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -275,7 +276,8 @@
         "tm:weatherball",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -416,7 +418,8 @@
         "tm:sludge",
         "tm:psybeam",
         "tm:poisonjab",
-        "tm:confuseray"
+        "tm:confuseray",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

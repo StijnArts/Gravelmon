@@ -64,7 +64,23 @@
     "1:watergun",
     "1:powdersnow",
     "1:flipturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:tailwhip",
+    "1:growl",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:bubblebeam",
+    "4:icywind",
+    "4:swordsdance",
+    "7:aquatail",
+    "7:icepunch",
+    "10:surf",
+    "10:icespinner",
+    "13:waterfall",
+    "13:iceshard",
+    "16:liquidation",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2788,
+  "nationalPokedexNumber": 2796,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

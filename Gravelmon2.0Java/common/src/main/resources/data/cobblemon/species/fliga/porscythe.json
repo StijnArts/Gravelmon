@@ -74,7 +74,8 @@
     "39:autotomize",
     "43:meteormash",
     "49:foulplay",
-    "53:switcheroo"
+    "53:switcheroo",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3955,
+  "nationalPokedexNumber": 3963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

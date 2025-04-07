@@ -76,7 +76,8 @@
     "46:dragontail",
     "50:cosmicpower",
     "64:storedpower",
-    "90:dracometeor"
+    "90:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1634,
+  "nationalPokedexNumber": 1637,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

@@ -124,7 +124,8 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:dazzlinggleam",
-    "tm:darkpulse"
+    "tm:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -137,7 +138,7 @@
   "weight": 34,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1828,
+  "nationalPokedexNumber": 1831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

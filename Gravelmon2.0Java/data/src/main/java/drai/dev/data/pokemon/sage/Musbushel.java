@@ -105,7 +105,7 @@ public class Musbushel extends Pokemon {
                         new MoveLearnSetEntry(Move.SYNTHESIS,"egg")
                         ),
                 List.of(Label.SAGE),
-                8, List.of(
+                9, List.of(
                         new ItemDrop("minecraft:sweet_berry",40, 1,3),
                         new ItemDrop("minecraft:glow_berry",40, 1,3),
                         new ItemDrop("cobblemon:berry_sweet",20, 1,2)

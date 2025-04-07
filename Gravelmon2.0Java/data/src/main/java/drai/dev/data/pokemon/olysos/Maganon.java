@@ -23,7 +23,8 @@ public class Maganon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Volcanon is a master of manipulating heat, often using it to melt rocks to slurp them up or to make nests. Its body is coated with a sticky, lava-like substance that is incredibly hot to the touch, making it dangerous to get too close to. Its eyes are a piercing orange color with fire-like streams emanating from them."),
-                List.of(),
+                List.of(new EvolutionEntry("eruptinon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,4),
@@ -51,7 +52,10 @@ public class Maganon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC_SPIKES,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Maganon");

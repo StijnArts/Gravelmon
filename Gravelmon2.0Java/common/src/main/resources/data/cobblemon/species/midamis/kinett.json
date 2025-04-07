@@ -74,7 +74,8 @@
     "40:seismictoss",
     "44:dynamicpunch",
     "48:crosschop",
-    "52:doubleedge"
+    "52:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4345,
+  "nationalPokedexNumber": 4353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

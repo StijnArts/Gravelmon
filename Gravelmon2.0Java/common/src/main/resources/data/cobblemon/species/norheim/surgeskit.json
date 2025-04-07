@@ -87,7 +87,8 @@
     "45:superfang",
     "49:screech",
     "52:bugbuzz",
-    "56:strengthsap"
+    "56:strengthsap",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3109,
+  "nationalPokedexNumber": 3117,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

@@ -152,7 +152,8 @@
         "egg:psywave",
         "egg:icebeam",
         "egg:nastyplot",
-        "egg:cosmicpower"
+        "egg:cosmicpower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -272,7 +273,8 @@
         "egg:heatwave",
         "egg:hypnosis",
         "egg:magiccoat",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -436,7 +438,8 @@
         "egg:hypnosis",
         "egg:freezedry",
         "egg:magiccoat",
-        "egg:calmmind"
+        "egg:calmmind",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

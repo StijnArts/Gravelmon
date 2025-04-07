@@ -155,7 +155,7 @@ public class EpochPikipek extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 24, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),

@@ -16,8 +16,8 @@ public class Tecthanic extends drai.dev.data.pokemon.Pokemon {
                         125,
                         15),
                 List.of(Ability.CONTAMINATE), Ability.ARENA_TRAP,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -44,9 +44,14 @@ public class Tecthanic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_OCEAN)
+                        .setSpawnPreset(SpawnPreset.NEAR_MAGMA).build(),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Tecthanic");
 
     }

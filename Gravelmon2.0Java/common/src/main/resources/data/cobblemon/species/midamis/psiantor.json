@@ -76,7 +76,8 @@
     "48:healblock",
     "52:mudslide",
     "58:muddywater",
-    "64:belch"
+    "64:belch",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4371,
+  "nationalPokedexNumber": 4379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

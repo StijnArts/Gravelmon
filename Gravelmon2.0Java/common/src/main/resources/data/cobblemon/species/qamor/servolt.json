@@ -73,7 +73,8 @@
     "45:bulletseed",
     "50:crunch",
     "55:aurawheel",
-    "60:thrash"
+    "60:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4048,
+  "nationalPokedexNumber": 4056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

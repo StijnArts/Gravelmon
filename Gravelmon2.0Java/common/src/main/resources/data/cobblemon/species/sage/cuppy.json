@@ -118,7 +118,8 @@
     "egg:naturalgift",
     "egg:recover",
     "egg:refresh",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

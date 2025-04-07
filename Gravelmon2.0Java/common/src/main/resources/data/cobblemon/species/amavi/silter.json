@@ -69,7 +69,8 @@
     "24:brine",
     "27:whirlpool",
     "30:dive",
-    "33:clamp"
+    "33:clamp",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5267,
+  "nationalPokedexNumber": 5275,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

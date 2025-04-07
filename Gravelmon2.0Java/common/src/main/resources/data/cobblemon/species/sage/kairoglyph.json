@@ -173,7 +173,8 @@
     "tutor:wonderroom",
     "egg:confuseray",
     "egg:hex",
-    "egg:memento"
+    "egg:memento",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

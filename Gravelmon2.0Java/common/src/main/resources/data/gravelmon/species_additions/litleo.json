@@ -125,7 +125,8 @@
         "egg:charm",
         "egg:jawlock",
         "egg:iciclecrash",
-        "egg:aquatail"
+        "egg:aquatail",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -236,7 +237,8 @@
         "39:crunch",
         "43:lastresort",
         "46:playrough",
-        "50:phantomforce"
+        "50:phantomforce",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -403,7 +405,8 @@
         "egg:nastyplot",
         "egg:pursuit",
         "egg:slash",
-        "egg:venomdrench"
+        "egg:venomdrench",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

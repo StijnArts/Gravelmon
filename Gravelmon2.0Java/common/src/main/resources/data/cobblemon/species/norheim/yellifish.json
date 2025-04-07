@@ -75,7 +75,8 @@
     "tm:shockwave",
     "tm:waterpulse",
     "tm:zenheadbutt",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3168,
+  "nationalPokedexNumber": 3176,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

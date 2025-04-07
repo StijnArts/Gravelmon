@@ -39,7 +39,7 @@ public class Dumpchin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDEAVOR,43)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 3, 22, 6, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),

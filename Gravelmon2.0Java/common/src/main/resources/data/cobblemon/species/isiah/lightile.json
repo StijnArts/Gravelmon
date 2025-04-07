@@ -70,7 +70,8 @@
     "25:spark",
     "29:camouflage",
     "37:screech",
-    "45:discharge"
+    "45:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

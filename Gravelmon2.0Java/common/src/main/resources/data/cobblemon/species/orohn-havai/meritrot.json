@@ -118,7 +118,8 @@
     "tm:mistyterrain",
     "tm:psychicterrain",
     "tm:jumpkick",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 2995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

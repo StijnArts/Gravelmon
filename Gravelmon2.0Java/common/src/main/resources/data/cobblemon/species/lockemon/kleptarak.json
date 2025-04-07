@@ -80,7 +80,8 @@
     "48:bounce",
     "53:axekick",
     "egg:counter",
-    "egg:skittersmack"
+    "egg:skittersmack",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 131,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3413,
+  "nationalPokedexNumber": 3421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

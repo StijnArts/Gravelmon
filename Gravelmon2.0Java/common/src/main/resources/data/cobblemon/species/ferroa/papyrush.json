@@ -122,7 +122,8 @@
     "tm:uturn",
     "tm:wildcharge",
     "tm:switcheroo",
-    "tm:ragepowder"
+    "tm:ragepowder",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -137,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1497,
+  "nationalPokedexNumber": 1500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

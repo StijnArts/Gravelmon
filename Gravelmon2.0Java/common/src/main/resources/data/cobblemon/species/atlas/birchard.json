@@ -116,7 +116,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5099,
+  "nationalPokedexNumber": 5107,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

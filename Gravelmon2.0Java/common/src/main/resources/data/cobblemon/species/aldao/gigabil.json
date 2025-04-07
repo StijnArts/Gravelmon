@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:peck"
+    "1:peck",
+    "1:growl",
+    "1:leer",
+    "4:quickattack",
+    "4:pluck",
+    "7:bite",
+    "7:wingattack",
+    "10:takedown",
+    "10:aerialace",
+    "13:crunch",
+    "13:drillpeck",
+    "16:doubleedge",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2818,
+  "nationalPokedexNumber": 2826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

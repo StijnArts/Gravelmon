@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "1:leer",
+    "10:megadrain",
+    "10:aircutter",
+    "15:magicalleaf",
+    "15:wingattack",
+    "20:gigadrain",
+    "20:airslash",
+    "25:energyball",
+    "25:drillpeck",
+    "30:solarbeam",
+    "30:hurricane",
+    "35:leafage",
+    "35:peck",
+    "40:leer",
+    "40:leer",
+    "45:absorb",
+    "45:pluck",
+    "50:trailblaze",
+    "50:wingattack",
+    "55:gigadrain",
+    "55:aerialace",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4801,
+  "nationalPokedexNumber": 4809,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:mudslap",
-        "1:lowkick"
+        "1:lowkick",
+        "1:sandattack",
+        "1:leer",
+        "4:mudshot",
+        "4:revenge",
+        "7:mudbomb",
+        "7:vacuumwave",
+        "10:bulldoze",
+        "10:brickbreak",
+        "13:scorchingsands",
+        "13:aurasphere",
+        "16:earthpower",
+        "16:focusblast",
+        "19:mudslap",
+        "19:lowkick",
+        "22:growl",
+        "22:leer",
+        "25:sandattack",
+        "25:revenge",
+        "28:mudbomb",
+        "28:lowsweep",
+        "31:bulldoze",
+        "31:brickbreak",
+        "34:dig",
+        "34:karatechop",
+        "39:earthquake",
+        "39:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -151,7 +178,34 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:mudslap"
+        "1:mudslap",
+        "1:tailwhip",
+        "1:sandattack",
+        "4:bubblebeam",
+        "4:mudshot",
+        "7:brine",
+        "7:mudbomb",
+        "10:surf",
+        "10:bulldoze",
+        "13:chillingwater",
+        "13:scorchingsands",
+        "16:hydropump",
+        "16:earthpower",
+        "19:watergun",
+        "19:mudslap",
+        "22:tailwhip",
+        "22:growl",
+        "25:bubblebeam",
+        "25:sandattack",
+        "28:aquatail",
+        "28:mudbomb",
+        "31:surf",
+        "31:bulldoze",
+        "34:waterfall",
+        "34:dig",
+        "39:liquidation",
+        "39:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -250,7 +304,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:acid"
+        "1:acid",
+        "1:leer",
+        "4:clearsmog",
+        "7:sludge",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:sludgewave",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -440,7 +501,8 @@
         "egg:earthpower",
         "egg:rest",
         "egg:surgingstrikes",
-        "egg:round"
+        "egg:round",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

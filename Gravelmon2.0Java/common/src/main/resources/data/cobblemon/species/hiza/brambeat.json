@@ -73,7 +73,8 @@
     "38:bulkup",
     "43:bodyslam",
     "47:painsplit",
-    "53:woodhammer"
+    "53:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2350,
+  "nationalPokedexNumber": 2358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -132,7 +132,8 @@
     "tm:powertrip",
     "tm:watersport",
     "tm:belch",
-    "tm:flipturn"
+    "tm:flipturn",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4847,
+  "nationalPokedexNumber": 4855,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

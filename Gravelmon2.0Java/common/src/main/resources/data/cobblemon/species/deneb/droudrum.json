@@ -131,7 +131,8 @@
     "egg:taunt",
     "egg:thunderpunch",
     "egg:wildcharge",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -146,7 +147,7 @@
   "weight": 513,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4562,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

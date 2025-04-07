@@ -74,7 +74,8 @@
     "38:charge",
     "42:bounce",
     "46:discharge",
-    "50:extremespeed"
+    "50:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

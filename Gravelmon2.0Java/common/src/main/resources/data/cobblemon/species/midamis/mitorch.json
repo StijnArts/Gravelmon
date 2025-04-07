@@ -64,7 +64,8 @@
     "1:stringshot",
     "5:scaryface",
     "8:ember",
-    "12:constrict"
+    "12:constrict",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4295,
+  "nationalPokedexNumber": 4303,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

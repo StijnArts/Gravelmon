@@ -132,7 +132,8 @@
     "egg:sunnyday",
     "egg:superfang",
     "egg:thunderpunch",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -147,7 +148,7 @@
   "weight": 403,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 4506,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

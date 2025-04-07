@@ -71,7 +71,8 @@
     "31:flail",
     "34:metalburst",
     "39:wringout",
-    "42:meteormash"
+    "42:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4317,
+  "nationalPokedexNumber": 4325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

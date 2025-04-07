@@ -16,8 +16,8 @@ public class Apolalgae extends drai.dev.data.pokemon.Pokemon {
                         110,
                         25),
                 List.of(Ability.HYDRATION,Ability.WATER_ABSORB), Ability.WATER_COMPACTION,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -31,9 +31,15 @@ public class Apolalgae extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Apolalgae");
 
     }

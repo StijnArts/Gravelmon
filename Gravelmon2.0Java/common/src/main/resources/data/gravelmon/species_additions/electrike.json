@@ -141,7 +141,8 @@
         "egg:doublekick",
         "egg:endeavor",
         "egg:focusenergy",
-        "egg:boneclub"
+        "egg:boneclub",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -299,7 +300,8 @@
         "tm:discharge",
         "tm:flameburst",
         "tm:electroball",
-        "tm:eerieimpulse"
+        "tm:eerieimpulse",
+        "tm:terablast"
       ],
       "labels": [
         "enjin",

@@ -85,7 +85,8 @@
     "egg:uproar",
     "egg:screech",
     "egg:curse",
-    "egg:batonpass"
+    "egg:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -113,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2102,
+  "nationalPokedexNumber": 2105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

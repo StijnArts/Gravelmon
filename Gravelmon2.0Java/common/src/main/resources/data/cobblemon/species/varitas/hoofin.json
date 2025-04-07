@@ -70,7 +70,8 @@
     "35:bodyslam",
     "40:liquidation",
     "46:playrough",
-    "53:doubleedge"
+    "53:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1922,
+  "nationalPokedexNumber": 1925,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

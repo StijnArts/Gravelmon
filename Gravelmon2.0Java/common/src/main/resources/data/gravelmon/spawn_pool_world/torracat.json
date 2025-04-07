@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-40",
-      "weight": 1.35,
+      "weight": 5.4,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -24,6 +24,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_torracat-01",
+      "pokemon": "torracat ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
           ]
         }
       }

@@ -44,7 +44,7 @@ public class Chiticonch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_WAVE,50)                   ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 23, 41, 5.4, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 23, 41, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

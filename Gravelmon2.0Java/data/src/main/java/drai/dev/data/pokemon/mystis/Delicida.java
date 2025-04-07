@@ -17,7 +17,7 @@ public class Delicida extends drai.dev.data.pokemon.Pokemon {
                         120),
                 List.of(Ability.SAP_SIPPER), Ability.SWIFTDODGE,
                 13, 431,
-                new Stats(0,1,0,0,0,2), 0,
+                new Stats(0,1,0,0,0,2), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -46,9 +46,14 @@ public class Delicida extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACROBATICS,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Delicida");
 
     }

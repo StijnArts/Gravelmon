@@ -121,7 +121,8 @@
     "tm:stealthrock",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5393,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

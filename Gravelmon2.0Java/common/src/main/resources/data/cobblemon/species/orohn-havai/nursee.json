@@ -121,7 +121,8 @@
     "tm:healbell",
     "tm:faketears",
     "tm:luckychant",
-    "tm:entrainment"
+    "tm:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2970,
+  "nationalPokedexNumber": 2978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

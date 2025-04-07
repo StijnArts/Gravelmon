@@ -16,18 +16,23 @@ public class Gomnom extends drai.dev.data.pokemon.Pokemon {
                         69,
                         34),
                 List.of(Ability.GLUTTONY,Ability.STICKY_HOLD), Ability.UNAWARE,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("caramello", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gomnom");

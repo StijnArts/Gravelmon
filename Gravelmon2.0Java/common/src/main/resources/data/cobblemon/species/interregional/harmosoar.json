@@ -78,7 +78,8 @@
     "48:drillrun",
     "52:standoff",
     "56:bravebird",
-    "60:lastresort"
+    "60:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1407,
+  "nationalPokedexNumber": 1410,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

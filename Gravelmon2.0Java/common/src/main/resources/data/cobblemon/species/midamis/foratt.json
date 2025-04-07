@@ -75,7 +75,8 @@
     "31:gigadrain",
     "34:crunch",
     "40:leafstorm",
-    "46:outrage"
+    "46:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4374,
+  "nationalPokedexNumber": 4382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

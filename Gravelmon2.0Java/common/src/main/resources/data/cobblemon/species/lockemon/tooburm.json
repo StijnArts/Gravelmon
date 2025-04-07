@@ -79,7 +79,8 @@
     "egg:reflecttype",
     "egg:spark",
     "egg:spite",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3402,
+  "nationalPokedexNumber": 3410,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

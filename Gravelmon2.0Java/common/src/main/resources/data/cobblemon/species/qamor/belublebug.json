@@ -69,7 +69,8 @@
     "33:dualwingbeat",
     "44:lunge",
     "55:allyswitch",
-    "55:healingwish"
+    "55:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4026,
+  "nationalPokedexNumber": 4034,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

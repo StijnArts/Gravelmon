@@ -113,7 +113,8 @@
     "tm:toxic",
     "tm:rest",
     "tm:steelwing",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3452,
+  "nationalPokedexNumber": 3460,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

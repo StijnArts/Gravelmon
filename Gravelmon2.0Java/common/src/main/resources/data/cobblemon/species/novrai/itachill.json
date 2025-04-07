@@ -140,7 +140,8 @@
     "tm:charm",
     "tm:bite",
     "tm:electroball",
-    "tm:aurorabeam"
+    "tm:aurorabeam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4902,
+  "nationalPokedexNumber": 4910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

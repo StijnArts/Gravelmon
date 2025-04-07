@@ -107,7 +107,7 @@ public class EpochRolycoly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 31, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

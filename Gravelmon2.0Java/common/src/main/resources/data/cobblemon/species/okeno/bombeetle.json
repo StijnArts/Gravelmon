@@ -74,7 +74,8 @@
     "65:dynamicpunch",
     "tm:stickyweb",
     "tm:gastroacid",
-    "tm:belch"
+    "tm:belch",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4433,
+  "nationalPokedexNumber": 4441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

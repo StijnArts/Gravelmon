@@ -159,7 +159,8 @@
     "tm:twister",
     "tm:foresight",
     "tm:drillpeck",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -172,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4918,
+  "nationalPokedexNumber": 4926,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

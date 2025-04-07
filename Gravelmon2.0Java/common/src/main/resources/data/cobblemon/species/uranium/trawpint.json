@@ -141,7 +141,8 @@
     "egg:slam",
     "egg:spite",
     "egg:beatup",
-    "egg:poisonfang"
+    "egg:poisonfang",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -156,7 +157,7 @@
   "weight": 649,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2006,
+  "nationalPokedexNumber": 2009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -93,7 +93,8 @@
     "tm:secretpower",
     "tm:rest",
     "tm:attract",
-    "tm:steelwing"
+    "tm:steelwing",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -106,7 +107,7 @@
   "weight": 379,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3823,
+  "nationalPokedexNumber": 3831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

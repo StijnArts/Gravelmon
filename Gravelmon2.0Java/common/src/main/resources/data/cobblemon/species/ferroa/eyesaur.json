@@ -174,7 +174,8 @@
     "tm:healblock",
     "tm:curse",
     "tm:guardsplit",
-    "tm:powersplit"
+    "tm:powersplit",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -189,7 +190,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1522,
+  "nationalPokedexNumber": 1525,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

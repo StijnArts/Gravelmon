@@ -87,7 +87,7 @@ public class Seedent extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLINGPRESS,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 21, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 21, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

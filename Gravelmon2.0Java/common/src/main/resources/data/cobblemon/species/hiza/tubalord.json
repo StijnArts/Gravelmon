@@ -94,7 +94,8 @@
     "tm:facade",
     "tm:swift",
     "tm:waterfall",
-    "tm:blizzard"
+    "tm:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -109,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:scratch"
+    "1:scratch",
+    "1:growl",
+    "1:leer",
+    "4:quickattack",
+    "4:dragonrage",
+    "7:flamecharge",
+    "7:dualchop",
+    "10:firepunch",
+    "10:breakingswipe",
+    "13:willowisp",
+    "13:dragonclaw",
+    "16:flareblitz",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2746,
+  "nationalPokedexNumber": 2754,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -77,7 +77,8 @@
     "34:psychicterrain",
     "40:psyshock",
     "46:magiccoat",
-    "52:shadowball"
+    "52:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3133,
+  "nationalPokedexNumber": 3141,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

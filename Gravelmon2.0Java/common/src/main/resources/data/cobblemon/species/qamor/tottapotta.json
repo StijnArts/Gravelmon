@@ -72,7 +72,8 @@
     "36:gigadrain",
     "41:aquaring",
     "45:earthpower",
-    "50:woodhammer"
+    "50:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4033,
+  "nationalPokedexNumber": 4041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -74,7 +74,8 @@
     "43:meteorbeam",
     "46:stealthrock",
     "54:moonblast",
-    "62:earthpower"
+    "62:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5300,
+  "nationalPokedexNumber": 5308,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

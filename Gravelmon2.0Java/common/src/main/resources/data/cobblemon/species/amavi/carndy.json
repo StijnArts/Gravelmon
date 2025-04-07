@@ -68,7 +68,8 @@
     "43:incinerate",
     "50:ancientpower",
     "57:flamecharge",
-    "64:explosion"
+    "64:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5283,
+  "nationalPokedexNumber": 5291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

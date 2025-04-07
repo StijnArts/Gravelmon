@@ -155,7 +155,8 @@
     "tm:watersport",
     "tm:magicroom",
     "tm:purify",
-    "tm:minimize"
+    "tm:minimize",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -187,7 +188,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4946,
+  "nationalPokedexNumber": 4954,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

@@ -146,7 +146,8 @@
     "egg:naturalgift",
     "egg:scaryface",
     "egg:sweetkiss",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

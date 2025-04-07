@@ -85,17 +85,20 @@
     "tutor:synchronoise",
     "tm:frustration",
     "tm:recycle",
+    "tm:glorywing",
     "tm:fly",
     "egg:morningsun",
     "egg:pursuit",
     "egg:mirrormove",
+    "egg:warble",
     "egg:swift",
     "egg:peck",
     "egg:wingattack",
     "egg:growl",
     "egg:wish",
     "egg:foresight",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -123,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4602,
+  "nationalPokedexNumber": 4610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

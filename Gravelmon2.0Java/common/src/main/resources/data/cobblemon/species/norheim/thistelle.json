@@ -80,7 +80,8 @@
     "47:ragepowder",
     "50:worryseed",
     "54:aromatherapy",
-    "57:solarbeam"
+    "57:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3118,
+  "nationalPokedexNumber": 3126,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

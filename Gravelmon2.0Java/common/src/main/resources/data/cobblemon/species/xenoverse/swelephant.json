@@ -115,7 +115,8 @@
     "egg:hammerarm",
     "egg:doubleedge",
     "tutor:hydrocannon",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -130,7 +131,7 @@
   "weight": 1200,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1837,
+  "nationalPokedexNumber": 1840,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

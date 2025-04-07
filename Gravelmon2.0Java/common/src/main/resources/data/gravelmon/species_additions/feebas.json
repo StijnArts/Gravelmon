@@ -128,7 +128,8 @@
         "tm:toxic",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -285,7 +286,8 @@
         "egg:harden",
         "egg:tarshot",
         "egg:mudshot",
-        "egg:flameburst"
+        "egg:flameburst",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -424,7 +426,8 @@
         "tutor:ominouswind",
         "tutor:painsplit",
         "tutor:snore",
-        "tutor:spite"
+        "tutor:spite",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -559,7 +562,8 @@
         "egg:mist",
         "egg:mudshot",
         "egg:mudsport",
-        "egg:tickle"
+        "egg:tickle",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

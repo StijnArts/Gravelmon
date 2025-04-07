@@ -81,7 +81,8 @@
     "tm:charge",
     "tm:zenheadbutt",
     "tm:bite",
-    "tm:nuzzle"
+    "tm:nuzzle",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3996,
+  "nationalPokedexNumber": 4004,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

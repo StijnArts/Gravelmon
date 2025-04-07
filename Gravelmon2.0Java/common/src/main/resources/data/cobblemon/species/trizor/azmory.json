@@ -64,7 +64,22 @@
     "1:lowkick",
     "1:metalclaw",
     "1:quickattack",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:leer",
+    "1:screech",
+    "1:swordsdance",
+    "1:quickattack",
+    "4:revenge",
+    "4:irontail",
+    "4:swordsdance",
+    "7:lowsweep",
+    "7:smartstrike",
+    "10:brickbreak",
+    "10:ironhead",
+    "13:karatechop",
+    "13:meteormash",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2749,
+  "nationalPokedexNumber": 2757,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

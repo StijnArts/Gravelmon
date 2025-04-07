@@ -81,7 +81,8 @@
     "tm:dynamicpunch",
     "tm:bellydrum",
     "tm:bulletpunch",
-    "tm:poweruppunch"
+    "tm:poweruppunch",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3100,
+  "nationalPokedexNumber": 3108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

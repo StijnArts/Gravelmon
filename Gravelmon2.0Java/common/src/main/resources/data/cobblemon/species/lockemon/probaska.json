@@ -75,7 +75,8 @@
     "37:sing",
     "41:victorydance",
     "45:throatchop",
-    "49:bugbuzz"
+    "49:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -90,7 +91,7 @@
   "weight": 223,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3384,
+  "nationalPokedexNumber": 3392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

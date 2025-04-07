@@ -66,7 +66,42 @@
         "1:metalclaw",
         "1:thundershock",
         "1:irondefense",
-        "1:bulkup"
+        "1:bulkup",
+        "1:screech",
+        "1:leer",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:charge",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:shockwave",
+        "7:taunt",
+        "7:substitute",
+        "10:mirrorshot",
+        "10:discharge",
+        "10:substitute",
+        "10:rest",
+        "13:flashcannon",
+        "13:thunderbolt",
+        "13:rest",
+        "16:steelbeam",
+        "16:thunder",
+        "19:metalclaw",
+        "19:thundershock",
+        "22:screech",
+        "22:leer",
+        "25:irontail",
+        "25:charge",
+        "28:smartstrike",
+        "28:thunderpunch",
+        "31:ironhead",
+        "31:discharge",
+        "34:meteormash",
+        "34:wildcharge",
+        "39:supercellslam",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -221,7 +256,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -369,7 +405,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -521,7 +558,8 @@
         "tm:counter",
         "tm:stomp",
         "tm:autotomize",
-        "tm:flail"
+        "tm:flail",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -651,7 +689,8 @@
         "tm:zenheadbutt",
         "tm:electroball",
         "tm:wildcharge",
-        "tm:bodypress"
+        "tm:bodypress",
+        "tm:terablast"
       ],
       "labels": [
         "gen8",

@@ -71,7 +71,8 @@
     "32:gigadrain",
     "37:pinmissile",
     "40:sandstorm",
-    "48:earthquake"
+    "48:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4280,
+  "nationalPokedexNumber": 4288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

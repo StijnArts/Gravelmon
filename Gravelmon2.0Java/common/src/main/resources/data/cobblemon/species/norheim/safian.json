@@ -71,7 +71,8 @@
     "27:takedown",
     "32:playrough",
     "37:lightscreen",
-    "42:phantomforce"
+    "42:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3206,
+  "nationalPokedexNumber": 3214,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -77,7 +77,8 @@
     "55:sludgewave",
     "58:nastyplot",
     "62:hypnosis",
-    "70:foulplay"
+    "70:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4335,
+  "nationalPokedexNumber": 4343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

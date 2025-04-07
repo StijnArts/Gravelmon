@@ -101,7 +101,8 @@
     "tm:reflect",
     "tm:lightscreen",
     "tm:raindance",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5165,
+  "nationalPokedexNumber": 5173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

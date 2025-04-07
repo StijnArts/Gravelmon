@@ -72,7 +72,8 @@
     "46:ironhead",
     "50:dragonclaw",
     "62:dragondance",
-    "66:dragonrush"
+    "66:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4403,
+  "nationalPokedexNumber": 4411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

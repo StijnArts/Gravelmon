@@ -133,7 +133,8 @@
     "tm:sleeptalk",
     "tm:waterpulse",
     "tm:shieldbash",
-    "tm:miraclewill"
+    "tm:miraclewill",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

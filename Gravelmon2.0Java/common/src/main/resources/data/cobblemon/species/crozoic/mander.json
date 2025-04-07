@@ -78,7 +78,8 @@
     "tm:mudbomb",
     "tm:trick",
     "tm:teeterdance",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3251,
+  "nationalPokedexNumber": 3259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

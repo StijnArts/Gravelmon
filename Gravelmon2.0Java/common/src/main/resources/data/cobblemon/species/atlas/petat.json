@@ -99,7 +99,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:uturn",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5115,
+  "nationalPokedexNumber": 5123,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

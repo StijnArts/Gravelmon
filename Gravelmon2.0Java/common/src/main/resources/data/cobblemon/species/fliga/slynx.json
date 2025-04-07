@@ -171,7 +171,8 @@
     "tm:charm",
     "tm:assist",
     "tm:odorsleuth",
-    "tm:punishment"
+    "tm:punishment",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -184,7 +185,7 @@
   "weight": 651,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3950,
+  "nationalPokedexNumber": 3958,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

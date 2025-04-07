@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:growl",
+    "1:defensecurl",
+    "4:sandattack",
+    "4:rollout",
+    "7:mudbomb",
+    "7:smackdown",
+    "10:bulldoze",
+    "10:rockblast",
+    "13:dig",
+    "13:stealthrock",
+    "16:earthquake",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2850,
+  "nationalPokedexNumber": 2858,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

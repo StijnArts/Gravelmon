@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:leafage"
+    "1:leafage",
+    "1:stringshot",
+    "1:leer",
+    "4:leechlife",
+    "4:absorb",
+    "7:lunge",
+    "7:trailblaze",
+    "10:xscissor",
+    "10:gigadrain",
+    "13:uturn",
+    "13:seedbomb",
+    "16:megahorn",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2911,
+  "nationalPokedexNumber": 2919,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

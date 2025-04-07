@@ -131,7 +131,8 @@
     "egg:watersport",
     "egg:amnesia",
     "egg:sleeptalk",
-    "egg:psybeam"
+    "egg:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -146,7 +147,7 @@
   "weight": 2241,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1995,
+  "nationalPokedexNumber": 1998,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

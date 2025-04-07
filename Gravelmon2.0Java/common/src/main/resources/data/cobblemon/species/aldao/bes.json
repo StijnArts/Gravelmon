@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:leer",
+    "1:babydolleyes",
+    "4:venoshock",
+    "4:drainingkiss",
+    "7:poisontail",
+    "7:playnice",
+    "10:toxicspikes",
+    "10:dazzlinggleam",
+    "13:sludgebomb",
+    "13:playrough",
+    "16:poisonjab",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2893,
+  "nationalPokedexNumber": 2901,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

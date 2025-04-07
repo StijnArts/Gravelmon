@@ -64,7 +64,8 @@
     "1:babydolleyes",
     "6:powdersnow",
     "12:covet",
-    "16:mist"
+    "16:mist",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4064,
+  "nationalPokedexNumber": 4072,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

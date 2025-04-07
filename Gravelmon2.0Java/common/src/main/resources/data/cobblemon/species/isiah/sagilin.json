@@ -71,7 +71,8 @@
     "30:focusenergy",
     "36:crunch",
     "42:liquidation",
-    "48:doubleedge"
+    "48:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4230,
+  "nationalPokedexNumber": 4238,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

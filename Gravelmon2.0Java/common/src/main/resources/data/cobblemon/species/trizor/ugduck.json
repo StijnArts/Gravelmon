@@ -63,7 +63,22 @@
     "1:gust",
     "1:watergun",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:tailwhip",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:aircutter",
+    "4:bubblebeam",
+    "7:wingattack",
+    "7:brine",
+    "10:airslash",
+    "10:surf",
+    "13:drillpeck",
+    "13:chillingwater",
+    "16:hurricane",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2731,
+  "nationalPokedexNumber": 2739,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

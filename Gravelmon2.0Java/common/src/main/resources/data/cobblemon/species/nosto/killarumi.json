@@ -101,7 +101,8 @@
     "tm:stoneedge",
     "tm:extrasensory",
     "tm:rockslide",
-    "tm:allyswitch"
+    "tm:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -116,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3482,
+  "nationalPokedexNumber": 3490,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

@@ -72,7 +72,8 @@
     "27:aquatail",
     "34:thunderbolt",
     "39:whirlpool",
-    "45:thunder"
+    "45:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2275,
+  "nationalPokedexNumber": 2283,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -64,6 +64,17 @@
   "moves": [
     "1:rockthrow",
     "1:metalclaw",
+    "1:defensecurl",
+    "1:screech",
+    "4:rollout",
+    "4:irontail",
+    "7:smackdown",
+    "7:smartstrike",
+    "10:rockblast",
+    "10:ironhead",
+    "13:stealthrock",
+    "13:meteormash",
+    "16:stoneedge",
     "tm:block",
     "tm:bugbite",
     "tm:helpinghand",
@@ -134,7 +145,8 @@
     "tm:infestation",
     "tm:poisonjab",
     "tm:flashcannon",
-    "tm:naturepower"
+    "tm:naturepower",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -149,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1611,
+  "nationalPokedexNumber": 1614,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

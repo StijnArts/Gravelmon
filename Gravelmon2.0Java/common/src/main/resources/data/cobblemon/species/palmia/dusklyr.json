@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:curse"
+    "1:curse",
+    "1:growl",
+    "1:bulkup",
+    "4:confuseray",
+    "4:calmmind",
+    "7:hex",
+    "7:taunt",
+    "10:shadowclaw",
+    "10:substitute",
+    "13:phantomforce",
+    "13:rest",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -86,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2691,
+  "nationalPokedexNumber": 2699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

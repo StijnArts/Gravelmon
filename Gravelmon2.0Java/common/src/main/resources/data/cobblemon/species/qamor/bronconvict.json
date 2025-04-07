@@ -72,7 +72,8 @@
     "46:counter",
     "52:revenge",
     "57:lashout",
-    "63:megakick"
+    "63:megakick",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4013,
+  "nationalPokedexNumber": 4021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

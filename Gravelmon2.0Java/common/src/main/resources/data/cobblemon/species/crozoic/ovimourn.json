@@ -71,7 +71,8 @@
     "1:spite",
     "1:grudge",
     "1:tailwind",
-    "1:wish"
+    "1:wish",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3263,
+  "nationalPokedexNumber": 3271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

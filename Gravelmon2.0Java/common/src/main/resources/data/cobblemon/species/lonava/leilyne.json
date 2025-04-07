@@ -103,7 +103,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:storedpower",
-    "tm:ancientpower"
+    "tm:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -116,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3367,
+  "nationalPokedexNumber": 3375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

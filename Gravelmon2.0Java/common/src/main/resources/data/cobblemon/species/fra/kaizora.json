@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
+    "19:thundershock",
+    "22:leer",
+    "25:charge",
+    "28:thunderpunch",
+    "31:discharge",
+    "34:wildcharge",
+    "39:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "fra",
@@ -89,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2919,
+  "nationalPokedexNumber": 2927,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -78,7 +78,8 @@
     "38:acrobatics",
     "43:liquidation",
     "48:featherdance",
-    "tm:waterpledge"
+    "tm:waterpledge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4223,
+  "nationalPokedexNumber": 4231,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

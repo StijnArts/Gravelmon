@@ -64,7 +64,23 @@
     "1:strugglebug",
     "1:metalclaw",
     "1:uturn",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:stringshot",
+    "1:screech",
+    "1:quickattack",
+    "1:quickattack",
+    "4:leechlife",
+    "4:irontail",
+    "4:swordsdance",
+    "4:swordsdance",
+    "7:lunge",
+    "7:smartstrike",
+    "10:xscissor",
+    "10:ironhead",
+    "13:uturn",
+    "13:meteormash",
+    "16:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3729,
+  "nationalPokedexNumber": 3737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

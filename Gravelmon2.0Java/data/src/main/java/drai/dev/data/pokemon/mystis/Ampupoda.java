@@ -16,8 +16,8 @@ public class Ampupoda extends drai.dev.data.pokemon.Pokemon {
                         55,
                         60),
                 List.of(Ability.CLEAR_BODY,Ability.HYPER_CUTTER), Ability.COMPOUND_EYES,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -25,7 +25,6 @@ public class Ampupoda extends drai.dev.data.pokemon.Pokemon {
                 List.of("- CrabhammerSTAB Water"),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.CRABHAMMER,1),
                         new MoveLearnSetEntry(Move.FLIP_TURN,"tm"),
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm"),
                         new MoveLearnSetEntry(Move.POLTERGEIST,"tm"),
@@ -33,9 +32,16 @@ public class Ampupoda extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(26).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Ampupoda");
 
     }

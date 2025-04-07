@@ -29,10 +29,14 @@ public class Ottora extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Stachick());
         addNewPokemon(new Shockite());
 //        addNewPokemon(new Floodle()); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new Civilarva()); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new Pupail()); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Civilarva());
+        addNewPokemon(new Pupail());
+        addNewPokemon(new Dynamoth());
+
         addNewPokemon(new Jueshika());
 //        addNewPokemon(new Aqquack()); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Coynel());
+        addNewPokemon(new Popstarch());
 //        addNewPokemon(new Cabbrain()); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Finook()); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Aubat()); MEMBER OF LINE NOT FINISHED
@@ -55,6 +59,7 @@ public class Ottora extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Giiem(new Stats(520, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Howltlaw());
+        addNewPokemon(new Miensei());
         addNewPokemon(new Aegistump(new Stats(500, StatArchetype.PHYSICAL_WALL,
                 List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.HP))));
         addNewPokemon(new Chainslash(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,

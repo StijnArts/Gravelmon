@@ -64,7 +64,22 @@
     "1:absorb",
     "1:bite",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:megadrain",
+    "4:payback",
+    "7:magicalleaf",
+    "7:nightdaze",
+    "10:gigadrain",
+    "10:snarl",
+    "13:energyball",
+    "13:knockoff",
+    "16:solarbeam",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -96,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2751,
+  "nationalPokedexNumber": 2759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

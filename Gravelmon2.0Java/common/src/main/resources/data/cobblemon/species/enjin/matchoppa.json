@@ -79,7 +79,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4694,
+  "nationalPokedexNumber": 4702,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

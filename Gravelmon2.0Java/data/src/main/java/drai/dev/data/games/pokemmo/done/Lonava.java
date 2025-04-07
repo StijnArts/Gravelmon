@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.lonava.*;
+import drai.dev.data.pokemon.lonava.Dimwraith;
 import drai.dev.data.pokemon.mystis.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 //done

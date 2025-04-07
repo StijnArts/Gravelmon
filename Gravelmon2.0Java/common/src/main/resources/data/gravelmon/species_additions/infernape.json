@@ -2,6 +2,118 @@
   "target": "cobblemon:infernape",
   "forms": [
     {
+      "name": "Nodorran",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "monferno form=nodorran",
+      "baseScale": 14.399999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "flamebody",
+        "h:ironfist"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defence": 70,
+        "special_attack": 84,
+        "special_defence": 80,
+        "speed": 99
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:bite",
+        "1:growl",
+        "1:leer",
+        "10:firespin",
+        "10:payback",
+        "15:flamecharge",
+        "15:nightdaze",
+        "20:flameburst",
+        "20:snarl",
+        "25:flamethrower",
+        "25:knockoff",
+        "30:fireblast",
+        "30:darkpulse",
+        "35:ember",
+        "35:bite",
+        "40:growl",
+        "40:leer",
+        "45:quickattack",
+        "45:payback",
+        "50:flamecharge",
+        "50:nightslash",
+        "55:firepunch",
+        "55:crunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorraninfernape.desc"
+      ],
+      "height": 12,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "electric",
       "secondaryType": "fighting",
@@ -98,6 +210,7 @@
         "tm:falseswipe",
         "tm:firepunch",
         "tm:focusblast",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:ironhead",
@@ -129,7 +242,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -155,6 +269,7 @@
     }
   ],
   "features": [
+    "nodorran",
     "epoch"
   ]
 }

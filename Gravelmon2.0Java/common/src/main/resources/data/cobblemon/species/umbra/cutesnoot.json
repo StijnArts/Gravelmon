@@ -122,7 +122,8 @@
     "tutor:aquatail",
     "tutor:endeavor",
     "tutor:foulplay",
-    "tutor:hypervoice"
+    "tutor:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3696,
+  "nationalPokedexNumber": 3704,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

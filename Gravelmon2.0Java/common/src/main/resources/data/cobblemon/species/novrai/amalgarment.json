@@ -135,7 +135,8 @@
     "tm:covet",
     "tm:paraboliccharge",
     "tm:watersport",
-    "tm:risingvoltage"
+    "tm:risingvoltage",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4899,
+  "nationalPokedexNumber": 4907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

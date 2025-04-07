@@ -77,7 +77,8 @@
     "74:ominouswind",
     "80:extremespeed",
     "86:futuresight",
-    "93:razorwind"
+    "93:razorwind",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4778,
+  "nationalPokedexNumber": 4786,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -75,7 +75,8 @@
     "41:bodyslam",
     "43:recover",
     "48:flamethrower",
-    "50:earthpower"
+    "50:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

@@ -99,7 +99,7 @@ public class HizianHeatmor extends drai.dev.data.pokemon.Pokemon {
                         ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 48, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 48, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

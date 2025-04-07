@@ -135,7 +135,8 @@
     "egg:curse",
     "egg:bulldoze",
     "egg:skullbash",
-    "egg:reversal"
+    "egg:reversal",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -148,7 +149,7 @@
   "weight": 2295,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

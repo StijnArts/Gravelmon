@@ -91,7 +91,7 @@ public class Leptric extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 34, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 34, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),

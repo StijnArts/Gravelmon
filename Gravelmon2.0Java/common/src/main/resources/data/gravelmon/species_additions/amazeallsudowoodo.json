@@ -135,7 +135,8 @@
         "egg:harden",
         "egg:headbutt",
         "egg:rockpolish",
-        "egg:rollout"
+        "egg:rollout",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

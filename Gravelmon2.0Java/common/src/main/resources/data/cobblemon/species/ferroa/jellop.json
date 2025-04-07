@@ -96,7 +96,8 @@
     "tm:throatchop",
     "tm:risingvoltage",
     "tm:coaching",
-    "tm:lashout"
+    "tm:lashout",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -124,7 +125,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1565,
+  "nationalPokedexNumber": 1568,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

@@ -65,7 +65,8 @@
     "4:stringshot",
     "8:bite",
     "12:bugbite",
-    "17:protect"
+    "17:protect",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5315,
+  "nationalPokedexNumber": 5323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

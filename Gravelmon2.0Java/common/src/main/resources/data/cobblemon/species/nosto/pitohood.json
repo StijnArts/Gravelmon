@@ -130,7 +130,8 @@
     "tm:mistyterrain",
     "tm:swift",
     "tm:wish",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3487,
+  "nationalPokedexNumber": 3495,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

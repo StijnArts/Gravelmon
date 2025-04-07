@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:watergun"
+    "1:watergun",
+    "1:leer",
+    "1:tailwhip",
+    "4:absorb",
+    "4:bubblebeam",
+    "7:trailblaze",
+    "7:aquatail",
+    "10:gigadrain",
+    "10:surf",
+    "13:seedbomb",
+    "13:waterfall",
+    "16:leafblade",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "fabel",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5635,
+  "nationalPokedexNumber": 5643,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -76,7 +76,8 @@
     "40:lightscreen",
     "44:strangesteam",
     "48:weatherball",
-    "60:morningsun"
+    "60:morningsun",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3324,
+  "nationalPokedexNumber": 3332,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

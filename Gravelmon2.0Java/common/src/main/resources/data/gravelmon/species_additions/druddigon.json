@@ -144,7 +144,8 @@
         "egg:suckerpunch",
         "egg:bide",
         "egg:screech",
-        "egg:dragonhammer"
+        "egg:dragonhammer",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -231,7 +232,29 @@
         "1:scratch",
         "1:mudslap",
         "1:bulkup",
-        "1:shoreup"
+        "1:shoreup",
+        "1:leer",
+        "1:growl",
+        "1:calmmind",
+        "1:bulkup",
+        "10:dragonrage",
+        "10:sandattack",
+        "10:taunt",
+        "10:calmmind",
+        "15:dualchop",
+        "15:mudbomb",
+        "15:substitute",
+        "15:taunt",
+        "20:breakingswipe",
+        "20:bulldoze",
+        "20:rest",
+        "20:substitute",
+        "25:dragonclaw",
+        "25:dig",
+        "25:rest",
+        "30:outrage",
+        "30:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -419,7 +442,8 @@
         "tm:iciclespear",
         "tm:morningsun",
         "tm:dragonhammer",
-        "tm:reversal"
+        "tm:reversal",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -571,7 +595,8 @@
         "tm:stealthrock",
         "tm:playrough",
         "tm:highhorsepower",
-        "tm:psychicfangs"
+        "tm:psychicfangs",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -743,7 +768,8 @@
         "egg:nightslash",
         "egg:poisontail",
         "egg:glare",
-        "egg:suckerpunch"
+        "egg:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

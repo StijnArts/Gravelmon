@@ -160,7 +160,8 @@
     "tm:firespin",
     "tm:crunch",
     "tm:needlearm",
-    "tm:pinmissile"
+    "tm:pinmissile",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -175,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1486,
+  "nationalPokedexNumber": 1489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

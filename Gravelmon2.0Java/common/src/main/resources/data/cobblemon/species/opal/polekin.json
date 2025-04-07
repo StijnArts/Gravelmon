@@ -80,7 +80,8 @@
     "egg:quickguard",
     "egg:rollout",
     "egg:megahorn",
-    "egg:synthesis"
+    "egg:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1477,
+  "nationalPokedexNumber": 1480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

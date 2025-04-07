@@ -80,7 +80,8 @@
     "tm:fakeout",
     "tm:discharge",
     "tm:electroball",
-    "tm:flipturn"
+    "tm:flipturn",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4414,
+  "nationalPokedexNumber": 4422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

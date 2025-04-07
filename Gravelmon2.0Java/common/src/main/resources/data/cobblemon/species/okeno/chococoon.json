@@ -65,7 +65,8 @@
     "15:endure",
     "tm:stickyweb",
     "tm:gastroacid",
-    "tm:belch"
+    "tm:belch",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4433,
+  "nationalPokedexNumber": 4441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

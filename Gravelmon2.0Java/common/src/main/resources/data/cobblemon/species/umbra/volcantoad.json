@@ -130,7 +130,8 @@
     "tutor:thunderpunch",
     "tutor:outrage",
     "tutor:earthpower",
-    "tutor:heatwave"
+    "tutor:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -145,7 +146,7 @@
   "weight": 3100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3722,
+  "nationalPokedexNumber": 3730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

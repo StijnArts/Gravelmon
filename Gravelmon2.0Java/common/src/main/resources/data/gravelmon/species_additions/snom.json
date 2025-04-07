@@ -118,7 +118,8 @@
         "tm:wish",
         "tm:workup",
         "egg:irondefense",
-        "egg:coil"
+        "egg:coil",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

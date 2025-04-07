@@ -128,7 +128,8 @@
     "egg:thunder",
     "egg:thunderpunch",
     "egg:wish",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -141,7 +142,7 @@
   "weight": 89,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4596,
+  "nationalPokedexNumber": 4604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,
@@ -216,7 +217,9 @@
         "human_like"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -291,7 +294,9 @@
         "human_like"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -366,7 +371,9 @@
         "human_like"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"

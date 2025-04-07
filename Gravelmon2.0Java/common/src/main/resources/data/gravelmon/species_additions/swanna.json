@@ -114,7 +114,8 @@
         "tm:toxic",
         "tm:waterpulse",
         "tm:wonderroom",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -259,7 +260,8 @@
         "egg:doubleteam",
         "egg:headsmash",
         "egg:knockoff",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

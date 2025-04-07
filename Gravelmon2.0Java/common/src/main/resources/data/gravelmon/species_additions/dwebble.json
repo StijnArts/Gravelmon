@@ -135,7 +135,8 @@
         "egg:shieldbash",
         "egg:ingrain",
         "egg:honeclaws",
-        "egg:smackdown"
+        "egg:smackdown",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -297,7 +298,8 @@
         "egg:curse",
         "egg:block",
         "egg:wideguard",
-        "egg:knockoff"
+        "egg:knockoff",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

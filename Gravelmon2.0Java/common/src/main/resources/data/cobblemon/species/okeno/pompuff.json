@@ -63,7 +63,30 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:thundershock"
+    "1:thundershock",
+    "1:stringshot",
+    "1:leer",
+    "10:silverwind",
+    "10:charge",
+    "15:signalbeam",
+    "15:shockwave",
+    "20:infestation",
+    "20:discharge",
+    "25:uturn",
+    "25:thunderbolt",
+    "30:bugbuzz",
+    "30:thunder",
+    "35:strugglebug",
+    "35:thundershock",
+    "40:stringshot",
+    "40:leer",
+    "45:leechlife",
+    "45:charge",
+    "50:lunge",
+    "50:thunderpunch",
+    "55:xscissor",
+    "55:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -91,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4458,
+  "nationalPokedexNumber": 4466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

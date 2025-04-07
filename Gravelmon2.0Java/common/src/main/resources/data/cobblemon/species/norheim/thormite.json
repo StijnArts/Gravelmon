@@ -70,7 +70,8 @@
     "30:firstimpression",
     "35:dragontail",
     "40:xscissor",
-    "45:brace"
+    "45:brace",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3086,
+  "nationalPokedexNumber": 3094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

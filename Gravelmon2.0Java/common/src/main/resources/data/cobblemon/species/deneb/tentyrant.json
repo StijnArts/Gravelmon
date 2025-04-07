@@ -123,7 +123,8 @@
     "egg:slam",
     "egg:snatch",
     "egg:tickle",
-    "egg:watergun"
+    "egg:watergun",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -135,7 +136,7 @@
   "weight": 785,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4500,
+  "nationalPokedexNumber": 4508,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

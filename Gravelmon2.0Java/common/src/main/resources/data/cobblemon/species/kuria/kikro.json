@@ -71,7 +71,8 @@
     "36:ironhead",
     "39:raindance",
     "40:hydropump",
-    "44:headcharge"
+    "44:headcharge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4115,
+  "nationalPokedexNumber": 4123,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

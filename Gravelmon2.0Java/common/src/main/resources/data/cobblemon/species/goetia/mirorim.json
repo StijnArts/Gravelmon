@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:screech",
+    "10:irontail",
+    "15:smartstrike",
+    "20:mirrorshot",
+    "25:flashcannon",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6035,
+  "nationalPokedexNumber": 6043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

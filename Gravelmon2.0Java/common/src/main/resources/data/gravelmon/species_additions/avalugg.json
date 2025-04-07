@@ -128,7 +128,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -234,7 +235,8 @@
         "51:recover",
         "26:icefang",
         "35:rapidspin",
-        "37:razorshell"
+        "37:razorshell",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -413,7 +415,8 @@
         "tutor:superpower",
         "tutor:twister",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

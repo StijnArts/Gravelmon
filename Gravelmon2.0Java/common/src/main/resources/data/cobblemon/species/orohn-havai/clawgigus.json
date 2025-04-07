@@ -74,7 +74,8 @@
     "38:crabhammer",
     "44:wideguard",
     "50:stoneedge",
-    "56:woodhammer"
+    "56:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2986,
+  "nationalPokedexNumber": 2994,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.125,

@@ -74,7 +74,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4230,
+  "nationalPokedexNumber": 4238,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

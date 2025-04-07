@@ -145,7 +145,8 @@
     "egg:meanlook",
     "egg:rockslide",
     "egg:suckerpunch",
-    "egg:toxicspikes"
+    "egg:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

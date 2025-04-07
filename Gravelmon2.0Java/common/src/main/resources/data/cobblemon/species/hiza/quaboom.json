@@ -77,7 +77,8 @@
     "33:rockslide",
     "39:powergem",
     "44:acidarmor",
-    "50:sludgewave"
+    "50:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2278,
+  "nationalPokedexNumber": 2286,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

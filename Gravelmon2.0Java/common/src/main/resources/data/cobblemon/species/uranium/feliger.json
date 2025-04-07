@@ -139,7 +139,8 @@
     "egg:crushclaw",
     "egg:curse",
     "egg:sleeptalk",
-    "egg:swagger"
+    "egg:swagger",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -154,7 +155,7 @@
   "weight": 1302,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 1992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -74,7 +74,8 @@
     "46:earthquake",
     "51:superpower",
     "56:stoneedge",
-    "61:sheercold"
+    "61:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5284,
+  "nationalPokedexNumber": 5292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

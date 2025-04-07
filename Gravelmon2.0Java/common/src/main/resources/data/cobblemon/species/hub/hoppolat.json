@@ -115,7 +115,8 @@
     "tm:takedown",
     "tm:toxic",
     "tm:doubleedge",
-    "tm:selfdestruct"
+    "tm:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1389,
+  "nationalPokedexNumber": 1392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

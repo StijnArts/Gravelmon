@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:tailwhip",
+    "1:defensecurl",
+    "4:bubblebeam",
+    "4:rollout",
+    "7:aquatail",
+    "7:smackdown",
+    "10:surf",
+    "10:rockblast",
+    "13:waterfall",
+    "13:stealthrock",
+    "16:liquidation",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 2815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

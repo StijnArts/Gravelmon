@@ -110,7 +110,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:superfang",
-    "tutor:waterpulse"
+    "tutor:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -122,7 +123,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1812,
+  "nationalPokedexNumber": 1815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

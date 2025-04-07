@@ -75,7 +75,8 @@
     "40:metalsound",
     "44:spikes",
     "48:irondefense",
-    "52:bravebird"
+    "52:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4321,
+  "nationalPokedexNumber": 4329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

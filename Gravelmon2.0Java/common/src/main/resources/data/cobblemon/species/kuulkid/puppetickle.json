@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:lowkick"
+    "1:lowkick",
+    "1:babydolleyes",
+    "1:leer",
+    "4:drainingkiss",
+    "4:revenge",
+    "7:playnice",
+    "7:vacuumwave",
+    "10:dazzlinggleam",
+    "10:brickbreak",
+    "13:hypervoice",
+    "13:aurasphere",
+    "16:moonblast",
+    "16:focusblast",
+    "19:disarmingvoice",
+    "19:lowkick",
+    "22:babydolleyes",
+    "22:leer",
+    "25:drainingkiss",
+    "25:revenge",
+    "28:playnice",
+    "28:lowsweep",
+    "31:dazzlinggleam",
+    "31:brickbreak",
+    "34:playrough",
+    "34:karatechop",
+    "39:spiritbreak",
+    "39:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -89,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2176,
+  "nationalPokedexNumber": 2184,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

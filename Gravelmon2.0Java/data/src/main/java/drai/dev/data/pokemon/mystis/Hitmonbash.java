@@ -139,11 +139,16 @@ public class Hitmonbash extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RUSHDOWN,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(0.32)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hitmonbash");
-
+        addAdditionalEvolution("tyrogue", new EvolutionEntry("hitmonbash", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"cobblemon:dusk_stone"));
     }
 
 

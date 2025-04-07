@@ -133,7 +133,8 @@
     "egg:stardust",
     "egg:sunnyday",
     "egg:superfang",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
   "weight": 494,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 4506,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:sandattack",
+    "1:babydolleyes",
+    "4:mudshot",
+    "4:drainingkiss",
+    "7:mudbomb",
+    "7:playnice",
+    "10:bulldoze",
+    "10:dazzlinggleam",
+    "13:scorchingsands",
+    "13:hypervoice",
+    "16:earthpower",
+    "16:moonblast",
+    "19:mudslap",
+    "19:disarmingvoice",
+    "22:growl",
+    "22:babydolleyes",
+    "25:sandattack",
+    "25:drainingkiss",
+    "28:mudbomb",
+    "28:playnice",
+    "31:bulldoze",
+    "31:dazzlinggleam",
+    "34:dig",
+    "34:playrough",
+    "39:earthquake",
+    "39:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -89,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2198,
+  "nationalPokedexNumber": 2206,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

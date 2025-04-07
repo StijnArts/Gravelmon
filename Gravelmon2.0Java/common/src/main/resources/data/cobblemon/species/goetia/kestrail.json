@@ -63,7 +63,23 @@
     "1:tackle",
     "1:peck",
     "1:extremespeed",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:quickattack",
+    "10:pluck",
+    "10:swordsdance",
+    "15:bite",
+    "15:wingattack",
+    "20:takedown",
+    "20:aerialace",
+    "25:crunch",
+    "25:drillpeck",
+    "30:doubleedge",
+    "30:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -105,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6067,
+  "nationalPokedexNumber": 6075,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

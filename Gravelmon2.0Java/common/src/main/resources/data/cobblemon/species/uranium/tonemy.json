@@ -118,7 +118,8 @@
     "egg:psybeam",
     "egg:destinybond",
     "egg:painsplit",
-    "egg:willowisp"
+    "egg:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 1988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

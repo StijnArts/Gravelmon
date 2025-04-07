@@ -73,7 +73,8 @@
     "38:frostbreath",
     "46:airslash",
     "50:skillswap",
-    "56:psychic"
+    "56:psychic",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5221,
+  "nationalPokedexNumber": 5229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

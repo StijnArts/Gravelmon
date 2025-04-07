@@ -62,7 +62,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:gust"
+        "1:gust",
+        "1:leer",
+        "4:aircutter",
+        "7:wingattack",
+        "10:airslash",
+        "13:drillpeck",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -251,7 +258,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -440,7 +448,8 @@
         "tutor:toxic",
         "tutor:uturn",
         "tutor:willowisp",
-        "tutor:workup"
+        "tutor:workup",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -555,7 +564,8 @@
         "33:rockslide",
         "39:crosspoison",
         "44:axekick",
-        "50:stoneedge"
+        "50:stoneedge",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

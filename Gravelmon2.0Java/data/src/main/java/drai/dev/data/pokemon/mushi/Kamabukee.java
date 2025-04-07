@@ -16,7 +16,7 @@ public class Kamabukee extends drai.dev.data.pokemon.Pokemon {
                         93,
                         50),
                 List.of(Ability.HYPER_CUTTER,Ability.FRISK), Ability.TECHNICIAN,
-                0, 0,
+                15, 0,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 159, ExperienceGroup.MEDIUM_SLOW,
@@ -27,7 +27,11 @@ public class Kamabukee extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_CHERRY_GROVE).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kamabukee");

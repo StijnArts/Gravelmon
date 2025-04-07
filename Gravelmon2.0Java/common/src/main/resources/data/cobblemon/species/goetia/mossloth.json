@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:synthesis"
+    "1:synthesis",
+    "1:leer",
+    "1:bulkup",
+    "10:megadrain",
+    "10:calmmind",
+    "15:magicalleaf",
+    "15:taunt",
+    "20:gigadrain",
+    "20:substitute",
+    "25:energyball",
+    "25:rest",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5818,
+  "nationalPokedexNumber": 5826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

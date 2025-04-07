@@ -87,7 +87,8 @@
     "tm:metalclaw",
     "tm:furycutter",
     "tm:protect",
-    "tm:firstimpression"
+    "tm:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1490,
+  "nationalPokedexNumber": 1493,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -43,7 +43,7 @@ public class Chaust extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENERGY_BALL,44)),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 14, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 14, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),

@@ -76,7 +76,8 @@
     "51:earthquake",
     "58:blizzard",
     "65:thrash",
-    "1:dragonbreath"
+    "1:dragonbreath",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4068,
+  "nationalPokedexNumber": 4076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

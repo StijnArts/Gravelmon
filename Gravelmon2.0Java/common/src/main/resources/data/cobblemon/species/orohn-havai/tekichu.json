@@ -72,7 +72,8 @@
     "46:wildcharge",
     "52:hammerarm",
     "55:plasmafists",
-    "60:gigaimpact"
+    "60:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3032,
+  "nationalPokedexNumber": 3040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

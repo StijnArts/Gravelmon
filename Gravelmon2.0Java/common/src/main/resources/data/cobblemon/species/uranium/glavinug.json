@@ -124,7 +124,8 @@
     "egg:bodyslam",
     "egg:screech",
     "egg:curse",
-    "egg:sludge"
+    "egg:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -139,7 +140,7 @@
   "weight": 444,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2021,
+  "nationalPokedexNumber": 2024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

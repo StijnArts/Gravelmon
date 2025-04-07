@@ -74,7 +74,8 @@
     "49:flareblitz",
     "54:recover",
     "60:burnup",
-    "64:bellydrum"
+    "64:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2974,
+  "nationalPokedexNumber": 2982,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

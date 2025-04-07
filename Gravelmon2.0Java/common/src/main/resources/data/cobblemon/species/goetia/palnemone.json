@@ -64,7 +64,28 @@
     "1:watergun",
     "1:acid",
     "1:bulkup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:tailwhip",
+    "1:leer",
+    "1:calmmind",
+    "1:calmmind",
+    "10:bubblebeam",
+    "10:clearsmog",
+    "10:taunt",
+    "10:taunt",
+    "15:brine",
+    "15:sludge",
+    "15:substitute",
+    "15:substitute",
+    "20:surf",
+    "20:toxicspikes",
+    "20:rest",
+    "20:rest",
+    "25:chillingwater",
+    "25:sludgebomb",
+    "30:hydropump",
+    "30:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -94,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6059,
+  "nationalPokedexNumber": 6067,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

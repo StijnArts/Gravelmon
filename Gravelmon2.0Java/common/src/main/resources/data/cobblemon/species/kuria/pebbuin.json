@@ -70,7 +70,8 @@
     "43:incinerate",
     "50:ancientpower",
     "57:flamecharge",
-    "64:explosion"
+    "64:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4171,
+  "nationalPokedexNumber": 4179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

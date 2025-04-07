@@ -78,7 +78,8 @@
     "39:swordsdance",
     "42:outrage",
     "45:guillotine",
-    "48:gigaimpact"
+    "48:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 474,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4179,
+  "nationalPokedexNumber": 4187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

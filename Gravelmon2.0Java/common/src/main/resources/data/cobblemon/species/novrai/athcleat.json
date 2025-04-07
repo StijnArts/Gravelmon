@@ -132,7 +132,8 @@
     "tm:batonpass",
     "tm:submission",
     "tm:highhorsepower",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4905,
+  "nationalPokedexNumber": 4913,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

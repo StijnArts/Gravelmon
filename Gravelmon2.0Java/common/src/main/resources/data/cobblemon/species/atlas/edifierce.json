@@ -113,7 +113,8 @@
     "tm:shadowclaw",
     "tm:heavyslam",
     "tm:hornattack",
-    "tm:smartstrike"
+    "tm:smartstrike",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5178,
+  "nationalPokedexNumber": 5186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

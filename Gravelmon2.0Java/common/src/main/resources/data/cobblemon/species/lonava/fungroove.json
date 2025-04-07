@@ -135,7 +135,8 @@
     "tm:venoshock",
     "tm:workup",
     "tm:zenheadbutt",
-    "tm:moonblast"
+    "tm:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3316,
+  "nationalPokedexNumber": 3324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

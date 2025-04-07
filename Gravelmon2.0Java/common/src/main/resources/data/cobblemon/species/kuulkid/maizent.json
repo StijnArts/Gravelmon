@@ -61,7 +61,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "4:charge",
+    "7:shockwave",
+    "10:discharge",
+    "13:thunderbolt",
+    "16:thunder",
+    "19:thundershock",
+    "22:leer",
+    "25:charge",
+    "28:thunderpunch",
+    "31:discharge",
+    "34:wildcharge",
+    "39:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -91,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2146,
+  "nationalPokedexNumber": 2154,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

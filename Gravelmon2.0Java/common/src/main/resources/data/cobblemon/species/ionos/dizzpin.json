@@ -94,7 +94,8 @@
     "tm:tailwind",
     "tm:whirlpool",
     "tm:leaftornado",
-    "tm:gust"
+    "tm:gust",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -107,7 +108,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4727,
+  "nationalPokedexNumber": 4735,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

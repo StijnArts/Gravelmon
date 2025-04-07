@@ -135,7 +135,8 @@
     "tm:bestow",
     "tm:healpulse",
     "tm:batonpass",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4872,
+  "nationalPokedexNumber": 4880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

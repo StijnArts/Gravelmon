@@ -48,7 +48,7 @@ public class Unifly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

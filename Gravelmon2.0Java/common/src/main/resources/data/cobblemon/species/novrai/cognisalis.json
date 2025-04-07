@@ -63,7 +63,8 @@
   "drops": {},
   "moves": [
     "1:amnesia",
-    "20:storedpower"
+    "20:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4843,
+  "nationalPokedexNumber": 4851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

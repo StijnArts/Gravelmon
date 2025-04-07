@@ -75,7 +75,8 @@
     "36:psychic",
     "40:afteryou",
     "44:calmmind",
-    "48:psychicterrain"
+    "48:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1681,
+  "nationalPokedexNumber": 1684,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

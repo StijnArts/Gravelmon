@@ -94,7 +94,8 @@
     "egg:zenheadbutt",
     "egg:mudsport",
     "egg:mudbomb",
-    "egg:mudshot"
+    "egg:mudshot",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4602,
+  "nationalPokedexNumber": 4610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

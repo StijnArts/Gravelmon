@@ -79,7 +79,8 @@
     "42:energyball",
     "46:cottonspore",
     "50:sandstorm",
-    "54:destinybond"
+    "54:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2298,
+  "nationalPokedexNumber": 2306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -70,7 +70,8 @@
     "1:bulldoze",
     "1:heatcrash",
     "1:firefang",
-    "1:crunch"
+    "1:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -85,7 +86,7 @@
   "weight": 2898,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3266,
+  "nationalPokedexNumber": 3274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

@@ -64,7 +64,8 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:lockon"
+    "1:lockon",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -79,7 +80,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1671,
+  "nationalPokedexNumber": 1674,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -71,7 +71,8 @@
     "28:jumpkick",
     "34:megakick",
     "40:agility",
-    "51:highjumpkick"
+    "51:highjumpkick",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2278,
+  "nationalPokedexNumber": 2286,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

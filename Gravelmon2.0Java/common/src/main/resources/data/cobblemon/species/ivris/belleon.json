@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "4:revenge",
+    "7:lowsweep",
+    "10:brickbreak",
+    "13:karatechop",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3626,
+  "nationalPokedexNumber": 3634,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

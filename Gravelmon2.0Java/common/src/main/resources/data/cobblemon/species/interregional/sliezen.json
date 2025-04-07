@@ -73,7 +73,8 @@
     "50:auroraveil",
     "57:swagger",
     "64:iciclecrash",
-    "71:sheercold"
+    "71:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

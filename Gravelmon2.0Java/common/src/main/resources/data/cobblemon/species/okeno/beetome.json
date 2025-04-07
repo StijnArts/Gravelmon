@@ -71,7 +71,8 @@
     "36:embargo",
     "45:playrough",
     "50:magiccoat",
-    "55:megahorn"
+    "55:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4417,
+  "nationalPokedexNumber": 4425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

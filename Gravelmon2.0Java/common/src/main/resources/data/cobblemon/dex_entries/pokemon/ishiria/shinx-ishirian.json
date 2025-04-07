@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shinx-ishirian",
+  "speciesId": "cobblemon:shinx",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

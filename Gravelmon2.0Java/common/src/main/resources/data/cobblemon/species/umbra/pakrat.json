@@ -129,7 +129,8 @@
     "tutor:superfang",
     "tutor:gunkshot",
     "tutor:hypervoice",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -87,7 +87,34 @@
       "drops": {},
       "moves": [
         "1:disarmingvoice",
-        "1:absorb"
+        "1:absorb",
+        "1:babydolleyes",
+        "1:leer",
+        "4:drainingkiss",
+        "4:megadrain",
+        "7:playnice",
+        "7:magicalleaf",
+        "10:dazzlinggleam",
+        "10:gigadrain",
+        "13:hypervoice",
+        "13:energyball",
+        "16:moonblast",
+        "16:solarbeam",
+        "19:disarmingvoice",
+        "19:leafage",
+        "22:babydolleyes",
+        "22:leer",
+        "25:drainingkiss",
+        "25:absorb",
+        "28:playnice",
+        "28:trailblaze",
+        "31:dazzlinggleam",
+        "31:gigadrain",
+        "34:playrough",
+        "34:seedbomb",
+        "39:spiritbreak",
+        "39:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -249,7 +276,8 @@
         "tm:willowisp",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -463,7 +491,8 @@
         "tm:grudge",
         "tm:shadowsneak",
         "tm:synchronoise",
-        "tm:mistyterrain"
+        "tm:mistyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -654,7 +683,8 @@
         "tutor:thunderpunch",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -864,7 +894,8 @@
         "tm:zenheadbutt",
         "tm:blizzard",
         "tm:icywind",
-        "tm:hex"
+        "tm:hex",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -906,6 +937,197 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 97,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "ralts form=ishirian",
+      "baseScale": 0.36923076923076925,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "trace",
+        "h:telepathy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 38,
+        "attack": 60,
+        "defence": 35,
+        "special_attack": 60,
+        "special_defence": 35,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "4:disarmingvoice",
+        "6:doubleteam",
+        "8:feintattack",
+        "9:teleport",
+        "11:confusion",
+        "17:magicalleaf",
+        "19:nightslash",
+        "23:drainingkiss",
+        "26:calmmind",
+        "30:nightdaze",
+        "33:imprison",
+        "37:darkpulse",
+        "40:charm",
+        "44:hypnosis",
+        "47:dreameater",
+        "51:storedpower",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:flash",
+        "tm:thunderwave",
+        "tm:psychup",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:dazzlinggleam",
+        "tm:confide",
+        "tm:snore",
+        "tm:secretpower",
+        "tm:endure",
+        "tm:terablast",
+        "tm:allyswitch",
+        "tm:confuseray",
+        "tm:destinybond",
+        "tm:disable",
+        "tm:encore",
+        "tm:grudge",
+        "tm:meanlook",
+        "tm:memento",
+        "tm:mistyterrain",
+        "tm:shadowsneak",
+        "tm:skillswap",
+        "tm:synchronoise",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriankirlia.desc"
+      ],
+      "height": 8,
+      "weight": 202,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [
+        {
+          "id": "ishiriankirlia_gardevoir_ishirian",
+          "variant": "level_up",
+          "result": "gardevoir ishirian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        },
+        {
+          "id": "ishiriankirlia_gallade_ishirian",
+          "variant": "item_interact",
+          "result": "gallade ishirian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "gender=male",
+              "contains": true
+            }
+          ],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -913,6 +1135,7 @@
     "epoch",
     "avalossian",
     "delta",
-    "ayreian"
+    "ayreian",
+    "ishirian"
   ]
 }

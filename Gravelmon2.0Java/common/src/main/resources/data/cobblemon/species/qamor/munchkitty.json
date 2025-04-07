@@ -81,7 +81,8 @@
     "tm:dragondance",
     "tm:calmmind",
     "tm:irontail",
-    "tm:assist"
+    "tm:assist",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3998,
+  "nationalPokedexNumber": 4006,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

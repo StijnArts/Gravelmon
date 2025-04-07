@@ -111,6 +111,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -148,7 +149,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

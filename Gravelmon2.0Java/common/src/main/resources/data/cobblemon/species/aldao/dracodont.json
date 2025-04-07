@@ -64,7 +64,22 @@
     "1:watergun",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:tailwhip",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:bubblebeam",
+    "4:aircutter",
+    "7:brine",
+    "7:wingattack",
+    "10:surf",
+    "10:airslash",
+    "13:chillingwater",
+    "13:drillpeck",
+    "16:hydropump",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2815,
+  "nationalPokedexNumber": 2823,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:icywind",
+    "4:confuseray",
+    "7:icepunch",
+    "7:hex",
+    "10:icespinner",
+    "10:shadowclaw",
+    "13:iceshard",
+    "13:phantomforce",
+    "16:iciclecrash",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2842,
+  "nationalPokedexNumber": 2850,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

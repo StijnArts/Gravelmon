@@ -149,7 +149,8 @@
         "egg:stompingtantrum",
         "egg:heavyslam",
         "egg:wish",
-        "egg:healbell"
+        "egg:healbell",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

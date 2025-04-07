@@ -66,18 +66,23 @@ public class Sapeeko extends drai.dev.data.pokemon.Pokemon {
                         46,
                         24),
                 List.of(Ability.SAP_SIPPER,Ability.LEAF_GUARD), Ability.LIGHTNING_ROD,
-                0, 0,
+                8, 0,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("grobolt", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sapeeko");

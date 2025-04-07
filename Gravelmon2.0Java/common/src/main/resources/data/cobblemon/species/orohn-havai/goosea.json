@@ -82,7 +82,8 @@
     "tm:brine",
     "tm:aquaring",
     "tm:bravebird",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2948,
+  "nationalPokedexNumber": 2956,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

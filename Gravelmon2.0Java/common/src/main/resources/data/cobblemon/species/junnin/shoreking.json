@@ -98,7 +98,8 @@
     "tm:rest",
     "tm:sandstorm",
     "tm:raindance",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -113,7 +114,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2440,
+  "nationalPokedexNumber": 2448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

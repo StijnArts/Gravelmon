@@ -74,7 +74,8 @@
     "36:crushclaw",
     "40:shadowclaw",
     "43:megahorn",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1742,
+  "nationalPokedexNumber": 1745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

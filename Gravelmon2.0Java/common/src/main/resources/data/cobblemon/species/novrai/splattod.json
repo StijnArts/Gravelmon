@@ -132,7 +132,8 @@
     "tm:firstimpression",
     "tm:infestation",
     "tm:endure",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4881,
+  "nationalPokedexNumber": 4889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

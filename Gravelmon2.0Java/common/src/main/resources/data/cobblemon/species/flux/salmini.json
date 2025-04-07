@@ -75,7 +75,8 @@
     "33:aquatail",
     "37:finalgambit",
     "egg:reversal",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 2122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -141,7 +141,8 @@
         "egg:revenge",
         "egg:headbutt",
         "egg:takedown",
-        "egg:bide"
+        "egg:bide",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -255,7 +256,8 @@
         "36:shadowclaw",
         "40:doubleedge",
         "44:swordsdance",
-        "48:drainpunch"
+        "48:drainpunch",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

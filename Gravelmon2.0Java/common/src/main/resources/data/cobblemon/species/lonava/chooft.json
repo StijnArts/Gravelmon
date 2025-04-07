@@ -73,7 +73,8 @@
     "37:spitup",
     "41:doubleedge",
     "47:thunderbolt",
-    "53:wildcharge"
+    "53:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3351,
+  "nationalPokedexNumber": 3359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

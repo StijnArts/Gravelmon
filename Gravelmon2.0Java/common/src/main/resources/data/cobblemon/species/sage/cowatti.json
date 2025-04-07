@@ -133,7 +133,8 @@
     "egg:irontail",
     "egg:odorsleuth",
     "egg:superfang",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

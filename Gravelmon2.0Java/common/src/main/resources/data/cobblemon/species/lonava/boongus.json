@@ -149,7 +149,8 @@
     "tm:willowisp",
     "tm:aromatherapy",
     "tm:sleeppowder",
-    "tm:stunspore"
+    "tm:stunspore",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -177,7 +178,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3332,
+  "nationalPokedexNumber": 3340,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -76,7 +76,8 @@
     "36:takedown",
     "41:blizzard",
     "46:doubleedge",
-    "51:iciclecrash"
+    "51:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2408,
+  "nationalPokedexNumber": 2416,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

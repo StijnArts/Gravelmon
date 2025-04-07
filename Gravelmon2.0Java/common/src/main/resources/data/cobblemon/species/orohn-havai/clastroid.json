@@ -74,7 +74,8 @@
     "30:icebeam",
     "33:protect",
     "36:powergem",
-    "40:iciclecrash"
+    "40:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3011,
+  "nationalPokedexNumber": 3019,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

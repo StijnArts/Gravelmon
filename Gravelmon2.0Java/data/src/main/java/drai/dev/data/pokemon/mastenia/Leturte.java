@@ -16,7 +16,7 @@ public class Leturte extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.RATTLED), Ability.SAND_FORCE,
-                0, 0,
+                9, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -28,7 +28,11 @@ public class Leturte extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ),
-                new PokemonSpawnDataBuilder().build(),
+                new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(13).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_ARID)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Leturte");

@@ -81,7 +81,8 @@
     "egg:counter",
     "egg:wish",
     "egg:bellydrum",
-    "egg:electrify"
+    "egg:electrify",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -94,7 +95,7 @@
   "weight": 500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2122,
+  "nationalPokedexNumber": 2125,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -20,6 +20,12 @@
       ]
     },
     {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    },
+    {
       "displayForm": "Epoch",
       "unlockForms": [
         "Epoch"
@@ -29,6 +35,12 @@
       "displayForm": "Hoennian",
       "unlockForms": [
         "Hoennian"
+      ]
+    },
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
       ]
     }
   ]

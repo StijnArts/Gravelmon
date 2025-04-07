@@ -126,7 +126,8 @@
     "tutor:snore",
     "tutor:tailwind",
     "tutor:velvetscales",
-    "tutor:waterpulse"
+    "tutor:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -140,7 +141,7 @@
   "weight": 2410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1793,
+  "nationalPokedexNumber": 1796,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

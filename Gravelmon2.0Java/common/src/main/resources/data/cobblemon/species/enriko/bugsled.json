@@ -67,7 +67,8 @@
     "10:pinmissile",
     "16:harden",
     "20:rapidspin",
-    "26:irondefense"
+    "26:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1732,
+  "nationalPokedexNumber": 1735,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

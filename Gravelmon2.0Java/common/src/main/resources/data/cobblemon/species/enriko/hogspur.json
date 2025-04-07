@@ -67,7 +67,8 @@
     "13:rockthrow",
     "16:assist",
     "21:dig",
-    "25:helpinghand"
+    "25:helpinghand",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1637,
+  "nationalPokedexNumber": 1640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

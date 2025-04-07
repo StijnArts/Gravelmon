@@ -191,7 +191,8 @@
     "tm:mysticalfire",
     "tm:smokescreen",
     "tm:synchronoise",
-    "tm:yawn"
+    "tm:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -204,7 +205,7 @@
   "weight": 240,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3358,
+  "nationalPokedexNumber": 3366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

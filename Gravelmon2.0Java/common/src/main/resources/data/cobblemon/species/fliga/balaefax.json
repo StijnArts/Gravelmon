@@ -131,7 +131,8 @@
     "tm:substitute",
     "tm:strength",
     "tm:poisonjab",
-    "tm:acrobatics"
+    "tm:acrobatics",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -146,7 +147,7 @@
   "weight": 667,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3927,
+  "nationalPokedexNumber": 3935,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

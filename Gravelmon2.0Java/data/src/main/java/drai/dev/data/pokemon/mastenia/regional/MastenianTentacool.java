@@ -28,7 +28,7 @@ public class MastenianTentacool extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 13, 32, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 13, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

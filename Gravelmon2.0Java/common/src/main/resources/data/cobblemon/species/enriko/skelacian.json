@@ -70,7 +70,8 @@
     "29:confuseray",
     "37:abyssallure",
     "41:shadowsneak",
-    "46:hydropump"
+    "46:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1703,
+  "nationalPokedexNumber": 1706,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -80,7 +80,8 @@
     "egg:thunderfang",
     "egg:uproar",
     "egg:flamewheel",
-    "egg:fakeout"
+    "egg:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -95,7 +96,7 @@
   "weight": 454,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2132,
+  "nationalPokedexNumber": 2135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

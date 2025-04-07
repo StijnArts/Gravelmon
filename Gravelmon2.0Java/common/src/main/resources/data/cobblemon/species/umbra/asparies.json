@@ -120,7 +120,8 @@
     "tutor:gigadrain",
     "tutor:synthesis",
     "tutor:seedbomb",
-    "tutor:earthpower"
+    "tutor:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -135,7 +136,7 @@
   "weight": 1026,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3709,
+  "nationalPokedexNumber": 3717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

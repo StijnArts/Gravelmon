@@ -71,7 +71,8 @@
     "32:fakeout",
     "40:nastyplot",
     "44:nightslash",
-    "49:darkpulse"
+    "49:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

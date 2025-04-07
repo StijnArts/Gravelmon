@@ -120,7 +120,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:willowisp",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -223,7 +224,8 @@
         "42:energyball",
         "46:cottonspore",
         "50:sandstorm",
-        "54:destinybond"
+        "54:destinybond",
+        "tm:terablast"
       ],
       "labels": [
         "nosto",

@@ -129,7 +129,8 @@
     "tm:furyswipes",
     "tm:grudge",
     "tm:bounce",
-    "tm:psychocut"
+    "tm:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3903,
+  "nationalPokedexNumber": 3911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:scratch"
+    "1:scratch",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:dragonrage",
+    "7:aquatail",
+    "7:dualchop",
+    "10:surf",
+    "10:breakingswipe",
+    "13:waterfall",
+    "13:dragonclaw",
+    "16:liquidation",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2677,
+  "nationalPokedexNumber": 2685,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

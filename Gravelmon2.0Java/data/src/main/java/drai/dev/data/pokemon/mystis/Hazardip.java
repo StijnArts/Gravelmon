@@ -16,8 +16,8 @@ public class Hazardip extends drai.dev.data.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.COMPOUND_EYES), Ability.CONTAMINATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 170, ExperienceGroup.ERRATIC,
                 70,
@@ -27,9 +27,14 @@ public class Hazardip extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(24).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Hazardip");
 
     }

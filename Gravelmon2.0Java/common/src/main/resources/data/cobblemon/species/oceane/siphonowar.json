@@ -71,7 +71,8 @@
     "1:calmmind",
     "1:signalbeam",
     "1:moonlight",
-    "1:telekinesis"
+    "1:telekinesis",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1886,
+  "nationalPokedexNumber": 1889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

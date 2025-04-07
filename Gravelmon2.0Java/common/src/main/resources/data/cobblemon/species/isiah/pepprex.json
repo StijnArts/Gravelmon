@@ -115,7 +115,8 @@
     "tm:sludgebomb",
     "tm:toxic",
     "tm:venoshock",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4255,
+  "nationalPokedexNumber": 4263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

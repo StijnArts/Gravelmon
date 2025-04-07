@@ -133,7 +133,8 @@
     "egg:sunnyday",
     "egg:sweetscent",
     "egg:thunderbolt",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -146,7 +147,7 @@
   "weight": 152,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4588,
+  "nationalPokedexNumber": 4596,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

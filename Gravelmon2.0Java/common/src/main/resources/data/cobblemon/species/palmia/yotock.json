@@ -61,7 +61,15 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:quickattack"
+    "1:quickattack",
+    "1:defensecurl",
+    "1:swordsdance",
+    "4:rollout",
+    "7:smackdown",
+    "10:rockblast",
+    "13:stealthrock",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -76,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 2708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

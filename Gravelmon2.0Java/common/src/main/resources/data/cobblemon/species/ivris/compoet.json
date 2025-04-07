@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "4:psybeam",
+    "7:futuresight",
+    "10:psychic",
+    "13:psyshock",
+    "16:psychoboost",
+    "19:confusion",
+    "22:growl",
+    "25:psybeam",
+    "28:futuresight",
+    "31:psychic",
+    "34:zenheadbutt",
+    "39:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -74,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3599,
+  "nationalPokedexNumber": 3607,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

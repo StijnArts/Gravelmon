@@ -122,7 +122,8 @@
     "tutor:gunkshot",
     "tutor:knockoff",
     "egg:leechseed",
-    "egg:spikes"
+    "egg:spikes",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -135,7 +136,7 @@
   "weight": 522,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3705,
+  "nationalPokedexNumber": 3713,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -28,7 +28,7 @@ public class Tennestrian extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
                 List.of(SpawnPreset.TRAIL_RUINS),

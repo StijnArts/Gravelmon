@@ -84,6 +84,8 @@
     "tutor:spikes",
     "tutor:incinerate",
     "tutor:endeavor",
+    "tutor:boldblaze",
+    "tutor:terrafirm",
     "tutor:fireblast",
     "tm:ancientpower",
     "tm:frustration",
@@ -92,13 +94,15 @@
     "tm:willowisp",
     "tm:strength",
     "egg:curse",
+    "egg:soilthrow",
     "egg:howl",
     "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",
     "egg:outrage",
     "egg:superfang",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4538,
+  "nationalPokedexNumber": 4546,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

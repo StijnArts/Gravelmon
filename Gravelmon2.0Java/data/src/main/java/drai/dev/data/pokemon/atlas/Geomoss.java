@@ -85,7 +85,7 @@ public class Geomoss extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SEED_BOMB,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),

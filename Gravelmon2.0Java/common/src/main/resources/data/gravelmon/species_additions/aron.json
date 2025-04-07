@@ -142,7 +142,8 @@
         "egg:dig",
         "egg:sandtomb",
         "egg:hivemind",
-        "egg:uturn"
+        "egg:uturn",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -314,7 +315,8 @@
         "tm:doubleedge",
         "tm:endeavor",
         "tm:scorchingsands",
-        "tm:curse"
+        "tm:curse",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -493,7 +495,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:superpower",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -705,7 +708,8 @@
         "egg:block",
         "egg:stealthrock",
         "egg:endure",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

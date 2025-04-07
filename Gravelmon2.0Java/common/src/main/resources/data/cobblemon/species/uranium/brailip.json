@@ -124,7 +124,8 @@
     "egg:watersport",
     "egg:amnesia",
     "egg:sleeptalk",
-    "egg:psybeam"
+    "egg:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1994,
+  "nationalPokedexNumber": 1997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

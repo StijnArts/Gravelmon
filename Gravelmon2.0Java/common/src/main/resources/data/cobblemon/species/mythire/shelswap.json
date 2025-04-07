@@ -77,7 +77,8 @@
     "1:curse",
     "1:perishsong",
     "1:moonblast",
-    "1:featherdance"
+    "1:featherdance",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3905,
+  "nationalPokedexNumber": 3913,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

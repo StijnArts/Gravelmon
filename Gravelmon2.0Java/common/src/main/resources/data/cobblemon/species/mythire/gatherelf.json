@@ -114,7 +114,8 @@
     "tm:gust",
     "tm:tearfullook",
     "tm:cottonspore",
-    "tm:tickle"
+    "tm:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3848,
+  "nationalPokedexNumber": 3856,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

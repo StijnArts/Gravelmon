@@ -74,7 +74,8 @@
     "37:endeavor",
     "40:doubleedge",
     "43:steelroller",
-    "47:skullbash"
+    "47:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4722,
+  "nationalPokedexNumber": 4730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

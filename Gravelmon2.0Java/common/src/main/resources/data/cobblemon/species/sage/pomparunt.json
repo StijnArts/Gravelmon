@@ -133,7 +133,8 @@
     "tutor:swift",
     "tutor:trick",
     "tutor:uproar",
-    "egg:quickguard"
+    "egg:quickguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

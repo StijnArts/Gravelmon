@@ -121,7 +121,8 @@
     "egg:psychup",
     "egg:skyattack",
     "egg:weatherball",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

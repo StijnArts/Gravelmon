@@ -119,7 +119,8 @@
     "tm:acid",
     "tm:drillpeck",
     "tm:pursuit",
-    "tm:bite"
+    "tm:bite",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4929,
+  "nationalPokedexNumber": 4937,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

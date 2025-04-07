@@ -78,7 +78,8 @@
     "tm:wish",
     "tm:psychoshift",
     "tm:storedpower",
-    "tm:hex"
+    "tm:hex",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3232,
+  "nationalPokedexNumber": 3240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

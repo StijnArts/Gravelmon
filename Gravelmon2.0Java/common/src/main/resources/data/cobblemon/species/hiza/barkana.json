@@ -71,7 +71,8 @@
     "30:retaliate",
     "37:synthesis",
     "49:powerwhip",
-    "56:lastresort"
+    "56:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2301,
+  "nationalPokedexNumber": 2309,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

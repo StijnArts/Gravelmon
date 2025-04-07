@@ -74,7 +74,8 @@
     "45:earthquake",
     "51:highhorsepower",
     "57:fissure",
-    "tm:bodyslam"
+    "tm:bodyslam",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3348,
+  "nationalPokedexNumber": 3356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

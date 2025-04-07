@@ -138,7 +138,8 @@
     "tm:rockslide",
     "tm:aurasphere",
     "tm:focusblast",
-    "tm:powertrip"
+    "tm:powertrip",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -151,7 +152,7 @@
   "weight": 4480,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

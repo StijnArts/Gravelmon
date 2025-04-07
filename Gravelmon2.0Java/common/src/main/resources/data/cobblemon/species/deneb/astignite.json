@@ -130,7 +130,8 @@
     "egg:steamroller",
     "egg:stoneedge",
     "egg:sunnyday",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -145,7 +146,7 @@
   "weight": 975,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4490,
+  "nationalPokedexNumber": 4498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

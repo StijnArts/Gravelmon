@@ -70,7 +70,8 @@
     "24:flameburst",
     "28:slash",
     "32:firefang",
-    "40:flamethrower"
+    "40:flamethrower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3129,
+  "nationalPokedexNumber": 3137,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -140,7 +140,8 @@
     "tutor:stealthrock",
     "tutor:superfang",
     "tutor:superpower",
-    "tutor:thunderpunch"
+    "tutor:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -154,7 +155,7 @@
   "weight": 346,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1782,
+  "nationalPokedexNumber": 1785,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

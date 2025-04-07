@@ -73,7 +73,8 @@
     "40:earthquake",
     "44:explosion",
     "50:doubleedge",
-    "54:stoneedge"
+    "54:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1902,
+  "nationalPokedexNumber": 1905,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

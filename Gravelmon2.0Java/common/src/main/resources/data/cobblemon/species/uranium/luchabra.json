@@ -200,7 +200,8 @@
     "egg:machpunch",
     "egg:doubleteam",
     "egg:seismictoss",
-    "egg:reversal"
+    "egg:reversal",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -215,7 +216,7 @@
   "weight": 985,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2046,
+  "nationalPokedexNumber": 2049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

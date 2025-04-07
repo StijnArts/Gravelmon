@@ -122,7 +122,8 @@
     "tm:smackdown",
     "tm:flashcannon",
     "tm:gyroball",
-    "tm:smartstrike"
+    "tm:smartstrike",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2459,
+  "nationalPokedexNumber": 2467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

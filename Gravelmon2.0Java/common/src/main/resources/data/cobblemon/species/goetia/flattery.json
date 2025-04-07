@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "10:charge",
+    "10:irontail",
+    "15:shockwave",
+    "15:smartstrike",
+    "20:discharge",
+    "20:mirrorshot",
+    "25:thunderbolt",
+    "25:flashcannon",
+    "30:thunder",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -85,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5927,
+  "nationalPokedexNumber": 5935,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -76,7 +76,8 @@
     "33:rockslide",
     "39:powergem",
     "44:acidarmor",
-    "50:sludgewave"
+    "50:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5271,
+  "nationalPokedexNumber": 5279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

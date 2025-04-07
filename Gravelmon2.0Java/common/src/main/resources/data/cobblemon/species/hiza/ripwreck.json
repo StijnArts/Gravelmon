@@ -76,7 +76,8 @@
     "46:aquatail",
     "51:hydropump",
     "59:rockslide",
-    "69:stoneedge"
+    "69:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2366,
+  "nationalPokedexNumber": 2374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:growl",
+        "1:babydolleyes",
+        "4:icywind",
+        "4:drainingkiss",
+        "7:aurorabeam",
+        "7:playnice",
+        "10:freezedry",
+        "10:dazzlinggleam",
+        "13:icebeam",
+        "13:hypervoice",
+        "16:blizzard",
+        "16:moonblast",
+        "19:powdersnow",
+        "19:disarmingvoice",
+        "22:growl",
+        "22:babydolleyes",
+        "25:icywind",
+        "25:drainingkiss",
+        "28:icepunch",
+        "28:playnice",
+        "31:icespinner",
+        "31:dazzlinggleam",
+        "34:iceshard",
+        "34:playrough",
+        "39:iciclecrash",
+        "39:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -186,6 +213,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:ironhead",
@@ -226,7 +254,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -401,7 +430,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -580,7 +610,8 @@
         "tm:pinmissile",
         "tm:partingshot",
         "tm:darkestlariat",
-        "tm:furyswipes"
+        "tm:furyswipes",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -728,7 +759,8 @@
         "tm:foulplay",
         "tm:playrough",
         "tm:dazzlinggleam",
-        "tm:throatchop"
+        "tm:throatchop",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -766,6 +798,136 @@
         "height": 4.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Mystisian",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 120,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "impidimp form=mystisian",
+      "baseScale": 0.32000000000000006,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 60,
+        "defence": 75,
+        "special_attack": 75,
+        "special_defence": 65,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:metalclaw",
+        "1:growl",
+        "1:screech",
+        "4:firespin",
+        "4:irontail",
+        "7:flamecharge",
+        "7:smartstrike",
+        "10:flameburst",
+        "10:mirrorshot",
+        "13:flamethrower",
+        "13:flashcannon",
+        "16:fireblast",
+        "16:steelbeam",
+        "19:ember",
+        "19:metalclaw",
+        "22:growl",
+        "22:screech",
+        "25:quickattack",
+        "25:irontail",
+        "28:flamecharge",
+        "28:smartstrike",
+        "31:firepunch",
+        "31:ironhead",
+        "34:willowisp",
+        "34:meteormash",
+        "39:flareblitz",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mystis",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mystisianmorgrem.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "mystisian"
+      ],
+      "evolutions": [
+        {
+          "id": "mystisianmorgrem_grimmsnarl_mystisian",
+          "variant": "level_up",
+          "result": "grimmsnarl mystisian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "42"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.75,
+        "height": 3.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -773,6 +935,7 @@
     "epoch",
     "epochtwo",
     "novran",
-    "varitasian"
+    "varitasian",
+    "mystisian"
   ]
 }

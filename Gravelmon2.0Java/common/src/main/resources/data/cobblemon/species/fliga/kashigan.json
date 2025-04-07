@@ -82,7 +82,8 @@
     "49:psyshock",
     "tm:hypnosis",
     "tm:wish",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3932,
+  "nationalPokedexNumber": 3940,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

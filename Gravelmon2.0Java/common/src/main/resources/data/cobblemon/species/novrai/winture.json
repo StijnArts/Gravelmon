@@ -128,7 +128,8 @@
     "tm:hammerarm",
     "tm:coaching",
     "tm:mist",
-    "tm:machpunch"
+    "tm:machpunch",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4841,
+  "nationalPokedexNumber": 4849,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

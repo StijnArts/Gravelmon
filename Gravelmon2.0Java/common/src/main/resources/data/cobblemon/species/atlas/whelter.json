@@ -73,7 +73,8 @@
     "38:waterspout",
     "44:haze",
     "49:doubleedge",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5148,
+  "nationalPokedexNumber": 5156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

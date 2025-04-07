@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "4:twister",
+    "7:dragonbreath",
+    "10:breakingswipe",
+    "13:dragonpulse",
+    "16:dracometeor",
+    "19:scratch",
+    "22:leer",
+    "25:dragonrage",
+    "28:dualchop",
+    "31:breakingswipe",
+    "34:dragonclaw",
+    "39:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -72,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2192,
+  "nationalPokedexNumber": 2200,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

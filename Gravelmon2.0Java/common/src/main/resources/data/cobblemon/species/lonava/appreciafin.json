@@ -154,7 +154,8 @@
     "tm:waterfall",
     "tm:weatherball",
     "tm:zenheadbutt",
-    "tm:hydropump"
+    "tm:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -169,7 +170,7 @@
   "weight": 1050,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3369,
+  "nationalPokedexNumber": 3377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

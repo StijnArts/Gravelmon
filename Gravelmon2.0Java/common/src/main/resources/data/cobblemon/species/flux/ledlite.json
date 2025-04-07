@@ -64,7 +64,8 @@
     "1:shockwave",
     "1:flash",
     "1:charm",
-    "1:eerieimpulse"
+    "1:eerieimpulse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2130,
+  "nationalPokedexNumber": 2133,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

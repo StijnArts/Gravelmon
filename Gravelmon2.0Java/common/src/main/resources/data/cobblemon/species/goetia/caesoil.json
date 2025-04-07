@@ -63,7 +63,29 @@
     "1:mudslap",
     "1:watergun",
     "1:shoreup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:sandattack",
+    "1:tailwhip",
+    "1:bulkup",
+    "1:calmmind",
+    "10:mudshot",
+    "10:bubblebeam",
+    "10:calmmind",
+    "10:taunt",
+    "15:mudbomb",
+    "15:brine",
+    "15:taunt",
+    "15:substitute",
+    "20:bulldoze",
+    "20:surf",
+    "20:substitute",
+    "20:rest",
+    "25:scorchingsands",
+    "25:chillingwater",
+    "25:rest",
+    "30:earthpower",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6003,
+  "nationalPokedexNumber": 6011,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -114,7 +114,8 @@
     "tm:psychicterrain",
     "tm:fly",
     "tm:destinybond",
-    "tm:healpulse"
+    "tm:healpulse",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5078,
+  "nationalPokedexNumber": 5086,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

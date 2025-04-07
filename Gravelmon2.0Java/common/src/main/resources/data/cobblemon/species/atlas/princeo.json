@@ -107,7 +107,8 @@
     "tm:bulkup",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5144,
+  "nationalPokedexNumber": 5152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

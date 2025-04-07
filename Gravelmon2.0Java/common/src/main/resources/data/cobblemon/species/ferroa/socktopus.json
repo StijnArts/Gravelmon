@@ -161,7 +161,8 @@
     "tm:dualchop",
     "tm:psychup",
     "tm:storedpower",
-    "tm:entrainment"
+    "tm:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1542,
+  "nationalPokedexNumber": 1545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -123,7 +123,8 @@
         "egg:tailwind",
         "egg:featherdance",
         "egg:assurance",
-        "egg:steelwing"
+        "egg:steelwing",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -236,7 +237,8 @@
         "45:endeavor",
         "51:bulkup",
         "58:bravebird",
-        "62:skyattack"
+        "62:skyattack",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

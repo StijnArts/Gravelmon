@@ -120,7 +120,8 @@
     "egg:volttackle",
     "egg:bite",
     "egg:crunch",
-    "egg:nuzzle"
+    "egg:nuzzle",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1976,
+  "nationalPokedexNumber": 1979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

@@ -80,7 +80,8 @@
     "tm:confuseray",
     "tm:signalbeam",
     "tm:electroweb",
-    "tm:paraboliccharge"
+    "tm:paraboliccharge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2952,
+  "nationalPokedexNumber": 2960,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

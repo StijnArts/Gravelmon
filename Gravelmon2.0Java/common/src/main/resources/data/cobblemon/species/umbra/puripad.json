@@ -114,7 +114,8 @@
     "tutor:waterpulse",
     "tutor:seedbomb",
     "tutor:liquidation",
-    "tutor:dragonpulse"
+    "tutor:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -129,7 +130,7 @@
   "weight": 440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3701,
+  "nationalPokedexNumber": 3709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

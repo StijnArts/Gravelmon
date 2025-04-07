@@ -135,7 +135,8 @@
     "egg:thunderpunch",
     "egg:toxic",
     "egg:vacuumwave",
-    "egg:vitalthrow"
+    "egg:vitalthrow",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
   "weight": 145,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4587,
+  "nationalPokedexNumber": 4595,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

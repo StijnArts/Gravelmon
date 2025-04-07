@@ -16,8 +16,8 @@ public class Wulvlacine extends drai.dev.data.pokemon.Pokemon {
                         65,
                         86),
                 List.of(Ability.STRONG_JAW,Ability.ROUGH_SKIN), Ability.SOLID_ROCK,
-                0, 0,
-                new Stats(0,2,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,2,0,0,0,0), 60,
                 0.87,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Wulvlacine extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(36).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_FOREST, Biome.IS_BADLANDS)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wulvlacine");

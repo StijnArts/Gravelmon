@@ -135,7 +135,8 @@
     "egg:stomp",
     "egg:sunnyday",
     "egg:takedown",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -150,7 +151,7 @@
   "weight": 2273,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4520,
+  "nationalPokedexNumber": 4528,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

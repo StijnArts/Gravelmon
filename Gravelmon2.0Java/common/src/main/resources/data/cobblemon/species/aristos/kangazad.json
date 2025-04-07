@@ -62,6 +62,12 @@
   "drops": {},
   "moves": [
     "1:tackle",
+    "1:growl",
+    "10:quickattack",
+    "15:bite",
+    "20:takedown",
+    "25:crunch",
+    "30:doubleedge",
     "tm:doubleteam",
     "tm:fireblast",
     "tm:rest",
@@ -131,7 +137,8 @@
     "tm:crushclaw",
     "tm:hammerarm",
     "tm:trumpcard",
-    "tm:circlethrow"
+    "tm:circlethrow",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -163,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1967,
+  "nationalPokedexNumber": 1970,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

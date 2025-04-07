@@ -82,7 +82,8 @@
     "53:recover",
     "58:psychoshift",
     "63:moonblast",
-    "68:meteorbeam"
+    "68:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -97,7 +98,7 @@
   "weight": 2427,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2127,
+  "nationalPokedexNumber": 2130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

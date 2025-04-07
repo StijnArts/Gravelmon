@@ -85,7 +85,8 @@
     "egg:superfang",
     "egg:torment",
     "egg:feint",
-    "egg:shadowsneak"
+    "egg:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2096,
+  "nationalPokedexNumber": 2099,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

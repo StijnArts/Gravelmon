@@ -144,7 +144,8 @@
     "tm:rockpolish",
     "tm:fellstinger",
     "tm:rototiller",
-    "tm:liquidation"
+    "tm:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1500,
+  "nationalPokedexNumber": 1503,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

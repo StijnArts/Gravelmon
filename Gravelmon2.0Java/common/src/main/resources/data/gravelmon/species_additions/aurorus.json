@@ -130,7 +130,8 @@
         "tm:wildcharge",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -307,7 +308,8 @@
         "tutor:whirlpool",
         "tutor:wonderroom",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

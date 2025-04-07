@@ -73,7 +73,8 @@
     "39:snore",
     "45:flamethrower",
     "51:earthquake",
-    "59:eruption"
+    "59:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2285,
+  "nationalPokedexNumber": 2293,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

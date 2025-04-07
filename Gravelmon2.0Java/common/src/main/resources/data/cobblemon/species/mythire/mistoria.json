@@ -132,7 +132,8 @@
     "tm:allyswitch",
     "tm:scald",
     "tm:dazzlinggleam",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -145,7 +146,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3913,
+  "nationalPokedexNumber": 3921,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

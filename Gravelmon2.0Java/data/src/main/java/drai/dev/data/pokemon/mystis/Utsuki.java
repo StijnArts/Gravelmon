@@ -16,8 +16,8 @@ public class Utsuki extends drai.dev.data.pokemon.Pokemon {
                         61,
                         47),
                 List.of(Ability.BEAST_BOOST), Ability.OBLIVIOUS,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -81,7 +81,11 @@ public class Utsuki extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_END)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Utsuki");

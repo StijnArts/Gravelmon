@@ -76,7 +76,8 @@
     "48:sludgebomb",
     "52:gunkshot",
     "56:earthpower",
-    "61:waterspout"
+    "61:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1449,
+  "nationalPokedexNumber": 1452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

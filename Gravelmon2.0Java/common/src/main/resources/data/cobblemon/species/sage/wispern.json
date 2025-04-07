@@ -147,7 +147,8 @@
     "egg:selfdestruct",
     "egg:smog",
     "egg:minimize",
-    "egg:amnesia"
+    "egg:amnesia",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -70,7 +70,8 @@
     "36:jumpkick",
     "42:brutalswing",
     "50:highjumpkick",
-    "56:doubleedge"
+    "56:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1636,
+  "nationalPokedexNumber": 1639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:mudslap"
+    "1:mudslap",
+    "1:tailwhip",
+    "1:sandattack",
+    "4:bubblebeam",
+    "4:mudshot",
+    "7:brine",
+    "7:mudbomb",
+    "10:surf",
+    "10:bulldoze",
+    "13:chillingwater",
+    "13:scorchingsands",
+    "16:hydropump",
+    "16:earthpower",
+    "19:watergun",
+    "19:mudslap",
+    "22:tailwhip",
+    "22:growl",
+    "25:bubblebeam",
+    "25:sandattack",
+    "28:aquatail",
+    "28:mudbomb",
+    "31:surf",
+    "31:bulldoze",
+    "34:waterfall",
+    "34:dig",
+    "39:liquidation",
+    "39:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -89,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2192,
+  "nationalPokedexNumber": 2200,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

@@ -62,6 +62,19 @@
   "drops": {},
   "moves": [
     "1:mudslap",
+    "1:sandattack",
+    "3:mudshot",
+    "6:mudbomb",
+    "9:bulldoze",
+    "12:scorchingsands",
+    "15:earthpower",
+    "18:mudslap",
+    "21:growl",
+    "24:sandattack",
+    "27:mudbomb",
+    "30:bulldoze",
+    "33:dig",
+    "36:earthquake",
     "tm:signalbeam",
     "tm:skittersmack",
     "tm:knockoff",
@@ -105,7 +118,8 @@
     "tm:rocktomb",
     "tm:sandstorm",
     "tm:flashcannon",
-    "tm:gyroball"
+    "tm:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -133,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3472,
+  "nationalPokedexNumber": 3480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

@@ -16,7 +16,7 @@ public class Tarpress extends drai.dev.data.pokemon.Pokemon {
                         90,
                         40),
                 List.of(Ability.TORRENT), Ability.MAGIC_GUARD,
-                0, 0,
+                16, 0,
                 new Stats(3,0,0,0,0,0), 0,
                 0.875,
                 265, ExperienceGroup.MEDIUM_SLOW,
@@ -27,9 +27,16 @@ public class Tarpress extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Tarpress");
 
     }

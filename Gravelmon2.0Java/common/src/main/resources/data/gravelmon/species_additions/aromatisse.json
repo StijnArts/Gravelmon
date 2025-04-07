@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:lick"
+        "1:lick",
+        "1:leer",
+        "1:growl",
+        "4:clearsmog",
+        "4:confuseray",
+        "7:sludge",
+        "7:ominouswind",
+        "10:toxicspikes",
+        "10:nightshade",
+        "13:sludgebomb",
+        "13:hex",
+        "16:sludgewave",
+        "16:shadowball",
+        "19:poisonsting",
+        "19:lick",
+        "22:leer",
+        "22:growl",
+        "25:venoshock",
+        "25:confuseray",
+        "28:poisontail",
+        "28:hex",
+        "31:toxicspikes",
+        "31:shadowclaw",
+        "34:sludgebomb",
+        "34:phantomforce",
+        "39:poisonjab",
+        "39:poltergeist",
+        "tm:terablast"
       ],
       "labels": [
         "aroma",
@@ -217,7 +244,8 @@
         "tm:trickroom",
         "tm:willowisp",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -365,7 +393,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -469,7 +498,8 @@
         "1:healpulse",
         "13:confusion",
         "25:aromatherapy",
-        "1:fairywind"
+        "1:fairywind",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

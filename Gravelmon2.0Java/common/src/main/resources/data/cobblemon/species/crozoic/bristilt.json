@@ -73,7 +73,8 @@
     "1:bide",
     "1:autotomize",
     "1:recover",
-    "1:toxicspikes"
+    "1:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -88,7 +89,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3288,
+  "nationalPokedexNumber": 3296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

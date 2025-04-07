@@ -158,7 +158,8 @@
     "tm:secretpower",
     "tm:astonish",
     "tm:trumpcard",
-    "tm:hex"
+    "tm:hex",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -171,7 +172,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1937,
+  "nationalPokedexNumber": 1940,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

@@ -69,7 +69,8 @@
     "29:signalbeam",
     "34:trickroom",
     "38:irondefense",
-    "42:electricterrain"
+    "42:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1709,
+  "nationalPokedexNumber": 1712,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

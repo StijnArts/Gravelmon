@@ -144,7 +144,8 @@
     "tm:weatherball",
     "tm:workup",
     "tm:worryseed",
-    "tm:taunt"
+    "tm:taunt",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -157,7 +158,7 @@
   "weight": 255,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

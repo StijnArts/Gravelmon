@@ -71,7 +71,8 @@
     "40:playrough",
     "45:nightdaze",
     "50:partingshot",
-    "60:hypervoice"
+    "60:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1460,
+  "nationalPokedexNumber": 1463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

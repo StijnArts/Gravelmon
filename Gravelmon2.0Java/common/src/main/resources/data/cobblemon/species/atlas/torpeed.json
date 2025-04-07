@@ -115,7 +115,8 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5058,
+  "nationalPokedexNumber": 5066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

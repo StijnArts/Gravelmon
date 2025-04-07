@@ -80,7 +80,8 @@
     "47:extremespeed",
     "51:highjumpkick",
     "57:counter",
-    "61:recover"
+    "61:recover",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

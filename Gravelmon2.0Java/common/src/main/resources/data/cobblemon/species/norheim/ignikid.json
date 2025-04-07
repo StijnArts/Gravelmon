@@ -142,7 +142,8 @@
     "tm:softboiled",
     "tm:healpulse",
     "tm:endure",
-    "tm:spiritbreak"
+    "tm:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3083,
+  "nationalPokedexNumber": 3091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

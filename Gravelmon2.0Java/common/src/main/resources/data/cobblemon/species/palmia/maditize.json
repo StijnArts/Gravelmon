@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "4:payback",
+    "7:nightdaze",
+    "10:snarl",
+    "13:knockoff",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

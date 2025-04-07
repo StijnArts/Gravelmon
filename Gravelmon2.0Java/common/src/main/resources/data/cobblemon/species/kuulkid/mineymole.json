@@ -61,7 +61,33 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:screech",
+    "1:defensecurl",
+    "4:irontail",
+    "4:rollout",
+    "7:smartstrike",
+    "7:ancientpower",
+    "10:mirrorshot",
+    "10:powergem",
+    "13:flashcannon",
+    "13:stealthrock",
+    "16:steelbeam",
+    "16:meteorbeam",
+    "19:metalclaw",
+    "19:rockthrow",
+    "22:screech",
+    "22:defensecurl",
+    "25:irontail",
+    "25:rollout",
+    "28:smartstrike",
+    "28:smackdown",
+    "31:ironhead",
+    "31:rockblast",
+    "34:meteormash",
+    "34:stealthrock",
+    "39:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -89,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2222,
+  "nationalPokedexNumber": 2230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

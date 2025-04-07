@@ -63,7 +63,29 @@
     "1:acid",
     "1:absorb",
     "1:bulkup",
-    "1:synthesis"
+    "1:synthesis",
+    "1:leer",
+    "1:leer",
+    "1:calmmind",
+    "1:bulkup",
+    "10:clearsmog",
+    "10:megadrain",
+    "10:taunt",
+    "10:calmmind",
+    "15:sludge",
+    "15:magicalleaf",
+    "15:substitute",
+    "15:taunt",
+    "20:toxicspikes",
+    "20:gigadrain",
+    "20:rest",
+    "20:substitute",
+    "25:sludgebomb",
+    "25:energyball",
+    "25:rest",
+    "30:sludgewave",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5921,
+  "nationalPokedexNumber": 5929,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

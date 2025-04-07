@@ -110,7 +110,8 @@
     "tutor:irondefense",
     "tutor:waterpulse",
     "tutor:seedbomb",
-    "tutor:liquidation"
+    "tutor:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3700,
+  "nationalPokedexNumber": 3708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

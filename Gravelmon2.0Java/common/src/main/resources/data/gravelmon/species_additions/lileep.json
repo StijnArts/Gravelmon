@@ -133,7 +133,8 @@
         "egg:leafstorm",
         "egg:mistball",
         "egg:rapidspin",
-        "egg:hurricane"
+        "egg:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -276,6 +277,7 @@
         "tm:phantomforce",
         "tm:leafstorm",
         "tm:solarbeam",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [

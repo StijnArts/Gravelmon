@@ -172,7 +172,8 @@
         "egg:feint",
         "egg:swordsdance",
         "egg:ingrain",
-        "egg:obstruct"
+        "egg:obstruct",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -73,7 +73,8 @@
     "tm:throatchop",
     "tm:trick",
     "tm:ominouswind",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4422,
+  "nationalPokedexNumber": 4430,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

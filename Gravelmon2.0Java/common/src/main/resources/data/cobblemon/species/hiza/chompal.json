@@ -74,7 +74,8 @@
     "39:rest",
     "42:amnesia",
     "45:hydropump",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2356,
+  "nationalPokedexNumber": 2364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

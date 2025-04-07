@@ -98,7 +98,8 @@
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
-    "tutor:toxic"
+    "tutor:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -113,7 +114,7 @@
   "weight": 523,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4562,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

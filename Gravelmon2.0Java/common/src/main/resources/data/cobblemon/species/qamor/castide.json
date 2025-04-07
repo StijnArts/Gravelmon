@@ -71,7 +71,8 @@
     "35:aquaring",
     "40:flail",
     "45:hydropump",
-    "50:allyswitch"
+    "50:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4006,
+  "nationalPokedexNumber": 4014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

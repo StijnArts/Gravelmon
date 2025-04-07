@@ -75,7 +75,8 @@
     "36:acidarmor",
     "40:sludgebomb",
     "46:thunderbolt",
-    "50:gunkshot"
+    "50:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1655,
+  "nationalPokedexNumber": 1658,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

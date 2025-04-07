@@ -95,7 +95,8 @@
     "egg:muddywater",
     "egg:refresh",
     "egg:waterspout",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "realidea_system",

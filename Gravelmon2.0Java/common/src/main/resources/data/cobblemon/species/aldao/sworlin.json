@@ -64,7 +64,23 @@
     "1:watergun",
     "1:metalclaw",
     "1:flipturn",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:tailwhip",
+    "1:screech",
+    "1:quickattack",
+    "1:quickattack",
+    "4:bubblebeam",
+    "4:irontail",
+    "4:swordsdance",
+    "4:swordsdance",
+    "7:aquatail",
+    "7:smartstrike",
+    "10:surf",
+    "10:ironhead",
+    "13:waterfall",
+    "13:meteormash",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 2867,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -64,7 +64,23 @@
     "1:tackle",
     "1:mudslap",
     "1:extremespeed",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:growl",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:quickattack",
+    "4:sandattack",
+    "4:swordsdance",
+    "7:bite",
+    "7:mudbomb",
+    "10:takedown",
+    "10:bulldoze",
+    "13:crunch",
+    "13:dig",
+    "16:doubleedge",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2829,
+  "nationalPokedexNumber": 2837,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

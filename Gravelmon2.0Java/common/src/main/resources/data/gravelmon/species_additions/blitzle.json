@@ -135,7 +135,8 @@
         "egg:endure",
         "egg:mefirst",
         "egg:allyswitch",
-        "egg:helpinghand"
+        "egg:helpinghand",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -282,7 +283,8 @@
         "egg:sandattack",
         "egg:screech",
         "egg:snatch",
-        "egg:takedown"
+        "egg:takedown",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

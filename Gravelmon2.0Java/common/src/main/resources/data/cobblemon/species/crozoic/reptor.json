@@ -74,7 +74,8 @@
     "1:agility",
     "1:nightslash",
     "1:slash",
-    "1:dragondance"
+    "1:dragondance",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -87,7 +88,7 @@
   "weight": 608,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3299,
+  "nationalPokedexNumber": 3307,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

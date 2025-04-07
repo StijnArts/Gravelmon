@@ -138,7 +138,8 @@
     "egg:tailwind",
     "egg:scratch",
     "egg:crunch",
-    "egg:defog"
+    "egg:defog",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -166,7 +167,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2030,
+  "nationalPokedexNumber": 2033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

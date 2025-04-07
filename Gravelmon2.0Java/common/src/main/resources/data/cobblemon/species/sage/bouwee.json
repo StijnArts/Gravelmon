@@ -130,7 +130,8 @@
     "egg:irondefense",
     "egg:mudshot",
     "egg:psybeam",
-    "egg:scald"
+    "egg:scald",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

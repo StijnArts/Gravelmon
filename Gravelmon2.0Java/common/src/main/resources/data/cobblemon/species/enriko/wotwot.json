@@ -75,7 +75,8 @@
     "42:closecombat",
     "47:darkestlariat",
     "51:block",
-    "56:glare"
+    "56:glare",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1672,
+  "nationalPokedexNumber": 1675,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

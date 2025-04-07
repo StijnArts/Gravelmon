@@ -143,7 +143,8 @@
     "tutor:weatherball",
     "tutor:whirlpool",
     "tutor:wonderroom",
-    "tutor:workup"
+    "tutor:workup",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -158,7 +159,7 @@
   "weight": 1440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4085,
+  "nationalPokedexNumber": 4093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

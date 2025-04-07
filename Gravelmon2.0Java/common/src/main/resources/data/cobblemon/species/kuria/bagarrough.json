@@ -78,7 +78,8 @@
     "70:endeavor",
     "77:megahorn",
     "84:headsmash",
-    "91:headlongrush"
+    "91:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 1051,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4160,
+  "nationalPokedexNumber": 4168,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

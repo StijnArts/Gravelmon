@@ -113,7 +113,8 @@
     "tm:thunderwave",
     "tm:toxic",
     "tm:trickroom",
-    "tm:venoshock"
+    "tm:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1951,
+  "nationalPokedexNumber": 1954,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

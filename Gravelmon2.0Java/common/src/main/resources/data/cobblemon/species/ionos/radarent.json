@@ -62,7 +62,30 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "1:sandattack",
+    "10:firespin",
+    "10:mudshot",
+    "15:flamecharge",
+    "15:mudbomb",
+    "20:flameburst",
+    "20:bulldoze",
+    "25:flamethrower",
+    "25:scorchingsands",
+    "30:fireblast",
+    "30:earthpower",
+    "35:ember",
+    "35:mudslap",
+    "40:growl",
+    "40:growl",
+    "45:quickattack",
+    "45:sandattack",
+    "50:flamecharge",
+    "50:mudbomb",
+    "55:firepunch",
+    "55:bulldoze",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -90,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4711,
+  "nationalPokedexNumber": 4719,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

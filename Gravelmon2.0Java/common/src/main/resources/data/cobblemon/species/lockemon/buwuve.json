@@ -76,7 +76,8 @@
     "egg:bounce",
     "egg:counter",
     "egg:haze",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3418,
+  "nationalPokedexNumber": 3426,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

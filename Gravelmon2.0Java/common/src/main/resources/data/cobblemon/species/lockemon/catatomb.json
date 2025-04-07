@@ -91,7 +91,8 @@
     "egg:tickle",
     "egg:uproar",
     "egg:wish",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -106,7 +107,7 @@
   "weight": 134,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3393,
+  "nationalPokedexNumber": 3401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

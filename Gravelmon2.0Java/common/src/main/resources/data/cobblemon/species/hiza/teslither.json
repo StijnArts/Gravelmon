@@ -71,7 +71,8 @@
     "27:aquatail",
     "31:thunderbolt",
     "36:whirlpool",
-    "40:thunder"
+    "40:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2274,
+  "nationalPokedexNumber": 2282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

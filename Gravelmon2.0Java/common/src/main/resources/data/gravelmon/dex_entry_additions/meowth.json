@@ -50,6 +50,12 @@
       ]
     },
     {
+      "displayForm": "Alteran",
+      "unlockForms": [
+        "Alteran"
+      ]
+    },
+    {
       "displayForm": "Cefiranfire",
       "unlockForms": [
         "Cefiranfire"
@@ -65,6 +71,12 @@
       "displayForm": "Cefiranelectric",
       "unlockForms": [
         "Cefiranelectric"
+      ]
+    },
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
       ]
     }
   ]

@@ -41,7 +41,7 @@ public class Shaltuff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,44)),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 34, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 34, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

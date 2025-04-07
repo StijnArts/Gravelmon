@@ -71,7 +71,8 @@
     "35:venoshock",
     "48:sludgebomb",
     "53:venomdrench",
-    "60:psychic"
+    "60:psychic",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1926,
+  "nationalPokedexNumber": 1929,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

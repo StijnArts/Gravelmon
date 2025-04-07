@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:lick"
+        "1:lick",
+        "1:leer",
+        "1:growl",
+        "4:payback",
+        "4:confuseray",
+        "7:nightdaze",
+        "7:ominouswind",
+        "10:snarl",
+        "10:nightshade",
+        "13:knockoff",
+        "13:hex",
+        "16:darkpulse",
+        "16:shadowball",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -218,7 +231,8 @@
         "tm:willowisp",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

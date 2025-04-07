@@ -112,7 +112,8 @@
     "tm:workup",
     "tm:infestation",
     "tm:fly",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

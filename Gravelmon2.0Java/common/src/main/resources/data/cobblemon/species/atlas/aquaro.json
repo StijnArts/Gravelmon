@@ -72,7 +72,8 @@
     "32:fling",
     "41:poisonjab",
     "45:laserfocus",
-    "52:hydropump"
+    "52:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5149,
+  "nationalPokedexNumber": 5157,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

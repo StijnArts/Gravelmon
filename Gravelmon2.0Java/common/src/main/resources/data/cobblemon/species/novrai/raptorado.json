@@ -133,7 +133,8 @@
     "tm:drillpeck",
     "tm:pluck",
     "tm:laserfocus",
-    "tm:rototiller"
+    "tm:rototiller",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4895,
+  "nationalPokedexNumber": 4903,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

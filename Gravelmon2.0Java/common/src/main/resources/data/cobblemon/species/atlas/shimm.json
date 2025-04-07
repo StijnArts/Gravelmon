@@ -74,7 +74,8 @@
     "1:allyswitch",
     "tm:trick",
     "tm:leafblade",
-    "tm:sacredsword"
+    "tm:sacredsword",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5161,
+  "nationalPokedexNumber": 5169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

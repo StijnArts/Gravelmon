@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:scratch"
+    "1:scratch",
+    "1:defensecurl",
+    "1:leer",
+    "4:rollout",
+    "4:dragonrage",
+    "7:smackdown",
+    "7:dualchop",
+    "10:rockblast",
+    "10:breakingswipe",
+    "13:stealthrock",
+    "13:dragonclaw",
+    "16:stoneedge",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3582,
+  "nationalPokedexNumber": 3590,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

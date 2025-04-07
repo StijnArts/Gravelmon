@@ -122,7 +122,8 @@
     "tutor:laserfocus",
     "tutor:foulplay",
     "tutor:superfang",
-    "tutor:hypervoice"
+    "tutor:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3689,
+  "nationalPokedexNumber": 3697,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -67,7 +67,8 @@
     "4:stringshot",
     "8:bite",
     "12:bugbite",
-    "17:protect"
+    "17:protect",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2123,
+  "nationalPokedexNumber": 2126,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

@@ -77,7 +77,8 @@
     "39:aquatail",
     "45:finalgambit",
     "50:hypervoice",
-    "37:finalgambit"
+    "37:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1916,
+  "nationalPokedexNumber": 1919,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

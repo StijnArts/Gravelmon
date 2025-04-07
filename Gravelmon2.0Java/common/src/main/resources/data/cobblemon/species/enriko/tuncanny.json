@@ -67,7 +67,8 @@
     "16:headbutt",
     "24:thunderwave",
     "32:acidarmor",
-    "40:flashcannon"
+    "40:flashcannon",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1747,
+  "nationalPokedexNumber": 1750,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

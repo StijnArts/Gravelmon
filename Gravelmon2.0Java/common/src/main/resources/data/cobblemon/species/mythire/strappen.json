@@ -75,7 +75,8 @@
     "28:iciclespear",
     "31:lowkick",
     "34:pluck",
-    "37:acrobatics"
+    "37:acrobatics",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3867,
+  "nationalPokedexNumber": 3875,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

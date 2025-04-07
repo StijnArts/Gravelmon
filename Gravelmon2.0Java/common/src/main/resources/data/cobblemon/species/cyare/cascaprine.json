@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:watergun"
+    "1:watergun",
+    "1:sandattack",
+    "1:tailwhip",
+    "10:mudshot",
+    "10:bubblebeam",
+    "15:mudbomb",
+    "15:brine",
+    "20:bulldoze",
+    "20:surf",
+    "25:scorchingsands",
+    "25:chillingwater",
+    "30:earthpower",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5381,
+  "nationalPokedexNumber": 5389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

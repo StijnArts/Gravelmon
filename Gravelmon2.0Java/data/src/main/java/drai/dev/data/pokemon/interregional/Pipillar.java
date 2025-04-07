@@ -37,7 +37,7 @@ public class Pipillar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUNGE,30)                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),

@@ -63,7 +63,29 @@
     "1:tackle",
     "1:strugglebug",
     "1:sleeptalk",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:stringshot",
+    "1:bulkup",
+    "1:calmmind",
+    "10:round",
+    "10:silverwind",
+    "10:calmmind",
+    "10:taunt",
+    "15:swift",
+    "15:signalbeam",
+    "15:taunt",
+    "15:substitute",
+    "20:uproar",
+    "20:infestation",
+    "20:substitute",
+    "20:rest",
+    "25:hypervoice",
+    "25:uturn",
+    "25:rest",
+    "30:hyperbeam",
+    "30:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5836,
+  "nationalPokedexNumber": 5844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

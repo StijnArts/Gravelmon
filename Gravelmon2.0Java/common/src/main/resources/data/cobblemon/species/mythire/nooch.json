@@ -146,7 +146,8 @@
     "tm:speedswap",
     "tm:watersport",
     "tm:waterfall",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -174,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3857,
+  "nationalPokedexNumber": 3865,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

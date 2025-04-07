@@ -68,7 +68,8 @@
     "10:screech",
     "13:pinmissile",
     "17:poisontail",
-    "32:sludge"
+    "32:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -83,7 +84,7 @@
   "weight": 1582,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4626,
+  "nationalPokedexNumber": 4634,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

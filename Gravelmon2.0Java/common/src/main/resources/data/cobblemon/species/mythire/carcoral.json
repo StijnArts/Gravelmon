@@ -162,7 +162,8 @@
     "tm:wideguard",
     "tm:acidspray",
     "tm:liquidation",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -177,7 +178,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3838,
+  "nationalPokedexNumber": 3846,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.9375,

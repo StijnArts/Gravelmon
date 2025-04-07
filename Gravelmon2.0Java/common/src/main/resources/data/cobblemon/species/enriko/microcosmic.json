@@ -76,7 +76,8 @@
     "44:flashcannon",
     "50:rest",
     "56:cosmicpower",
-    "60:meteormash"
+    "60:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1758,
+  "nationalPokedexNumber": 1761,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

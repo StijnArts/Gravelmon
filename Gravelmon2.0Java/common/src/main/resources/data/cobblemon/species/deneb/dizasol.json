@@ -117,12 +117,15 @@
     "egg:icywind",
     "egg:knockoff",
     "egg:meanlook",
+    "egg:rocketdrive",
     "egg:roleplay",
+    "egg:shadowsplit",
     "egg:snatch",
     "egg:spite",
     "egg:superpower",
     "egg:wish",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -136,7 +139,7 @@
   "weight": 590,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4514,
+  "nationalPokedexNumber": 4522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

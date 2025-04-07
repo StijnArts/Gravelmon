@@ -82,7 +82,8 @@
     "tm:willowisp",
     "tm:revenge",
     "tm:knockoff",
-    "tm:suckerpunch"
+    "tm:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2980,
+  "nationalPokedexNumber": 2988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

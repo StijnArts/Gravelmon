@@ -72,7 +72,8 @@
     "39:thunderwave",
     "49:spore",
     "54:powerwhip",
-    "60:electricterrain"
+    "60:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1643,
+  "nationalPokedexNumber": 1646,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

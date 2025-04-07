@@ -70,7 +70,8 @@
     "26:slam",
     "34:snore",
     "38:rest",
-    "43:endeavor"
+    "43:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1647,
+  "nationalPokedexNumber": 1650,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

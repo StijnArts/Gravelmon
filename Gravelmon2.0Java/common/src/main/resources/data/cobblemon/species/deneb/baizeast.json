@@ -133,7 +133,8 @@
     "egg:spark",
     "egg:sunnyday",
     "egg:wildcharge",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -146,7 +147,7 @@
   "weight": 763,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4503,
+  "nationalPokedexNumber": 4511,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

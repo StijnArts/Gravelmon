@@ -61,7 +61,32 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:acid"
+    "1:acid",
+    "1:leer",
+    "1:leer",
+    "5:megadrain",
+    "5:clearsmog",
+    "8:magicalleaf",
+    "8:sludge",
+    "12:gigadrain",
+    "12:toxicspikes",
+    "15:energyball",
+    "15:sludgebomb",
+    "19:solarbeam",
+    "19:sludgewave",
+    "26:leafage",
+    "26:poisonsting",
+    "29:leer",
+    "29:leer",
+    "33:absorb",
+    "33:venoshock",
+    "39:trailblaze",
+    "39:poisontail",
+    "44:gigadrain",
+    "44:toxicspikes",
+    "50:seedbomb",
+    "50:sludgebomb",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -85,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1369,
+  "nationalPokedexNumber": 1371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -74,7 +74,8 @@
     "41:coil",
     "45:wringout",
     "50:discharge",
-    "56:hydropump"
+    "56:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1403,
+  "nationalPokedexNumber": 1406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

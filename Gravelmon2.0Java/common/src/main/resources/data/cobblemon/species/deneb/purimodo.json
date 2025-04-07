@@ -90,7 +90,8 @@
     "tutor:aurorabeam",
     "tutor:charm",
     "tutor:haze",
-    "tutor:iciclecrash"
+    "tutor:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -105,7 +106,7 @@
   "weight": 243,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4547,
+  "nationalPokedexNumber": 4555,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:gust"
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "10:round",
+    "10:aircutter",
+    "15:swift",
+    "15:wingattack",
+    "20:uproar",
+    "20:airslash",
+    "25:hypervoice",
+    "25:drillpeck",
+    "30:hyperbeam",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5356,
+  "nationalPokedexNumber": 5364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

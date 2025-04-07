@@ -98,7 +98,7 @@ public class EpochHonedgeOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICICLE_SPEAR,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),

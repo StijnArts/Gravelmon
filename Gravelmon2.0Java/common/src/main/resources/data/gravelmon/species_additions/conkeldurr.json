@@ -125,7 +125,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -277,7 +278,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -441,7 +443,8 @@
         "tm:taunt",
         "tm:thunderpunch",
         "tm:toxic",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -576,7 +579,8 @@
         "tm:smackdown",
         "tm:knockoff",
         "tm:highhorsepower",
-        "tm:focuspunch"
+        "tm:focuspunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

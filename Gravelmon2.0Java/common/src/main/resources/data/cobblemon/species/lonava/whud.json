@@ -99,7 +99,8 @@
     "tm:waterfall",
     "tm:whirlpool",
     "tm:thrash",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3353,
+  "nationalPokedexNumber": 3361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -126,7 +126,8 @@
     "tm:toxic",
     "tm:waterfall",
     "tm:waterpulse",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -139,7 +140,7 @@
   "weight": 120,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4105,
+  "nationalPokedexNumber": 4113,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

@@ -75,7 +75,8 @@
     "70:wish",
     "77:gyroball",
     "84:perishsong",
-    "91:boomburst"
+    "91:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1911,
+  "nationalPokedexNumber": 1914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

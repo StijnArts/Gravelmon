@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beetleer",
+  "speciesId": "cobblemon:beetleer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -138,7 +138,8 @@
     "egg:airslash",
     "egg:focusenergy",
     "egg:hurricane",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

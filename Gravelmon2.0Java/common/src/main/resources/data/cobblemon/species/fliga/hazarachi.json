@@ -104,7 +104,8 @@
     "tm:curse",
     "tm:mudslap",
     "tm:destinybond",
-    "tm:venomdrench"
+    "tm:venomdrench",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -119,7 +120,7 @@
   "weight": 1483,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3940,
+  "nationalPokedexNumber": 3948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

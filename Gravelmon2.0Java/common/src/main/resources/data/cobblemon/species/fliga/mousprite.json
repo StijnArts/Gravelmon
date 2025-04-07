@@ -70,7 +70,8 @@
     "30:snore",
     "38:dazzlinggleam",
     "46:featherdance",
-    "58:moonblast"
+    "58:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3968,
+  "nationalPokedexNumber": 3976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

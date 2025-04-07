@@ -132,7 +132,8 @@
     "egg:destinybond",
     "egg:haze",
     "egg:memento",
-    "egg:toxicspikes"
+    "egg:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

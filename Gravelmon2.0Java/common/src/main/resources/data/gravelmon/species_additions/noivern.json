@@ -143,7 +143,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -251,7 +252,8 @@
         "27:roost",
         "40:dazzlinggleam",
         "1:moonlight",
-        "49:playrough"
+        "49:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -451,7 +453,8 @@
         "tutor:tailwind",
         "tutor:twister",
         "tutor:waterpulse",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -623,7 +626,8 @@
         "egg:dragonrush",
         "egg:snatch",
         "egg:stealthrock",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -796,7 +800,8 @@
         "tutor:wildcharge",
         "tutor:xscissor",
         "egg:defog",
-        "egg:dragonrush"
+        "egg:dragonrush",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

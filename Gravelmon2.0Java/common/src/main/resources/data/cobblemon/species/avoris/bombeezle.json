@@ -75,7 +75,8 @@
     "40:crunch",
     "45:firelash",
     "50:lunge",
-    "55:burnup"
+    "55:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1844,
+  "nationalPokedexNumber": 1847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

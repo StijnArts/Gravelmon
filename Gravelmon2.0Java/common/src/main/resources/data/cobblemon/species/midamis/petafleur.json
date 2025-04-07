@@ -79,7 +79,8 @@
     "tm:hypervoice",
     "tm:grasswhistle",
     "tm:magicalleaf",
-    "tm:naturalgift"
+    "tm:naturalgift",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4311,
+  "nationalPokedexNumber": 4319,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

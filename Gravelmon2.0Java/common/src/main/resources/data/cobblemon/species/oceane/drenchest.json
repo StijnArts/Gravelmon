@@ -67,7 +67,8 @@
     "20:irondefense",
     "25:hex",
     "35:grudge",
-    "40:crunch"
+    "40:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1889,
+  "nationalPokedexNumber": 1892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

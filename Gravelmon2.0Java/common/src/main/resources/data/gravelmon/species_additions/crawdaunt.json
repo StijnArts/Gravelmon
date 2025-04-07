@@ -132,7 +132,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -231,7 +232,8 @@
         "35:aquatail",
         "39:ironhead",
         "43:mirrorcoat",
-        "47:hydropump"
+        "47:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

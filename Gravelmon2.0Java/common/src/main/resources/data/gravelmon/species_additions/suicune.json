@@ -63,7 +63,15 @@
       "drops": {},
       "moves": [
         "1:confusion",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:nastyplot",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -148,7 +156,15 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:nastyplot",
+        "4:clearsmog",
+        "7:sludge",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:sludgewave",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -299,7 +315,8 @@
         "tm:bubblebeam",
         "tm:watergun",
         "tm:skullbash",
-        "tm:airslash"
+        "tm:airslash",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

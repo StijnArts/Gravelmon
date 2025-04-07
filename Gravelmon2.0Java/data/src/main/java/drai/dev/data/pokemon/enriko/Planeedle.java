@@ -42,7 +42,7 @@ public class Planeedle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUTOTOMIZE,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -142,7 +142,8 @@
     "tutor:outrage",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"
+    "tutor:snore",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",
@@ -155,7 +156,7 @@
   "weight": 309,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1828,
+  "nationalPokedexNumber": 1831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

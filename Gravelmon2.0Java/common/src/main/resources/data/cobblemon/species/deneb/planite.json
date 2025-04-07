@@ -114,7 +114,8 @@
     "tutor:toxic",
     "tutor:nastyplot",
     "tutor:bugnoise",
-    "tutor:iciclecrash"
+    "tutor:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -130,7 +131,7 @@
   "weight": 2430,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4524,
+  "nationalPokedexNumber": 4532,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

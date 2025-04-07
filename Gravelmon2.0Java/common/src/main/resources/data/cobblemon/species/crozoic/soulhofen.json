@@ -132,7 +132,8 @@
     "tm:takedown",
     "tm:throatchop",
     "tm:torment",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3286,
+  "nationalPokedexNumber": 3294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

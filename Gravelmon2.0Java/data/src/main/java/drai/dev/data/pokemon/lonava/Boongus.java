@@ -120,7 +120,7 @@ public class Boongus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STUN_SPORE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_OLD_GROWTH_TAIGA, Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

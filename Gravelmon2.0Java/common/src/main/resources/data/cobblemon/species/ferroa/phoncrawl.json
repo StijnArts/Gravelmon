@@ -88,7 +88,8 @@
     "tm:trick",
     "tm:skillswap",
     "tm:painsplit",
-    "tm:risingvoltage"
+    "tm:risingvoltage",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1539,
+  "nationalPokedexNumber": 1542,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

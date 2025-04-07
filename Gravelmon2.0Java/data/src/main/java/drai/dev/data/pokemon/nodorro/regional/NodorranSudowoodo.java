@@ -44,7 +44,11 @@ public class NodorranSudowoodo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EARTH_POWER,50)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.VERY_COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sudowoodo");

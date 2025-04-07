@@ -138,7 +138,8 @@
     "egg:bugbuzz",
     "egg:twineedle",
     "egg:furycutter",
-    "egg:pursuit"
+    "egg:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

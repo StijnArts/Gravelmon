@@ -170,7 +170,7 @@ public class EpochGoomy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DECORATE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 35, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 35, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

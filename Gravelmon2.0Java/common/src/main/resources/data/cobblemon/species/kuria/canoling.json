@@ -71,7 +71,8 @@
     "28:irondefense",
     "32:coaching",
     "38:focuspunch",
-    "43:ironhead"
+    "43:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4163,
+  "nationalPokedexNumber": 4171,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -134,7 +134,8 @@
     "egg:iciclespear",
     "egg:rest",
     "egg:stealthrock",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2053,
+  "nationalPokedexNumber": 2056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -137,7 +137,8 @@
     "tm:rest",
     "tm:sandstorm",
     "tm:scald",
-    "tm:acidarmor"
+    "tm:acidarmor",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2416,
+  "nationalPokedexNumber": 2424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -126,7 +126,8 @@
     "egg:shadowsneak",
     "egg:spitup",
     "egg:stockpile",
-    "egg:swallow"
+    "egg:swallow",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
   "weight": 194,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4662,
+  "nationalPokedexNumber": 4670,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

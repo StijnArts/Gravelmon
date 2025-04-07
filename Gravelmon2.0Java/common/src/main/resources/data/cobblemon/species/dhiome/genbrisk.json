@@ -69,7 +69,8 @@
     "1:horndrill",
     "1:drillrun",
     "1:smokescreen",
-    "1:flipturn"
+    "1:flipturn",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

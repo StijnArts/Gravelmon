@@ -5,13 +5,14 @@
       "name": "Mastenian",
       "primaryType": "dragon",
       "secondaryType": "grass",
-      "catchRate": 95,
+      "catchRate": 80,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.12972972972972974,
+      "preEvolution": "shroomish form=mastenian",
+      "baseScale": 0.454054054054054,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -67,16 +68,33 @@
         "1:scratch",
         "1:absorb",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:twister",
+        "10:megadrain",
+        "15:dragonbreath",
+        "15:magicalleaf",
+        "20:breakingswipe",
+        "20:gigadrain",
+        "25:dragonpulse",
+        "25:energyball",
+        "30:dracometeor",
+        "30:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.mastenianbreloom.desc"
       ],
-      "height": 0,
+      "height": 14,
       "weight": 0,
       "aspects": [
         "mastenian"
@@ -214,7 +232,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -327,7 +346,8 @@
         "egg:charm",
         "egg:faketears",
         "egg:moonblast",
-        "egg:moonlight"
+        "egg:moonlight",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -74,7 +74,8 @@
     "37:thunderbolt",
     "41:roar",
     "45:wildcharge",
-    "52:earthquake"
+    "52:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2269,
+  "nationalPokedexNumber": 2277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

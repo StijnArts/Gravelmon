@@ -79,7 +79,8 @@
     "44:dragonpulse",
     "50:thunder",
     "56:glare",
-    "62:hydropump"
+    "62:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3151,
+  "nationalPokedexNumber": 3159,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

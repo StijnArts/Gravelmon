@@ -64,7 +64,22 @@
     "1:rockthrow",
     "1:lick",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:defensecurl",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:rollout",
+    "4:confuseray",
+    "7:smackdown",
+    "7:hex",
+    "10:rockblast",
+    "10:shadowclaw",
+    "13:stealthrock",
+    "13:phantomforce",
+    "16:stoneedge",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2599,
+  "nationalPokedexNumber": 2607,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

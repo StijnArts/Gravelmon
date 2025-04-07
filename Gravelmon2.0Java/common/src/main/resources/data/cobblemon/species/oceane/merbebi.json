@@ -74,7 +74,8 @@
     "41:aquatail",
     "45:synchronoise",
     "51:psychic",
-    "55:roleplay"
+    "55:roleplay",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1883,
+  "nationalPokedexNumber": 1886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

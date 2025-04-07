@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:peck"
+        "1:peck",
+        "1:growl",
+        "1:leer",
+        "4:icywind",
+        "4:pluck",
+        "7:icepunch",
+        "7:wingattack",
+        "10:icespinner",
+        "10:aerialace",
+        "13:iceshard",
+        "13:drillpeck",
+        "16:iciclecrash",
+        "16:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -214,7 +227,8 @@
         "tm:toxic",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -388,7 +402,8 @@
         "egg:razorwind",
         "egg:scaryface",
         "egg:uproar",
-        "egg:whirlwind"
+        "egg:whirlwind",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -529,7 +544,8 @@
         "tm:triattack",
         "tm:uproar",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

@@ -73,7 +73,8 @@
     "36:toxic",
     "40:moonlight",
     "44:sludgebomb",
-    "48:moonblast"
+    "48:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2340,
+  "nationalPokedexNumber": 2348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

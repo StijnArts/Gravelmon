@@ -136,7 +136,8 @@
     "tm:auroraveil",
     "tm:gravity",
     "tm:fly",
-    "tm:heatwave"
+    "tm:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5044,
+  "nationalPokedexNumber": 5052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

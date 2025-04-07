@@ -96,7 +96,8 @@
     "tm:rest",
     "tm:attract",
     "tm:cut",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -111,7 +112,7 @@
   "weight": 289,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3823,
+  "nationalPokedexNumber": 3831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

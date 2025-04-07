@@ -68,7 +68,8 @@
     "23:flameburst",
     "35:explosion",
     "37:powder",
-    "tm:barrage"
+    "tm:barrage",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4453,
+  "nationalPokedexNumber": 4461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

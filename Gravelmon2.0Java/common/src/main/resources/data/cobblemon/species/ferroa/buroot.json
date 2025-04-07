@@ -135,7 +135,8 @@
     "tm:toxic",
     "tm:pluck",
     "tm:suckerpunch",
-    "tm:ingrain"
+    "tm:ingrain",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1498,
+  "nationalPokedexNumber": 1501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

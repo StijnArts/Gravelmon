@@ -63,7 +63,22 @@
     "1:bite",
     "1:thundershock",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:payback",
+    "4:charge",
+    "7:nightdaze",
+    "7:shockwave",
+    "10:snarl",
+    "10:discharge",
+    "13:knockoff",
+    "13:thunderbolt",
+    "16:darkpulse",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3660,
+  "nationalPokedexNumber": 3668,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

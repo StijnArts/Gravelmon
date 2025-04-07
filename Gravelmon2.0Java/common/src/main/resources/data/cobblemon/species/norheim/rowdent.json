@@ -114,6 +114,7 @@
     "tm:overheat",
     "tm:hyperbeam",
     "tm:dracometeor",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3080,
+  "nationalPokedexNumber": 3088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

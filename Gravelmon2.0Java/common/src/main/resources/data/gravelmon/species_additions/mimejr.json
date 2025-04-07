@@ -116,6 +116,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -160,7 +161,8 @@
         "egg:tickle",
         "egg:psychic",
         "egg:throatchop",
-        "egg:allyswitch"
+        "egg:allyswitch",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

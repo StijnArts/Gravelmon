@@ -16,7 +16,7 @@ public class Noxisekt extends drai.dev.data.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.STENCH,Ability.AFTERMATH), Ability.BULLETPROOF,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,2,0,0), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
@@ -27,7 +27,11 @@ public class Noxisekt extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(22).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Noxisekt");

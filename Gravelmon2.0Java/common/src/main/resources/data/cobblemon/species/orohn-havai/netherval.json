@@ -73,7 +73,8 @@
     "71:workup",
     "78:crosschop",
     "85:thunder",
-    "92:eruption"
+    "92:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3037,
+  "nationalPokedexNumber": 3045,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

@@ -96,7 +96,8 @@
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
-    "tutor:bugnoise"
+    "tutor:bugnoise",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4523,
+  "nationalPokedexNumber": 4531,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

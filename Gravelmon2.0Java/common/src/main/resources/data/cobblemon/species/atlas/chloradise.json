@@ -117,7 +117,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5051,
+  "nationalPokedexNumber": 5059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

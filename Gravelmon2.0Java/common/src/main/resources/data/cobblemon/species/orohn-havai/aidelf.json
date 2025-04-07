@@ -85,7 +85,8 @@
     "tm:teeterdance",
     "tm:copycat",
     "tm:quiverdance",
-    "tm:dazzlinggleam"
+    "tm:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2960,
+  "nationalPokedexNumber": 2968,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

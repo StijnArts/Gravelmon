@@ -136,7 +136,8 @@
     "tm:gravity",
     "tm:cut",
     "tm:strength",
-    "tm:rockclimb"
+    "tm:rockclimb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4898,
+  "nationalPokedexNumber": 4906,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

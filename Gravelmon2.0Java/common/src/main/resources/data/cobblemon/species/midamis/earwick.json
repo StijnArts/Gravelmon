@@ -70,7 +70,8 @@
     "25:metalclaw",
     "30:furyswipes",
     "35:mindreader",
-    "40:dig"
+    "40:dig",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4313,
+  "nationalPokedexNumber": 4321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

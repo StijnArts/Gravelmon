@@ -132,7 +132,8 @@
     "tm:thunderfang",
     "tm:toxic",
     "tm:weatherball",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3883,
+  "nationalPokedexNumber": 3891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -112,7 +112,8 @@
     "egg:shockwave",
     "egg:swift",
     "egg:takedown",
-    "egg:trick"
+    "egg:trick",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +127,7 @@
   "weight": 512,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4514,
+  "nationalPokedexNumber": 4522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

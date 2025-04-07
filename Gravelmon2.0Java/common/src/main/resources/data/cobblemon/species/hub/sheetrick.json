@@ -98,7 +98,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:whirlwind",
-    "tm:uturn"
+    "tm:uturn",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -111,7 +112,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1393,
+  "nationalPokedexNumber": 1396,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

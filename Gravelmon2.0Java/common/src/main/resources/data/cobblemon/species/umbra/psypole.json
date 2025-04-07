@@ -144,7 +144,8 @@
     "tutor:gastroacid",
     "tutor:skillswap",
     "tutor:hypervoice",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -174,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3685,
+  "nationalPokedexNumber": 3693,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

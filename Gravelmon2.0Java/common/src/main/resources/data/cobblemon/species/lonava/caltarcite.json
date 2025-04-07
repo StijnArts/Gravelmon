@@ -117,7 +117,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:workup",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3322,
+  "nationalPokedexNumber": 3330,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

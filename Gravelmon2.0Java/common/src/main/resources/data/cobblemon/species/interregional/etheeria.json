@@ -74,7 +74,8 @@
     "40:electroball",
     "45:lightscreen",
     "51:bugbuzz",
-    "56:thunderbolt"
+    "56:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1457,
+  "nationalPokedexNumber": 1460,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

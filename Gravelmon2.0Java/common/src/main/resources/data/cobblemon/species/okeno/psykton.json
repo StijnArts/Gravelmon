@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:confusion"
+    "1:confusion",
+    "1:defensecurl",
+    "1:growl",
+    "10:rollout",
+    "10:psybeam",
+    "15:smackdown",
+    "15:futuresight",
+    "20:rockblast",
+    "20:psychic",
+    "25:stealthrock",
+    "25:zenheadbutt",
+    "30:stoneedge",
+    "30:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4464,
+  "nationalPokedexNumber": 4472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

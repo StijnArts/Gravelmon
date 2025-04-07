@@ -138,7 +138,8 @@
         "tutor:superfang",
         "tutor:superpower",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -314,7 +315,8 @@
         "egg:nightslash",
         "egg:endeavor",
         "egg:harden",
-        "egg:firstimpression"
+        "egg:firstimpression",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

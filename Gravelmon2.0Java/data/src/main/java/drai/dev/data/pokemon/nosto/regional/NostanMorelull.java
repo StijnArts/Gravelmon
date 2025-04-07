@@ -46,7 +46,7 @@ public class NostanMorelull extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 23, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 23, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

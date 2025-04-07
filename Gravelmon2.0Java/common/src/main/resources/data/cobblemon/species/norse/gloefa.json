@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:gust",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:leer",
+    "1:babydolleyes",
+    "4:aircutter",
+    "4:drainingkiss",
+    "7:wingattack",
+    "7:playnice",
+    "10:airslash",
+    "10:dazzlinggleam",
+    "13:drillpeck",
+    "13:hypervoice",
+    "16:hurricane",
+    "16:moonblast",
+    "19:peck",
+    "19:disarmingvoice",
+    "22:leer",
+    "22:babydolleyes",
+    "25:pluck",
+    "25:drainingkiss",
+    "28:wingattack",
+    "28:playnice",
+    "31:aerialace",
+    "31:dazzlinggleam",
+    "34:drillpeck",
+    "34:playrough",
+    "39:bravebird",
+    "39:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2566,
+  "nationalPokedexNumber": 2574,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -23,7 +23,8 @@ public class Peclay extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.MINERAL),
                 List.of("Peclay's clay shell protects it from being carried away by a sandstorm. It uses its strong legs to launch itself like a cannonball."),
-                List.of(),
+                List.of(new EvolutionEntry("tektalon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.GROWL,3),
@@ -112,7 +113,11 @@ public class Peclay extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Peclay");

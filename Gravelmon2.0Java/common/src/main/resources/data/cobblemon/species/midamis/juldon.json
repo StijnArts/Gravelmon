@@ -75,7 +75,8 @@
     "34:zenheadbutt",
     "36:hammerarm",
     "40:doubleedge",
-    "42:rockwrecker"
+    "42:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4395,
+  "nationalPokedexNumber": 4403,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

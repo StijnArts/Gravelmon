@@ -152,7 +152,8 @@
         "egg:psychicfangs",
         "egg:icefang",
         "egg:dragontail",
-        "egg:bide"
+        "egg:bide",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -23,8 +23,10 @@ import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
 import drai.dev.data.pokemon.neonintendo.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
+import drai.dev.data.pokemon.olysos.regional.*;
 import drai.dev.data.pokemon.opalo.regional.*;
 import drai.dev.data.pokemon.phoenixrising.regional.*;
 import drai.dev.data.pokemon.qamor.regional.*;
@@ -89,15 +91,13 @@ public class GenerationThree extends Game {
         addNewPokemon(new FormanTorchic("", Aspect.FORMAN));
         addNewPokemon(new FormanMudkip("", Aspect.FORMAN));
 
-//        addNewPokemon(new MystisianAbsol("", Aspect.MYSTISIAN)); TODO
-
-//        addNewPokemon(new OlysosianMightyena("", Aspect.OLYSOSIAN)); TODO
-//        addNewPokemon(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
+        addNewPokemon(new OlysosianMightyena("", Aspect.OLYSOSIAN));
+        addNewPokemon(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
 
 //        addNewPokemon(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
-//        addNewPokemon(new NodorranNosepass("", Aspect.NODORRAN)); TODO
+        addNewPokemon(new NodorranNosepass("", Aspect.NODORRAN));
 
 //        addNewPokemon(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART

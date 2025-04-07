@@ -134,7 +134,8 @@
     "tm:whirlwind",
     "tm:bulletseed",
     "tm:furyswipes",
-    "tm:infestation"
+    "tm:infestation",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3357,
+  "nationalPokedexNumber": 3365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

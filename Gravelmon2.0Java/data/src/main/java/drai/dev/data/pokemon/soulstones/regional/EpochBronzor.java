@@ -120,7 +120,7 @@ public class EpochBronzor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COSMIC_POWER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 38, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 38, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

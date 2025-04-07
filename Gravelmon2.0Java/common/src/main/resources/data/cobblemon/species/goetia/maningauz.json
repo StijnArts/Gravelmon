@@ -63,7 +63,30 @@
     "1:lick",
     "1:lowkick",
     "1:curse",
-    "1:drainpunch"
+    "1:drainpunch",
+    "1:growl",
+    "1:leer",
+    "1:bulkup",
+    "1:bulkup",
+    "10:confuseray",
+    "10:revenge",
+    "10:calmmind",
+    "10:calmmind",
+    "15:hex",
+    "15:lowsweep",
+    "15:taunt",
+    "15:taunt",
+    "20:shadowclaw",
+    "20:brickbreak",
+    "20:substitute",
+    "20:substitute",
+    "25:phantomforce",
+    "25:karatechop",
+    "25:rest",
+    "25:rest",
+    "30:poltergeist",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -105,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6011,
+  "nationalPokedexNumber": 6019,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

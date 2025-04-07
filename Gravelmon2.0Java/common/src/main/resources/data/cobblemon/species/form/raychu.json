@@ -61,7 +61,15 @@
   "drops": {},
   "moves": [
     "1:acid",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:nastyplot",
+    "4:clearsmog",
+    "7:sludge",
+    "10:toxicspikes",
+    "13:sludgebomb",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -78,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3734,
+  "nationalPokedexNumber": 3742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

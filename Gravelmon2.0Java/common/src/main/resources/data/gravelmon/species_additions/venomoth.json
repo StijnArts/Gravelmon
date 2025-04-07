@@ -128,7 +128,8 @@
         "tm:toxicspikes",
         "tm:uturn",
         "tm:weatherball",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -262,7 +263,8 @@
         "tm:wildcharge",
         "tm:naturepower",
         "tm:dazzlinggleam",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

@@ -118,7 +118,8 @@
     "tm:infestation",
     "tm:flashcannon",
     "tm:naturepower",
-    "tm:steamroller"
+    "tm:steamroller",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1596,
+  "nationalPokedexNumber": 1599,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

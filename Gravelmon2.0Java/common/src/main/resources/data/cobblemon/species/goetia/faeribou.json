@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:leer",
+    "1:babydolleyes",
+    "10:absorb",
+    "10:drainingkiss",
+    "15:trailblaze",
+    "15:playnice",
+    "20:gigadrain",
+    "20:dazzlinggleam",
+    "25:seedbomb",
+    "25:playrough",
+    "30:leafblade",
+    "30:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5816,
+  "nationalPokedexNumber": 5824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

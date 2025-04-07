@@ -73,7 +73,8 @@
     "81:megahorn",
     "97:horndrill",
     "tm:ancientpower",
-    "tm:superfang"
+    "tm:superfang",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3236,
+  "nationalPokedexNumber": 3244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

@@ -11,8 +11,8 @@ public class Mawvile extends drai.dev.data.pokemon.Pokemon {
                 Type.GHOST, Type.WATER,
                 stats,
                 List.of(Ability.STRONG_JAW,Ability.HYPER_CUTTER), Ability.INTIMIDATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,11 +22,16 @@ public class Mawvile extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mawvile");
-
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
     }
 
 

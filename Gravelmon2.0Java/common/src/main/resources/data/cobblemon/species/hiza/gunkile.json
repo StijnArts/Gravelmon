@@ -73,7 +73,8 @@
     "40:aquajet",
     "47:aquatail",
     "52:gunkshot",
-    "58:toxic"
+    "58:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2323,
+  "nationalPokedexNumber": 2331,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

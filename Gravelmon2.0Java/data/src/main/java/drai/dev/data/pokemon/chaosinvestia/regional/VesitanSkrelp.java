@@ -49,7 +49,7 @@ public class VesitanSkrelp extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 44, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 44, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

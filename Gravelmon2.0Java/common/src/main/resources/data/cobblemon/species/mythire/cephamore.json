@@ -66,7 +66,8 @@
     "1:helpinghand",
     "1:allyswitch",
     "1:charm",
-    "1:constrict"
+    "1:constrict",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3869,
+  "nationalPokedexNumber": 3877,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

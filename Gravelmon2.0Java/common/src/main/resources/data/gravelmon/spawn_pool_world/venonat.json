@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"

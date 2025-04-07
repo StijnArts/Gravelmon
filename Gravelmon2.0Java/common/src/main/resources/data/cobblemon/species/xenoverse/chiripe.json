@@ -101,7 +101,8 @@
     "egg:pursuit",
     "egg:gigadrain",
     "egg:petaldance",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1832,
+  "nationalPokedexNumber": 1835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

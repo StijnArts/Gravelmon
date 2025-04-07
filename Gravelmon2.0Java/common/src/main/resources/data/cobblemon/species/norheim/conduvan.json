@@ -71,7 +71,8 @@
     "68:explosion",
     "78:meteormash",
     "88:doomdesire",
-    "98:hyperbeam"
+    "98:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3221,
+  "nationalPokedexNumber": 3229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

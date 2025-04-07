@@ -132,7 +132,8 @@
     "egg:sunnyday",
     "egg:twister",
     "egg:typhoon",
-    "egg:workup"
+    "egg:workup",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -146,7 +147,7 @@
   "weight": 270,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4598,
+  "nationalPokedexNumber": 4606,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

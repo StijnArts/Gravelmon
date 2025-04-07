@@ -83,7 +83,8 @@
     "1:yawn",
     "1:selfdestruct",
     "1:explosion",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3134,
+  "nationalPokedexNumber": 3142,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

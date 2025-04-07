@@ -38,7 +38,7 @@ public class Sharpunk extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),

@@ -139,7 +139,8 @@
         "egg:spikyshield",
         "egg:sunnyday",
         "egg:fierydance",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -298,7 +299,8 @@
         "tm:grudge",
         "tm:bestow",
         "tm:poweruppunch",
-        "tm:venomdrench"
+        "tm:venomdrench",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -473,7 +475,8 @@
         "tutor:synthesis",
         "tutor:uproar",
         "tutor:vacuumwave",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -645,7 +648,8 @@
         "tm:worryseed",
         "egg:grudge",
         "egg:suckerpunch",
-        "egg:disable"
+        "egg:disable",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -804,7 +808,8 @@
         "tm:spite",
         "tm:toxic",
         "tm:poltergeist",
-        "tm:lashout"
+        "tm:lashout",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

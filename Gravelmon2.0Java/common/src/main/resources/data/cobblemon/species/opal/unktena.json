@@ -74,7 +74,8 @@
     "59:dragondance",
     "65:destinybond",
     "72:outrage",
-    "80:heatwave"
+    "80:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -87,7 +88,7 @@
   "weight": 1355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1484,
+  "nationalPokedexNumber": 1487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 10.875,

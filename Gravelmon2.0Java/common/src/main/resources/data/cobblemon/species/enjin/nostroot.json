@@ -97,7 +97,8 @@
     "tm:painsplit",
     "tm:destinybond",
     "tm:strengthsap",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4687,
+  "nationalPokedexNumber": 4695,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

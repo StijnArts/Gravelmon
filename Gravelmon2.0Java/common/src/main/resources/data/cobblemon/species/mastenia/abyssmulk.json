@@ -1,0 +1,105 @@
+{
+  "name": "Abyssmulk",
+  "primaryType": "dark",
+  "secondaryType": "electric",
+  "catchRate": 40,
+  "maleRatio": 0.0,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "lanturn form=mastenian",
+  "baseScale": 0.6545454545454545,
+  "cannotDynamax": false,
+  "abilities": [
+    "wonderskin",
+    "pressure",
+    "h:slowstart"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 145,
+    "attack": 98,
+    "defence": 77,
+    "special_attack": 66,
+    "special_defence": 92,
+    "speed": 77
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:bite",
+    "1:thundershock",
+    "1:leer",
+    "1:leer",
+    "10:payback",
+    "10:charge",
+    "15:nightslash",
+    "15:thunderpunch",
+    "20:crunch",
+    "20:discharge",
+    "25:knockoff",
+    "25:wildcharge",
+    "30:suckerpunch",
+    "30:supercellslam",
+    "tm:terablast"
+  ],
+  "labels": [
+    "mastenia",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.abyssmulk.desc"
+  ],
+  "height": 21,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6142,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 4.8125,
+    "height": 4.8125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

@@ -74,7 +74,8 @@
     "42:flameburst",
     "46:irontail",
     "50:flareblitz",
-    "55:shiftgear"
+    "55:shiftgear",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4186,
+  "nationalPokedexNumber": 4194,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

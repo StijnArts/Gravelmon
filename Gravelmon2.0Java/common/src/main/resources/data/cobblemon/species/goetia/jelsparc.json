@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:acid",
-    "1:thundershock"
+    "1:thundershock",
+    "1:leer",
+    "1:leer",
+    "10:clearsmog",
+    "10:charge",
+    "15:sludge",
+    "15:shockwave",
+    "20:toxicspikes",
+    "20:discharge",
+    "25:sludgebomb",
+    "25:thunderbolt",
+    "30:sludgewave",
+    "30:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5951,
+  "nationalPokedexNumber": 5959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

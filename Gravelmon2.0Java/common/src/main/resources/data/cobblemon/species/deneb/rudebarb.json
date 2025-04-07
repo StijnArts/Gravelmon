@@ -133,7 +133,8 @@
     "egg:sandstorm",
     "egg:stoneedge",
     "egg:sunnyday",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -148,7 +149,7 @@
   "weight": 450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4585,
+  "nationalPokedexNumber": 4593,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

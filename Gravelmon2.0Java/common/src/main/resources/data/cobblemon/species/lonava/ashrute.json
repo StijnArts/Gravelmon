@@ -136,7 +136,8 @@
     "tm:hyperfang",
     "tm:lockon",
     "tm:makeitrain",
-    "tm:slash"
+    "tm:slash",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -151,7 +152,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3314,
+  "nationalPokedexNumber": 3322,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

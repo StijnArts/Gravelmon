@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:peck"
+    "1:peck",
+    "1:growl",
+    "1:leer",
+    "10:quickattack",
+    "10:pluck",
+    "15:bite",
+    "15:wingattack",
+    "20:takedown",
+    "20:aerialace",
+    "25:crunch",
+    "25:drillpeck",
+    "30:doubleedge",
+    "30:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5333,
+  "nationalPokedexNumber": 5341,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

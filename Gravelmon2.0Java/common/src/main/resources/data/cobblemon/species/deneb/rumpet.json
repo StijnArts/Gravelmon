@@ -135,7 +135,8 @@
     "egg:sleeptalk",
     "egg:snore",
     "egg:sunnyday",
-    "egg:swift"
+    "egg:swift",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -148,7 +149,7 @@
   "weight": 362,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4522,
+  "nationalPokedexNumber": 4530,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

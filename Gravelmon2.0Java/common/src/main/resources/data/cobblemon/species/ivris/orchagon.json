@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "1:leer",
+    "4:absorb",
+    "4:dragonrage",
+    "7:trailblaze",
+    "7:dualchop",
+    "10:gigadrain",
+    "10:breakingswipe",
+    "13:seedbomb",
+    "13:dragonclaw",
+    "16:leafblade",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3646,
+  "nationalPokedexNumber": 3654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

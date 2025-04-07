@@ -148,7 +148,8 @@
         "tm:weatherball",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -333,7 +334,8 @@
         "egg:doubleteam",
         "egg:headsmash",
         "egg:knockoff",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

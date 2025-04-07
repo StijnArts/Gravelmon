@@ -77,7 +77,8 @@
     "35:aquatail",
     "37:doubleedge",
     "41:faketears",
-    "43:hydropump"
+    "43:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3074,
+  "nationalPokedexNumber": 3082,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

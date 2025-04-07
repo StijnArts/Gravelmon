@@ -75,7 +75,8 @@
     "51:stockpile",
     "51:swallow",
     "56:ironhead",
-    "66:guillotine"
+    "66:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1760,
+  "nationalPokedexNumber": 1763,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

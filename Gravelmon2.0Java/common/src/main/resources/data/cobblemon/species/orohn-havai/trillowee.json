@@ -122,7 +122,8 @@
     "tm:whirlwind",
     "tm:willowisp",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -137,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3024,
+  "nationalPokedexNumber": 3032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

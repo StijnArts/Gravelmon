@@ -148,7 +148,8 @@
     "tm:thrash",
     "tm:cottonguard",
     "tm:stomp",
-    "tm:amnesia"
+    "tm:amnesia",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -176,7 +177,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3353,
+  "nationalPokedexNumber": 3361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

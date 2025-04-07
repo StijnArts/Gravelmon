@@ -112,7 +112,8 @@
     "egg:seismictoss",
     "egg:sunnyday",
     "egg:sweetscent",
-    "egg:swift"
+    "egg:swift",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4511,
+  "nationalPokedexNumber": 4519,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -122,7 +122,8 @@
         "tm:uturn",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -268,7 +269,8 @@
         "tm:uturn",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -364,7 +366,8 @@
         "25:mist",
         "30:aquajet",
         "35:batonpass",
-        "38:stickyweb"
+        "38:stickyweb",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

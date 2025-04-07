@@ -155,7 +155,8 @@
     "egg:meteormash",
     "egg:superpower",
     "egg:thrash",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

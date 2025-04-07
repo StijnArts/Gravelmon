@@ -111,7 +111,8 @@
     "tm:hurricane",
     "tm:liquidation",
     "tm:hyperbeam",
-    "tm:solarbeam"
+    "tm:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2353,
+  "nationalPokedexNumber": 2361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

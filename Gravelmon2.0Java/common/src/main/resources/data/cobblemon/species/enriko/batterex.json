@@ -78,7 +78,8 @@
     "51:wringout",
     "57:dragonpulse",
     "62:perfectglare",
-    "67:discharge"
+    "67:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1714,
+  "nationalPokedexNumber": 1717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

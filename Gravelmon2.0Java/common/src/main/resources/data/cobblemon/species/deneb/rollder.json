@@ -106,7 +106,8 @@
     "egg:sandattack",
     "egg:sandstorm",
     "egg:strugglebug",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4498,
+  "nationalPokedexNumber": 4506,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

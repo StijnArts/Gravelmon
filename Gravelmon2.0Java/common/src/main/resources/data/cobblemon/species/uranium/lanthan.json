@@ -134,7 +134,8 @@
     "tm:thunderbolt",
     "tm:torment",
     "tm:toxic",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -148,7 +149,7 @@
   "weight": 14270,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2085,
+  "nationalPokedexNumber": 2088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

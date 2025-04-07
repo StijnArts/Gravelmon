@@ -16,8 +16,8 @@ public class Cookrush extends drai.dev.data.pokemon.Pokemon {
                         90,
                         100),
                 List.of(Ability.RELENTLESS), Ability.JAWBREAKER,
-                0, 0,
-                new Stats(0,0,0,0,0,2), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -31,7 +31,11 @@ public class Cookrush extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cookrush");

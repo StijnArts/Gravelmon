@@ -124,7 +124,8 @@
     "egg:smokescreen",
     "egg:solarbeam",
     "egg:sunnyday",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
   "weight": 108,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4574,
+  "nationalPokedexNumber": 4582,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

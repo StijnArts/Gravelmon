@@ -76,7 +76,8 @@
     "tm:powergem",
     "tm:miracleeye",
     "tm:iceshard",
-    "tm:coil"
+    "tm:coil",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3150,
+  "nationalPokedexNumber": 3158,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

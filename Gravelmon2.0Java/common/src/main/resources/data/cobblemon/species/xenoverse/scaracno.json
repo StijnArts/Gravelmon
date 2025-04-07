@@ -120,7 +120,8 @@
     "tutor:snore",
     "tutor:spite",
     "tutor:trick",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1823,
+  "nationalPokedexNumber": 1826,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

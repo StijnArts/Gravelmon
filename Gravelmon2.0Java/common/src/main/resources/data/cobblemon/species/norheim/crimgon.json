@@ -77,7 +77,8 @@
     "46:ironhead",
     "50:dragonclaw",
     "62:dragondance",
-    "66:dragonrush"
+    "66:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3196,
+  "nationalPokedexNumber": 3204,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

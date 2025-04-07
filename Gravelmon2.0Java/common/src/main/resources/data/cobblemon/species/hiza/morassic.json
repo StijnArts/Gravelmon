@@ -120,7 +120,8 @@
     "tm:snatch",
     "tm:naturalgift",
     "tm:grasswhistle",
-    "tm:dragondance"
+    "tm:dragondance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2254,
+  "nationalPokedexNumber": 2262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

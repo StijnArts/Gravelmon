@@ -72,7 +72,8 @@
     "50:megahorn",
     "58:ironhead",
     "66:earthpower",
-    "72:stoneedge"
+    "72:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3123,
+  "nationalPokedexNumber": 3131,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

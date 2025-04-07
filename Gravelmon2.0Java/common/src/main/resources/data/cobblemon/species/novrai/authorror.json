@@ -141,7 +141,8 @@
     "tm:shadowsneak",
     "tm:spite",
     "tm:followme",
-    "tm:lastrespects"
+    "tm:lastrespects",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4963,
+  "nationalPokedexNumber": 4971,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

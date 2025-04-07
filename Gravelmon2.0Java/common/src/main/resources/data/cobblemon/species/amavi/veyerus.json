@@ -71,7 +71,8 @@
     "41:metalburst",
     "48:toxic",
     "54:memento",
-    "66:sludgewave"
+    "66:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5242,
+  "nationalPokedexNumber": 5250,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

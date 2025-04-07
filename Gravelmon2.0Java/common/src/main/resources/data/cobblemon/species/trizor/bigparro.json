@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:peck",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "4:pluck",
+    "4:taunt",
+    "7:wingattack",
+    "7:substitute",
+    "10:aerialace",
+    "10:rest",
+    "13:drillpeck",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -78,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2728,
+  "nationalPokedexNumber": 2736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

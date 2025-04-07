@@ -124,7 +124,8 @@
     "tm:healbell",
     "tm:teleport",
     "tm:agility",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

@@ -130,7 +130,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -291,7 +292,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -446,7 +448,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -611,7 +614,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -764,7 +768,8 @@
         "tm:triattack",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -931,7 +936,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:wonderroom",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1089,7 +1095,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1241,7 +1248,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1396,7 +1404,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1558,7 +1567,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1728,7 +1738,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -1888,7 +1899,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -2028,7 +2040,8 @@
         "tm:confide",
         "tm:infestation",
         "tm:rocksmash",
-        "tm:chillingwater"
+        "tm:chillingwater",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -2184,7 +2197,8 @@
         "egg:mirrorcoat",
         "egg:yawn",
         "egg:brine",
-        "egg:clearsmog"
+        "egg:clearsmog",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

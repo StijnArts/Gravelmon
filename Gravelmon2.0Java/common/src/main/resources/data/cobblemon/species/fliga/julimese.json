@@ -69,7 +69,8 @@
     "41:discharge",
     "46:rototiller",
     "51:electricterrain",
-    "57:powerwhip"
+    "57:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3981,
+  "nationalPokedexNumber": 3989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

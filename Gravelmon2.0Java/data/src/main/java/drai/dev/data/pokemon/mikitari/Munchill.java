@@ -23,7 +23,8 @@ public class Munchill extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Munchill lies buried in the snow, waiting to clench its jaws at the first thing that comes by. Once it grabs something in its jaws, it won't let go."),
-                List.of(),
+                List.of(new EvolutionEntry("crunchill", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -100,7 +101,11 @@ public class Munchill extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZEDRY,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FREEZING)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Munchill");

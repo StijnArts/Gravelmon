@@ -70,7 +70,8 @@
     "30:crunch",
     "34:liquidation",
     "40:voltswitch",
-    "45:suckerpunch"
+    "45:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -83,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3951,
+  "nationalPokedexNumber": 3959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

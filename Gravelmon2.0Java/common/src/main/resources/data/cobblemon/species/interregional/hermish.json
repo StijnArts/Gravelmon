@@ -72,7 +72,8 @@
     "25:poisongas",
     "27:waterpulse",
     "32:aquaring",
-    "34:rockslide"
+    "34:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1414,
+  "nationalPokedexNumber": 1417,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -134,7 +134,8 @@
     "tm:scald",
     "tm:surf",
     "tm:waterfall",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3503,
+  "nationalPokedexNumber": 3511,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

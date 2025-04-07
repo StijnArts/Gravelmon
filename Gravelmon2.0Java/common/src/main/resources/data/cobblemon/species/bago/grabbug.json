@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:strugglebug"
+    "1:strugglebug",
+    "1:stringshot",
+    "4:leechlife",
+    "7:lunge",
+    "10:xscissor",
+    "13:uturn",
+    "16:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -89,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2806,
+  "nationalPokedexNumber": 2814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

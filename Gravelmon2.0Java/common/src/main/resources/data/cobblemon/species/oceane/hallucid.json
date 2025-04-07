@@ -74,7 +74,8 @@
     "1:trickroom",
     "1:skillswap",
     "1:powerswap",
-    "1:darkpulse"
+    "1:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1906,
+  "nationalPokedexNumber": 1909,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

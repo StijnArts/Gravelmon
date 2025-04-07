@@ -141,7 +141,8 @@
     "tm:firespin",
     "tm:crunch",
     "tm:needlearm",
-    "tm:pinmissile"
+    "tm:pinmissile",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1486,
+  "nationalPokedexNumber": 1489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

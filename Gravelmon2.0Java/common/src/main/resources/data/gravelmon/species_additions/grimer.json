@@ -63,7 +63,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:mudslap"
+        "1:mudslap",
+        "1:growl",
+        "4:sandattack",
+        "7:mudbomb",
+        "10:bulldoze",
+        "13:dig",
+        "16:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -248,7 +255,8 @@
         "egg:belch",
         "egg:powerwhip",
         "egg:ragepowder",
-        "egg:quicksand"
+        "egg:quicksand",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -436,7 +444,8 @@
         "egg:scaryface",
         "egg:smackdown",
         "egg:overheat",
-        "egg:smokescreen"
+        "egg:smokescreen",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -614,7 +623,8 @@
         "tm:sandtomb",
         "tm:incinerate",
         "tm:acidspray",
-        "tm:lick"
+        "tm:lick",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -799,7 +809,8 @@
         "egg:shadowsneak",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -990,7 +1001,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:suckerpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -1169,7 +1181,8 @@
         "egg:spitup",
         "egg:scaryface",
         "egg:acidspray",
-        "egg:poweruppunch"
+        "egg:poweruppunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

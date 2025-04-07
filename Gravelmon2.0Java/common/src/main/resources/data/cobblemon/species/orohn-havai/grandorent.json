@@ -80,7 +80,8 @@
     "tm:bite",
     "tm:agility",
     "tm:superfang",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2955,
+  "nationalPokedexNumber": 2963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

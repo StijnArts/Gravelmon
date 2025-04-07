@@ -147,7 +147,8 @@
     "tm:spite",
     "tm:disarmingvoice",
     "tm:metalsound",
-    "tm:headsmash"
+    "tm:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -162,7 +163,7 @@
   "weight": 775,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3966,
+  "nationalPokedexNumber": 3974,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

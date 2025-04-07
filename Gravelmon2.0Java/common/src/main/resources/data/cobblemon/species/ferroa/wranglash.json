@@ -138,7 +138,8 @@
     "tm:taunt",
     "tm:thief",
     "tm:toxic",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1531,
+  "nationalPokedexNumber": 1534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

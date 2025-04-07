@@ -74,7 +74,8 @@
     "1:metalsound",
     "1:grudge",
     "1:meanlook",
-    "1:confuseray"
+    "1:confuseray",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3226,
+  "nationalPokedexNumber": 3234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

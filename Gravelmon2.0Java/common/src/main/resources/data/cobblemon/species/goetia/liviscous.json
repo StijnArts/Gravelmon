@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:acid",
-    "1:watergun"
+    "1:watergun",
+    "1:leer",
+    "1:tailwhip",
+    "10:clearsmog",
+    "10:bubblebeam",
+    "15:sludge",
+    "15:brine",
+    "20:toxicspikes",
+    "20:surf",
+    "25:sludgebomb",
+    "25:chillingwater",
+    "30:sludgewave",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6075,
+  "nationalPokedexNumber": 6083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

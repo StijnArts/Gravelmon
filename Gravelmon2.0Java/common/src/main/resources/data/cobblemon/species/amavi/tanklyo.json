@@ -90,7 +90,8 @@
     "tm:rest",
     "tm:attract",
     "tm:facade",
-    "tm:sunnyday"
+    "tm:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -105,7 +106,7 @@
   "weight": 2041,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5183,
+  "nationalPokedexNumber": 5191,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

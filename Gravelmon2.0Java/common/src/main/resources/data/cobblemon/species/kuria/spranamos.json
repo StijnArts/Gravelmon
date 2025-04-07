@@ -78,7 +78,8 @@
     "43:poisonjab",
     "45:sludgebomb",
     "47:belch",
-    "50:flatter"
+    "50:flatter",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 1013,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4175,
+  "nationalPokedexNumber": 4183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

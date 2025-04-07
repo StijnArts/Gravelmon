@@ -138,7 +138,8 @@
     "tm:flipturn",
     "tm:odorsleuth",
     "tm:quickguard",
-    "tm:doublekick"
+    "tm:doublekick",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4878,
+  "nationalPokedexNumber": 4886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

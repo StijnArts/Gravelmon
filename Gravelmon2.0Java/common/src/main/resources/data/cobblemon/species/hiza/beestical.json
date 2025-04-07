@@ -77,7 +77,8 @@
     "49:pollenpuff",
     "52:leechlife",
     "57:wish",
-    "66:healingwish"
+    "66:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2371,
+  "nationalPokedexNumber": 2379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

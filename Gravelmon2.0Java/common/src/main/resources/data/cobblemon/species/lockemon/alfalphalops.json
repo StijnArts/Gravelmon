@@ -115,7 +115,8 @@
     "egg:headbutt",
     "egg:sleeptalk",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -130,7 +131,7 @@
   "weight": 2025,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3372,
+  "nationalPokedexNumber": 3380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

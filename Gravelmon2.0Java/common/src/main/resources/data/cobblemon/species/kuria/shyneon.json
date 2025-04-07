@@ -153,7 +153,8 @@
     "egg:synchronoise",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -166,7 +167,7 @@
   "weight": 410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4190,
+  "nationalPokedexNumber": 4198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

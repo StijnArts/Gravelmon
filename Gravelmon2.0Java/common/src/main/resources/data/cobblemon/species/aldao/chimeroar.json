@@ -64,7 +64,29 @@
     "1:tackle",
     "1:acid",
     "1:sleeptalk",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:leer",
+    "1:bulkup",
+    "1:calmmind",
+    "4:round",
+    "4:clearsmog",
+    "4:calmmind",
+    "4:taunt",
+    "7:swift",
+    "7:sludge",
+    "7:taunt",
+    "7:substitute",
+    "10:uproar",
+    "10:toxicspikes",
+    "10:substitute",
+    "10:rest",
+    "13:hypervoice",
+    "13:sludgebomb",
+    "13:rest",
+    "16:hyperbeam",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -96,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2897,
+  "nationalPokedexNumber": 2905,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

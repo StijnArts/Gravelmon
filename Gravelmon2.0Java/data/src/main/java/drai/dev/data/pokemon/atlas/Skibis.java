@@ -85,7 +85,7 @@ public class Skibis extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVELATION_DANCE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 25, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

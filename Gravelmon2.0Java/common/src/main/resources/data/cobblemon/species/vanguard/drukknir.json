@@ -114,7 +114,8 @@
     "tm:throatchop",
     "tm:uproar",
     "tm:waterfall",
-    "tm:icehammer"
+    "tm:icehammer",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -127,7 +128,7 @@
   "weight": 2000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4107,
+  "nationalPokedexNumber": 4115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

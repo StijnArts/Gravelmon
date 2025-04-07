@@ -130,7 +130,8 @@
         "tm:synthesis",
         "tm:toxic",
         "tm:toxicspikes",
-        "tm:willowisp"
+        "tm:willowisp",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

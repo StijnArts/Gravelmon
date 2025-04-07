@@ -151,7 +151,8 @@
     "egg:swordsdance",
     "egg:agility",
     "egg:knockoff",
-    "egg:flameimpact"
+    "egg:flameimpact",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -166,7 +167,7 @@
   "weight": 549,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2029,
+  "nationalPokedexNumber": 2032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

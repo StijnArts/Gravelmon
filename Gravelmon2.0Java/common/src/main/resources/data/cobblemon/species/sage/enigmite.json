@@ -125,7 +125,8 @@
     "egg:psychoshift",
     "egg:rollout",
     "egg:silverwind",
-    "egg:slash"
+    "egg:slash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -82,7 +82,8 @@
     "tm:shockwave",
     "tm:acrobatics",
     "tm:wildcharge",
-    "tm:paraboliccharge"
+    "tm:paraboliccharge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2979,
+  "nationalPokedexNumber": 2987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

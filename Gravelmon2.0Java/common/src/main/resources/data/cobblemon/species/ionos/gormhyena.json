@@ -75,7 +75,8 @@
     "44:honeclaws",
     "50:earthquake",
     "55:spikes",
-    "62:fissure"
+    "62:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4752,
+  "nationalPokedexNumber": 4760,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

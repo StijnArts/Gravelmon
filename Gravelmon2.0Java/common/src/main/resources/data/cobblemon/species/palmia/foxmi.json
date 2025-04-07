@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:round",
+    "4:confuseray",
+    "7:swift",
+    "7:ominouswind",
+    "10:uproar",
+    "10:nightshade",
+    "13:hypervoice",
+    "13:hex",
+    "16:hyperbeam",
+    "16:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2634,
+  "nationalPokedexNumber": 2642,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

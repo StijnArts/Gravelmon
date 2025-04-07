@@ -6,14 +6,17 @@
     {
       "id": "mastenian_shroomish-01",
       "pokemon": "shroomish mastenian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "11-31",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_magical"
         ]
       },
       "weightMultiplier": {
@@ -35,7 +38,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "12-32",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

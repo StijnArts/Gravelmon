@@ -150,7 +150,8 @@
         "tm:whirlpool",
         "tm:wildcharge",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -251,7 +252,8 @@
         "45:shadowball",
         "50:lightscreen",
         "50:reflect",
-        "55:typhoon"
+        "55:typhoon",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",

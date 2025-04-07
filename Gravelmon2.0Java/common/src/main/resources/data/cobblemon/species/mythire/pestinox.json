@@ -146,7 +146,8 @@
     "tm:dazzlinggleam",
     "tm:highhorsepower",
     "tm:throatchop",
-    "tm:psychicfangs"
+    "tm:psychicfangs",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3915,
+  "nationalPokedexNumber": 3923,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

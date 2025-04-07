@@ -75,7 +75,8 @@
     "42:dragonpulse",
     "46:solarbeam",
     "56:hyperbeam",
-    "65:dracometeor"
+    "65:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1727,
+  "nationalPokedexNumber": 1730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

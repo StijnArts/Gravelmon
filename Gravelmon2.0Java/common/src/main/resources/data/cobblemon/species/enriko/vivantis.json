@@ -75,7 +75,8 @@
     "35:synthesis",
     "40:leafblade",
     "45:sunnyday",
-    "50:solarbeam"
+    "50:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1631,
+  "nationalPokedexNumber": 1634,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

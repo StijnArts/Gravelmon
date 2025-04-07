@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:lowkick"
+    "1:lowkick",
+    "1:growl",
+    "1:leer",
+    "10:icywind",
+    "10:revenge",
+    "15:icepunch",
+    "15:lowsweep",
+    "20:icespinner",
+    "20:brickbreak",
+    "25:iceshard",
+    "25:karatechop",
+    "30:iciclecrash",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6044,
+  "nationalPokedexNumber": 6052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

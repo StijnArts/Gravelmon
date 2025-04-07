@@ -33,7 +33,7 @@ public class VaritasianTynamo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE_BEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 5, 42, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 5, 42, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

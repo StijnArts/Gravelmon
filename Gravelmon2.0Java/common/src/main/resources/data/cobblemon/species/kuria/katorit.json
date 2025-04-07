@@ -73,7 +73,8 @@
     "33:synthesis",
     "38:takedown",
     "43:sunnyday",
-    "48:leafblade"
+    "48:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 546,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4112,
+  "nationalPokedexNumber": 4120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

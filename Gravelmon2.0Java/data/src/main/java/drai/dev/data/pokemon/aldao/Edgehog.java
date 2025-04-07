@@ -29,7 +29,7 @@ public class Edgehog extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 35, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 35, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),

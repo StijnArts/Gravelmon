@@ -99,7 +99,8 @@
     "tm:burningjealousy",
     "tm:risingvoltage",
     "tm:corrosivegas",
-    "tm:flipturn"
+    "tm:flipturn",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -112,7 +113,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3879,
+  "nationalPokedexNumber": 3887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -92,7 +92,8 @@
     "tm:rest",
     "tm:brine",
     "tm:raindance",
-    "tm:waterpulse"
+    "tm:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3479,
+  "nationalPokedexNumber": 3487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -73,7 +73,8 @@
     "44:rockpolish",
     "48:iciclecrash",
     "52:stoneedge",
-    "58:blizzard"
+    "58:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4057,
+  "nationalPokedexNumber": 4065,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

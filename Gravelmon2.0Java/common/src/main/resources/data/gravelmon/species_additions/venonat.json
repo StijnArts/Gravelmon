@@ -68,7 +68,45 @@
         "1:pollenpuff",
         "1:coaching",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:stringshot",
+        "1:leer",
+        "1:healbell",
+        "1:healbell",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:silverwind",
+        "4:revenge",
+        "4:wish",
+        "4:wish",
+        "4:uturn",
+        "4:quickattack",
+        "7:signalbeam",
+        "7:vacuumwave",
+        "7:quickattack",
+        "7:swordsdance",
+        "10:infestation",
+        "10:brickbreak",
+        "10:swordsdance",
+        "13:uturn",
+        "13:aurasphere",
+        "16:bugbuzz",
+        "16:focusblast",
+        "19:strugglebug",
+        "19:lowkick",
+        "22:stringshot",
+        "22:leer",
+        "25:leechlife",
+        "25:revenge",
+        "28:lunge",
+        "28:lowsweep",
+        "31:xscissor",
+        "31:brickbreak",
+        "34:uturn",
+        "34:karatechop",
+        "39:megahorn",
+        "39:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -240,7 +278,8 @@
         "egg:energyball",
         "egg:bugbuzz",
         "egg:seedbomb",
-        "egg:bulletseed"
+        "egg:bulletseed",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -349,7 +388,8 @@
         "35:electricterrain",
         "37:tailglow",
         "41:thunderbolt",
-        "47:psychic"
+        "47:psychic",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -482,7 +522,8 @@
         "tm:rest",
         "tm:attract",
         "tm:thief",
-        "egg:cosmicpower"
+        "egg:cosmicpower",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",
@@ -662,7 +703,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:venoshock",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

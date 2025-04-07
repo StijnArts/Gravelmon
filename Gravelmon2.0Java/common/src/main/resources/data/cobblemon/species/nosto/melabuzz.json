@@ -68,7 +68,8 @@
     "16:furyswipes",
     "19:webball",
     "22:workup",
-    "25:flail"
+    "25:flail",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

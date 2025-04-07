@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:lowkick"
+    "1:lowkick",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:revenge",
+    "7:aquatail",
+    "7:lowsweep",
+    "10:surf",
+    "10:brickbreak",
+    "13:waterfall",
+    "13:karatechop",
+    "16:liquidation",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -108,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2820,
+  "nationalPokedexNumber": 2828,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

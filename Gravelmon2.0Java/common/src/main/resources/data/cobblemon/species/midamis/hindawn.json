@@ -70,7 +70,8 @@
     "33:dreameater",
     "41:skillswap",
     "44:destinybond",
-    "52:miracleeye"
+    "52:miracleeye",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4379,
+  "nationalPokedexNumber": 4387,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

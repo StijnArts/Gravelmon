@@ -109,7 +109,8 @@
     "tm:thief",
     "tm:calmmind",
     "tm:avalanche",
-    "tm:shoreup"
+    "tm:shoreup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5144,
+  "nationalPokedexNumber": 5152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

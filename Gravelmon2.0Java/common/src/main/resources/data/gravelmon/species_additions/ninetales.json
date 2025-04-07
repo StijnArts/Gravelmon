@@ -67,7 +67,22 @@
         "1:lick",
         "1:ember",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:confuseray",
+        "4:firespin",
+        "7:ominouswind",
+        "7:flamecharge",
+        "10:nightshade",
+        "10:flameburst",
+        "13:hex",
+        "13:flamethrower",
+        "16:shadowball",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -213,7 +228,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -377,7 +393,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:willowisp",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -535,7 +552,8 @@
         "tm:wavecrash",
         "tm:weatherball",
         "tm:whirlpool",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -556,12 +574,233 @@
         "height": 5.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "ghost",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 177,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35200000000000004,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "h:shadowtag"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 82,
+        "attack": 76,
+        "defence": 75,
+        "special_attack": 81,
+        "special_defence": 91,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:dusk_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "1:ominouswind",
+        "1:quickattack",
+        "1:safeguard",
+        "1:destinybond",
+        "1:perishsong",
+        "1:willowisp",
+        "1:confuseray",
+        "1:shadowsneak",
+        "1:strengthsap",
+        "1:memento",
+        "1:mysticalfire",
+        "1:curse",
+        "1:moonlight",
+        "1:nastyplot",
+        "1:shadowball",
+        "1:hex",
+        "1:spite",
+        "1:painsplit",
+        "1:imprison",
+        "1:extrasensory",
+        "1:grudge",
+        "1:disable",
+        "tm:knockoff",
+        "tm:shadowclaw",
+        "tm:poltergeist",
+        "tm:phantomforce",
+        "tm:gigaimpact",
+        "tm:signalbeam",
+        "tm:thunderbolt",
+        "tm:nightshade",
+        "tm:shadowball",
+        "tm:solarbeam",
+        "tm:icywind",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:psyshock",
+        "tm:embargo",
+        "tm:torment",
+        "tm:taunt",
+        "tm:calmmind",
+        "tm:flash",
+        "tm:trick",
+        "tm:lightscreen",
+        "tm:workup",
+        "tm:snore",
+        "tm:spite",
+        "tm:painsplit",
+        "tm:irontail",
+        "tm:heatwave",
+        "tm:roleplay",
+        "tm:covet",
+        "tm:zenheadbutt",
+        "tm:foulplay",
+        "tm:burningjealousy",
+        "tm:babydolleyes",
+        "tm:roar",
+        "tm:flamethrower",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:willowisp",
+        "tm:facade",
+        "tm:overheat",
+        "tm:payback",
+        "tm:darkpulse",
+        "tm:energyball",
+        "tm:flamecharge",
+        "tm:round",
+        "tm:confide",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:firespin",
+        "tm:imprison",
+        "tm:weatherball",
+        "tm:powerswap",
+        "tm:hex",
+        "tm:tailslap",
+        "tm:mysticalfire",
+        "tm:agility",
+        "tm:endure",
+        "tm:encore",
+        "tm:flareblitz",
+        "tm:captivate",
+        "tm:curse",
+        "tm:headbutt",
+        "tm:incinerate",
+        "tm:naturalgift",
+        "tm:ominouswind",
+        "tm:secretpower",
+        "tm:batonpass",
+        "tm:healingwish",
+        "tm:helpinghand",
+        "tm:snarl",
+        "tm:terablast",
+        "tm:disable",
+        "tm:hypnosis",
+        "tm:flail",
+        "tm:feintattack",
+        "tm:secretpower",
+        "tm:extrasensory",
+        "tm:howl",
+        "tm:powerswap",
+        "tm:flareblitz",
+        "tm:captivate",
+        "tm:hex",
+        "tm:tailslap",
+        "tm:healingwish",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianninetales.desc"
+      ],
+      "height": 11,
+      "weight": 102,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "forman",
     "epoch",
     "ayreian",
-    "ayreiantwo"
+    "ayreiantwo",
+    "ishirian"
   ]
 }

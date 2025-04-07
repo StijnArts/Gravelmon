@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bite"
+    "1:bite",
+    "1:tailwhip",
+    "1:leer",
+    "3:bubblebeam",
+    "3:payback",
+    "6:brine",
+    "6:nightdaze",
+    "9:surf",
+    "9:snarl",
+    "12:chillingwater",
+    "12:knockoff",
+    "15:hydropump",
+    "15:darkpulse",
+    "18:watergun",
+    "18:bite",
+    "21:tailwhip",
+    "21:leer",
+    "24:bubblebeam",
+    "24:payback",
+    "27:aquatail",
+    "27:nightslash",
+    "30:surf",
+    "30:crunch",
+    "33:waterfall",
+    "33:knockoff",
+    "36:liquidation",
+    "36:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -89,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1377,
+  "nationalPokedexNumber": 1379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

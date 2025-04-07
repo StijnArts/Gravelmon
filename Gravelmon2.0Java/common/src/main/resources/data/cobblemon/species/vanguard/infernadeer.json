@@ -146,7 +146,8 @@
     "egg:megahorn",
     "egg:mudsport",
     "egg:rage",
-    "egg:mefirst"
+    "egg:mefirst",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -160,7 +161,7 @@
   "weight": 1212,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4081,
+  "nationalPokedexNumber": 4089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

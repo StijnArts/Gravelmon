@@ -77,7 +77,8 @@
     "46:naturepower",
     "49:thunderbolt",
     "55:heatwave",
-    "58:thunder"
+    "58:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

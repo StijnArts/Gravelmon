@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "10:bubblebeam",
+    "15:brine",
+    "20:surf",
+    "25:chillingwater",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6001,
+  "nationalPokedexNumber": 6009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

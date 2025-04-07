@@ -70,7 +70,8 @@
     "45:agility",
     "50:hypervoice",
     "55:tailwind",
-    "60:boomburst"
+    "60:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2322,
+  "nationalPokedexNumber": 2330,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

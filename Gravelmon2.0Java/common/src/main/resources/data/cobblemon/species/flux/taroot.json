@@ -74,7 +74,8 @@
     "43:sunnyday",
     "48:leafblade",
     "egg:counter",
-    "egg:leechseed"
+    "egg:leechseed",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 2122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

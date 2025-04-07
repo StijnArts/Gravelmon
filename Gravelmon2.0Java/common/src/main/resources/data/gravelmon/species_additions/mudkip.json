@@ -64,7 +64,26 @@
       "moves": [
         "1:rockthrow",
         "1:bulkup",
-        "1:healbell"
+        "1:healbell",
+        "1:defensecurl",
+        "1:calmmind",
+        "1:wish",
+        "4:rollout",
+        "4:taunt",
+        "7:ancientpower",
+        "7:substitute",
+        "10:powergem",
+        "10:rest",
+        "13:stealthrock",
+        "16:meteorbeam",
+        "19:rockthrow",
+        "22:defensecurl",
+        "25:rollout",
+        "28:smackdown",
+        "31:rockblast",
+        "34:stealthrock",
+        "39:stoneedge",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -207,6 +226,7 @@
         "tm:geomancy",
         "tm:haze",
         "tm:heatwave",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:incinerate",
         "tm:ironhead",
@@ -250,7 +270,8 @@
         "egg:defensecurl",
         "egg:magiccoat",
         "egg:gammaray",
-        "egg:overheat"
+        "egg:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -374,6 +395,7 @@
         "tm:focusblast",
         "tm:gammaray",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -419,7 +441,8 @@
         "egg:dig",
         "egg:harden",
         "egg:lightscreen",
-        "egg:diamondstorm"
+        "egg:diamondstorm",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -593,7 +616,8 @@
         "egg:mirrorcoat",
         "egg:rest",
         "egg:stomp",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -707,7 +731,8 @@
         "40:dragondance",
         "44:dragontail",
         "44:closecombat",
-        "48:muddywater"
+        "48:muddywater",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

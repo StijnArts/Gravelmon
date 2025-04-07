@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "4:round",
+    "4:psybeam",
+    "7:swift",
+    "7:futuresight",
+    "10:uproar",
+    "10:psychic",
+    "13:hypervoice",
+    "13:psyshock",
+    "16:hyperbeam",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2828,
+  "nationalPokedexNumber": 2836,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

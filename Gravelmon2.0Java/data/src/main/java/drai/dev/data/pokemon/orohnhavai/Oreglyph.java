@@ -47,7 +47,7 @@ public class Oreglyph extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 37, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 37, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

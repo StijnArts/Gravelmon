@@ -144,7 +144,8 @@
     "tm:destinybond",
     "tm:muddywater",
     "tm:mudshot",
-    "tm:mudslide"
+    "tm:mudslide",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1624,
+  "nationalPokedexNumber": 1627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

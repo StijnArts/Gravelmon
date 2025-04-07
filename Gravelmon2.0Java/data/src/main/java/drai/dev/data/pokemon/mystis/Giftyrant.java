@@ -16,8 +16,8 @@ public class Giftyrant extends drai.dev.data.pokemon.Pokemon {
                         90,
                         40),
                 List.of(Ability.LEVITATE), Ability.UNBURDEN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -152,7 +152,11 @@ public class Giftyrant extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Giftyrant");

@@ -69,7 +69,8 @@
     "42:ironhead",
     "48:protect",
     "54:thrash",
-    "60:stoneedge"
+    "60:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2393,
+  "nationalPokedexNumber": 2401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

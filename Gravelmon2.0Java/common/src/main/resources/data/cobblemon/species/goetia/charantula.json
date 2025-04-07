@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:strugglebug"
+    "1:strugglebug",
+    "1:growl",
+    "1:stringshot",
+    "10:firespin",
+    "10:silverwind",
+    "15:flamecharge",
+    "15:signalbeam",
+    "20:flameburst",
+    "20:infestation",
+    "25:flamethrower",
+    "25:uturn",
+    "30:fireblast",
+    "30:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5823,
+  "nationalPokedexNumber": 5831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

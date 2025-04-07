@@ -69,7 +69,8 @@
     "25:extrasensory",
     "33:venoshock",
     "45:sludgebomb",
-    "47:venomdrench"
+    "47:venomdrench",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1925,
+  "nationalPokedexNumber": 1928,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

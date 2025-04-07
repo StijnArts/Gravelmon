@@ -80,7 +80,8 @@
     "43:recover",
     "48:bodypress",
     "50:earthpower",
-    "55:eruption"
+    "55:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -95,7 +96,7 @@
   "weight": 2826,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3922,
+  "nationalPokedexNumber": 3930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.1875,

@@ -65,7 +65,8 @@
     "1:scratch",
     "1:stringshot",
     "7:bugbite",
-    "10:ember"
+    "10:ember",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3239,
+  "nationalPokedexNumber": 3247,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

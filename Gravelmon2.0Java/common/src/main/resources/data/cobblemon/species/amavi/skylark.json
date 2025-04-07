@@ -72,7 +72,8 @@
     "40:thunderbolt",
     "46:agility",
     "53:airslash",
-    "61:thunder"
+    "61:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5244,
+  "nationalPokedexNumber": 5252,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

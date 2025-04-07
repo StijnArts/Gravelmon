@@ -84,7 +84,8 @@
     "egg:spikes",
     "egg:iceshard",
     "egg:curse",
-    "egg:smog"
+    "egg:smog",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2117,
+  "nationalPokedexNumber": 2120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

@@ -114,7 +114,8 @@
     "tm:knockoff",
     "tm:lunge",
     "tm:weatherball",
-    "tm:grassyglide"
+    "tm:grassyglide",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -128,7 +129,7 @@
   "weight": 64,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3425,
+  "nationalPokedexNumber": 3433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

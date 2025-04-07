@@ -143,7 +143,8 @@
     "tm:confide",
     "tm:scorchingsands",
     "tm:smackdown",
-    "tm:gravity"
+    "tm:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4899,
+  "nationalPokedexNumber": 4907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

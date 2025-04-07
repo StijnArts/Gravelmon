@@ -78,7 +78,8 @@
     "38:thunderbolt",
     "46:hurricane",
     "54:overdrive",
-    "62:boomburst"
+    "62:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 2959,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4146,
+  "nationalPokedexNumber": 4154,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

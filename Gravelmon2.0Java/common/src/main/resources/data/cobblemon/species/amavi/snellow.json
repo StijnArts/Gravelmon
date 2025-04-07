@@ -77,7 +77,8 @@
     "45:energyball",
     "50:petaldance",
     "54:bugbuzz",
-    "61:quiverdance"
+    "61:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -92,7 +93,7 @@
   "weight": 218,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5191,
+  "nationalPokedexNumber": 5199,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

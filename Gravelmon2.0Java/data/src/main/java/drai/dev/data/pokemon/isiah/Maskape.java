@@ -39,7 +39,7 @@ public class Maskape extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMET_PUNCH,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 33, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

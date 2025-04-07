@@ -91,7 +91,8 @@
     "tm:willowisp",
     "tm:substitute",
     "tm:solarbeam",
-    "tm:fireblast"
+    "tm:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2315,
+  "nationalPokedexNumber": 2323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

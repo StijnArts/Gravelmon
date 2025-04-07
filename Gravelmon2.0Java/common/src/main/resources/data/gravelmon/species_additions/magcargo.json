@@ -145,7 +145,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -315,7 +316,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -428,7 +430,8 @@
         "egg:smokescreen",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

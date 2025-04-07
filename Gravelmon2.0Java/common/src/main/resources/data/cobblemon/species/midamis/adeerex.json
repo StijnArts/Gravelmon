@@ -73,7 +73,8 @@
     "54:dragontail",
     "59:jawlock",
     "64:rockwrecker",
-    "72:gigaimpact"
+    "72:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4397,
+  "nationalPokedexNumber": 4405,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

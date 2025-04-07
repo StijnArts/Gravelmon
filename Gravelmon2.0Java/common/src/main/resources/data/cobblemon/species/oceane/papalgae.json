@@ -73,7 +73,8 @@
     "28:gigadrain",
     "33:raindance",
     "38:zenheadbutt",
-    "43:energyball"
+    "43:energyball",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1907,
+  "nationalPokedexNumber": 1910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

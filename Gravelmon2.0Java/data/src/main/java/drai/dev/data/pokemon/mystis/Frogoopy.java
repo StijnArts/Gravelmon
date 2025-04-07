@@ -16,8 +16,8 @@ public class Frogoopy extends drai.dev.data.pokemon.Pokemon {
                         85,
                         60),
                 List.of(Ability.SHELL_ARMOR), Ability.STAMINA,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -76,7 +76,11 @@ public class Frogoopy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(33).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Frogoopy");

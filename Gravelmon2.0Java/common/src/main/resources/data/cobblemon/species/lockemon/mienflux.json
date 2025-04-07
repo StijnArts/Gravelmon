@@ -92,7 +92,8 @@
     "1:focusblast",
     "egg:feint",
     "egg:focuspunch",
-    "egg:knockoff"
+    "egg:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -105,7 +106,7 @@
   "weight": 1124,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3406,
+  "nationalPokedexNumber": 3414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

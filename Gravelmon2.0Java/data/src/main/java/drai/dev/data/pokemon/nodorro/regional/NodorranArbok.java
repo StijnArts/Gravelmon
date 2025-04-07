@@ -16,7 +16,7 @@ public class NodorranArbok extends drai.dev.data.pokemon.Pokemon {
                         89,
                         70),
                 List.of(Ability.INTIMIDATE,Ability.SHED_SKIN), Ability.FLASH_FIRE,
-                40, 726,
+                22, 726,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
@@ -44,7 +44,11 @@ public class NodorranArbok extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(22).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Arbok");

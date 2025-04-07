@@ -87,7 +87,8 @@
     "tm:swagger",
     "tm:taunt",
     "tm:psychocut",
-    "tm:foulplay"
+    "tm:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3990,
+  "nationalPokedexNumber": 3998,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

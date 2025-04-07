@@ -94,7 +94,7 @@ public class Shulong extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 5, 31, 9.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),

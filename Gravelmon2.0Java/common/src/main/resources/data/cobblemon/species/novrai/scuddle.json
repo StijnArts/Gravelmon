@@ -133,7 +133,8 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:spitup",
-    "tm:rototiller"
+    "tm:rototiller",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4831,
+  "nationalPokedexNumber": 4839,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

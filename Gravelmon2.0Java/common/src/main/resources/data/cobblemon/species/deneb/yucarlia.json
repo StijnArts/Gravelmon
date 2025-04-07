@@ -106,7 +106,8 @@
     "egg:sunnyday",
     "egg:taunt",
     "egg:trick",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4522,
+  "nationalPokedexNumber": 4530,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

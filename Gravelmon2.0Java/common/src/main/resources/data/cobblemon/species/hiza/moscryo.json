@@ -61,7 +61,8 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:strugglebug"
+    "1:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2373,
+  "nationalPokedexNumber": 2381,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

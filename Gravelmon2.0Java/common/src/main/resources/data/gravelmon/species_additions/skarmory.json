@@ -26,7 +26,7 @@
       }
     ]
   },
-  "preEvolution": "arbird",
+  "preEvolution": "rapacier",
   "forms": [
     {
       "name": "Trizoran",
@@ -93,7 +93,22 @@
         "1:lowkick",
         "1:metalclaw",
         "1:quickattack",
-        "1:bulletpunch"
+        "1:bulletpunch",
+        "1:leer",
+        "1:screech",
+        "1:swordsdance",
+        "1:quickattack",
+        "4:revenge",
+        "4:irontail",
+        "4:swordsdance",
+        "7:lowsweep",
+        "7:smartstrike",
+        "10:brickbreak",
+        "10:ironhead",
+        "13:karatechop",
+        "13:meteormash",
+        "16:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -196,7 +211,29 @@
         "1:metalclaw",
         "1:thundershock",
         "1:irondefense",
-        "1:bulkup"
+        "1:bulkup",
+        "1:screech",
+        "1:leer",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:charge",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:shockwave",
+        "7:taunt",
+        "7:substitute",
+        "10:mirrorshot",
+        "10:discharge",
+        "10:substitute",
+        "10:rest",
+        "13:flashcannon",
+        "13:thunderbolt",
+        "13:rest",
+        "16:steelbeam",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -369,7 +406,8 @@
         "egg:swordsdance",
         "egg:sandstorm",
         "egg:facade",
-        "egg:thunderouskick"
+        "egg:thunderouskick",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -488,7 +526,8 @@
         "egg:pursuit",
         "egg:whirlwind",
         "egg:flamewheel",
-        "egg:curse"
+        "egg:curse",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

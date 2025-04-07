@@ -130,7 +130,7 @@ public class Slith extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")            ),
                 List.of(Label.AVALOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -84,7 +84,8 @@
     "tm:thunderfang",
     "tm:counter",
     "tm:skullbash",
-    "tm:endure"
+    "tm:endure",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3997,
+  "nationalPokedexNumber": 4005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

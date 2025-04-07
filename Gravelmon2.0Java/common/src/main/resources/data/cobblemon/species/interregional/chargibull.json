@@ -75,7 +75,8 @@
     "40:circlethrow",
     "46:amnesia",
     "51:wildcharge",
-    "56:hammerarm"
+    "56:hammerarm",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1459,
+  "nationalPokedexNumber": 1462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

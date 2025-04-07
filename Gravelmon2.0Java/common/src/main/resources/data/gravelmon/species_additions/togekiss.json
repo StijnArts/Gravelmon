@@ -176,7 +176,8 @@
         "tm:psychoshift",
         "tm:luckychant",
         "tm:nastyplot",
-        "tm:storedpower"
+        "tm:storedpower",
+        "tm:terablast"
       ],
       "labels": [
         "hub",

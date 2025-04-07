@@ -129,7 +129,8 @@
     "egg:venoshock",
     "egg:thunderwave",
     "egg:voltswitch",
-    "egg:drainlife"
+    "egg:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2063,
+  "nationalPokedexNumber": 2066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

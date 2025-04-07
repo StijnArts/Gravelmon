@@ -151,7 +151,8 @@
     "egg:revenge",
     "egg:superpower",
     "egg:switcheroo",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -98,7 +98,8 @@
     "tm:sleeptalk",
     "tm:uturn",
     "tm:substitute",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -113,7 +114,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2261,
+  "nationalPokedexNumber": 2269,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

@@ -72,7 +72,8 @@
     "40:substitute",
     "45:trick",
     "50:discharge",
-    "55:uproar"
+    "55:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -85,7 +86,7 @@
   "weight": 3,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3439,
+  "nationalPokedexNumber": 3447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

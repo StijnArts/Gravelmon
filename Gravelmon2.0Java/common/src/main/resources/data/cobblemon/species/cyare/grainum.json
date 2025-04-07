@@ -109,7 +109,8 @@
     "tm:venoshock",
     "tm:waterpulse",
     "tm:workup",
-    "tm:nightshade"
+    "tm:nightshade",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5338,
+  "nationalPokedexNumber": 5346,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

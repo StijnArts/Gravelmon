@@ -75,7 +75,8 @@
     "45:triattack",
     "50:lockon",
     "55:zapcannon",
-    "60:hyperbeam"
+    "60:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4275,
+  "nationalPokedexNumber": 4283,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

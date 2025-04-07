@@ -82,7 +82,8 @@
     "tm:bravebird",
     "tm:embargo",
     "tm:fling",
-    "tm:switcheroo"
+    "tm:switcheroo",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4427,
+  "nationalPokedexNumber": 4435,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

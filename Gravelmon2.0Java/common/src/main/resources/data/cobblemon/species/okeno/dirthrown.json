@@ -91,7 +91,8 @@
     "tm:poisongas",
     "tm:belch",
     "tm:bubblebeam",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -106,7 +107,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4478,
+  "nationalPokedexNumber": 4486,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

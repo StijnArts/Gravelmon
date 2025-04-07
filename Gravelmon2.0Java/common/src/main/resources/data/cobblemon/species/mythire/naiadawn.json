@@ -70,7 +70,8 @@
     "25:haze",
     "25:mist",
     "35:batonpass",
-    "38:stickyweb"
+    "38:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3855,
+  "nationalPokedexNumber": 3863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

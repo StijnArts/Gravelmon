@@ -23,7 +23,8 @@ public class Glyptoblock extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("There is a pleasant warmth around Glyptoblock. Other Pokemon like lying in its warm."),
-                List.of(),
+                List.of(new EvolutionEntry("furnadon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -99,7 +100,11 @@ public class Glyptoblock extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCKRUMBLE,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_ARID)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Glyptoblock");

@@ -35,7 +35,7 @@ public class Picant extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

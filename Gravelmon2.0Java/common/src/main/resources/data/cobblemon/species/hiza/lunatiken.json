@@ -74,7 +74,8 @@
     "40:psychic",
     "45:calmmind",
     "50:futuresight",
-    "55:simplebeam"
+    "55:simplebeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2283,
+  "nationalPokedexNumber": 2291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

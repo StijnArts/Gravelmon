@@ -16,8 +16,8 @@ public class Shocenti extends drai.dev.data.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.MOTOR_DRIVE), Ability.RELENTLESS,
-                0, 0,
-                new Stats(0,2,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 168, ExperienceGroup.ERRATIC,
                 70,
@@ -50,7 +50,11 @@ public class Shocenti extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shocenti");

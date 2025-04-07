@@ -72,7 +72,8 @@
     "32:fierydance",
     "36:flamethrower",
     "42:heatwave",
-    "48:overheat"
+    "48:overheat",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3328,
+  "nationalPokedexNumber": 3336,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

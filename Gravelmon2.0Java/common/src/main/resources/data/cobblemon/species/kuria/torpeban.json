@@ -69,7 +69,8 @@
     "27:flamethrower",
     "31:irondefense",
     "35:rockclimb",
-    "40:overheat"
+    "40:overheat",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -82,7 +83,7 @@
   "weight": 127,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4157,
+  "nationalPokedexNumber": 4165,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

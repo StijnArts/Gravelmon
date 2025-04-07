@@ -72,7 +72,8 @@
     "40:earthpower",
     "49:shoreup",
     "54:muddywater",
-    "90:fissure"
+    "90:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1641,
+  "nationalPokedexNumber": 1644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

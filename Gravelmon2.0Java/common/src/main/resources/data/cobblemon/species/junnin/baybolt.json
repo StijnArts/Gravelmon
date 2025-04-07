@@ -127,7 +127,8 @@
     "tm:playnice",
     "tm:splash",
     "tm:stomp",
-    "tm:swagger"
+    "tm:swagger",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

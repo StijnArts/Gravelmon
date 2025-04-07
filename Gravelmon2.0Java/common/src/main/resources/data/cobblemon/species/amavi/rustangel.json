@@ -76,7 +76,8 @@
     "43:nightslash",
     "48:metalsound",
     "50:phantomforce",
-    "54:guillotine"
+    "54:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5208,
+  "nationalPokedexNumber": 5216,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

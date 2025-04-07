@@ -115,7 +115,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:steelwing",
-    "tutor:tailwind"
+    "tutor:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1779,
+  "nationalPokedexNumber": 1782,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

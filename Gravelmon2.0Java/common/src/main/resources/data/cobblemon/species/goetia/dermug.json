@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:bulkup"
+    "1:bulkup",
+    "1:stringshot",
+    "1:calmmind",
+    "10:silverwind",
+    "10:taunt",
+    "15:signalbeam",
+    "15:substitute",
+    "20:infestation",
+    "20:rest",
+    "25:uturn",
+    "30:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -88,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6047,
+  "nationalPokedexNumber": 6055,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

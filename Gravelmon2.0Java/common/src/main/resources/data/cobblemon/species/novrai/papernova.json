@@ -132,7 +132,8 @@
     "tm:mist",
     "tm:flameburst",
     "tm:moonlight",
-    "tm:lavaplume"
+    "tm:lavaplume",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5007,
+  "nationalPokedexNumber": 5015,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

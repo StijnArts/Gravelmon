@@ -124,7 +124,8 @@
     "egg:icefang",
     "egg:megadrain",
     "egg:muddywater",
-    "egg:superfang"
+    "egg:superfang",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

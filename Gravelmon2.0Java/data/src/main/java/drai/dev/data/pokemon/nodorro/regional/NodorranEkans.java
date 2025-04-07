@@ -16,14 +16,15 @@ public class NodorranEkans extends drai.dev.data.pokemon.Pokemon {
                         58,
                         50),
                 List.of(Ability.INTIMIDATE,Ability.SHED_SKIN), Ability.FLASH_FIRE,
-                20, 70,
+                11, 70,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FIELD),
                 List.of("Ekans are short tempered and can quickly lash out to unsuspecting foes."),
-                List.of(),
+                List.of(new EvolutionEntry("nodorranarbok", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
@@ -42,7 +43,11 @@ public class NodorranEkans extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ekans");

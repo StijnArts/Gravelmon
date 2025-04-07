@@ -126,7 +126,8 @@
     "tutor:snore",
     "tutor:stealthrock",
     "tutor:trick",
-    "tutor:wonderroom"
+    "tutor:wonderroom",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -140,7 +141,7 @@
   "weight": 1928,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1811,
+  "nationalPokedexNumber": 1814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

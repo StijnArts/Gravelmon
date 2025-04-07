@@ -132,7 +132,8 @@
     "tm:bulletpunch",
     "tm:machpunch",
     "tm:leechseed",
-    "tm:firstimpression"
+    "tm:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -147,7 +148,7 @@
   "weight": 644,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4692,
+  "nationalPokedexNumber": 4700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

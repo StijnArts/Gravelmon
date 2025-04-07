@@ -67,7 +67,8 @@
     "11:furyattack",
     "14:bulletseed",
     "17:agility",
-    "20:drillpeck"
+    "20:drillpeck",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5327,
+  "nationalPokedexNumber": 5335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

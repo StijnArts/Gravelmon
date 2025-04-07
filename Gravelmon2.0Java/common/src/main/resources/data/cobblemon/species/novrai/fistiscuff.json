@@ -135,7 +135,8 @@
     "tm:fakeout",
     "tm:batonpass",
     "tm:allyswitch",
-    "tm:vitalthrow"
+    "tm:vitalthrow",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -167,7 +168,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4916,
+  "nationalPokedexNumber": 4924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

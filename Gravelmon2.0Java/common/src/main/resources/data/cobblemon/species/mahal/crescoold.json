@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "4:icywind",
+    "4:psybeam",
+    "7:aurorabeam",
+    "7:futuresight",
+    "10:freezedry",
+    "10:psychic",
+    "13:icebeam",
+    "13:psyshock",
+    "16:blizzard",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5584,
+  "nationalPokedexNumber": 5592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

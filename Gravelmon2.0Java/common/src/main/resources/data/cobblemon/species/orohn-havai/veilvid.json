@@ -73,7 +73,8 @@
     "31:aquaring",
     "40:gigadrain",
     "45:wringout",
-    "50:powerwhip"
+    "50:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2975,
+  "nationalPokedexNumber": 2983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

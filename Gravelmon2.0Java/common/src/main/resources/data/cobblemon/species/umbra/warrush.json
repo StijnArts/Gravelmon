@@ -118,7 +118,8 @@
     "tutor:endeavor",
     "tutor:laserfocus",
     "tutor:earthpower",
-    "tutor:hypervoice"
+    "tutor:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -133,7 +134,7 @@
   "weight": 540,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3714,
+  "nationalPokedexNumber": 3722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

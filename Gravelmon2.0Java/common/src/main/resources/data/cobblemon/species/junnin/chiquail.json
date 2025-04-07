@@ -106,7 +106,8 @@
     "tm:charm",
     "tm:featherdance",
     "tm:flail",
-    "tm:razorwind"
+    "tm:razorwind",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

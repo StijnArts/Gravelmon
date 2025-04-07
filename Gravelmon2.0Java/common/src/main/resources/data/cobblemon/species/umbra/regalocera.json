@@ -116,7 +116,8 @@
     "tutor:bugbite",
     "tutor:gigadrain",
     "tutor:signalbeam",
-    "tutor:tailwind"
+    "tutor:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -131,7 +132,7 @@
   "weight": 403,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3699,
+  "nationalPokedexNumber": 3707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

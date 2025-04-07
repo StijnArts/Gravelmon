@@ -71,7 +71,8 @@
     "36:iondeluge",
     "40:discharge",
     "45:dazzlinggleam",
-    "49:glare"
+    "49:glare",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4350,
+  "nationalPokedexNumber": 4358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

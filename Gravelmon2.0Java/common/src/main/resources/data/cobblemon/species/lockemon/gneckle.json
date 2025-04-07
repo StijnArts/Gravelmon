@@ -79,7 +79,8 @@
     "egg:powertrip",
     "egg:roost",
     "egg:skyattack",
-    "egg:suckerpunch"
+    "egg:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3407,
+  "nationalPokedexNumber": 3415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

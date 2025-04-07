@@ -77,7 +77,8 @@
     "1:watersport",
     "1:spikecannon",
     "1:minimize",
-    "1:puffup"
+    "1:puffup",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3904,
+  "nationalPokedexNumber": 3912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

@@ -118,7 +118,8 @@
         "40:metalsound",
         "44:spikes",
         "48:irondefense",
-        "52:bravebird"
+        "52:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",
@@ -226,7 +227,8 @@
         "tutor:heatwave",
         "tutor:magnetrise",
         "tutor:signalbeam",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

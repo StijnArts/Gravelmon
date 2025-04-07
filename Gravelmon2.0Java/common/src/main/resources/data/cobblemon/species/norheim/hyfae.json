@@ -77,7 +77,8 @@
     "44:sunnyday",
     "46:hypervoice",
     "50:synthesis",
-    "58:boomburst"
+    "58:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3082,
+  "nationalPokedexNumber": 3090,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

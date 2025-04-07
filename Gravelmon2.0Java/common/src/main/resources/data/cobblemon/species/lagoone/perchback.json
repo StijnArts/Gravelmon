@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:irondefense"
+    "1:irondefense",
+    "1:screech",
+    "1:bulkup",
+    "4:irontail",
+    "4:calmmind",
+    "8:smartstrike",
+    "8:taunt",
+    "12:ironhead",
+    "12:substitute",
+    "16:meteormash",
+    "16:rest",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -74,7 +85,7 @@
   "weight": 9400,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1371,
+  "nationalPokedexNumber": 1373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.875,

@@ -150,7 +150,8 @@
     "tm:lifedew",
     "tm:mudbomb",
     "tm:grassyglide",
-    "tm:cottonguard"
+    "tm:cottonguard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -163,7 +164,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4868,
+  "nationalPokedexNumber": 4876,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

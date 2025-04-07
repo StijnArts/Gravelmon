@@ -64,7 +64,8 @@
     "7:bite",
     "12:acid",
     "18:watergun",
-    "25:sludge"
+    "25:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1697,
+  "nationalPokedexNumber": 1700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

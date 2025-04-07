@@ -112,7 +112,8 @@
     "tutor:synthesis",
     "tutor:wonderroom",
     "tutor:worryseed",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -125,7 +126,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1841,
+  "nationalPokedexNumber": 1844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

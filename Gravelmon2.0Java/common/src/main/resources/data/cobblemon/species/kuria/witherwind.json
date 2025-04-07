@@ -75,7 +75,8 @@
     "41:psychic",
     "46:ragepowder",
     "50:bugbuzz",
-    "55:wonderroom"
+    "55:wonderroom",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -90,7 +91,7 @@
   "weight": 152,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4130,
+  "nationalPokedexNumber": 4138,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

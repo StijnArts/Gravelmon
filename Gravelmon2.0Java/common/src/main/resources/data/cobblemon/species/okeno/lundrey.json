@@ -90,7 +90,8 @@
     "tm:poisongas",
     "tm:belch",
     "tm:bubblebeam",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4477,
+  "nationalPokedexNumber": 4485,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

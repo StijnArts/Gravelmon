@@ -75,7 +75,8 @@
     "46:playrough",
     "51:grudge",
     "57:phantomforce",
-    "65:destinybond"
+    "65:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4021,
+  "nationalPokedexNumber": 4029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

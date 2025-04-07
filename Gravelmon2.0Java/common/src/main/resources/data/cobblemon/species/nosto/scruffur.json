@@ -96,7 +96,8 @@
     "tm:swift",
     "tm:psychicfangs",
     "tm:rockslide",
-    "tm:stompingtantrum"
+    "tm:stompingtantrum",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3476,
+  "nationalPokedexNumber": 3484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

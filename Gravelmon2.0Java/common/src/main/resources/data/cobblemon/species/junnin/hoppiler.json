@@ -88,7 +88,8 @@
     "tm:sleeptalk",
     "tm:substitute",
     "tm:toxic",
-    "tm:extremespeed"
+    "tm:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2430,
+  "nationalPokedexNumber": 2438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

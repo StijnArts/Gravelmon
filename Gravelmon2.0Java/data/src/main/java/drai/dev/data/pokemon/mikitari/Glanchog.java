@@ -127,11 +127,16 @@ public class Glanchog extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(32).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_GRASSLAND).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Glanchog");
-
+           addAdditionalEvolution("watchog", new EvolutionEntry("glanchog", EvolutionType.LEVEL_UP, List.of(),
+                   List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))));
     }
 
 

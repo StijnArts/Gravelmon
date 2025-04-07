@@ -104,7 +104,8 @@
     "tm:protect",
     "tm:shellsmash",
     "tm:woodhammer",
-    "tm:bodypress"
+    "tm:bodypress",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -119,7 +120,7 @@
   "weight": 815,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3954,
+  "nationalPokedexNumber": 3962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

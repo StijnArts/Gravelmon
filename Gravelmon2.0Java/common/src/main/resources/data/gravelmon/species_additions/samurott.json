@@ -1,0 +1,122 @@
+{
+  "target": "cobblemon:samurott",
+  "forms": [
+    {
+      "name": "Nodorran",
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "dewott form=nodorran",
+      "baseScale": 22.799999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "h:shadowtag"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 67,
+        "attack": 120,
+        "defence": 71,
+        "special_attack": 120,
+        "special_defence": 70,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ominouswind",
+        "1:leer",
+        "1:razorshell",
+        "1:horndrill",
+        "1:scald",
+        "1:headbutt",
+        "1:revenge",
+        "1:aquajet",
+        "1:suckerpunch",
+        "1:phantomforce",
+        "1:hornattack",
+        "1:waterpulse",
+        "1:pound",
+        "1:hydropump",
+        "1:stomp",
+        "1:hex",
+        "tm:hydrocannon",
+        "tm:waterpledge",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:machpunch",
+        "tm:destinybond",
+        "tm:metalclaw",
+        "tm:naturalgift",
+        "tm:aquaring",
+        "tm:liquidation",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorransamurott.desc"
+      ],
+      "height": 19,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nodorran"
+  ]
+}

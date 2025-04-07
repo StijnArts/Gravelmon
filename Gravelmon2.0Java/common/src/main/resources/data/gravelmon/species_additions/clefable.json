@@ -99,6 +99,7 @@
         "tm:gammaray",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -138,7 +139,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

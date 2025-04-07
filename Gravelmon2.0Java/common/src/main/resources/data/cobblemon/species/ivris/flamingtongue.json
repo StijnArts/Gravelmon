@@ -63,7 +63,22 @@
     "1:ember",
     "1:disarmingvoice",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:babydolleyes",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:quickattack",
+    "4:drainingkiss",
+    "7:flamecharge",
+    "7:playnice",
+    "10:firepunch",
+    "10:dazzlinggleam",
+    "13:willowisp",
+    "13:playrough",
+    "16:flareblitz",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3675,
+  "nationalPokedexNumber": 3683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -74,7 +74,8 @@
     "47:yawn",
     "52:muddywater",
     "58:amnesia",
-    "66:lastresort"
+    "66:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3107,
+  "nationalPokedexNumber": 3115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

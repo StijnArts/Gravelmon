@@ -67,7 +67,8 @@
     "13:teleport",
     "20:bugbite",
     "25:tailglow",
-    "tm:strugglebug"
+    "tm:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5072,
+  "nationalPokedexNumber": 5080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

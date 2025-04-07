@@ -94,7 +94,8 @@
     "tm:rest",
     "tm:trickroom",
     "tm:rockslide",
-    "tm:sandstorm"
+    "tm:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -107,7 +108,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4706,
+  "nationalPokedexNumber": 4714,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

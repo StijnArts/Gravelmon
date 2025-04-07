@@ -16,7 +16,7 @@ public class Fruitick extends drai.dev.data.pokemon.Pokemon {
                         40,
                         80),
                 List.of(Ability.HARVEST), Ability.HARVEST,
-                0, 3,
+                4, 3,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.FLUCTUATING,
@@ -55,7 +55,11 @@ public class Fruitick extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUGAR_RUSH,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fruitick");

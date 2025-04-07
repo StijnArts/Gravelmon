@@ -124,7 +124,8 @@
     "tm:calmmind",
     "egg:curse",
     "egg:whirlwind",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -137,7 +138,7 @@
   "weight": 490,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4099,
+  "nationalPokedexNumber": 4107,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

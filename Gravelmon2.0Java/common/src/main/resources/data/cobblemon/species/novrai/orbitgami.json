@@ -134,7 +134,8 @@
     "tm:mist",
     "tm:flameburst",
     "tm:moonlight",
-    "tm:lavaplume"
+    "tm:lavaplume",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5008,
+  "nationalPokedexNumber": 5016,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

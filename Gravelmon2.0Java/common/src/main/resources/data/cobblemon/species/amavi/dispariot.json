@@ -80,7 +80,8 @@
     "51:painsplit",
     "55:terrorize",
     "60:destinybond",
-    "64:leafstorm"
+    "64:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -95,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5319,
+  "nationalPokedexNumber": 5327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

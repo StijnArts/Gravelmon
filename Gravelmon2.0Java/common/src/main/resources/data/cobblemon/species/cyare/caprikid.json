@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "10:sandattack",
+    "15:mudbomb",
+    "20:bulldoze",
+    "25:dig",
+    "30:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -93,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5381,
+  "nationalPokedexNumber": 5389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

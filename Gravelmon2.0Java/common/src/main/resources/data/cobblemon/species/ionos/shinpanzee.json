@@ -64,7 +64,22 @@
     "1:lowkick",
     "1:bite",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "10:revenge",
+    "10:payback",
+    "15:lowsweep",
+    "15:nightslash",
+    "20:brickbreak",
+    "20:crunch",
+    "25:karatechop",
+    "25:knockoff",
+    "30:closecombat",
+    "30:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -79,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4729,
+  "nationalPokedexNumber": 4737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

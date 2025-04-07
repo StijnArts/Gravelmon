@@ -62,7 +62,26 @@
   "moves": [
     "1:metalclaw",
     "1:irondefense",
-    "1:healbell"
+    "1:healbell",
+    "1:screech",
+    "1:bulkup",
+    "1:wish",
+    "4:irontail",
+    "4:calmmind",
+    "7:smartstrike",
+    "7:taunt",
+    "10:mirrorshot",
+    "10:substitute",
+    "13:flashcannon",
+    "13:rest",
+    "16:steelbeam",
+    "19:metalclaw",
+    "22:screech",
+    "25:irontail",
+    "28:smartstrike",
+    "31:ironhead",
+    "34:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -75,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2224,
+  "nationalPokedexNumber": 2232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

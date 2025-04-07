@@ -77,7 +77,8 @@
     "49:irondefense",
     "54:iciclecrash",
     "58:hydropump",
-    "63:shellsmash"
+    "63:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4714,
+  "nationalPokedexNumber": 4722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

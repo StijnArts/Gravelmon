@@ -16,8 +16,8 @@ public class Delvster extends drai.dev.data.pokemon.Pokemon {
                         75,
                         53),
                 List.of(Ability.SHELL_ARMOR,Ability.TOUGH_CLAWS), Ability.SAND_RUSH,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 182, ExperienceGroup.ERRATIC,
                 70,
@@ -126,7 +126,11 @@ public class Delvster extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Delvster");

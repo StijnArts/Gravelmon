@@ -136,7 +136,8 @@
     "egg:curse",
     "egg:memento",
     "egg:shadowpunch",
-    "egg:spite"
+    "egg:spite",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -151,7 +152,7 @@
   "weight": 900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1825,
+  "nationalPokedexNumber": 1828,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

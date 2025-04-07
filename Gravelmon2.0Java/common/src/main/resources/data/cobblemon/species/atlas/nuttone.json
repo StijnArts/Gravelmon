@@ -122,7 +122,8 @@
     "tm:taunt",
     "tm:thunderwave",
     "tm:toxic",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -137,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5070,
+  "nationalPokedexNumber": 5078,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

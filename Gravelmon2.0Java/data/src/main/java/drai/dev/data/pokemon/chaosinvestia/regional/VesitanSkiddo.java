@@ -47,7 +47,7 @@ public class VesitanSkiddo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 27, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

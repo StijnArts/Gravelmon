@@ -75,7 +75,8 @@
     "48:healblock",
     "52:mudslide",
     "58:muddywater",
-    "64:belch"
+    "64:belch",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4369,
+  "nationalPokedexNumber": 4377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -44,7 +44,7 @@ public class QamoranPsyduck extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,43)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

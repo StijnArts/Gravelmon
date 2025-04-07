@@ -137,7 +137,8 @@
         "tutor:signalbeam",
         "tutor:sleeptalk",
         "tutor:snatch",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -330,7 +331,8 @@
         "tutor:signalbeam",
         "tutor:sleeptalk",
         "tutor:snatch",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

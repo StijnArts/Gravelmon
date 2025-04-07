@@ -40,7 +40,7 @@ public class Pterai extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISCHARGE,43)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:twister",
+        "4:drainingkiss",
+        "7:dragonbreath",
+        "7:playnice",
+        "10:breakingswipe",
+        "10:dazzlinggleam",
+        "13:dragonpulse",
+        "13:hypervoice",
+        "16:dracometeor",
+        "16:moonblast",
+        "tm:terablast"
       ],
       "labels": [
         "form",

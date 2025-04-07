@@ -84,7 +84,8 @@
     "tm:bodyslam",
     "tm:aquajet",
     "tm:wideguard",
-    "tm:rocksmash"
+    "tm:rocksmash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2994,
+  "nationalPokedexNumber": 3002,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

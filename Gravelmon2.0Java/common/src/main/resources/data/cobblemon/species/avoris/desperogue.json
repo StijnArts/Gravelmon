@@ -79,7 +79,8 @@
     "38:pinmissile",
     "44:energyball",
     "49:cottonspore",
-    "54:sandstorm"
+    "54:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1860,
+  "nationalPokedexNumber": 1863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

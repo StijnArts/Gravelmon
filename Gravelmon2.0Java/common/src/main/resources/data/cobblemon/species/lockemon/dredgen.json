@@ -63,7 +63,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "3:sandattack",
+    "6:mudbomb",
+    "9:bulldoze",
+    "12:dig",
+    "15:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -78,7 +85,7 @@
   "weight": 365,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3394,
+  "nationalPokedexNumber": 3402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

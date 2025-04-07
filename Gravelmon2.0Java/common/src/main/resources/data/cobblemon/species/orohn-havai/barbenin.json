@@ -81,7 +81,8 @@
     "tm:crunch",
     "tm:poisonjab",
     "tm:aquatail",
-    "tm:scald"
+    "tm:scald",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2982,
+  "nationalPokedexNumber": 2990,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

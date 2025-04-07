@@ -128,7 +128,8 @@
     "tm:lifedew",
     "tm:nightdaze",
     "tm:smokescreen",
-    "tm:pursuit"
+    "tm:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4944,
+  "nationalPokedexNumber": 4952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

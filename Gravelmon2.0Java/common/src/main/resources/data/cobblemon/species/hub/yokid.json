@@ -103,7 +103,8 @@
     "tm:takedown",
     "tm:toxic",
     "tm:uturn",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1394,
+  "nationalPokedexNumber": 1397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

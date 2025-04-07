@@ -74,7 +74,8 @@
     "tm:soak",
     "tm:watergun",
     "tm:waterfall",
-    "tm:flipturn"
+    "tm:flipturn",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4474,
+  "nationalPokedexNumber": 4482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

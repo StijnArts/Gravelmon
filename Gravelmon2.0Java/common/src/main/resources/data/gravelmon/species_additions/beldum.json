@@ -64,7 +64,33 @@
       "drops": {},
       "moves": [
         "1:metalclaw",
-        "1:ember"
+        "1:ember",
+        "1:screech",
+        "1:growl",
+        "4:irontail",
+        "4:firespin",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:mirrorshot",
+        "10:flameburst",
+        "13:flashcannon",
+        "13:flamethrower",
+        "16:steelbeam",
+        "16:fireblast",
+        "19:metalclaw",
+        "19:ember",
+        "22:screech",
+        "22:growl",
+        "25:irontail",
+        "25:quickattack",
+        "28:smartstrike",
+        "28:flamecharge",
+        "31:ironhead",
+        "31:firepunch",
+        "34:meteormash",
+        "34:willowisp",
+        "39:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -181,6 +207,7 @@
         "tm:flareblitz",
         "tm:gammaray",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icebeam",
         "tm:icepunch",
@@ -227,7 +254,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -336,7 +364,8 @@
         "tutor:bugbite",
         "tutor:holdback",
         "tutor:stringshot",
-        "tutor:superfang"
+        "tutor:superfang",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -439,7 +468,8 @@
       "moves": [
         "1:doubleedge",
         "tutor:doubleedge",
-        "tutor:holdback"
+        "tutor:holdback",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

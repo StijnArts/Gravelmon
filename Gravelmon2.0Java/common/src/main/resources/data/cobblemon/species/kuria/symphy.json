@@ -72,7 +72,8 @@
     "45:icebeam",
     "55:thunder",
     "60:perishsong",
-    "65:boomburst"
+    "65:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -85,7 +86,7 @@
   "weight": 47,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4126,
+  "nationalPokedexNumber": 4134,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

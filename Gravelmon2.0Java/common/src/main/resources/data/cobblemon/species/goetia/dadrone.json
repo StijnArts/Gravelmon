@@ -63,7 +63,22 @@
     "1:scratch",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:twister",
+    "10:aircutter",
+    "15:dragonbreath",
+    "15:wingattack",
+    "20:breakingswipe",
+    "20:airslash",
+    "25:dragonpulse",
+    "25:drillpeck",
+    "30:dracometeor",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5872,
+  "nationalPokedexNumber": 5880,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

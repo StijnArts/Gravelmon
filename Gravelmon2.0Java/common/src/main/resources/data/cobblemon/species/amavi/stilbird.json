@@ -76,7 +76,8 @@
     "47:phantomforce",
     "50:nastyplot",
     "55:bravebird",
-    "62:futuresight"
+    "62:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5329,
+  "nationalPokedexNumber": 5337,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

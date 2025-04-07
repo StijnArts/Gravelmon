@@ -73,7 +73,8 @@
     "38:rest",
     "43:ironhead",
     "46:gunkshot",
-    "52:gyroball"
+    "52:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4315,
+  "nationalPokedexNumber": 4323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

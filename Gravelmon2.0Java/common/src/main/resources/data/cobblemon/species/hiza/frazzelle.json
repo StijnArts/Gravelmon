@@ -72,7 +72,8 @@
     "36:wildcharge",
     "44:naturepower",
     "49:thunder",
-    "53:megahorn"
+    "53:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2309,
+  "nationalPokedexNumber": 2317,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

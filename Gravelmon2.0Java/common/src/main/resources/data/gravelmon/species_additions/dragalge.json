@@ -111,7 +111,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:waterpulse",
-        "tm:weatherball"
+        "tm:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -222,7 +223,8 @@
         "38:sludgebomb",
         "58:telekinesis",
         "1:twister",
-        "62:psyshock"
+        "62:psyshock",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -387,7 +389,8 @@
         "tm:leechseed",
         "tm:magicalleaf",
         "tm:ingrain",
-        "tm:dragonrage"
+        "tm:dragonrage",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

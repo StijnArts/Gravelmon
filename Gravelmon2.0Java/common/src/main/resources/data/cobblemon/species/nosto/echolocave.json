@@ -177,7 +177,8 @@
     "tm:supersonic",
     "tm:thrash",
     "tm:wish",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -192,7 +193,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3475,
+  "nationalPokedexNumber": 3483,
   "shoulderMountable": false,
   "hitbox": {
     "width": 8.75,

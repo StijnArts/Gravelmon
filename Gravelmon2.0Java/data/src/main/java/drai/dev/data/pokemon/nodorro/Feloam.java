@@ -17,13 +17,14 @@ public class Feloam extends drai.dev.data.pokemon.Pokemon {
                         59),
                 List.of(Ability.TORRENT), Ability.INSOMNIA,
                 5, 67,
-                new Stats(0,1,0,0,0,0), 40,
+                new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Young Feloam play together in the mist where they practice their camouflage."),
-                List.of(),
+                List.of(new EvolutionEntry("Mistiger", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -82,7 +83,11 @@ public class Feloam extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHROUDEDSTRIKE,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Feloam");

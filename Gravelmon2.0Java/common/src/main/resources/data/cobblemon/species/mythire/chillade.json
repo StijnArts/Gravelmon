@@ -74,7 +74,8 @@
     "tm:avalanche",
     "tm:metalburst",
     "tm:spikes",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3900,
+  "nationalPokedexNumber": 3908,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

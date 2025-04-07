@@ -122,7 +122,8 @@
     "tm:substitute",
     "tm:fireblast",
     "tm:stompingtantrum",
-    "tm:fly"
+    "tm:fly",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -137,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2389,
+  "nationalPokedexNumber": 2397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

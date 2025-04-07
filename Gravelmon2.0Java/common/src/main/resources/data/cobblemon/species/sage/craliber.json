@@ -147,7 +147,8 @@
     "egg:rockblast",
     "egg:rockpolish",
     "egg:smokescreen",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

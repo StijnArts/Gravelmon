@@ -91,6 +91,7 @@
         "tm:geomancy",
         "tm:hail",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -131,7 +132,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -238,7 +240,8 @@
         "55:terrorize",
         "60:destinybond",
         "64:leafstorm",
-        "1:grasswhistle"
+        "1:grasswhistle",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -335,7 +338,8 @@
         "41:painsplit",
         "46:extrasensory",
         "50:powergem",
-        "55:overheat"
+        "55:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -504,7 +508,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:waterpulse",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

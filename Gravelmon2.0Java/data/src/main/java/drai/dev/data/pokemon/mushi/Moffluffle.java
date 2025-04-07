@@ -16,7 +16,7 @@ public class Moffluffle extends drai.dev.data.pokemon.Pokemon {
                         50,
                         65),
                 List.of(Ability.OVERCOAT), Ability.FLUFFY,
-                0, 0,
+                13, 0,
                 new Stats(0,0,2,0,0,0), 255,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
@@ -27,7 +27,11 @@ public class Moffluffle extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(18).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Moffluffle");

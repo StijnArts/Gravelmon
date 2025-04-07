@@ -170,7 +170,8 @@
     "tm:nastyplot",
     "tm:curse",
     "tm:crushclaw",
-    "tm:nightslash"
+    "tm:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -183,7 +184,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1501,
+  "nationalPokedexNumber": 1504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

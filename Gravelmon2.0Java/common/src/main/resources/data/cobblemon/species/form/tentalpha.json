@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "4:confuseray",
+    "4:psybeam",
+    "7:ominouswind",
+    "7:futuresight",
+    "10:nightshade",
+    "10:psychic",
+    "13:hex",
+    "13:psyshock",
+    "16:shadowball",
+    "16:psychoboost",
+    "19:lick",
+    "19:confusion",
+    "22:growl",
+    "22:growl",
+    "25:confuseray",
+    "25:psybeam",
+    "28:hex",
+    "28:futuresight",
+    "31:shadowclaw",
+    "31:psychic",
+    "34:phantomforce",
+    "34:zenheadbutt",
+    "39:poltergeist",
+    "39:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3757,
+  "nationalPokedexNumber": 3765,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

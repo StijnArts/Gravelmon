@@ -72,7 +72,8 @@
     "22:workup",
     "25:quiverdance",
     "29:bugbuzz",
-    "36:decorate"
+    "36:decorate",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

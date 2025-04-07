@@ -71,7 +71,8 @@
     "35:amnesia",
     "40:takedown",
     "45:earthquake",
-    "50:blizzard"
+    "50:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4132,
+  "nationalPokedexNumber": 4140,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

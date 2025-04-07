@@ -133,7 +133,8 @@
         "egg:defensecurl",
         "egg:knockoff",
         "egg:playrough",
-        "egg:honeclaws"
+        "egg:honeclaws",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -316,7 +317,8 @@
         "egg:spikyshield",
         "egg:bodypress",
         "egg:bulletseed",
-        "egg:headsmash"
+        "egg:headsmash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

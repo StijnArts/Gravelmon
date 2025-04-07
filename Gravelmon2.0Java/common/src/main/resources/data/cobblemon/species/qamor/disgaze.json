@@ -75,7 +75,8 @@
     "44:dragonrush",
     "48:coil",
     "52:earthpower",
-    "56:endeavor"
+    "56:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4035,
+  "nationalPokedexNumber": 4043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lowkick",
-    "1:peck"
+    "1:peck",
+    "1:leer",
+    "1:leer",
+    "4:revenge",
+    "4:pluck",
+    "7:lowsweep",
+    "7:wingattack",
+    "10:brickbreak",
+    "10:aerialace",
+    "13:karatechop",
+    "13:drillpeck",
+    "16:closecombat",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3787,
+  "nationalPokedexNumber": 3795,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

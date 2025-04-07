@@ -83,7 +83,8 @@
     "tm:stockpile",
     "tm:spitup",
     "tm:swallow",
-    "tm:iciclecrash"
+    "tm:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5154,
+  "nationalPokedexNumber": 5162,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

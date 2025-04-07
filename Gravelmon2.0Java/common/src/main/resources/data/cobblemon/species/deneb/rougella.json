@@ -124,7 +124,8 @@
     "egg:trick",
     "egg:waterpulse",
     "egg:wish",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -138,7 +139,7 @@
   "weight": 388,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4546,
+  "nationalPokedexNumber": 4554,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

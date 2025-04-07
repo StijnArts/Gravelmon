@@ -133,7 +133,8 @@
     "egg:iceball",
     "egg:rapidspin",
     "egg:frostbreath",
-    "egg:glaciate"
+    "egg:glaciate",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -148,7 +149,7 @@
   "weight": 8881,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2035,
+  "nationalPokedexNumber": 2038,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

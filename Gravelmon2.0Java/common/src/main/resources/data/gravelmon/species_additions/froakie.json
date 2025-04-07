@@ -140,7 +140,8 @@
         "egg:acrobatics",
         "egg:bounce",
         "egg:discharge",
-        "egg:electricterrain"
+        "egg:electricterrain",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -259,7 +260,8 @@
         "egg:mindreader",
         "egg:mudsport",
         "egg:toxicspikes",
-        "egg:watersport"
+        "egg:watersport",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -435,7 +437,8 @@
         "tutor:synthesis",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -576,7 +579,8 @@
         "tutor:knockoff",
         "tutor:foulplay",
         "tutor:heatwave",
-        "tutor:knockoff"
+        "tutor:knockoff",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

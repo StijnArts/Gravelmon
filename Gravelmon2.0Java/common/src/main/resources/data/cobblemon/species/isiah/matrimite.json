@@ -74,7 +74,8 @@
     "51:flareblitz",
     "56:fellstinger",
     "62:finalgambit",
-    "68:overheat"
+    "68:overheat",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4225,
+  "nationalPokedexNumber": 4233,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

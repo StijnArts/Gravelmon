@@ -88,7 +88,8 @@
     "tm:psychoshift",
     "tm:psychocut",
     "tm:guardsplit",
-    "tm:spotlight"
+    "tm:spotlight",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

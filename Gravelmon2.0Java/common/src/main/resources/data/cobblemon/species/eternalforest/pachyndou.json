@@ -157,7 +157,8 @@
     "egg:yawn",
     "egg:slackoff",
     "egg:futuresight",
-    "egg:mirrorcoat"
+    "egg:mirrorcoat",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -187,7 +188,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3043,
+  "nationalPokedexNumber": 3051,
   "shoulderMountable": false,
   "hitbox": {
     "width": 60.37500000000001,

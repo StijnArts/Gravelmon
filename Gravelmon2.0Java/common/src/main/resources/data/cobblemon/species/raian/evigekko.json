@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "4:payback",
+    "7:nightslash",
+    "10:crunch",
+    "13:knockoff",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -92,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2481,
+  "nationalPokedexNumber": 2489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

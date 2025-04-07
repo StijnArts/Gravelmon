@@ -71,7 +71,8 @@
     "tm:covet",
     "tm:magicalleaf",
     "tm:disarmingvoice",
-    "tm:flowershield"
+    "tm:flowershield",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2955,
+  "nationalPokedexNumber": 2963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

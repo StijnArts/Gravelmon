@@ -78,7 +78,8 @@
     "49:pollenpuff",
     "52:leechlife",
     "57:wish",
-    "66:healingwish"
+    "66:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1901,
+  "nationalPokedexNumber": 1904,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

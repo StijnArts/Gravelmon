@@ -75,7 +75,8 @@
     "36:defendorder",
     "36:attackorder",
     "36:healorder",
-    "40:fellstinger"
+    "40:fellstinger",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

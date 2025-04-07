@@ -75,7 +75,8 @@
     "1:weatherball",
     "1:dig",
     "1:embargo",
-    "1:rockpolish"
+    "1:rockpolish",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3864,
+  "nationalPokedexNumber": 3872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

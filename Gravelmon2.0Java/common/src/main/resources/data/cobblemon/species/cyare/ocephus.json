@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "10:bubblebeam",
+    "15:brine",
+    "20:surf",
+    "25:chillingwater",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5395,
+  "nationalPokedexNumber": 5403,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

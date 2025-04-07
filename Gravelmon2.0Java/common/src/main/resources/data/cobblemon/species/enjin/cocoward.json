@@ -127,7 +127,8 @@
     "tm:bulletpunch",
     "tm:machpunch",
     "tm:leechseed",
-    "tm:firstimpression"
+    "tm:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4692,
+  "nationalPokedexNumber": 4700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

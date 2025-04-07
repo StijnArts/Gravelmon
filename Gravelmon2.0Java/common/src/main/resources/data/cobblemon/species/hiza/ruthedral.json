@@ -72,7 +72,8 @@
     "39:painsplit",
     "46:stealthrock",
     "52:skydrop",
-    "61:stoneedge"
+    "61:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2327,
+  "nationalPokedexNumber": 2335,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

@@ -40,7 +40,7 @@ public class Bravelry extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUPERPOWER,56)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 27, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

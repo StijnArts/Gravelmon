@@ -68,7 +68,11 @@ public class Ryuvern extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NOBLE_ROAR,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_CHERRY_GROVE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ryuvern");

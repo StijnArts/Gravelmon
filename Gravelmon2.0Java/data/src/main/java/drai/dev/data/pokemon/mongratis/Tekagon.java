@@ -27,7 +27,11 @@ public class Tekagon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 54, .2, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+        ), List.of(),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tekagon");

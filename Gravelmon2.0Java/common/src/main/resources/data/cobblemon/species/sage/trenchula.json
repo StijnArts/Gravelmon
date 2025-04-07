@@ -145,7 +145,8 @@
     "egg:rockblast",
     "egg:signalbeam",
     "egg:steamroller",
-    "egg:twineedle"
+    "egg:twineedle",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

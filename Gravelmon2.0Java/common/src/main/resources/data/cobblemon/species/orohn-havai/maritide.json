@@ -81,7 +81,8 @@
     "tm:muddywater",
     "tm:block",
     "tm:rockblast",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2941,
+  "nationalPokedexNumber": 2949,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

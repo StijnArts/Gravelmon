@@ -139,7 +139,8 @@
     "tm:fakeout",
     "tm:batonpass",
     "tm:allyswitch",
-    "tm:vitalthrow"
+    "tm:vitalthrow",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4917,
+  "nationalPokedexNumber": 4925,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

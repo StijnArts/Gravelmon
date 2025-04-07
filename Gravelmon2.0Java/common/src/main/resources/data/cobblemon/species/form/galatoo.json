@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "4:aircutter",
+    "7:wingattack",
+    "10:airslash",
+    "13:drillpeck",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -92,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3821,
+  "nationalPokedexNumber": 3829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

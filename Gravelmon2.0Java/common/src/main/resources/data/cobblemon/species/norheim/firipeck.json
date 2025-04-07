@@ -72,7 +72,8 @@
     "48:smartstrike",
     "54:swordsdance",
     "58:drillrun",
-    "64:flareblitz"
+    "64:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3110,
+  "nationalPokedexNumber": 3118,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

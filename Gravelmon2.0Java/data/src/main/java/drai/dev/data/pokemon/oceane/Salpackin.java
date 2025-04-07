@@ -33,7 +33,7 @@ public class Salpackin extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 45, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 45, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

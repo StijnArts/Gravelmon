@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "10:revenge",
+    "15:lowsweep",
+    "20:brickbreak",
+    "25:karatechop",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6011,
+  "nationalPokedexNumber": 6019,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

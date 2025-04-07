@@ -80,7 +80,8 @@
     "tm:petaldance",
     "tm:helpinghand",
     "tm:metronome",
-    "tm:vacuumwave"
+    "tm:vacuumwave",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4476,
+  "nationalPokedexNumber": 4484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:tackle"
+    "1:tackle",
+    "1:stringshot",
+    "1:growl",
+    "4:silverwind",
+    "4:round",
+    "7:signalbeam",
+    "7:swift",
+    "10:infestation",
+    "10:uproar",
+    "13:uturn",
+    "13:hypervoice",
+    "16:bugbuzz",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5558,
+  "nationalPokedexNumber": 5566,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

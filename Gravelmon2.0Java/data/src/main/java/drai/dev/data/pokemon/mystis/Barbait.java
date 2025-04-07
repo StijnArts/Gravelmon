@@ -17,13 +17,15 @@ public class Barbait extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.REELIN,Ability.IRON_BARBS), Ability.STRONG_JAW,
                 9, 113,
-                new Stats(0,1,0,0,0,0), 50,
+                new Stats(0,1,0,0,0,0), 150,
                 0.5,
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MINERAL),
                 List.of("It hides its hook in the sand, pretending to act weak and defenseless to lure in prey. It can end its victims in 1 carefully placed strike."),
-                List.of(),
+                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.WEATHER,"true")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -74,9 +76,16 @@ public class Barbait extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDURE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Barbait");
 
     }

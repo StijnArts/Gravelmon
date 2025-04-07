@@ -111,7 +111,8 @@
     "egg:smokescreen",
     "egg:sunnyday",
     "egg:waterpulse",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4518,
+  "nationalPokedexNumber": 4526,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

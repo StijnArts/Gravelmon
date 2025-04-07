@@ -73,7 +73,8 @@
     "1:dragondance",
     "1:twister",
     "1:acrobatics",
-    "1:drillpeck"
+    "1:drillpeck",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -88,7 +89,7 @@
   "weight": 933,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3281,
+  "nationalPokedexNumber": 3289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

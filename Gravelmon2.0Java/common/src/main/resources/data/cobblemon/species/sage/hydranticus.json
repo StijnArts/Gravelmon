@@ -142,7 +142,8 @@
     "egg:crosspoison",
     "egg:extrasensory",
     "egg:toxicspikes",
-    "egg:waterspout"
+    "egg:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -83,7 +83,8 @@
     "tm:sleeptalk",
     "tm:substitute",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4677,
+  "nationalPokedexNumber": 4685,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

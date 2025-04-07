@@ -75,7 +75,7 @@ public class Carbite extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:deepslate",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 28, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 28, 9, List.of(
                         new SpawnCondition(SpawnConditionType.MAXY,"12"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

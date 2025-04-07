@@ -120,7 +120,8 @@
     "tm:uturn",
     "tm:watergun",
     "tm:weatherball",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2306,
+  "nationalPokedexNumber": 2314,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

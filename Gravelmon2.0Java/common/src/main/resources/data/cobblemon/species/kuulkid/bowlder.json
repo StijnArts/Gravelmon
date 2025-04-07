@@ -61,7 +61,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:defensecurl",
+    "4:rollout",
+    "7:smackdown",
+    "10:rockblast",
+    "13:stealthrock",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -76,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2167,
+  "nationalPokedexNumber": 2175,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

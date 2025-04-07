@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "1:growl",
+    "1:bulkup",
+    "4:quickattack",
+    "4:calmmind",
+    "7:bite",
+    "7:taunt",
+    "10:takedown",
+    "10:substitute",
+    "13:crunch",
+    "13:rest",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -75,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5568,
+  "nationalPokedexNumber": 5576,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

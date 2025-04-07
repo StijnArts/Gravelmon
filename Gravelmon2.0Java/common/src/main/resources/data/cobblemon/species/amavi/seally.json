@@ -119,7 +119,8 @@
     "tm:willowisp",
     "tm:workup",
     "tm:throatchop",
-    "tm:flail"
+    "tm:flail",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5276,
+  "nationalPokedexNumber": 5284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

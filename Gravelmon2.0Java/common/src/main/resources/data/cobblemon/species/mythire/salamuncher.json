@@ -185,7 +185,8 @@
     "tm:speedswap",
     "tm:watersport",
     "tm:waterfall",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -200,7 +201,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3858,
+  "nationalPokedexNumber": 3866,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

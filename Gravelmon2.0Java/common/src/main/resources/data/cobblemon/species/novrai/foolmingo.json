@@ -152,7 +152,8 @@
     "tm:rototiller",
     "tm:grassyglide",
     "tm:aircutter",
-    "tm:mefirst"
+    "tm:mefirst",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4995,
+  "nationalPokedexNumber": 5003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -64,7 +64,8 @@
     "1:tackle",
     "4:tailwhip",
     "8:endure",
-    "13:quickattack"
+    "13:quickattack",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3081,
+  "nationalPokedexNumber": 3089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

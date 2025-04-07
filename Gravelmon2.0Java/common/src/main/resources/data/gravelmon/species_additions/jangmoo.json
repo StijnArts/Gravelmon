@@ -131,13 +131,15 @@
         "tm:toxic",
         "tm:workup",
         "tm:zenheadbutt",
+        "egg:excalibur",
         "egg:xscissor",
         "egg:psychocut",
         "egg:revenge",
         "egg:shieldbash",
         "egg:bulkup",
         "egg:closecombat",
-        "egg:autotomize"
+        "egg:autotomize",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

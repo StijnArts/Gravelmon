@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:stringshot",
+    "1:defensecurl",
+    "10:leechlife",
+    "10:rollout",
+    "15:lunge",
+    "15:smackdown",
+    "20:xscissor",
+    "20:rockblast",
+    "25:uturn",
+    "25:stealthrock",
+    "30:megahorn",
+    "30:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5865,
+  "nationalPokedexNumber": 5873,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -155,7 +155,8 @@
     "egg:iceshard",
     "egg:iciclespear",
     "egg:powerswap",
-    "egg:snarl"
+    "egg:snarl",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -23,11 +23,20 @@ public class Grimlin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its oversized nose is a keen sensor, allowing it to sniff out potential prey or hidden treasures. Known for its aggressive nature, Grimlin is often spotted ambushing unsuspecting targets, stealing items, or playfully hurling rocks at travelers and reveling in their reactions."),
-                List.of(),
+                List.of(new EvolutionEntry("grumpelstil", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=male"))),
+                        new EvolutionEntry("oozegrim", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")))),
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Grimlin");

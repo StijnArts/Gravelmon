@@ -77,7 +77,8 @@
     "41:uproar",
     "50:thunderbolt",
     "egg:haze",
-    "egg:psyshock"
+    "egg:psyshock",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -92,7 +93,7 @@
   "weight": 756,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3436,
+  "nationalPokedexNumber": 3444,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

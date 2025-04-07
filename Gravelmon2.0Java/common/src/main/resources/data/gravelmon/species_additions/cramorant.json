@@ -122,7 +122,8 @@
         "egg:dualwingbeat",
         "egg:featherdance",
         "egg:uproar",
-        "egg:drillrun"
+        "egg:drillrun",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

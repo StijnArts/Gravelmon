@@ -136,7 +136,8 @@
     "tm:encore",
     "tm:endeavor",
     "tm:mudslap",
-    "tm:pluck"
+    "tm:pluck",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -151,7 +152,7 @@
   "weight": 242,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3345,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

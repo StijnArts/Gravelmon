@@ -77,7 +77,8 @@
     "tm:curse",
     "tm:bide",
     "tm:storedpower",
-    "tm:teeterdance"
+    "tm:teeterdance",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -90,7 +91,7 @@
   "weight": 90,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3289,
+  "nationalPokedexNumber": 3297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

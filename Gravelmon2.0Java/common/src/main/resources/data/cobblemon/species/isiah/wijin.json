@@ -75,7 +75,8 @@
     "50:destinybond",
     "53:happyhour",
     "55:allyswitch",
-    "59:storedpower"
+    "59:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4249,
+  "nationalPokedexNumber": 4257,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

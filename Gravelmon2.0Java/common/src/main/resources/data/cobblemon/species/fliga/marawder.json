@@ -77,7 +77,8 @@
     "42:thrash",
     "46:glare",
     "50:swordsdance",
-    "55:agility"
+    "55:agility",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -92,7 +93,7 @@
   "weight": 1923,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3924,
+  "nationalPokedexNumber": 3932,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

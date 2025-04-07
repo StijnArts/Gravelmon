@@ -145,7 +145,8 @@
     "egg:charm",
     "egg:hypnosis",
     "egg:punishment",
-    "egg:tailwhip"
+    "egg:tailwhip",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

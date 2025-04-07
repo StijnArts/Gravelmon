@@ -1,0 +1,183 @@
+{
+  "target": "cobblemon:sirfetchd",
+  "forms": [
+    {
+      "name": "Ishirian",
+      "primaryType": "fighting",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 177,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22325581395348837,
+      "cannotDynamax": false,
+      "abilities": [
+        "steadfast",
+        "steadfast",
+        "h:scrappy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 62,
+        "attack": 165,
+        "defence": 65,
+        "special_attack": 68,
+        "special_defence": 82,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:firstimpression",
+        "1:leer",
+        "1:sandattack",
+        "1:furycutter",
+        "1:peck",
+        "1:irondefense",
+        "15:rocksmash",
+        "20:brutalswing",
+        "25:detect",
+        "30:knockoff",
+        "35:taunt",
+        "40:brickbreak",
+        "45:swordsdance",
+        "50:slam",
+        "55:nightslash",
+        "60:finalgambit",
+        "65:lashout",
+        "70:meteorassault",
+        "tm:coaching",
+        "tm:dualwingbeat",
+        "tm:grassyglide",
+        "tm:assurance",
+        "tm:brutalswing",
+        "tm:throatchop",
+        "tm:brickbreak",
+        "tm:closecombat",
+        "tm:revenge",
+        "tm:superpower",
+        "tm:sunnyday",
+        "tm:bravebird",
+        "tm:leafblade",
+        "tm:solarblade",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:endure",
+        "tm:facade",
+        "tm:focusenergy",
+        "tm:helpinghand",
+        "tm:protect",
+        "tm:retaliate",
+        "tm:round",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:workup",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:irondefense",
+        "tm:steelwing",
+        "tm:nightslash",
+        "tm:foulplay",
+        "tm:knockoff",
+        "tm:payback",
+        "tm:punishment",
+        "tm:pursuit",
+        "tm:feintattack",
+        "tm:darkpulse",
+        "tm:honeclaws",
+        "tm:nastyplot",
+        "tm:torment",
+        "tm:shadowclaw",
+        "tm:shadowpunch",
+        "tm:grudge",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:round",
+        "tm:snore",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:terablast",
+        "tm:counter",
+        "tm:covet",
+        "tm:curse",
+        "tm:doubleedge",
+        "tm:feint",
+        "tm:flail",
+        "tm:nightslash",
+        "tm:quickattack",
+        "tm:quickguard",
+        "tm:simplebeam",
+        "tm:skyattack",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriansirfetchd.desc"
+      ],
+      "height": 8,
+      "weight": 1170,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.375,
+        "height": 5.375,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "ishirian"
+  ]
+}

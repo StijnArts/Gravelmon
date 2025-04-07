@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "4:bubblebeam",
+    "7:brine",
+    "10:surf",
+    "13:chillingwater",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -94,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2836,
+  "nationalPokedexNumber": 2844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

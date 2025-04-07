@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:tackle"
+    "1:tackle",
+    "1:leer",
+    "1:growl",
+    "4:payback",
+    "4:round",
+    "7:nightdaze",
+    "7:swift",
+    "10:snarl",
+    "10:uproar",
+    "13:knockoff",
+    "13:hypervoice",
+    "16:darkpulse",
+    "16:hyperbeam",
+    "19:bite",
+    "19:tackle",
+    "22:leer",
+    "22:growl",
+    "25:payback",
+    "25:quickattack",
+    "28:nightslash",
+    "28:bite",
+    "31:crunch",
+    "31:takedown",
+    "34:knockoff",
+    "34:crunch",
+    "39:suckerpunch",
+    "39:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -89,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2161,
+  "nationalPokedexNumber": 2169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

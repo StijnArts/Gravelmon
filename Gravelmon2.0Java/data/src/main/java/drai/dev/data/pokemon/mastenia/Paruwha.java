@@ -16,7 +16,7 @@ public class Paruwha extends drai.dev.data.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.PRESSURE), Ability.SAND_STREAM,
-                0, 854,
+                25, 854,
                 new Stats(2,2,0,0,0,0), 3,
                 0.0,
                 290, ExperienceGroup.SLOW,
@@ -43,10 +43,15 @@ public class Paruwha extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,70)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_ARID).isRaining()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Paruwha");
+        setCanFly(true);
 
     }
 

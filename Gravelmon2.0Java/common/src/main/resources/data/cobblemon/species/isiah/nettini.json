@@ -78,7 +78,8 @@
     "50:leafstorm",
     "tm:vinewhip",
     "tm:ingrain",
-    "tm:hornleech"
+    "tm:hornleech",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 4237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

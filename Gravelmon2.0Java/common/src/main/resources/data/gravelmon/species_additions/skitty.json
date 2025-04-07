@@ -136,7 +136,8 @@
         "egg:petaldance",
         "egg:purify",
         "egg:sunnyday",
-        "egg:aromaticmist"
+        "egg:aromaticmist",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -322,7 +323,8 @@
         "egg:memento",
         "egg:torment",
         "egg:lovelykiss",
-        "egg:nightmare"
+        "egg:nightmare",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -462,7 +464,8 @@
         "tm:calmmind",
         "tm:energyball",
         "tm:playrough",
-        "tm:dazzlinggleam"
+        "tm:dazzlinggleam",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

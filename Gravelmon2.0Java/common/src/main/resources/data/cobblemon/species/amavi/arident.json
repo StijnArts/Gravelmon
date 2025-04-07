@@ -73,7 +73,8 @@
     "41:stoneedge",
     "43:flareblitz",
     "46:rockclimb",
-    "50:rockwrecker"
+    "50:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5255,
+  "nationalPokedexNumber": 5263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

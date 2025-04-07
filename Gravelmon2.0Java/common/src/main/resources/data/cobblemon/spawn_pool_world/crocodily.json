@@ -11,7 +11,7 @@
       "context": "surface",
       "bucket": "uncommon",
       "level": "6-27",
-      "weight": 10.5,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",

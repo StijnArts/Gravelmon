@@ -128,7 +128,8 @@
     "tutor:skyattack",
     "tutor:snore",
     "tutor:tailwind",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1845,
+  "nationalPokedexNumber": 1848,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

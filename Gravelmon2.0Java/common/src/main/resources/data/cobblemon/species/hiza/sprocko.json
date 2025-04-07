@@ -68,7 +68,8 @@
     "24:naturepower",
     "31:endeavor",
     "35:solarbeam",
-    "40:leafstorm"
+    "40:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

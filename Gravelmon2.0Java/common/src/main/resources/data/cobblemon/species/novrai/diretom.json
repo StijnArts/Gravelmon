@@ -148,7 +148,8 @@
     "tm:mudbomb",
     "tm:acidspray",
     "tm:mudshot",
-    "tm:mortalspin"
+    "tm:mortalspin",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4954,
+  "nationalPokedexNumber": 4962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

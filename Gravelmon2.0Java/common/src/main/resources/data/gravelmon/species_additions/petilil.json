@@ -89,7 +89,8 @@
         "egg:ingrain",
         "egg:naturalgift",
         "egg:sweetscent",
-        "egg:worryseed"
+        "egg:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

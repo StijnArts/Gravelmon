@@ -77,7 +77,8 @@
     "32:megakick",
     "36:closecombat",
     "40:reversal",
-    "44:dynamicpunch"
+    "44:dynamicpunch",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3334,
+  "nationalPokedexNumber": 3342,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

@@ -74,7 +74,8 @@
     "38:sludgebomb",
     "42:destinybond",
     "46:gunkshot",
-    "52:fissure"
+    "52:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1667,
+  "nationalPokedexNumber": 1670,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

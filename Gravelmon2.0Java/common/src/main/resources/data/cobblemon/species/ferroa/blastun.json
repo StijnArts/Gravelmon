@@ -124,7 +124,8 @@
     "tm:headbutt",
     "tm:headsmash",
     "tm:acidspray",
-    "tm:flameburst"
+    "tm:flameburst",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1493,
+  "nationalPokedexNumber": 1496,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -70,7 +70,8 @@
     "25:flamethrower",
     "29:whirlwind",
     "32:featherdance",
-    "36:flareblitz"
+    "36:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3320,
+  "nationalPokedexNumber": 3328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

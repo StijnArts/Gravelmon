@@ -73,7 +73,8 @@
     "41:painsplit",
     "46:extrasensory",
     "50:powergem",
-    "55:overheat"
+    "55:overheat",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5252,
+  "nationalPokedexNumber": 5260,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

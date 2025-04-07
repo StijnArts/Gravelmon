@@ -61,7 +61,23 @@
   "moves": [
     "1:lick",
     "1:healbell",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:wish",
+    "1:nastyplot",
+    "10:confuseray",
+    "10:quickattack",
+    "15:ominouswind",
+    "15:swordsdance",
+    "20:nightshade",
+    "25:hex",
+    "30:shadowball",
+    "35:lick",
+    "40:growl",
+    "45:confuseray",
+    "50:hex",
+    "55:shadowclaw",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5363,
+  "nationalPokedexNumber": 5371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

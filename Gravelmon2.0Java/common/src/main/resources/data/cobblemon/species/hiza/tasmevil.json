@@ -76,7 +76,8 @@
     "34:yawn",
     "36:takedown",
     "40:suckerpunch",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2274,
+  "nationalPokedexNumber": 2282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

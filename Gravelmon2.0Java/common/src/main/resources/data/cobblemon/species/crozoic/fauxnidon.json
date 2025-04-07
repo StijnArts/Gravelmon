@@ -76,7 +76,8 @@
     "1:snaptrap",
     "1:scaryface",
     "1:bounce",
-    "1:shadowpunch"
+    "1:shadowpunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -91,7 +92,7 @@
   "weight": 212,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3277,
+  "nationalPokedexNumber": 3285,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

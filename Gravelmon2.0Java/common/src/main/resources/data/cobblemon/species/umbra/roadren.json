@@ -126,7 +126,8 @@
     "tutor:drillrun",
     "tutor:outrage",
     "tutor:hypervoice",
-    "tutor:dragonpulse"
+    "tutor:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -141,7 +142,7 @@
   "weight": 105,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3718,
+  "nationalPokedexNumber": 3726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -74,7 +74,8 @@
     "45:airslash",
     "46:dragonpulse",
     "52:aromatherapy",
-    "59:solarbeam"
+    "59:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3063,
+  "nationalPokedexNumber": 3071,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

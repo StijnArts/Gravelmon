@@ -115,7 +115,8 @@
     "tutor:magnetrise",
     "tutor:laserfocus",
     "tutor:magiccoat",
-    "tutor:gunkshot"
+    "tutor:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -130,7 +131,7 @@
   "weight": 277,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3720,
+  "nationalPokedexNumber": 3728,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

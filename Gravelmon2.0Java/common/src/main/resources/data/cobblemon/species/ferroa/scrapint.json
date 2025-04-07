@@ -153,7 +153,8 @@
     "tm:ironhead",
     "tm:odorsleuth",
     "tm:falsesurrender",
-    "tm:revenge"
+    "tm:revenge",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -181,7 +182,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1504,
+  "nationalPokedexNumber": 1507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

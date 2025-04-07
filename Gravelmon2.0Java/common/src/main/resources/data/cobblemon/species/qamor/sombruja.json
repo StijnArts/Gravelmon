@@ -74,7 +74,8 @@
     "tm:dazzlinggleam",
     "tm:darkpulse",
     "tm:cottonguard",
-    "tm:afteryou"
+    "tm:afteryou",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4007,
+  "nationalPokedexNumber": 4015,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

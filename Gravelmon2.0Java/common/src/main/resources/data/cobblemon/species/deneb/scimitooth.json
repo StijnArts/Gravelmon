@@ -124,7 +124,8 @@
     "egg:spark",
     "egg:sunnyday",
     "egg:thunderfang",
-    "egg:thunderbolt"
+    "egg:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
   "weight": 2822,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4530,
+  "nationalPokedexNumber": 4538,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

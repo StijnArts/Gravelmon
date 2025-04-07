@@ -75,7 +75,8 @@
     "36:poisontail",
     "41:fellstinger",
     "45:tailglow",
-    "56:leechlife"
+    "56:leechlife",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1640,
+  "nationalPokedexNumber": 1643,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

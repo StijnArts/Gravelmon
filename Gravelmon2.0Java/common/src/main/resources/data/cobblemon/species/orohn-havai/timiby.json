@@ -80,7 +80,8 @@
     "tm:focuspunch",
     "tm:revenge",
     "tm:payback",
-    "tm:quash"
+    "tm:quash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2963,
+  "nationalPokedexNumber": 2971,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

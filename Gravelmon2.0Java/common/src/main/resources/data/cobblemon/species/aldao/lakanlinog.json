@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "4:sandattack",
+    "7:mudbomb",
+    "10:bulldoze",
+    "13:dig",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2916,
+  "nationalPokedexNumber": 2924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

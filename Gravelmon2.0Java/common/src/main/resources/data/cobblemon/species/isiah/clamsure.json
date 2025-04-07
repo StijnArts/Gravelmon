@@ -68,7 +68,8 @@
     "tm:hiddenpower",
     "tm:protect",
     "tm:substitute",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4243,
+  "nationalPokedexNumber": 4251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

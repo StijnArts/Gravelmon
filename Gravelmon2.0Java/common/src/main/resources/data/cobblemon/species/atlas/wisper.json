@@ -63,7 +63,8 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:astonish"
+    "1:astonish",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5127,
+  "nationalPokedexNumber": 5135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

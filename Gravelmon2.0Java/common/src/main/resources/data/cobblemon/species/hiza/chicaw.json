@@ -95,7 +95,8 @@
     "tm:uturn",
     "tm:substitute",
     "tm:snarl",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2258,
+  "nationalPokedexNumber": 2266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

@@ -119,7 +119,8 @@
     "tm:toxic",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -134,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5061,
+  "nationalPokedexNumber": 5069,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

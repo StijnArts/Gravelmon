@@ -72,7 +72,8 @@
     "42:screech",
     "48:slam",
     "54:powerwhip",
-    "60:bellydrum"
+    "60:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3027,
+  "nationalPokedexNumber": 3035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

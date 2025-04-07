@@ -112,7 +112,8 @@
     "tutor:toxic",
     "tutor:iciclecrash",
     "tutor:nastyplot",
-    "tutor:bugnoise"
+    "tutor:bugnoise",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -128,7 +129,7 @@
   "weight": 362,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4536,
+  "nationalPokedexNumber": 4544,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

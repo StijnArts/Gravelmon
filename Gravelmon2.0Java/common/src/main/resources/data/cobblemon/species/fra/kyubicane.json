@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "4:bubblebeam",
+    "7:brine",
+    "10:surf",
+    "13:chillingwater",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "fra",
@@ -77,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2916,
+  "nationalPokedexNumber": 2924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

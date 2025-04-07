@@ -140,7 +140,8 @@
         "tm:taunt",
         "tm:terrainpulse",
         "tm:toxic",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -303,7 +304,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -474,7 +476,8 @@
         "tm:sandtomb",
         "tm:incinerate",
         "tm:acidspray",
-        "tm:lick"
+        "tm:lick",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -651,7 +654,8 @@
         "egg:shadowsneak",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -849,7 +853,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:suckerpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -1024,7 +1029,8 @@
         "egg:spitup",
         "egg:scaryface",
         "egg:acidspray",
-        "egg:poweruppunch"
+        "egg:poweruppunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

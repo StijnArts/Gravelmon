@@ -91,6 +91,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:ironhead",
@@ -120,7 +121,8 @@
         "egg:powerswap",
         "egg:guardswap",
         "egg:secretpower",
-        "egg:bide"
+        "egg:bide",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -303,7 +305,8 @@
         "tutor:stealthrock",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

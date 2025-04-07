@@ -114,7 +114,8 @@
     "tm:thunderwave",
     "tm:toxic",
     "tm:hypnosis",
-    "tm:electricterrain"
+    "tm:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4266,
+  "nationalPokedexNumber": 4274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -70,7 +70,8 @@
     "40:ancientpower",
     "46:taunt",
     "50:dragonclaw",
-    "62:headsmash"
+    "62:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1695,
+  "nationalPokedexNumber": 1698,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

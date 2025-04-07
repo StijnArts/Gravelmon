@@ -137,7 +137,8 @@
         "tm:willowisp",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -315,7 +316,8 @@
         "tutor:waterpledge",
         "tutor:waterpulse",
         "tutor:whirlpool",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -477,7 +479,8 @@
         "tm:torment",
         "tm:toxic",
         "tm:weatherball",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

@@ -63,7 +63,23 @@
     "1:tackle",
     "1:metalclaw",
     "1:extremespeed",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:growl",
+    "1:screech",
+    "1:quickattack",
+    "1:quickattack",
+    "4:quickattack",
+    "4:irontail",
+    "4:swordsdance",
+    "4:swordsdance",
+    "7:bite",
+    "7:smartstrike",
+    "10:takedown",
+    "10:ironhead",
+    "13:crunch",
+    "13:meteormash",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3632,
+  "nationalPokedexNumber": 3640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

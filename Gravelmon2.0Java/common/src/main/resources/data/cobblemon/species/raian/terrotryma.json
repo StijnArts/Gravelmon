@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:lowkick"
+    "1:lowkick",
+    "1:defensecurl",
+    "1:leer",
+    "4:rollout",
+    "4:revenge",
+    "7:smackdown",
+    "7:lowsweep",
+    "10:rockblast",
+    "10:brickbreak",
+    "13:stealthrock",
+    "13:karatechop",
+    "16:stoneedge",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2527,
+  "nationalPokedexNumber": 2535,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

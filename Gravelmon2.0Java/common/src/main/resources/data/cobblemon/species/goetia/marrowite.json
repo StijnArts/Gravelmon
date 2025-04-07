@@ -64,7 +64,23 @@
     "1:strugglebug",
     "1:lick",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:growl",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:leechlife",
+    "10:confuseray",
+    "10:swordsdance",
+    "15:lunge",
+    "15:hex",
+    "20:xscissor",
+    "20:shadowclaw",
+    "25:uturn",
+    "25:phantomforce",
+    "30:megahorn",
+    "30:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -79,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5877,
+  "nationalPokedexNumber": 5885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

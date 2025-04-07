@@ -169,7 +169,8 @@
     "tm:leafblade",
     "tm:twinbeam",
     "tm:confuseray",
-    "tm:worryseed"
+    "tm:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -184,7 +185,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4991,
+  "nationalPokedexNumber": 4999,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

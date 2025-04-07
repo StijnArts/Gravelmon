@@ -98,7 +98,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:workup",
-    "tm:softboiled"
+    "tm:softboiled",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5085,
+  "nationalPokedexNumber": 5093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

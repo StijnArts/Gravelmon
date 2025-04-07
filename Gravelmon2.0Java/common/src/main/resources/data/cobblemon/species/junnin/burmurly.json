@@ -73,7 +73,8 @@
     "33:firespin",
     "39:acrobatics",
     "41:slackoff",
-    "tm:acidarmor"
+    "tm:acidarmor",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2416,
+  "nationalPokedexNumber": 2424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

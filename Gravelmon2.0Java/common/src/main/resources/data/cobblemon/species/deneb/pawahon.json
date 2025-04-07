@@ -90,7 +90,9 @@
     "tutor:ancientpower",
     "tutor:endure",
     "tutor:aurasphere",
-    "tutor:reversal"
+    "tutor:reversal",
+    "tutor:titanichorn",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -104,7 +106,7 @@
   "weight": 6800,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4658,
+  "nationalPokedexNumber": 4666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

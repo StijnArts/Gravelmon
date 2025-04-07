@@ -67,7 +67,8 @@
     "32:aquatail",
     "20:poisontail",
     "24:aquajet",
-    "36:crosspoison"
+    "36:crosspoison",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1958,
+  "nationalPokedexNumber": 1961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

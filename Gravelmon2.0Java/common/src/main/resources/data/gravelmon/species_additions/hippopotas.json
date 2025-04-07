@@ -64,7 +64,33 @@
       "drops": {},
       "moves": [
         "1:metalclaw",
-        "1:lick"
+        "1:lick",
+        "1:screech",
+        "1:growl",
+        "4:irontail",
+        "4:confuseray",
+        "7:smartstrike",
+        "7:ominouswind",
+        "10:mirrorshot",
+        "10:nightshade",
+        "13:flashcannon",
+        "13:hex",
+        "16:steelbeam",
+        "16:shadowball",
+        "19:metalclaw",
+        "19:lick",
+        "22:screech",
+        "22:growl",
+        "25:irontail",
+        "25:confuseray",
+        "28:smartstrike",
+        "28:hex",
+        "31:ironhead",
+        "31:shadowclaw",
+        "34:meteormash",
+        "34:phantomforce",
+        "39:poltergeist",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -84,6 +110,117 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "water",
+      "catchRate": 140,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 9.600000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterveil",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 68,
+        "attack": 60,
+        "defence": 42,
+        "special_attack": 52,
+        "special_defence": 78,
+        "speed": 32
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:tailwhip",
+        "10:bubblebeam",
+        "15:brine",
+        "20:surf",
+        "25:chillingwater",
+        "30:hydropump",
+        "35:watergun",
+        "40:tailwhip",
+        "45:bubblebeam",
+        "50:aquatail",
+        "55:surf",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranhippopotas.desc"
+      ],
+      "height": 8,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranhippopotas_hippowdon_nodorran",
+          "variant": "level_up",
+          "result": "hippowdon nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "34"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -221,7 +358,8 @@
         "egg:zenheadbutt",
         "egg:rototiller",
         "egg:grassyglide",
-        "egg:lifedew"
+        "egg:lifedew",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -372,7 +510,8 @@
         "tutor:liquidation",
         "tutor:swagger",
         "tutor:waterpulse",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -413,6 +552,7 @@
   ],
   "features": [
     "mahalian",
+    "nodorran",
     "epoch",
     "armiran"
   ]

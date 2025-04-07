@@ -74,7 +74,8 @@
     "44:shadowball",
     "47:memento",
     "50:painsplit",
-    "54:poltergeist"
+    "54:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3336,
+  "nationalPokedexNumber": 3344,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

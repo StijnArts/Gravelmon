@@ -78,7 +78,8 @@
     "egg:bellydrum",
     "egg:defensecurl",
     "egg:lastresort",
-    "egg:rollout"
+    "egg:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3378,
+  "nationalPokedexNumber": 3386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -65,7 +65,8 @@
     "1:astonish",
     "6:assurance",
     "11:bugbite",
-    "15:bide"
+    "15:bide",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2961,
+  "nationalPokedexNumber": 2969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

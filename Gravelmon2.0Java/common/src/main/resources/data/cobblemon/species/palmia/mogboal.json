@@ -63,7 +63,28 @@
     "1:disarmingvoice",
     "1:ember",
     "1:bulkup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:babydolleyes",
+    "1:growl",
+    "1:calmmind",
+    "1:calmmind",
+    "4:drainingkiss",
+    "4:firespin",
+    "4:taunt",
+    "4:taunt",
+    "7:playnice",
+    "7:flamecharge",
+    "7:substitute",
+    "7:substitute",
+    "10:dazzlinggleam",
+    "10:flameburst",
+    "10:rest",
+    "10:rest",
+    "13:hypervoice",
+    "13:flamethrower",
+    "16:moonblast",
+    "16:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -89,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2669,
+  "nationalPokedexNumber": 2677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

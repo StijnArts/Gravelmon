@@ -152,7 +152,8 @@
     "egg:hex",
     "egg:mindreader",
     "egg:perishsong",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

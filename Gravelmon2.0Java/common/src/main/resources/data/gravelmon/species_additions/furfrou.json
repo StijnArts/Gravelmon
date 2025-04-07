@@ -125,7 +125,8 @@
         "egg:mimic",
         "egg:captivate",
         "egg:charm",
-        "egg:odorsleuth"
+        "egg:odorsleuth",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

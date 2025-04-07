@@ -128,7 +128,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -230,7 +231,8 @@
         "1:growl",
         "1:bide",
         "33:dragondance",
-        "38:swordsdance"
+        "38:swordsdance",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

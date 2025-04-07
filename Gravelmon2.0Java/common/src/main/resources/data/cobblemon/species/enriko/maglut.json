@@ -69,7 +69,8 @@
     "24:wakeupslap",
     "29:toxicspikes",
     "35:steamroller",
-    "45:wringout"
+    "45:wringout",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1677,
+  "nationalPokedexNumber": 1680,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

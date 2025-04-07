@@ -149,7 +149,8 @@
     "egg:stomp",
     "egg:superpower",
     "egg:takedown",
-    "egg:thrash"
+    "egg:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

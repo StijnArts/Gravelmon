@@ -107,7 +107,8 @@
     "tm:substitute",
     "tm:sunnyday",
     "tm:swagger",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5046,
+  "nationalPokedexNumber": 5054,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

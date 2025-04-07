@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "10:revenge",
+    "15:lowsweep",
+    "20:brickbreak",
+    "25:karatechop",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4753,
+  "nationalPokedexNumber": 4761,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

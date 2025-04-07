@@ -74,7 +74,8 @@
     "42:shadowclaw",
     "48:charm",
     "54:playrough",
-    "60:painsplit"
+    "60:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2291,
+  "nationalPokedexNumber": 2299,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

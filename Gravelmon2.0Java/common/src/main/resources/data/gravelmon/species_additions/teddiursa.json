@@ -66,7 +66,29 @@
         "1:watergun",
         "1:mudslap",
         "1:bulkup",
-        "1:shoreup"
+        "1:shoreup",
+        "1:tailwhip",
+        "1:growl",
+        "1:calmmind",
+        "1:bulkup",
+        "4:bubblebeam",
+        "4:sandattack",
+        "4:taunt",
+        "4:calmmind",
+        "7:aquatail",
+        "7:mudbomb",
+        "7:substitute",
+        "7:taunt",
+        "10:surf",
+        "10:bulldoze",
+        "10:rest",
+        "10:substitute",
+        "13:waterfall",
+        "13:dig",
+        "13:rest",
+        "16:liquidation",
+        "16:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -101,6 +123,119 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "normal",
+      "secondaryType": "fighting",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 7.199999999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 85,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:lowkick",
+        "1:growl",
+        "1:leer",
+        "10:quickattack",
+        "10:revenge",
+        "15:bite",
+        "15:lowsweep",
+        "20:takedown",
+        "20:brickbreak",
+        "25:crunch",
+        "25:karatechop",
+        "30:doubleedge",
+        "30:closecombat",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranteddiursa.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranteddiursa_ursaring_nodorran",
+          "variant": "level_up",
+          "result": "ursaring nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -259,7 +394,8 @@
         "egg:nightslash",
         "egg:throatchop",
         "egg:nobleroar",
-        "egg:honeclaws"
+        "egg:honeclaws",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -399,7 +535,8 @@
         "tm:rocksmash",
         "egg:crunch",
         "egg:takedown",
-        "egg:seismictoss"
+        "egg:seismictoss",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -573,7 +710,8 @@
         "egg:shadowclaw",
         "egg:sleeptalk",
         "egg:takedown",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -701,7 +839,8 @@
         "egg:seismictoss",
         "egg:sleeptalk",
         "egg:takedown",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -742,6 +881,7 @@
   ],
   "features": [
     "forman",
+    "nodorran",
     "epoch",
     "hoennian",
     "seviian",

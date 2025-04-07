@@ -112,7 +112,8 @@
     "tm:morningsun",
     "tm:firespin",
     "tm:mirrormove",
-    "tm:skydrop"
+    "tm:skydrop",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -127,7 +128,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4441,
+  "nationalPokedexNumber": 4449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

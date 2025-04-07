@@ -71,7 +71,8 @@
     "35:xscissor",
     "44:thrash",
     "56:swordsdance",
-    "62:leafstorm"
+    "62:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1907,
+  "nationalPokedexNumber": 1910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

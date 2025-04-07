@@ -71,7 +71,8 @@
     "37:bugbuzz",
     "44:gyroball",
     "53:detect",
-    "57:superpower"
+    "57:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5202,
+  "nationalPokedexNumber": 5210,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

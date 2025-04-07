@@ -123,7 +123,8 @@
     "tm:dragonrage",
     "tm:teeterdance",
     "tm:sandattack",
-    "tm:bravebird"
+    "tm:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4995,
+  "nationalPokedexNumber": 5003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

@@ -74,7 +74,8 @@
     "36:gastroacid",
     "41:belch",
     "44:painsplit",
-    "49:gunkshot"
+    "49:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1708,
+  "nationalPokedexNumber": 1711,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

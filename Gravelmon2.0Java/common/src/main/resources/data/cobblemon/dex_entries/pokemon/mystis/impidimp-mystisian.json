@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:impidimp-mystisian",
+  "speciesId": "cobblemon:impidimp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mystisian",
+      "unlockForms": [
+        "Mystisian"
+      ]
+    }
+  ],
+  "variations": []
+}

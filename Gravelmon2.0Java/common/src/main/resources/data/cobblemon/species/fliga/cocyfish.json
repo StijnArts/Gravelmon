@@ -77,7 +77,8 @@
     "45:roar",
     "50:dragondance",
     "54:foulplay",
-    "65:destinybond"
+    "65:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3944,
+  "nationalPokedexNumber": 3952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

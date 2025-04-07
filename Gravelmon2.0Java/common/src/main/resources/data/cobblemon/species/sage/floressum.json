@@ -136,7 +136,8 @@
     "egg:roost",
     "egg:seedbomb",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

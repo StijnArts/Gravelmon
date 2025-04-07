@@ -71,7 +71,8 @@
     "47:snowscape",
     "51:dazzlinggleam",
     "56:blizzard",
-    "61:recover"
+    "61:recover",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3361,
+  "nationalPokedexNumber": 3369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

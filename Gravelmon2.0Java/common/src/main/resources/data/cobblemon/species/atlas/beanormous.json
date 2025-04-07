@@ -115,7 +115,8 @@
     "tm:calmmind",
     "tm:thunderwave",
     "tm:grassyterrain",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5176,
+  "nationalPokedexNumber": 5184,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -74,7 +74,8 @@
     "40:irondefense",
     "44:rockslide",
     "48:earthpower",
-    "51:powergem"
+    "51:powergem",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1892,
+  "nationalPokedexNumber": 1895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

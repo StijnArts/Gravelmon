@@ -74,7 +74,8 @@
     "46:scaryface",
     "51:hypervoice",
     "56:lastresort",
-    "61:finalgambit"
+    "61:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4251,
+  "nationalPokedexNumber": 4259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

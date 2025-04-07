@@ -74,7 +74,7 @@ public class Neonite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -72,7 +72,8 @@
     "70:iciclecrash",
     "80:hurricane",
     "90:electricterrain",
-    "100:freezeshock"
+    "100:freezeshock",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -86,7 +87,7 @@
   "weight": 279,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2090,
+  "nationalPokedexNumber": 2093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

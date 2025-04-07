@@ -78,7 +78,8 @@
     "egg:growth",
     "egg:leechseed",
     "egg:poisonpowder",
-    "egg:stunspore"
+    "egg:stunspore",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -91,7 +92,7 @@
   "weight": 121,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3404,
+  "nationalPokedexNumber": 3412,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

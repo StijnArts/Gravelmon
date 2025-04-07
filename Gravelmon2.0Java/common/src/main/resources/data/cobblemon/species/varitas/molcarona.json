@@ -107,7 +107,8 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:surf",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1941,
+  "nationalPokedexNumber": 1944,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

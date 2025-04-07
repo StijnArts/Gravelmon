@@ -150,7 +150,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:whirlpool",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -165,7 +166,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2425,
+  "nationalPokedexNumber": 2433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

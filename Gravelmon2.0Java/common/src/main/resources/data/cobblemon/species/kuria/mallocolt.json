@@ -82,7 +82,8 @@
     "28:mimic",
     "32:gyroball",
     "36:hypervoice",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4148,
+  "nationalPokedexNumber": 4156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

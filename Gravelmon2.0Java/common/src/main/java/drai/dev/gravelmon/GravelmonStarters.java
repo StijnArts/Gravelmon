@@ -682,6 +682,62 @@ public class GravelmonStarters {
                                 "Marmink level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Mikitari",
+                        List.of(
+                                "Rhinplink level=10",
+                                "Skindling level=10",
+                                "Dampybara level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Mushi",
+                        List.of(
+                                "Bewilt level=10",
+                                "Pyroki level=10",
+                                "Micronaut level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Mongratis",
+                        List.of(
+                                "Timberry level=10",
+                                "Saurky level=10",
+                                "Bonfur level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Mystis",
+                        List.of(
+                                "Munchmite level=10",
+                                "Lavat level=10",
+                                "Crubble level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Nodorro",
+                        List.of(
+                                "Faunox level=10",
+                                "Mouslit level=10",
+                                "Feloam level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Olysos",
+                        List.of(
+                                "Cubtus level=10",
+                                "Flambah level=10",
+                                "Sharkin level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Olysos",
+                        List.of(
+                                "patouette level=10",
+                                "capoubou level=10",
+                                "bullaine level=10"
+                        )
+                ));
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {

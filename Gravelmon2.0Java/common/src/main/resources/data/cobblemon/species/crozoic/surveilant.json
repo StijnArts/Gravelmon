@@ -63,7 +63,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:harden"
+    "1:harden",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3240,
+  "nationalPokedexNumber": 3248,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

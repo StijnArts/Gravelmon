@@ -73,7 +73,8 @@
     "20:screech",
     "21:waterpulse",
     "24:swordsdance",
-    "29:toxic"
+    "29:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6061,
+  "nationalPokedexNumber": 6069,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

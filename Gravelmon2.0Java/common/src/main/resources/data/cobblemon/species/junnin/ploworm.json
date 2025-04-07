@@ -102,7 +102,8 @@
     "tm:headbutt",
     "tm:rapidspin",
     "tm:zenheadbutt",
-    "tm:irontail"
+    "tm:irontail",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2432,
+  "nationalPokedexNumber": 2440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

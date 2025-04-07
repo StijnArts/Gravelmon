@@ -71,7 +71,8 @@
     "38:curse",
     "43:raindance",
     "49:recover",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3371,
+  "nationalPokedexNumber": 3379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -123,7 +123,8 @@
     "tm:cut",
     "tm:surf",
     "tm:strength",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -74,7 +74,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4331,
+  "nationalPokedexNumber": 4339,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -128,7 +128,8 @@
     "tm:razorwind",
     "tm:zenheadbutt",
     "tm:suddenstrike",
-    "tm:chipaway"
+    "tm:chipaway",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3842,
+  "nationalPokedexNumber": 3850,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

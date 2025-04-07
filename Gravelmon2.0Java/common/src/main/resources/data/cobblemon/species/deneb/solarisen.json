@@ -118,7 +118,8 @@
     "egg:supersonic",
     "egg:takedown",
     "egg:twister",
-    "egg:typhoon"
+    "egg:typhoon",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -133,7 +134,7 @@
   "weight": 905,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4513,
+  "nationalPokedexNumber": 4521,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

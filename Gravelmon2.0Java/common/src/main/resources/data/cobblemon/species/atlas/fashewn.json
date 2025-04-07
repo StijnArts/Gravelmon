@@ -128,7 +128,8 @@
     "tm:wish",
     "tm:covet",
     "tm:mefirst",
-    "tm:entrainment"
+    "tm:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5076,
+  "nationalPokedexNumber": 5084,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

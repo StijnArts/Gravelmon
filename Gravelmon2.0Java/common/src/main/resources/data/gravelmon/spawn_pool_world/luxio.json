@@ -110,6 +110,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "ishirian_luxio-01",
+      "pokemon": "luxio ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
     }
   ]
 }

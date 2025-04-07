@@ -151,7 +151,8 @@
     "tm:zenheadbutt",
     "tm:tailwind",
     "tm:psychicfangs",
-    "tm:shadowclaw"
+    "tm:shadowclaw",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -166,7 +167,7 @@
   "weight": 1406,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4101,
+  "nationalPokedexNumber": 4109,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

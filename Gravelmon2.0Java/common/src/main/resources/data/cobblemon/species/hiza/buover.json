@@ -73,7 +73,8 @@
     "37:energyball",
     "41:waterfall",
     "45:raindance",
-    "49:solarbeam"
+    "49:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:absorb"
+    "1:absorb",
+    "1:stringshot",
+    "1:leer",
+    "10:silverwind",
+    "10:megadrain",
+    "15:signalbeam",
+    "15:magicalleaf",
+    "20:infestation",
+    "20:gigadrain",
+    "25:uturn",
+    "25:energyball",
+    "30:bugbuzz",
+    "30:solarbeam",
+    "35:strugglebug",
+    "35:leafage",
+    "40:stringshot",
+    "40:leer",
+    "45:leechlife",
+    "45:absorb",
+    "50:lunge",
+    "50:trailblaze",
+    "55:xscissor",
+    "55:gigadrain",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6032,
+  "nationalPokedexNumber": 6040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

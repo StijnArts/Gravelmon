@@ -149,7 +149,8 @@
     "tm:metalclaw",
     "tm:furycutter",
     "tm:protect",
-    "tm:firstimpression"
+    "tm:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -164,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1490,
+  "nationalPokedexNumber": 1493,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

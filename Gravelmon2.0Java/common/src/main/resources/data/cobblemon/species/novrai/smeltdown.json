@@ -120,7 +120,8 @@
     "tm:pursuit",
     "tm:playnice",
     "tm:bubblebeam",
-    "tm:skullbash"
+    "tm:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4866,
+  "nationalPokedexNumber": 4874,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

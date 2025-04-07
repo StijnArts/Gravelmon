@@ -82,7 +82,8 @@
     "44:falseswipe",
     "49:protect",
     "53:closecombat",
-    "58:storedpower"
+    "58:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -95,7 +96,7 @@
   "weight": 216,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4172,
+  "nationalPokedexNumber": 4180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

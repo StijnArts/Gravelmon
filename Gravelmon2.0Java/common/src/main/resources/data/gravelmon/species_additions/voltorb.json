@@ -66,7 +66,22 @@
         "1:metalclaw",
         "1:ember",
         "1:bulletpunch",
-        "1:quickattack"
+        "1:quickattack",
+        "1:screech",
+        "1:growl",
+        "1:quickattack",
+        "1:swordsdance",
+        "4:irontail",
+        "4:quickattack",
+        "4:swordsdance",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:ironhead",
+        "10:firepunch",
+        "13:meteormash",
+        "13:willowisp",
+        "16:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -216,7 +231,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -375,7 +391,8 @@
         "tm:voltswitch",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -484,7 +501,8 @@
         "38:irondefense",
         "42:zingzap",
         "56:icebeam",
-        "62:sheercold"
+        "62:sheercold",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -635,7 +653,8 @@
         "tutor:torment",
         "tutor:toxic",
         "tutor:voltswitch",
-        "tutor:wildcharge"
+        "tutor:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -793,7 +812,8 @@
         "tm:psychup",
         "tm:endeavor",
         "tm:futuresight",
-        "tm:expandingforce"
+        "tm:expandingforce",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

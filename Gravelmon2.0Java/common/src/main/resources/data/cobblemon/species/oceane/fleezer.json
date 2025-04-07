@@ -72,7 +72,8 @@
     "1:growl",
     "1:aquajet",
     "1:slam",
-    "1:nuzzle"
+    "1:nuzzle",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1876,
+  "nationalPokedexNumber": 1879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

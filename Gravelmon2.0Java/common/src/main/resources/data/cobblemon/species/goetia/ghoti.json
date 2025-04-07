@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:lick"
+    "1:lick",
+    "1:tailwhip",
+    "1:growl",
+    "10:bubblebeam",
+    "10:confuseray",
+    "15:brine",
+    "15:ominouswind",
+    "20:surf",
+    "20:nightshade",
+    "25:chillingwater",
+    "25:hex",
+    "30:hydropump",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5903,
+  "nationalPokedexNumber": 5911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

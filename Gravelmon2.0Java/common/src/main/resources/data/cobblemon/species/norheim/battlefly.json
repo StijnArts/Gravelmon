@@ -100,7 +100,8 @@
     "tm:swagger",
     "tm:taunt",
     "tm:toxic",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -115,7 +116,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3078,
+  "nationalPokedexNumber": 3086,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

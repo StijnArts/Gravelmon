@@ -116,7 +116,7 @@ public class Hagma extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 27, 6, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -71,7 +71,8 @@
     "46:inferno",
     "55:heavyslam",
     "64:dynamicpunch",
-    "73:flareblitz"
+    "73:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3980,
+  "nationalPokedexNumber": 3988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

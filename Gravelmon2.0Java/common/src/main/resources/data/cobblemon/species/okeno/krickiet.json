@@ -79,7 +79,8 @@
     "tm:boomburst",
     "tm:silverwind",
     "tm:extrasensory",
-    "tm:imprison"
+    "tm:imprison",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4451,
+  "nationalPokedexNumber": 4459,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

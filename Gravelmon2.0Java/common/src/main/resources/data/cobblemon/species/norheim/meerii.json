@@ -81,7 +81,8 @@
     "tm:babydolleyes",
     "tm:watersport",
     "tm:afteryou",
-    "tm:waterpledge"
+    "tm:waterpledge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3116,
+  "nationalPokedexNumber": 3124,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:acid"
+    "1:acid",
+    "1:stringshot",
+    "1:leer",
+    "10:silverwind",
+    "10:clearsmog",
+    "15:signalbeam",
+    "15:sludge",
+    "20:infestation",
+    "20:toxicspikes",
+    "25:uturn",
+    "25:sludgebomb",
+    "30:bugbuzz",
+    "30:sludgewave",
+    "35:strugglebug",
+    "35:poisonsting",
+    "40:stringshot",
+    "40:leer",
+    "45:leechlife",
+    "45:venoshock",
+    "50:lunge",
+    "50:poisontail",
+    "55:xscissor",
+    "55:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5938,
+  "nationalPokedexNumber": 5946,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

@@ -106,7 +106,8 @@
     "egg:entrainment",
     "egg:suckerpunch",
     "egg:covet",
-    "egg:snatch"
+    "egg:snatch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -119,7 +120,7 @@
   "weight": 742,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4649,
+  "nationalPokedexNumber": 4657,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -71,7 +71,8 @@
     "40:earthpower",
     "44:superpower",
     "50:earthquake",
-    "54:bellydrum"
+    "54:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",

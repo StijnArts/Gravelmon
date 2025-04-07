@@ -116,7 +116,7 @@ public class DeltaRiolu extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 30, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 30, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

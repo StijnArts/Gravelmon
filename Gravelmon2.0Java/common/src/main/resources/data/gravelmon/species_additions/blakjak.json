@@ -91,6 +91,7 @@
         "tm:psyshock",
         "tm:reflect",
         "tm:aerialace",
+        "tm:glorywing",
         "tm:fly",
         "tm:flash",
         "tutor:hiddenpower",
@@ -125,7 +126,8 @@
         "egg:roost",
         "egg:secretpower",
         "egg:steelwing",
-        "egg:sunnyday"
+        "egg:sunnyday",
+        "tm:terablast"
       ],
       "labels": [
         "deneb",

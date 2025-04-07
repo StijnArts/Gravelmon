@@ -64,7 +64,23 @@
     "1:strugglebug",
     "1:scratch",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:leechlife",
+    "10:dragonrage",
+    "10:swordsdance",
+    "15:lunge",
+    "15:dualchop",
+    "20:xscissor",
+    "20:breakingswipe",
+    "25:uturn",
+    "25:dragonclaw",
+    "30:megahorn",
+    "30:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -94,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6072,
+  "nationalPokedexNumber": 6080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

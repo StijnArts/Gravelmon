@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:tailwhip",
+    "1:screech",
+    "4:bubblebeam",
+    "4:irontail",
+    "7:brine",
+    "7:smartstrike",
+    "10:surf",
+    "10:mirrorshot",
+    "13:chillingwater",
+    "13:flashcannon",
+    "16:hydropump",
+    "16:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3783,
+  "nationalPokedexNumber": 3791,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

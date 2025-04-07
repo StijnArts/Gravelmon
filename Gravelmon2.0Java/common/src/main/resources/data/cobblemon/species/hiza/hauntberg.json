@@ -77,7 +77,8 @@
     "50:shadowball",
     "54:disable",
     "57:blizzard",
-    "60:sheercold"
+    "60:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2390,
+  "nationalPokedexNumber": 2398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

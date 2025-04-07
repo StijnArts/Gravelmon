@@ -36,8 +36,7 @@ public class Citpig extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        GravelmonMoveSubstitution.registerMoveInsertion("citpig", new MoveLearnSetEntry(Move.PAY_DAY, 32));
-           setLangFileName("Citpig");
+        setLangFileName("Citpig");
 
     }
 

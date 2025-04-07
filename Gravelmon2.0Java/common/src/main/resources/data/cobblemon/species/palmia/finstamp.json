@@ -63,7 +63,22 @@
     "1:watergun",
     "1:disarmingvoice",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:tailwhip",
+    "1:babydolleyes",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:bubblebeam",
+    "4:drainingkiss",
+    "7:brine",
+    "7:playnice",
+    "10:surf",
+    "10:dazzlinggleam",
+    "13:chillingwater",
+    "13:hypervoice",
+    "16:hydropump",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2665,
+  "nationalPokedexNumber": 2673,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

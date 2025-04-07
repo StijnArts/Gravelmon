@@ -73,7 +73,8 @@
     "32:screech",
     "36:nightslash",
     "40:nastyplot",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3318,
+  "nationalPokedexNumber": 3326,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

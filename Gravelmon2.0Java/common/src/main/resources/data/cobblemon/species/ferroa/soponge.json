@@ -136,7 +136,8 @@
     "tm:minimize",
     "tm:yawn",
     "tm:amnesia",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1558,
+  "nationalPokedexNumber": 1561,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

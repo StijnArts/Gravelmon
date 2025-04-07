@@ -64,7 +64,23 @@
     "1:bite",
     "1:strugglebug",
     "1:quickattack",
-    "1:uturn"
+    "1:uturn",
+    "1:leer",
+    "1:stringshot",
+    "1:swordsdance",
+    "1:quickattack",
+    "4:payback",
+    "4:leechlife",
+    "4:swordsdance",
+    "8:nightslash",
+    "8:lunge",
+    "12:crunch",
+    "12:xscissor",
+    "16:knockoff",
+    "16:uturn",
+    "20:suckerpunch",
+    "20:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -79,7 +95,7 @@
   "weight": 930,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1372,
+  "nationalPokedexNumber": 1374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

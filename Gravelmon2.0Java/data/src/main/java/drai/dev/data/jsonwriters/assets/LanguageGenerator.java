@@ -74,7 +74,9 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn","Orange Apricorn");
         LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn","Purple Apricorn");
         LangJSONWriter.writeTranslationKey("item.gravelmon.purple_apricorn_sapling","Purple Apricorn Sprout");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.purple_apricorn_sapling","Purple Apricorn Sprout");
         LangJSONWriter.writeTranslationKey("item.gravelmon.orange_apricorn_sapling","Orange Apricorn Sprout");
+        LangJSONWriter.writeTranslationKey("block.gravelmon.orange_apricorn_sapling","Orange Apricorn Sprout");
 
         LangJSONWriter.writeTranslationKey("item.gravelmon.mauve_ball","Mauve Ball");
         LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_ball","Ancient Ball");

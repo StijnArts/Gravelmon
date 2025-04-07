@@ -113,7 +113,8 @@
     "egg:sunnyday",
     "egg:swift",
     "egg:takedown",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4586,
+  "nationalPokedexNumber": 4594,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

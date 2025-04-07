@@ -35,7 +35,7 @@ public class Palodefena extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 14, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 14, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

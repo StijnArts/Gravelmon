@@ -70,7 +70,8 @@
     "31:stickyweb",
     "36:bugbuzz",
     "43:psychic",
-    "47:psychoshift"
+    "47:psychoshift",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5193,
+  "nationalPokedexNumber": 5201,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

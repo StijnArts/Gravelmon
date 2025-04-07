@@ -164,7 +164,8 @@
     "tm:bellydrum",
     "tm:honeclaws",
     "tm:grudge",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -177,7 +178,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1581,
+  "nationalPokedexNumber": 1584,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -16,14 +16,15 @@ public class Burrawn extends drai.dev.data.pokemon.Pokemon {
                         50,
                         33),
                 List.of(Ability.SHELL_ARMOR,Ability.TOUGH_CLAWS), Ability.SAND_RUSH,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("Its sturdy claws act like shovels, allowing it to dig into the earth with ease. When predators approach, it will quickly retreat into its burrow or curl up its armored body to protect its soft underside."),
-                List.of(),
+                List.of(new EvolutionEntry("delvster", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
@@ -126,7 +127,11 @@ public class Burrawn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Burrawn");

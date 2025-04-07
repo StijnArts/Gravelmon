@@ -122,7 +122,8 @@
     "egg:roar",
     "egg:sandstorm",
     "egg:submission",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4517,
+  "nationalPokedexNumber": 4525,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

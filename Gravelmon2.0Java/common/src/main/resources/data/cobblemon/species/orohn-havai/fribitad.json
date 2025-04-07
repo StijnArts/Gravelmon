@@ -71,7 +71,8 @@
     "29:acrobatics",
     "32:extremespeed",
     "45:powerwhip",
-    "50:agility"
+    "50:agility",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 2995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

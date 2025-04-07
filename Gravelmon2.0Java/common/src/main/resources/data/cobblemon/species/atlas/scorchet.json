@@ -108,7 +108,8 @@
     "tm:willowisp",
     "tm:workup",
     "tm:dragondance",
-    "tm:tailslap"
+    "tm:tailslap",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5053,
+  "nationalPokedexNumber": 5061,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

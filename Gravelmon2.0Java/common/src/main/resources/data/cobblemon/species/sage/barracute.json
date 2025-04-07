@@ -134,7 +134,8 @@
     "egg:poisonfang",
     "egg:pursuit",
     "egg:superfang",
-    "egg:thunderfang"
+    "egg:thunderfang",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

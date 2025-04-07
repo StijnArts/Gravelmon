@@ -70,7 +70,8 @@
     "38:tailwind",
     "48:stickyweb",
     "52:phantomforce",
-    "59:nightmare"
+    "59:nightmare",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -83,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6088,
+  "nationalPokedexNumber": 6096,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

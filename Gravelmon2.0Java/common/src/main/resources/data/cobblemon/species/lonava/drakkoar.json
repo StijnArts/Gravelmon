@@ -79,7 +79,8 @@
     "44:dragonpulse",
     "50:thunder",
     "56:glare",
-    "62:hydropump"
+    "62:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3368,
+  "nationalPokedexNumber": 3376,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

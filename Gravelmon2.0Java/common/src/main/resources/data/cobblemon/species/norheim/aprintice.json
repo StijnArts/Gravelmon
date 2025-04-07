@@ -73,7 +73,8 @@
     "37:futuresight",
     "42:psychic",
     "47:healingwish",
-    "52:wish"
+    "52:wish",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3153,
+  "nationalPokedexNumber": 3161,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -119,7 +119,8 @@
     "tm:toxic",
     "tm:uproar",
     "tm:workup",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -134,7 +135,7 @@
   "weight": 652,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4090,
+  "nationalPokedexNumber": 4098,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

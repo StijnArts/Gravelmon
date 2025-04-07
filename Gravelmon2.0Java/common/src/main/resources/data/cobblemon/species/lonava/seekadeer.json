@@ -162,7 +162,8 @@
     "tm:workup",
     "tm:zenheadbutt",
     "tm:furyattack",
-    "tm:highhorsepower"
+    "tm:highhorsepower",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -175,7 +176,7 @@
   "weight": 712,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3317,
+  "nationalPokedexNumber": 3325,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

@@ -129,7 +129,8 @@
     "tm:toxic",
     "tm:wildcharge",
     "tm:willowisp",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5055,
+  "nationalPokedexNumber": 5063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.3125,

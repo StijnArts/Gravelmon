@@ -96,7 +96,8 @@
     "tm:superfang",
     "tm:superpower",
     "tm:steelroller",
-    "tm:skittersmack"
+    "tm:skittersmack",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -111,7 +112,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3862,
+  "nationalPokedexNumber": 3870,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

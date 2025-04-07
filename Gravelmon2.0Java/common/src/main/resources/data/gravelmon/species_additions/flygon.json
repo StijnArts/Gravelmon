@@ -126,7 +126,8 @@
         "tm:tripleaxel",
         "tm:weatherball",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -215,7 +216,22 @@
         "1:strugglebug",
         "1:scratch",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:stringshot",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:silverwind",
+        "10:twister",
+        "15:signalbeam",
+        "15:dragonbreath",
+        "20:infestation",
+        "20:breakingswipe",
+        "25:uturn",
+        "25:dragonpulse",
+        "30:bugbuzz",
+        "30:dracometeor",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -393,7 +409,8 @@
         "egg:furycutter",
         "egg:bugbite",
         "egg:feint",
-        "egg:firstimpression"
+        "egg:firstimpression",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -497,7 +514,8 @@
         "39:bugbuzz",
         "44:leechlife",
         "49:boomburst",
-        "55:dragonrush"
+        "55:dragonrush",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -73,7 +73,9 @@
     "34:cosmicpower",
     "39:zenheadbutt",
     "45:meditate",
-    "50:gunkshot"
+    "50:gunkshot",
+    "61:grimebuster",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -86,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5323,
+  "nationalPokedexNumber": 5331,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

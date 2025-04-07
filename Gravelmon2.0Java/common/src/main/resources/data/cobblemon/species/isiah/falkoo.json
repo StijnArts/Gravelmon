@@ -73,7 +73,8 @@
     "33:taunt",
     "37:drillpeck",
     "44:finalgambit",
-    "51:skyattack"
+    "51:skyattack",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4228,
+  "nationalPokedexNumber": 4236,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

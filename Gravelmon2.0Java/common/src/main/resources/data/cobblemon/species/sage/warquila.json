@@ -62,7 +62,7 @@
     "flying"
   ],
   "drops": {
-    "amount": 6,
+    "amount": 9,
     "entries": [
       {
         "item": "cobblemon:sharp_beak",
@@ -149,7 +149,8 @@
     "egg:airslash",
     "egg:focusenergy",
     "egg:hurricane",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

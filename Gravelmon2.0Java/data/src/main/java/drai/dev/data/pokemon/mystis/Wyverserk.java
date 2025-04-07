@@ -17,7 +17,7 @@ public class Wyverserk extends drai.dev.data.pokemon.Pokemon {
                         125),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 218, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -27,7 +27,11 @@ public class Wyverserk extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wyverserk");

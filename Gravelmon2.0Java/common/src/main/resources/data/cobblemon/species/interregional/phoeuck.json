@@ -74,7 +74,8 @@
     "42:allyswitch",
     "48:bitterblade",
     "56:psychocut",
-    "62:flareblitz"
+    "62:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1468,
+  "nationalPokedexNumber": 1471,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

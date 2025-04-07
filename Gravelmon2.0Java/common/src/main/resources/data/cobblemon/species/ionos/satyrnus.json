@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "1:leer",
+    "10:absorb",
+    "10:revenge",
+    "15:trailblaze",
+    "15:lowsweep",
+    "20:gigadrain",
+    "20:brickbreak",
+    "25:seedbomb",
+    "25:karatechop",
+    "30:leafblade",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -93,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4784,
+  "nationalPokedexNumber": 4792,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

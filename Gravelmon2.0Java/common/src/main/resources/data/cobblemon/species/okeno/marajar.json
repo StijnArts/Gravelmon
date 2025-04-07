@@ -75,7 +75,8 @@
     "1:psychic",
     "1:earthpower",
     "1:endure",
-    "1:healblock"
+    "1:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4470,
+  "nationalPokedexNumber": 4478,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

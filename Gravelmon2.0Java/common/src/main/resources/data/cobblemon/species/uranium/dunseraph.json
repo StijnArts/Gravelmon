@@ -159,7 +159,8 @@
     "egg:incinerate",
     "egg:retaliate",
     "egg:bulldoze",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -172,7 +173,7 @@
   "weight": 1098,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 1988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

@@ -82,7 +82,8 @@
     "60:dragonrush",
     "62:outrage",
     "67:earthquake",
-    "70:headsmash"
+    "70:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4033,
+  "nationalPokedexNumber": 4041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

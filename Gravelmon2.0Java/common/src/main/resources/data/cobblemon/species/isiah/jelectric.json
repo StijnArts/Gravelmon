@@ -73,7 +73,8 @@
     "36:weatherball",
     "40:electricterrain",
     "45:suckerpunch",
-    "50:zapcannon"
+    "50:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4232,
+  "nationalPokedexNumber": 4240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

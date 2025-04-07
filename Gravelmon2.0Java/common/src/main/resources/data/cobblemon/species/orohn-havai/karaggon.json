@@ -66,6 +66,31 @@
   "moves": [
     "1:scratch",
     "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "4:twister",
+    "4:irontail",
+    "8:dragonbreath",
+    "8:smartstrike",
+    "12:breakingswipe",
+    "12:mirrorshot",
+    "16:dragonpulse",
+    "16:flashcannon",
+    "20:dracometeor",
+    "20:steelbeam",
+    "24:scratch",
+    "24:metalclaw",
+    "28:leer",
+    "28:screech",
+    "33:dragonrage",
+    "33:irontail",
+    "36:dualchop",
+    "36:smartstrike",
+    "40:breakingswipe",
+    "40:ironhead",
+    "44:dragonclaw",
+    "44:meteormash",
+    "48:outrage",
     "tm:falseswipe",
     "tm:facade",
     "tm:frustration",
@@ -100,7 +125,8 @@
     "tm:bulkup",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -130,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3006,
+  "nationalPokedexNumber": 3014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

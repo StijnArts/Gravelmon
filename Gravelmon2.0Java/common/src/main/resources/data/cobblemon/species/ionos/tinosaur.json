@@ -63,7 +63,22 @@
     "1:rockthrow",
     "1:ember",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:defensecurl",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "10:rollout",
+    "10:quickattack",
+    "15:smackdown",
+    "15:flamecharge",
+    "20:rockblast",
+    "20:firepunch",
+    "25:stealthrock",
+    "25:willowisp",
+    "30:stoneedge",
+    "30:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4764,
+  "nationalPokedexNumber": 4772,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

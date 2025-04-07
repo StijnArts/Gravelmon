@@ -128,7 +128,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -228,7 +229,8 @@
         "38:screech",
         "43:raindance",
         "49:recover",
-        "55:hydropump"
+        "55:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",
@@ -414,7 +416,8 @@
         "egg:powergem",
         "egg:powerswap",
         "egg:spikes",
-        "egg:takedown"
+        "egg:takedown",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -591,7 +594,8 @@
         "tutor:stealthrock",
         "tutor:superpower",
         "tutor:synthesis",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -715,7 +719,8 @@
         "tm:strength",
         "tm:rocksmash",
         "egg:uturn",
-        "egg:snatch"
+        "egg:snatch",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

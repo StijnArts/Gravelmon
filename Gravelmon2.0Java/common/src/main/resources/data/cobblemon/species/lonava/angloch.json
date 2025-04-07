@@ -78,7 +78,8 @@
     "44:dragonpulse",
     "50:thunder",
     "56:glare",
-    "62:hydropump"
+    "62:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3367,
+  "nationalPokedexNumber": 3375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

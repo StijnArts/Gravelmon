@@ -92,7 +92,8 @@
     "tm:strugglebug",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk"
+    "tm:sleeptalk",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

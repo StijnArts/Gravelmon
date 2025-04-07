@@ -121,7 +121,8 @@
     "tm:mist",
     "tm:bounce",
     "tm:iceshard",
-    "tm:silverwind"
+    "tm:silverwind",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4942,
+  "nationalPokedexNumber": 4950,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.75,

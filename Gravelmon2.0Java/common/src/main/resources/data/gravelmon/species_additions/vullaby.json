@@ -135,7 +135,8 @@
         "egg:torment",
         "egg:nightslash",
         "egg:falsesurrender",
-        "egg:boneclub"
+        "egg:boneclub",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

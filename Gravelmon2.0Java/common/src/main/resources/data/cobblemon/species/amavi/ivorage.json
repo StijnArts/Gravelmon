@@ -74,7 +74,8 @@
     "41:stoneedge",
     "43:flareblitz",
     "46:rockclimb",
-    "50:rockwrecker"
+    "50:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5257,
+  "nationalPokedexNumber": 5265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

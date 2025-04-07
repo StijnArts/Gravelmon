@@ -24,14 +24,17 @@ public class Scaelicius extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("- Smite Light - Holy Blessing Light"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.HOLYBLESSING,1),
-                        new MoveLearnSetEntry(Move.SMITE,1)                        ),
+                List.of(            ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SKY)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Scaelicius");
 
     }

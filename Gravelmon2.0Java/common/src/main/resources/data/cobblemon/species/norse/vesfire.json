@@ -72,7 +72,22 @@
     "1:ember",
     "1:acid",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:firespin",
+    "4:clearsmog",
+    "7:flamecharge",
+    "7:sludge",
+    "10:flameburst",
+    "10:toxicspikes",
+    "13:flamethrower",
+    "13:sludgebomb",
+    "16:fireblast",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -87,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2612,
+  "nationalPokedexNumber": 2620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

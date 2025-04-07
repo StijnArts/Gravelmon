@@ -97,7 +97,8 @@
     "tm:icefang",
     "tm:round",
     "tm:bulldoze",
-    "tm:stompingtantrum"
+    "tm:stompingtantrum",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -112,7 +113,7 @@
   "weight": 423,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4618,
+  "nationalPokedexNumber": 4626,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

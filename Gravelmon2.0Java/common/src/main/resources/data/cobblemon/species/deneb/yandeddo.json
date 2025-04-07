@@ -104,7 +104,8 @@
     "tm:terablast",
     "tm:toxic",
     "tm:grassyglide",
-    "tm:petalblizzard"
+    "tm:petalblizzard",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -118,7 +119,7 @@
   "weight": 325,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4654,
+  "nationalPokedexNumber": 4662,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

@@ -74,7 +74,8 @@
     "29:meanlook",
     "35:nightslash",
     "50:shadowclaw",
-    "55:destinybond"
+    "55:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3171,
+  "nationalPokedexNumber": 3179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -124,6 +124,7 @@
     "tm:hurricane",
     "tm:bugbuzz",
     "tm:hyperbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -137,7 +138,7 @@
   "weight": 425,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4658,
+  "nationalPokedexNumber": 4666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

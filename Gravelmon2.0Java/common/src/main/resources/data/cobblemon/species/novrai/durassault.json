@@ -135,7 +135,8 @@
     "tm:confide",
     "tm:bodypress",
     "tm:stompingtantrum",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4891,
+  "nationalPokedexNumber": 4899,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

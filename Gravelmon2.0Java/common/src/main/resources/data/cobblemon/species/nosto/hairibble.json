@@ -170,7 +170,8 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:thrash",
-    "tm:tickle"
+    "tm:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -198,7 +199,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3476,
+  "nationalPokedexNumber": 3484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

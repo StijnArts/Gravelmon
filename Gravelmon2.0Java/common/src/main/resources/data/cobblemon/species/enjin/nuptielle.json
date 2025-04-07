@@ -121,7 +121,8 @@
     "tm:psychic",
     "tm:psychicterrain",
     "tm:reflect",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -135,7 +136,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4707,
+  "nationalPokedexNumber": 4715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

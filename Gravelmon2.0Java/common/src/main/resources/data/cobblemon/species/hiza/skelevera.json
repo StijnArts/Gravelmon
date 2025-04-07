@@ -72,7 +72,8 @@
     "33:torment",
     "38:curse",
     "41:shadowball",
-    "46:bonemerang"
+    "46:bonemerang",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2339,
+  "nationalPokedexNumber": 2347,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

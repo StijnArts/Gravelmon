@@ -87,7 +87,8 @@
     "egg:naturalgift",
     "egg:bodyslam",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

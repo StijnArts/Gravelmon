@@ -123,7 +123,8 @@
     "tm:taunt",
     "tm:thief",
     "tm:toxic",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2977,
+  "nationalPokedexNumber": 2985,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

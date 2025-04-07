@@ -63,7 +63,22 @@
     "1:poisonsting",
     "1:lick",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "10:venoshock",
+    "10:confuseray",
+    "15:poisontail",
+    "15:hex",
+    "20:toxicspikes",
+    "20:shadowclaw",
+    "25:sludgebomb",
+    "25:phantomforce",
+    "30:poisonjab",
+    "30:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6081,
+  "nationalPokedexNumber": 6089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

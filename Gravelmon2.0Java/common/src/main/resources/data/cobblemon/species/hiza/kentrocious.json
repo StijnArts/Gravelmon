@@ -72,7 +72,8 @@
     "35:stealthrock",
     "41:heatcrash",
     "48:rockblast",
-    "55:stoneedge"
+    "55:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2368,
+  "nationalPokedexNumber": 2376,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -79,7 +79,8 @@
     "48:raindance",
     "50:moonblast",
     "55:perishsong",
-    "57:hydropump"
+    "57:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4168,
+  "nationalPokedexNumber": 4176,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

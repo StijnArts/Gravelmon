@@ -183,7 +183,8 @@
     "egg:metalclaw",
     "egg:rockslide",
     "egg:superpower",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

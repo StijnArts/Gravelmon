@@ -83,6 +83,7 @@
         "tm:furycutter",
         "tm:gigadrain",
         "tm:grassyterrain",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -115,7 +116,8 @@
         "egg:flail",
         "egg:thunderpunch",
         "egg:icepunch",
-        "egg:thunderouskick"
+        "egg:thunderouskick",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

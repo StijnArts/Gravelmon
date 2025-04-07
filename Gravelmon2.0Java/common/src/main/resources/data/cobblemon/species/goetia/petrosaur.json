@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:peck"
+    "1:peck",
+    "1:defensecurl",
+    "1:leer",
+    "10:rollout",
+    "10:pluck",
+    "15:smackdown",
+    "15:wingattack",
+    "20:rockblast",
+    "20:aerialace",
+    "25:stealthrock",
+    "25:drillpeck",
+    "30:stoneedge",
+    "30:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6036,
+  "nationalPokedexNumber": 6044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -77,7 +77,8 @@
     "34:zenheadbutt",
     "36:hammerarm",
     "40:doubleedge",
-    "42:rockwrecker"
+    "42:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4396,
+  "nationalPokedexNumber": 4404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

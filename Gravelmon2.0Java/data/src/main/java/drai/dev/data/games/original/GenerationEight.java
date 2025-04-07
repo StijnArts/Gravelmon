@@ -53,10 +53,6 @@ public class GenerationEight extends Game {
         addNewPokemon(new IvrisianSinistea("", Aspect.IVRISIAN)); //TODO
         addNewPokemon(new IvrisianPerrserker("", Aspect.IVRISIAN));
 
-//        addNewPokemon(new MystisianImpidimp("", Aspect.MYSTISIAN)); TODO
-//        addNewPokemon(new MystisianMorgrem("", Aspect.MYSTISIAN));
-//        addNewPokemon(new MystisianGrimmsnarl("", Aspect.MYSTISIAN));
-
         registerSoulstonesVariants();
 
 //        addNewPokemon(new OttoranImpidimp("", Aspect.OTTORAN)); MEMBER OF LINE NOT FINISHED

@@ -131,7 +131,8 @@
         "tm:toxic",
         "tm:trickroom",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -263,7 +264,8 @@
         "tm:taunt",
         "tm:toxic",
         "tm:triattack",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -395,7 +397,8 @@
         "tm:triattack",
         "tm:wildcharge",
         "tm:willowisp",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -508,6 +511,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:irondefense",
         "tm:ironhead",
@@ -540,7 +544,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -638,7 +643,8 @@
         "39:powertrick",
         "42:ironhead",
         "50:bitterblade",
-        "20:swordsdance"
+        "20:swordsdance",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",
@@ -783,7 +789,8 @@
         "tm:trickroom",
         "tm:dazzlinggleam",
         "tutor:flash",
-        "tutor:strength"
+        "tutor:strength",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

@@ -63,7 +63,29 @@
     "1:leafage",
     "1:powdersnow",
     "1:synthesis",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:growl",
+    "1:bulkup",
+    "1:calmmind",
+    "4:absorb",
+    "4:icywind",
+    "4:calmmind",
+    "4:taunt",
+    "7:trailblaze",
+    "7:icepunch",
+    "7:taunt",
+    "7:substitute",
+    "10:gigadrain",
+    "10:icespinner",
+    "10:substitute",
+    "10:rest",
+    "13:seedbomb",
+    "13:iceshard",
+    "13:rest",
+    "16:leafblade",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -93,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2901,
+  "nationalPokedexNumber": 2909,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

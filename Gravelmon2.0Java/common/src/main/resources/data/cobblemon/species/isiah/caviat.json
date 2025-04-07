@@ -73,7 +73,8 @@
     "28:suckerpunch",
     "31:swagger",
     "33:superfang",
-    "36:doubleedge"
+    "36:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

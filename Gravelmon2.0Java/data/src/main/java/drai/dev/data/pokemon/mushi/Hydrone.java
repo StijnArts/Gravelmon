@@ -66,7 +66,7 @@ public class Hydrone extends drai.dev.data.pokemon.Pokemon {
                         98,
                         101),
                 List.of(Ability.COMPOUND_EYES,Ability.TORRENT), Ability.SPEED_BOOST,
-                0, 0,
+                14, 0,
                 new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
@@ -77,9 +77,15 @@ public class Hydrone extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SURFACE)
+                    .setBiomes(Biome.IS_FRESHWATER).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanWalkOnWater(true);
+        setCanFly(true);
            setLangFileName("Hydrone");
 
     }

@@ -153,7 +153,8 @@
     "tm:psywave",
     "tm:triattack",
     "tm:substitute",
-    "tm:flash"
+    "tm:flash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1948,
+  "nationalPokedexNumber": 1951,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

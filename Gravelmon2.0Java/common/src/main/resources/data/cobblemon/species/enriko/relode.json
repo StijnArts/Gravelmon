@@ -77,7 +77,8 @@
     "38:zenheadbutt",
     "42:flashcannon",
     "54:meteormash",
-    "61:workup"
+    "61:workup",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1720,
+  "nationalPokedexNumber": 1723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

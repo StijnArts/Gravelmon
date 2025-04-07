@@ -69,7 +69,8 @@
     "1:twister",
     "1:outrage",
     "1:flail",
-    "1:switcheroo"
+    "1:switcheroo",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3884,
+  "nationalPokedexNumber": 3892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

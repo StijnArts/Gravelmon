@@ -76,7 +76,8 @@
     "45:thunderbolt",
     "51:psyshock",
     "tm:flash",
-    "tm:recover"
+    "tm:recover",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2968,
+  "nationalPokedexNumber": 2976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

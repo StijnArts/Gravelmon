@@ -63,7 +63,23 @@
     "1:strugglebug",
     "1:bite",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:leechlife",
+    "10:payback",
+    "10:swordsdance",
+    "15:lunge",
+    "15:nightslash",
+    "20:xscissor",
+    "20:crunch",
+    "25:uturn",
+    "25:knockoff",
+    "30:megahorn",
+    "30:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -76,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4809,
+  "nationalPokedexNumber": 4817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

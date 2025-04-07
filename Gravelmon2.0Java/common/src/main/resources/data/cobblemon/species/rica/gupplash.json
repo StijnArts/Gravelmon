@@ -105,7 +105,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
-    "tm:allyswitch"
+    "tm:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

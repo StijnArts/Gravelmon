@@ -123,7 +123,8 @@
     "tm:hypervoice",
     "tm:bellydrum",
     "tm:revenge",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1537,
+  "nationalPokedexNumber": 1540,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

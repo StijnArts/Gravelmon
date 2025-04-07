@@ -129,7 +129,8 @@
         "tm:uturn",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -292,7 +293,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -424,7 +426,8 @@
         "tm:calmmind",
         "tm:energyball",
         "tm:playrough",
-        "tm:dazzlinggleam"
+        "tm:dazzlinggleam",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

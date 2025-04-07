@@ -110,7 +110,8 @@
     "egg:scald",
     "egg:spite",
     "egg:splash",
-    "egg:torment"
+    "egg:torment",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -125,7 +126,7 @@
   "weight": 245,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4610,
+  "nationalPokedexNumber": 4618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

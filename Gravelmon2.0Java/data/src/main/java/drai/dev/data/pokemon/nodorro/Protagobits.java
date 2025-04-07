@@ -17,7 +17,7 @@ public class Protagobits extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.CURSED_BODY), Ability.SHADOW_TAG,
                 6, 607,
-                new Stats(1,0,1,0,1,0), 0,
+                new Stats(1,0,1,0,1,0), 50,
                 0.5,
                 154, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -43,7 +43,11 @@ public class Protagobits extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,60)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Protagobits");

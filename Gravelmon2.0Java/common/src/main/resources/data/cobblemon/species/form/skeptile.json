@@ -64,7 +64,22 @@
     "1:lowkick",
     "1:lick",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:revenge",
+    "4:confuseray",
+    "7:lowsweep",
+    "7:hex",
+    "10:brickbreak",
+    "10:shadowclaw",
+    "13:karatechop",
+    "13:phantomforce",
+    "16:closecombat",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3820,
+  "nationalPokedexNumber": 3828,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

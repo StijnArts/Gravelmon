@@ -94,7 +94,8 @@
     "tm:raindance",
     "tm:scald",
     "tm:surf",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -107,7 +108,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4695,
+  "nationalPokedexNumber": 4703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

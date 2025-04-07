@@ -141,7 +141,8 @@
     "tm:switcheroo",
     "tm:covet",
     "tm:slash",
-    "tm:astonish"
+    "tm:astonish",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4964,
+  "nationalPokedexNumber": 4972,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

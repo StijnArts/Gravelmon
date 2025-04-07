@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:ember"
+        "1:ember",
+        "1:tailwhip",
+        "1:growl",
+        "4:bubblebeam",
+        "4:firespin",
+        "7:brine",
+        "7:flamecharge",
+        "10:surf",
+        "10:flameburst",
+        "13:chillingwater",
+        "13:flamethrower",
+        "16:hydropump",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -222,7 +235,8 @@
         "tm:mudshot",
         "tm:rockblast",
         "tm:aquaring",
-        "tm:avalanche"
+        "tm:avalanche",
+        "tm:terablast"
       ],
       "labels": [
         "nosto",

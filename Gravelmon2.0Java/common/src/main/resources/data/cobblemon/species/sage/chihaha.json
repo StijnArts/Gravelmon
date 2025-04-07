@@ -144,7 +144,8 @@
     "egg:lick",
     "egg:memento",
     "egg:psywave",
-    "egg:pursuit"
+    "egg:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

@@ -77,7 +77,8 @@
     "38:crunch",
     "41:iciclecrash",
     "46:doubleedge",
-    "50:megahorn"
+    "50:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3022,
+  "nationalPokedexNumber": 3030,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

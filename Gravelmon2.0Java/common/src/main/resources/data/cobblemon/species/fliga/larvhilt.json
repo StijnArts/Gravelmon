@@ -75,7 +75,8 @@
     "46:screech",
     "49:uturn",
     "54:airslash",
-    "57:bugbuzz"
+    "57:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3930,
+  "nationalPokedexNumber": 3938,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

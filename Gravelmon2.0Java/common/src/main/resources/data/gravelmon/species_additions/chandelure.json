@@ -66,7 +66,22 @@
         "1:lick",
         "1:thundershock",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:confuseray",
+        "4:charge",
+        "7:ominouswind",
+        "7:shockwave",
+        "10:nightshade",
+        "10:discharge",
+        "13:hex",
+        "13:thunderbolt",
+        "16:shadowball",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -208,7 +223,8 @@
         "tm:trickroom",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -295,7 +311,20 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:absorb"
+        "1:absorb",
+        "1:growl",
+        "1:leer",
+        "3:firespin",
+        "3:megadrain",
+        "6:flamecharge",
+        "6:magicalleaf",
+        "9:flameburst",
+        "9:gigadrain",
+        "12:flamethrower",
+        "12:energyball",
+        "15:fireblast",
+        "15:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",
@@ -453,7 +482,8 @@
         "tutor:swift",
         "tutor:trick",
         "tutor:wish",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

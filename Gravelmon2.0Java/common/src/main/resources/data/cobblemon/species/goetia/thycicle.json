@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:growl",
+    "10:icywind",
+    "15:icepunch",
+    "20:icespinner",
+    "25:iceshard",
+    "30:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -90,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6044,
+  "nationalPokedexNumber": 6052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

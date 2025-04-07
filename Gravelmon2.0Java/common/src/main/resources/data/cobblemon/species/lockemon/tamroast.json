@@ -91,7 +91,8 @@
     "egg:nastyplot",
     "egg:roleplay",
     "egg:sleeptalk",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -104,7 +105,7 @@
   "weight": 231,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3408,
+  "nationalPokedexNumber": 3416,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

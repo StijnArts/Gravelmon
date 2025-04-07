@@ -74,7 +74,8 @@
     "39:iciclecrash",
     "46:safeguard",
     "54:superpower",
-    "61:waterspout"
+    "61:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4269,
+  "nationalPokedexNumber": 4277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

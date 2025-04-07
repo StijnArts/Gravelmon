@@ -147,7 +147,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -256,7 +257,8 @@
         "11:howl",
         "34:sleeppowder",
         "61:woodhammer",
-        "1:switcheroo"
+        "1:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -413,7 +415,8 @@
         "tm:trick",
         "tm:weatherball",
         "tm:wonderroom",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

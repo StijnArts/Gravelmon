@@ -91,7 +91,8 @@
     "tm:gunkshot",
     "tm:liquidation",
     "tm:superfang",
-    "tm:grassyglide"
+    "tm:grassyglide",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1568,
+  "nationalPokedexNumber": 1571,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

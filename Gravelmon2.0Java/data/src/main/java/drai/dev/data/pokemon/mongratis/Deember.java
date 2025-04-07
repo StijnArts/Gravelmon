@@ -11,7 +11,7 @@ public class Deember extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE, Type.LIGHT,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 148, ExperienceGroup.MEDIUM_SLOW,
@@ -22,9 +22,14 @@ public class Deember extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Deember");
 
     }

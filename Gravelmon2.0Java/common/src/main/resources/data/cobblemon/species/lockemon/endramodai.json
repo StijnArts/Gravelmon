@@ -138,7 +138,8 @@
     "egg:recover",
     "egg:playrough",
     "egg:triattack",
-    "egg:powergem"
+    "egg:powergem",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -151,7 +152,7 @@
   "weight": 8880,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3450,
+  "nationalPokedexNumber": 3458,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -117,7 +117,8 @@
     "egg:snatch",
     "egg:supersonic",
     "egg:weatherball",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4494,
+  "nationalPokedexNumber": 4502,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

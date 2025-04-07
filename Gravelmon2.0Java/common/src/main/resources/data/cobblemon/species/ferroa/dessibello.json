@@ -146,7 +146,8 @@
     "tm:gastroacid",
     "tm:watersport",
     "tm:flail",
-    "tm:psychup"
+    "tm:psychup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -161,7 +162,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1506,
+  "nationalPokedexNumber": 1509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

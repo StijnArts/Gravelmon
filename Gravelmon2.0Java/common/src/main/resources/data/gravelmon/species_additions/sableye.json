@@ -80,7 +80,34 @@
       "drops": {},
       "moves": [
         "1:rockthrow",
-        "1:bite"
+        "1:bite",
+        "1:defensecurl",
+        "1:leer",
+        "4:rollout",
+        "4:payback",
+        "7:ancientpower",
+        "7:nightdaze",
+        "10:powergem",
+        "10:snarl",
+        "13:stealthrock",
+        "13:knockoff",
+        "16:meteorbeam",
+        "16:darkpulse",
+        "19:rockthrow",
+        "19:bite",
+        "22:defensecurl",
+        "22:leer",
+        "25:rollout",
+        "25:payback",
+        "28:smackdown",
+        "28:nightslash",
+        "31:rockblast",
+        "31:crunch",
+        "34:stealthrock",
+        "34:knockoff",
+        "39:stoneedge",
+        "39:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -246,7 +273,8 @@
         "egg:flamethrower",
         "egg:burnup",
         "egg:followme",
-        "egg:powertrip"
+        "egg:powertrip",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -411,7 +439,8 @@
         "egg:cheapshot",
         "egg:torment",
         "egg:embargo",
-        "egg:octazooka"
+        "egg:octazooka",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -565,7 +594,8 @@
         "tm:toxic",
         "tm:calmmind",
         "tm:dreameater",
-        "tm:rest"
+        "tm:rest",
+        "tm:terablast"
       ],
       "labels": [
         "enjin",
@@ -772,7 +802,8 @@
         "tutor:spite",
         "tutor:stealthrock",
         "tutor:trick",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -883,7 +914,8 @@
         "egg:nastyplot",
         "egg:recover",
         "egg:suckerpunch",
-        "egg:trick"
+        "egg:trick",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

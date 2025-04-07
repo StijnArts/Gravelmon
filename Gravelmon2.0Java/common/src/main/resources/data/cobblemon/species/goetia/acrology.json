@@ -63,7 +63,22 @@
     "1:strugglebug",
     "1:confusion",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:growl",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:silverwind",
+    "10:psybeam",
+    "15:signalbeam",
+    "15:futuresight",
+    "20:infestation",
+    "20:psychic",
+    "25:uturn",
+    "25:psyshock",
+    "30:bugbuzz",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5860,
+  "nationalPokedexNumber": 5868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

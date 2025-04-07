@@ -141,7 +141,8 @@
     "egg:brine",
     "egg:honeclaws",
     "egg:knockoff",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "sage",
@@ -330,7 +331,8 @@
         "egg:brine",
         "egg:honeclaws",
         "egg:knockoff",
-        "egg:waterpulse"
+        "egg:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "sage",

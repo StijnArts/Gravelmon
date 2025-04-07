@@ -70,6 +70,34 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "dunsparce_dunymph",
+      "variant": "level_up",
+      "result": "dunymph",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "33"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "dunsparce_dubsparce",
+      "variant": "level_up",
+      "result": "dubsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "39"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -138,7 +166,28 @@
         "1:watergun",
         "1:scratch",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:tailwhip",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:bubblebeam",
+        "4:twister",
+        "4:taunt",
+        "4:taunt",
+        "7:brine",
+        "7:dragonbreath",
+        "7:substitute",
+        "7:substitute",
+        "10:surf",
+        "10:breakingswipe",
+        "10:rest",
+        "10:rest",
+        "13:chillingwater",
+        "13:dragonpulse",
+        "16:hydropump",
+        "16:dracometeor",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -294,7 +343,8 @@
         "egg:bugbite",
         "egg:crosspoison",
         "egg:poisontail",
-        "egg:infestation"
+        "egg:infestation",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -486,7 +536,8 @@
         "tutor:stringshot",
         "tutor:superfang",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -606,7 +657,8 @@
         "33:thunderbolt",
         "37:screech",
         "42:thunder",
-        "46:zapcannon"
+        "46:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

@@ -157,7 +157,8 @@
         "egg:darkpulse",
         "egg:submission",
         "egg:poisonjab",
-        "egg:poisonfang"
+        "egg:poisonfang",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -267,7 +268,8 @@
         "47:snowscape",
         "54:weatherball",
         "61:crunch",
-        "68:blizzard"
+        "68:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

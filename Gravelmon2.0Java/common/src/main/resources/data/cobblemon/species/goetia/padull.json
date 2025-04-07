@@ -63,7 +63,29 @@
     "1:watergun",
     "1:tackle",
     "1:bulkup",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "1:tailwhip",
+    "1:growl",
+    "1:calmmind",
+    "1:bulkup",
+    "10:bubblebeam",
+    "10:quickattack",
+    "10:taunt",
+    "10:calmmind",
+    "15:aquatail",
+    "15:bite",
+    "15:substitute",
+    "15:taunt",
+    "20:surf",
+    "20:takedown",
+    "20:rest",
+    "20:substitute",
+    "25:waterfall",
+    "25:crunch",
+    "25:rest",
+    "30:liquidation",
+    "30:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5913,
+  "nationalPokedexNumber": 5921,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -138,7 +138,8 @@
         "egg:sandtomb",
         "egg:gyroball",
         "egg:metalburst",
-        "egg:selfdestruct"
+        "egg:selfdestruct",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

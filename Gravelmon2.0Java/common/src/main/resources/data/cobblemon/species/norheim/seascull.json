@@ -73,7 +73,8 @@
     "36:defog",
     "40:dragonpulse",
     "43:sludgebomb",
-    "47:outrage"
+    "47:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3165,
+  "nationalPokedexNumber": 3173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

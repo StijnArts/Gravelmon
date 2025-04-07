@@ -117,7 +117,8 @@
         "tm:toxic",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -218,7 +219,8 @@
         "41:crunch",
         "46:lastresort",
         "50:playrough",
-        "57:phantomforce"
+        "57:phantomforce",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",
@@ -370,7 +372,8 @@
         "tm:thief",
         "tm:toxic",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

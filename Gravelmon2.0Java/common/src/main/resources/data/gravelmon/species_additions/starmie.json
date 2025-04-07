@@ -142,7 +142,8 @@
         "tm:triattack",
         "tm:voltswitch",
         "tm:wildcharge",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -231,7 +232,22 @@
         "1:metalclaw",
         "1:ember",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:screech",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:irontail",
+        "10:firespin",
+        "15:smartstrike",
+        "15:flamecharge",
+        "20:mirrorshot",
+        "20:flameburst",
+        "25:flashcannon",
+        "25:flamethrower",
+        "30:steelbeam",
+        "30:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",

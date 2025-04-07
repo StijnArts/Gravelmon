@@ -43,7 +43,7 @@ public class Hollotite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

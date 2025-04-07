@@ -66,7 +66,8 @@
     "5:sleeppowder",
     "8:smog",
     "13:poisongas",
-    "19:megadrain"
+    "19:megadrain",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4319,
+  "nationalPokedexNumber": 4327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

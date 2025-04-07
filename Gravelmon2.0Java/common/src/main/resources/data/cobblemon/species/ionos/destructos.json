@@ -92,7 +92,8 @@
     "tm:bellydrum",
     "tm:grudge",
     "tm:woodhammer",
-    "tm:icehammer"
+    "tm:icehammer",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -107,7 +108,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4819,
+  "nationalPokedexNumber": 4827,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

@@ -73,7 +73,8 @@
     "38:screech",
     "44:amnesia",
     "50:discharge",
-    "56:thunder"
+    "56:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

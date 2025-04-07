@@ -161,7 +161,8 @@
     "tm:watersport",
     "tm:magicroom",
     "tm:purify",
-    "tm:minimize"
+    "tm:minimize",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4947,
+  "nationalPokedexNumber": 4955,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

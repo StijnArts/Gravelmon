@@ -16,8 +16,8 @@ public class Egoelk extends drai.dev.data.pokemon.Pokemon {
                         65,
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,1,0,2,0,0), 0,
+                19, 0,
+                new Stats(0,1,0,2,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -36,9 +36,15 @@ public class Egoelk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ME_FIRST,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(30).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TUNDRA, Biome.IS_SNOWY_FOREST).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        addAdditionalEvolution("stantler", new EvolutionEntry("egoelk", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CALM_MIND.getName()))));
            setLangFileName("Egoelk");
 
     }

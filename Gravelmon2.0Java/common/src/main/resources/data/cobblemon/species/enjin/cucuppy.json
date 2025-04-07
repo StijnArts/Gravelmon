@@ -61,6 +61,17 @@
   "moves": [
     "1:leafage",
     "1:synthesis",
+    "1:leer",
+    "1:bulkup",
+    "10:absorb",
+    "10:calmmind",
+    "15:trailblaze",
+    "15:taunt",
+    "20:gigadrain",
+    "20:substitute",
+    "25:seedbomb",
+    "25:rest",
+    "30:leafblade",
     "tm:grassyglide",
     "tm:helpinghand",
     "tm:snore",
@@ -79,7 +90,8 @@
     "tm:sleeptalk",
     "tm:substitute",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -92,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4684,
+  "nationalPokedexNumber": 4692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

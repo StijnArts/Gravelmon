@@ -114,7 +114,8 @@
     "tm:sunnyday",
     "tm:snowscape",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5124,
+  "nationalPokedexNumber": 5132,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

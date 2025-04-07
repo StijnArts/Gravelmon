@@ -116,7 +116,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:flashcannon",
-    "tm:gyroball"
+    "tm:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3511,
+  "nationalPokedexNumber": 3519,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

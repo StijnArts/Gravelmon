@@ -75,7 +75,8 @@
     "40:dragonpulse",
     "45:hydropump",
     "50:dragondance",
-    "55:raindance"
+    "55:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2400,
+  "nationalPokedexNumber": 2408,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -72,7 +72,8 @@
     "40:psychic",
     "45:calmmind",
     "50:futuresight",
-    "55:simplebeam"
+    "55:simplebeam",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5222,
+  "nationalPokedexNumber": 5230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

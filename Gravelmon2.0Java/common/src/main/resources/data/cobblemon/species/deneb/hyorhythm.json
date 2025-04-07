@@ -68,6 +68,7 @@
     "8:gust",
     "13:defog",
     "16:aircutter",
+    "18:hairpinturn",
     "21:whirlwind",
     "27:aerialace",
     "31:airslash",
@@ -86,17 +87,20 @@
     "tutor:synchronoise",
     "tm:frustration",
     "tm:recycle",
+    "tm:glorywing",
     "tm:fly",
     "egg:morningsun",
     "egg:pursuit",
     "egg:mirrormove",
+    "egg:warble",
     "egg:swift",
     "egg:peck",
     "egg:wingattack",
     "egg:growl",
     "egg:wish",
     "egg:foresight",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4603,
+  "nationalPokedexNumber": 4611,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

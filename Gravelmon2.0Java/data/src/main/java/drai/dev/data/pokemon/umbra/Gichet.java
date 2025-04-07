@@ -69,7 +69,7 @@ public class Gichet extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),

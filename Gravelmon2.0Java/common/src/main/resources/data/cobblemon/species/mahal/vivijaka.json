@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:thundershock"
+    "1:thundershock",
+    "1:babydolleyes",
+    "1:leer",
+    "4:drainingkiss",
+    "4:charge",
+    "7:playnice",
+    "7:shockwave",
+    "10:dazzlinggleam",
+    "10:discharge",
+    "13:hypervoice",
+    "13:thunderbolt",
+    "16:moonblast",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5608,
+  "nationalPokedexNumber": 5616,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

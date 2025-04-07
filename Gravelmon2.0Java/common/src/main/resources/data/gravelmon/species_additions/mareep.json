@@ -62,7 +62,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:poisonsting"
+        "1:poisonsting",
+        "1:leer",
+        "4:venoshock",
+        "7:poisontail",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -237,7 +244,8 @@
         "egg:captivate",
         "egg:bounce",
         "egg:cottonguard",
-        "egg:attract"
+        "egg:attract",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -392,7 +400,8 @@
         "tm:charge",
         "tm:odorsleuth",
         "tm:eerieimpulse",
-        "tm:electricterrain"
+        "tm:electricterrain",
+        "tm:terablast"
       ],
       "labels": [
         "aristos",

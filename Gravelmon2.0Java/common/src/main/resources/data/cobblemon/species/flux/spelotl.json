@@ -79,7 +79,8 @@
     "egg:soak",
     "egg:haze",
     "egg:switcheroo",
-    "egg:curse"
+    "egg:curse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2128,
+  "nationalPokedexNumber": 2131,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

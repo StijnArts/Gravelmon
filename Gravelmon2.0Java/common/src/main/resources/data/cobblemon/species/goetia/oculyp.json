@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:thundershock"
+    "1:thundershock",
+    "1:growl",
+    "1:leer",
+    "10:psybeam",
+    "10:charge",
+    "15:futuresight",
+    "15:shockwave",
+    "20:psychic",
+    "20:discharge",
+    "25:psyshock",
+    "25:thunderbolt",
+    "30:psychoboost",
+    "30:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6048,
+  "nationalPokedexNumber": 6056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

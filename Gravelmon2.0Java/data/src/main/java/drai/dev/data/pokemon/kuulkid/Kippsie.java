@@ -39,7 +39,6 @@ public class Kippsie extends drai.dev.data.pokemon.Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setCanFly(true);
-        GravelmonMoveSubstitution.registerMoveInsertion("kippsie", new MoveLearnSetEntry(Move.FLY, 28));
            setLangFileName("Kippsie");
 
     }

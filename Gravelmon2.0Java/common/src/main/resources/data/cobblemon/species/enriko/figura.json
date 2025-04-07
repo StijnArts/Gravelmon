@@ -69,7 +69,8 @@
     "30:psybeam",
     "34:calmmind",
     "38:simplebeam",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1663,
+  "nationalPokedexNumber": 1666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -75,7 +75,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:poisonjab",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5225,
+  "nationalPokedexNumber": 5233,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

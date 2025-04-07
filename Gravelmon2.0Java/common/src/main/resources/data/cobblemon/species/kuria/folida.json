@@ -74,7 +74,8 @@
     "39:headcharge",
     "44:spikyshield",
     "47:zenheadbutt",
-    "52:woodhammer"
+    "52:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4184,
+  "nationalPokedexNumber": 4192,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

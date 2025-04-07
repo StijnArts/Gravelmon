@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:payback",
+        "4:drainingkiss",
+        "7:nightslash",
+        "7:playnice",
+        "10:crunch",
+        "10:dazzlinggleam",
+        "13:knockoff",
+        "13:playrough",
+        "16:suckerpunch",
+        "16:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -188,6 +201,7 @@
         "tm:gammaray",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -230,7 +244,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -384,7 +399,8 @@
         "tm:surf",
         "tm:strength",
         "tm:rocksmash",
-        "tm:rockclimb"
+        "tm:rockclimb",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

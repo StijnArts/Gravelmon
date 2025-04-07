@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:thundershock"
+    "1:thundershock",
+    "1:growl",
+    "1:leer",
+    "4:round",
+    "4:charge",
+    "7:swift",
+    "7:shockwave",
+    "10:uproar",
+    "10:discharge",
+    "13:hypervoice",
+    "13:thunderbolt",
+    "16:hyperbeam",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2701,
+  "nationalPokedexNumber": 2709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

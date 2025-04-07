@@ -137,7 +137,8 @@
     "egg:snatch",
     "egg:aircutter",
     "egg:acrobatics",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

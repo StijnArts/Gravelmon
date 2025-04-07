@@ -98,7 +98,8 @@
     "tm:swift",
     "tm:venoshock",
     "tm:waterfall",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2276,
+  "nationalPokedexNumber": 2284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

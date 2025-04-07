@@ -110,7 +110,8 @@
         "egg:bugbite",
         "egg:firstimpression",
         "egg:infestation",
-        "egg:crosspoison"
+        "egg:crosspoison",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -272,7 +273,8 @@
         "tm:silverwind",
         "tm:nightslash",
         "tm:bugbuzz",
-        "tm:finalgambit"
+        "tm:finalgambit",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",

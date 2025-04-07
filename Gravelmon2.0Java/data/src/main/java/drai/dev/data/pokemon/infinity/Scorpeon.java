@@ -108,13 +108,13 @@ public class Scorpeon extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.27, 0.3,
                 List.of());
+        addAdditionalEvolution("eevee", new EvolutionEntry("scorpeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.VENOM_SWIPE, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:poison_barb"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
 
         
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
-        addAdditionalEvolution("eevee", new EvolutionEntry("scorpeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.VENOM_SWIPE, "")),
-                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:poison_barb"),
-                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
         getSpeciesFileData().addBasicVariation(this);
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));

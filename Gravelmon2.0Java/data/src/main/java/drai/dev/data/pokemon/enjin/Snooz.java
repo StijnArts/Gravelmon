@@ -71,7 +71,7 @@ public class Snooz extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

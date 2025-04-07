@@ -88,7 +88,8 @@
     "egg:feint",
     "egg:screech",
     "egg:yawn",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -103,7 +104,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2118,
+  "nationalPokedexNumber": 2121,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

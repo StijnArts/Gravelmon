@@ -81,7 +81,8 @@
     "tm:luckychant",
     "tm:telekinesis",
     "tm:synchronoise",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3947,
+  "nationalPokedexNumber": 3955,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

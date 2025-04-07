@@ -61,7 +61,27 @@
   "moves": [
     "1:strugglebug",
     "1:pollenpuff",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:healbell",
+    "1:nastyplot",
+    "4:silverwind",
+    "4:wish",
+    "4:uturn",
+    "7:signalbeam",
+    "7:quickattack",
+    "10:infestation",
+    "10:swordsdance",
+    "13:uturn",
+    "16:bugbuzz",
+    "19:strugglebug",
+    "22:stringshot",
+    "25:leechlife",
+    "28:lunge",
+    "31:xscissor",
+    "34:uturn",
+    "39:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2572,
+  "nationalPokedexNumber": 2580,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -70,7 +70,8 @@
     "37:curse",
     "40:heatcrash",
     "47:toxicspikes",
-    "54:gunkshot"
+    "54:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1632,
+  "nationalPokedexNumber": 1635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

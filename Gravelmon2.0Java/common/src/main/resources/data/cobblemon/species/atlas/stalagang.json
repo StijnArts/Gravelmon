@@ -132,7 +132,8 @@
     "tm:trickroom",
     "tm:iciclespear",
     "tm:rockblast",
-    "tm:suckerpunch"
+    "tm:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5122,
+  "nationalPokedexNumber": 5130,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

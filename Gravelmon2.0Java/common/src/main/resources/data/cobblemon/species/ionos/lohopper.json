@@ -72,7 +72,8 @@
     "37:bugbuzz",
     "44:gyroball",
     "53:detect",
-    "57:superpower"
+    "57:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4725,
+  "nationalPokedexNumber": 4733,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

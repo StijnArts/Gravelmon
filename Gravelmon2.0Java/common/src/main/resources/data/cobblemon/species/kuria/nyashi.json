@@ -74,7 +74,8 @@
     "39:torment",
     "45:curse",
     "50:shadowball",
-    "53:bonemerang"
+    "53:bonemerang",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4164,
+  "nationalPokedexNumber": 4172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

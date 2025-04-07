@@ -18,8 +18,32 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "porygon_porygona",
+      "variant": "level_up",
+      "result": "porygona",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dubious_disc"
+        }
+      ],
+      "permanent": true
     }
   ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dubious_disc",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "forms": [
     {
       "name": "Epoch",
@@ -163,7 +187,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:wonderroom",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -348,7 +373,8 @@
         "tm:psywave",
         "tm:triattack",
         "tm:substitute",
-        "tm:flash"
+        "tm:flash",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

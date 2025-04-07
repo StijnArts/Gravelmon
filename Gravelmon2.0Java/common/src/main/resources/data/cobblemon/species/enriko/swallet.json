@@ -69,7 +69,8 @@
     "32:metalburst",
     "35:crunch",
     "38:ominouswind",
-    "45:darkpulse"
+    "45:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1685,
+  "nationalPokedexNumber": 1688,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

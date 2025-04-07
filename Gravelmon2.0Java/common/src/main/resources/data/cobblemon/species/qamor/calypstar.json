@@ -75,7 +75,8 @@
     "53:muddywater",
     "58:mefirst",
     "60:shellsmash",
-    "63:fissure"
+    "63:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4001,
+  "nationalPokedexNumber": 4009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

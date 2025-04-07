@@ -61,7 +61,27 @@
   "moves": [
     "1:strugglebug",
     "1:bulkup",
-    "1:pollenpuff"
+    "1:pollenpuff",
+    "1:stringshot",
+    "1:calmmind",
+    "1:healbell",
+    "4:silverwind",
+    "4:taunt",
+    "4:wish",
+    "7:signalbeam",
+    "7:substitute",
+    "10:infestation",
+    "10:rest",
+    "13:uturn",
+    "16:bugbuzz",
+    "19:strugglebug",
+    "22:stringshot",
+    "25:leechlife",
+    "28:lunge",
+    "31:xscissor",
+    "34:uturn",
+    "39:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -137,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2635,
+  "nationalPokedexNumber": 2643,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

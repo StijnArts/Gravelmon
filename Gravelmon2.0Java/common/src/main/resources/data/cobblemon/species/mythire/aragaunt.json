@@ -126,7 +126,8 @@
     "tm:furyswipes",
     "tm:grudge",
     "tm:bounce",
-    "tm:psychocut"
+    "tm:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3903,
+  "nationalPokedexNumber": 3911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -128,7 +128,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:weatherball",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -280,7 +281,8 @@
         "tutor:secretpower",
         "tutor:snatch",
         "tutor:snore",
-        "tutor:spite"
+        "tutor:spite",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -403,7 +405,8 @@
         "33:spikes",
         "38:geosplinter",
         "44:stonesurge",
-        "51:irondefense"
+        "51:irondefense",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

@@ -72,7 +72,8 @@
     "33:teeterdance",
     "37:echoedvoice",
     "41:irontail",
-    "45:hypervoice"
+    "45:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1404,
+  "nationalPokedexNumber": 1407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

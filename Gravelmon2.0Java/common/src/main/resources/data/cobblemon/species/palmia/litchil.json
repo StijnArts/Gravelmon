@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:psybeam",
+    "4:confuseray",
+    "7:futuresight",
+    "7:ominouswind",
+    "10:psychic",
+    "10:nightshade",
+    "13:psyshock",
+    "13:hex",
+    "16:psychoboost",
+    "16:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2650,
+  "nationalPokedexNumber": 2658,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

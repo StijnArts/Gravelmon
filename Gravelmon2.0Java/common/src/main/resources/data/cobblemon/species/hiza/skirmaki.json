@@ -76,7 +76,8 @@
     "34:teeterdance",
     "39:echoedvoice",
     "42:irontail",
-    "46:hypervoice"
+    "46:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2267,
+  "nationalPokedexNumber": 2275,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

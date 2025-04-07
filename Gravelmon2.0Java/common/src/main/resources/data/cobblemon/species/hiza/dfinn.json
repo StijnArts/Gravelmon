@@ -71,7 +71,8 @@
     "32:heavyslam",
     "36:irondefense",
     "40:metalsound",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2326,
+  "nationalPokedexNumber": 2334,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

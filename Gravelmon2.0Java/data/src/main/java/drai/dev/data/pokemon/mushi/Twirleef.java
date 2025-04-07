@@ -16,14 +16,15 @@ public class Twirleef extends drai.dev.data.pokemon.Pokemon {
                         55,
                         89),
                 List.of(Ability.OVERGROW), Ability.RIPEN,
-                0, 0,
+                8, 0,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("- AbsorbSTAB Grass - Sludge Poison - Scratch Normal 7 Leech Seed Grass 13 Mega DrainSTAB Grass 18 Double Kick Fighting 24 Hex Ghost 28 Toxic Poison 38 Seed BombSTAB Grass 42 Sludge Bomb Poison 46 Leaf StormSTAB Grass"),
-                List.of(),
+                List.of(new EvolutionEntry("pestrina", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -38,7 +39,11 @@ public class Twirleef extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,46)                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Twirleef");

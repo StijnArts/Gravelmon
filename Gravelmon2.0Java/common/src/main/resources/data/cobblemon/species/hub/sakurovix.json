@@ -138,7 +138,8 @@
     "tm:workup",
     "tm:doubleedge",
     "tm:uturn",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1399,
+  "nationalPokedexNumber": 1402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -122,7 +122,8 @@
     "egg:psybeam",
     "egg:destinybond",
     "egg:painsplit",
-    "egg:willowisp"
+    "egg:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -137,7 +138,7 @@
   "weight": 993,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 1988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

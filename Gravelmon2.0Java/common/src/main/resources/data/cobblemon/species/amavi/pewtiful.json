@@ -74,7 +74,8 @@
     "36:gastroacid",
     "41:belch",
     "44:painsplit",
-    "49:gunkshot"
+    "49:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5229,
+  "nationalPokedexNumber": 5237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

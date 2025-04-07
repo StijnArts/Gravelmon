@@ -107,7 +107,8 @@
     "tm:terablast",
     "tm:bugbite",
     "tm:lunge",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "gen2",
@@ -122,7 +123,7 @@
   "weight": 380,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3425,
+  "nationalPokedexNumber": 3433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

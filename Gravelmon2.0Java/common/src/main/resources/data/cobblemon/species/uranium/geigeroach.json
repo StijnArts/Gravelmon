@@ -144,7 +144,8 @@
     "egg:venoshock",
     "egg:wideguard",
     "egg:painsplit",
-    "egg:drainlife"
+    "egg:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -157,7 +158,7 @@
   "weight": 399,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2065,
+  "nationalPokedexNumber": 2068,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -77,7 +77,8 @@
     "41:uproar",
     "50:gunkshot",
     "egg:haze",
-    "egg:blizzard"
+    "egg:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2402,
+  "nationalPokedexNumber": 2410,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

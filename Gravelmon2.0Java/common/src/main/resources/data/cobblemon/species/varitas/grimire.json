@@ -114,6 +114,7 @@
     "tm:stoneedge",
     "tm:gigaimpact",
     "tm:hyperbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1942,
+  "nationalPokedexNumber": 1945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

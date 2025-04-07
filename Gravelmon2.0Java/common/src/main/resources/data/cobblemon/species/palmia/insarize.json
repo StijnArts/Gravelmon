@@ -69,7 +69,18 @@
   },
   "moves": [
     "1:strugglebug",
-    "1:bulkup"
+    "1:bulkup",
+    "1:stringshot",
+    "1:calmmind",
+    "4:leechlife",
+    "4:taunt",
+    "7:lunge",
+    "7:substitute",
+    "10:xscissor",
+    "10:rest",
+    "13:uturn",
+    "16:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -84,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

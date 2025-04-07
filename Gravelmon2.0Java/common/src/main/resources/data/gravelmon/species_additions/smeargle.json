@@ -78,7 +78,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:bite"
+        "1:bite",
+        "1:leer",
+        "4:payback",
+        "7:nightdaze",
+        "10:snarl",
+        "13:knockoff",
+        "16:darkpulse",
+        "19:bite",
+        "22:leer",
+        "25:payback",
+        "28:nightslash",
+        "31:crunch",
+        "34:knockoff",
+        "39:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -162,7 +176,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:confusion"
+        "1:confusion",
+        "1:growl",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
+        "19:confusion",
+        "22:growl",
+        "25:psybeam",
+        "28:futuresight",
+        "31:psychic",
+        "34:zenheadbutt",
+        "39:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "ivris",
@@ -248,7 +276,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:tackle"
+        "1:tackle",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:round",
+        "7:shockwave",
+        "7:swift",
+        "10:discharge",
+        "10:uproar",
+        "13:thunderbolt",
+        "13:hypervoice",
+        "16:thunder",
+        "16:hyperbeam",
+        "19:thundershock",
+        "19:tackle",
+        "22:leer",
+        "22:growl",
+        "25:charge",
+        "25:quickattack",
+        "28:thunderpunch",
+        "28:bite",
+        "31:discharge",
+        "31:takedown",
+        "34:wildcharge",
+        "34:crunch",
+        "39:supercellslam",
+        "39:doubleedge",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -400,6 +455,7 @@
         "tm:haze",
         "tm:healbell",
         "tm:heatwave",
+        "tm:heavensknuckle",
         "tm:hex",
         "tm:hiddenpower",
         "tm:highhorsepower",
@@ -516,7 +572,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -610,7 +667,8 @@
         "61:sketch",
         "71:sketch",
         "81:sketch",
-        "91:sketch"
+        "91:sketch",
+        "tm:terablast"
       ],
       "labels": [
         "hub",
@@ -736,7 +794,8 @@
         "tm:substitute",
         "tm:dazzlinggleam",
         "tutor:secretpower",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -842,7 +901,8 @@
         "61:sketch",
         "71:sketch",
         "81:sketch",
-        "91:sketch"
+        "91:sketch",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

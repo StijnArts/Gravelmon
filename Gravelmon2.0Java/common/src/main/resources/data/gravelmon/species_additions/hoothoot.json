@@ -18,6 +18,24 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "hoothoot_mikitariannoctowl",
+      "variant": "level_up",
+      "result": "mikitariannoctowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "20"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -84,7 +102,34 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:gust"
+        "1:gust",
+        "1:leer",
+        "1:leer",
+        "4:payback",
+        "4:aircutter",
+        "7:nightdaze",
+        "7:wingattack",
+        "10:snarl",
+        "10:airslash",
+        "13:knockoff",
+        "13:drillpeck",
+        "16:darkpulse",
+        "16:hurricane",
+        "19:bite",
+        "19:peck",
+        "22:leer",
+        "22:leer",
+        "25:payback",
+        "25:pluck",
+        "28:nightslash",
+        "28:wingattack",
+        "31:crunch",
+        "31:aerialace",
+        "34:knockoff",
+        "34:drillpeck",
+        "39:suckerpunch",
+        "39:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -172,7 +217,28 @@
         "1:confusion",
         "1:gust",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:psybeam",
+        "4:aircutter",
+        "4:taunt",
+        "4:taunt",
+        "7:futuresight",
+        "7:wingattack",
+        "7:substitute",
+        "7:substitute",
+        "10:psychic",
+        "10:airslash",
+        "10:rest",
+        "10:rest",
+        "13:psyshock",
+        "13:drillpeck",
+        "16:psychoboost",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -207,6 +273,129 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 255,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 52,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 9.600000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "owntempo",
+        "keeneye",
+        "h:unaware"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 30,
+        "defence": 40,
+        "special_attack": 52,
+        "special_defence": 30,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:astonish",
+        "5:peck",
+        "8:hypnosis",
+        "10:pursuit",
+        "11:haze",
+        "14:helpinghand",
+        "18:reflect",
+        "20:wingattack",
+        "25:roost",
+        "27:assurance",
+        "31:meanlook",
+        "36:airslash",
+        "45:lightscreen",
+        "48:taunt",
+        "tm:thunderwave",
+        "tm:nightmare",
+        "tm:batonpass",
+        "tm:featherdance",
+        "tm:suckerpunch",
+        "tm:shadowsneak",
+        "tm:allyswitch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranhoothoot.desc"
+      ],
+      "height": 8,
+      "weight": 210,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranhoothoot_noctowl_nodorran",
+          "variant": "level_up",
+          "result": "noctowl nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -337,7 +526,8 @@
         "egg:hurricane",
         "egg:icywind",
         "egg:relicsong",
-        "egg:mindreader"
+        "egg:mindreader",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -501,7 +691,8 @@
         "egg:whirlwind",
         "egg:featherdance",
         "egg:tailwind",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -679,7 +870,8 @@
         "tm:meanlook",
         "tm:supersonic",
         "tm:whirlwind",
-        "tm:agility"
+        "tm:agility",
+        "tm:terablast"
       ],
       "labels": [
         "enjin",
@@ -851,7 +1043,8 @@
         "egg:moonlight",
         "egg:skyattack",
         "egg:supersonic",
-        "egg:whirlwind"
+        "egg:whirlwind",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -1017,7 +1210,8 @@
         "tutor:skyattack",
         "tutor:snore",
         "tutor:tailwind",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -1059,6 +1253,7 @@
   "features": [
     "fabelian",
     "forman",
+    "nodorran",
     "epoch",
     "epochtwo",
     "enjinnian",

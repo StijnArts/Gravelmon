@@ -23,7 +23,8 @@ public class Sarqua extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("These small hunters hunt for small fish in the lagunes of the Nodorro region."),
-                List.of(),
+                List.of(new EvolutionEntry("Slifin", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CUT,1),
                         new MoveLearnSetEntry(Move.SPLASH,1),
@@ -53,9 +54,15 @@ public class Sarqua extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZEDRY,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.SUBMERGED)
+                    .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Sarqua");
 
     }

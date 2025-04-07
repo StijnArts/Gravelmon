@@ -63,7 +63,22 @@
     "1:rockthrow",
     "1:watergun",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:defensecurl",
+    "1:tailwhip",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:rollout",
+    "10:bubblebeam",
+    "15:ancientpower",
+    "15:brine",
+    "20:powergem",
+    "20:surf",
+    "25:stealthrock",
+    "25:chillingwater",
+    "30:meteorbeam",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4762,
+  "nationalPokedexNumber": 4770,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

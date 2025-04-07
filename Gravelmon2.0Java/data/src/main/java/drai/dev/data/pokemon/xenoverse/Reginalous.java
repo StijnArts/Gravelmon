@@ -60,7 +60,7 @@ public class Reginalous extends Pokemon {
                         new MoveLearnSetEntry(Move.TRICK,"tutor")
                         ),
                 List.of(Label.XENOVERSE),
-                6, List.of(
+                9, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 75, 85, 0.0001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),

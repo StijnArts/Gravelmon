@@ -132,7 +132,8 @@
         "tm:toxicspikes",
         "tm:uturn",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -292,7 +293,8 @@
         "tm:wonderroom",
         "tm:flamethrower",
         "tm:fireblast",
-        "tm:overheat"
+        "tm:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

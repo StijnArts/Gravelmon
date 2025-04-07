@@ -123,7 +123,8 @@
     "egg:razorshell",
     "egg:aquaring",
     "egg:scald",
-    "egg:honeclaws"
+    "egg:honeclaws",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2038,
+  "nationalPokedexNumber": 2041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

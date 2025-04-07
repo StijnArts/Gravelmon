@@ -75,7 +75,8 @@
     "27:fling",
     "30:flail",
     "33:bellydrum",
-    "36:doubleedge"
+    "36:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1411,
+  "nationalPokedexNumber": 1414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

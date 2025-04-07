@@ -142,7 +142,8 @@
         "egg:speedswap",
         "egg:guardswap",
         "egg:moonblast",
-        "egg:meditate"
+        "egg:meditate",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -242,7 +243,34 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:ember"
+        "1:ember",
+        "1:growl",
+        "1:growl",
+        "4:confuseray",
+        "4:firespin",
+        "7:ominouswind",
+        "7:flamecharge",
+        "10:nightshade",
+        "10:flameburst",
+        "13:hex",
+        "13:flamethrower",
+        "16:shadowball",
+        "16:fireblast",
+        "19:lick",
+        "19:ember",
+        "22:growl",
+        "22:growl",
+        "25:confuseray",
+        "25:quickattack",
+        "28:hex",
+        "28:flamecharge",
+        "31:shadowclaw",
+        "31:firepunch",
+        "34:phantomforce",
+        "34:willowisp",
+        "39:poltergeist",
+        "39:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",
@@ -364,7 +392,8 @@
         "egg:helpinghand",
         "egg:switcheroo",
         "egg:tickle",
-        "egg:watersport"
+        "egg:watersport",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

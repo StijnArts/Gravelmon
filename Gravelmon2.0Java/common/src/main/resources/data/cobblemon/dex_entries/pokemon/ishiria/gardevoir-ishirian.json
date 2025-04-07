@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gardevoir-ishirian",
+  "speciesId": "cobblemon:gardevoir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

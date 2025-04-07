@@ -76,7 +76,8 @@
     "30:wish",
     "33:playrough",
     "36:cottonguard",
-    "39:endeavor"
+    "39:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1865,
+  "nationalPokedexNumber": 1868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

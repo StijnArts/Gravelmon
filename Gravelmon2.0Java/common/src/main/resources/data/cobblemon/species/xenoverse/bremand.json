@@ -102,7 +102,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:soundbarrier",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -115,7 +116,7 @@
   "weight": 59,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1784,
+  "nationalPokedexNumber": 1787,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,
@@ -233,7 +234,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:soundbarrier",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -352,7 +354,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:soundbarrier",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -471,7 +474,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:soundbarrier",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

@@ -135,7 +135,8 @@
     "tm:dive",
     "tm:razorwind",
     "tm:assurance",
-    "tm:aurasphere"
+    "tm:aurasphere",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4957,
+  "nationalPokedexNumber": 4965,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -78,7 +78,8 @@
     "61:possession",
     "66:imprison",
     "72:inferno",
-    "77:healingwish"
+    "77:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -93,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5321,
+  "nationalPokedexNumber": 5329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -75,7 +75,8 @@
     "36:drainpunch",
     "40:earthquake",
     "46:leechseed",
-    "50:woodhammer"
+    "50:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1652,
+  "nationalPokedexNumber": 1655,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

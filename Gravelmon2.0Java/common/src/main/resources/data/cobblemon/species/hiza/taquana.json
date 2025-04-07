@@ -71,7 +71,8 @@
     "39:solarbeam",
     "44:leafstorm",
     "52:powerwhip",
-    "55:hyperbeam"
+    "55:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

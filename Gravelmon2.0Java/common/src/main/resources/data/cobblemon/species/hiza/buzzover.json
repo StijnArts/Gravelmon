@@ -63,7 +63,8 @@
     "1:supersonic",
     "5:flail",
     "15:strugglebug",
-    "25:aircutter"
+    "25:aircutter",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2321,
+  "nationalPokedexNumber": 2329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

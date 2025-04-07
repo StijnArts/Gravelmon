@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "10:round",
+    "15:swift",
+    "20:uproar",
+    "25:hypervoice",
+    "30:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4684,
+  "nationalPokedexNumber": 4692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

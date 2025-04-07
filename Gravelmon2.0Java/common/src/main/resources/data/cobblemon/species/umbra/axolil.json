@@ -115,7 +115,8 @@
     "tutor:icywind",
     "tutor:zenheadbutt",
     "tutor:magiccoat",
-    "tutor:earthpower"
+    "tutor:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3693,
+  "nationalPokedexNumber": 3701,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

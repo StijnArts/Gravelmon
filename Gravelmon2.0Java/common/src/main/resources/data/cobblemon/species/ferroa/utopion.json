@@ -115,7 +115,8 @@
     "tm:endure",
     "tm:leafstorm",
     "tm:petaldance",
-    "tm:metalburst"
+    "tm:metalburst",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1511,
+  "nationalPokedexNumber": 1514,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

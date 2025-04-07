@@ -77,7 +77,8 @@
     "46:metalsound",
     "52:metalburst",
     "58:selfdestruct",
-    "64:gyroball"
+    "64:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

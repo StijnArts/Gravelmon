@@ -16,18 +16,24 @@ public class Pebblig extends drai.dev.data.pokemon.Pokemon {
                         30,
                         40),
                 List.of(Ability.GLUTTONY), Ability.ANGER_POINT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 66, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Pebblet's stone body is inhabited by crystals made of malice. If the crystals are shattered, Pebblet stops moving."),
-                List.of(),
+                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"type=dark")))),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pebblet");

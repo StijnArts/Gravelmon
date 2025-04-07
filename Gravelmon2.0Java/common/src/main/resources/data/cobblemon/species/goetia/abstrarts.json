@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:confusion"
+    "1:confusion",
+    "1:screech",
+    "1:growl",
+    "10:irontail",
+    "10:psybeam",
+    "15:smartstrike",
+    "15:futuresight",
+    "20:mirrorshot",
+    "20:psychic",
+    "25:flashcannon",
+    "25:psyshock",
+    "30:steelbeam",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6035,
+  "nationalPokedexNumber": 6043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

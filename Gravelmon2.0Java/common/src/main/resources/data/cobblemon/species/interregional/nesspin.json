@@ -73,7 +73,8 @@
     "48:dragonclaw",
     "54:flashcannon",
     "60:metalburst",
-    "66:hyperbeam"
+    "66:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1422,
+  "nationalPokedexNumber": 1425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

@@ -73,7 +73,8 @@
     "50:auroraveil",
     "57:swagger",
     "64:iciclecrash",
-    "71:sheercold"
+    "71:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1739,
+  "nationalPokedexNumber": 1742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

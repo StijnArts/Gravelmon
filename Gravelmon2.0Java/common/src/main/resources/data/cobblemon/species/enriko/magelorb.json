@@ -71,7 +71,8 @@
     "26:forcepalm",
     "30:rollout",
     "37:flashcannon",
-    "39:dazzlinggleam"
+    "39:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1752,
+  "nationalPokedexNumber": 1755,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

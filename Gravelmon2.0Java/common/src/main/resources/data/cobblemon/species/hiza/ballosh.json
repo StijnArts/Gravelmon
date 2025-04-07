@@ -118,7 +118,8 @@
     "tm:swift",
     "tm:takedown",
     "tm:toxic",
-    "tm:venoshock"
+    "tm:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2361,
+  "nationalPokedexNumber": 2369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

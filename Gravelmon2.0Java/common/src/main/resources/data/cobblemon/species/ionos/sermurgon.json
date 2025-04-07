@@ -63,7 +63,23 @@
     "1:watergun",
     "1:scratch",
     "1:flipturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:tailwhip",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:bubblebeam",
+    "10:dragonrage",
+    "10:swordsdance",
+    "15:aquatail",
+    "15:dualchop",
+    "20:surf",
+    "20:breakingswipe",
+    "25:waterfall",
+    "25:dragonclaw",
+    "30:liquidation",
+    "30:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -76,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4806,
+  "nationalPokedexNumber": 4814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

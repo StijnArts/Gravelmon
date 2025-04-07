@@ -16,7 +16,7 @@ public class NodorranSteelix extends drai.dev.data.pokemon.Pokemon {
                         100,
                         40),
                 List.of(Ability.STURDY,Ability.VOLT_ABSORB), Ability.ELECTRIC_SURGE,
-                100, 3990,
+                50, 3990,
                 new Stats(0,0,2,1,0,0), 30,
                 0.5,
                 279, ExperienceGroup.MEDIUM_FAST,
@@ -41,7 +41,11 @@ public class NodorranSteelix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_WRECKER,55)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Steelix");

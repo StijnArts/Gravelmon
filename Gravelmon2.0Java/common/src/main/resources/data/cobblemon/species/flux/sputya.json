@@ -74,7 +74,8 @@
     "43:fly",
     "47:solarbeam",
     "51:zapcannon",
-    "55:hyperbeam"
+    "55:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -87,7 +88,7 @@
   "weight": 5,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2131,
+  "nationalPokedexNumber": 2134,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -74,7 +74,8 @@
     "48:dragonclaw",
     "54:flashcannon",
     "60:metalburst",
-    "66:hyperbeam"
+    "66:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2404,
+  "nationalPokedexNumber": 2412,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

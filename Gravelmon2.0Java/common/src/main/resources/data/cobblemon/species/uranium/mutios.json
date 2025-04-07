@@ -62,7 +62,8 @@
   "moves": [
     "1:atomicpunch",
     "10:nuclearwaste",
-    "30:halflife"
+    "30:halflife",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -76,7 +77,7 @@
   "weight": 3592,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2089,
+  "nationalPokedexNumber": 2092,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

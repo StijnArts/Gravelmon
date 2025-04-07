@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:scratch"
+    "1:scratch",
+    "1:stringshot",
+    "1:leer",
+    "4:leechlife",
+    "4:dragonrage",
+    "7:lunge",
+    "7:dualchop",
+    "10:xscissor",
+    "10:breakingswipe",
+    "13:uturn",
+    "13:dragonclaw",
+    "16:megahorn",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3570,
+  "nationalPokedexNumber": 3578,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

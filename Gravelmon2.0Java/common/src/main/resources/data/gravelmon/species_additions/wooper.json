@@ -62,7 +62,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:thundershock"
+        "1:thundershock",
+        "1:leer",
+        "4:charge",
+        "7:shockwave",
+        "10:discharge",
+        "13:thunderbolt",
+        "16:thunder",
+        "19:thundershock",
+        "22:leer",
+        "25:charge",
+        "28:thunderpunch",
+        "31:discharge",
+        "34:wildcharge",
+        "39:supercellslam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -141,12 +155,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 65,
+        "attack": 22,
+        "defence": 50,
+        "special_attack": 67,
+        "special_defence": 65,
+        "speed": 28
       },
       "evYield": {
         "hp": 0,
@@ -161,7 +175,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:ember"
+        "1:ember",
+        "1:growl",
+        "10:firespin",
+        "15:flamecharge",
+        "20:flameburst",
+        "25:flamethrower",
+        "30:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
@@ -348,7 +369,8 @@
         "egg:spitup",
         "egg:stockpile",
         "egg:swallow",
-        "egg:scald"
+        "egg:scald",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -536,7 +558,8 @@
         "tutor:synthesis",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

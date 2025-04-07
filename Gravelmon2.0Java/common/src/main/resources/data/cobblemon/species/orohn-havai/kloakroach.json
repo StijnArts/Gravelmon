@@ -72,7 +72,8 @@
     "27:healorder",
     "32:partingshot",
     "38:suckerpunch",
-    "40:quash"
+    "40:quash",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2962,
+  "nationalPokedexNumber": 2970,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -16,14 +16,15 @@ public class Dubsparce extends drai.dev.data.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.SERENE_GRACE,Ability.RUN_AWAY), Ability.RATTLED,
-                0, 0,
-                new Stats(2,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A recently discovered evolution to Dunsparce. It is unknown why only Mystian Dunsparce can evolve, or why they are a different color."),
-                List.of(),
+                List.of(new EvolutionEntry("sparcnidria", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dragon_scale")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
@@ -143,11 +144,16 @@ public class Dubsparce extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(39).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_CAVE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dubsparce");
-
+        addAdditionalEvolution("dunsparce", new EvolutionEntry("dubsparce", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"))));
     }
 
 

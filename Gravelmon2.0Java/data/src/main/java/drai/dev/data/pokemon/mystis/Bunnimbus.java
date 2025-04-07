@@ -16,7 +16,7 @@ public class Bunnimbus extends drai.dev.data.pokemon.Pokemon {
                         65,
                         95),
                 List.of(Ability.QUICK_FEET,Ability.THICK_FAT), Ability.HUGE_POWER,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,0,0,0), 127,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
@@ -74,7 +74,11 @@ public class Bunnimbus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_PLAINS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bunnimbus");

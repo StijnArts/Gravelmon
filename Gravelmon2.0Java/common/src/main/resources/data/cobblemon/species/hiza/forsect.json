@@ -77,7 +77,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:megahorn",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2311,
+  "nationalPokedexNumber": 2319,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

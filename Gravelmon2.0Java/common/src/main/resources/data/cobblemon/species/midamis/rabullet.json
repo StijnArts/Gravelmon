@@ -80,7 +80,8 @@
     "tm:mudshot",
     "tm:icefang",
     "tm:firefang",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4301,
+  "nationalPokedexNumber": 4309,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

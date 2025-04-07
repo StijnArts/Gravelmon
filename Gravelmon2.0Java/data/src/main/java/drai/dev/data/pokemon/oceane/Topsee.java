@@ -45,7 +45,7 @@ public class Topsee extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 6, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

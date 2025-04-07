@@ -56,7 +56,7 @@ public class AfricanusanMachop extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TICKLE,"egg")                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 32, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

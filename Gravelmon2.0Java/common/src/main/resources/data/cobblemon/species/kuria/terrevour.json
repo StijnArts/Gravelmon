@@ -77,7 +77,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -92,7 +93,7 @@
   "weight": 781,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4190,
+  "nationalPokedexNumber": 4198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

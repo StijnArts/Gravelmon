@@ -74,7 +74,8 @@
     "41:electrify",
     "45:superfang",
     "53:bounce",
-    "57:electricterrain"
+    "57:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4140,
+  "nationalPokedexNumber": 4148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

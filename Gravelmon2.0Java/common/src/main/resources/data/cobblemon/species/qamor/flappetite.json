@@ -75,7 +75,8 @@
     "41:tailwind",
     "45:aerialace",
     "49:airslash",
-    "53:hurricane"
+    "53:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4018,
+  "nationalPokedexNumber": 4026,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.6875,

@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "4:payback",
+    "7:nightslash",
+    "10:crunch",
+    "13:knockoff",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -89,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2849,
+  "nationalPokedexNumber": 2857,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

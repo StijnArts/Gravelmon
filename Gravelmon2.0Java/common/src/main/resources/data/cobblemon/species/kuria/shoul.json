@@ -72,7 +72,8 @@
     "25:block",
     "36:swagger",
     "47:swordsdance",
-    "52:memento"
+    "52:memento",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4150,
+  "nationalPokedexNumber": 4158,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

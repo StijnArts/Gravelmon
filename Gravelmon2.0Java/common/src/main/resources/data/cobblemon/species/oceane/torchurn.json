@@ -80,7 +80,8 @@
     "43:recover",
     "48:bodypress",
     "50:earthpower",
-    "55:eruption"
+    "55:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1904,
+  "nationalPokedexNumber": 1907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

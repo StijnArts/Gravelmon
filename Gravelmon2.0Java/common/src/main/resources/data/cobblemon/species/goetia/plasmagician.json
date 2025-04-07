@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:thundershock"
+    "1:thundershock",
+    "1:growl",
+    "1:leer",
+    "10:firespin",
+    "10:charge",
+    "15:flamecharge",
+    "15:shockwave",
+    "20:flameburst",
+    "20:discharge",
+    "25:flamethrower",
+    "25:thunderbolt",
+    "30:fireblast",
+    "30:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5869,
+  "nationalPokedexNumber": 5877,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -131,7 +131,8 @@
     "tm:aurorabeam",
     "tm:moonlight",
     "tm:signalbeam",
-    "tm:agility"
+    "tm:agility",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1625,
+  "nationalPokedexNumber": 1628,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

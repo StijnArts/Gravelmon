@@ -81,7 +81,8 @@
     "50:hypervoice",
     "37:finalgambit",
     "egg:reversal",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -96,7 +97,7 @@
   "weight": 220,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 2122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

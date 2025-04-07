@@ -73,7 +73,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"
+    "57:recover",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1459,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

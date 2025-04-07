@@ -112,7 +112,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:venoshock",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1600,
+  "nationalPokedexNumber": 1603,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

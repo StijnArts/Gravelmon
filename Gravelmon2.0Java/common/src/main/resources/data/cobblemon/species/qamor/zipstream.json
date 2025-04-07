@@ -73,7 +73,8 @@
     "37:thunderbolt",
     "41:roar",
     "45:wildcharge",
-    "1:boltbeak"
+    "1:boltbeak",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4038,
+  "nationalPokedexNumber": 4046,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

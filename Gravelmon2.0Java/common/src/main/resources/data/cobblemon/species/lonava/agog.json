@@ -102,7 +102,8 @@
     "tm:sunnyday",
     "tm:swagger",
     "tm:takedown",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3316,
+  "nationalPokedexNumber": 3324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

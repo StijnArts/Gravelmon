@@ -75,7 +75,8 @@
     "42:sludgewave",
     "46:storedpower",
     "49:trickroom",
-    "54:speedswap"
+    "54:speedswap",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5241,
+  "nationalPokedexNumber": 5249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

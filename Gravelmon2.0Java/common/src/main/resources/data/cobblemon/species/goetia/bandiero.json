@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "10:sandattack",
+    "15:mudbomb",
+    "20:bulldoze",
+    "25:dig",
+    "30:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6058,
+  "nationalPokedexNumber": 6066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

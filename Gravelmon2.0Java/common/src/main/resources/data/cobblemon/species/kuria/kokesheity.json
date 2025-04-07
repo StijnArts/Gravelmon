@@ -78,7 +78,8 @@
     "42:shadowclaw",
     "48:charm",
     "54:playrough",
-    "60:painsplit"
+    "60:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 175,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4189,
+  "nationalPokedexNumber": 4197,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

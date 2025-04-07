@@ -132,7 +132,8 @@
     "tm:uproar",
     "tm:focuspunch",
     "tm:burningjealousy",
-    "tm:lashout"
+    "tm:lashout",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4612,
+  "nationalPokedexNumber": 4620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

@@ -141,7 +141,8 @@
         "egg:strugglebug",
         "egg:firstimpression",
         "egg:doubleedge",
-        "egg:wildcharge"
+        "egg:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

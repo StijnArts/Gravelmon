@@ -77,7 +77,8 @@
     "40:psychic",
     "43:amnesia",
     "46:darkpulse",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1751,
+  "nationalPokedexNumber": 1754,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "1:leer",
+    "4:payback",
+    "4:aircutter",
+    "7:nightdaze",
+    "7:wingattack",
+    "10:snarl",
+    "10:airslash",
+    "13:knockoff",
+    "13:drillpeck",
+    "16:darkpulse",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2514,
+  "nationalPokedexNumber": 2522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

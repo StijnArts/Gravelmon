@@ -136,7 +136,8 @@
     "tm:switcheroo",
     "tm:grudge",
     "tm:wideguard",
-    "tm:coil"
+    "tm:coil",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

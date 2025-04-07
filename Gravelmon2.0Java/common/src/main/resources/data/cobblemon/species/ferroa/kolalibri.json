@@ -136,7 +136,8 @@
     "tm:uturn",
     "tm:whirlwind",
     "tm:captivate",
-    "tm:quickattack"
+    "tm:quickattack",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1492,
+  "nationalPokedexNumber": 1495,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

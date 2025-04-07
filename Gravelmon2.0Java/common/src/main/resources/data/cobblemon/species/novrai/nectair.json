@@ -131,7 +131,8 @@
     "tm:healpulse",
     "tm:silverwind",
     "tm:grassyglide",
-    "tm:bestow"
+    "tm:bestow",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4845,
+  "nationalPokedexNumber": 4853,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

@@ -153,7 +153,8 @@
     "tm:electricterrain",
     "tm:grassyterrain",
     "tm:mistyterrain",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5393,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

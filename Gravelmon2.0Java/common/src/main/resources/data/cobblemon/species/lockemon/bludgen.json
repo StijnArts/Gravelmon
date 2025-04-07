@@ -63,7 +63,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "3:revenge",
+    "6:lowsweep",
+    "9:brickbreak",
+    "12:karatechop",
+    "15:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -78,7 +85,7 @@
   "weight": 365,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3394,
+  "nationalPokedexNumber": 3402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

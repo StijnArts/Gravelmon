@@ -16,28 +16,22 @@ public class Boaribble extends drai.dev.data.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.GLUTTONY), Ability.ANGER_POINT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("The darkness of its surroundings caused it to evolve, its crystals growing ever larger. As its inner malice grows, it will crumble under it's own weight and become new Pebblets."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.PAYBACK,1),
-                        new MoveLearnSetEntry(Move.FEINT_ATTACK,1),
-                        new MoveLearnSetEntry(Move.ASSURANCE,1),
-                        new MoveLearnSetEntry(Move.THIEF,1),
-                        new MoveLearnSetEntry(Move.BRUTAL_SWING,1),
-                        new MoveLearnSetEntry(Move.KNOCK_OFF,1),
-                        new MoveLearnSetEntry(Move.BITE,1),
-                        new MoveLearnSetEntry(Move.PURSUIT,1),
-                        new MoveLearnSetEntry(Move.THROAT_CHOP,1),
-                        new MoveLearnSetEntry(Move.CRUNCH,1)                        ),
+                List.of(                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Boaribble");

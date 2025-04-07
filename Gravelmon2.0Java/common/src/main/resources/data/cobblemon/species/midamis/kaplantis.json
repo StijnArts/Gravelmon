@@ -75,7 +75,8 @@
     "36:razorshell",
     "42:shellsmash",
     "48:crosschop",
-    "54:stoneedge"
+    "54:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4405,
+  "nationalPokedexNumber": 4413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

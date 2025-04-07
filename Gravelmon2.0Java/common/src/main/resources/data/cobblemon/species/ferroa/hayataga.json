@@ -140,7 +140,8 @@
     "tm:discharge",
     "tm:recycle",
     "tm:seedbomb",
-    "tm:magnetrise"
+    "tm:magnetrise",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1532,
+  "nationalPokedexNumber": 1535,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

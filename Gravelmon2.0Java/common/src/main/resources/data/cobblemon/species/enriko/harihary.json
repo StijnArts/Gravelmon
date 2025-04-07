@@ -70,7 +70,8 @@
     "26:charm",
     "30:rockslide",
     "32:sandstorm",
-    "36:slam"
+    "36:slam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1657,
+  "nationalPokedexNumber": 1660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

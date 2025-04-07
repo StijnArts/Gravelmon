@@ -88,7 +88,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:attract",
-    "tm:facade"
+    "tm:facade",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5182,
+  "nationalPokedexNumber": 5190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

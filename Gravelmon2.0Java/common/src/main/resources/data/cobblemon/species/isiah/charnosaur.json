@@ -116,7 +116,8 @@
     "tm:bulkup",
     "tm:taunt",
     "tm:toxic",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4274,
+  "nationalPokedexNumber": 4282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

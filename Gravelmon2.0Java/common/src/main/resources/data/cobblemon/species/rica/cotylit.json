@@ -118,7 +118,8 @@
     "tm:bulletseed",
     "tm:seedbomb",
     "tm:healpulse",
-    "tm:floralhealing"
+    "tm:floralhealing",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

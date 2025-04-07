@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:leafage"
+    "1:leafage",
+    "1:growl",
+    "1:leer",
+    "4:icywind",
+    "4:absorb",
+    "7:icepunch",
+    "7:trailblaze",
+    "10:icespinner",
+    "10:gigadrain",
+    "13:iceshard",
+    "13:seedbomb",
+    "16:iciclecrash",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2582,
+  "nationalPokedexNumber": 2590,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

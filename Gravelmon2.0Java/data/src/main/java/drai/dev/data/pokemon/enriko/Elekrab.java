@@ -44,7 +44,7 @@ public class Elekrab extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 9, 27, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 9, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

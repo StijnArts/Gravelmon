@@ -92,7 +92,8 @@
     "40:focusblast",
     "28:bulkup",
     "36:playrough",
-    "1:detect"
+    "1:detect",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -106,7 +107,7 @@
   "weight": 520,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1961,
+  "nationalPokedexNumber": 1964,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

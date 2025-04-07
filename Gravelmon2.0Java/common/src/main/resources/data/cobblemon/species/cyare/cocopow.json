@@ -116,7 +116,8 @@
     "tm:liquidation",
     "tm:slackoff",
     "tm:snore",
-    "tm:seedbomb"
+    "tm:seedbomb",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -129,7 +130,7 @@
   "weight": 159,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5376,
+  "nationalPokedexNumber": 5384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

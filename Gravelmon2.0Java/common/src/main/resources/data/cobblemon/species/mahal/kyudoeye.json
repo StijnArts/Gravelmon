@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:megadrain",
+    "4:payback",
+    "7:magicalleaf",
+    "7:nightdaze",
+    "10:gigadrain",
+    "10:snarl",
+    "13:energyball",
+    "13:knockoff",
+    "16:solarbeam",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5520,
+  "nationalPokedexNumber": 5528,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

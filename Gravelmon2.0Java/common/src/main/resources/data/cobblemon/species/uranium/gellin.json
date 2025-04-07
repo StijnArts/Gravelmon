@@ -134,7 +134,8 @@
     "egg:seedbomb",
     "egg:grassknot",
     "egg:powergem",
-    "egg:zapcannon"
+    "egg:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -149,7 +150,7 @@
   "weight": 382,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2019,
+  "nationalPokedexNumber": 2022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

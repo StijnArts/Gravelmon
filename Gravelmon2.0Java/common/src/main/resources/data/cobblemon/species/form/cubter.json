@@ -60,7 +60,16 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:flipturn"
+    "1:flipturn",
+    "1:tailwhip",
+    "1:quickattack",
+    "4:bubblebeam",
+    "4:swordsdance",
+    "7:aquatail",
+    "10:surf",
+    "13:waterfall",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -90,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3804,
+  "nationalPokedexNumber": 3812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

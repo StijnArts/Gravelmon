@@ -74,7 +74,8 @@
     "36:cottonguard",
     "39:triattack",
     "43:darkpulse",
-    "46:fireblast"
+    "46:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4820,
+  "nationalPokedexNumber": 4828,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

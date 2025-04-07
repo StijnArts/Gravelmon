@@ -135,7 +135,8 @@
     "tm:dragonrage",
     "tm:teeterdance",
     "tm:sandattack",
-    "tm:bravebird"
+    "tm:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4996,
+  "nationalPokedexNumber": 5004,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

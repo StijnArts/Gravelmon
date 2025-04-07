@@ -80,7 +80,8 @@
     "egg:reflecttype",
     "egg:spark",
     "egg:spite",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -95,7 +96,7 @@
   "weight": 121,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3403,
+  "nationalPokedexNumber": 3411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

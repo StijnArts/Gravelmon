@@ -73,7 +73,8 @@
     "42:shadowclaw",
     "48:punishment",
     "53:phantomforce",
-    "57:memento"
+    "57:memento",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4262,
+  "nationalPokedexNumber": 4270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -78,7 +78,8 @@
     "tm:stockpile",
     "tm:spitup",
     "tm:swallow",
-    "tm:recycle"
+    "tm:recycle",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2961,
+  "nationalPokedexNumber": 2969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

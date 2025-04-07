@@ -173,7 +173,8 @@
     "egg:miracleeye",
     "egg:nastyplot",
     "egg:wakeupslap",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

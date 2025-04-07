@@ -125,7 +125,8 @@
     "tutor:toxic",
     "tutor:triattack",
     "tutor:voltswitch",
-    "tutor:wildcharge"
+    "tutor:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -139,7 +140,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4072,
+  "nationalPokedexNumber": 4080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

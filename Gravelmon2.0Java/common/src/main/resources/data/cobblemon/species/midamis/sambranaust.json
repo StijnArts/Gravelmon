@@ -76,7 +76,8 @@
     "41:spitup",
     "41:stockpile",
     "41:swallow",
-    "44:energyball"
+    "44:energyball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4310,
+  "nationalPokedexNumber": 4318,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

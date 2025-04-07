@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:formidet",
+  "speciesId": "cobblemon:formidet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

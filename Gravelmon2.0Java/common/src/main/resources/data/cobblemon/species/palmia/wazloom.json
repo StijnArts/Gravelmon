@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "4:absorb",
+    "7:trailblaze",
+    "10:gigadrain",
+    "13:seedbomb",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -92,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2623,
+  "nationalPokedexNumber": 2631,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

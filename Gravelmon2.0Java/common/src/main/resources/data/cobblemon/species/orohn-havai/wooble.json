@@ -75,7 +75,8 @@
     "30:rockclimb",
     "34:icebeam",
     "36:rest",
-    "41:blizzard"
+    "41:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3002,
+  "nationalPokedexNumber": 3010,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

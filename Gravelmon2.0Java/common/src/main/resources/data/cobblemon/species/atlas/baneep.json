@@ -103,7 +103,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:workup",
-    "tm:leafblade"
+    "tm:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5047,
+  "nationalPokedexNumber": 5055,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

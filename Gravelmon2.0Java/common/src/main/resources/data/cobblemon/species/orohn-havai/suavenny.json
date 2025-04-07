@@ -116,7 +116,8 @@
     "tm:healbell",
     "tm:wish",
     "tm:bounce",
-    "tm:synchronoise"
+    "tm:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 2979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -130,7 +130,8 @@
     "egg:mirrormove",
     "egg:rage",
     "egg:skyattack",
-    "egg:psywave"
+    "egg:psywave",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -145,7 +146,7 @@
   "weight": 122,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1990,
+  "nationalPokedexNumber": 1993,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

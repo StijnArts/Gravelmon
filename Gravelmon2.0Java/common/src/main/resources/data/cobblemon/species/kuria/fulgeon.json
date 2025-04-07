@@ -98,7 +98,8 @@
     "egg:icywind",
     "egg:magicalleaf",
     "egg:dragonclaw",
-    "egg:skullbash"
+    "egg:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -111,7 +112,7 @@
   "weight": 39,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4190,
+  "nationalPokedexNumber": 4198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

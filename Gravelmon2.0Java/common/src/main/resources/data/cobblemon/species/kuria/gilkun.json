@@ -74,7 +74,8 @@
     "38:screech",
     "43:raindance",
     "49:recover",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4194,
+  "nationalPokedexNumber": 4202,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

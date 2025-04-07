@@ -174,7 +174,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -294,7 +295,8 @@
         "egg:punishment",
         "egg:snatch",
         "egg:spite",
-        "egg:tailwhip"
+        "egg:tailwhip",
+        "tm:terablast"
       ],
       "labels": [
         "opal",
@@ -414,7 +416,8 @@
         "egg:punishment",
         "egg:snatch",
         "egg:spite",
-        "egg:tailwhip"
+        "egg:tailwhip",
+        "tm:terablast"
       ],
       "labels": [
         "opal",
@@ -534,7 +537,8 @@
         "egg:punishment",
         "egg:snatch",
         "egg:spite",
-        "egg:tailwhip"
+        "egg:tailwhip",
+        "tm:terablast"
       ],
       "labels": [
         "opal",

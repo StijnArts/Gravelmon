@@ -161,7 +161,8 @@
     "tm:teeterdance",
     "tm:agility",
     "tm:rockblast",
-    "tm:rockthrow"
+    "tm:rockthrow",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -174,7 +175,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

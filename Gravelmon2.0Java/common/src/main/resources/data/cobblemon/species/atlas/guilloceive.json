@@ -128,7 +128,8 @@
     "tm:takedown",
     "tm:torment",
     "tm:toxic",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5131,
+  "nationalPokedexNumber": 5139,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.3125,

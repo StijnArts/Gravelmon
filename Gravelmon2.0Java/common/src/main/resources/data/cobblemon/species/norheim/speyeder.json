@@ -79,7 +79,8 @@
     "tm:sandtomb",
     "tm:camouflage",
     "tm:rototiller",
-    "tm:snatch"
+    "tm:snatch",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3085,
+  "nationalPokedexNumber": 3093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

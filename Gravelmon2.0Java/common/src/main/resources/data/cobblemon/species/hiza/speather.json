@@ -72,7 +72,8 @@
     "30:airslash",
     "35:mist",
     "40:roost",
-    "45:hurricane"
+    "45:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2293,
+  "nationalPokedexNumber": 2301,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

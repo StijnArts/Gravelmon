@@ -70,7 +70,8 @@
     "29:xscissor",
     "35:leechlife",
     "40:nightslash",
-    "46:lunge"
+    "46:lunge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2334,
+  "nationalPokedexNumber": 2342,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

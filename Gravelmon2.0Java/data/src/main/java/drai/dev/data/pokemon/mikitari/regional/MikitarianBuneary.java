@@ -23,7 +23,8 @@ public class MikitarianBuneary extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("It adapted to nightlife style. Under the night cover it sneak to the farmlands to steal crops."),
-                List.of(),
+                List.of(new EvolutionEntry("mikitarianlopunny", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.SPLASH,1),
@@ -115,7 +116,11 @@ public class MikitarianBuneary extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_PUNCH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(8).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA, Biome.IS_COLD).atNight()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Buneary");

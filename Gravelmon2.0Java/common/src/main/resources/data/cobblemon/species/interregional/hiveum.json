@@ -74,7 +74,8 @@
     "36:swordsdance",
     "40:takedown",
     "44:bugbuzz",
-    "48:doubleedge"
+    "48:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1464,
+  "nationalPokedexNumber": 1467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

@@ -142,7 +142,8 @@
     "egg:magnitude",
     "egg:swordsdance",
     "egg:curse",
-    "egg:crushclaw"
+    "egg:crushclaw",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2007,
+  "nationalPokedexNumber": 2010,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -62,7 +62,8 @@
     "1:pound",
     "1:growl",
     "1:afteryou",
-    "1:cottonguard"
+    "1:cottonguard",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1876,
+  "nationalPokedexNumber": 1879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

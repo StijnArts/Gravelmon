@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:gust"
+    "1:gust",
+    "1:growl",
+    "1:leer",
+    "10:psybeam",
+    "10:aircutter",
+    "15:futuresight",
+    "15:wingattack",
+    "20:psychic",
+    "20:airslash",
+    "25:psyshock",
+    "25:drillpeck",
+    "30:psychoboost",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5357,
+  "nationalPokedexNumber": 5365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

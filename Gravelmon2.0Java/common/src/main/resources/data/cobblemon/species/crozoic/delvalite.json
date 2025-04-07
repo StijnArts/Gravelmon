@@ -74,7 +74,8 @@
     "1:rollout",
     "1:defensecurl",
     "1:flash",
-    "1:signalbeam"
+    "1:signalbeam",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -89,7 +90,7 @@
   "weight": 380,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3254,
+  "nationalPokedexNumber": 3262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

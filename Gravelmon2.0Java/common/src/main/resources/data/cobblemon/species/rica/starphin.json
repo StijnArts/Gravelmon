@@ -125,7 +125,8 @@
     "tm:signalbeam",
     "tm:taunt",
     "tm:trickroom",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

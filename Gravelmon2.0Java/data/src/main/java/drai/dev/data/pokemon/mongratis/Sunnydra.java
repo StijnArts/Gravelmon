@@ -91,10 +91,17 @@ public class Sunnydra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(40).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).setRequiredBlock("minecraft:sunflower").canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sunnydra");
+        addAdditionalEvolution("sunflora", new EvolutionEntry("sunnydra", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"220"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
 
     }
 

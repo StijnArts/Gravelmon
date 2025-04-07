@@ -61,7 +61,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:kingsshield"
+    "1:kingsshield",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3310,
+  "nationalPokedexNumber": 3318,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

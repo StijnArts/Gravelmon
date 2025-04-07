@@ -132,7 +132,8 @@
     "tm:lavaplume",
     "tm:firespin",
     "tm:sandtomb",
-    "tm:spikes"
+    "tm:spikes",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -147,7 +148,7 @@
   "weight": 1216,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4424,
+  "nationalPokedexNumber": 4432,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

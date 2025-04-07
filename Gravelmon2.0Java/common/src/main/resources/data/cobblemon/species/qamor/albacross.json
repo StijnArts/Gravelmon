@@ -70,7 +70,8 @@
     "28:featherdance",
     "33:bubblebeam",
     "37:glare",
-    "42:crunch"
+    "42:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4056,
+  "nationalPokedexNumber": 4064,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

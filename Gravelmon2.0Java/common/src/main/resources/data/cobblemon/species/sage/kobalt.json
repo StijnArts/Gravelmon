@@ -172,7 +172,8 @@
     "egg:flareblitz",
     "egg:pursuit",
     "egg:metalburst",
-    "egg:rollout"
+    "egg:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

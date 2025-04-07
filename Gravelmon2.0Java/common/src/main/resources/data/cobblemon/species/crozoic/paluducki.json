@@ -71,7 +71,8 @@
     "1:aquatail",
     "1:mudsport",
     "1:round",
-    "1:hypervoice"
+    "1:hypervoice",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3258,
+  "nationalPokedexNumber": 3266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

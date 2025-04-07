@@ -69,7 +69,8 @@
     "37:lunge",
     "40:quiverdance",
     "44:acrobatics",
-    "50:firstimpression"
+    "50:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

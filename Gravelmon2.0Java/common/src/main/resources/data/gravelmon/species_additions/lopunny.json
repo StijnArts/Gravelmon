@@ -128,7 +128,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -357,7 +358,8 @@
         "tutor:vacuumwave",
         "tutor:wish",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -444,7 +446,15 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:quickattack"
+        "1:quickattack",
+        "1:growl",
+        "1:swordsdance",
+        "4:icywind",
+        "8:icepunch",
+        "12:icespinner",
+        "16:iceshard",
+        "20:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -467,11 +477,198 @@
         "height": 8.75,
         "fixed": false
       }
+    },
+    {
+      "name": "Mikitarian",
+      "primaryType": "dark",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "buneary form=mikitarian",
+      "baseScale": 0.4571428571428571,
+      "cannotDynamax": false,
+      "abilities": [
+        "stakeout",
+        "oblivious",
+        "h:limber"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 76,
+        "defence": 84,
+        "special_attack": 54,
+        "special_defence": 96,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:jumpkick",
+        "1:suckerpunch",
+        "1:dizzypunch",
+        "1:pound",
+        "1:splash",
+        "1:quash",
+        "4:defensecurl",
+        "8:meanlook",
+        "12:afteryou",
+        "16:quickattack",
+        "20:doublekick",
+        "24:taunt",
+        "28:batonpass",
+        "32:throatchop",
+        "36:agility",
+        "40:entrainment",
+        "44:flatter",
+        "48:bounce",
+        "52:destinybond",
+        "56:highjumpkick",
+        "tm:focuspunch",
+        "tm:workup",
+        "tm:sunnyday",
+        "tm:icebeam",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:lowsweep",
+        "tm:dig",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:shockwave",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:focusblast",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:endure",
+        "tm:drainpunch",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:thunderwave",
+        "tm:snarl",
+        "tm:darkpulse",
+        "tm:sleeptalk",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:bounce",
+        "tm:reversal",
+        "tm:brutalswing",
+        "tm:poweruppunch",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:hypervoice",
+        "tm:closecombat",
+        "tm:playrough",
+        "tm:darkestlariat",
+        "tm:throatchop",
+        "tm:encore",
+        "tm:lashout",
+        "tm:tripleaxel",
+        "tm:cut",
+        "tm:strength",
+        "tm:rocksmash",
+        "tm:rage",
+        "tm:bide",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:secretpower",
+        "tm:naturalgift",
+        "tm:captivate",
+        "tm:circlethrow",
+        "tm:copycat",
+        "tm:punishment",
+        "tm:doublehit",
+        "tm:encore",
+        "tm:fakeout",
+        "tm:faketears",
+        "tm:firepunch",
+        "tm:flail",
+        "tm:icepunch",
+        "tm:lowkick",
+        "tm:poweruppunch",
+        "tm:sweetkiss",
+        "tm:switcheroo",
+        "tm:teeterdance",
+        "tm:thunderpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mikitari",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mikitarianlopunny.desc"
+      ],
+      "height": 12,
+      "weight": 333,
+      "aspects": [
+        "mikitarian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "cefiran"
+    "cefiran",
+    "mikitarian"
   ]
 }

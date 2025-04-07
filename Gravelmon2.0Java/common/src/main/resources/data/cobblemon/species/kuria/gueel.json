@@ -72,7 +72,8 @@
     "41:wildcharge",
     "47:shiftgear",
     "52:hyperbeam",
-    "57:zapcannon"
+    "57:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -85,7 +86,7 @@
   "weight": 47,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4215,
+  "nationalPokedexNumber": 4223,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

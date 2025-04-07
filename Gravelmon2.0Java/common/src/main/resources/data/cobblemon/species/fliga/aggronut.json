@@ -75,7 +75,8 @@
     "45:pyroball",
     "48:woodhammer",
     "54:fireblast",
-    "58:synthesis"
+    "58:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3919,
+  "nationalPokedexNumber": 3927,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -133,7 +133,7 @@ public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALKALINEBOMB,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 28, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

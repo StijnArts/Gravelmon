@@ -64,7 +64,18 @@
       "drops": {},
       "moves": [
         "1:confusion",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:calmmind",
+        "4:psybeam",
+        "4:taunt",
+        "7:futuresight",
+        "7:substitute",
+        "10:psychic",
+        "10:rest",
+        "13:psyshock",
+        "16:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -169,7 +180,30 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:confusion"
+        "1:confusion",
+        "1:leer",
+        "1:growl",
+        "10:clearsmog",
+        "10:psybeam",
+        "15:sludge",
+        "15:futuresight",
+        "20:toxicspikes",
+        "20:psychic",
+        "25:sludgebomb",
+        "25:psyshock",
+        "30:sludgewave",
+        "30:psychoboost",
+        "35:poisonsting",
+        "35:confusion",
+        "40:leer",
+        "40:growl",
+        "45:venoshock",
+        "45:psybeam",
+        "50:poisontail",
+        "50:futuresight",
+        "55:toxicspikes",
+        "55:psychic",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
@@ -323,7 +357,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

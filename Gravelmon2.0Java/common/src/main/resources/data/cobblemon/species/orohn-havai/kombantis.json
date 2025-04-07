@@ -73,7 +73,8 @@
     "35:bugbuzz",
     "41:crosschop",
     "48:detect",
-    "52:superpower"
+    "52:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2981,
+  "nationalPokedexNumber": 2989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

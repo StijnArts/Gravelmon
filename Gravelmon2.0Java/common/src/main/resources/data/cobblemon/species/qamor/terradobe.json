@@ -73,7 +73,8 @@
     "36:gigadrain",
     "41:aquaring",
     "45:earthpower",
-    "50:woodhammer"
+    "50:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4034,
+  "nationalPokedexNumber": 4042,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

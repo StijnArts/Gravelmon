@@ -116,7 +116,8 @@
     "tm:incinerate",
     "tm:aquaring",
     "tm:watersport",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4860,
+  "nationalPokedexNumber": 4868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

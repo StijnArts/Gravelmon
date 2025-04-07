@@ -73,7 +73,8 @@
     "1:defog",
     "1:overheat",
     "tm:defog",
-    "tm:tickle"
+    "tm:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1892,
+  "nationalPokedexNumber": 1895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

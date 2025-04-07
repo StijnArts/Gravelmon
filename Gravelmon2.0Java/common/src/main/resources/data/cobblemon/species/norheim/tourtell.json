@@ -75,7 +75,8 @@
     "45:crunch",
     "51:gigadrain",
     "57:leafstorm",
-    "63:headlongrush"
+    "63:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3117,
+  "nationalPokedexNumber": 3125,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

@@ -28,7 +28,7 @@ public class Luxuroe extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 35, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 35, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

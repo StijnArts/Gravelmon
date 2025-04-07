@@ -136,7 +136,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -239,7 +240,8 @@
         "25:flameburst",
         "2:scald",
         "11:firefang",
-        "45:healblock"
+        "45:healblock",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

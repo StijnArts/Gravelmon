@@ -148,7 +148,7 @@ public class DeltaAipom extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 36, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 36, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),

@@ -127,7 +127,8 @@
     "tm:rest",
     "tm:steelwing",
     "tm:raindance",
-    "tm:fakeout"
+    "tm:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3464,
+  "nationalPokedexNumber": 3472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

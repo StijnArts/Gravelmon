@@ -71,7 +71,8 @@
     "37:synthesis",
     "42:crunch",
     "47:gigadrain",
-    "52:leafstorm"
+    "52:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2396,
+  "nationalPokedexNumber": 2404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

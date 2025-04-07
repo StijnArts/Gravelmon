@@ -154,7 +154,8 @@
     "tm:toxic",
     "tm:triattack",
     "tm:venoshock",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -169,7 +170,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1514,
+  "nationalPokedexNumber": 1517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

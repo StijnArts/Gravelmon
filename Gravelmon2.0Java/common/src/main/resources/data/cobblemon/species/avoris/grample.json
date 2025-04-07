@@ -73,7 +73,8 @@
     "36:woodhammer",
     "42:synthesis",
     "48:airslash",
-    "53:leafstorm"
+    "53:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1853,
+  "nationalPokedexNumber": 1856,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

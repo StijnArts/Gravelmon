@@ -94,6 +94,7 @@
         "tm:furycutter",
         "tm:gigadrain",
         "tm:grassyterrain",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -119,7 +120,8 @@
         "tm:synthesis",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

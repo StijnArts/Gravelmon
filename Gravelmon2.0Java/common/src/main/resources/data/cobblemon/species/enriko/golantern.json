@@ -72,7 +72,8 @@
     "34:suckerpunch",
     "36:flashcannon",
     "40:perishsong",
-    "45:destinybond"
+    "45:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1742,
+  "nationalPokedexNumber": 1745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

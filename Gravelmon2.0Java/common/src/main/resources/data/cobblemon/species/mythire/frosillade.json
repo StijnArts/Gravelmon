@@ -75,7 +75,8 @@
     "tm:avalanche",
     "tm:metalburst",
     "tm:spikes",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3901,
+  "nationalPokedexNumber": 3909,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

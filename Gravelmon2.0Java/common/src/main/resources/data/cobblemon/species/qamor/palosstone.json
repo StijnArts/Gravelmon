@@ -74,7 +74,8 @@
     "45:shadowball",
     "50:stoneedge",
     "55:shoreup",
-    "60:sandstorm"
+    "60:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4061,
+  "nationalPokedexNumber": 4069,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

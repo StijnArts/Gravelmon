@@ -151,7 +151,8 @@
     "egg:stunspore",
     "egg:sweetscent",
     "egg:synthesis",
-    "egg:teeterdance"
+    "egg:teeterdance",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

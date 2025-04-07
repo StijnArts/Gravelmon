@@ -118,7 +118,8 @@
     "egg:meanlook",
     "egg:nightshade",
     "egg:shadowsneak",
-    "egg:smokescreen"
+    "egg:smokescreen",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

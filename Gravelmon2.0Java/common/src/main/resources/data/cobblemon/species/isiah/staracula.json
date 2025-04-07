@@ -80,7 +80,8 @@
     "53:roost",
     "57:dreameater",
     "62:hurricane",
-    "66:nastyplot"
+    "66:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4242,
+  "nationalPokedexNumber": 4250,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

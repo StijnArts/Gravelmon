@@ -147,7 +147,8 @@
     "egg:rollingkick",
     "egg:encore",
     "egg:counter",
-    "egg:rockslide"
+    "egg:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -162,7 +163,7 @@
   "weight": 718,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2003,
+  "nationalPokedexNumber": 2006,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

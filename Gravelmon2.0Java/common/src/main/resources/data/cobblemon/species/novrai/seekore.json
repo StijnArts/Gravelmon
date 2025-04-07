@@ -115,7 +115,8 @@
     "tm:confide",
     "tm:bodypress",
     "tm:smackdown",
-    "tm:gravity"
+    "tm:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4898,
+  "nationalPokedexNumber": 4906,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

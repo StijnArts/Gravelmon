@@ -96,7 +96,8 @@
     "tm:swift",
     "tm:psychicfangs",
     "tm:rockslide",
-    "tm:stompingtantrum"
+    "tm:stompingtantrum",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -109,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2294,
+  "nationalPokedexNumber": 2302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.0,

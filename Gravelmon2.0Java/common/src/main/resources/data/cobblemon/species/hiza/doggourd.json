@@ -144,7 +144,8 @@
     "tm:takedown",
     "tm:taunt",
     "tm:thief",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -178,7 +179,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2378,
+  "nationalPokedexNumber": 2386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -126,7 +126,8 @@
     "egg:safeguard",
     "egg:skillswap",
     "egg:sleeppowder",
-    "egg:swift"
+    "egg:swift",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -138,7 +139,7 @@
   "weight": 8,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4545,
+  "nationalPokedexNumber": 4553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

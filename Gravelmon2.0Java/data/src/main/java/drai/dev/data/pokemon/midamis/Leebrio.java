@@ -43,7 +43,7 @@ public class Leebrio extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,65)                ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

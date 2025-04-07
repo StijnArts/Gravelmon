@@ -78,7 +78,8 @@
     "tm:extrasensory",
     "tm:grudge",
     "tm:painsplit",
-    "tm:curse"
+    "tm:curse",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -91,7 +92,7 @@
   "weight": 55,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4706,
+  "nationalPokedexNumber": 4714,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

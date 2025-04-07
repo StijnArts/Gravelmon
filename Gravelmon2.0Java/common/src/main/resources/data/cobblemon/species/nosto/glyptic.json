@@ -130,7 +130,8 @@
     "tm:surf",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3478,
+  "nationalPokedexNumber": 3486,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

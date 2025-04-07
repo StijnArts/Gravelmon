@@ -82,7 +82,8 @@
     "tm:destinybond",
     "tm:painsplit",
     "tm:uproar",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4325,
+  "nationalPokedexNumber": 4333,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

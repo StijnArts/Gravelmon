@@ -28,7 +28,7 @@ public class Lubub extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 9, 31, 5.4, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 9, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

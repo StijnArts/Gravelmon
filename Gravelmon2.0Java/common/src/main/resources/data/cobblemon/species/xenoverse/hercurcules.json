@@ -122,7 +122,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:strugglebug",
-    "tutor:superpower"
+    "tutor:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -137,7 +138,7 @@
   "weight": 3280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1795,
+  "nationalPokedexNumber": 1798,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

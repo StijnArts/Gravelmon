@@ -123,7 +123,8 @@
     "egg:spark",
     "egg:stardust",
     "egg:sunnyday",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -138,7 +139,7 @@
   "weight": 418,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4492,
+  "nationalPokedexNumber": 4500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

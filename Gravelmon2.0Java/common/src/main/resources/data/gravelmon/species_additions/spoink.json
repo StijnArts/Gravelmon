@@ -78,7 +78,8 @@
         "44:closecombat",
         "50:bounce",
         "tm:fling",
-        "tm:rockthrow"
+        "tm:rockthrow",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",

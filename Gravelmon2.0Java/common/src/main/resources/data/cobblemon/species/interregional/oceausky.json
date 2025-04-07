@@ -74,7 +74,8 @@
     "44:mist",
     "50:hydropump",
     "55:focuspunch",
-    "61:wavecrash"
+    "61:wavecrash",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

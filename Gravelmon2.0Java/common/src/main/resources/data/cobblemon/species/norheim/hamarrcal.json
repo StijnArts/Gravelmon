@@ -77,7 +77,8 @@
     "tm:crabhammer",
     "tm:woodhammer",
     "tm:icehammer",
-    "tm:dracometeor"
+    "tm:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3234,
+  "nationalPokedexNumber": 3242,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

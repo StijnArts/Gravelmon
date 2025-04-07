@@ -125,7 +125,8 @@
         "egg:swallow",
         "egg:spitup",
         "egg:bulletseed",
-        "egg:spikes"
+        "egg:spikes",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

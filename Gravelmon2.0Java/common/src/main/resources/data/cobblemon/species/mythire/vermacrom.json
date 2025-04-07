@@ -141,7 +141,8 @@
     "tm:throatchop",
     "tm:toxic",
     "tm:wildcharge",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3905,
+  "nationalPokedexNumber": 3913,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

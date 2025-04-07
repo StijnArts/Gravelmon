@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:peck",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:swordsdance",
+    "4:pluck",
+    "7:wingattack",
+    "10:aerialace",
+    "13:drillpeck",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "sahl",
@@ -75,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5806,
+  "nationalPokedexNumber": 5814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

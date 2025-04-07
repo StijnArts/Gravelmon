@@ -71,7 +71,8 @@
     "36:sleeppowder",
     "40:agility",
     "45:woodhammer",
-    "50:highjumpkick"
+    "50:highjumpkick",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1638,
+  "nationalPokedexNumber": 1641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

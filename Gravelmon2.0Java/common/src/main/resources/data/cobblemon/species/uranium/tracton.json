@@ -137,7 +137,8 @@
     "egg:charge",
     "egg:zapcannon",
     "egg:signalbeam",
-    "egg:dragonbreath"
+    "egg:dragonbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -150,7 +151,7 @@
   "weight": 1197,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2033,
+  "nationalPokedexNumber": 2036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -68,7 +68,8 @@
     "1:reflecttype",
     "tm:psychic",
     "tm:surf",
-    "tm:heatwave"
+    "tm:heatwave",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1871,
+  "nationalPokedexNumber": 1874,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

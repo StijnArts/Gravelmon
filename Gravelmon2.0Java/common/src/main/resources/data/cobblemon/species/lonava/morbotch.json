@@ -66,7 +66,8 @@
     "1:tailslap",
     "1:sandattack",
     "1:growl",
-    "1:detect"
+    "1:detect",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3320,
+  "nationalPokedexNumber": 3328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

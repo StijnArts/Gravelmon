@@ -122,7 +122,8 @@
     "tutor:snore",
     "tutor:stealthrock",
     "tutor:synthesis",
-    "tutor:worryseed"
+    "tutor:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -135,7 +136,7 @@
   "weight": 3280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1826,
+  "nationalPokedexNumber": 1829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

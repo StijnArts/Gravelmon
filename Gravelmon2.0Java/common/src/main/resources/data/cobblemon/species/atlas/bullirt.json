@@ -121,7 +121,8 @@
     "tm:icefang",
     "tm:firefang",
     "tm:retaliate",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5074,
+  "nationalPokedexNumber": 5082,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

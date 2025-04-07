@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "10:firespin",
+    "10:taunt",
+    "15:flamecharge",
+    "15:substitute",
+    "20:flameburst",
+    "20:rest",
+    "25:flamethrower",
+    "30:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -84,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4755,
+  "nationalPokedexNumber": 4763,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

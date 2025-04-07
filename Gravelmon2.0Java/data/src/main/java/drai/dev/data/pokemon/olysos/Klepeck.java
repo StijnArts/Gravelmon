@@ -23,11 +23,16 @@ public class Klepeck extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is attracted to shiny objects, often collecting them in its nest. This little trickster is quick-witted and swift in flight, making it a challenge for Trainers to catch. It enjoys taunting other Pokémon and people, showcasing its intelligence by imitating various sounds it hears in its surroundings."),
-                List.of(),
+                List.of(new EvolutionEntry("magusong", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Klepeck");

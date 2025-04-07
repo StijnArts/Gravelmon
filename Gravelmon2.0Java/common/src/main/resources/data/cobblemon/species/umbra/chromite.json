@@ -118,7 +118,8 @@
     "tutor:irondefense",
     "tutor:ironhead",
     "tutor:focuspunch",
-    "tutor:icepunch"
+    "tutor:icepunch",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -133,7 +134,7 @@
   "weight": 508,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3708,
+  "nationalPokedexNumber": 3716,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

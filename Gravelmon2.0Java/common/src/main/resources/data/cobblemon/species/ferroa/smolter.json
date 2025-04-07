@@ -76,7 +76,8 @@
     "tm:healbell",
     "tm:steelroller",
     "tm:burningjealousy",
-    "tm:scorchingsands"
+    "tm:scorchingsands",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1603,
+  "nationalPokedexNumber": 1606,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

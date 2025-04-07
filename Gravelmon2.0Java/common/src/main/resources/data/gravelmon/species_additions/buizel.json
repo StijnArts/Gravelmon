@@ -147,7 +147,8 @@
         "egg:gunkshot",
         "egg:selfdestruct",
         "egg:explosion",
-        "egg:nightslash"
+        "egg:nightslash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

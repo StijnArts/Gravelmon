@@ -135,7 +135,8 @@
         "egg:rockslide",
         "egg:bulldoze",
         "egg:thousandarrows",
-        "egg:slash"
+        "egg:slash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -265,6 +266,7 @@
         "tm:geomancy",
         "tm:hail",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icebeam",
         "tm:icefang",
@@ -318,7 +320,8 @@
         "egg:mirrorshot",
         "egg:dazzlinggleam",
         "egg:glaciallance",
-        "egg:iceshard"
+        "egg:iceshard",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

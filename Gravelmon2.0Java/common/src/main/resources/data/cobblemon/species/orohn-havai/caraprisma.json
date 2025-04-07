@@ -71,7 +71,8 @@
     "30:followme",
     "37:dazzlinggleam",
     "46:healingwish",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2985,
+  "nationalPokedexNumber": 2993,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

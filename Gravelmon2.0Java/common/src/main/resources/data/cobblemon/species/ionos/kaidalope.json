@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:lowkick"
+    "1:lowkick",
+    "1:growl",
+    "1:leer",
+    "10:firespin",
+    "10:revenge",
+    "15:flamecharge",
+    "15:vacuumwave",
+    "20:flameburst",
+    "20:brickbreak",
+    "25:flamethrower",
+    "25:aurasphere",
+    "30:fireblast",
+    "30:focusblast",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -85,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4753,
+  "nationalPokedexNumber": 4761,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

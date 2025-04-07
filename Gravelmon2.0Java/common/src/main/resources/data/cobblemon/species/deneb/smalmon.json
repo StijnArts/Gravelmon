@@ -109,7 +109,8 @@
     "egg:scald",
     "egg:taunt",
     "egg:waterpulse",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4575,
+  "nationalPokedexNumber": 4583,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.6875,

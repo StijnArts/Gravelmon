@@ -123,7 +123,8 @@
     "egg:superpower",
     "egg:swagger",
     "egg:workup",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -135,7 +136,7 @@
   "weight": 536,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4564,
+  "nationalPokedexNumber": 4572,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

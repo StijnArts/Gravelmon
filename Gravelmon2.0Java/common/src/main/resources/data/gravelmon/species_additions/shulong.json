@@ -160,7 +160,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:velvetscales",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -403,7 +404,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:velvetscales",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -652,7 +654,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:velvetscales",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -789,7 +792,8 @@
         "45:dragonpulse",
         "51:acidarmor",
         "56:raindance",
-        "61:hydropump"
+        "61:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

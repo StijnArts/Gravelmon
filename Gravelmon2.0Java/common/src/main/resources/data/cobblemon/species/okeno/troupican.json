@@ -78,7 +78,8 @@
     "tm:wingattack",
     "tm:bellydrum",
     "tm:healbell",
-    "tm:boomburst"
+    "tm:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4462,
+  "nationalPokedexNumber": 4470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

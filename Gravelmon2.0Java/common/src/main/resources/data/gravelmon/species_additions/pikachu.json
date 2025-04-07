@@ -101,7 +101,18 @@
       "drops": {},
       "moves": [
         "1:disarmingvoice",
-        "1:bulkup"
+        "1:bulkup",
+        "1:babydolleyes",
+        "1:calmmind",
+        "4:drainingkiss",
+        "4:taunt",
+        "7:playnice",
+        "7:substitute",
+        "10:dazzlinggleam",
+        "10:rest",
+        "13:hypervoice",
+        "16:moonblast",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -200,7 +211,15 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:nastyplot",
+        "4:clearsmog",
+        "7:sludge",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:sludgewave",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -373,7 +392,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -571,7 +591,8 @@
         "tutor:tailwind",
         "tutor:thunderpunch",
         "tutor:twister",
-        "egg:volttackle"
+        "egg:volttackle",
+        "tm:terablast"
       ],
       "labels": [
         "insurgence",
@@ -725,7 +746,8 @@
         "tutor:helpinghand",
         "tutor:irontail",
         "tutor:knockoff",
-        "tutor:magicwall"
+        "tutor:magicwall",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -859,7 +881,8 @@
         "tutor:knockoff",
         "tutor:snore",
         "tutor:soundbarrier",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

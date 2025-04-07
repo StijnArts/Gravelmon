@@ -70,7 +70,8 @@
     "27:quash",
     "35:wideguard",
     "40:earthpower",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2998,
+  "nationalPokedexNumber": 3006,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

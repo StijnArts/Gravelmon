@@ -85,7 +85,8 @@
     "tm:liquidation",
     "tm:icefang",
     "tm:chillingwater",
-    "tm:swift"
+    "tm:swift",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

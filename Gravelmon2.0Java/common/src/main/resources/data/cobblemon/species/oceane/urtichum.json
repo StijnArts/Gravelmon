@@ -63,7 +63,8 @@
     "1:explosion",
     "1:gyroball",
     "1:gunkshot",
-    "1:spikyshield"
+    "1:spikyshield",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -78,7 +79,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1879,
+  "nationalPokedexNumber": 1882,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

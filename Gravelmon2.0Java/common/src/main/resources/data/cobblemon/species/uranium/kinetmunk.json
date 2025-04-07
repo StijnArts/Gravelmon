@@ -126,7 +126,8 @@
     "egg:volttackle",
     "egg:bite",
     "egg:crunch",
-    "egg:nuzzle"
+    "egg:nuzzle",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -141,7 +142,7 @@
   "weight": 201,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1976,
+  "nationalPokedexNumber": 1979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

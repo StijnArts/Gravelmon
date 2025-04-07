@@ -80,7 +80,8 @@
     "egg:confuseray",
     "egg:mist",
     "egg:painsplit",
-    "egg:strengthsap"
+    "egg:strengthsap",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 31,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3411,
+  "nationalPokedexNumber": 3419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

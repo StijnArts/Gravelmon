@@ -48,7 +48,7 @@ public class CefiranSnorunt extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 41, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 41, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

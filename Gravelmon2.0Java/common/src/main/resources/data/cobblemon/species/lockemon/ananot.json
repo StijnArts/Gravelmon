@@ -84,7 +84,8 @@
     "egg:destinybond",
     "egg:mudslap",
     "egg:smog",
-    "egg:stuffcheeks"
+    "egg:stuffcheeks",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3391,
+  "nationalPokedexNumber": 3399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

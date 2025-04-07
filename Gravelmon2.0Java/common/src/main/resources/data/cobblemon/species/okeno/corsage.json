@@ -75,7 +75,8 @@
     "43:flowershield",
     "50:petaldance",
     "56:floralhealing",
-    "tm:leafstorm"
+    "tm:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4485,
+  "nationalPokedexNumber": 4493,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

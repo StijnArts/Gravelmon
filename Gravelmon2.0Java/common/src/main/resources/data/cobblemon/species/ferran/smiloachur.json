@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:growl",
+    "1:defensecurl",
+    "4:confuseray",
+    "4:rollout",
+    "7:hex",
+    "7:smackdown",
+    "10:shadowclaw",
+    "10:rockblast",
+    "13:phantomforce",
+    "13:stealthrock",
+    "16:poltergeist",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5474,
+  "nationalPokedexNumber": 5482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

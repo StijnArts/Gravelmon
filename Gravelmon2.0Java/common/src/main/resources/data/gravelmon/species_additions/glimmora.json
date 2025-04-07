@@ -77,7 +77,8 @@
         "40:protect",
         "43:sludgewave",
         "47:freezedry",
-        "60:roost"
+        "60:roost",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

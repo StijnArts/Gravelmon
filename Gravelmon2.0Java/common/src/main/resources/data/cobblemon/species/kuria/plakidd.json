@@ -78,7 +78,8 @@
     "45:crunch",
     "52:liquidation",
     "60:doubleedge",
-    "65:superpower"
+    "65:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 142,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4196,
+  "nationalPokedexNumber": 4204,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

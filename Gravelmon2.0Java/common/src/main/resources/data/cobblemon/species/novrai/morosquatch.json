@@ -174,7 +174,8 @@
     "tm:reversal",
     "tm:acupressure",
     "tm:nightslash",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -189,7 +190,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4914,
+  "nationalPokedexNumber": 4922,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

@@ -146,7 +146,8 @@
     "egg:volttackle",
     "egg:stoneedge",
     "egg:smackdown",
-    "egg:stealthrock"
+    "egg:stealthrock",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -161,7 +162,7 @@
   "weight": 4900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2037,
+  "nationalPokedexNumber": 2040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -132,7 +132,8 @@
     "tm:flipturn",
     "tm:odorsleuth",
     "tm:quickguard",
-    "tm:doublekick"
+    "tm:doublekick",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4878,
+  "nationalPokedexNumber": 4886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

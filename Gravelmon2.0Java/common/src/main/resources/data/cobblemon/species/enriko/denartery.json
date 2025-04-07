@@ -75,7 +75,8 @@
     "32:signalbeam",
     "36:bubblebeam",
     "40:leechlife",
-    "45:hydropump"
+    "45:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1687,
+  "nationalPokedexNumber": 1690,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

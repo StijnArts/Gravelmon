@@ -79,7 +79,8 @@
     "egg:memento",
     "egg:destinybond",
     "egg:copycat",
-    "egg:haze"
+    "egg:haze",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -93,7 +94,7 @@
   "weight": 82,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2122,
+  "nationalPokedexNumber": 2125,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

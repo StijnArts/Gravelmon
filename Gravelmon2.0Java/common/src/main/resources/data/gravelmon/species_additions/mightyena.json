@@ -100,7 +100,34 @@
       "drops": {},
       "moves": [
         "1:lowkick",
-        "1:acid"
+        "1:acid",
+        "1:leer",
+        "1:leer",
+        "4:revenge",
+        "4:clearsmog",
+        "7:vacuumwave",
+        "7:sludge",
+        "10:brickbreak",
+        "10:toxicspikes",
+        "13:aurasphere",
+        "13:sludgebomb",
+        "16:focusblast",
+        "16:sludgewave",
+        "19:lowkick",
+        "19:poisonsting",
+        "22:leer",
+        "22:leer",
+        "25:revenge",
+        "25:venoshock",
+        "28:lowsweep",
+        "28:poisontail",
+        "31:brickbreak",
+        "31:toxicspikes",
+        "34:karatechop",
+        "34:sludgebomb",
+        "39:closecombat",
+        "39:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -120,6 +147,116 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Olysosian",
+      "primaryType": "ground",
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "poochyena form=olysosian",
+      "baseScale": 0.36363636363636365,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 46,
+        "attack": 90,
+        "defence": 49,
+        "special_attack": 23,
+        "special_defence": 49,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mudslap",
+        "1:quickattack",
+        "1:growl",
+        "1:swordsdance",
+        "10:sandattack",
+        "15:mudbomb",
+        "20:bulldoze",
+        "25:dig",
+        "30:earthquake",
+        "tm:terablast"
+      ],
+      "labels": [
+        "olysos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.olysosianmightyena.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "olysosian"
+      ],
+      "evolutions": [
+        {
+          "id": "olysosianmightyena_alphayena",
+          "variant": "level_up",
+          "result": "alphayena",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "36"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
         "fixed": false
       }
     },
@@ -250,7 +387,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -354,7 +492,8 @@
         "44:imprison",
         "48:painsplit",
         "52:overheat",
-        "56:memento"
+        "56:memento",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -381,6 +520,7 @@
   ],
   "features": [
     "mahalian",
+    "olysosian",
     "epoch",
     "mystic"
   ]

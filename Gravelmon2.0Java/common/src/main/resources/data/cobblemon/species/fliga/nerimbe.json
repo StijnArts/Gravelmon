@@ -135,7 +135,8 @@
     "tm:tripleaxel",
     "tm:watergun",
     "tm:weatherball",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -150,7 +151,7 @@
   "weight": 935,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3971,
+  "nationalPokedexNumber": 3979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

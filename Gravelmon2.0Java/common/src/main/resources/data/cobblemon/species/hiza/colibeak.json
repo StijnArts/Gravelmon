@@ -94,7 +94,8 @@
     "tm:substitute",
     "tm:naturepower",
     "tm:dazzlinggleam",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2262,
+  "nationalPokedexNumber": 2270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

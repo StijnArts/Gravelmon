@@ -17,7 +17,7 @@ public class Wormor extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.ROCK_HEAD), Ability.TRAMPLE,
                 17, 1397,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 180, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,7 +28,11 @@ public class Wormor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(11).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wormor");

@@ -94,7 +94,8 @@
     "tutor:electroweb",
     "tutor:bugbite",
     "tutor:gigadrain",
-    "tutor:signalbeam"
+    "tutor:signalbeam",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -124,7 +125,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3707,
+  "nationalPokedexNumber": 3715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

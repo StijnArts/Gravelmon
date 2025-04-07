@@ -95,7 +95,8 @@
     "tm:wildcharge",
     "tm:zenheadbutt",
     "tm:rockslide",
-    "tm:brutalswing"
+    "tm:brutalswing",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3961,
+  "nationalPokedexNumber": 3969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

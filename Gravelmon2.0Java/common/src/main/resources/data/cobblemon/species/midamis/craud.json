@@ -76,7 +76,8 @@
     "36:xscissor",
     "40:rockpolish",
     "44:shellsmash",
-    "48:rockwrecker"
+    "48:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4365,
+  "nationalPokedexNumber": 4373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -75,7 +75,8 @@
     "40:metalsound",
     "44:spikes",
     "48:irondefense",
-    "52:bravebird"
+    "52:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5189,
+  "nationalPokedexNumber": 5197,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

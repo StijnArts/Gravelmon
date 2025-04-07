@@ -175,7 +175,8 @@
     "tm:retaliate",
     "tm:scaryface",
     "tm:thrash",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -188,7 +189,7 @@
   "weight": 38,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

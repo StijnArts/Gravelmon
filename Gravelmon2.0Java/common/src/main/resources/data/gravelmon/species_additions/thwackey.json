@@ -122,7 +122,8 @@
         "egg:leechseed",
         "egg:naturepower",
         "egg:strength",
-        "egg:worryseed"
+        "egg:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen8",

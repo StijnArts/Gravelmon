@@ -75,7 +75,8 @@
     "50:glare",
     "55:darkpulse",
     "61:zapcannon",
-    "67:superpower"
+    "67:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4825,
+  "nationalPokedexNumber": 4833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

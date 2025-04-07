@@ -103,6 +103,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:ironhead",
@@ -143,7 +144,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -303,7 +305,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -482,7 +485,8 @@
         "tm:pinmissile",
         "tm:partingshot",
         "tm:darkestlariat",
-        "tm:furyswipes"
+        "tm:furyswipes",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -505,11 +509,124 @@
         "height": 5.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Mystisian",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 255,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "morgrem form=mystisian",
+      "baseScale": 0.4337349397590361,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 120,
+        "defence": 110,
+        "special_attack": 80,
+        "special_defence": 85,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:metalclaw",
+        "1:bulkup",
+        "1:irondefense",
+        "1:growl",
+        "1:screech",
+        "1:calmmind",
+        "1:bulkup",
+        "4:quickattack",
+        "4:irontail",
+        "4:taunt",
+        "4:calmmind",
+        "7:flamecharge",
+        "7:smartstrike",
+        "7:substitute",
+        "7:taunt",
+        "10:firepunch",
+        "10:ironhead",
+        "10:rest",
+        "10:substitute",
+        "13:willowisp",
+        "13:meteormash",
+        "13:rest",
+        "16:flareblitz",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mystis",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mystisiangrimmsnarl.desc"
+      ],
+      "height": 15,
+      "weight": 5466,
+      "aspects": [
+        "mystisian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "novran"
+    "novran",
+    "mystisian"
   ]
 }

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:confusion"
+    "1:confusion",
+    "1:leer",
+    "1:growl",
+    "10:charge",
+    "10:psybeam",
+    "15:shockwave",
+    "15:futuresight",
+    "20:discharge",
+    "20:psychic",
+    "25:thunderbolt",
+    "25:psyshock",
+    "30:thunder",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4811,
+  "nationalPokedexNumber": 4819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

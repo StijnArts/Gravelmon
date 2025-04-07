@@ -76,7 +76,8 @@
     "1:lightscreen",
     "1:powergem",
     "1:reflect",
-    "1:feintattack"
+    "1:feintattack",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4032,
+  "nationalPokedexNumber": 4040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

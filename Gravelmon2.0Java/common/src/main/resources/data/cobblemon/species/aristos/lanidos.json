@@ -113,7 +113,8 @@
     "tm:batonpass",
     "tm:bugbuzz",
     "tm:terablast",
-    "tm:bugbite"
+    "tm:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1962,
+  "nationalPokedexNumber": 1965,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

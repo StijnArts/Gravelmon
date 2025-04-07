@@ -40,7 +40,7 @@ public class Coldera extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,58)              ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

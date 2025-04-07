@@ -62,6 +62,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
+    "1:growl",
+    "4:round",
+    "7:swift",
+    "10:uproar",
+    "13:hypervoice",
+    "16:hyperbeam",
+    "19:tackle",
+    "22:growl",
+    "25:quickattack",
+    "28:bite",
+    "31:takedown",
+    "34:crunch",
+    "39:doubleedge",
     "tm:covet",
     "tm:helpinghand",
     "tm:lastresort",
@@ -76,7 +89,8 @@
     "tm:zenheadbutt",
     "tm:foulplay",
     "tm:hypervoice",
-    "tm:superfang"
+    "tm:superfang",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -104,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3839,
+  "nationalPokedexNumber": 3847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -81,7 +81,8 @@
     "egg:skullbash",
     "egg:counter",
     "egg:screech",
-    "egg:disable"
+    "egg:disable",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -96,7 +97,7 @@
   "weight": 546,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2125,
+  "nationalPokedexNumber": 2128,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

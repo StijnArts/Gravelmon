@@ -69,7 +69,15 @@
   },
   "moves": [
     "1:gust",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:nastyplot",
+    "4:aircutter",
+    "7:wingattack",
+    "10:airslash",
+    "13:drillpeck",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -84,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

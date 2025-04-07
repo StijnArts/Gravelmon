@@ -70,7 +70,8 @@
     "50:hurricane",
     "58:healpulse",
     "66:earthpower",
-    "72:moonblast"
+    "72:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5180,
+  "nationalPokedexNumber": 5188,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

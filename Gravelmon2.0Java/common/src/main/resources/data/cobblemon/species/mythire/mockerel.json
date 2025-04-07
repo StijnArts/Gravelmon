@@ -128,7 +128,8 @@
     "tm:camouflage",
     "tm:splash",
     "tm:flail",
-    "tm:feintattack"
+    "tm:feintattack",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3859,
+  "nationalPokedexNumber": 3867,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

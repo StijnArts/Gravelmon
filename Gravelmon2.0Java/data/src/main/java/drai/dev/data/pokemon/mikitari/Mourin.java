@@ -23,7 +23,8 @@ public class Mourin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("It can move extremely agilely on very steep surfaces. keeping up with it in mountainous terrain is almost impossible."),
-                List.of(),
+                List.of(new EvolutionEntry("keerin", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AURORA_BEAM,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
@@ -112,7 +113,11 @@ public class Mourin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_GRASSLAND).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mourin");

@@ -107,7 +107,8 @@
     "tm:thunderbolt",
     "tm:voltswitch",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -120,7 +121,7 @@
   "weight": 65,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3243,
+  "nationalPokedexNumber": 3251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

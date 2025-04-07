@@ -101,7 +101,8 @@
     "tm:bulldoze",
     "tm:gyroball",
     "tm:heavyslam",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -116,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3850,
+  "nationalPokedexNumber": 3858,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

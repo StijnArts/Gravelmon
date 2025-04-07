@@ -73,7 +73,8 @@
     "44:dragonpulse",
     "48:dragondance",
     "51:bugbuzz",
-    "57:quiverdance"
+    "57:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1914,
+  "nationalPokedexNumber": 1917,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.3125,

@@ -92,7 +92,8 @@
     "tm:entrainment",
     "tm:afteryou",
     "tm:bestow",
-    "tm:skittersmack"
+    "tm:skittersmack",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -105,7 +106,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4461,
+  "nationalPokedexNumber": 4469,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

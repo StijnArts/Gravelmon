@@ -132,7 +132,8 @@
     "tm:magicalleaf",
     "tm:thunderfang",
     "tm:icefang",
-    "tm:firefang"
+    "tm:firefang",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5091,
+  "nationalPokedexNumber": 5099,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

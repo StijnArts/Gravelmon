@@ -146,7 +146,8 @@
     "egg:pursuit",
     "egg:rockclimb",
     "egg:thunderfang",
-    "egg:uproar"
+    "egg:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -161,7 +162,7 @@
   "weight": 1061,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2074,
+  "nationalPokedexNumber": 2077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -82,7 +82,8 @@
     "egg:memento",
     "egg:rollout",
     "egg:smokescreen",
-    "egg:stockpile"
+    "egg:stockpile",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3373,
+  "nationalPokedexNumber": 3381,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:astronet",
+  "speciesId": "cobblemon:astronet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

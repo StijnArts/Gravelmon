@@ -70,7 +70,8 @@
     "36:painsplit",
     "40:stealthrock",
     "48:skydrop",
-    "53:stoneedge"
+    "53:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1916,
+  "nationalPokedexNumber": 1919,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

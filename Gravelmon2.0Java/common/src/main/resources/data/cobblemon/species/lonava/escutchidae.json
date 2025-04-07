@@ -76,7 +76,8 @@
     "44:ironhead",
     "48:entrainment",
     "52:irondefense",
-    "56:guillotine"
+    "56:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3311,
+  "nationalPokedexNumber": 3319,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

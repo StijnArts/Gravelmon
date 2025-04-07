@@ -16,8 +16,8 @@ public class Terratusk extends drai.dev.data.pokemon.Pokemon {
                         70,
                         85),
                 List.of(Ability.STURDY), Ability.SOLID_ROCK,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.87,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -28,7 +28,11 @@ public class Terratusk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(36).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_FOREST, Biome.IS_BADLANDS)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Terratusk");

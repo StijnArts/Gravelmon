@@ -130,7 +130,8 @@
         "tm:waterpulse",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -288,7 +289,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -452,7 +454,8 @@
         "tutor:selfdestruct",
         "tutor:snore",
         "tutor:spite",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -620,7 +623,8 @@
         "egg:endure",
         "egg:ironhead",
         "egg:growth",
-        "egg:heavyslam"
+        "egg:heavyslam",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -741,7 +745,8 @@
         "egg:stockpile",
         "egg:stomp",
         "egg:swallow",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

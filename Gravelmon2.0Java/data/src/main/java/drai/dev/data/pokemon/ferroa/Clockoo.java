@@ -138,7 +138,7 @@ public class Clockoo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

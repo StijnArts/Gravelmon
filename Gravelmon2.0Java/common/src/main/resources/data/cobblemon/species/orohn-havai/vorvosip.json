@@ -85,7 +85,8 @@
     "tm:spitup",
     "tm:swallow",
     "tm:tickle",
-    "tm:venomdrench"
+    "tm:venomdrench",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2991,
+  "nationalPokedexNumber": 2999,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

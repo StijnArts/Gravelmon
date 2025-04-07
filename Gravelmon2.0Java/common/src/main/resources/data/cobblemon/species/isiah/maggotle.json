@@ -65,7 +65,8 @@
     "5:rollout",
     "10:strugglebug",
     "15:bugbite",
-    "tm:irondefense"
+    "tm:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

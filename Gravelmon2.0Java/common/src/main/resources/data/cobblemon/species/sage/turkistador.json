@@ -157,7 +157,8 @@
     "egg:roost",
     "egg:sandtomb",
     "egg:skyattack",
-    "egg:weatherball"
+    "egg:weatherball",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -58,6 +58,32 @@
       }
     },
     {
+      "id": "nodorran_gastly-01",
+      "pokemon": "gastly nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "16-36",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_gastly-01",
       "pokemon": "gastly epoch",
       "presets": [
@@ -95,7 +121,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "6-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",

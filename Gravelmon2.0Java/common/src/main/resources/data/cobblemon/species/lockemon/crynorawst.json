@@ -76,7 +76,8 @@
     "41:stoneedge",
     "50:headsmash",
     "egg:sandstorm",
-    "egg:earthpower"
+    "egg:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -89,7 +90,7 @@
   "weight": 1200,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3438,
+  "nationalPokedexNumber": 3446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

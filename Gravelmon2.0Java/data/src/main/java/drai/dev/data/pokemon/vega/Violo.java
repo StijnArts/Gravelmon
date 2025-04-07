@@ -116,7 +116,7 @@ public class Violo extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 51, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 51, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")

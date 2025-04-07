@@ -72,7 +72,8 @@
     "37:sleeppowder",
     "41:futuresight",
     "46:aromatherapy",
-    "52:allyswitch"
+    "52:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3329,
+  "nationalPokedexNumber": 3337,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

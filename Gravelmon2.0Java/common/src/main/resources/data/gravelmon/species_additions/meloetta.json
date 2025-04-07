@@ -90,6 +90,7 @@
         "tm:flareblitz",
         "tm:healbell",
         "tm:heatwave",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:incinerate",
@@ -117,7 +118,8 @@
         "tm:triattack",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -310,7 +312,8 @@
         "tutor:thunderpunch",
         "tutor:trick",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

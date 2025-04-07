@@ -148,7 +148,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -316,7 +317,8 @@
         "tm:swagger",
         "tm:icefang",
         "tm:toxic",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

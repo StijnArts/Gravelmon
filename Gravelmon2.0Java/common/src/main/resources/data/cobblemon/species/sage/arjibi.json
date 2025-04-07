@@ -147,7 +147,8 @@
     "egg:mirrorcoat",
     "egg:naturepower",
     "egg:powergem",
-    "egg:recover"
+    "egg:recover",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

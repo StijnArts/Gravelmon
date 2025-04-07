@@ -76,7 +76,8 @@
     "49:darkpulse",
     "53:nastyplot",
     "58:voltswitch",
-    "62:zapcannon"
+    "62:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3515,
+  "nationalPokedexNumber": 3523,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.125,

@@ -92,6 +92,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:ironhead",
@@ -116,7 +117,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -317,7 +319,8 @@
         "tutor:thunderpunch",
         "tutor:uproar",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -77,7 +77,8 @@
     "45:aquatail",
     "50:superpower",
     "61:reversal",
-    "67:closecombat"
+    "67:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -92,7 +93,7 @@
   "weight": 131,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4194,
+  "nationalPokedexNumber": 4202,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

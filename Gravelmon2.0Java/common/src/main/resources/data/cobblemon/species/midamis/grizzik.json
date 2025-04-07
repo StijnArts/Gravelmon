@@ -75,7 +75,8 @@
     "60:focuspunch",
     "tm:machpunch",
     "tm:icywind",
-    "tm:crushclaw"
+    "tm:crushclaw",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4380,
+  "nationalPokedexNumber": 4388,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:swordsdance",
+    "4:sandattack",
+    "7:mudbomb",
+    "10:bulldoze",
+    "13:dig",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -75,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5712,
+  "nationalPokedexNumber": 5720,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

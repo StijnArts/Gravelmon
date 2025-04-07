@@ -76,7 +76,8 @@
     "46:dragontail",
     "50:cosmicpower",
     "64:storedpower",
-    "90:dracometeor"
+    "90:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1635,
+  "nationalPokedexNumber": 1638,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

@@ -78,7 +78,8 @@
     "tm:helpinghand",
     "tm:tickle",
     "tm:covet",
-    "tm:disarmingvoice"
+    "tm:disarmingvoice",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2953,
+  "nationalPokedexNumber": 2961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

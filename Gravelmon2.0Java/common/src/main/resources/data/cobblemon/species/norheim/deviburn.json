@@ -75,7 +75,8 @@
     "50:nastyplot",
     "56:inferno",
     "62:burningjealousy",
-    "73:torment"
+    "73:torment",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3181,
+  "nationalPokedexNumber": 3189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

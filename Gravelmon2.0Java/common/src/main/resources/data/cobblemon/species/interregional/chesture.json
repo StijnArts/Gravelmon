@@ -82,7 +82,8 @@
     "39:nastyplot",
     "43:meanlook",
     "46:batonpass",
-    "50:slam"
+    "50:slam",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1464,
+  "nationalPokedexNumber": 1467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

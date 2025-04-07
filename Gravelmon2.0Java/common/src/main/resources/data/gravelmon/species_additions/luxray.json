@@ -141,7 +141,8 @@
         "tm:toxicspikes",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -317,7 +318,8 @@
         "tutor:suckerpunch",
         "tutor:superpower",
         "tutor:superfang",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -492,7 +494,8 @@
         "egg:signalbeam",
         "egg:helpinghand",
         "egg:eerieimpulse",
-        "egg:faketears"
+        "egg:faketears",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -644,7 +647,8 @@
         "tm:electricterrain",
         "tm:thunderbolt",
         "tm:wildcharge",
-        "tm:thunder"
+        "tm:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -667,12 +671,194 @@
         "height": 31.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 235,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "luxio form=ishirian",
+      "baseScale": 0.41481481481481475,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "intimidate",
+        "h:guts"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defence": 79,
+        "special_attack": 70,
+        "special_defence": 79,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:thundershock",
+        "5:leer",
+        "9:charge",
+        "13:spark",
+        "18:icefang",
+        "23:roar",
+        "28:swagger",
+        "35:thunderfang",
+        "42:thunderwave",
+        "49:scaryface",
+        "56:tripleaxel",
+        "63:wildcharge",
+        "67:electricterrain",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:attract",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:protect",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:rest",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:bite",
+        "tm:crunch",
+        "tm:irontail",
+        "tm:helpinghand",
+        "tm:signalbeam",
+        "tm:shockwave",
+        "tm:magnetrise",
+        "tm:babydolleyes",
+        "tm:roar",
+        "tm:thunderwave",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:thief",
+        "tm:chillyreception",
+        "tm:raindance",
+        "tm:facade",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:snarl",
+        "tm:flash",
+        "tm:captivate",
+        "tm:confuseray",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:faketears",
+        "tm:furycutter",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:playrough",
+        "tm:psychicfangs",
+        "tm:risingvoltage",
+        "tm:strength",
+        "tm:swift",
+        "tm:takedown",
+        "tm:trailblaze",
+        "tm:doubleedge",
+        "tm:electroweb",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:iceball",
+        "tm:haze",
+        "tm:iceshard",
+        "tm:iciclecrash",
+        "tm:avalanche",
+        "tm:icespinner",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:snowscape",
+        "tm:freezedry",
+        "tm:headbutt",
+        "tm:howl",
+        "tm:quickattack",
+        "tm:frostbreath",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianluxray.desc"
+      ],
+      "height": 14,
+      "weight": 460,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0625,
+        "height": 5.0625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
     "delta",
     "ayreian",
-    "kaskadian"
+    "kaskadian",
+    "ishirian"
   ]
 }

@@ -135,7 +135,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -330,7 +331,8 @@
         "tutor:stealthrock",
         "tutor:superfang",
         "tutor:superpower",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

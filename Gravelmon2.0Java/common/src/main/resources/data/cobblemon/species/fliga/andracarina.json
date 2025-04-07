@@ -75,7 +75,8 @@
     "51:skyattack",
     "55:moonlight",
     "60:gunkshot",
-    "70:hurricane"
+    "70:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3979,
+  "nationalPokedexNumber": 3987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

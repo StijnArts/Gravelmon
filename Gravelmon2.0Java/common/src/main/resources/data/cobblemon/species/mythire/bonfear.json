@@ -145,7 +145,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:tripleaxel",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -158,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3892,
+  "nationalPokedexNumber": 3900,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

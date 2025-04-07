@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:payback",
+        "4:drainingkiss",
+        "7:nightdaze",
+        "7:playnice",
+        "10:snarl",
+        "10:dazzlinggleam",
+        "13:knockoff",
+        "13:hypervoice",
+        "16:darkpulse",
+        "16:moonblast",
+        "19:bite",
+        "19:disarmingvoice",
+        "22:leer",
+        "22:babydolleyes",
+        "25:payback",
+        "25:drainingkiss",
+        "28:nightslash",
+        "28:playnice",
+        "31:crunch",
+        "31:dazzlinggleam",
+        "34:knockoff",
+        "34:playrough",
+        "39:suckerpunch",
+        "39:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -199,6 +226,7 @@
         "tm:gammaray",
         "tm:geomancy",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -247,7 +275,8 @@
         "egg:teeterdance",
         "egg:copycat",
         "egg:allyswitch",
-        "egg:workup"
+        "egg:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

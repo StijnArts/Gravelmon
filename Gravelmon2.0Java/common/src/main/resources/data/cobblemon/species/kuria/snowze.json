@@ -75,7 +75,8 @@
     "38:zenheadbutt",
     "41:iciclecrash",
     "46:doubleedge",
-    "50:megahorn"
+    "50:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 1231,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4170,
+  "nationalPokedexNumber": 4178,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

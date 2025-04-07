@@ -81,7 +81,8 @@
     "tm:copycat",
     "tm:lastresort",
     "tm:thunderfang",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4305,
+  "nationalPokedexNumber": 4313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

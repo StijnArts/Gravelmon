@@ -1,0 +1,113 @@
+{
+  "name": "Noseferatu",
+  "primaryType": "poison",
+  "secondaryType": "flying",
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "venobat",
+  "baseScale": 0.35744680851063826,
+  "cannotDynamax": false,
+  "abilities": [
+    "keeneye"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:acid",
+    "1:gust",
+    "1:leer",
+    "1:leer",
+    "10:clearsmog",
+    "10:aircutter",
+    "15:sludge",
+    "15:wingattack",
+    "20:toxicspikes",
+    "20:airslash",
+    "25:sludgebomb",
+    "25:drillpeck",
+    "30:sludgewave",
+    "30:hurricane",
+    "35:poisonsting",
+    "35:peck",
+    "40:leer",
+    "40:leer",
+    "45:venoshock",
+    "45:pluck",
+    "50:poisontail",
+    "50:wingattack",
+    "55:toxicspikes",
+    "55:aerialace",
+    "tm:terablast"
+  ],
+  "labels": [
+    "olysos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.noseferatu.desc"
+  ],
+  "height": 14,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6758,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 5.875000000000001,
+    "height": 5.875000000000001,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

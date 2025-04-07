@@ -95,7 +95,8 @@
     "egg:finalgambit",
     "egg:flail",
     "egg:gust",
-    "egg:nightslash"
+    "egg:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4659,
+  "nationalPokedexNumber": 4667,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

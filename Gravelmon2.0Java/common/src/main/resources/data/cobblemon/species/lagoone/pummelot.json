@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:lowkick"
+    "1:lowkick",
+    "1:stringshot",
+    "1:leer",
+    "3:leechlife",
+    "3:revenge",
+    "6:lunge",
+    "6:lowsweep",
+    "9:xscissor",
+    "9:brickbreak",
+    "12:uturn",
+    "12:karatechop",
+    "15:megahorn",
+    "15:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -78,7 +91,7 @@
   "weight": 720,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1380,
+  "nationalPokedexNumber": 1382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -107,7 +107,7 @@ public class EpochFletchling extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEATHVORTEX,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 23, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 23, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

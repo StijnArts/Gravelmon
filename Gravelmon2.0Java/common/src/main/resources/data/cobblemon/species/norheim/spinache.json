@@ -80,7 +80,8 @@
     "tm:dynamicpunch",
     "tm:bellydrum",
     "tm:bulletpunch",
-    "tm:poweruppunch"
+    "tm:poweruppunch",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3099,
+  "nationalPokedexNumber": 3107,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

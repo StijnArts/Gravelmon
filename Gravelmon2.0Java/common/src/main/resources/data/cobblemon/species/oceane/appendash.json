@@ -67,7 +67,8 @@
     "1:instruct",
     "1:attract",
     "1:followme",
-    "1:swagger"
+    "1:swagger",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1882,
+  "nationalPokedexNumber": 1885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -77,7 +77,8 @@
     "60:bodyslam",
     "66:gigaimpact",
     "71:dragonrush",
-    "77:rockwrecker"
+    "77:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5147,
+  "nationalPokedexNumber": 5155,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -28,7 +28,7 @@ public class Plasmuff extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 28, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

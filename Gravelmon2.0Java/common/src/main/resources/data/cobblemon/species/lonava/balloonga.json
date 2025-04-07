@@ -126,7 +126,8 @@
     "tm:watergun",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3363,
+  "nationalPokedexNumber": 3371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

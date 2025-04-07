@@ -142,7 +142,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -247,7 +248,8 @@
         "65:headsmash",
         "58:milkdrink",
         "34:bulkup",
-        "60:earthquake"
+        "60:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -396,7 +398,8 @@
         "tm:zenheadbutt",
         "tm:earthpower",
         "tm:closecombat",
-        "tm:weatherball"
+        "tm:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -554,7 +557,8 @@
         "egg:headsmash",
         "egg:milkdrink",
         "egg:rollout",
-        "egg:stealthrock"
+        "egg:stealthrock",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

@@ -113,7 +113,8 @@
     "tm:electricterrain",
     "tm:grassyterrain",
     "tm:wildcharge",
-    "tm:doublekick"
+    "tm:doublekick",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

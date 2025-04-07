@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "4:bubblebeam",
+    "7:aquatail",
+    "10:surf",
+    "13:waterfall",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2526,
+  "nationalPokedexNumber": 2534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

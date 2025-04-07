@@ -114,7 +114,8 @@
         "tm:substitute",
         "tm:toxicspikes",
         "tm:venomdrench",
-        "tm:venoshock"
+        "tm:venoshock",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

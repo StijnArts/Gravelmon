@@ -70,7 +70,8 @@
     "26:jumpkick",
     "30:megakick",
     "33:agility",
-    "46:highjumpkick"
+    "46:highjumpkick",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2278,
+  "nationalPokedexNumber": 2286,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

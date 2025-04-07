@@ -64,7 +64,23 @@
     "1:tackle",
     "1:thundershock",
     "1:extremespeed",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:quickattack",
+    "4:charge",
+    "4:swordsdance",
+    "7:bite",
+    "7:thunderpunch",
+    "10:takedown",
+    "10:discharge",
+    "13:crunch",
+    "13:wildcharge",
+    "16:doubleedge",
+    "16:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2826,
+  "nationalPokedexNumber": 2834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

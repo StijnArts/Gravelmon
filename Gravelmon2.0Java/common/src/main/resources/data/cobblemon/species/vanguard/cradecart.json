@@ -128,7 +128,8 @@
     "egg:curse",
     "egg:block",
     "egg:wideguard",
-    "egg:knockoff"
+    "egg:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "gen5",
@@ -143,7 +144,7 @@
   "weight": 2000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4082,
+  "nationalPokedexNumber": 4090,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

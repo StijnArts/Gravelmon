@@ -65,7 +65,19 @@
       "drops": {},
       "moves": [
         "1:metalclaw",
-        "1:ember"
+        "1:ember",
+        "1:screech",
+        "1:growl",
+        "4:irontail",
+        "4:quickattack",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:ironhead",
+        "10:firepunch",
+        "13:meteormash",
+        "13:willowisp",
+        "16:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -258,7 +270,8 @@
         "tutor:thunderpunch",
         "tutor:twister",
         "tutor:vacuumwave",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -387,7 +400,8 @@
         "tm:cut",
         "tm:strength",
         "tm:rocksmash",
-        "egg:glare"
+        "egg:glare",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:rockthrow"
+    "1:rockthrow",
+    "1:stringshot",
+    "1:defensecurl",
+    "4:leechlife",
+    "4:rollout",
+    "7:lunge",
+    "7:smackdown",
+    "10:xscissor",
+    "10:rockblast",
+    "13:uturn",
+    "13:stealthrock",
+    "16:megahorn",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2472,
+  "nationalPokedexNumber": 2480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

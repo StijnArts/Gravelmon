@@ -72,7 +72,8 @@
     "44:toxic",
     "46:toxicspikes",
     "52:powergem",
-    "60:explosion"
+    "60:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1692,
+  "nationalPokedexNumber": 1695,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

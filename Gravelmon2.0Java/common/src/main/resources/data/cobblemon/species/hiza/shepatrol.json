@@ -69,7 +69,8 @@
     "30:crunch",
     "36:agility",
     "44:playrough",
-    "49:gigaimpact"
+    "49:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2292,
+  "nationalPokedexNumber": 2300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -76,7 +76,8 @@
     "42:closecombat",
     "47:darkestlariat",
     "51:block",
-    "60:wideguard"
+    "60:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1673,
+  "nationalPokedexNumber": 1676,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

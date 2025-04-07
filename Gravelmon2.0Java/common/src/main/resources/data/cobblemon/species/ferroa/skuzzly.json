@@ -110,7 +110,8 @@
     "tm:trickroom",
     "tm:weatherball",
     "tm:willowisp",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -123,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1573,
+  "nationalPokedexNumber": 1576,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

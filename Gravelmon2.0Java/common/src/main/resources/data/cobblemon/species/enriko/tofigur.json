@@ -70,7 +70,8 @@
     "30:psybeam",
     "34:calmmind",
     "38:simplebeam",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1663,
+  "nationalPokedexNumber": 1666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

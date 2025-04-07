@@ -16,14 +16,15 @@ public class Bewilt extends drai.dev.data.pokemon.Pokemon {
                         55,
                         31),
                 List.of(Ability.OVERGROW), Ability.RIPEN,
-                0, 0,
+                5, 0,
                 new Stats(0,0,1,0,0,0), 45,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("- Harden Normal - AbsorbSTAB Grass - Scratch Normal 7 Sludge Poison 12 Protect Normal 15 Mega DrainSTAB Grass 17 Leech Seed Grass 21 Toxic Poison 25 Venoshock Poison 28 Seed BombSTAB Grass 32 Sludge Bomb Poison 36 Leaf StormSTAB Grass"),
-                List.of(),
+                List.of(new EvolutionEntry("twirleef", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -39,7 +40,11 @@ public class Bewilt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,36)                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bewilt");

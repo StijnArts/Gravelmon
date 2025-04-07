@@ -72,7 +72,8 @@
     "36:uturn",
     "40:crabhammer",
     "44:swordsdance",
-    "50:finalgambit"
+    "50:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 1651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

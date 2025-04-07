@@ -75,7 +75,8 @@
     "47:thunderbolt",
     "50:outrage",
     "56:playrough",
-    "61:thunder"
+    "61:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2345,
+  "nationalPokedexNumber": 2353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

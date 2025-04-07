@@ -143,7 +143,8 @@
     "tm:stompingtantrum",
     "tm:gravity",
     "tm:strength",
-    "tm:rockclimb"
+    "tm:rockclimb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5038,
+  "nationalPokedexNumber": 5046,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

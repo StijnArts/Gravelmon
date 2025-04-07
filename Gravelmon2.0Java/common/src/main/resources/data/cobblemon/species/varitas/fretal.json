@@ -73,7 +73,8 @@
     "33:synthesis",
     "38:petaldance",
     "43:sunnyday",
-    "48:leafblade"
+    "48:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1942,
+  "nationalPokedexNumber": 1945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

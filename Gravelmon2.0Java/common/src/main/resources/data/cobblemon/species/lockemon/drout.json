@@ -74,7 +74,8 @@
     "40:earthquake",
     "48:futuresight",
     "56:fissure",
-    "egg:thrash"
+    "egg:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -87,7 +88,7 @@
   "weight": 1235,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3398,
+  "nationalPokedexNumber": 3406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,
@@ -160,7 +161,9 @@
         "water_1"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "lockemon",
         "not_modeled"

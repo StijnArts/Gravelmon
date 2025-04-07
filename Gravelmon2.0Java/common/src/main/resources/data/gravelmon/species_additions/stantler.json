@@ -1,5 +1,49 @@
 {
   "target": "cobblemon:stantler",
+  "evolutions": [
+    {
+      "id": "stantler_moosid",
+      "variant": "level_up",
+      "result": "moosid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "crunch"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "stantler_egoelk",
+      "variant": "level_up",
+      "result": "egoelk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "calmmind"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "stantler_suprago",
+      "variant": "level_up",
+      "result": "suprago",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "sacredsword"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -64,7 +108,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:confusion"
+        "1:confusion",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:psybeam",
+        "7:shockwave",
+        "7:futuresight",
+        "10:discharge",
+        "10:psychic",
+        "13:thunderbolt",
+        "13:psyshock",
+        "16:thunder",
+        "16:psychoboost",
+        "19:thundershock",
+        "19:confusion",
+        "22:leer",
+        "22:growl",
+        "25:charge",
+        "25:psybeam",
+        "28:thunderpunch",
+        "28:futuresight",
+        "31:discharge",
+        "31:psychic",
+        "34:wildcharge",
+        "34:zenheadbutt",
+        "39:supercellslam",
+        "39:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -219,7 +290,8 @@
         "egg:thrash",
         "egg:icywind",
         "egg:magicalleaf",
-        "egg:entrainment"
+        "egg:entrainment",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -386,7 +458,8 @@
         "egg:jumpkick",
         "egg:thrash",
         "egg:doublekick",
-        "egg:mefirst"
+        "egg:mefirst",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -563,7 +636,8 @@
         "egg:megahorn",
         "egg:mudsport",
         "egg:rage",
-        "egg:mefirst"
+        "egg:mefirst",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

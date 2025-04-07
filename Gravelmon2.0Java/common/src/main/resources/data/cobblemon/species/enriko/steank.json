@@ -76,7 +76,8 @@
     "39:acidarmor",
     "43:explosion",
     "46:belch",
-    "50:gastroacid"
+    "50:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1674,
+  "nationalPokedexNumber": 1677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

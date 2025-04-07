@@ -140,7 +140,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -355,7 +356,8 @@
         "tutor:trick",
         "tutor:uproar",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -507,7 +509,8 @@
         "egg:feint",
         "egg:headbutt",
         "egg:quickguard",
-        "egg:wakeupslap"
+        "egg:wakeupslap",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",
@@ -670,7 +673,8 @@
         "egg:screech",
         "egg:slam",
         "egg:spite",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

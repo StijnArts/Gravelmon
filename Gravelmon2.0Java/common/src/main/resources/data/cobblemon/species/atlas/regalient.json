@@ -126,7 +126,8 @@
     "tm:workup",
     "tm:xscissor",
     "tm:dragondance",
-    "tm:tailslap"
+    "tm:tailslap",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5053,
+  "nationalPokedexNumber": 5061,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

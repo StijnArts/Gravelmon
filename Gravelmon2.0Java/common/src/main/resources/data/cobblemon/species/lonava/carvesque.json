@@ -77,7 +77,8 @@
     "46:confuseray",
     "53:nightslash",
     "57:earthquake",
-    "60:meanlook"
+    "60:meanlook",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3308,
+  "nationalPokedexNumber": 3316,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

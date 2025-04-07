@@ -119,7 +119,7 @@ public class EpochHoppip extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 25, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")

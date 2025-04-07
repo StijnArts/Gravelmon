@@ -125,7 +125,8 @@
     "egg:flail",
     "egg:psybeam",
     "egg:sweetkiss",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
   "weight": 450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4658,
+  "nationalPokedexNumber": 4666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

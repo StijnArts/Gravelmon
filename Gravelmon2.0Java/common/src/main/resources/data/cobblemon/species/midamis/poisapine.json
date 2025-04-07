@@ -74,7 +74,8 @@
     "38:rest",
     "43:ironhead",
     "46:gunkshot",
-    "52:gyroball"
+    "52:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4316,
+  "nationalPokedexNumber": 4324,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

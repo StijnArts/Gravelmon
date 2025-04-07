@@ -161,7 +161,8 @@
     "egg:stoneedge",
     "egg:sunnyday",
     "egg:taunt",
-    "egg:vacuumwave"
+    "egg:vacuumwave",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -176,7 +177,7 @@
   "weight": 197,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4593,
+  "nationalPokedexNumber": 4601,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

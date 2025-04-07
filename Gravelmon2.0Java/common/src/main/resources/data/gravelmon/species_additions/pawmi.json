@@ -142,7 +142,8 @@
         "egg:facade",
         "egg:endure",
         "egg:flail",
-        "egg:lastresort"
+        "egg:lastresort",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

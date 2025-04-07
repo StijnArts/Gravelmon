@@ -62,6 +62,18 @@
   "moves": [
     "1:tackle",
     "1:lick",
+    "1:growl",
+    "1:growl",
+    "10:round",
+    "10:confuseray",
+    "15:swift",
+    "15:ominouswind",
+    "20:uproar",
+    "20:nightshade",
+    "25:hypervoice",
+    "25:hex",
+    "30:hyperbeam",
+    "30:shadowball",
     "tm:snore",
     "tm:shadowball",
     "tm:attract",
@@ -76,7 +88,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -89,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4682,
+  "nationalPokedexNumber": 4690,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

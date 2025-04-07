@@ -166,7 +166,8 @@
     "tm:synchronoise",
     "tm:babydolleyes",
     "tm:twinbeam",
-    "tm:bodyslam"
+    "tm:bodyslam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -194,7 +195,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5021,
+  "nationalPokedexNumber": 5029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

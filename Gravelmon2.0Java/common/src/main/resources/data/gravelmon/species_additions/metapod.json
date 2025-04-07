@@ -1,5 +1,21 @@
 {
   "target": "cobblemon:metapod",
+  "evolutions": [
+    {
+      "id": "metapod_betterfree",
+      "variant": "level_up",
+      "result": "betterfree",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "25"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Epoch",
@@ -71,7 +87,8 @@
         "10:strugglebug",
         "1:stringshot",
         "tm:strugglebug",
-        "tm:irondefense"
+        "tm:irondefense",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -184,7 +201,8 @@
         "17:protect",
         "tutor:bugbite",
         "tutor:electroweb",
-        "tutor:irondefense"
+        "tutor:irondefense",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

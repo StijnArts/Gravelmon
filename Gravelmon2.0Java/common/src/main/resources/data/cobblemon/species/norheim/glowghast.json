@@ -80,7 +80,8 @@
     "51:painsplit",
     "55:terrorize",
     "60:destinybond",
-    "64:leafstorm"
+    "64:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3190,
+  "nationalPokedexNumber": 3198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

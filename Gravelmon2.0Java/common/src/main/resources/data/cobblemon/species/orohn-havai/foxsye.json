@@ -69,7 +69,8 @@
     "39:luckychant",
     "45:superpower",
     "50:trick",
-    "55:playrough"
+    "55:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3027,
+  "nationalPokedexNumber": 3035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

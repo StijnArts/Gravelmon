@@ -76,7 +76,8 @@
     "tm:shockwave",
     "tm:waterpulse",
     "tm:zenheadbutt",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3169,
+  "nationalPokedexNumber": 3177,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -145,7 +145,8 @@
     "tm:minimize",
     "tm:chillingwater",
     "tm:icehammer",
-    "tm:gastroacid"
+    "tm:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5028,
+  "nationalPokedexNumber": 5036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

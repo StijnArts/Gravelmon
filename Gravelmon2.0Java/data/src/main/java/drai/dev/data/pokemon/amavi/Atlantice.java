@@ -44,7 +44,7 @@ public class Atlantice extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 36, 53, 0.1, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -121,7 +121,8 @@
     "egg:sandstorm",
     "egg:stoneedge",
     "egg:sunnyday",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4584,
+  "nationalPokedexNumber": 4592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

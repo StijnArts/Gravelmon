@@ -183,7 +183,8 @@
     "tm:thundershock",
     "tm:twister",
     "tm:zapcannon",
-    "tm:weatherball"
+    "tm:weatherball",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -207,7 +208,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3303,
+  "nationalPokedexNumber": 3311,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

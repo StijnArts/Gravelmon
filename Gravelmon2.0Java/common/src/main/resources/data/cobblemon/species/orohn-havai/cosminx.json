@@ -74,7 +74,8 @@
     "39:flashcannon",
     "43:powergem",
     "48:wish",
-    "54:moonblast"
+    "54:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3015,
+  "nationalPokedexNumber": 3023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

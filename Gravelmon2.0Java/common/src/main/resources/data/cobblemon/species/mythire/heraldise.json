@@ -118,7 +118,8 @@
     "1:roar",
     "1:naturepower",
     "1:doubleteam",
-    "1:agility"
+    "1:agility",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3835,
+  "nationalPokedexNumber": 3843,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

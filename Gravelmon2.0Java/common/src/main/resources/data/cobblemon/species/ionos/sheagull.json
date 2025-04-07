@@ -82,7 +82,8 @@
     "48:featherdance",
     "50:bravebird",
     "56:hurricane",
-    "64:skyattack"
+    "64:skyattack",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4720,
+  "nationalPokedexNumber": 4728,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

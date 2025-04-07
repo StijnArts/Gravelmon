@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:peck",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:pluck",
+    "4:payback",
+    "7:wingattack",
+    "7:nightslash",
+    "10:aerialace",
+    "10:crunch",
+    "13:drillpeck",
+    "13:knockoff",
+    "16:bravebird",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -91,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2718,
+  "nationalPokedexNumber": 2726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

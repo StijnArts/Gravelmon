@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bulkup"
+    "1:bulkup",
+    "1:tailwhip",
+    "1:calmmind",
+    "10:bubblebeam",
+    "10:taunt",
+    "15:brine",
+    "15:substitute",
+    "20:surf",
+    "20:rest",
+    "25:chillingwater",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -73,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6059,
+  "nationalPokedexNumber": 6067,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

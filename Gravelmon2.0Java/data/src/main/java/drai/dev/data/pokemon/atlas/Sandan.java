@@ -82,7 +82,7 @@ public class Sandan extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

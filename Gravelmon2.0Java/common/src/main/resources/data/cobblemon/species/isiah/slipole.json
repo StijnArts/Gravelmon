@@ -75,7 +75,8 @@
     "37:drillpeck",
     "41:roost",
     "44:blizzard",
-    "47:mirrormove"
+    "47:mirrormove",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4262,
+  "nationalPokedexNumber": 4270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -87,7 +87,8 @@
     "egg:brine",
     "egg:swagger",
     "egg:supersonic",
-    "egg:mist"
+    "egg:mist",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1475,
+  "nationalPokedexNumber": 1478,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

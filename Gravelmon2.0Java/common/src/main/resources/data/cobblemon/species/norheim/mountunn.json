@@ -76,7 +76,8 @@
     "34:earthpower",
     "37:bodypress",
     "40:stoneedge",
-    "43:thunder"
+    "43:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3219,
+  "nationalPokedexNumber": 3227,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

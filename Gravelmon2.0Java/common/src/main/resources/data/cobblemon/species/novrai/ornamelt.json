@@ -140,7 +140,8 @@
     "tm:corrosivegas",
     "tm:megadrain",
     "tm:rockblast",
-    "tm:muddywater"
+    "tm:muddywater",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4979,
+  "nationalPokedexNumber": 4987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

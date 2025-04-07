@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:scratch"
+    "1:scratch",
+    "1:stringshot",
+    "1:leer",
+    "4:silverwind",
+    "4:twister",
+    "8:signalbeam",
+    "8:dragonbreath",
+    "12:infestation",
+    "12:breakingswipe",
+    "16:uturn",
+    "16:dragonpulse",
+    "20:bugbuzz",
+    "20:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1382,
+  "nationalPokedexNumber": 1384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -76,7 +76,8 @@
     "61:wish",
     "68:dazzlinggleam",
     "80:wonderroom",
-    "88:blizzard"
+    "88:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4779,
+  "nationalPokedexNumber": 4787,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

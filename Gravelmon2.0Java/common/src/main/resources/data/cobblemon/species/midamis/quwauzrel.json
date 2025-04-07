@@ -72,7 +72,8 @@
     "48:lastresort",
     "51:reflecttype",
     "tm:roost",
-    "tm:storedpower"
+    "tm:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4376,
+  "nationalPokedexNumber": 4384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

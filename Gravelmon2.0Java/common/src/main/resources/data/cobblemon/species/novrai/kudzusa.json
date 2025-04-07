@@ -152,7 +152,8 @@
     "tm:petalblizzard",
     "tm:meanlook",
     "tm:ingrain",
-    "tm:quash"
+    "tm:quash",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -167,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4853,
+  "nationalPokedexNumber": 4861,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

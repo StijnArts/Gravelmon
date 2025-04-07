@@ -62,7 +62,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:lowkick"
+        "1:lowkick",
+        "1:leer",
+        "4:revenge",
+        "7:lowsweep",
+        "10:brickbreak",
+        "13:karatechop",
+        "16:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -231,7 +238,8 @@
         "egg:agility",
         "egg:triplekick",
         "egg:skittersmack",
-        "egg:fellstinger"
+        "egg:fellstinger",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -343,7 +351,8 @@
         "42:nightslash",
         "46:focusenergy",
         "50:stoneedge",
-        "56:doubleedge"
+        "56:doubleedge",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -523,7 +532,8 @@
         "tutor:snore",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -704,7 +714,8 @@
         "tm:workup",
         "tm:worryseed",
         "tm:xscissor",
-        "tm:leechlife"
+        "tm:leechlife",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -819,7 +830,8 @@
         "40:followme",
         "44:batonpass",
         "48:lastresort",
-        "52:wish"
+        "52:wish",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

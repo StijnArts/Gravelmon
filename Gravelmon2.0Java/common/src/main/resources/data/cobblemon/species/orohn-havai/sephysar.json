@@ -86,7 +86,8 @@
     "tm:whirlpool",
     "tm:waterpulse",
     "tm:dragonpulse",
-    "tm:icefang"
+    "tm:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -101,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3034,
+  "nationalPokedexNumber": 3042,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

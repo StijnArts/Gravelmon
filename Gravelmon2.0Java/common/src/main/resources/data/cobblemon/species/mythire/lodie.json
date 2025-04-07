@@ -70,7 +70,8 @@
     "1:electroball",
     "1:triattack",
     "1:iondeluge",
-    "1:defensecurl"
+    "1:defensecurl",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3906,
+  "nationalPokedexNumber": 3914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

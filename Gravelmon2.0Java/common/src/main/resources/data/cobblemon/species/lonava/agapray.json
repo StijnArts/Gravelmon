@@ -96,7 +96,8 @@
     "tm:calmmind",
     "tm:rest",
     "tm:heartstamp",
-    "tm:teleport"
+    "tm:teleport",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -109,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3332,
+  "nationalPokedexNumber": 3340,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

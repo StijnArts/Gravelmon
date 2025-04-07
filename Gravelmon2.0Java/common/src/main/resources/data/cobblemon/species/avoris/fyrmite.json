@@ -74,7 +74,8 @@
     "40:crunch",
     "45:firelash",
     "50:lunge",
-    "55:burnup"
+    "55:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1842,
+  "nationalPokedexNumber": 1845,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

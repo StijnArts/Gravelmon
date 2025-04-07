@@ -75,7 +75,8 @@
     "32:heavyslam",
     "36:irondefense",
     "40:metalsound",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3491,
+  "nationalPokedexNumber": 3499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

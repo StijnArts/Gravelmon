@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:bite"
+        "1:bite",
+        "1:stringshot",
+        "1:leer",
+        "4:silverwind",
+        "4:payback",
+        "7:signalbeam",
+        "7:nightdaze",
+        "10:infestation",
+        "10:snarl",
+        "13:uturn",
+        "13:knockoff",
+        "16:bugbuzz",
+        "16:darkpulse",
+        "19:strugglebug",
+        "19:bite",
+        "22:stringshot",
+        "22:leer",
+        "25:leechlife",
+        "25:payback",
+        "28:lunge",
+        "28:nightslash",
+        "31:xscissor",
+        "31:crunch",
+        "34:uturn",
+        "34:knockoff",
+        "39:megahorn",
+        "39:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -150,7 +177,20 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:bite"
+        "1:bite",
+        "1:stringshot",
+        "1:leer",
+        "4:leechlife",
+        "4:payback",
+        "7:lunge",
+        "7:nightslash",
+        "10:xscissor",
+        "10:crunch",
+        "13:uturn",
+        "13:knockoff",
+        "16:megahorn",
+        "16:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -315,7 +355,8 @@
         "egg:twineedle",
         "egg:shadowsneak",
         "egg:spiderweb",
-        "egg:stickyweb"
+        "egg:stickyweb",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -466,7 +507,8 @@
         "tm:batonpass",
         "tm:bugbuzz",
         "tm:terablast",
-        "tm:bugbite"
+        "tm:bugbite",
+        "tm:terablast"
       ],
       "labels": [
         "aristos",
@@ -632,7 +674,8 @@
         "egg:ragepowder",
         "egg:nightslash",
         "egg:megahorn",
-        "egg:lunge"
+        "egg:lunge",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

@@ -137,7 +137,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -297,7 +298,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -486,7 +488,8 @@
         "tutor:suckerpunch",
         "tutor:superpower",
         "tutor:thunderpunch",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -613,7 +616,8 @@
         "tm:rest",
         "tm:attract",
         "egg:growth",
-        "egg:seedbomb"
+        "egg:seedbomb",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",
@@ -762,7 +766,8 @@
         "tm:psychup",
         "tm:endeavor",
         "tm:futuresight",
-        "tm:expandingforce"
+        "tm:expandingforce",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",
@@ -911,7 +916,8 @@
         "tm:psychup",
         "tm:endeavor",
         "tm:futuresight",
-        "tm:expandingforce"
+        "tm:expandingforce",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

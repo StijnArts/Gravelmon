@@ -114,7 +114,8 @@
     "tutor:signalbeam",
     "tutor:seedbomb",
     "tutor:gastroacid",
-    "tutor:foulplay"
+    "tutor:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3703,
+  "nationalPokedexNumber": 3711,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

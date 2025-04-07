@@ -63,7 +63,22 @@
     "1:bite",
     "1:powdersnow",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "10:payback",
+    "10:icywind",
+    "15:nightslash",
+    "15:icepunch",
+    "20:crunch",
+    "20:icespinner",
+    "25:knockoff",
+    "25:iceshard",
+    "30:suckerpunch",
+    "30:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5973,
+  "nationalPokedexNumber": 5981,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

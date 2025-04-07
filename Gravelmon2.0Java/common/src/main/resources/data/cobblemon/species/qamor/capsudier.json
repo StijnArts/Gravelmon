@@ -80,7 +80,8 @@
     "tm:surf",
     "tm:muddywater",
     "tm:aquaring",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4004,
+  "nationalPokedexNumber": 4012,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -146,7 +146,8 @@
     "tm:extrasensory",
     "tm:acid",
     "tm:rollout",
-    "tm:miracleeye"
+    "tm:miracleeye",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4934,
+  "nationalPokedexNumber": 4942,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

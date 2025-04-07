@@ -142,7 +142,8 @@
     "egg:gigadrain",
     "egg:electroweb",
     "egg:poisonpowder",
-    "egg:mistyterrain"
+    "egg:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1980,
+  "nationalPokedexNumber": 1983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

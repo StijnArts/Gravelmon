@@ -70,7 +70,8 @@
     "22:raindance",
     "29:shadowclaw",
     "37:razorshell",
-    "46:recover"
+    "46:recover",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1884,
+  "nationalPokedexNumber": 1887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

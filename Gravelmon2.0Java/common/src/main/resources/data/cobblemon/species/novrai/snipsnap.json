@@ -132,7 +132,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:brine",
-    "tm:snaptrap"
+    "tm:snaptrap",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4827,
+  "nationalPokedexNumber": 4835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

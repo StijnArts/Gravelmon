@@ -80,7 +80,8 @@
     "tm:icepunch",
     "tm:thunderpunch",
     "tm:bite",
-    "tm:dragonrage"
+    "tm:dragonrage",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4353,
+  "nationalPokedexNumber": 4361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

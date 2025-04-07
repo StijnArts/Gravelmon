@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "10:twister",
+    "15:dragonbreath",
+    "20:breakingswipe",
+    "25:dragonpulse",
+    "30:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5379,
+  "nationalPokedexNumber": 5387,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -74,7 +74,8 @@
     "38:iciclecrash",
     "42:magiccoat",
     "46:aromatherapy",
-    "50:leafstorm"
+    "50:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4059,
+  "nationalPokedexNumber": 4067,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

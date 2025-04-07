@@ -154,7 +154,8 @@
     "egg:magnitude",
     "egg:thrash",
     "egg:tickle",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

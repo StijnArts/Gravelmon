@@ -69,7 +69,8 @@
     "42:sleeppowder",
     "48:bugbuzz",
     "54:spikes",
-    "63:blizzard"
+    "63:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1733,
+  "nationalPokedexNumber": 1736,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -153,7 +153,8 @@
         "egg:skullbash",
         "egg:heatcrash",
         "egg:furyswipes",
-        "egg:slash"
+        "egg:slash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -336,7 +337,8 @@
         "tm:swagger",
         "tm:icefang",
         "tm:toxic",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

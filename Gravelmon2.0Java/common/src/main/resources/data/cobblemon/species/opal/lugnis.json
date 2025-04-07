@@ -86,7 +86,8 @@
     "egg:flareblitz",
     "egg:focuspunch",
     "egg:metalclaw",
-    "egg:nastyplot"
+    "egg:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1479,
+  "nationalPokedexNumber": 1482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -64,7 +64,22 @@
     "1:strugglebug",
     "1:bite",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:silverwind",
+    "10:payback",
+    "15:signalbeam",
+    "15:nightdaze",
+    "20:infestation",
+    "20:snarl",
+    "25:uturn",
+    "25:knockoff",
+    "30:bugbuzz",
+    "30:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -79,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5835,
+  "nationalPokedexNumber": 5843,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

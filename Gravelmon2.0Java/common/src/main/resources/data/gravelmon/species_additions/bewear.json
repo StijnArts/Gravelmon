@@ -135,7 +135,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -237,7 +238,8 @@
         "36:shadowclaw",
         "40:doubleedge",
         "44:swordsdance",
-        "48:drainpunch"
+        "48:drainpunch",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

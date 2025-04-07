@@ -70,7 +70,8 @@
     "40:earthpower",
     "48:hydropump",
     "56:bellydrum",
-    "66:doubleedge"
+    "66:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

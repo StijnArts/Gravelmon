@@ -130,7 +130,8 @@
         "egg:dragontail",
         "egg:assurance",
         "egg:tailwind",
-        "egg:rockslide"
+        "egg:rockslide",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

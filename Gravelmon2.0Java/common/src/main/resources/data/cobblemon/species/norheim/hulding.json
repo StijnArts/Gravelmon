@@ -78,7 +78,8 @@
     "39:psychic",
     "45:moonlight",
     "50:moonblast",
-    "53:psychoboost"
+    "53:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3187,
+  "nationalPokedexNumber": 3195,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

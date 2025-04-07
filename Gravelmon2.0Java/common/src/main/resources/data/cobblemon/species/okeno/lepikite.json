@@ -79,7 +79,8 @@
     "tm:endeavor",
     "tm:ominouswind",
     "tm:agility",
-    "tm:fairywind"
+    "tm:fairywind",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4428,
+  "nationalPokedexNumber": 4436,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

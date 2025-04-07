@@ -69,7 +69,8 @@
     "30:crunch",
     "36:recover",
     "42:aerialace",
-    "48:fishiousrend"
+    "48:fishiousrend",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -149,7 +149,8 @@
     "tm:bide",
     "tm:crunch",
     "tm:dragonbreath",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -179,7 +180,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4871,
+  "nationalPokedexNumber": 4879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

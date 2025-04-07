@@ -87,7 +87,8 @@
         "egg:destinybond",
         "egg:flatter",
         "egg:powersplit",
-        "egg:simplebeam"
+        "egg:simplebeam",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

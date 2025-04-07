@@ -143,7 +143,8 @@
     "tm:supersonic",
     "tm:barrier",
     "tm:guardswap",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -158,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3493,
+  "nationalPokedexNumber": 3501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

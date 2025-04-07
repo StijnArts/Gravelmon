@@ -121,6 +121,5 @@ public class Scaleon extends Pokemon {
 
         addAdditionalEvolution("eevee", new EvolutionEntry("scaleon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRAGON_PLEDGE.getName()))));
-        GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.DRAGON_PLEDGE, 30));
     }
 }

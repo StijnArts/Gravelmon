@@ -67,7 +67,8 @@
     "42:moonblast",
     "52:playrough",
     "62:darkpulse",
-    "72:mistyexplosion"
+    "72:mistyexplosion",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3230,
+  "nationalPokedexNumber": 3238,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -42,7 +42,7 @@ public class Algrain extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,53)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 8, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -134,7 +134,8 @@
     "egg:thunderbolt",
     "egg:tickle",
     "egg:whirlpool",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -210,7 +211,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3164,
+  "nationalPokedexNumber": 3172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

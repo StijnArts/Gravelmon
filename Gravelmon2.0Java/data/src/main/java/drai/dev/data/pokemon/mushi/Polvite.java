@@ -16,18 +16,23 @@ public class Polvite extends drai.dev.data.pokemon.Pokemon {
                         32,
                         55),
                 List.of(Ability.SAND_FORCE,Ability.SAP_SIPPER), Ability.INFILTRATOR,
-                0, 0,
+                5, 0,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("koromite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(13).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Polvite");

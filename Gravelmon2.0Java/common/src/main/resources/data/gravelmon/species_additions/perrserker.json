@@ -62,7 +62,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:powdersnow"
+        "1:powdersnow",
+        "1:growl",
+        "4:icywind",
+        "7:icepunch",
+        "10:icespinner",
+        "13:iceshard",
+        "16:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "ivris",

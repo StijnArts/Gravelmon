@@ -80,7 +80,8 @@
     "tm:harden",
     "tm:rest",
     "tm:rocktomb",
-    "tm:stoneedge"
+    "tm:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4331,
+  "nationalPokedexNumber": 4339,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

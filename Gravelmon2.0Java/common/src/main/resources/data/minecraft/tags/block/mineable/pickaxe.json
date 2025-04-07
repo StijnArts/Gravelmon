@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "gravelmon:astral_stone_ore",
     "gravelmon:deepslate_astral_stone_ore",

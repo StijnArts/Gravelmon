@@ -96,7 +96,8 @@
     "egg:finalgambit",
     "egg:flail",
     "egg:gust",
-    "egg:nightslash"
+    "egg:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -111,7 +112,7 @@
   "weight": 164,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4660,
+  "nationalPokedexNumber": 4668,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

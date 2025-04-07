@@ -34,11 +34,16 @@ public class Tormine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLEAR_SMOG,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_THERMAL, Biome.IS_MOUNTAIN).setRequiredBlock("#minecraft:coal_ores")
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tormine");
-
+        addAdditionalEvolution("torkoal", new EvolutionEntry("tormine", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))));
     }
 
 

@@ -32,6 +32,113 @@
   ],
   "forms": [
     {
+      "name": "Nodorran",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 157,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "ekans form=nodorran",
+      "baseScale": 26.400000000000002,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "shedskin",
+        "h:flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 70,
+        "defence": 69,
+        "special_attack": 90,
+        "special_defence": 89,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:defensecurl",
+        "5:bite",
+        "9:ember",
+        "11:acid",
+        "13:firefang",
+        "15:poisongas",
+        "18:incinerate",
+        "20:glare",
+        "23:willowisp",
+        "25:poisonfang",
+        "27:coil",
+        "32:sludge",
+        "36:sludgebomb",
+        "41:flamethrower",
+        "tm:icefang",
+        "tm:thunderfang",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranarbok.desc"
+      ],
+      "height": 22,
+      "weight": 726,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "poison",
@@ -162,7 +269,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -250,7 +358,20 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:bite"
+        "1:bite",
+        "1:leer",
+        "1:leer",
+        "10:clearsmog",
+        "10:payback",
+        "15:sludge",
+        "15:nightdaze",
+        "20:toxicspikes",
+        "20:snarl",
+        "25:sludgebomb",
+        "25:knockoff",
+        "30:sludgewave",
+        "30:darkpulse",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -359,7 +480,8 @@
         "egg:scaryface",
         "egg:powertrip",
         "egg:switcheroo",
-        "egg:submission"
+        "egg:submission",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -385,6 +507,7 @@
     }
   ],
   "features": [
+    "nodorran",
     "epoch",
     "ionosian",
     "alteran"

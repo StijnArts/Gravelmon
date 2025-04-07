@@ -14,6 +14,7 @@ public class PokemonSpawnData {
     List<SpawnCondition> spawnAntiConditions = new ArrayList<>();
     List<SpawnPreset> spawnPresets = new ArrayList<>();
     List<String> preferredBlocks = new ArrayList<>();
+    List<String> requiredBlocks = new ArrayList<>();
 
     public PokemonSpawnData(SpawnContext spawnContext,
                             SpawnPool spawnPool,
@@ -51,6 +52,7 @@ public class PokemonSpawnData {
                 ",\nspawnAntiConditions=" + listToString(spawnAntiConditions) +
                 ",\nspawnPresets=" + listToString(spawnPresets) +
                 ",\npreferredBlocks=" + listToString(preferredBlocks) +
+                ",\nrequiredBlocks=" + listToString(requiredBlocks) +
                 ']';
     }
 
@@ -136,5 +138,9 @@ public class PokemonSpawnData {
 
     public void setPreferredBlocks(List<String> preferredBlocks) {
         this.preferredBlocks = preferredBlocks;
+    }
+
+    public List<String> getRequiredBlocks() {
+        return requiredBlocks;
     }
 }

@@ -71,7 +71,8 @@
     "29:xscissor",
     "35:leechlife",
     "40:nightslash",
-    "46:lunge"
+    "46:lunge",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4035,
+  "nationalPokedexNumber": 4043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

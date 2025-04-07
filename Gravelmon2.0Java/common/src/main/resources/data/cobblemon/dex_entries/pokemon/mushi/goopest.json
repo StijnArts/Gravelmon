@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:goopest",
+  "speciesId": "cobblemon:goopest",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

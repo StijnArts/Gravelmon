@@ -105,7 +105,8 @@
     "tm:toxic",
     "tm:roost",
     "tm:defog",
-    "tm:extremespeed"
+    "tm:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2430,
+  "nationalPokedexNumber": 2438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

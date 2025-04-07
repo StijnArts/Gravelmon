@@ -93,7 +93,7 @@ public class Warquila extends Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"egg")
                         ),
                 List.of(Label.SAGE),
-                6, List.of(
+                9, List.of(
                         new ItemDrop("cobblemon:sharp_beak",40, 1,1),
                         new ItemDrop("minecraft:feather",40, 1,2),
                         new ItemDrop("minecraft:egg",40, 1,2)

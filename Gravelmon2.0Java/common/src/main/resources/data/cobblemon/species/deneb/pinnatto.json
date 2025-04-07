@@ -95,7 +95,8 @@
     "tm:round",
     "tm:voltswitch",
     "tutor:risingvoltage",
-    "tutor:steelroller"
+    "tutor:steelroller",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4632,
+  "nationalPokedexNumber": 4640,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

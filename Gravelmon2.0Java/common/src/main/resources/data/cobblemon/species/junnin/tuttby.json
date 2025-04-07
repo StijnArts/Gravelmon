@@ -141,7 +141,8 @@
     "tm:fakeout",
     "tm:mindreader",
     "tm:barrier",
-    "tm:skillswap"
+    "tm:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2456,
+  "nationalPokedexNumber": 2464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

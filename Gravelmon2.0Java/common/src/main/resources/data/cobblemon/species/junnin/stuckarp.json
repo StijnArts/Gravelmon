@@ -101,7 +101,8 @@
     "tm:workup",
     "tm:painsplit",
     "tm:rockblast",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

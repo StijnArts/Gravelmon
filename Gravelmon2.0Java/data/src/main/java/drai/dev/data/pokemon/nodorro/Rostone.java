@@ -23,11 +23,26 @@ public class Rostone extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("electone", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:thunder_stone"))),
+                        new EvolutionEntry("moistone", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:water_stone"))),
+                        new EvolutionEntry("meltone", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:fire_stone"))),
+                        new EvolutionEntry("pastone", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:leaf_stone")))),
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rostone");

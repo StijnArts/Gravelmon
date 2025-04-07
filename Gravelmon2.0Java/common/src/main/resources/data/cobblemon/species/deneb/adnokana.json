@@ -139,7 +139,8 @@
     "egg:sunnyday",
     "egg:switcheroo",
     "egg:torment",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -153,7 +154,7 @@
   "weight": 1364,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4569,
+  "nationalPokedexNumber": 4577,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

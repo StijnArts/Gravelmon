@@ -74,7 +74,8 @@
     "32:destinybond",
     "36:batonpass",
     "40:tailwind",
-    "44:explosion"
+    "44:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2395,
+  "nationalPokedexNumber": 2403,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

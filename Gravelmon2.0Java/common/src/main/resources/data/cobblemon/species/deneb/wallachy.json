@@ -99,7 +99,8 @@
     "egg:superpower",
     "egg:magnumpunch",
     "egg:furyswipes",
-    "egg:rockclimb"
+    "egg:rockclimb",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4602,
+  "nationalPokedexNumber": 4610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

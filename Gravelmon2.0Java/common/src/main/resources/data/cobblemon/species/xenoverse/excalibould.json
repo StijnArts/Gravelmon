@@ -107,7 +107,8 @@
     "egg:ancientpower",
     "egg:powergem",
     "egg:doubleedge",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1806,
+  "nationalPokedexNumber": 1809,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

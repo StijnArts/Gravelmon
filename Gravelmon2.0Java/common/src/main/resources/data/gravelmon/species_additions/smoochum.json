@@ -84,7 +84,20 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:tackle"
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:confuseray",
+        "4:round",
+        "7:ominouswind",
+        "7:swift",
+        "10:nightshade",
+        "10:uproar",
+        "13:hex",
+        "13:hypervoice",
+        "16:shadowball",
+        "16:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -254,7 +267,8 @@
         "egg:roleplay",
         "egg:wish",
         "egg:hail",
-        "egg:freezedry"
+        "egg:freezedry",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -354,7 +368,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:confusion"
+        "1:confusion",
+        "1:tailwhip",
+        "1:growl",
+        "10:bubblebeam",
+        "10:psybeam",
+        "15:brine",
+        "15:futuresight",
+        "20:surf",
+        "20:psychic",
+        "25:chillingwater",
+        "25:psyshock",
+        "30:hydropump",
+        "30:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -540,7 +567,8 @@
         "tm:shadowclaw",
         "egg:fakeout",
         "egg:roleplay",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

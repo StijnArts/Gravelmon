@@ -31,7 +31,7 @@ public class Wisper extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,1)   ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

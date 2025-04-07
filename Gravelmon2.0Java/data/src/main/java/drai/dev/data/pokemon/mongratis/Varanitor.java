@@ -15,7 +15,7 @@ public class Varanitor extends drai.dev.data.pokemon.Pokemon {
                         71,
                         96,
                         98),
-                List.of(Ability.DRY_SKIN,Ability.BEAST_BOOST), Ability.HYDRATION,
+                List.of(Ability.DRY_SKIN), Ability.HYDRATION,
                 28, 1245,
                 new Stats(1,0,0,0,1,1), 45,
                 0.875,
@@ -97,7 +97,11 @@ public class Varanitor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_TORNADO,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(34).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Varanitor");

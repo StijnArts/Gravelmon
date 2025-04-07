@@ -80,7 +80,8 @@
     "45:magicpowder",
     "48:hex",
     "52:worryseed",
-    "64:perishsong"
+    "64:perishsong",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1966,
+  "nationalPokedexNumber": 1969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

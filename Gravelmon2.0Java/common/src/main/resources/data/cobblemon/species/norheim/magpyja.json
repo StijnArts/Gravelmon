@@ -75,7 +75,8 @@
     "45:darkpulse",
     "50:nastyplot",
     "54:drillpeck",
-    "60:mirrormove"
+    "60:mirrormove",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3087,
+  "nationalPokedexNumber": 3095,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

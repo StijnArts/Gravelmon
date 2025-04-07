@@ -69,7 +69,8 @@
     "28:scaryface",
     "29:poisonjab",
     "39:pinmissile",
-    "43:spikyshield"
+    "43:spikyshield",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3995,
+  "nationalPokedexNumber": 4003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

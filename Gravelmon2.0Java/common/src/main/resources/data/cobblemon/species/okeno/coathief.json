@@ -81,7 +81,8 @@
     "tm:suckerpunch",
     "tm:foulplay",
     "tm:powertrip",
-    "tm:poisontail"
+    "tm:poisontail",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4413,
+  "nationalPokedexNumber": 4421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

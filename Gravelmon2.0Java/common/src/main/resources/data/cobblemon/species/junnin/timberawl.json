@@ -122,7 +122,8 @@
     "tm:spitup",
     "tm:swallow",
     "tm:helpinghand",
-    "tm:naturalgift"
+    "tm:naturalgift",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -137,7 +138,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2411,
+  "nationalPokedexNumber": 2419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

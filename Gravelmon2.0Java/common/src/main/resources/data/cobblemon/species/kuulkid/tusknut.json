@@ -61,7 +61,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:absorb"
+    "1:absorb",
+    "1:leer",
+    "4:megadrain",
+    "7:magicalleaf",
+    "10:gigadrain",
+    "13:energyball",
+    "16:solarbeam",
+    "19:leafage",
+    "22:leer",
+    "25:absorb",
+    "28:trailblaze",
+    "31:gigadrain",
+    "34:seedbomb",
+    "39:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -91,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2141,
+  "nationalPokedexNumber": 2149,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

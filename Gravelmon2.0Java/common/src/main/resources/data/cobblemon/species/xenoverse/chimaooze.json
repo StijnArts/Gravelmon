@@ -110,7 +110,8 @@
     "tutor:gunkshot",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"
+    "tutor:snore",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -123,7 +124,7 @@
   "weight": 1,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1827,
+  "nationalPokedexNumber": 1830,
   "shoulderMountable": false,
   "hitbox": {
     "width": 10.1875,
@@ -197,7 +198,9 @@
         "water_3"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "xenoverse",
         "gen1",

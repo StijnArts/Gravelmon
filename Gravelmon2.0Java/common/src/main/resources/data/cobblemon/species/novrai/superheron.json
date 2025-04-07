@@ -129,7 +129,8 @@
     "tm:laserfocus",
     "tm:featherdance",
     "tm:jumpkick",
-    "tm:blazekick"
+    "tm:blazekick",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4836,
+  "nationalPokedexNumber": 4844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

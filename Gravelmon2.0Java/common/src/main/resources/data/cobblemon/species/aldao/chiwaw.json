@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "4:round",
+    "7:swift",
+    "10:uproar",
+    "13:hypervoice",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -145,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2825,
+  "nationalPokedexNumber": 2833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

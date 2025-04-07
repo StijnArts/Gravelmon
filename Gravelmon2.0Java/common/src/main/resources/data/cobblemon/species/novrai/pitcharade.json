@@ -159,7 +159,8 @@
     "tm:bite",
     "tm:stockpile",
     "tm:swallow",
-    "tm:spitup"
+    "tm:spitup",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -172,7 +173,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4995,
+  "nationalPokedexNumber": 5003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

@@ -71,7 +71,8 @@
     "35:agility",
     "51:acrobatics",
     "60:explosion",
-    "tm:barrage"
+    "tm:barrage",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4455,
+  "nationalPokedexNumber": 4463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

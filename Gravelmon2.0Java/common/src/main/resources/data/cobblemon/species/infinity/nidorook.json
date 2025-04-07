@@ -166,7 +166,8 @@
     "egg:skullbash",
     "egg:supersonic",
     "egg:takedown",
-    "egg:venomswipe"
+    "egg:venomswipe",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

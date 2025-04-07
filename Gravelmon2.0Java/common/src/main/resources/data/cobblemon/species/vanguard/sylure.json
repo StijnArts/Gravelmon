@@ -138,7 +138,8 @@
     "tutor:weatherball",
     "tutor:whirlpool",
     "tutor:wonderroom",
-    "tutor:workup"
+    "tutor:workup",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -166,7 +167,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4083,
+  "nationalPokedexNumber": 4091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

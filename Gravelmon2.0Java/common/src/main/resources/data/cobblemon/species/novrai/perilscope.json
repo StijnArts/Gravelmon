@@ -133,7 +133,8 @@
     "tm:splash",
     "tm:covet",
     "tm:laserfocus",
-    "tm:brutalswing"
+    "tm:brutalswing",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4922,
+  "nationalPokedexNumber": 4930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

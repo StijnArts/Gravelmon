@@ -161,7 +161,8 @@
     "egg:icywind",
     "egg:quickattack",
     "egg:rapidspin",
-    "egg:splash"
+    "egg:splash",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

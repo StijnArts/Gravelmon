@@ -79,7 +79,8 @@
     "55:fellstinger",
     "tm:camouflage",
     "tm:spiderweb",
-    "tm:electroweb"
+    "tm:electroweb",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4019,
+  "nationalPokedexNumber": 4027,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

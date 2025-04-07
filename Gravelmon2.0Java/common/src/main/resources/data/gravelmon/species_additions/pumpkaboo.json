@@ -141,7 +141,8 @@
         "tutor:worryseed",
         "egg:disable",
         "egg:destinybond",
-        "egg:curse"
+        "egg:curse",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:twister",
+    "4:payback",
+    "7:dragonbreath",
+    "7:nightdaze",
+    "10:breakingswipe",
+    "10:snarl",
+    "13:dragonpulse",
+    "13:knockoff",
+    "16:dracometeor",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3793,
+  "nationalPokedexNumber": 3801,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

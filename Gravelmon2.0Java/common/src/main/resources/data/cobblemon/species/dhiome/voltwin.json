@@ -71,7 +71,8 @@
     "38:discharge",
     "42:lockon",
     "46:metalburst",
-    "52:zapcannon"
+    "52:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

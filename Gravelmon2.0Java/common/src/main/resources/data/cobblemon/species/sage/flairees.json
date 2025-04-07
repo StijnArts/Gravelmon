@@ -61,7 +61,7 @@
     "field"
   ],
   "drops": {
-    "amount": 6,
+    "amount": 9,
     "entries": [
       {
         "item": "minecraft:flint",
@@ -162,7 +162,8 @@
     "egg:stomp",
     "egg:superpower",
     "egg:takedown",
-    "egg:thrash"
+    "egg:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

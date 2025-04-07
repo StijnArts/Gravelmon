@@ -134,7 +134,8 @@
     "27:quash",
     "35:wideguard",
     "40:earthpower",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3471,
+  "nationalPokedexNumber": 3479,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

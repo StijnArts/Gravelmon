@@ -98,7 +98,8 @@
     "tm:haze",
     "tm:amnesia",
     "tm:toxicthread",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1607,
+  "nationalPokedexNumber": 1610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

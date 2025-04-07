@@ -74,7 +74,8 @@
     "tm:substitute",
     "tm:endure",
     "tm:mirrorcoat",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4294,
+  "nationalPokedexNumber": 4302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

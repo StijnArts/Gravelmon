@@ -101,7 +101,8 @@
     "tm:revenge",
     "tm:frostbreath",
     "tm:bellydrum",
-    "tm:suckerpunch"
+    "tm:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4702,
+  "nationalPokedexNumber": 4710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

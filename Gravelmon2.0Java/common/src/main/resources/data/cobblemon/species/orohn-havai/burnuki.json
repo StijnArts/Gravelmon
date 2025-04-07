@@ -77,7 +77,8 @@
     "45:agility",
     "48:doubleedge",
     "51:healbell",
-    "56:fireblast"
+    "56:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3005,
+  "nationalPokedexNumber": 3013,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -119,7 +119,8 @@
     "egg:toxic",
     "egg:vacuumwave",
     "egg:whirlwind",
-    "egg:wingattack"
+    "egg:wingattack",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4590,
+  "nationalPokedexNumber": 4598,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

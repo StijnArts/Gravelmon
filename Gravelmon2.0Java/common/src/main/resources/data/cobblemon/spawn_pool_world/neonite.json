@@ -11,7 +11,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "1-19",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",

@@ -17,13 +17,14 @@ public class Cryscross extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 3, 600,
-                new Stats(0,0,0,0,1,0), 25,
+                new Stats(0,0,0,0,1,0), 250,
                 0.0,
                 100, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The 4 points of their bodies can be very sharp to the touch. They normally drift around lazily, but large groups of them are sometimes blown through the air, causing many potentially dangerous cuts to anything in their path."),
-                List.of(),
+                List.of(new EvolutionEntry("cryogonal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),
                         new MoveLearnSetEntry(Move.BUBBLE_BEAM,1),
@@ -87,7 +88,11 @@ public class Cryscross extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_VEIL,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FREEZING).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cryscross");

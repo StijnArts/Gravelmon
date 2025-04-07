@@ -63,7 +63,22 @@
     "1:disarmingvoice",
     "1:lowkick",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:babydolleyes",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:drainingkiss",
+    "4:revenge",
+    "7:playnice",
+    "7:vacuumwave",
+    "10:dazzlinggleam",
+    "10:brickbreak",
+    "13:hypervoice",
+    "13:aurasphere",
+    "16:moonblast",
+    "16:focusblast",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3645,
+  "nationalPokedexNumber": 3653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

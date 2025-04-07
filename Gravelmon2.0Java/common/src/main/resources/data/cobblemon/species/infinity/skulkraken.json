@@ -161,7 +161,8 @@
     "egg:screech",
     "egg:takedown",
     "egg:twineedle",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

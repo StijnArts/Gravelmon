@@ -73,7 +73,8 @@
     "1:agility",
     "tm:axekick",
     "tm:pounce",
-    "tm:megakick"
+    "tm:megakick",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3884,
+  "nationalPokedexNumber": 3892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

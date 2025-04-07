@@ -154,7 +154,8 @@
     "egg:megahorn",
     "egg:psychic",
     "egg:hypervoice",
-    "egg:airslash"
+    "egg:airslash",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -169,7 +170,7 @@
   "weight": 724,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2076,
+  "nationalPokedexNumber": 2079,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

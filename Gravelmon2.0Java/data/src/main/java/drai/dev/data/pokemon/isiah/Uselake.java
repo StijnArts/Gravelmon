@@ -31,7 +31,7 @@ public class Uselake extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAIL,25)),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 33, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))),

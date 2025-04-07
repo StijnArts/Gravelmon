@@ -136,7 +136,8 @@
     "tm:doubleedge",
     "tm:minimize",
     "tm:wringout",
-    "tm:silktrap"
+    "tm:silktrap",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4875,
+  "nationalPokedexNumber": 4883,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

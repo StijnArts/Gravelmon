@@ -77,7 +77,8 @@
     "55:wish",
     "60:thunder",
     "egg:covet",
-    "egg:tearfullook"
+    "egg:tearfullook",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -90,7 +91,7 @@
   "weight": 1231,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3416,
+  "nationalPokedexNumber": 3424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

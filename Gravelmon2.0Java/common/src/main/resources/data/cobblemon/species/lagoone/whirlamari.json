@@ -75,7 +75,8 @@
     "39:agility",
     "44:hydropump",
     "52:soak",
-    "58:waterspout"
+    "58:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",

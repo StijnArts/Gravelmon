@@ -69,7 +69,8 @@
     "1:withdraw",
     "1:gyroball",
     "1:bite",
-    "1:thunderfang"
+    "1:thunderfang",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1887,
+  "nationalPokedexNumber": 1890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

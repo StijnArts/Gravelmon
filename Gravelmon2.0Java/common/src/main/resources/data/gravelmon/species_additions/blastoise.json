@@ -164,7 +164,8 @@
         "egg:mirrorcoat",
         "egg:muddywater",
         "egg:refresh",
-        "egg:waterspout"
+        "egg:waterspout",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -373,7 +374,8 @@
         "tutor:thunderpunch",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:vacuumwave"
+        "tutor:vacuumwave",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -536,7 +538,8 @@
         "tutor:toxic",
         "tutor:workup",
         "tutor:zenheadbutt",
-        "tutor:thunderpunch"
+        "tutor:thunderpunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

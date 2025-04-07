@@ -75,7 +75,8 @@
     "48:venoshock",
     "55:confuseray",
     "62:airslash",
-    "69:leechlife"
+    "69:leechlife",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -88,7 +89,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3446,
+  "nationalPokedexNumber": 3454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

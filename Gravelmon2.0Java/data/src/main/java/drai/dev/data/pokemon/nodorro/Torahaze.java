@@ -17,7 +17,7 @@ public class Torahaze extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.TORRENT), Ability.TORRENT,
                 17, 931,
-                new Stats(0,2,0,1,0,0), 40,
+                new Stats(0,2,0,1,0,0), 45,
                 0.5,
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -101,7 +101,11 @@ public class Torahaze extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHROUDEDSTRIKE,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Torahaze");

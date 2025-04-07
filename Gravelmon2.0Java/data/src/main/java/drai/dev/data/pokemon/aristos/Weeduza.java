@@ -58,7 +58,7 @@ public class Weeduza extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 23, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 23, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

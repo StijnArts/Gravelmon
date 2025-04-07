@@ -76,7 +76,29 @@
         "1:lick",
         "1:watergun",
         "1:curse",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:tailwhip",
+        "1:bulkup",
+        "1:calmmind",
+        "4:confuseray",
+        "4:bubblebeam",
+        "4:calmmind",
+        "4:taunt",
+        "7:ominouswind",
+        "7:brine",
+        "7:taunt",
+        "7:substitute",
+        "10:nightshade",
+        "10:surf",
+        "10:substitute",
+        "10:rest",
+        "13:hex",
+        "13:chillingwater",
+        "13:rest",
+        "16:shadowball",
+        "16:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -241,7 +263,8 @@
         "egg:zenheadbutt",
         "egg:steamroller",
         "egg:rollout",
-        "egg:decorate"
+        "egg:decorate",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -375,7 +398,8 @@
         "egg:snore",
         "egg:stomp",
         "egg:wonderroom",
-        "egg:zenheadbutt"
+        "egg:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",
@@ -539,7 +563,8 @@
         "tm:bellydrum",
         "tm:petaldance",
         "tm:mudsport",
-        "tm:belch"
+        "tm:belch",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

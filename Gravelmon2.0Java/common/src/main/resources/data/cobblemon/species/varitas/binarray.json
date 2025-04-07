@@ -78,7 +78,8 @@
     "38:thunderfang",
     "44:honeclaws",
     "47:playrough",
-    "53:nightslash"
+    "53:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1929,
+  "nationalPokedexNumber": 1932,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

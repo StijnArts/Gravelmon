@@ -79,7 +79,8 @@
     "59:waterspout",
     "tm:mirrorcoat",
     "tm:imprison",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4447,
+  "nationalPokedexNumber": 4455,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

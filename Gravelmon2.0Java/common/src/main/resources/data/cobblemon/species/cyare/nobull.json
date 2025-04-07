@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "10:sandattack",
+    "10:psybeam",
+    "15:mudbomb",
+    "15:futuresight",
+    "20:bulldoze",
+    "20:psychic",
+    "25:dig",
+    "25:zenheadbutt",
+    "30:earthquake",
+    "30:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5366,
+  "nationalPokedexNumber": 5374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

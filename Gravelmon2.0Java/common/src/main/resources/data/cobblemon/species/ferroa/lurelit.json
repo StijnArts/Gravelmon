@@ -161,7 +161,8 @@
     "tm:smokescreen",
     "tm:clearsmog",
     "tm:laserfocus",
-    "tm:scaryface"
+    "tm:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -189,7 +190,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1599,
+  "nationalPokedexNumber": 1602,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

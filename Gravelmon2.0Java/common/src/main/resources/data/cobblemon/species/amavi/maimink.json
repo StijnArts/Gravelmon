@@ -123,7 +123,8 @@
     "tm:uturn",
     "tm:wildcharge",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -138,7 +139,7 @@
   "weight": 195,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5195,
+  "nationalPokedexNumber": 5203,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

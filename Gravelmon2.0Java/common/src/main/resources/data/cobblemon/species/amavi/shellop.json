@@ -75,7 +75,8 @@
     "61:hydropump",
     "72:blizzard",
     "78:soak",
-    "83:waterspout"
+    "83:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5186,
+  "nationalPokedexNumber": 5194,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

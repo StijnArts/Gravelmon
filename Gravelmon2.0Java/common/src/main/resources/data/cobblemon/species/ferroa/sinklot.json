@@ -145,7 +145,8 @@
     "tm:mudsport",
     "tm:irondefense",
     "tm:autotomize",
-    "tm:whirlpool"
+    "tm:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1550,
+  "nationalPokedexNumber": 1553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

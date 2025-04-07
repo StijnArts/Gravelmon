@@ -107,7 +107,8 @@
     "egg:knockoff",
     "egg:psybeam",
     "egg:screech",
-    "egg:tailwind"
+    "egg:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -120,7 +121,7 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4646,
+  "nationalPokedexNumber": 4654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,
@@ -219,7 +220,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -294,7 +297,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -369,7 +374,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -444,7 +451,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -519,7 +528,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -594,7 +605,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -669,7 +682,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -744,7 +759,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -819,7 +836,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -894,7 +913,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -969,7 +990,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1044,7 +1067,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1119,7 +1144,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1194,7 +1221,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1269,7 +1298,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1344,7 +1375,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1419,7 +1452,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1494,7 +1529,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1569,7 +1606,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1644,7 +1683,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1719,7 +1760,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1794,7 +1837,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1869,7 +1914,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -1944,7 +1991,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -2019,7 +2068,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -2094,7 +2145,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"
@@ -2169,7 +2222,9 @@
         "bug"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "deneb",
         "not_modeled"

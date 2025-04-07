@@ -78,7 +78,8 @@
     "egg:thunderfang",
     "egg:uproar",
     "egg:flamewheel",
-    "egg:fakeout"
+    "egg:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2132,
+  "nationalPokedexNumber": 2135,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

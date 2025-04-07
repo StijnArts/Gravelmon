@@ -127,7 +127,8 @@
     "tm:discharge",
     "tm:flameburst",
     "tm:electroball",
-    "tm:eerieimpulse"
+    "tm:eerieimpulse",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -142,7 +143,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4693,
+  "nationalPokedexNumber": 4701,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

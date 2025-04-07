@@ -133,7 +133,8 @@
     "tm:dragonbreath",
     "tm:sludge",
     "tm:waterspout",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4862,
+  "nationalPokedexNumber": 4870,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

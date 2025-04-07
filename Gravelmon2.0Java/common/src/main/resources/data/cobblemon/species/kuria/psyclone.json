@@ -79,7 +79,8 @@
     "74:ominouswind",
     "80:extremespeed",
     "86:futuresight",
-    "93:razorwind"
+    "93:razorwind",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -94,7 +95,7 @@
   "weight": 404,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4121,
+  "nationalPokedexNumber": 4129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.6875,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:tailwhip",
+    "1:babydolleyes",
+    "4:bubblebeam",
+    "4:drainingkiss",
+    "7:brine",
+    "7:playnice",
+    "10:surf",
+    "10:dazzlinggleam",
+    "13:chillingwater",
+    "13:hypervoice",
+    "16:hydropump",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2861,
+  "nationalPokedexNumber": 2869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

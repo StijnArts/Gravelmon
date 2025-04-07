@@ -111,7 +111,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:soundbarrier",
-    "tutor:synthesis"
+    "tutor:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -125,7 +126,7 @@
   "weight": 182,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1802,
+  "nationalPokedexNumber": 1805,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

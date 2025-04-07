@@ -73,7 +73,8 @@
     "38:tailwind",
     "48:stickyweb",
     "52:phantomforce",
-    "59:nightmare"
+    "59:nightmare",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4734,
+  "nationalPokedexNumber": 4742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

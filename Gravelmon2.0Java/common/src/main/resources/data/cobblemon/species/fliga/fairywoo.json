@@ -143,7 +143,8 @@
     "tm:takedown",
     "tm:teleport",
     "tm:psywave",
-    "tm:airslash"
+    "tm:airslash",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -156,7 +157,7 @@
   "weight": 3,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3957,
+  "nationalPokedexNumber": 3965,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

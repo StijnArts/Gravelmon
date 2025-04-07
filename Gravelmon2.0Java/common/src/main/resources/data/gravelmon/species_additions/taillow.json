@@ -135,7 +135,8 @@
         "egg:tailwind",
         "egg:honeclaws",
         "egg:taunt",
-        "egg:foulplay"
+        "egg:foulplay",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

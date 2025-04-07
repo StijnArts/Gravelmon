@@ -76,7 +76,8 @@
     "38:crushclaw",
     "43:toxic",
     "46:crosspoison",
-    "51:guillotine"
+    "51:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1451,
+  "nationalPokedexNumber": 1454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

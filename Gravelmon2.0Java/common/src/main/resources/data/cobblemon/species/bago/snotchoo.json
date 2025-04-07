@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:acid"
+    "1:acid",
+    "1:growl",
+    "1:leer",
+    "4:icywind",
+    "4:clearsmog",
+    "7:aurorabeam",
+    "7:sludge",
+    "10:freezedry",
+    "10:toxicspikes",
+    "13:icebeam",
+    "13:sludgebomb",
+    "16:blizzard",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -98,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2812,
+  "nationalPokedexNumber": 2820,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

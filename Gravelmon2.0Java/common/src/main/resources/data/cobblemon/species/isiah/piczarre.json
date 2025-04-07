@@ -71,7 +71,8 @@
     "37:amnesia",
     "40:psychic",
     "44:mirrorcoat",
-    "48:psychoshift"
+    "48:psychoshift",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 4287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

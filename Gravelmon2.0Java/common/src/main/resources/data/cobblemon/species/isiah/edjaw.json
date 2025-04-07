@@ -66,6 +66,7 @@
     "1:rockthrow",
     "5:sandattack",
     "9:rockthrow",
+    "14:speedmite",
     "18:rockblast",
     "22:mudsport",
     "27:powergem",
@@ -74,7 +75,8 @@
     "46:selfdestruct",
     "52:irondefense",
     "58:stoneedge",
-    "65:explosion"
+    "65:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4237,
+  "nationalPokedexNumber": 4245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

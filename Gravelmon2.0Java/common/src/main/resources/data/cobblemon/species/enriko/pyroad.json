@@ -72,7 +72,8 @@
     "37:curse",
     "40:heatcrash",
     "47:toxicspikes",
-    "54:gunkshot"
+    "54:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1633,
+  "nationalPokedexNumber": 1636,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

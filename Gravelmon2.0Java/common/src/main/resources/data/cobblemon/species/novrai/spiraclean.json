@@ -140,7 +140,8 @@
     "tm:spikes",
     "tm:poisongas",
     "tm:rockblast",
-    "tm:bite"
+    "tm:bite",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4932,
+  "nationalPokedexNumber": 4940,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

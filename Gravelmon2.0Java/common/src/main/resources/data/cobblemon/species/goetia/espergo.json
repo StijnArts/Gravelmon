@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "10:psybeam",
+    "15:futuresight",
+    "20:psychic",
+    "25:psyshock",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6007,
+  "nationalPokedexNumber": 6015,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

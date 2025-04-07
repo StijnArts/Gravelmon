@@ -75,7 +75,8 @@
     "32:signalbeam",
     "36:bubblebeam",
     "40:leechlife",
-    "45:hydropump"
+    "45:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1686,
+  "nationalPokedexNumber": 1689,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

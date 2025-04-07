@@ -114,7 +114,8 @@
     "tm:mudshot",
     "tm:paraboliccharge",
     "tm:bubble",
-    "tm:megadrain"
+    "tm:megadrain",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4956,
+  "nationalPokedexNumber": 4964,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

@@ -78,7 +78,8 @@
     "52:amnesia",
     "56:inferno",
     "60:shellsmash",
-    "64:eruption"
+    "64:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1907,
+  "nationalPokedexNumber": 1910,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

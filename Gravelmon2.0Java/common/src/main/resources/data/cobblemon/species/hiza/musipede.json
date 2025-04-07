@@ -72,7 +72,8 @@
     "42:nightslash",
     "44:stickyweb",
     "46:bugbuzz",
-    "50:perishsong"
+    "50:perishsong",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2288,
+  "nationalPokedexNumber": 2296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -131,7 +131,8 @@
     "tm:defog",
     "tm:meanlook",
     "tm:faketears",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5160,
+  "nationalPokedexNumber": 5168,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -146,7 +146,8 @@
     "tm:magicalleaf",
     "tm:razorleaf",
     "tm:leaftornado",
-    "tm:petaldance"
+    "tm:petaldance",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -161,7 +162,7 @@
   "weight": 275,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4430,
+  "nationalPokedexNumber": 4438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

@@ -63,7 +63,34 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:tackle"
+    "1:tackle",
+    "1:babydolleyes",
+    "1:growl",
+    "3:drainingkiss",
+    "3:round",
+    "6:playnice",
+    "6:swift",
+    "9:dazzlinggleam",
+    "9:uproar",
+    "12:hypervoice",
+    "12:hypervoice",
+    "15:moonblast",
+    "15:hyperbeam",
+    "18:disarmingvoice",
+    "18:tackle",
+    "21:babydolleyes",
+    "21:growl",
+    "24:drainingkiss",
+    "24:quickattack",
+    "27:playnice",
+    "27:bite",
+    "30:dazzlinggleam",
+    "30:takedown",
+    "33:playrough",
+    "33:crunch",
+    "36:spiritbreak",
+    "36:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3938,
+  "nationalPokedexNumber": 3946,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

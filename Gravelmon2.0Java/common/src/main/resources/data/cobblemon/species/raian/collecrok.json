@@ -63,7 +63,29 @@
     "1:rockthrow",
     "1:lowkick",
     "1:bulkup",
-    "1:drainpunch"
+    "1:drainpunch",
+    "1:defensecurl",
+    "1:leer",
+    "1:calmmind",
+    "1:bulkup",
+    "4:rollout",
+    "4:revenge",
+    "4:taunt",
+    "4:calmmind",
+    "7:ancientpower",
+    "7:vacuumwave",
+    "7:substitute",
+    "7:taunt",
+    "10:powergem",
+    "10:brickbreak",
+    "10:rest",
+    "10:substitute",
+    "13:stealthrock",
+    "13:aurasphere",
+    "13:rest",
+    "16:meteorbeam",
+    "16:focusblast",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -109,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2492,
+  "nationalPokedexNumber": 2500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

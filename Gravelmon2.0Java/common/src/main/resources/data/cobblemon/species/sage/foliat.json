@@ -138,7 +138,8 @@
     "egg:mirrormove",
     "egg:razorwind",
     "egg:whirlwind",
-    "egg:sweetscent"
+    "egg:sweetscent",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

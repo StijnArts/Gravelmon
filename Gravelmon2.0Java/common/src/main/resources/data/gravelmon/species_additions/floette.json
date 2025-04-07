@@ -152,7 +152,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -264,7 +265,8 @@
         "1:vinewhip",
         "6:fairywind",
         "27:grassyterrain",
-        "43:mistyterrain"
+        "43:mistyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -414,7 +416,8 @@
         "tm:camouflage",
         "tm:copycat",
         "tm:captivate",
-        "tm:tearfullook"
+        "tm:tearfullook",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -581,7 +584,8 @@
         "tm:cosmicpower",
         "tm:disable",
         "tm:hex",
-        "tm:luckychant"
+        "tm:luckychant",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

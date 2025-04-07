@@ -119,6 +119,7 @@
         "tm:falseswipe",
         "tm:firepunch",
         "tm:focusblast",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icepunch",
@@ -152,7 +153,8 @@
         "tm:trickroom",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -324,7 +326,8 @@
         "tm:thunderfang",
         "tm:toxic",
         "tm:toxicspikes",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -439,7 +442,8 @@
         "16:watersport",
         "43:telekinesis",
         "34:powergem",
-        "1:rockblast"
+        "1:rockblast",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

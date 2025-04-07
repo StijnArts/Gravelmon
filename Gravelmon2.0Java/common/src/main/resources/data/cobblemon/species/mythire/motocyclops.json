@@ -106,7 +106,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:flamecharge",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -121,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3888,
+  "nationalPokedexNumber": 3896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

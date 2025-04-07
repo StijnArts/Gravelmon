@@ -80,7 +80,8 @@
     "28:mimic",
     "32:gyroball",
     "36:hypervoice",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3147,
+  "nationalPokedexNumber": 3155,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

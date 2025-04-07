@@ -105,7 +105,8 @@
     "egg:explosion",
     "egg:iceshard",
     "egg:iciclecrash",
-    "egg:magnetrise"
+    "egg:magnetrise",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -118,7 +119,7 @@
   "weight": 253,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4661,
+  "nationalPokedexNumber": 4669,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

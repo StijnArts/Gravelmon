@@ -78,7 +78,8 @@
     "40:mysticalfire",
     "51:fireblast",
     "55:substitute",
-    "60:mistyterrain"
+    "60:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 195,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4177,
+  "nationalPokedexNumber": 4185,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

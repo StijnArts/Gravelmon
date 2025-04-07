@@ -126,7 +126,8 @@
         "egg:playrough",
         "egg:playnice",
         "egg:helpinghand",
-        "egg:batonpass"
+        "egg:batonpass",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -232,7 +233,8 @@
         "egg:covet",
         "egg:eerieimpulse",
         "egg:helpinghand",
-        "egg:naturalgift"
+        "egg:naturalgift",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

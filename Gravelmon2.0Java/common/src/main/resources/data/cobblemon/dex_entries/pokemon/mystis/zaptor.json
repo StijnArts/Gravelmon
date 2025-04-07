@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:zaptor",
+  "speciesId": "cobblemon:zaptor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

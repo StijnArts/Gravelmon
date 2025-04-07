@@ -74,7 +74,8 @@
     "38:screech",
     "43:raindance",
     "49:recover",
-    "55:hydropump"
+    "55:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4237,
+  "nationalPokedexNumber": 4245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

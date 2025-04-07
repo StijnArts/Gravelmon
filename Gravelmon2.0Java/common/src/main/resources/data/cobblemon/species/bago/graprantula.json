@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:bite"
+    "1:bite",
+    "1:stringshot",
+    "1:leer",
+    "4:leechlife",
+    "4:payback",
+    "7:lunge",
+    "7:nightslash",
+    "10:xscissor",
+    "10:crunch",
+    "13:uturn",
+    "13:knockoff",
+    "16:megahorn",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2806,
+  "nationalPokedexNumber": 2814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

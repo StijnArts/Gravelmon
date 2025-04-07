@@ -71,7 +71,8 @@
     "33:endeavor",
     "37:solarbeam",
     "42:leafstorm",
-    "49:powerwhip"
+    "49:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -86,7 +87,7 @@
   "weight": 1032,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4204,
+  "nationalPokedexNumber": 4212,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

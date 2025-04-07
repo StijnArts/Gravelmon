@@ -71,7 +71,8 @@
     "36:fly",
     "42:gunkshot",
     "46:gastroacid",
-    "52:belch"
+    "52:belch",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3460,
+  "nationalPokedexNumber": 3468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

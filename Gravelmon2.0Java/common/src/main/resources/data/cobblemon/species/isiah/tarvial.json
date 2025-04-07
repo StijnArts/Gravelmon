@@ -75,7 +75,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4231,
+  "nationalPokedexNumber": 4239,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

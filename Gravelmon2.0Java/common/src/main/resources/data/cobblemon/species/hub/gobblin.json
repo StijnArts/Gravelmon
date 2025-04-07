@@ -133,7 +133,8 @@
     "tm:woodhammer",
     "tm:confuseray",
     "tm:curse",
-    "tm:psychicfangs"
+    "tm:psychicfangs",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1392,
+  "nationalPokedexNumber": 1395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

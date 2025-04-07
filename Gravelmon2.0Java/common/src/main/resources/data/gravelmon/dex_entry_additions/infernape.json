@@ -2,6 +2,12 @@
   "entryId": "cobblemon:infernape",
   "forms": [
     {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    },
+    {
       "displayForm": "Epoch",
       "unlockForms": [
         "Epoch"

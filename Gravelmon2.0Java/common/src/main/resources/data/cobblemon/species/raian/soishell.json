@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:mudslap"
+    "1:mudslap",
+    "1:babydolleyes",
+    "1:sandattack",
+    "4:drainingkiss",
+    "4:mudshot",
+    "7:playnice",
+    "7:mudbomb",
+    "10:dazzlinggleam",
+    "10:bulldoze",
+    "13:hypervoice",
+    "13:scorchingsands",
+    "16:moonblast",
+    "16:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -94,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2498,
+  "nationalPokedexNumber": 2506,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

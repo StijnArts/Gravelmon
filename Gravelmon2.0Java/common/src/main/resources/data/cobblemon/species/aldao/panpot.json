@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:ember"
+    "1:ember",
+    "1:screech",
+    "1:growl",
+    "4:irontail",
+    "4:firespin",
+    "7:smartstrike",
+    "7:flamecharge",
+    "10:mirrorshot",
+    "10:flameburst",
+    "13:flashcannon",
+    "13:flamethrower",
+    "16:steelbeam",
+    "16:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -87,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2879,
+  "nationalPokedexNumber": 2887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

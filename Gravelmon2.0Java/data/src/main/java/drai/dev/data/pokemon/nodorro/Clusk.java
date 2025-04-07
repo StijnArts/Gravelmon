@@ -16,14 +16,15 @@ public class Clusk extends drai.dev.data.pokemon.Pokemon {
                         40,
                         45),
                 List.of(Ability.STATIC), Ability.VOLT_ABSORB,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 210,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("- GustSTAB Flying 3 Smokescreen Normal 5 Thunder Shock Electric 9 Charge Electric 10 Spark Electric 13 Smog Poison 17 Shock Wave Electric 20 Rain Dance Water 20 Snowscape Ice 25 Charge Beam Electric 30 Calm Mind Psychic 35 Discharge Electric 39 Soak Water 45 Defog Flying 55 HurricaneSTAB Flying"),
-                List.of(),
+                List.of(new EvolutionEntry("nimbusk", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,3),
@@ -55,7 +56,11 @@ public class Clusk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRO_BALL,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SKY, Biome.IS_MOUNTAIN).isNotRaining()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Clusk");

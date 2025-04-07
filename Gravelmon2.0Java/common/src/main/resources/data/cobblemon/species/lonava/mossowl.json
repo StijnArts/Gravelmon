@@ -73,7 +73,8 @@
     "45:crunch",
     "51:gigadrain",
     "57:leafstorm",
-    "63:headlongrush"
+    "63:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3370,
+  "nationalPokedexNumber": 3378,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

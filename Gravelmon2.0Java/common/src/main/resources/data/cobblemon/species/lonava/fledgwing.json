@@ -130,7 +130,8 @@
     "tm:encore",
     "tm:endeavor",
     "tm:mudslap",
-    "tm:pluck"
+    "tm:pluck",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3345,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

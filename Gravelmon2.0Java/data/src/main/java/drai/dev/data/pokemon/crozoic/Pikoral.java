@@ -80,7 +80,7 @@ public class Pikoral extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 32, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

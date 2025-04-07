@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "4:quickattack",
+    "4:taunt",
+    "7:flamecharge",
+    "7:substitute",
+    "10:firepunch",
+    "10:rest",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -103,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2709,
+  "nationalPokedexNumber": 2717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

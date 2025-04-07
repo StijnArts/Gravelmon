@@ -41,7 +41,7 @@ public class Fulgnash extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

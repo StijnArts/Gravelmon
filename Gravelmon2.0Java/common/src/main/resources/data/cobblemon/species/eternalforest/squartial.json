@@ -147,7 +147,8 @@
     "egg:detect",
     "egg:mindreader",
     "egg:nastyplot",
-    "egg:quickguard"
+    "egg:quickguard",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -162,7 +163,7 @@
   "weight": 792,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3046,
+  "nationalPokedexNumber": 3054,
   "shoulderMountable": false,
   "hitbox": {
     "width": 47.4375,

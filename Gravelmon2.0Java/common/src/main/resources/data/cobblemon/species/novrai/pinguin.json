@@ -125,7 +125,8 @@
     "tm:charm",
     "tm:metalburst",
     "tm:mist",
-    "tm:helpinghand"
+    "tm:helpinghand",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5017,
+  "nationalPokedexNumber": 5025,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -72,7 +72,8 @@
     "38:punishment",
     "43:triattack",
     "50:recover",
-    "55:lastresort"
+    "55:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4772,
+  "nationalPokedexNumber": 4780,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

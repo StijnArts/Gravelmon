@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:thundershock"
+    "1:thundershock",
+    "1:stringshot",
+    "1:leer",
+    "4:silverwind",
+    "4:charge",
+    "7:signalbeam",
+    "7:shockwave",
+    "10:infestation",
+    "10:discharge",
+    "13:uturn",
+    "13:thunderbolt",
+    "16:bugbuzz",
+    "16:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5504,
+  "nationalPokedexNumber": 5512,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

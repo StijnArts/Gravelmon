@@ -119,7 +119,8 @@
     "tm:doubleteam",
     "tm:firstimpression",
     "tm:snatch",
-    "tm:slash"
+    "tm:slash",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4858,
+  "nationalPokedexNumber": 4866,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

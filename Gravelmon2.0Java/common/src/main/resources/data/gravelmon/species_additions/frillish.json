@@ -133,7 +133,8 @@
         "egg:extrasensory",
         "egg:strengthsap",
         "egg:amnesia",
-        "egg:ragepowder"
+        "egg:ragepowder",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

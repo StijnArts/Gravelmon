@@ -110,7 +110,8 @@
     "tm:toxic",
     "tm:wildcharge",
     "tm:workup",
-    "tm:headcharge"
+    "tm:headcharge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2444,
+  "nationalPokedexNumber": 2452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -114,7 +114,8 @@
     "egg:discharge",
     "egg:voltswitch",
     "egg:magiccoat",
-    "egg:dragonrage"
+    "egg:dragonrage",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4662,
+  "nationalPokedexNumber": 4670,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

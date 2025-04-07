@@ -63,7 +63,23 @@
     "1:strugglebug",
     "1:thundershock",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:leechlife",
+    "4:charge",
+    "4:swordsdance",
+    "7:lunge",
+    "7:thunderpunch",
+    "10:xscissor",
+    "10:discharge",
+    "13:uturn",
+    "13:wildcharge",
+    "16:megahorn",
+    "16:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3577,
+  "nationalPokedexNumber": 3585,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

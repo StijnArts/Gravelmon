@@ -79,7 +79,8 @@
     "43:lunge",
     "47:crunch",
     "51:stickyweb",
-    "56:megahorn"
+    "56:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -94,7 +95,7 @@
   "weight": 450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2124,
+  "nationalPokedexNumber": 2127,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

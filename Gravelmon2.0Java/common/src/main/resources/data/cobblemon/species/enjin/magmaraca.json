@@ -88,7 +88,8 @@
     "tm:substitute",
     "tm:swagger",
     "tm:toxic",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4681,
+  "nationalPokedexNumber": 4689,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

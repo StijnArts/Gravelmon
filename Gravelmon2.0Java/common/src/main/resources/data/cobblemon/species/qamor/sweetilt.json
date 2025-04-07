@@ -72,7 +72,8 @@
     "30:synthesis",
     "35:bounce",
     "38:swordsdance",
-    "40:leafblade"
+    "40:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4001,
+  "nationalPokedexNumber": 4009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

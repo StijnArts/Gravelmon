@@ -134,7 +134,8 @@
         "tm:zenheadbutt",
         "egg:teeterdance",
         "egg:icywind",
-        "egg:hail"
+        "egg:hail",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -247,7 +248,8 @@
         "46:agility",
         "51:icebeam",
         "59:quiverdance",
-        "64:blizzard"
+        "64:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "interregional",

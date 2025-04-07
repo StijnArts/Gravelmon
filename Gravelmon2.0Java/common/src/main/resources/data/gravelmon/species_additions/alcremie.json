@@ -146,7 +146,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:willowisp",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -280,7 +281,8 @@
         "tm:energyball",
         "tm:storedpower",
         "tm:playrough",
-        "tm:dazzlinggleam"
+        "tm:dazzlinggleam",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -423,7 +425,8 @@
         "tm:substitute",
         "tm:toxic",
         "tm:triattack",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

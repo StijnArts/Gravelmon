@@ -156,7 +156,8 @@
     "egg:extrasensory",
     "egg:flamecharge",
     "egg:rockpolish",
-    "egg:withdraw"
+    "egg:withdraw",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

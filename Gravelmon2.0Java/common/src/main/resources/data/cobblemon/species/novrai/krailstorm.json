@@ -128,7 +128,8 @@
     "tm:confide",
     "tm:icespinner",
     "tm:auroraveil",
-    "tm:surf"
+    "tm:surf",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5037,
+  "nationalPokedexNumber": 5045,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

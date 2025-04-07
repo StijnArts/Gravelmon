@@ -40,7 +40,7 @@ public class Cockatoto extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,50)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 32, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BIRCH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

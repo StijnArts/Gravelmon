@@ -74,7 +74,8 @@
     "38:explosion",
     "44:inferno",
     "47:petalblizzard",
-    "53:synthesis"
+    "53:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1418,
+  "nationalPokedexNumber": 1421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

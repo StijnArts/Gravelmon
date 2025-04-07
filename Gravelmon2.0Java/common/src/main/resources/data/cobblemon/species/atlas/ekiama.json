@@ -110,7 +110,8 @@
     "tm:venoshock",
     "tm:willowisp",
     "tm:workup",
-    "tm:recover"
+    "tm:recover",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -125,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5054,
+  "nationalPokedexNumber": 5062,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

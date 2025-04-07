@@ -87,7 +87,8 @@
     "egg:thunderfang",
     "egg:feint",
     "egg:firefang",
-    "egg:moonblast"
+    "egg:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2098,
+  "nationalPokedexNumber": 2101,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

@@ -76,7 +76,8 @@
     "41:wildcharge",
     "44:inferno",
     "48:speedswap",
-    "53:flareblitz"
+    "53:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4113,
+  "nationalPokedexNumber": 4121,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

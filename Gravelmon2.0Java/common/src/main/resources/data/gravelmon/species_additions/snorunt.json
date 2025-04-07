@@ -62,7 +62,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:ember"
+        "1:ember",
+        "1:growl",
+        "4:firespin",
+        "7:flamecharge",
+        "10:flameburst",
+        "13:flamethrower",
+        "16:fireblast",
+        "19:ember",
+        "22:growl",
+        "25:quickattack",
+        "28:flamecharge",
+        "31:firepunch",
+        "34:willowisp",
+        "39:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -217,7 +231,8 @@
         "egg:nightshade",
         "egg:hex",
         "egg:ominouswind",
-        "egg:beatup"
+        "egg:beatup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -396,7 +411,8 @@
         "tutor:painsplit",
         "tutor:snore",
         "tutor:stealthrock",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -577,7 +593,8 @@
         "tm:heatcrash",
         "tm:heavyslam",
         "tm:flashcannon",
-        "tm:solarbeam"
+        "tm:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -712,7 +729,8 @@
         "egg:hex",
         "egg:rollout",
         "egg:spikes",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

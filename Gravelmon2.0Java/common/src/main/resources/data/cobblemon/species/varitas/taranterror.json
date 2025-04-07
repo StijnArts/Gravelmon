@@ -72,7 +72,8 @@
     "44:lunge",
     "48:swordsdance",
     "51:leechlife",
-    "57:firstimpression"
+    "57:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1915,
+  "nationalPokedexNumber": 1918,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

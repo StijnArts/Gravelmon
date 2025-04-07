@@ -74,7 +74,8 @@
     "50:blizzard",
     "53:snowscape",
     "58:extremespeed",
-    "64:nastyplot"
+    "64:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4069,
+  "nationalPokedexNumber": 4077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

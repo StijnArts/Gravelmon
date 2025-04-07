@@ -135,7 +135,8 @@
     "tutor:seedbomb",
     "tutor:drillrun",
     "tutor:earthpower",
-    "tutor:superpower"
+    "tutor:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -150,7 +151,7 @@
   "weight": 940,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3716,
+  "nationalPokedexNumber": 3724,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

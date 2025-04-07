@@ -64,7 +64,30 @@
     "1:lick",
     "1:absorb",
     "1:curse",
-    "1:synthesis"
+    "1:synthesis",
+    "1:growl",
+    "1:leer",
+    "1:bulkup",
+    "1:bulkup",
+    "10:confuseray",
+    "10:megadrain",
+    "10:calmmind",
+    "10:calmmind",
+    "15:ominouswind",
+    "15:magicalleaf",
+    "15:taunt",
+    "15:taunt",
+    "20:nightshade",
+    "20:gigadrain",
+    "20:substitute",
+    "20:substitute",
+    "25:hex",
+    "25:energyball",
+    "25:rest",
+    "25:rest",
+    "30:shadowball",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -94,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4799,
+  "nationalPokedexNumber": 4807,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

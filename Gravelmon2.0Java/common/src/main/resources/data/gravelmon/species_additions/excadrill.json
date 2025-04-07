@@ -132,7 +132,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -249,6 +250,7 @@
         "tm:geomancy",
         "tm:hail",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icebeam",
         "tm:icefang",
@@ -293,7 +295,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -431,7 +434,8 @@
         "tm:spiritbreak",
         "tm:stealthrock",
         "tm:drillrun",
-        "tm:highhorsepower"
+        "tm:highhorsepower",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

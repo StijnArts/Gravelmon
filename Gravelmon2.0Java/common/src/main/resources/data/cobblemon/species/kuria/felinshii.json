@@ -75,7 +75,8 @@
     "39:torment",
     "45:curse",
     "50:shadowball",
-    "53:bonemerang"
+    "53:bonemerang",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -90,7 +91,7 @@
   "weight": 208,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4165,
+  "nationalPokedexNumber": 4173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

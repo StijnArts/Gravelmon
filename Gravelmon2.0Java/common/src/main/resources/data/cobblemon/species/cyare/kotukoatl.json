@@ -114,7 +114,8 @@
     "tm:uturn",
     "tm:voltswitch",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -129,7 +130,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5337,
+  "nationalPokedexNumber": 5345,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

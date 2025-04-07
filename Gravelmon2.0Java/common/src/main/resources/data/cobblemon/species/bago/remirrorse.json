@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:growl",
+    "1:screech",
+    "4:confuseray",
+    "4:irontail",
+    "7:ominouswind",
+    "7:smartstrike",
+    "10:nightshade",
+    "10:mirrorshot",
+    "13:hex",
+    "13:flashcannon",
+    "16:shadowball",
+    "16:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2799,
+  "nationalPokedexNumber": 2807,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

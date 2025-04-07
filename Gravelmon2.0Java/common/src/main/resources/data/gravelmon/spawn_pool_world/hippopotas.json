@@ -6,11 +6,14 @@
     {
       "id": "mahalian_hippopotas-01",
       "pokemon": "hippopotas mahalian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -21,6 +24,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_hippopotas-01",
+      "pokemon": "hippopotas nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

@@ -105,7 +105,8 @@
     "tm:surf",
     "tm:swagger",
     "tm:toxic",
-    "tm:waterpulse"
+    "tm:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5058,
+  "nationalPokedexNumber": 5066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

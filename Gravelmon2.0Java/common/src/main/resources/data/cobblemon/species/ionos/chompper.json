@@ -74,7 +74,8 @@
     "41:liquidation",
     "45:workup",
     "49:doubleedge",
-    "53:hydropump"
+    "53:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4714,
+  "nationalPokedexNumber": 4722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

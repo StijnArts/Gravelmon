@@ -132,7 +132,8 @@
     "egg:venoshock",
     "egg:thunderwave",
     "egg:voltswitch",
-    "egg:drainlife"
+    "egg:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -147,7 +148,7 @@
   "weight": 777,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2064,
+  "nationalPokedexNumber": 2067,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

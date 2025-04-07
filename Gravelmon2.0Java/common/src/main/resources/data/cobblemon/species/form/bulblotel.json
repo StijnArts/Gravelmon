@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "1:leer",
+    "4:charge",
+    "4:twister",
+    "7:shockwave",
+    "7:dragonbreath",
+    "10:discharge",
+    "10:breakingswipe",
+    "13:thunderbolt",
+    "13:dragonpulse",
+    "16:thunder",
+    "16:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3805,
+  "nationalPokedexNumber": 3813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

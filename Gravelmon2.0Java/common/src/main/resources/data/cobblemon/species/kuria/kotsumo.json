@@ -76,7 +76,8 @@
     "42:shadowclaw",
     "48:charm",
     "54:playrough",
-    "60:painsplit"
+    "60:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4188,
+  "nationalPokedexNumber": 4196,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

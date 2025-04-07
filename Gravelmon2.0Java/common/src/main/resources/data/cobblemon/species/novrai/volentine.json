@@ -145,7 +145,8 @@
     "tm:allyswitch",
     "tm:heartswap",
     "tm:sweetscent",
-    "tm:burningjealousy"
+    "tm:burningjealousy",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4833,
+  "nationalPokedexNumber": 4841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

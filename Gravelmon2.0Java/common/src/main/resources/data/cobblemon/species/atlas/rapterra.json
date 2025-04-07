@@ -75,7 +75,8 @@
     "45:wideguard",
     "51:dragondance",
     "55:bodyslam",
-    "61:gigaimpact"
+    "61:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5146,
+  "nationalPokedexNumber": 5154,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

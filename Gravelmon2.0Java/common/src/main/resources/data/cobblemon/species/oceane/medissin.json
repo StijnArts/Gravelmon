@@ -78,7 +78,8 @@
     "1:shadowbone",
     "1:boneclub",
     "1:futuresight",
-    "1:healblock"
+    "1:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1890,
+  "nationalPokedexNumber": 1893,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

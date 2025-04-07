@@ -151,7 +151,8 @@
     "egg:mudsport",
     "egg:refresh",
     "egg:waterspout",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

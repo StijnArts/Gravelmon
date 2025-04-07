@@ -108,7 +108,8 @@
     "tm:brine",
     "tm:flipturn",
     "tm:liquidation",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4698,
+  "nationalPokedexNumber": 4706,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

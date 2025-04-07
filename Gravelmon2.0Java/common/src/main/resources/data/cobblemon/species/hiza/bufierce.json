@@ -76,7 +76,8 @@
     "70:endeavor",
     "77:megahorn",
     "84:headsmash",
-    "91:headlongrush"
+    "91:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2302,
+  "nationalPokedexNumber": 2310,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

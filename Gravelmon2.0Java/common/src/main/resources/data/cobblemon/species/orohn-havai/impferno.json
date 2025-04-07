@@ -83,7 +83,8 @@
     "tm:gigadrain",
     "tm:bravebird",
     "tm:thunderfang",
-    "tm:firefang"
+    "tm:firefang",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -113,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2939,
+  "nationalPokedexNumber": 2947,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

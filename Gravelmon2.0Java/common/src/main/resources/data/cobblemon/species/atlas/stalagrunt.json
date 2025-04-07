@@ -75,7 +75,8 @@
     "44:stoneedge",
     "tm:iciclespear",
     "tm:rockblast",
-    "tm:suckerpunch"
+    "tm:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

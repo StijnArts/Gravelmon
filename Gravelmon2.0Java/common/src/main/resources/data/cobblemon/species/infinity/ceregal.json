@@ -144,7 +144,8 @@
     "egg:leechlife",
     "egg:suckerpunch",
     "egg:swordsdance",
-    "egg:taunt"
+    "egg:taunt",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

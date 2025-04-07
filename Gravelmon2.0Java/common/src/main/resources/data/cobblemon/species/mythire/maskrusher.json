@@ -119,7 +119,8 @@
     "tm:bulldoze",
     "tm:heavyslam",
     "tm:dragonclaw",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -134,7 +135,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3894,
+  "nationalPokedexNumber": 3902,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

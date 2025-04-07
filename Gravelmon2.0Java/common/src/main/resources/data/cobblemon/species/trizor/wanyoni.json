@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:bite"
+    "1:bite",
+    "1:growl",
+    "1:leer",
+    "4:firespin",
+    "4:payback",
+    "7:flamecharge",
+    "7:nightdaze",
+    "10:flameburst",
+    "10:snarl",
+    "13:flamethrower",
+    "13:knockoff",
+    "16:fireblast",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2757,
+  "nationalPokedexNumber": 2765,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

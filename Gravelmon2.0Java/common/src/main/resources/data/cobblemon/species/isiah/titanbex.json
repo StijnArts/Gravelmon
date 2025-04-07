@@ -95,7 +95,8 @@
     "tm:zenheadbutt",
     "tm:sandstorm",
     "tm:heavyslam",
-    "tm:irontail"
+    "tm:irontail",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -110,7 +111,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

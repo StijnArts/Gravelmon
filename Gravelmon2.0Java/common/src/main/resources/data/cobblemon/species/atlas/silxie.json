@@ -113,7 +113,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:uturn",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5100,
+  "nationalPokedexNumber": 5108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -61,7 +61,15 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:nastyplot",
+    "4:megadrain",
+    "7:magicalleaf",
+    "10:gigadrain",
+    "13:energyball",
+    "16:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2547,
+  "nationalPokedexNumber": 2555,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -163,7 +163,8 @@
     "egg:metalclaw",
     "egg:stockpile",
     "egg:swallow",
-    "egg:uproar"
+    "egg:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

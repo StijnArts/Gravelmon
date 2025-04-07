@@ -81,7 +81,8 @@
     "1:solarbeam",
     "1:stunspore",
     "1:sunnyday",
-    "1:tailwind"
+    "1:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -94,7 +95,7 @@
   "weight": 35,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3441,
+  "nationalPokedexNumber": 3449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

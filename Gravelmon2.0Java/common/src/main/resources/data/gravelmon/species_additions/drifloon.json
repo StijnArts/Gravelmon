@@ -14,6 +14,123 @@
   ],
   "forms": [
     {
+      "name": "Nodorran",
+      "primaryType": "ghost",
+      "secondaryType": "electric",
+      "catchRate": 125,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 4.800000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 40,
+        "defence": 33,
+        "special_attack": 80,
+        "special_defence": 35,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:thundershock",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:growl",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:confuseray",
+        "10:charge",
+        "15:ominouswind",
+        "15:shockwave",
+        "20:nightshade",
+        "20:discharge",
+        "25:hex",
+        "25:thunderbolt",
+        "30:shadowball",
+        "30:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorrandrifloon.desc"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorrandrifloon_drifblim_nodorran",
+          "variant": "level_up",
+          "result": "drifblim nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "28"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fire",
       "secondaryType": "flying",
@@ -137,7 +254,8 @@
         "egg:memento",
         "egg:clearsmog",
         "egg:vacuumwave",
-        "egg:selfdestruct"
+        "egg:selfdestruct",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -319,7 +437,8 @@
         "tutor:tailwind",
         "tutor:twister",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -498,7 +617,8 @@
         "egg:haze",
         "egg:hypnosis",
         "egg:clearsmog",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -538,6 +658,7 @@
     }
   ],
   "features": [
+    "nodorran",
     "epoch",
     "delta",
     "ayreian"

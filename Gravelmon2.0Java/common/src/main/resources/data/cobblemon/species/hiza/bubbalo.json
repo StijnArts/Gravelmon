@@ -99,7 +99,8 @@
     "tm:counter",
     "tm:focusblast",
     "tm:waterspout",
-    "tm:aquajet"
+    "tm:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2256,
+  "nationalPokedexNumber": 2264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

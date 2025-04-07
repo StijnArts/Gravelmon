@@ -135,7 +135,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -222,7 +223,33 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:leer",
+        "1:screech",
+        "3:megadrain",
+        "3:irontail",
+        "6:magicalleaf",
+        "6:smartstrike",
+        "9:gigadrain",
+        "9:mirrorshot",
+        "12:energyball",
+        "12:flashcannon",
+        "15:solarbeam",
+        "15:steelbeam",
+        "18:leafage",
+        "18:metalclaw",
+        "21:leer",
+        "21:screech",
+        "24:absorb",
+        "24:irontail",
+        "27:trailblaze",
+        "27:smartstrike",
+        "30:gigadrain",
+        "30:ironhead",
+        "33:seedbomb",
+        "33:meteormash",
+        "36:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",

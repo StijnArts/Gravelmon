@@ -80,7 +80,8 @@
     "43:coil",
     "47:powerwhip",
     "51:electricterrain",
-    "55:selfdestruct"
+    "55:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2130,
+  "nationalPokedexNumber": 2133,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

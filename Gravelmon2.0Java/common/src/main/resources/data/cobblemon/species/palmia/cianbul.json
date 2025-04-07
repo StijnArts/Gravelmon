@@ -65,7 +65,22 @@
     "1:gust",
     "1:tackle",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:growl",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:aircutter",
+    "4:round",
+    "7:wingattack",
+    "7:swift",
+    "10:airslash",
+    "10:uproar",
+    "13:drillpeck",
+    "13:hypervoice",
+    "16:hurricane",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -82,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2627,
+  "nationalPokedexNumber": 2635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

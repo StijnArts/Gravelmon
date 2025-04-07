@@ -69,7 +69,18 @@
   },
   "moves": [
     "1:rockthrow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:defensecurl",
+    "1:calmmind",
+    "4:rollout",
+    "4:taunt",
+    "7:ancientpower",
+    "7:substitute",
+    "10:powergem",
+    "10:rest",
+    "13:stealthrock",
+    "16:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -84,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

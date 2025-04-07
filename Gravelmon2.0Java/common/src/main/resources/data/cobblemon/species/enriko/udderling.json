@@ -73,7 +73,8 @@
     "36:toxic",
     "40:moonlight",
     "44:sludgebomb",
-    "48:moonblast"
+    "48:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1747,
+  "nationalPokedexNumber": 1750,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

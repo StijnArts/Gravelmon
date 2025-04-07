@@ -132,7 +132,8 @@
     "tm:psychocut",
     "tm:lunge",
     "tm:entrainment",
-    "tm:teeterdance"
+    "tm:teeterdance",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1571,
+  "nationalPokedexNumber": 1574,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

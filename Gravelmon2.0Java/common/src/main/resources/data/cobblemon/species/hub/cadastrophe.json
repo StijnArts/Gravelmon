@@ -155,7 +155,8 @@
     "tm:uturn",
     "tm:willowisp",
     "tm:xscissor",
-    "tm:selfdestruct"
+    "tm:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -170,7 +171,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1391,
+  "nationalPokedexNumber": 1394,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -81,7 +81,8 @@
     "53:recover",
     "58:psychoshift",
     "63:moonblast",
-    "68:meteorbeam"
+    "68:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2126,
+  "nationalPokedexNumber": 2129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

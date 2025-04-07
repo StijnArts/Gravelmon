@@ -73,7 +73,8 @@
     "68:explosion",
     "78:meteormash",
     "88:doomdesire",
-    "98:hyperbeam"
+    "98:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3485,
+  "nationalPokedexNumber": 3493,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.9375,

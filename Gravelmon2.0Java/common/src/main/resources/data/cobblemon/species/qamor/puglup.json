@@ -80,7 +80,8 @@
     "tm:thunderfang",
     "tm:counter",
     "tm:skullbash",
-    "tm:endure"
+    "tm:endure",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3997,
+  "nationalPokedexNumber": 4005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

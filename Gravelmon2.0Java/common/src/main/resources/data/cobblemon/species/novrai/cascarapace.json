@@ -144,7 +144,8 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:spitup",
-    "tm:rototiller"
+    "tm:rototiller",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4832,
+  "nationalPokedexNumber": 4840,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

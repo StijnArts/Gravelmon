@@ -111,7 +111,8 @@
     "tm:grudge",
     "tm:overheat",
     "tm:dragontail",
-    "tm:paraboliccharge"
+    "tm:paraboliccharge",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3837,
+  "nationalPokedexNumber": 3845,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

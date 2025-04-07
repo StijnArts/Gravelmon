@@ -128,7 +128,8 @@
     "tm:thunder",
     "tm:thunderpunch",
     "tm:thunderbolt",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -143,7 +144,7 @@
   "weight": 3470,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3243,
+  "nationalPokedexNumber": 3251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

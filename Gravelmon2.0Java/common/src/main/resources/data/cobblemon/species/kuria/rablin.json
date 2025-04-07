@@ -74,7 +74,8 @@
     "34:curse",
     "40:imprison",
     "52:calmmind",
-    "58:phantomforce"
+    "58:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -87,7 +88,7 @@
   "weight": 55,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4193,
+  "nationalPokedexNumber": 4201,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

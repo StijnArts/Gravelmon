@@ -75,7 +75,8 @@
     "38:petaldance",
     "44:doubleedge",
     "48:bravebird",
-    "54:shellsmash"
+    "54:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1725,
+  "nationalPokedexNumber": 1728,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

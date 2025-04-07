@@ -134,7 +134,8 @@
         "egg:fireblast",
         "egg:triattack",
         "egg:selfdestruct",
-        "egg:explosion"
+        "egg:explosion",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -284,7 +285,8 @@
         "tm:substitute",
         "tm:darkpulse",
         "tutor:secretpower",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:strugglebug"
+    "1:strugglebug",
+    "1:leer",
+    "1:stringshot",
+    "10:venoshock",
+    "10:leechlife",
+    "15:poisontail",
+    "15:lunge",
+    "20:toxicspikes",
+    "20:xscissor",
+    "25:sludgebomb",
+    "25:uturn",
+    "30:poisonjab",
+    "30:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6080,
+  "nationalPokedexNumber": 6088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

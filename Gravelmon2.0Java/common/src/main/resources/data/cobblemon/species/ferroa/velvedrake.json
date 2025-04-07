@@ -141,7 +141,8 @@
     "tm:haze",
     "tm:amnesia",
     "tm:toxicthread",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1608,
+  "nationalPokedexNumber": 1611,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

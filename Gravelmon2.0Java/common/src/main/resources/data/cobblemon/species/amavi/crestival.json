@@ -73,7 +73,8 @@
     "40:shiftgear",
     "45:dragonpulse",
     "51:flareblitz",
-    "57:dragonrush"
+    "57:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5292,
+  "nationalPokedexNumber": 5300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

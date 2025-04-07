@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:nastyplot",
+    "4:firespin",
+    "7:flamecharge",
+    "10:flameburst",
+    "13:flamethrower",
+    "16:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -75,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2525,
+  "nationalPokedexNumber": 2533,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

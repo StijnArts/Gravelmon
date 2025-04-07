@@ -121,6 +121,7 @@
     "tm:focusblast",
     "tm:trickroom",
     "tm:hyperbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -134,7 +135,7 @@
   "weight": 937,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3444,
+  "nationalPokedexNumber": 3452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

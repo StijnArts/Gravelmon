@@ -141,7 +141,8 @@
     "tm:sleeptalk",
     "tm:shieldbash",
     "tm:cut",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -131,7 +131,8 @@
     "tm:uturn",
     "tm:whirlwind",
     "tm:captivate",
-    "tm:quickattack"
+    "tm:quickattack",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1491,
+  "nationalPokedexNumber": 1494,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

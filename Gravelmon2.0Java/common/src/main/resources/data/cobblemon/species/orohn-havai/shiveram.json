@@ -76,7 +76,8 @@
     "34:avalanche",
     "36:rest",
     "41:blizzard",
-    "44:headcharge"
+    "44:headcharge",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3004,
+  "nationalPokedexNumber": 3012,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

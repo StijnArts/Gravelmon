@@ -140,7 +140,8 @@
     "egg:curse",
     "egg:focusenergy",
     "egg:lastresort",
-    "egg:roost"
+    "egg:roost",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

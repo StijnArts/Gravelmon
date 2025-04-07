@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "10:quickattack",
+    "15:bite",
+    "20:takedown",
+    "25:crunch",
+    "30:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5340,
+  "nationalPokedexNumber": 5348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

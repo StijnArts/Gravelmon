@@ -110,7 +110,8 @@
     "tm:thunderwave",
     "tm:toxic",
     "tm:willowisp",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5118,
+  "nationalPokedexNumber": 5126,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

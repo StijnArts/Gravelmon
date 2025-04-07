@@ -79,7 +79,8 @@
     "33:synthesis",
     "36:sunnyday",
     "39:entrainment",
-    "42:leafstorm"
+    "42:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -94,7 +95,7 @@
   "weight": 185,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3391,
+  "nationalPokedexNumber": 3399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

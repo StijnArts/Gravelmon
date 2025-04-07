@@ -64,7 +64,23 @@
     "1:poisonsting",
     "1:watergun",
     "1:quickattack",
-    "1:flipturn"
+    "1:flipturn",
+    "1:leer",
+    "1:tailwhip",
+    "1:swordsdance",
+    "1:quickattack",
+    "10:venoshock",
+    "10:bubblebeam",
+    "10:swordsdance",
+    "15:poisontail",
+    "15:aquatail",
+    "20:toxicspikes",
+    "20:surf",
+    "25:sludgebomb",
+    "25:waterfall",
+    "30:poisonjab",
+    "30:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -79,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5348,
+  "nationalPokedexNumber": 5356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

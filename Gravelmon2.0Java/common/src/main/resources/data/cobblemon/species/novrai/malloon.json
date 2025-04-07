@@ -132,7 +132,8 @@
     "tm:selfdestruct",
     "tm:aquajet",
     "tm:haze",
-    "tm:counter"
+    "tm:counter",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4901,
+  "nationalPokedexNumber": 4909,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

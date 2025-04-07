@@ -126,7 +126,8 @@
     "tutor:icywind",
     "tutor:trick",
     "tutor:icepunch",
-    "tutor:skillswap"
+    "tutor:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3714,
+  "nationalPokedexNumber": 3722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

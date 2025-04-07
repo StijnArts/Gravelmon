@@ -86,7 +86,8 @@
     "tm:stompingtantrum",
     "tm:superpower",
     "tm:burningjealousy",
-    "tm:scorchingsands"
+    "tm:scorchingsands",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -101,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

@@ -126,7 +126,8 @@
         "tm:toxicspikes",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

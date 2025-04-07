@@ -115,7 +115,8 @@
     "tm:whirlpool",
     "tm:recover",
     "tm:thrash",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3354,
+  "nationalPokedexNumber": 3362,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

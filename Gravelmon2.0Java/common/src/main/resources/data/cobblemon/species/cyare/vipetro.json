@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:acid"
+    "1:acid",
+    "1:defensecurl",
+    "1:leer",
+    "10:rollout",
+    "10:clearsmog",
+    "15:ancientpower",
+    "15:sludge",
+    "20:powergem",
+    "20:toxicspikes",
+    "25:stealthrock",
+    "25:sludgebomb",
+    "30:meteorbeam",
+    "30:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5383,
+  "nationalPokedexNumber": 5391,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

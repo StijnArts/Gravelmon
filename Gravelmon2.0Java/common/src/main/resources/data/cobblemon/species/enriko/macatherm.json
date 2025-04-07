@@ -70,7 +70,8 @@
     "45:flareblitz",
     "51:acrobatics",
     "53:auroraveil",
-    "55:blizzard"
+    "55:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1708,
+  "nationalPokedexNumber": 1711,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

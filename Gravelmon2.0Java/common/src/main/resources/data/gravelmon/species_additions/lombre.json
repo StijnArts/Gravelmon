@@ -147,7 +147,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -319,7 +320,8 @@
         "egg:leechseed",
         "egg:petalblizzard",
         "egg:spikes",
-        "egg:synthesis"
+        "egg:synthesis",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -504,7 +506,8 @@
         "tutor:waterpulse",
         "tutor:whirlpool",
         "tutor:wonderroom",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -537,11 +540,212 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 119,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "lotad form=ishirian",
+      "baseScale": 0.7255813953488373,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim",
+        "stormdrain",
+        "h:moody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 40,
+        "defence": 50,
+        "special_attack": 75,
+        "special_defence": 70,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:switcheroo",
+        "1:fakeout",
+        "1:knockoff",
+        "1:astonish",
+        "1:growl",
+        "1:shadowsneak",
+        "1:flail",
+        "9:mist",
+        "12:mudshot",
+        "18:furyswipes",
+        "24:bubblebeam",
+        "30:leechseed",
+        "36:hex",
+        "50:suckerpunch",
+        "57:shadowball",
+        "64:hydropump",
+        "tm:mudshot",
+        "tm:hex",
+        "tm:raindance",
+        "tm:shadowball",
+        "tm:hydropump",
+        "tm:knockoff",
+        "tm:thief",
+        "tm:poltergeist",
+        "tm:phantomforce",
+        "tm:bulletseed",
+        "tm:seedbomb",
+        "tm:trailblaze",
+        "tm:payback",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:frustration",
+        "tm:return",
+        "tm:zenheadbutt",
+        "tm:darkpulse",
+        "tm:ominouswind",
+        "tm:shadowball",
+        "tm:energyball",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:magicalleaf",
+        "tm:blizzard",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:echoedvoice",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:terablast",
+        "tm:uproar",
+        "tm:weatherball",
+        "tm:extrasensory",
+        "tm:chillingwater",
+        "tm:muddywater",
+        "tm:scald",
+        "tm:waterpulse",
+        "tm:embargo",
+        "tm:nastyplot",
+        "tm:sunnyday",
+        "tm:willowisp",
+        "tm:defog",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:snowscape",
+        "tm:doubleteam",
+        "tm:attract",
+        "tm:confide",
+        "tm:endure",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:scaryface",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:allyswitch",
+        "tm:calmmind",
+        "tm:gravity",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:surf",
+        "tm:flash",
+        "tm:whirlpool",
+        "tm:secretpower",
+        "tm:shadowclaw",
+        "tm:brickbreak",
+        "tm:fling",
+        "tm:hypervoice",
+        "tm:waterfall",
+        "tm:rocksmash",
+        "tm:dive",
+        "tm:facade",
+        "tm:switcheroo",
+        "tm:feintattack",
+        "tm:razorleaf",
+        "tm:memento",
+        "tm:strengthsap",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianlombre.desc"
+      ],
+      "height": 13,
+      "weight": 330,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [
+        {
+          "id": "ishirianlombre_ludicolo_ishirian",
+          "variant": "item_interact",
+          "result": "ludicolo ishirian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.6875,
+        "height": 2.6875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
     "egho",
-    "delta"
+    "delta",
+    "ishirian"
   ]
 }

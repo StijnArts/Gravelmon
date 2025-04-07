@@ -82,7 +82,8 @@
     "tm:megahorn",
     "tm:bodyslam",
     "tm:meanlook",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3149,
+  "nationalPokedexNumber": 3157,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

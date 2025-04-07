@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terremotor",
+  "speciesId": "cobblemon:terremotor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,7 +16,7 @@ public class Pestrina extends drai.dev.data.pokemon.Pokemon {
                         65,
                         125),
                 List.of(Ability.OVERGROW), Ability.TOUGH_CLAWS,
-                0, 0,
+                17, 0,
                 new Stats(0,0,0,0,0,3), 0,
                 0.875,
                 265, ExperienceGroup.MEDIUM_SLOW,
@@ -44,7 +44,11 @@ public class Pestrina extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,64)                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pestrina");

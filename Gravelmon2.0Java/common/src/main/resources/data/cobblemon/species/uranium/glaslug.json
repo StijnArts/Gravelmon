@@ -128,7 +128,8 @@
     "egg:bodyslam",
     "egg:screech",
     "egg:curse",
-    "egg:sludge"
+    "egg:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2020,
+  "nationalPokedexNumber": 2023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

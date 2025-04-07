@@ -115,7 +115,8 @@
     "tm:hypnosis",
     "tm:trickroom",
     "tm:defog",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4252,
+  "nationalPokedexNumber": 4260,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

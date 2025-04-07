@@ -73,7 +73,8 @@
     "35:wideguard",
     "40:earthpower",
     "46:stoneedge",
-    "52:magicroom"
+    "52:magicroom",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1869,
+  "nationalPokedexNumber": 1872,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -99,7 +99,8 @@
     "tm:smackdown",
     "tm:stoneedge",
     "tm:steelwing",
-    "tm:curse"
+    "tm:curse",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -112,7 +113,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4674,
+  "nationalPokedexNumber": 4682,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

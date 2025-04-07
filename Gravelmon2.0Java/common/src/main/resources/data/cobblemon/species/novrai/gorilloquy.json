@@ -161,7 +161,8 @@
     "tm:faketears",
     "tm:metronome",
     "tm:crosschop",
-    "tm:bodyslam"
+    "tm:bodyslam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4870,
+  "nationalPokedexNumber": 4878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

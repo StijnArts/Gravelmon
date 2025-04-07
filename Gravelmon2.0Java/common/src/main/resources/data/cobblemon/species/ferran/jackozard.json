@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:scratch"
+    "1:scratch",
+    "1:growl",
+    "1:leer",
+    "4:confuseray",
+    "4:twister",
+    "7:ominouswind",
+    "7:dragonbreath",
+    "10:nightshade",
+    "10:breakingswipe",
+    "13:hex",
+    "13:dragonpulse",
+    "16:shadowball",
+    "16:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5430,
+  "nationalPokedexNumber": 5438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

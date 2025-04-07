@@ -86,7 +86,8 @@
     "50:doubleedge",
     "55:lockon",
     "60:zapcannon",
-    "65:hyperbeam"
+    "65:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -99,7 +100,7 @@
   "weight": 1255,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3400,
+  "nationalPokedexNumber": 3408,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -69,7 +69,8 @@
     "28:featherdance",
     "33:bubblebeam",
     "37:glare",
-    "42:crunch"
+    "42:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4055,
+  "nationalPokedexNumber": 4063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

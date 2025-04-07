@@ -73,7 +73,8 @@
     "40:earthpower",
     "49:shoreup",
     "54:muddywater",
-    "90:fissure"
+    "90:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1641,
+  "nationalPokedexNumber": 1644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

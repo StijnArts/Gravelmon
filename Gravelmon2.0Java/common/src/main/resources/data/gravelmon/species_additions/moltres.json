@@ -64,7 +64,20 @@
       "drops": {},
       "moves": [
         "1:mudslap",
-        "1:gust"
+        "1:gust",
+        "1:sandattack",
+        "1:leer",
+        "4:mudshot",
+        "4:aircutter",
+        "7:mudbomb",
+        "7:wingattack",
+        "10:bulldoze",
+        "10:airslash",
+        "13:scorchingsands",
+        "13:drillpeck",
+        "16:earthpower",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",

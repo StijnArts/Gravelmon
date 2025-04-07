@@ -136,7 +136,8 @@
     "tm:extrasensory",
     "tm:acid",
     "tm:rollout",
-    "tm:miracleeye"
+    "tm:miracleeye",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4933,
+  "nationalPokedexNumber": 4941,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

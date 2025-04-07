@@ -62,7 +62,30 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:watergun"
+    "1:watergun",
+    "1:growl",
+    "1:tailwhip",
+    "10:icywind",
+    "10:bubblebeam",
+    "15:aurorabeam",
+    "15:brine",
+    "20:freezedry",
+    "20:surf",
+    "25:icebeam",
+    "25:chillingwater",
+    "30:blizzard",
+    "30:hydropump",
+    "35:powdersnow",
+    "35:watergun",
+    "40:growl",
+    "40:tailwhip",
+    "45:icywind",
+    "45:bubblebeam",
+    "50:icepunch",
+    "50:aquatail",
+    "55:icespinner",
+    "55:surf",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -92,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5387,
+  "nationalPokedexNumber": 5395,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

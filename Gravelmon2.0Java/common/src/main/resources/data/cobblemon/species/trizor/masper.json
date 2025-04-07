@@ -64,7 +64,22 @@
     "1:confusion",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:screech",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:psybeam",
+    "4:irontail",
+    "7:futuresight",
+    "7:smartstrike",
+    "10:psychic",
+    "10:mirrorshot",
+    "13:psyshock",
+    "13:flashcannon",
+    "16:psychoboost",
+    "16:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2750,
+  "nationalPokedexNumber": 2758,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

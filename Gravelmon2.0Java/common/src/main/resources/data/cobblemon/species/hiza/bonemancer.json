@@ -74,7 +74,8 @@
     "39:torment",
     "45:curse",
     "50:shadowball",
-    "53:bonemerang"
+    "53:bonemerang",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2339,
+  "nationalPokedexNumber": 2347,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

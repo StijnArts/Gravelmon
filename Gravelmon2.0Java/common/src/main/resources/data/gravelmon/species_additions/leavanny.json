@@ -68,6 +68,7 @@
         "39:agility",
         "1:nightslash",
         "54:plasmafists",
+        "46:excalibur",
         "1:smartstrike",
         "15:powertrip",
         "28:cheapshot",
@@ -119,7 +120,8 @@
         "tm:voltswitch",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -142,9 +144,192 @@
         "height": 4.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "grass",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 225,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "swadloon form=ishirian",
+      "baseScale": 0.4235294117647059,
+      "cannotDynamax": false,
+      "abilities": [
+        "overgrow",
+        "ironbarbs",
+        "h:chlorophyll"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 103,
+        "defence": 100,
+        "special_attack": 70,
+        "special_defence": 60,
+        "speed": 92
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:falseswipe",
+        "1:bugbite",
+        "1:tackle",
+        "1:razorleaf",
+        "1:leafage",
+        "1:smartstrike",
+        "22:strugglebug",
+        "29:fellstinger",
+        "32:metalsound",
+        "36:leafblade",
+        "39:ironhead",
+        "43:agility",
+        "46:swordsdance",
+        "50:solarblade",
+        "tm:takedown",
+        "tm:charm",
+        "tm:protect",
+        "tm:strugglebug",
+        "tm:trailblaze",
+        "tm:pounce",
+        "tm:magicalleaf",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:grassknot",
+        "tm:rest",
+        "tm:substitute",
+        "tm:irondefense",
+        "tm:gigadrain",
+        "tm:energyball",
+        "tm:grassyterrain",
+        "tm:bugbuzz",
+        "tm:solarbeam",
+        "tm:bugbite",
+        "tm:lunge",
+        "tm:grassyglide",
+        "tm:skittersmack",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:frustration",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:attract",
+        "tm:round",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:naturepower",
+        "tm:confide",
+        "tm:cut",
+        "tm:flash",
+        "tm:secretpower",
+        "tm:bulletseed",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:snore",
+        "tm:facade",
+        "tm:xscissor",
+        "tm:pollenpuff",
+        "tm:knockoff",
+        "tm:solarblade",
+        "tm:leafstorm",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:helpinghand",
+        "tm:poisonjab",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:aerialace",
+        "tm:leafblade",
+        "tm:signalbeam",
+        "tm:encore",
+        "tm:workup",
+        "tm:falseswipe",
+        "tm:smartstrike",
+        "tm:ironhead",
+        "tm:agility",
+        "tm:throatchop",
+        "tm:lowkick",
+        "tm:tripleaxel",
+        "tm:brickbreak",
+        "tm:psychocut",
+        "tm:terablast",
+        "tm:screech",
+        "tm:switcheroo",
+        "tm:worryseed",
+        "tm:camouflage",
+        "tm:mefirst",
+        "tm:extrasensory",
+        "tm:razorwind",
+        "tm:silverwind",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianleavanny.desc"
+      ],
+      "height": 12,
+      "weight": 252,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.25,
+        "height": 4.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "ishirian"
   ]
 }

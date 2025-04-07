@@ -102,7 +102,8 @@
     "egg:healingwish",
     "egg:ingrain",
     "egg:sweetscent",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4651,
+  "nationalPokedexNumber": 4659,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

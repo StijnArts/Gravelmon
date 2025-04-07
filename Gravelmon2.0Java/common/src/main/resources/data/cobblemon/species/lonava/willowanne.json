@@ -78,7 +78,8 @@
     "48:solarbeam",
     "52:acupressure",
     "56:petaldance",
-    "60:cottonguard"
+    "60:cottonguard",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3320,
+  "nationalPokedexNumber": 3328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

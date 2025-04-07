@@ -8,7 +8,6 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "amacorala",
   "baseScale": 0.7354838709677419,
   "cannotDynamax": false,
   "abilities": [
@@ -151,9 +150,7 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.solacor.desc"
@@ -162,7 +159,7 @@
   "weight": 5550,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4076,
+  "nationalPokedexNumber": 4084,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

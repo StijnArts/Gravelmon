@@ -72,7 +72,8 @@
     "1:octazooka",
     "1:octolock",
     "1:lowsweep",
-    "1:jetpunch"
+    "1:jetpunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -87,7 +88,7 @@
   "weight": 172,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3283,
+  "nationalPokedexNumber": 3291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

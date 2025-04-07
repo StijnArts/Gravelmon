@@ -70,7 +70,8 @@
     "47:brine",
     "52:batonpass",
     "57:trumpcard",
-    "64:hydropump"
+    "64:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

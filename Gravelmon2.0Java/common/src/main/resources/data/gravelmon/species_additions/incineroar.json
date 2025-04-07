@@ -103,6 +103,7 @@
         "tm:flareblitz",
         "tm:focusblast",
         "tm:gammaray",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -132,7 +133,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -155,9 +157,174 @@
         "height": 6.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "torracat form=ishirian",
+      "baseScale": 0.5217391304347826,
+      "cannotDynamax": false,
+      "abilities": [
+        "mummy",
+        "seance"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 80,
+        "defence": 90,
+        "special_attack": 115,
+        "special_defence": 90,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:wrap",
+        "1:astonish",
+        "4:leer",
+        "8:confusion",
+        "11:hypnosis",
+        "14:pursuit",
+        "16:shadowsneak",
+        "19:willowisp",
+        "24:snarl",
+        "28:confuseray",
+        "38:suckerpunch",
+        "44:shadowball",
+        "49:screech",
+        "55:darkpulse",
+        "tm:facade",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:attract",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:protect",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:rest",
+        "tm:terablast",
+        "tm:scaryface",
+        "tm:swift",
+        "tm:roar",
+        "tm:uproar",
+        "tm:painsplit",
+        "tm:payday",
+        "tm:covet",
+        "tm:psybeam",
+        "tm:psyshock",
+        "tm:psychic",
+        "tm:amnesia",
+        "tm:calmmind",
+        "tm:expandingforce",
+        "tm:curse",
+        "tm:confuseray",
+        "tm:hex",
+        "tm:nightshade",
+        "tm:shadowclaw",
+        "tm:shadowball",
+        "tm:phantomforce",
+        "tm:spite",
+        "tm:poltergeist",
+        "tm:thief",
+        "tm:snarl",
+        "tm:fling",
+        "tm:taunt",
+        "tm:darkpulse",
+        "tm:nastyplot",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:disarmingvoice",
+        "tm:dazzlinggleam",
+        "tm:playrough",
+        "tm:willowisp",
+        "tm:sludgebomb",
+        "tm:poisonjab",
+        "tm:leechlife",
+        "tm:focusblast",
+        "tm:partingshot",
+        "tm:yawn",
+        "tm:mindreader",
+        "tm:switcheroo",
+        "tm:meanlook",
+        "tm:extrasensory",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianincineroar.desc"
+      ],
+      "height": 20,
+      "weight": 750,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.75,
+        "height": 5.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "ishirian"
   ]
 }

@@ -71,7 +71,8 @@
     "1:sing",
     "1:perishsong",
     "1:destinybond",
-    "1:screech"
+    "1:screech",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3912,
+  "nationalPokedexNumber": 3920,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

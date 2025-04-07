@@ -138,7 +138,8 @@
     "tm:pinmissile",
     "tm:spark",
     "tm:brine",
-    "tm:charge"
+    "tm:charge",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5026,
+  "nationalPokedexNumber": 5034,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

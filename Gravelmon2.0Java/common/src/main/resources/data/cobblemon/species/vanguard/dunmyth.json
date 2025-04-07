@@ -162,7 +162,8 @@
     "egg:agility",
     "egg:secretpower",
     "egg:sleeptalk",
-    "egg:hex"
+    "egg:hex",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -190,7 +191,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4077,
+  "nationalPokedexNumber": 4085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

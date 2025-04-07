@@ -63,7 +63,22 @@
     "1:watergun",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:tailwhip",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:bubblebeam",
+    "10:aircutter",
+    "15:brine",
+    "15:wingattack",
+    "20:surf",
+    "20:airslash",
+    "25:chillingwater",
+    "25:drillpeck",
+    "30:hydropump",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -76,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4812,
+  "nationalPokedexNumber": 4820,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

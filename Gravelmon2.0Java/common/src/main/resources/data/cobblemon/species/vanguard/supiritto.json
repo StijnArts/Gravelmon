@@ -154,7 +154,8 @@
     "egg:detect",
     "egg:extrasensory",
     "egg:memento",
-    "egg:suckerpunch"
+    "egg:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -169,7 +170,7 @@
   "weight": 811,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4080,
+  "nationalPokedexNumber": 4088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

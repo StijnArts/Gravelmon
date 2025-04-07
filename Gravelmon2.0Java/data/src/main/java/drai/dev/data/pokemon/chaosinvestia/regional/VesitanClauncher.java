@@ -46,7 +46,7 @@ public class VesitanClauncher extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 44, 5.4, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 44, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

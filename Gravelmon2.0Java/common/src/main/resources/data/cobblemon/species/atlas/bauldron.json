@@ -123,7 +123,8 @@
     "tm:venoshock",
     "tm:watergun",
     "tm:waterpulse",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -138,7 +139,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5130,
+  "nationalPokedexNumber": 5138,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

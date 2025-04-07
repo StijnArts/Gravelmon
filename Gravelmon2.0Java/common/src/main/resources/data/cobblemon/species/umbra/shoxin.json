@@ -111,7 +111,8 @@
     "tutor:irontail",
     "tutor:magnetrise",
     "tutor:magiccoat",
-    "tutor:gunkshot"
+    "tutor:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3719,
+  "nationalPokedexNumber": 3727,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

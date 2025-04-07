@@ -135,7 +135,8 @@
         "egg:spitup",
         "egg:stockpile",
         "egg:swallow",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

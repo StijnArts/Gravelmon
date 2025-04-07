@@ -161,7 +161,8 @@
     "tm:magicpowder",
     "tm:hyperfang",
     "tm:beatup",
-    "tm:nightshade"
+    "tm:nightshade",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4838,
+  "nationalPokedexNumber": 4846,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

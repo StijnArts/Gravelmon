@@ -76,7 +76,8 @@
     "40:woodhammer",
     "44:leafstorm",
     "48:grassyterrain",
-    "56:solarbeam"
+    "56:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3369,
+  "nationalPokedexNumber": 3377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

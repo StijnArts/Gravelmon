@@ -63,7 +63,22 @@
     "1:strugglebug",
     "1:lick",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:growl",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:silverwind",
+    "4:confuseray",
+    "7:signalbeam",
+    "7:ominouswind",
+    "10:infestation",
+    "10:nightshade",
+    "13:uturn",
+    "13:hex",
+    "16:bugbuzz",
+    "16:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3612,
+  "nationalPokedexNumber": 3620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -73,7 +73,8 @@
     "52:roost",
     "57:typhoon",
     "64:raindance",
-    "69:hydropump"
+    "69:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4244,
+  "nationalPokedexNumber": 4252,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

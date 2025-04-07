@@ -84,7 +84,8 @@
     "tm:muddywater",
     "tm:block",
     "tm:rockblast",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -99,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2941,
+  "nationalPokedexNumber": 2949,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

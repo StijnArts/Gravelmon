@@ -71,7 +71,8 @@
     "30:scaryface",
     "33:poisonjab",
     "41:pinmissile",
-    "49:fellstinger"
+    "49:fellstinger",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3995,
+  "nationalPokedexNumber": 4003,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

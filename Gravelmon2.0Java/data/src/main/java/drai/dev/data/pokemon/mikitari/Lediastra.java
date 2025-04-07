@@ -177,11 +177,18 @@ public class Lediastra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SILVER_WIND,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky().isNotBiomes(Biome.IS_FREEZING)
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.TREE_TOP).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Lediastra");
-
+        addAdditionalEvolution("ledian", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
     }
 
 

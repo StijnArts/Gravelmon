@@ -39,7 +39,7 @@ public class Ovimourn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

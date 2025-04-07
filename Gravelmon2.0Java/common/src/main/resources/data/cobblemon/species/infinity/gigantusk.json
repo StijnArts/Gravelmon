@@ -138,7 +138,8 @@
     "egg:irondefense",
     "egg:pressurize",
     "egg:shellsmash",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

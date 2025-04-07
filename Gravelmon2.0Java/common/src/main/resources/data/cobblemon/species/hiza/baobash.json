@@ -74,7 +74,8 @@
     "38:bulkup",
     "43:bodyslam",
     "47:painsplit",
-    "53:woodhammer"
+    "53:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2351,
+  "nationalPokedexNumber": 2359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

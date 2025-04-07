@@ -150,7 +150,8 @@
     "tm:workup",
     "tm:xscissor",
     "tm:mudslide",
-    "tm:smartstrike"
+    "tm:smartstrike",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -163,7 +164,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3348,
+  "nationalPokedexNumber": 3356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

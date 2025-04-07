@@ -113,7 +113,8 @@
         "tm:toxic",
         "tm:electricterrain",
         "tm:rapidspin",
-        "tm:soak"
+        "tm:soak",
+        "tm:terablast"
       ],
       "labels": [
         "dhiome",

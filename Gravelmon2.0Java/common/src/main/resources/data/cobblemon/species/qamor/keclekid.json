@@ -74,7 +74,8 @@
     "38:screech",
     "42:substitute",
     "46:suckerpunch",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4024,
+  "nationalPokedexNumber": 4032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

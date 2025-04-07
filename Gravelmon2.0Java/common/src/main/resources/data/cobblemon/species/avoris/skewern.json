@@ -76,7 +76,8 @@
     "49:irondefense",
     "53:highhorsepower",
     "57:closecombat",
-    "60:flowershield"
+    "60:flowershield",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1849,
+  "nationalPokedexNumber": 1852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

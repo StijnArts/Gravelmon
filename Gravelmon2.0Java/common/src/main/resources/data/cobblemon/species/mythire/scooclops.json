@@ -105,7 +105,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:flamecharge",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3888,
+  "nationalPokedexNumber": 3896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

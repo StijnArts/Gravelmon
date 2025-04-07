@@ -61,7 +61,20 @@
   "moves": [
     "1:metalclaw",
     "1:irondefense",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:screech",
+    "1:bulkup",
+    "1:quickattack",
+    "4:irontail",
+    "4:calmmind",
+    "4:swordsdance",
+    "7:smartstrike",
+    "7:taunt",
+    "10:ironhead",
+    "10:substitute",
+    "13:meteormash",
+    "13:rest",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3627,
+  "nationalPokedexNumber": 3635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

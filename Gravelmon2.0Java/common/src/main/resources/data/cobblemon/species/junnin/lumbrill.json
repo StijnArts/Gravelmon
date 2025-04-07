@@ -107,7 +107,8 @@
     "tm:headbutt",
     "tm:rapidspin",
     "tm:zenheadbutt",
-    "tm:irontail"
+    "tm:irontail",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2433,
+  "nationalPokedexNumber": 2441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

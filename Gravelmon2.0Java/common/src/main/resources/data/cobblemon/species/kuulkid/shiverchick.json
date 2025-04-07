@@ -62,7 +62,34 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:watergun"
+    "1:watergun",
+    "1:growl",
+    "1:tailwhip",
+    "4:icywind",
+    "4:bubblebeam",
+    "7:aurorabeam",
+    "7:brine",
+    "10:freezedry",
+    "10:surf",
+    "13:icebeam",
+    "13:chillingwater",
+    "16:blizzard",
+    "16:hydropump",
+    "19:powdersnow",
+    "19:watergun",
+    "22:growl",
+    "22:tailwhip",
+    "25:icywind",
+    "25:bubblebeam",
+    "28:icepunch",
+    "28:aquatail",
+    "31:icespinner",
+    "31:surf",
+    "34:iceshard",
+    "34:waterfall",
+    "39:iciclecrash",
+    "39:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -90,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2216,
+  "nationalPokedexNumber": 2224,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

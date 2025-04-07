@@ -74,7 +74,8 @@
     "43:icebeam",
     "47:embargo",
     "52:blizzard",
-    "57:sheercold"
+    "57:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4289,
+  "nationalPokedexNumber": 4297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

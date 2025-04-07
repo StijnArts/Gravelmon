@@ -77,7 +77,8 @@
     "39:moonlight",
     "43:uturn",
     "47:powder",
-    "52:moonblast"
+    "52:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5304,
+  "nationalPokedexNumber": 5312,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -74,7 +74,8 @@
     "37:bodyslam",
     "42:safeguard",
     "48:superpower",
-    "52:waterspout"
+    "52:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -89,7 +90,7 @@
   "weight": 481,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3949,
+  "nationalPokedexNumber": 3957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

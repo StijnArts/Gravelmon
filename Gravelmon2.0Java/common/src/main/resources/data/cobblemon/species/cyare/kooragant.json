@@ -60,7 +60,15 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:nastyplot",
+    "10:firespin",
+    "15:flamecharge",
+    "20:flameburst",
+    "25:flamethrower",
+    "30:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -88,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5350,
+  "nationalPokedexNumber": 5358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

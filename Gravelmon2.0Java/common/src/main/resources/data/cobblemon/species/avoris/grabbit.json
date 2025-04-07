@@ -78,7 +78,8 @@
     "48:toxic",
     "50:nightdaze",
     "55:meanlook",
-    "57:foulplay"
+    "57:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1855,
+  "nationalPokedexNumber": 1858,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

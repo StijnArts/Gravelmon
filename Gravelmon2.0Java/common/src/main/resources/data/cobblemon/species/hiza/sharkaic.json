@@ -75,7 +75,8 @@
     "41:aquatail",
     "45:hydropump",
     "48:rockslide",
-    "57:stoneedge"
+    "57:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2365,
+  "nationalPokedexNumber": 2373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

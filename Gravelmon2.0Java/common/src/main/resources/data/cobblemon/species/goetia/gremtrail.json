@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:peck"
+    "1:peck",
+    "1:leer",
+    "1:leer",
+    "10:venoshock",
+    "10:pluck",
+    "15:poisontail",
+    "15:wingattack",
+    "20:toxicspikes",
+    "20:aerialace",
+    "25:sludgebomb",
+    "25:drillpeck",
+    "30:poisonjab",
+    "30:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5896,
+  "nationalPokedexNumber": 5904,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

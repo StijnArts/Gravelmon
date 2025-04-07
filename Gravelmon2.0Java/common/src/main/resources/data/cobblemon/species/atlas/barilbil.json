@@ -108,7 +108,8 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:stunspore",
-    "tm:hornleech"
+    "tm:hornleech",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5085,
+  "nationalPokedexNumber": 5093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

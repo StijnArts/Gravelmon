@@ -129,7 +129,8 @@
         "egg:thrash",
         "egg:flamewheel",
         "egg:batonpass",
-        "egg:endeavor"
+        "egg:endeavor",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -299,7 +300,8 @@
         "egg:feintattack",
         "egg:hypnosis",
         "egg:nuzzle",
-        "egg:psychoshift"
+        "egg:psychoshift",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

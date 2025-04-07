@@ -82,7 +82,8 @@
     "egg:acidspray",
     "egg:confuseray",
     "egg:uproar",
-    "egg:powertrip"
+    "egg:powertrip",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -95,7 +96,7 @@
   "weight": 330,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2133,
+  "nationalPokedexNumber": 2136,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

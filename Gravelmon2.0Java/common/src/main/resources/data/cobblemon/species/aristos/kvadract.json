@@ -71,7 +71,8 @@
     "47:suckerpunch",
     "53:topsyturvy",
     "59:memento",
-    "73:foulplay"
+    "73:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1967,
+  "nationalPokedexNumber": 1970,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

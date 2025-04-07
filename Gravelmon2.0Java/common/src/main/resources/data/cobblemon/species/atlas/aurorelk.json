@@ -92,7 +92,8 @@
     "tm:snowscape",
     "tm:calmmind",
     "tm:toxic",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -105,7 +106,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5179,
+  "nationalPokedexNumber": 5187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

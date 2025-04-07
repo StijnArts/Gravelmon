@@ -141,7 +141,8 @@
     "tm:strength",
     "tm:surf",
     "tm:cosmicpower",
-    "tm:healpulse"
+    "tm:healpulse",
+    "tm:terablast"
   ],
   "labels": [
     "rica",

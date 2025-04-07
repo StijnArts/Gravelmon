@@ -111,7 +111,8 @@
     "tm:toxic",
     "tm:electricterrain",
     "tm:rapidspin",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5136,
+  "nationalPokedexNumber": 5144,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

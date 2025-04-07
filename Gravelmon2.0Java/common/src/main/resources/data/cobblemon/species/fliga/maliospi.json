@@ -78,7 +78,8 @@
     "52:hydropump",
     "55:drainlife",
     "60:guillotine",
-    "65:crosschop"
+    "65:crosschop",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3945,
+  "nationalPokedexNumber": 3953,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -73,7 +73,8 @@
     "41:doubleedge",
     "45:suckerpunch",
     "49:shellsmash",
-    "53:headsmash"
+    "53:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4126,
+  "nationalPokedexNumber": 4134,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

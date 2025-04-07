@@ -73,7 +73,8 @@
     "1:reflect",
     "1:powdersnow",
     "1:bodyslam",
-    "1:bulldoze"
+    "1:bulldoze",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3295,
+  "nationalPokedexNumber": 3303,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

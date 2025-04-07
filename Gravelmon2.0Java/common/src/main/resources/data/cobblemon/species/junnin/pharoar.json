@@ -160,7 +160,8 @@
     "tm:fakeout",
     "tm:mindreader",
     "tm:barrier",
-    "tm:skillswap"
+    "tm:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -175,7 +176,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2456,
+  "nationalPokedexNumber": 2464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

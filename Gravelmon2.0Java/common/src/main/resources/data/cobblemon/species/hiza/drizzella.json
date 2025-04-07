@@ -76,7 +76,8 @@
     "1:recover",
     "1:hydropump",
     "1:thunder",
-    "1:shockwave"
+    "1:shockwave",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2376,
+  "nationalPokedexNumber": 2384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

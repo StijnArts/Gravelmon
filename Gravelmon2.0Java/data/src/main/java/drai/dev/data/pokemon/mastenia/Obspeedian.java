@@ -16,8 +16,8 @@ public class Obspeedian extends drai.dev.data.pokemon.Pokemon {
                         44,
                         126),
                 List.of(Ability.LEVITATE), Ability.SPEED_BOOST,
-                0, 0,
-                new Stats(0,0,0,0,0,2), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,2), 160,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -41,7 +41,11 @@ public class Obspeedian extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAME_CHARGE,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOLCANIC)
+                        .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Obspeedian");

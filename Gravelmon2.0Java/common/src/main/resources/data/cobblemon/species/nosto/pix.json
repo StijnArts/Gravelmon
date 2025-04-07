@@ -111,7 +111,8 @@
     "tm:supersonic",
     "tm:barrier",
     "tm:guardswap",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3493,
+  "nationalPokedexNumber": 3501,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

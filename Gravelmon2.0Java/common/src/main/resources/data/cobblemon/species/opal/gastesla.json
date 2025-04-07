@@ -94,7 +94,8 @@
     "egg:naturalgift",
     "egg:bodyslam",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -109,7 +110,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1472,
+  "nationalPokedexNumber": 1475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 10.0,

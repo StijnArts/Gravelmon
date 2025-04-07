@@ -133,7 +133,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -301,7 +302,8 @@
         "tm:willowisp",
         "tm:workup",
         "tm:zenheadbutt",
-        "tm:closecombat"
+        "tm:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

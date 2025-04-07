@@ -133,7 +133,8 @@
     "tm:workup",
     "tm:refresh",
     "tm:zapcannon",
-    "tm:shockwave"
+    "tm:shockwave",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1508,
+  "nationalPokedexNumber": 1511,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

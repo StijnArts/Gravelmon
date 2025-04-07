@@ -65,7 +65,8 @@
     "15:bugbite",
     "25:spiderweb",
     "tm:strugglebug",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5100,
+  "nationalPokedexNumber": 5108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

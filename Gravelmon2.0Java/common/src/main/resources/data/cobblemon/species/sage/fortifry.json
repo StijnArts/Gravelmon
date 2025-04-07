@@ -112,7 +112,8 @@
     "egg:confuseray",
     "egg:dragonpulse",
     "egg:soak",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "sage"

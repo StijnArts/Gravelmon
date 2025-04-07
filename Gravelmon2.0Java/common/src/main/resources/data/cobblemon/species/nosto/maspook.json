@@ -74,7 +74,8 @@
     "44:phantomforce",
     "48:rockslide",
     "52:earthquake",
-    "56:dynamicpunch"
+    "56:dynamicpunch",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3529,
+  "nationalPokedexNumber": 3537,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

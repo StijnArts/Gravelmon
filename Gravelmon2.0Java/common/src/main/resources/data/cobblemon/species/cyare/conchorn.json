@@ -127,7 +127,8 @@
     "tm:rocksmash",
     "tm:surf",
     "tm:waterfall",
-    "tm:dive"
+    "tm:dive",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5374,
+  "nationalPokedexNumber": 5382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

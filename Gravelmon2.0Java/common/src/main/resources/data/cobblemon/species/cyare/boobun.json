@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:growl",
+    "1:screech",
+    "10:confuseray",
+    "10:irontail",
+    "15:ominouswind",
+    "15:smartstrike",
+    "20:nightshade",
+    "20:mirrorshot",
+    "25:hex",
+    "25:flashcannon",
+    "30:shadowball",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5360,
+  "nationalPokedexNumber": 5368,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -63,7 +63,8 @@
   "moves": [
     "1:splash",
     "15:tackle",
-    "25:flail"
+    "25:flail",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4243,
+  "nationalPokedexNumber": 4251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

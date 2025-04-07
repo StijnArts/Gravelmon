@@ -107,7 +107,8 @@
     "tm:toxic",
     "tm:rest",
     "tm:raindance",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

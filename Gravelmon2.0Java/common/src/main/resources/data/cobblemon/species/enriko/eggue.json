@@ -75,7 +75,8 @@
     "46:glare",
     "54:gunkshot",
     "63:knockoff",
-    "72:outrage"
+    "72:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

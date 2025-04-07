@@ -66,7 +66,7 @@ public class HoennianOnix extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 39, 5.4, List.of(
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 39, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of())),

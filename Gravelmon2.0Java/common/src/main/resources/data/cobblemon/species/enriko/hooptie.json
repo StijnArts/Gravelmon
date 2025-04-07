@@ -76,7 +76,8 @@
     "46:highhorsepower",
     "51:skullbash",
     "55:zapcannon",
-    "65:heatcrash"
+    "65:heatcrash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1709,
+  "nationalPokedexNumber": 1712,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

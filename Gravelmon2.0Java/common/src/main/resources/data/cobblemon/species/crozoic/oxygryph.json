@@ -71,7 +71,8 @@
     "1:drillpeck",
     "1:bugbuzz",
     "1:tailwind",
-    "1:bounce"
+    "1:bounce",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -84,7 +85,7 @@
   "weight": 114,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3272,
+  "nationalPokedexNumber": 3280,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

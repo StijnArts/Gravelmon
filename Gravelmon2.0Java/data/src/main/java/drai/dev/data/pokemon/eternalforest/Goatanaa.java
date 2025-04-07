@@ -101,7 +101,7 @@ public class Goatanaa extends Pokemon {
                 ),
                 List.of(Label.ETERNAL_FOREST),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

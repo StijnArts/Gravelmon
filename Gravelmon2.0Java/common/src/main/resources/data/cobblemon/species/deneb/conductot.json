@@ -117,7 +117,8 @@
     "egg:supersonic",
     "egg:torment",
     "egg:twister",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -131,7 +132,7 @@
   "weight": 336,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4550,
+  "nationalPokedexNumber": 4558,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

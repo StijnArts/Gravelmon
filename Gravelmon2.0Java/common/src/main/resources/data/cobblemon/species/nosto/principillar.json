@@ -92,7 +92,8 @@
     "tm:endure",
     "tm:tickle",
     "tm:barrier",
-    "tm:skillswap"
+    "tm:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3463,
+  "nationalPokedexNumber": 3471,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

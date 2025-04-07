@@ -76,7 +76,8 @@
     "41:aquatail",
     "45:synchronoise",
     "51:psychic",
-    "55:roleplay"
+    "55:roleplay",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1883,
+  "nationalPokedexNumber": 1886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

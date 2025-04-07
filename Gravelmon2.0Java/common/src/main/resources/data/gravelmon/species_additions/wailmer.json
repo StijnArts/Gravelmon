@@ -152,7 +152,8 @@
         "egg:zenheadbutt",
         "egg:perishsong",
         "egg:hex",
-        "egg:nightshade"
+        "egg:nightshade",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -264,7 +265,8 @@
         "36:whirlpool",
         "41:hydropump",
         "44:destinybond",
-        "48:waterspout"
+        "48:waterspout",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -448,7 +450,8 @@
         "tutor:tailwind",
         "tutor:twister",
         "tutor:uproar",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

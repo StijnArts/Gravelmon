@@ -95,7 +95,7 @@ public class Paow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 37, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 37, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

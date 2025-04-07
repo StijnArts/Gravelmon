@@ -120,7 +120,8 @@
     "tm:mistyterrain",
     "tm:gigadrain",
     "tm:healbell",
-    "tm:grasswhistle"
+    "tm:grasswhistle",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5081,
+  "nationalPokedexNumber": 5089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

@@ -63,7 +63,8 @@
     "1:heavyslam",
     "1:thunder",
     "1:recover",
-    "1:fireblast"
+    "1:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -76,7 +77,7 @@
   "weight": 4531,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3983,
+  "nationalPokedexNumber": 3991,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.6875,

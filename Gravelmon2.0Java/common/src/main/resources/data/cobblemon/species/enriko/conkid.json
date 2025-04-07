@@ -70,7 +70,8 @@
     "26:barrage",
     "33:irondefense",
     "37:endure",
-    "43:headsmash"
+    "43:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1659,
+  "nationalPokedexNumber": 1662,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

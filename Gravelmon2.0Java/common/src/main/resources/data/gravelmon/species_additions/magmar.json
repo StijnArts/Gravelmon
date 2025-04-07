@@ -124,7 +124,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -296,7 +297,8 @@
         "tutor:snore",
         "tutor:superpower",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

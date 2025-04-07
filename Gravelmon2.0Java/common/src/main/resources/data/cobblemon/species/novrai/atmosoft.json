@@ -117,7 +117,8 @@
     "tm:bounce",
     "tm:charge",
     "tm:bubblebeam",
-    "tm:selfdestruct"
+    "tm:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4871,
+  "nationalPokedexNumber": 4879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -18,6 +18,28 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "riolu_ishirianlucario",
+      "variant": "level_up",
+      "result": "ishirianlucario",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_desert"
+        },
+        {
+          "variant": "friendship",
+          "amount": "210"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -82,7 +104,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:bite"
+        "1:bite",
+        "1:leer",
+        "4:payback",
+        "7:nightdaze",
+        "10:snarl",
+        "13:knockoff",
+        "16:darkpulse",
+        "19:bite",
+        "22:leer",
+        "25:payback",
+        "28:nightslash",
+        "31:crunch",
+        "34:knockoff",
+        "39:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "ivris",
@@ -237,7 +273,8 @@
         "egg:switcheroo",
         "egg:psychoshift",
         "egg:powersplit",
-        "egg:guardsplit"
+        "egg:guardsplit",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -424,7 +461,8 @@
         "tutor:stealthrock",
         "tutor:suckerpunch",
         "tutor:thunderpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -618,7 +656,8 @@
         "tm:zenheadbutt",
         "tm:thunderbolt",
         "tm:zapcannon",
-        "tm:overheat"
+        "tm:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -737,7 +776,8 @@
         "36:earthpower",
         "40:cosmicpower",
         "44:moonblast",
-        "48:calmmind"
+        "48:calmmind",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

@@ -16,8 +16,8 @@ public class Escalaze extends drai.dev.data.pokemon.Pokemon {
                         65,
                         30),
                 List.of(Ability.HEAVY_METAL,Ability.IRON_FIST), Ability.STEAM_ENGINE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 227, ExperienceGroup.SLOW,
                 70,
@@ -135,7 +135,11 @@ public class Escalaze extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WARDANCE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Escalaze");

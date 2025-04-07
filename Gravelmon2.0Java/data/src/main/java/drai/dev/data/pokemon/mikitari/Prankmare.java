@@ -150,9 +150,14 @@ public class Prankmare extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Prankmare");
 
     }

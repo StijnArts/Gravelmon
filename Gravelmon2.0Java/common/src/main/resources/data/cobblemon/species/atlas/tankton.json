@@ -113,7 +113,8 @@
     "tm:uturn",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -128,7 +129,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5089,
+  "nationalPokedexNumber": 5097,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

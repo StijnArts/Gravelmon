@@ -112,7 +112,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -269,7 +270,8 @@
         "tutor:skyattack",
         "tutor:snore",
         "tutor:swagger",
-        "tutor:tailwind"
+        "tutor:tailwind",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

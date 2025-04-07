@@ -74,7 +74,8 @@
     "39:honeclaws",
     "43:drainpunch",
     "46:foulplay",
-    "50:trickroom"
+    "50:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5226,
+  "nationalPokedexNumber": 5234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

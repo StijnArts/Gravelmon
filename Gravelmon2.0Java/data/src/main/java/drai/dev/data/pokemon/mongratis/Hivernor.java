@@ -12,7 +12,7 @@ public class Hivernor extends drai.dev.data.pokemon.Pokemon {
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 150, ExperienceGroup.ERRATIC,
                 70,
@@ -22,9 +22,14 @@ public class Hivernor extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(24).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.HONEY_TREE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Hivernor");
 
     }

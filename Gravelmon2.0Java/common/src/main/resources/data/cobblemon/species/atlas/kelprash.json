@@ -124,7 +124,8 @@
     "tm:swordsdance",
     "tm:taunt",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -139,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5138,
+  "nationalPokedexNumber": 5146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

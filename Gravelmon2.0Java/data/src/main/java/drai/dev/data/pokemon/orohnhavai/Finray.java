@@ -53,7 +53,7 @@ public class Finray extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_FANG,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

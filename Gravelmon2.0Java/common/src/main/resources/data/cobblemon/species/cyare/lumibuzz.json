@@ -108,7 +108,8 @@
     "tm:moonlight",
     "tm:extrasensory",
     "tm:nightslash",
-    "tm:bugbuzz"
+    "tm:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -123,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5352,
+  "nationalPokedexNumber": 5360,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

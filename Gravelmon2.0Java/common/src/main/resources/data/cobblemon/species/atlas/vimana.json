@@ -92,7 +92,8 @@
     "tm:trickroom",
     "tm:roost",
     "tm:defog",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5163,
+  "nationalPokedexNumber": 5171,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -96,7 +96,8 @@
     "tm:waterfall",
     "tm:whirlpool",
     "tm:thrash",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -109,7 +110,7 @@
   "weight": 16,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4703,
+  "nationalPokedexNumber": 4711,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

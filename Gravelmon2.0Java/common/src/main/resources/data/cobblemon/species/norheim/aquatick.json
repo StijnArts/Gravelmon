@@ -74,7 +74,8 @@
     "tm:bubble",
     "tm:bubblebeam",
     "tm:aquaring",
-    "tm:strugglebug"
+    "tm:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3119,
+  "nationalPokedexNumber": 3127,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

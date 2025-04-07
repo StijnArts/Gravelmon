@@ -63,7 +63,8 @@
   "drops": {},
   "moves": [
     "1:odorsleuth",
-    "1:psychicfangs"
+    "1:psychicfangs",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3292,
+  "nationalPokedexNumber": 3300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

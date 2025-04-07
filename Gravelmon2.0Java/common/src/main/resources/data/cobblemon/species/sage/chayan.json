@@ -120,7 +120,8 @@
     "tutor:fling",
     "tutor:helpinghand",
     "tutor:ironhead",
-    "tutor:snore"
+    "tutor:snore",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -118,7 +118,8 @@
     "egg:swallow",
     "egg:trick",
     "egg:uproar",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4501,
+  "nationalPokedexNumber": 4509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

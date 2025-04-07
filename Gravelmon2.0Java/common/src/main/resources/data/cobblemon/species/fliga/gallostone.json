@@ -129,7 +129,8 @@
     "tm:round",
     "tm:echoedvoice",
     "tm:bulldoze",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3941,
+  "nationalPokedexNumber": 3949,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

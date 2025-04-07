@@ -70,7 +70,8 @@
     "28:hex",
     "34:reflect",
     "40:shadowball",
-    "45:moonblast"
+    "45:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1694,
+  "nationalPokedexNumber": 1697,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

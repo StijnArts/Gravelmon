@@ -193,7 +193,8 @@
     "egg:hex",
     "egg:magiccoat",
     "egg:secretpower",
-    "egg:trumpcard"
+    "egg:trumpcard",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

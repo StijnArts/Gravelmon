@@ -83,7 +83,8 @@
     "tm:luckychant",
     "tm:telekinesis",
     "tm:synchronoise",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -98,7 +99,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3948,
+  "nationalPokedexNumber": 3956,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

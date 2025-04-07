@@ -165,7 +165,8 @@
     "egg:present",
     "egg:reversal",
     "egg:tickle",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

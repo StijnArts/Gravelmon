@@ -135,7 +135,8 @@
     "egg:hornleech",
     "egg:moonlight",
     "egg:pursuit",
-    "egg:slash"
+    "egg:slash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -121,7 +121,8 @@
     "tm:stealthrock",
     "tm:wideguard",
     "tm:guardsplit",
-    "tm:powersplit"
+    "tm:powersplit",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5105,
+  "nationalPokedexNumber": 5113,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -73,7 +73,8 @@
     "39:agility",
     "44:hydropump",
     "52:soak",
-    "58:waterspout"
+    "58:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5294,
+  "nationalPokedexNumber": 5302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "10:confuseray",
+    "15:ominouswind",
+    "20:nightshade",
+    "25:hex",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4722,
+  "nationalPokedexNumber": 4730,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

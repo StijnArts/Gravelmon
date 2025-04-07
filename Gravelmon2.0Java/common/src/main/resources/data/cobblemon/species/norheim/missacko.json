@@ -77,7 +77,8 @@
     "43:moonblast",
     "46:moonlight",
     "50:lunarcannon",
-    "55:hurricane"
+    "55:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3203,
+  "nationalPokedexNumber": 3211,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

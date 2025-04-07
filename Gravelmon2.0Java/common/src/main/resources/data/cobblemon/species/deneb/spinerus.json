@@ -126,7 +126,8 @@
     "egg:curse",
     "egg:poisonfang",
     "egg:rockpolish",
-    "egg:rockthrow"
+    "egg:rockthrow",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -141,7 +142,7 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4633,
+  "nationalPokedexNumber": 4641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -75,7 +75,8 @@
     "70:lavaplume",
     "77:outrage",
     "84:flareblitz",
-    "91:ragingfury"
+    "91:ragingfury",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2409,
+  "nationalPokedexNumber": 2417,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

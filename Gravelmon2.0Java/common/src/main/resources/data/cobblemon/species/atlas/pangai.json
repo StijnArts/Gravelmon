@@ -107,7 +107,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:uturn",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5115,
+  "nationalPokedexNumber": 5123,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

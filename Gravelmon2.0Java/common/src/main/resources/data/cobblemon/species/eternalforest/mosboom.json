@@ -126,7 +126,8 @@
     "tutor:echoedvoice",
     "tutor:acrobatics",
     "tutor:retaliate",
-    "tutor:strugglebug"
+    "tutor:strugglebug",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -141,7 +142,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3050,
+  "nationalPokedexNumber": 3058,
   "shoulderMountable": false,
   "hitbox": {
     "width": 40.6875,

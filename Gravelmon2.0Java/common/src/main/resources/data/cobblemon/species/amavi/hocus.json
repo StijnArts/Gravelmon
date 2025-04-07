@@ -73,7 +73,8 @@
     "40:psychic",
     "43:amnesia",
     "46:darkpulse",
-    "50:synchronoise"
+    "50:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5245,
+  "nationalPokedexNumber": 5253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

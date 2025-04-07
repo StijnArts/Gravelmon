@@ -74,7 +74,8 @@
     "50:auroraveil",
     "57:swagger",
     "64:iciclecrash",
-    "71:sheercold"
+    "71:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3201,
+  "nationalPokedexNumber": 3209,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

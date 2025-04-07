@@ -76,7 +76,8 @@
     "73:healblock",
     "79:grudge",
     "85:destinybond",
-    "91:gigaimpact"
+    "91:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3040,
+  "nationalPokedexNumber": 3048,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.75,

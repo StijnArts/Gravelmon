@@ -23,7 +23,8 @@ public class Mistiger extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Practicing the craft of creating their own mists these Pokemon tend to become more stubborn towards their trainers."),
-                List.of(),
+                List.of(new EvolutionEntry("Torahaze", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -87,7 +88,11 @@ public class Mistiger extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHROUDEDSTRIKE,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mistiger");

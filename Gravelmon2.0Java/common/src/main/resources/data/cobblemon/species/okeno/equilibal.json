@@ -92,7 +92,8 @@
     "tm:entrainment",
     "tm:afteryou",
     "tm:bestow",
-    "tm:skittersmack"
+    "tm:skittersmack",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4460,
+  "nationalPokedexNumber": 4468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

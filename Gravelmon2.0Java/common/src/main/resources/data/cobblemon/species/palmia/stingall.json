@@ -65,7 +65,28 @@
     "1:poisonsting",
     "1:scratch",
     "1:bulkup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:leer",
+    "1:calmmind",
+    "1:calmmind",
+    "4:venoshock",
+    "4:dragonrage",
+    "4:taunt",
+    "4:taunt",
+    "7:poisontail",
+    "7:dualchop",
+    "7:substitute",
+    "7:substitute",
+    "10:toxicspikes",
+    "10:breakingswipe",
+    "10:rest",
+    "10:rest",
+    "13:sludgebomb",
+    "13:dragonclaw",
+    "16:poisonjab",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -137,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2658,
+  "nationalPokedexNumber": 2666,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

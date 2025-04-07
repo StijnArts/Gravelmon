@@ -72,7 +72,8 @@
     "35:stealthrock",
     "41:heatcrash",
     "48:rockblast",
-    "55:stoneedge"
+    "55:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1425,
+  "nationalPokedexNumber": 1428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

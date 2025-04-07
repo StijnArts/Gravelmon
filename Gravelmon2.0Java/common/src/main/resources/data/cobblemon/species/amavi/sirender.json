@@ -74,7 +74,8 @@
     "35:zenheadbutt",
     "42:flamethrower",
     "49:nightslash",
-    "56:dragondance"
+    "56:dragondance",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5266,
+  "nationalPokedexNumber": 5274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

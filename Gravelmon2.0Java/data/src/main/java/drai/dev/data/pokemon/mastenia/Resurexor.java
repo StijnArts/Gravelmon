@@ -16,8 +16,8 @@ public class Resurexor extends drai.dev.data.pokemon.Pokemon {
                         116,
                         86),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,1,0,2,0,0), 0,
+                32, 0,
+                new Stats(0,1,0,2,0,0), 6,
                 0.0,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -48,7 +48,11 @@ public class Resurexor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Resurexor");

@@ -64,7 +64,8 @@
   "moves": [
     "1:stringshot",
     "1:tackle",
-    "9:bugbite"
+    "9:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3382,
+  "nationalPokedexNumber": 3390,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

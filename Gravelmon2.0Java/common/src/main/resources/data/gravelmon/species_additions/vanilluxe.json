@@ -115,7 +115,8 @@
         "tm:taunt",
         "tm:toxic",
         "tm:toxicspikes",
-        "tm:willowisp"
+        "tm:willowisp",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -266,7 +267,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -419,7 +421,8 @@
         "tm:grasswhistle",
         "tm:iceshard",
         "tm:autotomize",
-        "tm:leafstorm"
+        "tm:leafstorm",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -560,7 +563,8 @@
         "egg:iceshard",
         "egg:explosion",
         "egg:auroraveil",
-        "egg:iciclecrash"
+        "egg:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

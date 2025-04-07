@@ -133,7 +133,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -304,7 +305,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:spite",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -444,7 +446,8 @@
         "tm:waterfall",
         "tm:substitute",
         "tutor:secretpower",
-        "tutor:snore"
+        "tutor:snore",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

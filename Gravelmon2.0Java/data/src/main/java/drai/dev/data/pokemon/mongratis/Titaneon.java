@@ -16,7 +16,7 @@ public class Titaneon extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                14, 0,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 184, ExperienceGroup.MEDIUM_FAST,
@@ -27,9 +27,15 @@ public class Titaneon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
-                0.28, 0.3,
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.27, 0.3,
                 List.of());
+        addAdditionalEvolution("eevee", new EvolutionEntry("titaneon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.IRON_DEFENSE, "")),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:iron_helmet"))));
            setLangFileName("Titaneon");
 
     }

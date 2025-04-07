@@ -63,7 +63,22 @@
     "1:scratch",
     "1:lowkick",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:dragonrage",
+    "4:revenge",
+    "7:dualchop",
+    "7:lowsweep",
+    "10:breakingswipe",
+    "10:brickbreak",
+    "13:dragonclaw",
+    "13:karatechop",
+    "16:outrage",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3669,
+  "nationalPokedexNumber": 3677,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -74,7 +74,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:megahorn",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5224,
+  "nationalPokedexNumber": 5232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

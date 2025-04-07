@@ -17,7 +17,7 @@ public class Gravatone extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.LEVITATE), Ability.LIGHTNING_ROD,
                 18, 2080,
-                new Stats(0,1,0,2,0,0), 0,
+                new Stats(0,1,0,2,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -27,7 +27,11 @@ public class Gravatone extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(40).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gravatone");

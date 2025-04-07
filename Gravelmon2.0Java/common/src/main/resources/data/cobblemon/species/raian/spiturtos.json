@@ -60,7 +60,16 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:uturn"
+    "1:uturn",
+    "1:stringshot",
+    "1:quickattack",
+    "4:leechlife",
+    "4:swordsdance",
+    "7:lunge",
+    "10:xscissor",
+    "13:uturn",
+    "16:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -75,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2526,
+  "nationalPokedexNumber": 2534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

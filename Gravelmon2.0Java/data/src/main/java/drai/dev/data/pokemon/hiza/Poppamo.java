@@ -50,7 +50,7 @@ public class Poppamo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),

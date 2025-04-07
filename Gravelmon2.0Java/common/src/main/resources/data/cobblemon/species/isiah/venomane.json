@@ -72,7 +72,8 @@
     "28:scaryface",
     "32:firespin",
     "36:inferno",
-    "40:flareblitz"
+    "40:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4221,
+  "nationalPokedexNumber": 4229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

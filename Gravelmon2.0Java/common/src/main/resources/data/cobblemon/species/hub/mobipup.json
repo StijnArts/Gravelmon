@@ -143,7 +143,8 @@
     "tm:workup",
     "tm:doubleedge",
     "tm:uturn",
-    "tm:selfdestruct"
+    "tm:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1387,
+  "nationalPokedexNumber": 1390,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

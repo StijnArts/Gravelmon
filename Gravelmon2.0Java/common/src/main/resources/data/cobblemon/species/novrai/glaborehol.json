@@ -145,7 +145,8 @@
     "tm:mudsport",
     "tm:crunch",
     "tm:chipaway",
-    "tm:sandtomb"
+    "tm:sandtomb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4843,
+  "nationalPokedexNumber": 4851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

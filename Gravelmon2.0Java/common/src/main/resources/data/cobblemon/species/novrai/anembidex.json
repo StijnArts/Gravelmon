@@ -141,7 +141,8 @@
     "tm:helpinghand",
     "tm:electroball",
     "tm:wavecrash",
-    "tm:batonpass"
+    "tm:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4924,
+  "nationalPokedexNumber": 4932,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

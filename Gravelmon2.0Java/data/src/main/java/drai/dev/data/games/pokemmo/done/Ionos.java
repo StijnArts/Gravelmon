@@ -162,7 +162,7 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Peerhini());
         addNewPokemon(new Velitite());
         addNewPokemon(new Onyssilade(new Stats(410, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
-        addNewPokemon(new Mushi());
+        addNewPokemon(new drai.dev.data.pokemon.ionos.Mushi());
         addNewPokemon(new Mutungus(new Stats(420, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new MushShi(new Stats(420, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Mimicorn(new Stats(310, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))));

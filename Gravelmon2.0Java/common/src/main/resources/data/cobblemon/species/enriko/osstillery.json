@@ -72,7 +72,8 @@
     "38:revenge",
     "43:roost",
     "49:swordsdance",
-    "55:eggbomb"
+    "55:eggbomb",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1662,
+  "nationalPokedexNumber": 1665,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

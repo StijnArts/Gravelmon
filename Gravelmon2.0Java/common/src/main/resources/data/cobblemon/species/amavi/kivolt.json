@@ -71,7 +71,8 @@
     "40:thunderbolt",
     "46:agility",
     "53:airslash",
-    "61:thunder"
+    "61:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5243,
+  "nationalPokedexNumber": 5251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

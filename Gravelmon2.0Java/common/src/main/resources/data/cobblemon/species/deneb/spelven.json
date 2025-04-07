@@ -131,7 +131,8 @@
     "egg:spite",
     "egg:stardust",
     "egg:sunnyday",
-    "egg:trick"
+    "egg:trick",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -144,7 +145,7 @@
   "weight": 288,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4510,
+  "nationalPokedexNumber": 4518,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

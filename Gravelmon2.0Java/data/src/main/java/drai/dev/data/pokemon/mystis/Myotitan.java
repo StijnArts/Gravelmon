@@ -16,8 +16,8 @@ public class Myotitan extends drai.dev.data.pokemon.Pokemon {
                         80,
                         55),
                 List.of(Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                43, 0,
+                new Stats(0,0,0,0,0,0), 6,
                 0.0,
                 293, ExperienceGroup.SLOW,
                 70,
@@ -27,7 +27,11 @@ public class Myotitan extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Myotitan");

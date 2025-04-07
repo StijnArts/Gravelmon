@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:absorb"
+    "1:absorb",
+    "1:leer",
+    "10:megadrain",
+    "15:magicalleaf",
+    "20:gigadrain",
+    "25:energyball",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

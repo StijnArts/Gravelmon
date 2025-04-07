@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:lick"
+    "1:lick",
+    "1:leer",
+    "1:growl",
+    "10:venoshock",
+    "10:confuseray",
+    "15:poisontail",
+    "15:hex",
+    "20:toxicspikes",
+    "20:shadowclaw",
+    "25:sludgebomb",
+    "25:phantomforce",
+    "30:poisonjab",
+    "30:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6009,
+  "nationalPokedexNumber": 6017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

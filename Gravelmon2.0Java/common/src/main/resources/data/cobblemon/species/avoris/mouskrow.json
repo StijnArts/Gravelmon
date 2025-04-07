@@ -80,7 +80,8 @@
     "tm:stockpile",
     "tm:spitup",
     "tm:swallow",
-    "tm:iciclecrash"
+    "tm:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1852,
+  "nationalPokedexNumber": 1855,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

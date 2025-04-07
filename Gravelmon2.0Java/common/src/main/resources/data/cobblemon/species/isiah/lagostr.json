@@ -79,7 +79,8 @@
     "44:wavecrash",
     "48:thrash",
     "52:doubleedge",
-    "56:headsmash"
+    "56:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4236,
+  "nationalPokedexNumber": 4244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

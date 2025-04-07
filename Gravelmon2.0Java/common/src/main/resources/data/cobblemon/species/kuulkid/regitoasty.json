@@ -60,7 +60,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "4:firespin",
+    "7:flamecharge",
+    "10:flameburst",
+    "13:flamethrower",
+    "16:fireblast",
+    "19:ember",
+    "22:growl",
+    "25:quickattack",
+    "28:flamecharge",
+    "31:firepunch",
+    "34:willowisp",
+    "39:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -74,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2251,
+  "nationalPokedexNumber": 2259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

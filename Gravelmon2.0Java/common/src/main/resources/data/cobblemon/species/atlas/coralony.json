@@ -62,7 +62,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:harden"
+    "1:harden",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5112,
+  "nationalPokedexNumber": 5120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

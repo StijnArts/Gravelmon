@@ -16,8 +16,8 @@ public class Blokkead extends drai.dev.data.pokemon.Pokemon {
                         80,
                         40),
                 List.of(Ability.ROCK_HEAD), Ability.UNAWARE,
-                0, 0,
-                new Stats(0,0,2,0,0,0), 0,
+                8, 0,
+                new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -27,7 +27,11 @@ public class Blokkead extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Blokkead");

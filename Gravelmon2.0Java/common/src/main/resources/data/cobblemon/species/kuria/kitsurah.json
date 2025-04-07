@@ -76,7 +76,8 @@
     "41:wildcharge",
     "44:inferno",
     "48:speedswap",
-    "53:flareblitz"
+    "53:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -91,7 +92,7 @@
   "weight": 547,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4114,
+  "nationalPokedexNumber": 4122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

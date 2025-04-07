@@ -72,6 +72,7 @@
     "30:thunderfang",
     "34:freezedry",
     "39:scaryface",
+    "53:cryoshock",
     "61:mist",
     "tm:waterpulse",
     "tm:thunderwave",
@@ -102,7 +103,8 @@
     "egg:mist",
     "egg:mirrorshot",
     "egg:screech",
-    "egg:zapcannon"
+    "egg:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -130,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4636,
+  "nationalPokedexNumber": 4644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -115,7 +115,8 @@
     "tm:chatter",
     "tm:pluck",
     "tm:sing",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3345,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

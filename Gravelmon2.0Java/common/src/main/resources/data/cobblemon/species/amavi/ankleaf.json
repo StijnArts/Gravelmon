@@ -71,7 +71,8 @@
     "32:leechseed",
     "35:amnesia",
     "42:seedbomb",
-    "47:bonerush"
+    "47:bonerush",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5182,
+  "nationalPokedexNumber": 5190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

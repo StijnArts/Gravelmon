@@ -133,7 +133,8 @@
         "egg:hydrocannon",
         "egg:acidarmor",
         "egg:lovelykiss",
-        "egg:simplebeam"
+        "egg:simplebeam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

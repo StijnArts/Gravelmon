@@ -75,7 +75,8 @@
     "tm:flamewheel",
     "tm:wish",
     "tm:skullbash",
-    "tm:extremespeed"
+    "tm:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4474,
+  "nationalPokedexNumber": 4482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

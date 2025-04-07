@@ -78,7 +78,8 @@
     "tm:heavyslam",
     "tm:bellydrum",
     "tm:bodypress",
-    "tm:heatcrash"
+    "tm:heatcrash",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4435,
+  "nationalPokedexNumber": 4443,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

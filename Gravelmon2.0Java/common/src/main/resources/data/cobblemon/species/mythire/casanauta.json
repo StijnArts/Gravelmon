@@ -115,7 +115,8 @@
     "tm:fling",
     "tm:nastyplot",
     "tm:toxic",
-    "tm:hypnosis"
+    "tm:hypnosis",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -130,7 +131,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3870,
+  "nationalPokedexNumber": 3878,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

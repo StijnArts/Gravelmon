@@ -79,7 +79,8 @@
     "48:mirrorcoat",
     "52:ominouswind",
     "55:shadowball",
-    "60:memento"
+    "60:memento",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1897,
+  "nationalPokedexNumber": 1900,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

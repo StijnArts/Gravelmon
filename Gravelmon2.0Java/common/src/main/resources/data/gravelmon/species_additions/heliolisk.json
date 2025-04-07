@@ -164,7 +164,8 @@
         "tm:toxicspikes",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -267,7 +268,8 @@
         "1:eerieimpulse",
         "31:dragondance",
         "1:thunder",
-        "1:charge"
+        "1:charge",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

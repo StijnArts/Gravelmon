@@ -63,7 +63,8 @@
   "moves": [
     "1:stringshot",
     "1:tackle",
-    "9:bugbite"
+    "9:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4621,
+  "nationalPokedexNumber": 4629,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

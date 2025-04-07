@@ -133,7 +133,8 @@
     "tm:machpunch",
     "tm:cottonspore",
     "tm:dizzypunch",
-    "tm:detect"
+    "tm:detect",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4855,
+  "nationalPokedexNumber": 4863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

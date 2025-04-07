@@ -71,7 +71,8 @@
     "25:metalclaw",
     "30:furyswipes",
     "35:mindreader",
-    "40:dig"
+    "40:dig",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2320,
+  "nationalPokedexNumber": 2328,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

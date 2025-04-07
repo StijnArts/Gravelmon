@@ -69,7 +69,8 @@
         "1:infestation",
         "10:strugglebug",
         "1:stringshot",
-        "tm:strugglebug"
+        "tm:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -175,7 +176,8 @@
         "10:iceball",
         "1:stringshot",
         "tm:hail",
-        "tm:strugglebug"
+        "tm:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -77,7 +77,8 @@
     "70:endeavor",
     "77:megahorn",
     "84:headsmash",
-    "91:headlongrush"
+    "91:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4159,
+  "nationalPokedexNumber": 4167,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

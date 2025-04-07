@@ -72,7 +72,8 @@
     "40:auroraveil",
     "45:swagger",
     "50:iciclecrash",
-    "55:sheercold"
+    "55:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5252,
+  "nationalPokedexNumber": 5260,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

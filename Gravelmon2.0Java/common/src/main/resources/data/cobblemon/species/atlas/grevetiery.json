@@ -127,7 +127,8 @@
     "tm:defog",
     "tm:meanlook",
     "tm:faketears",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5159,
+  "nationalPokedexNumber": 5167,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

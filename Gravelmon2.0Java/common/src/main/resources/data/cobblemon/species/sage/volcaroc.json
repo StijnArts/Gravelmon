@@ -149,7 +149,8 @@
     "egg:inferno",
     "egg:ironhead",
     "egg:powergem",
-    "egg:wideguard"
+    "egg:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

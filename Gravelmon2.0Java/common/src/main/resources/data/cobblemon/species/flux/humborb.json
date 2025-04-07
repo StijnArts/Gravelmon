@@ -74,7 +74,8 @@
     "26:pollenpuff",
     "29:tailwind",
     "32:bravebird",
-    "35:explosion"
+    "35:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2102,
+  "nationalPokedexNumber": 2105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

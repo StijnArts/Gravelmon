@@ -75,7 +75,8 @@
     "36:crushclaw",
     "40:shadowclaw",
     "43:megahorn",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1743,
+  "nationalPokedexNumber": 1746,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

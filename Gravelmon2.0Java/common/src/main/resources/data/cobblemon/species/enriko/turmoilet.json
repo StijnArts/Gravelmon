@@ -74,7 +74,8 @@
     "35:rockslide",
     "40:sludgebomb",
     "44:waterspout",
-    "50:protect"
+    "50:protect",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1697,
+  "nationalPokedexNumber": 1700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

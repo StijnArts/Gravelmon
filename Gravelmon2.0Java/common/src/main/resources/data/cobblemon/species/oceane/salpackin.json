@@ -67,7 +67,8 @@
     "1:irondefense",
     "1:flash",
     "1:reflecttype",
-    "1:conversion"
+    "1:conversion",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1896,
+  "nationalPokedexNumber": 1899,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

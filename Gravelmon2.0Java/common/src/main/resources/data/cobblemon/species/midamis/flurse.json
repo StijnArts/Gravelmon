@@ -78,7 +78,8 @@
     "tm:frustration",
     "tm:batonpass",
     "tm:naturepower",
-    "tm:mefirst"
+    "tm:mefirst",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4301,
+  "nationalPokedexNumber": 4309,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

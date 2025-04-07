@@ -16,8 +16,8 @@ public class Caraegis extends drai.dev.data.pokemon.Pokemon {
                         90,
                         40),
                 List.of(Ability.RAZORFINS,Ability.SHARPNESS), Ability.COURAGEOUS,
-                0, 0,
-                new Stats(0,0,2,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,2,0,0,0), 50,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -99,9 +99,14 @@ public class Caraegis extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(24).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Caraegis");
 
     }

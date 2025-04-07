@@ -102,7 +102,8 @@
     "tm:camouflage",
     "tm:stockpile",
     "tm:iceball",
-    "tm:crushclaw"
+    "tm:crushclaw",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1516,
+  "nationalPokedexNumber": 1519,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

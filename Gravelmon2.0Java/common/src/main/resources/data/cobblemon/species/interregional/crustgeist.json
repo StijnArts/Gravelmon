@@ -85,7 +85,8 @@
     "tm:bugbite",
     "tm:belch",
     "tm:teatime",
-    "tm:clamp"
+    "tm:clamp",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1413,
+  "nationalPokedexNumber": 1416,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

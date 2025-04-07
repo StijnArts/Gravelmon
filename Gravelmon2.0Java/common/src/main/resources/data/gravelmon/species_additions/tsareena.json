@@ -90,6 +90,7 @@
         "tm:geomancy",
         "tm:haze",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hex",
         "tm:hiddenpower",
         "tm:hypervoice",
@@ -123,7 +124,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -293,7 +295,8 @@
         "tm:uturn",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

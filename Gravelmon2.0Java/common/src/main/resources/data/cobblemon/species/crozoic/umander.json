@@ -80,7 +80,8 @@
     "tm:mudbomb",
     "tm:trick",
     "tm:teeterdance",
-    "tm:aquaring"
+    "tm:aquaring",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -95,7 +96,7 @@
   "weight": 247,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3252,
+  "nationalPokedexNumber": 3260,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

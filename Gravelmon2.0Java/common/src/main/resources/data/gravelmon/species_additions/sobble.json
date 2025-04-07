@@ -131,7 +131,8 @@
         "egg:haze",
         "egg:mist",
         "egg:confuseray",
-        "egg:snipeshot"
+        "egg:snipeshot",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -76,7 +76,8 @@
     "tm:grassyterrain",
     "tm:electricterrain",
     "tm:mistyterrain",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -89,7 +90,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3274,
+  "nationalPokedexNumber": 3282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

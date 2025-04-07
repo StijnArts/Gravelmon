@@ -34,7 +34,11 @@ public class Levinity extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                    .setBiomes(Biome.IS_SPOOKY)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Levinity");

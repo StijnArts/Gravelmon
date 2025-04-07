@@ -138,7 +138,8 @@
     "egg:sweetscent",
     "egg:encore",
     "egg:flatter",
-    "egg:naturepower"
+    "egg:naturepower",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -153,7 +154,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3054,
+  "nationalPokedexNumber": 3062,
   "shoulderMountable": false,
   "hitbox": {
     "width": 41.0,

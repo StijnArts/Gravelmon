@@ -75,7 +75,8 @@
     "31:takedown",
     "40:earthquake",
     "43:flamethrower",
-    "47:doubleedge"
+    "47:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1438,
+  "nationalPokedexNumber": 1441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

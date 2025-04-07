@@ -140,7 +140,8 @@
     "tm:magnitude",
     "tm:healingwish",
     "tm:grassyglide",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5002,
+  "nationalPokedexNumber": 5010,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

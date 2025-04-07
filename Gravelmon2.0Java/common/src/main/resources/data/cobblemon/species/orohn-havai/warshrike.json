@@ -78,7 +78,8 @@
     "tm:knockoff",
     "tm:crushclaw",
     "tm:tailwind",
-    "tm:honeclaws"
+    "tm:honeclaws",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2947,
+  "nationalPokedexNumber": 2955,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.374999999999999,

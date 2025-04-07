@@ -71,7 +71,8 @@
     "25:hex",
     "33:grudge",
     "37:fling",
-    "41:phantomforce"
+    "41:phantomforce",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

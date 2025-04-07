@@ -16,8 +16,8 @@ public class Kragken extends drai.dev.data.pokemon.Pokemon {
                         115,
                         50),
                 List.of(Ability.AFTERMATH,Ability.PRESSURE), Ability.DARKHOLD,
-                0, 0,
-                new Stats(1,0,1,0,1,0), 0,
+                21, 0,
+                new Stats(1,0,1,0,1,0), 45,
                 0.5,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -147,9 +147,16 @@ public class Kragken extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMOKEBOMB,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(33)
+                        .setMinLevel(43).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Kragken");
 
     }

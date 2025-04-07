@@ -140,7 +140,8 @@
     "tm:imprison",
     "tm:faketears",
     "tm:topsyturvy",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4983,
+  "nationalPokedexNumber": 4991,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

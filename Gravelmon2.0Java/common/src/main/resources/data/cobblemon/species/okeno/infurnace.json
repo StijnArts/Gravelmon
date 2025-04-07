@@ -77,7 +77,8 @@
     "tm:explosion",
     "tm:bulletseed",
     "tm:smog",
-    "tm:lashout"
+    "tm:lashout",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4446,
+  "nationalPokedexNumber": 4454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

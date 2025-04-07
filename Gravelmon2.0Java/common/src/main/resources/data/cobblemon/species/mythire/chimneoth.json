@@ -140,7 +140,8 @@
     "tm:moonlight",
     "tm:bide",
     "tm:razorwind",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3841,
+  "nationalPokedexNumber": 3849,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

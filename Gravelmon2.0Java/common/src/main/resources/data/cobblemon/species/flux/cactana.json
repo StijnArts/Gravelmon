@@ -78,7 +78,8 @@
     "48:earthquake",
     "53:shedtail",
     "egg:toxicspikes",
-    "egg:growth"
+    "egg:growth",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -91,7 +92,7 @@
   "weight": 412,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2134,
+  "nationalPokedexNumber": 2138,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

@@ -101,7 +101,8 @@
     "egg:synchronoise",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -116,7 +117,7 @@
   "weight": 809,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

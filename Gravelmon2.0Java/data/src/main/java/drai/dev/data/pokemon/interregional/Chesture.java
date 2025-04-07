@@ -48,7 +48,7 @@ public class Chesture extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLAM,50)),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 54, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 54, 9, List.of(
                 ), List.of(),
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "1:leer",
+    "10:absorb",
+    "10:revenge",
+    "15:trailblaze",
+    "15:lowsweep",
+    "20:gigadrain",
+    "20:brickbreak",
+    "25:seedbomb",
+    "25:karatechop",
+    "30:leafblade",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5393,
+  "nationalPokedexNumber": 5401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

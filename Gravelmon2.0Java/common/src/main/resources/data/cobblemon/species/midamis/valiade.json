@@ -77,7 +77,8 @@
     "39:rest",
     "42:amnesia",
     "45:hydropump",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4358,
+  "nationalPokedexNumber": 4366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

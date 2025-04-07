@@ -157,7 +157,8 @@
     "tm:naturepower",
     "tm:circlethrow",
     "tm:rockblast",
-    "tm:slam"
+    "tm:slam",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -170,7 +171,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1616,
+  "nationalPokedexNumber": 1619,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

@@ -144,7 +144,8 @@
     "tm:counter",
     "tm:finalgambit",
     "tm:laserfocus",
-    "tm:sandattack"
+    "tm:sandattack",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4972,
+  "nationalPokedexNumber": 4980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

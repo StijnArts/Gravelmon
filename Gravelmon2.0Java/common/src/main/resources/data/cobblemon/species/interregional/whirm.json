@@ -77,7 +77,8 @@
     "48:ironhead",
     "52:earthquake",
     "55:coil",
-    "59:dragontail"
+    "59:dragontail",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

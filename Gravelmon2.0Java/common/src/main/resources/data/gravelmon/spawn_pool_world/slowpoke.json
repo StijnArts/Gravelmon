@@ -38,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 12.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_forest"
@@ -92,7 +92,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "7-32",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

@@ -73,7 +73,8 @@
     "1:growl",
     "1:rockthrow",
     "1:strugglebug",
-    "1:grassknot"
+    "1:grassknot",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3059,
+  "nationalPokedexNumber": 3067,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

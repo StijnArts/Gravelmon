@@ -75,7 +75,8 @@
     "33:aerialace",
     "37:poisonjab",
     "41:embargo",
-    "45:gunkshot"
+    "45:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2272,
+  "nationalPokedexNumber": 2280,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

@@ -132,7 +132,8 @@
     "tutor:liquidation",
     "tutor:gastroacid",
     "tutor:gunkshot",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3710,
+  "nationalPokedexNumber": 3718,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

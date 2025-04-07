@@ -81,7 +81,8 @@
     "tm:grasswhistle",
     "tm:naturalgift",
     "tm:leaftornado",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2953,
+  "nationalPokedexNumber": 2961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

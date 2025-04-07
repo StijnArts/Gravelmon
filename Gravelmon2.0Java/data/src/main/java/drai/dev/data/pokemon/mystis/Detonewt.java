@@ -16,8 +16,8 @@ public class Detonewt extends drai.dev.data.pokemon.Pokemon {
                         60,
                         120),
                 List.of(Ability.SOLAR_POWER,Ability.HEATRUSH), Ability.DROUGHT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -84,7 +84,11 @@ public class Detonewt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIGHTUP,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT, Biome.IS_NETHER_DESERT)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Detonewt");

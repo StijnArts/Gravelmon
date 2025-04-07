@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:absorb"
+    "1:absorb",
+    "1:tailwhip",
+    "1:leer",
+    "10:bubblebeam",
+    "10:megadrain",
+    "15:brine",
+    "15:magicalleaf",
+    "20:surf",
+    "20:gigadrain",
+    "25:chillingwater",
+    "25:energyball",
+    "30:hydropump",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4732,
+  "nationalPokedexNumber": 4740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

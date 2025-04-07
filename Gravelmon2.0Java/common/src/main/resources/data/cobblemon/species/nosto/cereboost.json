@@ -156,7 +156,8 @@
     "32:heavyslam",
     "36:irondefense",
     "40:metalsound",
-    "44:futuresight"
+    "44:futuresight",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -171,7 +172,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3492,
+  "nationalPokedexNumber": 3500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

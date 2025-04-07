@@ -102,7 +102,8 @@
     "31:swordsdance",
     "34:drillpeck",
     "38:skyuppercut",
-    "49:bravebird"
+    "49:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -116,7 +117,7 @@
   "weight": 289,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3827,
+  "nationalPokedexNumber": 3835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -110,7 +110,8 @@
     "tm:splash",
     "tm:covet",
     "tm:laserfocus",
-    "tm:brutalswing"
+    "tm:brutalswing",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4922,
+  "nationalPokedexNumber": 4930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

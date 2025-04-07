@@ -75,7 +75,8 @@
     "36:rockblast",
     "42:sandstorm",
     "48:stoneedge",
-    "54:explosion"
+    "54:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4383,
+  "nationalPokedexNumber": 4391,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

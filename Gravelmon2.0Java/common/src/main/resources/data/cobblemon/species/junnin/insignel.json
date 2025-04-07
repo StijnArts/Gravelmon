@@ -114,7 +114,8 @@
     "tm:pursuit",
     "tm:screech",
     "tm:signalbeam",
-    "tm:stickyweb"
+    "tm:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2442,
+  "nationalPokedexNumber": 2450,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

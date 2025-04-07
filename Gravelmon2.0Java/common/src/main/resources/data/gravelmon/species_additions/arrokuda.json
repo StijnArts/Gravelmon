@@ -121,7 +121,8 @@
         "egg:liquidation",
         "egg:scaryface",
         "egg:shadowsneak",
-        "egg:falsesurrender"
+        "egg:falsesurrender",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

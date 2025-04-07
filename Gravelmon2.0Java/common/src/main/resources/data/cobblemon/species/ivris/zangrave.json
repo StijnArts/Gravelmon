@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:quickattack",
+    "4:confuseray",
+    "7:bite",
+    "7:hex",
+    "10:takedown",
+    "10:shadowclaw",
+    "13:crunch",
+    "13:phantomforce",
+    "16:doubleedge",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3636,
+  "nationalPokedexNumber": 3644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

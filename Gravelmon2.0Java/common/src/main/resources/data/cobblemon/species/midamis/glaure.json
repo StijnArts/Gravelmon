@@ -76,7 +76,8 @@
     "40:ingrain",
     "44:woodhammer",
     "48:destinybond",
-    "52:forestscurse"
+    "52:forestscurse",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4364,
+  "nationalPokedexNumber": 4372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

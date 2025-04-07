@@ -75,7 +75,8 @@
     "51:hydropump",
     "58:dragondance",
     "65:raindance",
-    "72:wavecrash"
+    "72:wavecrash",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1913,
+  "nationalPokedexNumber": 1916,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.8125,

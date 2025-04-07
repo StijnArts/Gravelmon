@@ -171,7 +171,8 @@
     "tm:gravity",
     "tm:roost",
     "tm:mirrormove",
-    "tm:featherdance"
+    "tm:featherdance",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -186,7 +187,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1574,
+  "nationalPokedexNumber": 1577,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

@@ -75,7 +75,8 @@
     "45:crunch",
     "51:gigadrain",
     "57:leafstorm",
-    "63:headlongrush"
+    "63:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1859,
+  "nationalPokedexNumber": 1862,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

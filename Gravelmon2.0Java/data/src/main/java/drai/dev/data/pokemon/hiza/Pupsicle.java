@@ -41,7 +41,7 @@ public class Pupsicle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,50)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 7, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

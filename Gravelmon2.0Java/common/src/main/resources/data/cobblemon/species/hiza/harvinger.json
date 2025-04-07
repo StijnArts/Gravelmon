@@ -72,7 +72,8 @@
     "54:thrash",
     "60:disable",
     "66:doubleedge",
-    "72:nastyplot"
+    "72:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2408,
+  "nationalPokedexNumber": 2416,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

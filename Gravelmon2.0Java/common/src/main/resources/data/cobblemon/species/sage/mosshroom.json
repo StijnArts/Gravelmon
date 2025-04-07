@@ -137,7 +137,8 @@
     "egg:gastroacid",
     "egg:lightscreen",
     "egg:psychoshift",
-    "egg:pursuit"
+    "egg:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

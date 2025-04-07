@@ -185,7 +185,8 @@
     "tm:pursuit",
     "tm:naturalgift",
     "tm:belch",
-    "tm:poweruppunch"
+    "tm:poweruppunch",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -200,7 +201,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1949,
+  "nationalPokedexNumber": 1952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

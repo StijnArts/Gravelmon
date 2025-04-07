@@ -73,7 +73,8 @@
     "37:bugbuzz",
     "44:gyroball",
     "53:detect",
-    "57:superpower"
+    "57:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4726,
+  "nationalPokedexNumber": 4734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

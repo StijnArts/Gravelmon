@@ -42,7 +42,7 @@ public class Uranug extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:tailwhip",
+    "1:screech",
+    "4:bubblebeam",
+    "4:irontail",
+    "7:aquatail",
+    "7:smartstrike",
+    "10:surf",
+    "10:ironhead",
+    "13:waterfall",
+    "13:meteormash",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -91,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2857,
+  "nationalPokedexNumber": 2865,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

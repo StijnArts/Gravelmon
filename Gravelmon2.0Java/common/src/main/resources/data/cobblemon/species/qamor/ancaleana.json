@@ -75,7 +75,8 @@
     "34:wingattack",
     "38:petaldance",
     "44:doubleedge",
-    "48:bravebird"
+    "48:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4025,
+  "nationalPokedexNumber": 4033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -152,7 +152,8 @@
     "tm:dragontail",
     "tm:inferno",
     "tm:honeclaws",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -167,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1583,
+  "nationalPokedexNumber": 1586,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

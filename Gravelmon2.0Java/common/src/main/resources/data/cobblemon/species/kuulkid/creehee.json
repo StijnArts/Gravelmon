@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:babydolleyes",
+    "4:drainingkiss",
+    "7:playnice",
+    "10:dazzlinggleam",
+    "13:hypervoice",
+    "16:moonblast",
+    "19:disarmingvoice",
+    "22:babydolleyes",
+    "25:drainingkiss",
+    "28:playnice",
+    "31:dazzlinggleam",
+    "34:playrough",
+    "39:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -87,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2165,
+  "nationalPokedexNumber": 2173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

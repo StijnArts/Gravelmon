@@ -134,7 +134,8 @@
     "egg:safeguard",
     "egg:ironhead",
     "egg:assist",
-    "egg:sing"
+    "egg:sing",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -149,7 +150,7 @@
   "weight": 4797,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2067,
+  "nationalPokedexNumber": 2070,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

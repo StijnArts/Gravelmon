@@ -126,7 +126,8 @@
     "egg:synthesis",
     "egg:teeterdance",
     "egg:toxic",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -140,7 +141,7 @@
   "weight": 547,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4589,
+  "nationalPokedexNumber": 4597,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

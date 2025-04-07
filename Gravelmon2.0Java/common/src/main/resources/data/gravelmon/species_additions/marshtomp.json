@@ -107,6 +107,7 @@
         "tm:geomancy",
         "tm:haze",
         "tm:heatwave",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:incinerate",
         "tm:ironhead",
@@ -143,7 +144,8 @@
         "tm:willowisp",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -269,6 +271,7 @@
         "tm:focusblast",
         "tm:gammaray",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:ironhead",
         "tm:knockoff",
@@ -307,7 +310,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -473,7 +477,8 @@
         "tm:waterpledge",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -591,7 +596,8 @@
         "40:dragondance",
         "44:dragontail",
         "44:closecombat",
-        "48:muddywater"
+        "48:muddywater",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -121,7 +121,8 @@
     "tm:muddywater",
     "tm:wrap",
     "tm:purify",
-    "tm:chillingwater"
+    "tm:chillingwater",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -167,7 +168,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4921,
+  "nationalPokedexNumber": 4929,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

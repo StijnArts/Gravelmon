@@ -79,7 +79,8 @@
     "74:ominouswind",
     "80:extremespeed",
     "86:futuresight",
-    "93:razorwind"
+    "93:razorwind",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4120,
+  "nationalPokedexNumber": 4128,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

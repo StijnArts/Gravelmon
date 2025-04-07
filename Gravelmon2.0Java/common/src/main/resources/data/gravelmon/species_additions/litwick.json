@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:thundershock"
+        "1:thundershock",
+        "1:growl",
+        "1:leer",
+        "4:confuseray",
+        "4:charge",
+        "7:ominouswind",
+        "7:shockwave",
+        "10:nightshade",
+        "10:discharge",
+        "13:hex",
+        "13:thunderbolt",
+        "16:shadowball",
+        "16:thunder",
+        "19:lick",
+        "19:thundershock",
+        "22:growl",
+        "22:leer",
+        "25:confuseray",
+        "25:charge",
+        "28:hex",
+        "28:thunderpunch",
+        "31:shadowclaw",
+        "31:discharge",
+        "34:phantomforce",
+        "34:wildcharge",
+        "39:poltergeist",
+        "39:supercellslam",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -211,7 +238,8 @@
         "egg:twinbeam",
         "egg:explosion",
         "egg:shockwave",
-        "egg:selfdestruct"
+        "egg:selfdestruct",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -311,7 +339,34 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:absorb"
+        "1:absorb",
+        "1:growl",
+        "1:leer",
+        "3:firespin",
+        "3:megadrain",
+        "6:flamecharge",
+        "6:magicalleaf",
+        "9:flameburst",
+        "9:gigadrain",
+        "12:flamethrower",
+        "12:energyball",
+        "15:fireblast",
+        "15:solarbeam",
+        "18:ember",
+        "18:leafage",
+        "21:growl",
+        "21:leer",
+        "24:quickattack",
+        "24:absorb",
+        "27:flamecharge",
+        "27:trailblaze",
+        "30:firepunch",
+        "30:gigadrain",
+        "33:willowisp",
+        "33:seedbomb",
+        "36:flareblitz",
+        "36:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",
@@ -487,7 +542,8 @@
         "tutor:swift",
         "tutor:trick",
         "tutor:wish",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

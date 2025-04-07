@@ -80,7 +80,8 @@
     "50:focusblast",
     "55:crushclaw",
     "61:nightslash",
-    "65:reversal"
+    "65:reversal",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3145,
+  "nationalPokedexNumber": 3153,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

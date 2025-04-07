@@ -145,7 +145,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -260,7 +261,8 @@
         "42:nightslash",
         "46:focusenergy",
         "50:stoneedge",
-        "56:doubleedge"
+        "56:doubleedge",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",
@@ -456,7 +458,8 @@
         "tutor:superpower",
         "tutor:thunderpunch",
         "tutor:uproar",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -644,7 +647,8 @@
         "tm:workup",
         "tm:worryseed",
         "tm:xscissor",
-        "tm:leechlife"
+        "tm:leechlife",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -761,7 +765,8 @@
         "40:followme",
         "44:batonpass",
         "48:lastresort",
-        "52:wish"
+        "52:wish",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

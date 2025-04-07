@@ -134,7 +134,8 @@
     "tm:snore",
     "tm:disarmingvoice",
     "tm:focusenergy",
-    "tm:stompingtantrum"
+    "tm:stompingtantrum",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3880,
+  "nationalPokedexNumber": 3888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

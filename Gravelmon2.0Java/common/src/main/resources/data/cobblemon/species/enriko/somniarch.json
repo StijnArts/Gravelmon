@@ -80,7 +80,8 @@
     "49:hypnosis",
     "53:aurasphere",
     "58:victorydance",
-    "62:moonblast"
+    "62:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1705,
+  "nationalPokedexNumber": 1708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

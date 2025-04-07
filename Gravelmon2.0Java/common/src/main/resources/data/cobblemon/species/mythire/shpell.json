@@ -63,6 +63,25 @@
     "1:confusion",
     "1:bulkup",
     "1:allyswitch",
+    "1:growl",
+    "1:calmmind",
+    "1:healbell",
+    "3:psybeam",
+    "3:taunt",
+    "3:wish",
+    "6:futuresight",
+    "6:substitute",
+    "9:psychic",
+    "9:rest",
+    "12:psyshock",
+    "15:psychoboost",
+    "18:confusion",
+    "21:growl",
+    "24:psybeam",
+    "27:futuresight",
+    "30:psychic",
+    "33:zenheadbutt",
+    "36:psychocut",
     "tm:return",
     "tm:frustration",
     "tm:facade",
@@ -92,7 +111,8 @@
     "tm:sludgebomb",
     "tm:nastyplot",
     "tm:toxic",
-    "tm:hypnosis"
+    "tm:hypnosis",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -120,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3851,
+  "nationalPokedexNumber": 3859,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

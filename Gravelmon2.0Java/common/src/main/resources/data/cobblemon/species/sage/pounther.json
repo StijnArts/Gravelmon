@@ -139,7 +139,8 @@
     "egg:foulplay",
     "egg:lastresort",
     "egg:odorsleuth",
-    "egg:punishment"
+    "egg:punishment",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

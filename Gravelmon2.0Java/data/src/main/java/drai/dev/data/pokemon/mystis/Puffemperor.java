@@ -16,7 +16,7 @@ public class Puffemperor extends drai.dev.data.pokemon.Pokemon {
                         100,
                         70),
                 List.of(Ability.BIG_PECKS), Ability.ICE_BODY,
-                0, 0,
+                18, 0,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -44,7 +44,11 @@ public class Puffemperor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(30).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Puffemperor");

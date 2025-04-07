@@ -43,7 +43,7 @@ public class Lemunk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,45)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

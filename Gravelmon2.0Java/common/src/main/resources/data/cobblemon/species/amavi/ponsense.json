@@ -70,7 +70,8 @@
     "28:endure",
     "32:brickbreak",
     "36:fakeout",
-    "39:flail"
+    "39:flail",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5288,
+  "nationalPokedexNumber": 5296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

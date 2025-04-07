@@ -76,7 +76,8 @@
     "49:pollenpuff",
     "52:leechlife",
     "57:wish",
-    "66:healingwish"
+    "66:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1899,
+  "nationalPokedexNumber": 1902,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

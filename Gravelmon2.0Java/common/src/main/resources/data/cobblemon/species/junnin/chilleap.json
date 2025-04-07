@@ -105,7 +105,8 @@
     "tm:workup",
     "tm:toxic",
     "tm:rest",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

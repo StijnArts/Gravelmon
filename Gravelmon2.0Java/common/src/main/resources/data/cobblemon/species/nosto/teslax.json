@@ -73,7 +73,8 @@
     "37:paraboliccharge",
     "42:discharge",
     "47:darkpulse",
-    "52:nastyplot"
+    "52:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3514,
+  "nationalPokedexNumber": 3522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

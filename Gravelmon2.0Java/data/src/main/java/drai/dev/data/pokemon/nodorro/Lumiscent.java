@@ -17,7 +17,7 @@ public class Lumiscent extends drai.dev.data.pokemon.Pokemon {
                         80),
                 List.of(Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
                 9, 6,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -34,11 +34,16 @@ public class Lumiscent extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PETAL_BLIZZARD,61)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FLORAL).canSeeSky().atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lumiscent");
-
+        addAdditionalEvolution("gloom", new EvolutionEntry("lumiscent", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"gravelmon:astral_stone"));
     }
 
 

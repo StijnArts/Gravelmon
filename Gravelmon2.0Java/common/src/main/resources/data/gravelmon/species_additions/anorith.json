@@ -143,7 +143,8 @@
         "egg:knockoff",
         "egg:suckerpunch",
         "egg:sandattack",
-        "egg:screech"
+        "egg:screech",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -270,7 +271,8 @@
         "tm:dragontail",
         "tm:swagger",
         "tm:substitute",
-        "tm:sleeptalk"
+        "tm:sleeptalk",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

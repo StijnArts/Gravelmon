@@ -117,7 +117,8 @@
     "tm:swagger",
     "tm:substitute",
     "tm:sleeptalk",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

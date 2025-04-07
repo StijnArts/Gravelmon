@@ -68,7 +68,8 @@
     "1:stoneedge",
     "1:sandtomb",
     "1:seismictoss",
-    "1:fling"
+    "1:fling",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3269,
+  "nationalPokedexNumber": 3277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

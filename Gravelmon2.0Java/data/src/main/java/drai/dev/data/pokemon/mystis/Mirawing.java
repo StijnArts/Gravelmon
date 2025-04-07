@@ -16,8 +16,8 @@ public class Mirawing extends drai.dev.data.pokemon.Pokemon {
                         75,
                         100),
                 List.of(Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 230, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Mirawing extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(38).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MAGICAL).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mirawing");

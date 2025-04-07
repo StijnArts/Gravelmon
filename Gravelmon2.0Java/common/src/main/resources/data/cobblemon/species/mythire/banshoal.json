@@ -75,7 +75,8 @@
     "36:whirlpool",
     "41:hydropump",
     "44:destinybond",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3875,
+  "nationalPokedexNumber": 3883,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

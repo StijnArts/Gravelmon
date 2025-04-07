@@ -120,7 +120,8 @@
     "tm:pursuit",
     "tm:brine",
     "tm:aquaring",
-    "tm:scaryface"
+    "tm:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4986,
+  "nationalPokedexNumber": 4994,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

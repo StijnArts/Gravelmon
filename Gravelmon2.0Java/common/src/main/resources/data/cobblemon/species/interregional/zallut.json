@@ -70,7 +70,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"
+    "57:recover",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1459,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

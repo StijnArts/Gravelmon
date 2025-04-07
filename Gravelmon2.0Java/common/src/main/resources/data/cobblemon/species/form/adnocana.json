@@ -64,7 +64,23 @@
     "1:watergun",
     "1:scratch",
     "1:flipturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:tailwhip",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:bubblebeam",
+    "4:dragonrage",
+    "4:swordsdance",
+    "7:aquatail",
+    "7:dualchop",
+    "10:surf",
+    "10:breakingswipe",
+    "13:waterfall",
+    "13:dragonclaw",
+    "16:liquidation",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3733,
+  "nationalPokedexNumber": 3741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -68,7 +68,8 @@
     "1:twister",
     "1:tailwind",
     "1:hypervoice",
-    "1:aquajet"
+    "1:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -81,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1713,
+  "nationalPokedexNumber": 1716,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

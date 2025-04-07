@@ -130,7 +130,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -230,7 +231,8 @@
         "43:sludgebomb",
         "1:vinewhip",
         "6:fairywind",
-        "27:grassyterrain"
+        "27:grassyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -333,7 +335,8 @@
         "tm:cosmicpower",
         "tm:disable",
         "tm:hex",
-        "tm:luckychant"
+        "tm:luckychant",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

@@ -165,6 +165,7 @@ public class PostRegistration {
             }
 
             for (var form : pokemon.getForms()) {
+                form.getLearnSet().add(new MoveLearnSetEntry(Move.TERA_BLAST, "tm"));
                 if (form.getAbilities().contains(form.getHiddenAbility())) {
                     form.setHiddenAbility(null);
                 }
@@ -181,6 +182,7 @@ public class PostRegistration {
         }
 
         for (var pokemon : sortedPokemonList) {
+            pokemon.getLearnSet().add(new MoveLearnSetEntry(Move.TERA_BLAST, "tm"));
             if (pokemon.baseExperienceYield == 0) {
                 pokemon.baseExperienceYield = 512 / (pokemon.stats.getHP() / 255);
             }

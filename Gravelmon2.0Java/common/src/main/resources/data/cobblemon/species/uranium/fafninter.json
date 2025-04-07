@@ -134,7 +134,8 @@
     "egg:iciclespear",
     "egg:rest",
     "egg:stealthrock",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -149,7 +150,7 @@
   "weight": 1873,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2054,
+  "nationalPokedexNumber": 2057,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

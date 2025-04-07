@@ -68,6 +68,7 @@
       "moves": [
         "65:thousandwaves",
         "4:lovelykiss",
+        "50:excalibur",
         "7:covet",
         "20:spiritbreak",
         "60:playrough",
@@ -115,7 +116,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -266,7 +268,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -459,7 +462,8 @@
         "43:moonblast",
         "46:moonlight",
         "50:lunarcannon",
-        "55:hurricane"
+        "55:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -604,7 +608,8 @@
         "tm:swagger",
         "tm:substitute",
         "tutor:secretpower",
-        "tutor:soundbarrier"
+        "tutor:soundbarrier",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -766,7 +771,8 @@
         "egg:sleeppowder",
         "egg:razorleaf",
         "egg:extrasensory",
-        "egg:lifedew"
+        "egg:lifedew",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",
@@ -926,7 +932,8 @@
         "egg:present",
         "egg:revenge",
         "egg:wideguard",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",
@@ -949,6 +956,145 @@
         "height": 4.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "fire",
+      "secondaryType": "ice",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 242,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "roselia form=ishirian",
+      "baseScale": 0.25116279069767444,
+      "cannotDynamax": false,
+      "abilities": [
+        "flamebody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 45,
+        "defence": 55,
+        "special_attack": 130,
+        "special_defence": 105,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:absorb",
+        "1:secretsword",
+        "1:sacredsword",
+        "1:powdersnow",
+        "1:ember",
+        "5:firespin",
+        "10:growth",
+        "15:icywind",
+        "17:poisonpowder",
+        "17:sleeppowder",
+        "21:mist",
+        "25:incinerate",
+        "28:freezedry",
+        "31:ingrain",
+        "36:leechseed",
+        "48:icebeam",
+        "52:flamethrower",
+        "59:fireblast",
+        "65:blizzard",
+        "tm:snowscape",
+        "tm:chillyreception",
+        "tm:willowisp",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:gigadrain",
+        "tm:icebeam",
+        "tm:leechseed",
+        "tm:protect",
+        "tm:return",
+        "tm:frustration",
+        "tm:weatherball",
+        "tm:substitute",
+        "tm:endure",
+        "tm:spikes",
+        "tm:swift",
+        "tm:raindance",
+        "tm:snore",
+        "tm:shadowball",
+        "tm:swagger",
+        "tm:psychup",
+        "tm:sweetkiss",
+        "tm:strengthsap",
+        "tm:mimic",
+        "tm:rapidspin",
+        "tm:covet",
+        "tm:cut",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:freezedry",
+        "tm:sunnyday",
+        "tm:willowisp",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianroserade.desc"
+      ],
+      "height": 9,
+      "weight": 145,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.375,
+        "height": 5.375,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -957,6 +1103,7 @@
     "delta",
     "x",
     "ayreian",
-    "relic"
+    "relic",
+    "ishirian"
   ]
 }

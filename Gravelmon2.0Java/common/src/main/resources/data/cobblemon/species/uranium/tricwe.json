@@ -126,7 +126,8 @@
     "egg:batonpass",
     "egg:pursuit",
     "egg:thunderpunch",
-    "egg:silverwind"
+    "egg:silverwind",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2004,
+  "nationalPokedexNumber": 2007,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

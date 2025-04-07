@@ -81,7 +81,8 @@
     "tm:shadowball",
     "tm:darkpulse",
     "tm:sludgebomb",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1851,
+  "nationalPokedexNumber": 1854,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

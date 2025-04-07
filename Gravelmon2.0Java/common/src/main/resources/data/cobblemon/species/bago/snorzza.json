@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "4:quickattack",
+    "7:bite",
+    "10:takedown",
+    "13:crunch",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2796,
+  "nationalPokedexNumber": 2804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

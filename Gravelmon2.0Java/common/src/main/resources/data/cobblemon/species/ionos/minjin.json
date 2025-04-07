@@ -78,7 +78,8 @@
     "59:healpulse",
     "72:dazzlinggleam",
     "80:hypervoice",
-    "88:boomburst"
+    "88:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4780,
+  "nationalPokedexNumber": 4788,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

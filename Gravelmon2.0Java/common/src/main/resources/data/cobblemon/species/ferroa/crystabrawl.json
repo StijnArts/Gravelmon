@@ -178,7 +178,8 @@
     "tm:voltswitch",
     "tm:whirlwind",
     "tm:wildcharge",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -191,7 +192,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1605,
+  "nationalPokedexNumber": 1608,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

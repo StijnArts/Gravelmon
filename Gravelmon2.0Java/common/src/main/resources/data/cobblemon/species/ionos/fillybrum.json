@@ -59,7 +59,19 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "10:bubblebeam",
+    "15:brine",
+    "20:surf",
+    "25:chillingwater",
+    "30:hydropump",
+    "35:watergun",
+    "40:tailwhip",
+    "45:bubblebeam",
+    "50:aquatail",
+    "55:surf",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -87,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4789,
+  "nationalPokedexNumber": 4797,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

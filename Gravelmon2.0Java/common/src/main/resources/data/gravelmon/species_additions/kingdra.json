@@ -129,7 +129,8 @@
         "tm:waterpulse",
         "tm:weatherball",
         "tm:whirlpool",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -278,7 +279,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -149,7 +149,8 @@
     "tm:mudshot",
     "tm:paraboliccharge",
     "tm:bubble",
-    "tm:megadrain"
+    "tm:megadrain",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4956,
+  "nationalPokedexNumber": 4964,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

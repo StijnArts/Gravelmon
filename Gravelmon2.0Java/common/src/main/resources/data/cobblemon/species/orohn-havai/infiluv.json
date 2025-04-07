@@ -75,7 +75,8 @@
     "44:futuresight",
     "48:wonderroom",
     "50:healingwish",
-    "60:mistyexplosion"
+    "60:mistyexplosion",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3039,
+  "nationalPokedexNumber": 3047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

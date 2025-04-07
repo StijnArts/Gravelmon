@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:lick"
+    "1:lick",
+    "1:tailwhip",
+    "1:growl",
+    "4:bubblebeam",
+    "4:confuseray",
+    "7:aquatail",
+    "7:hex",
+    "10:surf",
+    "10:shadowclaw",
+    "13:waterfall",
+    "13:phantomforce",
+    "16:liquidation",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -104,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2712,
+  "nationalPokedexNumber": 2720,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

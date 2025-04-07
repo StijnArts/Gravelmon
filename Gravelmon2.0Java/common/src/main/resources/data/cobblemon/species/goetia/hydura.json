@@ -63,7 +63,28 @@
     "1:acid",
     "1:scratch",
     "1:bulkup",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:leer",
+    "1:calmmind",
+    "1:calmmind",
+    "10:clearsmog",
+    "10:twister",
+    "10:taunt",
+    "10:taunt",
+    "15:sludge",
+    "15:dragonbreath",
+    "15:substitute",
+    "15:substitute",
+    "20:toxicspikes",
+    "20:breakingswipe",
+    "20:rest",
+    "20:rest",
+    "25:sludgebomb",
+    "25:dragonpulse",
+    "30:sludgewave",
+    "30:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5917,
+  "nationalPokedexNumber": 5925,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

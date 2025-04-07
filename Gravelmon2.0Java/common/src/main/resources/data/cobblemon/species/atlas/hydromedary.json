@@ -109,7 +109,8 @@
     "tm:surf",
     "tm:swagger",
     "tm:toxic",
-    "tm:waterpulse"
+    "tm:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -124,7 +125,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5058,
+  "nationalPokedexNumber": 5066,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

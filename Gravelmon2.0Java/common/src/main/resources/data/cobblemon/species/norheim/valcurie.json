@@ -78,7 +78,8 @@
     "57:closecombat",
     "62:swordsdance",
     "72:focusblast",
-    "80:retaliate"
+    "80:retaliate",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3227,
+  "nationalPokedexNumber": 3235,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

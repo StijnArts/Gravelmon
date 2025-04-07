@@ -152,7 +152,8 @@
     "egg:mist",
     "egg:soak",
     "egg:thrash",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "sage",
@@ -333,7 +334,8 @@
         "egg:mist",
         "egg:soak",
         "egg:thrash",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "sage",

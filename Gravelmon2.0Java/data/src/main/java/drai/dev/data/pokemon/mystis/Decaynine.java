@@ -16,8 +16,8 @@ public class Decaynine extends drai.dev.data.pokemon.Pokemon {
                         129,
                         57),
                 List.of(Ability.POISON_POINT), Ability.DRY_SKIN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -95,7 +95,11 @@ public class Decaynine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLACK_OFF,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Decaynine");

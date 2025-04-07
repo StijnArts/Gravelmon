@@ -141,7 +141,8 @@
     "tm:charm",
     "tm:healblock",
     "tm:miracleeye",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4873,
+  "nationalPokedexNumber": 4881,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

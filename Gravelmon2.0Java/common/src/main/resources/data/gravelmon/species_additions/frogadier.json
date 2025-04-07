@@ -131,7 +131,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -246,7 +247,8 @@
         "1:growl",
         "5:ember",
         "20:toxicspikes",
-        "29:sludge"
+        "29:sludge",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -429,7 +431,8 @@
         "tutor:synthesis",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -574,7 +577,8 @@
         "egg:camouflage",
         "egg:mindreader",
         "egg:mudsport",
-        "egg:toxicspikes"
+        "egg:toxicspikes",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

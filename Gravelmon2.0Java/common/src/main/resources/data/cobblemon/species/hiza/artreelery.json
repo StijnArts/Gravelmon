@@ -74,7 +74,8 @@
     "38:explosion",
     "44:inferno",
     "47:petalblizzard",
-    "53:synthesis"
+    "53:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2349,
+  "nationalPokedexNumber": 2357,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

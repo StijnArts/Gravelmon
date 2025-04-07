@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:tackle"
+    "1:tackle",
+    "1:growl",
+    "1:growl",
+    "4:round",
+    "4:round",
+    "7:swift",
+    "7:swift",
+    "10:uproar",
+    "10:uproar",
+    "13:hypervoice",
+    "13:hypervoice",
+    "16:hyperbeam",
+    "16:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -87,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2633,
+  "nationalPokedexNumber": 2641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

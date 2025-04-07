@@ -76,7 +76,8 @@
     "42:grasswhistle",
     "45:sandstorm",
     "50:aquaring",
-    "53:gravity"
+    "53:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 4392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

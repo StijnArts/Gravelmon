@@ -71,7 +71,7 @@ public class Bottoil extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNINGSNEEZE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
                 ), List.of(),
                 List.of(SpawnPreset.ILLAGER_STRUCTURES),

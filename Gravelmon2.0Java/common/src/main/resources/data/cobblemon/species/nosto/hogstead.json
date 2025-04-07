@@ -116,7 +116,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:flashcannon",
-    "tm:gyroball"
+    "tm:gyroball",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3512,
+  "nationalPokedexNumber": 3520,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

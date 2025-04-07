@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:defensecurl",
+    "1:calmmind",
+    "4:rollout",
+    "4:taunt",
+    "7:smackdown",
+    "7:substitute",
+    "10:rockblast",
+    "10:rest",
+    "13:stealthrock",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -90,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2528,
+  "nationalPokedexNumber": 2536,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -76,7 +76,8 @@
     "tm:razorleaf",
     "tm:sweetscent",
     "tm:featherdance",
-    "tm:aerialace"
+    "tm:aerialace",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4376,
+  "nationalPokedexNumber": 4384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

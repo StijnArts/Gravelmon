@@ -108,7 +108,8 @@
     "tm:endure",
     "tm:bubblebeam",
     "tm:rage",
-    "tm:naturalgift"
+    "tm:naturalgift",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1588,
+  "nationalPokedexNumber": 1591,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

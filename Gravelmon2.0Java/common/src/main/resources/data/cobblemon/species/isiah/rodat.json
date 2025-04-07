@@ -76,7 +76,8 @@
     "32:suckerpunch",
     "36:swagger",
     "39:superfang",
-    "43:doubleedge"
+    "43:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

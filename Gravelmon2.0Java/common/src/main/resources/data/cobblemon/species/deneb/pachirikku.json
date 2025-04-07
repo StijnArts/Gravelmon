@@ -124,7 +124,8 @@
     "egg:thunderpunch",
     "egg:thunderbolt",
     "egg:uproar",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -138,7 +139,7 @@
   "weight": 233,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4544,
+  "nationalPokedexNumber": 4552,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:strugglebug"
+    "1:strugglebug",
+    "1:growl",
+    "1:stringshot",
+    "10:firespin",
+    "10:silverwind",
+    "15:flamecharge",
+    "15:signalbeam",
+    "20:flameburst",
+    "20:infestation",
+    "25:flamethrower",
+    "25:uturn",
+    "30:fireblast",
+    "30:bugbuzz",
+    "35:ember",
+    "35:strugglebug",
+    "40:growl",
+    "40:stringshot",
+    "45:quickattack",
+    "45:leechlife",
+    "50:flamecharge",
+    "50:lunge",
+    "55:firepunch",
+    "55:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5821,
+  "nationalPokedexNumber": 5829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

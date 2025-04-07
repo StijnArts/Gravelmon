@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:growl",
+    "1:screech",
+    "10:firespin",
+    "10:irontail",
+    "15:flamecharge",
+    "15:smartstrike",
+    "20:flameburst",
+    "20:mirrorshot",
+    "25:flamethrower",
+    "25:flashcannon",
+    "30:fireblast",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4781,
+  "nationalPokedexNumber": 4789,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

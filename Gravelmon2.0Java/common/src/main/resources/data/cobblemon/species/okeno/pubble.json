@@ -129,7 +129,8 @@
     "tm:accelerock",
     "tm:headsmash",
     "tm:yawn",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4411,
+  "nationalPokedexNumber": 4419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

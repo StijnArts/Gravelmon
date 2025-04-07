@@ -128,7 +128,8 @@
     "tm:psychup",
     "tm:flashcannon",
     "tm:wildcharge",
-    "tm:dazzlinggleam"
+    "tm:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1619,
+  "nationalPokedexNumber": 1622,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

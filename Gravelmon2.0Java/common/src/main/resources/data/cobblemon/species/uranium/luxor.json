@@ -139,7 +139,8 @@
     "egg:recover",
     "egg:playrough",
     "egg:triattack",
-    "egg:powergem"
+    "egg:powergem",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2070,
+  "nationalPokedexNumber": 2073,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

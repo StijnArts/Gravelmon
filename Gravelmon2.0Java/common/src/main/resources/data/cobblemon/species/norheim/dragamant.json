@@ -79,7 +79,8 @@
     "48:powergem",
     "54:dragonrush",
     "62:stoneedge",
-    "68:megahorn"
+    "68:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3144,
+  "nationalPokedexNumber": 3152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

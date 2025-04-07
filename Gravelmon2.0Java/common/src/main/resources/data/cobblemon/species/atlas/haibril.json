@@ -117,7 +117,8 @@
     "tm:wildcharge",
     "tm:workup",
     "tm:stunspore",
-    "tm:hornleech"
+    "tm:hornleech",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5085,
+  "nationalPokedexNumber": 5093,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

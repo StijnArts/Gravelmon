@@ -86,7 +86,8 @@
     "tm:sunnyday",
     "tm:bulkup",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5140,
+  "nationalPokedexNumber": 5148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:peck"
+    "1:peck",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:pluck",
+    "7:aquatail",
+    "7:wingattack",
+    "10:surf",
+    "10:aerialace",
+    "13:waterfall",
+    "13:drillpeck",
+    "16:liquidation",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2522,
+  "nationalPokedexNumber": 2530,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -145,7 +145,8 @@
     "tm:amnesia",
     "tm:nightshade",
     "tm:doodle",
-    "tm:embargo"
+    "tm:embargo",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4949,
+  "nationalPokedexNumber": 4957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

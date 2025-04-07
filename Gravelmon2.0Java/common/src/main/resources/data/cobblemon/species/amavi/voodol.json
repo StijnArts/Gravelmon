@@ -68,7 +68,8 @@
     "22:shadowsneak",
     "27:assurance",
     "34:darkpulse",
-    "40:memento"
+    "40:memento",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5253,
+  "nationalPokedexNumber": 5261,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

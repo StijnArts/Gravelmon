@@ -133,7 +133,8 @@
     "tutor:waterpulse",
     "tutor:weatherball",
     "tutor:whirlpool",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -148,7 +149,7 @@
   "weight": 3980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4087,
+  "nationalPokedexNumber": 4095,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,
@@ -288,7 +289,8 @@
         "tutor:swagger",
         "tutor:toxic",
         "tutor:weatherball",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -428,7 +430,8 @@
         "tutor:swagger",
         "tutor:toxic",
         "tutor:weatherball",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -571,7 +574,8 @@
         "tutor:swagger",
         "tutor:toxic",
         "tutor:weatherball",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

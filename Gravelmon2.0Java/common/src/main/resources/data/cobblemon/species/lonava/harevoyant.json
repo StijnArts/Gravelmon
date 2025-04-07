@@ -167,7 +167,8 @@
     "tm:telekinesis",
     "tm:trick",
     "tm:uproar",
-    "tm:wish"
+    "tm:wish",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -182,7 +183,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3319,
+  "nationalPokedexNumber": 3327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

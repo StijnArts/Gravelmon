@@ -84,7 +84,34 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:watergun"
+        "1:watergun",
+        "1:leer",
+        "1:tailwhip",
+        "4:twister",
+        "4:bubblebeam",
+        "7:dragonbreath",
+        "7:brine",
+        "10:breakingswipe",
+        "10:surf",
+        "13:dragonpulse",
+        "13:chillingwater",
+        "16:dracometeor",
+        "16:hydropump",
+        "19:scratch",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:dragonrage",
+        "25:bubblebeam",
+        "28:dualchop",
+        "28:aquatail",
+        "31:breakingswipe",
+        "31:surf",
+        "34:dragonclaw",
+        "34:waterfall",
+        "39:outrage",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -172,7 +199,22 @@
         "1:thundershock",
         "1:scratch",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:charge",
+        "4:twister",
+        "7:shockwave",
+        "7:dragonbreath",
+        "10:discharge",
+        "10:breakingswipe",
+        "13:thunderbolt",
+        "13:dragonpulse",
+        "16:thunder",
+        "16:dracometeor",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -304,6 +346,7 @@
         "tm:geomancy",
         "tm:hail",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -351,7 +394,8 @@
         "egg:aurorabeam",
         "egg:mistball",
         "egg:nobleroar",
-        "egg:doubleteam"
+        "egg:doubleteam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -525,7 +569,8 @@
         "tutor:uproar",
         "tutor:waterpulse",
         "tutor:whirlpool",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -680,7 +725,8 @@
         "tm:thunderwave",
         "tm:toxic",
         "tm:psyshock",
-        "tm:megahorn"
+        "tm:megahorn",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

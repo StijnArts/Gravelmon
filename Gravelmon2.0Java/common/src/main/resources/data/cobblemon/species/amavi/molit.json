@@ -71,7 +71,8 @@
     "39:captivate",
     "43:extrasensory",
     "47:trumpcard",
-    "53:healblock"
+    "53:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5310,
+  "nationalPokedexNumber": 5318,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

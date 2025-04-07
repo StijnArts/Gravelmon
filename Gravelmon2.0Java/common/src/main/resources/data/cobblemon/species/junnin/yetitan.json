@@ -102,7 +102,8 @@
     "tm:rest",
     "tm:flatter",
     "tm:captivate",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -117,7 +118,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2415,
+  "nationalPokedexNumber": 2423,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

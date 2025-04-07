@@ -83,6 +83,7 @@
     "tm:frostbite",
     "tm:frustration",
     "tm:willowisp",
+    "tm:cryoshock",
     "tm:ominouswind",
     "tm:taunt",
     "tm:return",
@@ -114,7 +115,8 @@
     "egg:return",
     "egg:secretpower",
     "egg:sing",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -129,7 +131,7 @@
   "weight": 395,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4497,
+  "nationalPokedexNumber": 4505,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

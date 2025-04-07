@@ -165,7 +165,7 @@ public class EpochHonedgeThree extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_HAMMER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -126,7 +126,8 @@
         "tm:triattack",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -228,7 +229,8 @@
         "13:bide",
         "32:bodyslam",
         "5:absorb",
-        "50:psystrike"
+        "50:psystrike",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -404,7 +406,8 @@
         "tutor:stealthrock",
         "tutor:waterpulse",
         "tutor:whirlpool",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

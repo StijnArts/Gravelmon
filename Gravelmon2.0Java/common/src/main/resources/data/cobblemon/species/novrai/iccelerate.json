@@ -130,7 +130,8 @@
     "tm:doubleedge",
     "tm:highhorsepower",
     "tm:mefirst",
-    "tm:endure"
+    "tm:endure",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -145,7 +146,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5020,
+  "nationalPokedexNumber": 5028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

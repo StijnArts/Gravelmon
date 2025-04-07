@@ -85,7 +85,8 @@
     "tm:payback",
     "tm:powertrip",
     "tm:curse",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2421,
+  "nationalPokedexNumber": 2429,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

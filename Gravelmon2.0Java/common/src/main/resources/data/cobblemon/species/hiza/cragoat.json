@@ -70,7 +70,8 @@
     "36:rockslide",
     "40:doubleedge",
     "43:counter",
-    "53:headsmash"
+    "53:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2270,
+  "nationalPokedexNumber": 2278,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

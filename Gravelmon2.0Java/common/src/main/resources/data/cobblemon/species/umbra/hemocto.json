@@ -122,7 +122,8 @@
     "tutor:foulplay",
     "tutor:superfang",
     "tutor:skillswap",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3712,
+  "nationalPokedexNumber": 3720,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

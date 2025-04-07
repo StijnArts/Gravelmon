@@ -77,7 +77,8 @@
     "40:blizzard",
     "44:tailwind",
     "48:wideguard",
-    "52:quiverdance"
+    "52:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2374,
+  "nationalPokedexNumber": 2382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

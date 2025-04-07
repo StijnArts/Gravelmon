@@ -76,7 +76,8 @@
     "38:snatch",
     "44:drillpeck",
     "48:featherdance",
-    "56:bravebird"
+    "56:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4719,
+  "nationalPokedexNumber": 4727,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

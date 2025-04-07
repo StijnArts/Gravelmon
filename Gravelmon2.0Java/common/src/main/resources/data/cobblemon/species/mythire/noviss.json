@@ -100,7 +100,8 @@
     "tm:grudge",
     "tm:overheat",
     "tm:dragontail",
-    "tm:paraboliccharge"
+    "tm:paraboliccharge",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3836,
+  "nationalPokedexNumber": 3844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

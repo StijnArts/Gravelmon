@@ -89,7 +89,7 @@ public class AyreianSpearow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_WIND,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

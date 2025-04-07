@@ -138,7 +138,8 @@
     "egg:synchronoise",
     "egg:tickle",
     "egg:wish",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

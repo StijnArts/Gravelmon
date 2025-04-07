@@ -122,7 +122,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:stealthrock",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -135,7 +136,7 @@
   "weight": 3330,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1838,
+  "nationalPokedexNumber": 1841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

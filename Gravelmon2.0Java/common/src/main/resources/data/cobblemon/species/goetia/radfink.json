@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:poisonsting"
+    "1:poisonsting",
+    "1:leer",
+    "1:leer",
+    "10:payback",
+    "10:venoshock",
+    "15:nightslash",
+    "15:poisontail",
+    "20:crunch",
+    "20:toxicspikes",
+    "25:knockoff",
+    "25:sludgebomb",
+    "30:suckerpunch",
+    "30:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5947,
+  "nationalPokedexNumber": 5955,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -149,7 +149,8 @@
         "egg:dualwingbeat",
         "egg:airslash",
         "egg:steelwing",
-        "egg:boomburst"
+        "egg:boomburst",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -271,7 +272,8 @@
         "egg:outrage",
         "egg:snatch",
         "egg:switcheroo",
-        "egg:tailwind"
+        "egg:tailwind",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -467,7 +469,8 @@
         "tutor:tailwind",
         "tutor:twister",
         "tutor:waterpulse",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -645,7 +648,8 @@
         "egg:dragonrush",
         "egg:snatch",
         "egg:stealthrock",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",
@@ -821,7 +825,8 @@
         "tutor:wildcharge",
         "tutor:xscissor",
         "egg:defog",
-        "egg:dragonrush"
+        "egg:dragonrush",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

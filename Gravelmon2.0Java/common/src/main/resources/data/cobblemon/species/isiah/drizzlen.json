@@ -73,7 +73,8 @@
     "38:cottonguard",
     "43:thunderbolt",
     "46:tailwind",
-    "51:hurricane"
+    "51:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4232,
+  "nationalPokedexNumber": 4240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

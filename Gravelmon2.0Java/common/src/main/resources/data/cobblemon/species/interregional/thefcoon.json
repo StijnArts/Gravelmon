@@ -75,7 +75,8 @@
     "tm:agility",
     "tm:camouflage",
     "tm:bounce",
-    "tm:shadowsneak"
+    "tm:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1411,
+  "nationalPokedexNumber": 1414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

@@ -72,7 +72,8 @@
     "42:glare",
     "50:doubleedge",
     "59:mimic",
-    "64:powerwhip"
+    "64:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1639,
+  "nationalPokedexNumber": 1642,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

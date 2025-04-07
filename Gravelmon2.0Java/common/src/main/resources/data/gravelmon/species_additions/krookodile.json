@@ -133,7 +133,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -320,7 +321,8 @@
         "tm:torment",
         "tm:toxic",
         "tm:uproar",
-        "tm:icespinner"
+        "tm:icespinner",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

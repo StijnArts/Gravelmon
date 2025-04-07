@@ -74,7 +74,8 @@
     "45:endeavor",
     "51:bulkup",
     "58:bravebird",
-    "62:skyattack"
+    "62:skyattack",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4344,
+  "nationalPokedexNumber": 4352,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

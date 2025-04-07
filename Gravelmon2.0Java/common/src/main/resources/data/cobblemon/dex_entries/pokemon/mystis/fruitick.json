@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fruitick",
+  "speciesId": "cobblemon:fruitick",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

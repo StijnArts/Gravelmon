@@ -139,7 +139,8 @@
     "tm:muddywater",
     "tm:rockblast",
     "tm:acidspray",
-    "tm:recover"
+    "tm:recover",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4959,
+  "nationalPokedexNumber": 4967,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

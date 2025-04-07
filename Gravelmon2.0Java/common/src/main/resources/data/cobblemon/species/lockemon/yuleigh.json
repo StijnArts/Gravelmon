@@ -81,7 +81,8 @@
     "42:sheercold",
     "egg:focuspunch",
     "egg:nightslash",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -96,7 +97,7 @@
   "weight": 199,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3432,
+  "nationalPokedexNumber": 3440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

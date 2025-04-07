@@ -126,7 +126,8 @@
     "egg:mudsport",
     "egg:refresh",
     "egg:thunder",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -141,7 +142,7 @@
   "weight": 855,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1975,
+  "nationalPokedexNumber": 1978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

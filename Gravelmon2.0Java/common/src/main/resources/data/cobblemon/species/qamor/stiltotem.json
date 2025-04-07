@@ -78,7 +78,8 @@
     "1:synthesis",
     "1:bounce",
     "1:swordsdance",
-    "1:leafblade"
+    "1:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4001,
+  "nationalPokedexNumber": 4009,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.625,

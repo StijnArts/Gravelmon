@@ -130,7 +130,8 @@
         "egg:mistyterrain",
         "egg:mindreader",
         "egg:allyswitch",
-        "egg:typhoon"
+        "egg:typhoon",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -282,7 +283,8 @@
         "egg:wish",
         "egg:morningsun",
         "egg:nightslash",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

@@ -73,7 +73,8 @@
     "42:workup",
     "47:suckerpunch",
     "53:hydropump",
-    "59:thrash"
+    "59:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1730,
+  "nationalPokedexNumber": 1733,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

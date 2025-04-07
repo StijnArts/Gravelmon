@@ -67,7 +67,8 @@
     "1:dragontail",
     "1:irontail",
     "1:slash",
-    "1:stomp"
+    "1:stomp",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -80,7 +81,7 @@
   "weight": 2240,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3294,
+  "nationalPokedexNumber": 3302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

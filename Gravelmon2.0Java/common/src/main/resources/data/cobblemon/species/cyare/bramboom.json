@@ -121,7 +121,8 @@
     "tm:toxic",
     "tm:workup",
     "tm:xscissor",
-    "tm:mudslap"
+    "tm:mudslap",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5330,
+  "nationalPokedexNumber": 5338,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

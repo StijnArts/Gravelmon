@@ -74,7 +74,8 @@
     "tm:aerialace",
     "tm:darkpulse",
     "tm:airslash",
-    "tm:bravebird"
+    "tm:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1410,
+  "nationalPokedexNumber": 1413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

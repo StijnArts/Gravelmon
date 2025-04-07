@@ -16,8 +16,8 @@ public class Hissmoke extends drai.dev.data.pokemon.Pokemon {
                         70,
                         88),
                 List.of(Ability.WHITE_SMOKE,Ability.FLAME_BODY), Ability.INTIMIDATE,
-                0, 0,
-                new Stats(0,2,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -44,7 +44,11 @@ public class Hissmoke extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIVE_GAS,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(36).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_FOREST, Biome.IS_BADLANDS)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hissmoke");

@@ -139,7 +139,8 @@
     "tm:grudge",
     "tm:meanlook",
     "tm:leechseed",
-    "tm:dig"
+    "tm:dig",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -167,7 +168,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4851,
+  "nationalPokedexNumber": 4859,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

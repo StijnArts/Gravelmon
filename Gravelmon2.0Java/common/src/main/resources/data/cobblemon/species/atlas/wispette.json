@@ -107,7 +107,8 @@
     "tm:hypnosis",
     "tm:trickroom",
     "tm:mistyterrain",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5128,
+  "nationalPokedexNumber": 5136,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

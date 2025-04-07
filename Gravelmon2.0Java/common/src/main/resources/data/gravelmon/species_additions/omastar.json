@@ -122,7 +122,8 @@
         "tm:trickroom",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -292,7 +293,8 @@
         "tm:wringout",
         "tm:toxicspikes",
         "tm:reflecttype",
-        "tm:iceball"
+        "tm:iceball",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

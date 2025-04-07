@@ -82,7 +82,8 @@
     "tm:healpulse",
     "tm:healingwish",
     "tm:charm",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4432,
+  "nationalPokedexNumber": 4440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

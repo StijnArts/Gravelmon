@@ -103,7 +103,8 @@
     "tm:nuzzle",
     "tm:captivate",
     "tm:rage",
-    "tm:outrage"
+    "tm:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -116,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

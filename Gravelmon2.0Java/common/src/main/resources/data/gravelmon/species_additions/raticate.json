@@ -64,7 +64,18 @@
       "drops": {},
       "moves": [
         "1:acid",
-        "1:bulkup"
+        "1:bulkup",
+        "1:leer",
+        "1:calmmind",
+        "4:clearsmog",
+        "4:taunt",
+        "7:sludge",
+        "7:substitute",
+        "10:toxicspikes",
+        "10:rest",
+        "13:sludgebomb",
+        "16:sludgewave",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -239,7 +250,8 @@
         "tm:weatherball",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -396,7 +408,8 @@
         "tm:wildcharge",
         "tm:workup",
         "tm:zenheadbutt",
-        "tm:rockslide"
+        "tm:rockslide",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -544,7 +557,8 @@
         "tm:substitute",
         "tm:cut",
         "tm:strength",
-        "tm:rocksmash"
+        "tm:rocksmash",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

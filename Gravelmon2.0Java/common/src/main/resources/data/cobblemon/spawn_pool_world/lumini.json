@@ -12,12 +12,11 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 6.75,
+      "level": "12-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest",
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_forest"
         ],
         "timeRange": "night"
       },
@@ -25,7 +24,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:redstone_block"
           ]
         }
       }

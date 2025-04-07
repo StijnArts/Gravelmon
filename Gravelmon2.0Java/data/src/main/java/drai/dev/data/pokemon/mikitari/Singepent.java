@@ -23,7 +23,8 @@ public class Singepent extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("The black part at the end of its tail keeps heat for long time. Its tail functions like a thermal knife."),
-                List.of(),
+                List.of(new EvolutionEntry("conflevour", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.WRAP,1),
@@ -129,7 +130,11 @@ public class Singepent extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Singepent");

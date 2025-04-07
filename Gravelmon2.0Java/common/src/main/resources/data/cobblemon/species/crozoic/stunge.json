@@ -72,7 +72,8 @@
     "1:bide",
     "1:autotomize",
     "1:recover",
-    "1:toxicspikes"
+    "1:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3288,
+  "nationalPokedexNumber": 3296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

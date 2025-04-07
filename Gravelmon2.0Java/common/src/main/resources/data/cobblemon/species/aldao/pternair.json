@@ -63,7 +63,22 @@
     "1:gust",
     "1:rockthrow",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:defensecurl",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:aircutter",
+    "4:rollout",
+    "7:wingattack",
+    "7:ancientpower",
+    "10:airslash",
+    "10:powergem",
+    "13:drillpeck",
+    "13:stealthrock",
+    "16:hurricane",
+    "16:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -93,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2866,
+  "nationalPokedexNumber": 2874,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

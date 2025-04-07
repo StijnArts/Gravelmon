@@ -66,6 +66,17 @@
   "moves": [
     "1:scratch",
     "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "4:dragonrage",
+    "4:irontail",
+    "8:dualchop",
+    "8:smartstrike",
+    "12:breakingswipe",
+    "12:ironhead",
+    "16:dragonclaw",
+    "16:meteormash",
+    "20:outrage",
     "tm:falseswipe",
     "tm:facade",
     "tm:frustration",
@@ -105,7 +116,8 @@
     "tm:bulkup",
     "tm:swordsdance",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -120,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3007,
+  "nationalPokedexNumber": 3015,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

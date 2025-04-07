@@ -75,7 +75,8 @@
     "1:bodypress",
     "1:crunch",
     "1:bite",
-    "1:camouflage"
+    "1:camouflage",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3859,
+  "nationalPokedexNumber": 3867,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

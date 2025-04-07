@@ -78,6 +78,12 @@ public class SpawnPoolWorldJSONWriter {
                 var condition = new JsonObject();
                 spawnJson.add("condition", condition);
                 pokemonSpawnData.getSpawnConditions().forEach(spawnCondition -> processCondition(condition, spawnCondition));
+                if(!pokemonSpawnData.getRequiredBlocks().isEmpty()) {
+                    var neededNearbyBlocks = new JsonArray();
+                    condition.add("neededNearbyBlocks", neededNearbyBlocks);
+                    pokemonSpawnData.getRequiredBlocks().forEach(neededNearbyBlocks::add);
+                }
+
             }
             if(!pokemonSpawnData.getSpawnAntiConditions().isEmpty()) {
                 var antiCondition = new JsonObject();

@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:confusion",
-        "1:thundershock"
+        "1:thundershock",
+        "1:growl",
+        "1:leer",
+        "4:psybeam",
+        "4:charge",
+        "7:futuresight",
+        "7:shockwave",
+        "10:psychic",
+        "10:discharge",
+        "13:psyshock",
+        "13:thunderbolt",
+        "16:psychoboost",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -236,7 +249,8 @@
         "egg:corrosivegas",
         "egg:pursuit",
         "egg:cheapshot",
-        "egg:outrage"
+        "egg:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -336,7 +350,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:confusion"
+        "1:confusion",
+        "1:growl",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
+        "19:confusion",
+        "22:growl",
+        "25:psybeam",
+        "28:futuresight",
+        "31:psychic",
+        "34:zenheadbutt",
+        "39:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "enjin",

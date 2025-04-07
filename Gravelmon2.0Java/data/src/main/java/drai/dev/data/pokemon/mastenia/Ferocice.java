@@ -11,8 +11,8 @@ public class Ferocice extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE, Type.ICE,
                 stats,
                 List.of(Ability.PRESSURE), Ability.STORM_DRAIN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                35, 0,
+                new Stats(0,0,0,0,0,0), 6,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,10 +22,18 @@ public class Ferocice extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FROZEN_OCEAN)
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ferocice");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+        setCanWalkOnWater(true);
 
     }
 

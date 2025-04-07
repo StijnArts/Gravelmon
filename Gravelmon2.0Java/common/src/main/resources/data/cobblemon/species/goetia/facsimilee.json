@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:bulkup"
+    "1:bulkup",
+    "1:babydolleyes",
+    "1:calmmind",
+    "10:drainingkiss",
+    "10:taunt",
+    "15:playnice",
+    "15:substitute",
+    "20:dazzlinggleam",
+    "20:rest",
+    "25:hypervoice",
+    "30:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5905,
+  "nationalPokedexNumber": 5913,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

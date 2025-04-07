@@ -140,7 +140,8 @@
     "tm:doubleedge",
     "tm:uturn",
     "tm:willowisp",
-    "tm:selfdestruct"
+    "tm:selfdestruct",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -166,7 +167,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1390,
+  "nationalPokedexNumber": 1393,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

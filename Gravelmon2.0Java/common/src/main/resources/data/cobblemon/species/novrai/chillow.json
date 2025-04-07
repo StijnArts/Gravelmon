@@ -117,7 +117,8 @@
     "tm:bestow",
     "tm:healpulse",
     "tm:batonpass",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4871,
+  "nationalPokedexNumber": 4879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

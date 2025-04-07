@@ -145,7 +145,8 @@
     "egg:bubblebeam",
     "egg:flail",
     "egg:haze",
-    "egg:supersonic"
+    "egg:supersonic",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

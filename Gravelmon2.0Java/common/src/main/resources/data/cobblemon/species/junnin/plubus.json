@@ -71,7 +71,8 @@
     "41:aquaring",
     "45:flashcannon",
     "50:soak",
-    "55:endeavor"
+    "55:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

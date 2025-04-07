@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:absorb"
+    "1:absorb",
+    "1:growl",
+    "1:leer",
+    "4:psybeam",
+    "4:megadrain",
+    "7:futuresight",
+    "7:magicalleaf",
+    "10:psychic",
+    "10:gigadrain",
+    "13:psyshock",
+    "13:energyball",
+    "16:psychoboost",
+    "16:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3586,
+  "nationalPokedexNumber": 3594,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

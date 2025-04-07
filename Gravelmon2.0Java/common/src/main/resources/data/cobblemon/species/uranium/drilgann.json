@@ -147,7 +147,8 @@
     "egg:magnitude",
     "egg:swordsdance",
     "egg:curse",
-    "egg:crushclaw"
+    "egg:crushclaw",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -162,7 +163,7 @@
   "weight": 1896,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2008,
+  "nationalPokedexNumber": 2011,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -147,7 +147,8 @@
     "tm:toxic",
     "tm:venomdrench",
     "tm:venoshock",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3245,
+  "nationalPokedexNumber": 3253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

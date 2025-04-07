@@ -90,7 +90,8 @@
     "tm:bodypress",
     "tm:scorchingsands",
     "tm:terrainpulse",
-    "tm:steelroller"
+    "tm:steelroller",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1526,
+  "nationalPokedexNumber": 1529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

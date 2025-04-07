@@ -64,7 +64,22 @@
     "1:ember",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:firespin",
+    "10:aircutter",
+    "15:flamecharge",
+    "15:wingattack",
+    "20:flameburst",
+    "20:airslash",
+    "25:flamethrower",
+    "25:drillpeck",
+    "30:fireblast",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -79,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5350,
+  "nationalPokedexNumber": 5358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

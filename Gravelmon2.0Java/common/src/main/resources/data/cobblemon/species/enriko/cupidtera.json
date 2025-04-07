@@ -70,7 +70,8 @@
     "36:switcheroo",
     "42:dazzlinggleam",
     "48:bugbuzz",
-    "54:quiverdance"
+    "54:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1698,
+  "nationalPokedexNumber": 1701,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

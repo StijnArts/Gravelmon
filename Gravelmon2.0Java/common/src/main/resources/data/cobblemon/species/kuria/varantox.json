@@ -78,7 +78,8 @@
     "46:toxic",
     "51:sludgebomb",
     "55:moonlight",
-    "60:gunkshot"
+    "60:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -93,7 +94,7 @@
   "weight": 205,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4154,
+  "nationalPokedexNumber": 4162,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

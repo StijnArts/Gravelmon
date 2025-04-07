@@ -186,7 +186,8 @@
     "egg:perishsong",
     "egg:quickguard",
     "egg:screech",
-    "egg:skullbash"
+    "egg:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

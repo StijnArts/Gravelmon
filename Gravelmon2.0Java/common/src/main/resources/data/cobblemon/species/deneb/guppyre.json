@@ -130,7 +130,8 @@
     "egg:takedown",
     "egg:taunt",
     "egg:torment",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4571,
+  "nationalPokedexNumber": 4579,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

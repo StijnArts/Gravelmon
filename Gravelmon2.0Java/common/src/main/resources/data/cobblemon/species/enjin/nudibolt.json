@@ -79,7 +79,8 @@
     "tm:discharge",
     "tm:spark",
     "tm:psywave",
-    "tm:painsplit"
+    "tm:painsplit",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -94,7 +95,7 @@
   "weight": 900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -123,7 +123,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:dragondance",
-    "tm:flareblitz"
+    "tm:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5175,
+  "nationalPokedexNumber": 5183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -78,7 +78,8 @@
     "38:irondefense",
     "44:metalsound",
     "50:futuresight",
-    "56:raindance"
+    "56:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 4287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

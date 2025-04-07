@@ -7,7 +7,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "lumini",
   "baseScale": 0.30000000000000004,
   "cannotDynamax": false,
   "abilities": [
@@ -61,13 +60,19 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:nastyplot",
+    "10:silverwind",
+    "15:signalbeam",
+    "20:infestation",
+    "25:uturn",
+    "30:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.lampupa.desc"
@@ -91,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5848,
+  "nationalPokedexNumber": 5856,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

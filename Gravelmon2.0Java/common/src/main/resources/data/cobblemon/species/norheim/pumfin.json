@@ -69,7 +69,8 @@
     "56:hornleech",
     "66:crunch",
     "76:toxic",
-    "86:belch"
+    "86:belch",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3124,
+  "nationalPokedexNumber": 3132,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

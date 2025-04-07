@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:lowkick"
+    "1:lowkick",
+    "1:stringshot",
+    "1:leer",
+    "4:leechlife",
+    "4:revenge",
+    "7:lunge",
+    "7:lowsweep",
+    "10:xscissor",
+    "10:brickbreak",
+    "13:uturn",
+    "13:karatechop",
+    "16:megahorn",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ferran",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5502,
+  "nationalPokedexNumber": 5510,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

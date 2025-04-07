@@ -142,7 +142,8 @@
     "tm:fakeout",
     "tm:camouflage",
     "tm:nastyplot",
-    "tm:poweruppunch"
+    "tm:poweruppunch",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1939,
+  "nationalPokedexNumber": 1942,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

@@ -16,14 +16,15 @@ public class NodorranCubchoo extends drai.dev.data.pokemon.Pokemon {
                         60,
                         30),
                 List.of(Ability.FLAME_BODY), Ability.HUGE_POWER,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("- Growl Normal 2 Tackle Normal 5 EmberSTAB Fire 18 Burning SneezeSTAB Fire"),
-                List.of(),
+                List.of(new EvolutionEntry("nodorranbeartic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,2),
@@ -31,7 +32,11 @@ public class NodorranCubchoo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNINGSNEEZE,18)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cubchoo");

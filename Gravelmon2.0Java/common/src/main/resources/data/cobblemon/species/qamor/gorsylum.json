@@ -80,7 +80,8 @@
     "1:flail",
     "tm:dragonpulse",
     "tm:rockslide",
-    "tm:shadowball"
+    "tm:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4063,
+  "nationalPokedexNumber": 4071,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

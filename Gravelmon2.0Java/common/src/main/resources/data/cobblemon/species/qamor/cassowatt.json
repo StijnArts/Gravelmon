@@ -73,7 +73,8 @@
     "37:thunderbolt",
     "41:roar",
     "45:wildcharge",
-    "1:boltbeak"
+    "1:boltbeak",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4039,
+  "nationalPokedexNumber": 4047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

@@ -80,7 +80,8 @@
     "tm:steelwing",
     "tm:pursuit",
     "tm:taunt",
-    "tm:roost"
+    "tm:roost",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4321,
+  "nationalPokedexNumber": 4329,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -69,7 +69,8 @@
     "30:silverwind",
     "40:healpulse",
     "50:signalbeam",
-    "60:recover"
+    "60:recover",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3949,
+  "nationalPokedexNumber": 3957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

@@ -144,7 +144,8 @@
     "egg:megahorn",
     "egg:psychic",
     "egg:hypervoice",
-    "egg:airslash"
+    "egg:airslash",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2074,
+  "nationalPokedexNumber": 2077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

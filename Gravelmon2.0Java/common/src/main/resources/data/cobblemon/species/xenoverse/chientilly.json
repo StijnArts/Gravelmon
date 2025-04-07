@@ -117,7 +117,8 @@
     "tm:dazzlinggleam",
     "tutor:magicwall",
     "tutor:secretpower",
-    "tutor:snore"
+    "tutor:snore",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -131,7 +132,7 @@
   "weight": 942,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1830,
+  "nationalPokedexNumber": 1833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

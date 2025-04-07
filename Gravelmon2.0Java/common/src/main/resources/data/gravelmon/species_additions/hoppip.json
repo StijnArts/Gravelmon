@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:megadrain",
+        "4:drainingkiss",
+        "7:magicalleaf",
+        "7:playnice",
+        "10:gigadrain",
+        "10:dazzlinggleam",
+        "13:energyball",
+        "13:hypervoice",
+        "16:solarbeam",
+        "16:moonblast",
+        "19:leafage",
+        "19:disarmingvoice",
+        "22:leer",
+        "22:babydolleyes",
+        "25:absorb",
+        "25:drainingkiss",
+        "28:trailblaze",
+        "28:playnice",
+        "31:gigadrain",
+        "31:dazzlinggleam",
+        "34:seedbomb",
+        "34:playrough",
+        "39:leafblade",
+        "39:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -227,7 +254,8 @@
         "egg:endure",
         "egg:defog",
         "egg:mistball",
-        "egg:babydolleyes"
+        "egg:babydolleyes",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -402,7 +430,8 @@
         "egg:leechseed",
         "egg:cottonguard",
         "egg:batonpass",
-        "egg:storedpower"
+        "egg:storedpower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -563,7 +592,8 @@
         "egg:amnesia",
         "egg:helpinghand",
         "egg:aromatherapy",
-        "egg:endure"
+        "egg:endure",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

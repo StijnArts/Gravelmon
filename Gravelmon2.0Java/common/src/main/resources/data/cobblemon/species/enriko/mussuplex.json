@@ -77,7 +77,8 @@
     "50:liquidation",
     "54:closecombat",
     "58:reflecttype",
-    "65:shellsmash"
+    "65:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1650,
+  "nationalPokedexNumber": 1653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

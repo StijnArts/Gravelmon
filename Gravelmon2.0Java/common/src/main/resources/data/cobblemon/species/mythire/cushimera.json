@@ -163,7 +163,8 @@
     "tm:slam",
     "tm:crunch",
     "tm:healpulse",
-    "tm:encore"
+    "tm:encore",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3863,
+  "nationalPokedexNumber": 3871,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

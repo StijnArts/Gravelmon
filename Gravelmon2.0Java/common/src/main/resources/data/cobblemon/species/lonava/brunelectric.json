@@ -71,7 +71,8 @@
     "36:eerieimpulse",
     "47:wildcharge",
     "52:flashcannon",
-    "56:electrify"
+    "56:electrify",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3328,
+  "nationalPokedexNumber": 3336,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

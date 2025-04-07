@@ -153,7 +153,8 @@
     "egg:round",
     "egg:acrobatics",
     "egg:retaliate",
-    "egg:bulldoze"
+    "egg:bulldoze",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -166,7 +167,7 @@
   "weight": 883,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 1992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

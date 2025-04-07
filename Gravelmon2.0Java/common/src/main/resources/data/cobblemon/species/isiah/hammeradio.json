@@ -75,7 +75,8 @@
     "38:nightslash",
     "45:wringout",
     "49:coil",
-    "57:gunkshot"
+    "57:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4248,
+  "nationalPokedexNumber": 4256,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

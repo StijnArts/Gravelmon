@@ -101,8 +101,11 @@
     "egg:haunt",
     "egg:probepunch",
     "egg:roleplay",
+    "egg:soulshock",
+    "egg:stretch",
     "egg:trickroom",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -115,7 +118,7 @@
   "weight": 879,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4664,
+  "nationalPokedexNumber": 4672,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

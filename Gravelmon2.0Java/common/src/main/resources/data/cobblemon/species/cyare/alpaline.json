@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:growl",
+    "10:icywind",
+    "15:icepunch",
+    "20:icespinner",
+    "25:iceshard",
+    "30:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -75,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5340,
+  "nationalPokedexNumber": 5348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

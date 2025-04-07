@@ -139,7 +139,8 @@
     "tm:swagger",
     "tm:takedown",
     "tm:thunderfang",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3274,
+  "nationalPokedexNumber": 3282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

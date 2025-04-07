@@ -70,7 +70,8 @@
     "1:twister",
     "1:acrobatics",
     "1:wish",
-    "1:drillpeck"
+    "1:drillpeck",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3280,
+  "nationalPokedexNumber": 3288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

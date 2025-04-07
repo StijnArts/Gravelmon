@@ -71,7 +71,8 @@
     "1:teeterdance",
     "1:tailwind",
     "1:luckychant",
-    "1:aircutter"
+    "1:aircutter",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4022,
+  "nationalPokedexNumber": 4030,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -76,7 +76,8 @@
     "46:toxic",
     "51:sludgebomb",
     "55:moonlight",
-    "60:gunkshot"
+    "60:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4153,
+  "nationalPokedexNumber": 4161,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

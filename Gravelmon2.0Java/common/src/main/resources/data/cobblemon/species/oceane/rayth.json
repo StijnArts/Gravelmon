@@ -74,7 +74,8 @@
     "1:taunt",
     "1:meanlook",
     "1:leer",
-    "1:wingattack"
+    "1:wingattack",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1885,
+  "nationalPokedexNumber": 1888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

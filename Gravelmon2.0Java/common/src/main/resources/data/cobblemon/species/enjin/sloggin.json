@@ -88,7 +88,8 @@
     "tm:guardsplit",
     "tm:disable",
     "tm:flail",
-    "tm:steamroller"
+    "tm:steamroller",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4689,
+  "nationalPokedexNumber": 4697,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

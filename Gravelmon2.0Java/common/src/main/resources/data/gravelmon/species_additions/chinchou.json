@@ -64,7 +64,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:bite"
+        "1:bite",
+        "1:tailwhip",
+        "1:leer",
+        "4:bubblebeam",
+        "4:payback",
+        "7:aquatail",
+        "7:nightslash",
+        "10:surf",
+        "10:crunch",
+        "13:waterfall",
+        "13:knockoff",
+        "16:liquidation",
+        "16:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -167,7 +180,29 @@
         "1:watergun",
         "1:absorb",
         "1:bulkup",
-        "1:synthesis"
+        "1:synthesis",
+        "1:tailwhip",
+        "1:leer",
+        "1:calmmind",
+        "1:bulkup",
+        "4:bubblebeam",
+        "4:megadrain",
+        "4:taunt",
+        "4:calmmind",
+        "7:brine",
+        "7:magicalleaf",
+        "7:substitute",
+        "7:taunt",
+        "10:surf",
+        "10:gigadrain",
+        "10:rest",
+        "10:substitute",
+        "13:chillingwater",
+        "13:energyball",
+        "13:rest",
+        "16:hydropump",
+        "16:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -247,12 +282,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 70,
+        "attack": 47,
+        "defence": 37,
+        "special_attack": 32,
+        "special_defence": 44,
+        "speed": 37
       },
       "evYield": {
         "hp": 0,
@@ -268,7 +303,30 @@
       "drops": {},
       "moves": [
         "1:bite",
-        "1:thundershock"
+        "1:thundershock",
+        "1:leer",
+        "1:leer",
+        "10:payback",
+        "10:charge",
+        "15:nightdaze",
+        "15:shockwave",
+        "20:snarl",
+        "20:discharge",
+        "25:knockoff",
+        "25:thunderbolt",
+        "30:darkpulse",
+        "30:thunder",
+        "35:bite",
+        "35:thundershock",
+        "40:leer",
+        "40:leer",
+        "45:payback",
+        "45:charge",
+        "50:nightslash",
+        "50:thunderpunch",
+        "55:crunch",
+        "55:discharge",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
@@ -459,7 +517,8 @@
         "egg:eerieimpulse",
         "egg:flail",
         "egg:phantomforce",
-        "egg:faketears"
+        "egg:faketears",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -633,7 +692,8 @@
         "tutor:snore",
         "tutor:spite",
         "tutor:trick",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -768,7 +828,8 @@
         "29:confuseray",
         "37:abyssallure",
         "41:shadowsneak",
-        "46:hydropump"
+        "46:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

@@ -95,7 +95,8 @@
         "egg:helpinghand",
         "egg:revenge",
         "egg:wakeupslap",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

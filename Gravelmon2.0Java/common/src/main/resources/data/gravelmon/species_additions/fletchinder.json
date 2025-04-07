@@ -121,7 +121,8 @@
         "tm:voltswitch",
         "tm:weatherball",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -281,7 +282,8 @@
         "tutor:workup",
         "egg:flamecharge",
         "egg:quickguard",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

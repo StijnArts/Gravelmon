@@ -135,7 +135,8 @@
     "tm:freezedry",
     "tm:mist",
     "tm:headsmash",
-    "tm:magicroom"
+    "tm:magicroom",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5015,
+  "nationalPokedexNumber": 5023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -70,7 +70,8 @@
     "30:tailwind",
     "45:blazekick",
     "28:willowisp",
-    "60:bravebird"
+    "60:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -85,7 +86,7 @@
   "weight": 160,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1957,
+  "nationalPokedexNumber": 1960,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

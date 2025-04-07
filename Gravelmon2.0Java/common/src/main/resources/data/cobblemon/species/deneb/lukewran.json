@@ -93,7 +93,8 @@
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",
-    "tutor:bugnoise"
+    "tutor:bugnoise",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4601,
+  "nationalPokedexNumber": 4609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

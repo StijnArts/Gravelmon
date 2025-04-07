@@ -151,7 +151,8 @@
     "tm:flamewheel",
     "tm:incinerate",
     "tm:megadrain",
-    "tm:pursuit"
+    "tm:pursuit",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -166,7 +167,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4830,
+  "nationalPokedexNumber": 4838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

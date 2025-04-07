@@ -144,7 +144,8 @@
     "tm:razorwind",
     "tm:zenheadbutt",
     "tm:suddenstrike",
-    "tm:chipaway"
+    "tm:chipaway",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -159,7 +160,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3844,
+  "nationalPokedexNumber": 3852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

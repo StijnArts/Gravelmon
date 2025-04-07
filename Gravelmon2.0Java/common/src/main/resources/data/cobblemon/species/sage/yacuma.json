@@ -127,7 +127,8 @@
     "tm:cut",
     "tm:surf",
     "tm:dive",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

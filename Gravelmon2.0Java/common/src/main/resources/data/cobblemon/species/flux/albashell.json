@@ -80,7 +80,8 @@
     "51:hurricane",
     "56:shellsmash",
     "62:skullbash",
-    "egg:curse"
+    "egg:curse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -95,7 +96,7 @@
   "weight": 2065,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2139,
+  "nationalPokedexNumber": 2144,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

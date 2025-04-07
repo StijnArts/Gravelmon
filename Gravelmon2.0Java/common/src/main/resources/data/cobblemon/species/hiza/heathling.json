@@ -103,7 +103,8 @@
     "tm:frustration",
     "tm:willowisp",
     "tm:substitute",
-    "tm:fireblast"
+    "tm:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2312,
+  "nationalPokedexNumber": 2320,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

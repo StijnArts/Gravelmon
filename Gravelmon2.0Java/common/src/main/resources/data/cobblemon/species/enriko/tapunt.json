@@ -79,7 +79,8 @@
     "49:hypnosis",
     "53:aurasphere",
     "58:victorydance",
-    "62:moonblast"
+    "62:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1704,
+  "nationalPokedexNumber": 1707,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

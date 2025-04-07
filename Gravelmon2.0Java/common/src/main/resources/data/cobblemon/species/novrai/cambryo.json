@@ -154,7 +154,8 @@
     "tm:miracleeye",
     "tm:smokescreen",
     "tm:clearsmog",
-    "tm:bubblebeam"
+    "tm:bubblebeam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -182,7 +183,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4937,
+  "nationalPokedexNumber": 4945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

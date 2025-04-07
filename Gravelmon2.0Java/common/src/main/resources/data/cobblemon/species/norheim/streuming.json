@@ -79,7 +79,8 @@
     "tm:flipturn",
     "tm:rest",
     "tm:dive",
-    "tm:raindance"
+    "tm:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3156,
+  "nationalPokedexNumber": 3164,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

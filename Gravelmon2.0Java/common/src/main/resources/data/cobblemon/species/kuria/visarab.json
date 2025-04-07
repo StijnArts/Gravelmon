@@ -75,7 +75,8 @@
     "50:megahorn",
     "58:ironhead",
     "66:earthpower",
-    "72:stoneedge"
+    "72:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -90,7 +91,7 @@
   "weight": 733,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4219,
+  "nationalPokedexNumber": 4227,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

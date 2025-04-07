@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:mudslap",
-        "1:watergun"
+        "1:watergun",
+        "1:sandattack",
+        "1:tailwhip",
+        "4:mudshot",
+        "4:bubblebeam",
+        "7:mudbomb",
+        "7:brine",
+        "10:bulldoze",
+        "10:surf",
+        "13:scorchingsands",
+        "13:chillingwater",
+        "16:earthpower",
+        "16:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -153,7 +166,15 @@
       "drops": {},
       "moves": [
         "1:peck",
-        "1:quickattack"
+        "1:quickattack",
+        "1:leer",
+        "1:swordsdance",
+        "4:pluck",
+        "7:wingattack",
+        "10:aerialace",
+        "13:drillpeck",
+        "16:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -309,7 +330,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -411,7 +433,8 @@
         "10:knockoff",
         "1:rocktomb",
         "42:earthquake",
-        "6:rapidspin"
+        "6:rapidspin",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",
@@ -558,7 +581,8 @@
         "tm:superpower",
         "tm:swagger",
         "tm:toxic",
-        "tm:solarbeam"
+        "tm:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

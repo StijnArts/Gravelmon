@@ -140,7 +140,8 @@
     "tm:toxic",
     "tm:weatherball",
     "tm:wildcharge",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2359,
+  "nationalPokedexNumber": 2367,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

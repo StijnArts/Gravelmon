@@ -75,7 +75,8 @@
     "32:slash",
     "35:irontail",
     "37:aquaring",
-    "45:autotomize"
+    "45:autotomize",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1689,
+  "nationalPokedexNumber": 1692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

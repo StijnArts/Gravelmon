@@ -122,7 +122,8 @@
     "egg:shadowclamp",
     "egg:stoneedge",
     "egg:sunnyday",
-    "egg:twister"
+    "egg:twister",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4552,
+  "nationalPokedexNumber": 4560,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

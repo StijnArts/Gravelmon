@@ -80,7 +80,8 @@
     "tm:curse",
     "tm:leechseed",
     "tm:leafstorm",
-    "tm:doubleedge"
+    "tm:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

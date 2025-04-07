@@ -16,8 +16,8 @@ public class Sparcnidria extends drai.dev.data.pokemon.Pokemon {
                         80,
                         70),
                 List.of(Ability.SERENE_GRACE,Ability.RUN_AWAY), Ability.ELEMENTALIST,
-                0, 0,
-                new Stats(2,1,0,0,0,0), 0,
+                26, 0,
+                new Stats(2,1,0,0,0,0), 45,
                 0.5,
                 248, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -144,7 +144,11 @@ public class Sparcnidria extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(39).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_CAVE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sparcnidria");

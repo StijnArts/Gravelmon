@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:watergun"
+    "1:watergun",
+    "1:stringshot",
+    "1:tailwhip",
+    "10:silverwind",
+    "10:bubblebeam",
+    "15:signalbeam",
+    "15:brine",
+    "20:infestation",
+    "20:surf",
+    "25:uturn",
+    "25:chillingwater",
+    "30:bugbuzz",
+    "30:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6086,
+  "nationalPokedexNumber": 6094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

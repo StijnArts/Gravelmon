@@ -73,7 +73,8 @@
     "62:suckerpunch",
     "70:swordsdance",
     "75:heavyslam",
-    "81:gigaimpact"
+    "81:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2394,
+  "nationalPokedexNumber": 2402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

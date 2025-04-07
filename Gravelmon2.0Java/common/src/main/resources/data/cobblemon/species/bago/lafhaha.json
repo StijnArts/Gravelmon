@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:bulkup"
+    "1:bulkup",
+    "1:babydolleyes",
+    "1:calmmind",
+    "4:drainingkiss",
+    "4:taunt",
+    "7:playnice",
+    "7:substitute",
+    "10:dazzlinggleam",
+    "10:rest",
+    "13:playrough",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -75,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2800,
+  "nationalPokedexNumber": 2808,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

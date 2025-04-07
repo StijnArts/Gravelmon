@@ -78,7 +78,8 @@
     "39:powergem",
     "45:rapidspin",
     "51:iciclecrash",
-    "55:meteorbeam"
+    "55:meteorbeam",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3013,
+  "nationalPokedexNumber": 3021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.6875,

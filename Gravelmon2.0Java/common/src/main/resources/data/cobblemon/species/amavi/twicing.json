@@ -68,7 +68,8 @@
     "33:cosmicpower",
     "42:heatwave",
     "48:wish",
-    "60:healingwish"
+    "60:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -83,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5287,
+  "nationalPokedexNumber": 5295,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

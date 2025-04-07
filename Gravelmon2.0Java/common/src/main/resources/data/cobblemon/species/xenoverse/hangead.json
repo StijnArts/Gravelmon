@@ -152,7 +152,8 @@
     "tutor:snatch",
     "tutor:snore",
     "tutor:trick",
-    "tutor:wonderroom"
+    "tutor:wonderroom",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -167,7 +168,7 @@
   "weight": 479,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1786,
+  "nationalPokedexNumber": 1789,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

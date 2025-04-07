@@ -16,8 +16,8 @@ public class Smackream extends drai.dev.data.pokemon.Pokemon {
                         90,
                         60),
                 List.of(Ability.LONG_REACH,Ability.ICE_BODY), Ability.SNOWPLOW,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -92,7 +92,11 @@ public class Smackream extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROYALJOUST,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Smackream");

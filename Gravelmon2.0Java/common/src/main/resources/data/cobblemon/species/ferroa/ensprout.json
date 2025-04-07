@@ -125,7 +125,8 @@
     "tm:meditate",
     "tm:morningsun",
     "tm:psychoshift",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1495,
+  "nationalPokedexNumber": 1498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

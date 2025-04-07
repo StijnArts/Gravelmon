@@ -101,7 +101,8 @@
     "tm:swagger",
     "tm:takedown",
     "tm:toxic",
-    "tm:venoshock"
+    "tm:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1945,
+  "nationalPokedexNumber": 1948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

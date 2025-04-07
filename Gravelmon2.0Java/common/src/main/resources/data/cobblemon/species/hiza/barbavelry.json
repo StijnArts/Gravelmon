@@ -71,7 +71,8 @@
     "40:reversal",
     "45:agility",
     "51:highjumpkick",
-    "61:superpower"
+    "61:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2291,
+  "nationalPokedexNumber": 2299,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

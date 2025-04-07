@@ -130,7 +130,8 @@
     "tm:sleeptalk",
     "tm:bulletseed",
     "tm:cut",
-    "tm:strength"
+    "tm:strength",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

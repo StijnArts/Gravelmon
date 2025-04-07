@@ -63,7 +63,22 @@
     "1:ember",
     "1:lick",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:growl",
+    "1:growl",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:quickattack",
+    "4:confuseray",
+    "7:flamecharge",
+    "7:hex",
+    "10:firepunch",
+    "10:shadowclaw",
+    "13:willowisp",
+    "13:phantomforce",
+    "16:flareblitz",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2533,
+  "nationalPokedexNumber": 2541,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

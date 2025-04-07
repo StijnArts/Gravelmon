@@ -172,7 +172,8 @@
     "tm:synchronoise",
     "tm:babydolleyes",
     "tm:twinbeam",
-    "tm:bodyslam"
+    "tm:bodyslam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -187,7 +188,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5022,
+  "nationalPokedexNumber": 5030,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

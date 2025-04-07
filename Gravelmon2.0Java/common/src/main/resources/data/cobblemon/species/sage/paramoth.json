@@ -152,7 +152,8 @@
     "egg:extrasensory",
     "egg:followme",
     "egg:lovelykiss",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -79,7 +79,8 @@
     "53:roost",
     "57:dreameater",
     "62:hurricane",
-    "66:nastyplot"
+    "66:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4241,
+  "nationalPokedexNumber": 4249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

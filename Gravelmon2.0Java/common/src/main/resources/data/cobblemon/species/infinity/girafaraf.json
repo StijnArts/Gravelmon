@@ -178,7 +178,8 @@
     "egg:razorwind",
     "egg:secretpower",
     "egg:takedown",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

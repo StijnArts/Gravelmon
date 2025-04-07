@@ -73,7 +73,8 @@
     "40:electroball",
     "45:lightscreen",
     "51:bugbuzz",
-    "56:thunderbolt"
+    "56:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1459,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

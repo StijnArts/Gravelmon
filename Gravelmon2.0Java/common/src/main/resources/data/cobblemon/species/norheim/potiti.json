@@ -70,7 +70,8 @@
     "30:swagger",
     "35:ingrain",
     "41:woodhammer",
-    "45:earthquake"
+    "45:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3103,
+  "nationalPokedexNumber": 3111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

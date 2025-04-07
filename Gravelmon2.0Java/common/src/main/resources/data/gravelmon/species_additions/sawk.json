@@ -146,7 +146,8 @@
         "egg:safeguard",
         "egg:wideguard",
         "egg:rockblast",
-        "egg:rollingkick"
+        "egg:rollingkick",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -14,6 +14,38 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "ledian_lediastra",
+      "variant": "level_up",
+      "result": "lediastra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "36"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "ledian_coxyro",
+      "variant": "level_up",
+      "result": "coxyro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "doubleedge"
+        }
+      ],
+      "permanent": true
     }
   ],
   "forms": [
@@ -81,7 +113,20 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:stringshot",
+        "1:babydolleyes",
+        "4:silverwind",
+        "4:drainingkiss",
+        "7:signalbeam",
+        "7:playnice",
+        "10:infestation",
+        "10:dazzlinggleam",
+        "13:uturn",
+        "13:hypervoice",
+        "16:bugbuzz",
+        "16:moonblast",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -246,7 +291,8 @@
         "tm:triattack",
         "tm:uturn",
         "tm:wildcharge",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -355,7 +401,8 @@
         "48:meteormash",
         "54:wish",
         "egg:wish",
-        "egg:screech"
+        "egg:screech",
+        "tm:terablast"
       ],
       "labels": [
         "flux",
@@ -485,7 +532,8 @@
         "tm:naturepower",
         "tm:poweruppunch",
         "tm:dazzlinggleam",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

@@ -71,7 +71,8 @@
     "40:earthpower",
     "48:hydropump",
     "56:bellydrum",
-    "66:doubleedge"
+    "66:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3306,
+  "nationalPokedexNumber": 3314,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

@@ -123,7 +123,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:whirlwind",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -138,7 +139,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1395,
+  "nationalPokedexNumber": 1398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -74,7 +74,8 @@
     "36:superpower",
     "42:sandstorm",
     "48:stoneedge",
-    "54:explosion"
+    "54:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1700,
+  "nationalPokedexNumber": 1703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

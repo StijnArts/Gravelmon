@@ -136,7 +136,8 @@
     "tm:waterfall",
     "tm:hyperbeam",
     "tm:faketears",
-    "tm:tearfullook"
+    "tm:tearfullook",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1557,
+  "nationalPokedexNumber": 1560,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

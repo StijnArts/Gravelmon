@@ -80,7 +80,8 @@
     "tm:substitute",
     "tm:endure",
     "tm:mirrorcoat",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4294,
+  "nationalPokedexNumber": 4302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

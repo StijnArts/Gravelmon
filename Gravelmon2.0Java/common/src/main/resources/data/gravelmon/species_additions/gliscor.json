@@ -151,7 +151,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -253,7 +254,8 @@
         "47:snowscape",
         "54:weatherball",
         "61:crunch",
-        "68:blizzard"
+        "68:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

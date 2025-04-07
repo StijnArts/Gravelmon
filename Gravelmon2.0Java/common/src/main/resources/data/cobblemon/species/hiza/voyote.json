@@ -69,7 +69,8 @@
     "1:swordsdance",
     "1:thunderwave",
     "1:crunch",
-    "1:thunder"
+    "1:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

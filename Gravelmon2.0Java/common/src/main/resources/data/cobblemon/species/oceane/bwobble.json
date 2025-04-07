@@ -69,7 +69,8 @@
     "1:outrage",
     "1:swagger",
     "1:scaryface",
-    "1:aquatail"
+    "1:aquatail",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1909,
+  "nationalPokedexNumber": 1912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

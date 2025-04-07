@@ -73,7 +73,8 @@
     "44:rockpolish",
     "48:iciclecrash",
     "52:stoneedge",
-    "58:blizzard"
+    "58:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2360,
+  "nationalPokedexNumber": 2368,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

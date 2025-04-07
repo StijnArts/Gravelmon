@@ -156,7 +156,8 @@
         "tutor:snore",
         "tutor:soundbarrier",
         "tutor:soundpledge",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -396,7 +397,8 @@
         "tutor:snore",
         "tutor:soundbarrier",
         "tutor:soundpledge",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -640,7 +642,8 @@
         "tutor:snore",
         "tutor:soundbarrier",
         "tutor:soundpledge",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -777,7 +780,8 @@
         "40:swagger",
         "45:boomburst",
         "51:inferno",
-        "61:flareblitz"
+        "61:flareblitz",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

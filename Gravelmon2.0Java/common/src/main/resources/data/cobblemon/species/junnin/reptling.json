@@ -119,7 +119,8 @@
     "tm:leechseed",
     "tm:batonpass",
     "tm:bestow",
-    "tm:headbutt"
+    "tm:headbutt",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2412,
+  "nationalPokedexNumber": 2420,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

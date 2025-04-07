@@ -79,7 +79,8 @@
     "1:thunder",
     "1:thundershock",
     "1:thunderwave",
-    "5:thunderbolt"
+    "5:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1896,
+  "nationalPokedexNumber": 1899,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

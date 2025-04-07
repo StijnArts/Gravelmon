@@ -92,7 +92,8 @@
     "tm:morningsun",
     "tm:takedown",
     "tm:firespin",
-    "tm:yawn"
+    "tm:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1547,
+  "nationalPokedexNumber": 1550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

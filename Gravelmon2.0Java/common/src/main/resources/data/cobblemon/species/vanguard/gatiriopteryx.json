@@ -118,7 +118,8 @@
     "tm:wildcharge",
     "tm:blazekick",
     "tm:jumpkick",
-    "tm:highjumpkick"
+    "tm:highjumpkick",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -131,7 +132,7 @@
   "weight": 950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4097,
+  "nationalPokedexNumber": 4105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

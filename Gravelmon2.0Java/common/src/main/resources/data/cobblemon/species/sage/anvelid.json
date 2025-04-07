@@ -132,7 +132,8 @@
     "egg:headsmash",
     "egg:heavyslam",
     "egg:outrage",
-    "egg:stealthrock"
+    "egg:stealthrock",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

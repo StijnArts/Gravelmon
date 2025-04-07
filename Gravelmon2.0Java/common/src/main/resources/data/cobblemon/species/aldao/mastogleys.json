@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "4:icywind",
+    "4:taunt",
+    "7:icepunch",
+    "7:substitute",
+    "10:icespinner",
+    "10:rest",
+    "13:iceshard",
+    "16:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -78,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2904,
+  "nationalPokedexNumber": 2912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

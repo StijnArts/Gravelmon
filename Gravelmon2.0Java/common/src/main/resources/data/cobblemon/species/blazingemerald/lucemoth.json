@@ -98,7 +98,8 @@
     "tm:attract",
     "tm:thief",
     "tm:flash",
-    "tm:cosmicpower"
+    "tm:cosmicpower",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -111,7 +112,7 @@
   "weight": 630,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3824,
+  "nationalPokedexNumber": 3832,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

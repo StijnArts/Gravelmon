@@ -147,7 +147,8 @@
     "tm:scaryface",
     "tm:smokescreen",
     "tm:snipeshot",
-    "tm:dive"
+    "tm:dive",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1487,
+  "nationalPokedexNumber": 1490,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -68,7 +68,8 @@
     "14:disarmingvoice",
     "18:aquaring",
     "22:slam",
-    "28:aquajet"
+    "28:aquajet",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

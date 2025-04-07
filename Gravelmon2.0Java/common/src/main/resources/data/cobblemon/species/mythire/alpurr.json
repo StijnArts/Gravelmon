@@ -75,7 +75,8 @@
     "1:rockclimb",
     "1:rockpolish",
     "1:meanlook",
-    "1:fakeout"
+    "1:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3887,
+  "nationalPokedexNumber": 3895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

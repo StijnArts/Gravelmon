@@ -108,7 +108,8 @@
     "egg:bugbuzz",
     "egg:sharpen",
     "egg:iceshard",
-    "egg:icywind"
+    "egg:icywind",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2050,
+  "nationalPokedexNumber": 2053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

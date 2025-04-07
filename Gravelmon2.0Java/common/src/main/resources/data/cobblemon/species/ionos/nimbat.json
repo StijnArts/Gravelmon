@@ -92,7 +92,8 @@
     "tm:whirlwind",
     "tm:firefang",
     "tm:amnesia",
-    "tm:curse"
+    "tm:curse",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -105,7 +106,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4817,
+  "nationalPokedexNumber": 4825,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

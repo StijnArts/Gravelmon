@@ -77,7 +77,8 @@
     "33:fling",
     "38:flail",
     "43:bellydrum",
-    "48:doubleedge"
+    "48:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2297,
+  "nationalPokedexNumber": 2305,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

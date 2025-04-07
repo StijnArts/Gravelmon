@@ -73,7 +73,8 @@
     "41:payback",
     "45:darkpulse",
     "48:nastyplot",
-    "50:trick"
+    "50:trick",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3313,
+  "nationalPokedexNumber": 3321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

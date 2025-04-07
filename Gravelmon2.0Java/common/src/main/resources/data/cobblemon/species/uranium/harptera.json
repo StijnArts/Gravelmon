@@ -157,7 +157,8 @@
     "egg:tailwind",
     "egg:scratch",
     "egg:crunch",
-    "egg:defog"
+    "egg:defog",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -172,7 +173,7 @@
   "weight": 410,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2030,
+  "nationalPokedexNumber": 2033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

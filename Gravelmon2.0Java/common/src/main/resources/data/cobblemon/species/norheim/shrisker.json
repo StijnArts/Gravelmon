@@ -81,7 +81,8 @@
     "tm:babydolleyes",
     "tm:grasswhistle",
     "tm:followme",
-    "tm:grasspledge"
+    "tm:grasspledge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3114,
+  "nationalPokedexNumber": 3122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

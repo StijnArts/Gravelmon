@@ -65,7 +65,8 @@
     "1:stringshot",
     "5:absorb",
     "9:strugglebug",
-    "13:megadrain"
+    "13:megadrain",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2942,
+  "nationalPokedexNumber": 2950,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -77,7 +77,8 @@
     "60:earthpower",
     "65:rockblast",
     "70:fissure",
-    "75:batonpass"
+    "75:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1680,
+  "nationalPokedexNumber": 1683,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

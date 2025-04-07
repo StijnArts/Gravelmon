@@ -113,7 +113,8 @@
     "53:uturn",
     "58:lockon",
     "62:revenge",
-    "67:ancientpower"
+    "67:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -127,7 +128,7 @@
   "weight": 194,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3831,
+  "nationalPokedexNumber": 3839,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

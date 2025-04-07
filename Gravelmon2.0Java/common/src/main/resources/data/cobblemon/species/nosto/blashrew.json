@@ -105,7 +105,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:rest",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3457,
+  "nationalPokedexNumber": 3465,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

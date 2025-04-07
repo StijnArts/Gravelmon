@@ -152,7 +152,8 @@
     "tm:wringout",
     "tm:dig",
     "tm:leafstorm",
-    "tm:safeguard"
+    "tm:safeguard",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -167,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1593,
+  "nationalPokedexNumber": 1596,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

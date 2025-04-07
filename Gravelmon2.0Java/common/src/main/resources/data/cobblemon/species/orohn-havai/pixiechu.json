@@ -74,7 +74,8 @@
     "37:sweetkiss",
     "42:discharge",
     "45:lightscreen",
-    "50:moonblast"
+    "50:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2979,
+  "nationalPokedexNumber": 2987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

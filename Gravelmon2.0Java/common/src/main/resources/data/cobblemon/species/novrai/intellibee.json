@@ -139,7 +139,8 @@
     "tm:confuseray",
     "tm:entrainment",
     "tm:feint",
-    "tm:quickattack"
+    "tm:quickattack",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4950,
+  "nationalPokedexNumber": 4958,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

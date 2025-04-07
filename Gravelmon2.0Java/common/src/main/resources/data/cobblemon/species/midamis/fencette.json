@@ -74,7 +74,8 @@
     "32:whirlpool",
     "36:mist",
     "39:drillpeck",
-    "43:hydropump"
+    "43:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 4392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -69,7 +69,8 @@
     "66:darkvoid",
     "75:nastyplot",
     "84:dreameater",
-    "93:darkpulse"
+    "93:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

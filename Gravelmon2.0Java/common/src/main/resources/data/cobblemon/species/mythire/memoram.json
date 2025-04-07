@@ -120,7 +120,8 @@
     "tm:uturn",
     "tm:wildcharge",
     "tm:workup",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3903,
+  "nationalPokedexNumber": 3911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

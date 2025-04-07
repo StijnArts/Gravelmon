@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "1:growl",
+    "4:sandattack",
+    "7:mudbomb",
+    "10:bulldoze",
+    "13:dig",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -101,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2797,
+  "nationalPokedexNumber": 2805,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

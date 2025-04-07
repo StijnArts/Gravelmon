@@ -74,7 +74,8 @@
     "50:shadowball",
     "54:disable",
     "57:blizzard",
-    "60:sheercold"
+    "60:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3366,
+  "nationalPokedexNumber": 3374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

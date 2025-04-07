@@ -82,7 +82,8 @@
     "30:firefang",
     "26:beatup",
     "26:hex",
-    "4:howl"
+    "4:howl",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -95,7 +96,7 @@
   "weight": 520,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1960,
+  "nationalPokedexNumber": 1963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

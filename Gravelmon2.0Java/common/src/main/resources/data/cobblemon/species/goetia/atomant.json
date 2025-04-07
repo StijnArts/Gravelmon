@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:irondefense"
+    "1:irondefense",
+    "1:screech",
+    "1:bulkup",
+    "10:irontail",
+    "10:calmmind",
+    "15:smartstrike",
+    "15:taunt",
+    "20:mirrorshot",
+    "20:substitute",
+    "25:flashcannon",
+    "25:rest",
+    "30:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6035,
+  "nationalPokedexNumber": 6043,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

@@ -138,7 +138,8 @@
     "tutor:dualchop",
     "tutor:hypervoice",
     "tutor:superpower",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3687,
+  "nationalPokedexNumber": 3695,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

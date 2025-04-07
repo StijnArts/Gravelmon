@@ -113,7 +113,8 @@
     "tm:healbell",
     "tm:wish",
     "tm:bounce",
-    "tm:synchronoise"
+    "tm:synchronoise",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 2979,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

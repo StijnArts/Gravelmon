@@ -77,7 +77,8 @@
     "45:endeavor",
     "51:bulkup",
     "58:bravebird",
-    "62:skyattack"
+    "62:skyattack",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3130,
+  "nationalPokedexNumber": 3138,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

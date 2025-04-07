@@ -135,7 +135,8 @@
         "egg:obstruct",
         "egg:headbutt",
         "egg:zenheadbutt",
-        "egg:skullbash"
+        "egg:skullbash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -319,7 +320,8 @@
         "tm:crunch",
         "tm:hammerarm",
         "tm:stomp",
-        "tm:accelerock"
+        "tm:accelerock",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

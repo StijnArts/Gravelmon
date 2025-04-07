@@ -75,7 +75,8 @@
     "1:dive",
     "1:aquatail",
     "1:perishsong",
-    "1:destinybond"
+    "1:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3166,
+  "nationalPokedexNumber": 3174,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -28,7 +28,7 @@ public class Pierrot extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BIRCH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

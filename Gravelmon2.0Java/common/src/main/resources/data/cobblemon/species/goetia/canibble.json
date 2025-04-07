@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:poisonsting"
+    "1:poisonsting",
+    "1:babydolleyes",
+    "1:leer",
+    "10:drainingkiss",
+    "10:venoshock",
+    "15:playnice",
+    "15:poisontail",
+    "20:dazzlinggleam",
+    "20:toxicspikes",
+    "25:playrough",
+    "25:sludgebomb",
+    "30:spiritbreak",
+    "30:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5943,
+  "nationalPokedexNumber": 5951,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

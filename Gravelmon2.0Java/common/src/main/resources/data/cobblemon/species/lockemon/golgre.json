@@ -133,7 +133,8 @@
     "tm:psychup",
     "tm:doubleedge",
     "tm:scorchingsands",
-    "tm:curse"
+    "tm:curse",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -148,7 +149,7 @@
   "weight": 3300,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3430,
+  "nationalPokedexNumber": 3438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

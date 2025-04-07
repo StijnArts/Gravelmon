@@ -80,6 +80,7 @@
     "tm:thunderwave",
     "tm:frustration",
     "tm:flash",
+    "tutor:finsmack",
     "tutor:disable",
     "tutor:chargebeam",
     "tutor:soak",
@@ -91,7 +92,8 @@
     "egg:flail",
     "egg:muddywater",
     "egg:captivate",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -106,7 +108,7 @@
   "weight": 323,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4647,
+  "nationalPokedexNumber": 4655,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

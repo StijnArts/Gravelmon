@@ -10,6 +10,16 @@
       "requirements": [],
       "requiredContext": "cobblemon:shiny_stone",
       "permanent": true
+    },
+    {
+      "id": "gloom_lumiscent",
+      "variant": "item_interact",
+      "result": "lumiscent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
     }
   ],
   "drops": {
@@ -17,6 +27,11 @@
     "entries": [
       {
         "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }
@@ -86,7 +101,34 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:mudslap"
+        "1:mudslap",
+        "1:leer",
+        "1:sandattack",
+        "4:megadrain",
+        "4:mudshot",
+        "7:magicalleaf",
+        "7:mudbomb",
+        "10:gigadrain",
+        "10:bulldoze",
+        "13:energyball",
+        "13:scorchingsands",
+        "16:solarbeam",
+        "16:earthpower",
+        "19:leafage",
+        "19:mudslap",
+        "22:leer",
+        "22:growl",
+        "25:absorb",
+        "25:sandattack",
+        "28:trailblaze",
+        "28:mudbomb",
+        "31:gigadrain",
+        "31:bulldoze",
+        "34:seedbomb",
+        "34:dig",
+        "39:leafblade",
+        "39:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -238,7 +280,8 @@
         "tm:trickroom",
         "tm:weatherball",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -420,7 +463,8 @@
         "egg:mist",
         "egg:moonlight",
         "egg:simplebeam",
-        "egg:solarbeam"
+        "egg:solarbeam",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",

@@ -64,6 +64,32 @@
   "moves": [
     "1:powdersnow",
     "1:strugglebug",
+    "1:growl",
+    "1:stringshot",
+    "3:icywind",
+    "3:silverwind",
+    "6:aurorabeam",
+    "6:signalbeam",
+    "9:freezedry",
+    "9:infestation",
+    "12:icebeam",
+    "12:uturn",
+    "15:blizzard",
+    "15:bugbuzz",
+    "18:powdersnow",
+    "18:strugglebug",
+    "21:growl",
+    "21:stringshot",
+    "24:icywind",
+    "24:leechlife",
+    "27:icepunch",
+    "27:lunge",
+    "30:icespinner",
+    "30:xscissor",
+    "33:iceshard",
+    "33:uturn",
+    "36:iciclecrash",
+    "36:megahorn",
     "tm:bugbite",
     "tm:covet",
     "tm:electroweb",
@@ -80,7 +106,8 @@
     "tm:skittersmack",
     "tm:steelroller",
     "tm:terrainpulse",
-    "tm:steamroller"
+    "tm:steamroller",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -108,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1594,
+  "nationalPokedexNumber": 1597,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

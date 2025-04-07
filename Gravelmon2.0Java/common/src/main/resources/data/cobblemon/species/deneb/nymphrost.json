@@ -125,7 +125,8 @@
     "egg:steelwing",
     "egg:toxic",
     "egg:waterpulse",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -140,7 +141,7 @@
   "weight": 216,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4549,
+  "nationalPokedexNumber": 4557,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

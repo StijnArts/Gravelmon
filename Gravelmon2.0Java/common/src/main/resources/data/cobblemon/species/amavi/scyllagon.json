@@ -83,7 +83,8 @@
     "61:dragonpulse",
     "65:hyperbeam",
     "69:hurricane",
-    "74:hydropump"
+    "74:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -96,7 +97,7 @@
   "weight": 1565,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5309,
+  "nationalPokedexNumber": 5317,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

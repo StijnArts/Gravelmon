@@ -14,8 +14,46 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "torkoal_tormine",
+      "variant": "level_up",
+      "result": "tormine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "torkoal_tortorge",
+      "variant": "level_up",
+      "result": "tortorge",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true
     }
   ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "forms": [
     {
       "name": "Mahalian",
@@ -80,7 +118,34 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:watergun"
+        "1:watergun",
+        "1:growl",
+        "1:tailwhip",
+        "4:firespin",
+        "4:bubblebeam",
+        "7:flamecharge",
+        "7:brine",
+        "10:flameburst",
+        "10:surf",
+        "13:flamethrower",
+        "13:chillingwater",
+        "16:fireblast",
+        "16:hydropump",
+        "19:ember",
+        "19:watergun",
+        "22:growl",
+        "22:tailwhip",
+        "25:quickattack",
+        "25:bubblebeam",
+        "28:flamecharge",
+        "28:aquatail",
+        "31:firepunch",
+        "31:surf",
+        "34:willowisp",
+        "34:waterfall",
+        "39:flareblitz",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -231,7 +296,8 @@
         "egg:ominouswind",
         "egg:airslash",
         "egg:defog",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

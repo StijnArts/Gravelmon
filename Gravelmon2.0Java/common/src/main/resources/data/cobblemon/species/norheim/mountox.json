@@ -118,7 +118,8 @@
     "tm:sandtomb",
     "tm:smackdown",
     "tm:highhorsepower",
-    "tm:iciclespear"
+    "tm:iciclespear",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3183,
+  "nationalPokedexNumber": 3191,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

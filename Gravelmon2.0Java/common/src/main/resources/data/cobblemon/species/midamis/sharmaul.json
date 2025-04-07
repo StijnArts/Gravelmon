@@ -76,7 +76,8 @@
     "45:muddywater",
     "48:teeterdance",
     "52:waterspout",
-    "56:gastroacid"
+    "56:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4355,
+  "nationalPokedexNumber": 4363,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

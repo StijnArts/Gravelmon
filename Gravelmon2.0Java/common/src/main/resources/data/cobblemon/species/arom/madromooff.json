@@ -60,7 +60,16 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:extremespeed"
+    "1:extremespeed",
+    "1:growl",
+    "1:quickattack",
+    "4:quickattack",
+    "4:swordsdance",
+    "7:bite",
+    "10:takedown",
+    "13:crunch",
+    "16:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -75,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5766,
+  "nationalPokedexNumber": 5774,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

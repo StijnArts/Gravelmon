@@ -140,7 +140,8 @@
     "tm:grudge",
     "tm:meanlook",
     "tm:leechseed",
-    "tm:dig"
+    "tm:dig",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4852,
+  "nationalPokedexNumber": 4860,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

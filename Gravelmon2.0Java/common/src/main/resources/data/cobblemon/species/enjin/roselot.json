@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "10:absorb",
+    "15:trailblaze",
+    "20:gigadrain",
+    "25:seedbomb",
+    "30:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

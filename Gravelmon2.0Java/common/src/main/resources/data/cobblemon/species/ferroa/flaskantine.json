@@ -145,7 +145,8 @@
     "tm:scaryface",
     "tm:astonish",
     "tm:mudsport",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1542,
+  "nationalPokedexNumber": 1545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

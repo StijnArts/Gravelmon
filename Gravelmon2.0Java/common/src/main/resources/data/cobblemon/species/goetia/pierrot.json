@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:gust"
+    "1:gust",
+    "1:tailwhip",
+    "1:leer",
+    "10:bubblebeam",
+    "10:aircutter",
+    "15:brine",
+    "15:wingattack",
+    "20:surf",
+    "20:airslash",
+    "25:chillingwater",
+    "25:drillpeck",
+    "30:hydropump",
+    "30:hurricane",
+    "35:watergun",
+    "35:peck",
+    "40:tailwhip",
+    "40:leer",
+    "45:bubblebeam",
+    "45:pluck",
+    "50:aquatail",
+    "50:wingattack",
+    "55:surf",
+    "55:aerialace",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5990,
+  "nationalPokedexNumber": 5998,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

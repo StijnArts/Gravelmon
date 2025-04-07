@@ -75,7 +75,8 @@
     "51:skyattack",
     "55:moonlight",
     "60:gunkshot",
-    "70:hurricane"
+    "70:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5296,
+  "nationalPokedexNumber": 5304,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

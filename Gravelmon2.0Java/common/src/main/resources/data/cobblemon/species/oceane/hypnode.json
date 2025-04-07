@@ -73,7 +73,8 @@
     "42:psychicterrain",
     "46:skillswap",
     "50:psychoshift",
-    "55:healingwish"
+    "55:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1892,
+  "nationalPokedexNumber": 1895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

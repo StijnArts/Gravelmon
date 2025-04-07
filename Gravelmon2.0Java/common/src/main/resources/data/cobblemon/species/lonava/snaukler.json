@@ -161,7 +161,8 @@
     "tm:aquaring",
     "tm:soak",
     "tm:watersport",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -174,7 +175,7 @@
   "weight": 242,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3345,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

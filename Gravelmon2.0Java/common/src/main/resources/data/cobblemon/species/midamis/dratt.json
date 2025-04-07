@@ -74,7 +74,8 @@
     "31:gigadrain",
     "34:crunch",
     "40:leafstorm",
-    "46:outrage"
+    "46:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4372,
+  "nationalPokedexNumber": 4380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

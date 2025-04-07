@@ -103,6 +103,7 @@
         "tm:gigadrain",
         "tm:gunkshot",
         "tm:haze",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -147,7 +148,8 @@
         "tm:waterpulse",
         "tm:whirlpool",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -332,7 +334,8 @@
         "tutor:suckerpunch",
         "tutor:superpower",
         "tutor:thunderpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

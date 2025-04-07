@@ -162,7 +162,8 @@
     "tm:endeavor",
     "tm:mudbomb",
     "tm:dizzypunch",
-    "tm:throatchop"
+    "tm:throatchop",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -177,7 +178,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1580,
+  "nationalPokedexNumber": 1583,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

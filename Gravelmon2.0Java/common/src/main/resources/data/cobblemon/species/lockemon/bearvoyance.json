@@ -78,7 +78,8 @@
     "50:shadowball",
     "54:nastyplot",
     "egg:thunderwave",
-    "egg:endeavor"
+    "egg:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 806,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3423,
+  "nationalPokedexNumber": 3431,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

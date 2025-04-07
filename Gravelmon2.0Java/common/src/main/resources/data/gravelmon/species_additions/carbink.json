@@ -129,7 +129,8 @@
         "egg:gammaray",
         "egg:auroraveil",
         "egg:wish",
-        "egg:heavyslam"
+        "egg:heavyslam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -285,7 +286,8 @@
         "tutor:terrainpulse",
         "tutor:toxic",
         "tutor:trickroom",
-        "tutor:wonderroom"
+        "tutor:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

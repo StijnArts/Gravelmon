@@ -123,7 +123,8 @@
         "tm:triattack",
         "tm:willowisp",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -289,7 +290,8 @@
         "egg:tailwhip",
         "egg:aquatail",
         "egg:knockoff",
-        "egg:flail"
+        "egg:flail",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

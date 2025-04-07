@@ -78,7 +78,8 @@
     "tm:thunderwave",
     "tm:psychic",
     "tm:thunderbolt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2384,
+  "nationalPokedexNumber": 2392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

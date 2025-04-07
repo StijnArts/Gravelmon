@@ -80,7 +80,8 @@
     "43:recover",
     "48:dragonpulse",
     "50:earthpower",
-    "55:eruption"
+    "55:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1905,
+  "nationalPokedexNumber": 1908,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

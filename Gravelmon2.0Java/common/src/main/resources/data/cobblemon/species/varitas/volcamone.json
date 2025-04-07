@@ -72,7 +72,8 @@
     "44:batonpass",
     "49:flareblitz",
     "54:recover",
-    "60:burnup"
+    "60:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1932,
+  "nationalPokedexNumber": 1935,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

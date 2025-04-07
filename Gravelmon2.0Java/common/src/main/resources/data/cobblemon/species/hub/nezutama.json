@@ -111,7 +111,8 @@
     "tm:workup",
     "tm:doubleedge",
     "tm:selfdestruct",
-    "tm:softboiled"
+    "tm:softboiled",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1387,
+  "nationalPokedexNumber": 1390,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

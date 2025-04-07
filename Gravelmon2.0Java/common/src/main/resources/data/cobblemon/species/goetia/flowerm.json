@@ -74,7 +74,8 @@
     "34:lashout",
     "40:leechlife",
     "45:darkpulse",
-    "50:spore"
+    "50:spore",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6063,
+  "nationalPokedexNumber": 6071,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

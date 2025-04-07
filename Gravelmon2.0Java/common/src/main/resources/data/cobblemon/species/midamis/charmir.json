@@ -76,7 +76,8 @@
     "41:spitup",
     "41:stockpile",
     "41:swallow",
-    "44:energyball"
+    "44:energyball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4309,
+  "nationalPokedexNumber": 4317,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

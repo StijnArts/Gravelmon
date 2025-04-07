@@ -111,7 +111,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:triattack",
-    "tm:venoshock"
+    "tm:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1945,
+  "nationalPokedexNumber": 1948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -133,6 +133,7 @@
         "tm:overheat",
         "tm:hyperbeam",
         "tm:flareblitz",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
@@ -311,7 +312,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:waterpulse",
-        "tutor:zapcannon"
+        "tutor:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

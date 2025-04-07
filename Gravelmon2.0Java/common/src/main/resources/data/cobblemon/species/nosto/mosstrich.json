@@ -131,7 +131,8 @@
     "tm:calmmind",
     "tm:rest",
     "tm:steelwing",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3453,
+  "nationalPokedexNumber": 3461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

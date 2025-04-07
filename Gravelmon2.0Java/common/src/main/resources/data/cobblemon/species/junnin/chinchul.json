@@ -73,7 +73,8 @@
     "25:suckerpunch",
     "28:superfang",
     "31:doubleedge",
-    "34:endeavor"
+    "34:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

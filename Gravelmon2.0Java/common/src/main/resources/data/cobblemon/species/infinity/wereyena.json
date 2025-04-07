@@ -181,7 +181,8 @@
     "egg:mefirst",
     "egg:poisonfang",
     "egg:thunderfang",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

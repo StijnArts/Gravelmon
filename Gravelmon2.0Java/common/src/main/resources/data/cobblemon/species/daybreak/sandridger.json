@@ -149,7 +149,8 @@
     "tutor:stealthrock",
     "tutor:stompingtantrum",
     "tutor:superfang",
-    "tutor:swagger"
+    "tutor:swagger",
+    "tm:terablast"
   ],
   "labels": [
     "daybreak",
@@ -163,7 +164,7 @@
   "weight": 555,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3984,
+  "nationalPokedexNumber": 3992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 11.375,

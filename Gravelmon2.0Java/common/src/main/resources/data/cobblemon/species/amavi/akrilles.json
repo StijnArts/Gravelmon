@@ -76,7 +76,8 @@
     "40:hydropump",
     "44:headcharge",
     "50:focuspunch",
-    "61:closecombat"
+    "61:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5268,
+  "nationalPokedexNumber": 5276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

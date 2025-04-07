@@ -137,7 +137,8 @@
     "tm:lifedew",
     "tm:whirlpool",
     "tm:strangesteam",
-    "tm:flash"
+    "tm:flash",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3899,
+  "nationalPokedexNumber": 3907,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

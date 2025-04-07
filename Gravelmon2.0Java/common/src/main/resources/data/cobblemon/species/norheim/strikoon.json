@@ -61,7 +61,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:counter"
+    "1:counter",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -113,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3077,
+  "nationalPokedexNumber": 3085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

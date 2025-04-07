@@ -81,7 +81,8 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"
+    "69:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -113,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1862,
+  "nationalPokedexNumber": 1865,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

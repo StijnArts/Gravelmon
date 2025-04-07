@@ -65,6 +65,18 @@
   "moves": [
     "1:mudslap",
     "1:thundershock",
+    "1:growl",
+    "1:leer",
+    "10:sandattack",
+    "10:charge",
+    "15:mudbomb",
+    "15:thunderpunch",
+    "20:bulldoze",
+    "20:discharge",
+    "25:dig",
+    "25:wildcharge",
+    "30:earthquake",
+    "30:supercellslam",
     "tm:attract",
     "tm:bulldoze",
     "tm:chargebeam",
@@ -107,7 +119,8 @@
     "tm:toxic",
     "tm:voltswitch",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

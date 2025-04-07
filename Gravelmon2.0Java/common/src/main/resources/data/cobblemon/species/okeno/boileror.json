@@ -81,7 +81,8 @@
     "tm:iceshard",
     "tm:glare",
     "tm:flail",
-    "tm:bounce"
+    "tm:bounce",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4421,
+  "nationalPokedexNumber": 4429,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -141,7 +141,8 @@
     "egg:moonlight",
     "egg:skyattack",
     "egg:supersonic",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

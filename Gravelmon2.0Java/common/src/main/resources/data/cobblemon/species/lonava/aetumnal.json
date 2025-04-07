@@ -71,7 +71,8 @@
     "35:ingrain",
     "43:woodhammer",
     "49:blizzard",
-    "56:sheercold"
+    "56:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3372,
+  "nationalPokedexNumber": 3380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

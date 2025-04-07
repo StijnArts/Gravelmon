@@ -67,7 +67,8 @@
     "15:bide",
     "20:strugglebug",
     "25:mefirst",
-    "30:firstimpression"
+    "30:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3086,
+  "nationalPokedexNumber": 3094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

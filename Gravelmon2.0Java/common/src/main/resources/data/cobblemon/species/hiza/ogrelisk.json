@@ -75,7 +75,8 @@
     "70:megahorn",
     "77:quickguard",
     "84:stoneedge",
-    "91:gigaimpact"
+    "91:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2406,
+  "nationalPokedexNumber": 2414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

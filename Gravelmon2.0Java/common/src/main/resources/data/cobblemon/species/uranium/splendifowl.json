@@ -129,7 +129,8 @@
     "egg:dazzlinggleam",
     "egg:steelwing",
     "egg:uproar",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -144,7 +145,7 @@
   "weight": 330,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1979,
+  "nationalPokedexNumber": 1982,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

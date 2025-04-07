@@ -120,7 +120,8 @@
     "tm:shadowball",
     "tm:trickroom",
     "tm:psyshock",
-    "tm:calmmind"
+    "tm:calmmind",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -135,7 +136,7 @@
   "weight": 575,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3963,
+  "nationalPokedexNumber": 3971,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

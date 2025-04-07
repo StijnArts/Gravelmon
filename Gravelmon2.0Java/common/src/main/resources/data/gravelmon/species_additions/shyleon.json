@@ -158,7 +158,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:synthesis",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -400,7 +401,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:synthesis",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -645,7 +647,8 @@
         "tutor:sleeptalk",
         "tutor:snore",
         "tutor:synthesis",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -781,7 +784,8 @@
         "45:moonblast",
         "51:worryseed",
         "56:futuresight",
-        "61:leafstorm"
+        "61:leafstorm",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

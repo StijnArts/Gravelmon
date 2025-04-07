@@ -66,6 +66,7 @@
     "1:rockthrow",
     "5:sandattack",
     "9:rockthrow",
+    "14:speedmite",
     "18:rockblast",
     "22:mudsport",
     "27:powergem",
@@ -88,6 +89,8 @@
     "tutor:rapidspin",
     "tutor:block",
     "tutor:mudbomb",
+    "tutor:terrafirm",
+    "tutor:hardknock",
     "tutor:earthquake",
     "tutor:rockwrecker",
     "egg:ancientpower",
@@ -96,7 +99,8 @@
     "egg:skullbash",
     "egg:steamroller",
     "egg:superpower",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4619,
+  "nationalPokedexNumber": 4627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

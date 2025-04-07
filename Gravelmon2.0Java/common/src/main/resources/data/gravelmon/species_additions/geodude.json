@@ -64,7 +64,33 @@
       "drops": {},
       "moves": [
         "1:rockthrow",
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:defensecurl",
+        "1:screech",
+        "4:rollout",
+        "4:irontail",
+        "7:ancientpower",
+        "7:smartstrike",
+        "10:powergem",
+        "10:mirrorshot",
+        "13:stealthrock",
+        "13:flashcannon",
+        "16:meteorbeam",
+        "16:steelbeam",
+        "19:rockthrow",
+        "19:metalclaw",
+        "22:defensecurl",
+        "22:screech",
+        "25:rollout",
+        "25:irontail",
+        "28:smackdown",
+        "28:smartstrike",
+        "31:rockblast",
+        "31:ironhead",
+        "34:stealthrock",
+        "34:meteormash",
+        "39:stoneedge",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -231,7 +257,8 @@
         "egg:irondefense",
         "egg:accelerock",
         "egg:heavyslam",
-        "egg:sandtomb"
+        "egg:sandtomb",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -431,7 +458,8 @@
         "egg:irondefense",
         "egg:earthquake",
         "egg:accelerock",
-        "egg:screech"
+        "egg:screech",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -642,7 +670,8 @@
         "tutor:superpower",
         "tutor:thunderpunch",
         "tutor:trick",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

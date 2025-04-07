@@ -70,7 +70,8 @@
     "26:thunderwave",
     "30:crunch",
     "35:wildcharge",
-    "43:thunderbolt"
+    "43:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

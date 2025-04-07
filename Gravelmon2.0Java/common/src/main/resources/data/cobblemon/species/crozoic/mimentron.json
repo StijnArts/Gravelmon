@@ -72,7 +72,8 @@
     "1:thunderbolt",
     "1:mefirst",
     "tm:aurorabeam",
-    "tm:followme"
+    "tm:followme",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -87,7 +88,7 @@
   "weight": 619,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3262,
+  "nationalPokedexNumber": 3270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

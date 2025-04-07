@@ -79,7 +79,8 @@
     "tm:watergun",
     "tm:splash",
     "tm:fakeout",
-    "tm:soak"
+    "tm:soak",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4389,
+  "nationalPokedexNumber": 4397,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -6,11 +6,14 @@
     {
       "id": "fabelian_kirlia-01",
       "pokemon": "kirlia fabelian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -129,6 +132,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_kirlia-01",
+      "pokemon": "kirlia ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-41",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
           ]
         }
       }

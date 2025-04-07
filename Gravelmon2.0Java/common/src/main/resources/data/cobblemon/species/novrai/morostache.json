@@ -149,7 +149,8 @@
     "tm:reversal",
     "tm:acupressure",
     "tm:nightslash",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -183,7 +184,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4913,
+  "nationalPokedexNumber": 4921,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

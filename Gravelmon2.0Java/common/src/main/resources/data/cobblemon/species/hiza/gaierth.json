@@ -71,7 +71,8 @@
     "39:xscissor",
     "43:entrainment",
     "46:swordsdance",
-    "50:leafstorm"
+    "50:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2408,
+  "nationalPokedexNumber": 2416,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

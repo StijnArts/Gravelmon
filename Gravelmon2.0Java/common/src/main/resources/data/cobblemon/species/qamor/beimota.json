@@ -79,7 +79,8 @@
     "tm:thunderwave",
     "tm:psychic",
     "tm:thunderbolt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4047,
+  "nationalPokedexNumber": 4055,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

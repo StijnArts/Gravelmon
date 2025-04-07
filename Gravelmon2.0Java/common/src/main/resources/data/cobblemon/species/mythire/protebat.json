@@ -76,7 +76,8 @@
     "1:bodypress",
     "1:crunch",
     "1:bite",
-    "1:camouflage"
+    "1:camouflage",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3860,
+  "nationalPokedexNumber": 3868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

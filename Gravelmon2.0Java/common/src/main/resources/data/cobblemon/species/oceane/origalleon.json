@@ -79,7 +79,8 @@
     "48:mirrorcoat",
     "52:ominouswind",
     "55:shadowball",
-    "60:memento"
+    "60:memento",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1898,
+  "nationalPokedexNumber": 1901,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

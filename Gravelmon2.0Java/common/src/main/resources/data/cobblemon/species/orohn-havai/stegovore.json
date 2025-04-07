@@ -78,7 +78,8 @@
     "tm:endure",
     "tm:magnitude",
     "tm:rockblast",
-    "tm:rockclimb"
+    "tm:rockclimb",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2993,
+  "nationalPokedexNumber": 3001,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

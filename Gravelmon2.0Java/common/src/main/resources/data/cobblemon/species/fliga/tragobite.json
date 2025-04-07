@@ -103,7 +103,8 @@
     "tm:dragonbreath",
     "tm:ancientpower",
     "tm:mudshot",
-    "tm:scaryface"
+    "tm:scaryface",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -116,7 +117,7 @@
   "weight": 221,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3951,
+  "nationalPokedexNumber": 3959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

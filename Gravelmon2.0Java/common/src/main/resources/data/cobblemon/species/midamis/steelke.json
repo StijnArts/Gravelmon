@@ -80,7 +80,8 @@
     "tm:attract",
     "tm:irondefense",
     "tm:luckychant",
-    "tm:captivate"
+    "tm:captivate",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4304,
+  "nationalPokedexNumber": 4312,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

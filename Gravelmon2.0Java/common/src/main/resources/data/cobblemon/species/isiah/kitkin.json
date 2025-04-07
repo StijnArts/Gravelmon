@@ -135,7 +135,8 @@
     "tm:wish",
     "tm:hypnosis",
     "tm:zenheadbutt",
-    "tm:rollout"
+    "tm:rollout",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4229,
+  "nationalPokedexNumber": 4237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

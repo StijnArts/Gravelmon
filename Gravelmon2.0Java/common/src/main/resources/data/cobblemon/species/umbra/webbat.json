@@ -119,7 +119,8 @@
     "tutor:foulplay",
     "tutor:earthpower",
     "tutor:gunkshot",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3695,
+  "nationalPokedexNumber": 3703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

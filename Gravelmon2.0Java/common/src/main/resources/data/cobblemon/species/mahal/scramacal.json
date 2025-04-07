@@ -63,7 +63,22 @@
     "1:poisonsting",
     "1:metalclaw",
     "1:quickattack",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:leer",
+    "1:screech",
+    "1:swordsdance",
+    "1:quickattack",
+    "4:venoshock",
+    "4:irontail",
+    "4:swordsdance",
+    "7:poisontail",
+    "7:smartstrike",
+    "10:toxicspikes",
+    "10:ironhead",
+    "13:sludgebomb",
+    "13:meteormash",
+    "16:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -78,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5551,
+  "nationalPokedexNumber": 5559,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

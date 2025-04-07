@@ -105,7 +105,8 @@
     "tm:rollout",
     "tm:superpower",
     "tm:firespin",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3325,
+  "nationalPokedexNumber": 3333,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

@@ -112,7 +112,8 @@
         "tm:flash",
         "tm:rocksmash",
         "egg:sheercold",
-        "egg:darkbargain"
+        "egg:darkbargain",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

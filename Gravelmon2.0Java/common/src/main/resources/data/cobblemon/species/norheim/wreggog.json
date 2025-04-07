@@ -71,7 +71,8 @@
     "30:rockblast",
     "38:crabhammer",
     "42:wideguard",
-    "46:stoneedge"
+    "46:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3176,
+  "nationalPokedexNumber": 3184,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

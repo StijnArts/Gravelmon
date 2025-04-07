@@ -159,7 +159,8 @@
     "egg:poisontail",
     "egg:spitup",
     "egg:stockpile",
-    "egg:swallow"
+    "egg:swallow",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

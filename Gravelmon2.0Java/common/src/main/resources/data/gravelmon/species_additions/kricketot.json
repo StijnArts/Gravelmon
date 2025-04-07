@@ -130,7 +130,8 @@
         "egg:screech",
         "egg:lunardance",
         "egg:disarmingvoice",
-        "egg:echoedvoice"
+        "egg:echoedvoice",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -232,7 +233,8 @@
         "16:bugbite",
         "1:growl",
         "1:bide",
-        "6:lowkick"
+        "6:lowkick",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

@@ -71,7 +71,8 @@
     "30:crunch",
     "39:rest",
     "44:earthquake",
-    "51:fissure"
+    "51:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4751,
+  "nationalPokedexNumber": 4759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

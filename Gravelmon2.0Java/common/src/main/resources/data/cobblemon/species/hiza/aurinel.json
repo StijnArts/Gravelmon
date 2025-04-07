@@ -74,7 +74,8 @@
     "34:hypervoice",
     "38:wish",
     "44:batonpass",
-    "50:lastresort"
+    "50:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2270,
+  "nationalPokedexNumber": 2278,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

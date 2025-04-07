@@ -79,7 +79,8 @@
     "tm:mudshot",
     "tm:muddywater",
     "tm:brine",
-    "tm:razorshell"
+    "tm:razorshell",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2984,
+  "nationalPokedexNumber": 2992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

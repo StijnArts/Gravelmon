@@ -77,7 +77,8 @@
     "62:thrash",
     "tm:mist",
     "tm:haze",
-    "tm:iceball"
+    "tm:iceball",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4361,
+  "nationalPokedexNumber": 4369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

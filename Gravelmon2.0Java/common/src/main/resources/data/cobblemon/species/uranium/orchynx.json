@@ -118,7 +118,8 @@
     "egg:magicalleaf",
     "egg:magnetbomb",
     "egg:megadrain",
-    "egg:petaldance"
+    "egg:petaldance",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1970,
+  "nationalPokedexNumber": 1973,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

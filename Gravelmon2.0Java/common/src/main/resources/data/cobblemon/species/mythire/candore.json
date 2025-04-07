@@ -74,7 +74,8 @@
     "1:magnitude",
     "1:bite",
     "1:crunch",
-    "1:psychicfangs"
+    "1:psychicfangs",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3882,
+  "nationalPokedexNumber": 3890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

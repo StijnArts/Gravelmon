@@ -74,7 +74,8 @@
     "32:nightshade",
     "38:signalbeam",
     "42:nastyplot",
-    "46:shadowball"
+    "46:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4002,
+  "nationalPokedexNumber": 4010,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -80,7 +80,8 @@
     "tm:torment",
     "tm:swagger",
     "tm:frostbreath",
-    "tm:feintattack"
+    "tm:feintattack",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3098,
+  "nationalPokedexNumber": 3106,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -86,7 +86,8 @@
     "egg:quickguard",
     "egg:rollout",
     "egg:megahorn",
-    "egg:synthesis"
+    "egg:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -101,7 +102,7 @@
   "weight": 1590,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1478,
+  "nationalPokedexNumber": 1481,
   "shoulderMountable": false,
   "hitbox": {
     "width": 9.125,

@@ -16,14 +16,15 @@ public class Micronaut extends drai.dev.data.pokemon.Pokemon {
                         65,
                         20),
                 List.of(Ability.TORRENT), Ability.HYDRATION,
-                0, 0,
+                4, 0,
                 new Stats(1,0,0,0,0,0), 0,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("- Tackle Normal - Leer Normal - BubbleSTAB Water 7 Bide Normal 12 Confusion Psychic 15 Water PulseSTAB Water 17 Body Slam Normal 21 Curse Ghost 25 Rain Dance Water 25 Double-Edge Normal 28 Zen Headbutt Psychic 32 Recover Normal 36 Hydro PumpSTAB Water"),
-                List.of(),
+                List.of(new EvolutionEntry("divernaut", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -40,9 +41,17 @@ public class Micronaut extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,36)                        ),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Micronaut");
 
     }

@@ -117,7 +117,8 @@
     "tm:charge",
     "tm:odorsleuth",
     "tm:eerieimpulse",
-    "tm:electricterrain"
+    "tm:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1963,
+  "nationalPokedexNumber": 1966,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

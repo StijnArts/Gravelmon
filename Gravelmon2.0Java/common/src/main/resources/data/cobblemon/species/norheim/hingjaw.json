@@ -134,7 +134,8 @@
     "egg:refresh",
     "egg:spitup",
     "egg:stockpile",
-    "egg:swallow"
+    "egg:swallow",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3174,
+  "nationalPokedexNumber": 3182,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

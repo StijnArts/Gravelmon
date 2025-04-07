@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:rockthrow",
-        "1:scratch"
+        "1:scratch",
+        "1:defensecurl",
+        "1:leer",
+        "4:rollout",
+        "4:dragonrage",
+        "7:smackdown",
+        "7:dualchop",
+        "10:rockblast",
+        "10:breakingswipe",
+        "13:stealthrock",
+        "13:dragonclaw",
+        "16:stoneedge",
+        "16:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -166,7 +179,20 @@
       "drops": {},
       "moves": [
         "1:scratch",
-        "1:leafage"
+        "1:leafage",
+        "1:leer",
+        "1:leer",
+        "4:dragonrage",
+        "4:absorb",
+        "7:dualchop",
+        "7:trailblaze",
+        "10:breakingswipe",
+        "10:gigadrain",
+        "13:dragonclaw",
+        "13:seedbomb",
+        "16:outrage",
+        "16:leafblade",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -269,7 +295,22 @@
         "1:scratch",
         "1:thundershock",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:twister",
+        "4:charge",
+        "7:dragonbreath",
+        "7:shockwave",
+        "10:breakingswipe",
+        "10:discharge",
+        "13:dragonpulse",
+        "13:thunderbolt",
+        "16:dracometeor",
+        "16:thunder",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -374,7 +415,44 @@
         "1:bulkup",
         "1:bulkup",
         "1:healbell",
-        "1:healbell"
+        "1:healbell",
+        "1:leer",
+        "1:growl",
+        "1:calmmind",
+        "1:calmmind",
+        "1:wish",
+        "1:wish",
+        "4:twister",
+        "4:icywind",
+        "4:taunt",
+        "4:taunt",
+        "7:dragonbreath",
+        "7:aurorabeam",
+        "7:substitute",
+        "7:substitute",
+        "10:breakingswipe",
+        "10:freezedry",
+        "10:rest",
+        "10:rest",
+        "13:dragonpulse",
+        "13:icebeam",
+        "16:dracometeor",
+        "16:blizzard",
+        "19:scratch",
+        "19:powdersnow",
+        "22:leer",
+        "22:growl",
+        "25:dragonrage",
+        "25:icywind",
+        "28:dualchop",
+        "28:icepunch",
+        "31:breakingswipe",
+        "31:icespinner",
+        "34:dragonclaw",
+        "34:iceshard",
+        "39:outrage",
+        "39:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -557,7 +635,8 @@
         "egg:nobleroar",
         "egg:bite",
         "egg:slash",
-        "egg:nightslash"
+        "egg:nightslash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -733,7 +812,8 @@
         "egg:metalclaw",
         "egg:crunch",
         "egg:thrash",
-        "egg:rapidspin"
+        "egg:rapidspin",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:defensecurl",
+    "1:screech",
+    "4:rollout",
+    "4:irontail",
+    "7:smackdown",
+    "7:smartstrike",
+    "10:rockblast",
+    "10:ironhead",
+    "13:stealthrock",
+    "13:meteormash",
+    "16:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -89,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3759,
+  "nationalPokedexNumber": 3767,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -150,7 +150,8 @@
     "tm:psychicfangs",
     "tm:hypnosis",
     "tm:spark",
-    "tm:screech"
+    "tm:screech",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4909,
+  "nationalPokedexNumber": 4917,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

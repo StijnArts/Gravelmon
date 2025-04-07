@@ -78,7 +78,8 @@
     "egg:bounce",
     "egg:counter",
     "egg:haze",
-    "egg:tickle"
+    "egg:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 121,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3419,
+  "nationalPokedexNumber": 3427,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

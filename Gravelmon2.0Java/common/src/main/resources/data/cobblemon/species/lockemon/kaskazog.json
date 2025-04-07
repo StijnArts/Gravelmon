@@ -86,7 +86,8 @@
     "egg:feint",
     "egg:headbutt",
     "egg:quickguard",
-    "egg:vacuumwave"
+    "egg:vacuumwave",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -101,7 +102,7 @@
   "weight": 140,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3390,
+  "nationalPokedexNumber": 3398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

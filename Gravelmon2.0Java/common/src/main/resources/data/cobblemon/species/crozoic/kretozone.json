@@ -69,7 +69,8 @@
     "1:punishment",
     "1:meteorbeam",
     "1:wingattack",
-    "1:heatcrash"
+    "1:heatcrash",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -82,7 +83,7 @@
   "weight": 920,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3302,
+  "nationalPokedexNumber": 3310,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

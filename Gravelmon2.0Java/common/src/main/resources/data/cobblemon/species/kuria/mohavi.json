@@ -70,7 +70,8 @@
     "33:endeavor",
     "37:solarbeam",
     "42:leafstorm",
-    "49:powerwhip"
+    "49:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4203,
+  "nationalPokedexNumber": 4211,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

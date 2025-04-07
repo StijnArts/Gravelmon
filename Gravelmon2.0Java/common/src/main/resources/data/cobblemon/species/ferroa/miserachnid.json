@@ -137,7 +137,8 @@
     "tm:grassknot",
     "tm:snarl",
     "tm:naturepower",
-    "tm:darkpulse"
+    "tm:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1622,
+  "nationalPokedexNumber": 1625,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

@@ -139,7 +139,8 @@
     "egg:snatch",
     "egg:embargo",
     "egg:sleeptalk",
-    "egg:grudge"
+    "egg:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2047,
+  "nationalPokedexNumber": 2050,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -110,7 +110,8 @@
     "tm:sunnyday",
     "tm:snowscape",
     "tm:toxic",
-    "tm:grassyterrain"
+    "tm:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5123,
+  "nationalPokedexNumber": 5131,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

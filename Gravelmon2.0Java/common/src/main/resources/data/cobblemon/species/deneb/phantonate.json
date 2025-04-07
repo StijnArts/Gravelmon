@@ -127,7 +127,8 @@
     "egg:takedown",
     "egg:thrash",
     "egg:thunderbolt",
-    "egg:toxic"
+    "egg:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -140,7 +141,7 @@
   "weight": 103,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4558,
+  "nationalPokedexNumber": 4566,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

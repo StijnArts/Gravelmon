@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:curse"
+    "1:curse",
+    "1:growl",
+    "1:bulkup",
+    "10:confuseray",
+    "10:calmmind",
+    "15:ominouswind",
+    "15:taunt",
+    "20:nightshade",
+    "20:substitute",
+    "25:hex",
+    "25:rest",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5981,
+  "nationalPokedexNumber": 5989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

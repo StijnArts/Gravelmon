@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:acid"
+    "1:acid",
+    "1:growl",
+    "1:leer",
+    "4:psybeam",
+    "4:clearsmog",
+    "7:futuresight",
+    "7:sludge",
+    "10:psychic",
+    "10:toxicspikes",
+    "13:psyshock",
+    "13:sludgebomb",
+    "16:psychoboost",
+    "16:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3789,
+  "nationalPokedexNumber": 3797,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

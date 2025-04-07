@@ -142,7 +142,8 @@
     "tm:agility",
     "tm:camouflage",
     "tm:bounce",
-    "tm:shadowsneak"
+    "tm:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -157,7 +158,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1411,
+  "nationalPokedexNumber": 1414,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

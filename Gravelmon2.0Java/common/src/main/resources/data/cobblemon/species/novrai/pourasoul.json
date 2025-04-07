@@ -129,7 +129,8 @@
     "tm:chillingwater",
     "tm:silverwind",
     "tm:astonish",
-    "tm:grudge"
+    "tm:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -144,7 +145,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4920,
+  "nationalPokedexNumber": 4928,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -147,7 +147,8 @@
     "tm:worryseed",
     "tm:tearfullook",
     "tm:stomp",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -162,7 +163,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4915,
+  "nationalPokedexNumber": 4923,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

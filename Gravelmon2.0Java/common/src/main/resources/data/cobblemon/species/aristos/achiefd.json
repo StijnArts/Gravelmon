@@ -98,7 +98,8 @@
     "tm:nightslash",
     "tm:simplebeam",
     "tm:finalgambit",
-    "tm:firstimpression"
+    "tm:firstimpression",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -111,7 +112,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1964,
+  "nationalPokedexNumber": 1967,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -97,6 +97,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:knockoff",
@@ -123,7 +124,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -312,7 +314,8 @@
         "tutor:zenheadbutt",
         "egg:confusion",
         "egg:guardsplit",
-        "egg:magiccoat"
+        "egg:magiccoat",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

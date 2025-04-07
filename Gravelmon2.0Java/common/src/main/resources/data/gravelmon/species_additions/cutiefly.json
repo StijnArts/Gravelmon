@@ -136,7 +136,8 @@
         "egg:dualwingbeat",
         "egg:corrode",
         "egg:defendorder",
-        "egg:healorder"
+        "egg:healorder",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -307,7 +308,8 @@
         "tm:overheat",
         "egg:moonblast",
         "egg:stickyweb",
-        "egg:aromaticmist"
+        "egg:aromaticmist",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

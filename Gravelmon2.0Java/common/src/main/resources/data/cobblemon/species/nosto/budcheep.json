@@ -96,7 +96,8 @@
     "tm:swagger",
     "tm:toxic",
     "tm:rest",
-    "tm:steelwing"
+    "tm:steelwing",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -124,7 +125,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 3473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

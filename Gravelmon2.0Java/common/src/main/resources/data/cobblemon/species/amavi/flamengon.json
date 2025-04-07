@@ -80,7 +80,8 @@
     "55:highjumpkick",
     "58:bravebird",
     "62:outrage",
-    "66:victorydance"
+    "66:victorydance",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -95,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5281,
+  "nationalPokedexNumber": 5289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

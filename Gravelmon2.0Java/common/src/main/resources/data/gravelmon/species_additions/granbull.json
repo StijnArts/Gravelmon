@@ -1,5 +1,31 @@
 {
   "target": "cobblemon:granbull",
+  "evolutions": [
+    {
+      "id": "granbull_bourrbull",
+      "variant": "level_up",
+      "result": "bourrbull",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "forms": [
     {
       "name": "Forman",
@@ -65,7 +91,20 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:disarmingvoice"
+        "1:disarmingvoice",
+        "1:growl",
+        "1:babydolleyes",
+        "4:icywind",
+        "4:drainingkiss",
+        "7:icepunch",
+        "7:playnice",
+        "10:icespinner",
+        "10:dazzlinggleam",
+        "13:iceshard",
+        "13:playrough",
+        "16:iciclecrash",
+        "16:spiritbreak",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -155,7 +194,28 @@
         "1:disarmingvoice",
         "1:bite",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:babydolleyes",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "10:drainingkiss",
+        "10:payback",
+        "10:taunt",
+        "10:taunt",
+        "15:playnice",
+        "15:nightslash",
+        "15:substitute",
+        "15:substitute",
+        "20:dazzlinggleam",
+        "20:crunch",
+        "20:rest",
+        "20:rest",
+        "25:playrough",
+        "25:knockoff",
+        "30:spiritbreak",
+        "30:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",

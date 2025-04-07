@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:thundershock"
+    "1:thundershock",
+    "1:tailwhip",
+    "1:leer",
+    "4:bubblebeam",
+    "4:charge",
+    "7:aquatail",
+    "7:thunderpunch",
+    "10:surf",
+    "10:discharge",
+    "13:waterfall",
+    "13:wildcharge",
+    "16:liquidation",
+    "16:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3656,
+  "nationalPokedexNumber": 3664,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

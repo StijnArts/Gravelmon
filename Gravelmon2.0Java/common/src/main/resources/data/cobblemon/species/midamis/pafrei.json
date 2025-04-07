@@ -75,7 +75,8 @@
     "33:flamethrower",
     "37:headsmash",
     "39:roar",
-    "43:flareblitz"
+    "43:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4346,
+  "nationalPokedexNumber": 4354,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

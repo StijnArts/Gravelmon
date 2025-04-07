@@ -183,7 +183,8 @@
     "tm:acupressure",
     "tm:synchronoise",
     "tm:mefirst",
-    "tm:doublekick"
+    "tm:doublekick",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -211,7 +212,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4844,
+  "nationalPokedexNumber": 4852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -76,7 +76,8 @@
     "70:mirrorcoat",
     "77:gravity",
     "84:zapcannon",
-    "91:magneticflux"
+    "91:magneticflux",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1696,
+  "nationalPokedexNumber": 1699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

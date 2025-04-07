@@ -78,7 +78,8 @@
     "36:healpulse",
     "40:moonblast",
     "44:wideguard",
-    "50:hurricane"
+    "50:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1689,
+  "nationalPokedexNumber": 1692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -111,7 +111,8 @@
     "egg:twister",
     "egg:whirlpool",
     "egg:wingattack",
-    "egg:workup"
+    "egg:workup",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4542,
+  "nationalPokedexNumber": 4550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

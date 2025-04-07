@@ -141,7 +141,8 @@
         "egg:confuseray",
         "egg:barrier",
         "egg:aquaring",
-        "egg:shellsmash"
+        "egg:shellsmash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -286,7 +287,8 @@
         "tutor:outrage",
         "tutor:snore",
         "tutor:superfang",
-        "tutor:twister"
+        "tutor:twister",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

@@ -79,7 +79,8 @@
     "54:earthquake",
     "58:headsmash",
     "65:hyperbeam",
-    "69:meteormash"
+    "69:meteormash",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3975,
+  "nationalPokedexNumber": 3983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

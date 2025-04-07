@@ -149,7 +149,8 @@
     "tm:dreameater",
     "tm:trickroom",
     "tm:dazzlinggleam",
-    "tm:tearfullook"
+    "tm:tearfullook",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -164,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3891,
+  "nationalPokedexNumber": 3899,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

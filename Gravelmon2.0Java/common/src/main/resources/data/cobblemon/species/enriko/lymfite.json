@@ -75,7 +75,8 @@
     "36:toxic",
     "40:nastyplot",
     "44:sludgebomb",
-    "48:belch"
+    "48:belch",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1678,
+  "nationalPokedexNumber": 1681,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

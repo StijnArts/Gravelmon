@@ -121,7 +121,8 @@
         "tm:triattack",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -319,7 +320,8 @@
         "tutor:suckerpunch",
         "tutor:tailwind",
         "tutor:twister",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -462,7 +464,8 @@
         "egg:airslash",
         "egg:bravebird",
         "egg:uproar",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

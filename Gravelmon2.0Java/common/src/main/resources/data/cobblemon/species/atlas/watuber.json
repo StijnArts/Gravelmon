@@ -108,7 +108,8 @@
     "tm:toxic",
     "tm:waterpulse",
     "tm:waterfall",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5060,
+  "nationalPokedexNumber": 5068,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

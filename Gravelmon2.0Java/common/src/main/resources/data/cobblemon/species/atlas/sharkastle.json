@@ -126,7 +126,8 @@
     "tm:stealthrock",
     "tm:roar",
     "tm:bulkup",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5126,
+  "nationalPokedexNumber": 5134,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

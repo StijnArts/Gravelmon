@@ -123,7 +123,8 @@
         "tm:workup",
         "egg:aeroblast",
         "egg:nightslash",
-        "egg:agility"
+        "egg:agility",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -276,7 +277,8 @@
         "tutor:workup",
         "egg:flamecharge",
         "egg:quickguard",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

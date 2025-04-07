@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:poisonsting",
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "1:leer",
+    "10:venoshock",
+    "10:dragonrage",
+    "15:poisontail",
+    "15:dualchop",
+    "20:toxicspikes",
+    "20:breakingswipe",
+    "25:sludgebomb",
+    "25:dragonclaw",
+    "30:poisonjab",
+    "30:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5377,
+  "nationalPokedexNumber": 5385,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

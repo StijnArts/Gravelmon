@@ -71,7 +71,8 @@
     "36:painsplit",
     "40:stealthrock",
     "48:skydrop",
-    "53:stoneedge"
+    "53:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1917,
+  "nationalPokedexNumber": 1920,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.3125,

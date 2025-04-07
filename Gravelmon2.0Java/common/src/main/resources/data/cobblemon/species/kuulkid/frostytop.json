@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "1:growl",
+    "4:icywind",
+    "4:psybeam",
+    "7:aurorabeam",
+    "7:futuresight",
+    "10:freezedry",
+    "10:psychic",
+    "13:icebeam",
+    "13:psyshock",
+    "16:blizzard",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -87,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2182,
+  "nationalPokedexNumber": 2190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

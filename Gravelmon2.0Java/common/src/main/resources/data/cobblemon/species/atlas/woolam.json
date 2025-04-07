@@ -108,7 +108,8 @@
     "tm:electricterrain",
     "tm:grassyterrain",
     "tm:wildcharge",
-    "tm:doublekick"
+    "tm:doublekick",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

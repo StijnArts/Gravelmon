@@ -57,7 +57,7 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public static AnimationData emptyAnimation() {
-        return new AnimationData("none", List.of(), List.of(), List.of(), 10);
+        return new AnimationData("standing", List.of(), List.of(), List.of(), 10).markAsBackupPose();
     }
 
     public static AnimationData surfaceFloatingAnimation(){
@@ -124,6 +124,10 @@ public class AnimationData extends BasicAnimationData {
 
         if (isBackup && posingFileData != null){
             poseTypes.addAll(posingFileData.getUnusedPoseTypes());
+            if (poseTypes.size() == PoseType.values().length) {
+                poseTypes.clear();
+                allPoseTypes = Optional.of(true);
+            }
         }
 
         if(!poseTypes.isEmpty()) {

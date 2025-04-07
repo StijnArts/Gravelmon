@@ -78,7 +78,8 @@
     "47:painsplit",
     "50:terrorize",
     "54:destinybond",
-    "57:leafstorm"
+    "57:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6089,
+  "nationalPokedexNumber": 6097,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.5,

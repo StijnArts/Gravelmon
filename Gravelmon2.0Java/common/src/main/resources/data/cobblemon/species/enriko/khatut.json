@@ -71,7 +71,8 @@
     "40:captivate",
     "44:extrasensory",
     "49:trumpcard",
-    "55:healblock"
+    "55:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1706,
+  "nationalPokedexNumber": 1709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

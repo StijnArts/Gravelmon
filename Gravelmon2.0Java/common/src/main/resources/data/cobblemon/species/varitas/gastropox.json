@@ -71,7 +71,8 @@
     "41:acidarmor",
     "48:sludgebomb",
     "53:venomdrench",
-    "60:gunkshot"
+    "60:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1925,
+  "nationalPokedexNumber": 1928,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -82,7 +82,8 @@
     "tm:drainpunch",
     "tm:powerwhip",
     "tm:quickguard",
-    "tm:poweruppunch"
+    "tm:poweruppunch",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2937,
+  "nationalPokedexNumber": 2945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

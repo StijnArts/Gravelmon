@@ -75,7 +75,8 @@
     "36:whirlpool",
     "41:hydropump",
     "44:destinybond",
-    "48:waterspout"
+    "48:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2386,
+  "nationalPokedexNumber": 2394,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

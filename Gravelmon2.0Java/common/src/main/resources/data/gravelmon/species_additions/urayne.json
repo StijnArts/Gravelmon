@@ -146,7 +146,8 @@
         "tm:trick",
         "tm:trickroom",
         "tm:wonderroom",
-        "tm:causticbreath"
+        "tm:causticbreath",
+        "tm:terablast"
       ],
       "labels": [
         "uranium",

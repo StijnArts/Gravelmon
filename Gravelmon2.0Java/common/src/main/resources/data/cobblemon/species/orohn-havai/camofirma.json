@@ -78,7 +78,8 @@
     "47:dragontail",
     "52:bulkup",
     "57:earthquake",
-    "62:outrage"
+    "62:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3030,
+  "nationalPokedexNumber": 3038,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

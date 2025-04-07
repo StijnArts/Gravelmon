@@ -1,5 +1,6 @@
 {
   "target": "cobblemon:bulbasaur",
+  "preEvolution": "barbait",
   "forms": [
     {
       "name": "Forman",
@@ -62,7 +63,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:mudslap"
+        "1:mudslap",
+        "1:growl",
+        "4:sandattack",
+        "7:mudbomb",
+        "10:bulldoze",
+        "13:dig",
+        "16:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -252,7 +260,8 @@
         "egg:blizzard",
         "egg:psychic",
         "egg:amnesia",
-        "egg:powergem"
+        "egg:powergem",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -433,7 +442,8 @@
         "egg:naturepower",
         "egg:petaldance",
         "egg:powerwhip",
-        "egg:skullbash"
+        "egg:skullbash",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -617,7 +627,8 @@
         "tutor:trick",
         "tutor:wonderroom",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -783,7 +794,8 @@
         "tutor:venoshock",
         "tutor:weatherball",
         "tutor:workup",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

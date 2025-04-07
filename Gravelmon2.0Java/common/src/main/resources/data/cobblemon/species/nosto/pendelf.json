@@ -78,7 +78,8 @@
     "42:flashcannon",
     "47:calmmind",
     "50:storedpower",
-    "56:moonblast"
+    "56:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3519,
+  "nationalPokedexNumber": 3527,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

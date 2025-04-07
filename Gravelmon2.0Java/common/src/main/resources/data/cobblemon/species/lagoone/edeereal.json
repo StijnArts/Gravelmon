@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lick",
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "1:growl",
+    "4:confuseray",
+    "4:firespin",
+    "8:ominouswind",
+    "8:flamecharge",
+    "12:nightshade",
+    "12:flameburst",
+    "16:hex",
+    "16:flamethrower",
+    "20:shadowball",
+    "20:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -74,7 +87,7 @@
   "weight": 5,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1373,
+  "nationalPokedexNumber": 1375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

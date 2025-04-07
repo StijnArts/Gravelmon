@@ -74,7 +74,8 @@
     "38:thrash",
     "40:throatchop",
     "46:stompingtantrum",
-    "50:closecombat"
+    "50:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4032,
+  "nationalPokedexNumber": 4040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

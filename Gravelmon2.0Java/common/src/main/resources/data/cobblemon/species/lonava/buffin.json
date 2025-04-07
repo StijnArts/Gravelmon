@@ -194,7 +194,8 @@
     "tm:lastresort",
     "tm:retaliate",
     "tm:skydrop",
-    "tm:uproar"
+    "tm:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -207,7 +208,7 @@
   "weight": 550,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3345,
+  "nationalPokedexNumber": 3353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

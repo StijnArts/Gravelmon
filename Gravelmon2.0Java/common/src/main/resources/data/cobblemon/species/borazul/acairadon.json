@@ -63,7 +63,23 @@
     "1:leafage",
     "1:peck",
     "1:grassyglide",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:absorb",
+    "4:pluck",
+    "4:swordsdance",
+    "7:trailblaze",
+    "7:wingattack",
+    "10:gigadrain",
+    "10:aerialace",
+    "13:seedbomb",
+    "13:drillpeck",
+    "16:leafblade",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "borazul",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2926,
+  "nationalPokedexNumber": 2934,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

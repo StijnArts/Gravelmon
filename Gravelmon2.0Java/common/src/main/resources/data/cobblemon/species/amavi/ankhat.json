@@ -73,7 +73,8 @@
     "39:fling",
     "43:bonemerang",
     "47:shadowbone",
-    "51:destinybond"
+    "51:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5263,
+  "nationalPokedexNumber": 5271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

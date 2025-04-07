@@ -118,7 +118,8 @@
     "tm:sunnyday",
     "tm:swagger",
     "tm:toxic",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5046,
+  "nationalPokedexNumber": 5054,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

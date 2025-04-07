@@ -78,7 +78,8 @@
     "48:raindance",
     "50:moonblast",
     "55:perishsong",
-    "57:hydropump"
+    "57:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3155,
+  "nationalPokedexNumber": 3163,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

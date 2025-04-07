@@ -77,7 +77,8 @@
     "50:hurricane",
     "62:hydropump",
     "tm:steelwing",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4016,
+  "nationalPokedexNumber": 4024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

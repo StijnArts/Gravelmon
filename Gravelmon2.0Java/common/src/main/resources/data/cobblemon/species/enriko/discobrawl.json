@@ -71,7 +71,8 @@
     "32:bounce",
     "36:teeterdance",
     "40:doubleedge",
-    "45:quiverdance"
+    "45:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1752,
+  "nationalPokedexNumber": 1755,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

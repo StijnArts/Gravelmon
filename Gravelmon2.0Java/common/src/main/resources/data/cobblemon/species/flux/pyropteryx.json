@@ -84,7 +84,8 @@
     "egg:laserfocus",
     "egg:headsmash",
     "egg:tailwind",
-    "egg:doubleedge"
+    "egg:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -99,7 +100,7 @@
   "weight": 460,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2094,
+  "nationalPokedexNumber": 2097,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

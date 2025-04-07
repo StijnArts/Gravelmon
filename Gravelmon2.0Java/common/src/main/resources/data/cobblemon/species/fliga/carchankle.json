@@ -113,7 +113,8 @@
     "tm:irondefense",
     "tm:thrash",
     "tm:waterpulse",
-    "tm:earthpower"
+    "tm:earthpower",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -126,7 +127,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3952,
+  "nationalPokedexNumber": 3960,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

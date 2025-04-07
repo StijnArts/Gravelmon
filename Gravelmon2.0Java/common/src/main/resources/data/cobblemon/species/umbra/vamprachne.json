@@ -126,7 +126,8 @@
     "tutor:foulplay",
     "tutor:earthpower",
     "tutor:gunkshot",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -141,7 +142,7 @@
   "weight": 754,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3695,
+  "nationalPokedexNumber": 3703,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

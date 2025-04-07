@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:ember"
+    "1:ember",
+    "1:leer",
+    "1:growl",
+    "4:twister",
+    "4:firespin",
+    "7:dragonbreath",
+    "7:flamecharge",
+    "10:breakingswipe",
+    "10:flameburst",
+    "13:dragonpulse",
+    "13:flamethrower",
+    "16:dracometeor",
+    "16:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3684,
+  "nationalPokedexNumber": 3692,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -76,7 +76,8 @@
     "44:takedown",
     "51:earthquake",
     "58:blizzard",
-    "65:thrash"
+    "65:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2380,
+  "nationalPokedexNumber": 2388,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

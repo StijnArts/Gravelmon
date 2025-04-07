@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:lowkick",
-    "1:confusion"
+    "1:confusion",
+    "1:leer",
+    "1:growl",
+    "4:revenge",
+    "4:psybeam",
+    "7:lowsweep",
+    "7:futuresight",
+    "10:brickbreak",
+    "10:psychic",
+    "13:karatechop",
+    "13:zenheadbutt",
+    "16:closecombat",
+    "16:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3634,
+  "nationalPokedexNumber": 3642,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

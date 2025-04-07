@@ -71,7 +71,8 @@
     "42:shiftgear",
     "47:selfdestruct",
     "52:hyperbeam",
-    "58:steelbeam"
+    "58:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3313,
+  "nationalPokedexNumber": 3321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

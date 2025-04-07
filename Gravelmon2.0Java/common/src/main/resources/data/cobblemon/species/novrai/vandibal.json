@@ -137,7 +137,8 @@
     "tm:firstimpression",
     "tm:infestation",
     "tm:endure",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -152,7 +153,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4882,
+  "nationalPokedexNumber": 4890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

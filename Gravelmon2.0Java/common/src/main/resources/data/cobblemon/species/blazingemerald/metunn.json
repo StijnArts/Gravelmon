@@ -75,7 +75,8 @@
     ]
   },
   "moves": [
-    "1:hiddenpower"
+    "1:hiddenpower",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -90,7 +91,7 @@
   "weight": 503,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3834,
+  "nationalPokedexNumber": 3842,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

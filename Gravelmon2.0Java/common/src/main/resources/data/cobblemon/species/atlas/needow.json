@@ -119,7 +119,8 @@
     "tm:knockoff",
     "tm:faketears",
     "tm:nastyplot",
-    "tm:crosspoison"
+    "tm:crosspoison",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5132,
+  "nationalPokedexNumber": 5140,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

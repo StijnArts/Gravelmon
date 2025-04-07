@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "1:growl",
+    "4:icywind",
+    "4:confuseray",
+    "7:aurorabeam",
+    "7:ominouswind",
+    "10:freezedry",
+    "10:nightshade",
+    "13:icebeam",
+    "13:hex",
+    "16:blizzard",
+    "16:shadowball",
+    "19:powdersnow",
+    "19:lick",
+    "22:growl",
+    "22:growl",
+    "25:icywind",
+    "25:confuseray",
+    "28:icepunch",
+    "28:hex",
+    "31:icespinner",
+    "31:shadowclaw",
+    "34:iceshard",
+    "34:phantomforce",
+    "39:iciclecrash",
+    "39:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2841,
+  "nationalPokedexNumber": 2849,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

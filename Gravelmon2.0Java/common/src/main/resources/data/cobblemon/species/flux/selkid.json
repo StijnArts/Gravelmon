@@ -85,7 +85,8 @@
     "egg:uproar",
     "egg:mist",
     "egg:coralbreak",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2100,
+  "nationalPokedexNumber": 2103,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

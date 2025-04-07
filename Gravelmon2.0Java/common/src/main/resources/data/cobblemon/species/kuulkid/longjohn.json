@@ -60,7 +60,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "4:payback",
+    "7:nightdaze",
+    "10:snarl",
+    "13:knockoff",
+    "16:darkpulse",
+    "19:bite",
+    "22:leer",
+    "25:payback",
+    "28:nightslash",
+    "31:crunch",
+    "34:knockoff",
+    "39:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -75,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2209,
+  "nationalPokedexNumber": 2217,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

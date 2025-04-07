@@ -126,7 +126,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:willowisp",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5120,
+  "nationalPokedexNumber": 5128,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

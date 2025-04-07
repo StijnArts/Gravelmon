@@ -72,7 +72,8 @@
     "35:woodhammer",
     "39:synthesis",
     "43:airslash",
-    "48:leafstorm"
+    "48:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1853,
+  "nationalPokedexNumber": 1856,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -16,8 +16,8 @@ public class Vivility extends drai.dev.data.pokemon.Pokemon {
                         100,
                         110),
                 List.of(Ability.GALE_WINGS), Ability.SERENE_GRACE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                29, 0,
+                new Stats(0,0,0,0,0,0), 20,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -32,7 +32,11 @@ public class Vivility extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vivility");

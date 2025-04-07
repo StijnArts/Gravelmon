@@ -2,6 +2,7 @@ package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.enjin.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
@@ -38,7 +39,6 @@ import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -125,16 +125,16 @@ public class GenerationOne extends Game {
 //        addNewPokemon(new TheossianWeepinbell("", Aspect.THEOSSIAN));
 //        addNewPokemon(new TheossianVictreebel("", Aspect.THEOSSIAN));
 
-//        addNewPokemon(new NodorranEkans("", Aspect.NODORRAN)); TODO
-//        addNewPokemon(new NodorranArbok("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranGastly("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranHaunter("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranGengar("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranMagikarp("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranGyarados("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranOnix("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranKoffing("", Aspect.NODORRAN));
-//        addNewPokemon(new NodorranWeezing("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranEkans("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranArbok("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranGastly("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranHaunter("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranGengar("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranMagikarp("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranGyarados("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranOnix("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranKoffing("", Aspect.NODORRAN));
+        addNewPokemon(new NodorranWeezing("", Aspect.NODORRAN));
 
         addNewPokemon(new MastenianTentacool("", Aspect.MASTENIAN));
         addNewPokemon(new MastenianPsyduck("", Aspect.MASTENIAN));
@@ -264,6 +264,7 @@ public class GenerationOne extends Game {
         //Pokemon Flux
         addNewPokemon(new AlteranEkans("", Aspect.ALTERAN));
         addNewPokemon(new AlteranArbok("", Aspect.ALTERAN));
+        addNewPokemon(new AlteranMeowth("", Aspect.ALTERAN));
         addNewPokemon(new AlteranNidoranWinterCoat("Nidoranf", Aspect.ALTERAN_WINTER_COAT));
         addNewPokemon(new AlteranNidoranSummerCoat("Nidoranm", Aspect.ALTERAN_SUMMER_COAT));
 

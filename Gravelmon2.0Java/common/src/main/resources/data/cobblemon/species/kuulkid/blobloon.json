@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "4:bubblebeam",
+    "7:brine",
+    "10:surf",
+    "13:chillingwater",
+    "16:hydropump",
+    "19:watergun",
+    "22:tailwhip",
+    "25:bubblebeam",
+    "28:aquatail",
+    "31:surf",
+    "34:waterfall",
+    "39:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -72,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2237,
+  "nationalPokedexNumber": 2245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

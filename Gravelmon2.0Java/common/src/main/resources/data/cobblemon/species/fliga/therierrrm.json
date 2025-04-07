@@ -123,7 +123,8 @@
     "tm:round",
     "tm:bulldoze",
     "tm:workup",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -138,7 +139,7 @@
   "weight": 1305,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3958,
+  "nationalPokedexNumber": 3966,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

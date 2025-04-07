@@ -66,7 +66,8 @@
     "20:firespin",
     "33:cosmicpower",
     "42:heatwave",
-    "48:wish"
+    "48:wish",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4157,
+  "nationalPokedexNumber": 4165,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

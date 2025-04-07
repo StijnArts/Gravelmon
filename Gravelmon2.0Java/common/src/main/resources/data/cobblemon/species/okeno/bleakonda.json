@@ -84,7 +84,8 @@
     "tm:dragonbreath",
     "tm:causticbreath",
     "tm:coil",
-    "tm:hypnosis"
+    "tm:hypnosis",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -99,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4439,
+  "nationalPokedexNumber": 4447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

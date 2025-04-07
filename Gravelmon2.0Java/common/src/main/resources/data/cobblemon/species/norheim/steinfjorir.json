@@ -75,7 +75,8 @@
     "62:irondefense",
     "71:earthpower",
     "78:hurricane",
-    "88:rockwrecker"
+    "88:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3228,
+  "nationalPokedexNumber": 3236,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

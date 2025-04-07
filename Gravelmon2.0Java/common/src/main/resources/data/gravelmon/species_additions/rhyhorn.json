@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:mudslap",
-        "1:thundershock"
+        "1:thundershock",
+        "1:sandattack",
+        "1:leer",
+        "4:mudshot",
+        "4:charge",
+        "7:mudbomb",
+        "7:shockwave",
+        "10:bulldoze",
+        "10:discharge",
+        "13:scorchingsands",
+        "13:thunderbolt",
+        "16:earthpower",
+        "16:thunder",
+        "19:mudslap",
+        "19:thundershock",
+        "22:growl",
+        "22:leer",
+        "25:sandattack",
+        "25:charge",
+        "28:mudbomb",
+        "28:thunderpunch",
+        "31:bulldoze",
+        "31:discharge",
+        "34:dig",
+        "34:wildcharge",
+        "39:earthquake",
+        "39:supercellslam",
+        "tm:terablast"
       ],
       "labels": [
         "aroma",
@@ -150,7 +177,20 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:mudslap"
+        "1:mudslap",
+        "1:stringshot",
+        "1:growl",
+        "4:leechlife",
+        "4:sandattack",
+        "7:lunge",
+        "7:mudbomb",
+        "10:xscissor",
+        "10:bulldoze",
+        "13:uturn",
+        "13:dig",
+        "16:megahorn",
+        "16:earthquake",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -264,7 +304,8 @@
         "44:takedown",
         "51:earthquake",
         "58:blizzard",
-        "65:thrash"
+        "65:thrash",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:scratch"
+    "1:scratch",
+    "1:babydolleyes",
+    "1:leer",
+    "4:drainingkiss",
+    "4:twister",
+    "7:playnice",
+    "7:dragonbreath",
+    "10:dazzlinggleam",
+    "10:breakingswipe",
+    "13:hypervoice",
+    "13:dragonpulse",
+    "16:moonblast",
+    "16:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3736,
+  "nationalPokedexNumber": 3744,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

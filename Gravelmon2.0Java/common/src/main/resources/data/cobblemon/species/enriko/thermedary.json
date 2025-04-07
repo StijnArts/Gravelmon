@@ -71,7 +71,8 @@
     "38:stompingtantrum",
     "44:headsmash",
     "52:lifedew",
-    "60:burnup"
+    "60:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1656,
+  "nationalPokedexNumber": 1659,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

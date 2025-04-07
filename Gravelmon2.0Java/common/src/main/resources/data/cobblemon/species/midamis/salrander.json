@@ -76,7 +76,8 @@
     "49:flareblitz",
     "54:recover",
     "60:burnup",
-    "64:bellydrum"
+    "64:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4339,
+  "nationalPokedexNumber": 4347,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

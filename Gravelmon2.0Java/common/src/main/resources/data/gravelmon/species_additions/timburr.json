@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:lowkick"
+        "1:lowkick",
+        "1:leer",
+        "1:leer",
+        "4:megadrain",
+        "4:revenge",
+        "7:magicalleaf",
+        "7:vacuumwave",
+        "10:gigadrain",
+        "10:brickbreak",
+        "13:energyball",
+        "13:aurasphere",
+        "16:solarbeam",
+        "16:focusblast",
+        "19:leafage",
+        "19:lowkick",
+        "22:leer",
+        "22:leer",
+        "25:absorb",
+        "25:revenge",
+        "28:trailblaze",
+        "28:lowsweep",
+        "31:gigadrain",
+        "31:brickbreak",
+        "34:seedbomb",
+        "34:karatechop",
+        "39:leafblade",
+        "39:closecombat",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -219,7 +246,8 @@
         "egg:poweruppunch",
         "egg:nastyplot",
         "egg:throatchop",
-        "egg:meanlook"
+        "egg:meanlook",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -391,7 +419,8 @@
         "egg:wideguard",
         "egg:rockslide",
         "egg:snore",
-        "egg:belch"
+        "egg:belch",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -567,7 +596,8 @@
         "egg:wideguard",
         "egg:machpunch",
         "egg:poweruppunch",
-        "egg:defog"
+        "egg:defog",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

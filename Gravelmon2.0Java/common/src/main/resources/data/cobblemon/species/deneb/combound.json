@@ -126,7 +126,8 @@
     "egg:superpower",
     "egg:thrash",
     "egg:thunderpunch",
-    "egg:workup"
+    "egg:workup",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -141,7 +142,7 @@
   "weight": 324,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4578,
+  "nationalPokedexNumber": 4586,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

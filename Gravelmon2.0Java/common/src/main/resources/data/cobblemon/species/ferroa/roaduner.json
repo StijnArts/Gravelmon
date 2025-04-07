@@ -127,7 +127,8 @@
     "tm:uturn",
     "tm:whirlwind",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1489,
+  "nationalPokedexNumber": 1492,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

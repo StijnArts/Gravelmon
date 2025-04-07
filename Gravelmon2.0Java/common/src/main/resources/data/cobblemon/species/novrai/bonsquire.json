@@ -122,7 +122,8 @@
     "tm:aromatherapy",
     "tm:spikes",
     "tm:lavaplume",
-    "tm:branchpoke"
+    "tm:branchpoke",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4853,
+  "nationalPokedexNumber": 4861,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

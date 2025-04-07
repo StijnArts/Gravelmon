@@ -115,7 +115,8 @@
     "tm:trickroom",
     "tm:venoshock",
     "tm:watergun",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1396,
+  "nationalPokedexNumber": 1399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,
@@ -218,7 +219,9 @@
         "grass"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "hub",
         "not_modeled"
@@ -309,7 +312,9 @@
         "grass"
       ],
       "drops": {},
-      "moves": [],
+      "moves": [
+        "tm:terablast"
+      ],
       "labels": [
         "hub",
         "not_modeled"

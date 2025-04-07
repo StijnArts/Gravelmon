@@ -127,7 +127,8 @@
     "tutor:hypervoice",
     "tutor:superpower",
     "tutor:knockoff",
-    "tutor:dragonpulse"
+    "tutor:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -142,7 +143,7 @@
   "weight": 2300,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3717,
+  "nationalPokedexNumber": 3725,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

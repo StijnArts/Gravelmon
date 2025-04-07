@@ -81,7 +81,8 @@
     "tm:rockpolish",
     "tm:powergem",
     "tm:earthpower",
-    "tm:flashcannon"
+    "tm:flashcannon",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3009,
+  "nationalPokedexNumber": 3017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

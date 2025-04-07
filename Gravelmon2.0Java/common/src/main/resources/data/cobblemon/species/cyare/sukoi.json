@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bulkup"
+    "1:bulkup",
+    "1:tailwhip",
+    "1:calmmind",
+    "10:bubblebeam",
+    "10:taunt",
+    "15:aquatail",
+    "15:substitute",
+    "20:surf",
+    "20:rest",
+    "25:waterfall",
+    "30:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -110,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5391,
+  "nationalPokedexNumber": 5399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

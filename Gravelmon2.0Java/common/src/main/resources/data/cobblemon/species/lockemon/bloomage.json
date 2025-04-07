@@ -78,7 +78,8 @@
     "48:overheat",
     "48:solarbeam",
     "egg:flamethrower",
-    "egg:spicyextract"
+    "egg:spicyextract",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -91,7 +92,7 @@
   "weight": 3180,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3426,
+  "nationalPokedexNumber": 3434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

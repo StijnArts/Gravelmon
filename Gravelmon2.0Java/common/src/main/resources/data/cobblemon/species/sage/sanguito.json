@@ -134,7 +134,8 @@
     "egg:shadowsneak",
     "egg:spikes",
     "egg:supersonic",
-    "egg:toxicspikes"
+    "egg:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

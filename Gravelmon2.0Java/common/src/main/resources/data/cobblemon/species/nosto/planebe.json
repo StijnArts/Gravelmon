@@ -82,7 +82,8 @@
     "47:scald",
     "51:flashcannon",
     "55:irondefense",
-    "59:hydropump"
+    "59:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3513,
+  "nationalPokedexNumber": 3521,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

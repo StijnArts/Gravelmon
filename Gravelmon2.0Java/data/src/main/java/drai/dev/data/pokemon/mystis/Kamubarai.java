@@ -16,8 +16,8 @@ public class Kamubarai extends drai.dev.data.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.STATIC,Ability.GLUTTONY), Ability.STRONG_JAW,
-                0, 0,
-                new Stats(0,1,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,1,0,0,0,0), 110,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -45,7 +45,11 @@ public class Kamubarai extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_MOUNTAIN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kamubarai");

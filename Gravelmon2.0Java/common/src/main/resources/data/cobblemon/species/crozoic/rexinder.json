@@ -68,7 +68,8 @@
     "1:stomp",
     "1:ancientpower",
     "1:firefang",
-    "1:crunch"
+    "1:crunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3266,
+  "nationalPokedexNumber": 3274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

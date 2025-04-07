@@ -74,7 +74,8 @@
     "35:synthesis",
     "40:leafblade",
     "45:sunnyday",
-    "50:solarbeam"
+    "50:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1630,
+  "nationalPokedexNumber": 1633,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

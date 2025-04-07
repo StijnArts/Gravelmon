@@ -77,7 +77,8 @@
     "37:crunch",
     "41:toxicspikes",
     "46:nastyplot",
-    "50:sludgebomb"
+    "50:sludgebomb",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3097,
+  "nationalPokedexNumber": 3105,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

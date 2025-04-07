@@ -87,7 +87,8 @@
     "tm:acupressure",
     "tm:assist",
     "tm:copycat",
-    "tm:lastresort"
+    "tm:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3064,
+  "nationalPokedexNumber": 3072,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

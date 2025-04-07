@@ -138,7 +138,8 @@
         "tm:toxic",
         "tm:toxicspikes",
         "tm:uturn",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -291,7 +292,8 @@
         "tm:shieldbash",
         "tm:standoff",
         "tm:cut",
-        "tm:strength"
+        "tm:strength",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

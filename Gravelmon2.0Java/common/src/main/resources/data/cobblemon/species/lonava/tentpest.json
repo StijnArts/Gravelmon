@@ -78,7 +78,8 @@
     "39:swordsdance",
     "46:discharge",
     "52:thunder",
-    "60:hurricane"
+    "60:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3350,
+  "nationalPokedexNumber": 3358,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

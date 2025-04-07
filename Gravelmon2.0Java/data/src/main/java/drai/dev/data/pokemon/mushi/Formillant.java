@@ -16,7 +16,7 @@ public class Formillant extends drai.dev.data.pokemon.Pokemon {
                         60,
                         101),
                 List.of(Ability.BLAZE), Ability.COMPOUND_EYES,
-                0, 0,
+                19, 0,
                 new Stats(0,0,0,3,0,0), 0,
                 0.875,
                 265, ExperienceGroup.MEDIUM_SLOW,
@@ -27,7 +27,11 @@ public class Formillant extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Formillant");

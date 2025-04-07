@@ -78,6 +78,7 @@
     "26:flamewheel",
     "31:willowisp",
     "36:firefang",
+    "36:regalfang",
     "42:crunch",
     "50:scaryface",
     "58:earthquake",
@@ -96,15 +97,19 @@
     "tutor:spikes",
     "tutor:incinerate",
     "tutor:endeavor",
+    "tutor:boldblaze",
+    "tutor:terrafirm",
     "tutor:fireblast",
     "egg:curse",
+    "egg:soilthrow",
     "egg:howl",
     "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",
     "egg:outrage",
     "egg:superfang",
-    "egg:wildcharge"
+    "egg:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -119,7 +124,7 @@
   "weight": 648,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4538,
+  "nationalPokedexNumber": 4546,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

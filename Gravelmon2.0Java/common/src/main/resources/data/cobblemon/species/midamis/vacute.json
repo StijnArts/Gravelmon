@@ -72,7 +72,8 @@
     "37:swallow",
     "41:crunch",
     "47:seedbomb",
-    "50:powerwhip"
+    "50:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4307,
+  "nationalPokedexNumber": 4315,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -75,7 +75,8 @@
     "50:dragondance",
     "55:outrage",
     "60:woodhammer",
-    "65:sheercold"
+    "65:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3202,
+  "nationalPokedexNumber": 3210,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.625,

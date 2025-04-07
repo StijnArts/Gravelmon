@@ -86,7 +86,8 @@
     "tm:skittersmack",
     "tm:coaching",
     "tm:switcheroo",
-    "tm:ragepowder"
+    "tm:ragepowder",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1497,
+  "nationalPokedexNumber": 1500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

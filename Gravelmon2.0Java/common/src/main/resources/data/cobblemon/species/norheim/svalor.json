@@ -78,7 +78,8 @@
     "33:switcheroo",
     "37:foulplay",
     "42:topsyturvy",
-    "47:superpower"
+    "47:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3142,
+  "nationalPokedexNumber": 3150,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

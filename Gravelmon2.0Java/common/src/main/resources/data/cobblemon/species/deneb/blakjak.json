@@ -130,7 +130,8 @@
     "egg:roost",
     "egg:secretpower",
     "egg:steelwing",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -144,7 +145,7 @@
   "weight": 439,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4505,
+  "nationalPokedexNumber": 4513,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

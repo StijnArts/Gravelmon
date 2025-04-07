@@ -72,7 +72,8 @@
     "36:sleeppowder",
     "40:agility",
     "45:woodhammer",
-    "50:highjumpkick"
+    "50:highjumpkick",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1638,
+  "nationalPokedexNumber": 1641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

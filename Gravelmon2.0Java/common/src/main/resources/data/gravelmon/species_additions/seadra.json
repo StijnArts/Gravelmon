@@ -67,7 +67,28 @@
         "1:watergun",
         "1:confusion",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:tailwhip",
+        "1:growl",
+        "1:calmmind",
+        "1:calmmind",
+        "4:bubblebeam",
+        "4:psybeam",
+        "4:taunt",
+        "4:taunt",
+        "7:brine",
+        "7:futuresight",
+        "7:substitute",
+        "7:substitute",
+        "10:surf",
+        "10:psychic",
+        "10:rest",
+        "10:rest",
+        "13:chillingwater",
+        "13:psyshock",
+        "16:hydropump",
+        "16:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -231,7 +252,8 @@
         "tm:waterpulse",
         "tm:weatherball",
         "tm:whirlpool",
-        "tm:wish"
+        "tm:wish",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -390,7 +412,8 @@
         "tm:toxic",
         "tm:uturn",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -499,7 +522,8 @@
         "53:raindance",
         "60:dragondance",
         "67:outrage",
-        "74:hyperbeam"
+        "74:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

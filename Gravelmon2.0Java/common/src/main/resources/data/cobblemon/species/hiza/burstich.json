@@ -72,7 +72,8 @@
     "36:thunderbolt",
     "40:flareblitz",
     "44:thrash",
-    "48:thunder"
+    "48:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2398,
+  "nationalPokedexNumber": 2406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

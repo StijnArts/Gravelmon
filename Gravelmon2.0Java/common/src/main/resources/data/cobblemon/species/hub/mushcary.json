@@ -140,7 +140,8 @@
     "tm:trickroom",
     "tm:venoshock",
     "tm:watergun",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "hub",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1398,
+  "nationalPokedexNumber": 1401,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

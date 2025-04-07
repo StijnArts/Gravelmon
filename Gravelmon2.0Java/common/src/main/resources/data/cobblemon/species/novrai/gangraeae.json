@@ -168,7 +168,8 @@
     "tm:crunch",
     "tm:partingshot",
     "tm:gastroacid",
-    "tm:comeuppance"
+    "tm:comeuppance",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -183,7 +184,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4898,
+  "nationalPokedexNumber": 4906,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

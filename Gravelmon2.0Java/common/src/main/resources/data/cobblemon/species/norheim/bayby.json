@@ -75,7 +75,8 @@
     "44:toxic",
     "48:aquatail",
     "52:acupressure",
-    "56:destinybond"
+    "56:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3075,
+  "nationalPokedexNumber": 3083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

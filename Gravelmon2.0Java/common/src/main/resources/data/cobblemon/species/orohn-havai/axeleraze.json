@@ -73,7 +73,8 @@
     "tm:faketears",
     "tm:shockwave",
     "tm:nastyplot",
-    "tm:eerieimpulse"
+    "tm:eerieimpulse",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2961,
+  "nationalPokedexNumber": 2969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

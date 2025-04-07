@@ -73,7 +73,8 @@
     "56:dragonpulse",
     "62:outrage",
     "70:hyperbeam",
-    "78:originpulse"
+    "78:originpulse",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3235,
+  "nationalPokedexNumber": 3243,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

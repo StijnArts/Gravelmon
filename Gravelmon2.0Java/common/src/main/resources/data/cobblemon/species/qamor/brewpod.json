@@ -75,7 +75,8 @@
     "36:drainpunch",
     "40:earthquake",
     "46:leechseed",
-    "50:woodhammer"
+    "50:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4009,
+  "nationalPokedexNumber": 4017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

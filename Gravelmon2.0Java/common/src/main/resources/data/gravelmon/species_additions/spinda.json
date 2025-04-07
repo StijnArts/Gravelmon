@@ -161,7 +161,8 @@
         "egg:roleplay",
         "egg:skillswap",
         "egg:spite",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

@@ -64,7 +64,8 @@
     "15:furyattack",
     "20:acidarmor",
     "30:drainingkiss",
-    "40:venoshock"
+    "40:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -77,7 +78,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1887,
+  "nationalPokedexNumber": 1890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

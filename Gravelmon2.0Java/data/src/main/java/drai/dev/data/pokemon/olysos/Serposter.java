@@ -16,7 +16,7 @@ public class Serposter extends drai.dev.data.pokemon.Pokemon {
                         50,
                         70),
                 List.of(Ability.STRONG_JAW,Ability.HUSTLE), Ability.RECKLESS,
-                62, 2438,
+                32, 2438,
                 new Stats(0,2,0,0,0,1), 45,
                 0.5,
                 1250, ExperienceGroup.SLOW,
@@ -27,7 +27,11 @@ public class Serposter extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_JUNGLE)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Serposter");

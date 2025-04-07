@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:strugglebug"
+    "1:strugglebug",
+    "1:stringshot",
+    "4:silverwind",
+    "7:signalbeam",
+    "10:infestation",
+    "13:uturn",
+    "16:bugbuzz",
+    "19:strugglebug",
+    "22:stringshot",
+    "25:leechlife",
+    "28:lunge",
+    "31:xscissor",
+    "34:uturn",
+    "39:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -74,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5683,
+  "nationalPokedexNumber": 5691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

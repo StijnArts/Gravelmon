@@ -156,7 +156,8 @@
     "egg:magicalleaf",
     "egg:naturepower",
     "egg:skullbash",
-    "egg:sludge"
+    "egg:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

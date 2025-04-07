@@ -73,7 +73,8 @@
     "35:leechlife",
     "40:nightslash",
     "48:lunge",
-    "53:drainlife"
+    "53:drainlife",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2334,
+  "nationalPokedexNumber": 2342,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

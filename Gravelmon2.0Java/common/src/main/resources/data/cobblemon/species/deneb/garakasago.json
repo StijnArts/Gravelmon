@@ -80,6 +80,7 @@
     "tm:waterpulse",
     "tm:acidspray",
     "tm:frustration",
+    "tutor:finsmack",
     "tutor:disable",
     "tutor:spikecannon",
     "tutor:soak",
@@ -90,7 +91,8 @@
     "egg:flail",
     "egg:muddywater",
     "egg:captivate",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -105,7 +107,7 @@
   "weight": 298,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4646,
+  "nationalPokedexNumber": 4654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

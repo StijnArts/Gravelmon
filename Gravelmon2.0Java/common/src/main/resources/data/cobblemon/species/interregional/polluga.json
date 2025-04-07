@@ -73,7 +73,8 @@
     "48:sludgebomb",
     "52:gunkshot",
     "56:earthpower",
-    "61:waterspout"
+    "61:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1448,
+  "nationalPokedexNumber": 1451,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -73,7 +73,8 @@
     "35:slam",
     "38:woodhammer",
     "44:hypervoice",
-    "50:lastresort"
+    "50:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3313,
+  "nationalPokedexNumber": 3321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

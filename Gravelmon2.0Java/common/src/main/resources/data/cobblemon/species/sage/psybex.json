@@ -148,7 +148,8 @@
     "egg:psychoshift",
     "egg:psywave",
     "egg:storedpower",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

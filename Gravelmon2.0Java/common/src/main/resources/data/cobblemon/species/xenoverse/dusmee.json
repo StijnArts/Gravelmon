@@ -97,7 +97,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:substitute",
-    "tutor:velvetscales"
+    "tutor:velvetscales",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1831,
+  "nationalPokedexNumber": 1834,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

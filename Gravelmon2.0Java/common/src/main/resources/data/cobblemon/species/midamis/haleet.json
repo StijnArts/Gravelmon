@@ -71,7 +71,8 @@
     "39:lightscreen",
     "46:icebeam",
     "53:endure",
-    "61:avalanche"
+    "61:avalanche",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4341,
+  "nationalPokedexNumber": 4349,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

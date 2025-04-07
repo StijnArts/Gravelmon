@@ -73,7 +73,8 @@
     "1:mirrorcoat",
     "1:scaryface",
     "1:bounce",
-    "1:shadowpunch"
+    "1:shadowpunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3276,
+  "nationalPokedexNumber": 3284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

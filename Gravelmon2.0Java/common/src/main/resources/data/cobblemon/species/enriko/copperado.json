@@ -78,7 +78,8 @@
     "38:zenheadbutt",
     "42:flashcannon",
     "54:meteormash",
-    "61:workup"
+    "61:workup",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1719,
+  "nationalPokedexNumber": 1722,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

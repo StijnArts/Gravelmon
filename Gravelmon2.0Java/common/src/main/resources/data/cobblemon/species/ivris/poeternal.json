@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:growl",
+    "1:babydolleyes",
+    "4:psybeam",
+    "4:drainingkiss",
+    "7:futuresight",
+    "7:playnice",
+    "10:psychic",
+    "10:dazzlinggleam",
+    "13:psyshock",
+    "13:hypervoice",
+    "16:psychoboost",
+    "16:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3600,
+  "nationalPokedexNumber": 3608,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

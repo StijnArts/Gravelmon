@@ -61,7 +61,16 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:uturn"
+    "1:uturn",
+    "1:stringshot",
+    "1:quickattack",
+    "10:leechlife",
+    "10:swordsdance",
+    "15:lunge",
+    "20:xscissor",
+    "25:uturn",
+    "30:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5841,
+  "nationalPokedexNumber": 5849,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

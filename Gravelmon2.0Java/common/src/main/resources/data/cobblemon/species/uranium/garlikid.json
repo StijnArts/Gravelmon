@@ -141,7 +141,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:causticbreath"
+    "tm:causticbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -155,7 +156,7 @@
   "weight": 333,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2081,
+  "nationalPokedexNumber": 2084,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

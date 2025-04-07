@@ -79,7 +79,8 @@
     "egg:thunderfang",
     "egg:uproar",
     "egg:flamewheel",
-    "egg:fakeout"
+    "egg:fakeout",
+    "tm:terablast"
   ],
   "labels": [
     "dhiome",

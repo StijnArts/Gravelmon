@@ -135,7 +135,8 @@
         "egg:bodyslam",
         "egg:stomp",
         "egg:yawn",
-        "egg:heatwave"
+        "egg:heatwave",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -318,7 +319,8 @@
         "egg:spitup",
         "egg:endure",
         "egg:ironhead",
-        "egg:heavyslam"
+        "egg:heavyslam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -474,7 +476,8 @@
         "tm:sandtomb",
         "tm:smackdown",
         "tm:highhorsepower",
-        "tm:iciclespear"
+        "tm:iciclespear",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -632,7 +635,8 @@
         "tutor:selfdestruct",
         "tutor:snore",
         "tutor:spite",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -802,7 +806,8 @@
         "egg:endure",
         "egg:ironhead",
         "egg:growth",
-        "egg:heavyslam"
+        "egg:heavyslam",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -932,7 +937,8 @@
         "egg:stockpile",
         "egg:stomp",
         "egg:swallow",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

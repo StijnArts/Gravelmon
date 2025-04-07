@@ -117,7 +117,8 @@
     "egg:haze",
     "egg:safeguard",
     "egg:confuseray",
-    "egg:frostbreath"
+    "egg:frostbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1986,
+  "nationalPokedexNumber": 1989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

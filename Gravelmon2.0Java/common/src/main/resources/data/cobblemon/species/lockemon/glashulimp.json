@@ -91,7 +91,8 @@
     "egg:stockpile",
     "egg:stomp",
     "egg:swallow",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -106,7 +107,7 @@
   "weight": 1255,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3397,
+  "nationalPokedexNumber": 3405,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

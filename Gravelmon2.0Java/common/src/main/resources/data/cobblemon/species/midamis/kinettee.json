@@ -75,7 +75,8 @@
     "40:seismictoss",
     "44:dynamicpunch",
     "48:crosschop",
-    "52:doubleedge"
+    "52:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4345,
+  "nationalPokedexNumber": 4353,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

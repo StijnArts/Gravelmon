@@ -75,7 +75,8 @@
     "45:honeclaws",
     "50:suckerpunch",
     "56:aquatail",
-    "63:depthcharge"
+    "63:depthcharge",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3213,
+  "nationalPokedexNumber": 3221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -121,7 +121,8 @@
         "tm:toxic",
         "tm:trickroom",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -208,7 +209,20 @@
       "drops": {},
       "moves": [
         "1:disarmingvoice",
-        "1:watergun"
+        "1:watergun",
+        "1:babydolleyes",
+        "1:tailwhip",
+        "4:drainingkiss",
+        "4:bubblebeam",
+        "8:playnice",
+        "8:brine",
+        "12:dazzlinggleam",
+        "12:surf",
+        "16:hypervoice",
+        "16:chillingwater",
+        "20:moonblast",
+        "20:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",
@@ -368,7 +382,8 @@
         "tm:watersport",
         "tm:drainingkiss",
         "tm:teleport",
-        "tm:grassyglide"
+        "tm:grassyglide",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -512,7 +527,8 @@
         "tm:trailblaze",
         "tm:aerialace",
         "tm:crosschop",
-        "tm:agility"
+        "tm:agility",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

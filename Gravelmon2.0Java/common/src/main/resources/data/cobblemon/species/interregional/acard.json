@@ -71,7 +71,8 @@
     "34:roleplay",
     "38:suckerpunch",
     "42:trick",
-    "48:trumpcard"
+    "48:trumpcard",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1464,
+  "nationalPokedexNumber": 1467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:lick"
+    "1:lick",
+    "1:sandattack",
+    "1:growl",
+    "10:mudshot",
+    "10:confuseray",
+    "15:mudbomb",
+    "15:ominouswind",
+    "20:bulldoze",
+    "20:nightshade",
+    "25:scorchingsands",
+    "25:hex",
+    "30:earthpower",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -86,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4469,
+  "nationalPokedexNumber": 4477,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

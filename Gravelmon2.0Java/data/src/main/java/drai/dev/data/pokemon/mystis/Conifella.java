@@ -17,7 +17,7 @@ public class Conifella extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.SNOW_CLOAK,Ability.THICK_FAT), Ability.PERMAFROST,
                 109, 3629,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 172, ExperienceGroup.ERRATIC,
                 70,
@@ -28,7 +28,11 @@ public class Conifella extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA, Biome.IS_SNOWY_FOREST).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Conifella");

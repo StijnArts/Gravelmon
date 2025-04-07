@@ -166,7 +166,8 @@
     "tm:waterfall",
     "tm:workup",
     "tm:xscissor",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -181,7 +182,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3868,
+  "nationalPokedexNumber": 3876,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

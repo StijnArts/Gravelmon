@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:peck"
+    "1:peck",
+    "1:defensecurl",
+    "1:leer",
+    "4:rollout",
+    "4:pluck",
+    "7:smackdown",
+    "7:wingattack",
+    "10:rockblast",
+    "10:aerialace",
+    "13:stealthrock",
+    "13:drillpeck",
+    "16:stoneedge",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2468,
+  "nationalPokedexNumber": 2476,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

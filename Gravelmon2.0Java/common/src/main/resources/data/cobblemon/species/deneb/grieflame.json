@@ -121,7 +121,8 @@
     "egg:snatch",
     "egg:solarbeam",
     "egg:sunnyday",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4555,
+  "nationalPokedexNumber": 4563,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

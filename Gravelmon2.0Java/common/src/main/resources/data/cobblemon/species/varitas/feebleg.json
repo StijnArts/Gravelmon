@@ -60,7 +60,8 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "9:bugbite"
+    "9:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -88,7 +89,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1915,
+  "nationalPokedexNumber": 1918,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -29,6 +29,31 @@
       }
     },
     {
+      "id": "nodorran_steelix-01",
+      "pokemon": "steelix nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_steelix-01",
       "pokemon": "steelix epoch",
       "presets": [
@@ -51,6 +76,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_steelix-01",
+      "pokemon": "steelix ishirian",
+      "presets": [
+        "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-54",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

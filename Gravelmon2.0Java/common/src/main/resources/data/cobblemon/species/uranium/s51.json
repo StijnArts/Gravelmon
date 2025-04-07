@@ -153,7 +153,8 @@
     "egg:teleport",
     "egg:healblock",
     "egg:psychup",
-    "egg:ironhead"
+    "egg:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -181,7 +182,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2022,
+  "nationalPokedexNumber": 2025,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

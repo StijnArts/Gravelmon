@@ -67,7 +67,8 @@
     "23:quickattack",
     "30:aquaring",
     "34:aquajet",
-    "40:raindance"
+    "40:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3105,
+  "nationalPokedexNumber": 3113,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

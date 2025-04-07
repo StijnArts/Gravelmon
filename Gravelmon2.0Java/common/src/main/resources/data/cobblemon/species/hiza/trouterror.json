@@ -76,7 +76,8 @@
     "54:hydropump",
     "57:metalburst",
     "62:phantomforce",
-    "66:wavecrash"
+    "66:wavecrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2343,
+  "nationalPokedexNumber": 2351,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

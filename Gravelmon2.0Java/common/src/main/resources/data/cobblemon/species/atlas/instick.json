@@ -107,7 +107,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:workup",
-    "tm:xscissor"
+    "tm:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5049,
+  "nationalPokedexNumber": 5057,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

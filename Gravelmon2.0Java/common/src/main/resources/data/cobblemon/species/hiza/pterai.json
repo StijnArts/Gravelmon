@@ -72,7 +72,8 @@
     "27:dualwingbeat",
     "32:agility",
     "37:voltswitch",
-    "43:discharge"
+    "43:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2369,
+  "nationalPokedexNumber": 2377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

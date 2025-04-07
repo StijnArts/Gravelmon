@@ -99,6 +99,7 @@
         "tm:grassyterrain",
         "tm:gyroball",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:highhorsepower",
         "tm:hypervoice",
@@ -137,7 +138,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -318,7 +320,8 @@
         "tutor:suckerpunch",
         "tutor:superpower",
         "tutor:thunderpunch",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

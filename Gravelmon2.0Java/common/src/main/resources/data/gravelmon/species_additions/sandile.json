@@ -138,7 +138,8 @@
         "egg:honeclaws",
         "egg:snatch",
         "egg:snaptrap",
-        "egg:beatup"
+        "egg:beatup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -307,7 +308,8 @@
         "egg:counter",
         "egg:doubleedge",
         "egg:aquatail",
-        "egg:spite"
+        "egg:spite",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

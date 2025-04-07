@@ -136,7 +136,8 @@
         "tm:toxic",
         "tm:triattack",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -283,7 +284,8 @@
         "tm:voltswitch",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -378,7 +380,8 @@
         "38:irondefense",
         "42:zingzap",
         "56:icebeam",
-        "62:sheercold"
+        "62:sheercold",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -524,7 +527,8 @@
         "tutor:torment",
         "tutor:toxic",
         "tutor:voltswitch",
-        "tutor:wildcharge"
+        "tutor:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -670,7 +674,8 @@
         "tutor:torment",
         "tutor:toxic",
         "tutor:voltswitch",
-        "tutor:wildcharge"
+        "tutor:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "azure",

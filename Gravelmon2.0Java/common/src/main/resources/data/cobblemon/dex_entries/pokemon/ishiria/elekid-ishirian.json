@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elekid-ishirian",
+  "speciesId": "cobblemon:elekid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

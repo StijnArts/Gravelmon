@@ -64,7 +64,23 @@
     "1:strugglebug",
     "1:thundershock",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:leechlife",
+    "10:charge",
+    "10:swordsdance",
+    "15:lunge",
+    "15:thunderpunch",
+    "20:xscissor",
+    "20:discharge",
+    "25:uturn",
+    "25:wildcharge",
+    "30:megahorn",
+    "30:supercellslam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -79,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5844,
+  "nationalPokedexNumber": 5852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -90,7 +90,8 @@
     "tm:stunspore",
     "tm:clearsmog",
     "tm:nightmare",
-    "tm:nastyplot"
+    "tm:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -105,7 +106,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4482,
+  "nationalPokedexNumber": 4490,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

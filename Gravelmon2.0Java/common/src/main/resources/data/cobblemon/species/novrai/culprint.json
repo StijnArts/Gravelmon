@@ -124,7 +124,8 @@
     "tm:crosschop",
     "tm:snatch",
     "tm:counter",
-    "tm:beatup"
+    "tm:beatup",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4978,
+  "nationalPokedexNumber": 4986,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

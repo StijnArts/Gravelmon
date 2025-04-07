@@ -63,7 +63,23 @@
     "1:confusion",
     "1:metalclaw",
     "1:agility",
-    "1:bulletpunch"
+    "1:bulletpunch",
+    "1:growl",
+    "1:screech",
+    "1:quickattack",
+    "1:quickattack",
+    "4:psybeam",
+    "4:irontail",
+    "4:swordsdance",
+    "4:swordsdance",
+    "7:futuresight",
+    "7:smartstrike",
+    "10:psychic",
+    "10:ironhead",
+    "13:zenheadbutt",
+    "13:meteormash",
+    "16:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -78,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3668,
+  "nationalPokedexNumber": 3676,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -93,7 +93,8 @@
     "tm:rest",
     "tm:flatter",
     "tm:captivate",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -121,7 +122,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2414,
+  "nationalPokedexNumber": 2422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

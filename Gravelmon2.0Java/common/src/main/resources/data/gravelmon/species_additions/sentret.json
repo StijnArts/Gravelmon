@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:tackle"
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:icywind",
+        "4:round",
+        "7:aurorabeam",
+        "7:swift",
+        "10:freezedry",
+        "10:uproar",
+        "13:icebeam",
+        "13:hypervoice",
+        "16:blizzard",
+        "16:hyperbeam",
+        "19:powdersnow",
+        "19:tackle",
+        "22:growl",
+        "22:growl",
+        "25:icywind",
+        "25:quickattack",
+        "28:icepunch",
+        "28:bite",
+        "31:icespinner",
+        "31:takedown",
+        "34:iceshard",
+        "34:crunch",
+        "39:iciclecrash",
+        "39:doubleedge",
+        "tm:terablast"
       ],
       "labels": [
         "aroma",
@@ -149,7 +176,18 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:calmmind",
+        "4:icywind",
+        "4:taunt",
+        "7:aurorabeam",
+        "7:substitute",
+        "10:freezedry",
+        "10:rest",
+        "13:icebeam",
+        "16:blizzard",
+        "tm:terablast"
       ],
       "labels": [
         "raian",
@@ -250,7 +288,20 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:gust"
+        "1:gust",
+        "1:growl",
+        "1:leer",
+        "4:firespin",
+        "4:aircutter",
+        "7:flamecharge",
+        "7:wingattack",
+        "10:flameburst",
+        "10:airslash",
+        "13:flamethrower",
+        "13:drillpeck",
+        "16:fireblast",
+        "16:hurricane",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -420,7 +471,8 @@
         "egg:healorder",
         "egg:sludgebomb",
         "egg:partingshot",
-        "egg:attackorder"
+        "egg:attackorder",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -591,7 +643,8 @@
         "tm:assist",
         "tm:naturalgift",
         "tm:captivate",
-        "tm:babydolleyes"
+        "tm:babydolleyes",
+        "tm:terablast"
       ],
       "labels": [
         "aristos",

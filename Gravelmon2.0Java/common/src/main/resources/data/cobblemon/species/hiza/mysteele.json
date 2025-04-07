@@ -77,7 +77,8 @@
     "40:powerswap",
     "40:speedswap",
     "45:bugbuzz",
-    "50:psychic"
+    "50:psychic",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2305,
+  "nationalPokedexNumber": 2313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -74,7 +74,8 @@
     "36:toxic",
     "40:moonlight",
     "44:sludgebomb",
-    "48:moonblast"
+    "48:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1748,
+  "nationalPokedexNumber": 1751,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

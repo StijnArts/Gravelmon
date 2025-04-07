@@ -79,7 +79,8 @@
     "46:smackdown",
     "52:megahorn",
     "58:hammerarm",
-    "64:gigaimpact"
+    "64:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -92,7 +93,7 @@
   "weight": 326,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4131,
+  "nationalPokedexNumber": 4139,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

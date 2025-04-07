@@ -74,7 +74,8 @@
     "38:nightslash",
     "45:wringout",
     "49:coil",
-    "57:gunkshot"
+    "57:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4247,
+  "nationalPokedexNumber": 4255,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -68,7 +68,8 @@
     "29:confuseray",
     "37:abyssallure",
     "41:shadowsneak",
-    "46:hydropump"
+    "46:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1703,
+  "nationalPokedexNumber": 1706,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

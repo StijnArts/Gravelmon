@@ -110,7 +110,8 @@
     "tm:thief",
     "tm:toxic",
     "tm:uturn",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -125,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2429,
+  "nationalPokedexNumber": 2437,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

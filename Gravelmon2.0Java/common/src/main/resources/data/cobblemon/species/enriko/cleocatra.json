@@ -72,7 +72,8 @@
     "40:captivate",
     "44:extrasensory",
     "49:trumpcard",
-    "55:healblock"
+    "55:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1707,
+  "nationalPokedexNumber": 1710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

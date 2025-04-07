@@ -109,6 +109,5 @@ public class Bandeon extends Pokemon {
 
         addAdditionalEvolution("eevee", new EvolutionEntry("bandeon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.SOUND_PLEDGE.getName()))));
-        GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.SOUND_PLEDGE, 30));
     }
 }

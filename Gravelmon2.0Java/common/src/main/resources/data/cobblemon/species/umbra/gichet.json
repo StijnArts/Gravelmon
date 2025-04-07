@@ -99,7 +99,8 @@
     "tutor:bugbite",
     "tutor:signalbeam",
     "tutor:bounce",
-    "tutor:ironhead"
+    "tutor:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -127,7 +128,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3715,
+  "nationalPokedexNumber": 3723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

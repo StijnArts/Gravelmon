@@ -50,7 +50,7 @@ public class Insulatex extends Pokemon {
                         ),
                 List.of(Label.FLUX),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 26, 50, 8, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 26, 50, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS))),

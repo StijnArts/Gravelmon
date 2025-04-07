@@ -83,7 +83,8 @@
     "tm:curse",
     "tm:leechseed",
     "tm:leafstorm",
-    "tm:doubleedge"
+    "tm:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -98,7 +99,7 @@
   "weight": 1800,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4670,
+  "nationalPokedexNumber": 4678,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

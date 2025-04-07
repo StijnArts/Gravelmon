@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "10:payback",
+    "15:nightdaze",
+    "20:snarl",
+    "25:knockoff",
+    "30:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6028,
+  "nationalPokedexNumber": 6036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -128,7 +128,8 @@
     "tm:focusblast",
     "tm:powerwhip",
     "tm:darkestlariat",
-    "tm:bodypress"
+    "tm:bodypress",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -143,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1931,
+  "nationalPokedexNumber": 1934,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

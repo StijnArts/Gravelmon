@@ -112,7 +112,8 @@
     "tm:venoshock",
     "tm:waterpulse",
     "tm:workup",
-    "tm:mudbomb"
+    "tm:mudbomb",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -127,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5086,
+  "nationalPokedexNumber": 5094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

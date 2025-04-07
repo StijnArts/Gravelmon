@@ -72,7 +72,8 @@
     "39:taunt",
     "43:hypervoice",
     "48:defog",
-    "54:hurricane"
+    "54:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",

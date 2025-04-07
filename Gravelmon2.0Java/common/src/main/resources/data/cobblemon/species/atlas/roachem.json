@@ -104,7 +104,8 @@
     "tm:tickle",
     "tm:suckerpunch",
     "tm:bugbuzz",
-    "tm:shadowsneak"
+    "tm:shadowsneak",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -132,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5062,
+  "nationalPokedexNumber": 5070,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

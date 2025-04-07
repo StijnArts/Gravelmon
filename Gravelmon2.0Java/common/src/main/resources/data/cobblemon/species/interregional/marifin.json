@@ -74,7 +74,8 @@
     "35:mistyterrain",
     "40:hypervoice",
     "45:moonblast",
-    "50:hydropump"
+    "50:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1431,
+  "nationalPokedexNumber": 1434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

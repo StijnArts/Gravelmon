@@ -67,7 +67,8 @@
     "1:captivate",
     "1:amnesia",
     "1:gust",
-    "1:breakingswipe"
+    "1:breakingswipe",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -80,7 +81,7 @@
   "weight": 2210,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3298,
+  "nationalPokedexNumber": 3306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

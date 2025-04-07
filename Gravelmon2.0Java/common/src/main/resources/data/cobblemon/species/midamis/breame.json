@@ -68,7 +68,8 @@
     "40:icebeam",
     "50:solarbeam",
     "60:hyperbeam",
-    "70:laserfocus"
+    "70:laserfocus",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -81,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4375,
+  "nationalPokedexNumber": 4383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

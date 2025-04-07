@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:watergun"
+    "1:watergun",
+    "1:tailwhip",
+    "10:bubblebeam",
+    "15:aquatail",
+    "20:surf",
+    "25:waterfall",
+    "30:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6016,
+  "nationalPokedexNumber": 6024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

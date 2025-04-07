@@ -131,7 +131,8 @@
         "tm:toxic",
         "tm:trickroom",
         "tm:willowisp",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -235,7 +236,8 @@
         "44:ironhead",
         "48:entrainment",
         "52:irondefense",
-        "56:guillotine"
+        "56:guillotine",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",

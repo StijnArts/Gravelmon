@@ -73,7 +73,8 @@
     "37:captivate",
     "44:hurricane",
     "tm:steelwing",
-    "tm:defog"
+    "tm:defog",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4015,
+  "nationalPokedexNumber": 4023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

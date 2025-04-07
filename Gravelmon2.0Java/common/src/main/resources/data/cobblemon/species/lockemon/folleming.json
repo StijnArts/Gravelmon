@@ -87,7 +87,8 @@
     "egg:flail",
     "egg:present",
     "egg:tickle",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -100,7 +101,7 @@
   "weight": 315,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3424,
+  "nationalPokedexNumber": 3432,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

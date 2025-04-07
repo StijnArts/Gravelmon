@@ -84,7 +84,8 @@
     "tm:captivate",
     "tm:mirrormove",
     "tm:luckychant",
-    "tm:dragonclaw"
+    "tm:dragonclaw",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3991,
+  "nationalPokedexNumber": 3999,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -106,7 +106,8 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:surf",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1940,
+  "nationalPokedexNumber": 1943,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

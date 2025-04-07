@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:bulkup"
+    "1:bulkup",
+    "1:leer",
+    "1:calmmind",
+    "4:twister",
+    "4:taunt",
+    "7:dragonbreath",
+    "7:substitute",
+    "10:breakingswipe",
+    "10:rest",
+    "13:dragonpulse",
+    "16:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

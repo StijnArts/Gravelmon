@@ -86,7 +86,8 @@
     "tm:rollout",
     "tm:superpower",
     "tm:irondefense",
-    "tm:block"
+    "tm:block",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -101,7 +102,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4439,
+  "nationalPokedexNumber": 4447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

@@ -72,7 +72,8 @@
     "30:dig",
     "35:ironhead",
     "39:lockon",
-    "42:petalblizzard"
+    "42:petalblizzard",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 3104,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

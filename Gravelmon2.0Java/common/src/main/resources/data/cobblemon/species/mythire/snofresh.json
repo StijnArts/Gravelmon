@@ -86,7 +86,8 @@
     "tm:lifedew",
     "tm:whirlpool",
     "tm:strangesteam",
-    "tm:flash"
+    "tm:flash",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3898,
+  "nationalPokedexNumber": 3906,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

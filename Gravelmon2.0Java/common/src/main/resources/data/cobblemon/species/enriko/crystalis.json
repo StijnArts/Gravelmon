@@ -62,7 +62,8 @@
   "drops": {},
   "moves": [
     "1:icywind",
-    "26:irondefense"
+    "26:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1731,
+  "nationalPokedexNumber": 1734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:lowkick",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:revenge",
+    "4:payback",
+    "7:lowsweep",
+    "7:nightslash",
+    "10:brickbreak",
+    "10:crunch",
+    "13:karatechop",
+    "13:knockoff",
+    "16:closecombat",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2719,
+  "nationalPokedexNumber": 2727,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

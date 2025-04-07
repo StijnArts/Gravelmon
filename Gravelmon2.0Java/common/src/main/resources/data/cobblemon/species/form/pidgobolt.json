@@ -64,7 +64,22 @@
     "1:thundershock",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:charge",
+    "4:aircutter",
+    "7:shockwave",
+    "7:wingattack",
+    "10:discharge",
+    "10:airslash",
+    "13:thunderbolt",
+    "13:drillpeck",
+    "16:thunder",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3730,
+  "nationalPokedexNumber": 3738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

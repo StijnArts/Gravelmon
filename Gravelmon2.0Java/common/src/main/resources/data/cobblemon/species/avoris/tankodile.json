@@ -74,7 +74,8 @@
     "40:spikes",
     "44:waterfall",
     "47:seedbomb",
-    "51:spikyshield"
+    "51:spikyshield",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1868,
+  "nationalPokedexNumber": 1871,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

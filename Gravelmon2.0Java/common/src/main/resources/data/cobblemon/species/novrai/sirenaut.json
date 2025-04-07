@@ -161,7 +161,8 @@
     "tm:bittermalice",
     "tm:hornattack",
     "tm:splash",
-    "tm:destinybond"
+    "tm:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -176,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5025,
+  "nationalPokedexNumber": 5033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

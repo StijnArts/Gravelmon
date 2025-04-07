@@ -116,7 +116,8 @@
     "tm:defensecurl",
     "tm:lastresort",
     "tm:bellydrum",
-    "tm:psychicfangs"
+    "tm:psychicfangs",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -131,7 +132,7 @@
   "weight": 786,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3925,
+  "nationalPokedexNumber": 3933,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

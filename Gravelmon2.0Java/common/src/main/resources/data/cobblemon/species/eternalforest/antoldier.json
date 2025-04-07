@@ -139,7 +139,8 @@
     "egg:thrash",
     "egg:knockoff",
     "egg:entrainment",
-    "egg:drillrun"
+    "egg:drillrun",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -154,7 +155,7 @@
   "weight": 560,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3052,
+  "nationalPokedexNumber": 3060,
   "shoulderMountable": false,
   "hitbox": {
     "width": 51.1875,

@@ -77,7 +77,8 @@
     "48:drillrun",
     "52:standoff",
     "56:bravebird",
-    "60:lastresort"
+    "60:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1405,
+  "nationalPokedexNumber": 1408,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

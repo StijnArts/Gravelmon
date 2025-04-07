@@ -71,7 +71,8 @@
     "1:octazooka",
     "1:octolock",
     "1:lowsweep",
-    "1:jetpunch"
+    "1:jetpunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3282,
+  "nationalPokedexNumber": 3290,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

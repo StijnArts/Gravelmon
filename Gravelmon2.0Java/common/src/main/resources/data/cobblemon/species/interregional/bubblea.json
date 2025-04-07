@@ -78,7 +78,8 @@
     "27:raindance",
     "30:hydropump",
     "33:doubleedge",
-    "36:superpower"
+    "36:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1463,
+  "nationalPokedexNumber": 1466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

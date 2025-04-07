@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "4:payback",
+    "7:nightdaze",
+    "10:snarl",
+    "13:knockoff",
+    "16:darkpulse",
+    "19:bite",
+    "22:leer",
+    "25:payback",
+    "28:nightslash",
+    "31:crunch",
+    "34:knockoff",
+    "39:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "aroma",
@@ -74,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5690,
+  "nationalPokedexNumber": 5698,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

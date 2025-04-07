@@ -63,7 +63,8 @@
   "moves": [
     "1:miracleeye",
     "5:flail",
-    "15:bugbite"
+    "15:bugbite",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4843,
+  "nationalPokedexNumber": 4851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

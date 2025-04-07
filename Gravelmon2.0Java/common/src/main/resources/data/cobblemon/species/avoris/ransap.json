@@ -76,7 +76,8 @@
     "28:crunch",
     "31:takedown",
     "34:swagger",
-    "37:foulplay"
+    "37:foulplay",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1854,
+  "nationalPokedexNumber": 1857,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

@@ -76,7 +76,8 @@
     "36:bodyslam",
     "40:batonpass",
     "45:followme",
-    "50:playrough"
+    "50:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -91,7 +92,7 @@
   "weight": 329,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5340,
+  "nationalPokedexNumber": 5348,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

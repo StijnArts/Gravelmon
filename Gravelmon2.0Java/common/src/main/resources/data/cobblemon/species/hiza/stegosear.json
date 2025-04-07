@@ -71,7 +71,8 @@
     "35:stealthrock",
     "41:heatcrash",
     "48:rockblast",
-    "55:stoneedge"
+    "55:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2367,
+  "nationalPokedexNumber": 2375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

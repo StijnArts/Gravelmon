@@ -144,7 +144,8 @@
     "tm:icefang",
     "tm:thunderfang",
     "tm:heavyslam",
-    "tm:bellydrum"
+    "tm:bellydrum",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1497,
+  "nationalPokedexNumber": 1500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

@@ -66,7 +66,30 @@
     "1:bulkup",
     "1:bulkup",
     "1:quickattack",
-    "1:quickattack"
+    "1:quickattack",
+    "1:leer",
+    "1:leer",
+    "1:calmmind",
+    "1:calmmind",
+    "1:swordsdance",
+    "1:swordsdance",
+    "4:venoshock",
+    "4:dragonrage",
+    "4:taunt",
+    "4:taunt",
+    "7:poisontail",
+    "7:dualchop",
+    "7:substitute",
+    "7:substitute",
+    "10:toxicspikes",
+    "10:breakingswipe",
+    "10:rest",
+    "10:rest",
+    "13:sludgebomb",
+    "13:dragonclaw",
+    "16:poisonjab",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -96,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2657,
+  "nationalPokedexNumber": 2665,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

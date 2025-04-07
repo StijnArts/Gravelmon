@@ -76,7 +76,8 @@
     "34:sludgewave",
     "38:hex",
     "52:willowisp",
-    "56:nastyplot"
+    "56:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5314,
+  "nationalPokedexNumber": 5322,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

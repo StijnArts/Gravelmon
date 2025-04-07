@@ -64,7 +64,23 @@
     "1:watergun",
     "1:lowkick",
     "1:flipturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:tailwhip",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "10:bubblebeam",
+    "10:revenge",
+    "10:swordsdance",
+    "15:aquatail",
+    "15:lowsweep",
+    "20:surf",
+    "20:brickbreak",
+    "25:waterfall",
+    "25:karatechop",
+    "30:liquidation",
+    "30:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -79,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5932,
+  "nationalPokedexNumber": 5940,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

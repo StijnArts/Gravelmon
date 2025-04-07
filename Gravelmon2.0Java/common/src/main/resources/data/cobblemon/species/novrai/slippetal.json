@@ -133,7 +133,8 @@
     "tm:teeterdance",
     "tm:stomp",
     "tm:grasswhistle",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4903,
+  "nationalPokedexNumber": 4911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

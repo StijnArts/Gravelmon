@@ -140,7 +140,8 @@
     "tm:torment",
     "tm:toxic",
     "tm:willowisp",
-    "tm:causticbreath"
+    "tm:causticbreath",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2077,
+  "nationalPokedexNumber": 2080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

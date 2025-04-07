@@ -84,7 +84,8 @@
     "tm:razorwind",
     "tm:shadowsneak",
     "tm:poltergeist",
-    "tm:allyswitch"
+    "tm:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4483,
+  "nationalPokedexNumber": 4491,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

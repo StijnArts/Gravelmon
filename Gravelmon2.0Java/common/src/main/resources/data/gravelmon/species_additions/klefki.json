@@ -142,7 +142,8 @@
         "egg:magnetrise",
         "egg:speedswap",
         "egg:powerswap",
-        "egg:thief"
+        "egg:thief",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -292,7 +293,8 @@
         "tutor:torment",
         "tutor:toxic",
         "egg:switcheroo",
-        "egg:magnetrise"
+        "egg:magnetrise",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -395,7 +397,8 @@
         "egg:irondefense",
         "egg:lockon",
         "egg:switcheroo",
-        "egg:thief"
+        "egg:thief",
+        "tm:terablast"
       ],
       "labels": [
         "opal",

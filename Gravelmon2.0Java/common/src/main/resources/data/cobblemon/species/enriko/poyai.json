@@ -75,7 +75,8 @@
     "47:bounce",
     "53:boomburst",
     "57:overheat",
-    "60:aeroblast"
+    "60:aeroblast",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1715,
+  "nationalPokedexNumber": 1718,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

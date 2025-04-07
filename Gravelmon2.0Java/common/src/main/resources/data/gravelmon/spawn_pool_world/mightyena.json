@@ -6,11 +6,14 @@
     {
       "id": "mahalian_mightyena-01",
       "pokemon": "mightyena mahalian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -21,6 +24,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "olysosian_mightyena-01",
+      "pokemon": "mightyena olysosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-38",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
           ]
         }
       }

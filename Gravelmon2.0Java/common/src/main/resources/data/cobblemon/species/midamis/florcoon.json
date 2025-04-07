@@ -81,7 +81,8 @@
     "tm:sleeppowder",
     "tm:spore",
     "tm:crunch",
-    "tm:ingrain"
+    "tm:ingrain",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4290,
+  "nationalPokedexNumber": 4298,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -144,7 +144,8 @@
         "egg:refresh",
         "egg:memento",
         "egg:shadowball",
-        "egg:flashcannon"
+        "egg:flashcannon",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

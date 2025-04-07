@@ -112,7 +112,8 @@
     "tm:watergun",
     "tm:waterfall",
     "tm:whirlwind",
-    "tm:wildcharge"
+    "tm:wildcharge",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1528,
+  "nationalPokedexNumber": 1531,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

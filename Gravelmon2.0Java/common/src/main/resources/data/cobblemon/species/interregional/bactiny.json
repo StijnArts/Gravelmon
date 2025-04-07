@@ -80,7 +80,8 @@
     "tm:sleeppowder",
     "tm:gigadrain",
     "tm:gastroacid",
-    "tm:toxicspikes"
+    "tm:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1444,
+  "nationalPokedexNumber": 1447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.8125,

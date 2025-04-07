@@ -158,7 +158,8 @@
     "egg:bravebird",
     "egg:wingattack",
     "egg:drillpeck",
-    "egg:irontail"
+    "egg:irontail",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -173,7 +174,7 @@
   "weight": 143,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2032,
+  "nationalPokedexNumber": 2035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

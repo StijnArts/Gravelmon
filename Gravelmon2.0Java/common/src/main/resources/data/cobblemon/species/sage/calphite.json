@@ -119,7 +119,8 @@
     "egg:megahorn",
     "egg:metalburst",
     "egg:slam",
-    "egg:thrash"
+    "egg:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

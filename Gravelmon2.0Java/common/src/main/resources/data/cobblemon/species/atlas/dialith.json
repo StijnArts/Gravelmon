@@ -114,7 +114,8 @@
     "tm:mistyterrain",
     "tm:leechseed",
     "tm:scorchingsands",
-    "tm:seedbomb"
+    "tm:seedbomb",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5082,
+  "nationalPokedexNumber": 5090,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

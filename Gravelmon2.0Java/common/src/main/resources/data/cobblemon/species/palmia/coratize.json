@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "4:confuseray",
+    "7:hex",
+    "10:shadowclaw",
+    "13:phantomforce",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -74,7 +81,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2710,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

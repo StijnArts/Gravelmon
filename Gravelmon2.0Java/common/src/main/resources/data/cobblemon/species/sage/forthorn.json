@@ -156,7 +156,8 @@
     "egg:nightshade",
     "egg:revenge",
     "egg:sleeppowder",
-    "egg:stunspore"
+    "egg:stunspore",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

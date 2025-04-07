@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "4:psybeam",
+    "7:futuresight",
+    "10:psychic",
+    "13:psyshock",
+    "16:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -89,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2730,
+  "nationalPokedexNumber": 2738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -145,7 +145,8 @@
     "tm:skillswap",
     "tm:attract",
     "tm:leechlife",
-    "tm:gravity"
+    "tm:gravity",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4843,
+  "nationalPokedexNumber": 4851,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

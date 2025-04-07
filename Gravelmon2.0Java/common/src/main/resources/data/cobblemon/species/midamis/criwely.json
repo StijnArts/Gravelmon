@@ -74,7 +74,8 @@
     "36:xscissor",
     "40:rockpolish",
     "44:shellsmash",
-    "48:rockwrecker"
+    "48:rockwrecker",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4365,
+  "nationalPokedexNumber": 4373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

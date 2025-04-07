@@ -155,7 +155,8 @@
     "tm:sandtomb",
     "tm:rollout",
     "tm:smokescreen",
-    "tm:destinybond"
+    "tm:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -170,7 +171,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4842,
+  "nationalPokedexNumber": 4850,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

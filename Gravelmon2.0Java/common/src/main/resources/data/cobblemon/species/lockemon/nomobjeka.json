@@ -79,7 +79,8 @@
     "44:destinybond",
     "48:quickguard",
     "52:playrough",
-    "56:spiritbreak"
+    "56:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -92,7 +93,7 @@
   "weight": 131,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3412,
+  "nationalPokedexNumber": 3420,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

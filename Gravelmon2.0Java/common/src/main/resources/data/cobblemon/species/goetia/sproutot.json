@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "10:megadrain",
+    "10:payback",
+    "15:magicalleaf",
+    "15:nightdaze",
+    "20:gigadrain",
+    "20:snarl",
+    "25:energyball",
+    "25:knockoff",
+    "30:solarbeam",
+    "30:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5999,
+  "nationalPokedexNumber": 6007,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -71,7 +71,8 @@
     "53:dragonclaw",
     "70:fireblast",
     "79:dragonpulse",
-    "94:dragonrush"
+    "94:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4487,
+  "nationalPokedexNumber": 4495,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.625,

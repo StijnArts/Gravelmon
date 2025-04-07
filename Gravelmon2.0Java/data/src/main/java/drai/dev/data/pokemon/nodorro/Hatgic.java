@@ -23,7 +23,8 @@ public class Hatgic extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("- Confusion Psychic 5 Confuse Ray Ghost 13 Trick Psychic 16 Curse Ghost 20 Psywave Psychic 24 Ominous WindSTAB Ghost 27 Psyshock Psychic 29 Trick Room Psychic 32 Switcheroo Dark 34 Teleport Psychic 40 Destiny Bond Ghost 45 Shadow BallSTAB Ghost"),
-                List.of(),
+                List.of(new EvolutionEntry("hoodrikus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,5),
@@ -39,7 +40,11 @@ public class Hatgic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_BALL,45)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SPOOKY).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hatgic");

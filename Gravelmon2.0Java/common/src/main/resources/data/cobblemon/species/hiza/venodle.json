@@ -74,7 +74,8 @@
     "36:nightslash",
     "41:wringout",
     "46:coil",
-    "52:gunkshot"
+    "52:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2337,
+  "nationalPokedexNumber": 2345,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

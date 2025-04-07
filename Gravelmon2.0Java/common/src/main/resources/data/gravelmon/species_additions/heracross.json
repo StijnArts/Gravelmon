@@ -64,7 +64,19 @@
       "drops": {},
       "moves": [
         "1:strugglebug",
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:stringshot",
+        "1:screech",
+        "4:leechlife",
+        "4:irontail",
+        "7:lunge",
+        "7:smartstrike",
+        "10:xscissor",
+        "10:ironhead",
+        "13:uturn",
+        "13:meteormash",
+        "16:megahorn",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -237,7 +249,8 @@
         "egg:bugbite",
         "egg:rockblast",
         "egg:bodyslam",
-        "egg:xscissor"
+        "egg:xscissor",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

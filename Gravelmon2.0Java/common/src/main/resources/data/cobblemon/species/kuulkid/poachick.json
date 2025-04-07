@@ -59,7 +59,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:gust"
+    "1:gust",
+    "1:leer",
+    "4:aircutter",
+    "7:wingattack",
+    "10:airslash",
+    "13:drillpeck",
+    "16:hurricane",
+    "19:peck",
+    "22:leer",
+    "25:pluck",
+    "28:wingattack",
+    "31:aerialace",
+    "34:drillpeck",
+    "39:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -87,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2149,
+  "nationalPokedexNumber": 2157,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

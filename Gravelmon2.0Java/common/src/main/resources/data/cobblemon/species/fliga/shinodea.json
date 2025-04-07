@@ -83,7 +83,8 @@
     "tm:silverwind",
     "tm:nightslash",
     "tm:bugbuzz",
-    "tm:finalgambit"
+    "tm:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -98,7 +99,7 @@
   "weight": 120,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3929,
+  "nationalPokedexNumber": 3937,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -65,7 +65,8 @@
       "drops": {},
       "moves": [
         "1:harden",
-        "9:protect"
+        "9:protect",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",

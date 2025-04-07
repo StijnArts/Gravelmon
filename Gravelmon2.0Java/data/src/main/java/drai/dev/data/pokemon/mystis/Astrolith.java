@@ -16,8 +16,8 @@ public class Astrolith extends drai.dev.data.pokemon.Pokemon {
                         80,
                         25),
                 List.of(Ability.LEVITATE), Ability.ANALYTIC,
-                0, 0,
-                new Stats(0,0,0,3,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -91,7 +91,11 @@ public class Astrolith extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(36).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DEEP_DARK)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Astrolith");

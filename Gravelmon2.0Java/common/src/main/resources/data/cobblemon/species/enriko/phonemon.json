@@ -78,7 +78,8 @@
     "47:perishsong",
     "53:batonpass",
     "56:nastyplot",
-    "65:boomburst"
+    "65:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1702,
+  "nationalPokedexNumber": 1705,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

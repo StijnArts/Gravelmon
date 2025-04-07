@@ -63,7 +63,8 @@
     "1:watergun",
     "1:absorb",
     "1:recover",
-    "1:clearsmog"
+    "1:clearsmog",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -91,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1876,
+  "nationalPokedexNumber": 1879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

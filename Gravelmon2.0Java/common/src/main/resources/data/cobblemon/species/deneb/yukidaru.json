@@ -71,10 +71,12 @@
     "15:cometpunch",
     "19:avalanche",
     "24:supersonic",
+    "28:quickturn",
     "33:minimize",
     "37:dragonclaw",
     "42:iciclecrash",
     "46:haze",
+    "51:cryoshock",
     "55:dragondance",
     "64:dragonrush",
     "tm:waterpulse",
@@ -87,6 +89,7 @@
     "tutor:acidarmor",
     "tutor:iceball",
     "tutor:bodyslam",
+    "tutor:iceentomb",
     "tutor:frostbreath",
     "tutor:megapunch",
     "tutor:doubleedge",
@@ -94,11 +97,13 @@
     "egg:harden",
     "egg:outrage",
     "egg:iceshard",
+    "egg:chromeball",
     "egg:dualchop",
     "egg:iciclespear",
     "egg:block",
     "egg:blizzard",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -125,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4663,
+  "nationalPokedexNumber": 4671,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

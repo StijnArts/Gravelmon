@@ -94,7 +94,8 @@
     "tm:guillotine",
     "tm:doublehit",
     "tm:furycutter",
-    "tm:irondefense"
+    "tm:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1560,
+  "nationalPokedexNumber": 1563,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

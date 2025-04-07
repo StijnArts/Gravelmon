@@ -184,7 +184,7 @@ public class EpochGible extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 31, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 31, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

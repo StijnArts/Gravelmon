@@ -78,7 +78,8 @@
     "54:poltergeist",
     "60:recover",
     "65:inferno",
-    "73:perishsong"
+    "73:perishsong",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3523,
+  "nationalPokedexNumber": 3531,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

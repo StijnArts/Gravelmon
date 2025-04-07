@@ -84,7 +84,8 @@
     "tm:uturn",
     "tm:snowscape",
     "tm:rest",
-    "tm:grassknot"
+    "tm:grassknot",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4066,
+  "nationalPokedexNumber": 4074,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

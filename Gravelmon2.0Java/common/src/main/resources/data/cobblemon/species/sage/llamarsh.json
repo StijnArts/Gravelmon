@@ -134,7 +134,8 @@
     "egg:confuseray",
     "egg:headsmash",
     "egg:naturepower",
-    "egg:takedown"
+    "egg:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

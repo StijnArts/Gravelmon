@@ -46,6 +46,8 @@ public class Gravelmon
 	private static void gravelmonFormEvolutions() {
 		SpeciesManager.registerFormEvolution("sandslash alolan", new EvolutionEntry("sandridger alolan", EvolutionType.LEVEL_UP, List.of(),
 				List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))));
+		SpeciesManager.registerFormEvolution("farfetchd galarian", new EvolutionEntry("sirfetchd ishirian", EvolutionType.LEVEL_UP, List.of(),
+				List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55"))));
 	}
 
 	private static void registerMoveInsertions(){
@@ -69,6 +71,15 @@ public class Gravelmon
 		GravelmonMoveSubstitution.registerMoveInsertion("dunsparce", new MoveLearnSetEntry(Move.DIG, 31));
 		GravelmonMoveSubstitution.registerMoveInsertion("wingull", new MoveLearnSetEntry(Move.ACROBATICS, 33));
 		GravelmonMoveSubstitution.registerMoveInsertion("kecleon", new MoveLearnSetEntry(Move.THIEF, 36));
+		GravelmonMoveSubstitution.registerMoveInsertion("citpig", new MoveLearnSetEntry(Move.PAY_DAY, 32));
+		GravelmonMoveSubstitution.registerMoveInsertion("kippsie", new MoveLearnSetEntry(Move.FLY, 28));
+		GravelmonMoveSubstitution.registerMoveInsertion("moustiny", new MoveLearnSetEntry(Move.GROWTH, 28));
+		GravelmonMoveSubstitution.registerMoveInsertion("spudspark", new MoveLearnSetEntry(Move.CHARGE, 28));
+		GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.SOUND_PLEDGE, 30));
+		GravelmonMoveSubstitution.registerMoveInsertion("eevee", new MoveLearnSetEntry(Move.DRAGON_PLEDGE, 30));
+		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.CRUNCH, 30));
+		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.CALM_MIND, 30));
+		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.SACRED_SWORD, 30));
 
 	}
 }

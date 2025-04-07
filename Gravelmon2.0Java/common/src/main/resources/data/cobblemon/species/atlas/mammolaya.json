@@ -111,7 +111,8 @@
     "tm:roar",
     "tm:calmmind",
     "tm:taunt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5172,
+  "nationalPokedexNumber": 5180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

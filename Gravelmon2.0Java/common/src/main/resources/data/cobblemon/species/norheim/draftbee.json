@@ -72,7 +72,8 @@
     "36:taunt",
     "40:flamecharge",
     "44:lunge",
-    "50:memento"
+    "50:memento",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3090,
+  "nationalPokedexNumber": 3098,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

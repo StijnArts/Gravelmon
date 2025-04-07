@@ -93,7 +93,8 @@
     "tutor:skillswap",
     "tutor:zenheadbutt",
     "tutor:futuresight",
-    "tutor:boomburst"
+    "tutor:boomburst",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -106,7 +107,7 @@
   "weight": 160,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4664,
+  "nationalPokedexNumber": 4672,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

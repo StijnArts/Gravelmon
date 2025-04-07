@@ -63,7 +63,22 @@
     "1:acid",
     "1:absorb",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:clearsmog",
+    "10:megadrain",
+    "15:sludge",
+    "15:magicalleaf",
+    "20:toxicspikes",
+    "20:gigadrain",
+    "25:sludgebomb",
+    "25:energyball",
+    "30:sludgewave",
+    "30:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6079,
+  "nationalPokedexNumber": 6087,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

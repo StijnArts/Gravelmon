@@ -126,7 +126,8 @@
         "egg:confusion",
         "egg:eeriespell",
         "egg:extrasensory",
-        "egg:psychicterrain"
+        "egg:psychicterrain",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -274,7 +275,8 @@
         "egg:synthesis",
         "egg:scaleshot",
         "egg:spikecannon",
-        "egg:iciclespear"
+        "egg:iciclespear",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -426,7 +428,8 @@
         "egg:counter",
         "egg:autotomize",
         "egg:honeclaws",
-        "egg:solarblade"
+        "egg:solarblade",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -553,6 +556,7 @@
         "tm:focusblast",
         "tm:geomancy",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:irondefense",
         "tm:ironhead",
@@ -596,7 +600,8 @@
         "egg:anchorshot",
         "egg:woodhammer",
         "egg:dragonhammer",
-        "egg:icehammer"
+        "egg:icehammer",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -710,7 +715,8 @@
         "42:ironhead",
         "20:swordsdance",
         "egg:metalsound",
-        "egg:wideguard"
+        "egg:wideguard",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

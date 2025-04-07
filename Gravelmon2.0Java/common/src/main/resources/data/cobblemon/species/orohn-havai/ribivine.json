@@ -74,7 +74,8 @@
     "35:crosschop",
     "45:powerwhip",
     "50:agility",
-    "tm:swordsdance"
+    "tm:swordsdance",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 2995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

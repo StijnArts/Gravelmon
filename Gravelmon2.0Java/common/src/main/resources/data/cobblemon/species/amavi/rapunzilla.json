@@ -73,7 +73,8 @@
     "43:lunge",
     "47:gastroacid",
     "51:hurricane",
-    "55:outrage"
+    "55:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5213,
+  "nationalPokedexNumber": 5221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

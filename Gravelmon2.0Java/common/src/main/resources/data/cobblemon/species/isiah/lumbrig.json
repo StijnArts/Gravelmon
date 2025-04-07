@@ -74,7 +74,8 @@
     "42:acupressure",
     "49:sandstorm",
     "55:coil",
-    "62:fissure"
+    "62:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4232,
+  "nationalPokedexNumber": 4240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

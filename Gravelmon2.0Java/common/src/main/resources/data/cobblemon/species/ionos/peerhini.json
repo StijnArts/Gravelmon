@@ -79,7 +79,8 @@
     "48:playrough",
     "53:wish",
     "58:superfang",
-    "63:aromatherapy"
+    "63:aromatherapy",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4790,
+  "nationalPokedexNumber": 4798,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

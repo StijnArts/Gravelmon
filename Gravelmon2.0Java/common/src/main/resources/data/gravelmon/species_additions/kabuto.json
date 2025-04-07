@@ -120,7 +120,8 @@
         "egg:razorleaf",
         "egg:poisonfang",
         "egg:detect",
-        "egg:beatup"
+        "egg:beatup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -291,7 +292,8 @@
         "egg:agility",
         "egg:knockoff",
         "egg:focusenergy",
-        "egg:leechlife"
+        "egg:leechlife",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -458,7 +460,8 @@
         "tutor:mimic",
         "tutor:signalbeam",
         "tutor:snore",
-        "tutor:spite"
+        "tutor:spite",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

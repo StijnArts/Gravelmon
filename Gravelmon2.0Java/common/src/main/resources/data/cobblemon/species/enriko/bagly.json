@@ -68,7 +68,8 @@
     "15:playnice",
     "18:taunt",
     "22:knockoff",
-    "25:slam"
+    "25:slam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1641,
+  "nationalPokedexNumber": 1644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

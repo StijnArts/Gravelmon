@@ -70,7 +70,7 @@ public class SolRotom extends Pokemon {
                 ),
                 List.of(Label.GEN4,Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 65, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 65, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

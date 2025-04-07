@@ -72,7 +72,8 @@
     "37:discharge",
     "40:spotlight",
     "44:psyshock",
-    "49:thunderbolt"
+    "49:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4349,
+  "nationalPokedexNumber": 4357,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

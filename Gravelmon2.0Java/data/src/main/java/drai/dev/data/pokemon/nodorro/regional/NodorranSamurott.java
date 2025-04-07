@@ -16,8 +16,8 @@ public class NodorranSamurott extends drai.dev.data.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.INFILTRATOR), Ability.SHADOW_TAG,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -53,9 +53,16 @@ public class NodorranSamurott extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_COLD_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setCanFly(true);
            setLangFileName("Samurott");
 
     }

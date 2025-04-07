@@ -158,7 +158,8 @@
     "1:amnesia",
     "1:headbutt",
     "1:detect",
-    "1:extrasensory"
+    "1:extrasensory",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -173,7 +174,7 @@
   "weight": 980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3244,
+  "nationalPokedexNumber": 3252,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

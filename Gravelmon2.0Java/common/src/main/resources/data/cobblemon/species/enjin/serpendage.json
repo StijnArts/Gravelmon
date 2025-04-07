@@ -138,7 +138,8 @@
     "tm:destinybond",
     "tm:grudge",
     "tm:shadowsneak",
-    "tm:poisonfang"
+    "tm:poisonfang",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -153,7 +154,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4678,
+  "nationalPokedexNumber": 4686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -74,7 +74,8 @@
     "40:heavyslam",
     "44:phantomforce",
     "48:rockslide",
-    "52:earthquake"
+    "52:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -87,7 +88,7 @@
   "weight": 124,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3431,
+  "nationalPokedexNumber": 3439,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

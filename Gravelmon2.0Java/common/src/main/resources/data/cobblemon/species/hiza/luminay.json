@@ -76,7 +76,8 @@
     "51:hydropump",
     "58:dragondance",
     "65:raindance",
-    "72:wavecrash"
+    "72:wavecrash",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2356,
+  "nationalPokedexNumber": 2364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

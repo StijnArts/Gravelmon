@@ -76,7 +76,8 @@
     "45:thrash",
     "50:swordsdance",
     "55:megahorn",
-    "60:closecombat"
+    "60:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2310,
+  "nationalPokedexNumber": 2318,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

@@ -84,7 +84,8 @@
     "tm:bugbite",
     "tm:belch",
     "tm:teatime",
-    "tm:clamp"
+    "tm:clamp",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1412,
+  "nationalPokedexNumber": 1415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

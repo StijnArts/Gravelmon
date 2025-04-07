@@ -67,7 +67,8 @@
     "1:doublekick",
     "1:earthquake",
     "1:sandstorm",
-    "54:superpower"
+    "54:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1658,
+  "nationalPokedexNumber": 1661,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

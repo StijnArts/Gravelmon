@@ -104,6 +104,7 @@
     "tm:grasspledge",
     "tm:leafstorm",
     "tm:solarbeam",
+    "tm:terablast",
     "tm:terablast"
   ],
   "labels": [
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4655,
+  "nationalPokedexNumber": 4663,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

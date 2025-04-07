@@ -117,7 +117,8 @@
     "egg:gigadrain",
     "egg:petaldance",
     "tutor:frenzyplant",
-    "tutor:secretpower"
+    "tutor:secretpower",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -132,7 +133,7 @@
   "weight": 320,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1834,
+  "nationalPokedexNumber": 1837,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

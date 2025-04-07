@@ -76,7 +76,8 @@
     "42:flamethrower",
     "46:woodhammer",
     "54:fireblast",
-    "60:explosion"
+    "60:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1738,
+  "nationalPokedexNumber": 1741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

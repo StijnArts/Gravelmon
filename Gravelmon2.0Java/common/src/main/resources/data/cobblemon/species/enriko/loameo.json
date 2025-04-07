@@ -69,7 +69,8 @@
     "36:switcheroo",
     "42:dazzlinggleam",
     "48:bugbuzz",
-    "54:quiverdance"
+    "54:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1697,
+  "nationalPokedexNumber": 1700,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

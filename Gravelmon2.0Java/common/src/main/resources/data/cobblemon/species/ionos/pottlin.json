@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:scratch"
+    "1:scratch",
+    "1:leer",
+    "10:twister",
+    "15:dragonbreath",
+    "20:breakingswipe",
+    "25:dragonpulse",
+    "30:dracometeor",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -87,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4777,
+  "nationalPokedexNumber": 4785,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

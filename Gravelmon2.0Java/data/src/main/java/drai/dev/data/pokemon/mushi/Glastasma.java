@@ -16,7 +16,7 @@ public class Glastasma extends drai.dev.data.pokemon.Pokemon {
                         137,
                         36),
                 List.of(Ability.CURSED_BODY,Ability.INTIMIDATE), Ability.SNOW_WARNING,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,2,0), 75,
                 0.5,
                 159, ExperienceGroup.FAST,
@@ -27,7 +27,11 @@ public class Glastasma extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MUSHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY_FOREST).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Glastasma");

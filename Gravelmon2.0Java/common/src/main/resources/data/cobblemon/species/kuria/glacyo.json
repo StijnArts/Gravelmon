@@ -76,7 +76,8 @@
     "47:extremespeed",
     "51:flamethrower",
     "61:recover",
-    "67:flashcannon"
+    "67:flashcannon",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -91,7 +92,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4217,
+  "nationalPokedexNumber": 4225,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

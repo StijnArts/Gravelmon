@@ -129,7 +129,8 @@
         "tm:taunt",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -309,7 +310,8 @@
         "tm:crunch",
         "tm:hammerarm",
         "tm:stomp",
-        "tm:accelerock"
+        "tm:accelerock",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

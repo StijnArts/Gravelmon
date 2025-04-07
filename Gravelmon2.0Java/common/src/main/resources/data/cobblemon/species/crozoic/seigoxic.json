@@ -158,7 +158,8 @@
     "tm:toxic",
     "tm:venomdrench",
     "tm:venoshock",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -173,7 +174,7 @@
   "weight": 432,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3246,
+  "nationalPokedexNumber": 3254,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:confusion",
-    "1:bite"
+    "1:bite",
+    "1:growl",
+    "1:leer",
+    "4:psybeam",
+    "4:payback",
+    "7:futuresight",
+    "7:nightslash",
+    "10:psychic",
+    "10:crunch",
+    "13:zenheadbutt",
+    "13:knockoff",
+    "16:psychocut",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2510,
+  "nationalPokedexNumber": 2518,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

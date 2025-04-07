@@ -76,7 +76,8 @@
     "39:moonlight",
     "43:uturn",
     "47:powder",
-    "52:moonblast"
+    "52:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3112,
+  "nationalPokedexNumber": 3120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

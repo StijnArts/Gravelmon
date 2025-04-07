@@ -151,7 +151,8 @@
         "egg:leechseed",
         "egg:ragepowder",
         "egg:psychicfangs",
-        "egg:facade"
+        "egg:facade",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -294,7 +295,8 @@
         "egg:sleeppowder",
         "egg:stunspore",
         "egg:synthesis",
-        "egg:worryseed"
+        "egg:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

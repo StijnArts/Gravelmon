@@ -106,7 +106,8 @@
     "tm:bulkup",
     "tm:taunt",
     "tm:toxic",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4273,
+  "nationalPokedexNumber": 4281,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

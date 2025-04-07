@@ -77,7 +77,8 @@
     "44:synchronoise",
     "50:calmmind",
     "56:futuresight",
-    "60:electricterrain"
+    "60:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1683,
+  "nationalPokedexNumber": 1686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

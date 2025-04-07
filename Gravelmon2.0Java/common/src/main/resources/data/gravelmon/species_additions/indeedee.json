@@ -187,7 +187,8 @@
         "tm:zenheadbutt",
         "egg:mudshot",
         "egg:mudslide",
-        "egg:muddywater"
+        "egg:muddywater",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

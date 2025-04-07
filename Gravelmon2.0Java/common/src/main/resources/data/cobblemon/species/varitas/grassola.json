@@ -76,7 +76,8 @@
     "45:aromatherapy",
     "50:energyball",
     "56:moonblast",
-    "63:petaldance"
+    "63:petaldance",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1943,
+  "nationalPokedexNumber": 1946,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

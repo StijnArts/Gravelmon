@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rattata-ishirian",
+  "speciesId": "cobblemon:rattata",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

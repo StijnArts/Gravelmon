@@ -76,7 +76,8 @@
     "41:calmmind",
     "47:airslash",
     "52:allyswitch",
-    "60:healingwish"
+    "60:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2988,
+  "nationalPokedexNumber": 2996,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

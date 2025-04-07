@@ -73,7 +73,8 @@
     "38:playrough",
     "41:floralhealing",
     "45:energyball",
-    "65:flowershield"
+    "65:flowershield",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4021,
+  "nationalPokedexNumber": 4029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

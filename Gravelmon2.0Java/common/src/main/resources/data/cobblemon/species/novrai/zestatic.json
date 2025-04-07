@@ -139,7 +139,8 @@
     "tm:stunspore",
     "tm:laserfocus",
     "tm:watersport",
-    "tm:leafstorm"
+    "tm:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4907,
+  "nationalPokedexNumber": 4915,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

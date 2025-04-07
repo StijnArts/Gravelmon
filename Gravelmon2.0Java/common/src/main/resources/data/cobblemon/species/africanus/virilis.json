@@ -66,7 +66,8 @@
     "28:magicalleaf",
     "20:drainingkiss",
     "36:dazzlinggleam",
-    "24:psybeam"
+    "24:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1954,
+  "nationalPokedexNumber": 1957,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -101,7 +101,8 @@
     "tm:swift",
     "tm:venoshock",
     "tm:waterfall",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -116,7 +117,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2277,
+  "nationalPokedexNumber": 2285,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -145,7 +145,8 @@
         "egg:machpunch",
         "egg:healingwish",
         "egg:seismictoss",
-        "egg:courtchange"
+        "egg:courtchange",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -309,7 +310,8 @@
         "egg:encore",
         "egg:poweruppunch",
         "egg:taunt",
-        "egg:wish"
+        "egg:wish",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",

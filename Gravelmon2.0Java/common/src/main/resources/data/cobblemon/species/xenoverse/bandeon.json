@@ -130,7 +130,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:soundbarrier",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",
@@ -143,7 +144,7 @@
   "weight": 265,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1828,
+  "nationalPokedexNumber": 1831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

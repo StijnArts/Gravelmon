@@ -72,7 +72,8 @@
     "33:seedbomb",
     "43:naturepower",
     "47:suckerpunch",
-    "55:frenzyplant"
+    "55:frenzyplant",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1401,
+  "nationalPokedexNumber": 1404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -80,7 +80,8 @@
     "egg:sandattack",
     "egg:skyattack",
     "egg:spite",
-    "egg:tailwind"
+    "egg:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1919,
+  "nationalPokedexNumber": 1922,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

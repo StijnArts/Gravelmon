@@ -61,7 +61,21 @@
   ],
   "drops": {},
   "moves": [
-    "1:powdersnow"
+    "1:powdersnow",
+    "1:growl",
+    "4:icywind",
+    "7:aurorabeam",
+    "10:freezedry",
+    "13:icebeam",
+    "16:blizzard",
+    "19:powdersnow",
+    "22:growl",
+    "25:icywind",
+    "28:icepunch",
+    "31:icespinner",
+    "34:iceshard",
+    "39:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",
@@ -76,7 +90,7 @@
   "weight": 175,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1375,
+  "nationalPokedexNumber": 1377,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

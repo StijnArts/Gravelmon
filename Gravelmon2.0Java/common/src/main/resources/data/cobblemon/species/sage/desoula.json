@@ -141,7 +141,8 @@
     "egg:nightslash",
     "egg:skydrop",
     "egg:steelwing",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

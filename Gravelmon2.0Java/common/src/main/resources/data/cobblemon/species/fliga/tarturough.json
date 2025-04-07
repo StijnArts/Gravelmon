@@ -96,7 +96,8 @@
     "tm:wildcharge",
     "tm:zenheadbutt",
     "tm:rockslide",
-    "tm:brutalswing"
+    "tm:brutalswing",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -111,7 +112,7 @@
   "weight": 1103,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3962,
+  "nationalPokedexNumber": 3970,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

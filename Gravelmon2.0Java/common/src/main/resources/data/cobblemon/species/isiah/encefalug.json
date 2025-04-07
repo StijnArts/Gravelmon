@@ -78,7 +78,8 @@
     "44:synchronoise",
     "50:calmmind",
     "56:futuresight",
-    "60:electricterrain"
+    "60:electricterrain",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4240,
+  "nationalPokedexNumber": 4248,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

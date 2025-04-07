@@ -133,7 +133,8 @@
     "tutor:stealthrock",
     "tutor:superpower",
     "tutor:uproar",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -148,7 +149,7 @@
   "weight": 288,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1809,
+  "nationalPokedexNumber": 1812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

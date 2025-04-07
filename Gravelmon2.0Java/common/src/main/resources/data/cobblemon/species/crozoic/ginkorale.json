@@ -74,7 +74,8 @@
     "1:leaftornado",
     "1:aromatherapy",
     "1:woodhammer",
-    "1:healbell"
+    "1:healbell",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -87,7 +88,7 @@
   "weight": 685,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3294,
+  "nationalPokedexNumber": 3302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

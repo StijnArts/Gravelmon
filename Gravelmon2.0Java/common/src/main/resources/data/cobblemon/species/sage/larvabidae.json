@@ -109,7 +109,8 @@
     "egg:furycutter",
     "egg:leechlife",
     "egg:pursuit",
-    "egg:twineedle"
+    "egg:twineedle",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

@@ -73,7 +73,8 @@
     "43:lunge",
     "47:gastroacid",
     "51:hurricane",
-    "55:outrage"
+    "55:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4286,
+  "nationalPokedexNumber": 4294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

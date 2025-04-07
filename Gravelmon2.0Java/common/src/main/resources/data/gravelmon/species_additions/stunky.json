@@ -140,7 +140,8 @@
         "egg:shadowclaw",
         "egg:coaching",
         "egg:nightshade",
-        "egg:crunch"
+        "egg:crunch",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

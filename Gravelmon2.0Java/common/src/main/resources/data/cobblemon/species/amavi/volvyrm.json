@@ -74,7 +74,8 @@
     "47:thunderbolt",
     "50:outrage",
     "56:playrough",
-    "61:thunder"
+    "61:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5305,
+  "nationalPokedexNumber": 5313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

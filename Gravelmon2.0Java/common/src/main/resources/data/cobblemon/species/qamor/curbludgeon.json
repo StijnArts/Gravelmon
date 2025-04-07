@@ -72,7 +72,8 @@
     "44:powertrick",
     "49:shieldbash",
     "56:metalburst",
-    "63:shellsmash"
+    "63:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4057,
+  "nationalPokedexNumber": 4065,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

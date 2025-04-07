@@ -141,7 +141,8 @@
     "tm:ominouswind",
     "tm:grudge",
     "tm:stunspore",
-    "tm:sleeppowder"
+    "tm:sleeppowder",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -154,7 +155,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1572,
+  "nationalPokedexNumber": 1575,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

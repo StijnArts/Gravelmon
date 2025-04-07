@@ -87,7 +87,7 @@ public class Vultox extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLY,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 26, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 26, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

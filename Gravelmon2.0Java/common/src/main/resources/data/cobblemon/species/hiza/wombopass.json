@@ -116,7 +116,8 @@
     "tm:terablast",
     "tm:smackdown",
     "tm:highhorsepower",
-    "tm:focuspunch"
+    "tm:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2381,
+  "nationalPokedexNumber": 2389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

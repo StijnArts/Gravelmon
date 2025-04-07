@@ -121,7 +121,8 @@
     "egg:sonicboom",
     "egg:batonpass",
     "egg:pursuit",
-    "egg:signalbeam"
+    "egg:signalbeam",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1996,
+  "nationalPokedexNumber": 1999,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

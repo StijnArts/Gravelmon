@@ -136,7 +136,8 @@
     "tm:drillpeck",
     "tm:mudsport",
     "tm:laserfocus",
-    "tm:skullbash"
+    "tm:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4988,
+  "nationalPokedexNumber": 4996,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

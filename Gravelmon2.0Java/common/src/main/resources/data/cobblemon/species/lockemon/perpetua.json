@@ -74,7 +74,8 @@
     "48:sludgewave",
     "56:nastyplot",
     "64:futuresight",
-    "72:partingshot"
+    "72:partingshot",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -89,7 +90,7 @@
   "weight": 345,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3401,
+  "nationalPokedexNumber": 3409,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

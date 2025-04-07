@@ -97,6 +97,7 @@
     "tutor:wormhole",
     "tutor:blackhole",
     "egg:assist",
+    "egg:chromeball",
     "egg:fakeout",
     "egg:foulplay",
     "egg:leer",
@@ -106,7 +107,8 @@
     "egg:snatch",
     "egg:suckerpunch",
     "egg:swift",
-    "egg:torment"
+    "egg:torment",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -136,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4640,
+  "nationalPokedexNumber": 4648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

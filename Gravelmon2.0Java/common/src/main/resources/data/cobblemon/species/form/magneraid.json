@@ -64,7 +64,22 @@
     "1:acid",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:screech",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:clearsmog",
+    "4:irontail",
+    "7:sludge",
+    "7:smartstrike",
+    "10:toxicspikes",
+    "10:mirrorshot",
+    "13:sludgebomb",
+    "13:flashcannon",
+    "16:sludgewave",
+    "16:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3761,
+  "nationalPokedexNumber": 3769,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

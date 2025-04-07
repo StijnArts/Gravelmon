@@ -62,7 +62,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:mudslap"
+    "1:mudslap",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -90,7 +91,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2105,
+  "nationalPokedexNumber": 2108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

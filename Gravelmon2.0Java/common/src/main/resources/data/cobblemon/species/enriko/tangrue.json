@@ -68,7 +68,8 @@
     "15:stunspore",
     "17:growth",
     "22:tailslap",
-    "25:feintattack"
+    "25:feintattack",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

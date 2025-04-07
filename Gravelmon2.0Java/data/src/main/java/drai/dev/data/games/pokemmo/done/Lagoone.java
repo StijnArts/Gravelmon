@@ -73,7 +73,10 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sandime());
         addNewPokemon(new Starena());
 
-        addPokedexPokemon("litwick-lagoonan, lampent-lagoonan, chandelure-lagoonan, finneon-lagoonan, lumineon-lagoonan");
+        addPokedexPokemon("litwick-lagoonan, lampent-lagoonan, chandelure-lagoonan");
+        addNewPokemon(new Caskute());
+        addNewPokemon(new Barammer());
+        addPokedexPokemon("finneon-lagoonan, lumineon-lagoonan");
         addNewPokemon(new Gloomineon());
         addNewPokemon(new Boulblin());
         addNewPokemon(new Lonestone());
@@ -106,6 +109,8 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Drasalys());
         addNewPokemon(new Dralytra());
         addNewPokemon(new Cerakeet());
+        addPokedexPokemon("tinkatink-lagoonan, tinkatuff-lagoonan, tinkaton-lagoonan, goldeen");
+        addNewPokemon(new Seasurper());
         addNewPokemon(new Veneko());
         addNewPokemon(new Toxunken());
         addNewPokemon(new Skullocaris());

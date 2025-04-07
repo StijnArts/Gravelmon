@@ -62,7 +62,8 @@
   "drops": {},
   "moves": [
     "18:endure",
-    "20:bide"
+    "20:bide",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

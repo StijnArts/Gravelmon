@@ -79,7 +79,8 @@
     "38:guardsplit",
     "38:powersplit",
     "43:sandstorm",
-    "48:explosion"
+    "48:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2325,
+  "nationalPokedexNumber": 2333,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

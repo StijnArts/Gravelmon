@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:stringshot",
+    "1:screech",
+    "4:leechlife",
+    "4:irontail",
+    "7:lunge",
+    "7:smartstrike",
+    "10:xscissor",
+    "10:ironhead",
+    "13:uturn",
+    "13:meteormash",
+    "16:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2638,
+  "nationalPokedexNumber": 2646,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

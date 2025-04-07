@@ -76,7 +76,8 @@
     "1:gravity",
     "1:zenheadbutt",
     "1:cosmicpower",
-    "1:crushgrip"
+    "1:crushgrip",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1894,
+  "nationalPokedexNumber": 1897,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

@@ -115,7 +115,8 @@
     "tm:solarbeam",
     "tm:substitute",
     "tm:sunnyday",
-    "tm:superpower"
+    "tm:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -128,7 +129,7 @@
   "weight": 1500,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4108,
+  "nationalPokedexNumber": 4116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -95,7 +95,8 @@
     "tm:sludgewave",
     "tm:toxic",
     "tm:rest",
-    "tm:scald"
+    "tm:scald",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2452,
+  "nationalPokedexNumber": 2460,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

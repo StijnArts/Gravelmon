@@ -138,7 +138,7 @@ public class AyreianAron extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 25, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 25, 9, List.of(
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA),
                 0.29, 0.3,

@@ -23,11 +23,16 @@ public class Flamupet extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("As they fear the bird-like Pokémon and are not capable of running away from the predators, they tend to hide inside tree trunks until they would evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("flamothra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(13).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Flamupet");

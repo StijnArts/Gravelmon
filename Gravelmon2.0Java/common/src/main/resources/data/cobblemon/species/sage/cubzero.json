@@ -121,7 +121,8 @@
     "egg:nightslash",
     "egg:scaryface",
     "egg:slash",
-    "egg:thunderfang"
+    "egg:thunderfang",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

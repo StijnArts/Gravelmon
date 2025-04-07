@@ -72,7 +72,8 @@
     "28:swagger",
     "32:crunch",
     "36:ominouswind",
-    "40:darkpulse"
+    "40:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1685,
+  "nationalPokedexNumber": 1688,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

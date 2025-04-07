@@ -73,7 +73,8 @@
     "31:roost",
     "35:hypervoice",
     "38:drillpeck",
-    "45:bravebird"
+    "45:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4420,
+  "nationalPokedexNumber": 4428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

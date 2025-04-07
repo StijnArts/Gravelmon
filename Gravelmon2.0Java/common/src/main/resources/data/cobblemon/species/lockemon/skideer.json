@@ -79,7 +79,8 @@
     "42:sheercold",
     "egg:focuspunch",
     "egg:nightslash",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3432,
+  "nationalPokedexNumber": 3440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

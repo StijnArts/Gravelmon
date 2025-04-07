@@ -145,7 +145,8 @@
     "egg:earthpower",
     "egg:memento",
     "egg:psyshock",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

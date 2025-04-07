@@ -81,7 +81,8 @@
     "tm:boomburst",
     "tm:silverwind",
     "tm:extrasensory",
-    "tm:imprison"
+    "tm:imprison",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4452,
+  "nationalPokedexNumber": 4460,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

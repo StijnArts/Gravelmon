@@ -72,7 +72,8 @@
     "40:shiftgear",
     "45:dragonpulse",
     "51:doubleedge",
-    "57:dragonrush"
+    "57:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4782,
+  "nationalPokedexNumber": 4790,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

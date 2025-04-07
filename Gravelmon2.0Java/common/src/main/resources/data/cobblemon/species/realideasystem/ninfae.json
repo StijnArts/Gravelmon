@@ -92,7 +92,8 @@
     "egg:petaldance",
     "egg:powerwhip",
     "egg:skullbash",
-    "egg:sludge"
+    "egg:sludge",
+    "tm:terablast"
   ],
   "labels": [
     "realidea_system",

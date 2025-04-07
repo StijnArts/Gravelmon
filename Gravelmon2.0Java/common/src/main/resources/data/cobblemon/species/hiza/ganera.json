@@ -73,7 +73,8 @@
     "34:calmmind",
     "40:psychic",
     "47:psychup",
-    "60:recover"
+    "60:recover",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

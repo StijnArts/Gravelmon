@@ -75,7 +75,8 @@
     "51:reflect",
     "56:drillpeck",
     "61:batonpass",
-    "66:wideguard"
+    "66:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2970,
+  "nationalPokedexNumber": 2978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

@@ -74,7 +74,8 @@
     "32:crunch",
     "36:agility",
     "40:liquidation",
-    "44:takedown"
+    "44:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4268,
+  "nationalPokedexNumber": 4276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

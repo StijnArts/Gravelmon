@@ -155,7 +155,8 @@
     "egg:endure",
     "egg:morningsun",
     "egg:naturepower",
-    "egg:sweetscent"
+    "egg:sweetscent",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

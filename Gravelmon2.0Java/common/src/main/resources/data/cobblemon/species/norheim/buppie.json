@@ -73,7 +73,8 @@
     "35:aquatail",
     "37:doubleedge",
     "41:faketears",
-    "43:hydropump"
+    "43:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3073,
+  "nationalPokedexNumber": 3081,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

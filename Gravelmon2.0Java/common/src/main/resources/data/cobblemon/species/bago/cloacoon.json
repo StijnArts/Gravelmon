@@ -61,7 +61,15 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:nastyplot",
+    "4:silverwind",
+    "7:signalbeam",
+    "10:infestation",
+    "13:uturn",
+    "16:bugbuzz",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -93,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2793,
+  "nationalPokedexNumber": 2801,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

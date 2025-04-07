@@ -71,7 +71,8 @@
     "37:discharge",
     "40:spotlight",
     "44:psyshock",
-    "49:thunderbolt"
+    "49:thunderbolt",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4348,
+  "nationalPokedexNumber": 4356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -77,7 +77,8 @@
     "49:partingshot",
     "egg:shadowsneak",
     "egg:drillpeck",
-    "egg:batonpass"
+    "egg:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -92,7 +93,7 @@
   "weight": 355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4124,
+  "nationalPokedexNumber": 4132,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

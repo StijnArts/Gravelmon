@@ -72,7 +72,8 @@
     "30:chatter",
     "36:followme",
     "40:snatch",
-    "50:featherdance"
+    "50:featherdance",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4718,
+  "nationalPokedexNumber": 4726,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

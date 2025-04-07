@@ -145,7 +145,8 @@
         "egg:thunderfang",
         "egg:zingzap",
         "egg:counter",
-        "egg:lowsweep"
+        "egg:lowsweep",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

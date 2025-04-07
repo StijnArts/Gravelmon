@@ -75,7 +75,8 @@
     "33:aerialace",
     "37:poisonjab",
     "41:embargo",
-    "45:gunkshot"
+    "45:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2271,
+  "nationalPokedexNumber": 2279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -86,6 +86,7 @@
         "tm:hail",
         "tm:haze",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hurricane",
         "tm:hypervoice",
@@ -130,7 +131,8 @@
         "egg:typhoon",
         "egg:safeguard",
         "egg:hurricane",
-        "egg:dazzlinggleam"
+        "egg:dazzlinggleam",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -250,7 +252,8 @@
         "egg:afteryou",
         "egg:bellydrum",
         "egg:copycat",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -390,7 +393,8 @@
         "tm:poisonjab",
         "tm:swagger",
         "tm:substitute",
-        "tutor:secretpower"
+        "tutor:secretpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

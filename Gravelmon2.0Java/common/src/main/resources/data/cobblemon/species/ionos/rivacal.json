@@ -77,7 +77,8 @@
     "45:psychic",
     "49:lastresort",
     "53:afteryou",
-    "60:psychocut"
+    "60:psychocut",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4813,
+  "nationalPokedexNumber": 4821,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

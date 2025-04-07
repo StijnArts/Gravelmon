@@ -141,7 +141,7 @@ public class EpochSkrelp extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPERTORRENT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 34, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 34, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER),

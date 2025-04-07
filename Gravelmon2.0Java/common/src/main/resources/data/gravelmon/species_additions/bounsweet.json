@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:watergun"
+        "1:watergun",
+        "1:leer",
+        "1:tailwhip",
+        "4:megadrain",
+        "4:bubblebeam",
+        "7:magicalleaf",
+        "7:brine",
+        "10:gigadrain",
+        "10:surf",
+        "13:energyball",
+        "13:chillingwater",
+        "16:solarbeam",
+        "16:hydropump",
+        "19:leafage",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:absorb",
+        "25:bubblebeam",
+        "28:trailblaze",
+        "28:aquatail",
+        "31:gigadrain",
+        "31:surf",
+        "34:seedbomb",
+        "34:waterfall",
+        "39:leafblade",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -175,6 +202,7 @@
         "tm:geomancy",
         "tm:haze",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hex",
         "tm:hiddenpower",
         "tm:hypervoice",
@@ -215,7 +243,8 @@
         "egg:thief",
         "egg:trick",
         "egg:obstruct",
-        "egg:morningsun"
+        "egg:morningsun",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -402,7 +431,8 @@
         "egg:plague",
         "egg:triplekick",
         "egg:banefulbunker",
-        "egg:venomdrench"
+        "egg:venomdrench",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -561,7 +591,8 @@
         "tm:grasswhistle",
         "tm:feint",
         "tm:acupressure",
-        "tm:playrough"
+        "tm:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",

@@ -74,7 +74,8 @@
     "1:tailwind",
     "1:luckychant",
     "1:aircutter",
-    "1:thundershock"
+    "1:thundershock",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4023,
+  "nationalPokedexNumber": 4031,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.125,

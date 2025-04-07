@@ -75,7 +75,8 @@
     "tm:disable",
     "tm:nastyplot",
     "tm:psychicfangs",
-    "tm:belch"
+    "tm:belch",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4479,
+  "nationalPokedexNumber": 4487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

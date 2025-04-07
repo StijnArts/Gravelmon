@@ -71,7 +71,8 @@
     "tm:shadowball",
     "tm:psychic",
     "tm:darkpulse",
-    "tm:rockslide"
+    "tm:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5104,
+  "nationalPokedexNumber": 5112,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

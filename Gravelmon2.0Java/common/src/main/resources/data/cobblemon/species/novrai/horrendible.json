@@ -149,7 +149,8 @@
     "tm:dragonbreath",
     "tm:sludge",
     "tm:waterspout",
-    "tm:rockblast"
+    "tm:rockblast",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4863,
+  "nationalPokedexNumber": 4871,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

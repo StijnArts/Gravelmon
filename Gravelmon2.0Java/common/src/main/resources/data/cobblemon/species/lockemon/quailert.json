@@ -80,7 +80,8 @@
     "egg:sandattack",
     "egg:skyattack",
     "egg:spite",
-    "egg:tailwind"
+    "egg:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3380,
+  "nationalPokedexNumber": 3388,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

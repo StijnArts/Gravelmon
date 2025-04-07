@@ -1,5 +1,25 @@
 {
   "target": "cobblemon:wartortle",
+  "evolutions": [
+    {
+      "id": "wartortle_boltoise",
+      "variant": "level_up",
+      "result": "boltoise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold_ocean"
+        },
+        {
+          "variant": "level",
+          "minLevel": "36"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "forms": [
     {
       "name": "Egho",
@@ -151,7 +171,8 @@
         "egg:mirrorcoat",
         "egg:muddywater",
         "egg:refresh",
-        "egg:waterspout"
+        "egg:waterspout",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -366,7 +387,8 @@
         "tutor:thunderpunch",
         "tutor:trick",
         "tutor:uproar",
-        "tutor:vacuumwave"
+        "tutor:vacuumwave",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -542,7 +564,8 @@
         "tutor:toxic",
         "tutor:workup",
         "tutor:zenheadbutt",
-        "tutor:thunderpunch"
+        "tutor:thunderpunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

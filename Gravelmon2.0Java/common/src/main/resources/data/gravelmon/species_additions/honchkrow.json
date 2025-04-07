@@ -133,7 +133,8 @@
         "tm:triattack",
         "tm:weatherball",
         "tm:wish",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -297,7 +298,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -395,7 +397,8 @@
         "27:suckerpunch",
         "30:leafblade",
         "33:featherdance",
-        "36:bravebird"
+        "36:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

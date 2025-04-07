@@ -75,7 +75,8 @@
     "45:pyroball",
     "48:seedbomb",
     "54:fireblast",
-    "58:synthesis"
+    "58:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -90,7 +91,7 @@
   "weight": 1474,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3920,
+  "nationalPokedexNumber": 3928,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

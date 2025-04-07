@@ -64,7 +64,22 @@
     "1:bite",
     "1:metalclaw",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:screech",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:payback",
+    "4:irontail",
+    "7:nightdaze",
+    "7:smartstrike",
+    "10:snarl",
+    "10:mirrorshot",
+    "13:knockoff",
+    "13:flashcannon",
+    "16:darkpulse",
+    "16:steelbeam",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2908,
+  "nationalPokedexNumber": 2916,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

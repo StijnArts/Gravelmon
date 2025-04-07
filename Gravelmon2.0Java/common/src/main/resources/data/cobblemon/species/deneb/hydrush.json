@@ -123,7 +123,8 @@
     "egg:smokescreen",
     "egg:snatch",
     "egg:snore",
-    "egg:waterpulse"
+    "egg:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -153,7 +154,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4491,
+  "nationalPokedexNumber": 4499,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -140,7 +140,8 @@
     "egg:reversal",
     "egg:substitute",
     "egg:fakeout",
-    "egg:drainingkiss"
+    "egg:drainingkiss",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -155,7 +156,7 @@
   "weight": 557,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2049,
+  "nationalPokedexNumber": 2052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

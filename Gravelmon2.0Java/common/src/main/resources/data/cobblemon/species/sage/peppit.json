@@ -138,7 +138,8 @@
     "egg:ingrain",
     "egg:leafblade",
     "egg:leechseed",
-    "egg:nastyplot"
+    "egg:nastyplot",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

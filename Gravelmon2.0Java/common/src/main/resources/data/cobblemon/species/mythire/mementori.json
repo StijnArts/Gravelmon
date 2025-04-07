@@ -133,7 +133,8 @@
     "tm:grassknot",
     "tm:foulplay",
     "tm:hurricane",
-    "tm:throatchop"
+    "tm:throatchop",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3918,
+  "nationalPokedexNumber": 3926,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

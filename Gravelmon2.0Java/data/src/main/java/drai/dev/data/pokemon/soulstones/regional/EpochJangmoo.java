@@ -119,7 +119,7 @@ public class EpochJangmoo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUTOTOMIZE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 32, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

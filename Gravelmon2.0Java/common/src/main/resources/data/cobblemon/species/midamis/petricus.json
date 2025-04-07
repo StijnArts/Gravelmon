@@ -77,7 +77,8 @@
     "tm:razorleaf",
     "tm:sweetscent",
     "tm:featherdance",
-    "tm:aerialace"
+    "tm:aerialace",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4377,
+  "nationalPokedexNumber": 4385,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -105,7 +105,8 @@
     "tm:substitute",
     "tm:snarl",
     "tm:darkpulse",
-    "tm:confide"
+    "tm:confide",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2260,
+  "nationalPokedexNumber": 2268,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

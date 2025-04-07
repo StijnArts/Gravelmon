@@ -140,7 +140,8 @@
         "tm:uturn",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -321,7 +322,8 @@
         "tutor:selfdestruct",
         "tutor:snore",
         "tutor:stealthrock",
-        "tutor:superpower"
+        "tutor:superpower",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -478,7 +480,8 @@
         "tm:thunderbolt",
         "tm:xscissor",
         "tm:wildcharge",
-        "tm:zapcannon"
+        "tm:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

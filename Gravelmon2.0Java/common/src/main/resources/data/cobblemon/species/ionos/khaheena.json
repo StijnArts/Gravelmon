@@ -79,7 +79,8 @@
     "48:quickguard",
     "50:highhorsepower",
     "55:entrainment",
-    "57:closecombat"
+    "57:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4751,
+  "nationalPokedexNumber": 4759,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

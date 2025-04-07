@@ -67,7 +67,29 @@
         "1:rockthrow",
         "1:mudslap",
         "1:bulkup",
-        "1:shoreup"
+        "1:shoreup",
+        "1:defensecurl",
+        "1:sandattack",
+        "1:calmmind",
+        "1:bulkup",
+        "4:rollout",
+        "4:mudshot",
+        "4:taunt",
+        "4:calmmind",
+        "7:ancientpower",
+        "7:mudbomb",
+        "7:substitute",
+        "7:taunt",
+        "10:powergem",
+        "10:bulldoze",
+        "10:rest",
+        "10:substitute",
+        "13:stealthrock",
+        "13:scorchingsands",
+        "13:rest",
+        "16:meteorbeam",
+        "16:earthpower",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -230,7 +252,8 @@
         "egg:venomdrench",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -419,7 +442,8 @@
         "egg:wish",
         "egg:mirrorcoat",
         "egg:psywave",
-        "egg:sludgebomb"
+        "egg:sludgebomb",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -542,7 +566,8 @@
         "egg:smokescreen",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

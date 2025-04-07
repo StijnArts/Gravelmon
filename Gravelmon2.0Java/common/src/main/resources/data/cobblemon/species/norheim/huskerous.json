@@ -76,7 +76,8 @@
     "1:grassknot",
     "1:hornleech",
     "55:headsmash",
-    "68:megahorn"
+    "68:megahorn",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3060,
+  "nationalPokedexNumber": 3068,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

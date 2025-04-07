@@ -104,7 +104,7 @@ public class EpochZorua extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRICK_BREAK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 38, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 38, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

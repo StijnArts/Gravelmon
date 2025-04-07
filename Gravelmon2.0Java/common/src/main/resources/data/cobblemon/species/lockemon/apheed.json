@@ -74,7 +74,8 @@
     "egg:snore",
     "egg:switcheroo",
     "egg:synthesis",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3385,
+  "nationalPokedexNumber": 3393,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

@@ -134,7 +134,8 @@
     "tm:gastroacid",
     "tm:playrough",
     "tm:acidarmor",
-    "tm:spore"
+    "tm:spore",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4925,
+  "nationalPokedexNumber": 4933,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.875,

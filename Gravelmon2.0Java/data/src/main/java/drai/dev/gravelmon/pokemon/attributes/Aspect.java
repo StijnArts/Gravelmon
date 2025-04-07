@@ -181,7 +181,25 @@ public enum Aspect {
     DHIOMAN,
     IONOSIAN,
     FORMAN,
-    RAIANIAN, TRIBAL, NORSE, PALMIAN, TRIZORAN, FOREST, FLIGIAN, CAVE, SEA, IVRISIAN, FERRANIAN, MAHALIAN, FABELIAN, SAHLIAN, ELBIAN, AROMIAN, MIKITARIAN;
+    RAIANIAN,
+    TRIBAL,
+    NORSE,
+    PALMIAN,
+    TRIZORAN,
+    FOREST,
+    FLIGIAN,
+    CAVE,
+    SEA,
+    IVRISIAN,
+    FERRANIAN,
+    MAHALIAN,
+    FABELIAN,
+    SAHLIAN,
+    ELBIAN,
+    AROMIAN,
+    MIKITARIAN,
+    FEMALE,
+    ISHIRIAN;
     private String name;
     private boolean isNew;
     private boolean isDefault;

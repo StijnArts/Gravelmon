@@ -141,7 +141,8 @@
     "egg:leafblade",
     "egg:swordsdance",
     "egg:glare",
-    "egg:sing"
+    "egg:sing",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -156,7 +157,7 @@
   "weight": 887,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2060,
+  "nationalPokedexNumber": 2063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

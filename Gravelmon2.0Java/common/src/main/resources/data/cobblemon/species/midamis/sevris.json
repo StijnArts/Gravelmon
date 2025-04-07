@@ -70,7 +70,8 @@
     "36:bugbuzz",
     "40:muddywater",
     "48:naturepower",
-    "52:hydropump"
+    "52:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4356,
+  "nationalPokedexNumber": 4364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -170,7 +170,8 @@
     "tutor:wish",
     "tutor:wonderroom",
     "tutor:zapcannon",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "sage"
@@ -182,7 +183,7 @@
   "weight": 90,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1627,
+  "nationalPokedexNumber": 1630,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.8,

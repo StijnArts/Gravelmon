@@ -76,7 +76,8 @@
     "46:scaryface",
     "51:hypervoice",
     "56:lastresort",
-    "61:finalgambit"
+    "61:finalgambit",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6090,
+  "nationalPokedexNumber": 6098,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

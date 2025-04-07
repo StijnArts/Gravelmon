@@ -139,7 +139,8 @@
         "egg:rollout",
         "egg:covet",
         "egg:bulletseed",
-        "egg:tailslap"
+        "egg:tailslap",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

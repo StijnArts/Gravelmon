@@ -149,7 +149,8 @@
     "tm:sludge",
     "tm:fairywind",
     "tm:dragonrage",
-    "tm:acidarmor"
+    "tm:acidarmor",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -164,7 +165,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4994,
+  "nationalPokedexNumber": 5002,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

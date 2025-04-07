@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kirlia-ishirian",
+  "speciesId": "cobblemon:kirlia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

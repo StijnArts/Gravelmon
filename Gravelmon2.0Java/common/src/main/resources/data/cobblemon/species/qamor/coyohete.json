@@ -74,7 +74,8 @@
     "49:moonblast",
     "56:wish",
     "61:meteorbeam",
-    "64:mistyexplosion"
+    "64:mistyexplosion",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4012,
+  "nationalPokedexNumber": 4020,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

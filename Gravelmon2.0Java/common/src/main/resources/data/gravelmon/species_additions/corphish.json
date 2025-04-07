@@ -141,7 +141,8 @@
         "egg:doubleedge",
         "egg:knockoff",
         "egg:foulplay",
-        "egg:partingshot"
+        "egg:partingshot",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -252,7 +253,8 @@
         "35:aquatail",
         "39:ironhead",
         "43:mirrorcoat",
-        "47:hydropump"
+        "47:hydropump",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",

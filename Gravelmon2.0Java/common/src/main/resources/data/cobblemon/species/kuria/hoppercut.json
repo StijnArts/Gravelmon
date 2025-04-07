@@ -73,7 +73,8 @@
     "37:bugbuzz",
     "44:gyroball",
     "53:detect",
-    "57:superpower"
+    "57:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 375,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4129,
+  "nationalPokedexNumber": 4137,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -127,7 +127,8 @@
     "tm:crunch",
     "tm:bite",
     "tm:belch",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4413,
+  "nationalPokedexNumber": 4421,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

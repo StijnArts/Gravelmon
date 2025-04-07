@@ -77,7 +77,8 @@
     "44:toxic",
     "48:aquatail",
     "52:acupressure",
-    "56:destinybond"
+    "56:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2372,
+  "nationalPokedexNumber": 2380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

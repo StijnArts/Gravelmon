@@ -114,7 +114,8 @@
     "egg:sandattack",
     "egg:sandstorm",
     "egg:strugglebug",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -129,7 +130,7 @@
   "weight": 528,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4499,
+  "nationalPokedexNumber": 4507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

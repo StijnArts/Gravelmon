@@ -71,7 +71,8 @@
     "1:forcepalm",
     "1:stunspore",
     "1:woodhammer",
-    "1:tickle"
+    "1:tickle",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1446,
+  "nationalPokedexNumber": 1449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

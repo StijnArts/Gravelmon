@@ -124,7 +124,8 @@
     "egg:bugbuzz",
     "egg:sharpen",
     "egg:iceshard",
-    "egg:icywind"
+    "egg:icywind",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -139,7 +140,7 @@
   "weight": 459,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2052,
+  "nationalPokedexNumber": 2055,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

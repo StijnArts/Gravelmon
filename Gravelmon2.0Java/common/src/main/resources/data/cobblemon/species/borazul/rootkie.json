@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:leafage"
+    "1:leafage",
+    "1:leer",
+    "4:absorb",
+    "7:trailblaze",
+    "10:gigadrain",
+    "13:seedbomb",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "borazul",
@@ -85,7 +92,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2937,
+  "nationalPokedexNumber": 2945,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

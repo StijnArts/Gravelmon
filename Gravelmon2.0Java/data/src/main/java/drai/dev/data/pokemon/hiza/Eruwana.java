@@ -62,7 +62,7 @@ public class Eruwana extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 33, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

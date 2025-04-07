@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:absorb",
-    "1:watergun"
+    "1:watergun",
+    "1:leer",
+    "1:tailwhip",
+    "4:megadrain",
+    "4:bubblebeam",
+    "7:magicalleaf",
+    "7:brine",
+    "10:gigadrain",
+    "10:surf",
+    "13:energyball",
+    "13:chillingwater",
+    "16:solarbeam",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -102,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2654,
+  "nationalPokedexNumber": 2662,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

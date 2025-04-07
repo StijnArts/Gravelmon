@@ -113,7 +113,8 @@
         "tutor:bugbuzz",
         "tutor:dracometeor",
         "egg:counter",
-        "egg:skittersmack"
+        "egg:skittersmack",
+        "tm:terablast"
       ],
       "labels": [
         "radicalred",

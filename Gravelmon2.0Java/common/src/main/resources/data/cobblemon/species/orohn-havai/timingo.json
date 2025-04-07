@@ -75,7 +75,8 @@
     "41:calmmind",
     "47:airslash",
     "52:allyswitch",
-    "60:healingwish"
+    "60:healingwish",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 2995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

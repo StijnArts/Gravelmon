@@ -78,7 +78,8 @@
     "tm:thunderwave",
     "tm:psychic",
     "tm:thunderbolt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2383,
+  "nationalPokedexNumber": 2391,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

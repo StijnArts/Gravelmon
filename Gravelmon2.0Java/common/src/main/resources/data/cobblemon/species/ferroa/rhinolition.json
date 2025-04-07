@@ -126,7 +126,8 @@
     "tm:swordsdance",
     "tm:bulldoze",
     "tm:rockslide",
-    "tm:flashcannon"
+    "tm:flashcannon",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1526,
+  "nationalPokedexNumber": 1529,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

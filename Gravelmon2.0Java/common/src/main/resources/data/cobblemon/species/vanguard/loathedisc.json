@@ -123,7 +123,8 @@
     "egg:aquajet",
     "egg:healpulse",
     "egg:brine",
-    "egg:entrainment"
+    "egg:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -137,7 +138,7 @@
   "weight": 187,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4073,
+  "nationalPokedexNumber": 4081,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

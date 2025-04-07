@@ -85,7 +85,8 @@
     "tm:whirlpool",
     "tm:waterpulse",
     "tm:dragonpulse",
-    "tm:icefang"
+    "tm:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3033,
+  "nationalPokedexNumber": 3041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -76,7 +76,8 @@
     "48:thunderbolt",
     "54:hyperbeam",
     "egg:thunderwave",
-    "egg:darkpulse"
+    "egg:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -89,7 +90,7 @@
   "weight": 125,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3417,
+  "nationalPokedexNumber": 3425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

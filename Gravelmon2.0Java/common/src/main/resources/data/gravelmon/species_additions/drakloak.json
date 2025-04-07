@@ -131,7 +131,8 @@
         "tm:weatherball",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -274,7 +275,8 @@
         "39:firespin",
         "42:dragonpulse",
         "46:dragondance",
-        "53:overheat"
+        "53:overheat",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

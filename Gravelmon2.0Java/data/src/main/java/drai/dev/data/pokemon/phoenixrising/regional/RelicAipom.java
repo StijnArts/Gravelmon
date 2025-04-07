@@ -92,7 +92,7 @@ public class RelicAipom extends Pokemon {
                         ),
                 List.of(Label.PHOENIX_RISING, Label.GEN2),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 36, 5.4, List.of(
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 36, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_PLAINS, Biome.IS_PLATEAU))),

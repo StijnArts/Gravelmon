@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armorable",
+  "speciesId": "cobblemon:armorable",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -96,6 +96,7 @@
     "tm:aerialace",
     "tm:strength",
     "tm:toxic",
+    "tm:cryoshock",
     "tm:poweruppunch",
     "tm:gigadrain",
     "tm:taunt",
@@ -110,10 +111,12 @@
     "tutor:endeavor",
     "tutor:irontail",
     "tutor:doubleedge",
+    "egg:boldblaze",
     "egg:counter",
     "egg:curse",
     "egg:doublekick",
-    "egg:flail"
+    "egg:flail",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +129,7 @@
   "weight": 623,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4619,
+  "nationalPokedexNumber": 4627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

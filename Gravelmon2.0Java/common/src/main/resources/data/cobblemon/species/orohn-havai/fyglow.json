@@ -113,7 +113,8 @@
     "tm:voltswitch",
     "tm:wildcharge",
     "tm:workup",
-    "tm:ancientpower"
+    "tm:ancientpower",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3031,
+  "nationalPokedexNumber": 3039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

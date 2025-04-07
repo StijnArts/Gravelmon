@@ -73,7 +73,8 @@
     "34:morningsun",
     "39:earthquake",
     "44:powerwhip",
-    "50:fissure"
+    "50:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5234,
+  "nationalPokedexNumber": 5242,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

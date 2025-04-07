@@ -142,7 +142,8 @@
     "tm:screech",
     "tm:bodyslam",
     "tm:direclaw",
-    "tm:astonish"
+    "tm:astonish",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5012,
+  "nationalPokedexNumber": 5020,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

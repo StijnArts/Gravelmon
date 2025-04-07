@@ -73,7 +73,8 @@
     "26:aquatail",
     "34:icefang",
     "47:extremespeed",
-    "52:dragonrush"
+    "52:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3117,
+  "nationalPokedexNumber": 3125,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

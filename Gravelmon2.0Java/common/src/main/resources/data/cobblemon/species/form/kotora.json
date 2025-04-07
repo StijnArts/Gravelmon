@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "4:quickattack",
+    "7:flamecharge",
+    "10:firepunch",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -89,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3804,
+  "nationalPokedexNumber": 3812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

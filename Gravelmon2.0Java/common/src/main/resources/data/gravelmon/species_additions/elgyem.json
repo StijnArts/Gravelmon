@@ -126,7 +126,8 @@
         "egg:hivemind",
         "egg:screech",
         "egg:confuseray",
-        "egg:telekinesis"
+        "egg:telekinesis",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

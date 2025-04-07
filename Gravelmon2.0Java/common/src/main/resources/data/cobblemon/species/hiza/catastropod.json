@@ -77,7 +77,8 @@
     "66:hydropump",
     "78:flareblitz",
     "84:overheat",
-    "90:explosion"
+    "90:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2407,
+  "nationalPokedexNumber": 2415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

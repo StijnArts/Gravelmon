@@ -149,7 +149,8 @@
     "egg:dizzypunch",
     "egg:fakeout",
     "egg:nastyplot",
-    "egg:recover"
+    "egg:recover",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

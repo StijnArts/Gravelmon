@@ -44,7 +44,7 @@ public class PokemonForm extends AbstractPokemon {
                 eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, spawnContext, spawnPool, minSpawnLevel,
                 maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
         this.name = name;
-        this.formOf = formOf;
+//        this.formOf = formOf;
         this.isBattleOnly = isBattleOnly;
     }
 

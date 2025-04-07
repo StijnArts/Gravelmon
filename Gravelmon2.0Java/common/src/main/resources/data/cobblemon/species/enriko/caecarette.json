@@ -76,7 +76,8 @@
     "39:flamethrower",
     "44:dragondance",
     "45:dragonrush",
-    "52:overheat"
+    "52:overheat",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1688,
+  "nationalPokedexNumber": 1691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

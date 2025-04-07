@@ -64,7 +64,22 @@
     "1:disarmingvoice",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:babydolleyes",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:drainingkiss",
+    "10:aircutter",
+    "15:playnice",
+    "15:wingattack",
+    "20:dazzlinggleam",
+    "20:airslash",
+    "25:hypervoice",
+    "25:drillpeck",
+    "30:moonblast",
+    "30:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -79,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5977,
+  "nationalPokedexNumber": 5985,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

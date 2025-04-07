@@ -89,7 +89,8 @@
     "tm:steelwing",
     "tm:boomburst",
     "tm:echoedvoice",
-    "tm:round"
+    "tm:round",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3987,
+  "nationalPokedexNumber": 3995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

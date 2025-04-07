@@ -89,6 +89,7 @@
     "egg:shadowsneak",
     "egg:haze",
     "egg:scaryface",
+    "egg:shadowsplit",
     "egg:safeguard",
     "egg:skillswap",
     "egg:moonlight",
@@ -96,7 +97,8 @@
     "egg:leer",
     "egg:zenithbreak",
     "egg:perishsong",
-    "egg:lockon"
+    "egg:lockon",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -122,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4665,
+  "nationalPokedexNumber": 4673,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

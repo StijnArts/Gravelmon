@@ -74,7 +74,8 @@
     "45:crunch",
     "51:gigadrain",
     "57:leafstorm",
-    "63:headlongrush"
+    "63:headlongrush",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2318,
+  "nationalPokedexNumber": 2326,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -131,7 +131,8 @@
         "egg:reflecttype",
         "egg:synchronoise",
         "egg:confuseray",
-        "egg:tickle"
+        "egg:tickle",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -312,7 +313,8 @@
         "tm:wringout",
         "tm:toxicspikes",
         "tm:reflecttype",
-        "tm:iceball"
+        "tm:iceball",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

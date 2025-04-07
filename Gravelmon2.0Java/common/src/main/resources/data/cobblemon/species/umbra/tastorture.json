@@ -140,7 +140,8 @@
     "tutor:heatwave",
     "tutor:hypervoice",
     "tutor:superpower",
-    "tutor:knockoff"
+    "tutor:knockoff",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -155,7 +156,7 @@
   "weight": 872,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3715,
+  "nationalPokedexNumber": 3723,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

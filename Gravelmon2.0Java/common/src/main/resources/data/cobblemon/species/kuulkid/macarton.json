@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:growl",
+    "1:babydolleyes",
+    "4:sandattack",
+    "4:drainingkiss",
+    "7:mudbomb",
+    "7:playnice",
+    "10:bulldoze",
+    "10:dazzlinggleam",
+    "13:dig",
+    "13:playrough",
+    "16:earthquake",
+    "16:spiritbreak",
+    "tm:terablast"
   ],
   "labels": [
     "kuulkid",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2199,
+  "nationalPokedexNumber": 2207,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -119,7 +119,8 @@
     "tm:smellingsalts",
     "tm:uproar",
     "tm:whirlwind",
-    "tm:wish"
+    "tm:wish",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2448,
+  "nationalPokedexNumber": 2456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

@@ -86,7 +86,7 @@ public class Luxflon extends Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tutor")
                         ),
                 List.of(Label.XENOVERSE),
-                6, List.of(
+                9, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 75, 85, 0.00001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

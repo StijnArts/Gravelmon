@@ -125,7 +125,8 @@
     "tm:wish",
     "tm:covet",
     "tm:mefirst",
-    "tm:entrainment"
+    "tm:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -157,7 +158,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5076,
+  "nationalPokedexNumber": 5084,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

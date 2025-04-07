@@ -60,7 +60,8 @@
   ],
   "drops": {},
   "moves": [
-    "1:stickyweb"
+    "1:stickyweb",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -75,7 +76,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1915,
+  "nationalPokedexNumber": 1918,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

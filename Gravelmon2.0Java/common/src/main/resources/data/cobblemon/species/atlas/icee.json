@@ -78,7 +78,8 @@
     "tm:aurorabeam",
     "tm:dragonbreath",
     "tm:shadowsneak",
-    "tm:coil"
+    "tm:coil",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5151,
+  "nationalPokedexNumber": 5159,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

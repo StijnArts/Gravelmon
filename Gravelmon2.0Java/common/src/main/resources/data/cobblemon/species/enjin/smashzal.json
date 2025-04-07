@@ -136,7 +136,8 @@
     "tm:flashcannon",
     "tm:gyroball",
     "tm:smartstrike",
-    "tm:steelwing"
+    "tm:steelwing",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -151,7 +152,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4701,
+  "nationalPokedexNumber": 4709,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -61,7 +61,33 @@
   "drops": {},
   "moves": [
     "1:metalclaw",
-    "1:lick"
+    "1:lick",
+    "1:screech",
+    "1:growl",
+    "4:irontail",
+    "4:confuseray",
+    "7:smartstrike",
+    "7:ominouswind",
+    "10:mirrorshot",
+    "10:nightshade",
+    "13:flashcannon",
+    "13:hex",
+    "16:steelbeam",
+    "16:shadowball",
+    "19:metalclaw",
+    "19:lick",
+    "22:screech",
+    "22:growl",
+    "25:irontail",
+    "25:confuseray",
+    "28:smartstrike",
+    "28:hex",
+    "31:ironhead",
+    "31:shadowclaw",
+    "34:meteormash",
+    "34:phantomforce",
+    "39:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -91,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2505,
+  "nationalPokedexNumber": 2513,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -72,7 +72,8 @@
     "33:taunt",
     "37:drillpeck",
     "44:finalgambit",
-    "51:skyattack"
+    "51:skyattack",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4226,
+  "nationalPokedexNumber": 4234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

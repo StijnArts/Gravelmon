@@ -72,7 +72,8 @@
     "41:suckerpunch",
     "45:mindreader",
     "49:poltergeist",
-    "55:memento"
+    "55:memento",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5274,
+  "nationalPokedexNumber": 5282,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

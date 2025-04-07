@@ -119,7 +119,8 @@
     "egg:sweetscent",
     "egg:batonpass",
     "egg:pursuit",
-    "egg:icebeam"
+    "egg:icebeam",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -134,7 +135,7 @@
   "weight": 12,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1997,
+  "nationalPokedexNumber": 2000,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

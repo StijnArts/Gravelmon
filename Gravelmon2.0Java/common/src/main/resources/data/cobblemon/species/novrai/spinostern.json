@@ -148,7 +148,8 @@
     "tm:thrash",
     "tm:psychicfangs",
     "tm:block",
-    "tm:dragonrush"
+    "tm:dragonrush",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -176,7 +177,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4935,
+  "nationalPokedexNumber": 4943,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

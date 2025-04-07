@@ -73,7 +73,8 @@
     "37:bodyslam",
     "42:safeguard",
     "48:superpower",
-    "52:waterspout"
+    "52:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5272,
+  "nationalPokedexNumber": 5280,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

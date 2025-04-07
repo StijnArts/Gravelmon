@@ -158,7 +158,8 @@
     "tm:dragonbreath",
     "tm:bide",
     "tm:mudbomb",
-    "tm:burnup"
+    "tm:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -173,7 +174,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4998,
+  "nationalPokedexNumber": 5006,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

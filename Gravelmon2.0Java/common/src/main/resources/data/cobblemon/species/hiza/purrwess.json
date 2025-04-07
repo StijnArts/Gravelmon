@@ -106,7 +106,8 @@
     "tm:calmmind",
     "tm:energyball",
     "tm:playrough",
-    "tm:dazzlinggleam"
+    "tm:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -121,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2302,
+  "nationalPokedexNumber": 2310,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

@@ -145,7 +145,8 @@
     "tm:leechseed",
     "tm:poisonpowder",
     "tm:playnice",
-    "tm:covet"
+    "tm:covet",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5229,
+  "nationalPokedexNumber": 5237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

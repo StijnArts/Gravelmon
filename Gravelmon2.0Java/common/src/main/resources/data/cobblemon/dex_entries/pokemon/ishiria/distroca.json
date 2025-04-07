@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:distroca",
+  "speciesId": "cobblemon:distroca",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -74,7 +74,8 @@
     "35:bounce",
     "45:discharge",
     "50:flail",
-    "55:fissure"
+    "55:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3956,
+  "nationalPokedexNumber": 3964,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

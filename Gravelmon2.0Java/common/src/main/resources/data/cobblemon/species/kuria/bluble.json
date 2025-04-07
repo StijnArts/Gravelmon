@@ -75,7 +75,8 @@
     "37:bodyslam",
     "42:safeguard",
     "48:superpower",
-    "52:waterspout"
+    "52:waterspout",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4138,
+  "nationalPokedexNumber": 4146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

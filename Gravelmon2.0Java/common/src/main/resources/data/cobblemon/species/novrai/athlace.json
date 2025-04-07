@@ -128,7 +128,8 @@
     "tm:batonpass",
     "tm:submission",
     "tm:highhorsepower",
-    "tm:playrough"
+    "tm:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4904,
+  "nationalPokedexNumber": 4912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.9375,

@@ -37,7 +37,6 @@ public class Moustiny extends drai.dev.data.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
-        GravelmonMoveSubstitution.registerMoveInsertion("moustiny", new MoveLearnSetEntry(Move.GROWTH, 28));
            setLangFileName("Moustiny");
 
     }

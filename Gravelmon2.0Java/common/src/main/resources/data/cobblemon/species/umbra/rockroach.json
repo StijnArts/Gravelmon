@@ -112,7 +112,8 @@
     "tutor:stealthrock",
     "tutor:irondefense",
     "tutor:ironhead",
-    "tutor:seedbomb"
+    "tutor:seedbomb",
+    "tm:terablast"
   ],
   "labels": [
     "umbra",
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3691,
+  "nationalPokedexNumber": 3699,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

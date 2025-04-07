@@ -81,7 +81,8 @@
     "tm:assurance",
     "tm:beatup",
     "tm:paraboliccharge",
-    "tm:zingzap"
+    "tm:zingzap",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -96,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3953,
+  "nationalPokedexNumber": 3961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

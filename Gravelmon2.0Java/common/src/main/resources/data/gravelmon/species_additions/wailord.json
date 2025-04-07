@@ -66,7 +66,28 @@
         "1:powdersnow",
         "1:watergun",
         "1:bulkup",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:tailwhip",
+        "1:calmmind",
+        "1:calmmind",
+        "4:icywind",
+        "4:bubblebeam",
+        "4:taunt",
+        "4:taunt",
+        "7:icepunch",
+        "7:aquatail",
+        "7:substitute",
+        "7:substitute",
+        "10:icespinner",
+        "10:surf",
+        "10:rest",
+        "10:rest",
+        "13:iceshard",
+        "13:waterfall",
+        "16:iciclecrash",
+        "16:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "ferran",
@@ -231,7 +252,8 @@
         "tm:whirlpool",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -409,7 +431,8 @@
         "tutor:tailwind",
         "tutor:twister",
         "tutor:uproar",
-        "tutor:waterpulse"
+        "tutor:waterpulse",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

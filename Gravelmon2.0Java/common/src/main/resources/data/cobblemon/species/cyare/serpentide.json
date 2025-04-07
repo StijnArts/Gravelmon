@@ -64,7 +64,22 @@
     "1:watergun",
     "1:acid",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:tailwhip",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "10:bubblebeam",
+    "10:clearsmog",
+    "15:brine",
+    "15:sludge",
+    "20:surf",
+    "20:toxicspikes",
+    "25:chillingwater",
+    "25:sludgebomb",
+    "30:hydropump",
+    "30:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -79,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5384,
+  "nationalPokedexNumber": 5392,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -113,7 +113,8 @@
     "tm:toxic",
     "tm:workup",
     "tm:xscissor",
-    "tm:mudslap"
+    "tm:mudslap",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5330,
+  "nationalPokedexNumber": 5338,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

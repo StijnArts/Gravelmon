@@ -78,7 +78,8 @@
     "61:electrify",
     "egg:soak",
     "egg:mirrorcoat",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -91,7 +92,7 @@
   "weight": 60,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2110,
+  "nationalPokedexNumber": 2113,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

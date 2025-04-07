@@ -77,7 +77,8 @@
     "42:aquatail",
     "49:fling",
     "57:phantomforce",
-    "66:hydropump"
+    "66:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -92,7 +93,7 @@
   "weight": 2909,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4202,
+  "nationalPokedexNumber": 4210,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -80,7 +80,8 @@
     "68:beatup",
     "76:takedown",
     "85:moonlight",
-    "92:nightslash"
+    "92:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1921,
+  "nationalPokedexNumber": 1924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

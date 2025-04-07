@@ -75,7 +75,8 @@
     "34:gigadrain",
     "38:raindance",
     "42:energyball",
-    "46:hydropump"
+    "46:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1847,
+  "nationalPokedexNumber": 1850,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

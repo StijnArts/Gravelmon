@@ -76,7 +76,8 @@
     "1:watersport",
     "1:spikecannon",
     "1:minimize",
-    "1:puffup"
+    "1:puffup",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3903,
+  "nationalPokedexNumber": 3911,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

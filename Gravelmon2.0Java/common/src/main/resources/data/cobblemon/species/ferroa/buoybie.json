@@ -133,7 +133,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:faketears",
-    "tm:tearfullook"
+    "tm:tearfullook",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1556,
+  "nationalPokedexNumber": 1559,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

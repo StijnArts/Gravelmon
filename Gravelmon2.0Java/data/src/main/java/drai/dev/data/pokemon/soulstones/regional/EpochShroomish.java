@@ -107,7 +107,7 @@ public class EpochShroomish extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOMBARDMENT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

@@ -86,7 +86,8 @@
     "tutor:confide",
     "tutor:earthquake",
     "tutor:powerwhip",
-    "tutor:headsmash"
+    "tutor:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -101,7 +102,7 @@
   "weight": 927,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4656,
+  "nationalPokedexNumber": 4664,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

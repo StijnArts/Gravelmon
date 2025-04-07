@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:ember"
+    "1:ember",
+    "1:growl",
+    "4:quickattack",
+    "7:flamecharge",
+    "10:firepunch",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -77,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2814,
+  "nationalPokedexNumber": 2822,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

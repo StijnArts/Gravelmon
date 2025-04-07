@@ -213,7 +213,8 @@
     "tutor:workup",
     "tutor:wildcharge",
     "tutor:rocksmash",
-    "tutor:snarl"
+    "tutor:snarl",
+    "tm:terablast"
   ],
   "labels": [
     "eternal_forest",
@@ -228,7 +229,7 @@
   "weight": 600,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3057,
+  "nationalPokedexNumber": 3065,
   "shoulderMountable": false,
   "hitbox": {
     "width": 50.25,

@@ -74,7 +74,8 @@
     "40:doubleedge",
     "43:painsplit",
     "47:crunch",
-    "53:hydropump"
+    "53:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3018,
+  "nationalPokedexNumber": 3026,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

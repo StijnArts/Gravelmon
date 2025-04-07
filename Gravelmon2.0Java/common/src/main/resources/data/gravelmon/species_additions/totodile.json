@@ -62,7 +62,14 @@
       ],
       "drops": {},
       "moves": [
-        "1:scratch"
+        "1:scratch",
+        "1:leer",
+        "4:dragonrage",
+        "7:dualchop",
+        "10:breakingswipe",
+        "13:dragonclaw",
+        "16:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -200,6 +207,7 @@
         "tm:flareblitz",
         "tm:focusblast",
         "tm:frostbite",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -247,7 +255,8 @@
         "egg:firefang",
         "egg:mudsport",
         "egg:dragondance",
-        "egg:block"
+        "egg:block",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -423,7 +432,8 @@
         "egg:lashout",
         "egg:taunt",
         "egg:honeclaws",
-        "egg:quash"
+        "egg:quash",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -523,7 +533,19 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:metalclaw"
+        "1:metalclaw",
+        "1:tailwhip",
+        "1:screech",
+        "10:bubblebeam",
+        "10:irontail",
+        "15:aquatail",
+        "15:smartstrike",
+        "20:surf",
+        "20:ironhead",
+        "25:waterfall",
+        "25:meteormash",
+        "30:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -726,7 +748,8 @@
         "egg:poisonfang",
         "egg:rapidspin",
         "egg:thunderfang",
-        "egg:waterpledge"
+        "egg:waterpledge",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -904,7 +927,8 @@
         "egg:faketears",
         "egg:block",
         "egg:waterpulse",
-        "egg:flatter"
+        "egg:flatter",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

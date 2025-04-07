@@ -94,7 +94,8 @@
     "tm:willowisp",
     "tm:substitute",
     "tm:solarbeam",
-    "tm:fireblast"
+    "tm:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -109,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2315,
+  "nationalPokedexNumber": 2323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

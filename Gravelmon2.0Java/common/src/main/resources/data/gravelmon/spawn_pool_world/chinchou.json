@@ -192,7 +192,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "9-31",
-      "weight": 8.100000000000001,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

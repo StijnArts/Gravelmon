@@ -92,7 +92,7 @@ public class Brambarb extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 17, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 17, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.FOLIAGE),

@@ -89,7 +89,8 @@
     "egg:mudsport",
     "egg:snore",
     "egg:supersonic",
-    "egg:aquatail"
+    "egg:aquatail",
+    "tm:terablast"
   ],
   "labels": [
     "opal",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1481,
+  "nationalPokedexNumber": 1484,
   "shoulderMountable": false,
   "hitbox": {
     "width": 8.375,

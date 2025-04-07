@@ -71,7 +71,8 @@
     "40:crunch",
     "45:firelash",
     "50:lunge",
-    "55:burnup"
+    "55:burnup",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2281,
+  "nationalPokedexNumber": 2289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

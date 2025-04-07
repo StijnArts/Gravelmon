@@ -78,7 +78,8 @@
     "48:raindance",
     "50:moonblast",
     "55:perishsong",
-    "57:hydropump"
+    "57:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5307,
+  "nationalPokedexNumber": 5315,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

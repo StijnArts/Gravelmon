@@ -149,7 +149,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -335,7 +336,8 @@
         "egg:petaldance",
         "egg:powerwhip",
         "egg:sandstorm",
-        "egg:skullbash"
+        "egg:skullbash",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -525,7 +527,8 @@
         "tutor:trick",
         "tutor:wonderroom",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -681,7 +684,8 @@
         "tutor:venoshock",
         "tutor:weatherball",
         "tutor:workup",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

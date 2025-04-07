@@ -117,7 +117,8 @@
     "tm:rage",
     "tm:mimic",
     "tm:whirlwind",
-    "tm:takedown"
+    "tm:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3313,
+  "nationalPokedexNumber": 3321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

@@ -91,7 +91,8 @@
     "tm:skittersmack",
     "tm:lashout",
     "tm:terrainpulse",
-    "tm:scaleshot"
+    "tm:scaleshot",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1620,
+  "nationalPokedexNumber": 1623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

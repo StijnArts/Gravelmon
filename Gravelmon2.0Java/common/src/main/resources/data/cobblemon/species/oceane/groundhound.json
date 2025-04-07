@@ -71,7 +71,8 @@
     "30:crunch",
     "39:rest",
     "44:earthquake",
-    "51:fissure"
+    "51:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1876,
+  "nationalPokedexNumber": 1879,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

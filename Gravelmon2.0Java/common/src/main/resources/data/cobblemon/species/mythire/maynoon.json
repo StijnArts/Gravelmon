@@ -74,7 +74,8 @@
     "32:airslash",
     "38:gigadrain",
     "44:bugbuzz",
-    "52:quiverdance"
+    "52:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3855,
+  "nationalPokedexNumber": 3863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

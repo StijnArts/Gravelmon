@@ -59,7 +59,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:confusion"
+    "1:confusion",
+    "1:growl",
+    "10:psybeam",
+    "15:futuresight",
+    "20:psychic",
+    "25:psyshock",
+    "30:psychoboost",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -72,7 +79,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

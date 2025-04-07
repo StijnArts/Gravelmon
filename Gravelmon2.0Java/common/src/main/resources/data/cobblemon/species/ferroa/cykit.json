@@ -155,7 +155,8 @@
     "tm:honeclaws",
     "tm:grudge",
     "tm:agility",
-    "tm:babydolleyes"
+    "tm:babydolleyes",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -183,7 +184,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1495,
+  "nationalPokedexNumber": 1498,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

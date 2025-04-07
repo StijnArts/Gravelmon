@@ -71,7 +71,8 @@
     "31:stickyweb",
     "36:bugbuzz",
     "43:psychic",
-    "47:psychoshift"
+    "47:psychoshift",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2273,
+  "nationalPokedexNumber": 2281,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -78,7 +78,8 @@
     "38:irondefense",
     "44:metalsound",
     "50:futuresight",
-    "56:raindance"
+    "56:raindance",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3207,
+  "nationalPokedexNumber": 3215,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

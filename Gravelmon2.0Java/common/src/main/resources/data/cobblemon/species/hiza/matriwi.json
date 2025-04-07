@@ -110,7 +110,8 @@
     "tm:snowscape",
     "tm:icebeam",
     "tm:blizzard",
-    "tm:featherdance"
+    "tm:featherdance",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -123,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2361,
+  "nationalPokedexNumber": 2369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

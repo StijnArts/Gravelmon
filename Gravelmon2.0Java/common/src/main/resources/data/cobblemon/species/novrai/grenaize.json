@@ -132,7 +132,8 @@
     "tm:submission",
     "tm:ragingfury",
     "tm:charm",
-    "tm:detect"
+    "tm:detect",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -160,7 +161,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4885,
+  "nationalPokedexNumber": 4893,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -37,7 +37,6 @@ public class Spudspark extends drai.dev.data.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Spudspark");
-        GravelmonMoveSubstitution.registerMoveInsertion("spudspark", new MoveLearnSetEntry(Move.CHARGE, 28));
 
     }
 

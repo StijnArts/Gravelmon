@@ -40,7 +40,7 @@ public class Kiell extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RUSH,66)                   ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

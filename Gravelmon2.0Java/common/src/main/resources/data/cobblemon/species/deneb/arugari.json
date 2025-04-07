@@ -78,11 +78,14 @@
     "tm:strength",
     "tm:flash",
     "tutor:mudslap",
+    "tutor:chromeball",
     "tutor:wildcharge",
+    "tutor:terrafirm",
     "tutor:thunder",
     "egg:electroweb",
     "egg:eerieimpulse",
     "egg:sandtomb",
+    "egg:soilthrow",
     "egg:chargebeam",
     "egg:shockwave",
     "egg:mudslap",
@@ -92,7 +95,8 @@
     "egg:stomp",
     "egg:discharge",
     "egg:roar",
-    "egg:voltswitch"
+    "egg:voltswitch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -120,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4667,
+  "nationalPokedexNumber": 4675,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

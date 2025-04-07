@@ -154,7 +154,8 @@
     "egg:nightslash",
     "egg:rockwrecker",
     "egg:stealthrock",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

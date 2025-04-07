@@ -139,7 +139,8 @@
     "egg:hurricane",
     "egg:irontail",
     "egg:skydrop",
-    "egg:tailwind"
+    "egg:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

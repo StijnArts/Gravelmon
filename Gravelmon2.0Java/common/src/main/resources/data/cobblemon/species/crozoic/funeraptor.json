@@ -75,7 +75,8 @@
     "1:shadowclaw",
     "1:heatwave",
     "1:spite",
-    "1:grudge"
+    "1:grudge",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -90,7 +91,7 @@
   "weight": 803,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3264,
+  "nationalPokedexNumber": 3272,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

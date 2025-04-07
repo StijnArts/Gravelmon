@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:ember"
+    "1:ember",
+    "1:babydolleyes",
+    "1:growl",
+    "4:drainingkiss",
+    "4:firespin",
+    "7:playnice",
+    "7:flamecharge",
+    "10:dazzlinggleam",
+    "10:flameburst",
+    "13:hypervoice",
+    "13:flamethrower",
+    "16:moonblast",
+    "16:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2802,
+  "nationalPokedexNumber": 2810,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

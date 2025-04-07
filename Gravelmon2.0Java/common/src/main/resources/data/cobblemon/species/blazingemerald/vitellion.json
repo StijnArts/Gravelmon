@@ -78,7 +78,8 @@
     "35:toxic",
     "40:shadowsneak",
     "45:cosmicpower",
-    "50:shadetrance"
+    "50:shadetrance",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -91,7 +92,7 @@
   "weight": 45,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3833,
+  "nationalPokedexNumber": 3841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

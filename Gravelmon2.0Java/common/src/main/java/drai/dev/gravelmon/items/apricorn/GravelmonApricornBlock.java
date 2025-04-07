@@ -181,6 +181,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
     protected void attack(BlockState blockState, Level level, BlockPos blockPos, Player player) {
         if (blockState.getValue(AGE) != MAX_AGE) {
             super.attack(blockState, level, blockPos, player);
+            return;
         }
 
         doHarvest(level, blockState, blockPos, player);

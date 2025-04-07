@@ -140,7 +140,8 @@
         "egg:barrier",
         "egg:encore",
         "egg:torment",
-        "egg:taunt"
+        "egg:taunt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -320,7 +321,8 @@
         "egg:hypnosis",
         "egg:confuseray",
         "egg:featherdance",
-        "egg:psychoshift"
+        "egg:psychoshift",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -428,7 +430,8 @@
         "27:suckerpunch",
         "30:leafblade",
         "33:featherdance",
-        "36:bravebird"
+        "36:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

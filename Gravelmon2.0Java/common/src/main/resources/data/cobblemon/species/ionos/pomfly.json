@@ -61,7 +61,25 @@
   "moves": [
     "1:strugglebug",
     "1:bulkup",
-    "1:pollenpuff"
+    "1:pollenpuff",
+    "1:stringshot",
+    "1:calmmind",
+    "1:healbell",
+    "10:silverwind",
+    "10:taunt",
+    "10:wish",
+    "15:signalbeam",
+    "15:substitute",
+    "20:infestation",
+    "20:rest",
+    "25:uturn",
+    "30:bugbuzz",
+    "35:strugglebug",
+    "40:stringshot",
+    "45:leechlife",
+    "50:lunge",
+    "55:xscissor",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4717,
+  "nationalPokedexNumber": 4725,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

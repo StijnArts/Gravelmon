@@ -118,7 +118,8 @@
     "egg:aquajet",
     "egg:crabhammer",
     "egg:bulletseed",
-    "egg:soak"
+    "egg:soak",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2055,
+  "nationalPokedexNumber": 2058,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

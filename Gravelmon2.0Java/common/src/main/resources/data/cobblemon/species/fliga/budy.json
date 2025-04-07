@@ -128,7 +128,8 @@
     "tm:endure",
     "tm:mirrorcoat",
     "tm:tickle",
-    "tm:wringout"
+    "tm:wringout",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3936,
+  "nationalPokedexNumber": 3944,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

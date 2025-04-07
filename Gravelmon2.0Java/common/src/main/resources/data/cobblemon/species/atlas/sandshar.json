@@ -74,7 +74,8 @@
     "46:rest",
     "50:earthquake",
     "55:shoreup",
-    "60:hydropump"
+    "60:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5125,
+  "nationalPokedexNumber": 5133,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

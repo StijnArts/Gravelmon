@@ -75,7 +75,8 @@
     "39:headcharge",
     "44:spikyshield",
     "47:zenheadbutt",
-    "52:woodhammer"
+    "52:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3972,
+  "nationalPokedexNumber": 3980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

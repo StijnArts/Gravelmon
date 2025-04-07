@@ -67,7 +67,8 @@
     "10:harden",
     "15:protect",
     "25:bugbite",
-    "tm:irondefense"
+    "tm:irondefense",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

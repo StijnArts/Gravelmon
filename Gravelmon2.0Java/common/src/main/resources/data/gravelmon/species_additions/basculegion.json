@@ -136,7 +136,8 @@
         "tm:toxicspikes",
         "tm:waterpulse",
         "tm:whirlpool",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

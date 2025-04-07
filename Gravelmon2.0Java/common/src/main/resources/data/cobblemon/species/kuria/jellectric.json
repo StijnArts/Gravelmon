@@ -76,7 +76,8 @@
     "45:raindance",
     "50:muddywater",
     "56:thunder",
-    "61:electrify"
+    "61:electrify",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -91,7 +92,7 @@
   "weight": 235,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4167,
+  "nationalPokedexNumber": 4175,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -78,7 +78,8 @@
     "46:surf",
     "52:blizzard",
     "58:hail",
-    "64:sheercold"
+    "64:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2391,
+  "nationalPokedexNumber": 2399,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

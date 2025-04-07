@@ -100,7 +100,34 @@
       "drops": {},
       "moves": [
         "1:powdersnow",
-        "1:gust"
+        "1:gust",
+        "1:growl",
+        "1:leer",
+        "4:icywind",
+        "4:aircutter",
+        "7:aurorabeam",
+        "7:wingattack",
+        "10:freezedry",
+        "10:airslash",
+        "13:icebeam",
+        "13:drillpeck",
+        "16:blizzard",
+        "16:hurricane",
+        "19:powdersnow",
+        "19:peck",
+        "22:growl",
+        "22:leer",
+        "25:icywind",
+        "25:pluck",
+        "28:icepunch",
+        "28:wingattack",
+        "31:icespinner",
+        "31:aerialace",
+        "34:iceshard",
+        "34:drillpeck",
+        "39:iciclecrash",
+        "39:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -187,7 +214,20 @@
       "drops": {},
       "moves": [
         "1:lick",
-        "1:tackle"
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:confuseray",
+        "4:round",
+        "7:ominouswind",
+        "7:swift",
+        "10:nightshade",
+        "10:uproar",
+        "13:hex",
+        "13:hypervoice",
+        "16:shadowball",
+        "16:hyperbeam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -340,7 +380,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -427,7 +468,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:confusion"
+        "1:confusion",
+        "1:tailwhip",
+        "1:growl",
+        "10:bubblebeam",
+        "10:psybeam",
+        "15:brine",
+        "15:futuresight",
+        "20:surf",
+        "20:psychic",
+        "25:chillingwater",
+        "25:psyshock",
+        "30:hydropump",
+        "30:psychoboost",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -601,7 +655,8 @@
         "tm:zenheadbutt",
         "tm:tailwind",
         "tm:psychicfangs",
-        "tm:shadowclaw"
+        "tm:shadowclaw",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -760,7 +815,8 @@
         "tm:grassknot",
         "tm:swagger",
         "tm:substitute",
-        "tm:trickroom"
+        "tm:trickroom",
+        "tm:terablast"
       ],
       "labels": [
         "lockemon",

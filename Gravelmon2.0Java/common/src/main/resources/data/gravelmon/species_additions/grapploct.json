@@ -134,7 +134,8 @@
         "tm:whirlpool",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -307,7 +308,8 @@
         "tm:wringout",
         "tm:forcepalm",
         "tm:dizzypunch",
-        "tm:darkestlariat"
+        "tm:darkestlariat",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

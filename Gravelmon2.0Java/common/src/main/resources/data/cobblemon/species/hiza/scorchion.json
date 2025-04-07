@@ -69,7 +69,8 @@
     "34:burnup",
     "39:slash",
     "46:flareblitz",
-    "55:guillotine"
+    "55:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2346,
+  "nationalPokedexNumber": 2354,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

@@ -16,8 +16,8 @@ public class Nosfernal extends drai.dev.data.pokemon.Pokemon {
                         65,
                         120),
                 List.of(Ability.POWERLEECH,Ability.NOCTURNAL), Ability.DEVIATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 186, ExperienceGroup.ERRATIC,
                 70,
@@ -27,7 +27,11 @@ public class Nosfernal extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Nosfernal");

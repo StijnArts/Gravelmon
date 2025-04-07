@@ -142,7 +142,8 @@
     "tm:muddywater",
     "tm:triattack",
     "tm:rollout",
-    "tm:dualchop"
+    "tm:dualchop",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1575,
+  "nationalPokedexNumber": 1578,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

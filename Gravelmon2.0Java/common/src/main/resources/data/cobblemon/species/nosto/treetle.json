@@ -75,7 +75,8 @@
     "39:bugbuzz",
     "42:earthquake",
     "47:rockslide",
-    "tm:grasspledge"
+    "tm:grasspledge",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3454,
+  "nationalPokedexNumber": 3462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

@@ -70,7 +70,8 @@
     "43:roar",
     "49:powergem",
     "55:screech",
-    "61:doubleedge"
+    "61:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4271,
+  "nationalPokedexNumber": 4279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

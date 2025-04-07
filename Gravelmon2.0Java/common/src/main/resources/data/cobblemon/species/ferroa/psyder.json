@@ -105,7 +105,8 @@
     "tm:psychocut",
     "tm:lunge",
     "tm:entrainment",
-    "tm:teeterdance"
+    "tm:teeterdance",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1570,
+  "nationalPokedexNumber": 1573,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

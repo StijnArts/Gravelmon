@@ -94,7 +94,8 @@
     "tm:frustration",
     "tm:willowisp",
     "tm:substitute",
-    "tm:fireblast"
+    "tm:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -109,7 +110,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2314,
+  "nationalPokedexNumber": 2322,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

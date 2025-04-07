@@ -74,7 +74,8 @@
     "44:cottonguard",
     "51:thunderbolt",
     "56:tailwind",
-    "60:hurricane"
+    "60:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4233,
+  "nationalPokedexNumber": 4241,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

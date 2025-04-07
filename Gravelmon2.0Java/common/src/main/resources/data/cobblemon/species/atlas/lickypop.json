@@ -107,7 +107,8 @@
     "tm:present",
     "tm:followme",
     "tm:refresh",
-    "tm:gastroacid"
+    "tm:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5077,
+  "nationalPokedexNumber": 5085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

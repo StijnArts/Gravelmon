@@ -65,7 +65,8 @@
     "8:bugbite",
     "13:twineedle",
     "16:hornattack",
-    "30:lunge"
+    "30:lunge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1411,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

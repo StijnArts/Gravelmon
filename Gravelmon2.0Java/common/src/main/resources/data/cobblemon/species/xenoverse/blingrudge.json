@@ -130,7 +130,8 @@
     "tutor:secretpower",
     "tutor:sleeptalk",
     "tutor:snore",
-    "tutor:stealthrock"
+    "tutor:stealthrock",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -145,7 +146,7 @@
   "weight": 589,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1790,
+  "nationalPokedexNumber": 1793,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:powdersnow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:growl",
+    "1:calmmind",
+    "10:icywind",
+    "10:taunt",
+    "15:icepunch",
+    "15:substitute",
+    "20:icespinner",
+    "20:rest",
+    "25:iceshard",
+    "30:iciclecrash",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -76,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5840,
+  "nationalPokedexNumber": 5848,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -133,7 +133,8 @@
     "tutor:torment",
     "tutor:toxic",
     "tutor:venoshock",
-    "tutor:stoneedge"
+    "tutor:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -147,7 +148,7 @@
   "weight": 1440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4088,
+  "nationalPokedexNumber": 4096,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

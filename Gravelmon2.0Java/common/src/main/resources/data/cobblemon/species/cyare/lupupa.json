@@ -64,7 +64,8 @@
     "1:stringshot",
     "15:bugbite",
     "20:flail",
-    "25:psybeam"
+    "25:psybeam",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5332,
+  "nationalPokedexNumber": 5340,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

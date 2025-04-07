@@ -74,7 +74,8 @@
     "44:tickle",
     "48:powerwhip",
     "52:ingrain",
-    "56:grassyterrain"
+    "56:grassyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "aristos",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1966,
+  "nationalPokedexNumber": 1969,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

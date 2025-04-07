@@ -126,7 +126,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -279,7 +280,8 @@
         "tm:wildcharge",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -365,7 +367,20 @@
       "drops": {},
       "moves": [
         "1:leafage",
-        "1:bite"
+        "1:bite",
+        "1:leer",
+        "1:leer",
+        "10:absorb",
+        "10:payback",
+        "15:trailblaze",
+        "15:nightslash",
+        "20:gigadrain",
+        "20:crunch",
+        "25:seedbomb",
+        "25:knockoff",
+        "30:leafblade",
+        "30:suckerpunch",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -553,7 +568,8 @@
         "egg:stockpile",
         "egg:swallow",
         "egg:wideguard",
-        "egg:yawn"
+        "egg:yawn",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -725,7 +741,8 @@
         "egg:bodyslam",
         "egg:refresh",
         "egg:healpulse",
-        "egg:grassyterrain"
+        "egg:grassyterrain",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -748,6 +765,166 @@
         "height": 5.3125,
         "fixed": false
       }
+    },
+    {
+      "name": "Ishirian",
+      "primaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 208,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "bayleef form=ishirian",
+      "baseScale": 0.5052631578947369,
+      "cannotDynamax": false,
+      "abilities": [
+        "clearbody",
+        "sturdy",
+        "h:sharpness"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defence": 95,
+        "special_attack": 65,
+        "special_defence": 90,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:scratch",
+        "1:leafblade",
+        "5:honeclaws",
+        "8:metalclaw",
+        "11:stomp",
+        "15:furycutter",
+        "17:bulldoze",
+        "20:slash",
+        "24:smartstrike",
+        "26:irondefense",
+        "30:bodyslam",
+        "33:flashcannon",
+        "38:strength",
+        "42:nightslash",
+        "45:ironhead",
+        "50:swordsdance",
+        "55:guillotine",
+        "tm:takedown",
+        "tm:charm",
+        "tm:protect",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:metalclaw",
+        "tm:endure",
+        "tm:raindance",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:rest",
+        "tm:taunt",
+        "tm:nastyplot",
+        "tm:helpinghand",
+        "tm:flashcannon",
+        "tm:ironhead",
+        "tm:irondefense",
+        "tm:xscissor",
+        "tm:gyroball",
+        "tm:metalsound",
+        "tm:curse",
+        "tm:falseswipe",
+        "tm:substitute",
+        "tm:steelbeam",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:earthquake",
+        "tm:bulldoze",
+        "tm:leafblade",
+        "tm:slash",
+        "tm:cut",
+        "tm:sacredsword",
+        "tm:razorshell",
+        "tm:nightslash",
+        "tm:slash",
+        "tm:metalclaw",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:attract",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:terablast",
+        "tm:bodyslam",
+        "tm:smartstrike",
+        "tm:irondefense",
+        "tm:metalsound",
+        "tm:stealthrock",
+        "tm:curse",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishirianmeganium.desc"
+      ],
+      "height": 20,
+      "weight": 1723,
+      "aspects": [
+        "ishirian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.9375,
+        "height": 5.9375,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -755,6 +932,7 @@
     "epochtwo",
     "ionosian",
     "egho",
-    "ayreian"
+    "ayreian",
+    "ishirian"
   ]
 }

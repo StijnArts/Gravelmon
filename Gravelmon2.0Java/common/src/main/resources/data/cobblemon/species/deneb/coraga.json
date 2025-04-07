@@ -100,7 +100,8 @@
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:shadowclamp"
+    "tutor:shadowclamp",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -115,7 +116,7 @@
   "weight": 805,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4562,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

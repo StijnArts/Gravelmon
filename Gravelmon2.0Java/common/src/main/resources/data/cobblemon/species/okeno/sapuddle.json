@@ -65,7 +65,30 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:acid"
+    "1:acid",
+    "1:sandattack",
+    "1:leer",
+    "10:mudshot",
+    "10:clearsmog",
+    "15:mudbomb",
+    "15:sludge",
+    "20:bulldoze",
+    "20:toxicspikes",
+    "25:scorchingsands",
+    "25:sludgebomb",
+    "30:earthpower",
+    "30:sludgewave",
+    "35:mudslap",
+    "35:poisonsting",
+    "40:growl",
+    "40:leer",
+    "45:sandattack",
+    "45:venoshock",
+    "50:mudbomb",
+    "50:poisontail",
+    "55:bulldoze",
+    "55:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -95,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4449,
+  "nationalPokedexNumber": 4457,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

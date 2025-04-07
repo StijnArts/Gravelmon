@@ -123,7 +123,8 @@
     "tm:icefang",
     "tm:firefang",
     "tm:retaliate",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -138,7 +139,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5075,
+  "nationalPokedexNumber": 5083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

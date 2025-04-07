@@ -60,7 +60,16 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:grassyglide"
+    "1:grassyglide",
+    "1:leer",
+    "1:quickattack",
+    "4:absorb",
+    "4:swordsdance",
+    "7:trailblaze",
+    "10:gigadrain",
+    "13:seedbomb",
+    "16:leafblade",
+    "tm:terablast"
   ],
   "labels": [
     "mahal",
@@ -75,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5545,
+  "nationalPokedexNumber": 5553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

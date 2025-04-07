@@ -76,7 +76,8 @@
     "41:uproar",
     "50:gunkshot",
     "egg:haze",
-    "egg:blizzard"
+    "egg:blizzard",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2401,
+  "nationalPokedexNumber": 2409,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

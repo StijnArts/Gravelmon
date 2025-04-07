@@ -51,7 +51,7 @@ public class Mouskrow extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

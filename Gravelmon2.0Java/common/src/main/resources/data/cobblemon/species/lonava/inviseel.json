@@ -107,7 +107,8 @@
     "tm:outrage",
     "tm:aquaring",
     "tm:feintattack",
-    "tm:brine"
+    "tm:brine",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3365,
+  "nationalPokedexNumber": 3373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

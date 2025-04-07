@@ -78,7 +78,8 @@
     "42:slash",
     "46:xscissor",
     "51:honeclaws",
-    "55:nightslash"
+    "55:nightslash",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1858,
+  "nationalPokedexNumber": 1861,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

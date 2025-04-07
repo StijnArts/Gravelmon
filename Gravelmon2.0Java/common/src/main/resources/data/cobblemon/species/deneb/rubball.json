@@ -113,7 +113,8 @@
     "egg:stoneedge",
     "egg:sunnyday",
     "egg:workup",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +127,7 @@
   "weight": 835,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4557,
+  "nationalPokedexNumber": 4565,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

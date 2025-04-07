@@ -181,7 +181,8 @@
         "egg:quickguard",
         "egg:stormthrow",
         "egg:powertrip",
-        "egg:seismictoss"
+        "egg:seismictoss",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

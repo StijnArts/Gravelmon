@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:watergun"
+    "1:watergun",
+    "1:leer",
+    "1:tailwhip",
+    "10:payback",
+    "10:bubblebeam",
+    "15:nightslash",
+    "15:aquatail",
+    "20:crunch",
+    "20:surf",
+    "25:knockoff",
+    "25:waterfall",
+    "30:suckerpunch",
+    "30:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4807,
+  "nationalPokedexNumber": 4815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

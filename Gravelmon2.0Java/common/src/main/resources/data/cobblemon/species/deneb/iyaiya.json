@@ -103,7 +103,8 @@
     "tm:terablast",
     "tm:toxic",
     "tm:grassyglide",
-    "tm:petalblizzard"
+    "tm:petalblizzard",
+    "tm:terablast"
   ],
   "labels": [
     "deneb"
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4653,
+  "nationalPokedexNumber": 4661,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

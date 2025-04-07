@@ -130,7 +130,8 @@
     "tutor:waterpulse",
     "tutor:weatherball",
     "tutor:whirlpool",
-    "tutor:zenheadbutt"
+    "tutor:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -216,7 +217,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4086,
+  "nationalPokedexNumber": 4094,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

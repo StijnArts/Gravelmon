@@ -75,7 +75,8 @@
     "tm:iondeluge",
     "tm:dragonbreath",
     "tm:lunge",
-    "tm:pinmissile"
+    "tm:pinmissile",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3889,
+  "nationalPokedexNumber": 3897,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

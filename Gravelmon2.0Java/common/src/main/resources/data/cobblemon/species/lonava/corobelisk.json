@@ -73,7 +73,8 @@
     "37:recover",
     "41:sunnyday",
     "46:flamethrower",
-    "50:eruption"
+    "50:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3371,
+  "nationalPokedexNumber": 3379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

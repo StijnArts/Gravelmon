@@ -42,7 +42,7 @@ public class Skelevera extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONEMERANG,46)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 30, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 30, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),

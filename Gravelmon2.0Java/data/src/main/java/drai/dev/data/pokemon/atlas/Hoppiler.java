@@ -62,7 +62,7 @@ public class Hoppiler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PESTER,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

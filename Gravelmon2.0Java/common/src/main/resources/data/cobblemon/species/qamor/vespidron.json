@@ -75,7 +75,8 @@
     "40:metalsound",
     "44:spikes",
     "48:irondefense",
-    "52:bravebird"
+    "52:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4071,
+  "nationalPokedexNumber": 4079,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

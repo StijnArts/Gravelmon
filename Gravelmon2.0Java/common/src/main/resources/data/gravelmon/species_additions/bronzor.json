@@ -147,7 +147,8 @@
         "egg:trickroom",
         "egg:stoneedge",
         "egg:stealthrock",
-        "egg:cosmicpower"
+        "egg:cosmicpower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -261,7 +262,8 @@
         "1:ember",
         "25:flameburst",
         "11:firefang",
-        "45:healblock"
+        "45:healblock",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",

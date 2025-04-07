@@ -71,7 +71,8 @@
     "1:thunderbolt",
     "1:mefirst",
     "tm:aurorabeam",
-    "tm:followme"
+    "tm:followme",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3261,
+  "nationalPokedexNumber": 3269,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

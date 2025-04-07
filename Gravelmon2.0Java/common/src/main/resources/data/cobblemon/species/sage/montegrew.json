@@ -155,7 +155,8 @@
     "egg:batonpass",
     "egg:doubleslap",
     "egg:followme",
-    "egg:sweetkiss"
+    "egg:sweetkiss",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

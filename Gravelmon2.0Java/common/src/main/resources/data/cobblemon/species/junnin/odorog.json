@@ -63,6 +63,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
+    "1:growl",
+    "3:round",
+    "6:swift",
+    "9:uproar",
+    "12:hypervoice",
+    "15:hyperbeam",
+    "18:tackle",
+    "21:growl",
+    "24:quickattack",
+    "27:bite",
+    "30:takedown",
+    "33:crunch",
+    "36:doubleedge",
     "tm:superpower",
     "tm:stompingtantrum",
     "tm:icywind",
@@ -115,7 +128,8 @@
     "tm:toxic",
     "tm:rest",
     "tm:raindance",
-    "tm:charm"
+    "tm:charm",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -130,7 +144,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

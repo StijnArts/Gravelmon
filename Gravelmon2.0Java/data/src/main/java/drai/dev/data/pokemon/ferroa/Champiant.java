@@ -121,7 +121,7 @@ public class Champiant extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 45, 8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 45, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

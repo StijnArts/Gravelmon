@@ -76,7 +76,8 @@
     "36:rockblast",
     "42:sandstorm",
     "48:stoneedge",
-    "54:explosion"
+    "54:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2331,
+  "nationalPokedexNumber": 2339,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

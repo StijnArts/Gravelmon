@@ -135,7 +135,8 @@
     "egg:sunnyday",
     "egg:superpower",
     "egg:thunderpunch",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -150,7 +151,7 @@
   "weight": 524,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4595,
+  "nationalPokedexNumber": 4603,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

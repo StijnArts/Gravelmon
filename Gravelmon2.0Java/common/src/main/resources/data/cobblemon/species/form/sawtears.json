@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "4:dragonrage",
+    "4:irontail",
+    "7:dualchop",
+    "7:smartstrike",
+    "10:breakingswipe",
+    "10:ironhead",
+    "13:dragonclaw",
+    "13:meteormash",
+    "16:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -94,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3791,
+  "nationalPokedexNumber": 3799,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

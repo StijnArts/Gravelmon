@@ -125,7 +125,8 @@
     "tm:dreameater",
     "tm:swagger",
     "tm:substitute",
-    "tm:snarl"
+    "tm:snarl",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -140,7 +141,7 @@
   "weight": 50,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3946,
+  "nationalPokedexNumber": 3954,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

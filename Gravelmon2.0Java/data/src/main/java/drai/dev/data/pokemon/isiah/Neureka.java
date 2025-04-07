@@ -44,7 +44,7 @@ public class Neureka extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,60)           ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_OLD_GROWTH_TAIGA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -128,7 +128,8 @@
     "tm:reflect",
     "tm:rest",
     "tm:raindance",
-    "tm:scald"
+    "tm:scald",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -141,7 +142,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4708,
+  "nationalPokedexNumber": 4716,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

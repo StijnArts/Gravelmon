@@ -23,7 +23,8 @@ public class Sprousy extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("Very friendly and playful Pokémon. Sproutsy blooms in the company of people it fully trusts."),
-                List.of(),
+                List.of(new EvolutionEntry("petalnia", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -78,7 +79,11 @@ public class Sprousy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(1).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_GRASSLAND, Biome.IS_FLORAL).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sprousy");

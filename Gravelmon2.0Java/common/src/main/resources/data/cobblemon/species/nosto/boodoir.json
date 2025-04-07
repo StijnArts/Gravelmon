@@ -74,7 +74,8 @@
     "37:hypnosis",
     "42:phantomforce",
     "45:willowisp",
-    "51:poltergeist"
+    "51:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3528,
+  "nationalPokedexNumber": 3536,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

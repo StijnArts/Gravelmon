@@ -70,7 +70,8 @@
     "30:crunch",
     "39:rest",
     "44:earthquake",
-    "51:fissure"
+    "51:fissure",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5258,
+  "nationalPokedexNumber": 5266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

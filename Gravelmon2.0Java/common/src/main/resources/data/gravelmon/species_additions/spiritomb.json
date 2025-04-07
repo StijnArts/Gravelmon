@@ -66,7 +66,22 @@
         "1:thundershock",
         "1:lick",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:charge",
+        "4:confuseray",
+        "7:shockwave",
+        "7:ominouswind",
+        "10:discharge",
+        "10:nightshade",
+        "13:thunderbolt",
+        "13:hex",
+        "16:thunder",
+        "16:shadowball",
+        "tm:terablast"
       ],
       "labels": [
         "mahal",
@@ -197,7 +212,8 @@
         "egg:destinybond",
         "egg:disable",
         "egg:selfdestruct",
-        "egg:explosion"
+        "egg:explosion",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -341,7 +357,8 @@
         "tutor:synthesis",
         "tutor:trick",
         "tutor:wonderroom",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",

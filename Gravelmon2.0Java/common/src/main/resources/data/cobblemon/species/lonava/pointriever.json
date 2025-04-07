@@ -99,7 +99,8 @@
     "tm:confide",
     "tm:helpinghand",
     "tm:surf",
-    "tm:facade"
+    "tm:facade",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -114,7 +115,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3358,
+  "nationalPokedexNumber": 3366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -124,7 +124,8 @@
     "tutor:suckerpunch",
     "tutor:zenheadbutt",
     "egg:toxicspikes",
-    "egg:venoshock"
+    "egg:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "infinity"

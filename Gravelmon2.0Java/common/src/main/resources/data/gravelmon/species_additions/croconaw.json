@@ -103,6 +103,7 @@
         "tm:flareblitz",
         "tm:focusblast",
         "tm:frostbite",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:hypervoice",
         "tm:icefang",
@@ -144,7 +145,8 @@
         "tm:toxic",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -315,7 +317,8 @@
         "tm:toxic",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -417,7 +420,23 @@
         "1:watergun",
         "1:metalclaw",
         "1:flipturn",
-        "1:bulletpunch"
+        "1:bulletpunch",
+        "1:tailwhip",
+        "1:screech",
+        "1:quickattack",
+        "1:quickattack",
+        "10:bubblebeam",
+        "10:irontail",
+        "10:swordsdance",
+        "10:swordsdance",
+        "15:aquatail",
+        "15:smartstrike",
+        "20:surf",
+        "20:ironhead",
+        "25:waterfall",
+        "25:meteormash",
+        "30:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -626,7 +645,8 @@
         "egg:poisonfang",
         "egg:rapidspin",
         "egg:thunderfang",
-        "egg:waterpledge"
+        "egg:waterpledge",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -806,7 +826,8 @@
         "egg:faketears",
         "egg:block",
         "egg:waterpulse",
-        "egg:flatter"
+        "egg:flatter",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

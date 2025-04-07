@@ -130,7 +130,8 @@
         "tm:taunt",
         "tm:toxic",
         "tm:toxicspikes",
-        "tm:uturn"
+        "tm:uturn",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -292,7 +293,8 @@
         "tm:flash",
         "tm:counter",
         "tm:shadowball",
-        "tm:darkpulse"
+        "tm:darkpulse",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",

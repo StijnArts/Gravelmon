@@ -92,6 +92,7 @@
         "tm:firepunch",
         "tm:focusblast",
         "tm:geomancy",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:highhorsepower",
         "tm:icefang",
@@ -149,7 +150,8 @@
         "egg:lashout",
         "egg:throatchop",
         "egg:snatch",
-        "egg:switcheroo"
+        "egg:switcheroo",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -319,7 +321,8 @@
         "tm:workup",
         "egg:tickle",
         "egg:simplebeam",
-        "egg:extremespeed"
+        "egg:extremespeed",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

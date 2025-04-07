@@ -75,7 +75,8 @@
     "20:poisontail",
     "1:growl",
     "16:bubblebeam",
-    "10:poisonsting"
+    "10:poisonsting",
+    "tm:terablast"
   ],
   "labels": [
     "africanus",
@@ -90,7 +91,7 @@
   "weight": 225,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1959,
+  "nationalPokedexNumber": 1962,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

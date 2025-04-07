@@ -66,7 +66,29 @@
         "1:metalclaw",
         "1:ember",
         "1:irondefense",
-        "1:bulkup"
+        "1:bulkup",
+        "1:screech",
+        "1:growl",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:firespin",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:flamecharge",
+        "7:taunt",
+        "7:substitute",
+        "10:mirrorshot",
+        "10:flameburst",
+        "10:substitute",
+        "10:rest",
+        "13:flashcannon",
+        "13:flamethrower",
+        "13:rest",
+        "16:steelbeam",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -185,6 +207,7 @@
         "tm:flareblitz",
         "tm:gammaray",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icebeam",
         "tm:icepunch",
@@ -231,7 +254,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -421,7 +445,8 @@
         "tutor:stringshot",
         "tutor:superfang",
         "tutor:superpower",
-        "tutor:uproar"
+        "tutor:uproar",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",
@@ -613,7 +638,8 @@
         "tutor:synthesis",
         "tutor:thunderpunch",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

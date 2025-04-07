@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:acid"
+    "1:acid",
+    "1:leer",
+    "1:leer",
+    "10:twister",
+    "10:clearsmog",
+    "15:dragonbreath",
+    "15:sludge",
+    "20:breakingswipe",
+    "20:toxicspikes",
+    "25:dragonpulse",
+    "25:sludgebomb",
+    "30:dracometeor",
+    "30:sludgewave",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -92,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5887,
+  "nationalPokedexNumber": 5895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

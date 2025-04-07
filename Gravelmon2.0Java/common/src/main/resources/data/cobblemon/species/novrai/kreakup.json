@@ -121,7 +121,8 @@
     "tm:leaftornado",
     "tm:fakeout",
     "tm:selfdestruct",
-    "tm:supersonic"
+    "tm:supersonic",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -145,7 +146,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4951,
+  "nationalPokedexNumber": 4959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.125,

@@ -104,7 +104,8 @@
     "tm:workup",
     "tm:defog",
     "tm:grassyterrain",
-    "tm:mistyterrain"
+    "tm:mistyterrain",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -119,7 +120,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4235,
+  "nationalPokedexNumber": 4243,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ovizap",
+  "speciesId": "cobblemon:ovizap",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

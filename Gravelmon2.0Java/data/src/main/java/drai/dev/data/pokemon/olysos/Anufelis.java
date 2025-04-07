@@ -18,7 +18,7 @@ public class Anufelis extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 24, 2141,
                 new Stats(0,0,0,0,0,0), 3,
-                0.0,
+                -1,
                 220, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
@@ -27,7 +27,11 @@ public class Anufelis extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .subLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).atNight().cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.DESERT_PYRAMID).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Anufelis");

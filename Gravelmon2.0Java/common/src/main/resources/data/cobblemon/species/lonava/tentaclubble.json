@@ -131,7 +131,8 @@
     "tm:aquaring",
     "tm:aurorabeam",
     "tm:haze",
-    "tm:rapidspin"
+    "tm:rapidspin",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3341,
+  "nationalPokedexNumber": 3349,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

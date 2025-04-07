@@ -80,7 +80,8 @@
     "tm:dreameater",
     "tm:wish",
     "tm:calmmind",
-    "tm:healpulse"
+    "tm:healpulse",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2967,
+  "nationalPokedexNumber": 2975,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

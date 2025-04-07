@@ -85,7 +85,8 @@
     "tm:gigadrain",
     "tm:bravebird",
     "tm:thunderfang",
-    "tm:firefang"
+    "tm:firefang",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -100,7 +101,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2940,
+  "nationalPokedexNumber": 2948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.0,

@@ -17,7 +17,7 @@ public class Felectroar extends drai.dev.data.pokemon.Pokemon {
                         112),
                 List.of(Ability.INTIMIDATE,Ability.RIVALRY), Ability.MOXIE,
                 15, 410,
-                new Stats(0,2,0,1,0,0), 0,
+                new Stats(0,2,0,1,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -49,7 +49,11 @@ public class Felectroar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SAVANNA).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Felectroar");

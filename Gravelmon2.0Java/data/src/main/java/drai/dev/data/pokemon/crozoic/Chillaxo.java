@@ -81,7 +81,7 @@ public class Chillaxo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

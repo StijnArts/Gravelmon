@@ -131,7 +131,8 @@
     "tm:risingvoltage",
     "tm:dig",
     "tm:mudshot",
-    "tm:eggbomb"
+    "tm:eggbomb",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4855,
+  "nationalPokedexNumber": 4863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

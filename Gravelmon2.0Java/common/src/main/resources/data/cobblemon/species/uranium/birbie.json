@@ -123,7 +123,8 @@
     "egg:dazzlinggleam",
     "egg:steelwing",
     "egg:uproar",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1977,
+  "nationalPokedexNumber": 1980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

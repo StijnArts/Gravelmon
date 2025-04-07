@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -119,8 +119,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_island",
@@ -153,8 +153,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 13.5,
+      "level": "5-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -168,6 +168,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ishirian_chikorita-01",
+      "pokemon": "chikorita ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

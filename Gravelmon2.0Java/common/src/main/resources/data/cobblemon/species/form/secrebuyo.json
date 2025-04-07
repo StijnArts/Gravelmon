@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:gust",
-    "1:lick"
+    "1:lick",
+    "1:leer",
+    "1:growl",
+    "4:aircutter",
+    "4:confuseray",
+    "7:wingattack",
+    "7:ominouswind",
+    "10:airslash",
+    "10:nightshade",
+    "13:drillpeck",
+    "13:hex",
+    "16:hurricane",
+    "16:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3821,
+  "nationalPokedexNumber": 3829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

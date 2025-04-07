@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "1:growl",
+    "1:bulkup",
+    "10:quickattack",
+    "10:calmmind",
+    "15:bite",
+    "15:taunt",
+    "20:takedown",
+    "20:substitute",
+    "25:crunch",
+    "25:rest",
+    "30:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -76,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5335,
+  "nationalPokedexNumber": 5343,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

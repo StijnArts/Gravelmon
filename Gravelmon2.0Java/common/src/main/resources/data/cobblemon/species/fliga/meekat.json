@@ -80,7 +80,8 @@
     "tm:assurance",
     "tm:beatup",
     "tm:paraboliccharge",
-    "tm:zingzap"
+    "tm:zingzap",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3953,
+  "nationalPokedexNumber": 3961,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

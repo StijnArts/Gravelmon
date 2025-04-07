@@ -76,7 +76,8 @@
     "45:superfang",
     "49:screech",
     "52:bugbuzz",
-    "56:strengthsap"
+    "56:strengthsap",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4275,
+  "nationalPokedexNumber": 4283,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

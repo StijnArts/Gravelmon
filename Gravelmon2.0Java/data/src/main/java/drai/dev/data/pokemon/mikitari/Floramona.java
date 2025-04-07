@@ -165,7 +165,12 @@ public class Floramona extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,"tm")                        ),
                 List.of(Label.MIKITARI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(1).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_GRASSLAND, Biome.IS_FLORAL).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Floramona");

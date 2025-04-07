@@ -121,7 +121,7 @@ public class EpochAron extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UTURN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 27, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

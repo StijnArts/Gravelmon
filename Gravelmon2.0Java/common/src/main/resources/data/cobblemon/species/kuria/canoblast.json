@@ -71,7 +71,8 @@
     "28:irondefense",
     "32:coaching",
     "38:focuspunch",
-    "43:ironhead"
+    "43:ironhead",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -86,7 +87,7 @@
   "weight": 652,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4163,
+  "nationalPokedexNumber": 4171,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -135,7 +135,8 @@
     "tm:swagger",
     "tm:thunderfang",
     "tm:toxic",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -148,7 +149,7 @@
   "weight": 1150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4098,
+  "nationalPokedexNumber": 4106,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

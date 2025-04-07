@@ -16,8 +16,8 @@ public class NodorranBeartic extends drai.dev.data.pokemon.Pokemon {
                         85,
                         50),
                 List.of(Ability.FLAME_BODY), Ability.FLAME_BODY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -44,7 +44,11 @@ public class NodorranBeartic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,60)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_NETHER_FOREST)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beartic");

@@ -66,7 +66,7 @@ public class HoennianShuckle extends Pokemon {
         this.setHitbox(1,1);
         this.setBaseScale(0.6);
         getSpeciesFileData().addBasicVariation(this);
-        getPosingFileData().setAnimationFileName("hoenniandragapult");
+        getPosingFileData().setAnimationFileName("hoennianshuckle");
         getPosingFileData().setPortraitData( 2.2f, new Vector3(-0.45, 0.35, 0.0));
         getPosingFileData().setProfileData( 0.6f, new Vector3(0.0, 0.8, 0.0));
         getPosingFileData().addAnimations(List.of(

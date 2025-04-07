@@ -73,7 +73,8 @@
     "50:auroraveil",
     "57:swagger",
     "64:iciclecrash",
-    "71:sheercold"
+    "71:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3200,
+  "nationalPokedexNumber": 3208,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

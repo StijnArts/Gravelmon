@@ -72,7 +72,8 @@
     "1:thunderpunch",
     "1:terrainpulse",
     "1:firepunch",
-    "1:icepunch"
+    "1:icepunch",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -85,7 +86,7 @@
   "weight": 1560,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3303,
+  "nationalPokedexNumber": 3311,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

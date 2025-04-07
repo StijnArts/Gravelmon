@@ -126,7 +126,8 @@
     "egg:rollout",
     "egg:ingrain",
     "egg:worryseed",
-    "egg:ragepowder"
+    "egg:ragepowder",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -139,7 +140,7 @@
   "weight": 850,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4096,
+  "nationalPokedexNumber": 4104,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

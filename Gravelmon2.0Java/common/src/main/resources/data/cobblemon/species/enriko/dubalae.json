@@ -71,7 +71,8 @@
     "32:thunderbolt",
     "38:acidarmor",
     "42:voltswitch",
-    "45:iondeluge"
+    "45:iondeluge",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1655,
+  "nationalPokedexNumber": 1658,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

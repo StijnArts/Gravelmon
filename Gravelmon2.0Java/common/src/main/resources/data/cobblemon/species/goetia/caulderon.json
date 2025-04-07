@@ -78,7 +78,8 @@
     "66:hydropump",
     "78:flareblitz",
     "84:overheat",
-    "90:explosion"
+    "90:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6084,
+  "nationalPokedexNumber": 6092,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

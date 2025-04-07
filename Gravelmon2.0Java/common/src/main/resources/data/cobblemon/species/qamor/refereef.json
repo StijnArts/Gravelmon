@@ -60,7 +60,19 @@
   "drops": {},
   "moves": [
     "1:tackle",
-    "1:sleeptalk"
+    "1:sleeptalk",
+    "1:growl",
+    "1:bulkup",
+    "10:round",
+    "10:calmmind",
+    "15:swift",
+    "15:taunt",
+    "20:uproar",
+    "20:substitute",
+    "25:hypervoice",
+    "25:rest",
+    "30:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -88,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4033,
+  "nationalPokedexNumber": 4041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

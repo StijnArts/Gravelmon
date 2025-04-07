@@ -77,7 +77,8 @@
     "48:raindance",
     "50:moonblast",
     "55:perishsong",
-    "57:hydropump"
+    "57:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1895,
+  "nationalPokedexNumber": 1898,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

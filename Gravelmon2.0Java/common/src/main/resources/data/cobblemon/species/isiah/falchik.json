@@ -72,7 +72,8 @@
     "42:flashcannon",
     "46:hydropump",
     "50:skyattack",
-    "57:extremespeed"
+    "57:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4281,
+  "nationalPokedexNumber": 4289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

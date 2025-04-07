@@ -77,7 +77,8 @@
     "48:energyball",
     "52:flamethrower",
     "tm:honeclaws",
-    "tm:dragonclaw"
+    "tm:dragonclaw",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1803,
+  "nationalPokedexNumber": 1806,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

@@ -124,7 +124,8 @@
     "tm:magnetrise",
     "tm:dazzlinggleam",
     "tm:confide",
-    "tm:skillswap"
+    "tm:skillswap",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -139,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4889,
+  "nationalPokedexNumber": 4897,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

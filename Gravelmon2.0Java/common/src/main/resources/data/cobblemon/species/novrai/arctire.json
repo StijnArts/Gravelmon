@@ -127,7 +127,8 @@
     "tm:doubleedge",
     "tm:highhorsepower",
     "tm:mefirst",
-    "tm:endure"
+    "tm:endure",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5019,
+  "nationalPokedexNumber": 5027,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

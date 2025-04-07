@@ -79,7 +79,8 @@
     "43:poisonjab",
     "45:sludgebomb",
     "47:belch",
-    "50:flatter"
+    "50:flatter",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4174,
+  "nationalPokedexNumber": 4182,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

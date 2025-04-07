@@ -73,7 +73,8 @@
     "35:irondefense",
     "41:curse",
     "45:gyroball",
-    "50:explosion"
+    "50:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

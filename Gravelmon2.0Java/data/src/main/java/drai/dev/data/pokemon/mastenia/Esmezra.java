@@ -16,13 +16,13 @@ public class Esmezra extends drai.dev.data.pokemon.Pokemon {
                         109,
                         77),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- PsyshockSTAB Psychic - Beak Blast Flying - Trick Room Psychic - Cosmic Power Psychic - ConfusionSTAB Psychic - Confuse Ray Ghost - Mean Look Normal - Scary Face Normal - Tri Attack Normal - Clear Smog Poison - Feint AttackSTAB Dark - PursuitSTAB Dark - Dark PulseSTAB Dark - Drill Peck Flying - Agility Psychic - Double Hit Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_HIT,1),
@@ -43,7 +43,11 @@ public class Esmezra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_ARID).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Esmezra");

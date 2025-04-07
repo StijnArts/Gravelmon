@@ -133,7 +133,8 @@
     "tm:leaftornado",
     "tm:fakeout",
     "tm:selfdestruct",
-    "tm:supersonic"
+    "tm:supersonic",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4951,
+  "nationalPokedexNumber": 4959,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

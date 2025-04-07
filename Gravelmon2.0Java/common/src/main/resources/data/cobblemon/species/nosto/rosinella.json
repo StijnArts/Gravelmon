@@ -75,7 +75,8 @@
     "48:mistyterrain",
     "1:moonblast",
     "1:petaldance",
-    "1:solarbeam"
+    "1:solarbeam",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 3504,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

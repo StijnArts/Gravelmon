@@ -98,7 +98,8 @@
     "tm:rocksmash",
     "tm:waterfall",
     "tm:dive",
-    "egg:hydrocannon"
+    "egg:hydrocannon",
+    "tm:terablast"
   ],
   "labels": [
     "blazing_emerald",
@@ -111,7 +112,7 @@
   "weight": 3000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3830,
+  "nationalPokedexNumber": 3838,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

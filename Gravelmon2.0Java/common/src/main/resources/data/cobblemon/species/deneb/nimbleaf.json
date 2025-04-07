@@ -114,7 +114,8 @@
     "egg:stunspore",
     "egg:sunnyday",
     "egg:swift",
-    "egg:vinewhip"
+    "egg:vinewhip",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -142,7 +143,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4488,
+  "nationalPokedexNumber": 4496,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

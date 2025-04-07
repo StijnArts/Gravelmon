@@ -76,7 +76,8 @@
     "30:sandstorm",
     "33:foulplay",
     "36:earthquake",
-    "39:thrash"
+    "39:thrash",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4333,
+  "nationalPokedexNumber": 4341,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

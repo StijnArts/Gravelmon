@@ -115,7 +115,8 @@
     "tm:calmmind",
     "tm:lightscreen",
     "tm:reflect",
-    "tm:rest"
+    "tm:rest",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -139,7 +140,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3489,
+  "nationalPokedexNumber": 3497,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

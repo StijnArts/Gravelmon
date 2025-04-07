@@ -138,7 +138,8 @@
         "egg:counter",
         "egg:lowkick",
         "egg:swordsdance",
-        "egg:disable"
+        "egg:disable",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -337,7 +338,8 @@
         "tm:fellstinger",
         "tm:poweruppunch",
         "tm:rototiller",
-        "tm:vacuumwave"
+        "tm:vacuumwave",
+        "tm:terablast"
       ],
       "labels": [
         "neonintendo",
@@ -488,7 +490,8 @@
         "tm:swagger",
         "tm:substitute",
         "tm:darkpulse",
-        "tutor:secretpower"
+        "tutor:secretpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

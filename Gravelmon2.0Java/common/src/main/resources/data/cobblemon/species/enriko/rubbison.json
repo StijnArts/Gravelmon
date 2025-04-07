@@ -76,7 +76,8 @@
     "40:cosmicpower",
     "44:heavyslam",
     "48:storedpower",
-    "54:hyperbeam"
+    "54:hyperbeam",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1757,
+  "nationalPokedexNumber": 1760,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

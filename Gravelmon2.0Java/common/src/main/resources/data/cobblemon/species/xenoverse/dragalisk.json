@@ -89,7 +89,8 @@
     "tm:stoneedge",
     "tm:rockslide",
     "tm:substitute",
-    "tutor:dragonpulse"
+    "tutor:dragonpulse",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -102,7 +103,7 @@
   "weight": 6660,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1839,
+  "nationalPokedexNumber": 1842,
   "shoulderMountable": false,
   "hitbox": {
     "width": 12.0625,

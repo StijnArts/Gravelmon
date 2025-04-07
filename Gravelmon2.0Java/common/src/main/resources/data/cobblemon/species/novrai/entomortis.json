@@ -153,7 +153,8 @@
     "tm:electroweb",
     "tm:harden",
     "tm:perishsong",
-    "tm:extrasensory"
+    "tm:extrasensory",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5032,
+  "nationalPokedexNumber": 5040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

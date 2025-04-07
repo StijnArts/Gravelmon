@@ -62,7 +62,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:scratch"
+        "1:scratch",
+        "1:leer",
+        "4:twister",
+        "7:dragonbreath",
+        "10:breakingswipe",
+        "13:dragonpulse",
+        "16:dracometeor",
+        "19:scratch",
+        "22:leer",
+        "25:dragonrage",
+        "28:dualchop",
+        "31:breakingswipe",
+        "34:dragonclaw",
+        "39:outrage",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -237,7 +251,8 @@
         "egg:reversal",
         "egg:covet",
         "egg:bodyslam",
-        "egg:metalclaw"
+        "egg:metalclaw",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -401,7 +416,8 @@
         "egg:doubleedge",
         "egg:doublekick",
         "egg:extrasensory",
-        "egg:naturepower"
+        "egg:naturepower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -502,7 +518,30 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:acid"
+        "1:acid",
+        "1:growl",
+        "1:leer",
+        "10:firespin",
+        "10:clearsmog",
+        "15:flamecharge",
+        "15:sludge",
+        "20:flameburst",
+        "20:toxicspikes",
+        "25:flamethrower",
+        "25:sludgebomb",
+        "30:fireblast",
+        "30:sludgewave",
+        "35:ember",
+        "35:poisonsting",
+        "40:growl",
+        "40:leer",
+        "45:quickattack",
+        "45:venoshock",
+        "50:flamecharge",
+        "50:poisontail",
+        "55:firepunch",
+        "55:toxicspikes",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -690,7 +729,8 @@
         "egg:firepledge",
         "egg:foulplay",
         "egg:mudslap",
-        "egg:zapcannon"
+        "egg:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -865,7 +905,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:swift",
-        "tutor:zapcannon"
+        "tutor:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -1065,7 +1106,8 @@
         "egg:naturepower",
         "egg:quickattack",
         "egg:reversal",
-        "egg:thrash"
+        "egg:thrash",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

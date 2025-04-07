@@ -76,7 +76,8 @@
     "39:headcharge",
     "44:spikyshield",
     "47:zenheadbutt",
-    "52:woodhammer"
+    "52:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -91,7 +92,7 @@
   "weight": 946,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4185,
+  "nationalPokedexNumber": 4193,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

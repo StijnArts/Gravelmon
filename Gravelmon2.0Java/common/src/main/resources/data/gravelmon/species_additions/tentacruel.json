@@ -161,7 +161,8 @@
         "tm:whirlpool",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -330,7 +331,8 @@
         "tutor:spite",
         "tutor:synthesis",
         "tutor:whirlpool",
-        "tutor:worryseed"
+        "tutor:worryseed",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",
@@ -458,7 +460,8 @@
         "tm:waterfall",
         "tm:dive",
         "egg:smokescreen",
-        "egg:moonrazer"
+        "egg:moonrazer",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",
@@ -586,7 +589,8 @@
         "tm:trickroom",
         "tm:snarl",
         "tm:dazzlinggleam",
-        "tm:confide"
+        "tm:confide",
+        "tm:terablast"
       ],
       "labels": [
         "phoenix_rising",

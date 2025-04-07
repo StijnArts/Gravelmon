@@ -64,7 +64,22 @@
     "1:powdersnow",
     "1:gust",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:icywind",
+    "4:aircutter",
+    "7:aurorabeam",
+    "7:wingattack",
+    "10:freezedry",
+    "10:airslash",
+    "13:icebeam",
+    "13:drillpeck",
+    "16:blizzard",
+    "16:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3732,
+  "nationalPokedexNumber": 3740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

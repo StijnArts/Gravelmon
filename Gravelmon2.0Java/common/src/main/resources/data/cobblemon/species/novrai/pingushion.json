@@ -138,7 +138,8 @@
     "tm:charm",
     "tm:metalburst",
     "tm:mist",
-    "tm:helpinghand"
+    "tm:helpinghand",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -153,7 +154,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5018,
+  "nationalPokedexNumber": 5026,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

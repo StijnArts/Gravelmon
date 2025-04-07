@@ -74,7 +74,8 @@
     "35:destinybond",
     "38:stompingtantrum",
     "47:memento",
-    "52:lashout"
+    "52:lashout",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1923,
+  "nationalPokedexNumber": 1926,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

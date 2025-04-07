@@ -64,7 +64,34 @@
       "drops": {},
       "moves": [
         "1:thundershock",
-        "1:gust"
+        "1:gust",
+        "1:leer",
+        "1:leer",
+        "4:charge",
+        "4:aircutter",
+        "7:shockwave",
+        "7:wingattack",
+        "10:discharge",
+        "10:airslash",
+        "13:thunderbolt",
+        "13:drillpeck",
+        "16:thunder",
+        "16:hurricane",
+        "19:thundershock",
+        "19:peck",
+        "22:leer",
+        "22:leer",
+        "25:charge",
+        "25:pluck",
+        "28:thunderpunch",
+        "28:wingattack",
+        "31:discharge",
+        "31:aerialace",
+        "34:wildcharge",
+        "34:drillpeck",
+        "39:supercellslam",
+        "39:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -236,7 +263,8 @@
         "egg:clearsmog",
         "egg:sludgewave",
         "egg:dragondance",
-        "egg:dragonenergy"
+        "egg:dragonenergy",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -416,7 +444,8 @@
         "egg:steelwing",
         "egg:playrough",
         "egg:discharge",
-        "egg:weatherball"
+        "egg:weatherball",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -578,7 +607,8 @@
         "tm:featherdance",
         "tm:powerswap",
         "tm:dragonrush",
-        "tm:playrough"
+        "tm:playrough",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -760,7 +790,8 @@
         "egg:pursuit",
         "egg:spitup",
         "egg:stockpile",
-        "egg:swallow"
+        "egg:swallow",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -934,7 +965,8 @@
         "egg:pursuit",
         "egg:rage",
         "egg:roost",
-        "egg:steelwing"
+        "egg:steelwing",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

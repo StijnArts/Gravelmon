@@ -73,7 +73,8 @@
     "31:solarbeam",
     "36:overheat",
     "tm:ingrain",
-    "tm:worryseed"
+    "tm:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4434,
+  "nationalPokedexNumber": 4442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.625,

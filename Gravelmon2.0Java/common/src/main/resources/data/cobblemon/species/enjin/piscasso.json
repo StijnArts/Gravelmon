@@ -145,7 +145,8 @@
     "tm:psybeam",
     "tm:psywave",
     "tm:bubblebeam",
-    "tm:watersport"
+    "tm:watersport",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -160,7 +161,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4671,
+  "nationalPokedexNumber": 4679,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

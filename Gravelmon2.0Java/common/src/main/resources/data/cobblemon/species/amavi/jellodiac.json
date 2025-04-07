@@ -74,7 +74,8 @@
     "46:psychic",
     "50:mirrorcoat",
     "55:psychoshift",
-    "60:focusblast"
+    "60:focusblast",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5232,
+  "nationalPokedexNumber": 5240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

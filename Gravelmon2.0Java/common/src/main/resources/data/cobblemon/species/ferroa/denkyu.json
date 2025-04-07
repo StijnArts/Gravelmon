@@ -97,7 +97,8 @@
     "tm:voltswitch",
     "tm:whirlwind",
     "tm:wildcharge",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1586,
+  "nationalPokedexNumber": 1589,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

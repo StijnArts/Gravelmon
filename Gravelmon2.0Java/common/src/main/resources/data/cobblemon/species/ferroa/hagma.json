@@ -142,7 +142,8 @@
     "tm:explosion",
     "tm:firespin",
     "tm:aquaring",
-    "tm:mudslide"
+    "tm:mudslide",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -170,7 +171,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1562,
+  "nationalPokedexNumber": 1565,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -27,6 +27,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "ishirian_sewaddle-01",
+      "pokemon": "sewaddle ishirian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
     }
   ]
 }

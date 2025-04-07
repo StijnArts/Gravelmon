@@ -131,7 +131,8 @@
         "egg:lashout",
         "egg:firstimpression",
         "egg:poisonjab",
-        "egg:razorleaf"
+        "egg:razorleaf",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -276,7 +277,8 @@
         "tm:poisonjab",
         "tm:swagger",
         "tm:substitute",
-        "tutor:secretpower"
+        "tutor:secretpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -402,7 +404,8 @@
         "tm:flash",
         "tm:rocksmash",
         "egg:fissure",
-        "egg:crystalize"
+        "egg:crystalize",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

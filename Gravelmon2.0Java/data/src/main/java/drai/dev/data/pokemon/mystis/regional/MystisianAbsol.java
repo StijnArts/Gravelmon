@@ -16,7 +16,7 @@ public class MystisianAbsol extends drai.dev.data.pokemon.Pokemon {
                         60,
                         75),
                 List.of(Ability.SLUSH_RUSH), Ability.SNOW_WARNING,
-                0, 0,
+                16, 0,
                 new Stats(0,2,0,0,0,0), 30,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
@@ -128,7 +128,11 @@ public class MystisianAbsol extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_SHARD,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FREEZING).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Absol");

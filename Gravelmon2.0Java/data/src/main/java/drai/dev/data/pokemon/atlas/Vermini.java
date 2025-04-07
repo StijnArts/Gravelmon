@@ -61,7 +61,7 @@ public class Vermini extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSHOT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

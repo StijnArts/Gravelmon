@@ -97,7 +97,8 @@
     "tm:suckerpunch",
     "tm:wideguard",
     "tm:iciclecrash",
-    "tm:flail"
+    "tm:flail",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2437,
+  "nationalPokedexNumber": 2445,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

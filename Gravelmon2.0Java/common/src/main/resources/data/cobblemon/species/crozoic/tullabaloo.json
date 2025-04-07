@@ -72,7 +72,8 @@
     "1:smog",
     "1:clearsmog",
     "1:hypnosis",
-    "1:hurricane"
+    "1:hurricane",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -85,7 +86,7 @@
   "weight": 8,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3288,
+  "nationalPokedexNumber": 3296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

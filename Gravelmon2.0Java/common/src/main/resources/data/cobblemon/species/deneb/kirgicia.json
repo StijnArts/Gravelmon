@@ -136,7 +136,8 @@
     "egg:thunderbolt",
     "egg:trick",
     "egg:wish",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4525,
+  "nationalPokedexNumber": 4533,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

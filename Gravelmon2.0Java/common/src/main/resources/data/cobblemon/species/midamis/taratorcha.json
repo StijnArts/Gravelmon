@@ -65,7 +65,8 @@
     "1:stringshot",
     "5:scaryface",
     "8:ember",
-    "12:constrict"
+    "12:constrict",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -80,7 +81,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4296,
+  "nationalPokedexNumber": 4304,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

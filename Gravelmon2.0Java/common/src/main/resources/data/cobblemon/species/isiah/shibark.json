@@ -75,7 +75,8 @@
     "30:energyball",
     "33:screech",
     "36:endeavor",
-    "39:leafstorm"
+    "39:leafstorm",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4221,
+  "nationalPokedexNumber": 4229,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

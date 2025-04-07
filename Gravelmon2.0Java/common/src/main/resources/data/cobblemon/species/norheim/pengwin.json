@@ -80,7 +80,8 @@
     "tm:voltswitch",
     "tm:wildcharge",
     "tm:afteryou",
-    "tm:followme"
+    "tm:followme",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3161,
+  "nationalPokedexNumber": 3169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

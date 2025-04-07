@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:scratch",
-    "1:ember"
+    "1:ember",
+    "1:leer",
+    "1:growl",
+    "10:twister",
+    "10:firespin",
+    "15:dragonbreath",
+    "15:flamecharge",
+    "20:breakingswipe",
+    "20:flameburst",
+    "25:dragonpulse",
+    "25:flamethrower",
+    "30:dracometeor",
+    "30:fireblast",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4803,
+  "nationalPokedexNumber": 4811,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

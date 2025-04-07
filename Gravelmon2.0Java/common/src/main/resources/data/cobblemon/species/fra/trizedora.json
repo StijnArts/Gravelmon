@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:peck"
+    "1:peck",
+    "1:leer",
+    "1:leer",
+    "4:charge",
+    "4:pluck",
+    "7:thunderpunch",
+    "7:wingattack",
+    "10:discharge",
+    "10:aerialace",
+    "13:wildcharge",
+    "13:drillpeck",
+    "16:supercellslam",
+    "16:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "fra",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2920,
+  "nationalPokedexNumber": 2928,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

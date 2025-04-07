@@ -125,7 +125,8 @@
     "egg:sludge",
     "egg:sunnyday",
     "egg:thunderbolt",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -138,7 +139,7 @@
   "weight": 210,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4561,
+  "nationalPokedexNumber": 4569,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

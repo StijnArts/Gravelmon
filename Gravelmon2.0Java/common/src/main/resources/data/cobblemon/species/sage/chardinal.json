@@ -136,7 +136,8 @@
     "egg:ironhead",
     "egg:mirrormove",
     "egg:roost",
-    "egg:tailwind"
+    "egg:tailwind",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

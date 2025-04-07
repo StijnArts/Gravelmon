@@ -120,7 +120,8 @@
     "tm:roar",
     "tm:bulkup",
     "tm:calmmind",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -135,7 +136,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5148,
+  "nationalPokedexNumber": 5156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

@@ -110,7 +110,8 @@
         "egg:detect",
         "egg:rapidspin",
         "egg:roost",
-        "egg:lastresort"
+        "egg:lastresort",
+        "tm:terablast"
       ],
       "labels": [
         "gen9",

@@ -80,6 +80,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "mikitarian_lopunny-01",
+      "pokemon": "lopunny mikitarian",
+      "presets": [
+        "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "27-47",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_cold"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
     }
   ]
 }

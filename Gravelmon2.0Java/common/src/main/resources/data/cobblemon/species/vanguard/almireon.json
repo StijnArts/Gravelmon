@@ -132,7 +132,8 @@
     "tm:bodypress",
     "tm:metalclaw",
     "tm:heavyslam",
-    "tm:calmmind"
+    "tm:calmmind",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -145,7 +146,7 @@
   "weight": 950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4102,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

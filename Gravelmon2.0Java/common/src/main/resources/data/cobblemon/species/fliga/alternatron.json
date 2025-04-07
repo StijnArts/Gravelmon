@@ -72,7 +72,8 @@
     "41:wildcharge",
     "47:shiftgear",
     "52:hyperbeam",
-    "57:zapcannon"
+    "57:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -85,7 +86,7 @@
   "weight": 2041,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3968,
+  "nationalPokedexNumber": 3976,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

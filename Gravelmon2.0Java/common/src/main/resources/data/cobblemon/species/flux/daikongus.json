@@ -85,7 +85,8 @@
     "53:bellydrum",
     "67:heavyslam",
     "egg:counter",
-    "egg:leechseed"
+    "egg:leechseed",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -100,7 +101,7 @@
   "weight": 2958,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2119,
+  "nationalPokedexNumber": 2122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

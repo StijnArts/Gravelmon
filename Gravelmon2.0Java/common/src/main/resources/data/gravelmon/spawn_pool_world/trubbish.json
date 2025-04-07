@@ -6,11 +6,14 @@
     {
       "id": "mahalian_trubbish-01",
       "pokemon": "trubbish mahalian",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
@@ -35,7 +38,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-36",
-      "weight": 9.0,
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

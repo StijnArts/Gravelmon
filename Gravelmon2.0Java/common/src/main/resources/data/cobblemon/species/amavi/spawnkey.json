@@ -69,7 +69,8 @@
     "27:fakeout",
     "32:knockoff",
     "42:crunch",
-    "48:blazekick"
+    "48:blazekick",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5184,
+  "nationalPokedexNumber": 5192,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

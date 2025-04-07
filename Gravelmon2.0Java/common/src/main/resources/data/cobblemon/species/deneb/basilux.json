@@ -78,6 +78,7 @@
     "19:magicalleaf",
     "24:growth",
     "28:gigadrain",
+    "33:aromawind",
     "34:lusterbloom",
     "40:thunderbolt",
     "48:aromatherapy",
@@ -116,7 +117,8 @@
     "egg:shockwave",
     "egg:spark",
     "egg:teeterdance",
-    "egg:worryseed"
+    "egg:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -131,7 +133,7 @@
   "weight": 739,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4537,
+  "nationalPokedexNumber": 4545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

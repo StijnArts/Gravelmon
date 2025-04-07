@@ -167,7 +167,8 @@
     "tm:willowisp",
     "tm:psychic",
     "tm:fireblast",
-    "tm:sleeptalk"
+    "tm:sleeptalk",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -182,7 +183,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5162,
+  "nationalPokedexNumber": 5170,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

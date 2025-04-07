@@ -59,7 +59,19 @@
   ],
   "drops": {},
   "moves": [
-    "1:lowkick"
+    "1:lowkick",
+    "1:leer",
+    "10:revenge",
+    "15:vacuumwave",
+    "20:brickbreak",
+    "25:aurasphere",
+    "30:focusblast",
+    "35:lowkick",
+    "40:leer",
+    "45:revenge",
+    "50:lowsweep",
+    "55:brickbreak",
+    "tm:terablast"
   ],
   "labels": [
     "ionos",
@@ -87,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4753,
+  "nationalPokedexNumber": 4761,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

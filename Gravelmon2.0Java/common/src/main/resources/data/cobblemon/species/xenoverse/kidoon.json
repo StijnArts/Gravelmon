@@ -77,7 +77,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:tailwind",
-    "tutor:waterpulse"
+    "tutor:waterpulse",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1793,
+  "nationalPokedexNumber": 1796,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

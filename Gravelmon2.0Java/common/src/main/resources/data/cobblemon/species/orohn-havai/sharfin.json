@@ -80,7 +80,8 @@
     "tm:metalburst",
     "tm:foulplay",
     "tm:playrough",
-    "tm:jawlock"
+    "tm:jawlock",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3016,
+  "nationalPokedexNumber": 3024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

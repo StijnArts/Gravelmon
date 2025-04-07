@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:strugglebug",
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:stringshot",
+    "1:babydolleyes",
+    "10:silverwind",
+    "10:drainingkiss",
+    "15:signalbeam",
+    "15:playnice",
+    "20:infestation",
+    "20:dazzlinggleam",
+    "25:uturn",
+    "25:hypervoice",
+    "30:bugbuzz",
+    "30:moonblast",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -77,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5989,
+  "nationalPokedexNumber": 5997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

@@ -76,7 +76,8 @@
     "37:poisonjab",
     "41:suckerpunch",
     "46:playrough",
-    "50:fellstinger"
+    "50:fellstinger",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1815,
+  "nationalPokedexNumber": 1818,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

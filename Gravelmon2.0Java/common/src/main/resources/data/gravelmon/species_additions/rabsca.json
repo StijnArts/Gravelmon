@@ -82,7 +82,8 @@
         "38:guardsplit",
         "38:powersplit",
         "43:sandstorm",
-        "48:explosion"
+        "48:explosion",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",

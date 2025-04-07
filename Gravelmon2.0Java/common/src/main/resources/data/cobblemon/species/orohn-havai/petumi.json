@@ -78,7 +78,8 @@
     "tm:covet",
     "tm:magicalleaf",
     "tm:disarmingvoice",
-    "tm:flowershield"
+    "tm:flowershield",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2955,
+  "nationalPokedexNumber": 2963,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

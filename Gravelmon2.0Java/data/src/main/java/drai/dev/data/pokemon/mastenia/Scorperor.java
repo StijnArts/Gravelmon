@@ -16,8 +16,8 @@ public class Scorperor extends drai.dev.data.pokemon.Pokemon {
                         76,
                         86),
                 List.of(Ability.HYPER_CUTTER,Ability.SHELL_ARMOR), Ability.INTIMIDATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -43,7 +43,11 @@ public class Scorperor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRABHAMMER,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Scorperor");

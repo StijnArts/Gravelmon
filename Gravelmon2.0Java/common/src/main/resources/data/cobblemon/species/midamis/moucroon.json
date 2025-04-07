@@ -75,7 +75,8 @@
     "60:focusblast",
     "tm:powdersnow",
     "tm:sandstorm",
-    "tm:sandtomb"
+    "tm:sandtomb",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4381,
+  "nationalPokedexNumber": 4389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

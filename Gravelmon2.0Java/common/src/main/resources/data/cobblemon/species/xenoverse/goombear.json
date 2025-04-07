@@ -124,7 +124,8 @@
     "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalk",
-    "tutor:snore"
+    "tutor:snore",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -139,7 +140,7 @@
   "weight": 3600,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1814,
+  "nationalPokedexNumber": 1817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

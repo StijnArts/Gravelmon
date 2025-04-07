@@ -73,7 +73,8 @@
     "tm:aerialace",
     "tm:darkpulse",
     "tm:airslash",
-    "tm:bravebird"
+    "tm:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1409,
+  "nationalPokedexNumber": 1412,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

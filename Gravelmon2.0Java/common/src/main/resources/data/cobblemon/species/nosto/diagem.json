@@ -73,7 +73,8 @@
     "44:rockslide",
     "50:stealthrock",
     "57:psyshock",
-    "65:headsmash"
+    "65:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3516,
+  "nationalPokedexNumber": 3524,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

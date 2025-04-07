@@ -86,7 +86,8 @@
     "tm:fling",
     "tm:thunderfang",
     "tm:firefang",
-    "tm:icefang"
+    "tm:icefang",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
   "weight": 958,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4057,
+  "nationalPokedexNumber": 4065,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

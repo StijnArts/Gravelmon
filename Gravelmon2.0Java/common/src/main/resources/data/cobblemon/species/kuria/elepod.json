@@ -75,7 +75,8 @@
     "45:raindance",
     "50:muddywater",
     "56:thunder",
-    "61:electrify"
+    "61:electrify",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4166,
+  "nationalPokedexNumber": 4174,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

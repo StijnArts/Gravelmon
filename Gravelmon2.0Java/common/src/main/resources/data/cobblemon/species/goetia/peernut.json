@@ -61,7 +61,25 @@
   "moves": [
     "1:tackle",
     "1:sleeptalk",
-    "1:healbell"
+    "1:healbell",
+    "1:growl",
+    "1:bulkup",
+    "1:wish",
+    "10:round",
+    "10:calmmind",
+    "15:swift",
+    "15:taunt",
+    "20:uproar",
+    "20:substitute",
+    "25:hypervoice",
+    "25:rest",
+    "30:hyperbeam",
+    "35:tackle",
+    "40:growl",
+    "45:quickattack",
+    "50:bite",
+    "55:takedown",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -74,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5944,
+  "nationalPokedexNumber": 5952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

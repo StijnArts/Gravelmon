@@ -28,7 +28,7 @@ public class Smulb extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 21, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 21, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

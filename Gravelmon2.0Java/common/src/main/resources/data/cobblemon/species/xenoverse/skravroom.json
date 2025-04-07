@@ -140,7 +140,8 @@
     "tutor:snore",
     "tutor:soundbarrier",
     "tutor:strugglebug",
-    "tutor:uproar"
+    "tutor:uproar",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -155,7 +156,7 @@
   "weight": 1300,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1819,
+  "nationalPokedexNumber": 1822,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -76,7 +76,8 @@
     "40:extrasensory",
     "44:powergem",
     "48:futuresight",
-    "54:storedpower"
+    "54:storedpower",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1759,
+  "nationalPokedexNumber": 1762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

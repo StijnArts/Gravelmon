@@ -76,7 +76,8 @@
     "35:painsplit",
     "40:discharge",
     "45:magiccoat",
-    "48:mirrorcoat"
+    "48:mirrorcoat",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1927,
+  "nationalPokedexNumber": 1930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

@@ -110,7 +110,8 @@
     "tm:thief",
     "tm:torment",
     "tm:watergun",
-    "tm:waterfall"
+    "tm:waterfall",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -123,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1582,
+  "nationalPokedexNumber": 1585,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

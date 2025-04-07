@@ -41,7 +41,7 @@ public class HizianHonchkrow extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 41, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 41, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),

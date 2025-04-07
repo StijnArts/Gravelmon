@@ -79,7 +79,8 @@
         "48:hex",
         "52:quiverdance",
         "56:petaldance",
-        "60:destinybond"
+        "60:destinybond",
+        "tm:terablast"
       ],
       "labels": [
         "avoris",
@@ -272,7 +273,8 @@
         "tutor:snore",
         "tutor:stealthrock",
         "tutor:thunderpunch",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -393,7 +395,8 @@
         "28:kindleseed",
         "33:needlearm",
         "36:scaryface",
-        "41:heatwave"
+        "41:heatwave",
+        "tm:terablast"
       ],
       "labels": [
         "blazing_emerald",

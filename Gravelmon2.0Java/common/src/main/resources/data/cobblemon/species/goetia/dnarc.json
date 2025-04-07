@@ -59,7 +59,19 @@
   ],
   "drops": {},
   "moves": [
-    "1:disarmingvoice"
+    "1:disarmingvoice",
+    "1:babydolleyes",
+    "10:drainingkiss",
+    "15:playnice",
+    "20:dazzlinggleam",
+    "25:hypervoice",
+    "30:moonblast",
+    "35:disarmingvoice",
+    "40:babydolleyes",
+    "45:drainingkiss",
+    "50:playnice",
+    "55:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -72,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6095,
+  "nationalPokedexNumber": 6103,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

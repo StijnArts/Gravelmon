@@ -71,7 +71,8 @@
     "40:counter",
     "46:revenge",
     "50:lashout",
-    "55:megakick"
+    "55:megakick",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4013,
+  "nationalPokedexNumber": 4021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

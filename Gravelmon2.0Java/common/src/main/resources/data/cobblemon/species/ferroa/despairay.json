@@ -118,7 +118,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:venoshock",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -133,7 +134,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1601,
+  "nationalPokedexNumber": 1604,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

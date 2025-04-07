@@ -16,23 +16,25 @@ public class NodorranProbopass extends drai.dev.data.pokemon.Pokemon {
                         130,
                         25),
                 List.of(Ability.HARVEST,Ability.STURDY), Ability.CHLOROPHYLL,
-                0, 4060,
-                new Stats(1,0,0,0,2,0), 0,
+                18, 4060,
+                new Stats(1,0,0,0,2,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- Stone EdgeSTAB Rock - Stealth Rock  Rock - Growth Normal"),
+                List.of(""),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.GROWTH,1),
-                        new MoveLearnSetEntry(Move.STONE_EDGE,1),
-                        new MoveLearnSetEntry(Move.STEALTH_ROCK,1)                        ),
+                List.of(                     ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(39).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_FOREST).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanWalk(false);
            setLangFileName("Probopass");
 
     }

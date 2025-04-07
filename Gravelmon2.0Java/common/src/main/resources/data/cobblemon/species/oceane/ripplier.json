@@ -75,7 +75,8 @@
     "50:hydropump",
     "55:irontail",
     "60:aquatail",
-    "65:payback"
+    "65:payback",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1873,
+  "nationalPokedexNumber": 1876,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

@@ -97,7 +97,8 @@
     "tm:gyroball",
     "tm:breakingswipe",
     "tm:iceball",
-    "tm:poisontail"
+    "tm:poisontail",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -110,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4683,
+  "nationalPokedexNumber": 4691,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

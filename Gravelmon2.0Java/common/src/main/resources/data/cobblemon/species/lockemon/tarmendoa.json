@@ -84,7 +84,8 @@
     "egg:memento",
     "egg:rollout",
     "egg:smokescreen",
-    "egg:stockpile"
+    "egg:stockpile",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -99,7 +100,7 @@
   "weight": 680,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3374,
+  "nationalPokedexNumber": 3382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

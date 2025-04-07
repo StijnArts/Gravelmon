@@ -72,7 +72,8 @@
     "44:fling",
     "48:bonemerang",
     "54:shadowbone",
-    "61:destinybond"
+    "61:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4253,
+  "nationalPokedexNumber": 4261,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

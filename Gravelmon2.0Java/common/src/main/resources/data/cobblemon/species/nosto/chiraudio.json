@@ -166,7 +166,8 @@
     "tm:supersonic",
     "tm:thrash",
     "tm:wish",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -196,7 +197,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3474,
+  "nationalPokedexNumber": 3482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -66,7 +66,28 @@
         "1:metalclaw",
         "1:watergun",
         "1:irondefense",
-        "1:bulkup"
+        "1:bulkup",
+        "1:screech",
+        "1:tailwhip",
+        "1:bulkup",
+        "1:calmmind",
+        "4:irontail",
+        "4:bubblebeam",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:aquatail",
+        "7:taunt",
+        "7:substitute",
+        "10:ironhead",
+        "10:surf",
+        "10:substitute",
+        "10:rest",
+        "13:meteormash",
+        "13:waterfall",
+        "13:rest",
+        "16:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -237,7 +258,8 @@
         "egg:meanlook",
         "egg:mudsport",
         "egg:mudbomb",
-        "egg:facade"
+        "egg:facade",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

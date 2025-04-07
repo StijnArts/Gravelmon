@@ -6,14 +6,17 @@
     {
       "id": "mastenian_pupitar-01",
       "pokemon": "pupitar mastenian",
+      "presets": [
+        "water"
+      ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "1-1",
-      "weight": 0.0,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_warm_ocean"
         ]
       },
       "weightMultiplier": {

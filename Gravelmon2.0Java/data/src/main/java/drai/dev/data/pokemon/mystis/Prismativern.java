@@ -17,7 +17,7 @@ public class Prismativern extends drai.dev.data.pokemon.Pokemon {
                         140),
                 List.of(Ability.PRISMATICPOWER), Ability.PRISMATICPOWER,
                 176, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -29,9 +29,14 @@ public class Prismativern extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWGUST,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .legend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_END)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Prismativern");
 
     }

@@ -64,7 +64,23 @@
     "1:strugglebug",
     "1:lowkick",
     "1:uturn",
-    "1:quickattack"
+    "1:quickattack",
+    "1:stringshot",
+    "1:leer",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:leechlife",
+    "4:revenge",
+    "4:swordsdance",
+    "7:lunge",
+    "7:lowsweep",
+    "10:xscissor",
+    "10:brickbreak",
+    "13:uturn",
+    "13:karatechop",
+    "16:megahorn",
+    "16:closecombat",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -81,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3745,
+  "nationalPokedexNumber": 3753,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

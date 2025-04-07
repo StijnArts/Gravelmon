@@ -133,7 +133,8 @@
     "tm:headbutt",
     "tm:headsmash",
     "tm:acidspray",
-    "tm:flameburst"
+    "tm:flameburst",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1494,
+  "nationalPokedexNumber": 1497,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

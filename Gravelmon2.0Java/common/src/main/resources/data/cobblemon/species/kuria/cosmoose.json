@@ -73,7 +73,8 @@
     "33:calmmind",
     "37:psychic",
     "41:psychup",
-    "57:recover"
+    "57:recover",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -88,7 +89,7 @@
   "weight": 971,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4215,
+  "nationalPokedexNumber": 4223,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

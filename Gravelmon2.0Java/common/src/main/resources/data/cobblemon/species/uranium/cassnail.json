@@ -136,7 +136,8 @@
     "egg:trumpcard",
     "egg:stealthrock",
     "egg:stoneedge",
-    "egg:shellsmash"
+    "egg:shellsmash",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2015,
+  "nationalPokedexNumber": 2018,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

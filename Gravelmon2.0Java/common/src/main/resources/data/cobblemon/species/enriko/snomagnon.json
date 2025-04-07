@@ -75,7 +75,8 @@
     "44:icehammer",
     "47:agility",
     "50:dynamicpunch",
-    "56:swordsdance"
+    "56:swordsdance",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1721,
+  "nationalPokedexNumber": 1724,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

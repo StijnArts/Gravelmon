@@ -61,7 +61,20 @@
   "moves": [
     "1:lick",
     "1:curse",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:growl",
+    "1:bulkup",
+    "1:nastyplot",
+    "10:confuseray",
+    "10:calmmind",
+    "15:ominouswind",
+    "15:taunt",
+    "20:nightshade",
+    "20:substitute",
+    "25:hex",
+    "25:rest",
+    "30:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5981,
+  "nationalPokedexNumber": 5989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

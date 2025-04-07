@@ -74,7 +74,8 @@
     "1:dragonpulse",
     "48:zenheadbutt",
     "54:scaryface",
-    "60:outrage"
+    "60:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3135,
+  "nationalPokedexNumber": 3143,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

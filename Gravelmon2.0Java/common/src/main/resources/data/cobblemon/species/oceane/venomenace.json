@@ -80,7 +80,8 @@
     "tm:psychicfangs",
     "tm:poisonfang",
     "tm:icefang",
-    "tm:firefang"
+    "tm:firefang",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1909,
+  "nationalPokedexNumber": 1912,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.125,

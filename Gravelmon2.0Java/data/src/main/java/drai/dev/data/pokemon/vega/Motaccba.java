@@ -87,7 +87,7 @@ public class Motaccba extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 47, 6, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 47, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:disarmingvoice",
-    "1:lick"
+    "1:lick",
+    "1:babydolleyes",
+    "1:growl",
+    "4:drainingkiss",
+    "4:confuseray",
+    "7:playnice",
+    "7:ominouswind",
+    "10:dazzlinggleam",
+    "10:nightshade",
+    "13:hypervoice",
+    "13:hex",
+    "16:moonblast",
+    "16:shadowball",
+    "tm:terablast"
   ],
   "labels": [
     "bago",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2804,
+  "nationalPokedexNumber": 2812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

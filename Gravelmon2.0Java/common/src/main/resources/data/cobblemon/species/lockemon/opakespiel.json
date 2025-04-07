@@ -78,7 +78,8 @@
     "egg:comeuppance",
     "egg:detect",
     "egg:extrasensory",
-    "egg:memento"
+    "egg:memento",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 110,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3379,
+  "nationalPokedexNumber": 3387,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

@@ -71,7 +71,8 @@
     "41:darkpulse",
     "45:moonlight",
     "55:nightdaze",
-    "60:belch"
+    "60:belch",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5181,
+  "nationalPokedexNumber": 5189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

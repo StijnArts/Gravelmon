@@ -70,7 +70,8 @@
     "40:tickle",
     "44:hydropump",
     "48:overheat",
-    "52:sheercold"
+    "52:sheercold",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -83,7 +84,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4479,
+  "nationalPokedexNumber": 4487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

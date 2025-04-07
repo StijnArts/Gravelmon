@@ -104,7 +104,8 @@
     "tm:toxic",
     "tm:trickroom",
     "tm:uturn",
-    "tm:workup"
+    "tm:workup",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2458,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

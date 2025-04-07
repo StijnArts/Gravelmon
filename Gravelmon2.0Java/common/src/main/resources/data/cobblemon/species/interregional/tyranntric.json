@@ -76,7 +76,8 @@
     "70:dragonpulse",
     "77:zapcannon",
     "84:bodypress",
-    "91:thunder"
+    "91:thunder",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1467,
+  "nationalPokedexNumber": 1470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.6875,

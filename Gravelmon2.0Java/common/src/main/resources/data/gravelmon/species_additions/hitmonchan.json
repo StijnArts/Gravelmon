@@ -65,7 +65,20 @@
       "drops": {},
       "moves": [
         "1:lowkick",
-        "1:watergun"
+        "1:watergun",
+        "1:leer",
+        "1:tailwhip",
+        "4:revenge",
+        "4:bubblebeam",
+        "7:lowsweep",
+        "7:aquatail",
+        "10:brickbreak",
+        "10:surf",
+        "13:karatechop",
+        "13:waterfall",
+        "16:closecombat",
+        "16:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -171,6 +184,7 @@
         "37:mirrorcoat",
         "49:dynamicpunch",
         "4:fakeout",
+        "32:heavensknuckle",
         "14:machpunch",
         "23:cometpunch",
         "18:bulkup",
@@ -192,6 +206,7 @@
         "tm:flareblitz",
         "tm:focusblast",
         "tm:healbell",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icepunch",
         "tm:icywind",
@@ -219,7 +234,8 @@
         "tm:triattack",
         "tm:willowisp",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -327,7 +343,8 @@
         "tm:rapidspin",
         "tm:feint",
         "tm:vacuumwave",
-        "tm:bulletpunch"
+        "tm:bulletpunch",
+        "tm:terablast"
       ],
       "labels": [
         "qamor",
@@ -498,7 +515,8 @@
         "tm:rapidspin",
         "tm:feint",
         "tm:vacuumwave",
-        "tm:bulletpunch"
+        "tm:bulletpunch",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -665,7 +683,8 @@
         "tm:thunderpunch",
         "tm:toxic",
         "tm:uproar",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

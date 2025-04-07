@@ -79,7 +79,8 @@
     "36:energyball",
     "39:bounce",
     "46:synthesis",
-    "60:agility"
+    "60:agility",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4197,
+  "nationalPokedexNumber": 4205,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

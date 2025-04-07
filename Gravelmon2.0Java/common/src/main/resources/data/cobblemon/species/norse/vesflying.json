@@ -72,7 +72,22 @@
     "1:gust",
     "1:bite",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:leer",
+    "1:leer",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:aircutter",
+    "4:payback",
+    "7:wingattack",
+    "7:nightdaze",
+    "10:airslash",
+    "10:snarl",
+    "13:drillpeck",
+    "13:knockoff",
+    "16:hurricane",
+    "16:darkpulse",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -87,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2616,
+  "nationalPokedexNumber": 2624,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -144,7 +144,8 @@
     "egg:charm",
     "egg:hypnosis",
     "egg:punishment",
-    "egg:tailwhip"
+    "egg:tailwhip",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3214,
+  "nationalPokedexNumber": 3222,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -117,7 +117,8 @@
     "tm:taunt",
     "tm:toxic",
     "tm:grassyterrain",
-    "tm:firepunch"
+    "tm:firepunch",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

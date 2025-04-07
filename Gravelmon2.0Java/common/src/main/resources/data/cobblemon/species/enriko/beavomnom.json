@@ -73,7 +73,8 @@
     "37:swordsdance",
     "41:amnesia",
     "45:superpower",
-    "49:curse"
+    "49:curse",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1693,
+  "nationalPokedexNumber": 1696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

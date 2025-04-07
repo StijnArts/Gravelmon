@@ -73,7 +73,8 @@
     "52:solarbeam",
     "54:mefirst",
     "tm:ingrain",
-    "tm:worryseed"
+    "tm:worryseed",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4434,
+  "nationalPokedexNumber": 4442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

@@ -73,7 +73,8 @@
     "30:crunch",
     "34:recover",
     "40:aerialace",
-    "45:fishiousrend"
+    "45:fishiousrend",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

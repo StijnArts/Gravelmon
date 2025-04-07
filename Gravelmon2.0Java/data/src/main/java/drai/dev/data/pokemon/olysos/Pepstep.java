@@ -23,7 +23,8 @@ public class Pepstep extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Pepstep, the Pepper Lizard Pokemon. Pepstep's tail is reminiscent of a pepper, and it uses it to attract prey. It is said that the more vibrant the colors on its tail, the spicier its fire breath becomes. Its flexible legs allow it to climb even the steepest of cliffs, and its sharp claws make it a formidable opponent in battle. Despite its small size, Pepstep has a fiery spirit and never backs down from a challenge. Pepstep is commonly found in warm, rocky areas, such as deserts or volcanic re"),
-                List.of(),
+                List.of(new EvolutionEntry("devilance", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:gunpowder")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -54,7 +55,11 @@ public class Pepstep extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(17).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_DESERT).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pepstep");

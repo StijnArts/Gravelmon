@@ -128,7 +128,8 @@
     "egg:stringshot",
     "egg:sunnyday",
     "egg:swift",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -142,7 +143,7 @@
   "weight": 495,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4551,
+  "nationalPokedexNumber": 4559,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

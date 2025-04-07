@@ -134,7 +134,8 @@
     "tm:aurorabeam",
     "tm:moonlight",
     "tm:signalbeam",
-    "tm:agility"
+    "tm:agility",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -149,7 +150,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1626,
+  "nationalPokedexNumber": 1629,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

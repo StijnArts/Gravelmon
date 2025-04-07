@@ -118,7 +118,8 @@
     "egg:pursuit",
     "egg:beatup",
     "egg:uproar",
-    "egg:rockslide"
+    "egg:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1984,
+  "nationalPokedexNumber": 1987,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

@@ -121,7 +121,8 @@
     "tm:howl",
     "tm:playnice",
     "tm:smokescreen",
-    "tm:agility"
+    "tm:agility",
+    "tm:terablast"
   ],
   "labels": [
     "junnin",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2417,
+  "nationalPokedexNumber": 2425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

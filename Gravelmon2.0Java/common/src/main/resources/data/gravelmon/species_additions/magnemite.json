@@ -66,7 +66,22 @@
         "1:acid",
         "1:metalclaw",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:leer",
+        "1:screech",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:clearsmog",
+        "4:irontail",
+        "7:sludge",
+        "7:smartstrike",
+        "10:toxicspikes",
+        "10:mirrorshot",
+        "13:sludgebomb",
+        "13:flashcannon",
+        "16:sludgewave",
+        "16:steelbeam",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -225,7 +240,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:wish",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -387,7 +403,8 @@
         "tm:trickroom",
         "tm:wish",
         "tm:wonderroom",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -553,7 +570,8 @@
         "egg:poisonpowder",
         "egg:sleeppowder",
         "egg:stunspore",
-        "egg:toxicspikes"
+        "egg:toxicspikes",
+        "tm:terablast"
       ],
       "labels": [
         "infinity",
@@ -706,7 +724,8 @@
         "tutor:thunderwave",
         "tutor:toxic",
         "tutor:voltswitch",
-        "tutor:wildcharge"
+        "tutor:wildcharge",
+        "tm:terablast"
       ],
       "labels": [
         "gen1",

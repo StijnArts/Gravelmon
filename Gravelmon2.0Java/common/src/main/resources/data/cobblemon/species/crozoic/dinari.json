@@ -66,7 +66,8 @@
     "1:tailslap",
     "1:sandattack",
     "1:growl",
-    "1:detect"
+    "1:detect",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3237,
+  "nationalPokedexNumber": 3245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

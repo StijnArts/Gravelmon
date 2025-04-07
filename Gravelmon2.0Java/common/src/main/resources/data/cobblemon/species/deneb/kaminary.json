@@ -128,7 +128,8 @@
     "egg:smokescreen",
     "egg:sunnyday",
     "egg:takedown",
-    "egg:wish"
+    "egg:wish",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -143,7 +144,7 @@
   "weight": 347,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4554,
+  "nationalPokedexNumber": 4562,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

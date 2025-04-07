@@ -145,7 +145,8 @@
     "1:weatherball",
     "1:dig",
     "1:embargo",
-    "1:rockpolish"
+    "1:rockpolish",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3865,
+  "nationalPokedexNumber": 3873,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

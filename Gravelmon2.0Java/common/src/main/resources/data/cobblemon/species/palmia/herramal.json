@@ -62,7 +62,19 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:shoreup"
+    "1:shoreup",
+    "1:growl",
+    "1:bulkup",
+    "4:sandattack",
+    "4:calmmind",
+    "7:mudbomb",
+    "7:taunt",
+    "10:bulldoze",
+    "10:substitute",
+    "13:dig",
+    "13:rest",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -79,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2633,
+  "nationalPokedexNumber": 2641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

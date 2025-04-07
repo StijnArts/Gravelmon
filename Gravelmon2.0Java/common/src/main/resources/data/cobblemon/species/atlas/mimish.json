@@ -66,7 +66,8 @@
     "8:mefirst",
     "16:mirrormove",
     "24:copycat",
-    "32:mimic"
+    "32:mimic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5148,
+  "nationalPokedexNumber": 5156,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

@@ -121,7 +121,8 @@
     "tm:eggbomb",
     "tm:mefirst",
     "tm:bravebird",
-    "tm:gastroacid"
+    "tm:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4940,
+  "nationalPokedexNumber": 4948,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

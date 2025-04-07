@@ -75,7 +75,8 @@
     "40:doubleedge",
     "43:painsplit",
     "47:crunch",
-    "53:hydropump"
+    "53:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3019,
+  "nationalPokedexNumber": 3027,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

@@ -132,7 +132,8 @@
     "egg:signalbeam",
     "egg:slash",
     "egg:soak",
-    "egg:whirlpool"
+    "egg:whirlpool",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

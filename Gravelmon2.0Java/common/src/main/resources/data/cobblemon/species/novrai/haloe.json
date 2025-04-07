@@ -128,7 +128,8 @@
     "tm:disarmingvoice",
     "tm:whirlpool",
     "tm:wish",
-    "tm:aurorabeam"
+    "tm:aurorabeam",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -156,7 +157,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4952,
+  "nationalPokedexNumber": 4960,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

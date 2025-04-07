@@ -80,7 +80,8 @@
     "28:mimic",
     "32:gyroball",
     "36:hypervoice",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3467,
+  "nationalPokedexNumber": 3475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

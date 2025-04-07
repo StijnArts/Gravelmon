@@ -131,7 +131,8 @@
     "tm:lavaplume",
     "tm:firespin",
     "tm:sandtomb",
-    "tm:spikes"
+    "tm:spikes",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4423,
+  "nationalPokedexNumber": 4431,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

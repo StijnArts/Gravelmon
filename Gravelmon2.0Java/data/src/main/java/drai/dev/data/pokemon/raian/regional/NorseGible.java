@@ -28,7 +28,7 @@ public class NorseGible extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 30, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 30, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

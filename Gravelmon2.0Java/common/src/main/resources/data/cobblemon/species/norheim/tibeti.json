@@ -78,7 +78,8 @@
     "33:selfdestruct",
     "38:guardsplit",
     "38:powersplit",
-    "43:sandstorm"
+    "43:sandstorm",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3138,
+  "nationalPokedexNumber": 3146,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -63,7 +63,18 @@
       "drops": {},
       "moves": [
         "1:ember",
-        "1:bulkup"
+        "1:bulkup",
+        "1:growl",
+        "1:calmmind",
+        "4:firespin",
+        "4:taunt",
+        "7:flamecharge",
+        "7:substitute",
+        "10:flameburst",
+        "10:rest",
+        "13:flamethrower",
+        "16:fireblast",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -233,7 +244,8 @@
         "tm:machpunch",
         "tm:wakeupslap",
         "tm:selfdestruct",
-        "tm:fakeout"
+        "tm:fakeout",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",
@@ -372,7 +384,8 @@
         "tutor:recycle",
         "tutor:secretpower",
         "tutor:spite",
-        "tutor:superpower"
+        "tutor:superpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

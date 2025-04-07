@@ -60,7 +60,14 @@
   ],
   "drops": {},
   "moves": [
-    "1:lick"
+    "1:lick",
+    "1:growl",
+    "4:confuseray",
+    "7:hex",
+    "10:shadowclaw",
+    "13:phantomforce",
+    "16:poltergeist",
+    "tm:terablast"
   ],
   "labels": [
     "raian",
@@ -116,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2484,
+  "nationalPokedexNumber": 2492,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

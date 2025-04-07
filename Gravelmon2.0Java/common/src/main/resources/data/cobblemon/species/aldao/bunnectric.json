@@ -62,7 +62,20 @@
   "drops": {},
   "moves": [
     "1:thundershock",
-    "1:mudslap"
+    "1:mudslap",
+    "1:leer",
+    "1:growl",
+    "4:charge",
+    "4:sandattack",
+    "7:thunderpunch",
+    "7:mudbomb",
+    "10:discharge",
+    "10:bulldoze",
+    "13:wildcharge",
+    "13:dig",
+    "16:supercellslam",
+    "16:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "aldao",
@@ -79,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2838,
+  "nationalPokedexNumber": 2846,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

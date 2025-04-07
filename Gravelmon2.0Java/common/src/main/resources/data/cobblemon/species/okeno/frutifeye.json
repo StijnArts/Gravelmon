@@ -79,7 +79,8 @@
     "tm:wish",
     "tm:psychoshift",
     "tm:storedpower",
-    "tm:hex"
+    "tm:hex",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4466,
+  "nationalPokedexNumber": 4474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

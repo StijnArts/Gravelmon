@@ -77,7 +77,8 @@
     "58:hex",
     "64:quiverdance",
     "70:petaldance",
-    "76:destinybond"
+    "76:destinybond",
+    "tm:terablast"
   ],
   "labels": [
     "avoris",
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1866,
+  "nationalPokedexNumber": 1869,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.125,

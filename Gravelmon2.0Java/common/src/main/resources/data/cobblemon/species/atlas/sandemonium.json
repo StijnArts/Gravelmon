@@ -126,7 +126,8 @@
     "tm:nightslash",
     "tm:agility",
     "tm:outrage",
-    "tm:magnitude"
+    "tm:magnitude",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -141,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5143,
+  "nationalPokedexNumber": 5151,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

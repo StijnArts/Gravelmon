@@ -16,14 +16,15 @@ public class Dragift extends drai.dev.data.pokemon.Pokemon {
                         40,
                         20),
                 List.of(Ability.LEVITATE), Ability.UNBURDEN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- WrapSTAB Normal - Play Nice Normal - Celebrate Normal 5 Baby-Doll Eyes Fairy 9 TwisterSTAB Dragon 11 PresentSTAB Normal 15 Dragon RageSTAB Dragon 19 HeadbuttSTAB Normal 23 Bestow Normal 27 Wish Normal 31 Body SlamSTAB Normal 35 Fling Dark 39 Dragon ClawSTAB Dragon 43 SwiftSTAB Normal 47 Natural GiftSTAB Normal 51 ThrashSTAB Normal 55 Festive ShotSTAB Dragon 59 Dragon RushSTAB Dragon"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("giftyrant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
@@ -151,7 +152,11 @@ public class Dragift extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(17).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_SNOWY_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dragift");

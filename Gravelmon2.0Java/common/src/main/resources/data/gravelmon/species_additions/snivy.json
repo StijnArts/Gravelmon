@@ -145,7 +145,8 @@
         "egg:futuresight",
         "egg:pursuit",
         "egg:meanlook",
-        "egg:destinybond"
+        "egg:destinybond",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -312,7 +313,8 @@
         "tutor:uproar",
         "tutor:waterpledge",
         "tutor:waterpulse",
-        "tutor:whirlpool"
+        "tutor:whirlpool",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -472,7 +474,8 @@
         "tm:torment",
         "tm:toxic",
         "tm:weatherball",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",

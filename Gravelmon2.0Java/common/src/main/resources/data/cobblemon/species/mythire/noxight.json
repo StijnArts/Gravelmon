@@ -118,7 +118,8 @@
     "tm:toxic",
     "tm:venoshock",
     "tm:weatherball",
-    "tm:whirlwind"
+    "tm:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -131,7 +132,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3866,
+  "nationalPokedexNumber": 3874,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

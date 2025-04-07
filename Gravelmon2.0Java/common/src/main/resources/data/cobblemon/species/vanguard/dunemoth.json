@@ -120,7 +120,8 @@
     "tm:toxic",
     "tm:uturn",
     "tm:venoshock",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "vanguard",
@@ -135,7 +136,7 @@
   "weight": 125,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4089,
+  "nationalPokedexNumber": 4097,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

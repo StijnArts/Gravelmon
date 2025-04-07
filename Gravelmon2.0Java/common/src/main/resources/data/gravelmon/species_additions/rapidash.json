@@ -117,7 +117,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -222,7 +223,8 @@
         "1:growl",
         "1:peck",
         "34:ironhead",
-        "49:bravebird"
+        "49:bravebird",
+        "tm:terablast"
       ],
       "labels": [
         "africanus",
@@ -372,7 +374,8 @@
         "tutor:secretpower",
         "tutor:shockwave",
         "tutor:snore",
-        "tutor:tailwind"
+        "tutor:tailwind",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

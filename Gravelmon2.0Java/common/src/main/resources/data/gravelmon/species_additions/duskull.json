@@ -139,7 +139,8 @@
         "egg:memento",
         "egg:feintattack",
         "egg:darkpulse",
-        "egg:glare"
+        "egg:glare",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -255,7 +256,8 @@
         "44:ironhead",
         "48:entrainment",
         "52:irondefense",
-        "56:guillotine"
+        "56:guillotine",
+        "tm:terablast"
       ],
       "labels": [
         "fliga",

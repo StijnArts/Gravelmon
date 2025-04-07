@@ -72,7 +72,8 @@
     "33:workup",
     "37:swift",
     "46:bodyslam",
-    "53:lastresort"
+    "53:lastresort",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3081,
+  "nationalPokedexNumber": 3089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

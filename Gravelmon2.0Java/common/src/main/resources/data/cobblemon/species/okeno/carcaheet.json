@@ -76,7 +76,8 @@
     "49:flareblitz",
     "53:bravebird",
     "tm:morningsun",
-    "tm:firespin"
+    "tm:firespin",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4440,
+  "nationalPokedexNumber": 4448,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

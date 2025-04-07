@@ -101,6 +101,7 @@
         "tm:flareblitz",
         "tm:gammaray",
         "tm:gyroball",
+        "tm:heavensknuckle",
         "tm:hiddenpower",
         "tm:icebeam",
         "tm:icepunch",
@@ -138,7 +139,8 @@
         "tm:wildcharge",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -313,7 +315,8 @@
         "tutor:superpower",
         "tutor:thunderpunch",
         "tutor:vacuumwave",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",
@@ -416,7 +419,8 @@
         "43:heavyslam",
         "50:meteormash",
         "60:hammerarm",
-        "70:focuspunch"
+        "70:focuspunch",
+        "tm:terablast"
       ],
       "labels": [
         "gen5",

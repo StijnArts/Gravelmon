@@ -75,7 +75,8 @@
     "61:painsplit",
     "65:grudge",
     "71:waterspout",
-    "75:memento"
+    "75:memento",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4070,
+  "nationalPokedexNumber": 4078,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

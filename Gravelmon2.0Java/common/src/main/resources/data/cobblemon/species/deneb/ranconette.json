@@ -126,7 +126,8 @@
     "egg:razorwind",
     "egg:shadowsneak",
     "egg:sunnyday",
-    "egg:taunt"
+    "egg:taunt",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -140,7 +141,7 @@
   "weight": 156,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4589,
+  "nationalPokedexNumber": 4597,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

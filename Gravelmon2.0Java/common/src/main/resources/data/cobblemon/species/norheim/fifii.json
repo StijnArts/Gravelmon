@@ -68,7 +68,8 @@
     "42:highjumpkick",
     "52:playrough",
     "62:aurasphere",
-    "72:superpower"
+    "72:superpower",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -81,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3229,
+  "nationalPokedexNumber": 3237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

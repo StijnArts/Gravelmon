@@ -104,7 +104,8 @@
     "tm:shadowclaw",
     "tm:heavyslam",
     "tm:hornattack",
-    "tm:smartstrike"
+    "tm:smartstrike",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -132,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5177,
+  "nationalPokedexNumber": 5185,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

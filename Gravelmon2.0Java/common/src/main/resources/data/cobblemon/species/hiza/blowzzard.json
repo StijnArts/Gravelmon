@@ -121,7 +121,8 @@
     "tm:swift",
     "tm:takedown",
     "tm:toxic",
-    "tm:venoshock"
+    "tm:venoshock",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2362,
+  "nationalPokedexNumber": 2370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

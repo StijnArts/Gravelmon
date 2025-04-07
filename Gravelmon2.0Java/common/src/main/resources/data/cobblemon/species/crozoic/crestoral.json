@@ -114,7 +114,8 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:workup",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -129,7 +130,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3279,
+  "nationalPokedexNumber": 3287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

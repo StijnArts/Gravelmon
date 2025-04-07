@@ -75,7 +75,8 @@
     "35:mistyterrain",
     "40:hypervoice",
     "45:moonblast",
-    "50:hydropump"
+    "50:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1432,
+  "nationalPokedexNumber": 1435,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -127,7 +127,8 @@
         "egg:skittersmack",
         "egg:shadowsneak",
         "egg:doubleteam",
-        "egg:smartstrike"
+        "egg:smartstrike",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -301,7 +302,8 @@
         "egg:nightslash",
         "egg:psychicfangs",
         "egg:attackorder",
-        "egg:infestation"
+        "egg:infestation",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

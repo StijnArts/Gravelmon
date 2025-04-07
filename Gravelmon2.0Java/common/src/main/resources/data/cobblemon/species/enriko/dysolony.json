@@ -76,7 +76,8 @@
     "36:psychic",
     "40:afteryou",
     "44:calmmind",
-    "48:psychicterrain"
+    "48:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1682,
+  "nationalPokedexNumber": 1685,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

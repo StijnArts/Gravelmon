@@ -17,13 +17,14 @@ public class Faunox extends drai.dev.data.pokemon.Pokemon {
                         42),
                 List.of(Ability.OVERGROW), Ability.OVERGROW,
                 4, 118,
-                new Stats(0,1,0,0,0,0), 35,
+                new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Faunox spend most of their day grazing in the field. They eat half their body weight a day and absorb the nutrients from the greenery which result in them growing stronger."),
-                List.of(),
+                List.of(new EvolutionEntry("Fauxian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -41,7 +42,11 @@ public class Faunox extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,48)                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA)
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Faunox");

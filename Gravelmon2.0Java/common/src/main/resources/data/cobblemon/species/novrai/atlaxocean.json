@@ -125,7 +125,8 @@
     "tm:incinerate",
     "tm:aquaring",
     "tm:watersport",
-    "tm:wideguard"
+    "tm:wideguard",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -140,7 +141,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4860,
+  "nationalPokedexNumber": 4868,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

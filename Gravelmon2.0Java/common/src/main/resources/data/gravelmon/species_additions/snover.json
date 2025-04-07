@@ -84,7 +84,34 @@
       "drops": {},
       "moves": [
         "1:absorb",
-        "1:watergun"
+        "1:watergun",
+        "1:leer",
+        "1:tailwhip",
+        "4:megadrain",
+        "4:bubblebeam",
+        "7:magicalleaf",
+        "7:brine",
+        "10:gigadrain",
+        "10:surf",
+        "13:energyball",
+        "13:chillingwater",
+        "16:solarbeam",
+        "16:hydropump",
+        "19:leafage",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:absorb",
+        "25:bubblebeam",
+        "28:trailblaze",
+        "28:aquatail",
+        "31:gigadrain",
+        "31:surf",
+        "34:seedbomb",
+        "34:waterfall",
+        "39:leafblade",
+        "39:liquidation",
+        "tm:terablast"
       ],
       "labels": [
         "fabel",
@@ -248,7 +275,8 @@
         "egg:dragonhammer",
         "egg:irondefense",
         "egg:icehammer",
-        "egg:hammerarm"
+        "egg:hammerarm",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -397,6 +425,7 @@
         "tm:earthpower",
         "tm:leafstorm",
         "tm:solarbeam",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
@@ -521,7 +550,8 @@
         "egg:naturalgift",
         "egg:seedbomb",
         "egg:skullbash",
-        "egg:stomp"
+        "egg:stomp",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

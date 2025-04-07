@@ -73,7 +73,8 @@
     "36:iondeluge",
     "40:discharge",
     "45:dazzlinggleam",
-    "49:glare"
+    "49:glare",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4351,
+  "nationalPokedexNumber": 4359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

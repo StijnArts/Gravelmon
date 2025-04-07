@@ -77,7 +77,8 @@
     "64:stoneedge",
     "72:flareblitz",
     "80:meteorbeam",
-    "88:eruption"
+    "88:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "lagoone",

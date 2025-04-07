@@ -98,7 +98,8 @@
     "egg:mudshot",
     "egg:mudslap",
     "egg:psybeam",
-    "egg:skullbash"
+    "egg:skullbash",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -126,7 +127,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4627,
+  "nationalPokedexNumber": 4635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

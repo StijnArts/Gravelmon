@@ -72,7 +72,8 @@
     "28:featherdance",
     "33:thunderbolt",
     "37:airslash",
-    "42:bravebird"
+    "42:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3072,
+  "nationalPokedexNumber": 3080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

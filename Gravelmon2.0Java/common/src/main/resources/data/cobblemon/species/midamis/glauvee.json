@@ -75,7 +75,8 @@
     "40:ingrain",
     "44:woodhammer",
     "48:destinybond",
-    "52:forestscurse"
+    "52:forestscurse",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4362,
+  "nationalPokedexNumber": 4370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

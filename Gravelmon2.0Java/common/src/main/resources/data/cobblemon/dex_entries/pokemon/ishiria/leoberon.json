@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:leoberon",
+  "speciesId": "cobblemon:leoberon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

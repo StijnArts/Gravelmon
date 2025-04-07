@@ -128,7 +128,7 @@ public class EpochSwabluOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 33, 7, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 33, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")

@@ -158,7 +158,8 @@
     "44:phantomforce",
     "48:rockslide",
     "52:earthquake",
-    "56:dynamicpunch"
+    "56:dynamicpunch",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -173,7 +174,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3529,
+  "nationalPokedexNumber": 3537,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

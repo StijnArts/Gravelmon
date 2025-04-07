@@ -107,7 +107,8 @@
     "tm:roar",
     "tm:bulkup",
     "tm:swordsdance",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -122,7 +123,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5155,
+  "nationalPokedexNumber": 5163,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

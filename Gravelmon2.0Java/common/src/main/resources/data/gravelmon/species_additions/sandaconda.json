@@ -129,7 +129,8 @@
         "tm:whirlpool",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -231,7 +232,8 @@
         "41:yawn",
         "46:coil",
         "54:fireblast",
-        "63:eruption"
+        "63:eruption",
+        "tm:terablast"
       ],
       "labels": [
         "hiza",

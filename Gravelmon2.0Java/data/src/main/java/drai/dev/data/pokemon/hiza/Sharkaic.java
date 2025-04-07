@@ -44,7 +44,7 @@ public class Sharkaic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,57)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 45, 6, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 45, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.MAXY,"30")

@@ -110,7 +110,8 @@
     "tm:followme",
     "tm:grudge",
     "tm:screech",
-    "tm:healblock"
+    "tm:healblock",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -125,7 +126,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5144,
+  "nationalPokedexNumber": 5152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

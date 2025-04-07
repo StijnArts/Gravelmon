@@ -128,7 +128,8 @@
         "tm:uturn",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -272,7 +273,8 @@
         "tutor:secretpower",
         "tutor:signalbeam",
         "tutor:snore",
-        "tutor:strugglebug"
+        "tutor:strugglebug",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

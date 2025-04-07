@@ -11,13 +11,13 @@ public class Roladuck extends drai.dev.data.pokemon.Pokemon {
                 Type.GROUND, Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Rollout Rock - Rototiller Ground - Earth PowerSTAB Ground - Muddy WaterSTAB Water - Water GunSTAB Water - Baby-Doll Eyes Fairy - Beak Blast Flying - DigSTAB Ground - Yawn Normal - Sand TombSTAB Ground - Ancient Power Rock - Aqua Ring Water - Aqua JetSTAB Water - Sandstorm Rock - Defense Curl Normal - Amnesia Psychic - BulldozeSTAB Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROTOTILLER,1),
@@ -39,7 +39,11 @@ public class Roladuck extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_ARID).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Roladuck");

@@ -117,7 +117,8 @@
     "egg:punishment",
     "egg:reversal",
     "egg:seismictoss",
-    "egg:sleeptalk"
+    "egg:sleeptalk",
+    "tm:terablast"
   ],
   "labels": [
     "infinity",

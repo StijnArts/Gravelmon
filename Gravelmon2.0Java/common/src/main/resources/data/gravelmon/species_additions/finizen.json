@@ -135,7 +135,8 @@
         "egg:megahorn",
         "egg:raindance",
         "egg:hail",
-        "egg:screech"
+        "egg:screech",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

@@ -71,7 +71,8 @@
     "38:discharge",
     "42:lockon",
     "46:metalburst",
-    "52:zapcannon"
+    "52:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "amavi",
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5248,
+  "nationalPokedexNumber": 5256,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

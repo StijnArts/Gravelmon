@@ -75,7 +75,8 @@
     "50:slash",
     "55:thunderbolt",
     "60:thunder",
-    "65:zapcannon"
+    "65:zapcannon",
+    "tm:terablast"
   ],
   "labels": [
     "varitas",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1950,
+  "nationalPokedexNumber": 1953,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

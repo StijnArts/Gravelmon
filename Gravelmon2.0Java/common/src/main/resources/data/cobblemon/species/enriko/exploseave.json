@@ -72,7 +72,8 @@
     "35:irondefense",
     "42:explosion",
     "47:aquatail",
-    "54:toxicspikes"
+    "54:toxicspikes",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1712,
+  "nationalPokedexNumber": 1715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

@@ -61,7 +61,18 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:bulkup"
+    "1:bulkup",
+    "1:tailwhip",
+    "1:calmmind",
+    "4:bubblebeam",
+    "4:taunt",
+    "7:aquatail",
+    "7:substitute",
+    "10:surf",
+    "10:rest",
+    "13:waterfall",
+    "16:liquidation",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -93,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 2708,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

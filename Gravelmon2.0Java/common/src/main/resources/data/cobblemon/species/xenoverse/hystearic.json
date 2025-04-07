@@ -108,7 +108,8 @@
     "tutor:sleeptalk",
     "tutor:snore",
     "tutor:soundbarrier",
-    "tutor:synthesis"
+    "tutor:synthesis",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse"
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1801,
+  "nationalPokedexNumber": 1804,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

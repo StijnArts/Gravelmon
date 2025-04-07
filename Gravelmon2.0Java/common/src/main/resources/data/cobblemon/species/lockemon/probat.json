@@ -94,7 +94,8 @@
     "egg:venomdrench",
     "egg:whirlwind",
     "egg:wingattack",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -107,7 +108,7 @@
   "weight": 1221,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3420,
+  "nationalPokedexNumber": 3428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:apolalgae",
+  "speciesId": "cobblemon:apolalgae",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

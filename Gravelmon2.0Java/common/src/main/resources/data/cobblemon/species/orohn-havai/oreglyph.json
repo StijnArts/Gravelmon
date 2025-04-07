@@ -76,7 +76,8 @@
     "70:megahorn",
     "77:quickguard",
     "84:stoneedge",
-    "91:gigaimpact"
+    "91:gigaimpact",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3025,
+  "nationalPokedexNumber": 3033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

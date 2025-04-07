@@ -76,7 +76,8 @@
     "45:energyball",
     "50:petaldance",
     "54:bugbuzz",
-    "61:quiverdance"
+    "61:quiverdance",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2944,
+  "nationalPokedexNumber": 2952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

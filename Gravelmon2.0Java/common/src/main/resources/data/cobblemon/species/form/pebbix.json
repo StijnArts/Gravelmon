@@ -61,7 +61,34 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:ember"
+    "1:ember",
+    "1:defensecurl",
+    "1:growl",
+    "4:rollout",
+    "4:firespin",
+    "7:ancientpower",
+    "7:flamecharge",
+    "10:powergem",
+    "10:flameburst",
+    "13:stealthrock",
+    "13:flamethrower",
+    "16:meteorbeam",
+    "16:fireblast",
+    "19:rockthrow",
+    "19:ember",
+    "22:defensecurl",
+    "22:growl",
+    "25:rollout",
+    "25:quickattack",
+    "28:smackdown",
+    "28:flamecharge",
+    "31:rockblast",
+    "31:firepunch",
+    "34:stealthrock",
+    "34:willowisp",
+    "39:stoneedge",
+    "39:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -91,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3766,
+  "nationalPokedexNumber": 3774,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

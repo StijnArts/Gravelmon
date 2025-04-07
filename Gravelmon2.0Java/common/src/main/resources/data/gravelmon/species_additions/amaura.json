@@ -132,7 +132,8 @@
         "egg:rest",
         "egg:lightscreen",
         "egg:barrier",
-        "egg:auroraveil"
+        "egg:auroraveil",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -313,7 +314,8 @@
         "tutor:whirlpool",
         "tutor:wonderroom",
         "tutor:worryseed",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

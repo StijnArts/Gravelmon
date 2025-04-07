@@ -16,8 +16,8 @@ public class Moosid extends drai.dev.data.pokemon.Pokemon {
                         105,
                         65),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(1,0,1,0,1,0), 0,
+                18, 0,
+                new Stats(1,0,1,0,1,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -36,11 +36,16 @@ public class Moosid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ME_FIRST,"tm")                        ),
                 List.of(Label.MONGRATIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(30).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TUNDRA, Biome.IS_SNOWY_FOREST).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Moosid");
-
+        addAdditionalEvolution("stantler", new EvolutionEntry("moosid", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CRUNCH.getName()))));
+        setLangFileName("Moosid");
     }
 
 

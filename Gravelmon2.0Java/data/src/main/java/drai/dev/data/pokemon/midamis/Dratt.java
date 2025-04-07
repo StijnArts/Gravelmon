@@ -43,7 +43,7 @@ public class Dratt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,46)       ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

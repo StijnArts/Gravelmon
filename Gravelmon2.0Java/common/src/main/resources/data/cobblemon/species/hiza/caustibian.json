@@ -78,7 +78,8 @@
     "36:gastroacid",
     "41:belch",
     "44:painsplit",
-    "49:gunkshot"
+    "49:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -93,7 +94,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

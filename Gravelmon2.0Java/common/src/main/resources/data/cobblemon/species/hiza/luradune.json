@@ -70,7 +70,8 @@
     "25:metalclaw",
     "30:furyswipes",
     "35:mindreader",
-    "40:dig"
+    "40:dig",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2319,
+  "nationalPokedexNumber": 2327,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

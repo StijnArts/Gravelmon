@@ -80,7 +80,20 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:poisonsting"
+        "1:poisonsting",
+        "1:tailwhip",
+        "1:leer",
+        "4:bubblebeam",
+        "4:venoshock",
+        "7:aquatail",
+        "7:poisontail",
+        "10:surf",
+        "10:toxicspikes",
+        "13:waterfall",
+        "13:sludgebomb",
+        "16:liquidation",
+        "16:poisonjab",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -257,7 +270,8 @@
         "egg:waterspout",
         "egg:crushgrip",
         "egg:submission",
-        "egg:helpinghand"
+        "egg:helpinghand",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -356,7 +370,21 @@
       ],
       "drops": {},
       "moves": [
-        "1:powdersnow"
+        "1:powdersnow",
+        "1:growl",
+        "4:icywind",
+        "7:aurorabeam",
+        "10:freezedry",
+        "13:icebeam",
+        "16:blizzard",
+        "19:powdersnow",
+        "22:growl",
+        "25:icywind",
+        "28:icepunch",
+        "31:icespinner",
+        "34:iceshard",
+        "39:iciclecrash",
+        "tm:terablast"
       ],
       "labels": [
         "lagoone",
@@ -534,7 +562,8 @@
         "tutor:signalbeam",
         "tutor:snore",
         "tutor:spite",
-        "tutor:stealthrock"
+        "tutor:stealthrock",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

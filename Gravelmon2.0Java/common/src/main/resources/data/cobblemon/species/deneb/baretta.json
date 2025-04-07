@@ -65,6 +65,8 @@
     "1:stoneedge",
     "1:bubble",
     "1:growl",
+    "1:speedmite",
+    "10:speedmite",
     "15:headbutt",
     "20:metalsound",
     "25:waterpulse",
@@ -72,11 +74,14 @@
     "35:ironhead",
     "40:agility",
     "45:aquatail",
+    "50:rocketdrive",
     "55:irondefense",
+    "60:aquaimpact",
     "tm:waterpulse",
     "tm:toxic",
     "tm:taunt",
     "tm:return",
+    "tutor:finsmack",
     "tutor:disable",
     "tutor:rocktomb",
     "tutor:soak",
@@ -88,7 +93,8 @@
     "egg:flail",
     "egg:muddywater",
     "egg:captivate",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -103,7 +109,7 @@
   "weight": 521,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4648,
+  "nationalPokedexNumber": 4656,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

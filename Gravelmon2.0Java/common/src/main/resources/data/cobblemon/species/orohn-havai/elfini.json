@@ -80,7 +80,8 @@
     "tm:teeterdance",
     "tm:copycat",
     "tm:quiverdance",
-    "tm:dazzlinggleam"
+    "tm:dazzlinggleam",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2959,
+  "nationalPokedexNumber": 2967,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

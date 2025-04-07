@@ -127,7 +127,8 @@
     "tm:coralbreak",
     "egg:dragonpulse",
     "egg:incinerate",
-    "egg:inferno"
+    "egg:inferno",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -140,7 +141,7 @@
   "weight": 1201,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2057,
+  "nationalPokedexNumber": 2060,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

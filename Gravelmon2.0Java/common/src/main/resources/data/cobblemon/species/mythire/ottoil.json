@@ -76,7 +76,8 @@
     "33:memento",
     "36:nightslash",
     "39:belch",
-    "42:explosion"
+    "42:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3855,
+  "nationalPokedexNumber": 3863,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

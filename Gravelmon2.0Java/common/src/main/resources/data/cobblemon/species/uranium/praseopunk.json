@@ -132,7 +132,8 @@
     "tm:trick",
     "tm:trickroom",
     "tm:uproar",
-    "tm:wonderroom"
+    "tm:wonderroom",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -145,7 +146,7 @@
   "weight": 435,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2072,
+  "nationalPokedexNumber": 2075,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

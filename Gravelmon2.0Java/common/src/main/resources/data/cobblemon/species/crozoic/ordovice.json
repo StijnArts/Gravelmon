@@ -67,7 +67,8 @@
     "1:perishsong",
     "1:punishment",
     "1:healblock",
-    "1:screech"
+    "1:screech",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -80,7 +81,7 @@
   "weight": 2250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3300,
+  "nationalPokedexNumber": 3308,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

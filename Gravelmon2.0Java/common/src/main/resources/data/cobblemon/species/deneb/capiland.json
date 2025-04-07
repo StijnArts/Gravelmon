@@ -102,7 +102,8 @@
     "egg:zenheadbutt",
     "egg:mudsport",
     "egg:mudbomb",
-    "egg:mudshot"
+    "egg:mudshot",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -117,7 +118,7 @@
   "weight": 321,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4602,
+  "nationalPokedexNumber": 4610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

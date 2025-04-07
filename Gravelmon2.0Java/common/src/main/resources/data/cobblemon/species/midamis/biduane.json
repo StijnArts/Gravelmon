@@ -79,7 +79,8 @@
     "tm:destinybond",
     "tm:painsplit",
     "tm:uproar",
-    "tm:willowisp"
+    "tm:willowisp",
+    "tm:terablast"
   ],
   "labels": [
     "midamis",
@@ -129,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4323,
+  "nationalPokedexNumber": 4331,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -63,7 +63,20 @@
   "drops": {},
   "moves": [
     "1:leafage",
-    "1:bite"
+    "1:bite",
+    "1:leer",
+    "1:leer",
+    "4:absorb",
+    "4:payback",
+    "7:trailblaze",
+    "7:nightslash",
+    "10:gigadrain",
+    "10:crunch",
+    "13:seedbomb",
+    "13:knockoff",
+    "16:leafblade",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -80,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2656,
+  "nationalPokedexNumber": 2664,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

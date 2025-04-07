@@ -118,7 +118,8 @@
     "tm:rest",
     "tm:gyroball",
     "tm:raindance",
-    "tm:scald"
+    "tm:scald",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -131,7 +132,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4673,
+  "nationalPokedexNumber": 4681,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

@@ -71,7 +71,8 @@
     "30:swagger",
     "35:ingrain",
     "41:woodhammer",
-    "45:earthquake"
+    "45:earthquake",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3104,
+  "nationalPokedexNumber": 3112,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

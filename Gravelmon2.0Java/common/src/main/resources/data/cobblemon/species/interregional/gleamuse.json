@@ -78,7 +78,8 @@
     "40:lastresort",
     "43:thunder",
     "46:nastyplot",
-    "49:entrainment"
+    "49:entrainment",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1412,
+  "nationalPokedexNumber": 1415,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

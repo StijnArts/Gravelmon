@@ -143,7 +143,8 @@
     "tm:freezedry",
     "tm:mist",
     "tm:headsmash",
-    "tm:magicroom"
+    "tm:magicroom",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -158,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5016,
+  "nationalPokedexNumber": 5024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

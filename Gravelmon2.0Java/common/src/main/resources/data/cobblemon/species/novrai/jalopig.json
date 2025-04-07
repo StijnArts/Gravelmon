@@ -137,7 +137,8 @@
     "tm:steelroller",
     "tm:quickattack",
     "tm:poisongas",
-    "tm:metalsound"
+    "tm:metalsound",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -165,7 +166,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4883,
+  "nationalPokedexNumber": 4891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -175,7 +175,8 @@
         "tutor:whirlpool",
         "tutor:zenheadbutt",
         "egg:mudslap",
-        "egg:skullbash"
+        "egg:skullbash",
+        "tm:terablast"
       ],
       "labels": [
         "gen3",

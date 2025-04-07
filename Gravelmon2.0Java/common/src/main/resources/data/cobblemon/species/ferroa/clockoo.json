@@ -166,7 +166,8 @@
     "tm:gravity",
     "tm:roost",
     "tm:mirrormove",
-    "tm:featherdance"
+    "tm:featherdance",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -194,7 +195,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1573,
+  "nationalPokedexNumber": 1576,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

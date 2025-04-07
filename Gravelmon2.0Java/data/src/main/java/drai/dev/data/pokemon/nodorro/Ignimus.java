@@ -23,7 +23,8 @@ public class Ignimus extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("- Tail Whip Normal - Scratch Normal 5 EmberSTAB Fire 8 Charm Fairy 11 Disarming VoiceSTAB Fairy 15 Baby-Doll Eyes Fairy 18 Fire SpinSTAB Fire 21 Encore Normal 25 Draining KissSTAB Fairy 29 Lucky Chant Normal 33 Firewall Fire 36 FlamethrowerSTAB Fire 40 Captivate Normal 43 Dazzling GleamSTAB Fairy 48 Fire BlastSTAB Fire"),
-                List.of(),
+                List.of(new EvolutionEntry("necromus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -72,7 +73,11 @@ public class Ignimus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALD,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_TAIGA).atNight()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ignimus");

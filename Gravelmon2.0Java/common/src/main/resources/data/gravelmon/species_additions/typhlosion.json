@@ -137,7 +137,8 @@
         "tm:voltswitch",
         "tm:wildcharge",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -276,7 +277,8 @@
         "tm:weatherball",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -366,7 +368,30 @@
         "1:bulkup",
         "1:bulkup",
         "1:vacuumwave",
-        "1:vacuumwave"
+        "1:vacuumwave",
+        "1:growl",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:firespin",
+        "10:clearsmog",
+        "10:taunt",
+        "10:taunt",
+        "15:flamecharge",
+        "15:sludge",
+        "15:substitute",
+        "15:substitute",
+        "20:flameburst",
+        "20:toxicspikes",
+        "20:rest",
+        "20:rest",
+        "25:flamethrower",
+        "25:sludgebomb",
+        "30:fireblast",
+        "30:sludgewave",
+        "tm:terablast"
       ],
       "labels": [
         "ionos",
@@ -550,7 +575,8 @@
         "egg:firepledge",
         "egg:foulplay",
         "egg:mudslap",
-        "egg:zapcannon"
+        "egg:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -743,7 +769,8 @@
         "tutor:snore",
         "tutor:swift",
         "tutor:thunderpunch",
-        "tutor:zapcannon"
+        "tutor:zapcannon",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",
@@ -964,7 +991,8 @@
         "egg:naturepower",
         "egg:quickattack",
         "egg:reversal",
-        "egg:thrash"
+        "egg:thrash",
+        "tm:terablast"
       ],
       "labels": [
         "gen2",

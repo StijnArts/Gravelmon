@@ -124,7 +124,7 @@ public class EpochLarvitar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 8, 28, 5.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 8, 28, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

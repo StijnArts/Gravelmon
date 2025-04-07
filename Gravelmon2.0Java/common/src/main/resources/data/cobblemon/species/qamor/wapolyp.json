@@ -80,7 +80,8 @@
     "36:waterfall",
     "40:doubleedge",
     "50:bellydrum",
-    "61:focuspunch"
+    "61:focuspunch",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -95,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4014,
+  "nationalPokedexNumber": 4022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

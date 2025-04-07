@@ -73,7 +73,8 @@
     "1:taunt",
     "1:suckerpunch",
     "1:assurance",
-    "tm:gunkshot"
+    "tm:gunkshot",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1547,
+  "nationalPokedexNumber": 1550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

@@ -86,7 +86,8 @@
     "tm:stoneedge",
     "tm:substitute",
     "tm:sunnyday",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -151,7 +151,8 @@
     "egg:crushclaw",
     "egg:megadrain",
     "egg:sandstorm",
-    "egg:sunnyday"
+    "egg:sunnyday",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -166,7 +167,7 @@
   "weight": 2402,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2011,
+  "nationalPokedexNumber": 2014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

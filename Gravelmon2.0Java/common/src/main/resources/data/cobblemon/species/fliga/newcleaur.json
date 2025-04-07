@@ -73,7 +73,8 @@
     "41:lockon",
     "46:dragonpulse",
     "50:fireblast",
-    "1:dragonenergy"
+    "1:dragonenergy",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3982,
+  "nationalPokedexNumber": 3990,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

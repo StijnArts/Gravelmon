@@ -213,7 +213,8 @@
     "egg:powerswap",
     "egg:psychocut",
     "egg:secretpower",
-    "egg:thunderpunch"
+    "egg:thunderpunch",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -237,7 +238,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2042,
+  "nationalPokedexNumber": 2045,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

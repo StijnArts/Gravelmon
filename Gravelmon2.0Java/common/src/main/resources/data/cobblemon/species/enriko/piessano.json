@@ -72,7 +72,8 @@
     "40:dragonpulse",
     "45:flamethrower",
     "50:toxic",
-    "55:endeavor"
+    "55:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1749,
+  "nationalPokedexNumber": 1752,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

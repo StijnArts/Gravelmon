@@ -135,7 +135,8 @@
     "tm:spite",
     "tm:confuseray",
     "tm:camouflage",
-    "tm:foresight"
+    "tm:foresight",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -163,7 +164,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4976,
+  "nationalPokedexNumber": 4984,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -81,7 +81,8 @@
     "28:mimic",
     "32:gyroball",
     "36:hypervoice",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -96,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1430,
+  "nationalPokedexNumber": 1433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

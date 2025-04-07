@@ -212,7 +212,8 @@
     "tm:magicroom",
     "tm:lifedew",
     "tm:smokescreen",
-    "tm:octazooka"
+    "tm:octazooka",
+    "tm:terablast"
   ],
   "labels": [
     "novrai",
@@ -225,7 +226,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4927,
+  "nationalPokedexNumber": 4935,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

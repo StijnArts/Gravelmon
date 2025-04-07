@@ -78,7 +78,8 @@
     "66:hydropump",
     "78:flareblitz",
     "84:overheat",
-    "90:explosion"
+    "90:explosion",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -91,7 +92,7 @@
   "weight": 4300,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3417,
+  "nationalPokedexNumber": 3425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

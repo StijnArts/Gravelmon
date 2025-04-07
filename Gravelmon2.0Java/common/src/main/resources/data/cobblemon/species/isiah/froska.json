@@ -109,7 +109,8 @@
     "tm:hypnosis",
     "tm:trickroom",
     "tm:defog",
-    "tm:psychicterrain"
+    "tm:psychicterrain",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4251,
+  "nationalPokedexNumber": 4259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

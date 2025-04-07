@@ -118,7 +118,8 @@
     "tm:toxic",
     "tm:trick",
     "tm:trickroom",
-    "tm:zenheadbutt"
+    "tm:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -131,7 +132,7 @@
   "weight": 399,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2065,
+  "nationalPokedexNumber": 2068,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

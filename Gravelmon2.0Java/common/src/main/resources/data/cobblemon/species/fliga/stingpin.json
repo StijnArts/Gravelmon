@@ -79,7 +79,8 @@
     "51:knockoff",
     "55:acupressure",
     "59:fakeout",
-    "63:outrage"
+    "63:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "fliga",
@@ -92,7 +93,7 @@
   "weight": 827,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3973,
+  "nationalPokedexNumber": 3981,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

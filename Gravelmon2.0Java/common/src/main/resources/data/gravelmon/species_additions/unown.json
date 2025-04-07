@@ -88,7 +88,23 @@
         "1:bite",
         "1:confusion",
         "1:quickattack",
-        "1:agility"
+        "1:agility",
+        "1:leer",
+        "1:growl",
+        "1:swordsdance",
+        "1:quickattack",
+        "4:payback",
+        "4:psybeam",
+        "4:swordsdance",
+        "7:nightslash",
+        "7:futuresight",
+        "10:crunch",
+        "10:psychic",
+        "13:knockoff",
+        "13:zenheadbutt",
+        "16:suckerpunch",
+        "16:psychocut",
+        "tm:terablast"
       ],
       "labels": [
         "form",
@@ -191,7 +207,8 @@
         "1:hiddenpower",
         "21:cosmicpower",
         "41:ancientpower",
-        "61:storedpower"
+        "61:storedpower",
+        "tm:terablast"
       ],
       "labels": [
         "norheim",
@@ -274,7 +291,8 @@
       ],
       "drops": {},
       "moves": [
-        "1:hiddenpower"
+        "1:hiddenpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",
@@ -358,7 +376,8 @@
       ],
       "drops": {},
       "moves": [
-        "1:hiddenpower"
+        "1:hiddenpower",
+        "tm:terablast"
       ],
       "labels": [
         "xenoverse",

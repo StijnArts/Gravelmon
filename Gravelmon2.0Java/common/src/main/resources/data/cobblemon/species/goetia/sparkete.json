@@ -61,7 +61,30 @@
   "drops": {},
   "moves": [
     "1:ember",
-    "1:thundershock"
+    "1:thundershock",
+    "1:growl",
+    "1:leer",
+    "10:firespin",
+    "10:charge",
+    "15:flamecharge",
+    "15:shockwave",
+    "20:flameburst",
+    "20:discharge",
+    "25:flamethrower",
+    "25:thunderbolt",
+    "30:fireblast",
+    "30:thunder",
+    "35:ember",
+    "35:thundershock",
+    "40:growl",
+    "40:leer",
+    "45:quickattack",
+    "45:charge",
+    "50:flamecharge",
+    "50:thunderpunch",
+    "55:firepunch",
+    "55:discharge",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -89,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5867,
+  "nationalPokedexNumber": 5875,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

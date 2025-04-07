@@ -72,7 +72,8 @@
     "38:rockslide",
     "44:doubleedge",
     "47:counter",
-    "55:headsmash"
+    "55:headsmash",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4209,
+  "nationalPokedexNumber": 4217,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

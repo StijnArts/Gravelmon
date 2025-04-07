@@ -65,7 +65,8 @@
     "39:nightslash",
     "58:xscissor",
     "75:memento",
-    "80:guillotine"
+    "80:guillotine",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -78,7 +79,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1911,
+  "nationalPokedexNumber": 1914,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

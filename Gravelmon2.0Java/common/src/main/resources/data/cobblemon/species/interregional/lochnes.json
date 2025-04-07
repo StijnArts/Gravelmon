@@ -74,7 +74,8 @@
     "42:hypervoice",
     "48:muddywater",
     "54:raindance",
-    "60:hydropump"
+    "60:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1435,
+  "nationalPokedexNumber": 1438,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

@@ -73,7 +73,8 @@
     "40:dragonpulse",
     "45:flamethrower",
     "50:toxic",
-    "55:endeavor"
+    "55:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "hiza",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2363,
+  "nationalPokedexNumber": 2371,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

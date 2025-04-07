@@ -76,7 +76,8 @@
     "36:drainpunch",
     "40:earthquake",
     "46:leechseed",
-    "50:woodhammer"
+    "50:woodhammer",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1651,
+  "nationalPokedexNumber": 1654,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

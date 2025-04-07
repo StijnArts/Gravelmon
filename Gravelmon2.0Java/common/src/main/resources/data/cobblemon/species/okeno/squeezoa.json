@@ -75,7 +75,8 @@
     "80:waterspout",
     "tm:poisonsting",
     "tm:yawn",
-    "tm:powerwhip"
+    "tm:powerwhip",
+    "tm:terablast"
   ],
   "labels": [
     "okeno",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4422,
+  "nationalPokedexNumber": 4430,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

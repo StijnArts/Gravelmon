@@ -139,7 +139,8 @@
         "tm:toxic",
         "tm:wish",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -277,6 +278,7 @@
         "tm:earthpower",
         "tm:leafstorm",
         "tm:solarbeam",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
@@ -391,7 +393,8 @@
         "egg:naturalgift",
         "egg:seedbomb",
         "egg:skullbash",
-        "egg:stomp"
+        "egg:stomp",
+        "tm:terablast"
       ],
       "labels": [
         "gen4",

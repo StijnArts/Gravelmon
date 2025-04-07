@@ -140,7 +140,8 @@
         "egg:suckerpunch",
         "egg:obstruct",
         "egg:circlethrow",
-        "egg:superpower"
+        "egg:superpower",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -316,7 +317,8 @@
         "tm:wringout",
         "tm:forcepalm",
         "tm:dizzypunch",
-        "tm:darkestlariat"
+        "tm:darkestlariat",
+        "tm:terablast"
       ],
       "labels": [
         "novrai",

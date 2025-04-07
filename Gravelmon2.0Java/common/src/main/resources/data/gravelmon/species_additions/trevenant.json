@@ -135,7 +135,8 @@
         "tm:toxic",
         "tm:weatherball",
         "tm:willowisp",
-        "tm:workup"
+        "tm:workup",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -291,7 +292,8 @@
         "tm:round",
         "tm:bulldoze",
         "tm:confide",
-        "tm:brutalswing"
+        "tm:brutalswing",
+        "tm:terablast"
       ],
       "labels": [
         "varitas",
@@ -474,7 +476,8 @@
         "tutor:synthesis",
         "tutor:uproar",
         "tutor:vacuumwave",
-        "tutor:zenheadbutt"
+        "tutor:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",
@@ -646,7 +649,8 @@
         "tm:venomdrench",
         "tm:willowisp",
         "tm:worryseed",
-        "tm:xscissor"
+        "tm:xscissor",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
@@ -791,7 +795,8 @@
         "tm:spite",
         "tm:toxic",
         "tm:poltergeist",
-        "tm:lashout"
+        "tm:lashout",
+        "tm:terablast"
       ],
       "labels": [
         "gen6",

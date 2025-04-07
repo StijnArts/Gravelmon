@@ -16,7 +16,7 @@ public class Lectraptor extends drai.dev.data.pokemon.Pokemon {
                         75,
                         110),
                 List.of(Ability.RELENTLESS,Ability.LIGHTNING_ROD), Ability.TANTRUM,
-                0, 0,
+                21, 0,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -57,7 +57,11 @@ public class Lectraptor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHOCK_WAVE,1)                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lectraptor");

@@ -82,7 +82,8 @@
     "egg:batonpass",
     "egg:stringshot",
     "egg:synthesis",
-    "egg:curse"
+    "egg:curse",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -97,7 +98,7 @@
   "weight": 387,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2093,
+  "nationalPokedexNumber": 2096,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

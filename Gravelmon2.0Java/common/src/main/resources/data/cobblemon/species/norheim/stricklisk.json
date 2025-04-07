@@ -82,7 +82,8 @@
     "tm:ironhead",
     "tm:dragontail",
     "tm:submission",
-    "tm:substitute"
+    "tm:substitute",
+    "tm:terablast"
   ],
   "labels": [
     "norheim",
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3137,
+  "nationalPokedexNumber": 3145,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -16,14 +16,15 @@ public class Cephouch extends drai.dev.data.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.AFTERMATH,Ability.LIQUID_OOZE), Ability.DARKHOLD,
-                0, 0,
-                new Stats(0,0,0,0,1,0), 0,
+                4, 0,
+                new Stats(0,0,0,0,1,0), 220,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("These Pokémon came to be when old clothing lost in the ocean were imbued with spiritual energy. Getting their rag-like skin torn releases a pitch-black smoke in the area, allowing it to escape."),
-                List.of(),
+                List.of(new EvolutionEntry("satchacle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
@@ -143,9 +144,16 @@ public class Cephouch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMOKEBOMB,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Cephouch");
 
     }

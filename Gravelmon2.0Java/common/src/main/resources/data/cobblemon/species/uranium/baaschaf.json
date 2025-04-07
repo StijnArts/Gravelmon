@@ -141,7 +141,8 @@
     "egg:rollingkick",
     "egg:encore",
     "egg:counter",
-    "egg:rockslide"
+    "egg:rockslide",
+    "tm:terablast"
   ],
   "labels": [
     "uranium",
@@ -171,7 +172,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2002,
+  "nationalPokedexNumber": 2005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

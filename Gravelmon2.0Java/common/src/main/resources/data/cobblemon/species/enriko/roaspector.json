@@ -71,7 +71,8 @@
     "34:signalbeam",
     "38:flamethrower",
     "44:quiverdance",
-    "50:eruption"
+    "50:eruption",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1718,
+  "nationalPokedexNumber": 1721,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

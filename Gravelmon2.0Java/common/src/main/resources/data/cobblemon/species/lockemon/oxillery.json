@@ -78,7 +78,8 @@
     "55:doubleedge",
     "60:gigaimpact",
     "egg:thunderwave",
-    "egg:endeavor"
+    "egg:endeavor",
+    "tm:terablast"
   ],
   "labels": [
     "lockemon",
@@ -93,7 +94,7 @@
   "weight": 1221,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3405,
+  "nationalPokedexNumber": 3413,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

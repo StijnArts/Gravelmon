@@ -108,7 +108,8 @@
     "tm:heavyslam",
     "tm:playrough",
     "tm:dazzlinggleam",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -121,7 +122,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3894,
+  "nationalPokedexNumber": 3902,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

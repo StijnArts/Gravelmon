@@ -87,7 +87,8 @@
     "egg:uproar",
     "egg:mist",
     "egg:coralbreak",
-    "egg:refresh"
+    "egg:refresh",
+    "tm:terablast"
   ],
   "labels": [
     "flux",
@@ -102,7 +103,7 @@
   "weight": 325,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2101,
+  "nationalPokedexNumber": 2104,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

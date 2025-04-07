@@ -74,7 +74,8 @@
     "32:screech",
     "36:nightslash",
     "40:nastyplot",
-    "44:playrough"
+    "44:playrough",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3318,
+  "nationalPokedexNumber": 3326,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -60,7 +60,18 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
-    "1:bulkup"
+    "1:bulkup",
+    "1:defensecurl",
+    "1:calmmind",
+    "10:rollout",
+    "10:taunt",
+    "15:smackdown",
+    "15:substitute",
+    "20:rockblast",
+    "20:rest",
+    "25:stealthrock",
+    "30:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "goetia",
@@ -88,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6040,
+  "nationalPokedexNumber": 6048,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

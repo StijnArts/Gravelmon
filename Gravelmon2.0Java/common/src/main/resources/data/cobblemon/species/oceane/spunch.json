@@ -73,7 +73,8 @@
     "1:block",
     "1:recover",
     "1:drainpunch",
-    "1:bulkup"
+    "1:bulkup",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

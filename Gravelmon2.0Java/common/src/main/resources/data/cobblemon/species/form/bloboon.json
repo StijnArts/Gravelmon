@@ -66,7 +66,30 @@
     "1:bulkup",
     "1:bulkup",
     "1:vacuumwave",
-    "1:vacuumwave"
+    "1:vacuumwave",
+    "1:stringshot",
+    "1:tailwhip",
+    "1:calmmind",
+    "1:calmmind",
+    "1:nastyplot",
+    "1:nastyplot",
+    "4:silverwind",
+    "4:bubblebeam",
+    "4:taunt",
+    "4:taunt",
+    "7:signalbeam",
+    "7:brine",
+    "7:substitute",
+    "7:substitute",
+    "10:infestation",
+    "10:surf",
+    "10:rest",
+    "10:rest",
+    "13:uturn",
+    "13:chillingwater",
+    "16:bugbuzz",
+    "16:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "form",
@@ -98,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 3734,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -73,7 +73,8 @@
     "42:flashcannon",
     "46:hydropump",
     "50:skyattack",
-    "57:extremespeed"
+    "57:extremespeed",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4283,
+  "nationalPokedexNumber": 4291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

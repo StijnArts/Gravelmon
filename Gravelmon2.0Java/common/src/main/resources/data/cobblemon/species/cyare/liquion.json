@@ -61,7 +61,20 @@
   "drops": {},
   "moves": [
     "1:watergun",
-    "1:poisonsting"
+    "1:poisonsting",
+    "1:tailwhip",
+    "1:leer",
+    "10:bubblebeam",
+    "10:venoshock",
+    "15:aquatail",
+    "15:poisontail",
+    "20:surf",
+    "20:toxicspikes",
+    "25:waterfall",
+    "25:sludgebomb",
+    "30:liquidation",
+    "30:poisonjab",
+    "tm:terablast"
   ],
   "labels": [
     "cyare",
@@ -74,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5375,
+  "nationalPokedexNumber": 5383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -97,7 +97,8 @@
     "tm:stoneedge",
     "tm:extrasensory",
     "tm:rockslide",
-    "tm:allyswitch"
+    "tm:allyswitch",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3481,
+  "nationalPokedexNumber": 3489,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

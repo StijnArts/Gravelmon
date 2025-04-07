@@ -25,13 +25,14 @@
       "name": "Mastenian",
       "primaryType": "water",
       "secondaryType": "ground",
-      "catchRate": 255,
+      "catchRate": 45,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18823529411764706,
+      "preEvolution": "larvitar form=mastenian",
+      "baseScale": 0.5647058823529412,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -57,18 +58,18 @@
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 74,
+        "attack": 77,
+        "defence": 62,
+        "special_attack": 86,
+        "special_defence": 62,
+        "speed": 56
       },
       "evYield": {
         "hp": 0,
@@ -84,21 +85,61 @@
       "drops": {},
       "moves": [
         "1:watergun",
-        "1:mudslap"
+        "1:mudslap",
+        "1:tailwhip",
+        "1:sandattack",
+        "10:bubblebeam",
+        "10:mudshot",
+        "15:brine",
+        "15:mudbomb",
+        "20:surf",
+        "20:bulldoze",
+        "25:chillingwater",
+        "25:scorchingsands",
+        "30:hydropump",
+        "30:earthpower",
+        "35:watergun",
+        "35:mudslap",
+        "40:tailwhip",
+        "40:growl",
+        "45:bubblebeam",
+        "45:sandattack",
+        "50:aquatail",
+        "50:mudbomb",
+        "55:surf",
+        "55:bulldoze",
+        "tm:terablast"
       ],
       "labels": [
         "mastenia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.mastenianpupitar.desc"
       ],
-      "height": 0,
+      "height": 12,
       "weight": 0,
       "aspects": [
         "mastenian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "mastenianpupitar_tidaltar",
+          "variant": "level_up",
+          "result": "tidaltar",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "55"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 3.1875,
@@ -239,7 +280,8 @@
         "tm:terrainpulse",
         "tm:toxic",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",

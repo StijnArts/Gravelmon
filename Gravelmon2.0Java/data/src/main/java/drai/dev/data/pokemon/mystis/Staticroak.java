@@ -16,7 +16,7 @@ public class Staticroak extends drai.dev.data.pokemon.Pokemon {
                         70,
                         105),
                 List.of(Ability.ANTICIPATION,Ability.DRY_SKIN), Ability.STATIC,
-                0, 0,
+                14, 0,
                 new Stats(0,1,0,0,0,1), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -41,11 +41,16 @@ public class Staticroak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_GUARD,"tm")                        ),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(34).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Staticroak");
-
+        addAdditionalEvolution("croagunk", new EvolutionEntry("staticroak", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.THUNDER_PUNCH.getName())))	);
     }
 
 

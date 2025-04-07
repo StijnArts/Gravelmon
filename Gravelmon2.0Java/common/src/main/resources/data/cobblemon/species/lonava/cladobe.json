@@ -69,7 +69,8 @@
     "22:spikes",
     "35:imprison",
     "44:trick",
-    "48:stoneedge"
+    "48:stoneedge",
+    "tm:terablast"
   ],
   "labels": [
     "lonava",
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3351,
+  "nationalPokedexNumber": 3359,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

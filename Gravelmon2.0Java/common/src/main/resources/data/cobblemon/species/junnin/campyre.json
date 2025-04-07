@@ -111,7 +111,8 @@
     "tm:toxic",
     "tm:willowisp",
     "tm:hypnosis",
-    "tm:trickroom"
+    "tm:trickroom",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

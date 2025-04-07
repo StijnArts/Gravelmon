@@ -77,7 +77,8 @@
     "tm:spitup",
     "tm:swallow",
     "tm:tickle",
-    "tm:venomdrench"
+    "tm:venomdrench",
+    "tm:terablast"
   ],
   "labels": [
     "orohnhavai",
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2989,
+  "nationalPokedexNumber": 2997,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

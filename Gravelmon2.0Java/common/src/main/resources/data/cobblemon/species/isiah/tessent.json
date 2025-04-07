@@ -70,7 +70,8 @@
     "31:swordsdance",
     "34:drillpeck",
     "38:skyuppercut",
-    "49:bravebird"
+    "49:bravebird",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4246,
+  "nationalPokedexNumber": 4254,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

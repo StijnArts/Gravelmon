@@ -75,6 +75,7 @@
     "39:zenheadbutt",
     "45:meditate",
     "50:gunkshot",
+    "61:grimebuster",
     "tm:thunderwave",
     "tm:acidspray",
     "tm:drainpunch",
@@ -89,7 +90,8 @@
     "tutor:clearsmog",
     "tutor:knockoff",
     "tutor:poisonjab",
-    "tutor:stardust"
+    "tutor:stardust",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -102,7 +104,7 @@
   "weight": 579,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4581,
+  "nationalPokedexNumber": 4589,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

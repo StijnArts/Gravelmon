@@ -117,7 +117,8 @@
     "egg:guardswap",
     "egg:pursuit",
     "egg:skyattack",
-    "egg:whirlwind"
+    "egg:whirlwind",
+    "tm:terablast"
   ],
   "labels": [
     "infinity"

@@ -61,7 +61,19 @@
   "drops": {},
   "moves": [
     "1:bite",
-    "1:metalclaw"
+    "1:metalclaw",
+    "1:leer",
+    "1:screech",
+    "4:payback",
+    "4:irontail",
+    "7:nightslash",
+    "7:smartstrike",
+    "10:crunch",
+    "10:ironhead",
+    "13:knockoff",
+    "13:meteormash",
+    "16:suckerpunch",
+    "tm:terablast"
   ],
   "labels": [
     "ivris",
@@ -76,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3567,
+  "nationalPokedexNumber": 3575,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

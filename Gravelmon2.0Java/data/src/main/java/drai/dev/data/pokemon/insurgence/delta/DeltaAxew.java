@@ -101,7 +101,7 @@ public class DeltaAxew extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 18, 24, 5.4, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 18, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

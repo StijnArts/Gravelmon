@@ -142,7 +142,8 @@
     "egg:superpower",
     "egg:thrash",
     "egg:thunderfang",
-    "egg:yawn"
+    "egg:yawn",
+    "tm:terablast"
   ],
   "labels": [
     "vega",
@@ -155,7 +156,7 @@
   "weight": 8752,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4531,
+  "nationalPokedexNumber": 4539,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

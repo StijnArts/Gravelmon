@@ -73,7 +73,8 @@
     "tm:thunderwave",
     "tm:psychic",
     "tm:thunderbolt",
-    "tm:toxic"
+    "tm:toxic",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4046,
+  "nationalPokedexNumber": 4054,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

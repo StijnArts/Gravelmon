@@ -105,7 +105,8 @@
     "35:mistyterrain",
     "40:hypervoice",
     "45:moonblast",
-    "50:hydropump"
+    "50:hydropump",
+    "tm:terablast"
   ],
   "labels": [
     "nosto",
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3495,
+  "nationalPokedexNumber": 3503,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

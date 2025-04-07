@@ -17,7 +17,7 @@ public class Choaking extends drai.dev.data.pokemon.Pokemon {
                         25),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 21, 2100,
-                new Stats(0,1,2,0,0,0), 0,
+                new Stats(0,1,2,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,9 +27,14 @@ public class Choaking extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(50).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky().belowY(-20)
+                        .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Choaking");
 
     }

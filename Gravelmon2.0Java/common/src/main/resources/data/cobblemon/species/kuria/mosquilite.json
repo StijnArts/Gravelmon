@@ -72,7 +72,8 @@
     "29:xscissor",
     "35:leechlife",
     "40:nightslash",
-    "46:lunge"
+    "46:lunge",
+    "tm:terablast"
   ],
   "labels": [
     "kuria",
@@ -87,7 +88,7 @@
   "weight": 3519,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4118,
+  "nationalPokedexNumber": 4126,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

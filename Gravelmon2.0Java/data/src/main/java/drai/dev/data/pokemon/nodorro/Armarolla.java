@@ -23,7 +23,8 @@ public class Armarolla extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("- Sand Attack Ground - Tackle Normal - Leer Normal - Harden Normal - RolloutSTAB Rock 4 Headbutt Normal 6 Mud Shot Ground 11 RolloutSTAB Rock 16 Stealth Rock Rock 19 Sharpen Normal 24 Rock BlastSTAB Rock 27 Rock Polish Rock 29 Iron Defense Steel 31 Spiky Shield Grass 36 Rock Climb Normal 39 Metal BurstSTAB Steel 40 Rock SlideSTAB Rock 43 Iron HeadSTAB Steel 50 Horn Drill Normal 53 Earthquake Ground"),
-                List.of(),
+                List.of(new EvolutionEntry("armodilla", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -55,7 +56,11 @@ public class Armarolla extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NODORRO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder().build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(23).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Armarolla");

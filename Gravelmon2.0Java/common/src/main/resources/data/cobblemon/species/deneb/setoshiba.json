@@ -72,7 +72,8 @@
     "32:crunch",
     "37:workup",
     "40:superfang",
-    "44:doubleedge"
+    "44:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "deneb",
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4645,
+  "nationalPokedexNumber": 4653,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

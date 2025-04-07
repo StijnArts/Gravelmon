@@ -65,7 +65,22 @@
     "1:metalclaw",
     "1:ember",
     "1:bulletpunch",
-    "1:quickattack"
+    "1:quickattack",
+    "1:screech",
+    "1:growl",
+    "1:quickattack",
+    "1:swordsdance",
+    "4:irontail",
+    "4:quickattack",
+    "4:swordsdance",
+    "7:smartstrike",
+    "7:flamecharge",
+    "10:ironhead",
+    "10:firepunch",
+    "13:meteormash",
+    "13:willowisp",
+    "16:flareblitz",
+    "tm:terablast"
   ],
   "labels": [
     "not_modeled",
@@ -82,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2678,
+  "nationalPokedexNumber": 2686,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

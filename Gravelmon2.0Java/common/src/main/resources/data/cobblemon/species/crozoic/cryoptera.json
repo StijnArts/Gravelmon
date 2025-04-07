@@ -69,7 +69,8 @@
     "1:paraboliccharge",
     "1:icywind",
     "1:flash",
-    "1:electroweb"
+    "1:electroweb",
+    "tm:terablast"
   ],
   "labels": [
     "crozoic",
@@ -84,7 +85,7 @@
   "weight": 670,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3257,
+  "nationalPokedexNumber": 3265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -100,7 +100,8 @@
     "tm:painsplit",
     "tm:destinybond",
     "tm:strengthsap",
-    "tm:acidspray"
+    "tm:acidspray",
+    "tm:terablast"
   ],
   "labels": [
     "enjin",
@@ -115,7 +116,7 @@
   "weight": 220,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4688,
+  "nationalPokedexNumber": 4696,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

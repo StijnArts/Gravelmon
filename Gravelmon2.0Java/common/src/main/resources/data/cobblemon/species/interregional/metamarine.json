@@ -75,7 +75,8 @@
     "52:drillpeck",
     "59:hydropump",
     "66:wavecrash",
-    "1:originpulse"
+    "1:originpulse",
+    "tm:terablast"
   ],
   "labels": [
     "interregional",
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1469,
+  "nationalPokedexNumber": 1472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.3125,

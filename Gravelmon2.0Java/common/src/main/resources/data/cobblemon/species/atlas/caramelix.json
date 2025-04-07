@@ -109,7 +109,8 @@
     "tm:present",
     "tm:followme",
     "tm:refresh",
-    "tm:gastroacid"
+    "tm:gastroacid",
+    "tm:terablast"
   ],
   "labels": [
     "atlas",
@@ -124,7 +125,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5077,
+  "nationalPokedexNumber": 5085,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

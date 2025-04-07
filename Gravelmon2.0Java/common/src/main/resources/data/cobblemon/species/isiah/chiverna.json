@@ -75,7 +75,8 @@
     "37:defog",
     "42:dragonpulse",
     "46:sludgebomb",
-    "50:outrage"
+    "50:outrage",
+    "tm:terablast"
   ],
   "labels": [
     "isiah",
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4267,
+  "nationalPokedexNumber": 4275,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

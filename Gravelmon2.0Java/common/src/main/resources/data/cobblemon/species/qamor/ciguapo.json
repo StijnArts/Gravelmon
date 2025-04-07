@@ -75,7 +75,8 @@
     "tm:dazzlinggleam",
     "tm:darkpulse",
     "tm:cottonguard",
-    "tm:afteryou"
+    "tm:afteryou",
+    "tm:terablast"
   ],
   "labels": [
     "qamor",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4006,
+  "nationalPokedexNumber": 4014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

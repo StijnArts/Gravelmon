@@ -100,7 +100,8 @@
     "tm:grassknot",
     "tm:storedpower",
     "tm:toxic",
-    "tm:thunderwave"
+    "tm:thunderwave",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -115,7 +116,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3877,
+  "nationalPokedexNumber": 3885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

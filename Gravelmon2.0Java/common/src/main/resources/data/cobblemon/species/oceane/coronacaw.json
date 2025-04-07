@@ -71,7 +71,8 @@
     "18:twister",
     "22:defog",
     "27:takedown",
-    "43:doubleedge"
+    "43:doubleedge",
+    "tm:terablast"
   ],
   "labels": [
     "oceane",
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1881,
+  "nationalPokedexNumber": 1884,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.375,

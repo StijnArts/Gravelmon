@@ -79,7 +79,8 @@
     "tm:mistyexplosion",
     "tm:corrosivegas",
     "tm:burningjealousy",
-    "tm:tearfullook"
+    "tm:tearfullook",
+    "tm:terablast"
   ],
   "labels": [
     "mythire",
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3890,
+  "nationalPokedexNumber": 3898,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

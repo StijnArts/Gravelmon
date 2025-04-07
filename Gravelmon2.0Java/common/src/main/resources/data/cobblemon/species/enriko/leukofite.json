@@ -76,7 +76,8 @@
     "36:toxic",
     "40:nastyplot",
     "44:sludgebomb",
-    "48:belch"
+    "48:belch",
+    "tm:terablast"
   ],
   "labels": [
     "enriko",
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1679,
+  "nationalPokedexNumber": 1682,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

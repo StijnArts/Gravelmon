@@ -90,7 +90,8 @@
     "tm:mistyexplosion",
     "tm:expandingforce",
     "tm:craftyshield",
-    "tm:moonlight"
+    "tm:moonlight",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1548,
+  "nationalPokedexNumber": 1551,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -165,7 +165,8 @@
     "egg:spitup",
     "egg:stockpile",
     "egg:swallow",
-    "egg:zenheadbutt"
+    "egg:zenheadbutt",
+    "tm:terablast"
   ],
   "labels": [
     "sage",

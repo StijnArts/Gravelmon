@@ -150,7 +150,8 @@
     "tm:xscissor",
     "tm:vitalthrow",
     "tm:strugglebug",
-    "tm:batonpass"
+    "tm:batonpass",
+    "tm:terablast"
   ],
   "labels": [
     "ferroa",
@@ -163,7 +164,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1512,
+  "nationalPokedexNumber": 1515,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

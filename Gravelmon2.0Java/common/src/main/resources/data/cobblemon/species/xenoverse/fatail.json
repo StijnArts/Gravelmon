@@ -112,7 +112,8 @@
     "egg:foulplay",
     "egg:knockoff",
     "egg:snore",
-    "egg:spite"
+    "egg:spite",
+    "tm:terablast"
   ],
   "labels": [
     "xenoverse",
@@ -127,7 +128,7 @@
   "weight": 345,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 1816,
+  "nationalPokedexNumber": 1819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

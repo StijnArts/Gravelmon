@@ -146,7 +146,8 @@
         "tm:wish",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "soulstones",
@@ -263,7 +264,8 @@
         "5:vinewhip",
         "35:bonerush",
         "11:howl",
-        "55:woodhammer"
+        "55:woodhammer",
+        "tm:terablast"
       ],
       "labels": [
         "chaosinvestia",
@@ -436,7 +438,8 @@
         "tm:willowisp",
         "tm:wonderroom",
         "tm:workup",
-        "tm:zenheadbutt"
+        "tm:zenheadbutt",
+        "tm:terablast"
       ],
       "labels": [
         "vanguard",
