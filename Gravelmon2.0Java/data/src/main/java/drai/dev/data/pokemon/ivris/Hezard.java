@@ -77,11 +77,11 @@ public class Hezard extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IVRIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.GROUNDED)
+                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hezard");

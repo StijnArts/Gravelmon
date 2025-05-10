@@ -189,119 +189,119 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rocstrich(new Stats(430, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Venoraze());   
-        addNewPokemon(new Toxerno(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Toxerno(new Stats(521, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Aridamel());   
-        addNewPokemon(new Deserdary(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Deserdary(new Stats(498, StatArchetype.BULKY_SUPPORT,
+                List.of(StatType.HP))));
         addNewPokemon(new Diploracus());   
-        addNewPokemon(new Floradocus(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Kakapow(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Floradocus(new Stats(532, StatArchetype.PHYSICAL_WALL,
+                List.of(StatType.HP))));
+        addNewPokemon(new Kakapow(new Stats(453, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Beetler());   
         addNewPokemon(new Caratarge());   
-        addNewPokemon(new Pavapace(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Geonigma(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Pavapace(new Stats(511, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
+        addNewPokemon(new Geonigma(new Stats(344, StatArchetype.FAST_SUPPORT,
+                List.of(StatType.DEFENCE))));
         addNewPokemon(new Smokwi());
         addNewPokemon(new Iguava());   
-        addNewPokemon(new Modovoldo(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Modovoldo(new Stats(487, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Jackajolt());
         addNewPokemon(new Panburn());   
-        addNewPokemon(new Panblaze(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Panblaze(new Stats(512, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.ATTACK))));
+        addNewPokemon(new Flamhopper(new Stats(411, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
-        addNewPokemon(new Flamhopper(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Hornbully(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));
+        addNewPokemon(new Hornbully(new Stats(411, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         addNewPokemon(new Mantini());   
-        addNewPokemon(new Thanatis(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Thanatis(new Stats(456, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         addNewPokemon(new Unode());
         addNewPokemon(new Dioduo());
         addNewPokemon(new Quadrarity());
-        addNewPokemon(new Cisburn(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Cisburn(new Stats(344, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.HP))));
         addNewPokemon(new Foaltasm());   
-        addNewPokemon(new Stallighast(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Stallighast(new Stats(498, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Robutler());
         addNewPokemon(new Waitroid());
         addNewPokemon(new Pinacier());
         addNewPokemon(new Narcicle());
-        addNewPokemon(new Gulpit(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Gulpit(new Stats(412, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
         addNewPokemon(new Sparrawk());   
         addNewPokemon(new Falswain());   
         addNewPokemon(new Naviator());
         addNewPokemon(new Callimeeko());
         addNewPokemon(new Quokkute());
         addNewPokemon(new Coralpus());
-        addNewPokemon(new Paratorte(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Paratorte(new Stats(412, StatArchetype.FAST_PHYSICAL_WALL,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Vegebun());
         addNewPokemon(new Grinyan());
-        addNewPokemon(new Talpastar(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Cassoworry(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Talpastar(new Stats(324, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
+        addNewPokemon(new Cassoworry(new Stats(324, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Flysh());   
-        addNewPokemon(new Skoi(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Skoi(new Stats(456, StatArchetype.FAST_MIXED_WALL,
+                List.of(StatType.HP))));
         addNewPokemon(new Magnymph());   
-        addNewPokemon(new Polaragon(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Polaragon(new Stats(456, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Psylet());   
-        addNewPokemon(new Oracowl(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Oracowl(new Stats(456, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Sansque());   
-        addNewPokemon(new Granuken(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Granuken(new Stats(512, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.HP))));
         addNewPokemon(new Lamentra());   
-        addNewPokemon(new Bittergeist(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Cherisoul(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Bittergeist(new Stats(480, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.HP))));
+        addNewPokemon(new Cherisoul(new Stats(480, StatArchetype.FAST_SUPPORT,
+                List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Tarseek());   
-        addNewPokemon(new Buddaki(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Buddaki(new Stats(488, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new Jestar(new Stats(423, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.SPEED))));   
-        addNewPokemon(new Jestar(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Lunbun(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Lunbun(new Stats(423, StatArchetype.FAST_PHYSICAL_ATTACKER,
                         List.of(StatType.SPEED))));
         addNewPokemon(new Lichyrm());
         addNewPokemon(new Hornbeet());   
-        addNewPokemon(new Tengushi(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Tengushi(new Stats(487, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK, StatType.ATTACK))));
         addNewPokemon(new Adjie());   
         addNewPokemon(new Majee());   
-        addNewPokemon(new Latarajee(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Latarajee(new Stats(522, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Goraseed());   
-        addNewPokemon(new Mandroxica(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Mandroxica(new Stats(512, StatArchetype.BULKY_SUPPORT,
+                List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Rocurrent());
         addNewPokemon(new Cryzlect());
         addNewPokemon(new Electrec());
-        addNewPokemon(new Perfomask(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Perfomask(new Stats(342, StatArchetype.FAST_SUPPORT,
+                List.of(StatType.HP))));
         addNewPokemon(new Perlusc());
-        addNewPokemon(new Nacrelusc(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Nacrelusc(new Stats(451, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Poisnip());   
-        addNewPokemon(new Scyrmpion(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Anemular(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Submurchible(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Timekreepa(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
-        addNewPokemon(new Compawtriot(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Scyrmpion(new Stats(487, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
+        addNewPokemon(new Anemular(new Stats(432, StatArchetype.BULKY_SUPPORT,
+                List.of(StatType.ATTACK))));
+        addNewPokemon(new Submurchible(new Stats(311, StatArchetype.BULKY_SUPPORT,
+                List.of(StatType.DEFENCE))));
+        addNewPokemon(new Timekreepa(new Stats(343, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new Compawtriot(new Stats(400, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         addNewPokemon(new Tamanome());
         addNewPokemon(new Tamakomu());
         addNewPokemon(new Honokomu());
@@ -311,12 +311,12 @@ public class Otopo extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Damakomu());
         addNewPokemon(new Sokukomu());
         addNewPokemon(new Leafdra());   
-        addNewPokemon(new Terradra(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.SPEED))));   
+        addNewPokemon(new Terradra(new Stats(534, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         addNewPokemon(new Flamdra());
         addNewPokemon(new Vulcadra());
         addNewPokemon(new Oceadra());   
-        addNewPokemon(new Peladra(new Stats(0, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Peladra(new Stats(534, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));   
         addNewPokemon(new Vivizard());
         addNewPokemon(new Prizmazor());

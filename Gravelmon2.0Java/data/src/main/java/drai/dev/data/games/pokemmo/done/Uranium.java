@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.altera.*;
 import drai.dev.data.pokemon.avalos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.flux.regional.*;

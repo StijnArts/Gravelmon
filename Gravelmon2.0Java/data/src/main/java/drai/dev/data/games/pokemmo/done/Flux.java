@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.altera.*;
 import drai.dev.data.pokemon.flux.*;
 import drai.dev.data.pokemon.uranium.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -54,7 +55,8 @@ public class Flux extends Game {
         addNewPokemon(new SalmosaultSaltwater());
         addNewPokemon(new Taroot());
         addNewPokemon(new Daikongus());
-//        addNewPokemon(new Brontoloom()); Not Made yet
+        addPokedexPokemon("shroomish-alteran, breloom-alteran");
+        addNewPokemon(new Brontoloom());
         addNewPokemon(new Magief());
         addNewPokemon(new Corsuave());
 //        addNewPokemon(new Raverogue()); Not Made yet
@@ -64,7 +66,7 @@ public class Flux extends Game {
         addNewPokemon(new Tarandible());
         addNewPokemon(new Gunafix());
         addNewPokemon(new Fixinit());
-//        addNewPokemon(new Artifixt()); Not Made yet
+        addNewPokemon(new Artifixt());
         addNewPokemon(new Comite());
         addNewPokemon(new Cometeor());
         addNewPokemon(new Astronite());
@@ -83,7 +85,8 @@ public class Flux extends Game {
         addPokedexPokemon("ekans-alteran, arbok-alteran");
         addNewPokemon(new Scarablaze());
         addNewPokemon(new Cactana());
-//        addNewPokemon(new AlteranHagoop()); //unfinished
+        addNewPokemon(new AlteranHagoop("", Aspect.ALTERAN));
+        addNewPokemon(new Haagmaa());
         addNewPokemon(new Flintling());
 //        addNewPokemon(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());

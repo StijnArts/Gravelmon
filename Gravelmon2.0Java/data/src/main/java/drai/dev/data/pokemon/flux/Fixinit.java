@@ -25,8 +25,8 @@ public class Fixinit extends Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE, EggGroup.MONSTER),
                 List.of("When properly trained, it can easily troubleshoot machinery. However, it loves to take things apart, so it can't be left unsupervised."),
-                List.of(/*new EvolutionEntry("artifixt", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))*/),
+                List.of(new EvolutionEntry("artifixt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,1),
                         new MoveLearnSetEntry(Move.POUND,1),
