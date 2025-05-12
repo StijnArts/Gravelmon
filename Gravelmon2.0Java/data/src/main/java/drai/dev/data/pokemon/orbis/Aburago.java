@@ -23,7 +23,8 @@ public class Aburago extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Aburago travel streets at night in search for the flames of lamps and candles to consume. People often light candles in their homes which are rudely put out by a passing Aburago."),
-                List.of(),
+                List.of(new EvolutionEntry("terroar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.MYSTICAL_FIRE,1),
@@ -34,10 +35,11 @@ public class Aburago extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Aburago");
 
     }

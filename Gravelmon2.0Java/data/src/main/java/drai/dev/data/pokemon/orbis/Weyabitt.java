@@ -23,7 +23,8 @@ public class Weyabitt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("- Heavy SlamSTAB Steel 3 Rollout Rock 6 Focus Energy Normal 10 Endure Normal 13 Double Hit Normal 17 Seismic TossSTAB Fighting 20 Detect Fighting 25 ReversalSTAB Fighting 29 Iron Defense Steel 32 Hammer ArmSTAB Fighting 35 Iron HeadSTAB Steel 39 Body PressSTAB Fighting 42 Body Slam Normal 44 Close CombatSTAB Fighting 52 Gyro BallSTAB Steel 55 Belly Drum Normal 60 Meteor MashSTAB Steel"),
-                List.of(),
+                List.of(new EvolutionEntry("weyatonne", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HEAVY_SLAM,1),
                         new MoveLearnSetEntry(Move.ROLLOUT,3),
@@ -45,10 +46,10 @@ public class Weyabitt extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_COLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Weyabitt");

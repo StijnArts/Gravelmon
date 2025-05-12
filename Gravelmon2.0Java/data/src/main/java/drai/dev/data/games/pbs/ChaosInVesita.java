@@ -1,9 +1,5 @@
 package drai.dev.data.games.pbs;
 
-import drai.dev.data.pokemon.chaosinvestia.*;
-import drai.dev.data.pokemon.chaosinvestia.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-
 public class ChaosInVesita extends drai.dev.data.games.registry.Game {
     public ChaosInVesita() {
         super("ChaosInVesita");

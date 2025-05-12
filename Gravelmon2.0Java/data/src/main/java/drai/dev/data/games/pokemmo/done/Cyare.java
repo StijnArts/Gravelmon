@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.atlas.Bramboom;
 import drai.dev.data.pokemon.atlas.Burramble;
 import drai.dev.data.pokemon.atlas.Crebb;
@@ -22,8 +23,8 @@ import drai.dev.data.pokemon.atlas.Shockatoo;
 import drai.dev.data.pokemon.atlas.Tinguano;
 import drai.dev.data.pokemon.atlas.Tomabi;
 import drai.dev.data.pokemon.atlas.Volpaca;
-import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.cyare.*;
+import drai.dev.data.pokemon.rica.*;
 import drai.dev.data.pokemon.rica.Conchorn;
 import drai.dev.data.pokemon.rica.Conium;
 import drai.dev.data.pokemon.rica.Lumibuzz;

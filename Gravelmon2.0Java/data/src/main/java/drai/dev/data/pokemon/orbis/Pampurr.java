@@ -23,7 +23,8 @@ public class Pampurr extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Pampurr have great pride in their white fluffy coats, they keep it immaculate at all costs. They require a great deal of care and pampering to keep them healthy. The orb on their necks contain a mystical power that is said to bring immense luck to those who polish it."),
-                List.of(),
+                List.of(new EvolutionEntry("freyurr", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.PSYBEAM,1),
@@ -38,10 +39,10 @@ public class Pampurr extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pampurr");

@@ -1,5 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
+import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.atlas.Bisommit;
 import drai.dev.data.pokemon.atlas.Buffhilla;
 import drai.dev.data.pokemon.atlas.Campyre;

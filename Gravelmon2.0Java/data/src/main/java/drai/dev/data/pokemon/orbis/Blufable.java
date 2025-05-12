@@ -27,13 +27,17 @@ public class Blufable extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SURFACE)
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+        setCanWalkOnWater(true);
            setLangFileName("Blufable");
 
     }

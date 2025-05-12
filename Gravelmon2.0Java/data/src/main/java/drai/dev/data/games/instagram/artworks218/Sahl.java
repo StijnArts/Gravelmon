@@ -1,7 +1,6 @@
 package drai.dev.data.games.instagram.artworks218;
 
 
-import drai.dev.data.pokemon.sahl.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Sahl extends drai.dev.data.games.registry.Game {

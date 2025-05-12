@@ -23,7 +23,8 @@ public class Skenteur extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Skenteur are known for their sweet aromas that are used in the finest perfumes across the world. However like their cousins Stunky, they are able to create putrid smelling gas that they fire at their opponents when threatened."),
-                List.of(),
+                List.of(new EvolutionEntry("parfumou", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -50,7 +51,7 @@ public class Skenteur extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

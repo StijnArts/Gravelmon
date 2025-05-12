@@ -23,7 +23,8 @@ public class Budgeaf extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("One of the starter Pokemon from Orbis, Budgeaf are excellent Pokemon for first time trainers due to their overly friendly and protective personalities. Its leaf-like tail gives off a sweet aroma that people try to replicate in dishes. Budgeaf are very nimble, despite their small size they are more than capable of flying through strong winds with ease."),
-                List.of(),
+                List.of(new EvolutionEntry("gryphoyal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.SEED_BOMB,1),
@@ -35,9 +36,9 @@ public class Budgeaf extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

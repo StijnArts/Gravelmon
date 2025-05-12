@@ -22,8 +22,9 @@ public class Acrown extends drai.dev.data.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("- Self-Destruct Normal - Growth Normal - Branch PokeSTAB Grass - Wood HammerSTAB Grass - Uproar Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("majestree", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:kings_rock")))),
                 List.of(
                         new MoveLearnSetEntry(Move.UPROAR,1),
                         new MoveLearnSetEntry(Move.BRANCH_POKE,1),
@@ -33,9 +34,9 @@ public class Acrown extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

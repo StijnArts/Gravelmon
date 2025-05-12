@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vermob",
+  "speciesId": "cobblemon:vermob",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

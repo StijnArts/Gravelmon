@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parfumou",
+  "speciesId": "cobblemon:parfumou",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

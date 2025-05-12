@@ -23,7 +23,8 @@ public class Flintling extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Pieces of its stony hide were once fashioned into arrowheads. There is evidence that Flintling themselves were flung directly as weapons."),
-                List.of(),
+                List.of(new EvolutionEntry("obsygnus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CUT,1),
                         new MoveLearnSetEntry(Move.SHARPEN,1),
@@ -60,7 +61,7 @@ public class Flintling extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(1)
                         .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOLCANIC).canSeeSky()
+                        .setBiomes(Biome.IS_VOLCANIC)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

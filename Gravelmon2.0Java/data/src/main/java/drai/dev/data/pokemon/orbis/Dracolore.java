@@ -16,7 +16,7 @@ public class Dracolore extends drai.dev.data.pokemon.Pokemon {
                         100,
                         81),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                52, 2050,
+                32, 2050,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 189, ExperienceGroup.SLOW,
@@ -27,13 +27,16 @@ public class Dracolore extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_RIVER).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Dracolore");
 
     }

@@ -1,6 +1,5 @@
 package drai.dev.data.jsonwriters;
 
-import com.cobblemon.mod.common.api.pokedex.entry.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.data.jsonwriters.data.*;

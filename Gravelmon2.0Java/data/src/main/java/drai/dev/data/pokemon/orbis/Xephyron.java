@@ -16,7 +16,7 @@ public class Xephyron extends drai.dev.data.pokemon.Pokemon {
                         105,
                         125),
                 List.of(Ability.AIR_LOCK), Ability.WIND_RIDER,
-                54, 150,
+                34, 150,
                 new Stats(0,0,0,2,0,1), 25,
                 0.5,
                 267, ExperienceGroup.SLOW,
@@ -43,13 +43,14 @@ public class Xephyron extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,"tm")                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MOUNTAIN).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Xephyron");
 
     }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cerforyu",
+  "speciesId": "cobblemon:cerforyu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

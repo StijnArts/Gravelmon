@@ -4,8 +4,6 @@ import com.google.gson.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
-import java.util.*;
-
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -13,6 +11,7 @@ import org.apache.commons.lang3.*;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 

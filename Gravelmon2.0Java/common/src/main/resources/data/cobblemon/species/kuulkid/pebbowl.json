@@ -61,10 +61,19 @@
   "drops": {},
   "moves": [
     "1:rockthrow",
+    "1:bulkup",
+    "1:vacuumwave",
     "1:defensecurl",
+    "1:calmmind",
+    "1:nastyplot",
     "4:rollout",
+    "4:taunt",
+    "4:quickattack",
     "7:ancientpower",
+    "7:substitute",
+    "7:swordsdance",
     "10:powergem",
+    "10:rest",
     "13:stealthrock",
     "16:meteorbeam",
     "19:rockthrow",
@@ -102,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2175,
+  "nationalPokedexNumber": 2178,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.75,

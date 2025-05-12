@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 
+import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.atlas.Arsinge;
 import drai.dev.data.pokemon.atlas.Bunfin;
 import drai.dev.data.pokemon.atlas.Pichip;

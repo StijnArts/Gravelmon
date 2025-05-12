@@ -22,7 +22,7 @@ public class Majestree extends drai.dev.data.pokemon.Pokemon {
                 279, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("- Branch PokeSTAB Grass - Tackle Normal 18 CounterSTAB Fighting 22 Growth Normal 26 SubmissionSTAB Fighting 28 Horn LeechSTAB Grass 32 Grav AppleSTAB Grass 38 Hammer ArmSTAB Fighting 40 Ingrain Grass 44 Wood HammerSTAB Grass 50 Dynamic PunchSTAB Fighting 52 Forest's Curse Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -42,10 +42,10 @@ public class Majestree extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENERGY_BALL,"tm")                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

@@ -3,7 +3,6 @@ package drai.dev.data.pokemon.kuulkid;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelsextendedbattles.resorting.*;
 
 import java.util.*;
 public class Kippsie extends drai.dev.data.pokemon.Pokemon {

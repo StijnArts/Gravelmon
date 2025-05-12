@@ -6,6 +6,7 @@ import com.google.gson.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.jsonwriters.assets.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.Label;
 import org.jetbrains.annotations.*;
 

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:blanfish",
+  "speciesId": "cobblemon:blanfish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

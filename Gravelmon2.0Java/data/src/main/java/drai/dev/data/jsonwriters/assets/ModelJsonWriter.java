@@ -1,7 +1,6 @@
 package drai.dev.data.jsonwriters.assets;
 
 import com.google.gson.*;
-import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 
 import java.io.*;

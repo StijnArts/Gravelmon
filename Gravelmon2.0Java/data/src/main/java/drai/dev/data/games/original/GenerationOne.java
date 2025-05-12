@@ -1,9 +1,6 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.enjin.regional.*;
-import drai.dev.data.pokemon.nodorro.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -14,6 +11,7 @@ import drai.dev.data.pokemon.ayrei.regional.*;
 import drai.dev.data.pokemon.azure.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.daybreak.regional.*;
+import drai.dev.data.pokemon.enjin.regional.*;
 import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.ferran.regional.*;
 import drai.dev.data.pokemon.flux.regional.*;
@@ -26,6 +24,7 @@ import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.data.pokemon.lockemon.regional.*;
 import drai.dev.data.pokemon.mahal.regional.*;
 import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.data.pokemon.nodorro.regional.*;
 import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.data.pokemon.nosto.regional.*;
 import drai.dev.data.pokemon.novrai.regional.*;
@@ -39,6 +38,7 @@ import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 

@@ -23,7 +23,8 @@ public class Seadeek extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are often known to be annoying to tourists as they eat beach comers' food and steal their possessions. They have a loud screeching cry that they bellow across the shores. They always obey the orders of a Cappatross, and will bring all the food they acquire to their leader before eating it themselves."),
-                List.of(),
+                List.of(new EvolutionEntry("cappatross", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.PECK,1),
@@ -39,10 +40,10 @@ public class Seadeek extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,48)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

@@ -28,10 +28,10 @@ public class Coralegion extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .legend()
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.REEF, SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Coralegion");

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:badbud",
+  "speciesId": "cobblemon:badbud",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -3,7 +3,6 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.altera.*;
 import drai.dev.data.pokemon.flux.*;
-import drai.dev.data.pokemon.uranium.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Flux extends Game {
@@ -88,6 +87,7 @@ public class Flux extends Game {
         addNewPokemon(new AlteranHagoop("", Aspect.ALTERAN));
         addNewPokemon(new Haagmaa());
         addNewPokemon(new Flintling());
+        addNewPokemon(new Obsygnus());
 //        addNewPokemon(new AlteranChimical()); //unfinished
         addNewPokemon(new Emberge());
         addNewPokemon(new Glubble());

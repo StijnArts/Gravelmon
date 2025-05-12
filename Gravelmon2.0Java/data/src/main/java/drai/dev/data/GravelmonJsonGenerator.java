@@ -6,8 +6,6 @@ import drai.dev.data.jsonwriters.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 import net.fabricmc.api.*;
-import net.fabricmc.fabric.api.client.event.lifecycle.v1.*;
-import net.minecraft.client.*;
 
 public class GravelmonJsonGenerator implements ModInitializer
 {

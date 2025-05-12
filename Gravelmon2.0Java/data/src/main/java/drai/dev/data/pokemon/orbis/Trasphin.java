@@ -16,24 +16,28 @@ public class Trasphin extends drai.dev.data.pokemon.Pokemon {
                         80,
                         70),
                 List.of(Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,1,1,0), 130,
                 0.5,
                 0, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Years of ocean pollution have caused Trasphin to absorb toxins and oil into their bodies to adapt. They are full of sludge that they expel out of their bottle like noses."),
-                List.of(),
+                List.of(new EvolutionEntry("whaste", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Trasphin");
 
     }

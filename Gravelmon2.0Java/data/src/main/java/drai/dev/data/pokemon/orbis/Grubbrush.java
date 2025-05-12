@@ -23,17 +23,18 @@ public class Grubbrush extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("- Doodle Normal 10 Struggle BugSTAB Bug"),
-                List.of(),
+                List.of(new EvolutionEntry("pupallet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"12")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DOODLE,1),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,10)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(6).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Grubbrush");

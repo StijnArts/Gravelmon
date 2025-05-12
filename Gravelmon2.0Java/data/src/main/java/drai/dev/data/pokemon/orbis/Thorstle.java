@@ -23,7 +23,8 @@ public class Thorstle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Thorstle live in fields that don't get tended to well. Their bright pink flower is extremely spiky, and releases toxins when touched that give a sharp stinging pain."),
-                List.of(),
+                List.of(new EvolutionEntry("thistance", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -35,10 +36,10 @@ public class Thorstle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_BLADE,1)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
+                ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

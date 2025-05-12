@@ -1,7 +1,8 @@
 package drai.dev.data.util;
+
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.Pokemon;
-import drai.dev.data.games.registry.Game;
+import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.apache.commons.lang3.mutable.*;

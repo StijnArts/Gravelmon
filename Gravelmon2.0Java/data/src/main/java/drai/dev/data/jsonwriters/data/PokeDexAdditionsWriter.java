@@ -2,7 +2,6 @@ package drai.dev.data.jsonwriters.data;
 
 import com.google.gson.*;
 import drai.dev.data.games.registry.*;
-import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 
 import java.io.*;

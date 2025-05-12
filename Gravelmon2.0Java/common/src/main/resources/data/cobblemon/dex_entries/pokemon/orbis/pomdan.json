@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pomdan",
+  "speciesId": "cobblemon:pomdan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

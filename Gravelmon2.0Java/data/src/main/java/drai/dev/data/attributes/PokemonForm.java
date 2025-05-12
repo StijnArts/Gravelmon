@@ -2,7 +2,6 @@ package drai.dev.data.attributes;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.pokemon.Pokemon;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;

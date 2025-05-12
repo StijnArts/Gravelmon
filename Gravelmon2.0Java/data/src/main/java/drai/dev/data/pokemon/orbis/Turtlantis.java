@@ -16,7 +16,7 @@ public class Turtlantis extends drai.dev.data.pokemon.Pokemon {
                         68,
                         63),
                 List.of(Ability.SHELL_ARMOR), Ability.SWIFT_SWIM,
-                12, 270,
+                13, 270,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 152, ExperienceGroup.SLOW,
@@ -27,13 +27,17 @@ public class Turtlantis extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setCanWalkOnWater(true);
+        setAvoidsLand(true);
            setLangFileName("Turtlantis");
 
     }

@@ -2,19 +2,14 @@ package drai.dev.data.jsonwriters.assets;
 
 
 import com.google.gson.*;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
 import drai.dev.data.jsonwriters.data.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
-
-import static drai.dev.data.jsonwriters.assets.SpeciesAssetsJSONWriter.*;
 
 
 public class AdditionalFormAssetsJSONWriter {

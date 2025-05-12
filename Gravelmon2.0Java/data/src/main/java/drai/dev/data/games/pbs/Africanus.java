@@ -2,8 +2,6 @@ package drai.dev.data.games.pbs;
 
 
 import drai.dev.data.pokemon.africanus.*;
-import drai.dev.data.pokemon.africanus.regional.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Africanus extends drai.dev.data.games.registry.Game {
     public Africanus() {

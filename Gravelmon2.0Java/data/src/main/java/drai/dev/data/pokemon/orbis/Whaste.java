@@ -16,7 +16,7 @@ public class Whaste extends drai.dev.data.pokemon.Pokemon {
                         110,
                         60),
                 List.of(Ability.WEAK_ARMOR,Ability.STENCH), Ability.SCREEN_CLEANER,
-                119, 5,
+                89, 5,
                 new Stats(0,0,0,1,2,0), 45,
                 0.5,
                 210, ExperienceGroup.FAST,
@@ -44,13 +44,16 @@ public class Whaste extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,60)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(45).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Whaste");
 
     }

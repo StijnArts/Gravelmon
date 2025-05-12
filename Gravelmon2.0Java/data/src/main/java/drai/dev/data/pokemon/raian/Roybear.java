@@ -1,7 +1,6 @@
 package drai.dev.data.pokemon.raian;
 
 
-import com.cobblemon.mod.common.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 

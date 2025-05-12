@@ -27,13 +27,15 @@ public class Kingulum extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
+                ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanWalkOnWater(true);
+        setCanFly(true);
            setLangFileName("Kingulum");
 
     }

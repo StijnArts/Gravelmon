@@ -23,7 +23,8 @@ public class Stinttle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Stinttle thrive in soils that are highly acidic. This is why they live so close to urban areas due to the phosphate-rich waste that gets expelled into grasslands. They contain tiny needles that are incredibly irritant to touch, causing large rashes that can take months to heal."),
-                List.of(),
+                List.of(new EvolutionEntry("stimanic", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,1),
@@ -43,10 +44,10 @@ public class Stinttle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,51)                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
+                ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

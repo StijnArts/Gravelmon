@@ -8,7 +8,7 @@
 //import drai.dev.data.pokemon.rica.Anau;
 //import drai.dev.data.pokemon.theos.*;
 //import drai.dev.data.pokemon.kuria.*;
-//import drai.dev.data.pokemon.ottora.*;
+//import drai.dev.data.pokemon.beginnings.*;
 //import drai.dev.data.pokemon.mastenia.*;
 //import drai.dev.data.pokemon.mongratis.*;
 //import drai.dev.data.pokemon.ultraspace.*;

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pampurr",
+  "speciesId": "cobblemon:pampurr",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

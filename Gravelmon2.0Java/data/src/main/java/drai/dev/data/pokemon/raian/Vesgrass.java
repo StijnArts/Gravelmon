@@ -3,7 +3,6 @@ package drai.dev.data.pokemon.raian;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import net.minecraft.tags.*;
 
 import java.util.*;
 public class Vesgrass extends drai.dev.data.pokemon.Pokemon {

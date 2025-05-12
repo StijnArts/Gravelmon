@@ -8,7 +8,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "clownemone",
   "baseScale": 0.5877551020408163,
   "cannotDynamax": false,
   "abilities": [
@@ -79,9 +78,7 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.clownfisk.desc"
@@ -90,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4816,
+  "nationalPokedexNumber": 4820,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

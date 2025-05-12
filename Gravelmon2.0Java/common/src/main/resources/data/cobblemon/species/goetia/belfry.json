@@ -76,10 +76,14 @@
     "10:aircutter",
     "10:taunt",
     "10:taunt",
+    "10:quickattack",
+    "10:quickattack",
     "15:nightdaze",
     "15:wingattack",
     "15:substitute",
     "15:substitute",
+    "15:swordsdance",
+    "15:swordsdance",
     "20:snarl",
     "20:airslash",
     "20:rest",
@@ -88,6 +92,16 @@
     "25:drillpeck",
     "30:darkpulse",
     "30:hurricane",
+    "35:bite",
+    "35:peck",
+    "40:leer",
+    "40:leer",
+    "45:payback",
+    "45:pluck",
+    "50:nightslash",
+    "50:wingattack",
+    "55:crunch",
+    "55:aerialace",
     "tm:terablast"
   ],
   "labels": [
@@ -116,7 +130,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5891,
+  "nationalPokedexNumber": 5895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

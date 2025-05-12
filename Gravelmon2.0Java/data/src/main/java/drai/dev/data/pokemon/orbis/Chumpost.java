@@ -23,7 +23,8 @@ public class Chumpost extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Chumpost are extremely friendly, they collect green waste like fruit peels and leaves to add to their bodies. Many people in the city keep Chumpost to be more eco-friendly. Despite carrying around decaying waste, they smell closer to grass cuttings than waste."),
-                List.of(),
+                List.of(new EvolutionEntry("chumpost", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.BRANCH_POKE,1),
@@ -43,10 +44,10 @@ public class Chumpost extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chumpost");

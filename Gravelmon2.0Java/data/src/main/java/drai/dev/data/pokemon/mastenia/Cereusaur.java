@@ -2,7 +2,6 @@ package drai.dev.data.pokemon.mastenia;
 
 
 import drai.dev.data.attributes.*;
-import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;

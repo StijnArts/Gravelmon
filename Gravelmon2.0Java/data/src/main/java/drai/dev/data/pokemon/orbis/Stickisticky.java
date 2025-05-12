@@ -24,18 +24,14 @@ public class Stickisticky extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FAIRY,EggGroup.AMORPHOUS),
                 List.of("- Explosion Normal - Misty ExplosionSTAB Fairy - Play Nice Normal - Stockpile Normal"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.EXPLOSION,1),
-                        new MoveLearnSetEntry(Move.PLAY_NICE,1),
-                        new MoveLearnSetEntry(Move.STOCKPILE,1),
-                        new MoveLearnSetEntry(Move.MISTY_EXPLOSION,1)                        ),
+                List.of(                      ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Stickisticky");

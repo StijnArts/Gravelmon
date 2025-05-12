@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cappatross",
+  "speciesId": "cobblemon:cappatross",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

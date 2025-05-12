@@ -13,8 +13,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-import java.util.*;
-
 public class GenerationNine extends Game {
     public GenerationNine() {
         super("generation9");

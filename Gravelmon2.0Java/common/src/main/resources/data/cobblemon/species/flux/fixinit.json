@@ -96,8 +96,23 @@
   "height": 12,
   "weight": 546,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 2128,
+  "evolutions": [
+    {
+      "id": "fixinit_artifixt",
+      "variant": "level_up",
+      "result": "artifixt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "42"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 2129,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

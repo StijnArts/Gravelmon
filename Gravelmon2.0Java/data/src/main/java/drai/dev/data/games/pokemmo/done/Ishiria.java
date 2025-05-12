@@ -2,7 +2,6 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.ishiria.*;
-import drai.dev.data.pokemon.ishiria.Dandyprawl;
 import drai.dev.data.pokemon.ishiria.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 

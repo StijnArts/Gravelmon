@@ -23,15 +23,16 @@ public class Deye extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Deye hurl themselves like dice to predict future events. Rolling both eyes is said to be bad luck."),
-                List.of(),
+                List.of(new EvolutionEntry("pyroulette", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.MANSION).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Deye");

@@ -2,6 +2,7 @@ package drai.dev.data.pokemon.interregional;
 
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Ferrutail extends drai.dev.data.pokemon.Pokemon {

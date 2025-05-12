@@ -1,14 +1,9 @@
 package drai.dev.data.jsonwriters.data;
 
-import com.cobblemon.mod.relocations.oracle.truffle.regex.tregex.util.json.*;
 import com.google.gson.*;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
-import drai.dev.gravelsextendedbattles.*;
-import drai.dev.gravelsextendedbattles.resorting.*;
 import org.apache.commons.lang3.*;
 
 import java.io.*;

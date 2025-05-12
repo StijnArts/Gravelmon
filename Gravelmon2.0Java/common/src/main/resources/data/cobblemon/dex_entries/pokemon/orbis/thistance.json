@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thistance",
+  "speciesId": "cobblemon:thistance",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

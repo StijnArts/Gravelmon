@@ -6,8 +6,6 @@ import drai.dev.data.pokemon.xenoverse.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-import java.util.*;
-
 public class Xenoverse extends Game {
     public Xenoverse() {
         super("Xenoverse");

@@ -62,17 +62,28 @@
   "moves": [
     "1:mudslap",
     "1:shoreup",
-    "1:growl",
+    "1:vacuumwave",
+    "1:sandattack",
     "1:bulkup",
-    "4:sandattack",
+    "1:nastyplot",
+    "4:mudshot",
     "4:calmmind",
+    "4:quickattack",
     "7:mudbomb",
     "7:taunt",
+    "7:swordsdance",
     "10:bulldoze",
     "10:substitute",
-    "13:dig",
+    "13:scorchingsands",
     "13:rest",
-    "16:earthquake",
+    "16:earthpower",
+    "19:mudslap",
+    "22:growl",
+    "25:sandattack",
+    "28:mudbomb",
+    "31:bulldoze",
+    "34:dig",
+    "39:earthquake",
     "tm:terablast"
   ],
   "labels": [
@@ -103,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2641,
+  "nationalPokedexNumber": 2644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

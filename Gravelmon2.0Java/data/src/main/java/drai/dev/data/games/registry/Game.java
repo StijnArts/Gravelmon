@@ -1,6 +1,5 @@
 package drai.dev.data.games.registry;
 
-import com.google.gson.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 

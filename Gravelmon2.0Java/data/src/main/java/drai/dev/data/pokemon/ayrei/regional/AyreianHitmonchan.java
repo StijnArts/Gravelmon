@@ -2,7 +2,6 @@ package drai.dev.data.pokemon.ayrei.regional;
 
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;

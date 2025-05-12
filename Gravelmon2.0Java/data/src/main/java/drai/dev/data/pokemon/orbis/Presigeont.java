@@ -24,21 +24,17 @@ public class Presigeont extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("- Work Up Normal - RageSTAB Normal - Wing AttackSTAB Flying - Roost Flying - Brave BirdSTAB Flying"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.ROOST,1),
-                        new MoveLearnSetEntry(Move.WORK_UP,1),
-                        new MoveLearnSetEntry(Move.WING_ATTACK,1),
-                        new MoveLearnSetEntry(Move.RAGE,1),
-                        new MoveLearnSetEntry(Move.BRAVE_BIRD,1)                        ),
+                List.of(                      ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(34).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Presigeont");
 
     }

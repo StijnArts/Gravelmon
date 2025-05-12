@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skenteur",
+  "speciesId": "cobblemon:skenteur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

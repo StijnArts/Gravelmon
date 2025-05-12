@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.atlas.Ampin;
 import drai.dev.data.pokemon.atlas.Bonafant;
 import drai.dev.data.pokemon.atlas.Dwarpy;

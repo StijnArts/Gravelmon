@@ -1,7 +1,6 @@
 package drai.dev.data.jsonwriters.data;
 
 import com.google.gson.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
@@ -10,7 +9,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-import static drai.dev.data.jsonwriters.data.SpawnPoolWorldJSONWriter.createSpawnPoolJson;
+import static drai.dev.data.jsonwriters.data.SpawnPoolWorldJSONWriter.*;
 
 public class AdditionSpawnPoolWorldJSONWriter {
 

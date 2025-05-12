@@ -2,7 +2,6 @@ package drai.dev.data.pokemon.form.regional;
 
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.pokemon.form.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;

@@ -61,17 +61,27 @@
   "moves": [
     "1:tackle",
     "1:sleeptalk",
+    "1:vacuumwave",
     "1:growl",
     "1:bulkup",
+    "1:nastyplot",
     "10:round",
     "10:calmmind",
+    "10:extremespeed",
     "15:swift",
     "15:taunt",
+    "15:quickattack",
     "20:uproar",
     "20:substitute",
+    "20:swordsdance",
     "25:hypervoice",
     "25:rest",
     "30:hyperbeam",
+    "35:tackle",
+    "40:growl",
+    "45:quickattack",
+    "50:bite",
+    "55:takedown",
     "tm:terablast"
   ],
   "labels": [
@@ -100,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4041,
+  "nationalPokedexNumber": 4045,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

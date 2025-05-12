@@ -1,5 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
+import drai.dev.data.pokemon.avalos.*;
 import drai.dev.data.pokemon.avalos.Carcahawk;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.okeno.*;

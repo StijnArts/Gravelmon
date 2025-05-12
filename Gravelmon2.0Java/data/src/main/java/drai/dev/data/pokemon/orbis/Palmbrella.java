@@ -24,18 +24,13 @@ public class Palmbrella extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("Popular among tourists, Palmbrella lounge on beaches taking joy in granting shade to people and Pokemon alike. Their leaves are incredibly thick and keep out both the suns rays and rain."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.RAZOR_LEAF,1),
-                        new MoveLearnSetEntry(Move.GUST,6),
-                        new MoveLearnSetEntry(Move.WHIRLWIND,21),
-                        new MoveLearnSetEntry(Move.LEAF_BLADE,26),
-                        new MoveLearnSetEntry(Move.RAZOR_WIND,51)                        ),
+                List.of(                      ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

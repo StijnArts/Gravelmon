@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:searsage",
+  "speciesId": "cobblemon:searsage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,7 +16,7 @@ public class Orcloud extends drai.dev.data.pokemon.Pokemon {
                         90,
                         60),
                 List.of(Ability.CLOUD_NINE,Ability.OBLIVIOUS), Ability.WIND_RIDER,
-                100, 2610,
+                56, 2610,
                 new Stats(2,0,0,0,0,0), 60,
                 0.5,
                 200, ExperienceGroup.FLUCTUATING,
@@ -47,13 +47,14 @@ public class Orcloud extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(40).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SKY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Orcloud");
 
     }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:squeebee",
+  "speciesId": "cobblemon:squeebee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,10 +1,11 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import com.cobblemon.mod.common.entity.*;
+import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class DeltaMeloetta extends Pokemon {

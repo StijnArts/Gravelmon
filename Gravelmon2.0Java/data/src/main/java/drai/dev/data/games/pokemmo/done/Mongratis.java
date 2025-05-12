@@ -2,17 +2,19 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.ayrei.*;
 import drai.dev.data.pokemon.ayrei.Firomenis;
 import drai.dev.data.pokemon.ayrei.Merlicun;
+import drai.dev.data.pokemon.mongratis.*;
+import drai.dev.data.pokemon.mongratis.Solacor;
+import drai.dev.data.pokemon.myth.*;
 import drai.dev.data.pokemon.myth.Baulder;
 import drai.dev.data.pokemon.myth.Cobarett;
 import drai.dev.data.pokemon.myth.Dreadrock;
 import drai.dev.data.pokemon.myth.Hissiorite;
 import drai.dev.data.pokemon.myth.Lavare;
 import drai.dev.data.pokemon.myth.Lavee;
-import drai.dev.data.pokemon.myth.Lavarator;
 import drai.dev.data.pokemon.myth.Pythonova;
-import drai.dev.data.pokemon.mongratis.*;
 
 import java.util.*;
 

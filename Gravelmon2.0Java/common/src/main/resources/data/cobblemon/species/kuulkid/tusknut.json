@@ -62,11 +62,22 @@
   "drops": {},
   "moves": [
     "1:absorb",
+    "1:synthesis",
+    "1:vacuumwave",
     "1:leer",
+    "1:bulkup",
+    "1:nastyplot",
     "4:megadrain",
+    "4:calmmind",
+    "4:grassyglide",
     "7:magicalleaf",
+    "7:taunt",
+    "7:quickattack",
     "10:gigadrain",
+    "10:substitute",
+    "10:swordsdance",
     "13:energyball",
+    "13:rest",
     "16:solarbeam",
     "19:leafage",
     "22:leer",
@@ -105,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2149,
+  "nationalPokedexNumber": 2152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

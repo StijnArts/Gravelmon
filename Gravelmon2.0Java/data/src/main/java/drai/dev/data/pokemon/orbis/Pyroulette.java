@@ -24,15 +24,14 @@ public class Pyroulette extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Pyroulette are exclusively owned by family owners of the Metroville Casino and have been passed down for generations. They possess a bizarre and mysterious energy."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.LUCKY_CHANT,19)                        ),
+                List.of(                   ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(50).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.MANSION).build(),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pyroulette");

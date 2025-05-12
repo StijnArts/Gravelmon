@@ -24,15 +24,13 @@ public class Loustache extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("- SteamrollerSTAB Bug - RolloutSTAB Rock"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.STEAMROLLER,1),
-                        new MoveLearnSetEntry(Move.ROLLOUT,1)                        ),
+                List.of(                  ),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
+                ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky().belowY(40)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.hub.*;
 import drai.dev.data.pokemon.hub.Confectious;
 import drai.dev.data.pokemon.hub.Garbadjinn;
 import drai.dev.data.pokemon.varitas.*;

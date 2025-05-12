@@ -36,6 +36,7 @@ import drai.dev.data.pokemon.soulstones.regional.*;
 import drai.dev.data.pokemon.varitas.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 import static drai.dev.data.attributes.StatArchetype.*;

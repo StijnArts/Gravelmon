@@ -1,6 +1,7 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.pokemon.atlas.*;
 import drai.dev.data.pokemon.atlas.Bosteroid;
 import drai.dev.data.pokemon.atlas.Charnosaur;
 import drai.dev.data.pokemon.atlas.Eldoredo;

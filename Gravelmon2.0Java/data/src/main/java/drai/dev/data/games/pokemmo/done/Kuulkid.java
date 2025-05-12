@@ -1,7 +1,6 @@
 package drai.dev.data.games.pokemmo.done;
 
 
-import drai.dev.data.pokemon.form.*;
 import drai.dev.data.pokemon.kuulkid.*;
 //done
 public class Kuulkid extends drai.dev.data.games.registry.Game {

@@ -16,8 +16,8 @@ public class Ittibitti extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.SCHOOLING), Ability.SCHOOLING,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                2, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,13 +27,16 @@ public class Ittibitti extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ORBIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(4).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_COLD_OCEAN)
+                        .setSpawnPreset(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER).build(),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Ittibitti");
 
     }
