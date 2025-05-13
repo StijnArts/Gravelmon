@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 7.199999999999999,
+  "baseScale": 0.3063829787234042,
   "cannotDynamax": false,
   "abilities": [
     "rattled",
@@ -127,11 +127,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6315,
+  "nationalPokedexNumber": 6316,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
     "fixed": false
   },
   "features": [],

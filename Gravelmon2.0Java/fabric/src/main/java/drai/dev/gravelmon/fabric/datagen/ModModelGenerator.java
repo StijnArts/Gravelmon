@@ -102,7 +102,8 @@ public class ModModelGenerator extends FabricModelProvider {
                     itemModelGenerator.output);
         }
 
-        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_IDS.keySet()) {
+//        GravelmonMegas.init(false);
+        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet()) {
             ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
                     TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/megastones/")),
                     itemModelGenerator.output);

@@ -125,7 +125,7 @@ public class LanguageGenerator {
             LangJSONWriter.writeTranslationKey("item.gravelmon."+fossil, StringUtils.capitalize(fossil.replaceAll("_"," ")));
         });
         LangJSONWriter.writeTranslationKey("itemGroup.gravelmon.gravelmon_mega_stones_tab","Gravelmon Mega Stones");
-        AbstractPokemon.MEGA_EVOLUTIONS.entrySet().forEach(set->{
+        GravelmonMegas.MEGA_EVOLUTIONS.entrySet().forEach(set->{
             var pokemonId = set.getKey();
             var megaStoneBaseName = MegaStoneNameGenerator.generateMegaStoneName(pokemonId);
             for(var mega:set.getValue()){

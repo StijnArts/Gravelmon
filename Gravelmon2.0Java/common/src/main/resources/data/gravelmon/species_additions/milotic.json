@@ -650,12 +650,42 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "fairy",
+      "baseScale": 0.33707865168539325,
+      "cannotDynamax": true,
+      "abilities": [
+        "magicbounce"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 60,
+        "defence": 109,
+        "special_attack": 125,
+        "special_defence": 150,
+        "speed": 101
+      },
+      "labels": [
+        "gen3",
+        "daybreak"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 25,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
     "delta",
-    "seviian"
+    "seviian",
+    "mega"
   ]
 }

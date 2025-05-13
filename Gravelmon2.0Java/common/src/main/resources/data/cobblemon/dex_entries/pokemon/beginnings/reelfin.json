@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:reelfin",
+  "speciesId": "cobblemon:reelfin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

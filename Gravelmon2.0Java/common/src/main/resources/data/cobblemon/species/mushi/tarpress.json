@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "divernaut",
-  "baseScale": 19.200000000000003,
+  "baseScale": 0.4413793103448276,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -101,11 +101,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6296,
+  "nationalPokedexNumber": 6297,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.4375,
+    "height": 5.4375,
     "fixed": false
   },
   "features": [],

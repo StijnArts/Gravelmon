@@ -12,6 +12,8 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
+
 
 public class AdditionalFormAssetsJSONWriter {
 
@@ -27,7 +29,7 @@ public class AdditionalFormAssetsJSONWriter {
             }
 
         });
-        Pokemon.MEGA_EVOLUTIONS.entrySet().forEach(set -> {
+        MEGA_EVOLUTIONS.entrySet().forEach(set -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
                 writePokemon(set, dir, resourcesDir, gson);
@@ -43,6 +45,7 @@ public class AdditionalFormAssetsJSONWriter {
             int formCounter = 10;
             for (int i = 0; i < set.getValue().size(); i++) {
                 var worldRepresentablePokemon = set.getValue().get(i);
+                String fileNameAspect = "";
                 String aspect = "";
                 int order = 0;
                 if(worldRepresentablePokemon instanceof Pokemon pokemon){
@@ -56,15 +59,14 @@ public class AdditionalFormAssetsJSONWriter {
                         aspect += "three";
                         SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
                     }
+                    fileNameAspect = aspect;
                 } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
-                    var megaAspect = megaEvolution.getAspect();
-                    int megaAspectIndex = 0;
-                    if(megaAspect!=null) Arrays.asList(Aspect.values()).indexOf(megaAspect);
-                    order = formCounter + 1000 + i + megaAspectIndex;
+                    aspect = megaEvolution.getIndependentMegaAspect();
+                    order = formCounter + 1000 + i;
+                    fileNameAspect = megaEvolution.getMegaAspect();
                 }
 
-
-                BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
+                BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + fileNameAspect + ".json"));
                 writer.write(gson.toJson(worldRepresentablePokemon.getSpeciesFileData().toJsonObject(GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), worldRepresentablePokemon)));
                 writer.close();
             }

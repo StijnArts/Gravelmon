@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "burrorm",
-  "baseScale": 27.599999999999998,
+  "baseScale": 0.736,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -95,11 +95,11 @@
   "weight": 3610,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6972,
+  "nationalPokedexNumber": 6973,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.6875,
+    "height": 4.6875,
     "fixed": false
   },
   "features": [],

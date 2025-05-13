@@ -3,6 +3,7 @@ package drai.dev.data.pokemon;
 import com.google.gson.*;
 import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
@@ -14,19 +15,14 @@ import java.util.stream.*;
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 
 public class MegaEvolution extends WorldRepresentablePokemon {
-    private Stats stats;
     private Ability ability;
-    @Nullable
-    private Type primaryType;
-    @Nullable
-    private Type secondaryType;
     private String megaName = "mega";
     private Aspect aspect;
     private List<Label> labels;
     private String dexEntry;
-//    private int weight;
+    private MegaStonePalette megaStonePalette;
 
-    public MegaEvolution(String name, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
+    public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
         super(height);
         this.stats = stats;
         this.ability = ability;
@@ -34,20 +30,25 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         this.name = name;
         this.aspect = aspect;
         this.labels = labels;
-    }
-
-    public MegaEvolution(String name, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect, Type primaryType) {
-        this(name, stats, ability, height, game, labels, aspect);
         this.primaryType = primaryType;
     }
 
-    public MegaEvolution(String name, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect, Type primaryType, Type secondaryType) {
-        this(name, stats, ability, height, game, labels, aspect, primaryType);
+    public MegaEvolution(String name, Type primaryType, Type secondaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
+        this(name, primaryType, stats, ability, height, game, labels, aspect);
         this.secondaryType = secondaryType;
     }
 
+    public MegaEvolution addPalette(MegaStonePalette megaStonePalette){
+        this.megaStonePalette = megaStonePalette;
+        return this;
+    }
+
     public static List<String> getDistinctMegaNames() {
-        return AbstractPokemon.MEGA_EVOLUTIONS.values().stream().flatMap(Collection::stream).map(MegaEvolution::getMegaName).distinct().collect(Collectors.toList());
+        return GravelmonMegas.MEGA_EVOLUTIONS.values().stream().flatMap(Collection::stream).map(MegaEvolution::getMegaAspect).distinct().collect(Collectors.toList());
+    }
+
+    public static List<String> getDistinctMegaNames(String key) {
+        return GravelmonMegas.MEGA_EVOLUTIONS.get(key).stream().map(MegaEvolution::getMegaAspect).distinct().collect(Collectors.toList());
     }
 
     public void processPokemonAssets(String resourcesDir) {
@@ -59,6 +60,14 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return (name+(getAspect()!=null? "_"+getAspect().getName() : "")+"_"+megaName)
                 .toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
                 .replace("'","").replace("\\.","");
+    }
+
+    public String getMegaAspect(){
+        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+megaName);
+    }
+
+    public String getIndependentMegaAspect(){
+        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+"mega");
     }
 
     public String getNonMegaCleanName(){
@@ -108,6 +117,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return gameName;
     }
 
+    @Override
+    public String getSpreadsheetName() {
+        return "";
+    }
+
     public Aspect getAspect() {
         return aspect;
     }
@@ -131,9 +145,9 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     public JsonObject toJson() {
         var fileContents = new JsonObject();
-        var name = GravelmonUtils.getCleanName(getLangName());
+        var name = GravelmonUtils.getCleanName(getMegaAspect());
         fileContents.addProperty("name", name);
-        if(primaryType!=null) fileContents.addProperty("primaryType", primaryType.getName());
+        fileContents.addProperty("primaryType", primaryType.getName());
         if(secondaryType != null) fileContents.addProperty("secondaryType", secondaryType.getName());
         fileContents.addProperty("baseScale", getBaseScale());
         fileContents.addProperty("cannotDynamax", true);
@@ -154,8 +168,8 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         fileContents.addProperty("height", height);
 //        fileContents.addProperty("weight", weight);
         var aspects = new JsonArray();
-        aspects.add(GravelmonUtils.getCleanName(megaName));
-        aspects.add(aspect.getName());
+        aspects.add(GravelmonUtils.getCleanName(getMegaAspect()));
+//        aspects.add(aspect.getName());
         fileContents.add("aspects", aspects);
 
         return fileContents;
@@ -176,5 +190,9 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         }
 
         return megaStoneNameForId.toLowerCase();
+    }
+
+    public MegaStonePalette getMegaStonePalette() {
+        return megaStonePalette;
     }
 }

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bewilt",
-  "baseScale": 9.600000000000001,
+  "baseScale": 0.3764705882352941,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -102,11 +102,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6289,
+  "nationalPokedexNumber": 6290,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.1875,
+    "height": 3.1875,
     "fixed": false
   },
   "features": [],

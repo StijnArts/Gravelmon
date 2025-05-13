@@ -510,11 +510,41 @@
         "height": 9.25,
         "fixed": false
       }
+    },
+    {
+      "name": "armiran_mega",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "baseScale": 0.3285714285714285,
+      "cannotDynamax": true,
+      "abilities": [
+        "drought"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 95,
+        "defence": 130,
+        "special_attack": 155,
+        "special_defence": 140,
+        "speed": 80
+      },
+      "labels": [
+        "gen2",
+        "daybreak"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 23,
+      "aspects": [
+        "armiran_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "x",
-    "armiran"
+    "armiran",
+    "armiran_mega"
   ]
 }

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "caramello",
-  "baseScale": 20.4,
+  "baseScale": 0.4434782608695652,
   "cannotDynamax": false,
   "abilities": [
     "sweetveil",
@@ -106,11 +106,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6324,
+  "nationalPokedexNumber": 6325,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.75,
+    "height": 5.75,
     "fixed": false
   },
   "features": [],

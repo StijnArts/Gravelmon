@@ -12,6 +12,8 @@ import org.jetbrains.annotations.*;
 import java.util.*;
 import java.util.stream.*;
 
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
+
 public class Pokemon extends AbstractPokemon {
 
     boolean isShoulderMountable = false;
@@ -24,6 +26,7 @@ public class Pokemon extends AbstractPokemon {
     private String shoulderMountEffect;
     @Nullable
     private Aspect formAdditionAspect;
+    private String additionalFormKey;
 
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
@@ -185,6 +188,7 @@ public class Pokemon extends AbstractPokemon {
             }
         }
         var forms = ADDITIONAL_FORMS.computeIfAbsent(key.toLowerCase(), k -> new ArrayList<>());
+        additionalFormKey = key;
         forms.add(pokemon);
         ADDITIONAL_SPECIES_ASPECTS.add(pokemon.getAdditionalAspect());
 //        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));
@@ -332,7 +336,7 @@ public class Pokemon extends AbstractPokemon {
     }
     public String getSpreadsheetName() {
         if (isAnAdditionalForm(this))
-            return getCleanName().toLowerCase().replaceAll(this.getAdditionalAspect().name().toLowerCase(), "");
+            return  getCleanName().toLowerCase().replaceAll(this.getAdditionalAspect().name().toLowerCase(), "");
         return name;
     }
 
@@ -344,7 +348,11 @@ public class Pokemon extends AbstractPokemon {
         return strings;
     }
 
-   /* public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, String game) {
+    public String getAdditionalFormKey() {
+        return additionalFormKey;
+    }
+
+    /* public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, String game) {
         Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, labels.get(0), this.getAdditionalAspect()));
         return this;
     }
@@ -358,6 +366,16 @@ public class Pokemon extends AbstractPokemon {
         Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, labels.get(0), this.getAdditionalAspect(), primaryType, secondaryType));
         return this;
     }*/
+
+    public static void addMegaEvolution(List<MegaEvolution> megaEvolutions) {
+        for (int i = 0; i < megaEvolutions.size(); i++) {
+            addMegaEvolution(megaEvolutions.get(i));
+        }
+    }
+
+    public static void addMegaEvolution(MegaEvolution... megaEvolutions) {
+        addMegaEvolution(Arrays.stream(megaEvolutions).toList());
+    }
 
     public static void addMegaEvolution(MegaEvolution megaEvolution) {
         var key = megaEvolution.getNonMegaCleanName();

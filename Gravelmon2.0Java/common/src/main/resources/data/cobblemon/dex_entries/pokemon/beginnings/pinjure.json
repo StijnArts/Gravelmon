@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pinjure",
+  "speciesId": "cobblemon:pinjure",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

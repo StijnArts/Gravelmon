@@ -16,7 +16,7 @@ public class GravelmonMegaStonesTab {
             "gravelmon_mega_stones_tab", // Tab ID
             () -> CreativeTabRegistry.create(
                     Component.translatable("itemGroup.gravelmon.gravelmon_mega_stones_tab"), // Tab Name
-                    () -> new ItemStack(GravelmonMegas.MEGA_STONE_IDS.keySet().stream().findFirst().get().get()) // Icon
+                    () -> new ItemStack(GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet().stream().findFirst().get().get()) // Icon
             )
     );
 

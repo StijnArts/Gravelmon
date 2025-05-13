@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "lavare",
-  "baseScale": 0.6,
+  "baseScale": 16.799999999999997,
   "cannotDynamax": false,
   "abilities": [
     "flamebody"
@@ -96,11 +96,11 @@
   "weight": 69,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6352,
+  "nationalPokedexNumber": 6353,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.5,
-    "height": 3.5,
+    "width": 0.125,
+    "height": 0.125,
     "fixed": false
   },
   "features": [],

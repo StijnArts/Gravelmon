@@ -1,10 +1,12 @@
 package drai.dev.data;
 
 import drai.dev.data.games.registry.*;
+import drai.dev.data.item.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.data.jsonwriters.data.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
+import drai.dev.gravelmon.mega.*;
 
 import static drai.dev.data.jsonwriters.assets.LanguageGenerator.*;
 
@@ -14,10 +16,12 @@ public class JSONOutputGenerator {
             game.init(resourcesDir);
             game.getNewPokemon().forEach(pokemon -> pokemon.processAssets(resourcesDir));
         });
-        AbstractPokemon.MEGA_EVOLUTIONS.forEach((name, megaEvolutions) -> {
+        GravelmonMegas.MEGA_EVOLUTIONS.forEach((name, megaEvolutions) -> {
+            var baseStoneName = MegaStoneNameGenerator.generateMegaStoneName(name);
             megaEvolutions.forEach(megaEvolution -> {
                 megaEvolution.processPokemonAssets(resourcesDir);
                 PokeDexEntryWriter.writeMega(megaEvolution, resourcesDir);
+                MegaStoneGenerator.createMegaStoneTexture(resourcesDir, baseStoneName, megaEvolution);
             });
         });
         LangJSONWriter.writeStarterCategories();
@@ -27,6 +31,12 @@ public class JSONOutputGenerator {
             PokeDexWriter.write(game, resourcesDir);
             PokeDexAdditionsWriter.write(game, resourcesDir);
         }
+        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
+        PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
+        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
+        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
+        FossilJSONWriter.writeFossils(resourcesDir);
+        PokeBallEffectWriter.writeEffects(resourcesDir);
 
         PoserJSONWriter.writeMegas(resourcesDir);
         LangJSONWriter.writeMegas();
@@ -49,11 +59,5 @@ public class JSONOutputGenerator {
         PoserJSONWriter.writeSpecies(game,resourcesDir);
         LangJSONWriter.writeLang(game,resourcesDir);
         PokeDexEntryWriter.write(game, resourcesDir);
-        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
-        PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
-        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
-        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
-        FossilJSONWriter.writeFossils(resourcesDir);
-        PokeBallEffectWriter.writeEffects(resourcesDir);
     }
 }

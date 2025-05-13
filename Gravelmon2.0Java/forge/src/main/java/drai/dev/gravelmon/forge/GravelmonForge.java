@@ -25,7 +25,7 @@ import java.util.function.*;
 public class GravelmonForge {
     private static boolean POKEBALL_INIT = false;
     public GravelmonForge() {
-        Gravelmon.init();
+        Gravelmon.init(true);
 
         CobblemonEvents.THROWN_POKEBALL_HIT.subscribe(Priority.HIGHEST, thrownPokeballHitEvent -> {
            if(!POKEBALL_INIT){

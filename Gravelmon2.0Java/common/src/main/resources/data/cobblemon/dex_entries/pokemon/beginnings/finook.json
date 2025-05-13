@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:finook",
+  "speciesId": "cobblemon:finook",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

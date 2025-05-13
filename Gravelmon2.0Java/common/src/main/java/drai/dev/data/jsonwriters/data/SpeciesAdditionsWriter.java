@@ -12,7 +12,7 @@ import java.nio.file.*;
 import java.util.*;
 
 import static drai.dev.data.jsonwriters.data.SpeciesDataJSONWriter.*;
-import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 
 public class SpeciesAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
@@ -174,7 +174,7 @@ public class SpeciesAdditionsWriter {
             var features = getFeatures(set.getValue());
             if(MEGA_EVOLUTIONS.containsKey(set.getKey())) {
                 getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
-                MegaEvolution.getDistinctMegaNames().forEach(features::add);
+                MegaEvolution.getDistinctMegaNames(set.getKey()).forEach(features::add);
             }
             fileContents.add("forms", forms);
             fileContents.add("features", features);

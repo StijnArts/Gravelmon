@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "caramello",
-  "baseScale": 19.200000000000003,
+  "baseScale": 0.518918918918919,
   "cannotDynamax": false,
   "abilities": [
     "gooey",
@@ -121,11 +121,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6323,
+  "nationalPokedexNumber": 6324,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.625,
+    "height": 4.625,
     "fixed": false
   },
   "features": [],

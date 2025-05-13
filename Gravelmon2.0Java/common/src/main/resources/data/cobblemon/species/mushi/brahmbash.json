@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 7.199999999999999,
+  "baseScale": 0.2571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "hustle",
@@ -102,11 +102,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6305,
+  "nationalPokedexNumber": 6306,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
   "features": [],

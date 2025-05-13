@@ -155,28 +155,7 @@ public class DeltaBlastoise extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.35, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.DARK, Type.FIGHTING,
-                        new Stats(79, 103, 120, 135, 115, 78),
-                        List.of(Ability.MEGA_LAUNCHER), Ability.MEGA_LAUNCHER,
-                        16, 1885,
-                        new Stats(0,0,0,3,0,0), 45,
-                        0.875,
-                        263, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Blastoise");
         this.setBaseScale(1.3);
         this.setHitbox(1.1,2.1);

@@ -12,6 +12,7 @@ import drai.dev.gravelsextendedbattles.resorting.*;
 import kotlin.*;
 import net.minecraft.world.item.*;
 import org.apache.logging.log4j.*;
+import org.spongepowered.asm.mixin.*;
 
 import java.util.*;
 import java.util.function.*;
@@ -23,18 +24,23 @@ public class Gravelmon
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 	public static final Logger LOGGER = LogManager.getLogger();
-	public static void init() {
+	public static void init(boolean checkForLabels) {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();
 		GravelmonPokeballs.touch();
-		if(Platform.isModLoaded("mega_showdown")){
-			GravelmonMegas.init();
+		boolean megaShowdownPresent = Platform.isModLoaded("mega_showdown");
+		if(megaShowdownPresent){
+			Mixins.addConfiguration("gravelmon.megashowdown.mixins.json");
+			GravelmonMegas.init(checkForLabels);
 		}
 		GravelmonBlocks.BLOCKS.register();
 		GravelmonItems.ITEMS.register();
 		CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.HIGH, battleStartedPreEvent -> {
 			if(!lateInitDone){
 				GravelmonItems.lateInit();
+				if(megaShowdownPresent){
+					GravelmonMegas.lateInit();
+				}
 				lateInitDone = true;
 			}
 			return Unit.INSTANCE;}

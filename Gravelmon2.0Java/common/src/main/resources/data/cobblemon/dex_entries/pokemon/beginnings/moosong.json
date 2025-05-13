@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moosong",
+  "speciesId": "cobblemon:moosong",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

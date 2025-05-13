@@ -9,12 +9,7 @@ public class Flamothra extends drai.dev.data.pokemon.Pokemon {
     public Flamothra(Stats stats) {
         super("Flamothra",
                 Type.BUG, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
                 new Stats(0,0,0,0,0,0), 70,

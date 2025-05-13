@@ -40,10 +40,6 @@ public class VariationData {
         return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
     }
 
-    public static VariationData fromMega(AbstractPokemon abstractPokemon, MegaEvolution megaEvolution, List<Object> layers) {
-        return null;
-    }
-
     public JsonObject toJsonObject(List<String> aspects, WorldRepresentablePokemon abstractPokemon) {
         return toJsonObject(aspects, abstractPokemon, false, false);
     }

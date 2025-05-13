@@ -199,7 +199,7 @@ public enum Aspect {
     AROMIAN,
     MIKITARIAN,
     FEMALE,
-    ISHIRIAN;
+    ISHIRIAN, ARMORED_DELTA, SHADOW;
     private String name;
     private boolean isNew;
     private boolean isDefault;

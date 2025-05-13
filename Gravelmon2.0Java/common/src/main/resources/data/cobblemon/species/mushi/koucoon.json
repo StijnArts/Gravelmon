@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shipilla",
-  "baseScale": 9.600000000000001,
+  "baseScale": 0.4085106382978723,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -116,11 +116,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6304,
+  "nationalPokedexNumber": 6305,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
     "fixed": false
   },
   "features": [],

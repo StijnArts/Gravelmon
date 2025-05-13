@@ -51,10 +51,9 @@ public class PokeDexEntryWriter {
             aspects.add(StringUtils.capitalize(GravelmonUtils.getCleanName(pokemon.getAdditionalAspect().name().toLowerCase()).replace("_", "")));
         } else if(worldRepresentablePokemon instanceof MegaEvolution mega) {
             speciesName = mega.getNonMegaCleanName();
-            speciesId = speciesName + (mega.getAspect()!=null?"-" + mega.getAspect().name().toLowerCase():"") + "-" + GravelmonUtils.getCleanName(mega.getMegaName());
+            speciesId = speciesName + mega.getMegaAspect();
             aspects.clear();
-            aspects.add(mega.getMegaName());
-            if(mega.getAspect()!=null) aspects.add(mega.getAspect().name().toLowerCase());
+            aspects.add(mega.getMegaAspect());
         }
 
         fileContents.addProperty("id","cobblemon:"+speciesId);

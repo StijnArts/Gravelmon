@@ -87,19 +87,6 @@
       "labels": [
         "aroma",
         "not_modeled",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -203,19 +190,6 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -318,19 +292,6 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -437,19 +398,6 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -562,19 +510,6 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
-        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -1079,6 +1014,35 @@
         "height": 10.0,
         "fixed": false
       }
+    },
+    {
+      "name": "armiran_mega",
+      "primaryType": "dragon",
+      "secondaryType": "fairy",
+      "baseScale": 0.3,
+      "cannotDynamax": true,
+      "abilities": [
+        "gooey"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "attack": 150,
+        "defence": 100,
+        "special_attack": 150,
+        "special_defence": 110,
+        "speed": 92
+      },
+      "labels": [
+        "gen4",
+        "daybreak"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 22,
+      "aspects": [
+        "armiran_mega"
+      ]
     }
   ],
   "features": [
@@ -1089,6 +1053,7 @@
     "norse",
     "epoch",
     "epochtwo",
-    "armiran"
+    "armiran",
+    "armiran_mega"
   ]
 }

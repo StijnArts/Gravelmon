@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "feenin",
-  "baseScale": 14.399999999999999,
+  "baseScale": 0.4571428571428571,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -203,11 +203,11 @@
   "weight": 362,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6835,
+  "nationalPokedexNumber": 6836,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.9375,
+    "height": 3.9375,
     "fixed": false
   },
   "features": [],

@@ -4,6 +4,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.apache.commons.lang3.mutable.*;
@@ -17,7 +18,7 @@ import java.util.*;
 
 public class ExcelExporter {
     public static void exportPokemonData(List<Game> games, String documentName, boolean disallowPasswordMon) {
-        var modeledPokemon = new ArrayList<Pokemon>();
+        var modeledPokemon = new ArrayList<WorldRepresentablePokemon>();
         String userHome = System.getProperty("user.home");
 
         // Construct the path to the Desktop folder
@@ -30,7 +31,7 @@ public class ExcelExporter {
             var sortedGames = new ArrayList<>(games).stream().sorted(Comparator.comparing(Game::getCleanName)).toList();
             for (int i = 0; i < sortedGames.size(); i++) {
                 var game = sortedGames.get(i);
-                List<Pokemon> pokemonList = game.getNewPokemon(); // Get Pokémon from the game
+                List<Pokemon> pokemonList = new ArrayList<>(game.getNewPokemon()); // Get Pokémon from the game
                 if(disallowPasswordMon){
                     var passwordProtectedLabels = Label.getPasswordProtectedLabels();
                     pokemonList = game.getNewPokemon().stream()
@@ -38,12 +39,24 @@ public class ExcelExporter {
                 }
                 if (pokemonList.isEmpty()) continue; // Skip empty games
                 pokemonList = pokemonList.stream().sorted(Comparator.comparingInt(Pokemon::getPokedexNumber)).toList();
+                List<WorldRepresentablePokemon> pokemonAndMegas = new ArrayList<>();
+                pokemonList.forEach(pokemon -> {
+                    pokemonAndMegas.add(pokemon);
+                    var key = pokemon.getCleanName();
+                    if (pokemon.getAdditionalAspect() != null) {
+                        key = pokemon.getAdditionalFormKey();
+                    }
+                    if (GravelmonMegas.MEGA_EVOLUTIONS.containsKey(key)) {
+                        List<MegaEvolution> megas = GravelmonMegas.MEGA_EVOLUTIONS.get(key).stream().filter(mega -> mega.getAspect() == pokemon.getAdditionalAspect()).toList();
+                        pokemonAndMegas.addAll(megas);
+                    }
+                });
                 var sheetName = StringUtils.capitalize(game.getName());
                 // Create a new sheet for the game
                 Sheet sheet = workbook.createSheet(sheetName);
-                createSheet(sheet, workbook, sheetName, pokemonList, mutableInt);
+                createSheet(sheet, workbook, sheetName, pokemonAndMegas, mutableInt);
 
-                pokemonList.forEach(pokemon->{
+                pokemonAndMegas.forEach(pokemon->{
                     if(pokemon.isModeled()) modeledPokemon.add(pokemon);
                 });
             }
@@ -60,7 +73,7 @@ public class ExcelExporter {
         System.out.println("Excel file created: "+documentName+".xlsx");
     }
 
-    private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<Pokemon> pokemonList, MutableInt mutableInt) {
+    private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<WorldRepresentablePokemon> pokemonList, MutableInt mutableInt) {
         // Create header row
         Row header = sheet.createRow(0);
         String[] headers = {"Name", "Form", "Image      ", "Stats", "Type(s)", "Level Up Moves", "TM Moves", "Tutor Moves",
@@ -82,50 +95,64 @@ public class ExcelExporter {
         int rowNum = 1;
 
         for (int i = 0; i < pokemonList.size(); i++) {
-            var pokemon = pokemonList.get(i);
+            var worldRepresentablePokemon = pokemonList.get(i);
             var cellCount = new MutableInt(0);
             Row row = sheet.createRow(rowNum++);
             row.setHeightInPoints(64);
-            createNextCell(row, cellCount).setCellValue(pokemon.getSpreadsheetName());
-            createNextCell(row, cellCount).setCellValue(pokemon.getAdditionalAspect() == null ? "" : pokemon.getAdditionalAspect().getName());
+            var isMega = false;
+            MegaEvolution asMega =null;
+            Pokemon asPokemon =null;
+            if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
+                isMega = true;
+                asMega = megaEvolution;
+            } else {
+                asPokemon = (Pokemon) worldRepresentablePokemon;
+            }
+            createNextCell(row, cellCount).setCellValue(isMega? asMega.getNonMegaCleanName() : worldRepresentablePokemon.getCleanName());
+            createNextCell(row, cellCount).setCellValue(isMega?
+                    (asMega.getAspect() == null ? asMega.getMegaName() :  asMega.getAspect().getName() + " " + asMega.getMegaName()) :
+                    (asPokemon.getAdditionalAspect() == null ? "" : asPokemon.getAdditionalAspect().getName()));
 
             //Image
             var imageCell = createNextCell(row, cellCount);
             imageCell.setCellFormula("Image(\"https://raw.githubusercontent.com/StijnArts/Gravelmon/refs/heads/main/Gravelmon2.0Java/common/src/main/resources/assets/cobblemon/textures/pokemon/" +
-                    "/" + GravelmonUtils.getCleanName(pokemon.getGameName()) + "/" + pokemon.getCleanName() + ".png\")");
+                    "/" + GravelmonUtils.getCleanName(worldRepresentablePokemon.getGameName()) + "/" + worldRepresentablePokemon.getCleanName() + ".png\")");
 
             // Format stats into a single string
             String stats = String.format("HP: %d,\n ATK: %d,\n DEF: %d,\n SPA: %d,\n SPDEF: %d,\n SPD: %d",
-                    pokemon.getStats().getHP(),
-                    pokemon.getStats().getAttack(),
-                    pokemon.getStats().getDefence(),
-                    pokemon.getStats().getSpecialAttack(),
-                    pokemon.getStats().getSpecialAttack(),
-                    pokemon.getStats().getSpeed());
+                    worldRepresentablePokemon.getStats().getHP(),
+                    worldRepresentablePokemon.getStats().getAttack(),
+                    worldRepresentablePokemon.getStats().getDefence(),
+                    worldRepresentablePokemon.getStats().getSpecialAttack(),
+                    worldRepresentablePokemon.getStats().getSpecialAttack(),
+                    worldRepresentablePokemon.getStats().getSpeed());
             Cell statsCell = createNextCell(row, cellCount);
             statsCell.setCellValue(stats);
             statsCell.setCellStyle(wrapTextStyle);
 
             // Type(s) and Moves as comma-separated values
 
-            createNextCell(row, cellCount).setCellValue(String.join(",\n", pokemon.getTypes().stream().map(Type::getName).toList()));
-            createNextCell(row, cellCount).setCellValue(String.join(",\n", pokemon.getLevelUpMoves().stream().map(moveLearnSetEntry ->
-                    moveLearnSetEntry.getCondition() + " - " + StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
-            createNextCell(row, cellCount).setCellValue(String.join(",\n", pokemon.getTMMoves().stream().map(moveLearnSetEntry ->
-                    StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
-            createNextCell(row, cellCount).setCellValue(String.join(",\n", pokemon.getTutorMoves().stream().map(moveLearnSetEntry ->
-                    StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
-            createNextCell(row, cellCount).setCellValue(String.join(",\n", pokemon.getEggMoves().stream().map(moveLearnSetEntry ->
-                    StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+            createNextCell(row, cellCount).setCellValue(String.join(",\n", worldRepresentablePokemon.getTypes().stream().map(Type::getName).toList()));
+            if(!isMega){
+                createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getLevelUpMoves().stream().map(moveLearnSetEntry ->
+                        moveLearnSetEntry.getCondition() + " - " + StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+                createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getTMMoves().stream().map(moveLearnSetEntry ->
+                        StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+                createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getTutorMoves().stream().map(moveLearnSetEntry ->
+                        StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+                createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getEggMoves().stream().map(moveLearnSetEntry ->
+                        StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+                // Evolution (handling null values)
+                List<String> evolutionsForPrint = asPokemon.getEvolutionsForPrint();
+                createNextCell(row, cellCount).setCellValue(evolutionsForPrint.isEmpty() ? "" :
+                        String.join(",\n",  evolutionsForPrint));
 
-            // Evolution (handling null values)
-            List<String> evolutionsForPrint = pokemon.getEvolutionsForPrint();
-            createNextCell(row, cellCount).setCellValue(evolutionsForPrint.isEmpty() ? "" :
-                    String.join(",\n",  evolutionsForPrint));
+                // Spawn Conditions (handling null values)
+                createNextCell(row, cellCount).setCellValue(asPokemon.getSpawnData().isEmpty() ? "" :
+                        String.join(",\n", asPokemon.getSpawnData().stream().map(PokemonSpawnData::toString).toList()));
+            }
 
-            // Spawn Conditions (handling null values)
-            createNextCell(row, cellCount).setCellValue(pokemon.getSpawnData().isEmpty() ? "" :
-                    String.join(",\n", pokemon.getSpawnData().stream().map(PokemonSpawnData::toString).toList()));
+
             if(!sheetName.equals("Modeled Pokemon")){
                 mutableInt.increment();
             }

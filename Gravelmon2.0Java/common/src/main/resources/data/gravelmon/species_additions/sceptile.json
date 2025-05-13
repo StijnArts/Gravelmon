@@ -905,6 +905,35 @@
         "height": 9.25,
         "fixed": false
       }
+    },
+    {
+      "name": "armiran_mega",
+      "primaryType": "poison",
+      "secondaryType": "dark",
+      "baseScale": 0.19487179487179485,
+      "cannotDynamax": true,
+      "abilities": [
+        "electricsurge"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 75,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 145
+      },
+      "labels": [
+        "gen3",
+        "daybreak"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 19,
+      "aspects": [
+        "armiran_mega"
+      ]
     }
   ],
   "features": [
@@ -913,6 +942,7 @@
     "delta",
     "armiran",
     "ayreian",
-    "mystic"
+    "mystic",
+    "armiran_mega"
   ]
 }

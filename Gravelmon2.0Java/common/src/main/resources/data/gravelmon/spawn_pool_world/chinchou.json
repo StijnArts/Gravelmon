@@ -67,18 +67,6 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_river",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
@@ -104,18 +92,6 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_river",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ]
       },

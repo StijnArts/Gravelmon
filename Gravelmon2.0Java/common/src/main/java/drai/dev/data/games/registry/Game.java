@@ -18,6 +18,7 @@ public abstract class Game {
     public String getName(){
         return name;
     }
+
     public List<Pokemon> getNewPokemon(){
         return newPokemon;
     }

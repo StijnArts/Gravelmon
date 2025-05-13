@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coulimb",
+  "speciesId": "cobblemon:coulimb",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

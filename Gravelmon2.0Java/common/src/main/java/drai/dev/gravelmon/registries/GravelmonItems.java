@@ -199,4 +199,8 @@ public class GravelmonItems {
     public static void lateInit() {
         LATE_HELD_ITEM_REGISTRATIONS.forEach(Runnable::run);
     }
+
+    public static RegistrySupplier<Item> megaItem(String megaStoneName) {
+        return ITEMS.register(megaStoneName, () -> new Item(new Item.Properties().arch$tab(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB)));
+    }
 }

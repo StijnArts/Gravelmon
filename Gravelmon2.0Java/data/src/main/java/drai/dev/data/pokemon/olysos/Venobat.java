@@ -29,7 +29,7 @@ public class Venobat extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).cantSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),

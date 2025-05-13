@@ -96,4 +96,9 @@ public class PokemonForm extends AbstractPokemon {
     public String getGameName(){
         return formOf.getGameName();
     }
+
+    @Override
+    public String getSpreadsheetName() {
+        return getCleanName();
+    }
 }

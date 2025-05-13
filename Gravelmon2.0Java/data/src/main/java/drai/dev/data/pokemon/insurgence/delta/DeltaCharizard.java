@@ -146,28 +146,7 @@ public class DeltaCharizard extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.35, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.GHOST, Type.DRAGON,
-                        new Stats(78, 104, 78, 159, 115, 100),
-                        List.of(Ability.NOCTEM), Ability.NOCTEM,
-                        17, 905,
-                        new Stats(0,0,0,3,0,0), 45,
-                        0.875,
-                        263, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Charizard");
         
         this.setBaseScale(1.35);

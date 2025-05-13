@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "Sandslash",
-  "baseScale": 0.19780219780219782,
+  "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
     "guts",
@@ -164,11 +164,11 @@
   "weight": 555,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3996,
+  "nationalPokedexNumber": 3997,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 11.375,
-    "height": 11.375,
+    "width": 11.25,
+    "height": 11.25,
     "fixed": false
   },
   "features": [],

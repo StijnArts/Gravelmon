@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 6.0,
+  "baseScale": 0.35294117647058826,
   "cannotDynamax": false,
   "abilities": [
     "sandforce",
@@ -103,11 +103,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6317,
+  "nationalPokedexNumber": 6318,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.125,
+    "height": 2.125,
     "fixed": false
   },
   "features": [],

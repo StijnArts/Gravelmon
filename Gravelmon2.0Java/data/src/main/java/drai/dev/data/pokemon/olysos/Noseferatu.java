@@ -9,12 +9,7 @@ public class Noseferatu extends drai.dev.data.pokemon.Pokemon {
     public Noseferatu(Stats stats) {
         super("Noseferatu",
                 Type.POISON, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 14, 0,
                 new Stats(0,0,0,0,0,0), 70,
@@ -28,7 +23,7 @@ public class Noseferatu extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(25).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).cantSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),

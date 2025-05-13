@@ -14,14 +14,10 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public static Map<String, List<EvolutionEntry>> ADDITIONAL_EVOLUTIONS = new HashMap<>();
     public static Map<String, List<ItemDrop>> ADDITIONAL_DROPS = new HashMap<>();
     public static Map<String, String> ADDITIONAL_PRE_EVOLUTIONS = new HashMap<>();
-    public static Map<String, List<MegaEvolution>> MEGA_EVOLUTIONS = new HashMap<>();
     public static List<Pokemon> FOSSIL_POKEMON = new ArrayList<>();
     public static List<String> EVOLUTION_ITEMS = new ArrayList<>();
     public static List<Aspect> ADDITIONAL_SPECIES_ASPECTS = new ArrayList<>();
 
-    protected Stats stats;
-    protected Type primaryType;
-    protected Type secondaryType;
     protected final List<Ability> abilities = new ArrayList<>();
     protected Ability hiddenAbility;
     protected int catchRate;
@@ -464,12 +460,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public boolean isCanSwimInLava() {
         return canSwimInLava;
-    }
-
-    public List<Type> getTypes() {
-        var types = new ArrayList<>(List.of(primaryType));
-        if(secondaryType!=null) types.add(secondaryType);
-        return types;
     }
 
     public List<MoveLearnSetEntry> getLevelUpMoves(){

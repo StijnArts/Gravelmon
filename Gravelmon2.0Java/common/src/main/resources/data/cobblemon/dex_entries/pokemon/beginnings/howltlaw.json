@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:howltlaw",
+  "speciesId": "cobblemon:howltlaw",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sapeeko",
-  "baseScale": 19.200000000000003,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -122,11 +122,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6326,
+  "nationalPokedexNumber": 6327,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.5,
+    "height": 5.5,
     "fixed": false
   },
   "features": [],

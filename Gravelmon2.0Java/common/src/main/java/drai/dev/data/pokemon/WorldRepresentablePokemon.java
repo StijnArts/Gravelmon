@@ -7,6 +7,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.Label;
 import org.jetbrains.annotations.*;
 
@@ -19,6 +20,9 @@ import java.util.*;
 import java.util.List;
 
 public abstract class WorldRepresentablePokemon {
+    protected Stats stats;
+    protected Type primaryType;
+    protected Type secondaryType;
     protected String gameName;
     protected String name;
     protected File textureDirectory;
@@ -222,6 +226,13 @@ public abstract class WorldRepresentablePokemon {
                 femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
             }
             placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
+        } else if (this instanceof MegaEvolution megaEvolution){
+            String cleanName = GravelmonUtils.getCleanName(megaEvolution.getName() + "_" + megaEvolution.getIndependentMegaAspect());
+            if (hasGenderDifferences) {
+                femalePlaceholderImage = createPlaceholderTextureIfNotExists( cleanName + "_female.png", pathname);
+            }
+            placeholderImage = createPlaceholderTextureIfNotExists(cleanName + ".png", pathname);
+
         }
     }
 
@@ -342,5 +353,26 @@ public abstract class WorldRepresentablePokemon {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public abstract String getSpreadsheetName();
+
+    public Stats getStats() {
+        return stats;
+    }
+
+    public Type getPrimaryType() {
+        return primaryType;
+    }
+
+    public Type getSecondaryType() {
+        return secondaryType;
+    }
+
+    public List<Type> getTypes() {
+        var types = new ArrayList<Type>();
+        if(primaryType!=null) types.add(primaryType);
+        if(secondaryType!=null) types.add(secondaryType);
+        return types;
     }
 }

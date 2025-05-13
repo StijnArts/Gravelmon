@@ -9,7 +9,7 @@ import drai.dev.data.pokemon.*;
 import java.io.*;
 import java.nio.file.*;
 
-import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 
 public class PoserJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir){

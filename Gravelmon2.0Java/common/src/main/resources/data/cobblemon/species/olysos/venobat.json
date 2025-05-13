@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 42,
+    "attack": 77,
+    "defence": 45,
+    "special_attack": 22,
+    "special_defence": 45,
+    "speed": 65
   },
   "evYield": {
     "hp": 0,
@@ -60,30 +60,24 @@
   ],
   "drops": {},
   "moves": [
-    "1:acid",
-    "1:gust",
+    "1:poisonsting",
+    "1:peck",
+    "1:quickattack",
+    "1:quickattack",
     "1:leer",
     "1:leer",
-    "10:clearsmog",
-    "10:aircutter",
-    "15:sludge",
+    "1:swordsdance",
+    "1:swordsdance",
+    "10:venoshock",
+    "10:pluck",
+    "15:poisontail",
     "15:wingattack",
     "20:toxicspikes",
-    "20:airslash",
+    "20:aerialace",
     "25:sludgebomb",
     "25:drillpeck",
-    "30:sludgewave",
-    "30:hurricane",
-    "35:poisonsting",
-    "35:peck",
-    "40:leer",
-    "40:leer",
-    "45:venoshock",
-    "45:pluck",
-    "50:poisontail",
-    "50:wingattack",
-    "55:toxicspikes",
-    "55:aerialace",
+    "30:poisonjab",
+    "30:bravebird",
     "tm:terablast"
   ],
   "labels": [
@@ -112,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6761,
+  "nationalPokedexNumber": 6762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

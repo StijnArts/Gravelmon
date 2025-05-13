@@ -6,7 +6,8 @@
   "mixins": [
     "CobblemonPlacedFeaturesMixin",
     "PokeBallMixin",
-    "PokeBallsAccessor"
+    "PokeBallsAccessor",
+    "MegaLogicMixin"
   ],
   "client": [
     "ModelWidgetMixin"

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "kimfoo",
-  "baseScale": 18.0,
+  "baseScale": 0.5,
   "cannotDynamax": false,
   "abilities": [
     "hypercutter",
@@ -106,11 +106,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6308,
+  "nationalPokedexNumber": 6309,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.5,
+    "height": 4.5,
     "fixed": false
   },
   "features": [],

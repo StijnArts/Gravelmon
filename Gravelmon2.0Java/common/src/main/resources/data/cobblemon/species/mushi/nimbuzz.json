@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "minicoo",
-  "baseScale": 10.8,
+  "baseScale": 0.32727272727272727,
   "cannotDynamax": false,
   "abilities": [
     "shielddust",
@@ -116,11 +116,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6302,
+  "nationalPokedexNumber": 6303,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.125,
+    "height": 4.125,
     "fixed": false
   },
   "features": [],

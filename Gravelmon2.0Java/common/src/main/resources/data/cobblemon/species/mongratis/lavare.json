@@ -9,7 +9,7 @@
   "eggCycles": 100,
   "baseFriendship": 70,
   "preEvolution": "lavee",
-  "baseScale": 10.8,
+  "baseScale": 0.3857142857142857,
   "cannotDynamax": false,
   "abilities": [
     "flamebody"
@@ -111,11 +111,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6351,
+  "nationalPokedexNumber": 6352,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
   "features": [],

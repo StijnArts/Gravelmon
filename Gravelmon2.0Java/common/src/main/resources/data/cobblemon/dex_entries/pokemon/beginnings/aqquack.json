@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aqquack",
+  "speciesId": "cobblemon:aqquack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

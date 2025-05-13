@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "twirleef",
-  "baseScale": 20.4,
+  "baseScale": 0.49756097560975604,
   "cannotDynamax": false,
   "abilities": [
     "overgrow",
@@ -94,11 +94,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6290,
+  "nationalPokedexNumber": 6291,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.125,
+    "height": 5.125,
     "fixed": false
   },
   "features": [],

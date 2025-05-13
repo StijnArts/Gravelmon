@@ -2,6 +2,8 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.insurgence.*;
+import drai.dev.data.pokemon.insurgence.armored.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Insurgence extends Game {
     public static final Game INSTANCE = new Insurgence();
@@ -210,5 +212,11 @@ public class Insurgence extends Game {
                 "meloetta-delta," +
                 "hoopa-delta,");
         addNewPokemon(new UFI());
+        addNewPokemon(new ArmoredTyranitar("", Aspect.ARMORED));
+        addNewPokemon(new ArmoredFlygon("", Aspect.ARMORED));
+        addNewPokemon(new ArmoredLeavanny("", Aspect.ARMORED));
+        addNewPokemon(new ArmoredZekrom("", Aspect.ARMORED));
+        addNewPokemon(new ArmoredMewtwo("", Aspect.ARMORED));
+        addNewPokemon(new ArmoredDeltaVolcarona("", Aspect.ARMORED_DELTA));
     }
 }

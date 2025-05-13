@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -95,11 +95,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6327,
+  "nationalPokedexNumber": 6328,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
   "features": [],

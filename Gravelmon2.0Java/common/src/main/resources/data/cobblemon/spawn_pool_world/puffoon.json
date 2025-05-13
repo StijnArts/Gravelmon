@@ -10,16 +10,22 @@
         "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "grounded",
       "bucket": "uncommon",
-      "level": "29-47",
-      "weight": 0.6000000000000001,
+      "level": "34-54",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "minecraft:birch_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
       }
     }
   ]

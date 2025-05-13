@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lampod",
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.41481481481481475,
   "cannotDynamax": false,
   "abilities": [
     "tintedlens",
@@ -92,11 +92,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6314,
+  "nationalPokedexNumber": 6315,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.0625,
+    "height": 5.0625,
     "fixed": false
   },
   "features": [],

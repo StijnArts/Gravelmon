@@ -144,28 +144,7 @@ public class DeltaPidgeot extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.DARK, Type.DRAGON,
-                        new Stats(83, 80, 80, 135, 80, 121),
-                        List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,
-                        15, 395,
-                        new Stats(0,0,0,0,0,3), 45,
-                        0.5,
-                        216, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Pidgeot");
         this.setCanFly(true);
         

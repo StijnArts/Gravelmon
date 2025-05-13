@@ -14,7 +14,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 
 public class LangJSONWriter {
     private static JsonObject contents = new JsonObject();
@@ -114,7 +114,7 @@ public class LangJSONWriter {
         });
         MEGA_EVOLUTIONS.forEach((pokemon, megaEvolutions) -> {
             megaEvolutions.forEach(megaEvolution -> {
-                var identifier = GravelmonUtils.getCleanName(megaEvolution.getMegaName()+(megaEvolution.getAspect()!=null? megaEvolution.getAspect().getName():""))
+                var identifier = megaEvolution.getMegaAspect()
                         +"_"+pokemon;
                 contents.addProperty("cobblemon.species."+identifier +".name", StringUtil.capitalize(megaEvolution.getLangName()));
                 if(megaEvolution.getDexEntry()!=null){

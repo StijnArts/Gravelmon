@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "formidet",
-  "baseScale": 22.799999999999997,
+  "baseScale": 0.5066666666666666,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -105,11 +105,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6293,
+  "nationalPokedexNumber": 6294,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.625,
+    "height": 5.625,
     "fixed": false
   },
   "features": [],

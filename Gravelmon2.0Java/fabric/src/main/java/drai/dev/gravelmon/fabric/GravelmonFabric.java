@@ -17,7 +17,8 @@ public class GravelmonFabric implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Gravelmon.init();
+        boolean isNotDataGen = System.getProperty("fabric-api.datagen") == null;
+        Gravelmon.init(isNotDataGen);
         GravelmonFeatures.registerFeatures();
         initCreativeTabs();
         var orangeApp = GravelmonItems.ORANGE_APRICORN.get();

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hedodan",
-  "baseScale": 18.0,
+  "baseScale": 0.37894736842105264,
   "cannotDynamax": false,
   "abilities": [
     "stench",
@@ -107,11 +107,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6300,
+  "nationalPokedexNumber": 6301,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.9375,
+    "height": 5.9375,
     "fixed": false
   },
   "features": [],

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "polvite",
-  "baseScale": 21.6,
+  "baseScale": 0.6646153846153847,
   "cannotDynamax": false,
   "abilities": [
     "sandstream",
@@ -90,11 +90,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6318,
+  "nationalPokedexNumber": 6319,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.0625,
+    "height": 4.0625,
     "fixed": false
   },
   "features": [],

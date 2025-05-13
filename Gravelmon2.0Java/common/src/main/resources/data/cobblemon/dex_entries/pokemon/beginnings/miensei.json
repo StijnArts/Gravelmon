@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:miensei",
+  "speciesId": "cobblemon:miensei",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
