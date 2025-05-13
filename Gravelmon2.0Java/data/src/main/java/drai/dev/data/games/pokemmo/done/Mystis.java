@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.mystis.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Mystis extends drai.dev.data.games.registry.Game {
-    public Mystis() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mystis();
+    private Mystis() {
         super("Mystis");
     }
     //TODO dex integration

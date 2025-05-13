@@ -5,8 +5,8 @@ import drai.dev.data.pokemon.sage.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Sage extends Game {
-
-    public Sage() {
+    public static final Game INSTANCE = new Sage();
+    private Sage() {
         super("Sage");
 
     }

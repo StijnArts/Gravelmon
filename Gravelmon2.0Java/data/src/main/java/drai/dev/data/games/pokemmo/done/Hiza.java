@@ -3,7 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.hiza.*;
 //done
 public class Hiza extends drai.dev.data.games.registry.Game {
-    public Hiza() {        super("Hiza");}
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Hiza();
+    private Hiza() {        super("Hiza");}
 
     @Override
     public void registerPokemon() {

@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.flux.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Flux extends Game {
-    public Flux() {super("Flux");}
+    public static final Game INSTANCE = new Flux();
+    private Flux() {super("Flux");}
 
     @Override
     public void registerPokemon() {

@@ -24,7 +24,8 @@ import drai.dev.data.pokemon.junnin.*;
 
 //done
 public class Junnin extends drai.dev.data.games.registry.Game {
-    public Junnin() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Junnin();
+    private Junnin() {
         super("Junnin");
     }
 

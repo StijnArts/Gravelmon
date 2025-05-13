@@ -4,7 +4,8 @@ import drai.dev.data.pokemon.hub.*;
 
 //done
 public class HUB extends drai.dev.data.games.registry.Game {
-    public HUB() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new HUB();
+    private HUB() {
         super("HUB");
     }
 

@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.beginnings.*;
 import java.util.*;
 
 public class Beginnings extends drai.dev.data.games.registry.Game {
-    public Beginnings() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Beginnings();
+    private Beginnings() {
         super("Beginnings");
     }
 

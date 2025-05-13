@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.sahl.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Arom extends drai.dev.data.games.registry.Game {
-    public Arom() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Arom();
+    private Arom() {
         super("Arom");
     }
 

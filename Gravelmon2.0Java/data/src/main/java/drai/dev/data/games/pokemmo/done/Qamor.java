@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.qamor.*;
 import java.util.*;
 //done
 public class Qamor extends drai.dev.data.games.registry.Game {
-    public Qamor() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Qamor();
+    private Qamor() {
         super("Qamor");
     }
 

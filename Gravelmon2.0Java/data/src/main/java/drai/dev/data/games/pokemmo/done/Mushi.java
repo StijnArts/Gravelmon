@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.mushi.*;
 
 public class Mushi extends drai.dev.data.games.registry.Game {
-    public Mushi() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mushi();
+    private Mushi() {
         super("Mushi");
     }
 

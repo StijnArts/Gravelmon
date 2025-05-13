@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.mikitari.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Mikitari extends drai.dev.data.games.registry.Game {
-    public Mikitari() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mikitari();
+    private Mikitari() {
         super("Mikitari");
     }
 

@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.umbra.*;
 
 public class Umbra extends Game {
-    public Umbra() {        super("Umbra");    }
+    public static final Game INSTANCE = new Umbra();
+    private Umbra() {        super("Umbra");    }
 
     @Override
     public void registerPokemon() {

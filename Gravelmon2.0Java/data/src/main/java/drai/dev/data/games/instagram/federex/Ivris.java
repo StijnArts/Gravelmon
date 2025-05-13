@@ -5,7 +5,8 @@ import drai.dev.data.pokemon.ivris.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ivris extends drai.dev.data.games.registry.Game {
-    public Ivris() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ivris();
+    private Ivris() {
         super("ivris");
     }
 

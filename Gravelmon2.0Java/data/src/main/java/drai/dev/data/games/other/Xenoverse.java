@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.xenoverse.xspecies.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Xenoverse extends Game {
-    public Xenoverse() {
+    public static final Game INSTANCE = new Xenoverse();
+    private Xenoverse() {
         super("Xenoverse");
     }
 

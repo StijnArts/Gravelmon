@@ -9,7 +9,8 @@ import drai.dev.data.pokemon.varitas.*;
 import java.util.*;
 //done
 public class Varitas extends drai.dev.data.games.registry.Game {
-    public Varitas() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Varitas();
+    private Varitas() {
         super("Varitas");
     }
 

@@ -27,7 +27,8 @@ import drai.dev.data.pokemon.orohnhavai.*;
 import java.util.*;
 //done
 public class OrohnHavai extends drai.dev.data.games.registry.Game {
-    public OrohnHavai() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new OrohnHavai();
+    private OrohnHavai() {
         super("Orohn-Havai");
     }
 

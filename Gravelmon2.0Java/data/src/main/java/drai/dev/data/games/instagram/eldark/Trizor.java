@@ -7,7 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
 public class Trizor extends drai.dev.data.games.registry.Game {
-    public Trizor() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Trizor();
+    private Trizor() {
         super("Trizor");
     }
 

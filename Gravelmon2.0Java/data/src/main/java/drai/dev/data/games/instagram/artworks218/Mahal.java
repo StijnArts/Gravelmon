@@ -8,7 +8,8 @@ import drai.dev.data.pokemon.orohnhavai.Cottoon;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Mahal extends drai.dev.data.games.registry.Game {
-    public Mahal() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mahal();
+    private Mahal() {
         super("Mahal");
     }
 

@@ -8,7 +8,8 @@ import java.util.*;
 
 //Done
 public class Avoris extends drai.dev.data.games.registry.Game {
-    public Avoris() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Avoris();
+    private Avoris() {
         super("Avoris");
     }
 

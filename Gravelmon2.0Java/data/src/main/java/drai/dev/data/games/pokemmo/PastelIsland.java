@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.pastelisland.*;
 import java.util.*;
 
 public class PastelIsland extends drai.dev.data.games.registry.Game {
-    public PastelIsland() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new PastelIsland();
+    private PastelIsland() {
         super("Pastel Island");
     }
 

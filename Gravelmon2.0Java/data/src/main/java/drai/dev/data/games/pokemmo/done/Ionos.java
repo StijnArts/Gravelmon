@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.ionos.*;
 import java.util.*;
 //done
 public class Ionos extends drai.dev.data.games.registry.Game {
-    public Ionos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ionos();
+    private Ionos() {
         super("Ionos");
     }
 

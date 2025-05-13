@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.otopo.*;
 import java.util.*;
 //done
 public class Otopo extends drai.dev.data.games.registry.Game {
-    public Otopo() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Otopo();
+    private Otopo() {
         super("Otopo");
     }
 //TODO update and dex

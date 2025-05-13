@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.opalo.*;
 
 public class Opal extends Game {
-    public Opal() {
+    public static final Game INSTANCE = new Opal();
+    private Opal() {
         super("Opal");
     }
 

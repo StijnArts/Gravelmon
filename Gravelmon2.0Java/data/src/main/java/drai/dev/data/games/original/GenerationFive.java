@@ -37,7 +37,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
 public class GenerationFive extends Game {
-    public GenerationFive() {
+    public static final Game INSTANCE = new GenerationFive();
+    private GenerationFive() {
         super("generation5");
     }
 

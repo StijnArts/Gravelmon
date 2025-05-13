@@ -8,7 +8,8 @@ import drai.dev.data.pokemon.ferran.Romarlord;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ferran extends drai.dev.data.games.registry.Game {
-    public Ferran() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ferran();
+    private Ferran() {
         super("Ferran");
     }
 

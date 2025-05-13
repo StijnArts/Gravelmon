@@ -5,7 +5,8 @@ import drai.dev.data.pokemon.aristos.*;
 
 //Done
 public class Aristos extends drai.dev.data.games.registry.Game {
-    public Aristos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Aristos();
+    private Aristos() {
         super("Aristos");
     }
 

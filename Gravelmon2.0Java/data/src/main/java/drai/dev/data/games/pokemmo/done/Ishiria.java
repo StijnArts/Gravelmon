@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.ishiria.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ishiria extends drai.dev.data.games.registry.Game {
-    public Ishiria() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ishiria();
+    private Ishiria() {
         super("Ishiria");
     }
 

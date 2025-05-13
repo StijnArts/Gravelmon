@@ -5,7 +5,8 @@ import drai.dev.data.pokemon.fabel.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Fabel extends drai.dev.data.games.registry.Game {
-    public Fabel() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Fabel();
+    private Fabel() {
         super("Fabel");
     }
 

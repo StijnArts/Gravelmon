@@ -6,7 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 //done
 public class Ferroa extends drai.dev.data.games.registry.Game {
-    public Ferroa() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ferroa();
+    private Ferroa() {
         super("Ferroa");
     }
 

@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.lagoone.*;
 //done
 public class Lagoone extends drai.dev.data.games.registry.Game {
-    public Lagoone() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Lagoone();
+    private Lagoone() {
         super("Lagoone");
     }
 //TODO add regionals after Webbewulf

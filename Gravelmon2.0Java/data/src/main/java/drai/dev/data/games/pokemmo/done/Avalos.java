@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.avalos.*;
 //Done
 public class Avalos extends drai.dev.data.games.registry.Game {
-    public Avalos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Avalos();
+    private Avalos() {
         super("Fliga");
     }
 

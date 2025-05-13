@@ -7,7 +7,8 @@ import java.util.*;
 
 //done
 public class Nosto extends drai.dev.data.games.registry.Game {
-    public Nosto() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Nosto();
+    private Nosto() {
         super("Nosto");
     }
 

@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.oceane.*;
 import java.util.*;
 //done
 public class Oceane extends drai.dev.data.games.registry.Game {
-    public Oceane() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Oceane();
+    private Oceane() {
         super("Oceane");
     }
 

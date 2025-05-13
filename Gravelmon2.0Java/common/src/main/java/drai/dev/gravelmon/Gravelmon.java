@@ -20,12 +20,16 @@ public class Gravelmon
 	public static boolean lateInitDone = false;
 	public static final String MOD_ID = "gravelmon";
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
+	public static final Map<String, List<Pair<String, Optional<Aspect>>>> MEGA_EVOLUTIONS = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static void init() {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();
 		GravelmonPokeballs.touch();
+		if(Platform.isModLoaded("mega_showdown")){
+			GravelmonMegas.init();
+		}
 		GravelmonBlocks.BLOCKS.register();
 		GravelmonItems.ITEMS.register();
 		CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.HIGH, battleStartedPreEvent -> {
@@ -38,9 +42,6 @@ public class Gravelmon
 		gravelmonFormEvolutions();
 		gravelmonStarterInjections();
 		registerMoveInsertions();
-		if(Platform.isModLoaded("mega_showdown")){
-			GravelmonMegas.init();
-		}
 	}
 
 	private static void gravelmonStarterInjections() {

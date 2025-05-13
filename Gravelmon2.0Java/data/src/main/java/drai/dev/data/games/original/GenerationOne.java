@@ -46,7 +46,9 @@ import static drai.dev.data.attributes.StatArchetype.*;
 import static drai.dev.data.attributes.StatType.*;
 
 public class GenerationOne extends Game {
-    public GenerationOne() {
+    public static final Game INSTANCE = new GenerationOne();
+
+    private GenerationOne() {
         super("generation1");
     }
 
@@ -631,7 +633,7 @@ public class GenerationOne extends Game {
     private void addDeltaPokemon() {
         addNewPokemon(new DeltaBulbasaur("", Aspect.DELTA));
         addNewPokemon(new DeltaIvysaur("", Aspect.DELTA));
-        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA));
+        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA).addMegaToPokemon(new Stats(80,100,123,122,120,80), Ability.HUBRIS, ));
         addNewPokemon(new DeltaCharmander("", Aspect.DELTA));
         addNewPokemon(new DeltaCharmeleon("", Aspect.DELTA));
         addNewPokemon(new DeltaCharizard("", Aspect.DELTA));

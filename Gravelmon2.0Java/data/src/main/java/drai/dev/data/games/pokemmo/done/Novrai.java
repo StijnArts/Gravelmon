@@ -3,7 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.novrai.*;
 //done
 public class Novrai extends drai.dev.data.games.registry.Game {
-    public Novrai() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Novrai();
+    private Novrai() {
         super("Novrai");
     }
 

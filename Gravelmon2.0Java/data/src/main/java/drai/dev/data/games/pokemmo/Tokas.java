@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.tokas.*;
 
 import java.util.*;
 public class Tokas extends drai.dev.data.games.registry.Game {
-    public Tokas() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Tokas();
+    private Tokas() {
         super("Tokas");
     }
 

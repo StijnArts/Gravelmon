@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.ultraspace.*;
 import java.util.*;
 
 public class Ultraspace extends drai.dev.data.games.registry.Game {
-    public Ultraspace() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ultraspace();
+    private Ultraspace() {
         super("Ultraspace");
     }
 

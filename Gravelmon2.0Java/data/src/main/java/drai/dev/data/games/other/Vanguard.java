@@ -5,7 +5,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.ayrei.*;
 
 public class Vanguard extends Game {
-    public Vanguard() {
+    public static final Game INSTANCE = new Vanguard();
+    private Vanguard() {
         super("Vanguard");
     }
 

@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.eternalforest.*;
 
 public class EternalForest extends Game {
-    public EternalForest() {
+    public static final Game INSTANCE = new EternalForest();
+    private EternalForest() {
         super("EternalForest");
     }
 

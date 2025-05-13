@@ -7,7 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 //Done
 public class Atlas extends drai.dev.data.games.registry.Game {
-    public Atlas() {        super("Atlas");
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Atlas();
+    private Atlas() {        super("Atlas");
     }
 
     @Override

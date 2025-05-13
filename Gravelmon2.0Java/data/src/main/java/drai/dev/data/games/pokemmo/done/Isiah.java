@@ -23,7 +23,8 @@ import drai.dev.data.pokemon.isiah.*;
 import java.util.*;
 //done
 public class Isiah extends drai.dev.data.games.registry.Game {
-    public Isiah() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Isiah();
+    private Isiah() {
         super("Isiah");
     }
 

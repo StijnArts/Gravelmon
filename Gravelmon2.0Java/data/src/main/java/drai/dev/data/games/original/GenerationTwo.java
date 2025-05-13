@@ -42,7 +42,8 @@ import static drai.dev.data.attributes.StatArchetype.*;
 import static drai.dev.data.attributes.StatType.*;
 
 public class GenerationTwo extends Game {
-    public GenerationTwo() {
+    public static final Game INSTANCE = new GenerationTwo();
+    private GenerationTwo() {
         super("generation2");
     }
 

@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.urzavos.*;
 import java.util.*;
 
 public class Urzavos extends drai.dev.data.games.registry.Game {
-    public Urzavos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Urzavos();
+    private Urzavos() {
         super("Urzavos");
     }
 

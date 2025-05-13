@@ -4,7 +4,8 @@ package drai.dev.data.games.pbs;
 import drai.dev.data.pokemon.africanus.*;
 
 public class Africanus extends drai.dev.data.games.registry.Game {
-    public Africanus() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Africanus();
+    private Africanus() {
         super("Africanus");
     }
 

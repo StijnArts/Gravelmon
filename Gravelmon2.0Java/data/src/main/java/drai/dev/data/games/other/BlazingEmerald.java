@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.blazingemerald.*;
 
 public class BlazingEmerald extends Game {
-    public BlazingEmerald() {
+    public static final Game INSTANCE = new BlazingEmerald();
+    private BlazingEmerald() {
         super("BlazingEmerald");
     }
 

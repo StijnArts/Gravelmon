@@ -4,7 +4,8 @@ package drai.dev.data.games.instagram.artworks218;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Sahl extends drai.dev.data.games.registry.Game {
-    public Sahl() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Sahl();
+    private Sahl() {
         super("Sahl");
     }
 

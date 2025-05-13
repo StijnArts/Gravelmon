@@ -3,7 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.mythire.*;
 //done
 public class Mythire extends drai.dev.data.games.registry.Game {
-    public Mythire() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mythire();
+    private Mythire() {
         super("Mythire");
     }
 

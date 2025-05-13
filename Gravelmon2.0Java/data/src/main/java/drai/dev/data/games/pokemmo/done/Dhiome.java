@@ -20,7 +20,8 @@ import drai.dev.data.pokemon.dhiome.*;
 import java.util.*;
 //done
 public class Dhiome extends drai.dev.data.games.registry.Game {
-    public Dhiome() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Dhiome();
+    private Dhiome() {
         super("Dhiome");
     }
 

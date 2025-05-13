@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.infinity.*;
 
 public class Infinity extends Game {
-    public Infinity() {
+    public static final Game INSTANCE = new Infinity();
+    private Infinity() {
         super("Infinity");
     }
 

@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.nodorro.*;
 import java.util.*;
 
 public class Nodorro extends drai.dev.data.games.registry.Game {
-    public Nodorro() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Nodorro();
+    private Nodorro() {
         super("Nodorro");
     }
 

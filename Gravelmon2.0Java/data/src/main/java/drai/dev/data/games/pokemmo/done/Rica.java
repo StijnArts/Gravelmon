@@ -11,7 +11,8 @@ import drai.dev.data.pokemon.rica.*;
 
 //done
 public class Rica extends drai.dev.data.games.registry.Game {
-    public Rica() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Rica();
+    private Rica() {
         super("Rica");
     }
 

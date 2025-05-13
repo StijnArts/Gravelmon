@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Daybreak extends Game {
-    public Daybreak() {
+    public static final Game INSTANCE = new Daybreak();
+    private Daybreak() {
         super("Daybreak");
     }
 

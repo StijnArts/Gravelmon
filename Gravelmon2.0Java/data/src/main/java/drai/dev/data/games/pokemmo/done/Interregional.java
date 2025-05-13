@@ -4,7 +4,8 @@ import drai.dev.data.pokemon.interregional.*;
 
 //done
 public class Interregional extends drai.dev.data.games.registry.Game {
-    public Interregional() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Interregional();
+    private Interregional() {
         super("Interregional");
     }
 

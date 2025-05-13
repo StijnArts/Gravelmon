@@ -3,7 +3,8 @@ package drai.dev.data.games.other;
 import drai.dev.data.games.registry.*;
 
 public class Azure extends Game {
-    public Azure() {
+    public static final Game INSTANCE = new Azure();
+    private Azure() {
         super("Azure");
     }
 

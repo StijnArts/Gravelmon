@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.kuria.*;
 //done
 public class Kuria extends drai.dev.data.games.registry.Game {
-    public Kuria() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Kuria();
+    private Kuria() {
         super("Kuria");
     }
 

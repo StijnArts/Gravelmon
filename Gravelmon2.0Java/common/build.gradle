@@ -13,6 +13,9 @@ dependencies {
     modImplementation "com.cobblemon:mod:${cobblemon_file}"
 //    modImplementation "maven.modrinth:gravels-extended-battles:K5fBWJ33"
     modImplementation files("libs/gravels_extended_battles-fabric-${gravelmon_file}.jar")
+
+    //Mega showdown compat
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-release-fabric")
 }
 loom {
     accessWidenerPath = file "src/main/resources/gravelmon.accesswidener"

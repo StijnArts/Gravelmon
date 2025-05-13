@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.enriko.*;
 //done
 public class Enriko extends drai.dev.data.games.registry.Game {
-    public Enriko() {        super("Enriko");    }
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Enriko();
+    private Enriko() {        super("Enriko");    }
 
     @Override
     public void registerPokemon() {

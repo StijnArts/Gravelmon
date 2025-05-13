@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.lockemon.*;
 
 public class Lockemon extends Game {
-    public Lockemon() {super("Lockemon");}
+    public static final Game INSTANCE = new Lockemon();
+    private Lockemon() {super("Lockemon");}
 
     @Override
     public void registerPokemon() {

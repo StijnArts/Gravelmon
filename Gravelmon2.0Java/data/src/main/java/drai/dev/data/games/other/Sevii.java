@@ -3,7 +3,8 @@ package drai.dev.data.games.other;
 import drai.dev.data.games.registry.*;
 
 public class Sevii extends Game {
-    public Sevii() {
+    public static final Game INSTANCE = new Sevii();
+    private Sevii() {
         super("Sevii");
     }
 

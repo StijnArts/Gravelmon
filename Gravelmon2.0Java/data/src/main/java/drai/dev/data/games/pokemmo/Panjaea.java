@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.panjaea.*;
 import java.util.*;
 
 public class Panjaea extends drai.dev.data.games.registry.Game {
-    public Panjaea() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Panjaea();
+    private Panjaea() {
         super("Panjaea");
     }
 

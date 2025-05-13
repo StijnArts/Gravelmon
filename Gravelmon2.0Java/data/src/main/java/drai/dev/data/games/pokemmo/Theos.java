@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo;
 import drai.dev.data.pokemon.theos.*;
 
 public class Theos extends drai.dev.data.games.registry.Game {
-    public Theos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Theos();
+    private Theos() {
         super("Theos");
     }
 

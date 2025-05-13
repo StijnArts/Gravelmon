@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.ruskow.*;
 import java.util.*;
 
 public class Ruskow extends drai.dev.data.games.registry.Game {
-    public Ruskow() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Ruskow();
+    private Ruskow() {
         super("Ruskow");
     }
 

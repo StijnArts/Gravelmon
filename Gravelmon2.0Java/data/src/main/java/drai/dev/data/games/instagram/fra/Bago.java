@@ -4,7 +4,8 @@ package drai.dev.data.games.instagram.fra;
 import drai.dev.data.pokemon.bago.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 public class Bago extends drai.dev.data.games.registry.Game {
-    public Bago() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Bago();
+    private Bago() {
         super("bago");
     }
 

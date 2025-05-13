@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.amavi.*;
 import java.util.*;
 //Done
 public class Amavi extends drai.dev.data.games.registry.Game {
-    public Amavi() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Amavi();
+    private Amavi() {
         super("Amavi");
     }
 

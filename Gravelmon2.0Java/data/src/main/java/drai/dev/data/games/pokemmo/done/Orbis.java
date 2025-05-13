@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.orbis.*;
 import java.util.*;
 
 public class Orbis extends drai.dev.data.games.registry.Game {
-    public Orbis() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Orbis();
+    private Orbis() {
         super("Orbis");
     }
 

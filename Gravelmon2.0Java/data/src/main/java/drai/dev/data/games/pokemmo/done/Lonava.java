@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.mystis.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 //done
 public class Lonava extends drai.dev.data.games.registry.Game {
-    public Lonava() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Lonava();
+    private Lonava() {
         super("Lonava");
     }
 

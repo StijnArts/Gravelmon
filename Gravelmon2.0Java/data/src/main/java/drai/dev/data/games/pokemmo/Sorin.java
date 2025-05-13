@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.srin.*;
 import java.util.*;
 
 public class Sorin extends drai.dev.data.games.registry.Game {
-    public Sorin() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Sorin();
+    private Sorin() {
         super("Sorin");
     }
 

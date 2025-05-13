@@ -1,7 +1,8 @@
 package drai.dev.data.games.pbs;
 
 public class ChaosInVesita extends drai.dev.data.games.registry.Game {
-    public ChaosInVesita() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new ChaosInVesita();
+    private ChaosInVesita() {
         super("ChaosInVesita");
     }
 

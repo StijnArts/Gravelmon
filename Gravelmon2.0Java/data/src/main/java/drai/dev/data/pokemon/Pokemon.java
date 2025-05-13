@@ -6,6 +6,7 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import kotlin.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
@@ -360,29 +361,49 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public static void addMegaEvolution(MegaEvolution megaEvolution) {
-        List<MegaEvolution> megas = MEGA_EVOLUTIONS.computeIfAbsent(megaEvolution.getNonMegaCleanName(), k -> new ArrayList<>());
-        String regionName = megaEvolution.getGame().getName(); // or game.getName()
-        String prefix = regionName.substring(0, 1).toUpperCase();
+        var key = megaEvolution.getNonMegaCleanName();
+        List<MegaEvolution> megas = MEGA_EVOLUTIONS.computeIfAbsent(key, k -> new ArrayList<>());
+        String regionName = megaEvolution.getGame().getName();
+        String suffix = regionName.substring(0, 1).toUpperCase();
 
         megas.add(megaEvolution);
         if (megas.size() < 2) {
+            var ids = Gravelmon.MEGA_EVOLUTIONS.computeIfAbsent(key, k -> new ArrayList<>());
+            ids.add(new Pair<>("Mega", Optional.ofNullable(megaEvolution.getAspect())));
             return;
         }
 
-        boolean prefixAlreadyUsed = megas.stream()
-                .anyMatch(mega -> mega.getMegaName().startsWith(prefix));
+        boolean suffixAlreadyUsed = megas.stream()
+                .anyMatch(mega -> mega.getMegaName().startsWith(suffix));
 
-        if (prefixAlreadyUsed) {
-            // Update existing megas that used the prefix to full region name
+        var ids = Gravelmon.MEGA_EVOLUTIONS.computeIfAbsent(key, k -> new ArrayList<>());
+        ids.clear();
+        if (suffixAlreadyUsed) {
+            // Update existing megas that used the suffix to full region name
             for (MegaEvolution existing : megas) {
-                if (existing.getMegaName().startsWith(prefix)) {
+                if (existing.getMegaName().startsWith(suffix)) {
                     String oldRegionName = existing.getGame().getName();
-                    existing.setMegaName("Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(oldRegionName)));
+                    String newMegaName = "Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(oldRegionName));
+                    existing.setMegaName(newMegaName);
+                    ids.add(new Pair<>(newMegaName, Optional.ofNullable(existing.getAspect())));
                 }
             }
-            megaEvolution.setMegaName("Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(regionName)));
+            String newMegaName = "Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(regionName));
+            megaEvolution.setMegaName(newMegaName);
+            ids.add(new Pair<>(newMegaName, Optional.ofNullable(megaEvolution.getAspect())));
         } else {
-            megaEvolution.setMegaName("Mega_" + StringUtils.capitalize(prefix));
+            for (MegaEvolution existing : megas) {
+                if (existing.getMegaName().startsWith(suffix)) {
+                    String oldRegionName = existing.getGame().getName();
+                    String newSuffix = oldRegionName.substring(0, 1).toUpperCase();
+                    String newMegaName = "Mega_" + StringUtils.capitalize(newSuffix);
+                    existing.setMegaName(newMegaName);
+                    ids.add(new Pair<>(newMegaName, Optional.ofNullable(existing.getAspect())));
+                }
+            }
+            String newMegaName = "Mega_" + StringUtils.capitalize(suffix);
+            megaEvolution.setMegaName(newMegaName);
+            ids.add(new Pair<>(newMegaName, Optional.ofNullable(megaEvolution.getAspect())));
         }
     }
 }

@@ -4,7 +4,8 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.realidea.*;
 
 public class Realidea extends Game {
-    public Realidea() {
+    public static final Game INSTANCE = new Realidea();
+    private Realidea() {
         super("RealideaSystem");
     }
 

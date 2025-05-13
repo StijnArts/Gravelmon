@@ -3,7 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.midamis.*;
 //done
 public class Midamis extends drai.dev.data.games.registry.Game {
-    public Midamis() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Midamis();
+    private Midamis() {
         super("Midamis");
     }
 

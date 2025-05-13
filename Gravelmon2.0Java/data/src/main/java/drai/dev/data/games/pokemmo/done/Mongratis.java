@@ -19,7 +19,8 @@ import drai.dev.data.pokemon.myth.Pythonova;
 import java.util.*;
 
 public class Mongratis extends drai.dev.data.games.registry.Game {
-    public Mongratis() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Mongratis();
+    private Mongratis() {
         super("Mongratis");
     }
 

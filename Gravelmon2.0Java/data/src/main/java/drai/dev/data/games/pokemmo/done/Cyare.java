@@ -33,7 +33,8 @@ import drai.dev.data.pokemon.rica.Snoosect;
 import java.util.*;
 //done
 public class Cyare extends drai.dev.data.games.registry.Game {
-    public Cyare() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Cyare();
+    private Cyare() {
         super("Cyare");
     }
 

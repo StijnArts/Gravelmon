@@ -8,7 +8,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 //done
 public class Okeno extends drai.dev.data.games.registry.Game {
-    public Okeno() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Okeno();
+    private Okeno() {
         super("Okeno");
     }
 

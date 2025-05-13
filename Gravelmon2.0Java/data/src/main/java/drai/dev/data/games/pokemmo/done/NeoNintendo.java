@@ -4,7 +4,8 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.pokemon.neonintendo.*;
 //done
 public class NeoNintendo extends drai.dev.data.games.registry.Game {
-    public NeoNintendo() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new NeoNintendo();
+    private NeoNintendo() {
         super("NeoNintendo");
     } //DONE
 

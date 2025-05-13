@@ -7,7 +7,8 @@ import drai.dev.data.pokemon.olysos.*;
 import java.util.*;
 
 public class Olysos extends drai.dev.data.games.registry.Game {
-    public Olysos() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Olysos();
+    private Olysos() {
         super("Olysos");
     }
 

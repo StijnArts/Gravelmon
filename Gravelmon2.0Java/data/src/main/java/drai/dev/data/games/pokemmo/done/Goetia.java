@@ -12,7 +12,8 @@ import java.util.*;
 import static drai.dev.data.attributes.StatType.*;
 //done
 public class Goetia extends drai.dev.data.games.registry.Game {
-    public Goetia() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Goetia();
+    private Goetia() {
         super("Goetia");
     }
 

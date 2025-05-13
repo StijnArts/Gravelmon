@@ -6,7 +6,8 @@ import drai.dev.data.pokemon.crozoic.*;
 
 import java.util.*;
 public class Crozoic extends drai.dev.data.games.registry.Game {
-    public Crozoic() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Crozoic();
+    private Crozoic() {
         super("Crozoic");
     }
 

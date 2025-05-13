@@ -3,7 +3,8 @@ package drai.dev.data.games.other;
 import drai.dev.data.games.registry.*;
 
 public class PhoenixRising extends Game {
-    public PhoenixRising() {
+    public static final Game INSTANCE = new PhoenixRising();
+    private PhoenixRising() {
         super("PhoenixRising");
     }
 

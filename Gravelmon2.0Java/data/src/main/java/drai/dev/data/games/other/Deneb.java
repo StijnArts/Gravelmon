@@ -5,7 +5,8 @@ import drai.dev.data.pokemon.vega.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Deneb extends Game {
-    public Deneb() {super("Deneb");}
+    public static final Game INSTANCE = new Deneb();
+    private Deneb() {super("Deneb");}
 
     @Override
     public void registerPokemon() {

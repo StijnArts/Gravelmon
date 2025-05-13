@@ -8,7 +8,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 //done
 public class Norheim extends drai.dev.data.games.registry.Game {
-    public Norheim() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Norheim();
+    private Norheim() {
         super("Norheim");
     }
 

@@ -5,7 +5,8 @@ import drai.dev.data.pokemon.form.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Form extends drai.dev.data.games.registry.Game {
-    public Form() {
+    public static final drai.dev.data.games.registry.Game INSTANCE = new Form();
+    private Form() {
         super("form");
     }
 //https://www.instagram.com/pformedition/
