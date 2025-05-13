@@ -104,6 +104,19 @@
       "labels": [
         "form",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -147,7 +160,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 7.199999999999999,
+      "baseScale": 0.2823529411764706,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -274,8 +287,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 3.1875,
+        "height": 3.1875,
         "fixed": false
       }
     },

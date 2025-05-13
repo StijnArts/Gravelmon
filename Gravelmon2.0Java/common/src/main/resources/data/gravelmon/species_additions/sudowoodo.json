@@ -11,7 +11,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "bonsly form=nodorran",
-      "baseScale": 18.0,
+      "baseScale": 0.5625,
       "cannotDynamax": false,
       "abilities": [
         "rattled",
@@ -101,8 +101,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 4.0,
+        "height": 4.0,
         "fixed": false
       }
     },

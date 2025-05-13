@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drifloon form=nodorran",
-      "baseScale": 14.399999999999999,
+      "baseScale": 0.3235955056179775,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -97,8 +97,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 5.5625,
+        "height": 5.5625,
         "fixed": false
       }
     },

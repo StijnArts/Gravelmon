@@ -92,6 +92,19 @@
       "labels": [
         "ivris",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -121,7 +134,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magikarp form=nodorran",
-      "baseScale": 84.0,
+      "baseScale": 1.5412844036697249,
       "cannotDynamax": false,
       "abilities": [
         "poisonpoint",
@@ -223,8 +236,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 6.8125,
+        "height": 6.8125,
         "fixed": false
       }
     },

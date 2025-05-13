@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "monferno form=nodorran",
-      "baseScale": 14.399999999999999,
+      "baseScale": 0.3310344827586207,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -108,8 +108,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 5.4375,
+        "height": 5.4375,
         "fixed": false
       }
     },

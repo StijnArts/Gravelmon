@@ -10,6 +10,7 @@ import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
 import drai.dev.data.games.pokemmo.done.*;
+import drai.dev.data.jsonwriters.*;
 
 import java.util.*;
 
@@ -25,7 +26,7 @@ public class GameRegistry {
         games.add(GenerationSeven.INSTANCE);
         games.add(GenerationEight.INSTANCE);
         games.add(GenerationNine.INSTANCE);
-        GravelmonJsonGenerator.setDexCounter(1025);
+        DexCounter.setDexCounter(1025);
         games.add(NeoNintendo.INSTANCE);
         games.add(Sage.INSTANCE);
         games.add(Realidea.INSTANCE);

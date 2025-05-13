@@ -7,26 +7,19 @@
       "id": "neureka-01",
       "pokemon": "neureka",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "6-29",
-      "weight": 13.5,
+      "level": "6-28",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky",
-          "#cobblemon:is_old_growth_taiga"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       }
     }
   ]

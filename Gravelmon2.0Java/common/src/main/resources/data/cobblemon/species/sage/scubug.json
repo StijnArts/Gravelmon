@@ -8,7 +8,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 24,
   "baseFriendship": 70,
-  "preEvolution": "bouwee",
   "baseScale": 0.042270058708414875,
   "cannotDynamax": false,
   "abilities": [
@@ -139,14 +138,11 @@
     "egg:irondefense",
     "egg:mudshot",
     "egg:psybeam",
-    "egg:scald",
-    "tm:terablast"
+    "egg:scald"
   ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.scubug.desc"

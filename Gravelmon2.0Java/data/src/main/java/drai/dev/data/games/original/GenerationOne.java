@@ -1,6 +1,7 @@
 package drai.dev.data.games.original;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.games.other.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.aristos.regional.*;
@@ -633,7 +634,7 @@ public class GenerationOne extends Game {
     private void addDeltaPokemon() {
         addNewPokemon(new DeltaBulbasaur("", Aspect.DELTA));
         addNewPokemon(new DeltaIvysaur("", Aspect.DELTA));
-        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA).addMegaToPokemon(new Stats(80,100,123,122,120,80), Ability.HUBRIS, ));
+        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA));
         addNewPokemon(new DeltaCharmander("", Aspect.DELTA));
         addNewPokemon(new DeltaCharmeleon("", Aspect.DELTA));
         addNewPokemon(new DeltaCharizard("", Aspect.DELTA));

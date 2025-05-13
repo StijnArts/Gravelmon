@@ -44,6 +44,18 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,

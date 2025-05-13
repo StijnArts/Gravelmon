@@ -140,6 +140,18 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,

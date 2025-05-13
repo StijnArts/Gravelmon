@@ -3,6 +3,7 @@ package drai.dev.gravelmon;
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.events.*;
 import dev.architectury.platform.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
@@ -20,7 +21,6 @@ public class Gravelmon
 	public static boolean lateInitDone = false;
 	public static final String MOD_ID = "gravelmon";
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
-	public static final Map<String, List<Pair<String, Optional<Aspect>>>> MEGA_EVOLUTIONS = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static void init() {

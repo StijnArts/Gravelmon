@@ -15,6 +15,18 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ],
         "timeRange": "night"

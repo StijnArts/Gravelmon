@@ -1,7 +1,9 @@
 package drai.dev.gravelmon.fabric.datagen;
 
 import dev.architectury.registry.registries.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
@@ -97,6 +99,12 @@ public class ModModelGenerator extends FabricModelProvider {
         for (Supplier<Item> value : Gravelmon.FOSSIL_ITEM_MAP.values()) {
             ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
                     TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/fossils/")),
+                    itemModelGenerator.output);
+        }
+
+        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_IDS.keySet()) {
+            ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
+                    TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/megastones/")),
                     itemModelGenerator.output);
         }
     }

@@ -68,6 +68,18 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "biomes": [
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ]
       },

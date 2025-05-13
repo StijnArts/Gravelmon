@@ -102,7 +102,22 @@
   "height": 5,
   "weight": 350,
   "aspects": [],
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "flintling_obsygnus",
+      "variant": "level_up",
+      "result": "obsygnus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "37"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "nationalPokedexNumber": 2142,
   "shoulderMountable": false,
   "hitbox": {

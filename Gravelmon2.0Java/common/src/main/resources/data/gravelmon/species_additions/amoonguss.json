@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "foongus form=nodorran",
-      "baseScale": 7.199999999999999,
+      "baseScale": 0.27169811320754716,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -107,8 +107,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 3.3125,
+        "height": 3.3125,
         "fixed": false
       }
     },

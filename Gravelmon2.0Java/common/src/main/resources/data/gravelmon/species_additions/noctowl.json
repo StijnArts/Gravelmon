@@ -96,6 +96,19 @@
       "labels": [
         "fabel",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -205,6 +218,19 @@
       "labels": [
         "raian",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -234,7 +260,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "hoothoot form=nodorran",
-      "baseScale": 20.4,
+      "baseScale": 0.6476190476190475,
       "cannotDynamax": false,
       "abilities": [
         "owntempo",
@@ -330,8 +356,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 3.9375,
+        "height": 3.9375,
         "fixed": false
       }
     },

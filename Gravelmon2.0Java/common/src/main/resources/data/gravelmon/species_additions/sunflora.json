@@ -53,7 +53,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 10.8,
+      "baseScale": 0.3661016949152543,
       "cannotDynamax": false,
       "abilities": [
         "ironbarbs",
@@ -168,8 +168,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 3.6874999999999996,
+        "height": 3.6874999999999996,
         "fixed": false
       }
     },

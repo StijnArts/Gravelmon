@@ -11,7 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 6.0,
+      "baseScale": 0.2608695652173913,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -123,8 +123,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 2.875,
+        "height": 2.875,
         "fixed": false
       }
     },

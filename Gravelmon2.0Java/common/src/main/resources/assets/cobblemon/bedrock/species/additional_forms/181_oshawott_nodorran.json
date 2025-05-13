@@ -6,8 +6,8 @@
       "aspects": [
         "nodorran"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_31_by_46.geo",
+      "poser": "cobblemon:cutout_gravelmon_31_by_46",
       "texture": "cobblemon:textures/pokemon/generation5/nodorranoshawott.png",
       "layers": [
         {

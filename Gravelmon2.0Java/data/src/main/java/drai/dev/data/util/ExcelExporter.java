@@ -3,6 +3,7 @@ package drai.dev.data.util;
 import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.apache.commons.lang3.mutable.*;
@@ -91,7 +92,7 @@ public class ExcelExporter {
             //Image
             var imageCell = createNextCell(row, cellCount);
             imageCell.setCellFormula("Image(\"https://raw.githubusercontent.com/StijnArts/Gravelmon/refs/heads/main/Gravelmon2.0Java/common/src/main/resources/assets/cobblemon/textures/pokemon/" +
-                    "/" + pokemon.getGame().getCleanName() + "/" + pokemon.getCleanName() + ".png\")");
+                    "/" + GravelmonUtils.getCleanName(pokemon.getGameName()) + "/" + pokemon.getCleanName() + ".png\")");
 
             // Format stats into a single string
             String stats = String.format("HP: %d,\n ATK: %d,\n DEF: %d,\n SPA: %d,\n SPDEF: %d,\n SPD: %d",

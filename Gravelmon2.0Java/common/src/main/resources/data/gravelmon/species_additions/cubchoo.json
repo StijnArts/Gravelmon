@@ -10,7 +10,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 6.0,
+      "baseScale": 0.3333333333333333,
       "cannotDynamax": false,
       "abilities": [
         "flamebody",
@@ -98,8 +98,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 2.25,
+        "height": 2.25,
         "fixed": false
       }
     },

@@ -6,8 +6,8 @@
       "aspects": [
         "nodorran"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_70_by_78.geo",
+      "poser": "cobblemon:cutout_gravelmon_70_by_78",
       "texture": "cobblemon:textures/pokemon/generation1/nodorranweezing.png",
       "layers": [
         {

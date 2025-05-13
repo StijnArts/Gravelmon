@@ -42,7 +42,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ekans form=nodorran",
-      "baseScale": 26.400000000000002,
+      "baseScale": 0.6068965517241379,
       "cannotDynamax": false,
       "abilities": [
         "intimidate",
@@ -133,8 +133,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 5.4375,
+        "height": 5.4375,
         "fixed": false
       }
     },

@@ -96,6 +96,19 @@
       "labels": [
         "fabel",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -195,6 +208,19 @@
       "labels": [
         "raian",
         "not_modeled",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -322,6 +348,19 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -365,7 +404,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 54.0,
+      "baseScale": 1.1134020618556701,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -465,8 +504,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 6.0625,
+        "height": 6.0625,
         "fixed": false
       }
     },

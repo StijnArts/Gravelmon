@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:mienshao",
+  "evolutions": [
+    {
+      "id": "mienshao_miensei",
+      "variant": "level_up",
+      "result": "miensei",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "calmmind"
+        }
+      ],
+      "permanent": true
+    }
+  ]
+}

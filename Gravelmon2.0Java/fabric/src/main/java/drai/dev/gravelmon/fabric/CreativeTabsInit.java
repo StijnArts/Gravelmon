@@ -3,7 +3,9 @@ package drai.dev.gravelmon.fabric;
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.fossil.*;
 import com.cobblemon.mod.common.item.group.*;
+import dev.architectury.platform.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
@@ -237,5 +239,11 @@ public class CreativeTabsInit {
                 fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());
             });
         });
+
+//        if(Platform.isModLoaded("mega_showdown")){
+//            ItemGroupEvents.modifyEntriesEvent(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB).register(entries -> {
+//
+//            });
+//        }
     }
 }

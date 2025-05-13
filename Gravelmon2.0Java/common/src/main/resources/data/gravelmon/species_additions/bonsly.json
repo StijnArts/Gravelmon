@@ -22,7 +22,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 8.399999999999999,
+      "baseScale": 0.3733333333333333,
       "cannotDynamax": false,
       "abilities": [
         "rattled",
@@ -120,8 +120,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 2.8125,
+        "height": 2.8125,
         "fixed": false
       }
     },

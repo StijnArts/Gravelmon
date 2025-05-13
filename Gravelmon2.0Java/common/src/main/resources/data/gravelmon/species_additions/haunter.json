@@ -90,6 +90,19 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -129,7 +142,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "gastly form=nodorran",
-      "baseScale": 20.4,
+      "baseScale": 0.6181818181818182,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -229,8 +242,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 4.125,
+        "height": 4.125,
         "fixed": false
       }
     },

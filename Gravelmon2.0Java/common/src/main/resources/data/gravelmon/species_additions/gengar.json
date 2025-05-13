@@ -90,6 +90,19 @@
         "not_modeled",
         "fakemon",
         "fakemonevolution",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -119,7 +132,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "haunter form=nodorran",
-      "baseScale": 20.4,
+      "baseScale": 0.5513513513513514,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -208,8 +221,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 4.625,
+        "height": 4.625,
         "fixed": false
       }
     },

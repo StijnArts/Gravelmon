@@ -15,6 +15,18 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
+          "#cobblemon:is_freshwater",
           "#cobblemon:is_freshwater"
         ]
       },

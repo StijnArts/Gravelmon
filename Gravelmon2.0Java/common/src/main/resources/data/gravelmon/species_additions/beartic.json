@@ -31,7 +31,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "cubchoo form=nodorran",
-      "baseScale": 28.799999999999997,
+      "baseScale": 0.7578947368421052,
       "cannotDynamax": false,
       "abilities": [
         "flamebody"
@@ -117,8 +117,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.125,
-        "height": 0.125,
+        "width": 4.75,
+        "height": 4.75,
         "fixed": false
       }
     },
