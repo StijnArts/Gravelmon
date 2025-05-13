@@ -2,6 +2,7 @@ package drai.dev.gravelmon;
 
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.events.*;
+import dev.architectury.platform.*;
 import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
@@ -37,6 +38,9 @@ public class Gravelmon
 		gravelmonFormEvolutions();
 		gravelmonStarterInjections();
 		registerMoveInsertions();
+		if(Platform.isModLoaded("mega_showdown")){
+			GravelmonMegas.init();
+		}
 	}
 
 	private static void gravelmonStarterInjections() {

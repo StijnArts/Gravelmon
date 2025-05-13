@@ -1,5 +1,6 @@
 package drai.dev.data.jsonwriters.data;
 
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.io.*;
@@ -13,6 +14,13 @@ public class SpeciesFeaturesJSONWriter {
             try {
                 Files.createDirectories(new File(dir).toPath());
                 writeAspect(aspect,dir);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+        MegaEvolution.getDistinctMegaNames().forEach(megaName -> {
+            try {
+                writeFeature(megaName, resourcesDir);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

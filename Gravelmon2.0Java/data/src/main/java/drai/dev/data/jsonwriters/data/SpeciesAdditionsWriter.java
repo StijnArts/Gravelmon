@@ -11,6 +11,7 @@ import java.nio.file.*;
 import java.util.*;
 
 import static drai.dev.data.jsonwriters.data.SpeciesDataJSONWriter.*;
+import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
 
 public class SpeciesAdditionsWriter {
     public static void writeAdditions(String resourcesDir) {
@@ -64,10 +65,47 @@ public class SpeciesAdditionsWriter {
                         throw new RuntimeException(e);
                     }
                 });
+        MEGA_EVOLUTIONS.entrySet().stream()
+                .filter(stringListEntry -> !Pokemon.ADDITIONAL_FORMS.containsKey(stringListEntry.getKey())
+                        && !Pokemon.ADDITIONAL_EVOLUTIONS.containsKey(stringListEntry.getKey())
+                        && !Pokemon.ADDITIONAL_DROPS.containsKey(stringListEntry.getKey())
+                        && !Pokemon.ADDITIONAL_PRE_EVOLUTIONS.containsKey(stringListEntry.getKey()))
+                .filter(stringListEntry -> !AbstractPokemon.isAnAdditionalForm(stringListEntry.getKey()))
+                .forEach(stringListEntry -> {
+                    try {
+                        var dir = resourcesDir + "\\data\\gravelmon\\species_additions\\";
+                        Files.createDirectories(new File(dir).toPath());
+                        writeMegaEvolution(stringListEntry, dir, gson);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
+    }
+
+    private static void writeMegaEvolution(Map.Entry<String, List<MegaEvolution>> set, String dir, Gson gson) throws IOException {
+        var fileContents = new JsonObject();
+        var forms = new JsonArray();
+        var features = new JsonArray();
+        getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
+        MegaEvolution.getDistinctMegaNames().forEach(features::add);
+        fileContents.add("forms", forms);
+        fileContents.add("features", features);
+        fileContents.addProperty("target", "cobblemon:" + GravelmonUtils.getCleanName(set.getKey()));
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
+        writer.write(gson.toJson(fileContents));
+        writer.close();
     }
 
     private static void writeAdditionalPreEvolutions(Map.Entry<String, String> set, String dir, Gson gson) throws IOException {
         var fileContents = new JsonObject();
+        if(MEGA_EVOLUTIONS.containsKey(set.getKey())) {
+            var forms = new JsonArray();
+            var features = new JsonArray();
+            getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
+            MegaEvolution.getDistinctMegaNames().forEach(features::add);
+            fileContents.add("forms", forms);
+            fileContents.add("features", features);
+        }
         fileContents.addProperty("target", "cobblemon:" + GravelmonUtils.getCleanName(set.getKey()));
         fileContents.addProperty("preEvolution", set.getValue());
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
@@ -80,6 +118,14 @@ public class SpeciesAdditionsWriter {
         fileContents.addProperty("target", "cobblemon:" + GravelmonUtils.getCleanName(set.getKey()));
         if (Pokemon.ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
             fileContents.addProperty("preEvolution", Pokemon.ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()));
+        }
+        if(MEGA_EVOLUTIONS.containsKey(set.getKey())) {
+            var forms = new JsonArray();
+            var features = new JsonArray();
+            getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
+            MegaEvolution.getDistinctMegaNames().forEach(features::add);
+            fileContents.add("forms", forms);
+            fileContents.add("features", features);
         }
         fileContents.add("drops", getDrops(3, set.getValue()));
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
@@ -95,6 +141,14 @@ public class SpeciesAdditionsWriter {
         }
         if (Pokemon.ADDITIONAL_PRE_EVOLUTIONS.containsKey(set.getKey())) {
             fileContents.addProperty("preEvolution", Pokemon.ADDITIONAL_PRE_EVOLUTIONS.get(set.getKey()));
+        }
+        if(MEGA_EVOLUTIONS.containsKey(set.getKey())) {
+            var forms = new JsonArray();
+            var features = new JsonArray();
+            getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
+            MegaEvolution.getDistinctMegaNames().forEach(features::add);
+            fileContents.add("forms", forms);
+            fileContents.add("features", features);
         }
         fileContents.add("evolutions", SpeciesDataJSONWriter.getEvolutions(set.getValue(), GravelmonUtils.getCleanName(set.getKey())));
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
@@ -116,12 +170,23 @@ public class SpeciesAdditionsWriter {
         }
         if (!set.getValue().isEmpty()) {
             var forms = getForms(set.getValue());
+            var features = getFeatures(set.getValue());
+            if(MEGA_EVOLUTIONS.containsKey(set.getKey())) {
+                getMegaEvolutions(forms, MEGA_EVOLUTIONS.get(set.getKey()));
+                MegaEvolution.getDistinctMegaNames().forEach(features::add);
+            }
             fileContents.add("forms", forms);
-            fileContents.add("features", getFeatures(set.getValue()));
+            fileContents.add("features", features);
         }
 
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + GravelmonUtils.getCleanName(set.getKey()).replaceAll("=false", "") + ".json"));
         writer.write(gson.toJson(fileContents));
         writer.close();
+    }
+
+    private static void getMegaEvolutions(JsonArray forms, List<MegaEvolution> megaEvolutions) {
+        for (var mega : megaEvolutions) {
+            forms.add(mega.toJson());
+        }
     }
 }

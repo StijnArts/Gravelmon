@@ -9,11 +9,11 @@ import java.util.*;
 
 public class ModelJsonWriter {
     private static List<String> generatedModels = new ArrayList<>();
-    public static void writeModel(AbstractPokemon abstractPokemon,int width, int height, String resourcesDir, boolean isFemaleModel) {
+    public static void writeModel(WorldRepresentablePokemon abstractPokemon,int width, int height, String resourcesDir, boolean isFemaleModel) {
         try {
 
             String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\";
-            var modelLocation = dir + abstractPokemon.getPlaceholderModelName(abstractPokemon, isFemaleModel) + ".geo.json";
+            var modelLocation = dir + abstractPokemon.getPlaceholderModelName(isFemaleModel) + ".geo.json";
             if(generatedModels.contains(modelLocation)) return;
             generatedModels.add(modelLocation);
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -21,7 +21,7 @@ public class ModelJsonWriter {
             BufferedWriter writer = new BufferedWriter(new FileWriter(modelLocation));
             writer.write(gson.toJson(getModelJson(width, height)));
             writer.close();
-            PoserJSONWriter.createPoserFile(abstractPokemon.getPosingFileData(isFemaleModel), abstractPokemon.getPlaceholderModelName(abstractPokemon, isFemaleModel), resourcesDir, gson);
+            PoserJSONWriter.createPoserFile(abstractPokemon.getPosingFileData(isFemaleModel), abstractPokemon.getPlaceholderModelName(isFemaleModel), resourcesDir, gson);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -9,6 +9,8 @@ import drai.dev.data.pokemon.*;
 import java.io.*;
 import java.nio.file.*;
 
+import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
+
 public class PoserJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir){
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -22,12 +24,33 @@ public class PoserJSONWriter {
         });
     }
 
-    private static void writePokemon(Pokemon pokemon, Game game, String resourcesDir, Gson gson) throws IOException {
-        if(pokemon.isModeled()) createPoserFile(pokemon.getPosingFileData(),game.getName().toLowerCase() + "_" + pokemon.getCleanName(), resourcesDir, gson);
-        for(PokemonForm form: pokemon.getForms()){
-            if(!form.isModeled()) continue;
-            createPoserFile(form.getPosingFileData(), game.getName().toLowerCase() + "_" +form.getCleanName()+"_"+pokemon.getCleanName(), resourcesDir, gson);
+    public static void writeMegas(String resourcesDir){
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+        MEGA_EVOLUTIONS.values().forEach(megas -> {
+            try {
+            Files.createDirectories(new File(getDir(resourcesDir)).toPath());
+            megas.forEach(mega -> {
+                try {
+                    writePokemon(mega, mega.getGame(), resourcesDir, gson);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            });
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+    }
+
+    private static void writePokemon(WorldRepresentablePokemon worldRepresentablePokemon, Game game, String resourcesDir, Gson gson) throws IOException {
+        if(worldRepresentablePokemon.isModeled()) createPoserFile(worldRepresentablePokemon.getPosingFileData(),game.getName().toLowerCase() + "_" + worldRepresentablePokemon.getCleanName(), resourcesDir, gson);
+        if(worldRepresentablePokemon instanceof Pokemon pokemon){
+            for(PokemonForm form: pokemon.getForms()){
+                if(!form.isModeled()) continue;
+                createPoserFile(form.getPosingFileData(), game.getName().toLowerCase() + "_" +form.getCleanName()+"_"+worldRepresentablePokemon.getCleanName(), resourcesDir, gson);
+            }
         }
+
     }
 
     public static void createPoserFile(PosingFileData posingFileData, String name, String resourcesDir, Gson gson) throws IOException {

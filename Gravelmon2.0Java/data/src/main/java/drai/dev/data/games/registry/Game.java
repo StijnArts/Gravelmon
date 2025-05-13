@@ -2,6 +2,7 @@ package drai.dev.data.games.registry;
 
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -66,5 +67,9 @@ public abstract class Game {
 
     public String getCleanName(){
         return GravelmonUtils.getCleanName(name);
+    }
+
+    public Label getLabel() {
+        return label;
     }
 }

@@ -2,6 +2,7 @@ package drai.dev.data.attributes.assets;
 
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 import java.util.function.*;
@@ -10,6 +11,7 @@ public class VariationData {
     Supplier<String> model, poser;
     String textureName;
     Map<String, BasicLayerData> layers = new HashMap<>();
+    List<Aspect> aspects = new ArrayList<>();
 
     public VariationData(Supplier<String> model, Supplier<String> poser, String textureName, List<BasicLayerData> layers) {
         this.model = model;
@@ -31,17 +33,21 @@ public class VariationData {
         return this;
     }
 
-    public static VariationData fromPokemon(AbstractPokemon abstractPokemon, List<BasicLayerData> layers) {
+    public static VariationData fromPokemon(WorldRepresentablePokemon abstractPokemon, List<BasicLayerData> layers) {
         Supplier<String> identifier = () -> abstractPokemon.getGame().getCleanName() + "_" + abstractPokemon.getCleanName();
-        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon, false);
+        Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(false);
         return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
     }
 
-    public JsonObject toJsonObject(List<String> aspects, AbstractPokemon abstractPokemon) {
+    public static VariationData fromMega(AbstractPokemon abstractPokemon, MegaEvolution megaEvolution, List<Object> layers) {
+        return null;
+    }
+
+    public JsonObject toJsonObject(List<String> aspects, WorldRepresentablePokemon abstractPokemon) {
         return toJsonObject(aspects, abstractPokemon, false, false);
     }
 
-    public JsonObject toJsonObject(List<String> aspects, AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale) {
+    public JsonObject toJsonObject(List<String> aspects, WorldRepresentablePokemon abstractPokemon, boolean isShiny, boolean isFemale) {
         addLayer(new BasicLayerData("glow"));
         addLayer(new BasicLayerData("emissive2"));
         addLayer(new BasicLayerData("emissive"));
@@ -56,11 +62,11 @@ public class VariationData {
         var hasGenderDifferences = false;
         if (abstractPokemon instanceof Pokemon pokemon) hasGenderDifferences = pokemon.hasGenderDifferences();
         var model = isFemale && hasGenderDifferences
-                ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName(abstractPokemon) : this.model.get())
+                ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName() : this.model.get())
                 : this.model.get();
         jsonObject.add("aspects", aspectsArray);
         jsonObject.addProperty("model", "cobblemon:" + model + ".geo");
-        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(abstractPokemon, isFemale)));
+        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(isFemale)));
         jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
         var layerArray = new JsonArray();
         layers.forEach((key, value) -> {

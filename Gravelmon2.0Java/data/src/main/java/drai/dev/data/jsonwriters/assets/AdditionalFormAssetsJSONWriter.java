@@ -6,6 +6,7 @@ import drai.dev.data.jsonwriters.data.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import org.apache.poi.ss.formula.functions.*;
 
 import java.io.*;
 import java.nio.file.*;
@@ -26,24 +27,45 @@ public class AdditionalFormAssetsJSONWriter {
             }
 
         });
+        Pokemon.MEGA_EVOLUTIONS.entrySet().forEach(set -> {
+            try {
+                Files.createDirectories(new File(dir).toPath());
+                writePokemon(set, dir, resourcesDir, gson);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+        });
     }
 
-    private synchronized static void writePokemon(Map.Entry<String, List<Pokemon>> set, String dir, String resourcesDir, Gson gson) throws IOException {
+    private synchronized static <T extends WorldRepresentablePokemon> void writePokemon(Map.Entry<String, List<T>> set, String dir, String resourcesDir, Gson gson) throws IOException {
         if (!set.getValue().isEmpty()) {
             int formCounter = 10;
-            for (Pokemon pokemon : set.getValue()) {
-                var aspect = pokemon.getAdditionalAspect().getName();
-                if(pokemon.getName().endsWith("One")) {
-                    aspect += "two";
-                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+            for (int i = 0; i < set.getValue().size(); i++) {
+                var worldRepresentablePokemon = set.getValue().get(i);
+                String aspect = "";
+                int order = 0;
+                if(worldRepresentablePokemon instanceof Pokemon pokemon){
+                    order = formCounter + Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
+                    aspect = pokemon.getAdditionalAspect().getName();
+                    if(worldRepresentablePokemon.getName().endsWith("One")) {
+                        aspect += "two";
+                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                    }
+                    if(worldRepresentablePokemon.getName().endsWith("Two")) {
+                        aspect += "three";
+                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+                    }
+                } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
+                    var megaAspect = megaEvolution.getAspect();
+                    int megaAspectIndex = 0;
+                    if(megaAspect!=null) Arrays.asList(Aspect.values()).indexOf(megaAspect);
+                    order = formCounter + 1000 + i + megaAspectIndex;
                 }
-                if(pokemon.getName().endsWith("Two")) {
-                    aspect += "three";
-                    SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                }
-                int order = formCounter + java.util.Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
+
+
                 BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + aspect + ".json"));
-                writer.write(gson.toJson(pokemon.getSpeciesFileData().toJsonObject(GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), pokemon)));
+                writer.write(gson.toJson(worldRepresentablePokemon.getSpeciesFileData().toJsonObject(GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), worldRepresentablePokemon)));
                 writer.close();
             }
         }

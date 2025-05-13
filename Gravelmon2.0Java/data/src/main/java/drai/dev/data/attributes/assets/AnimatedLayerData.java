@@ -33,13 +33,13 @@ public class AnimatedLayerData extends BasicLayerData {
         return frames;
     }
 
-    public JsonObject toJsonObject(AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale) {
+    public JsonObject toJsonObject(WorldRepresentablePokemon abstractPokemon, boolean isShiny, boolean isFemale) {
         var json = super.toJsonObject();
         json.add("texture", getTextures(abstractPokemon, isShiny, isFemale));
         return json;
     }
 
-    private JsonObject getTextures(AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale) {
+    private JsonObject getTextures(WorldRepresentablePokemon abstractPokemon, boolean isShiny, boolean isFemale) {
         var jsonObject = new JsonObject();
         var frames = new JsonArray();
         textureFrames.forEach(frame -> frames.add(getTextureLocation(frame, abstractPokemon, considerShiny, considerGender, isShiny, isFemale)));

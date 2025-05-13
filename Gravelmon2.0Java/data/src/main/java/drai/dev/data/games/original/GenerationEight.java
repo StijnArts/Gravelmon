@@ -4,6 +4,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.beginnings.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.fabel.regional.*;
 import drai.dev.data.pokemon.ferran.regional.*;
@@ -55,7 +56,10 @@ public class GenerationEight extends Game {
 
         registerSoulstonesVariants();
 
-//        addNewPokemon(new OttoranImpidimp("", Aspect.OTTORAN)); MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new BeginningsanHatenna("", Aspect.OTTORAN));
+        addNewPokemon(new BeginningsanHattrem("", Aspect.OTTORAN));
+        addNewPokemon(new BeginningsanImpidimp("", Aspect.OTTORAN));
+        addNewPokemon(new BeginningsanMorgrem("", Aspect.OTTORAN));
 
         addNewPokemon(new LagoonanHattena("", Aspect.LAGOONAN));
         addNewPokemon(new LagoonanHattrem("", Aspect.LAGOONAN));

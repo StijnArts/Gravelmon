@@ -5,6 +5,7 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.africanus.regional.*;
 import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.ayrei.regional.*;
+import drai.dev.data.pokemon.beginnings.regional.*;
 import drai.dev.data.pokemon.blazingemerald.regional.*;
 import drai.dev.data.pokemon.chaosinvestia.*;
 import drai.dev.data.pokemon.chaosinvestia.regional.*;
@@ -56,8 +57,8 @@ public class GenerationSix extends Game {
         addNewPokemon(new AfricanusanDoublade("", Aspect.AFRICANUSAN));
         addNewPokemon(new AfricanusanAegislash("", Aspect.AFRICANUSAN));
 
-//       addNewPokemon(new OttoranHonedge("", Aspect.OTTORAN)); TODO
-//       addNewPokemon(new OttoranDoublade("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranHonedge("", Aspect.OTTORAN));//TODO
+        addNewPokemon(new OttoranDoublade("", Aspect.OTTORAN));
 
         addNewPokemon(new LagoonanBinacle("", Aspect.LAGOONAN));
         addNewPokemon(new LagoonanBarbaracle("", Aspect.LAGOONAN));

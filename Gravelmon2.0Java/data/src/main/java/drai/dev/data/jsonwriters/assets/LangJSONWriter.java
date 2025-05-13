@@ -6,11 +6,14 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+import net.fabricmc.loader.impl.util.*;
 import org.apache.commons.lang3.*;
 
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
+
+import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
 
 public class LangJSONWriter {
     private static JsonObject contents = new JsonObject();
@@ -77,12 +80,11 @@ public class LangJSONWriter {
                     dexEntryCounter++;
                 }
             }
-
         }
         for (PokemonForm form : pokemon.getForms()){
             contents.addProperty("cobblemon.species."+form.getCleanName()+"_"+pokemon.getCleanName()+".name", pokemon.getName());
             dexEntryCounter = 1;
-            if(pokemon.getDexEntries().size() > 0) {
+            if(!pokemon.getDexEntries().isEmpty()) {
                 for (String entry : form.getDexEntries()) {
                     contents.addProperty("cobblemon.species." + form.getCleanName() + "_" + pokemon.getCleanName() + ".desc" + dexEntryCounter, entry);
                     dexEntryCounter++;
@@ -103,5 +105,21 @@ public class LangJSONWriter {
             throw new RuntimeException(e);
         }
 
+    }
+
+    public static void writeMegas() {
+        MegaEvolution.getDistinctMegaNames().forEach(megaName -> {
+            contents.addProperty("cobblemon.ui.pokedex.info.form."+ GravelmonUtils.getCleanName(megaName),megaName);
+        });
+        MEGA_EVOLUTIONS.forEach((pokemon, megaEvolutions) -> {
+            megaEvolutions.forEach(megaEvolution -> {
+                var identifier = GravelmonUtils.getCleanName(megaEvolution.getMegaName()+(megaEvolution.getAspect()!=null? megaEvolution.getAspect().getName():""))
+                        +"_"+pokemon;
+                contents.addProperty("cobblemon.species."+identifier +".name", StringUtil.capitalize(megaEvolution.getLangName()));
+                if(megaEvolution.getDexEntry()!=null){
+                    contents.addProperty("cobblemon.species." + identifier + ".desc", megaEvolution.getDexEntry());
+                }
+            });
+        });
     }
 }

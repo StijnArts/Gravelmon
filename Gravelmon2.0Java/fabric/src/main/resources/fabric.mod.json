@@ -34,7 +34,8 @@
     "gravels_extended_battles": ">=1.5.3"
   },
   "recommends": {
-    "packetfixer": ">=1.1"
+    "packetfixer": ">=1.1",
+    "mega_showdown": ">=9.5"
   },
   "mixins": [
     "gravelmon.mixins.json"

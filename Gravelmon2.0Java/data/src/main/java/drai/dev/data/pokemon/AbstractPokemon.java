@@ -14,12 +14,11 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public static Map<String, List<EvolutionEntry>> ADDITIONAL_EVOLUTIONS = new HashMap<>();
     public static Map<String, List<ItemDrop>> ADDITIONAL_DROPS = new HashMap<>();
     public static Map<String, String> ADDITIONAL_PRE_EVOLUTIONS = new HashMap<>();
+    public static Map<String, List<MegaEvolution>> MEGA_EVOLUTIONS = new HashMap<>();
     public static List<Pokemon> FOSSIL_POKEMON = new ArrayList<>();
     public static List<String> EVOLUTION_ITEMS = new ArrayList<>();
     public static List<Aspect> ADDITIONAL_SPECIES_ASPECTS = new ArrayList<>();
 
-    protected String name;
-    protected Game game;
     protected Stats stats;
     protected Type primaryType;
     protected Type secondaryType;
@@ -39,13 +38,11 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected List<MoveLearnSetEntry> learnSet = new ArrayList<>();
     protected final List<Label> labels = new ArrayList<>();
     protected final List<Aspect> aspects = new ArrayList<>();
-    protected final int height;
     protected final int weight;
     protected final List<EvolutionEntry> evolutions = new ArrayList<>();
     protected boolean cannotDynamax = false;
     protected final List<String> dexEntries = new ArrayList<>();
     protected final List<PokemonSpawnData> spawnData = new ArrayList<>();
-    protected double baseScale;
     protected boolean hasGenderDifferences = false;
     protected boolean canFly = false;
     protected int lightLevelMinSleep = 0;
@@ -63,8 +60,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean canWalkOnWater = false;
     protected boolean canWalkOnLava = false;
     protected boolean avoidsLand = false;
-    protected double hitboxWidth = 1.0;
-    protected double hitboxHeight = 1.0;
     public Map<String, List<EvolutionEntry>> additionalEvolutions = new HashMap<>();
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
@@ -97,7 +92,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                            List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
                            Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
                            int height, int weight, List<PokemonSpawnData> pokemonSpawnData) {
-        this.name = getClass().getSimpleName();
+        super(height);
         this.stats = stats;
         this.primaryType = primaryType;
         this.hiddenAbility = hiddenAbility;
@@ -114,9 +109,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.evYield = evYield;
         this.learnSet.addAll(learnSet);
         this.aspects.addAll(aspects);
-        this.height = height;
         this.weight = weight;
-        this.baseScale = Math.max((double) height / 10 / 4, 0.1);
         this.spawnData.addAll(pokemonSpawnData);
         if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
             canSwimInLava = true;
@@ -133,8 +126,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         if (this.abilities.size() > 2) {
             this.abilities.remove(2);
         }
-        this.hitboxWidth = 6;
-        this.hitboxHeight = 6;
     }
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, List<Ability> abilities, Ability hiddenAbility,
@@ -154,14 +145,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public static boolean isAnAdditionalForm(String key) {
         var result = ADDITIONAL_SPECIES_ASPECTS.stream().anyMatch(aspect -> Arrays.stream(key.split("(?=\\p{Upper})")).anyMatch(s -> s.equalsIgnoreCase(aspect.getName())));
         return result;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Stats getStats() {
@@ -230,11 +213,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public int getEggCycles() {
         return eggCycles;
-    }
-
-    public String getCleanName() {
-        return name.toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
-                .replace("'","").replace("\\.","");
     }
 
     public void setEggCycles(int eggCycles) {
@@ -321,10 +299,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         return spawnData;
     }
 
-    public double getBaseScale() {
-        return baseScale;
-    }
-
     public void setLearnSet(List<MoveLearnSetEntry> learnSet) {
         this.learnSet = learnSet;
     }
@@ -374,10 +348,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
             from.setDropAmount(1);
             from.getDrops().add(new ItemDrop(evolutionEntry, 10, 1, 1));
         }
-    }
-
-    public void setGame(Game game) {
-        this.game = game;
     }
 
     public void setCanSleep(Boolean canSleep) {
@@ -495,36 +465,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public boolean isCanSwimInLava() {
         return canSwimInLava;
     }
-
-    public void setBaseScale(double scale) {
-        this.baseScale = scale;
-        this.setHitbox(1,1);
-        if(this instanceof Pokemon pokemon) {
-            pokemon.getForms().forEach(forms -> forms.setBaseScale(scale));
-        }
-    }
-
-    protected void setHitbox(double width, double height) {
-        this.hitboxWidth = width;
-        this.hitboxHeight = height;
-        if(this instanceof Pokemon pokemon){
-            pokemon.getForms().forEach(forms -> {
-                double newFormHitboxWidth = (double) forms.getHeight() / 10;
-                double newFormHitboxHeight = (double) forms.getHeight() / 10;
-                forms.setHitbox(newFormHitboxWidth, newFormHitboxHeight);
-            });
-        }
-    }
-
-    public double getHitboxWidth() {
-        return hitboxWidth;
-    }
-
-    public double getHitboxHeight() {
-        return hitboxHeight;
-    }
-
-    public abstract Game getGame();
 
     public List<Type> getTypes() {
         var types = new ArrayList<>(List.of(primaryType));

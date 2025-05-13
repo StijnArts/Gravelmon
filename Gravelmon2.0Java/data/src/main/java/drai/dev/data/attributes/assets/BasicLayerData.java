@@ -32,15 +32,15 @@ public class BasicLayerData {
         return jsonObject;
     }
 
-    public static String getTextureLocation(String textureName, AbstractPokemon abstractPokemon) {
+    public static String getTextureLocation(String textureName, WorldRepresentablePokemon abstractPokemon) {
         return getTextureLocation(textureName, abstractPokemon, false, false, false, false);
     }
 
-    public static String getTextureLocation(String textureName, AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale) {
+    public static String getTextureLocation(String textureName, WorldRepresentablePokemon abstractPokemon, boolean isShiny, boolean isFemale) {
         return getTextureLocation(textureName, abstractPokemon, true, true, isShiny, isFemale);
     }
 
-    public static String getTextureLocation(String textureName, AbstractPokemon abstractPokemon,
+    public static String getTextureLocation(String textureName, WorldRepresentablePokemon abstractPokemon,
                                             boolean considerShiny, boolean considerGender, boolean isShiny, boolean isFemale) {
         return "cobblemon:textures/pokemon/" + abstractPokemon.getGame().getCleanName() +
                 "/" + (abstractPokemon.isModeled() ? abstractPokemon.getCleanName()+"/" : "") + textureName + getAffixes(considerGender, considerShiny, isShiny, isFemale) + ".png";

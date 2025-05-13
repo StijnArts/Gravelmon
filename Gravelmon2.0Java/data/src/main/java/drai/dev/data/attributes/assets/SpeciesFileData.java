@@ -5,10 +5,12 @@ import drai.dev.data.pokemon.*;
 
 import java.util.*;
 
+import static drai.dev.data.pokemon.AbstractPokemon.MEGA_EVOLUTIONS;
+
 public class SpeciesFileData {
     public List<VariationData> variations = new ArrayList<>();
 
-    public JsonObject toJsonObject(String species, int order, List<String> aspects, AbstractPokemon abstractPokemon){
+    public JsonObject toJsonObject(String species, int order, List<String> aspects, WorldRepresentablePokemon abstractPokemon){
         var jsonObject = new JsonObject();
         jsonObject.addProperty("species", "cobblemon:" + species);
         jsonObject.addProperty("order", order);
@@ -33,6 +35,8 @@ public class SpeciesFileData {
                 }
             }
         });
+
+
         jsonObject.add("variations", variationsArray);
         return jsonObject;
     }

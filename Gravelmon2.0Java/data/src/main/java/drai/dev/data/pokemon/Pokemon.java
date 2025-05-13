@@ -24,7 +24,6 @@ public class Pokemon extends AbstractPokemon {
     private String shoulderMountEffect;
     @Nullable
     private Aspect formAdditionAspect;
-    private boolean usesBigModel = false;
 
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
@@ -192,8 +191,8 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public void processAssets(String resourcesDir){
-            processPokemonAssets(this, resourcesDir, hasGenderDifferences);
-            forms.forEach(form -> form.processPokemonAssets(form, resourcesDir, hasGenderDifferences));
+            processPokemonAssets(resourcesDir, hasGenderDifferences);
+            forms.forEach(form -> form.processPokemonAssets(resourcesDir, hasGenderDifferences));
     }
 
     protected static void addAdditionalPreEvolution(String from, String result) {
@@ -268,19 +267,9 @@ public class Pokemon extends AbstractPokemon {
         return formAdditionAspect;
     }
 
-    public Pokemon setUsesBigModel() {
-        this.usesBigModel = true;
-//        this.baseScale = baseScale / 4;
-        return this;
-    }
-
     public Pokemon setPreferredBlocks(String... preferredBlocks) {
         this.spawnData.stream().filter(pokemonSpawnData -> pokemonSpawnData.getSpawnContext() != SpawnContext.FISHING).forEach(pokemonSpawnData -> pokemonSpawnData.getPreferredBlocks().addAll(List.of(preferredBlocks)));
         return this;
-    }
-
-    public boolean usesBigModel() {
-        return usesBigModel;
     }
 
     public Pokemon createFishingSpawn(SpawnPool spawnPool, int minLevel, int maxLevel, double weight) {
@@ -353,5 +342,47 @@ public class Pokemon extends AbstractPokemon {
             strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + key));
         }));
         return strings;
+    }
+
+    public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, Game game) {
+        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, this.getAdditionalAspect()));
+        return this;
+    }
+
+    public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, Game game, Type primaryType) {
+        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, this.getAdditionalAspect(), primaryType));
+        return this;
+    }
+
+    public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, Game game, Type primaryType, Type secondaryType) {
+        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, this.getAdditionalAspect(), primaryType, secondaryType));
+        return this;
+    }
+
+    public static void addMegaEvolution(MegaEvolution megaEvolution) {
+        List<MegaEvolution> megas = MEGA_EVOLUTIONS.computeIfAbsent(megaEvolution.getNonMegaCleanName(), k -> new ArrayList<>());
+        String regionName = megaEvolution.getGame().getName(); // or game.getName()
+        String prefix = regionName.substring(0, 1).toUpperCase();
+
+        megas.add(megaEvolution);
+        if (megas.size() < 2) {
+            return;
+        }
+
+        boolean prefixAlreadyUsed = megas.stream()
+                .anyMatch(mega -> mega.getMegaName().startsWith(prefix));
+
+        if (prefixAlreadyUsed) {
+            // Update existing megas that used the prefix to full region name
+            for (MegaEvolution existing : megas) {
+                if (existing.getMegaName().startsWith(prefix)) {
+                    String oldRegionName = existing.getGame().getName();
+                    existing.setMegaName("Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(oldRegionName)));
+                }
+            }
+            megaEvolution.setMegaName("Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(regionName)));
+        } else {
+            megaEvolution.setMegaName("Mega_" + StringUtils.capitalize(prefix));
+        }
     }
 }

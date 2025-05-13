@@ -31,7 +31,7 @@ public class SimpleTextureLayerData extends BasicLayerData {
         return toJsonObject(abstractPokemon, isShiny, false);
     }
 
-    public JsonObject toJsonObject(AbstractPokemon abstractPokemon, boolean isShiny, boolean isFemale){
+    public JsonObject toJsonObject(WorldRepresentablePokemon abstractPokemon, boolean isShiny, boolean isFemale){
         var json = super.toJsonObject();
         json.addProperty("texture", getTextureLocation(textureName, abstractPokemon, considerShiny, considerGender, isShiny, isFemale));
         return json;

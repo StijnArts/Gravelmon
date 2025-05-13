@@ -8,9 +8,21 @@ import org.apache.commons.lang3.*;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 public class PokeDexEntryWriter {
     static int order = 10;
+    public static void writeMega(MegaEvolution megaEvolution, String resourcesDir) {
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
+            try {
+                String dir = resourcesDir + "\\data\\cobblemon\\dex_entries\\pokemon\\"+megaEvolution.getGame().getName().toLowerCase()+"\\";
+                Files.createDirectories(new File(dir).toPath());
+                writePokedexEntry(megaEvolution, dir, gson);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+    }
+
     public static void write(Game game, String resourcesDir) {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
@@ -24,29 +36,38 @@ public class PokeDexEntryWriter {
         });
     }
 
-    private static void writePokedexEntry(Pokemon pokemon, String dir, Gson gson) throws IOException {
+    private static void writePokedexEntry(WorldRepresentablePokemon worldRepresentablePokemon, String dir, Gson gson) throws IOException {
         order += 1;
         var fileContents = new JsonObject();
-        var speciesId = pokemon.getCleanName();
-        var speciesName = pokemon.getCleanName();
+        var speciesId = worldRepresentablePokemon.getCleanName();
+        var speciesName = worldRepresentablePokemon.getCleanName();
         var speciesNamespace = "cobblemon";
-        var aspect = "Normal";
-        if(Pokemon.isAnAdditionalForm(pokemon)) {
+        var aspects = new ArrayList<String>();
+        aspects.add("Normal");
+        if(worldRepresentablePokemon instanceof Pokemon pokemon && Pokemon.isAnAdditionalForm(pokemon)) {
             speciesName = Pokemon.getKeysByValue(Pokemon.ADDITIONAL_FORMS, pokemon).stream().findFirst().get();
             speciesId = speciesName + "-" + pokemon.getAdditionalAspect().name().toLowerCase();
-            aspect = StringUtils.capitalize(GravelmonUtils.getCleanName(pokemon.getAdditionalAspect().name().toLowerCase()).replace("_", ""));
+            aspects.clear();
+            aspects.add(StringUtils.capitalize(GravelmonUtils.getCleanName(pokemon.getAdditionalAspect().name().toLowerCase()).replace("_", "")));
+        } else if(worldRepresentablePokemon instanceof MegaEvolution mega) {
+            speciesName = mega.getNonMegaCleanName();
+            speciesId = speciesName + (mega.getAspect()!=null?"-" + mega.getAspect().name().toLowerCase():"") + "-" + GravelmonUtils.getCleanName(mega.getMegaName());
+            aspects.clear();
+            aspects.add(mega.getMegaName());
+            if(mega.getAspect()!=null) aspects.add(mega.getAspect().name().toLowerCase());
         }
+
         fileContents.addProperty("id","cobblemon:"+speciesId);
         fileContents.addProperty("speciesId",speciesNamespace+":"+speciesName);
-        fileContents.add("displayAspects",new JsonArray());
+        var unlockForms = new JsonArray();
+        aspects.forEach(unlockForms::add);
+        fileContents.add("displayAspects", new JsonArray());
         fileContents.add("conditionAspects",new JsonArray());
         var forms = new JsonArray();
         fileContents.add("forms",forms);
-        var unlockForms = new JsonArray();
-        unlockForms.add(aspect);
         var baseForm = new JsonObject();
 
-        baseForm.addProperty("displayForm", aspect);
+        baseForm.addProperty("displayForm", String.join(" ", aspects));
         baseForm.add("unlockForms", unlockForms);
         forms.add(baseForm);
         fileContents.add("conditionAspects",new JsonArray());

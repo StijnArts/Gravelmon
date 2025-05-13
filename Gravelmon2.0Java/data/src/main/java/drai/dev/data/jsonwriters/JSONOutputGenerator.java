@@ -3,6 +3,7 @@ package drai.dev.data.jsonwriters;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.data.jsonwriters.data.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.data.util.*;
 
 import static drai.dev.data.jsonwriters.assets.LanguageGenerator.*;
@@ -13,12 +14,9 @@ public class JSONOutputGenerator {
             game.init(resourcesDir);
             game.getNewPokemon().forEach(pokemon -> pokemon.processAssets(resourcesDir));
         });
-        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
-        PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
-        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
-        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
-        FossilJSONWriter.writeFossils(resourcesDir);
-        PokeBallEffectWriter.writeEffects(resourcesDir);
+        AbstractPokemon.MEGA_EVOLUTIONS.forEach((name, megaEvolutions) -> {
+            megaEvolutions.forEach(megaEvolution -> {megaEvolution.processPokemonAssets(resourcesDir);});
+        });
         LangJSONWriter.writeStarterCategories();
         generateLangFile();
         for(Game game : GameRegistry.games){
@@ -26,13 +24,21 @@ public class JSONOutputGenerator {
             PokeDexWriter.write(game, resourcesDir);
             PokeDexAdditionsWriter.write(game, resourcesDir);
         }
-        //LangJSONWriter.writePlaceholder();
-        //SpeciesDataJSONWriter.writePlaceholder(resourcesDir);
+
+        AbstractPokemon.MEGA_EVOLUTIONS.forEach((name, megaEvolutions) -> {
+            megaEvolutions.forEach(megaEvolution -> {
+                PokeDexEntryWriter.writeMega(megaEvolution, resourcesDir);
+                AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
+            });
+        });
+
+        PoserJSONWriter.writeMegas(resourcesDir);
+        LangJSONWriter.writeMegas();
         //Additional Forms
         LangJSONWriter.finalizeLang(resourcesDir);
         PokeDexWriter.finalizeDexes(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
-//        FakemonExcelGenerator.generateExcel(resourcesDir);
+
         if(false){
             ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
         }
@@ -47,5 +53,11 @@ public class JSONOutputGenerator {
         PoserJSONWriter.writeSpecies(game,resourcesDir);
         LangJSONWriter.writeLang(game,resourcesDir);
         PokeDexEntryWriter.write(game, resourcesDir);
+        SpeciesAdditionsWriter.writeAdditions(resourcesDir);
+        PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
+        AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
+        AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
+        FossilJSONWriter.writeFossils(resourcesDir);
+        PokeBallEffectWriter.writeEffects(resourcesDir);
     }
 }

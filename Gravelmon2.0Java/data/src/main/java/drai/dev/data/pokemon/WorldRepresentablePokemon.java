@@ -5,6 +5,7 @@ import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
 import drai.dev.data.attributes.*;
 import drai.dev.data.attributes.assets.*;
+import drai.dev.data.games.registry.*;
 import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.Label;
@@ -19,6 +20,8 @@ import java.util.*;
 import java.util.List;
 
 public abstract class WorldRepresentablePokemon {
+    protected Game game;
+    protected String name;
     protected File textureDirectory;
     protected File modelFile;
     protected Image placeholderImage;
@@ -28,17 +31,27 @@ public abstract class WorldRepresentablePokemon {
     private final SpeciesFileData speciesFileData = new SpeciesFileData();
     private final PosingFileData posingFileData = new PosingFileData();
     private final PosingFileData femalePosingFileData = new PosingFileData();
+    protected final int height;
+    protected double baseScale;
+    protected double hitboxWidth = 6;
+    protected double hitboxHeight = 6;
 
-    protected void processPokemonAssets(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
-        textureDirectory = findTextureDirectory(abstractPokemon, resourcesDir);
+    public WorldRepresentablePokemon(int height) {
+        this.height = height;
+        this.name = getClass().getSimpleName();
+        this.baseScale = Math.max((double) height / 10 / 4, 0.1);
+    }
+
+    protected void processPokemonAssets(String resourcesDir, boolean hasGenderDifferences){
+        textureDirectory = findTextureDirectory(resourcesDir);
         if(!isModeled()){
-            findOrCreatePlaceholderImage(abstractPokemon, resourcesDir, hasGenderDifferences);
-            double factor = 96d / getPlaceholderMaxSideSize(abstractPokemon);
-            recalculateScales(abstractPokemon, factor);
+            findOrCreatePlaceholderImage(resourcesDir, hasGenderDifferences);
+            double factor = 96d / getPlaceholderMaxSideSize();
+            recalculateScales(factor);
 //            recalculateXYZOffsets(factor);
             posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
             posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
-            ModelJsonWriter.writeModel(abstractPokemon, getPlaceholderImageWidth(abstractPokemon), getPlaceholderImageHeight(abstractPokemon), resourcesDir, false);
+            ModelJsonWriter.writeModel(this, getPlaceholderImageWidth(), getPlaceholderImageHeight(), resourcesDir, false);
 
             if(femalePlaceholderImage != null) {
 //                double femaleSizeFactor = 96d / getFemalePlaceholderMaxSideSize(abstractPokemon);
@@ -46,25 +59,25 @@ public abstract class WorldRepresentablePokemon {
 //                femalePosingFileData.profileScale *= femaleSizeFactor;
                 femalePosingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
                 femalePosingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
-                ModelJsonWriter.writeModel(abstractPokemon, getFemalePlaceholderImageWidth(abstractPokemon), getFemalePlaceholderImageHeight(abstractPokemon), resourcesDir, true);
+                ModelJsonWriter.writeModel(this, getFemalePlaceholderImageWidth(), getFemalePlaceholderImageHeight(), resourcesDir, true);
             }
         } else {
-            abstractPokemon.labels.remove(Label.NOT_MODELED);
-            if(abstractPokemon instanceof Pokemon pokemon){
+            if(this instanceof AbstractPokemon abstractPokemon) abstractPokemon.labels.remove(Label.NOT_MODELED);
+            if(this instanceof Pokemon pokemon){
                 pokemon.getForms().forEach(pokemonForm -> pokemonForm.getLabels().remove(Label.NOT_MODELED));
             }
         }
-        generateSpeciesFileData(abstractPokemon);
-        generatePosingFileData(abstractPokemon);
-        if(isModeled()) validate(abstractPokemon, resourcesDir, hasGenderDifferences);
+        generateSpeciesFileData();
+        generatePosingFileData();
+        if(isModeled()) validate(resourcesDir, hasGenderDifferences);
     }
 
-    private void recalculateScales(AbstractPokemon abstractPokemon, double factor) {
-        abstractPokemon.setBaseScale(abstractPokemon.baseScale * factor);
+    private void recalculateScales(double factor) {
+        setBaseScale(baseScale * factor);
         double newHitboxWidth = /*Math.min(*/6 / factor/*, 3)*/;
         double newHitboxHeight =  /*Math.min(*/6 / factor/*, 3)*/;
-        abstractPokemon.setHitbox(newHitboxWidth, newHitboxHeight);
-        var modelSize = getPlaceholderMaxSideSize(abstractPokemon);
+        setHitbox(newHitboxWidth, newHitboxHeight);
+        var modelSize = getPlaceholderMaxSideSize();
         posingFileData.profileScale = 19.5349 * Math.pow(modelSize, -0.9442);
         posingFileData.portraitScale = 18.3558 * Math.pow(modelSize, -0.9805);
         posingFileData.profileCoords.y = 0.2881 * Math.pow(modelSize, 0.2838);
@@ -72,9 +85,9 @@ public abstract class WorldRepresentablePokemon {
 //        posingFileData.profileCoords.multiply(profileDiff);
     }
 
-    private void validate(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences) {
+    private void validate(String resourcesDir, boolean hasGenderDifferences) {
         //Species File validation
-        var modelName = abstractPokemon.getGame().getCleanName()+"_"+abstractPokemon.getCleanName();
+        var modelName = getModelName();
         var modelLocation = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\"+ modelName;
         if(!new File(modelLocation+ ".geo.json").exists()){
             Cobblemon.LOGGER.warn("Model {} does not exist", modelLocation);
@@ -107,6 +120,10 @@ public abstract class WorldRepresentablePokemon {
         } catch (FileNotFoundException e) {
             Cobblemon.LOGGER.warn("Animation {} is invalid", animationFileName);
         }
+    }
+
+    protected @NotNull String getModelName() {
+        return getGame().getCleanName() + "_" + getCleanName();
     }
 
     private void checkAnimationsExists(AnimationData animationData, HashMap<String, String> animationMap, String animationFileName) {
@@ -143,51 +160,49 @@ public abstract class WorldRepresentablePokemon {
         return true;
     }
 
-    private void generateSpeciesFileData(AbstractPokemon abstractPokemon) {
+    private void generateSpeciesFileData() {
         if(!isModeled()){
-            speciesFileData.variations.add(VariationData.fromPokemon(abstractPokemon, List.of()));
+            speciesFileData.variations.add(VariationData.fromPokemon(this, List.of()));
         }
     }
 
-    private void generatePosingFileData(AbstractPokemon abstractPokemon) {
+    private void generatePosingFileData() {
         if(posingFileData.animationFileName == null || posingFileData.animationFileName.isEmpty()){
-            posingFileData.animationFileName = isModeled() ? abstractPokemon.getCleanName() : "cutout";
+            posingFileData.animationFileName = isModeled() ? getCleanName() : "cutout";
         }
     }
 
-    int getPlaceholderImageWidth(AbstractPokemon abstractPokemon) {
+    int getPlaceholderImageWidth() {
         if(placeholderImage == null) {
-            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            System.out.println("placeholderImage is null for pokemon "+getCleanName());
             return 98;
         }
         return placeholderImage.getWidth(null);
     }
-    int getPlaceholderImageHeight(AbstractPokemon abstractPokemon) {
+    int getPlaceholderImageHeight() {
         if(placeholderImage == null) {
-            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            System.out.println("placeholderImage is null for pokemon "+getCleanName());
             return 98;
         }
         return placeholderImage.getHeight(null);
     }
-    int getPlaceholderMaxSideSize(AbstractPokemon abstractPokemon) {
+    int getPlaceholderMaxSideSize() {
         if(placeholderImage == null) {
-            System.out.println("placeholderImage is null for pokemon "+abstractPokemon.getCleanName());
+            System.out.println("placeholderImage is null for pokemon "+this.getCleanName());
             return 98;
         }
-        return Math.max(getPlaceholderImageHeight(abstractPokemon), getPlaceholderImageWidth(abstractPokemon));
-    }
-    int getFemalePlaceholderImageWidth(AbstractPokemon abstractPokemon) {
-        return femalePlaceholderImage.getWidth(null);
-    }
-    int getFemalePlaceholderImageHeight(AbstractPokemon abstractPokemon) {
-        return femalePlaceholderImage.getHeight(null);
-    }
-    int getFemalePlaceholderMaxSideSize(AbstractPokemon abstractPokemon) {
-        return Math.max(getFemalePlaceholderImageHeight(abstractPokemon), getFemalePlaceholderImageWidth(abstractPokemon));
+        return Math.max(getPlaceholderImageHeight(), getPlaceholderImageWidth());
     }
 
-    private @NotNull File findTextureDirectory(AbstractPokemon abstractPokemon, String resourcesDir){
-        var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + abstractPokemon.getGame().getName().toLowerCase() + "\\" + abstractPokemon.getCleanName();
+    int getFemalePlaceholderImageWidth() {
+        return femalePlaceholderImage.getWidth(null);
+    }
+    int getFemalePlaceholderImageHeight() {
+        return femalePlaceholderImage.getHeight(null);
+    }
+
+    protected @NotNull File findTextureDirectory(String resourcesDir){
+        var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + this.getGame().getName().toLowerCase() + "\\" + this.getCleanName();
         return new File(expectedDir);
     }
 
@@ -196,18 +211,18 @@ public abstract class WorldRepresentablePokemon {
         return textureDirectory != null && directoryExists;
     }
 
-    public void findOrCreatePlaceholderImage(AbstractPokemon abstractPokemon, String resourcesDir, boolean hasGenderDifferences){
-        String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + abstractPokemon.getGame().getCleanName() + "\\";
-        if(abstractPokemon instanceof Pokemon) {
+    public void findOrCreatePlaceholderImage(String resourcesDir, boolean hasGenderDifferences){
+        String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + getGame().getCleanName() + "\\";
+        if(this instanceof Pokemon) {
             if (hasGenderDifferences) {
-                abstractPokemon.femalePlaceholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + "_female.png", pathname);
+                femalePlaceholderImage = createPlaceholderTextureIfNotExists(getCleanName() + "_female.png", pathname);
             }
-            abstractPokemon.placeholderImage = createPlaceholderTextureIfNotExists(abstractPokemon.getCleanName() + ".png", pathname);
-        } else if (abstractPokemon instanceof PokemonForm pokemonForm){
+            placeholderImage = createPlaceholderTextureIfNotExists(getCleanName() + ".png", pathname);
+        } else if (this instanceof PokemonForm pokemonForm){
             if (hasGenderDifferences) {
-                abstractPokemon.femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
+                femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
             }
-            abstractPokemon.placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
+            placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
         }
     }
 
@@ -270,12 +285,63 @@ public abstract class WorldRepresentablePokemon {
         return posingFileData;
     }
 
-    public String getPlaceholderModelName(AbstractPokemon abstractPokemon, boolean isFemaleModel) {
-        if(isFemaleModel) return getFemalePlaceholderModelName(abstractPokemon);
-        return "cutout_gravelmon_" + getPlaceholderImageWidth(abstractPokemon) +"_by_" + getPlaceholderImageHeight(abstractPokemon);
+    public String getPlaceholderModelName( boolean isFemaleModel) {
+        if(isFemaleModel) return getFemalePlaceholderModelName();
+        return "cutout_gravelmon_" + getPlaceholderImageWidth() +"_by_" + getPlaceholderImageHeight();
     }
 
-    public String getFemalePlaceholderModelName(AbstractPokemon abstractPokemon) {
-        return "cutout_gravelmon_" + getFemalePlaceholderImageWidth(abstractPokemon) +"_by_" + getFemalePlaceholderImageHeight(abstractPokemon);
+    public String getFemalePlaceholderModelName() {
+        return "cutout_gravelmon_" + getFemalePlaceholderImageWidth() +"_by_" + getFemalePlaceholderImageHeight();
+    }
+
+    public double getBaseScale() {
+        return baseScale;
+    }
+
+    public void setBaseScale(double scale) {
+        this.baseScale = scale;
+        this.setHitbox(1,1);
+        if(this instanceof Pokemon pokemon) {
+            pokemon.getForms().forEach(forms -> forms.setBaseScale(scale));
+        }
+    }
+
+    public double getHitboxWidth() {
+        return hitboxWidth;
+    }
+
+    public double getHitboxHeight() {
+        return hitboxHeight;
+    }
+
+    protected void setHitbox(double width, double height) {
+        this.hitboxWidth = width;
+        this.hitboxHeight = height;
+        if(this instanceof Pokemon pokemon){
+            pokemon.getForms().forEach(forms -> {
+                double newFormHitboxWidth = (double) forms.getHeight() / 10;
+                double newFormHitboxHeight = (double) forms.getHeight() / 10;
+                forms.setHitbox(newFormHitboxWidth, newFormHitboxHeight);
+            });
+        }
+    }
+
+    public String getCleanName() {
+        return name.toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
+                .replace("'","").replace("\\.","");
+    }
+    
+    public void setGame(Game game) {
+        this.game = game;
+    }
+
+    public abstract Game getGame();
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

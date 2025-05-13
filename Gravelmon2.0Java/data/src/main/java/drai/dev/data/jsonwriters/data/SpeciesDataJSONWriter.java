@@ -100,7 +100,7 @@ public class SpeciesDataJSONWriter {
         return fileContents;
     }
 
-    public static <T extends AbstractPokemon> JsonElement getFeatures(List<T> forms) {
+    public static <T extends AbstractPokemon> JsonArray getFeatures(List<T> forms) {
         var features = new JsonArray();
         for (var form : forms) {
             if(form instanceof Pokemon pokemon&& AbstractPokemon.isAnAdditionalForm(pokemon)){

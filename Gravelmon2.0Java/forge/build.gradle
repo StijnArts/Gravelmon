@@ -51,6 +51,13 @@ dependencies {
     }
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:9.5.4-release-neoforge")
+
+    // Compile against only the API artifact
+    compileOnly("top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1:api")
+
+    // Use the full Curios API jar at runtime
+    runtimeOnly("top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1")
 }
 
 def replaceProperties = [mod_id          : mod_id,
