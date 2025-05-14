@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:chimecho",
-  "evolutions": [
-    {
-      "id": "chimecho_karakoron",
-      "variant": "level_up",
-      "result": "karakoron",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "hypervoice"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Aromian",
@@ -273,5 +257,21 @@
   "features": [
     "aromian",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "chimecho_karakoron",
+      "variant": "level_up",
+      "result": "karakoron",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "hypervoice"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

@@ -1,53 +1,5 @@
 {
   "target": "cobblemon:dragonair",
-  "evolutions": [
-    {
-      "id": "dragonair_raianiandragonite",
-      "variant": "level_up",
-      "result": "raianiandragonite",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "55"
-        },
-        {
-          "variant": "properties",
-          "target": "gender=female",
-          "contains": true
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_cold_ocean"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "dragonair_dragoniteraianiantwo",
-      "variant": "level_up",
-      "result": "dragonite-raianiantwo",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "55"
-        },
-        {
-          "variant": "properties",
-          "target": "gender=female",
-          "contains": true
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_cold_ocean"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Mahalian",
@@ -915,5 +867,53 @@
     "norheiman",
     "delta",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "dragonair_raianiandragonite",
+      "variant": "level_up",
+      "result": "raianiandragonite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "55"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold_ocean"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "dragonair_dragoniteraianiantwo",
+      "variant": "level_up",
+      "result": "dragonite-raianiantwo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "55"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold_ocean"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

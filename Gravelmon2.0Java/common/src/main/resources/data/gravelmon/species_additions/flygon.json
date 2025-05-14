@@ -538,12 +538,63 @@
         "height": 10.375,
         "fixed": false
       }
+    },
+    {
+      "name": "armored",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "baseScale": 0.575,
+      "cannotDynamax": true,
+      "abilities": [
+        "levitate",
+        "h:levitate"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 104,
+        "special_attack": 80,
+        "special_defence": 104,
+        "speed": 100
+      },
+      "evolutions": [
+        {
+          "id": "armored armored_armored",
+          "variant": "level_up",
+          "result": "armored",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "permanent": true
+        }
+      ],
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "height": 23,
+      "aspects": [
+        "armored"
+      ]
     }
   ],
   "features": [
     "epoch",
     "ionosian",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "armored"
+  ],
+  "evolutions": [
+    {
+      "id": "flygon_flygon_armored",
+      "variant": "item_interact",
+      "result": "flygon armored",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_helmet",
+      "permanent": true
+    }
   ]
 }

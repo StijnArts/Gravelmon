@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:electrode",
-  "evolutions": [
-    {
-      "id": "electrode_sphericoil",
-      "variant": "item_interact",
-      "result": "sphericoil",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:thunder_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:thunder_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -706,5 +684,29 @@
     "norheiman",
     "ayreian",
     "mystic"
+  ],
+  "evolutions": [
+    {
+      "id": "electrode_sphericoil",
+      "variant": "item_interact",
+      "result": "sphericoil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:thunder_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

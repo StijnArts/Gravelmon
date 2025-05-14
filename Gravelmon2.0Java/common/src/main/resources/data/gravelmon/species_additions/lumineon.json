@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:lumineon",
-  "evolutions": [
-    {
-      "id": "lumineon_tetoraito",
-      "variant": "item_interact",
-      "result": "tetoraito",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:water_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:water_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -296,5 +274,29 @@
   "features": [
     "epoch",
     "lagoonan"
+  ],
+  "evolutions": [
+    {
+      "id": "lumineon_tetoraito",
+      "variant": "item_interact",
+      "result": "tetoraito",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:water_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

@@ -1,54 +1,5 @@
 {
   "target": "cobblemon:indeedee",
-  "evolutions": [
-    {
-      "id": "indeedee_parlomai",
-      "variant": "item_interact",
-      "result": "parlomai",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "properties",
-          "target": "gender=female",
-          "contains": true
-        }
-      ],
-      "requiredContext": "cobblemon:room_service",
-      "permanent": true
-    },
-    {
-      "id": "indeedee_valevant",
-      "variant": "item_interact",
-      "result": "valevant",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "properties",
-          "target": "gender=male",
-          "contains": true
-        }
-      ],
-      "requiredContext": "cobblemon:room_service",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:room_service",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:room_service",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -213,5 +164,56 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "indeedee_parlomai",
+      "variant": "item_interact",
+      "result": "parlomai",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=female",
+          "contains": true
+        }
+      ],
+      "requiredContext": "cobblemon:room_service",
+      "permanent": true
+    },
+    {
+      "id": "indeedee_valevant",
+      "variant": "item_interact",
+      "result": "valevant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=male",
+          "contains": true
+        }
+      ],
+      "requiredContext": "cobblemon:room_service",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:room_service",
+          "quantityRange": "1-1",
+          "percentage": 10
+        },
+        {
+          "item": "cobblemon:room_service",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

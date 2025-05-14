@@ -1,43 +1,5 @@
 {
   "target": "cobblemon:hoothoot",
-  "evolutions": [
-    {
-      "id": "hoothoot_raianiannoctowl",
-      "variant": "level_up",
-      "result": "raianiannoctowl",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "22"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_mountain"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "hoothoot_mikitariannoctowl",
-      "variant": "level_up",
-      "result": "mikitariannoctowl",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "20"
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -1259,5 +1221,43 @@
     "enjinnian",
     "egho",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "hoothoot_raianiannoctowl",
+      "variant": "level_up",
+      "result": "raianiannoctowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "22"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_mountain"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "hoothoot_mikitariannoctowl",
+      "variant": "level_up",
+      "result": "mikitariannoctowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "20"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

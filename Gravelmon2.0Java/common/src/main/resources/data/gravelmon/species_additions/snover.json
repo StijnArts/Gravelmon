@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:snover",
-  "evolutions": [
-    {
-      "id": "snover_permaent",
-      "variant": "level_up",
-      "result": "permaent",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "40"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_taiga"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -595,5 +575,25 @@
     "epoch",
     "kaskadian",
     "cefiran"
+  ],
+  "evolutions": [
+    {
+      "id": "snover_permaent",
+      "variant": "level_up",
+      "result": "permaent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_taiga"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

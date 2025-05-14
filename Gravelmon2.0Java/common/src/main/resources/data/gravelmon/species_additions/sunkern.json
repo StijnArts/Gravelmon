@@ -1,22 +1,5 @@
 {
   "target": "cobblemon:sunkern",
-  "evolutions": [
-    {
-      "id": "sunkern_nodorransunflora",
-      "variant": "level_up",
-      "result": "nodorransunflora",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "suncada",
-          "contains": true
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -497,5 +480,22 @@
     "forman",
     "epoch",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "sunkern_nodorransunflora",
+      "variant": "level_up",
+      "result": "nodorransunflora",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "suncada",
+          "contains": true
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

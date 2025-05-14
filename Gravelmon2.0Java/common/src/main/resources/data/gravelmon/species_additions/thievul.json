@@ -1,15 +1,5 @@
 {
   "target": "cobblemon:thievul",
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "evolutions": [
     {
       "id": "thievul_yeggrize",
@@ -20,6 +10,18 @@
       "requirements": [],
       "requiredContext": "minecraft:end_crystal",
       "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
     }
   ]
 }

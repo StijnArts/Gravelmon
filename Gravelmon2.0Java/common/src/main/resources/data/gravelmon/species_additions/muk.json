@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:muk",
-  "preEvolution": "novrangrimer",
   "forms": [
     {
       "name": "Epoch",
@@ -1062,5 +1061,6 @@
     "egho",
     "delta",
     "ayreian"
-  ]
+  ],
+  "preEvolution": "novrangrimer"
 }

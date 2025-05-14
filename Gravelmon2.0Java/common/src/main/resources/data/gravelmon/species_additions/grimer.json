@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:grimer",
-  "preEvolution": "goobae",
   "forms": [
     {
       "name": "Forman",
@@ -1229,5 +1228,6 @@
     "egho",
     "delta",
     "ayreian"
-  ]
+  ],
+  "preEvolution": "goobae"
 }

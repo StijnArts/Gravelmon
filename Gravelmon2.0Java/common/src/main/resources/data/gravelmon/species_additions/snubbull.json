@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:snubbull",
-  "evolutions": [
-    {
-      "id": "snubbull_granbull_ionosian",
-      "variant": "level_up",
-      "result": "granbull ionosian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_badlands"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -134,5 +118,21 @@
   ],
   "features": [
     "forman"
+  ],
+  "evolutions": [
+    {
+      "id": "snubbull_granbull_ionosian",
+      "variant": "level_up",
+      "result": "granbull ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_badlands"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

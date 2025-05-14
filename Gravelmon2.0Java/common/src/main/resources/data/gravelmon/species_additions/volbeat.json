@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:volbeat",
-  "preEvolution": "peritwinkle",
   "forms": [
     {
       "name": "Mastenian",
@@ -107,5 +106,6 @@
   ],
   "features": [
     "mastenian"
-  ]
+  ],
+  "preEvolution": "peritwinkle"
 }

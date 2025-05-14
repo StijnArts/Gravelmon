@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:taillow",
-  "evolutions": [
-    {
-      "id": "taillow_swellow_armiran",
-      "variant": "level_up",
-      "result": "swellow armiran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_highlands"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -176,5 +160,21 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "taillow_swellow_armiran",
+      "variant": "level_up",
+      "result": "swellow armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_highlands"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

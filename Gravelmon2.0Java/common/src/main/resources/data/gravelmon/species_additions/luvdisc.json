@@ -1,35 +1,5 @@
 {
   "target": "cobblemon:luvdisc",
-  "evolutions": [
-    {
-      "id": "luvdisc_valentide",
-      "variant": "level_up",
-      "result": "valentide",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "luvdisc_delfine",
-      "variant": "level_up",
-      "result": "delfine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "220"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Hizian",
@@ -314,5 +284,35 @@
   "features": [
     "hizian",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "luvdisc_valentide",
+      "variant": "level_up",
+      "result": "valentide",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "luvdisc_delfine",
+      "variant": "level_up",
+      "result": "delfine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "220"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

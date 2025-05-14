@@ -326,10 +326,62 @@
         "height": 4.25,
         "fixed": false
       }
+    },
+    {
+      "name": "armored",
+      "primaryType": "bug",
+      "secondaryType": "grass",
+      "baseScale": 0.3,
+      "cannotDynamax": true,
+      "abilities": [
+        "swarm",
+        "chlorophyll",
+        "h:overcoat"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 103,
+        "defence": 104,
+        "special_attack": 70,
+        "special_defence": 104,
+        "speed": 92
+      },
+      "evolutions": [
+        {
+          "id": "armored armored_armored",
+          "variant": "level_up",
+          "result": "armored",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "permanent": true
+        }
+      ],
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "height": 12,
+      "aspects": [
+        "armored"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "ishirian"
+    "ishirian",
+    "armored"
+  ],
+  "evolutions": [
+    {
+      "id": "leavanny_leavanny_armored",
+      "variant": "item_interact",
+      "result": "leavanny armored",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_helmet",
+      "permanent": true
+    }
   ]
 }

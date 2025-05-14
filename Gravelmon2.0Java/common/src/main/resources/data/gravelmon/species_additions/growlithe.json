@@ -1,32 +1,5 @@
 {
   "target": "cobblemon:growlithe",
-  "evolutions": [
-    {
-      "id": "growlithe_raianianarcanine",
-      "variant": "item_interact",
-      "result": "raianianarcanine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_mountain"
-        }
-      ],
-      "requiredContext": "cobblemon:fire_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:fire_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Palmian",
@@ -1114,5 +1087,34 @@
     "delta",
     "armiran",
     "ishirian"
+  ],
+  "evolutions": [
+    {
+      "id": "growlithe_raianianarcanine",
+      "variant": "item_interact",
+      "result": "raianianarcanine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_mountain"
+        }
+      ],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:fire_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

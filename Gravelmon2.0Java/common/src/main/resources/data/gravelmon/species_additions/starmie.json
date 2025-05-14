@@ -1,17 +1,5 @@
 {
   "target": "cobblemon:starmie",
-  "evolutions": [
-    {
-      "id": "starmie_starmie_ionosian",
-      "variant": "item_interact",
-      "result": "starmie ionosian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:astral_stone",
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -273,5 +261,17 @@
   "features": [
     "epoch",
     "ionosian"
+  ],
+  "evolutions": [
+    {
+      "id": "starmie_starmie_ionosian",
+      "variant": "item_interact",
+      "result": "starmie ionosian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:astral_stone",
+      "permanent": true
+    }
   ]
 }

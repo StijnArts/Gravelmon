@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:croagunk",
-  "evolutions": [
-    {
-      "id": "croagunk_staticroak",
-      "variant": "level_up",
-      "result": "staticroak",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "thunderpunch"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -395,5 +379,21 @@
   "features": [
     "epoch",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "croagunk_staticroak",
+      "variant": "level_up",
+      "result": "staticroak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "thunderpunch"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

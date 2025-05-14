@@ -36,7 +36,14 @@ public class AdditionalFormAssetsJSONWriter {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-
+        });
+        ArmoredForm.ARMORED_FORMS.entrySet().forEach(entry -> {
+            try {
+                Files.createDirectories(new File(dir).toPath());
+                writePokemon(GravelmonUtils.getCleanName(entry.getKey()), dir, resourcesDir, gson, entry.getValue(), 9999, 0);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         });
     }
 
@@ -45,31 +52,33 @@ public class AdditionalFormAssetsJSONWriter {
             int formCounter = 10;
             for (int i = 0; i < set.getValue().size(); i++) {
                 var worldRepresentablePokemon = set.getValue().get(i);
-                String fileNameAspect = "";
-                String aspect = "";
-                int order = 0;
-                if(worldRepresentablePokemon instanceof Pokemon pokemon){
-                    order = formCounter + Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
-                    aspect = pokemon.getAdditionalAspect().getName();
-                    if(worldRepresentablePokemon.getName().endsWith("One")) {
-                        aspect += "two";
-                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                    }
-                    if(worldRepresentablePokemon.getName().endsWith("Two")) {
-                        aspect += "three";
-                        SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-                    }
-                    fileNameAspect = aspect;
-                } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
-                    aspect = megaEvolution.getIndependentMegaAspect();
-                    order = formCounter + 1000 + i;
-                    fileNameAspect = megaEvolution.getMegaAspect();
-                }
-
-                BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + GravelmonUtils.getCleanName(set.getKey()) + "_" + fileNameAspect + ".json"));
-                writer.write(gson.toJson(worldRepresentablePokemon.getSpeciesFileData().toJsonObject(GravelmonUtils.getCleanName(set.getKey()), order, List.of(aspect), worldRepresentablePokemon)));
-                writer.close();
+                writePokemon(GravelmonUtils.getCleanName(set.getKey()), dir, resourcesDir, gson, worldRepresentablePokemon, formCounter, i);
             }
         }
+    }
+
+    private static <T extends WorldRepresentablePokemon> void writePokemon(String key, String dir, String resourcesDir,
+                                                                           Gson gson, T worldRepresentablePokemon, int formCounter, int i) throws IOException {
+        String aspect = "";
+        int order = 0;
+        if(worldRepresentablePokemon instanceof Pokemon pokemon){
+            order = formCounter + Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
+            aspect = pokemon.getAdditionalAspect().getName();
+            if(worldRepresentablePokemon.getName().endsWith("One")) {
+                aspect += "two";
+                SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+            }
+            if(worldRepresentablePokemon.getName().endsWith("Two")) {
+                aspect += "three";
+                SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+            }
+        } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
+            aspect = megaEvolution.getIndependentMegaAspect();
+            order = formCounter + 1000 + i;
+        }
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + key + "_" + aspect + ".json"));
+        writer.write(gson.toJson(worldRepresentablePokemon.getSpeciesFileData().toJsonObject(key, order, List.of(aspect), worldRepresentablePokemon)));
+        writer.close();
     }
 }

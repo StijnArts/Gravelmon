@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:smoochum",
-  "evolutions": [
-    {
-      "id": "smoochum_jynx_kaskadian",
-      "variant": "level_up",
-      "result": "jynx kaskadian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_temperate"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -611,5 +591,25 @@
     "epoch",
     "ionosian",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "smoochum_jynx_kaskadian",
+      "variant": "level_up",
+      "result": "jynx kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_temperate"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

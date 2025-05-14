@@ -1,59 +1,5 @@
 {
   "target": "cobblemon:torkoal",
-  "evolutions": [
-    {
-      "id": "torkoal_galavagos",
-      "variant": "level_up",
-      "result": "galavagos",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "45"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "torkoal_tormine",
-      "variant": "level_up",
-      "result": "tormine",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "40"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "torkoal_tortorge",
-      "variant": "level_up",
-      "result": "tortorge",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:metal_coat",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Mahalian",
@@ -323,5 +269,61 @@
   "features": [
     "mahalian",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "torkoal_galavagos",
+      "variant": "level_up",
+      "result": "galavagos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "45"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "torkoal_tormine",
+      "variant": "level_up",
+      "result": "tormine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "torkoal_tortorge",
+      "variant": "level_up",
+      "result": "tortorge",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:metal_coat",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

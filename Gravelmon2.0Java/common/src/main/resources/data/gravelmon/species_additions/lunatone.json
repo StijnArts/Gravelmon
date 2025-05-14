@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:lunatone",
-  "evolutions": [
-    {
-      "id": "lunatone_planite",
-      "variant": "item_interact",
-      "result": "planite",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:moon_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:moon_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -355,5 +333,29 @@
   "features": [
     "epoch",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "lunatone_planite",
+      "variant": "item_interact",
+      "result": "planite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:moon_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

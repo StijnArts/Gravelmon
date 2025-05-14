@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:drowzee",
-  "preEvolution": "snooz",
   "forms": [
     {
       "name": "Forman",
@@ -410,5 +409,6 @@
     "forman",
     "epoch",
     "enjinnian"
-  ]
+  ],
+  "preEvolution": "snooz"
 }

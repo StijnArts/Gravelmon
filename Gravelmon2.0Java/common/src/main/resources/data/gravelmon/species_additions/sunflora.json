@@ -1,47 +1,5 @@
 {
   "target": "cobblemon:sunflora",
-  "evolutions": [
-    {
-      "id": "sunflora_sunflorid",
-      "variant": "item_interact",
-      "result": "sunflorid",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "incinerate"
-      ],
-      "requirements": [],
-      "requiredContext": "cobblemon:fire_stone",
-      "permanent": true
-    },
-    {
-      "id": "sunflora_sunnydra",
-      "variant": "level_up",
-      "result": "sunnydra",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "220"
-        },
-        {
-          "variant": "time_range",
-          "range": "day"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:fire_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Nodorran",
@@ -500,5 +458,49 @@
     "nodorran",
     "epoch",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "sunflora_sunflorid",
+      "variant": "item_interact",
+      "result": "sunflorid",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "incinerate"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
+    },
+    {
+      "id": "sunflora_sunnydra",
+      "variant": "level_up",
+      "result": "sunnydra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "220"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:fire_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

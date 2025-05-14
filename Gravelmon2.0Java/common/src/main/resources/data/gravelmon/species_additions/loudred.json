@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:loudred",
-  "evolutions": [
-    {
-      "id": "loudred_exploud_kaskadian",
-      "variant": "level_up",
-      "result": "exploud kaskadian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "40"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_cold"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Raianian",
@@ -323,5 +303,25 @@
   "features": [
     "raianian",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "loudred_exploud_kaskadian",
+      "variant": "level_up",
+      "result": "exploud kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "40"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

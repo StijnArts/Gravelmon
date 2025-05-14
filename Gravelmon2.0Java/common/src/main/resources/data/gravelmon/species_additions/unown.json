@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:unown",
-  "evolutions": [
-    {
-      "id": "unown_metunn",
-      "variant": "item_interact",
-      "result": "metunn",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:ancient_glyph",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:ancient_glyph",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -406,5 +384,29 @@
     "norheiman",
     "earth",
     "xenoverse"
+  ],
+  "evolutions": [
+    {
+      "id": "unown_metunn",
+      "variant": "item_interact",
+      "result": "metunn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:ancient_glyph",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:ancient_glyph",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:lapras",
-  "preEvolution": "pressie",
   "forms": [
     {
       "name": "Ferranian",
@@ -1071,5 +1070,6 @@
     "novran",
     "ayreian",
     "kaskadian"
-  ]
+  ],
+  "preEvolution": "pressie"
 }

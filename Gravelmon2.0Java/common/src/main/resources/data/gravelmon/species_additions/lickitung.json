@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:lickitung",
-  "preEvolution": "tasticky",
   "forms": [
     {
       "name": "Forman",
@@ -220,5 +219,6 @@
   "features": [
     "forman",
     "hizian"
-  ]
+  ],
+  "preEvolution": "tasticky"
 }

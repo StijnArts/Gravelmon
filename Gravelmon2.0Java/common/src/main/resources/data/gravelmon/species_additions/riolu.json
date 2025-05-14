@@ -1,47 +1,5 @@
 {
   "target": "cobblemon:riolu",
-  "evolutions": [
-    {
-      "id": "riolu_raianianlucario",
-      "variant": "level_up",
-      "result": "raianianlucario",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "220"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#minecraft:is_nether"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "riolu_ishirianlucario",
-      "variant": "level_up",
-      "result": "ishirianlucario",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_desert"
-        },
-        {
-          "variant": "friendship",
-          "amount": "210"
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Ivrisian",
@@ -826,5 +784,47 @@
     "delta",
     "ayreian",
     "mystic"
+  ],
+  "evolutions": [
+    {
+      "id": "riolu_raianianlucario",
+      "variant": "level_up",
+      "result": "raianianlucario",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "220"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_nether"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "riolu_ishirianlucario",
+      "variant": "level_up",
+      "result": "ishirianlucario",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_desert"
+        },
+        {
+          "variant": "friendship",
+          "amount": "210"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

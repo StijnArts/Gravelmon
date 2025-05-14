@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:bulbasaur",
-  "preEvolution": "barbait",
   "forms": [
     {
       "name": "Forman",
@@ -840,5 +839,6 @@
     "egho",
     "delta",
     "ayreian"
-  ]
+  ],
+  "preEvolution": "barbait"
 }

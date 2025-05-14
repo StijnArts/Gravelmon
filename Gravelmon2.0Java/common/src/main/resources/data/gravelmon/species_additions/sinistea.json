@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:sinistea",
-  "preEvolution": "ghostea",
   "forms": [
     {
       "name": "Fabelian",
@@ -625,5 +624,6 @@
     "ferranian",
     "ivrisian",
     "epoch"
-  ]
+  ],
+  "preEvolution": "ghostea"
 }

@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:claydol",
-  "evolutions": [
-    {
-      "id": "claydol_azagger",
-      "variant": "item_interact",
-      "result": "Azagger",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:blaze_rod",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:blaze_rod",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -177,5 +155,29 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "claydol_azagger",
+      "variant": "item_interact",
+      "result": "Azagger",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:blaze_rod",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:blaze_rod",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

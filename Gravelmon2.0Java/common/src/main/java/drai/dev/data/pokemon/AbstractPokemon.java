@@ -56,7 +56,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean canWalkOnWater = false;
     protected boolean canWalkOnLava = false;
     protected boolean avoidsLand = false;
-    public Map<String, List<EvolutionEntry>> additionalEvolutions = new HashMap<>();
+//    public Map<String, List<EvolutionEntry>> additionalEvolutions = new HashMap<>();
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,

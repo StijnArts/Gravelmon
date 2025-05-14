@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:metapod",
-  "evolutions": [
-    {
-      "id": "metapod_betterfree",
-      "variant": "level_up",
-      "result": "betterfree",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "25"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -245,5 +229,21 @@
   "features": [
     "epoch",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "metapod_betterfree",
+      "variant": "level_up",
+      "result": "betterfree",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "25"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

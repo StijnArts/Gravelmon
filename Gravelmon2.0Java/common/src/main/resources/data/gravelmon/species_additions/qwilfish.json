@@ -1,31 +1,5 @@
 {
   "target": "cobblemon:qwilfish",
-  "evolutions": [
-    {
-      "id": "qwilfish_kablowfish",
-      "variant": "level_up",
-      "result": "kablowfish",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:metal_coat",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -432,5 +406,33 @@
     "forman",
     "avalossian",
     "hoennian"
+  ],
+  "evolutions": [
+    {
+      "id": "qwilfish_kablowfish",
+      "variant": "level_up",
+      "result": "kablowfish",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:metal_coat"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:metal_coat",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

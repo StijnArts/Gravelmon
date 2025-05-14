@@ -1,35 +1,5 @@
 {
   "target": "cobblemon:sneasel",
-  "evolutions": [
-    {
-      "id": "sneasel_reavler",
-      "variant": "level_up",
-      "result": "reavler",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:razor_claw"
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:razor_claw",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -235,5 +205,37 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "sneasel_reavler",
+      "variant": "level_up",
+      "result": "reavler",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:razor_claw"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:razor_claw",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

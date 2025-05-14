@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:mimejr",
-  "evolutions": [
-    {
-      "id": "mimejr_mrmime_avorian",
-      "variant": "level_up",
-      "result": "mrmime avorian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "suckerpunch"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -202,5 +186,21 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "mimejr_mrmime_avorian",
+      "variant": "level_up",
+      "result": "mrmime avorian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "suckerpunch"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

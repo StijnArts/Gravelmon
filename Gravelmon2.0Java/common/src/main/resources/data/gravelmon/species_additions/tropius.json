@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:tropius",
-  "evolutions": [
-    {
-      "id": "tropius_fruitius",
-      "variant": "level_up",
-      "result": "fruitius",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Hizian",
@@ -636,5 +620,21 @@
     "aristosian",
     "ayreian",
     "kaskadian"
+  ],
+  "evolutions": [
+    {
+      "id": "tropius_fruitius",
+      "variant": "level_up",
+      "result": "fruitius",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

@@ -1,42 +1,5 @@
 {
   "target": "cobblemon:pikachu",
-  "evolutions": [
-    {
-      "id": "pikachu_gorochu",
-      "variant": "item_interact",
-      "result": "gorochu",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:fire_stone",
-      "permanent": true
-    },
-    {
-      "id": "pikachu_churaize",
-      "variant": "item_interact",
-      "result": "churaize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:fire_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Norse",
@@ -912,5 +875,44 @@
     "delta",
     "femalex",
     "malex"
+  ],
+  "evolutions": [
+    {
+      "id": "pikachu_gorochu",
+      "variant": "item_interact",
+      "result": "gorochu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
+    },
+    {
+      "id": "pikachu_churaize",
+      "variant": "item_interact",
+      "result": "churaize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:fire_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        },
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

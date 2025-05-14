@@ -1,15 +1,5 @@
 {
   "target": "cobblemon:surtacno",
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:decorated_pot_sherds",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "evolutions": [
     {
       "id": "surtacno_vesfire",
@@ -20,6 +10,18 @@
       "requirements": [],
       "requiredContext": "minecraft:decorated_pot_sherds",
       "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:decorated_pot_sherds",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
     }
   ]
 }

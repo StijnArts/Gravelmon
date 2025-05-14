@@ -1,49 +1,5 @@
 {
   "target": "cobblemon:stantler",
-  "evolutions": [
-    {
-      "id": "stantler_moosid",
-      "variant": "level_up",
-      "result": "moosid",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "crunch"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "stantler_egoelk",
-      "variant": "level_up",
-      "result": "egoelk",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "calmmind"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "stantler_suprago",
-      "variant": "level_up",
-      "result": "suprago",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "sacredsword"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -681,5 +637,49 @@
     "epoch",
     "epochtwo",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "stantler_moosid",
+      "variant": "level_up",
+      "result": "moosid",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "crunch"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "stantler_egoelk",
+      "variant": "level_up",
+      "result": "egoelk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "calmmind"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "stantler_suprago",
+      "variant": "level_up",
+      "result": "suprago",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "sacredsword"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

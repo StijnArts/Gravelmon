@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:appletun",
-  "evolutions": [
-    {
-      "id": "appletun_applidun",
-      "variant": "level_up",
-      "result": "applidun",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "dragoncheer"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -191,5 +175,21 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "appletun_applidun",
+      "variant": "level_up",
+      "result": "applidun",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragoncheer"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

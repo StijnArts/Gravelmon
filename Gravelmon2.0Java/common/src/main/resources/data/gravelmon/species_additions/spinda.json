@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:spinda",
-  "evolutions": [
-    {
-      "id": "spinda_panditsy",
-      "variant": "item_interact",
-      "result": "panditsy",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:moon_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:moon_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Relic",
@@ -188,5 +166,29 @@
   ],
   "features": [
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "spinda_panditsy",
+      "variant": "item_interact",
+      "result": "panditsy",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:moon_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

@@ -1,42 +1,5 @@
 {
   "target": "cobblemon:spritzee",
-  "evolutions": [
-    {
-      "id": "spritzee_miasmedic",
-      "variant": "item_interact",
-      "result": "miasmedic",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:aromatic_herb",
-      "permanent": true
-    },
-    {
-      "id": "spritzee_reapatisse",
-      "variant": "item_interact",
-      "result": "reapatisse",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:reaper_cloth",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:aromatic_herb",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:reaper_cloth",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Aromian",
@@ -890,5 +853,44 @@
     "epochtwo",
     "vesitan",
     "mikitarian"
+  ],
+  "evolutions": [
+    {
+      "id": "spritzee_miasmedic",
+      "variant": "item_interact",
+      "result": "miasmedic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:aromatic_herb",
+      "permanent": true
+    },
+    {
+      "id": "spritzee_reapatisse",
+      "variant": "item_interact",
+      "result": "reapatisse",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:reaper_cloth",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:aromatic_herb",
+          "quantityRange": "1-1",
+          "percentage": 10
+        },
+        {
+          "item": "cobblemon:reaper_cloth",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

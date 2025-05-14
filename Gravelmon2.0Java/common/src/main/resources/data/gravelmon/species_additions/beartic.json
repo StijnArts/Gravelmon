@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:beartic",
-  "evolutions": [
-    {
-      "id": "beartic_valbear",
-      "variant": "level_up",
-      "result": "Valbear",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "52"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_snowy_forest"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Nodorran",
@@ -387,5 +367,25 @@
     "nodorran",
     "epoch",
     "qamoran"
+  ],
+  "evolutions": [
+    {
+      "id": "beartic_valbear",
+      "variant": "level_up",
+      "result": "Valbear",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "52"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_snowy_forest"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

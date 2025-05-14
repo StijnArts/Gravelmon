@@ -1,17 +1,5 @@
 {
   "target": "cobblemon:bonsly",
-  "evolutions": [
-    {
-      "id": "bonsly_sudowoodo_amazeall",
-      "variant": "item_interact",
-      "result": "sudowoodo amazeall",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:amaze_drive",
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Nodorran",
@@ -462,5 +450,17 @@
     "nodorran",
     "epoch",
     "novran"
+  ],
+  "evolutions": [
+    {
+      "id": "bonsly_sudowoodo_amazeall",
+      "variant": "item_interact",
+      "result": "sudowoodo amazeall",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:amaze_drive",
+      "permanent": true
+    }
   ]
 }

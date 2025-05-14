@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:pupitar",
-  "evolutions": [
-    {
-      "id": "pupitar_tyranitar_armiran",
-      "variant": "level_up",
-      "result": "tyranitar armiran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "50"
-        },
-        {
-          "variant": "has_move",
-          "move": "eruption"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Mastenian",
@@ -324,5 +304,25 @@
   "features": [
     "mastenian",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "pupitar_tyranitar_armiran",
+      "variant": "level_up",
+      "result": "tyranitar armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "50"
+        },
+        {
+          "variant": "has_move",
+          "move": "eruption"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

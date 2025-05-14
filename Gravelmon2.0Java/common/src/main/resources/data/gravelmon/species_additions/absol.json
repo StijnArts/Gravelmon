@@ -1,57 +1,5 @@
 {
   "target": "cobblemon:absol",
-  "evolutions": [
-    {
-      "id": "absol_balan",
-      "variant": "level_up",
-      "result": "Balan",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "nightslash"
-        },
-        {
-          "variant": "has_move",
-          "move": "playrough"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "absol_desol",
-      "variant": "level_up",
-      "result": "Desol",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "nightslash"
-        },
-        {
-          "variant": "has_move",
-          "move": "psychocut"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "absol_dizasol",
-      "variant": "level_up",
-      "result": "dizasol",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "30"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Raianian",
@@ -1001,5 +949,57 @@
     "epochtwo",
     "ayreian",
     "mystisian"
+  ],
+  "evolutions": [
+    {
+      "id": "absol_balan",
+      "variant": "level_up",
+      "result": "Balan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "nightslash"
+        },
+        {
+          "variant": "has_move",
+          "move": "playrough"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "absol_desol",
+      "variant": "level_up",
+      "result": "Desol",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "nightslash"
+        },
+        {
+          "variant": "has_move",
+          "move": "psychocut"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "absol_dizasol",
+      "variant": "level_up",
+      "result": "dizasol",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "30"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

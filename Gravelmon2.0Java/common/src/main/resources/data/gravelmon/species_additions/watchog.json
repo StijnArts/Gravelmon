@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:watchog",
-  "evolutions": [
-    {
-      "id": "watchog_glanchog",
-      "variant": "level_up",
-      "result": "glanchog",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "32"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Ferranian",
@@ -280,5 +264,21 @@
   "features": [
     "ferranian",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "watchog_glanchog",
+      "variant": "level_up",
+      "result": "glanchog",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

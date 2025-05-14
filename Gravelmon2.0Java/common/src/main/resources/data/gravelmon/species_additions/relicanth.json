@@ -1,41 +1,5 @@
 {
   "target": "cobblemon:relicanth",
-  "evolutions": [
-    {
-      "id": "relicanth_relicore",
-      "variant": "level_up",
-      "result": "relicore",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "48"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "relicanth_relido",
-      "variant": "item_interact",
-      "result": "relido",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:astral_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Ayreian",
@@ -202,5 +166,43 @@
   ],
   "features": [
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "relicanth_relicore",
+      "variant": "level_up",
+      "result": "relicore",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "48"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "relicanth_relido",
+      "variant": "item_interact",
+      "result": "relido",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:astral_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

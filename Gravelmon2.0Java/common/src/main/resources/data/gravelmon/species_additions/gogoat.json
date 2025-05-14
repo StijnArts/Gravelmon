@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:gogoat",
-  "evolutions": [
-    {
-      "id": "gogoat_fawniae",
-      "variant": "item_interact",
-      "result": "fawniae",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:ocarina",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:ocarina",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -588,5 +566,29 @@
     "vesitan",
     "ayreian",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "gogoat_fawniae",
+      "variant": "item_interact",
+      "result": "fawniae",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:ocarina",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:ocarina",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

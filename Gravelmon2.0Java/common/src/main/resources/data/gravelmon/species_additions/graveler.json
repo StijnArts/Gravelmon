@@ -1,31 +1,5 @@
 {
   "target": "cobblemon:graveler",
-  "evolutions": [
-    {
-      "id": "graveler_qualder",
-      "variant": "level_up",
-      "result": "qualder",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:kings_rock"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:kings_rock",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -594,5 +568,33 @@
     "epoch",
     "epochtwo",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "graveler_qualder",
+      "variant": "level_up",
+      "result": "qualder",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:kings_rock",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

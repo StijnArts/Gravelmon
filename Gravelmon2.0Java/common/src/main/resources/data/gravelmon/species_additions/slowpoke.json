@@ -1,15 +1,5 @@
 {
   "target": "cobblemon:slowpoke",
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:slowpoke_tail",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -617,5 +607,17 @@
     "epoch",
     "africanusan",
     "novran"
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:slowpoke_tail",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

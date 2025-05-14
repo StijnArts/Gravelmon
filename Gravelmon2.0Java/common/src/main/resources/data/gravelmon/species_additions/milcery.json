@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:milcery",
-  "evolutions": [
-    {
-      "id": "milcery_ayreianalcremie",
-      "variant": "level_up",
-      "result": "ayreianalcremie",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "15"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_spooky"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -455,5 +435,25 @@
     "fabelian",
     "epoch",
     "varitasian"
+  ],
+  "evolutions": [
+    {
+      "id": "milcery_ayreianalcremie",
+      "variant": "level_up",
+      "result": "ayreianalcremie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "15"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_spooky"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

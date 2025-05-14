@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:sandygast",
-  "evolutions": [
-    {
-      "id": "sandygast_palossand_kaskadian",
-      "variant": "level_up",
-      "result": "palossand kaskadian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "42"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_highlands"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -530,5 +510,25 @@
     "mahalian",
     "epoch",
     "qamoran"
+  ],
+  "evolutions": [
+    {
+      "id": "sandygast_palossand_kaskadian",
+      "variant": "level_up",
+      "result": "palossand kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "42"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_highlands"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

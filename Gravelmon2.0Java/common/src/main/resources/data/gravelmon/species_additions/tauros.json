@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:tauros",
-  "preEvolution": "calfpint",
   "forms": [
     {
       "name": "Forman",
@@ -375,5 +374,6 @@
     "forman",
     "epoch",
     "africanusan"
-  ]
+  ],
+  "preEvolution": "calfpint"
 }

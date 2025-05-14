@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:floette",
-  "evolutions": [
-    {
-      "id": "floette_pixirize",
-      "variant": "item_interact",
-      "result": "pixirize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -626,5 +604,29 @@
     "vesitan",
     "varitasian",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "floette_pixirize",
+      "variant": "item_interact",
+      "result": "pixirize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

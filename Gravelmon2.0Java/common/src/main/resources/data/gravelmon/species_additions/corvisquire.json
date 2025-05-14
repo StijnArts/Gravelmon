@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:corvisquire",
-  "evolutions": [
-    {
-      "id": "corvisquire_stormrize",
-      "variant": "item_interact",
-      "result": "stormrize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -302,5 +280,29 @@
   "features": [
     "epoch",
     "norheiman"
+  ],
+  "evolutions": [
+    {
+      "id": "corvisquire_stormrize",
+      "variant": "item_interact",
+      "result": "stormrize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

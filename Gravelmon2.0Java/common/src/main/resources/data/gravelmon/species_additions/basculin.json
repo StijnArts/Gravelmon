@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:basculin",
-  "evolutions": [
-    {
-      "id": "basculin_basstile",
-      "variant": "level_up",
-      "result": "basstile",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "42"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -192,5 +176,21 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "basculin_basstile",
+      "variant": "level_up",
+      "result": "basstile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "42"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

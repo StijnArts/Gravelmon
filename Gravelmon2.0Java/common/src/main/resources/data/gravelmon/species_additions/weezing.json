@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:weezing",
-  "evolutions": [
-    {
-      "id": "weezing_cheauking",
-      "variant": "level_up",
-      "result": "cheauking",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "45"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -872,5 +856,21 @@
     "qamoran",
     "delta",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "weezing_cheauking",
+      "variant": "level_up",
+      "result": "cheauking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "45"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

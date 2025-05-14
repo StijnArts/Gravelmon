@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:klang",
-  "evolutions": [
-    {
-      "id": "klang_kagenrize",
-      "variant": "item_interact",
-      "result": "kagenrize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Aromian",
@@ -462,5 +440,29 @@
     "aromian",
     "epoch",
     "varitasian"
+  ],
+  "evolutions": [
+    {
+      "id": "klang_kagenrize",
+      "variant": "item_interact",
+      "result": "kagenrize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

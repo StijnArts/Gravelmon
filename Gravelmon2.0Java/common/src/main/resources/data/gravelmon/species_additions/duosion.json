@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:duosion",
-  "evolutions": [
-    {
-      "id": "duosion_cellurize",
-      "variant": "item_interact",
-      "result": "cellurize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -1041,5 +1019,29 @@
     "hoennian",
     "kaskadian",
     "mystic"
+  ],
+  "evolutions": [
+    {
+      "id": "duosion_cellurize",
+      "variant": "item_interact",
+      "result": "cellurize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

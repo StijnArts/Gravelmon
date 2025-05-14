@@ -1,31 +1,5 @@
 {
   "target": "cobblemon:rattata",
-  "evolutions": [
-    {
-      "id": "rattata_raticate_kaskadian",
-      "variant": "item_interact",
-      "result": "raticate kaskadian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:ice_stone",
-      "permanent": true
-    },
-    {
-      "id": "rattata_ratamie",
-      "variant": "level_up",
-      "result": "ratamie",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "190"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -1017,5 +991,31 @@
     "norheiman",
     "ayreian",
     "ishirian"
+  ],
+  "evolutions": [
+    {
+      "id": "rattata_raticate_kaskadian",
+      "variant": "item_interact",
+      "result": "raticate kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:ice_stone",
+      "permanent": true
+    },
+    {
+      "id": "rattata_ratamie",
+      "variant": "level_up",
+      "result": "ratamie",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "190"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

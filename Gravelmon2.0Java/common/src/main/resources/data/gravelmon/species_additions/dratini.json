@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:dratini",
-  "evolutions": [
-    {
-      "id": "dratini_dragonair_norheiman",
-      "variant": "level_up",
-      "result": "dragonair norheiman",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "30"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_cold"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Mahalian",
@@ -770,5 +750,25 @@
     "epoch",
     "delta",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "dratini_dragonair_norheiman",
+      "variant": "level_up",
+      "result": "dragonair norheiman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "30"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_cold"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

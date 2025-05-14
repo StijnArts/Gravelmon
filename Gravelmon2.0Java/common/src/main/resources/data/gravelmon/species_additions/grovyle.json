@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:grovyle",
-  "evolutions": [
-    {
-      "id": "grovyle_sceptile_armiran",
-      "variant": "level_up",
-      "result": "sceptile armiran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "36"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_swamp"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -812,5 +792,25 @@
     "delta",
     "ayreian",
     "mystic"
+  ],
+  "evolutions": [
+    {
+      "id": "grovyle_sceptile_armiran",
+      "variant": "level_up",
+      "result": "sceptile armiran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "36"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

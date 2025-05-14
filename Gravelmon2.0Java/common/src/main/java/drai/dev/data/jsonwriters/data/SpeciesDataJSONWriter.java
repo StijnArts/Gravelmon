@@ -151,7 +151,7 @@ public class SpeciesDataJSONWriter {
         return labels;
     }
 
-    public static JsonElement getDrops(int dropAmount, List<ItemDrop> dropList) {
+    public static JsonObject getDrops(int dropAmount, List<ItemDrop> dropList) {
         var drops = new JsonObject();
         if (!dropList.isEmpty()) {
             drops.addProperty("amount", dropAmount);
@@ -260,7 +260,7 @@ public class SpeciesDataJSONWriter {
         return abilities;
     }
 
-    private static JsonElement getMoves(List<MoveLearnSetEntry> learnSetEntries) {
+    public static JsonElement getMoves(List<MoveLearnSetEntry> learnSetEntries) {
         var moves = new JsonArray();
         for (MoveLearnSetEntry moveLearnsetEntry : learnSetEntries) {
             var move = moveLearnsetEntry.getMove();

@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:sableye",
-  "evolutions": [
-    {
-      "id": "sableye_sableater",
-      "variant": "level_up",
-      "result": "sableater",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "36"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -946,5 +930,21 @@
     "enjinnian",
     "delta",
     "cefiran"
+  ],
+  "evolutions": [
+    {
+      "id": "sableye_sableater",
+      "variant": "level_up",
+      "result": "sableater",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "36"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

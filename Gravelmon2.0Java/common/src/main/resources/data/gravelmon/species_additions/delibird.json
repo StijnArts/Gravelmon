@@ -1,43 +1,5 @@
 {
   "target": "cobblemon:delibird",
-  "evolutions": [
-    {
-      "id": "delibird_jollibird",
-      "variant": "item_interact",
-      "result": "jollibird",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "dazzlinggleam"
-      ],
-      "requirements": [],
-      "requiredContext": "gravelmon:astral_stone",
-      "permanent": true
-    },
-    {
-      "id": "delibird_blizentork",
-      "variant": "level_up",
-      "result": "blizentork",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "30"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -406,5 +368,45 @@
     "forman",
     "epoch",
     "cefiran"
+  ],
+  "evolutions": [
+    {
+      "id": "delibird_jollibird",
+      "variant": "item_interact",
+      "result": "jollibird",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dazzlinggleam"
+      ],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    },
+    {
+      "id": "delibird_blizentork",
+      "variant": "level_up",
+      "result": "blizentork",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "30"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:astral_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

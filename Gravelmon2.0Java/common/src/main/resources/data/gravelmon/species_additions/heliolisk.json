@@ -1,17 +1,5 @@
 {
   "target": "cobblemon:heliolisk",
-  "evolutions": [
-    {
-      "id": "heliolisk_helioisk",
-      "variant": "item_interact",
-      "result": "helioisk",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:astral_stone",
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -325,5 +313,17 @@
     "epoch",
     "vesitan",
     "mega"
+  ],
+  "evolutions": [
+    {
+      "id": "heliolisk_helioisk",
+      "variant": "item_interact",
+      "result": "helioisk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    }
   ]
 }

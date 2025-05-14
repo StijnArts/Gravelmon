@@ -1,53 +1,5 @@
 {
   "target": "cobblemon:ledian",
-  "evolutions": [
-    {
-      "id": "ledian_ledybulk",
-      "variant": "level_up",
-      "result": "ledybulk",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "38"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "ledian_lediastra",
-      "variant": "level_up",
-      "result": "lediastra",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "36"
-        },
-        {
-          "variant": "time_range",
-          "range": "night"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "ledian_coxyro",
-      "variant": "level_up",
-      "result": "coxyro",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "doubleedge"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -563,5 +515,53 @@
     "epoch",
     "alteran",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "ledian_ledybulk",
+      "variant": "level_up",
+      "result": "ledybulk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "38"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "ledian_lediastra",
+      "variant": "level_up",
+      "result": "lediastra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "36"
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "ledian_coxyro",
+      "variant": "level_up",
+      "result": "coxyro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "doubleedge"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

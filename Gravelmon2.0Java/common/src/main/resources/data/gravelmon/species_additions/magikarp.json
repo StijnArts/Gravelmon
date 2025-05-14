@@ -1,22 +1,5 @@
 {
   "target": "cobblemon:magikarp",
-  "evolutions": [
-    {
-      "id": "magikarp_kamurados",
-      "variant": "level_up",
-      "result": "kamurados",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "dekoi",
-          "contains": true
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Ivrisian",
@@ -784,5 +767,22 @@
     "nodorran",
     "epoch",
     "ishirian"
+  ],
+  "evolutions": [
+    {
+      "id": "magikarp_kamurados",
+      "variant": "level_up",
+      "result": "kamurados",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "dekoi",
+          "contains": true
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

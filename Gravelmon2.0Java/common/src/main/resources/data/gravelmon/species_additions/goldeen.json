@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:goldeen",
-  "evolutions": [
-    {
-      "id": "goldeen_seasurper",
-      "variant": "level_up",
-      "result": "seasurper",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_warm_ocean"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -314,5 +298,21 @@
   "features": [
     "forman",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "goldeen_seasurper",
+      "variant": "level_up",
+      "result": "seasurper",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_warm_ocean"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

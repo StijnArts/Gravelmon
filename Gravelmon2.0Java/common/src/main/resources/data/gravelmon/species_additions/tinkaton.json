@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:tinkaton",
-  "preEvolution": "lagoonantinkatuff",
   "forms": [
     {
       "name": "Epoch",
@@ -275,5 +274,6 @@
   "features": [
     "epoch",
     "lagoonan"
-  ]
+  ],
+  "preEvolution": "lagoonantinkatuff"
 }

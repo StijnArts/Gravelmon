@@ -1,16 +1,5 @@
 {
   "target": "cobblemon:kecleon",
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
-  "preEvolution": "keclekid",
   "evolutions": [
     {
       "id": "kecleon_kecleodon",
@@ -36,5 +25,18 @@
       "requiredContext": "gravelmon:astral_stone",
       "permanent": true
     }
-  ]
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:astral_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
+  ],
+  "preEvolution": "keclekid"
 }

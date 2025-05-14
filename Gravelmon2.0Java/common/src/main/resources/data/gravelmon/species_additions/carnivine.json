@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:carnivine",
-  "evolutions": [
-    {
-      "id": "carnivine_carnivice",
-      "variant": "level_up",
-      "result": "carnivice",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "35"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -322,5 +306,21 @@
   "features": [
     "epoch",
     "seviian"
+  ],
+  "evolutions": [
+    {
+      "id": "carnivine_carnivice",
+      "variant": "level_up",
+      "result": "carnivice",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "35"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

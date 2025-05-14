@@ -1,49 +1,5 @@
 {
   "target": "cobblemon:porygon",
-  "evolutions": [
-    {
-      "id": "porygon_epp_v11",
-      "variant": "level_up",
-      "result": "EPP_v11",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "30"
-        },
-        {
-          "variant": "weather",
-          "isRaining": "true"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "porygon_porygona",
-      "variant": "level_up",
-      "result": "porygona",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:dubious_disc"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:dubious_disc",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -411,5 +367,51 @@
   "features": [
     "epoch",
     "varitasian"
+  ],
+  "evolutions": [
+    {
+      "id": "porygon_epp_v11",
+      "variant": "level_up",
+      "result": "EPP_v11",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "30"
+        },
+        {
+          "variant": "weather",
+          "isRaining": "true"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "porygon_porygona",
+      "variant": "level_up",
+      "result": "porygona",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dubious_disc"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:dubious_disc",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

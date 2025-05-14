@@ -1,42 +1,5 @@
 {
   "target": "cobblemon:gloom",
-  "evolutions": [
-    {
-      "id": "gloom_croomish",
-      "variant": "item_interact",
-      "result": "Croomish",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true
-    },
-    {
-      "id": "gloom_lumiscent",
-      "variant": "item_interact",
-      "result": "lumiscent",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:astral_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:shiny_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Fabelian",
@@ -526,5 +489,44 @@
     "fabelian",
     "epoch",
     "egho"
+  ],
+  "evolutions": [
+    {
+      "id": "gloom_croomish",
+      "variant": "item_interact",
+      "result": "Croomish",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true
+    },
+    {
+      "id": "gloom_lumiscent",
+      "variant": "item_interact",
+      "result": "lumiscent",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:shiny_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        },
+        {
+          "item": "gravelmon:astral_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

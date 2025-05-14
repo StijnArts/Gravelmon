@@ -1,29 +1,5 @@
 {
   "target": "cobblemon:golbat",
-  "evolutions": [
-    {
-      "id": "golbat_probat",
-      "variant": "item_interact",
-      "result": "probat",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "psychic"
-      ],
-      "requirements": [],
-      "requiredContext": "gravelmon:amaze_drive",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:amaze_drive",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -307,5 +283,31 @@
   "features": [
     "forman",
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "golbat_probat",
+      "variant": "item_interact",
+      "result": "probat",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "psychic"
+      ],
+      "requirements": [],
+      "requiredContext": "gravelmon:amaze_drive",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:amaze_drive",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

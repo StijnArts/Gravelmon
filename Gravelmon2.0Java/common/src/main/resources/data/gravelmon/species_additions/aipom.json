@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:aipom",
-  "evolutions": [
-    {
-      "id": "aipom_ambipom_kaskadian",
-      "variant": "level_up",
-      "result": "ambipom kaskadian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "rockthrow"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -750,5 +734,21 @@
     "avalossian",
     "delta",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "aipom_ambipom_kaskadian",
+      "variant": "level_up",
+      "result": "ambipom kaskadian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "rockthrow"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

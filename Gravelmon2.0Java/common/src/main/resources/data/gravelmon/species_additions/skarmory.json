@@ -1,32 +1,5 @@
 {
   "target": "cobblemon:skarmory",
-  "evolutions": [
-    {
-      "id": "skarmory_eameiru",
-      "variant": "level_up",
-      "result": "eameiru",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:silver_scale",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
-  "preEvolution": "rapacier",
   "forms": [
     {
       "name": "Trizoran",
@@ -556,5 +529,34 @@
     "forman",
     "epoch",
     "hoennian"
-  ]
+  ],
+  "evolutions": [
+    {
+      "id": "skarmory_eameiru",
+      "variant": "level_up",
+      "result": "eameiru",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:silver_scale",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
+  ],
+  "preEvolution": "rapacier"
 }

@@ -6,8 +6,8 @@
       "aspects": [
         "armiran_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_192_by_192.geo",
-      "poser": "cobblemon:cutout_gravelmon_192_by_192",
+      "model": "cobblemon:cutout_gravelmon_168_by_168.geo",
+      "poser": "cobblemon:cutout_gravelmon_168_by_168",
       "texture": "cobblemon:textures/pokemon/daybreak/tyranitar_armiran_mega.png",
       "layers": [
         {

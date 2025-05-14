@@ -1,27 +1,5 @@
 {
   "target": "cobblemon:tentacruel",
-  "evolutions": [
-    {
-      "id": "tentacruel_tentyrant",
-      "variant": "item_interact",
-      "result": "tentyrant",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:water_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "cobblemon:water_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Epoch",
@@ -620,5 +598,29 @@
     "delta",
     "hoennian",
     "relic"
+  ],
+  "evolutions": [
+    {
+      "id": "tentacruel_tentyrant",
+      "variant": "item_interact",
+      "result": "tentyrant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "cobblemon:water_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

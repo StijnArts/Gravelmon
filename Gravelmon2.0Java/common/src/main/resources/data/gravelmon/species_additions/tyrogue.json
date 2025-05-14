@@ -1,72 +1,5 @@
 {
   "target": "cobblemon:tyrogue",
-  "evolutions": [
-    {
-      "id": "tyrogue_hitmonlee_ayreian",
-      "variant": "item_interact",
-      "result": "hitmonlee ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:dawn_stone",
-      "permanent": true
-    },
-    {
-      "id": "tyrogue_hitmonchan_ayreian",
-      "variant": "item_interact",
-      "result": "hitmonchan ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true
-    },
-    {
-      "id": "tyrogue_hitmontop_ayreian",
-      "variant": "item_interact",
-      "result": "hitmontop ayreian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:shiny_stone",
-      "permanent": true
-    },
-    {
-      "id": "tyrogue_hitmonrize",
-      "variant": "item_interact",
-      "result": "hitmonrize",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:end_crystal",
-      "permanent": true
-    },
-    {
-      "id": "tyrogue_hitmonbash",
-      "variant": "item_interact",
-      "result": "hitmonbash",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "cobblemon:dusk_stone",
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dusk_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -816,5 +749,74 @@
     "epoch",
     "qamoran",
     "varitasian"
+  ],
+  "evolutions": [
+    {
+      "id": "tyrogue_hitmonlee_ayreian",
+      "variant": "item_interact",
+      "result": "hitmonlee ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true
+    },
+    {
+      "id": "tyrogue_hitmonchan_ayreian",
+      "variant": "item_interact",
+      "result": "hitmonchan ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    },
+    {
+      "id": "tyrogue_hitmontop_ayreian",
+      "variant": "item_interact",
+      "result": "hitmontop ayreian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true
+    },
+    {
+      "id": "tyrogue_hitmonrize",
+      "variant": "item_interact",
+      "result": "hitmonrize",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:end_crystal",
+      "permanent": true
+    },
+    {
+      "id": "tyrogue_hitmonbash",
+      "variant": "item_interact",
+      "result": "hitmonbash",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "minecraft:end_crystal",
+          "quantityRange": "1-1",
+          "percentage": 10
+        },
+        {
+          "item": "cobblemon:dusk_stone",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

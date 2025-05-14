@@ -1,6 +1,5 @@
 {
   "target": "cobblemon:monferno",
-  "preEvolution": "nodorranchimchar",
   "forms": [
     {
       "name": "Nodorran",
@@ -292,5 +291,6 @@
   "features": [
     "nodorran",
     "epoch"
-  ]
+  ],
+  "preEvolution": "nodorranchimchar"
 }

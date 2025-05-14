@@ -25,6 +25,13 @@ public class SpeciesFeaturesJSONWriter {
                 throw new RuntimeException(e);
             }
         });
+        ArmoredForm.getDistinctArmorNames().forEach(megaName -> {
+            try {
+                writeFeature(megaName, resourcesDir);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 
     private static void writeAspect(Aspect aspect, String dir) throws IOException {

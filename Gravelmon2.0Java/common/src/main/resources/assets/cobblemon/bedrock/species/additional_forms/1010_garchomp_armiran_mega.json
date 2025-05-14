@@ -6,8 +6,8 @@
       "aspects": [
         "armiran_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_148_by_176.geo",
+      "poser": "cobblemon:cutout_gravelmon_148_by_176",
       "texture": "cobblemon:textures/pokemon/daybreak/garchomp_armiran_mega.png",
       "layers": [
         {

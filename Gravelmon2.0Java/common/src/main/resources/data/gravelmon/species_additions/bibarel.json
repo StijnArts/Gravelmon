@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:bibarel",
-  "evolutions": [
-    {
-      "id": "bibarel_biscorno",
-      "variant": "level_up",
-      "result": "Biscorno",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "superpower"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Fabelian",
@@ -419,5 +403,21 @@
     "fabelian",
     "epoch",
     "kaskadian"
+  ],
+  "evolutions": [
+    {
+      "id": "bibarel_biscorno",
+      "variant": "level_up",
+      "result": "Biscorno",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "superpower"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

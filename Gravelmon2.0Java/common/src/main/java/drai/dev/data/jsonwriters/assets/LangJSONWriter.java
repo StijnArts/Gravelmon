@@ -123,4 +123,15 @@ public class LangJSONWriter {
             });
         });
     }
+
+    public static void writeArmored() {
+        ArmoredForm.getDistinctArmorNames().forEach(megaName -> {
+            contents.addProperty("cobblemon.ui.pokedex.info.form."+ GravelmonUtils.getCleanName(megaName),megaName);
+        });
+        ArmoredForm.ARMORED_FORMS.forEach((pokemon, megaEvolutions) -> {
+                var identifier = megaEvolutions.getAspectName()
+                        +"_"+pokemon;
+                contents.addProperty("cobblemon.species."+identifier +".name", StringUtil.capitalize(megaEvolutions.getName()));
+        });
+    }
 }

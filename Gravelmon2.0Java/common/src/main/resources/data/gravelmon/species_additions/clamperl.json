@@ -1,35 +1,5 @@
 {
   "target": "cobblemon:clamperl",
-  "evolutions": [
-    {
-      "id": "clamperl_huntail_novran",
-      "variant": "level_up",
-      "result": "huntail novran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:deep_sea_tooth"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "clamperl_gorebyss_novran",
-      "variant": "level_up",
-      "result": "gorebyss novran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:deep_sea_scale"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -344,5 +314,35 @@
   "features": [
     "epoch",
     "delta"
+  ],
+  "evolutions": [
+    {
+      "id": "clamperl_huntail_novran",
+      "variant": "level_up",
+      "result": "huntail novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_tooth"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "clamperl_gorebyss_novran",
+      "variant": "level_up",
+      "result": "gorebyss novran",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:deep_sea_scale"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:horsea",
-  "evolutions": [
-    {
-      "id": "horsea_seadra_norheiman",
-      "variant": "level_up",
-      "result": "seadra norheiman",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "32"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -493,5 +477,21 @@
     "forman",
     "epoch",
     "epochtwo"
+  ],
+  "evolutions": [
+    {
+      "id": "horsea_seadra_norheiman",
+      "variant": "level_up",
+      "result": "seadra norheiman",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

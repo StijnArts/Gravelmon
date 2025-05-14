@@ -1,21 +1,5 @@
 {
   "target": "cobblemon:kakuna",
-  "evolutions": [
-    {
-      "id": "kakuna_drilladin",
-      "variant": "level_up",
-      "result": "drilladin",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -130,5 +114,21 @@
   ],
   "features": [
     "epoch"
+  ],
+  "evolutions": [
+    {
+      "id": "kakuna_drilladin",
+      "variant": "level_up",
+      "result": "drilladin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

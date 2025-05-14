@@ -1,31 +1,5 @@
 {
   "target": "cobblemon:marowak",
-  "evolutions": [
-    {
-      "id": "marowak_terathwack",
-      "variant": "level_up",
-      "result": "terathwack",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "gravelmon:long_club"
-        }
-      ],
-      "permanent": true
-    }
-  ],
-  "drops": {
-    "amount": 3,
-    "entries": [
-      {
-        "item": "gravelmon:long_club",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "forms": [
     {
       "name": "Forman",
@@ -297,10 +271,68 @@
         "height": 4.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "ground",
+      "secondaryType": "ghost",
+      "baseScale": 0.16595744680851063,
+      "cannotDynamax": true,
+      "abilities": [
+        "parentalbond"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 135,
+        "defence": 120,
+        "special_attack": 50,
+        "special_defence": 100,
+        "speed": 60
+      },
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 13,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "forman",
-    "epoch"
+    "epoch",
+    "mega"
+  ],
+  "evolutions": [
+    {
+      "id": "marowak_terathwack",
+      "variant": "level_up",
+      "result": "terathwack",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:long_club"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": [
+    {
+      "amount": 3,
+      "entries": [
+        {
+          "item": "gravelmon:long_club",
+          "quantityRange": "1-1",
+          "percentage": 10
+        }
+      ]
+    }
   ]
 }

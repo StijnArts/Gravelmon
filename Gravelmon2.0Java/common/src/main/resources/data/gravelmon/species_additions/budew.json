@@ -1,25 +1,5 @@
 {
   "target": "cobblemon:budew",
-  "evolutions": [
-    {
-      "id": "budew_roselia_avorian",
-      "variant": "level_up",
-      "result": "roselia avorian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": "160"
-        },
-        {
-          "variant": "time_range",
-          "range": "day"
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Epoch",
@@ -1117,5 +1097,25 @@
     "ayreian",
     "relic",
     "ishirian"
+  ],
+  "evolutions": [
+    {
+      "id": "budew_roselia_avorian",
+      "variant": "level_up",
+      "result": "roselia avorian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": "160"
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

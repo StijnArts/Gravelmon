@@ -1,9 +1,13 @@
 package drai.dev.data.games.other;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.data.pokemon.insurgence.*;
-import drai.dev.data.pokemon.insurgence.armored.*;
+import drai.dev.data.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 public class Insurgence extends Game {
     public static final Game INSTANCE = new Insurgence();
@@ -212,11 +216,55 @@ public class Insurgence extends Game {
                 "meloetta-delta," +
                 "hoopa-delta,");
         addNewPokemon(new UFI());
-        addNewPokemon(new ArmoredTyranitar("", Aspect.ARMORED));
-        addNewPokemon(new ArmoredFlygon("", Aspect.ARMORED));
-        addNewPokemon(new ArmoredLeavanny("", Aspect.ARMORED));
-        addNewPokemon(new ArmoredZekrom("", Aspect.ARMORED));
-        addNewPokemon(new ArmoredMewtwo("", Aspect.ARMORED));
-        addNewPokemon(new ArmoredDeltaVolcarona("", Aspect.ARMORED_DELTA));
+        addNewPokemon(new ShadowMewtwo("", Aspect.SHADOW));
+        ArmoredForm.addArmoredForm("mewtwo", Type.PSYCHIC,
+                new Stats(106, 110, 90 , 154, 90, 130),
+                List.of(Ability.HUBRIS), Ability.HUBRIS,
+                21, this.name, List.of(Label.GEN1, Label.INSURGENCE), null, null);
+        ArmoredForm.addArmoredForm("tyranitar", Type.ROCK, Type.DARK,
+                new Stats(100,
+                        134,
+                        143,
+                        95,
+                        130,
+                        61),
+                List.of(Ability.SAND_STREAM), Ability.SAND_STREAM,
+                21, this.name, List.of(Label.GEN2, Label.INSURGENCE), null, null);
+        ArmoredForm.addArmoredForm("flygon", Type.GROUND, Type.DRAGON,
+                new Stats(80,
+                        100,
+                        104,
+                        80,
+                        104,
+                        100),
+                List.of(Ability.LEVITATE), Ability.LEVITATE,
+                23, this.name, List.of(Label.GEN3, Label.INSURGENCE), null, null);
+        ArmoredForm.addArmoredForm("leavanny", Type.BUG, Type.GRASS,
+                new Stats(75,
+                        103,
+                        104,
+                        70,
+                        104,
+                        92),
+                List.of(Ability.SWARM, Ability.CHLOROPHYLL), Ability.OVERCOAT,
+                12, this.name, List.of(Label.GEN5, Label.INSURGENCE), null, null);
+        ArmoredForm.addArmoredForm("zekrom", Type.DRAGON, Type.ELECTRIC,
+                new Stats(100,
+                        150,
+                        156,
+                        120,
+                        130,
+                        90),
+                List.of(Ability.TERAVOLT), Ability.TERAVOLT,
+                30, this.name, List.of(Label.GEN5, Label.INSURGENCE), null, null);
+        ArmoredForm.addArmoredForm("volcarona", Type.DARK, Type.POISON,
+                new Stats(85,
+                        60,
+                        85 ,
+                        135,
+                        137,
+                        100),
+                List.of(Ability.LEVITATE), Ability.ABSOLUTION,
+                18, this.name, List.of(Label.GEN5, Label.INSURGENCE), Aspect.DELTA, DeltaVolcarona.getMoves());
     }
 }

@@ -1,22 +1,5 @@
 {
   "target": "cobblemon:doduo",
-  "evolutions": [
-    {
-      "id": "doduo_dodrio_hoennian",
-      "variant": "level_up",
-      "result": "dodrio hoennian",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "target": "marowak",
-          "contains": true
-        }
-      ],
-      "permanent": true
-    }
-  ],
   "forms": [
     {
       "name": "Forman",
@@ -976,5 +959,22 @@
     "delta",
     "seviian",
     "ayreian"
+  ],
+  "evolutions": [
+    {
+      "id": "doduo_dodrio_hoennian",
+      "variant": "level_up",
+      "result": "dodrio hoennian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "party_member",
+          "target": "marowak",
+          "contains": true
+        }
+      ],
+      "permanent": true
+    }
   ]
 }
