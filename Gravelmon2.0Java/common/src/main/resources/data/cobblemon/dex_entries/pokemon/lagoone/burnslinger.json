@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:burnslinger",
+  "speciesId": "cobblemon:burnslinger",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,27 @@
+{
+  "head": "head",
+  "portraitScale": 1.7000000476837158,
+  "portraitTranslation": [
+    0.0,
+    -0.5,
+    0.0
+  ],
+  "profileScale": 0.8999999761581421,
+  "profileTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(iyaiya, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
+    }
+  }
+}

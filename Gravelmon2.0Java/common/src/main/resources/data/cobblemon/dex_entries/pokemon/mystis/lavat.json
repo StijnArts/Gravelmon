@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lavat",
+  "speciesId": "cobblemon:lavat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

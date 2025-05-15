@@ -1,0 +1,39 @@
+{
+  "portraitScale": 0.1443759244636495,
+  "portraitTranslation": [
+    0.09,
+    1.1463681756840232,
+    0.0
+  ],
+  "profileScale": 0.1838387680795602,
+  "profileTranslation": [
+    0.0,
+    1.171155048356116,
+    0.0
+  ],
+  "poses": {
+    "profile": {
+      "poseName": "profile",
+      "animations": [
+        "bedrock(cutout, pc_fix)"
+      ],
+      "poseTypes": [
+        "PROFILE"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "portrait": {
+      "poseName": "portrait",
+      "animations": [
+        "bedrock(cutout, summary_fix)"
+      ],
+      "poseTypes": [
+        "NONE",
+        "PORTRAIT"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scubeel",
+  "speciesId": "cobblemon:scubeel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

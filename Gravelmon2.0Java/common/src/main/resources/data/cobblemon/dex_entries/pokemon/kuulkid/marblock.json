@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marblock",
+  "speciesId": "cobblemon:marblock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

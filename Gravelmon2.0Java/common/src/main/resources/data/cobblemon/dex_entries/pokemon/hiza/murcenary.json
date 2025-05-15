@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:murcenary",
+  "speciesId": "cobblemon:murcenary",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

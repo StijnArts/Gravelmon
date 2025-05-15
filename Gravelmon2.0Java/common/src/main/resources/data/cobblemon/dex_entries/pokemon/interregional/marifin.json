@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marifin",
+  "speciesId": "cobblemon:marifin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

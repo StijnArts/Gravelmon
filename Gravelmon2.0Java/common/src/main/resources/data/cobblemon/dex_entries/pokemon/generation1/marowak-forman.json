@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marowak-forman",
+  "speciesId": "cobblemon:marowak",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:securider-tribal",
+  "speciesId": "cobblemon:securider",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ],
+  "variations": []
+}

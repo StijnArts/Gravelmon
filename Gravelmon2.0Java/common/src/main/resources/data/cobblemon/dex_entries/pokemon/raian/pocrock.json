@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pocrock",
+  "speciesId": "cobblemon:pocrock",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

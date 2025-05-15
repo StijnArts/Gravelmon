@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:charnosaur",
+  "speciesId": "cobblemon:charnosaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

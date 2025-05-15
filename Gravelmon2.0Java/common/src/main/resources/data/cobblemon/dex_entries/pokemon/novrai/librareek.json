@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:librareek",
+  "speciesId": "cobblemon:librareek",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

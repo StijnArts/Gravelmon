@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bubawl",
+  "speciesId": "cobblemon:bubawl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

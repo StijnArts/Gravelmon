@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wisterious",
+  "speciesId": "cobblemon:wisterious",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:huskie",
+  "speciesId": "cobblemon:huskie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

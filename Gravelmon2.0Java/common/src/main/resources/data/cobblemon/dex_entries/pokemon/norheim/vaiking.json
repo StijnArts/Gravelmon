@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vaiking",
+  "speciesId": "cobblemon:vaiking",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

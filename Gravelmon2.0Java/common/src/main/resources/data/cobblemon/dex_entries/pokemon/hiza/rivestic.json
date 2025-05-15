@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rivestic",
+  "speciesId": "cobblemon:rivestic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

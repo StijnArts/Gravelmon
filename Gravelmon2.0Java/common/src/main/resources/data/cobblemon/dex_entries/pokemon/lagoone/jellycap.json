@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jellycap",
+  "speciesId": "cobblemon:jellycap",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

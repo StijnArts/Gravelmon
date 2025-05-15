@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rotarat",
+  "speciesId": "cobblemon:rotarat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

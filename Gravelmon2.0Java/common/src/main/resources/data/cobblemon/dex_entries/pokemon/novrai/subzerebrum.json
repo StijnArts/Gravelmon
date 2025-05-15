@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:subzerebrum",
+  "speciesId": "cobblemon:subzerebrum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

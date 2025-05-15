@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:solardon",
+  "speciesId": "cobblemon:solardon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kinbat",
+  "speciesId": "cobblemon:kinbat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

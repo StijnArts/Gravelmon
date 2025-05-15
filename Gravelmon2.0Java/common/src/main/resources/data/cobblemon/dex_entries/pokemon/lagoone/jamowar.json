@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jamowar",
+  "speciesId": "cobblemon:jamowar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

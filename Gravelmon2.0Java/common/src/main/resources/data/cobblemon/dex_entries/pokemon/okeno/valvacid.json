@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:valvacid",
+  "speciesId": "cobblemon:valvacid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

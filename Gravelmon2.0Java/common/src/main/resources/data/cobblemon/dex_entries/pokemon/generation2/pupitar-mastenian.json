@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pupitar-mastenian",
+  "speciesId": "cobblemon:pupitar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:miscuit",
+  "speciesId": "cobblemon:miscuit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

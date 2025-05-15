@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chiwowwa",
+  "speciesId": "cobblemon:chiwowwa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

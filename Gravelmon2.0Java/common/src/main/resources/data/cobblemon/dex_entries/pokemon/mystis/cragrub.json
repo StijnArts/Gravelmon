@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cragrub",
+  "speciesId": "cobblemon:cragrub",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

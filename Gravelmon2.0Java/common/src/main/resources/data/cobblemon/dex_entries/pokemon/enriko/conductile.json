@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:conductile",
+  "speciesId": "cobblemon:conductile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

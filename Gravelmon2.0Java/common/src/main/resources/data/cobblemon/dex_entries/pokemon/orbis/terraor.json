@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terraor",
+  "speciesId": "cobblemon:terraor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

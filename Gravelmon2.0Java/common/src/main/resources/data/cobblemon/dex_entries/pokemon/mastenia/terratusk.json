@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terratusk",
+  "speciesId": "cobblemon:terratusk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

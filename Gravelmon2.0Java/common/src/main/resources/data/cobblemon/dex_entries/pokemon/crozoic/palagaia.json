@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:palagaia",
+  "speciesId": "cobblemon:palagaia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -532,7 +532,7 @@
       "name": "armored",
       "primaryType": "rock",
       "secondaryType": "dark",
-      "baseScale": 0.525,
+      "baseScale": 0.315,
       "cannotDynamax": true,
       "abilities": [
         "sandstream",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rapacier",
+  "speciesId": "cobblemon:rapacier",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

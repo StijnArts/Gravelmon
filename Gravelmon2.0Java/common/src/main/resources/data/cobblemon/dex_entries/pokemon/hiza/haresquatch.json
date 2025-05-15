@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:haresquatch",
+  "speciesId": "cobblemon:haresquatch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

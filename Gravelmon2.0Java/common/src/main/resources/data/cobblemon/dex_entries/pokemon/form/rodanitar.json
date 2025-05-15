@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rodanitar",
+  "speciesId": "cobblemon:rodanitar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

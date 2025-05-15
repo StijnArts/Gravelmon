@@ -214,26 +214,12 @@ public abstract class WorldRepresentablePokemon {
         return textureDirectory != null && directoryExists;
     }
 
-    public void findOrCreatePlaceholderImage(String resourcesDir, boolean hasGenderDifferences){
+    public void findOrCreatePlaceholderImage(String resourcesDir, boolean hasGenderDifferences) {
         String pathname = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\";
-        if(this instanceof Pokemon) {
-            if (hasGenderDifferences) {
-                femalePlaceholderImage = createPlaceholderTextureIfNotExists(getCleanName() + "_female.png", pathname);
-            }
-            placeholderImage = createPlaceholderTextureIfNotExists(getCleanName() + ".png", pathname);
-        } else if (this instanceof PokemonForm pokemonForm){
-            if (hasGenderDifferences) {
-                femalePlaceholderImage = createPlaceholderTextureIfNotExists( pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + "_female.png", pathname);
-            }
-            placeholderImage = createPlaceholderTextureIfNotExists(pokemonForm.getCleanName()+"_"+pokemonForm.getFormOf().getCleanName() + ".png", pathname);
-        } else if (this instanceof MegaEvolution megaEvolution){
-            String cleanName = GravelmonUtils.getCleanName(megaEvolution.getName() + "_" + megaEvolution.getIndependentMegaAspect());
-            if (hasGenderDifferences) {
-                femalePlaceholderImage = createPlaceholderTextureIfNotExists( cleanName + "_female.png", pathname);
-            }
-            placeholderImage = createPlaceholderTextureIfNotExists(cleanName + ".png", pathname);
-
+        if (hasGenderDifferences) {
+            femalePlaceholderImage = createPlaceholderTextureIfNotExists(getCleanName() + "_female.png", pathname);
         }
+        placeholderImage = createPlaceholderTextureIfNotExists(getTextureName() + ".png", pathname);
     }
 
     public static BufferedImage createPlaceholderTextureIfNotExists(String filename, String textureDir) {
@@ -356,6 +342,8 @@ public abstract class WorldRepresentablePokemon {
     }
 
     public abstract String getSpreadsheetName();
+
+    public abstract String getTextureName();
 
     public Stats getStats() {
         return stats;

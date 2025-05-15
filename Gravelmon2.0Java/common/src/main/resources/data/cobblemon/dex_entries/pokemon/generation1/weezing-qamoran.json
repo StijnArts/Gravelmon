@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weezing-qamoran",
+  "speciesId": "cobblemon:weezing",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

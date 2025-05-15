@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chunderbolt",
+  "speciesId": "cobblemon:chunderbolt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

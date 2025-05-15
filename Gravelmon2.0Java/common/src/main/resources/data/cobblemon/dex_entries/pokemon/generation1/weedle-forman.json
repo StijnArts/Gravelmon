@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weedle-forman",
+  "speciesId": "cobblemon:weedle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bomblebee",
+  "speciesId": "cobblemon:bomblebee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

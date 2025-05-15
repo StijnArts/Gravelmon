@@ -1,0 +1,85 @@
+{
+  "head": "head",
+  "portraitScale": 1.7999999523162842,
+  "portraitTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.75,
+    0.0
+  ],
+  "animations": {
+    "cry": "bedrock(gorochu, cry)"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "animations": [
+        "bedrock(gorochu, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 10,
+      "isBattle": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(gorochu, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "look",
+        "bedrock(gorochu, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(gorochu, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    }
+  }
+}

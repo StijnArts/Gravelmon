@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lakandagat",
+  "speciesId": "cobblemon:lakandagat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mouskrow",
+  "speciesId": "cobblemon:mouskrow",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

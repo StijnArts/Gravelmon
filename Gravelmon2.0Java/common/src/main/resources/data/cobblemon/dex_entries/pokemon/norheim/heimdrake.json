@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:heimdrake",
+  "speciesId": "cobblemon:heimdrake",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

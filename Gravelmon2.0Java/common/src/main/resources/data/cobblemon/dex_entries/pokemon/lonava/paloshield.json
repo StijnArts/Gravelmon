@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:paloshield",
+  "speciesId": "cobblemon:paloshield",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

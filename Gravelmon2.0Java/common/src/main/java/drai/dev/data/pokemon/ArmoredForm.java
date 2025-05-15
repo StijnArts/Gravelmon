@@ -9,6 +9,7 @@ import net.minecraft.util.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
+import java.io.*;
 import java.util.*;
 import java.util.stream.*;
 
@@ -76,6 +77,22 @@ public class ArmoredForm extends WorldRepresentablePokemon {
         return StringUtils.capitalize(getAspectName().replaceAll("_", " "));
     }
 
+    @Override
+    public String getTextureName() {
+        return getAspectName().replaceAll("_", "")+getCleanName();
+    }
+
+    @Override
+    protected @NotNull File findTextureDirectory(String resourcesDir){
+        var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getCleanName()+"_"+getAspectName();
+        return new File(expectedDir);
+    }
+
+    @Override
+    protected @NotNull String getModelName() {
+        return super.getModelName()+"_"+getAspectName();
+    }
+
     public String getAspectName() {
         var aspectName = "armored";
         if(aspect != null) aspectName+="_"+aspect.getName();
@@ -126,5 +143,9 @@ public class ArmoredForm extends WorldRepresentablePokemon {
 
         return fileContents;
 
+    }
+
+    public void processPokemonAssets(String resourcesDir) {
+        super.processPokemonAssets(resourcesDir, false);
     }
 }

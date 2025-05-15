@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fulion",
+  "speciesId": "cobblemon:fulion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

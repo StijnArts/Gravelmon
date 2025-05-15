@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ryurai",
+  "speciesId": "cobblemon:ryurai",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

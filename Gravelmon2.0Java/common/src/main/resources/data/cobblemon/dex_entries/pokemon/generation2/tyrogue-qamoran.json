@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tyrogue-qamoran",
+  "speciesId": "cobblemon:tyrogue",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

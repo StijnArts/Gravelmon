@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:micronaut",
+  "speciesId": "cobblemon:micronaut",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

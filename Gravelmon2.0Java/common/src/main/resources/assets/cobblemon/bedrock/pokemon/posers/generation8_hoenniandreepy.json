@@ -1,0 +1,64 @@
+{
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.5,
+    0.0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('hoenniandreepy', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(hoenniandreepy, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoenniandreepy, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(hoenniandreepy, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoenniandreepy, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    }
+  }
+}

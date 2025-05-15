@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nemokat",
+  "speciesId": "cobblemon:nemokat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lombre-ishirian",
+  "speciesId": "cobblemon:lombre",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bramoth",
+  "speciesId": "cobblemon:bramoth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

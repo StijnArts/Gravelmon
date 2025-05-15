@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slithm",
+  "speciesId": "cobblemon:slithm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

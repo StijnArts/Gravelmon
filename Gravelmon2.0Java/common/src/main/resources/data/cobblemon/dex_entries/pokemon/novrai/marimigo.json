@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:marimigo",
+  "speciesId": "cobblemon:marimigo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vertighoul",
+  "speciesId": "cobblemon:vertighoul",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

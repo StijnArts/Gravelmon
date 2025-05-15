@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hooligrub",
+  "speciesId": "cobblemon:hooligrub",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

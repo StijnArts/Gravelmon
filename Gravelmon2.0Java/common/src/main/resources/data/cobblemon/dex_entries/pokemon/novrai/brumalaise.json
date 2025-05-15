@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:brumalaise",
+  "speciesId": "cobblemon:brumalaise",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

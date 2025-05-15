@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:blitzchief",
+  "speciesId": "cobblemon:blitzchief",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

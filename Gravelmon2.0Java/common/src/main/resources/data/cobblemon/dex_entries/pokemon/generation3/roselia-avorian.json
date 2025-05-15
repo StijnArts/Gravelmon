@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:roselia-avorian",
+  "speciesId": "cobblemon:roselia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avorian",
+      "unlockForms": [
+        "Avorian"
+      ]
+    }
+  ],
+  "variations": []
+}

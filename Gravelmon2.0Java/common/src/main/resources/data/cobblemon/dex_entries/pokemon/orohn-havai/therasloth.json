@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:therasloth",
+  "speciesId": "cobblemon:therasloth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

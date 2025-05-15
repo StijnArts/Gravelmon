@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sneacroach",
+  "speciesId": "cobblemon:sneacroach",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

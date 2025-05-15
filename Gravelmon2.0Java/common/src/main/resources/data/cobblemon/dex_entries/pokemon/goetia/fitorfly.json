@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fitorfly",
+  "speciesId": "cobblemon:fitorfly",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

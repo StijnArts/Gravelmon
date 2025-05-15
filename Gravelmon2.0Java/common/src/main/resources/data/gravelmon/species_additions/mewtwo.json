@@ -345,7 +345,7 @@
     {
       "name": "armored",
       "primaryType": "psychic",
-      "baseScale": 0.525,
+      "baseScale": 0.315,
       "cannotDynamax": true,
       "abilities": [
         "hubris",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:freyurr",
+  "speciesId": "cobblemon:freyurr",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ninetales-ishirian",
+  "speciesId": "cobblemon:ninetales",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

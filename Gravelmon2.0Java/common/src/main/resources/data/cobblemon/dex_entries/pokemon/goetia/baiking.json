@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:baiking",
+  "speciesId": "cobblemon:baiking",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

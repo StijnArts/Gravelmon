@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:leafrog",
+  "speciesId": "cobblemon:leafrog",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

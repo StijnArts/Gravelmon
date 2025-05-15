@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sweetilt",
+  "speciesId": "cobblemon:sweetilt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

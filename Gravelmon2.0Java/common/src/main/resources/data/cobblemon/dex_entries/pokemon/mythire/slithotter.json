@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slithotter",
+  "speciesId": "cobblemon:slithotter",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:knotyors",
+  "speciesId": "cobblemon:knotyors",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

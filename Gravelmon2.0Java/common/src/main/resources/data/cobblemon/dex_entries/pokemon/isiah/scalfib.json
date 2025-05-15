@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scalfib",
+  "speciesId": "cobblemon:scalfib",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lileep-hizian",
+  "speciesId": "cobblemon:lileep",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

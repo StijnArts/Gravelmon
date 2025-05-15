@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:componion",
+  "speciesId": "cobblemon:componion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

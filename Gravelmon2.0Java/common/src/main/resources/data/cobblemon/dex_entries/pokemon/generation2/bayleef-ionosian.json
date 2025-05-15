@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bayleef-ionosian",
+  "speciesId": "cobblemon:bayleef",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

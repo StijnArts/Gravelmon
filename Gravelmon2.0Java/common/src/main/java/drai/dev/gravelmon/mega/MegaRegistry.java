@@ -112,18 +112,18 @@ public class MegaRegistry {
                                 130),
                         Ability.SHADOW_SYNERGY,
                         22, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), Aspect.SHADOW)
-                        .addPalette(new MegaStonePalette("#ffa54d", "#3372b4", "#323f50")),
-                new MegaEvolution("meganium",
-                        Type.PSYCHIC, Type.FIGHTING,
-                        new Stats(106,
-                                190,
-                                100,
-                                154,
-                                100,
-                                130),
-                        Ability.SHADOW_SYNERGY,
-                        22, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), Aspect.SHADOW)
-                        .addPalette(new MegaStonePalette("#ffa54d", "#3372b4", "#323f50"))
+                        .addPalette(new MegaStonePalette("#ffa54d", "#3372b4", "#323f50"))//,
+//                new MegaEvolution("meganium",
+//                        Type.PSYCHIC, Type.FIGHTING,
+//                        new Stats(106,
+//                                190,
+//                                100,
+//                                154,
+//                                100,
+//                                130),
+//                        Ability.SHADOW_SYNERGY,
+//                        22, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), Aspect.SHADOW)
+//                        .addPalette(new MegaStonePalette("#ffa54d", "#3372b4", "#323f50"))
 //                new MegaEvolution("venusaur",
 //                        Type.FAIRY, Type.PSYCHIC,
 //                        new Stats(80,100,123,122,120,80),

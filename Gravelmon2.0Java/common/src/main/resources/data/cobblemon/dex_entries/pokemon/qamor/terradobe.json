@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terradobe",
+  "speciesId": "cobblemon:terradobe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

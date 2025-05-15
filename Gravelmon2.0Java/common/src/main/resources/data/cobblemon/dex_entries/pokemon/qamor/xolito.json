@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:xolito",
+  "speciesId": "cobblemon:xolito",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

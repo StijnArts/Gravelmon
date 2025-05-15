@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jarmalade",
+  "speciesId": "cobblemon:jarmalade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

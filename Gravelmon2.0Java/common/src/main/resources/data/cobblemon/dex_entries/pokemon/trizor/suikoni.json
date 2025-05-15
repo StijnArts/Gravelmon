@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:suikoni",
+  "speciesId": "cobblemon:suikoni",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

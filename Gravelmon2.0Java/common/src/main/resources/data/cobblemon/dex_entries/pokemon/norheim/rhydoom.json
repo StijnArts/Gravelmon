@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rhydoom",
+  "speciesId": "cobblemon:rhydoom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

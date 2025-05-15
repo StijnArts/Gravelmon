@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:groviasse",
+  "speciesId": "cobblemon:groviasse",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

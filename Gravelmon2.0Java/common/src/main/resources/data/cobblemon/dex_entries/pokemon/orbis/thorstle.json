@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thorstle",
+  "speciesId": "cobblemon:thorstle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

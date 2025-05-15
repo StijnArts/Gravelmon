@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nettic",
+  "speciesId": "cobblemon:nettic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

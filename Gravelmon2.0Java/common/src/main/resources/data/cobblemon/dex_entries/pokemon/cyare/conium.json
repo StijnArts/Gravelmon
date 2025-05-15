@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:conium",
+  "speciesId": "cobblemon:conium",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

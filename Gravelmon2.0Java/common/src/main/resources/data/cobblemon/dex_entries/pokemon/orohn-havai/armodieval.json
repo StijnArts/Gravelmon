@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:armodieval",
+  "speciesId": "cobblemon:armodieval",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

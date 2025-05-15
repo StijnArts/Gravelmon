@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:muleseye",
+  "speciesId": "cobblemon:muleseye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

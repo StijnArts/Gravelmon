@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:baldy",
+  "speciesId": "cobblemon:baldy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

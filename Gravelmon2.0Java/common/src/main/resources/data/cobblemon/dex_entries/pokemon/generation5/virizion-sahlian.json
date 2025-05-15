@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:virizion-sahlian",
+  "speciesId": "cobblemon:virizion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Sahlian",
+      "unlockForms": [
+        "Sahlian"
+      ]
+    }
+  ],
+  "variations": []
+}

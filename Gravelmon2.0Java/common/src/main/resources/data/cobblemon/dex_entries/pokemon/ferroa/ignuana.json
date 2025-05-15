@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ignuana",
+  "speciesId": "cobblemon:ignuana",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:blobhorent",
+  "speciesId": "cobblemon:blobhorent",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

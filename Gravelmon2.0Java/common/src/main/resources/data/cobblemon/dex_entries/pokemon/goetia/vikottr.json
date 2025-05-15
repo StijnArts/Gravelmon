@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vikottr",
+  "speciesId": "cobblemon:vikottr",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

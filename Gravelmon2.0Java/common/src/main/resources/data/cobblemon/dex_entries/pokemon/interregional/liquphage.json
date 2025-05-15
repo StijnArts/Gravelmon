@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:liquphage",
+  "speciesId": "cobblemon:liquphage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

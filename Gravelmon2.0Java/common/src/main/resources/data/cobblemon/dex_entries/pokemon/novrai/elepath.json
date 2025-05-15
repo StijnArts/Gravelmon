@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elepath",
+  "speciesId": "cobblemon:elepath",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

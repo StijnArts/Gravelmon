@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:balan",
+  "speciesId": "cobblemon:balan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

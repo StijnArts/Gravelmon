@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tecnophin",
+  "speciesId": "cobblemon:tecnophin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

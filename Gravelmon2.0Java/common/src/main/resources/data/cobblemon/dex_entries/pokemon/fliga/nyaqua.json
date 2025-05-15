@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nyaqua",
+  "speciesId": "cobblemon:nyaqua",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

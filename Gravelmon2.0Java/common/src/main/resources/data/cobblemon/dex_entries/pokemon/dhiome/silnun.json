@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:silnun",
+  "speciesId": "cobblemon:silnun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

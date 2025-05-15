@@ -1,0 +1,108 @@
+{
+  "name": "Taranchusk",
+  "primaryType": "bug",
+  "catchRate": 135,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "preEvolution": "furanea",
+  "baseScale": 12.0,
+  "cannotDynamax": false,
+  "abilities": [
+    "swarm",
+    "compoundeyes",
+    "h:moxie"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 56,
+    "attack": 73,
+    "defence": 60,
+    "special_attack": 65,
+    "special_defence": 64,
+    "speed": 62
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "eggGroups": [
+    "bug",
+    "human_like"
+  ],
+  "drops": {},
+  "moves": [
+    "1:spiderweb",
+    "1:constrict",
+    "1:astonish",
+    "1:stringshot",
+    "3:bugbite",
+    "5:infestation",
+    "6:screech",
+    "10:furyswipes",
+    "13:bite",
+    "18:shadowsneak",
+    "20:suckerpunch",
+    "24:scaryface",
+    "28:nightslash",
+    "35:nastyplot",
+    "38:shadowclaw",
+    "45:stickyweb",
+    "50:crosspoison",
+    "tm:terablast"
+  ],
+  "labels": [
+    "nodorro",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.taranchusk.desc"
+  ],
+  "height": 10,
+  "weight": 360,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 6697,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 0.125,
+    "height": 0.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lullabaa",
+  "speciesId": "cobblemon:lullabaa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rattletack",
+  "speciesId": "cobblemon:rattletack",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

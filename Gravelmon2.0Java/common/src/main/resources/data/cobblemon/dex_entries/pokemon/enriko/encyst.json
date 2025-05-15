@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:encyst",
+  "speciesId": "cobblemon:encyst",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

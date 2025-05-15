@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chillowisp",
+  "speciesId": "cobblemon:chillowisp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

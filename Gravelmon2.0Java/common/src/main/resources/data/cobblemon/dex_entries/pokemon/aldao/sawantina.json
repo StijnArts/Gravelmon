@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sawantina",
+  "speciesId": "cobblemon:sawantina",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

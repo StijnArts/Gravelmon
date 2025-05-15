@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:carvtoise",
+  "speciesId": "cobblemon:carvtoise",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

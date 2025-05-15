@@ -1,0 +1,37 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "timiphid-01",
+      "pokemon": "timiphid",
+      "presets": [],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "2-15",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_freshwater"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    }
+  ]
+}

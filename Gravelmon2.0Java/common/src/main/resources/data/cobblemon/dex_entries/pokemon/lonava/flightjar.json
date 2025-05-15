@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flightjar",
+  "speciesId": "cobblemon:flightjar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

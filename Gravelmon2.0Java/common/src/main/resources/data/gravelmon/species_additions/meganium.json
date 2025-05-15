@@ -925,35 +925,6 @@
         "height": 5.9375,
         "fixed": false
       }
-    },
-    {
-      "name": "shadow_mega",
-      "primaryType": "psychic",
-      "secondaryType": "fighting",
-      "baseScale": 26.400000000000002,
-      "cannotDynamax": true,
-      "abilities": [
-        "shadowsynergy"
-      ],
-      "baseStats": {
-        "hp": 106,
-        "attack": 190,
-        "defence": 100,
-        "special_attack": 154,
-        "special_defence": 100,
-        "speed": 130
-      },
-      "labels": [
-        "gen1",
-        "insurgence"
-      ],
-      "pokedex": [
-        null
-      ],
-      "height": 22,
-      "aspects": [
-        "shadow_mega"
-      ]
     }
   ],
   "features": [
@@ -962,7 +933,6 @@
     "ionosian",
     "egho",
     "ayreian",
-    "ishirian",
-    "shadow_mega"
+    "ishirian"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aviterate",
+  "speciesId": "cobblemon:aviterate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

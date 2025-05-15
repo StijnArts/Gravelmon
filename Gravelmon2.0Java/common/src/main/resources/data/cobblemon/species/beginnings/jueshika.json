@@ -1,0 +1,105 @@
+{
+  "name": "Jueshika",
+  "primaryType": "electric",
+  "catchRate": 176,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 4.800000000000001,
+  "cannotDynamax": false,
+  "abilities": [
+    "sapsipper",
+    "static",
+    "h:gooey"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 48,
+    "attack": 43,
+    "defence": 40,
+    "special_attack": 60,
+    "special_defence": 46,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {},
+  "moves": [
+    "1:thundershock",
+    "1:healbell",
+    "1:vacuumwave",
+    "1:leer",
+    "1:wish",
+    "1:nastyplot",
+    "10:charge",
+    "10:quickattack",
+    "15:shockwave",
+    "15:swordsdance",
+    "20:discharge",
+    "25:thunderbolt",
+    "30:thunder",
+    "35:thundershock",
+    "40:leer",
+    "45:charge",
+    "50:thunderpunch",
+    "55:discharge",
+    "tm:terablast"
+  ],
+  "labels": [
+    "ottora",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.jueshika.desc"
+  ],
+  "height": 0,
+  "weight": 0,
+  "aspects": [],
+  "evolutions": [],
+  "nationalPokedexNumber": 7041,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 0.125,
+    "height": 0.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

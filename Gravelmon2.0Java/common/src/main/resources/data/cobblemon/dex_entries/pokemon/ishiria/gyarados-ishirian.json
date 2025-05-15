@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gyarados-ishirian",
+  "speciesId": "cobblemon:gyarados",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

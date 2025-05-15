@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chippole",
+  "speciesId": "cobblemon:chippole",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,27 @@
+{
+  "head": "head",
+  "portraitScale": 2.0,
+  "portraitTranslation": [
+    0.0,
+    -0.2,
+    0.0
+  ],
+  "profileScale": 0.800000011920929,
+  "profileTranslation": [
+    0.0,
+    0.55,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(pumpkid, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": []
+    }
+  }
+}

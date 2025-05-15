@@ -37,10 +37,10 @@ public class AdditionalFormAssetsJSONWriter {
                 throw new RuntimeException(e);
             }
         });
-        ArmoredForm.ARMORED_FORMS.entrySet().forEach(entry -> {
+        ArmoredForm.ARMORED_FORMS.forEach((key, value) -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
-                writePokemon(GravelmonUtils.getCleanName(entry.getKey()), dir, resourcesDir, gson, entry.getValue(), 9999, 0);
+                writePokemon(GravelmonUtils.getCleanName(key), dir, resourcesDir, gson, value, 9999, 0);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -75,6 +75,9 @@ public class AdditionalFormAssetsJSONWriter {
         } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
             aspect = megaEvolution.getIndependentMegaAspect();
             order = formCounter + 1000 + i;
+        } else if(worldRepresentablePokemon instanceof ArmoredForm armoredForm){
+            aspect = armoredForm.getAspectName();
+            order = formCounter + 2000 + i;
         }
 
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + key + "_" + aspect + ".json"));

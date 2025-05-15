@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:explodaph",
+  "speciesId": "cobblemon:explodaph",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

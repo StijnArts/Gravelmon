@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:narnail",
+  "speciesId": "cobblemon:narnail",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

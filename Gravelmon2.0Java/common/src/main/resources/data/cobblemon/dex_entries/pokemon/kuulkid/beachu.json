@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beachu",
+  "speciesId": "cobblemon:beachu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

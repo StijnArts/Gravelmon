@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kitsunny",
+  "speciesId": "cobblemon:kitsunny",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

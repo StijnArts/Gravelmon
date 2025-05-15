@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vitoshum",
+  "speciesId": "cobblemon:vitoshum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

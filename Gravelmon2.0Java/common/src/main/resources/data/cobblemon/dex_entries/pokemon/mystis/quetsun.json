@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quetsun",
+  "speciesId": "cobblemon:quetsun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

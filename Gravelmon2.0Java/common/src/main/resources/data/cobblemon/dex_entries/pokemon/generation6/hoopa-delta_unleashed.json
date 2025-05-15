@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hoopa-delta_unleashed",
+  "speciesId": "cobblemon:hoopa",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltaunleashed",
+      "unlockForms": [
+        "Deltaunleashed"
+      ]
+    }
+  ],
+  "variations": []
+}

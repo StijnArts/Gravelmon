@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:barammer",
+  "speciesId": "cobblemon:barammer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

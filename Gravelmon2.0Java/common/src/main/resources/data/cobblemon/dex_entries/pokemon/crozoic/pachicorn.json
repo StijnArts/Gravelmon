@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pachicorn",
+  "speciesId": "cobblemon:pachicorn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

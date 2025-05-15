@@ -37,7 +37,7 @@ public class VariationData {
     public static VariationData fromPokemon(WorldRepresentablePokemon abstractPokemon, List<BasicLayerData> layers) {
         Supplier<String> identifier = () -> GravelmonUtils.getCleanName(abstractPokemon.getGameName()) + "_" + abstractPokemon.getCleanName();
         Supplier<String> model = () -> abstractPokemon.isModeled() ? identifier.get() : abstractPokemon.getPlaceholderModelName(false);
-        return new VariationData(model, identifier, abstractPokemon.getCleanName(), layers);
+        return new VariationData(model, identifier, abstractPokemon.getTextureName(), layers);
     }
 
     public JsonObject toJsonObject(List<String> aspects, WorldRepresentablePokemon abstractPokemon) {

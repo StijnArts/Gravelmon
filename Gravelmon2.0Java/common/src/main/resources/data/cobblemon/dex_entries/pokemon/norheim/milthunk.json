@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:milthunk",
+  "speciesId": "cobblemon:milthunk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

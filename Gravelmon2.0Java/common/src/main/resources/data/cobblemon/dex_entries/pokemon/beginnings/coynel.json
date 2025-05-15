@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coynel",
+  "speciesId": "cobblemon:coynel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

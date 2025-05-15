@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drumble",
+  "speciesId": "cobblemon:drumble",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

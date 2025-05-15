@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shinodea",
+  "speciesId": "cobblemon:shinodea",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

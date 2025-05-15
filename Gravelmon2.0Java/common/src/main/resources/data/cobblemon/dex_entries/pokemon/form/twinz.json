@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:twinz",
+  "speciesId": "cobblemon:twinz",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

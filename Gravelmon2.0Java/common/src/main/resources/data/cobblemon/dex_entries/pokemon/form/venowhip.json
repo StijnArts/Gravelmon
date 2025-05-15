@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:venowhip",
+  "speciesId": "cobblemon:venowhip",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:helmarine",
+  "speciesId": "cobblemon:helmarine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

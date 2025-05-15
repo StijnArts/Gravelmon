@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beginningsanhatenna-ottoran",
+  "speciesId": "cobblemon:beginningsanhatenna",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ottoran",
+      "unlockForms": [
+        "Ottoran"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nirvantis",
+  "speciesId": "cobblemon:nirvantis",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

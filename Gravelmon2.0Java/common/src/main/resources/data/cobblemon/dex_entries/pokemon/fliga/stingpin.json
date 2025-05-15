@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stingpin",
+  "speciesId": "cobblemon:stingpin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

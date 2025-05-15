@@ -24,6 +24,9 @@ public class JSONOutputGenerator {
                 MegaStoneGenerator.createMegaStoneTexture(resourcesDir, baseStoneName, megaEvolution);
             });
         });
+        ArmoredForm.ARMORED_FORMS.forEach((name, form) -> {
+           form.processPokemonAssets(resourcesDir);
+        });
         LangJSONWriter.writeStarterCategories();
         generateLangFile();
         for(Game game : GameRegistry.games){
@@ -38,8 +41,10 @@ public class JSONOutputGenerator {
         FossilJSONWriter.writeFossils(resourcesDir);
         PokeBallEffectWriter.writeEffects(resourcesDir);
 
-        PoserJSONWriter.writeMegas(resourcesDir);
+        PoserJSONWriter.writeStandardizedForms(resourcesDir);
+        PoserJSONWriter.writeStandardizedForms(resourcesDir);
         LangJSONWriter.writeMegas();
+        LangJSONWriter.writeArmored();
         //Additional Forms
         LangJSONWriter.finalizeLang(resourcesDir);
         PokeDexWriter.finalizeDexes(resourcesDir);

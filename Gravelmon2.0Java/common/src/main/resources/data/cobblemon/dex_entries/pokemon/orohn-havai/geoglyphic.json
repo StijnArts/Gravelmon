@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:geoglyphic",
+  "speciesId": "cobblemon:geoglyphic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

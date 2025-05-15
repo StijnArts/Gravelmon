@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dauvall",
+  "speciesId": "cobblemon:dauvall",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

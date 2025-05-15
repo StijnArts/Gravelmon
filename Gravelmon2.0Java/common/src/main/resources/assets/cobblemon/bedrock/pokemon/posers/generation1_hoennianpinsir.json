@@ -1,0 +1,108 @@
+{
+  "portraitScale": 1.7999999523162842,
+  "portraitTranslation": [
+    -0.44,
+    -0.07,
+    0.0
+  ],
+  "profileScale": 0.5600000023841858,
+  "profileTranslation": [
+    0.0,
+    0.9,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(hoennianpinsir, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE",
+        "FLOAT",
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(hoennianpinsir, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM",
+        "FLY"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(hoennianpinsir, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "animations": [
+        "bedrock(hoennianpinsir, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 10,
+      "isBattle": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, blink)"
+          ],
+          "name": "blink"
+        },
+        {
+          "animations": [
+            "bedrock(hoennianpinsir, cry)"
+          ],
+          "name": "cry"
+        }
+      ]
+    }
+  }
+}

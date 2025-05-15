@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mouszerker",
+  "speciesId": "cobblemon:mouszerker",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

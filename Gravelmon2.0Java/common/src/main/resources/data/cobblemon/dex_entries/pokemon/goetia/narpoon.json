@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:narpoon",
+  "speciesId": "cobblemon:narpoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

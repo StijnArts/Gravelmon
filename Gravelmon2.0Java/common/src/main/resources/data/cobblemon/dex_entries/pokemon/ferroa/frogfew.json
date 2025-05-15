@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:frogfew",
+  "speciesId": "cobblemon:frogfew",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

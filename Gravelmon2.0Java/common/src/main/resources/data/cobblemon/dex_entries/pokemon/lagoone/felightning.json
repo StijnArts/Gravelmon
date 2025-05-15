@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:felightning",
+  "speciesId": "cobblemon:felightning",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

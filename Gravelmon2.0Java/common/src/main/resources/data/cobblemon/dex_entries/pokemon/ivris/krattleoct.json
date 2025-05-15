@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:krattleoct",
+  "speciesId": "cobblemon:krattleoct",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

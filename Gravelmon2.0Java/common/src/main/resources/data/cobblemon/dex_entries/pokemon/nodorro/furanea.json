@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furanea",
+  "speciesId": "cobblemon:furanea",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

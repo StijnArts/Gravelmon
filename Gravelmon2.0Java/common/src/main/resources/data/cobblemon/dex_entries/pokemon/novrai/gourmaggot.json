@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gourmaggot",
+  "speciesId": "cobblemon:gourmaggot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

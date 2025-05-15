@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quafer",
+  "speciesId": "cobblemon:quafer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

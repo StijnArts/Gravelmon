@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sandozer",
+  "speciesId": "cobblemon:sandozer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

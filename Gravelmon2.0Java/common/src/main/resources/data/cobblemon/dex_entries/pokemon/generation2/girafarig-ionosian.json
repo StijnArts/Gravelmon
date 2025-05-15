@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:girafarig-ionosian",
+  "speciesId": "cobblemon:girafarig",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

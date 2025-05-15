@@ -1,0 +1,108 @@
+{
+  "head": "head",
+  "portraitScale": 0.699999988079071,
+  "portraitTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "profileScale": 0.699999988079071,
+  "profileTranslation": [
+    0.0,
+    0.4,
+    0.0
+  ],
+  "animations": {
+    "faint": "bedrock(totodile_egho, faint)",
+    "cry": "q.bedrock_stateful('totodile_egho', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "look",
+        "bedrock(totodile_egho, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "PORTRAIT",
+        "PROFILE",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(totodile_egho, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "bedrock(totodile_egho, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "bedrock(totodile_egho, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(totodile_egho, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(totodile_egho, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    }
+  }
+}

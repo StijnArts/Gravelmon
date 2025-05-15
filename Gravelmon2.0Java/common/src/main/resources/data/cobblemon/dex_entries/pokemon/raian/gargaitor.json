@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gargaitor",
+  "speciesId": "cobblemon:gargaitor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

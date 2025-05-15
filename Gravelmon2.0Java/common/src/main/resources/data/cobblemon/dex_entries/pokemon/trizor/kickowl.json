@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kickowl",
+  "speciesId": "cobblemon:kickowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

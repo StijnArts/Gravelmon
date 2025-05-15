@@ -101,4 +101,9 @@ public class PokemonForm extends AbstractPokemon {
     public String getSpreadsheetName() {
         return getCleanName();
     }
+
+    @Override
+    public String getTextureName() {
+        return getCleanName()+"_"+getFormOf().getCleanName();
+    }
 }

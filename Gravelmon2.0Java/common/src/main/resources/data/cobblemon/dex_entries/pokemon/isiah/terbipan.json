@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:terbipan",
+  "speciesId": "cobblemon:terbipan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

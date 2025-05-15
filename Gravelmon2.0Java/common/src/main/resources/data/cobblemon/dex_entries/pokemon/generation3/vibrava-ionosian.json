@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vibrava-ionosian",
+  "speciesId": "cobblemon:vibrava",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

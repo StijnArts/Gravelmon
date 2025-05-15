@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:earmor",
+  "speciesId": "cobblemon:earmor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

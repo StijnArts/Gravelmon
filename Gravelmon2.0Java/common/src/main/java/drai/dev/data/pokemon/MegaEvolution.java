@@ -38,6 +38,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         this.secondaryType = secondaryType;
     }
 
+    public MegaEvolution setMegaName(String megaName){
+        this.megaName = megaName;
+        return this;
+    }
+
     public MegaEvolution addPalette(MegaStonePalette megaStonePalette){
         this.megaStonePalette = megaStonePalette;
         return this;
@@ -53,6 +58,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     public void processPokemonAssets(String resourcesDir) {
         super.processPokemonAssets(resourcesDir, false);
+    }
+
+    @Override
+    public String getTextureName() {
+        return GravelmonUtils.getCleanName(getName() + "_" + getIndependentMegaAspect());
     }
 
     @Override
@@ -74,6 +84,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return super.getCleanName();
     }
 
+    @Override
     protected @NotNull File findTextureDirectory(String resourcesDir){
         var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getNonMegaCleanName() +
                 "\\"+megaName;
@@ -107,10 +118,6 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     public String getMegaName() {
         return megaName;
-    }
-
-    public void setMegaName(String name) {
-        this.megaName = name;
     }
 
     public String getGameName() {

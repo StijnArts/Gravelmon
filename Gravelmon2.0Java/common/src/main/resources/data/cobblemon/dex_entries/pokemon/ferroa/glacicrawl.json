@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glacicrawl",
+  "speciesId": "cobblemon:glacicrawl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:enchantice",
+  "speciesId": "cobblemon:enchantice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

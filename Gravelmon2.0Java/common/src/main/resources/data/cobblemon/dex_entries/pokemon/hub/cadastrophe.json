@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cadastrophe",
+  "speciesId": "cobblemon:cadastrophe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

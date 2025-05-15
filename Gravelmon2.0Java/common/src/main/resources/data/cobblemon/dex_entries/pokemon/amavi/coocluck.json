@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coocluck",
+  "speciesId": "cobblemon:coocluck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

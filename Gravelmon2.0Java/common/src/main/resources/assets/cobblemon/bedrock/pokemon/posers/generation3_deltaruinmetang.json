@@ -1,0 +1,130 @@
+{
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "animations": {
+    "cry": "q.bedrock_stateful('metang', 'cry')"
+  },
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "animations": [
+        "bedrock(metang, battle_idle)"
+      ],
+      "poseTypes": [
+        "STAND"
+      ],
+      "transformTicks": 10,
+      "isBattle": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(metang, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(metang, ground_idle)"
+      ],
+      "poseTypes": [
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(metang, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(metang, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(metang, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "bedrock(metang, air_idle)"
+      ],
+      "poseTypes": [
+        "HOVER",
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(metang, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "bedrock(metang, air_fly)"
+      ],
+      "poseTypes": [
+        "FLY",
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(metang, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(metang, sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    }
+  }
+}

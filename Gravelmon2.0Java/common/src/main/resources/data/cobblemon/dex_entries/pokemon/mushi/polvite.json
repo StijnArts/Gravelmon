@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:polvite",
+  "speciesId": "cobblemon:polvite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

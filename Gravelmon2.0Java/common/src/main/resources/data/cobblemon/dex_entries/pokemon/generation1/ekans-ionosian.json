@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ekans-ionosian",
+  "speciesId": "cobblemon:ekans",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

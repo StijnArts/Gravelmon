@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oculustrous",
+  "speciesId": "cobblemon:oculustrous",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

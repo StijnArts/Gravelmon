@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:treecko-avalossian",
+  "speciesId": "cobblemon:treecko",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vermenace",
+  "speciesId": "cobblemon:vermenace",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

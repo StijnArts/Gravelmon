@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vulpilfer",
+  "speciesId": "cobblemon:vulpilfer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

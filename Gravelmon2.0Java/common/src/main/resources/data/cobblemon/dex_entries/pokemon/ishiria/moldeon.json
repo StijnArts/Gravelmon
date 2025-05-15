@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moldeon",
+  "speciesId": "cobblemon:moldeon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

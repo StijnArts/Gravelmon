@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grimmsnarl-mystisian",
+  "speciesId": "cobblemon:grimmsnarl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mystisian",
+      "unlockForms": [
+        "Mystisian"
+      ]
+    }
+  ],
+  "variations": []
+}

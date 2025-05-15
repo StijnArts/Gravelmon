@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dualance",
+  "speciesId": "cobblemon:dualance",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

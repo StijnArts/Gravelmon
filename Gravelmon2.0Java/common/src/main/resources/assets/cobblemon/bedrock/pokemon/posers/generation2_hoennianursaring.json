@@ -1,0 +1,34 @@
+{
+  "head": "head",
+  "portraitScale": 2.0999999046325684,
+  "portraitTranslation": [
+    -0.1,
+    1.6,
+    0.0
+  ],
+  "profileScale": 0.6499999761581421,
+  "profileTranslation": [
+    0.0,
+    0.7,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(ursaring_hoennian, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "isBattle": false,
+      "allPoseTypes": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(ursaring_hoennian, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    }
+  }
+}

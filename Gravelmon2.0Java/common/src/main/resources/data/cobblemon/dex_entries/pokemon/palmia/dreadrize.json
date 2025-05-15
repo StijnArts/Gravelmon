@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dreadrize",
+  "speciesId": "cobblemon:dreadrize",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

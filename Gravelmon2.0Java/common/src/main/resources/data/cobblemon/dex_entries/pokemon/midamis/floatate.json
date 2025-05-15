@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:floatate",
+  "speciesId": "cobblemon:floatate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:corashu",
+  "speciesId": "cobblemon:corashu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

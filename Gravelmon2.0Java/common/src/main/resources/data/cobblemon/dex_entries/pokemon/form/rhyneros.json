@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rhyneros",
+  "speciesId": "cobblemon:rhyneros",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

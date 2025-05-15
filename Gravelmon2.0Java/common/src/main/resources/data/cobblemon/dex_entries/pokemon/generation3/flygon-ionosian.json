@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flygon-ionosian",
+  "speciesId": "cobblemon:flygon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

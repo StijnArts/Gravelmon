@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fungotta",
+  "speciesId": "cobblemon:fungotta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

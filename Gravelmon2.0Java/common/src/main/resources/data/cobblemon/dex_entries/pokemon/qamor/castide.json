@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:castide",
+  "speciesId": "cobblemon:castide",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

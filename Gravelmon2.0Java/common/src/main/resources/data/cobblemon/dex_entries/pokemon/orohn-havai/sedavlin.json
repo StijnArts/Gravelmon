@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sedavlin",
+  "speciesId": "cobblemon:sedavlin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drillbee",
+  "speciesId": "cobblemon:drillbee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

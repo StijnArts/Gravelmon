@@ -423,4 +423,9 @@ public class Pokemon extends AbstractPokemon {
             megaEvolution.setMegaName(newMegaName);
         }
     }
+
+    @Override
+    public String getTextureName() {
+        return getCleanName();
+    }
 }

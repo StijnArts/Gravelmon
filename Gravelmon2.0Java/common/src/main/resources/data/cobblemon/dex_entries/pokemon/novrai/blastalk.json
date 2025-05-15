@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:blastalk",
+  "speciesId": "cobblemon:blastalk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nerimbe",
+  "speciesId": "cobblemon:nerimbe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

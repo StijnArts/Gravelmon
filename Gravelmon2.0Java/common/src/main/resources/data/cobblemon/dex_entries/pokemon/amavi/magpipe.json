@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magpipe",
+  "speciesId": "cobblemon:magpipe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

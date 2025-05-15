@@ -515,7 +515,7 @@
       "name": "armored_delta",
       "primaryType": "dark",
       "secondaryType": "poison",
-      "baseScale": 0.45,
+      "baseScale": 0.20186915887850468,
       "cannotDynamax": true,
       "abilities": [
         "levitate",

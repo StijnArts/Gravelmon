@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:froprince",
+  "speciesId": "cobblemon:froprince",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

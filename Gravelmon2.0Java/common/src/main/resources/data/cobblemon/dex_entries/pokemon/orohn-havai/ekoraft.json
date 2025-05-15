@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ekoraft",
+  "speciesId": "cobblemon:ekoraft",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

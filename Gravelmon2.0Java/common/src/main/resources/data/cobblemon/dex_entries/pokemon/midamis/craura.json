@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:craura",
+  "speciesId": "cobblemon:craura",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

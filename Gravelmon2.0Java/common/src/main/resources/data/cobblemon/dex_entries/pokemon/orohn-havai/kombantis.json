@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kombantis",
+  "speciesId": "cobblemon:kombantis",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

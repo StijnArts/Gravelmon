@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:digloo",
+  "speciesId": "cobblemon:digloo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:zeta",
+  "speciesId": "cobblemon:zeta",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

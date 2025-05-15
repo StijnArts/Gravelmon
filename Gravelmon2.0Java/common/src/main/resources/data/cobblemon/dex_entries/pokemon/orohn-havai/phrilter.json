@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phrilter",
+  "speciesId": "cobblemon:phrilter",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:slambizom",
+  "speciesId": "cobblemon:slambizom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

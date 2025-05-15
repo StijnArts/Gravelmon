@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:calaloof",
+  "speciesId": "cobblemon:calaloof",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

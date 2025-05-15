@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:biscaneer",
+  "speciesId": "cobblemon:biscaneer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

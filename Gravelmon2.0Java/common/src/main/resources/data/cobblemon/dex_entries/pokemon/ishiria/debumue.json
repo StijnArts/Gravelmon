@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:debumue",
+  "speciesId": "cobblemon:debumue",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

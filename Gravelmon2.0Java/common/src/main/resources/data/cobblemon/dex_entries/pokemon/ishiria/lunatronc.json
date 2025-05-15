@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lunatronc",
+  "speciesId": "cobblemon:lunatronc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

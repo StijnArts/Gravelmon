@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:unirval",
+  "speciesId": "cobblemon:unirval",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

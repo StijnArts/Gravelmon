@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spectralyra",
+  "speciesId": "cobblemon:spectralyra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bronkilles",
+  "speciesId": "cobblemon:bronkilles",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

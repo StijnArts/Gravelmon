@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bosteroid",
+  "speciesId": "cobblemon:bosteroid",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

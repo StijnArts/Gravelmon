@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:solkiwi",
+  "speciesId": "cobblemon:solkiwi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

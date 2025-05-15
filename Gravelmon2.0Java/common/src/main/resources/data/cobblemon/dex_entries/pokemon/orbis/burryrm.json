@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:burryrm",
+  "speciesId": "cobblemon:burryrm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

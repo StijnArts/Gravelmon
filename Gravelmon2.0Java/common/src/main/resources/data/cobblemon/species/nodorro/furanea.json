@@ -1,0 +1,116 @@
+{
+  "name": "Furanea",
+  "primaryType": "bug",
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "baseFriendship": 70,
+  "baseScale": 4.800000000000001,
+  "cannotDynamax": false,
+  "abilities": [
+    "swarm",
+    "compoundeyes",
+    "h:moxie"
+  ],
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-6"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canSwimInLava": false,
+        "canBreatheUnderlava": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnLava": false
+      }
+    }
+  },
+  "baseStats": {
+    "hp": 50,
+    "attack": 52,
+    "defence": 46,
+    "special_attack": 52,
+    "special_defence": 48,
+    "speed": 41
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {},
+  "moves": [
+    "1:astonish",
+    "1:stringshot",
+    "3:constrict",
+    "5:spiderweb",
+    "8:bugbite",
+    "10:infestation",
+    "13:screech",
+    "15:furyswipes",
+    "19:bite",
+    "21:shadowsneak",
+    "25:suckerpunch",
+    "29:scaryface",
+    "35:crosspoison",
+    "40:stickyweb",
+    "tm:terablast"
+  ],
+  "labels": [
+    "nodorro",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.furanea.desc"
+  ],
+  "height": 3,
+  "weight": 109,
+  "aspects": [],
+  "evolutions": [
+    {
+      "id": "furanea_taranchusk",
+      "variant": "level_up",
+      "result": "taranchusk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "20"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 6696,
+  "shoulderMountable": false,
+  "hitbox": {
+    "width": 0.125,
+    "height": 0.125,
+    "fixed": false
+  },
+  "features": [],
+  "implemented": true,
+  "forms": []
+}

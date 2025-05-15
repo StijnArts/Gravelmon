@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:amphisage",
+  "speciesId": "cobblemon:amphisage",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

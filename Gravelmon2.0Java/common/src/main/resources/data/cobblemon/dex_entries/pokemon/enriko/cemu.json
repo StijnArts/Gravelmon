@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cemu",
+  "speciesId": "cobblemon:cemu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

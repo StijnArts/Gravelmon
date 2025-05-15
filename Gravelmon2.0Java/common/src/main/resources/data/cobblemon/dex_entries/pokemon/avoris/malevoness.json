@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:malevoness",
+  "speciesId": "cobblemon:malevoness",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

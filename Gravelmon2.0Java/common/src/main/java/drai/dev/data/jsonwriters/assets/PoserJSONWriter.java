@@ -24,7 +24,7 @@ public class PoserJSONWriter {
         });
     }
 
-    public static void writeMegas(String resourcesDir){
+    public static void writeStandardizedForms(String resourcesDir){
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         MEGA_EVOLUTIONS.values().forEach(megas -> {
             try {
@@ -36,6 +36,14 @@ public class PoserJSONWriter {
                     throw new RuntimeException(e);
                 }
             });
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+        ArmoredForm.ARMORED_FORMS.values().forEach(armoredForm -> {
+            try {
+            Files.createDirectories(new File(getDir(resourcesDir)).toPath());
+                    writePokemon(armoredForm, armoredForm.getGameName(), resourcesDir, gson);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

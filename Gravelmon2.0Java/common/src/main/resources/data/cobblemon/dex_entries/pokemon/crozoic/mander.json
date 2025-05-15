@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mander",
+  "speciesId": "cobblemon:mander",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:metamarine",
+  "speciesId": "cobblemon:metamarine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

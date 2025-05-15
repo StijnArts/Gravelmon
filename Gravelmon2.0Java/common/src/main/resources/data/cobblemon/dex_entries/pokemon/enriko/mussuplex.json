@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mussuplex",
+  "speciesId": "cobblemon:mussuplex",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

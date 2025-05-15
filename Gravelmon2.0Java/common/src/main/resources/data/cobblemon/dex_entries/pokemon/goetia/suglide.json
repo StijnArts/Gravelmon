@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:suglide",
+  "speciesId": "cobblemon:suglide",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tyranitararmiran_mega",
+  "speciesId": "cobblemon:tyranitar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "armiran_mega",
+      "unlockForms": [
+        "armiran_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

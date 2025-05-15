@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:feefish",
+  "speciesId": "cobblemon:feefish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

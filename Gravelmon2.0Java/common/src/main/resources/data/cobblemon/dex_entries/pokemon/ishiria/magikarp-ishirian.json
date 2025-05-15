@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:magikarp-ishirian",
+  "speciesId": "cobblemon:magikarp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

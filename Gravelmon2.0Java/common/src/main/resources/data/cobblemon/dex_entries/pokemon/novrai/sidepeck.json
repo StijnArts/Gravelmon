@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sidepeck",
+  "speciesId": "cobblemon:sidepeck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

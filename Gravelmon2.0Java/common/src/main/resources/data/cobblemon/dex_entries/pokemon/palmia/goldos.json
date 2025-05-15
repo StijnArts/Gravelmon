@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:goldos",
+  "speciesId": "cobblemon:goldos",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

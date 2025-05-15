@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:conifella",
+  "speciesId": "cobblemon:conifella",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

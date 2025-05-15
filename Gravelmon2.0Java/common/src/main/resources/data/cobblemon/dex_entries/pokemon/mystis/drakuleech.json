@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drakuleech",
+  "speciesId": "cobblemon:drakuleech",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

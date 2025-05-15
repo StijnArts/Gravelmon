@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tigember",
+  "speciesId": "cobblemon:tigember",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stogith",
+  "speciesId": "cobblemon:stogith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

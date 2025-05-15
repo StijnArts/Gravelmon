@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:torracat-ishirian",
+  "speciesId": "cobblemon:torracat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:salaqoar",
+  "speciesId": "cobblemon:salaqoar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

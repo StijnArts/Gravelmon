@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:epimedic",
+  "speciesId": "cobblemon:epimedic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

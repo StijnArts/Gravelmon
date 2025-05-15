@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kojaku",
+  "speciesId": "cobblemon:kojaku",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

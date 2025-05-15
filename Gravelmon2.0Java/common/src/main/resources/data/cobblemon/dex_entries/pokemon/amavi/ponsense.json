@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ponsense",
+  "speciesId": "cobblemon:ponsense",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

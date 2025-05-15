@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:torquoise",
+  "speciesId": "cobblemon:torquoise",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

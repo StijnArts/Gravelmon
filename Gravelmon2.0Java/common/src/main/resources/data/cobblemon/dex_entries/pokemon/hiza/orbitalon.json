@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:orbitalon",
+  "speciesId": "cobblemon:orbitalon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

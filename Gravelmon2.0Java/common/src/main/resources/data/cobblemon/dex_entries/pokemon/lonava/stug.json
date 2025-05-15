@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stug",
+  "speciesId": "cobblemon:stug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

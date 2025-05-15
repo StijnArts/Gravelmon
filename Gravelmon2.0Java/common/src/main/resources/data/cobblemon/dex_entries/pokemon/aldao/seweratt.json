@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:seweratt",
+  "speciesId": "cobblemon:seweratt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:finray",
+  "speciesId": "cobblemon:finray",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

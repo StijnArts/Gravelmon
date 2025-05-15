@@ -1,0 +1,93 @@
+{
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(birigiri, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "HOVER",
+        "FLY",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(birigiri, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "bedrock(birigiri, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "bedrock(birigiri, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": []
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(birigiri, ground_sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": false,
+      "quirks": []
+    },
+    "water_sleeping": {
+      "poseName": "water_sleeping",
+      "animations": [
+        "bedrock(birigiri, water_sleep)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": true,
+      "quirks": []
+    }
+  }
+}

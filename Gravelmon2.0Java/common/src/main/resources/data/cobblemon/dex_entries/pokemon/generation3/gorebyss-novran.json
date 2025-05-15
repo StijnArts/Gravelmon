@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gorebyss-novran",
+  "speciesId": "cobblemon:gorebyss",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Novran",
+      "unlockForms": [
+        "Novran"
+      ]
+    }
+  ],
+  "variations": []
+}

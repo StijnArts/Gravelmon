@@ -543,7 +543,7 @@
       "name": "armored",
       "primaryType": "ground",
       "secondaryType": "dragon",
-      "baseScale": 0.575,
+      "baseScale": 0.345,
       "cannotDynamax": true,
       "abilities": [
         "levitate",

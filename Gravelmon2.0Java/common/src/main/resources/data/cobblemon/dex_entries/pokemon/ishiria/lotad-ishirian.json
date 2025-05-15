@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lotad-ishirian",
+  "speciesId": "cobblemon:lotad",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ],
+  "variations": []
+}

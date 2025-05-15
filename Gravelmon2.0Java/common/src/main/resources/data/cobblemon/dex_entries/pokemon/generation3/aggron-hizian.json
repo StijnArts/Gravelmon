@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aggron-hizian",
+  "speciesId": "cobblemon:aggron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

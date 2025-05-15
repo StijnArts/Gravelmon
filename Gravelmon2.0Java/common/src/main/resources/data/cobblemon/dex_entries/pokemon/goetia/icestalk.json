@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:icestalk",
+  "speciesId": "cobblemon:icestalk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

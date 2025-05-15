@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:frazzelle",
+  "speciesId": "cobblemon:frazzelle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

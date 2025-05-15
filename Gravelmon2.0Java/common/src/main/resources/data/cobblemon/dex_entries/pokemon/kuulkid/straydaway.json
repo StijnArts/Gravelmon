@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:straydaway",
+  "speciesId": "cobblemon:straydaway",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

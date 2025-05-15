@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chislee",
+  "speciesId": "cobblemon:chislee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

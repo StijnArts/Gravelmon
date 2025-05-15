@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sweetinel",
+  "speciesId": "cobblemon:sweetinel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

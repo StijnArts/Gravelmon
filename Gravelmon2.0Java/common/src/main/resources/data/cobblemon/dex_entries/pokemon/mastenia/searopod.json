@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:searopod",
+  "speciesId": "cobblemon:searopod",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

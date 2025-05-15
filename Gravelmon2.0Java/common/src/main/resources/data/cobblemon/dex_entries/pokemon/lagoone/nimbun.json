@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nimbun",
+  "speciesId": "cobblemon:nimbun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

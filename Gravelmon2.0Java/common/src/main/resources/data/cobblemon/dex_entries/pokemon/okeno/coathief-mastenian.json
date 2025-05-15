@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coathief-mastenian",
+  "speciesId": "cobblemon:coathief",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

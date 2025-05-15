@@ -1,0 +1,47 @@
+{
+  "head": "head",
+  "portraitScale": 0.4000000059604645,
+  "portraitTranslation": [
+    0.0,
+    1.3,
+    0.0
+  ],
+  "profileScale": 0.4000000059604645,
+  "profileTranslation": [
+    0.0,
+    1.3,
+    0.0
+  ],
+  "animations": {
+    "faint": "q.bedrock_primary('oculeus', 'faint', q.curve('one'))"
+  },
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(oculeus, ground_idle)"
+      ],
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(oculeus, blink1)",
+            "bedrock(oculeus, blink2)",
+            "bedrock(oculeus, blink3)",
+            "bedrock(oculeus, blink4)",
+            "bedrock(oculeus, blink5)",
+            "bedrock(oculeus, blink6)",
+            "bedrock(oculeus, blink7)",
+            "bedrock(oculeus, blink8)",
+            "bedrock(oculeus, blink9)",
+            "bedrock(oculeus, blink10)",
+            "bedrock(oculeus, blink11)",
+            "bedrock(oculeus, blink12)"
+          ],
+          "name": "blink"
+        }
+      ]
+    }
+  }
+}

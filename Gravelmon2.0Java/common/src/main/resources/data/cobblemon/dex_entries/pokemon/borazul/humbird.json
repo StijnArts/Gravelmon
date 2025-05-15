@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:humbird",
+  "speciesId": "cobblemon:humbird",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

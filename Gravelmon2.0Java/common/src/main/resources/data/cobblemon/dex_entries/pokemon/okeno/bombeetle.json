@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bombeetle",
+  "speciesId": "cobblemon:bombeetle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

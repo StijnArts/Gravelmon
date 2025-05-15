@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quaintbrush",
+  "speciesId": "cobblemon:quaintbrush",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

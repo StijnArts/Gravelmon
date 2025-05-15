@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:surgeskit",
+  "speciesId": "cobblemon:surgeskit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

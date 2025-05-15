@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vampeye",
+  "speciesId": "cobblemon:vampeye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

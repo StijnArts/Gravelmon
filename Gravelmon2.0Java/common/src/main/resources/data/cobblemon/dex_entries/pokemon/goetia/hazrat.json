@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hazrat",
+  "speciesId": "cobblemon:hazrat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

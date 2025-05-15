@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dwarvnir",
+  "speciesId": "cobblemon:dwarvnir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
