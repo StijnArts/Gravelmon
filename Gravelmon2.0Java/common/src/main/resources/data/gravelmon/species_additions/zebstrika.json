@@ -293,10 +293,40 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "secondaryType": "fairy",
+      "baseScale": 0.2805194805194805,
+      "cannotDynamax": true,
+      "abilities": [
+        "competitive"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defence": 63,
+        "special_attack": 135,
+        "special_defence": 83,
+        "speed": 141
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "seviian"
+    "seviian",
+    "mega"
   ]
 }

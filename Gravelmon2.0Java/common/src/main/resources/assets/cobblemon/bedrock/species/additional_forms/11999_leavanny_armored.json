@@ -6,8 +6,8 @@
       "aspects": [
         "armored"
       ],
-      "model": "cobblemon:cutout_gravelmon_192_by_192.geo",
-      "poser": "cobblemon:cutout_gravelmon_192_by_192",
+      "model": "cobblemon:cutout_gravelmon_92_by_154.geo",
+      "poser": "cobblemon:cutout_gravelmon_92_by_154",
       "texture": "cobblemon:textures/pokemon/insurgence/armoredleavanny.png",
       "layers": [
         {

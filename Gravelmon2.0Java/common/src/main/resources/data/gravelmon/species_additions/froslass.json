@@ -612,12 +612,72 @@
         "height": 9.625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "ice",
+      "secondaryType": "ghost",
+      "baseScale": 0.2375,
+      "cannotDynamax": true,
+      "abilities": [
+        "furcoat"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 85,
+        "special_attack": 120,
+        "special_defence": 105,
+        "speed": 120
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "baseScale": 0.26666666666666666,
+      "cannotDynamax": true,
+      "abilities": [
+        "magicguard"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 85,
+        "special_attack": 120,
+        "special_defence": 105,
+        "speed": 120
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 20,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "mega",
+    "delta_mega"
   ]
 }

@@ -135,28 +135,7 @@ public class DeltaVenusaur extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.48, 0.3,
-                List.of(new PokemonForm(
-                            "Mega", true,
-                            Type.PSYCHIC, Type.FAIRY,
-                            new Stats(80, 100, 123, 122, 120, 80),
-                            List.of(Ability.HUBRIS), Ability.HUBRIS,
-                            20, 1000,
-                            new Stats(0,0,0,2,1,0), 45,
-                            0.5,
-                            263, ExperienceGroup.MEDIUM_SLOW,
-                            70,
-                            50, List.of(EggGroup.DELTA),
-                            List.of(Aspect.MEGA),
-                            List.of(),
-                            List.of(),
-                            List.of(),
-                            List.of(Label.INSURGENCE),
-                            0, List.of(
-                            ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                            ), List.of(),
-                            List.of(),
-                            0.48, 0.3
-                        )));
+                List.of());
         this.setLangFileName("Venusaur");
         
         this.setBaseScale(2);

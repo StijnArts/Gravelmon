@@ -520,12 +520,42 @@
         "height": 9.875,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "baseScale": 0.2125,
+      "cannotDynamax": true,
+      "abilities": [
+        "etherealshroud"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 55,
+        "defence": 125,
+        "special_attack": 125,
+        "special_defence": 150,
+        "speed": 65
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
     "africanusan",
-    "cefiran"
+    "cefiran",
+    "mega"
   ]
 }

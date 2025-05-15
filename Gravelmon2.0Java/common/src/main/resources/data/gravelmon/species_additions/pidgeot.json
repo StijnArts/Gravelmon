@@ -488,11 +488,41 @@
         "height": 5.625,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "dark",
+      "secondaryType": "dragon",
+      "baseScale": 0.2625,
+      "cannotDynamax": true,
+      "abilities": [
+        "intimidate"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "attack": 80,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 80,
+        "speed": 121
+      },
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 21,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "ayreian"
+    "ayreian",
+    "delta_mega"
   ]
 }

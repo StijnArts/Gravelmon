@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:froslassdelta_mega_i",
+  "speciesId": "cobblemon:froslass",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega_i",
+      "unlockForms": [
+        "delta_mega_i"
+      ]
+    }
+  ],
+  "variations": []
+}

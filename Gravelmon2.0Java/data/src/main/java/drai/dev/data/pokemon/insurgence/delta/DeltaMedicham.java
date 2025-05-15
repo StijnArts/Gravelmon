@@ -144,28 +144,7 @@ public class DeltaMedicham extends Pokemon {
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FAIRY, Type.GROUND,
-                        new Stats(60, 100, 85, 80, 85, 100),
-                        List.of(Ability.ATHENIAN), Ability.ATHENIAN,
-                        13, 315,
-                        new Stats(0,0,0,0,0,1), 90,
-                        0.5,
-                        144, ExperienceGroup.MEDIUM_FAST,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Medicham");
     }
 }

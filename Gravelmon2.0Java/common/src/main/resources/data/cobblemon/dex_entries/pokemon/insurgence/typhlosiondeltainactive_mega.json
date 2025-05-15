@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:typhlosiondeltainactive_mega",
+  "speciesId": "cobblemon:typhlosion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "deltainactive_mega",
+      "unlockForms": [
+        "deltainactive_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -749,12 +749,42 @@
         "height": 5.875000000000001,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "baseScale": 0.2181818181818182,
+      "cannotDynamax": true,
+      "abilities": [
+        "noctem"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 104,
+        "defence": 78,
+        "special_attack": 159,
+        "special_defence": 115,
+        "speed": 100
+      },
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "egho",
     "delta",
-    "ayreian"
+    "ayreian",
+    "delta_mega"
   ]
 }

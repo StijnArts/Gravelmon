@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:reuniclusmega",
+  "speciesId": "cobblemon:reuniclus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

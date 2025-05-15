@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sableyedelta_mega",
+  "speciesId": "cobblemon:sableye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

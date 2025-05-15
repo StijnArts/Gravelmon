@@ -558,13 +558,73 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "baseScale": 0.25411764705882356,
+      "cannotDynamax": true,
+      "abilities": [
+        "moxie"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 145,
+        "defence": 130,
+        "special_attack": 60,
+        "special_defence": 85,
+        "speed": 105
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "flying",
+      "secondaryType": "fighting",
+      "baseScale": 0.21724137931034485,
+      "cannotDynamax": true,
+      "abilities": [
+        "megalauncher"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 145,
+        "defence": 130,
+        "special_attack": 60,
+        "special_defence": 85,
+        "speed": 105
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 21,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "palmian",
     "delta",
     "x",
-    "hoennian"
+    "hoennian",
+    "mega",
+    "delta_mega"
   ],
   "evolutions": [
     {

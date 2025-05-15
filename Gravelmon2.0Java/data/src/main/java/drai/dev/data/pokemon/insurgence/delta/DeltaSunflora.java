@@ -121,28 +121,7 @@ public class DeltaSunflora extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.26, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FIRE, Type.POISON,
-                        new Stats(75, 85, 80, 135, 105, 45),
-                        List.of(Ability.CHLOROFURY), Ability.CHLOROFURY,
-                        8, 85,
-                        new Stats(0,0,0,2,1,0), 120,
-                        0.5,
-                        263, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Sunflora");
     }
 }

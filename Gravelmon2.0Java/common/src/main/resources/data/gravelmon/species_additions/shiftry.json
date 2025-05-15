@@ -323,10 +323,40 @@
         "height": 10.125,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "baseScale": 0.17872340425531913,
+      "cannotDynamax": true,
+      "abilities": [
+        "shadowdance"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 135,
+        "defence": 70,
+        "special_attack": 125,
+        "special_defence": 60,
+        "speed": 100
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 14,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "delta"
+    "delta",
+    "mega"
   ]
 }

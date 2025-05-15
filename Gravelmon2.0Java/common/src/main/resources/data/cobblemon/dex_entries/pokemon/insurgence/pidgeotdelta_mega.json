@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pidgeotdelta_mega",
+  "speciesId": "cobblemon:pidgeot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

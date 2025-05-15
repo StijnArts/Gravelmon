@@ -562,11 +562,41 @@
         "height": 5.375,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "dark",
+      "secondaryType": "fighting",
+      "baseScale": 0.21473684210526317,
+      "cannotDynamax": true,
+      "abilities": [
+        "megalauncher"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "attack": 103,
+        "defence": 120,
+        "special_attack": 135,
+        "special_defence": 115,
+        "speed": 78
+      },
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 17,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "egho",
     "delta",
-    "ayreian"
+    "ayreian",
+    "delta_mega"
   ]
 }

@@ -172,28 +172,7 @@ public class DeltaLopunny extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FIGHTING, Type.PSYCHIC,
-                        new Stats(65, 136,94,54,96,135),
-                        List.of(Ability.INFILTRATOR, Ability.INFILTRATOR), Ability.INFILTRATOR,
-                        12, 333,
-                        new Stats(0,0,0,0,0,2), 60,
-                        0.5,
-                        70, ExperienceGroup.MEDIUM_FAST,
-                        0,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Lopunny");
         
         this.setBaseScale(0.6);

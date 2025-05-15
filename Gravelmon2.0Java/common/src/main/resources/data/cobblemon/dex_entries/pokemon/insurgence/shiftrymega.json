@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shiftrymega",
+  "speciesId": "cobblemon:shiftry",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

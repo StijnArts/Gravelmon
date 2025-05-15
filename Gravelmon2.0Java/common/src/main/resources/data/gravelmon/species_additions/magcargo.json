@@ -424,12 +424,41 @@
         "height": 6.25,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "baseScale": 0.15,
+      "cannotDynamax": true,
+      "abilities": [
+        "vaporization"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defence": 100,
+        "special_attack": 150,
+        "special_defence": 100,
+        "speed": 50
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 10,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "cefiran"
+    "cefiran",
+    "mega"
   ],
   "evolutions": [
     {

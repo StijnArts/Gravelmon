@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stunfiskmega",
+  "speciesId": "cobblemon:stunfisk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

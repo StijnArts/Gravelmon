@@ -9,7 +9,7 @@ import java.util.*;
 public class DeltaNumel extends Pokemon {
     public DeltaNumel(String name, Aspect aspect) {
         super(name, aspect,"DeltaNumel",
-                Type.POISON,
+                Type.NUCLEAR,
                 new Stats(60, 60, 40, 65, 45, 35),
                 List.of(Ability.VENOMOUS, Ability.POISON_POINT), Ability.LIQUID_OOZE,
                 7, 240,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scizordelta_mega",
+  "speciesId": "cobblemon:scizor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

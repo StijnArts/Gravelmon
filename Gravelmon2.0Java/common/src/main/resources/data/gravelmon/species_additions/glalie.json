@@ -587,12 +587,42 @@
         "height": 11.625,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "baseScale": 0.2376237623762376,
+      "cannotDynamax": true,
+      "abilities": [
+        "reckless"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defence": 80,
+        "special_attack": 120,
+        "special_defence": 80,
+        "speed": 120
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 20,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "delta_mega"
   ]
 }

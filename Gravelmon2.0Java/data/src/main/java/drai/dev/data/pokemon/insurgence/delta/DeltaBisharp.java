@@ -132,28 +132,7 @@ public class DeltaBisharp extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.37, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FLYING, Type.FIGHTING,
-                        new Stats(65, 145, 130, 60, 85, 105),
-                        List.of(Ability.TECHNICIAN), Ability.TECHNICIAN,
-                        16, 1543,
-                        new Stats(0,2,1,0,0,0), 45,
-                        0.5,
-                        172, ExperienceGroup.MEDIUM_FAST,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Bisharp");
         this.setCanFly(true);
     }

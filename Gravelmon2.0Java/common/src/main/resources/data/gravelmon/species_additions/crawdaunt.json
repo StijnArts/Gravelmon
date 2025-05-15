@@ -256,10 +256,40 @@
         "height": 4.3125,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "baseScale": 0.20800000000000002,
+      "cannotDynamax": true,
+      "abilities": [
+        "adaptability"
+      ],
+      "baseStats": {
+        "hp": 63,
+        "attack": 145,
+        "defence": 95,
+        "special_attack": 100,
+        "special_defence": 85,
+        "speed": 80
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 13,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "norheiman"
+    "norheiman",
+    "mega"
   ]
 }

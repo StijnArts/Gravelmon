@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sudowoodomega",
+  "speciesId": "cobblemon:sudowoodo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

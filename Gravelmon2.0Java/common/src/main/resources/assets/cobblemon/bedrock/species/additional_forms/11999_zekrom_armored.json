@@ -6,8 +6,8 @@
       "aspects": [
         "armored"
       ],
-      "model": "cobblemon:cutout_gravelmon_240_by_240.geo",
-      "poser": "cobblemon:cutout_gravelmon_240_by_240",
+      "model": "cobblemon:cutout_gravelmon_236_by_186.geo",
+      "poser": "cobblemon:cutout_gravelmon_236_by_186",
       "texture": "cobblemon:textures/pokemon/insurgence/armoredzekrom.png",
       "layers": [
         {

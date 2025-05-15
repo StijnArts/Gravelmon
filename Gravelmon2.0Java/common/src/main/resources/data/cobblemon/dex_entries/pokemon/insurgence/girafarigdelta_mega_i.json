@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:girafarigdelta_mega_i",
+  "speciesId": "cobblemon:girafarig",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega_i",
+      "unlockForms": [
+        "delta_mega_i"
+      ]
+    }
+  ],
+  "variations": []
+}

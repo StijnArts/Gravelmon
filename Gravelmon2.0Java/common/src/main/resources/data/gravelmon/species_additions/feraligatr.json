@@ -804,6 +804,34 @@
         "height": 5.125,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "baseScale": 0.3,
+      "cannotDynamax": true,
+      "abilities": [
+        "toughclaws"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 140,
+        "defence": 110,
+        "special_attack": 89,
+        "special_defence": 103,
+        "speed": 103
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 25,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
@@ -811,6 +839,7 @@
     "epochtwo",
     "ionosian",
     "egho",
-    "ayreian"
+    "ayreian",
+    "mega"
   ]
 }

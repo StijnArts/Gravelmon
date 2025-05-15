@@ -113,28 +113,7 @@ public class DeltaGlalie extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.31, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FIRE, Type.ROCK,
-                        new Stats(80, 100, 80, 100, 80, 100),
-                        List.of(Ability.RECKLESS), Ability.RECKLESS,
-                        15, 2565,
-                        new Stats(2,0,0,0,0,0), 45,
-                        0.5,
-                        259, ExperienceGroup.MEDIUM_FAST,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.38, 0.3
-                )));
+                List.of());
         this.setLangFileName("Glalie");
         this.setCanFly(true);
     }

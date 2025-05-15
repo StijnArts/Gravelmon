@@ -113,10 +113,40 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "sound",
+      "secondaryType": "flying",
+      "baseScale": 0.1531914893617021,
+      "cannotDynamax": true,
+      "abilities": [
+        "amplifier"
+      ],
+      "baseStats": {
+        "hp": 76,
+        "attack": 65,
+        "defence": 55,
+        "special_attack": 147,
+        "special_defence": 52,
+        "speed": 116
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 6,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
-    "fabelian"
+    "fabelian",
+    "mega"
   ],
   "evolutions": [
     {

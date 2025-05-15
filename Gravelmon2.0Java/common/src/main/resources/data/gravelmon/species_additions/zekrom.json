@@ -17,7 +17,7 @@
       "name": "armored",
       "primaryType": "dragon",
       "secondaryType": "electric",
-      "baseScale": 0.30000000000000004,
+      "baseScale": 0.3050847457627119,
       "cannotDynamax": true,
       "abilities": [
         "teravolt",

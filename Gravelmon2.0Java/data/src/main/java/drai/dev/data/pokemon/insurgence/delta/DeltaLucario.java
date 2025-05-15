@@ -162,28 +162,7 @@ public class DeltaLucario extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.DESERT_PYRAMID),
                 0.2, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.DARK, Type.GROUND,
-                        new Stats(70, 145,88,140,70,112),
-                        List.of(Ability.DEFIANT, Ability.DEFIANT), Ability.DEFIANT,
-                        4, 55,
-                        new Stats(0,1,0,1,0,0), 75,
-                        0.5,
-                        209, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Lucario");
         
         this.setBaseScale(1.1);

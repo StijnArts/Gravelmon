@@ -663,12 +663,42 @@
         "height": 3.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fighting",
+      "secondaryType": "psychic",
+      "baseScale": 0.2857142857142857,
+      "cannotDynamax": true,
+      "abilities": [
+        "infiltrator"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 136,
+        "defence": 94,
+        "special_attack": 54,
+        "special_defence": 96,
+        "speed": 135
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 15,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
     "cefiran",
-    "mikitarian"
+    "mikitarian",
+    "delta_mega"
   ]
 }

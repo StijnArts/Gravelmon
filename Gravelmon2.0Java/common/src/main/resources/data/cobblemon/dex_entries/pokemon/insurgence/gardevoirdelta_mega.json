@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gardevoirdelta_mega",
+  "speciesId": "cobblemon:gardevoir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

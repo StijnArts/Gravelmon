@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lopunnydelta_mega",
+  "speciesId": "cobblemon:lopunny",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

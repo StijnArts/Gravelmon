@@ -708,12 +708,42 @@
         "height": 4.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "baseScale": 0.2777777777777778,
+      "cannotDynamax": true,
+      "abilities": [
+        "hubris"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 123,
+        "special_attack": 122,
+        "special_defence": 120,
+        "speed": 80
+      },
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 25,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "egho",
     "delta",
-    "ayreian"
+    "ayreian",
+    "delta_mega"
   ]
 }

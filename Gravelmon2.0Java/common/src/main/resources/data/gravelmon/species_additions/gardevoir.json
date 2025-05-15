@@ -870,6 +870,35 @@
         "height": 5.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "baseScale": 0.24,
+      "cannotDynamax": true,
+      "abilities": [
+        "lightningrod"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 85,
+        "defence": 65,
+        "special_attack": 165,
+        "special_defence": 135,
+        "speed": 100
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
@@ -877,6 +906,7 @@
     "avalossian",
     "delta",
     "ayreian",
-    "ishirian"
+    "ishirian",
+    "delta_mega"
   ]
 }

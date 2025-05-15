@@ -6,8 +6,8 @@
       "aspects": [
         "shadow_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_160_by_180.geo",
-      "poser": "cobblemon:cutout_gravelmon_160_by_180",
+      "model": "cobblemon:cutout_gravelmon_110_by_170.geo",
+      "poser": "cobblemon:cutout_gravelmon_110_by_170",
       "texture": "cobblemon:textures/pokemon/insurgence/mewtwo_shadow_mega.png",
       "layers": [
         {

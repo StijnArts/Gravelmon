@@ -1049,6 +1049,35 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "baseScale": 0.26666666666666666,
+      "cannotDynamax": true,
+      "abilities": [
+        "voltabsorb"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 165,
+        "defence": 95,
+        "special_attack": 65,
+        "special_defence": 115,
+        "speed": 110
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
@@ -1057,6 +1086,7 @@
     "avalossian",
     "delta",
     "ayreian",
-    "ishirian"
+    "ishirian",
+    "delta_mega"
   ]
 }

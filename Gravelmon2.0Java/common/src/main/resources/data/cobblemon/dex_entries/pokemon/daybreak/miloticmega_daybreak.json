@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:miloticmega_daybreak",
+  "speciesId": "cobblemon:milotic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega_daybreak",
+      "unlockForms": [
+        "mega_daybreak"
+      ]
+    }
+  ],
+  "variations": []
+}

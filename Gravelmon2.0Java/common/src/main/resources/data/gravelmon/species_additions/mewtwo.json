@@ -219,7 +219,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.315,
+      "baseScale": 0.37058823529411766,
       "cannotDynamax": false,
       "abilities": [
         "intimidate"
@@ -308,8 +308,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 10.0,
-        "height": 10.0,
+        "width": 8.5,
+        "height": 8.5,
         "fixed": false
       }
     },
@@ -317,18 +317,18 @@
       "name": "shadow_mega",
       "primaryType": "psychic",
       "secondaryType": "fighting",
-      "baseScale": 0.29333333333333333,
+      "baseScale": 0.31058823529411766,
       "cannotDynamax": true,
       "abilities": [
         "shadowsynergy"
       ],
       "baseStats": {
-        "hp": 106,
-        "attack": 190,
+        "hp": 80,
+        "attack": 82,
         "defence": 100,
-        "special_attack": 154,
+        "special_attack": 83,
         "special_defence": 100,
-        "speed": 130
+        "speed": 80
       },
       "labels": [
         "gen1",
@@ -345,7 +345,7 @@
     {
       "name": "armored",
       "primaryType": "psychic",
-      "baseScale": 0.315,
+      "baseScale": 0.34520547945205476,
       "cannotDynamax": true,
       "abilities": [
         "hubris",

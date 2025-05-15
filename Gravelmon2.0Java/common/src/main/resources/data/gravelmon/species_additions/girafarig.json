@@ -411,12 +411,72 @@
         "height": 8.625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "normal",
+      "secondaryType": "psychic",
+      "baseScale": 0.18545454545454543,
+      "cannotDynamax": true,
+      "abilities": [
+        "spectraljaws"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "steel",
+      "secondaryType": "poison",
+      "baseScale": 0.18095238095238092,
+      "cannotDynamax": true,
+      "abilities": [
+        "intimidate"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 19,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "forman",
     "ionosian",
-    "delta"
+    "delta",
+    "mega",
+    "delta_mega"
   ],
   "evolutions": [
     {

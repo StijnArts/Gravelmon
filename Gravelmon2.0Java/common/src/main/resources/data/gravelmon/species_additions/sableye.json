@@ -921,6 +921,35 @@
         "height": 5.875000000000001,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "baseScale": 0.12352941176470589,
+      "cannotDynamax": true,
+      "abilities": [
+        "dryskin"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defence": 125,
+        "special_attack": 85,
+        "special_defence": 115,
+        "speed": 20
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 7,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
@@ -929,7 +958,8 @@
     "epochtwo",
     "enjinnian",
     "delta",
-    "cefiran"
+    "cefiran",
+    "delta_mega"
   ],
   "evolutions": [
     {

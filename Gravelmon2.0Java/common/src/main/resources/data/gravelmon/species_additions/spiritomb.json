@@ -379,11 +379,41 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "baseScale": 0.1714285714285714,
+      "cannotDynamax": true,
+      "abilities": [
+        "toughclaws"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 142,
+        "defence": 128,
+        "special_attack": 133,
+        "special_defence": 112,
+        "speed": 20
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 12,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "mahalian",
     "epoch",
-    "x"
+    "x",
+    "mega"
   ]
 }

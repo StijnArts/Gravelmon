@@ -1015,6 +1015,92 @@
         "height": 5.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "baseScale": 0.268235294117647,
+      "cannotDynamax": true,
+      "abilities": [
+        "hubris"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 89,
+        "defence": 88,
+        "special_attack": 159,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "deltainactive_mega",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "baseScale": 21.6,
+      "cannotDynamax": true,
+      "abilities": [
+        "supercell"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 89,
+        "defence": 88,
+        "special_attack": 159,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "deltainactive_mega"
+      ]
+    },
+    {
+      "name": "deltaactive_mega",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "baseScale": 21.6,
+      "cannotDynamax": true,
+      "abilities": [
+        "supercell"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 89,
+        "defence": 88,
+        "special_attack": 159,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 18,
+      "aspects": [
+        "deltaactive_mega"
+      ]
     }
   ],
   "features": [
@@ -1023,6 +1109,9 @@
     "ionosian",
     "egho",
     "delta",
-    "ayreian"
+    "ayreian",
+    "mega",
+    "deltainactive_mega",
+    "deltaactive_mega"
   ]
 }

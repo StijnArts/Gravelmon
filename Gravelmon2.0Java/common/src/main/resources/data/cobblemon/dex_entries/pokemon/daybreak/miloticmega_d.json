@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:miloticmega_d",
+  "speciesId": "cobblemon:milotic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega_d",
+      "unlockForms": [
+        "mega_d"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -540,10 +540,39 @@
       }
     },
     {
+      "name": "mega",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "baseScale": 0.2594594594594595,
+      "cannotDynamax": true,
+      "abilities": [
+        "amplifier"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 104,
+        "special_attack": 80,
+        "special_defence": 104,
+        "speed": 100
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 24,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
       "name": "armored",
       "primaryType": "ground",
       "secondaryType": "dragon",
-      "baseScale": 0.345,
+      "baseScale": 0.38873239436619716,
       "cannotDynamax": true,
       "abilities": [
         "levitate",
@@ -583,6 +612,7 @@
     "ionosian",
     "ayreian",
     "cefiran",
+    "mega",
     "armored"
   ],
   "evolutions": [

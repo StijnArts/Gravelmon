@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sunfloradelta_mega",
+  "speciesId": "cobblemon:sunflora",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

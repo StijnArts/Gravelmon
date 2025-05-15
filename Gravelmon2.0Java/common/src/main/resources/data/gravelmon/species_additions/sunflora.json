@@ -452,12 +452,71 @@
         "height": 7.125,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "baseScale": 9.600000000000001,
+      "cannotDynamax": true,
+      "abilities": [
+        "unleafed"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 85,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 105,
+        "speed": 45
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 8,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "baseScale": 0.1736842105263158,
+      "cannotDynamax": true,
+      "abilities": [
+        "chlorofury"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 85,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 105,
+        "speed": 45
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 11,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "nodorran",
     "epoch",
-    "delta"
+    "delta",
+    "mega",
+    "delta_mega"
   ],
   "evolutions": [
     {

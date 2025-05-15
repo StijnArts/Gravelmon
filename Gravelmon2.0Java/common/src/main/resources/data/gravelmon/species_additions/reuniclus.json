@@ -940,6 +940,34 @@
         "height": 11.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "psychic",
+      "baseScale": 0.2,
+      "cannotDynamax": true,
+      "abilities": [
+        "speedswap"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 85,
+        "defence": 65,
+        "special_attack": 160,
+        "special_defence": 90,
+        "speed": 80
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 16,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
@@ -948,6 +976,7 @@
     "delta",
     "hoennian",
     "kaskadian",
-    "mystic"
+    "mystic",
+    "mega"
   ]
 }

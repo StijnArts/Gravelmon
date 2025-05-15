@@ -1,0 +1,37 @@
+{
+  "target": "cobblemon:stunfisk",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "ground",
+      "secondaryType": "electric",
+      "baseScale": 0.2,
+      "cannotDynamax": true,
+      "abilities": [
+        "athenian"
+      ],
+      "baseStats": {
+        "hp": 109,
+        "attack": 76,
+        "defence": 104,
+        "special_attack": 91,
+        "special_defence": 134,
+        "speed": 57
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 16,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

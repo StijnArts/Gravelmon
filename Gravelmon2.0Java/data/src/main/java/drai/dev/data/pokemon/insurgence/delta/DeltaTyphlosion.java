@@ -137,50 +137,7 @@ public class DeltaTyphlosion extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
-                List.of(new PokemonForm(
-                                "Mega_Active", true,
-                                Type.ELECTRIC, Type.STEEL,
-                                new Stats(78, 89, 88, 159, 110, 110),
-                                List.of(Ability.SUPERCELL), Ability.SUPERCELL,
-                                17, 1590,
-                                new Stats(0,0,0,2,1,0), 45,
-                                0.5,
-                                263, ExperienceGroup.MEDIUM_SLOW,
-                                70,
-                                50, List.of(EggGroup.DELTA),
-                                List.of(Aspect.MEGA, Aspect.ACTIVE),
-                                List.of(),
-                                List.of(),
-                                List.of(),
-                                List.of(Label.INSURGENCE),
-                                0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                        ), List.of(),
-                                List.of(),
-                                0.48, 0.3
-                        ),
-                        new PokemonForm(
-                                "Mega_Inactive", true,
-                                Type.ELECTRIC, Type.STEEL,
-                                new Stats(78, 89, 88, 159, 110, 110),
-                                List.of(Ability.SUPERCELL), Ability.SUPERCELL,
-                                17, 1590,
-                                new Stats(0,0,0,2,1,0), 45,
-                                0.5,
-                                263, ExperienceGroup.MEDIUM_SLOW,
-                                70,
-                                50, List.of(EggGroup.DELTA),
-                                List.of(Aspect.MEGA),
-                                List.of(),
-                                List.of(),
-                                List.of(),
-                                List.of(Label.INSURGENCE),
-                                0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                        ), List.of(),
-                                List.of(),
-                                0.48, 0.3
-                        )));
+                List.of());
         this.setLangFileName("Typhlosion");
     }
 }

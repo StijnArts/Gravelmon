@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:venusaurdelta_mega",
+  "speciesId": "cobblemon:venusaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hydreigonmega",
+  "speciesId": "cobblemon:hydreigon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

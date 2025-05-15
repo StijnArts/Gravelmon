@@ -661,12 +661,102 @@
         "height": 1.6,
         "fixed": false
       }
+    },
+    {
+      "name": "deltaspider_mega",
+      "primaryType": "ground",
+      "secondaryType": "bug",
+      "baseScale": 25.200000000000003,
+      "cannotDynamax": true,
+      "abilities": [
+        "moldbreaker"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 145,
+        "defence": 150,
+        "special_attack": 105,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 21,
+      "aspects": [
+        "deltaspider_mega"
+      ]
+    },
+    {
+      "name": "deltaruin_mega",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "baseScale": 26.400000000000002,
+      "cannotDynamax": true,
+      "abilities": [
+        "rockhead"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 145,
+        "defence": 150,
+        "special_attack": 105,
+        "special_defence": 110,
+        "speed": 110
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 22,
+      "aspects": [
+        "deltaruin_mega"
+      ]
+    },
+    {
+      "name": "deltacrystal_mega",
+      "primaryType": "grass",
+      "secondaryType": "crystal",
+      "baseScale": 24.0,
+      "cannotDynamax": true,
+      "abilities": [
+        "weakarmor"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 180,
+        "defence": 100,
+        "special_attack": 120,
+        "special_defence": 100,
+        "speed": 100
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 20,
+      "aspects": [
+        "deltacrystal_mega"
+      ]
     }
   ],
   "features": [
     "fabelian",
     "epoch",
     "deltaspider",
-    "deltaruin"
+    "deltaruin",
+    "deltaspider_mega",
+    "deltaruin_mega",
+    "deltacrystal_mega"
   ]
 }

@@ -361,68 +361,6 @@ public class Pokemon extends AbstractPokemon {
         return additionalFormKey;
     }
 
-    /* public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, String game) {
-        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, labels.get(0), this.getAdditionalAspect()));
-        return this;
-    }
-
-    public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, String game, Type primaryType) {
-        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, labels.get(0), this.getAdditionalAspect(), primaryType));
-        return this;
-    }
-
-    public Pokemon addMegaToPokemon(Stats stats, Ability ability, int height, String game, Type primaryType, Type secondaryType) {
-        Pokemon.addMegaEvolution(new MegaEvolution(this.getCleanName(), stats, ability, height, weight, game, labels.get(0), this.getAdditionalAspect(), primaryType, secondaryType));
-        return this;
-    }*/
-
-    public static void addMegaEvolution(List<MegaEvolution> megaEvolutions) {
-        for (int i = 0; i < megaEvolutions.size(); i++) {
-            addMegaEvolution(megaEvolutions.get(i));
-        }
-    }
-
-    public static void addMegaEvolution(MegaEvolution... megaEvolutions) {
-        addMegaEvolution(Arrays.stream(megaEvolutions).toList());
-    }
-
-    public static void addMegaEvolution(MegaEvolution megaEvolution) {
-        var key = megaEvolution.getNonMegaCleanName();
-        List<MegaEvolution> megas = MEGA_EVOLUTIONS.computeIfAbsent(key, k -> new ArrayList<>());
-        String regionName = megaEvolution.getGameName();
-        String suffix = regionName.substring(0, 1).toUpperCase();
-
-        megas.add(megaEvolution);
-        if (megas.size() < 2) {
-            return;
-        }
-
-        boolean suffixAlreadyUsed = megas.stream()
-                .anyMatch(mega -> mega.getMegaName().startsWith(suffix));
-        if (suffixAlreadyUsed) {
-            // Update existing megas that used the suffix to full region name
-            for (MegaEvolution existing : megas) {
-                if (existing.getMegaName().startsWith(suffix)) {
-                    String oldRegionName = existing.getGameName();
-                    String newMegaName = "Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(oldRegionName));
-                    existing.setMegaName(newMegaName);
-                }
-            }
-            String newMegaName = "Mega_" + StringUtils.capitalize(GravelmonUtils.getCleanName(regionName));
-            megaEvolution.setMegaName(newMegaName);
-        } else {
-            for (MegaEvolution existing : megas) {
-                if (existing.getMegaName().startsWith(suffix)) {
-                    String oldRegionName = existing.getGameName();
-                    String newSuffix = oldRegionName.substring(0, 1).toUpperCase();
-                    String newMegaName = "Mega_" + StringUtils.capitalize(newSuffix);
-                    existing.setMegaName(newMegaName);
-                }
-            }
-            String newMegaName = "Mega_" + StringUtils.capitalize(suffix);
-            megaEvolution.setMegaName(newMegaName);
-        }
-    }
 
     @Override
     public String getTextureName() {

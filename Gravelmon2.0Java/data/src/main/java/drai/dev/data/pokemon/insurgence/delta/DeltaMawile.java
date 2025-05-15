@@ -147,28 +147,7 @@ public class DeltaMawile extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.35, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.GRASS, Type.DARK,
-                        new Stats(50, 105, 125, 55, 95, 50),
-                        List.of(Ability.ARENA_TRAP,Ability.ARENA_TRAP), Ability.ARENA_TRAP,
-                        5, 110,
-                        new Stats(0,1,1,0,0,0), 45,
-                        0.5,
-                        199, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Mawile");
     }
 }

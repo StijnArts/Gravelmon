@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cameruptdelta_mega",
+  "speciesId": "cobblemon:camerupt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

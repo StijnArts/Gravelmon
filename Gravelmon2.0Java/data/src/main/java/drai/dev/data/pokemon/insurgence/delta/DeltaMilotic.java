@@ -127,28 +127,7 @@ public class DeltaMilotic extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.GHOST,
-                        new Stats(95, 70, 109, 130, 155, 81),
-                        List.of(Ability.ABSOLUTION, Ability.ABSOLUTION), Ability.ABSOLUTION,
-                        62, 1620,
-                        new Stats(0,0,0,0,2,0), 60,
-                        0.5,
-                        229, ExperienceGroup.FLUCTUATING,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Milotic");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

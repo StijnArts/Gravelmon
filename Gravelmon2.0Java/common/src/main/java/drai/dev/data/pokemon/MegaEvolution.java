@@ -10,8 +10,10 @@ import org.jetbrains.annotations.*;
 
 import java.io.*;
 import java.util.*;
+import java.util.function.*;
 import java.util.stream.*;
 
+import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 
 public class MegaEvolution extends WorldRepresentablePokemon {
@@ -20,6 +22,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     private Aspect aspect;
     private List<Label> labels;
     private String dexEntry;
+    private String megaStoneName;
     private MegaStonePalette megaStonePalette;
 
     public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
@@ -38,14 +41,63 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         this.secondaryType = secondaryType;
     }
 
+    public static void clean() {
+        MEGA_EVOLUTIONS.forEach((key, megas) -> {
+            getMegasByAspect(megas).values().stream().filter(list->list.size()>1).forEach(mByA->{
+                var megasBySuffix = getMegasBySuffix(mByA);
+                megasBySuffix.values().stream().filter(list -> list.size()>1).forEach(list -> {
+                    for (var mega : list) {
+                        var newSuffix = mega.getGameName().substring(0, 1).toUpperCase();
+                        String finalNewSuffix = newSuffix;
+                        var anyWouldMatchSuffix = list.stream()
+                                .filter(otherMega->otherMega!=mega)
+                                .anyMatch(otherMega -> finalNewSuffix.equalsIgnoreCase (otherMega.getGameName().substring(0, 1).toUpperCase()));
+                        if (anyWouldMatchSuffix) newSuffix = StringUtils.capitalize(GravelmonUtils.getCleanName(mega.getGameName()));
+                        String newMegaName = "mega_" + newSuffix;
+                        mega.setMegaName(newMegaName);
+                    }
+                });
+            });
+        });
+    }
+
+    private static Map<String, List<MegaEvolution>> getMegasByAspect(List<MegaEvolution> megas) {
+        return megas.stream().collect(Collectors.groupingBy(mega->mega.getAspect() == null ? "" : mega.getAspect().getName()));
+    }
+
+    private static Map<String, List<MegaEvolution>> getMegasBySuffix(List<MegaEvolution> megas) {
+        return megas.stream().collect(Collectors.groupingBy(MegaEvolution::getMegaNameSuffix));
+    }
+
     public MegaEvolution setMegaName(String megaName){
         this.megaName = megaName;
+        return this;
+    }
+
+    public MegaEvolution setMegaStoneName(String megaStoneName){
+        this.megaStoneName = this.megaStoneName;
         return this;
     }
 
     public MegaEvolution addPalette(MegaStonePalette megaStonePalette){
         this.megaStonePalette = megaStonePalette;
         return this;
+    }
+
+    public static void addMegaEvolution(List<MegaEvolution> megaEvolutions) {
+        for (int i = 0; i < megaEvolutions.size(); i++) {
+            addMegaEvolution(megaEvolutions.get(i));
+        }
+    }
+
+    public static void addMegaEvolution(MegaEvolution... megaEvolutions) {
+        addMegaEvolution(Arrays.stream(megaEvolutions).toList());
+    }
+
+    public static void addMegaEvolution(MegaEvolution megaEvolution) {
+        var key = megaEvolution.getNonMegaCleanName();
+        List<MegaEvolution> megas = MEGA_EVOLUTIONS.computeIfAbsent(key, k -> new ArrayList<>());
+        megas.add(megaEvolution);
     }
 
     public static List<String> getDistinctMegaNames() {
@@ -62,7 +114,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     @Override
     public String getTextureName() {
-        return GravelmonUtils.getCleanName(getName() + "_" + getIndependentMegaAspect());
+        return GravelmonUtils.getCleanName(getName() + "_" + GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+"mega"));
     }
 
     @Override
@@ -77,7 +129,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     public String getIndependentMegaAspect(){
-        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+"mega");
+        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+megaName);
     }
 
     public String getNonMegaCleanName(){
@@ -87,13 +139,13 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     @Override
     protected @NotNull File findTextureDirectory(String resourcesDir){
         var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getNonMegaCleanName() +
-                "\\"+megaName;
+                "\\";
         return new File(expectedDir);
     }
 
     @Override
     protected @NotNull String getModelName() {
-        return super.getModelName()+"_"+name;
+        return super.getModelName()+"_mega";
     }
 
     public Stats getStats() {
@@ -118,6 +170,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     public String getMegaName() {
         return megaName;
+    }
+
+    public String getMegaNameSuffix() {
+        if(!megaName.contains("_")) return "";
+        return megaName.substring(megaName.lastIndexOf("_")+1);
     }
 
     public String getGameName() {
@@ -184,6 +241,8 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     public String getMegaStoneName(String megaStoneName) {
+        if(this.megaStoneName!=null && !this.megaStoneName.isEmpty()) return this.megaStoneName;
+
         var megaId = getMegaName();
         var megaStoneNameForId = megaStoneName;
         if (!megaId.equalsIgnoreCase("mega")) {

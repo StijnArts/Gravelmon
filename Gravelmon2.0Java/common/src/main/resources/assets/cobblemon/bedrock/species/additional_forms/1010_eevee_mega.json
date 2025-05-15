@@ -6,8 +6,8 @@
       "aspects": [
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_160_by_160.geo",
-      "poser": "cobblemon:cutout_gravelmon_160_by_160",
+      "model": "cobblemon:cutout_gravelmon_126_by_86.geo",
+      "poser": "cobblemon:cutout_gravelmon_126_by_86",
       "texture": "cobblemon:textures/pokemon/insurgence/eevee_mega.png",
       "layers": [
         {

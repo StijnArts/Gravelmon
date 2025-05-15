@@ -7,12 +7,16 @@ public class MegaStoneNameGenerator {
 
     private static final List<Rule> rules = List.of(
             new Rule(name -> name.endsWith("ie"), name -> name.substring(0, name.length() - 2) + "ite"),
+            new Rule(name -> name.endsWith("ee"), name -> name.substring(0, name.length() - 2) + "ite"),
+            new Rule(name -> name.endsWith("aa"), name -> name.substring(0, name.length() - 2) + "ite"),
+            new Rule(name -> name.endsWith("oo"), name -> name.substring(0, name.length() - 2) + "ite"),
+            new Rule(name -> name.endsWith("ii"), name -> name.substring(0, name.length() - 2) + "ite"),
             new Rule(name -> name.endsWith("e"), name -> name.substring(0, name.length() - 1) + "ite"),
+            new Rule(name -> name.endsWith("i"), name -> name.substring(0, name.length() - 1) + "ite"),
             new Rule(name -> name.endsWith("ic"), name -> name.substring(0, name.length() - 2) + "ite"),
             new Rule(name -> name.endsWith("o"), name -> name + "nite"),
             new Rule(name -> name.endsWith("a"), name -> name + "nite"),
-            new Rule(name -> name.endsWith("i"), name -> name + "ite"),
-            new Rule(name -> true, name -> name + "ite") // fallback
+            new Rule(name -> true, name -> name + "ite")
     );
 
     public static String generateMegaStoneName(String pokemonName) {
@@ -21,7 +25,7 @@ public class MegaStoneNameGenerator {
                 return capitalize(rule.apply(pokemonName));
             }
         }
-        return capitalize(pokemonName + "ite"); // shouldn't hit this
+        return capitalize(pokemonName + "ite");
     }
 
     private static String capitalize(String name) {

@@ -14,11 +14,11 @@ public class MegaStoneGenerator {
         if(megaEvolution.getMegaStonePalette()==null) return;
         String pathname = resourcesDir + "\\assets\\gravelmon\\textures\\item\\megastones\\";
         File textureLocation = new File(pathname + megaEvolution.getMegaStoneName(baseMegaStoneName)+".png");
-//        if(textureLocation.exists()) return;
+        if(textureLocation.exists()) return;
         var palette = megaEvolution.getMegaStonePalette();
         BufferedImage image = null;
         try {
-            image = ImageIO.read(new File(pathname + "absolite.png"));
+            image = ImageIO.read(new File(pathname + "preset//absolite.png"));
         } catch (IOException e) {
             return;
         }

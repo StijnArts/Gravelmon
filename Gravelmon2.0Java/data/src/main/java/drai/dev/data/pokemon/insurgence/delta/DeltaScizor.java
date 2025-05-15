@@ -126,28 +126,7 @@ public class DeltaScizor extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.37, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.ICE, Type.FIGHTING,
-                        new Stats(70, 150, 140, 65, 100, 75),
-                        List.of(Ability.HUBRIS), Ability.HUBRIS,
-                        20, 1000,
-                        new Stats(0,0,0,2,1,0), 45,
-                        0.5,
-                        263, ExperienceGroup.MEDIUM_SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Scizor");
 
         this.setBaseScale(0.85);

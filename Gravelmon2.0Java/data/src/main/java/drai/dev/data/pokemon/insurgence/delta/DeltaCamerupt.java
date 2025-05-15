@@ -9,7 +9,7 @@ import java.util.*;
 public class DeltaCamerupt extends Pokemon {
     public DeltaCamerupt(String name, Aspect aspect) {
         super(name, aspect,"DeltaCamerupt",
-                Type.POISON,
+                Type.NUCLEAR,
                 new Stats(70, 100, 70, 105, 75, 40),
                 List.of(Ability.VENOMOUS, Ability.POISON_POINT), Ability.LIQUID_OOZE,
                 7, 240,
@@ -111,28 +111,7 @@ public class DeltaCamerupt extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.POISON,
-                        new Stats(70, 120, 100, 145, 105, 20),
-                        List.of(Ability.VENOMOUS, Ability.VENOMOUS), Ability.VENOMOUS,
-                        7, 240,
-                        new Stats(0,1,0,1,0,0), 150,
-                        0.5,
-                        161, ExperienceGroup.MEDIUM_FAST,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Camerupt");
     }
 }

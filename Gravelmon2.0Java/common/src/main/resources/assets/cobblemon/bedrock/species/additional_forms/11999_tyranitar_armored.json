@@ -6,8 +6,8 @@
       "aspects": [
         "armored"
       ],
-      "model": "cobblemon:cutout_gravelmon_160_by_160.geo",
-      "poser": "cobblemon:cutout_gravelmon_160_by_160",
+      "model": "cobblemon:cutout_gravelmon_134_by_146.geo",
+      "poser": "cobblemon:cutout_gravelmon_134_by_146",
       "texture": "cobblemon:textures/pokemon/insurgence/armoredtyranitar.png",
       "layers": [
         {

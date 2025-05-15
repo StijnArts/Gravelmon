@@ -538,12 +538,42 @@
         "height": 5.75,
         "fixed": false
       }
+    },
+    {
+      "name": "mega_fire",
+      "primaryType": "steel",
+      "secondaryType": "fire",
+      "baseScale": 67.19999999999999,
+      "cannotDynamax": true,
+      "abilities": [
+        "foundry"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 135,
+        "defence": 225,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 55
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 56,
+      "aspects": [
+        "mega_fire"
+      ]
     }
   ],
   "features": [
     "forman",
     "nodorran",
     "epoch",
-    "ishirian"
+    "ishirian",
+    "mega_fire"
   ]
 }

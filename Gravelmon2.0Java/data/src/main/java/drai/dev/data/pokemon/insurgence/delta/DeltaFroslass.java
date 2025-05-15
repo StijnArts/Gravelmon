@@ -109,28 +109,7 @@ public class DeltaFroslass extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.33, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.FIRE, Type.GHOST,
-                        new Stats(70, 80, 85, 120, 105, 120),
-                        List.of(Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                        13, 266,
-                        new Stats(0,0,0,0,0,2), 75,
-                        0.5,
-                        259, ExperienceGroup.MEDIUM_FAST,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.38, 0.3
-                )));
+                List.of());
         this.setLangFileName("Froslass");
         this.setCanFly(true);
     }

@@ -975,6 +975,35 @@
         "height": 3.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "baseScale": 0.23661971830985915,
+      "cannotDynamax": true,
+      "abilities": [
+        "defiant"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 88,
+        "special_attack": 140,
+        "special_defence": 70,
+        "speed": 112
+      },
+      "labels": [
+        "gen4",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 14,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
@@ -983,6 +1012,7 @@
     "delta",
     "ayreian",
     "mystic",
-    "ishirian"
+    "ishirian",
+    "delta_mega"
   ]
 }

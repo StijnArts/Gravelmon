@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:galladedelta_mega",
+  "speciesId": "cobblemon:gallade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "delta_mega",
+      "unlockForms": [
+        "delta_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

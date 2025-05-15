@@ -363,10 +363,40 @@
         "height": 5.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "dragon",
+      "secondaryType": "steel",
+      "baseScale": 0.27058823529411763,
+      "cannotDynamax": true,
+      "abilities": [
+        "weakarmor"
+      ],
+      "baseStats": {
+        "hp": 76,
+        "attack": 182,
+        "defence": 130,
+        "special_attack": 80,
+        "special_defence": 90,
+        "speed": 82
+      },
+      "labels": [
+        "gen5",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 23,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "delta",
-    "ayreian"
+    "ayreian",
+    "mega"
   ]
 }

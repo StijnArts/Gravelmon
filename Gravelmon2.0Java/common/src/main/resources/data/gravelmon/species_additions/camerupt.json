@@ -314,7 +314,7 @@
     },
     {
       "name": "Delta",
-      "primaryType": "poison",
+      "primaryType": "nuclear",
       "catchRate": 150,
       "maleRatio": 0.5,
       "baseExperienceYield": 161,
@@ -769,6 +769,34 @@
         "height": 6.0,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "nuclear",
+      "baseScale": 0.3493670886075949,
+      "cannotDynamax": true,
+      "abilities": [
+        "venomous"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 100,
+        "special_attack": 145,
+        "special_defence": 105,
+        "speed": 20
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 23,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
@@ -776,6 +804,7 @@
     "epochtwo",
     "delta",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "delta_mega"
   ]
 }

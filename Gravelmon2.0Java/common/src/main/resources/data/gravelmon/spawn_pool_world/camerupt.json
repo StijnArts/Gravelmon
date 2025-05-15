@@ -88,7 +88,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:cauldron"
+            "minecraft:iron_trap_door"
           ]
         }
       }

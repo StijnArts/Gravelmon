@@ -1,0 +1,37 @@
+{
+  "target": "cobblemon:jirachi",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "steel",
+      "secondaryType": "psychic",
+      "baseScale": 0.08450704225352113,
+      "cannotDynamax": true,
+      "abilities": [
+        "periodicorbit"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defence": 140,
+        "special_attack": 130,
+        "special_defence": 115,
+        "speed": 115
+      },
+      "labels": [
+        "gen3",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 5,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

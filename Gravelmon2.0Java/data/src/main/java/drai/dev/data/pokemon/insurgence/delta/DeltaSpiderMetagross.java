@@ -132,28 +132,7 @@ public class DeltaSpiderMetagross extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.GROUND, Type.BUG,
-                        new Stats(80, 145, 150, 105, 110, 110),
-                        List.of(Ability.MOLD_BREAKER, Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                        15, 2250,
-                        new Stats(0,0,3,0,0,0), 3,
-                        -1,
-                        300, ExperienceGroup.SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                )));
+                List.of());
         this.setLangFileName("Metagross");
     }
 }

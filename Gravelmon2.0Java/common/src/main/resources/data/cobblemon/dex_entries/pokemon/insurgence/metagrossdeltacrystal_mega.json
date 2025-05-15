@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:metagrossdeltacrystal_mega",
+  "speciesId": "cobblemon:metagross",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "deltacrystal_mega",
+      "unlockForms": [
+        "deltacrystal_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

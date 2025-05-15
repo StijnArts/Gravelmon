@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bisharpmega",
+  "speciesId": "cobblemon:bisharp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

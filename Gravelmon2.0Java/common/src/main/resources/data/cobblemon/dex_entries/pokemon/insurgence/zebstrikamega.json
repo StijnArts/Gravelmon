@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:zebstrikamega",
+  "speciesId": "cobblemon:zebstrika",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

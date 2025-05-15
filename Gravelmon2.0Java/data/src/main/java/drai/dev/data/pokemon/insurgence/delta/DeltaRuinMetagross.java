@@ -137,50 +137,7 @@ public class DeltaRuinMetagross extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.19, 0.3,
-                List.of(new PokemonForm(
-                        "Mega", true,
-                        Type.GRASS, Type.ROCK,
-                        new Stats(80, 145, 150, 105, 110, 110),
-                        List.of(Ability.ROCK_HEAD), Ability.ROCK_HEAD,
-                        16, 5500,
-                        new Stats(0,0,3,0,0,0), 3,
-                        -1,
-                        300, ExperienceGroup.SLOW,
-                        70,
-                        50, List.of(EggGroup.DELTA),
-                        List.of(Aspect.MEGA),
-                        List.of(),
-                        List.of(),
-                        List.of(),
-                        List.of(Label.INSURGENCE),
-                        0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                ), List.of(),
-                        List.of(),
-                        0.48, 0.3
-                ),
-                        new PokemonForm(
-                                "Mega-Crystal", true,
-                                Type.GRASS, Type.ROCK,
-                                new Stats(80, 180, 100, 120, 100, 100),
-                                List.of(Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                                16, 5500,
-                                new Stats(0,0,3,0,0,0), 3,
-                                -1,
-                                300, ExperienceGroup.SLOW,
-                                70,
-                                50, List.of(EggGroup.DELTA),
-                                List.of(Aspect.MEGA),
-                                List.of(),
-                                List.of(),
-                                List.of(),
-                                List.of(Label.INSURGENCE),
-                                0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
-                        ), List.of(),
-                                List.of(),
-                                0.48, 0.3
-                        )));
+                List.of());
         this.setLangFileName("Metagross");
         
         setBaseScale( 1.3);

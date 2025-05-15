@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:steelixmega_fire",
+  "speciesId": "cobblemon:steelix",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega_fire",
+      "unlockForms": [
+        "mega_fire"
+      ]
+    }
+  ],
+  "variations": []
+}

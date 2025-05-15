@@ -447,11 +447,41 @@
         "height": 2.6,
         "fixed": false
       }
+    },
+    {
+      "name": "delta_mega",
+      "primaryType": "ice",
+      "secondaryType": "fighting",
+      "baseScale": 0.27906976744186046,
+      "cannotDynamax": true,
+      "abilities": [
+        "adaptability"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 150,
+        "defence": 140,
+        "special_attack": 65,
+        "special_defence": 100,
+        "speed": 75
+      },
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        null
+      ],
+      "height": 20,
+      "aspects": [
+        "delta_mega"
+      ]
     }
   ],
   "features": [
     "raianian",
     "epoch",
-    "delta"
+    "delta",
+    "delta_mega"
   ]
 }
