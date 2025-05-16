@@ -264,9 +264,9 @@
       ],
       "evolutions": [
         {
-          "id": "vesitanskiddo_skiddo_vesitan",
+          "id": "vesitanskiddo_gogoat_vesitan",
           "variant": "level_up",
-          "result": "skiddo vesitan",
+          "result": "gogoat vesitan",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

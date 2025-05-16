@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:porygon",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    }
-  ]
+  "forms": []
 }

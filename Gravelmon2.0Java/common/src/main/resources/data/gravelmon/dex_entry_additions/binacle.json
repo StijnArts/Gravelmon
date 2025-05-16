@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:binacle",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Lagoonan",
-      "unlockForms": [
-        "Lagoonan"
-      ]
-    },
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:alcremie",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

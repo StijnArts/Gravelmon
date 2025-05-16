@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:smoliv",
-  "forms": [
-    {
-      "displayForm": "Aromian",
-      "unlockForms": [
-        "Aromian"
-      ]
-    }
-  ]
+  "forms": []
 }

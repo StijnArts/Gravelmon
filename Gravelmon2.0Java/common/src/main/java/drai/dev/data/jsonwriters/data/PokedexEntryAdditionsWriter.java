@@ -30,6 +30,7 @@ public class PokedexEntryAdditionsWriter {
         fileContents.add("forms",forms);
 
         for (Pokemon pokemon : mapEntry.getValue()) {
+            if(AbstractPokemon.isAnAdditionalForm(pokemon)) continue;
             var entry = new JsonObject();
             var unlockForms = new JsonArray();
             var aspect = StringUtils.capitalize(GravelmonUtils.getCleanName(pokemon.getAdditionalAspect().name().toLowerCase())

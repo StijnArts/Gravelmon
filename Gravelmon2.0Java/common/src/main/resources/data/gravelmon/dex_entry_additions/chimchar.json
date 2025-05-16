@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:chimchar",
-  "forms": [
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:skarmory",
-  "forms": [
-    {
-      "displayForm": "Trizoran",
-      "unlockForms": [
-        "Trizoran"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Hoennian",
-      "unlockForms": [
-        "Hoennian"
-      ]
-    }
-  ]
+  "forms": []
 }

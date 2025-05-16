@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:caterpie",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

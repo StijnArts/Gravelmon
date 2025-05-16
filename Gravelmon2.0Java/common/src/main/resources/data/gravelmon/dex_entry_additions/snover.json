@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:snover",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    },
-    {
-      "displayForm": "Cefiran",
-      "unlockForms": [
-        "Cefiran"
-      ]
-    }
-  ]
+  "forms": []
 }

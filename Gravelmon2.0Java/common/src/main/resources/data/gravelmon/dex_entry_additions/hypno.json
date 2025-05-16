@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:hypno",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Enjinnian",
-      "unlockForms": [
-        "Enjinnian"
-      ]
-    }
-  ]
+  "forms": []
 }

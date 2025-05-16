@@ -18,7 +18,9 @@ public class ModelWidgetMixin {
     @Final
     @Shadow private Vector3f rotVec;
 
-    @Inject(method = "<init>(IIIILcom/cobblemon/mod/common/pokemon/RenderablePokemon;FFDZILkotlin/jvm/internal/DefaultConstructorMarker;)V", at =@At("TAIL"), remap = false)
+    @Inject(method =
+            "<init>(IIIILcom/cobblemon/mod/common/pokemon/RenderablePokemon;FFDZILkotlin/jvm/internal/DefaultConstructorMarker;)V",
+            at =@At("TAIL"), remap = false)
     private void modifyRotation(int par1, int par2, int par3, int par4, RenderablePokemon par5, float par6, float par7, double par8, boolean par9, int par10, DefaultConstructorMarker par11, CallbackInfo ci){
         rotationY = GravelmonUtils.modelWidgetCorrection(par5, rotationY);
         rotVec = new Vector3f(0F, rotationY, 0F);

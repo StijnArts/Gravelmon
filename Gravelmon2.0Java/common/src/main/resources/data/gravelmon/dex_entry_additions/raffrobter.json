@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:raffrobter",
-  "forms": [
-    {
-      "displayForm": "Tribal",
-      "unlockForms": [
-        "Tribal"
-      ]
-    }
-  ]
+  "forms": []
 }

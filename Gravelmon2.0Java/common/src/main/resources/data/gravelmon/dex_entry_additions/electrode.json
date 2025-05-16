@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:electrode",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Norheiman",
-      "unlockForms": [
-        "Norheiman"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Mystic",
-      "unlockForms": [
-        "Mystic"
-      ]
-    }
-  ]
+  "forms": []
 }

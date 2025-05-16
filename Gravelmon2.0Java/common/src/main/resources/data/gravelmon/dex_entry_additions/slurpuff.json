@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:slurpuff",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    }
-  ]
+  "forms": []
 }

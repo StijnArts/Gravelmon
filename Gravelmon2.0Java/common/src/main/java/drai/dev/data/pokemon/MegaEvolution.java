@@ -214,7 +214,8 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         fileContents.addProperty("primaryType", primaryType.getName());
         if(secondaryType != null) fileContents.addProperty("secondaryType", secondaryType.getName());
         fileContents.addProperty("baseScale", getBaseScale());
-        fileContents.addProperty("cannotDynamax", true);
+        fileContents.addProperty("cannotDynamax", false);
+        fileContents.addProperty("battleOnly", true);
         var abilities = new JsonArray();
         abilities.add(ability.getName());
         fileContents.add("abilities", abilities);
@@ -226,9 +227,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
             labels.add(INSTAGRAM.getName());
         }
         fileContents.add("labels", labels);
-        var pokedex = new JsonArray();
-        pokedex.add(dexEntry);
-        fileContents.add("pokedex", pokedex);
+        if(dexEntry!=null){
+            var pokedex = new JsonArray();
+            pokedex.add(dexEntry);
+            fileContents.add("pokedex", pokedex);
+        }
         fileContents.addProperty("height", height);
 //        fileContents.addProperty("weight", weight);
         var aspects = new JsonArray();

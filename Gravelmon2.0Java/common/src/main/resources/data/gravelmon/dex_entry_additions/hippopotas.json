@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:hippopotas",
-  "forms": [
-    {
-      "displayForm": "Mahalian",
-      "unlockForms": [
-        "Mahalian"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Armiran",
-      "unlockForms": [
-        "Armiran"
-      ]
-    }
-  ]
+  "forms": []
 }

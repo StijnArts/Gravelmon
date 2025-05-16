@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:mrrime",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

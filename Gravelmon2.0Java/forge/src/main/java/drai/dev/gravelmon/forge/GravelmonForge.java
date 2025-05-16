@@ -23,20 +23,20 @@ import java.util.function.*;
 
 @Mod(Gravelmon.MOD_ID)
 public class GravelmonForge {
-    private static boolean POKEBALL_INIT = false;
+    public static boolean POKEBALL_INIT = false;
     public GravelmonForge() {
-        Gravelmon.init(true);
-
-        CobblemonEvents.THROWN_POKEBALL_HIT.subscribe(Priority.HIGHEST, thrownPokeballHitEvent -> {
-           if(!POKEBALL_INIT){
-               GravelmonItems.POKE_BALLS.stream().map(Supplier::get).forEach(pokeBallItem -> {
-                   var gravelmonPokeball= (GravelmonPokeBall)pokeBallItem.getPokeBall();
-                   gravelmonPokeball.registerItem();
-               });
-               POKEBALL_INIT = true;
-           }
-            return Unit.INSTANCE;
-        });
+//        Gravelmon.init(true);
+//
+//        CobblemonEvents.THROWN_POKEBALL_HIT.subscribe(Priority.HIGHEST, thrownPokeballHitEvent -> {
+//           if(!POKEBALL_INIT){
+//               GravelmonItems.POKE_BALLS.stream().map(Supplier::get).forEach(pokeBallItem -> {
+//                   var gravelmonPokeball= (GravelmonPokeBall)pokeBallItem.getPokeBall();
+//                   gravelmonPokeball.registerItem();
+//               });
+//               POKEBALL_INIT = true;
+//           }
+//            return Unit.INSTANCE;
+//        });
     }
 
     @SubscribeEvent

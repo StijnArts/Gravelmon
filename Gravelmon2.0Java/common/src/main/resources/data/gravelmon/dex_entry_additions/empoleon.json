@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:empoleon",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Interian",
-      "unlockForms": [
-        "Interian"
-      ]
-    }
-  ]
+  "forms": []
 }

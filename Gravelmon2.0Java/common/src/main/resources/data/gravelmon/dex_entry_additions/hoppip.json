@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:hoppip",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

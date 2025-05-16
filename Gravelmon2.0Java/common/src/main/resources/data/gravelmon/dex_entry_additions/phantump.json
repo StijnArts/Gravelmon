@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:phantump",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

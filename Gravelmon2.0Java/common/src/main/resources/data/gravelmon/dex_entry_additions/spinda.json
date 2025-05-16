@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:spinda",
-  "forms": [
-    {
-      "displayForm": "Relic",
-      "unlockForms": [
-        "Relic"
-      ]
-    }
-  ]
+  "forms": []
 }

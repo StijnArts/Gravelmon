@@ -1,47 +1,4 @@
 {
   "entryId": "cobblemon:lapras",
-  "forms": [
-    {
-      "displayForm": "Ferranian",
-      "unlockForms": [
-        "Ferranian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

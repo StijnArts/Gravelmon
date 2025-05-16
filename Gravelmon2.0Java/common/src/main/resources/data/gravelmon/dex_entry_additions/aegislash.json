@@ -1,41 +1,4 @@
 {
   "entryId": "cobblemon:aegislash",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Africanusan",
-      "unlockForms": [
-        "Africanusan"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    }
-  ]
+  "forms": []
 }

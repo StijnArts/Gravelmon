@@ -1003,6 +1003,133 @@
         "height": 4.375,
         "fixed": false
       }
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "electric",
+      "secondaryType": "flying",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.07741935483870968,
+      "cannotDynamax": false,
+      "abilities": [
+        "static",
+        "h:cloudnine"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 60,
+        "defence": 60,
+        "special_attack": 50,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "flying",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:peck",
+        "1:growl",
+        "4:astonish",
+        "8:sing",
+        "10:furyattack",
+        "13:thundershock",
+        "15:mist",
+        "18:round",
+        "21:shockwave",
+        "25:thunderwave",
+        "29:refresh",
+        "34:mirrormove",
+        "39:cottonguard",
+        "42:dragonpulse",
+        "48:thunder",
+        "egg:agility",
+        "egg:dragonrush",
+        "egg:featherdance",
+        "egg:haze",
+        "egg:hypervoice",
+        "egg:powerswap",
+        "egg:pursuit",
+        "egg:rage",
+        "egg:roost",
+        "egg:steelwing",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranswablu.desc"
+      ],
+      "height": 4,
+      "weight": 12,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiranswablu_altaria_cefiran",
+          "variant": "level_up",
+          "result": "altaria cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.75,
+        "height": 7.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -1011,6 +1138,7 @@
     "epochtwo",
     "varitasian",
     "egho",
-    "ayreian"
+    "ayreian",
+    "cefiran"
   ]
 }

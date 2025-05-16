@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:decidueye",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

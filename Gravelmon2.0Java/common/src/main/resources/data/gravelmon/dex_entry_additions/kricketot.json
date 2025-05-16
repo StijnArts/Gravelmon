@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:kricketot",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Africanusan",
-      "unlockForms": [
-        "Africanusan"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -114,6 +114,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "amaze_all_drifblim-01",
+      "pokemon": "drifblim amaze_all",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-48",
+      "weight": 2.4000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
     }
   ]
 }

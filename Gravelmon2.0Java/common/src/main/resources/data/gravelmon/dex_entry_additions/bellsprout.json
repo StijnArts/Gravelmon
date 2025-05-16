@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:bellsprout",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Avalossian",
-      "unlockForms": [
-        "Avalossian"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

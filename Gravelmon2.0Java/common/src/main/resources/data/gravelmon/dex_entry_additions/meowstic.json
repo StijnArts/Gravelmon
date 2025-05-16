@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:meowstic",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

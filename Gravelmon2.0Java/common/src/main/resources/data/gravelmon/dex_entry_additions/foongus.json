@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:foongus",
-  "forms": [
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Norheiman",
-      "unlockForms": [
-        "Norheiman"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

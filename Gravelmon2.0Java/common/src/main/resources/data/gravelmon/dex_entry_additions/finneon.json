@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:finneon",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Lagoonan",
-      "unlockForms": [
-        "Lagoonan"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:parasect",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Avalossian",
-      "unlockForms": [
-        "Avalossian"
-      ]
-    }
-  ]
+  "forms": []
 }

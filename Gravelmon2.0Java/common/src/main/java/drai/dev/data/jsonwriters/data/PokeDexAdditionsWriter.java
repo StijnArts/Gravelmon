@@ -22,12 +22,11 @@ public class PokeDexAdditionsWriter {
     private static void writePokedex(Game game, String dir, Gson gson) throws IOException {
         if(game.getAdditionalPokedex().isEmpty()) return;
         var fileContents = new JsonObject();
-        fileContents.addProperty("dexId",
-                (game.getName().toLowerCase().contains("generation")? "cobblemon" : "gravelmon")+":"+game.getName());
+        fileContents.addProperty("dexId", (game.getName().toLowerCase().contains("generation")? "cobblemon" : "gravelmon")+":"+game.getName());
 
         var entries = new JsonArray();
         for (int i = 0; i < game.getAdditionalPokedex().size(); i++) {
-            var pokemon = game.getPokedex().get(i);
+            var pokemon = game.getAdditionalPokedex().get(i);
 
             entries.add(pokemon);
         }

@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:bruxish",
-  "forms": [
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

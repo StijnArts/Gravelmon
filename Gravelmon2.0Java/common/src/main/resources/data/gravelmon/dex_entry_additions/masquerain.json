@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:masquerain",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Norheiman",
-      "unlockForms": [
-        "Norheiman"
-      ]
-    }
-  ]
+  "forms": []
 }

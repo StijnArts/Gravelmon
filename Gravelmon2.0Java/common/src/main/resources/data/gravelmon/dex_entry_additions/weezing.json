@@ -1,41 +1,4 @@
 {
   "entryId": "cobblemon:weezing",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Qamoran",
-      "unlockForms": [
-        "Qamoran"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Relic",
-      "unlockForms": [
-        "Relic"
-      ]
-    }
-  ]
+  "forms": []
 }

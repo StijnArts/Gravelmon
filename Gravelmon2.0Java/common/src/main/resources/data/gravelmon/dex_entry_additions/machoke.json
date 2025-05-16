@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:machoke",
-  "forms": [
-    {
-      "displayForm": "Ferranian",
-      "unlockForms": [
-        "Ferranian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Africanusan",
-      "unlockForms": [
-        "Africanusan"
-      ]
-    }
-  ]
+  "forms": []
 }

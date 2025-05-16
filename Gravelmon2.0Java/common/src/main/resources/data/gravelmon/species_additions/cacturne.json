@@ -328,7 +328,8 @@
       "primaryType": "grass",
       "secondaryType": "dark",
       "baseScale": 0.1887640449438202,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "sandrush"
       ],
@@ -343,9 +344,6 @@
       "labels": [
         "gen3",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 14,
       "aspects": [

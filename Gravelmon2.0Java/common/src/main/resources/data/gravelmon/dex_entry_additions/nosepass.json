@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:nosepass",
-  "forms": [
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Hizian",
-      "unlockForms": [
-        "Hizian"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:dratini",
-  "forms": [
-    {
-      "displayForm": "Mahalian",
-      "unlockForms": [
-        "Mahalian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

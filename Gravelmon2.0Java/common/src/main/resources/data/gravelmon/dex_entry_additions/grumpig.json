@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:grumpig",
-  "forms": [
-    {
-      "displayForm": "Qamoran",
-      "unlockForms": [
-        "Qamoran"
-      ]
-    }
-  ]
+  "forms": []
 }

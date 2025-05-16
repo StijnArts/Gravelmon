@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:flaaffy",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    }
-  ]
+  "forms": []
 }

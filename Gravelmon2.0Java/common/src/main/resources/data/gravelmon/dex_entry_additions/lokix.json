@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:lokix",
-  "forms": [
-    {
-      "displayForm": "Seviian",
-      "unlockForms": [
-        "Seviian"
-      ]
-    }
-  ]
+  "forms": []
 }

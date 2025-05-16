@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:moltres",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

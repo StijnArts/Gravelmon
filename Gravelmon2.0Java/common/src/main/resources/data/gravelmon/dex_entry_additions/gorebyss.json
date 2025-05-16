@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:gorebyss",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

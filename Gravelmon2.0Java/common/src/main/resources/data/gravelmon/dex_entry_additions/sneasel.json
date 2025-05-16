@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:sneasel",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

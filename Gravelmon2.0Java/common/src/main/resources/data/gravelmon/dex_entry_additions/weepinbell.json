@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:weepinbell",
-  "forms": [
-    {
-      "displayForm": "Avalossian",
-      "unlockForms": [
-        "Avalossian"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    }
-  ]
+  "forms": []
 }

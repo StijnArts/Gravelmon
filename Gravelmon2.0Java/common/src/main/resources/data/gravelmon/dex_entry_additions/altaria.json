@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:altaria",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    },
-    {
-      "displayForm": "Egho",
-      "unlockForms": [
-        "Egho"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -31,6 +31,58 @@
       }
     },
     {
+      "id": "delta_berry_dwebble-01",
+      "pokemon": "dwebble delta_berry",
+      "presets": [
+        "near_berry_bush"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_cake_dwebble-01",
+      "pokemon": "dwebble delta_cake",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-33",
+      "weight": 11.7,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_dwebble-01",
       "pokemon": "dwebble ayreian",
       "presets": [

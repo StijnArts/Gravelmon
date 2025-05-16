@@ -1590,9 +1590,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshelloseight_epocheight_gastrodon",
+          "id": "epochshelloseight_epocheightgastrodon",
           "variant": "level_up",
-          "result": "epocheight gastrodon",
+          "result": "epocheightgastrodon",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1773,9 +1773,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosnine_epochnine_gastrodon",
+          "id": "epochshellosnine_epochninegastrodon",
           "variant": "level_up",
-          "result": "epochnine gastrodon",
+          "result": "epochninegastrodon",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

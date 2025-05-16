@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:barboach",
-  "forms": [
-    {
-      "displayForm": "Ferranian",
-      "unlockForms": [
-        "Ferranian"
-      ]
-    }
-  ]
+  "forms": []
 }

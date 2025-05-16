@@ -1,47 +1,4 @@
 {
   "entryId": "cobblemon:haunter",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Havaiian",
-      "unlockForms": [
-        "Havaiian"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

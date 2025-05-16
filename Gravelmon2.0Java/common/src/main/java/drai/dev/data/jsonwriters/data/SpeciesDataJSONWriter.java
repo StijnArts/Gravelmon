@@ -13,6 +13,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
+import static drai.dev.data.jsonwriters.data.SpeciesAdditionsWriter.addOrCreateJsonArray;
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 
 public class SpeciesDataJSONWriter {
@@ -96,7 +97,12 @@ public class SpeciesDataJSONWriter {
         fileContents.addProperty("weight", abstractPokemon.getWeight());
         fileContents.add("aspects", getAspects(abstractPokemon.getAspects(), aspect));
         fileContents.add("evolutions", getEvolutions(abstractPokemon.getEvolutions(), abstractPokemon.getCleanName()));
-
+        if(abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)){
+            var key = pokemon.getCleanName();
+            if(AbstractPokemon.ADDITIONAL_EVOLUTIONS.containsKey(key)){
+                fileContents.addProperty("preEvolution", AbstractPokemon.ADDITIONAL_PRE_EVOLUTIONS.get(key));
+            }
+        }
         return fileContents;
     }
 
@@ -164,7 +170,7 @@ public class SpeciesDataJSONWriter {
                 entry.addProperty("percentage", itemDrop.getChance());
 
             }
-            drops.add("entries", entries);
+            addOrCreateJsonArray(drops, "entries", entries);
         }
         return drops;
     }
@@ -185,7 +191,7 @@ public class SpeciesDataJSONWriter {
     public static <T extends AbstractPokemon> JsonArray getForms(List<T> formList) {
         var forms = new JsonArray();
 
-        if (formList.size() > 0) {
+        if (!formList.isEmpty()) {
             for (AbstractPokemon form : formList) {
                 forms.add(generateForm(form));
             }

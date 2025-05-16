@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:kingler",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

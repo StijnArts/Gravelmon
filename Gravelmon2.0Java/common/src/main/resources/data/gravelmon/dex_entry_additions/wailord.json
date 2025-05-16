@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:wailord",
-  "forms": [
-    {
-      "displayForm": "Ferranian",
-      "unlockForms": [
-        "Ferranian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:slakoth",
-  "forms": [
-    {
-      "displayForm": "Elbian",
-      "unlockForms": [
-        "Elbian"
-      ]
-    },
-    {
-      "displayForm": "Ferranian",
-      "unlockForms": [
-        "Ferranian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Avalossian",
-      "unlockForms": [
-        "Avalossian"
-      ]
-    }
-  ]
+  "forms": []
 }

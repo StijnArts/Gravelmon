@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:pachirisu",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

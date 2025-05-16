@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:rhyhorn",
-  "forms": [
-    {
-      "displayForm": "Aromian",
-      "unlockForms": [
-        "Aromian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Hizian",
-      "unlockForms": [
-        "Hizian"
-      ]
-    }
-  ]
+  "forms": []
 }

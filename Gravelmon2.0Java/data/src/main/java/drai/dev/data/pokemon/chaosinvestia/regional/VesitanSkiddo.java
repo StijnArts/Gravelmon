@@ -23,7 +23,7 @@ public class VesitanSkiddo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Man sagt, es sei eines der ersten Pokémon, die mit Menschen zusammengelebt haben. Es ist sehr ruhig und friedfertig."),
-                List.of(new EvolutionEntry("skiddo vesitan", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("gogoat vesitan", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,12),

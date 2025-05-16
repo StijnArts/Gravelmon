@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:sentret",
-  "forms": [
-    {
-      "displayForm": "Aromian",
-      "unlockForms": [
-        "Aromian"
-      ]
-    },
-    {
-      "displayForm": "Norse",
-      "unlockForms": [
-        "Norse"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    }
-  ]
+  "forms": []
 }

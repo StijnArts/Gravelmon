@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:stoutland",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    }
-  ]
+  "forms": []
 }

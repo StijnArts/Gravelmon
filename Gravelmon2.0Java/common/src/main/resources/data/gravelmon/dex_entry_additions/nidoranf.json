@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:nidoranf",
-  "forms": [
-    {
-      "displayForm": "Alteranwintercoat",
-      "unlockForms": [
-        "Alteranwintercoat"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:petilil",
-  "forms": [
-    {
-      "displayForm": "Cefiran",
-      "unlockForms": [
-        "Cefiran"
-      ]
-    }
-  ]
+  "forms": []
 }

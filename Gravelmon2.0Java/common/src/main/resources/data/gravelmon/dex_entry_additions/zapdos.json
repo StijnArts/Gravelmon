@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:zapdos",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

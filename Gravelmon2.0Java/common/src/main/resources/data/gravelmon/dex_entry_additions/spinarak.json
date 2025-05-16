@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:spinarak",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

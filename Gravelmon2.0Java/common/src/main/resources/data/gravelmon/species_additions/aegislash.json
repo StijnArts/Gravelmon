@@ -577,6 +577,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "doublade form=africanusan",
       "baseScale": 0.425,
       "cannotDynamax": false,
       "abilities": [
@@ -648,7 +649,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusanaegislash.desc"

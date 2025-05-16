@@ -1,47 +1,4 @@
 {
   "entryId": "cobblemon:smeargle",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    },
-    {
-      "displayForm": "Ivrisian",
-      "unlockForms": [
-        "Ivrisian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Hubian",
-      "unlockForms": [
-        "Hubian"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    },
-    {
-      "displayForm": "Cefiran",
-      "unlockForms": [
-        "Cefiran"
-      ]
-    }
-  ]
+  "forms": []
 }

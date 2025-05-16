@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:chatot",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    }
-  ]
+  "forms": []
 }

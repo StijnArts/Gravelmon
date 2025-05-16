@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:rookidee",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Norheiman",
-      "unlockForms": [
-        "Norheiman"
-      ]
-    }
-  ]
+  "forms": []
 }

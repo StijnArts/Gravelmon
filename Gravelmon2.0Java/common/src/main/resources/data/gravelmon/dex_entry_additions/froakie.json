@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:froakie",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Armiran",
-      "unlockForms": [
-        "Armiran"
-      ]
-    }
-  ]
+  "forms": []
 }

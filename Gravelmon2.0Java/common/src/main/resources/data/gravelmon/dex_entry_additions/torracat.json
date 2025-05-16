@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:torracat",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

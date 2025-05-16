@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:articuno",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

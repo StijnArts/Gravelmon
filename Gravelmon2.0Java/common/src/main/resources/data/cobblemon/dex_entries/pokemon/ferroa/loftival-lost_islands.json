@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:loftival-lost_islands",
+  "speciesId": "cobblemon:loftival",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Lostislands",
+      "unlockForms": [
+        "Lostislands"
+      ]
+    }
+  ],
+  "variations": []
+}

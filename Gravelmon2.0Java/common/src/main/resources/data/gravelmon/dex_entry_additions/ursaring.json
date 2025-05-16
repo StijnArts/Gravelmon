@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:ursaring",
-  "forms": [
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Hoennian",
-      "unlockForms": [
-        "Hoennian"
-      ]
-    },
-    {
-      "displayForm": "Seviian",
-      "unlockForms": [
-        "Seviian"
-      ]
-    },
-    {
-      "displayForm": "Cefiran",
-      "unlockForms": [
-        "Cefiran"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:lugia",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

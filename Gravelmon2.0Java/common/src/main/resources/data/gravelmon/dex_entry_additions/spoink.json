@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:spoink",
-  "forms": [
-    {
-      "displayForm": "Qamoran",
-      "unlockForms": [
-        "Qamoran"
-      ]
-    }
-  ]
+  "forms": []
 }

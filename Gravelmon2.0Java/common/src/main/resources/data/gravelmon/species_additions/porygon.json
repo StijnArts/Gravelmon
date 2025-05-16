@@ -402,16 +402,14 @@
       "permanent": true
     }
   ],
-  "drops": [
-    {
-      "amount": 3,
-      "entries": [
-        {
-          "item": "cobblemon:dubious_disc",
-          "quantityRange": "1-1",
-          "percentage": 10
-        }
-      ]
-    }
-  ]
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:dubious_disc",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

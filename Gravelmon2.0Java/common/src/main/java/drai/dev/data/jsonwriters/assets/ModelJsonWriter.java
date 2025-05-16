@@ -17,7 +17,7 @@ public class ModelJsonWriter {
             if(generatedModels.contains(modelLocation)) return;
             generatedModels.add(modelLocation);
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-            Files.createDirectories(new File(dir).toPath());
+            Files.createDirectories(new File(modelLocation).getParentFile().toPath());
             BufferedWriter writer = new BufferedWriter(new FileWriter(modelLocation));
             writer.write(gson.toJson(getModelJson(width, height)));
             writer.close();

@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:grookey",
-  "forms": [
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

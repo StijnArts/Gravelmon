@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:thundurus",
-  "forms": [
-    {
-      "displayForm": "Mahalian",
-      "unlockForms": [
-        "Mahalian"
-      ]
-    }
-  ]
+  "forms": []
 }

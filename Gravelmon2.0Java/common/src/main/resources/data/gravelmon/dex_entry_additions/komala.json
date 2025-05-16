@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:komala",
-  "forms": [
-    {
-      "displayForm": "Mastenian",
-      "unlockForms": [
-        "Mastenian"
-      ]
-    }
-  ]
+  "forms": []
 }

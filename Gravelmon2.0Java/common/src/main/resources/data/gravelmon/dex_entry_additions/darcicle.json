@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:darcicle",
-  "forms": [
-    {
-      "displayForm": "Tribal",
-      "unlockForms": [
-        "Tribal"
-      ]
-    }
-  ]
+  "forms": []
 }

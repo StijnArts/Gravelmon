@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:glimmora",
-  "forms": [
-    {
-      "displayForm": "Norheiman",
-      "unlockForms": [
-        "Norheiman"
-      ]
-    }
-  ]
+  "forms": []
 }

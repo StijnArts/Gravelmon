@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:wishiwashi",
-  "forms": [
-    {
-      "displayForm": "Seviian",
-      "unlockForms": [
-        "Seviian"
-      ]
-    },
-    {
-      "displayForm": "Deep",
-      "unlockForms": [
-        "Deep"
-      ]
-    }
-  ]
+  "forms": []
 }

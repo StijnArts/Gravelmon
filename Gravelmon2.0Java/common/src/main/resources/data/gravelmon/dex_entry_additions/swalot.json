@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:swalot",
-  "forms": [
-    {
-      "displayForm": "Elbian",
-      "unlockForms": [
-        "Elbian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

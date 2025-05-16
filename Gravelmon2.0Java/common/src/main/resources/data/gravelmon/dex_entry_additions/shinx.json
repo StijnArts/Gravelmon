@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:shinx",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    },
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -81,6 +81,31 @@
       }
     },
     {
+      "id": "ottoran_morgrem-01",
+      "pokemon": "morgrem ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "novran_morgrem-01",
       "pokemon": "morgrem novran",
       "presets": [

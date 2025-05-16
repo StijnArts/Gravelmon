@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:klang",
-  "forms": [
-    {
-      "displayForm": "Aromian",
-      "unlockForms": [
-        "Aromian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    }
-  ]
+  "forms": []
 }

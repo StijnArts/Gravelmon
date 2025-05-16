@@ -63,8 +63,9 @@ public class PoserJSONWriter {
 
     public static void createPoserFile(PosingFileData posingFileData, String name, String resourcesDir, Gson gson) throws IOException {
         var poserJson = posingFileData.getPosesJson();
-        Files.createDirectories(new File(getDir(resourcesDir)).toPath());
-        BufferedWriter writer = new BufferedWriter(new FileWriter(getDir(resourcesDir) + name + ".json"));
+        String modelLocation = getDir(resourcesDir) + name + ".json";
+        Files.createDirectories(new File(modelLocation).getParentFile().toPath());
+        BufferedWriter writer = new BufferedWriter(new FileWriter(modelLocation));
         writer.write(gson.toJson(poserJson));
         writer.close();
     }

@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:mareanie",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    },
-    {
-      "displayForm": "Hoennian",
-      "unlockForms": [
-        "Hoennian"
-      ]
-    }
-  ]
+  "forms": []
 }

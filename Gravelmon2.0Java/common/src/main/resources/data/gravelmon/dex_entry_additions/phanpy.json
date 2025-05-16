@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:phanpy",
-  "forms": [
-    {
-      "displayForm": "Raianian",
-      "unlockForms": [
-        "Raianian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Africanusan",
-      "unlockForms": [
-        "Africanusan"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

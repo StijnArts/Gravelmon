@@ -29,6 +29,58 @@
           ]
         }
       }
+    },
+    {
+      "id": "delta_berry_crustle-01",
+      "pokemon": "crustle delta_berry",
+      "presets": [
+        "near_berry_bush"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-56",
+      "weight": 1.2000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_cake_crustle-01",
+      "pokemon": "crustle delta_cake",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-56",
+      "weight": 1.2000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
     }
   ]
 }

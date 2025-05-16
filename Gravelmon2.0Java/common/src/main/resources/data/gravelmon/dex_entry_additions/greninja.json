@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:greninja",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    },
-    {
-      "displayForm": "Armiran",
-      "unlockForms": [
-        "Armiran"
-      ]
-    }
-  ]
+  "forms": []
 }

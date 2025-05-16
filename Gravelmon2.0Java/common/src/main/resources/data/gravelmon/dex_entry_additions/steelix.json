@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:steelix",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

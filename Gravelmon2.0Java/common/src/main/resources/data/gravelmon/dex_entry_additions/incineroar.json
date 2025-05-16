@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:incineroar",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

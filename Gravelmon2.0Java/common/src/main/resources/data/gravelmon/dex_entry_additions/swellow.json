@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:swellow",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Armiran",
-      "unlockForms": [
-        "Armiran"
-      ]
-    }
-  ]
+  "forms": []
 }

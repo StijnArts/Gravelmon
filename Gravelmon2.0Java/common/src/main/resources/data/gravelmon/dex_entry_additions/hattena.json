@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:hattena",
-  "forms": [
-    {
-      "displayForm": "Lagoonan",
-      "unlockForms": [
-        "Lagoonan"
-      ]
-    }
-  ]
+  "forms": []
 }

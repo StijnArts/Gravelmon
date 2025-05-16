@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:dipplin",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -562,7 +562,8 @@ public class MegaRegistry {
                                 110),
                         Ability.SUPERCELL,
                         18, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), Aspect.DELTA_INACTIVE)
-                        .addPalette(new MegaStonePalette("#828bf3", "#f5fcfd", "#ab9085")),
+                        .addPalette(new MegaStonePalette("#828bf3", "#f5fcfd", "#ab9085"))
+                        .setMegaStoneName("delta typhlosionite"),
                 new MegaEvolution("typhlosion",
                         Type.ELECTRIC, Type.STEEL,
                         new Stats(78,
@@ -572,7 +573,8 @@ public class MegaRegistry {
                                 110,
                                 110),
                         Ability.SUPERCELL,
-                        18, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), Aspect.DELTA_ACTIVE),
+                        18, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), Aspect.DELTA_ACTIVE)
+                        .setMegaStoneName("delta typhlosionite"),
                 new MegaEvolution("pidgeot",
                         Type.DARK, Type.DRAGON,
                         new Stats(83,

@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:heatmor",
-  "forms": [
-    {
-      "displayForm": "Hizian",
-      "unlockForms": [
-        "Hizian"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

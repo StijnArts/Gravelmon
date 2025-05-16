@@ -278,6 +278,8 @@ public class GenerationThree extends Game {
         addNewPokemon(new CefiranFlygon("Flygon", Aspect.CEFIRAN));
         addNewPokemon(new CefiranSnorunt("Snorunt", Aspect.CEFIRAN));
         addNewPokemon(new CefiranGlalie("Glalie", Aspect.CEFIRAN));
+        addNewPokemon(new CefiranSwablu("", Aspect.CEFIRAN));
+        addNewPokemon(new CefiranAltaria("", Aspect.CEFIRAN));
 
     }
 

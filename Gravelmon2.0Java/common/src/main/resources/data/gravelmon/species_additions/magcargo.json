@@ -431,7 +431,7 @@
       "baseScale": 0.15,
       "cannotDynamax": true,
       "abilities": [
-        "vaporization"
+        "keeneye"
       ],
       "baseStats": {
         "hp": 50,

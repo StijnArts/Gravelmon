@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:volbeat",
-  "forms": [
-    {
-      "displayForm": "Mastenian",
-      "unlockForms": [
-        "Mastenian"
-      ]
-    }
-  ]
+  "forms": []
 }

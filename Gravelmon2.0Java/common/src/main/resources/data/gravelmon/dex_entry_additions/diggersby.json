@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:diggersby",
-  "forms": [
-    {
-      "displayForm": "Mahalian",
-      "unlockForms": [
-        "Mahalian"
-      ]
-    },
-    {
-      "displayForm": "Kaskadian",
-      "unlockForms": [
-        "Kaskadian"
-      ]
-    }
-  ]
+  "forms": []
 }

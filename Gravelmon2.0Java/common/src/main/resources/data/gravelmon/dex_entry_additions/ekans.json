@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:ekans",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ionosian",
-      "unlockForms": [
-        "Ionosian"
-      ]
-    },
-    {
-      "displayForm": "Alteran",
-      "unlockForms": [
-        "Alteran"
-      ]
-    }
-  ]
+  "forms": []
 }

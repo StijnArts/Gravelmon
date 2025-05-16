@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:blastoise",
-  "forms": [
-    {
-      "displayForm": "Egho",
-      "unlockForms": [
-        "Egho"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

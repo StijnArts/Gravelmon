@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:cursola",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

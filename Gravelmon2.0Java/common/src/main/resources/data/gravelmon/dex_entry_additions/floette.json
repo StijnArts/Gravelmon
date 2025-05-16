@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:floette",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    },
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    },
-    {
-      "displayForm": "Relic",
-      "unlockForms": [
-        "Relic"
-      ]
-    }
-  ]
+  "forms": []
 }

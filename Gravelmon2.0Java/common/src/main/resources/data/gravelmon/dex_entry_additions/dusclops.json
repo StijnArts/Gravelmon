@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:dusclops",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Avalossian",
-      "unlockForms": [
-        "Avalossian"
-      ]
-    }
-  ]
+  "forms": []
 }

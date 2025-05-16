@@ -1,23 +1,4 @@
 {
   "entryId": "cobblemon:blaziken",
-  "forms": [
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    },
-    {
-      "displayForm": "Mystic",
-      "unlockForms": [
-        "Mystic"
-      ]
-    }
-  ]
+  "forms": []
 }

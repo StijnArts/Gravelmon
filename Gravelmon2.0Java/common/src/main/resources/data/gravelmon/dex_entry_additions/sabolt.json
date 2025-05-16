@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:sabolt",
-  "forms": [
-    {
-      "displayForm": "Terrestrial",
-      "unlockForms": [
-        "Terrestrial"
-      ]
-    },
-    {
-      "displayForm": "Xenoversal",
-      "unlockForms": [
-        "Xenoversal"
-      ]
-    }
-  ]
+  "forms": []
 }

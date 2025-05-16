@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:palpitoad",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

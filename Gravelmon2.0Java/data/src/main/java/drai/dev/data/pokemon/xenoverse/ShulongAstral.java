@@ -23,7 +23,7 @@ public class ShulongAstral extends Pokemon {
                 List.of(new EvolutionEntry("shulong astral=false", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of()),
                         new EvolutionEntry("shulongterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:terrestrial_ring"))).notOptional(),
                         new EvolutionEntry("shulongxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "gravelmon:xenoversal_ring")))),
                 List.of(

@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:karrablast",
-  "forms": [
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

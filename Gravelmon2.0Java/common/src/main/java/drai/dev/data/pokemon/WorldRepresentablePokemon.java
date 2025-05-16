@@ -281,7 +281,7 @@ public abstract class WorldRepresentablePokemon {
         return posingFileData;
     }
 
-    public String getPlaceholderModelName( boolean isFemaleModel) {
+    public String getPlaceholderModelName(boolean isFemaleModel) {
         if(isFemaleModel) return getFemalePlaceholderModelName();
         return "cutout_gravelmon_" + getPlaceholderImageWidth() +"_by_" + getPlaceholderImageHeight();
     }

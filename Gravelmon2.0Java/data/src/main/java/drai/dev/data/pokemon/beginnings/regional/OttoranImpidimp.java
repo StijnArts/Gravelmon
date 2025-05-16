@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class OttoranImpidimp extends drai.dev.data.pokemon.Pokemon {
     public OttoranImpidimp(String name, Aspect aspect) {
-        super(name, aspect, "Impidimp",
+        super(name, aspect, "BeginningsanImpidimp",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(0,
                         0,
@@ -27,7 +27,7 @@ public class OttoranImpidimp extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
+                ), new PokemonSpawnDataBuilder(1)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()

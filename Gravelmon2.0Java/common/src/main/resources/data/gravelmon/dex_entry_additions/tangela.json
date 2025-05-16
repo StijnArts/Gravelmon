@@ -1,35 +1,4 @@
 {
   "entryId": "cobblemon:tangela",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Qamoran",
-      "unlockForms": [
-        "Qamoran"
-      ]
-    },
-    {
-      "displayForm": "Egho",
-      "unlockForms": [
-        "Egho"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Hoennian",
-      "unlockForms": [
-        "Hoennian"
-      ]
-    }
-  ]
+  "forms": []
 }

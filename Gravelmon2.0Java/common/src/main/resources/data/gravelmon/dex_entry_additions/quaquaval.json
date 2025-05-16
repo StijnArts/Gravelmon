@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:quaquaval",
-  "forms": [
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

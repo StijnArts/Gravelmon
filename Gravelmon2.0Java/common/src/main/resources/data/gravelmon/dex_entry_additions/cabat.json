@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:cabat",
-  "forms": [
-    {
-      "displayForm": "Female",
-      "unlockForms": [
-        "Female"
-      ]
-    }
-  ]
+  "forms": []
 }

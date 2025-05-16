@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:wobbuffet",
-  "forms": [
-    {
-      "displayForm": "Varitasian",
-      "unlockForms": [
-        "Varitasian"
-      ]
-    }
-  ]
+  "forms": []
 }

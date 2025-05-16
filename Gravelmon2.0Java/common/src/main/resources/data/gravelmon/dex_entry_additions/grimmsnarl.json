@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:grimmsnarl",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    },
-    {
-      "displayForm": "Mystisian",
-      "unlockForms": [
-        "Mystisian"
-      ]
-    }
-  ]
+  "forms": []
 }

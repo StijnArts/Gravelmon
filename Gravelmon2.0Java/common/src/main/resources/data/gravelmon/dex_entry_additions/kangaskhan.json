@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:kangaskhan",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Aristosian",
-      "unlockForms": [
-        "Aristosian"
-      ]
-    }
-  ]
+  "forms": []
 }

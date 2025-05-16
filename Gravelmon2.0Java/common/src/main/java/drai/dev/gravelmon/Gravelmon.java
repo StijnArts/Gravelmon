@@ -2,6 +2,7 @@ package drai.dev.gravelmon;
 
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.events.*;
+import dev.architectury.injectables.annotations.*;
 import dev.architectury.platform.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokeballs.*;
@@ -14,6 +15,7 @@ import net.minecraft.world.item.*;
 import org.apache.logging.log4j.*;
 import org.spongepowered.asm.mixin.*;
 
+import java.io.*;
 import java.util.*;
 import java.util.function.*;
 
@@ -24,14 +26,15 @@ public class Gravelmon
 	public static final Map<String, String> FOSSIL_MAP = new HashMap<>();
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 	public static final Logger LOGGER = LogManager.getLogger();
-	public static void init(boolean checkForLabels) {
+
+	public static void init(boolean relyOnGeb) {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();
 		GravelmonPokeballs.touch();
 		boolean megaShowdownPresent = Platform.isModLoaded("mega_showdown");
-		if(megaShowdownPresent){
+		if(megaShowdownPresent) {
 			Mixins.addConfiguration("gravelmon.megashowdown.mixins.json");
-			GravelmonMegas.init(checkForLabels);
+			GravelmonMegas.init();
 		}
 		GravelmonBlocks.BLOCKS.register();
 		GravelmonItems.ITEMS.register();
@@ -43,11 +46,17 @@ public class Gravelmon
 				}
 				lateInitDone = true;
 			}
-			return Unit.INSTANCE;}
-		);
+			return Unit.INSTANCE;
+		});
 		gravelmonFormEvolutions();
 		gravelmonStarterInjections();
 		registerMoveInsertions();
+		platformInit();
+	}
+
+	@ExpectPlatform
+	public static void platformInit() {
+		throw new AssertionError("Not supported yet.");
 	}
 
 	private static void gravelmonStarterInjections() {

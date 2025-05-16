@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:pumpkaboo",
-  "forms": [
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

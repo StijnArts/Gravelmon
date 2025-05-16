@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:minior",
-  "forms": [
-    {
-      "displayForm": "Fabelian",
-      "unlockForms": [
-        "Fabelian"
-      ]
-    }
-  ]
+  "forms": []
 }

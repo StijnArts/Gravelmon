@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:eternatus",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

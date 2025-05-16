@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:hagoop",
-  "forms": [
-    {
-      "displayForm": "Alteran",
-      "unlockForms": [
-        "Alteran"
-      ]
-    }
-  ]
+  "forms": []
 }

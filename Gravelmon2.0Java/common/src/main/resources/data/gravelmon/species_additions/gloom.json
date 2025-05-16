@@ -512,21 +512,19 @@
       "permanent": true
     }
   ],
-  "drops": [
-    {
-      "amount": 3,
-      "entries": [
-        {
-          "item": "cobblemon:shiny_stone",
-          "quantityRange": "1-1",
-          "percentage": 10
-        },
-        {
-          "item": "gravelmon:astral_stone",
-          "quantityRange": "1-1",
-          "percentage": 10
-        }
-      ]
-    }
-  ]
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:shiny_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

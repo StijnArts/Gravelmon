@@ -6,9 +6,9 @@
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_73_by_61.geo",
-      "poser": "cobblemon:cutout_gravelmon_73_by_61",
-      "texture": "cobblemon:textures/pokemon/generation4/epochgastrodoneleven.png",
+      "model": "cobblemon:cutout_gravelmon_64_by_56.geo",
+      "poser": "cobblemon:cutout_gravelmon_64_by_56",
+      "texture": "cobblemon:textures/pokemon/generation4/epochgastrodon.png",
       "layers": [
         {
           "name": "emissive"

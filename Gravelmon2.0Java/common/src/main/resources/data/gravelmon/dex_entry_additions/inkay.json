@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:inkay",
-  "forms": [
-    {
-      "displayForm": "Vesitan",
-      "unlockForms": [
-        "Vesitan"
-      ]
-    }
-  ]
+  "forms": []
 }

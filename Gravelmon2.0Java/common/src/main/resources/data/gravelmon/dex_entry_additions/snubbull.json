@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:snubbull",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

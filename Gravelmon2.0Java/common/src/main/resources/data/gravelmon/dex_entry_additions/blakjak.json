@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:blakjak",
-  "forms": [
-    {
-      "displayForm": "Signetan",
-      "unlockForms": [
-        "Signetan"
-      ]
-    }
-  ]
+  "forms": []
 }

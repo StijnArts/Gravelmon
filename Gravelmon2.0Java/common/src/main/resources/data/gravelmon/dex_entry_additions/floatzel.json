@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:floatzel",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

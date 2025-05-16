@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:gourgeist",
-  "forms": [
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:rampardos",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    }
-  ]
+  "forms": []
 }

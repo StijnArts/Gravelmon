@@ -1,41 +1,4 @@
 {
   "entryId": "cobblemon:quilava",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ionosian",
-      "unlockForms": [
-        "Ionosian"
-      ]
-    },
-    {
-      "displayForm": "Egho",
-      "unlockForms": [
-        "Egho"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    },
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

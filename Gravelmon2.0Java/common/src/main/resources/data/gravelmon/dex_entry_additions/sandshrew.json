@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:sandshrew",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

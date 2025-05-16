@@ -4,6 +4,7 @@ package drai.dev.data.jsonwriters.assets;
 import com.google.gson.*;
 import drai.dev.data.jsonwriters.data.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -63,15 +64,7 @@ public class AdditionalFormAssetsJSONWriter {
         int order = 0;
         if(worldRepresentablePokemon instanceof Pokemon pokemon){
             order = formCounter + Arrays.asList(Aspect.values()).indexOf(pokemon.getAdditionalAspect());
-            aspect = pokemon.getAdditionalAspect().getName();
-            if(worldRepresentablePokemon.getName().endsWith("One")) {
-                aspect += "two";
-                SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-            }
-            if(worldRepresentablePokemon.getName().endsWith("Two")) {
-                aspect += "three";
-                SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
-            }
+            aspect = getCorrectedAspect(resourcesDir, worldRepresentablePokemon, pokemon);
         } else if(worldRepresentablePokemon instanceof MegaEvolution megaEvolution){
             aspect = megaEvolution.getIndependentMegaAspect();
             order = formCounter + 1000 + i;
@@ -83,5 +76,64 @@ public class AdditionalFormAssetsJSONWriter {
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir + order + "_" + key + "_" + aspect + ".json"));
         writer.write(gson.toJson(worldRepresentablePokemon.getSpeciesFileData().toJsonObject(key, order, List.of(aspect), worldRepresentablePokemon)));
         writer.close();
+    }
+
+    private static <T extends WorldRepresentablePokemon> String getCorrectedAspect(String resourcesDir, T worldRepresentablePokemon, Pokemon pokemon) throws IOException {
+        String aspect;
+//        aspect = pokemon.getAdditionalAspect().getName();
+//        if(worldRepresentablePokemon.getName().endsWith("One")) {
+//            aspect += "two";
+//            SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+//        }
+//        if(worldRepresentablePokemon.getName().endsWith("Two")) {
+//            aspect += "three";
+//            SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+//        }
+//        return aspect;
+
+        aspect = pokemon.getAdditionalAspect().getName();
+
+        String name = worldRepresentablePokemon.getName();
+
+        // Extract trailing number word, case insensitive, from the end of the name
+        String trailingNumberWord = null;
+        for (String numberWord : numberWordToInt.keySet()) {
+            if (name.toLowerCase().endsWith(numberWord)) {
+                trailingNumberWord = numberWord;
+                break;
+            }
+        }
+
+        if (trailingNumberWord != null) {
+            int currentNumber = numberWordToInt.get(trailingNumberWord);
+            int nextNumber = currentNumber + 1;
+
+            // Only proceed if we have a next number mapping
+            aspect += EnglishNumberToWords.convert(nextNumber); // append next number word in lowercase
+            SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
+        }
+
+        return aspect;
+    }
+
+    // Map from number words to ints
+    public static final Map<String, Integer> numberWordToInt = createNumbersMap();
+
+    private static Map<String, Integer> createNumbersMap() {
+        var map = new HashMap<String, Integer>();
+        map.put("one", 1);
+        map.put("two", 2);
+        map.put("three", 3);
+        map.put("four", 4);
+        map.put("five", 5);
+        map.put("six", 6);
+        map.put("seven", 7);
+        map.put("eight", 8);
+        map.put("nine", 9);
+        map.put("ten", 10);
+        map.put("eleven", 11);
+        map.put("twelve", 12);
+
+        return map;
     }
 }

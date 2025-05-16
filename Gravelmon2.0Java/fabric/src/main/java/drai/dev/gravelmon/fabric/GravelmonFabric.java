@@ -17,16 +17,6 @@ public class GravelmonFabric implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        boolean isNotDataGen = System.getProperty("fabric-api.datagen") == null;
-        Gravelmon.init(isNotDataGen);
-        GravelmonFeatures.registerFeatures();
-        initCreativeTabs();
-        var orangeApp = GravelmonItems.ORANGE_APRICORN.get();
-        CompostingChanceRegistryImpl.INSTANCE.add(orangeApp, .65f);
-        CompostingChanceRegistryImpl.INSTANCE.add(GravelmonItems.PURPLE_APRICORN.get(), .65f);
-        GravelmonItems.POKE_BALLS.stream().map(Supplier::get).forEach(pokeBallItem -> {
-            var gravelmonPokeball= (GravelmonPokeBall)pokeBallItem.getPokeBall();
-            gravelmonPokeball.registerItem();
-        });
+
     }
 }

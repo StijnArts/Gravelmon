@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:morgrem-ottoran",
+  "speciesId": "cobblemon:morgrem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ottoran",
+      "unlockForms": [
+        "Ottoran"
+      ]
+    }
+  ],
+  "variations": []
+}

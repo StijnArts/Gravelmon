@@ -54,6 +54,31 @@
       }
     },
     {
+      "id": "ottoran_hattrem-01",
+      "pokemon": "hattrem ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "lagoonan_hattrem-01",
       "pokemon": "hattrem lagoonan",
       "presets": [

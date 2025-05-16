@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:pikipek",
-  "forms": [
-    {
-      "displayForm": "Ivrisian",
-      "unlockForms": [
-        "Ivrisian"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -66,6 +66,12 @@ dependencies {
 
 
 
+    //Mega showdown compat
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-fabric")
+
+    modImplementation("maven.modrinth:supermartijn642s-config-lib:1.1.8-fabric-mc1.21")
+
+    modImplementation("dev.emi:trinkets:3.10.0")
 }
 
 def replaceProperties = [mod_id          : mod_id,

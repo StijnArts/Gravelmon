@@ -436,26 +436,24 @@
       "permanent": true
     }
   ],
-  "drops": [
-    {
-      "amount": 3,
-      "entries": [
-        {
-          "item": "gravelmon:quantum_upgrade",
-          "quantityRange": "1-1",
-          "percentage": 10
-        },
-        {
-          "item": "gravelmon:wes_update",
-          "quantityRange": "1-1",
-          "percentage": 10
-        },
-        {
-          "item": "gravelmon:amaze_drive",
-          "quantityRange": "1-1",
-          "percentage": 10
-        }
-      ]
-    }
-  ]
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:quantum_upgrade",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:wes_update",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:amaze_drive",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

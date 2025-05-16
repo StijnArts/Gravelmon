@@ -7,6 +7,7 @@ import org.apache.commons.lang3.*;
 
 import java.util.*;
 
+import static drai.dev.data.jsonwriters.assets.AdditionalFormAssetsJSONWriter.numberWordToInt;
 import static drai.dev.data.pokemon.AbstractPokemon.*;
 import static drai.dev.data.pokemon.Pokemon.*;
 
@@ -153,14 +154,25 @@ public class PostRegistration {
         }
         for (var pokemon : sortedPokemonList) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                var evoResult = evolutionEntry.getResult();
+                if(evoResult.contains(" ")){
+                    var parts = evoResult.split(" ");
+                    if(hasTrailingNumber(parts[0])) {
+                        evoResult = evoResult.replace(" ", "");
+                    }
+                    else evoResult = (parts[1].contains("=false")
+                            ? ""
+                            : parts[1].replaceAll("=true", "")+" ") + parts[0];
+                }
+                String finalEvoResult = evoResult;
+                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(finalEvoResult)).findFirst().orElse(null);
                 if (result != null) {
                     if (isAnAdditionalForm(result)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
                         resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                     }
                 } else {
-                    ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
+                    if(!evolutionEntry.getResult().contains(" ")) ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
                 }
             }
 
@@ -266,5 +278,14 @@ public class PostRegistration {
         double outputNumber = outputMax - ((double) (inputNumber - inputMin) / (inputMax - inputMin)) * (outputMax - outputMin);
 
         return (int) Math.round(outputNumber);
+    }
+
+    public static boolean hasTrailingNumber(String input) {
+        for (String numberWord : numberWordToInt.keySet()) {
+            if (input.toLowerCase().endsWith(numberWord)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

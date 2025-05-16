@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:impidimp-ottoran",
+  "speciesId": "cobblemon:impidimp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ottoran",
+      "unlockForms": [
+        "Ottoran"
+      ]
+    }
+  ],
+  "variations": []
+}

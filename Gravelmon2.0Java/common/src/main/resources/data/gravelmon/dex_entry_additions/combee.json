@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:combee",
-  "forms": [
-    {
-      "displayForm": "Qamoran",
-      "unlockForms": [
-        "Qamoran"
-      ]
-    },
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,29 +1,4 @@
 {
   "entryId": "cobblemon:shyleon",
-  "forms": [
-    {
-      "displayForm": "Terrestrial",
-      "unlockForms": [
-        "Terrestrial"
-      ]
-    },
-    {
-      "displayForm": "Xenoversal",
-      "unlockForms": [
-        "Xenoversal"
-      ]
-    },
-    {
-      "displayForm": "Astral",
-      "unlockForms": [
-        "Astral"
-      ]
-    },
-    {
-      "displayForm": "X",
-      "unlockForms": [
-        "X"
-      ]
-    }
-  ]
+  "forms": []
 }

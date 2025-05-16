@@ -185,8 +185,13 @@ public class Pokemon extends AbstractPokemon {
 
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
         var key = originalPokemon.toLowerCase();
-        if (key.isBlank()) {
-            key = getClass().getSimpleName().toLowerCase().replaceAll(pokemon.getAdditionalAspect().name().toLowerCase(), "");
+        if (key.isBlank() && pokemon.getAdditionalAspect() != null) {
+            var aspect = pokemon.getAdditionalAspect().name().toLowerCase();
+            var words = aspect.split("_");
+            key = getClass().getSimpleName().toLowerCase();
+            for (String word : words) {
+                key = key.replaceAll(word, "");
+            }
         }
         String className = getClass().getSimpleName();
         for (int i = 0; i < 20; i++) {
@@ -200,16 +205,11 @@ public class Pokemon extends AbstractPokemon {
         additionalFormKey = key;
         forms.add(pokemon);
         ADDITIONAL_SPECIES_ASPECTS.add(pokemon.getAdditionalAspect());
-//        POKEMON_REGISTRY.remove(this.name.toLowerCase().replaceAll("\\W",""));
     }
 
     public void processAssets(String resourcesDir){
             processPokemonAssets(resourcesDir, hasGenderDifferences);
             forms.forEach(form -> form.processPokemonAssets(resourcesDir, hasGenderDifferences));
-    }
-
-    protected static void addAdditionalPreEvolution(String from, String result) {
-        ADDITIONAL_PRE_EVOLUTIONS.put(result, from);
     }
 
     public void setShoulderMountable(boolean shoulderMountable) {

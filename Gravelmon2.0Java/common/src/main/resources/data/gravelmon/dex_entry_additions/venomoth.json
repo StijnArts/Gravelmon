@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:venomoth",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Hizian",
-      "unlockForms": [
-        "Hizian"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -1,6 +1,7 @@
 package drai.dev.data.util;
 
 import java.text.*;
+import java.util.*;
 
 public class EnglishNumberToWords {
 
@@ -40,7 +41,73 @@ public class EnglishNumberToWords {
             " nineteen"
     };
 
-    private EnglishNumberToWords() {}
+    private static final Map<String, Integer> numberWords = createNumberWordsMap();
+    private static final Map<String, Long> scaleWords = Map.of(
+            "billion", 1_000_000_000L,
+            "million", 1_000_000L,
+            "thousand", 1_000L,
+            "hundred", 100L
+    );
+
+    private static Map<String, Integer> createNumberWordsMap() {
+        Map<String, Integer> map = new HashMap<>();
+        map.put("zero", 0);
+        map.put("one", 1);
+        map.put("two", 2);
+        map.put("three", 3);
+        map.put("four", 4);
+        map.put("five", 5);
+        map.put("six", 6);
+        map.put("seven", 7);
+        map.put("eight", 8);
+        map.put("nine", 9);
+        map.put("ten", 10);
+        map.put("eleven", 11);
+        map.put("twelve", 12);
+        map.put("thirteen", 13);
+        map.put("fourteen", 14);
+        map.put("fifteen", 15);
+        map.put("sixteen", 16);
+        map.put("seventeen", 17);
+        map.put("eighteen", 18);
+        map.put("nineteen", 19);
+        map.put("twenty", 20);
+        map.put("thirty", 30);
+        map.put("forty", 40);
+        map.put("fifty", 50);
+        map.put("sixty", 60);
+        map.put("seventy", 70);
+        map.put("eighty", 80);
+        map.put("ninety", 90);
+        return map;
+    }
+
+    public static long convertWordsToNumber(String input) {
+        if (input == null || input.isEmpty()) return 0;
+
+        String[] words = input.toLowerCase().trim().split("\\s+");
+        long total = 0;
+        long current = 0;
+
+        for (String word : words) {
+            if (numberWords.containsKey(word)) {
+                // Add number (units or tens)
+                current += numberWords.get(word);
+            } else if ("hundred".equals(word)) {
+                // Multiply current by 100
+                current *= 100;
+            } else if (scaleWords.containsKey(word)) {
+                // Multiply and add to total
+                current *= scaleWords.get(word);
+                total += current;
+                current = 0;
+            } else {
+                // ignore unknown words (or throw error if you want)
+            }
+        }
+        total += current;
+        return total;
+    }
 
     private static String convertLessThanOneThousand(int number) {
         String soFar;
@@ -131,55 +198,5 @@ public class EnglishNumberToWords {
 
         // remove extra spaces!
         return result.replaceAll("^\\s+", "").replaceAll("\\b\\s{2,}\\b", " ");
-    }
-
-    /**
-     * testing
-     * @param args
-     */
-    public static void main(String[] args) {
-        System.out.println("*** " + EnglishNumberToWords.convert(0));
-        System.out.println("*** " + EnglishNumberToWords.convert(1));
-        System.out.println("*** " + EnglishNumberToWords.convert(16));
-        System.out.println("*** " + EnglishNumberToWords.convert(100));
-        System.out.println("*** " + EnglishNumberToWords.convert(118));
-        System.out.println("*** " + EnglishNumberToWords.convert(200));
-        System.out.println("*** " + EnglishNumberToWords.convert(219));
-        System.out.println("*** " + EnglishNumberToWords.convert(800));
-        System.out.println("*** " + EnglishNumberToWords.convert(801));
-        System.out.println("*** " + EnglishNumberToWords.convert(1316));
-        System.out.println("*** " + EnglishNumberToWords.convert(1000000));
-        System.out.println("*** " + EnglishNumberToWords.convert(2000000));
-        System.out.println("*** " + EnglishNumberToWords.convert(3000200));
-        System.out.println("*** " + EnglishNumberToWords.convert(700000));
-        System.out.println("*** " + EnglishNumberToWords.convert(9000000));
-        System.out.println("*** " + EnglishNumberToWords.convert(9001000));
-        System.out.println("*** " + EnglishNumberToWords.convert(123456789));
-        System.out.println("*** " + EnglishNumberToWords.convert(2147483647));
-        System.out.println("*** " + EnglishNumberToWords.convert(3000000010L));
-
-        /*
-         *** zero
-         *** one
-         *** sixteen
-         *** one hundred
-         *** one hundred eighteen
-         *** two hundred
-         *** two hundred nineteen
-         *** eight hundred
-         *** eight hundred one
-         *** one thousand three hundred sixteen
-         *** one million
-         *** two millions
-         *** three millions two hundred
-         *** seven hundred thousand
-         *** nine millions
-         *** nine millions one thousand
-         *** one hundred twenty three millions four hundred
-         **      fifty six thousand seven hundred eighty nine
-         *** two billion one hundred forty seven millions
-         **      four hundred eighty three thousand six hundred forty seven
-         *** three billion ten
-         **/
     }
 }

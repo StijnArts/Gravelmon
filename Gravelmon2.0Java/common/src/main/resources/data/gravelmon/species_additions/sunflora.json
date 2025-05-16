@@ -459,7 +459,7 @@
       "baseScale": 9.600000000000001,
       "cannotDynamax": true,
       "abilities": [
-        "unleafed"
+        "keeneye"
       ],
       "baseStats": {
         "hp": 75,
@@ -488,7 +488,7 @@
       "baseScale": 0.1736842105263158,
       "cannotDynamax": true,
       "abilities": [
-        "chlorofury"
+        "keeneye"
       ],
       "baseStats": {
         "hp": 75,
@@ -550,16 +550,14 @@
       "permanent": true
     }
   ],
-  "drops": [
-    {
-      "amount": 3,
-      "entries": [
-        {
-          "item": "cobblemon:fire_stone",
-          "quantityRange": "1-1",
-          "percentage": 10
-        }
-      ]
-    }
-  ]
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

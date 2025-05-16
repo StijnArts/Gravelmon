@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:meowscarada",
-  "forms": [
-    {
-      "displayForm": "Ayreian",
-      "unlockForms": [
-        "Ayreian"
-      ]
-    }
-  ]
+  "forms": []
 }

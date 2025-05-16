@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:clobbopus",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Novran",
-      "unlockForms": [
-        "Novran"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -51,7 +51,7 @@ dependencies {
     }
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
-    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-release-neoforge")
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-neoforge")
 
     // Compile against only the API artifact
     compileOnly("top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1:api")

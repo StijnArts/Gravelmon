@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:ertheno",
-  "forms": [
-    {
-      "displayForm": "Tribal",
-      "unlockForms": [
-        "Tribal"
-      ]
-    }
-  ]
+  "forms": []
 }

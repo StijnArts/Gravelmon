@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:farfetchd",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

@@ -83,6 +83,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "amaze_all_sudowoodo-01",
+      "pokemon": "sudowoodo amaze_all",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-39",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_density/sparse"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

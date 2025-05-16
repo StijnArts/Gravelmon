@@ -1,41 +1,4 @@
 {
   "entryId": "cobblemon:magikarp",
-  "forms": [
-    {
-      "displayForm": "Ivrisian",
-      "unlockForms": [
-        "Ivrisian"
-      ]
-    },
-    {
-      "displayForm": "Palmian",
-      "unlockForms": [
-        "Palmian"
-      ]
-    },
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    },
-    {
-      "displayForm": "Nodorran",
-      "unlockForms": [
-        "Nodorran"
-      ]
-    },
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

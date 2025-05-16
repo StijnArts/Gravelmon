@@ -4,6 +4,64 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_water_petilil-01",
+      "pokemon": "petilil delta_water",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "13-27",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_fairy_petilil-01",
+      "pokemon": "petilil delta_fairy",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-27",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "cefiran_petilil-01",
       "pokemon": "petilil cefiran",
       "presets": [

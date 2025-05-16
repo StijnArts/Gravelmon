@@ -57,10 +57,10 @@ public class GenerationEight extends Game {
 
         registerSoulstonesVariants();
 
-        addNewPokemon(new BeginningsanHatenna("", Aspect.OTTORAN));
-        addNewPokemon(new BeginningsanHattrem("", Aspect.OTTORAN));
-        addNewPokemon(new BeginningsanImpidimp("", Aspect.OTTORAN));
-        addNewPokemon(new BeginningsanMorgrem("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranHatenna("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranHattrem("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranImpidimp("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranMorgrem("", Aspect.OTTORAN));
 
         addNewPokemon(new LagoonanHattena("", Aspect.LAGOONAN));
         addNewPokemon(new LagoonanHattrem("", Aspect.LAGOONAN));

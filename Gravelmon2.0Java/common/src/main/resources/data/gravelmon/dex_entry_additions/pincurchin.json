@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:pincurchin",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

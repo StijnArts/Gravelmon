@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:sirfetchd",
-  "forms": [
-    {
-      "displayForm": "Ishirian",
-      "unlockForms": [
-        "Ishirian"
-      ]
-    }
-  ]
+  "forms": []
 }

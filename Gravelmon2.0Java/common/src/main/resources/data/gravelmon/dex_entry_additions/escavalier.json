@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:escavalier",
-  "forms": [
-    {
-      "displayForm": "Delta",
-      "unlockForms": [
-        "Delta"
-      ]
-    }
-  ]
+  "forms": []
 }

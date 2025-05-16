@@ -1,17 +1,4 @@
 {
   "entryId": "cobblemon:tinkaton",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    },
-    {
-      "displayForm": "Lagoonan",
-      "unlockForms": [
-        "Lagoonan"
-      ]
-    }
-  ]
+  "forms": []
 }

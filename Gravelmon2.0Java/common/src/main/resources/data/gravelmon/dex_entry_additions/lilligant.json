@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:lilligant",
-  "forms": [
-    {
-      "displayForm": "Cefiran",
-      "unlockForms": [
-        "Cefiran"
-      ]
-    }
-  ]
+  "forms": []
 }

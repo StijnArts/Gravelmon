@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:hooh",
-  "forms": [
-    {
-      "displayForm": "Forman",
-      "unlockForms": [
-        "Forman"
-      ]
-    }
-  ]
+  "forms": []
 }

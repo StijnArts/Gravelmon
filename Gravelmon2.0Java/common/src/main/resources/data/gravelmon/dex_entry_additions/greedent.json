@@ -1,11 +1,4 @@
 {
   "entryId": "cobblemon:greedent",
-  "forms": [
-    {
-      "displayForm": "Epoch",
-      "unlockForms": [
-        "Epoch"
-      ]
-    }
-  ]
+  "forms": []
 }

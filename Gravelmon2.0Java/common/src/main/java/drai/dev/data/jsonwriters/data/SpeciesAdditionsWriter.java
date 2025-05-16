@@ -56,13 +56,14 @@ public class SpeciesAdditionsWriter {
     }
 
     private static void writeAdditionalPreEvolutions(Map.Entry<String, String> set){
+        if(Pokemon.isAnAdditionalForm(set.getKey())) return;
         var fileContents = getSpeciesAddition(getKey(set.getKey()));
         fileContents.addProperty("preEvolution", set.getValue());
     }
 
     private synchronized static void writeAlternateDrops(Map.Entry<String, List<ItemDrop>> set) {
         var fileContents = getSpeciesAddition(getKey(set.getKey()));
-        addOrCreateJsonArray(fileContents, "drops", getDrops(3, set.getValue()));
+        fileContents.add("drops", getDrops(3, set.getValue()));
 
     }
 
@@ -82,7 +83,7 @@ public class SpeciesAdditionsWriter {
         }
     }
 
-    private static void addOrCreateJsonArray(JsonObject fileContents, String propertyName, JsonElement item) {
+    public static void addOrCreateJsonArray(JsonObject fileContents, String propertyName, JsonElement item) {
         var array = new JsonArray();
         if(fileContents.has(propertyName)) array = fileContents.getAsJsonArray(propertyName);
         if(item instanceof JsonArray items) {

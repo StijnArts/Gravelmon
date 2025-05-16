@@ -62,8 +62,9 @@ public class VariationData {
                 ? (!abstractPokemon.isModeled() ? abstractPokemon.getFemalePlaceholderModelName() : this.model.get())
                 : this.model.get();
         jsonObject.add("aspects", aspectsArray);
-        jsonObject.addProperty("model", "cobblemon:" + model + ".geo");
-        jsonObject.addProperty("poser", "cobblemon:" + (abstractPokemon.isModeled() ? poser.get() : abstractPokemon.getPlaceholderModelName(isFemale)));
+        jsonObject.addProperty("model", "cobblemon:" + model.replaceAll("placeholder\\\\","") + ".geo");
+        jsonObject.addProperty("poser", ("cobblemon:" + (abstractPokemon.isModeled() ? poser.get() :
+                abstractPokemon.getPlaceholderModelName(isFemale))).replaceAll("\\\\","/"));
         jsonObject.addProperty("texture", BasicLayerData.getTextureLocation(textureName, abstractPokemon, isShiny, isFemale));
         var layerArray = new JsonArray();
         layers.forEach((key, value) -> {
