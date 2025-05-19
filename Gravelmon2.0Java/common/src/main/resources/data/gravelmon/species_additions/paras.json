@@ -499,11 +499,192 @@
         "height": 3.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "secondaryType": "water",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 57,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "friendguard",
+        "stickyhold",
+        "h:naturalcure"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "13:waterpulse",
+        "10:poisonpowder",
+        "1:acid",
+        "28:venoshock",
+        "25:gastroacid",
+        "49:banefulbunker",
+        "43:bugbuzz",
+        "46:muddywater",
+        "4:watergun",
+        "60:hivemind",
+        "56:waterspout",
+        "37:spore",
+        "22:octazooka",
+        "52:acidrain",
+        "7:strugglebug",
+        "40:sludgebomb",
+        "10:stunspore",
+        "10:sleeppowder",
+        "16:sludge",
+        "1:stringshot",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:knockoff",
+        "tm:leechlife",
+        "tm:liquidation",
+        "tm:magicalleaf",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:pollenpuff",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:steameruption",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "egg:corrode",
+        "egg:withdraw",
+        "egg:toxic",
+        "egg:venomdrench",
+        "egg:aquaring",
+        "egg:infestation",
+        "egg:quickguard",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochparasone.desc"
+      ],
+      "height": 3,
+      "weight": 54,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochparasone_epochtwoparasect",
+          "variant": "level_up",
+          "result": "epochtwoparasect",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "forman",
     "epoch",
-    "avalossian"
+    "avalossian",
+    "epochtwo"
   ]
 }

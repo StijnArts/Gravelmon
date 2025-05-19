@@ -81,5 +81,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                 );
         var fossilTagBuilder = getOrCreateTagBuilder(CobblemonItemTags.FOSSILS);
         Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> fossilTagBuilder.add(value.get()));
+        var pokeballTagBuilder = getOrCreateTagBuilder(CobblemonItemTags.POKE_BALLS);
+        GravelmonItems.POKE_BALLS.forEach((key) -> pokeballTagBuilder.add(key.get()));
     }
 }

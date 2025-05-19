@@ -1020,7 +1020,8 @@
       "primaryType": "dragon",
       "secondaryType": "fairy",
       "baseScale": 0.3,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "gooey"
       ],
@@ -1036,12 +1037,36 @@
         "gen4",
         "daybreak"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 22,
       "aspects": [
         "armiran_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "baseScale": 0.5662921348314607,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "infiltrator"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "attack": 130,
+        "defence": 115,
+        "special_attack": 112,
+        "special_defence": 110,
+        "speed": 125
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -1054,6 +1079,7 @@
     "epoch",
     "epochtwo",
     "armiran",
-    "armiran_mega"
+    "armiran_mega",
+    "epoch_mega"
   ]
 }

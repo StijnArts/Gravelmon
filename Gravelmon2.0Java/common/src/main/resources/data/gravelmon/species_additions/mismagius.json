@@ -531,12 +531,40 @@
         "height": 2.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "light",
+      "secondaryType": "sound",
+      "baseScale": 0.4129032258064516,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dazzling"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 35,
+        "defence": 90,
+        "special_attack": 115,
+        "special_defence": 135,
+        "speed": 135
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "norheiman",
     "hizian",
-    "delta"
+    "delta",
+    "epoch_mega"
   ]
 }

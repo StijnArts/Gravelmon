@@ -591,13 +591,41 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "secondaryType": "water",
+      "baseScale": 0.6260869565217391,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "analytic"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 40,
+        "defence": 120,
+        "special_attack": 80,
+        "special_defence": 130,
+        "speed": 145
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 24,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
     "hoennian",
-    "relic"
+    "relic",
+    "epoch_mega"
   ],
   "evolutions": [
     {

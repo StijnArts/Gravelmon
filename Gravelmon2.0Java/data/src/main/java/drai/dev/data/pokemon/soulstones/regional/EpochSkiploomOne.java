@@ -23,7 +23,7 @@ public class EpochSkiploomOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FAIRY),
                 List.of("When it is eating, the lights on its antenna flicker periodically."),
-                List.of(new EvolutionEntry("epochtwo jumpluff", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwojumpluff", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,15),

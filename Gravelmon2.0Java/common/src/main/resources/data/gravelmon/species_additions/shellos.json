@@ -501,9 +501,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellostwo_epochtwo_gastrodon",
+          "id": "epochshellostwo_epochtwogastrodon",
           "variant": "level_up",
-          "result": "epochtwo gastrodon",
+          "result": "epochtwogastrodon",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

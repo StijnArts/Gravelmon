@@ -7,11 +7,1035 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
 public class MegaRegistry {
-    public static void register(){
+    public static void register() {
         MegaEvolution.addMegaEvolution(getInsurgenceMegas());
         MegaEvolution.addMegaEvolution(getDaybreakMegas());
         MegaEvolution.addMegaEvolution(getOpaloMegas());
+        MegaEvolution.addMegaEvolution(getPhoenixRisingMegas());
+        MegaEvolution.addMegaEvolution(getXenoverseMegas());
+        MegaEvolution.addMegaEvolution(getVanguardMegas());
+        MegaEvolution.addMegaEvolution(getSoulstonesMegas());
+        MegaEvolution.addMegaEvolution(getSolarLightLunarDalkMegas());
+//        MegaEvolution.addMegaEvolution(getChaosInVesitaMegas()); skipped
+
         MegaEvolution.clean();
+    }
+
+    private static List<MegaEvolution> getSolarLightLunarDalkMegas() {
+        return List.of(
+                new MegaEvolution("mountree",
+                        Type.GRASS,Type.ROCK,
+                        new Stats(111,128,142,60,89,105),
+                        Ability.ROCK_HEAD,
+                        21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#a88239","#62d23c","#8a9ba4")),
+                new MegaEvolution("flearoe",
+                        Type.FIRE,Type.GROUND,
+                        new Stats(75,82,118,128,145,87),
+                        Ability.SMOKE_OUT,
+                        15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#f22626","#efc68c","#f89c21")),
+                new MegaEvolution("salaslam",
+                        Type.WATER,Type.POISON,
+                        new Stats(88,142,80,105,131,89),
+                        Ability.SHEER_FORCE,
+                        20, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#313e4d","#de57fb","#788cd1")),
+                new MegaEvolution("lavenrina",
+                        Type.GRASS,Type.FAIRY,
+                        new Stats(70,55,95,90,137,138),
+                        Ability.SPEED_BOOST,
+                        16, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#b16aff","#ffffff","#ffdffa")),
+                new MegaEvolution("fevesta",
+                        Type.POISON,Type.DARK,
+                        new Stats(62,105,95,139,120,95),
+                        Ability.MERCILESS,
+                        19, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#302831","#ef0569","#d900c9")),
+                new MegaEvolution("smaqua",
+                        Type.FIGHTING,Type.WATER,
+                        new Stats(80,130,105,86,52,80),
+                        Ability.CROSS_GUARD,
+                        19, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#353344","#ffffff","#235ada")),
+                new MegaEvolution("werehide",
+                        Type.DARK, Type.FIGHTING,
+                        new Stats(70,146,95,101,75,85),
+                        Ability.STAKEOUT,
+                        15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#1c1621","#c82261","#6b536f")),
+                new MegaEvolution("crystox",
+                        Type.ROCK,Type.POISON,
+                        new Stats(80,140,145,85,60,85),
+                        Ability.TINTED_LENS,
+                        16, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#353258","#efabe4","#8b9ce6")),
+                new MegaEvolution("lophug",
+                        Type.FAIRY, Type.FIGHTING,
+                        new Stats(70,80,90,105,90,120),
+                        Ability.HUGE_POWER,
+                        9, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#742342","#ffffff","#f8a5c1")),
+                new MegaEvolution("geckone",
+                        Type.PSYCHIC, Type.DARK,
+                        new Stats(60,70,70,125,140,90),
+                        Ability.NEUROFORCE,
+                        8, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#515069","#fa879e","#9e6fd2")),
+                new MegaEvolution("rushot",
+                        Type.ELECTRIC,
+                        new Stats(65,133,65,141,130,65),
+                        Ability.GALVANIZE,
+                        15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#5ae8ef","#f1ff46","#5a5360")),
+                new MegaEvolution("dinopion",
+                        Type.FIGHTING,Type.DRAGON,
+                        new Stats(65,155,110,102,61,90),
+                        Ability.MOXIE,
+                        21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#d04228","#f3c72c","#585199")),
+                new MegaEvolution("raizodon",
+                        Type.ELECTRIC, Type.DRAGON,
+                        new Stats(95,165,100,85,90,80),
+                        Ability.SHEER_FORCE,
+                        21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#434658","#ffe320","#a7b4ab")),
+                new MegaEvolution("parabow",
+                        Type.NORMAL,Type.FLYING,
+                        new Stats(65, 104+33, 75, 113+34, 54, 75+33),
+                        Ability.SCRAPPY,
+                        13, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#e36562","#ffffff","#80c8fd")),
+                new MegaEvolution("skeledeep",
+                        Type.WATER,Type.GHOST,
+                        new Stats(70,115,145,105,40,105),
+                        Ability.REGENERATOR,
+                        13, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#2d2b3c","#e8dad3","#423f56")),
+                new MegaEvolution("monstune",
+                        Type.GROUND,Type.DARK,
+                        new Stats(90,90,75,75,138,125),
+                        Ability.SAND_RUSH,
+                        0, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#e1c6aa","#e4cd9c","#ebe0d3")),
+                new MegaEvolution("elestomp",
+                        Type.GROUND, Type.GHOST,
+                        new Stats(131,95,125,45,108,114),
+                        Ability.WANDERING_SPIRIT,
+                        17, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#626384","#f7f7f2","#bcb094")),
+                new MegaEvolution("leonite",
+                        Type.ROCK,
+                        new Stats(74,155,128,103,58,82),
+                        Ability.STRONG_JAW,
+                        18, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#5e697b","#bae6ea","#c4b59f")),
+                new MegaEvolution("cryodra",
+                        Type.ICE,Type.DRAGON,
+                        new Stats(90,60,90,95,145,160),
+                        Ability.MAGICBOUNCE,
+                        42, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#9991fb","#f6f6f6","#acf9f4")),
+                new MegaEvolution("nawale",
+                        Type.ICE,Type.WATER,
+                        new Stats(85,170,90,90,100,80),
+                        Ability.REFRIGERATE,
+                        39, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#a2f4f2","#ddeaff","#1f63d3")),
+                new MegaEvolution("aurorai",
+                        Type.ELECTRIC,Type.ICE,
+                        new Stats(60,59,75,125,139,125),
+                        Ability.TRANSISTOR,
+                        6, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
+                        .addPalette(new MegaStonePalette("#e88efb","#5bf4dd","#e88efb"))
+        );
+    }
+
+    private static List<MegaEvolution> getSoulstonesMegas() {
+        return List.of(
+                new MegaEvolution("abomasnow",
+                        Type.GRASS,
+                        new Stats(90, 102, 115, 70, 102, 115),
+                        Ability.REGENERATOR,
+                        26, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#223120", "#407e39", "#836429")),
+                new MegaEvolution("absol",
+                        Type.LIGHT,
+                        new Stats(65, 130, 90, 125, 75, 80),
+                        Ability.LIGHTAURA,
+                        14, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#48f5ed", "#ffffff", "#fffeb3")),
+                new MegaEvolution("absol",
+                        Type.PSYCHIC, Type.COSMIC,
+                        new Stats(65, 120, 105, 115, 45, 115),
+                        Ability.SNIPER,
+                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#565e9a", "#8ba8ad", "#9367ad")),
+                new MegaEvolution("aerodactyl",
+                        Type.DRAGON, Type.FLYING,
+                        new Stats(80, 135, 85, 150, 70, 95),
+                        Ability.MULTISCALE,
+                        21, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#d38250", "#ffffff", "#53986a")),
+                new MegaEvolution("aggron",
+                        Type.BUG, Type.ROCK,
+                        new Stats(80, 135, 160, 75, 65, 115),
+                        Ability.HIVEMIND,
+                        23, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#006256", "#0dff8c", "#0163d8")),
+                new MegaEvolution("altaria",
+                        Type.POISON, Type.DRAGON,
+                        new Stats(75, 60, 105, 95, 130, 125),
+                        Ability.LEVITATE,
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#c681c7", "#ffffff", "#f8e2b7")),
+                new MegaEvolution("altaria",
+                        Type.ELECTRIC, Type.FLYING,
+                        new Stats(75, 50, 100, 90, 135, 140),
+                        Ability.LIGHTNING_ROD,
+                        17, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#e2d762", "#c8faf5", "#5c5c5c")),
+                new MegaEvolution("ampharos",
+                        Type.FAIRY, Type.FLYING,
+                        new Stats(100, 65, 65, 135, 105, 140),
+                        Ability.DAZZLING,
+                        17, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#ffaeff", "#ffffff", "#ffced6")),
+                new MegaEvolution("arbok",
+                        Type.GROUND, Type.POISON,
+                        new Stats(55, 130, 89, 120, 85, 89),
+                        Ability.INTIMIDATE,
+                        19, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#8a66b9", "#a8a838", "#7f6859")),
+                new MegaEvolution("avalugg",
+                        Type.ROCK,
+                        new Stats(95, 137, 184, 28, 44, 126),
+                        Ability.SAND_STREAM,
+                        24, "soulstones", List.of(Label.GEN6, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#6a2600", "#4faa4f", "#a29989")),
+                new MegaEvolution("banette",
+                        Type.FAIRY, Type.DARK,
+                        new Stats(74, 130, 95, 90, 63, 103),
+                        Ability.PRANKSTER,
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#241e4a", "#dddbe7", "#9064cf")),
+                new MegaEvolution("barbaracle",
+                        Type.ROCK, Type.PSYCHIC,
+                        new Stats(105, 60, 80, 104, 155, 96),
+                        Ability.LEVITATE,
+                        17, "soulstones", List.of(Label.GEN6, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#866d46", "#c2c6d6", "#f29bad")),
+                new MegaEvolution("beartic",
+                        Type.NORMAL,
+                        new Stats(100, 140, 120, 90, 50, 105),
+                        Ability.FLUFFY,
+                        23, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#95582d", "#f2dc9a", "#f7f157")),
+                new MegaEvolution("beedrill",
+                        Type.BUG, Type.STEEL,
+                        new Stats(95, 35, 70, 120, 140, 105),
+                        Ability.TRACE,
+                        14, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#00c5ff", "#fcfefc", "#6af6ff")),
+                new MegaEvolution("beheeyem",
+                        Type.COSMIC, Type.DARK,
+                        new Stats(115, 90, 120, 65, 65, 130),
+                        Ability.GENIUS,
+                        22, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#881b11", "#00b0ff", "#42424d")),
+                new MegaEvolution("blastoise",
+                        Type.POISON, Type.STEEL,
+                        new Stats(84, 83, 130, 78, 120, 135),
+                        Ability.MEGA_LAUNCHER,
+                        17, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#484157", "#a9c732", "#b08ca2")),
+                new MegaEvolution("blaziken",
+                        Type.GROUND, Type.FLYING,
+                        new Stats(80, 130, 105, 140, 60, 115),
+                        Ability.SAND_VEIL,
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#e8996d", "#d4c99c", "#9c8b83")),
+                new MegaEvolution("blissey",
+                        Type.NORMAL, Type.STEEL,
+                        new Stats(105, 120, 140, 65, 75, 135),
+                        Ability.MOTOR_DRIVE,
+                        20, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4e4751", "#e20039", "#868d8e")),
+                new MegaEvolution("butterfree",
+                        Type.BUG, Type.FAIRY,
+                        new Stats(85, 50, 60, 105, 135, 115),
+                        Ability.DAZZLING,
+                        16, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#009ee7", "#ffcfde", "#17b58c")),
+                new MegaEvolution("cacturne",
+                        Type.FIRE, Type.DARK,
+                        new Stats(70, 50, 100, 115, 130, 110),
+                        Ability.SOLAR_POWER,
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#453e3e", "#e6c774", "#63433c")),
+                new MegaEvolution("centiskorch",
+                        Type.BUG, Type.POISON,
+                        new Stats(100, 135, 95, 125, 50, 120),
+                        Ability.LEECHINGFANGS,
+                        30, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#312039","#00e273", "#845a97")),
+                new MegaEvolution("chandelure",
+                        Type.LIGHT, Type.GHOST,
+                        new Stats(70, 65, 80, 130, 140, 135),
+                        Ability.LEVITATE,
+                        16, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#666666", "#fff8c6", "#dceded")),
+                new MegaEvolution("charizard",
+                        Type.GROUND, Type.DRAGON,
+                        new Stats(95, 122, 98, 130, 84, 105),
+                        Ability.IRREDEEMABLE,
+                        23, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#070707", "#d6d6d6", "#b97a57")),
+                new MegaEvolution("charizard",
+                        Type.BUG, Type.FLYING,
+                        new Stats(90, 125, 108, 127, 84, 100),
+                        Ability.GALE_WINGS,
+                        22, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#7d9865", "#fefefe", "#6cbea9")),
+                new MegaEvolution("chimecho",
+                        Type.ELECTRIC, Type.STEEL,
+                        new Stats(75, 50, 60, 115, 135, 120),
+                        Ability.LEVITATE,
+                        5, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#37947a", "#94ffe0", "#bcc3d1")),
+                new MegaEvolution("coalossal",
+                        Type.ROCK, Type.GROUND,
+                        new Stats(110, 120, 150, 30, 60, 140),
+                        Ability.IMPENETRABLE,
+                        23, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#54514c", "#8cc6ff", "#8b8b83")),
+                new MegaEvolution("cofagrigus",
+                        Type.SOUND, Type.GHOST,
+                        new Stats(58, 40, 145, 50, 145, 145),
+                        Ability.CHARISMA,
+                        18, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#7b0d1e", "#e8d88c", "#646464")),
+                new MegaEvolution("corviknight",
+                        Type.DARK, Type.ELECTRIC,
+                        new Stats(75, 120, 100, 120, 70, 100),
+                        Ability.LEVITATE,
+                        23, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#6bc9de", "#c8faf5", "#323232")),
+                new MegaEvolution("dodrio",
+                        Type.COSMIC, Type.FLYING,
+                        new Stats(80, 60, 60, 120, 140, 130),
+                        Ability.COMPETITIVE,
+                        19, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#373c45", "#343d65", "#422772")),
+                new MegaEvolution("donphan",
+                        Type.ICE, Type.GROUND,
+                        new Stats(90, 140, 130, 70, 40, 130),
+                        Ability.SHEER_FORCE,
+                        14, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#734a41", "#eef6f6", "#94735a")),
+                new MegaEvolution("dragapult",
+                        Type.STEEL, Type.FLYING,
+                        new Stats(115, 80, 110, 140, 135, 120),
+                        Ability.NO_GUARD,
+                        21, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#e54545", "#fcfcfc", "#9da09d")),
+                new MegaEvolution("dragonite",
+                        Type.LIGHT, Type.DRAGON,
+                        new Stats(91, 120, 115, 130, 120, 124),
+                        Ability.PUREHEART,
+                        24, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#ffc800", "#fffffe", "#ffe2b5")),
+                new MegaEvolution("drednaw",
+                        Type.ROCK, Type.STEEL,
+                        new Stats(90, 120, 120, 84, 43, 128),
+                        Ability.IMPENETRABLE,
+                        16, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#73553f", "#a2abb5", "#b07c4b")),
+                new MegaEvolution("dugtrio",
+                        Type.GHOST, Type.GROUND,
+                        new Stats(75, 130, 100, 130, 50, 120),
+                        Ability.WANDERING_SPIRIT,
+                        24, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#44454b", "#efefff", "#684e91")),
+                new MegaEvolution("electrode",
+                        Type.ICE,
+                        new Stats(60, 130, 90, 140, 50, 120),
+                        Ability.SHEER_FORCE,
+                        14, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#5a5963", "#ffffff", "#92c4d3")),
+                new MegaEvolution("emolga",
+                        Type.POISON, Type.FLYING,
+                        new Stats(65, 135, 75, 138, 40, 75),
+                        Ability.MOXIE,
+                        5, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#34365c", "#e4e5ec", "#9249d9")),
+                new MegaEvolution("empoleon",
+                        Type.WATER, Type.ICE,
+                        new Stats(84, 131, 118, 90, 86, 121),
+                        Ability.FILTER,
+                        18, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#333336", "#daecff", "#8cbbcc")),
+                new MegaEvolution("exploud",
+                        Type.ELECTRIC, Type.SOUND,
+                        new Stats(104, 66, 93, 108, 126, 93),
+                        Ability.PUNK_ROCK,
+                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#007c87", "#ffd065", "#454545")),
+                new MegaEvolution("falinks",
+                        Type.COSMIC,
+                        new Stats(85, 105, 90, 95, 105, 90),
+                        Ability.HADRON_ENGINE,
+                        16, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#3f48cc", "#ff1e27", "#c3c3c3")),
+                new MegaEvolution("froslass",
+                        Type.GHOST, Type.FLYING,
+                        new Stats(70, 65, 65, 120, 130, 130),
+                        Ability.SHADOW_TAG,
+                        17, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4a5166", "#fff5f5", "#cc2a21")),
+                new MegaEvolution("furret",
+                        Type.GHOST, Type.POISON,
+                        new Stats(75, 41, 54, 115, 135, 110),
+                        Ability.HAUNTED,
+                        16, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#3e376e", "#cfe8e4", "#68838a")),
+                new MegaEvolution("gallade",
+                        Type.DARK, Type.POISON,
+                        new Stats(108, 105, 110, 110, 85, 100),
+                        Ability.SHARPNESS,
+                        19, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#44454b", "#e2c1ee", "#684e91")),
+                new MegaEvolution("garbodor",
+                        Type.ELECTRIC, Type.POISON,
+                        new Stats(80, 60, 132, 60, 116, 132),
+                        Ability.NEUTRALIZING_GAS,
+                        26, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#584233", "#c8faf5", "#464646")),
+                new MegaEvolution("garchomp",
+                        Type.GHOST, Type.DRAGON,
+                        new Stats(108, 130, 115, 112, 110, 125),
+                        Ability.INFILTRATOR,
+                        21, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#6dc8ab", "#e7e7e7", "#424257")),
+                new MegaEvolution("gardevoir",
+                        Type.DARK, Type.POISON,
+                        new Stats(68, 65, 75, 120, 155, 135),
+                        Ability.IRREDEEMABLE,
+                        19, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#e2c1ee", "#efefff", "#65676b")),
+                new MegaEvolution("garganacl",
+                        Type.FAIRY,
+                        new Stats(130, 120, 115, 75, 45, 115),
+                        Ability.ARSONIST,
+                        26, "soulstones", List.of(Label.GEN9, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#f28a95", "#56e1d2", "#6b554c")),
+                new MegaEvolution("gengar",
+                        Type.ICE, Type.FLYING,
+                        new Stats(65, 65, 95, 130, 145, 100),
+                        Ability.ICE_BODY,
+                        16, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#dcab41", "#d6f7ff", "#4a668b")),
+                new MegaEvolution("gigalith",
+                        Type.ICE, Type.WATER,
+                        new Stats(95, 75, 120, 75, 140, 125),
+                        Ability.ICYVEINS,
+                        22, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#95baf5", "#d0e0ff", "#43bbff")),
+                new MegaEvolution("gigalith",
+                        Type.ICE,Type.WATER,
+                        new Stats(95,75,120,75,140,125),
+                        Ability.ICYVEINS,
+                        21, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#71c7ff", "#d0e0ff", "#4b7bb5")),
+                new MegaEvolution("gigalith",
+                        Type.ROCK, Type.ELECTRIC,
+                        new Stats(85, 70, 105, 105, 135, 130),
+                        Ability.EARTH_EATER,
+                        19, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#297b9c", "#9dffff", "#8a6d4a")),
+                new MegaEvolution("glalie",
+                        Type.GHOST, Type.DARK,
+                        new Stats(70, 140, 150, 120, 50, 50),
+                        Ability.STRONG_JAW,
+                        19, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#58585f", "#fff5f5", "#f7483a")),
+                new MegaEvolution("gliscor",
+                        Type.ROCK,Type.DRAGON,
+                        new Stats(95,135,125,75,45,135),
+                        Ability.NO_GUARD,
+                        21, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#414152", "#ffffff", "#757575")),
+                new MegaEvolution("golurk",
+                        Type.STEEL, Type.PSYCHIC,
+                        new Stats(94, 139, 115, 65, 75, 115),
+                        Ability.LEVITATE,
+                        29, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#3e2d58", "#cfffff", "#733a7a")),
+                new MegaEvolution("gothitelle",
+                        Type.FAIRY, Type.FIGHTING,
+                        new Stats(70, 135, 80, 135, 55, 115),
+                        Ability.ADAPTABILITY,
+                        21, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#454545", "#f0f0f0", "#ff3d3d")),
+                new MegaEvolution("gothitelle",
+                        Type.POISON, Type.SOUND,
+                        new Stats(70, 125, 105, 65, 125, 100),
+                        Ability.NOBILITY,
+                        18, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#424242", "#fff86f", "#1a4318")),
+                new MegaEvolution("grapploct",
+                        Type.WATER, Type.FIGHTING,
+                        new Stats(90, 118, 120, 70, 62, 120),
+                        Ability.CONTRARY,
+                        18, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#484b62", "#fd4f35", "#6b728d")),
+                new MegaEvolution("grimmsnarl",
+                        Type.FIRE, Type.DARK,
+                        new Stats(75, 120, 105, 110, 85, 115),
+                        Ability.DARK_AURA,
+                        19, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#4a4a52", "#f6c04c", "#af3f2f")),
+                new MegaEvolution("gyarados",
+                        Type.ELECTRIC, Type.DARK,
+                        new Stats(95, 155, 109, 81, 70, 130),
+                        Ability.LEVITATE,
+                        39, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#2e2e2e", "#eae7dc", "#e6de41")),
+                new MegaEvolution("hatterene",
+                        Type.PSYCHIC, Type.GHOST,
+                        new Stats(72, 65, 130, 64, 141, 138),
+                        Ability.REALISM,
+                        22, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#5a412f", "#256022", "#655c4e")),
+                new MegaEvolution("heracross",
+                        Type.BUG, Type.GROUND,
+                        new Stats(80, 135, 115, 115, 40, 115),
+                        Ability.WATER_ABSORB,
+                        15, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#5e4f45", "#eac034", "#5c5768")),
+                new MegaEvolution("hippowdon",
+                        Type.GRASS, Type.WATER,
+                        new Stats(138, 142, 148, 77, 48, 72),
+                        Ability.ROCK_HEAD,
+                        21, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#f4688b", "#8cf8ff", "#7cc77c")),
+                new MegaEvolution("houndoom",
+                        Type.FIRE, Type.LIGHT,
+                        new Stats(85, 110, 90, 105, 120, 90),
+                        Ability.SPEED_BOOST,
+                        17, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#a6ffff", "#fff6cc", "#e2dd9b")),
+                new MegaEvolution("infernape",
+                        Type.ELECTRIC, Type.FIGHTING,
+                        new Stats(106, 104, 91, 138, 104, 91),
+                        Ability.LEVITATE,
+                        15, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#494963", "#ffffff", "#ffdf36")),
+                new MegaEvolution("jumpluff",
+                        Type.BUG, Type.LIGHT,
+                        new Stats(85, 45, 90, 130, 105, 105),
+                        Ability.TINTED_LENS,
+                        12, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#ffee83", "#f1debc", "#c5ac8b")),
+                new MegaEvolution("kingdra",
+                        Type.BUG, Type.FLYING,
+                        new Stats(100, 85, 120, 110, 105, 120),
+                        Ability.MEGA_LAUNCHER,
+                        23, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#6bc9de", "#c8faf5", "#323232")),
+                new MegaEvolution("lopunny",
+                        Type.COSMIC, Type.ICE,
+                        new Stats(55, 116, 100, 115, 74, 120),
+                        Ability.DANCER,
+                        13, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#3f4a9a", "#e0e0e0", "#e1cd5e")),
+                new MegaEvolution("machamp",
+                        Type.GROUND, Type.FIGHTING,
+                        new Stats(110, 150, 110, 85, 55, 95),
+                        Ability.SNIPER,
+                        19, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#505050", "#c91641", "#d6c584")),
+                new MegaEvolution("mamoswine",
+                        Type.ELECTRIC, Type.GROUND,
+                        new Stats(120, 120, 135, 90, 55, 110),
+                        Ability.GALVANIZE,
+                        27, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#544459", "#b5c3b3", "#e8df05")),
+                new MegaEvolution("manectric",
+                        Type.GROUND, Type.GHOST,
+                        new Stats(70, 135, 65, 135, 55, 115),
+                        Ability.CURSED_BODY,
+                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#ff4a10", "#d6cac2", "#c59c4a")),
+                new MegaEvolution("masquerain",
+                        Type.GRASS, Type.FLYING,
+                        new Stats(70, 60, 82, 90, 130, 122),
+                        Ability.TRIAGE,
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#bd3939", "#b6cc6a", "#ff6a39")),
+                new MegaEvolution("medicham",
+                        Type.LIGHT, Type.FIGHTING,
+                        new Stats(60, 50, 115, 115, 85, 125),
+                        Ability.GENIUS,
+                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#37373f", "#ffffbf", "#da9b67")),
+                new MegaEvolution("metagross",
+                        Type.COSMIC, Type.PSYCHIC,
+                        new Stats(80, 140, 130, 70, 140, 140),
+                        Ability.WEAK_ARMOR,
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#0f0f0f", "#d40000", "#494a85")),
+                new MegaEvolution("minun",
+                        Type.ICE, Type.WATER,
+                        new Stats(65, 127, 112, 106, 64, 60),
+                        Ability.PACKEDSNOW,
+                        9, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#173f59", "#dbfffb", "#77e3e6")),
+                new MegaEvolution("mismagius",
+                        Type.LIGHT, Type.SOUND,
+                        new Stats(85, 35, 90, 115, 135, 135),
+                        Ability.DAZZLING,
+                        16, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#a1bfce", "#ffffff", "#ffee99")),
+                new MegaEvolution("ninetales",
+                        Type.COSMIC,
+                        new Stats(73, 76, 95, 115, 121, 125),
+                        Ability.CHARISMA,
+                        15, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#1a2239", "#d4d4d4", "#435a9b")),
+                new MegaEvolution("pidgeot",
+                        Type.ICE, Type.FLYING,
+                        new Stats(83, 60, 85, 131, 130, 90),
+                        Ability.REFRIGERATE,
+                        18, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#94c5ff", "#ffffff", "#9ce6f6")),
+                new MegaEvolution("plusle",
+                        Type.FLYING, Type.WATER,
+                        new Stats(56, 91, 61, 136, 119, 71),
+                        Ability.DELTA_STREAM,
+                        9, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#86989c", "#f6fcfa", "#77e3e6")),
+                new MegaEvolution("raichu",
+                        Type.SOUND, Type.STEEL,
+                        new Stats(60, 70, 85, 140, 130, 100),
+                        Ability.FILTER,
+                        17, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#7234ac", "#b5b5b5", "#ffeed5")),
+                new MegaEvolution("rapidash",
+                        Type.GHOST, Type.FIRE,
+                        new Stats(65, 140, 90, 145, 75, 95),
+                        Ability.SHEER_FORCE,
+                        19, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#907cef", "#bfbfbf", "#464646")),
+                new MegaEvolution("sableye",
+                        Type.FIRE, Type.DARK,
+                        new Stats(75, 140, 130, 60, 45, 130),
+                        Ability.MAGIC_GUARD,
+                        7, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#515151", "#d81840", "#644d4d")),
+                new MegaEvolution("sableye",
+                        Type.WATER, Type.BUG,
+                        new Stats(90, 130, 120, 70, 50, 120),
+                        Ability.SOUNDPROOF,
+                        7, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#ff5a5a", "#ffe6a4", "#6882b8")),
+                new MegaEvolution("salamence",
+                        Type.FIRE, Type.POISON,
+                        new Stats(105, 130, 105, 120, 130, 110),
+                        Ability.DRAGONSMAW,
+                        17, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#803b46", "#c6f030", "#67574e")),
+                new MegaEvolution("sandaconda",
+                        Type.WATER,
+                        new Stats(70, 125, 102, 81, 120, 112),
+                        Ability.MAELSTROM,
+                        19, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#ed1c24", "#ffffff", "#00a2e8")),
+                new MegaEvolution("sawsbuck",
+                        Type.NORMAL, Type.FIRE,
+                        new Stats(70, 140, 85, 145, 50, 85),
+                        Ability.RECKLESS,
+                        18, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4a1008", "#ff9c18", "#535353")),
+                new MegaEvolution("sceptile",
+                        Type.BUG, Type.DRAGON,
+                        new Stats(105, 130, 105, 130, 65, 105),
+                        Ability.TINTED_LENS,
+                        19, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#444748", "#3dfff2", "#a46ab4")),
+                new MegaEvolution("seismitoad",
+                        Type.GRASS, Type.POISON,
+                        new Stats(95, 100, 110, 70, 124, 110),
+                        Ability.PROTEAN,
+                        17, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#48512e", "#e63952", "#a3b96e")),
+                new MegaEvolution("sharpedo",
+                        Type.STEEL, Type.FLYING,
+                        new Stats(65, 100, 75, 145, 100, 75),
+                        Ability.AERILATE,
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4f9e98", "#00ffe5", "#73bd8c")),
+                new MegaEvolution("slowking",
+                        Type.NORMAL, Type.BUG,
+                        new Stats(95, 65, 110, 70, 130, 120),
+                        Ability.HIVEMIND,
+                        19, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#5c5c5c", "#ffffff", "#f8ea46")),
+                new MegaEvolution("starmie",
+                        Type.COSMIC, Type.ROCK,
+                        new Stats(75, 75, 100, 130, 130, 110),
+                        Ability.FILTER,
+                        14, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#311a5b", "#fce2ff", "#897cd3")),
+                new MegaEvolution("steelix",
+                        Type.ICE, Type.ROCK,
+                        new Stats(75, 135, 170, 80, 55, 95),
+                        Ability.SKILL_LINK,
+                        14, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4d70ae", "#d9e8f0", "#188290")),
+                new MegaEvolution("sudowoodo",
+                        Type.GROUND, Type.GRASS,
+                        new Stats(90, 40, 100, 100, 130, 130),
+                        Ability.ADAPTABILITY,
+                        15, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#494949", "#e66aa4", "#a4d573")),
+                new MegaEvolution("swampert",
+                        Type.COSMIC, Type.FIRE,
+                        new Stats(110, 70, 125, 80, 120, 130),
+                        Ability.COMETSTORM,
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#654b87", "#ffeda0", "#f43434")),
+                new MegaEvolution("swampert",
+                        Type.ROCK, Type.LIGHT,
+                        new Stats(120, 75, 100, 80, 140, 120),
+                        Ability.VITALITY,
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#cfb63a", "#fff6cc", "#6d4d3a")),
+                new MegaEvolution("tentacruel",
+                        Type.COSMIC, Type.WATER,
+                        new Stats(100, 40, 120, 80, 130, 145),
+                        Ability.ANALYTIC,
+                        24, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#7b4187", "#ddb1e2", "#719df1")),
+                new MegaEvolution("torterra",
+                        Type.DRAGON, Type.FIRE,
+                        new Stats(95, 129, 135, 56, 75, 135),
+                        Ability.STAMINA,
+                        26, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4a525a", "#ff9314", "#9d481e")),
+                new MegaEvolution("toxtricity",
+                        Type.GRASS, Type.FIGHTING,
+                        new Stats(95, 105, 110, 90, 92, 110),
+                        Ability.GORILLA_TACTICS,
+                        19, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#227742", "#c2cfd8", "#603f25")),
+                new MegaEvolution("tsareena",
+                        Type.LIGHT, Type.DARK,
+                        new Stats(92, 130, 118, 113, 45, 112),
+                        Ability.LIGHTAURA,
+                        21, "soulstones", List.of(Label.GEN7, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#c6bdd3", "#ffffff", "#ffe789")),
+                new MegaEvolution("tyranitar",
+                        Type.STEEL, Type.DRAGON,
+                        new Stats(120, 125, 144, 71, 115, 125),
+                        Ability.ANALYTIC,
+                        23, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#423a4a", "#b54252", "#949ca5")),
+                new MegaEvolution("ursaluna",
+                        Type.GHOST, Type.COSMIC,
+                        new Stats(95, 125, 105, 110, 85, 130),
+                        Ability.ETHEREAL,
+                        35, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#4c8588", "#ffa9ba", "#7ab8b0")),
+                new MegaEvolution("ursaluna",
+                        Type.ICE, Type.POISON,
+                        new Stats(105, 110, 125, 120, 65, 125),
+                        Ability.SHARPNESS,
+                        35, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#b3dbe0", "#def0df", "#cbf9ff")),
+                new MegaEvolution("venusaur",
+                        Type.ICE, Type.FAIRY,
+                        new Stats(80, 82, 118, 95, 130, 120),
+                        Ability.MAGIC_GUARD,
+                        27, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#bb86d0", "#e5f8fc", "#fbeaff")),
+                new MegaEvolution("vespiquen",
+                        Type.STEEL, Type.FIRE,
+                        new Stats(80, 30, 102, 120, 120, 122),
+                        Ability.LEVITATE,
+                        14, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#41414a", "#ff6800", "#d5deee")),
+                new MegaEvolution("whimsicott",
+                        Type.ELECTRIC, Type.GRASS,
+                        new Stats(75, 107, 90, 101, 107, 100),
+                        Ability.WIND_RIDER,
+                        11, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#417b41", "#d9d524", "#f7f9fb")),
+                new MegaEvolution("wigglytuff",
+                        Type.WATER, Type.NORMAL,
+                        new Stats(100, 50, 110, 80, 85, 110),
+                        Ability.WATER_BUBBLE,
+                        15, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#104a8b", "#c5fdff", "#73d8e6")),
+                new MegaEvolution("wobbuffet",
+                        Type.NORMAL, Type.DARK,
+                        new Stats(140, 33, 103, 33, 103, 93),
+                        Ability.REQUIEM,
+                        15, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#515151", "#ebe968", "#94a56b")),
+                new MegaEvolution("wyrdeer",
+                        Type.ELECTRIC,
+                        new Stats(93, 135, 92, 135, 70, 100),
+                        Ability.MOTOR_DRIVE,
+                        0, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        .addPalette(new MegaStonePalette("#545765", "#ccffff", "#ffcd37")),
+                new MegaEvolution("xatu",
+                        Type.STEEL, Type.ELECTRIC,
+                        new Stats(75, 95, 75, 120, 120, 110),
+                        Ability.NO_GUARD,
+                        19, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epoch")
+                        .addPalette(new MegaStonePalette("#323b40", "#f1f8fa", "#b6c1c5"))
+        );
+    }
+
+    private static List<MegaEvolution> getVanguardMegas() {
+        return List.of(
+                new MegaEvolution("venusaur",
+                        Type.DARK, Type.GROUND,
+                        new Stats(110, 127, 153, 65, 70, 110),
+                        Ability.SAND_SHROUD,
+                        24, "vanguard", List.of(Label.GEN1, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#d1704d", "#ffb405", "#82665c")),
+                new MegaEvolution("charizard",
+                        Type.FAIRY, Type.ROCK,
+                        new Stats(88, 107, 98, 70, 138, 134),
+                        Ability.SHEER_FORCE,
+                        24, "vanguard", List.of(Label.GEN1, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#e64c87", "#f7f4f6", "#baaacc")),
+                new MegaEvolution("blastoise",
+                        Type.FIGHTING, Type.STEEL,
+                        new Stats(79, 143, 160, 48, 95, 125),
+                        Ability.GOOD_AS_GOLD,
+                        19, "vanguard", List.of(Label.GEN1, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#994437", "#fcba21", "#454444")),
+                new MegaEvolution("fearow",
+                        Type.ICE, Type.DARK,
+                        new Stats(75, 115, 120, 120, 46, 71),
+                        Ability.SHARPNESS,
+                        15, "vanguard", List.of(Label.GEN1, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#bbede3", "#d4d5de", "#47495c")),
+                new MegaEvolution("aerodactyl",
+                        Type.GRASS, Type.ROCK,
+                        new Stats(80, 135, 145, 80, 70, 105),
+                        Ability.ROCK_HEAD,
+                        19, "vanguard", List.of(Label.GEN1, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#fa6a0a", "#1ea762", "#503d29")),
+                new MegaEvolution("absol",
+                        Type.GRASS, Type.FAIRY,
+                        new Stats(65, 140, 80, 95, 135, 80),
+                        Ability.CHLOROPHYLL,
+                        19, "vanguard", List.of(Label.GEN3, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#8a3a3e", "#16a794", "#604141")),
+                new MegaEvolution("altaria",
+                        Type.ELECTRIC, Type.DRAGON,
+                        new Stats(75, 155, 90, 80, 110, 105),
+                        Ability.SURGE_SURFER,
+                        16, "vanguard", List.of(Label.GEN3, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#eb7575", "#f0cb8b", "#605e7a")),
+                new MegaEvolution("flygon",
+                        Type.BUG, Type.POISON,
+                        new Stats(80, 80, 80, 110, 140, 120),
+                        Ability.DARKENED_SCALES,
+                        15, "vanguard", List.of(Label.GEN3, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#3c3147", "#f0edff", "#3ead97")),
+                new MegaEvolution("relicanth",
+                        Type.GROUND, Type.GHOST,
+                        new Stats(65, 40, 110, 65, 130, 175),
+                        Ability.SAND_RUSH,
+                        15, "vanguard", List.of(Label.GEN3, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#8c7f66", "#f7f5f2", "#d5cfe3")),
+                new MegaEvolution("gardevoir",
+                        Type.FLYING, Type.ELECTRIC,
+                        new Stats(72, 63, 140, 95, 108, 140),
+                        Ability.VACUUM_CORE,
+                        18, "vanguard", List.of(Label.GEN3, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#445365", "#ffb300", "#4a4a55")),
+                new MegaEvolution("gallade",
+                        Type.FLYING, Type.FAIRY,
+                        new Stats(85, 138, 110, 140, 63, 82),
+                        Ability.WIND_MAESTRO,
+                        18, "vanguard", List.of(Label.GEN4, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#445365", "#d1296f", "#4a4a55")),
+                new MegaEvolution("lucario",
+                        Type.ELECTRIC, Type.PSYCHIC,
+                        new Stats(60, 80, 70, 160, 145, 110),
+                        Ability.NO_GUARD,
+                        15, "vanguard", List.of(Label.GEN4, Label.VANGUARD), Aspect.AYREIAN)
+                        .addPalette(new MegaStonePalette("#533c50", "#ea602e", "#842e40")),
+                new MegaEvolution("morphias",
+                        Type.FAIRY, Type.PSYCHIC,
+                        new Stats(70, 100, 120, 130, 140, 120),
+                        Ability.TELEPATHY,
+                        18, "vanguard", List.of(Label.VANGUARD))
+                        .addPalette(new MegaStonePalette("#4d2f51", "#eeab58", "#994ea2"))
+        );
+    }
+
+    private static List<MegaEvolution> getXenoverseMegas() {
+        return List.of(
+                new MegaEvolution("bellossom",
+                        Type.GRASS, Type.FIRE,
+                        new Stats(155,
+                                80,
+                                85,
+                                100,
+                                110,
+                                50),
+                        Ability.FLASH_FIRE,
+                        7, "xenoverse", List.of(Label.GEN2, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#dc4d39", "#ffd662", "#add851")),
+                new MegaEvolution("weavile",
+                        Type.DARK, Type.ICE,
+                        new Stats(70,
+                                165,
+                                90,
+                                55,
+                                95,
+                                135),
+                        Ability.TECHNICIAN,
+                        12, "xenoverse", List.of(Label.GEN4, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#a43232", "#e4f6f7", "#626781")),
+                new MegaEvolution("arcanine",
+                        Type.FIRE, Type.FAIRY,
+                        new Stats(100,
+                                110,
+                                80,
+                                130,
+                                80,
+                                155),
+                        Ability.SOLAR_PROMINENCE,
+                        23, "xenoverse", List.of(Label.GEN1, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("fbaf60", "fffff9", "f893a5")),
+                new MegaEvolution("shiftry",
+                        Type.FLYING, Type.DARK,
+                        new Stats(120,
+                                100,
+                                80,
+                                160,
+                                80,
+                                40),
+                        Ability.PRANKSTER,
+                        15, "xenoverse", List.of(Label.GEN3, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#964331", "#ffffff", "#6ac572")),
+                new MegaEvolution("mienshao",
+                        Type.FIGHTING, Type.WATER,
+                        new Stats(65,
+                                155,
+                                90,
+                                95,
+                                90,
+                                115),
+                        Ability.RECKLESS,
+                        18, "xenoverse", List.of(Label.GEN5, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#b395cb", "#a0efe4", "#ebdde0")),
+                new MegaEvolution("raikou",
+                        Type.ELECTRIC,
+                        new Stats(90,
+                                105,
+                                95,
+                                135,
+                                120,
+                                135),
+                        Ability.TERAVOLT,
+                        25, "xenoverse", List.of(Label.GEN2, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#ff9200", "#ffffff", "#a8ebff"))
+                        .setDexEntry("The power of Mega Evolution has made Raikou even more solemn. Its mane rips through the air like lightning."),
+                new MegaEvolution("entei",
+                        Type.FIRE,
+                        new Stats(115,
+                                135,
+                                105,
+                                110,
+                                95,
+                                120),
+                        Ability.SHEER_FORCE,
+                        24, "xenoverse", List.of(Label.GEN2, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#363231", "#e16e36", "#863621"))
+                        .setDexEntry("The power of Mega Evolution has made Entei even more powerful. Its mane burns like an active volcano."),
+                new MegaEvolution("suicune",
+                        Type.WATER,
+                        new Stats(100,
+                                95,
+                                135,
+                                120,
+                                135,
+                                105),
+                        Ability.ICE_BODY,
+                        23, "xenoverse", List.of(Label.GEN2, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#c05be0", "#c6d1e2", "#71d2bb"))
+                        .setDexEntry("The power of Mega Evolution has made Suicune more majestic. Its mane glows with the colors of the Aurora Borealis."),
+                new MegaEvolution("luxray",
+                        Type.ELECTRIC,
+                        new Stats(80,
+                                175,
+                                85,
+                                75,
+                                85,
+                                123),
+                        Ability.STRONG_JAW,
+                        19, "xenoverse", List.of(Label.GEN4, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#49485b", "#fcdf5c", "#5fbeeb")),
+                new MegaEvolution("rampardos",
+                        Type.ROCK, Type.GROUND,
+                        new Stats(118,
+                                205,
+                                100,
+                                70,
+                                48,
+                                55),
+                        Ability.SOLID_ROCK,
+                        22, "xenoverse", List.of(Label.GEN4, Label.XENOVERSE))
+                        .addPalette(new MegaStonePalette("#2b2520", "#679ffb", "#868686"))
+        );
+    }
+
+    private static List<MegaEvolution> getPhoenixRisingMegas() {
+        return List.of(
+                new MegaEvolution("lilligant",
+                        Type.GRASS, Type.FLYING,
+                        new Stats(70,
+                                60,
+                                75 + 10,
+                                110 + 34,
+                                75 + 20,
+                                90 + 31),
+                        Ability.FRIEND_GUARD,
+                        14, "phoenixrising", List.of(Label.GEN5, Label.PHOENIX_RISING))
+                        .addPalette(new MegaStonePalette("#ee7317", "#fee741", "#1dd334")),
+                new MegaEvolution("arcanine",
+                        Type.FIRE, Type.DRAGON,
+                        new Stats(90,
+                                110 + 35,
+                                80 + 15,
+                                100 + 10,
+                                80 + 5,
+                                95 + 35),
+                        Ability.DRAGONSMAW,
+                        21, "phoenixrising", List.of(Label.GEN1, Label.PHOENIX_RISING))
+                        .addPalette(new MegaStonePalette("#1e4e83", "#ffdeac", "#ee7331")),
+                new MegaEvolution("starmie",
+                        Type.WATER, Type.COSMIC,
+                        new Stats(60,
+                                75,
+                                85,
+                                100 + 55,
+                                85 + 15,
+                                115 + 30),
+                        Ability.MAGIC_BOUNCE,
+                        15, "phoenixrising", List.of(Label.GEN1, Label.PHOENIX_RISING))
+                        .addPalette(new MegaStonePalette("#b48bd5", "#60d5a4", "#014779"))
+        );
     }
 
     private static List<MegaEvolution> getOpaloMegas() {
@@ -45,44 +1069,44 @@ public class MegaRegistry {
     private static List<MegaEvolution> getDaybreakMegas() {
         return List.of(
                 new MegaEvolution("sceptile",
-                Type.POISON, Type.DARK,
-                new Stats(70,145,75,110,85,145),
-                Ability.ELECTRIC_SURGE,
-                19, "daybreak", List.of(Label.GEN3, Label.DAYBREAK), Aspect.ARMIRAN)
-                .addPalette(new MegaStonePalette("#2b2729", "#dd2b43", "#7960b1")),
+                        Type.POISON, Type.DARK,
+                        new Stats(70, 145, 75, 110, 85, 145),
+                        Ability.ELECTRIC_SURGE,
+                        19, "daybreak", List.of(Label.GEN3, Label.DAYBREAK), Aspect.ARMIRAN)
+                        .addPalette(new MegaStonePalette("#2b2729", "#dd2b43", "#7960b1")),
                 new MegaEvolution("milotic",
-                Type.WATER, Type.FAIRY,
-                new Stats(95,
-                        60,
-                        109,
-                        125,
-                        150,
-                        101),
-                Ability.MAGIC_BOUNCE,
-                25, "daybreak", List.of(Label.GEN3, Label.DAYBREAK), null)
-                .addPalette(new MegaStonePalette("#f8b0bc", "#fcfa9c", "#89d6fe")),
+                        Type.WATER, Type.FAIRY,
+                        new Stats(95,
+                                60,
+                                109,
+                                125,
+                                150,
+                                101),
+                        Ability.MAGIC_BOUNCE,
+                        25, "daybreak", List.of(Label.GEN3, Label.DAYBREAK))
+                        .addPalette(new MegaStonePalette("#f8b0bc", "#fcfa9c", "#89d6fe")),
                 new MegaEvolution("tyranitar",
-                Type.FIRE, Type.ROCK,
-                new Stats(100,
-                        95,
-                        130,
-                        155,
-                        140,
-                        80),
-                Ability.DROUGHT,
-                23, "daybreak", List.of(Label.GEN2, Label.DAYBREAK), Aspect.ARMIRAN)
-                .addPalette(new MegaStonePalette("#fe0b00", "#fd9f19", "#883c2d")),
+                        Type.FIRE, Type.ROCK,
+                        new Stats(100,
+                                95,
+                                130,
+                                155,
+                                140,
+                                80),
+                        Ability.DROUGHT,
+                        23, "daybreak", List.of(Label.GEN2, Label.DAYBREAK), Aspect.ARMIRAN)
+                        .addPalette(new MegaStonePalette("#fe0b00", "#fd9f19", "#883c2d")),
                 new MegaEvolution("garchomp",
-                Type.DRAGON, Type.FAIRY,
-                new Stats(108,
-                        150,
-                        100,
-                        150,
-                        110,
-                        92),
-                Ability.GOOEY,
-                22, "daybreak", List.of(Label.GEN4, Label.DAYBREAK), Aspect.ARMIRAN)
-                .addPalette(new MegaStonePalette("#efbe40", "#ce4f67", "#f99fb2")),
+                        Type.DRAGON, Type.FAIRY,
+                        new Stats(108,
+                                150,
+                                100,
+                                150,
+                                110,
+                                92),
+                        Ability.GOOEY,
+                        22, "daybreak", List.of(Label.GEN4, Label.DAYBREAK), Aspect.ARMIRAN)
+                        .addPalette(new MegaStonePalette("#efbe40", "#ce4f67", "#f99fb2")),
                 new MegaEvolution("heliolisk",
                         Type.ELECTRIC, Type.FIRE,
                         new Stats(62,
@@ -92,9 +1116,9 @@ public class MegaRegistry {
                                 124,
                                 139),
                         Ability.CHLOROPHYLL,
-                        15, "daybreak", List.of(Label.GEN6, Label.DAYBREAK), null)
+                        15, "daybreak", List.of(Label.GEN6, Label.DAYBREAK))
                         .addPalette(new MegaStonePalette("#efdb6c", "#e39053", "#60605f"))
-                );
+        );
     }
 
     private static List<MegaEvolution> getInsurgenceMegas() {
@@ -108,7 +1132,7 @@ public class MegaRegistry {
                                 105,
                                 70),
                         Ability.NO_GUARD,
-                        14, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), null)
+                        14, "insurgence", List.of(Label.GEN1, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#4f4747", "#ffffff", "#305aa3")),
                 new MegaEvolution("marowak",
                         Type.GROUND, Type.GHOST,
@@ -119,7 +1143,7 @@ public class MegaRegistry {
                                 100,
                                 60),
                         Ability.PARENTAL_BOND,
-                        13, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), null)
+                        13, "insurgence", List.of(Label.GEN1, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ffffff", "#bd94b4", "#c59c4a")),
                 new MegaEvolution("eevee",
                         Type.NORMAL,
@@ -130,7 +1154,7 @@ public class MegaRegistry {
                                 83,
                                 83),
                         Ability.PROTEAN_MAXIMA,
-                        6, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), null)
+                        6, "insurgence", List.of(Label.GEN1, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#d59435", "#ffd203", "#ffe6ac")),
                 new MegaEvolution("mewtwo",
                         Type.PSYCHIC, Type.FIGHTING,
@@ -152,7 +1176,7 @@ public class MegaRegistry {
                                 140,
                                 100),
                         Ability.MAGIC_BOUNCE,
-                        20, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        20, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ff395a", "#ffde20", "#9ce652")),
                 new MegaEvolution("typhlosion",
                         Type.FIRE,
@@ -163,7 +1187,7 @@ public class MegaRegistry {
                                 110,
                                 110),
                         Ability.HUBRIS,
-                        19, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        19, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#353343", "#ffde00", "#ff6200")),
                 new MegaEvolution("feraligatr",
                         Type.WATER,
@@ -174,7 +1198,7 @@ public class MegaRegistry {
                                 103,
                                 103),
                         Ability.TOUGH_CLAWS,
-                        25, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        25, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#f6525a", "#f9d874", "#00c4ff")),
                 new MegaEvolution("sudowoodo",
                         Type.ROCK, Type.GRASS,
@@ -185,7 +1209,7 @@ public class MegaRegistry {
                                 95,
                                 20),
                         Ability.ANALYTIC,
-                        14, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        14, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#4ac541", "#00c4ff", "#c4a44c")),
                 new MegaEvolution("politoed",
                         Type.WATER,
@@ -196,7 +1220,7 @@ public class MegaRegistry {
                                 140,
                                 80),
                         Ability.DRIZZLE,
-                        17, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        17, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#9cee31", "#ffe652", "#60667c")),
                 new MegaEvolution("sunflora",
                         Type.GRASS,
@@ -207,7 +1231,7 @@ public class MegaRegistry {
                                 105,
                                 45),
                         Ability.UNLEAFED,
-                        8, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        8, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#5b4a3b", "#f8f010", "#b3ed70")),
                 new MegaEvolution("girafarig",
                         Type.NORMAL, Type.PSYCHIC,
@@ -218,7 +1242,7 @@ public class MegaRegistry {
                                 95,
                                 85),
                         Ability.SPECTRAL_JAWS,
-                        17, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        17, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#272727", "#f8f8f8", "#e8d850")),
                 new MegaEvolution("steelix",
                         Type.STEEL, Type.FIRE,
@@ -229,7 +1253,7 @@ public class MegaRegistry {
                                 55,
                                 55),
                         Ability.FOUNDRY,
-                        56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ca460c", "#ffc500", "#51473e"))
                         .setMegaName("mega_fire"),
                 new MegaEvolution("magcargo",
@@ -241,7 +1265,7 @@ public class MegaRegistry {
                                 100,
                                 50),
                         Ability.VAPORIZATION,
-                        10, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        10, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#838383", "#ffc500", "#ff834a")),
                 new MegaEvolution("miltank",
                         Type.NORMAL,
@@ -252,7 +1276,7 @@ public class MegaRegistry {
                                 115,
                                 70),
                         Ability.PENDULUM,
-                        13, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), null)
+                        13, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#5a5a63", "#ffffff", "#f7b5a5")),
                 new MegaEvolution("shiftry",
                         Type.GRASS, Type.DARK,
@@ -263,7 +1287,7 @@ public class MegaRegistry {
                                 60,
                                 100),
                         Ability.SHADOW_DANCE,
-                        14, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        14, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#357187", "#ffffff", "#9c6b4a")),
                 new MegaEvolution("flygon",
                         Type.BUG, Type.DRAGON,
@@ -274,7 +1298,7 @@ public class MegaRegistry {
                                 104,
                                 100),
                         Ability.AMPLIFIER,
-                        24, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        24, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#b4de73", "#de6273", "#4f9159")),
                 new MegaEvolution("cacturne",
                         Type.GRASS, Type.DARK,
@@ -285,7 +1309,7 @@ public class MegaRegistry {
                                 70,
                                 75),
                         Ability.SAND_RUSH,
-                        14, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        14, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#394032", "#866b3d", "#578e37")),
                 new MegaEvolution("crawdaunt",
                         Type.WATER, Type.DARK,
@@ -296,7 +1320,7 @@ public class MegaRegistry {
                                 85,
                                 80),
                         Ability.ADAPTABILITY,
-                        13, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        13, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ffe65a", "#529cf6", "#e54100")),
                 new MegaEvolution("milotic",
                         Type.WATER, Type.FAIRY,
@@ -307,7 +1331,7 @@ public class MegaRegistry {
                                 155,
                                 81),
                         Ability.PRISM_GUARD,
-                        25, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        25, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ee6a7b", "#84ceef", "#ffdea4")),
                 new MegaEvolution("jirachi",
                         Type.STEEL, Type.PSYCHIC,
@@ -318,7 +1342,7 @@ public class MegaRegistry {
                                 115,
                                 115),
                         Ability.PERIODIC_ORBIT,
-                        5, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), null)
+                        5, "insurgence", List.of(Label.GEN3, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ffe65a", "#e6eef6", "#74d0f2")),
                 new MegaEvolution("chatot",
                         Type.SOUND, Type.FLYING,
@@ -329,7 +1353,7 @@ public class MegaRegistry {
                                 52,
                                 116),
                         Ability.AMPLIFIER,
-                        6, "insurgence", List.of(Label.GEN4, Label.INSURGENCE), null)
+                        6, "insurgence", List.of(Label.GEN4, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#3a7bd6", "#ffffff", "#339233")),
                 new MegaEvolution("spiritomb",
                         Type.GHOST, Type.DARK,
@@ -340,7 +1364,7 @@ public class MegaRegistry {
                                 112,
                                 20),
                         Ability.TOUGH_CLAWS,
-                        12, "insurgence", List.of(Label.GEN4, Label.INSURGENCE), null)
+                        12, "insurgence", List.of(Label.GEN4, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#62b441", "#ffde10", "#a0508c")),
                 new MegaEvolution("froslass",
                         Type.ICE, Type.GHOST,
@@ -351,7 +1375,7 @@ public class MegaRegistry {
                                 105,
                                 120),
                         Ability.FUR_COAT,
-                        19, "insurgence", List.of(Label.GEN4, Label.INSURGENCE), null)
+                        19, "insurgence", List.of(Label.GEN4, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#d62619", "#ffffff", "73b5d6")),
                 new MegaEvolution("zebstrika",
                         Type.ELECTRIC, Type.FAIRY,
@@ -362,7 +1386,7 @@ public class MegaRegistry {
                                 83,
                                 141),
                         Ability.COMPETITIVE,
-                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ffe700", "#ffffff", "#394242")),
                 new MegaEvolution("zoroark",
                         Type.DARK,
@@ -373,7 +1397,7 @@ public class MegaRegistry {
                                 90,
                                 125),
                         Ability.TRACE,
-                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#87002b", "#e8f2f2", "#30283f")),
                 new MegaEvolution("gothitelle",
                         Type.PSYCHIC, Type.DARK,
@@ -384,7 +1408,7 @@ public class MegaRegistry {
                                 150,
                                 65),
                         Ability.ETHEREAL_SHROUD,
-                        17, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        17, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#525252", "#ffffff", "#5a4b6c")),
                 new MegaEvolution("reuniclus",
                         Type.PSYCHIC,
@@ -395,7 +1419,7 @@ public class MegaRegistry {
                                 90,
                                 80),
                         Ability.SPEED_SWAP,
-                        16, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        16, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#d5eec5", "#c55252", "#5ab47b")),
                 new MegaEvolution("cryogonal",
                         Type.ICE,
@@ -406,7 +1430,7 @@ public class MegaRegistry {
                                 150,
                                 135),
                         Ability.SLEET,
-                        14, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        14, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#426bf7", "#c4d7ff", "#29315a")),
                 new MegaEvolution("haxorus",
                         Type.DRAGON, Type.STEEL,
@@ -417,7 +1441,7 @@ public class MegaRegistry {
                                 90,
                                 82),
                         Ability.WEAK_ARMOR,
-                        23, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        23, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#4a8b4a", "#c50000", "#3e3e4b")),
                 new MegaEvolution("stunfisk",
                         Type.GROUND, Type.ELECTRIC,
@@ -428,7 +1452,7 @@ public class MegaRegistry {
                                 134,
                                 57),
                         Ability.ATHENIAN,
-                        16, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        16, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#4f3d37", "#ba7a60", "#ba7a60")),
                 new MegaEvolution("bisharp",
                         Type.DARK, Type.STEEL,
@@ -439,7 +1463,7 @@ public class MegaRegistry {
                                 85,
                                 105),
                         Ability.MOXIE,
-                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        18, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#626273", "#f1c335", "#c53131")),
                 new MegaEvolution("hydreigon",
                         Type.DARK, Type.DRAGON,
@@ -450,11 +1474,11 @@ public class MegaRegistry {
                                 105,
                                 98),
                         Ability.LERNEAN,
-                        24, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), null)
+                        24, "insurgence", List.of(Label.GEN5, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#5a83cd", "#bd527b", "#525252")),
                 new MegaEvolution("venusaur",
                         Type.FAIRY, Type.PSYCHIC,
-                        new Stats(80,100,123,122,120,80),
+                        new Stats(80, 100, 123, 122, 120, 80),
                         Ability.HUBRIS,
                         25, "insurgence", List.of(Label.GEN1, Label.INSURGENCE), Aspect.DELTA)
                         .addPalette(new MegaStonePalette("#e33090", "#08855d", "#6d32ad")),
@@ -487,7 +1511,7 @@ public class MegaRegistry {
                         21, "insurgence", List.of(Label.GEN5, Label.INSURGENCE), Aspect.DELTA)
                         .addPalette(new MegaStonePalette("#37b773", "#42dddd", "#ace2b6")),
                 new MegaEvolution("gardevoir",
-                        Type.ELECTRIC, Type.ICE ,
+                        Type.ELECTRIC, Type.ICE,
                         new Stats(68,
                                 85,
                                 65,
@@ -498,7 +1522,7 @@ public class MegaRegistry {
                         18, "insurgence", List.of(Label.GEN3, Label.INSURGENCE), Aspect.DELTA)
                         .addPalette(new MegaStonePalette("#44e7ff", "#ffcc00", "#c0c8d8")),
                 new MegaEvolution("gallade",
-                        Type.ELECTRIC, Type.ICE ,
+                        Type.ELECTRIC, Type.ICE,
                         new Stats(68,
                                 165,
                                 95,
@@ -561,7 +1585,7 @@ public class MegaRegistry {
                                 110,
                                 110),
                         Ability.SUPERCELL,
-                        18, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), Aspect.DELTA_INACTIVE)
+                        18, "insurgence", List.of(Label.GEN2, Label.INSURGENCE), Aspect.DELTA)
                         .addPalette(new MegaStonePalette("#828bf3", "#f5fcfd", "#ab9085"))
                         .setMegaStoneName("delta typhlosionite"),
                 new MegaEvolution("typhlosion",

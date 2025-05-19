@@ -23,7 +23,7 @@ public class EpochVanilliteOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its body can get so hot that sometimes, simple water is rendered ineffective against it and will just evaporate on contact."),
-                List.of(new EvolutionEntry("epochtwo vanillish", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwovanillish", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

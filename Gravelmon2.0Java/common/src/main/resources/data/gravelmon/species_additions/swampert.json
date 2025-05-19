@@ -590,12 +590,68 @@
         "height": 8.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "secondaryType": "fire",
+      "baseScale": 0.5793103448275863,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 70,
+        "defence": 125,
+        "special_attack": 80,
+        "special_defence": 120,
+        "speed": 130
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "rock",
+      "secondaryType": "light",
+      "baseScale": 0.63,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 75,
+        "defence": 100,
+        "special_attack": 80,
+        "special_defence": 140,
+        "speed": 120
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
     "ayreian",
-    "mystic"
+    "mystic",
+    "epoch_mega",
+    "epochone_mega"
   ]
 }

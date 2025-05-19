@@ -12,12 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -51,6 +53,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_mudbray-01",
+      "pokemon": "mudbray epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
           ]
         }
       }

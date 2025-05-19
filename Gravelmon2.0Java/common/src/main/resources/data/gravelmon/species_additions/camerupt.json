@@ -774,7 +774,8 @@
       "name": "delta_mega",
       "primaryType": "nuclear",
       "baseScale": 0.3493670886075949,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -789,9 +790,6 @@
       "labels": [
         "gen3",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 23,
       "aspects": [

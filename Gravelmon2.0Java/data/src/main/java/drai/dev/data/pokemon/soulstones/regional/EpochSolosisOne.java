@@ -23,7 +23,7 @@ public class EpochSolosisOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("They are small parasites from interstellar space. They lie in wait underground until they can evolve."),
-                List.of(new EvolutionEntry("epochtwo duosion", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoduosion", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,18),

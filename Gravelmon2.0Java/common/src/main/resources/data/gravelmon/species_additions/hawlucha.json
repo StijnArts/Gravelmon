@@ -109,9 +109,174 @@
         "height": 4.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "dark",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.27042253521126763,
+      "cannotDynamax": false,
+      "abilities": [
+        "powerofalchemy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 78,
+        "attack": 94,
+        "defence": 70,
+        "special_attack": 98,
+        "special_defence": 92,
+        "speed": 68
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "38:spiritshackle",
+        "32:poisonjab",
+        "38:shadowball",
+        "47:spectralthief",
+        "4:haunt",
+        "56:topsyturvy",
+        "29:lashout",
+        "20:shadowclaw",
+        "44:nastyplot",
+        "1:curse",
+        "47:foulplay",
+        "59:possession",
+        "23:flatter",
+        "41:sludgebomb",
+        "23:swagger",
+        "14:sludge",
+        "tm:acidrain",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:expandingforce",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:meanlook",
+        "egg:entrainment",
+        "egg:feint",
+        "egg:hex",
+        "egg:taunt",
+        "egg:torment",
+        "egg:corrode",
+        "egg:powertrip",
+        "egg:punishment",
+        "egg:trick",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochhawlucha.desc"
+      ],
+      "height": 8,
+      "weight": 215,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.4375,
+        "height": 4.4375,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "vesitan"
+    "vesitan",
+    "epoch"
   ]
 }

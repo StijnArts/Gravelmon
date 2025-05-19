@@ -23,7 +23,7 @@ public class EpochSurskitOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It masks itself as a seed of a larger fruit but it is actually a scavenger that likes to eat a lot of that fruit."),
-                List.of(new EvolutionEntry("epochtwo masquerain", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomasquerain", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,4),

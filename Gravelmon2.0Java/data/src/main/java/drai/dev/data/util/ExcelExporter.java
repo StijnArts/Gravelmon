@@ -47,7 +47,7 @@ public class ExcelExporter {
                         key = pokemon.getAdditionalFormKey();
                     }
                     if (GravelmonMegas.MEGA_EVOLUTIONS.containsKey(key)) {
-                        List<MegaEvolution> megas = GravelmonMegas.MEGA_EVOLUTIONS.get(key).stream().filter(mega -> mega.getAspect() == pokemon.getAdditionalAspect()).toList();
+                        List<MegaEvolution> megas = GravelmonMegas.MEGA_EVOLUTIONS.get(key).stream().filter(mega -> mega.getAspect().replaceAll("_", "").equalsIgnoreCase(pokemon.getAdditionalAspect().getName())).toList();
                         pokemonAndMegas.addAll(megas);
                     }
                 });
@@ -110,8 +110,7 @@ public class ExcelExporter {
             }
             createNextCell(row, cellCount).setCellValue(isMega? asMega.getNonMegaCleanName() : worldRepresentablePokemon.getCleanName());
             createNextCell(row, cellCount).setCellValue(isMega?
-                    (asMega.getAspect() == null ? asMega.getMegaName() :  asMega.getAspect().getName() + " " + asMega.getMegaName()) :
-                    (asPokemon.getAdditionalAspect() == null ? "" : asPokemon.getAdditionalAspect().getName()));
+                    (asMega.getAspect() == null ? asMega.getMegaName() :  asMega.getAspect().toLowerCase().replaceAll("_", "") + " " + asMega.getMegaName()) :                    (asPokemon.getAdditionalAspect() == null ? "" : asPokemon.getAdditionalAspect().getName()));
 
             //Image
             var imageCell = createNextCell(row, cellCount);

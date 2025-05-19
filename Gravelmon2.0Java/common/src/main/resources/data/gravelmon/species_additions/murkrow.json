@@ -338,9 +338,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmurkrowone_epochtwo_honchkrow",
+          "id": "epochmurkrowone_epochtwohonchkrow",
           "variant": "item_interact",
-          "result": "epochtwo honchkrow",
+          "result": "epochtwohonchkrow",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

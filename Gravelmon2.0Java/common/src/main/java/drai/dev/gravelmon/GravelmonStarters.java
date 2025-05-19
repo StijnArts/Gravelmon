@@ -122,12 +122,28 @@ public class GravelmonStarters {
                                 "Mudkip mystic=true level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter("Hoenn",
+                createCategory("Epoch - Hoenn",
+                        List.of(
+                                "Treecko epoch=true level=10",
+                                "Torchic epoch=true level=10",
+                                "Mudkip epoch=true level=10"
+                        )
+                ));
         GravelmonStarterManager.registerNewStarter("Sinnoh",
                 createCategory("Epoch - Sinnoh",
                         List.of(
                                 "Turtwig epoch=true level=10",
                                 "Chimchar epoch=true level=10",
                                 "Piplup epoch=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Unova",
+                createCategory("Epoch - Unova",
+                        List.of(
+                                "Snivy epoch=true level=10",
+                                "Tepig epoch=true level=10",
+                                "Oshawott epoch=true level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter("Kalos",
@@ -152,6 +168,22 @@ public class GravelmonStarters {
                                 "rowlet epoch=true level=10",
                                 "litten epoch=true level=10",
                                 "popplio epoch=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Galar",
+                createCategory("Epoch - Galar",
+                        List.of(
+                                "grookey epoch=true level=10",
+                                "scorbunny epoch=true level=10",
+                                "sobble epoch=true level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter("Paldea",
+                createCategory("Epoch - Paldea",
+                        List.of(
+                                "sprigatito epoch=true level=10",
+                                "fuecoco epoch=true level=10",
+                                "quaxly epoch=true level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,

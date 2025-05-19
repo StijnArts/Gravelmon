@@ -64,6 +64,14 @@ public class PokemonSpawnData {
         return biomeSpawnCondition;
     }
 
+    public BiomeSpawnCondition getAntiBiomeSpawnCondition(){
+        var biomeSpawnConditionOptional = spawnAntiConditions.stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES).findFirst();
+        if(biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
+        var biomeSpawnCondition = new BiomeSpawnCondition(new ArrayList<>());
+        spawnConditions.add(biomeSpawnCondition);
+        return biomeSpawnCondition;
+    }
+
     private <T> String listToString(List<T> list) {
         return list.isEmpty() ? "[]" : "[" + String.join(", ", list.stream().map(Object::toString).toList()) + "]";
     }

@@ -400,11 +400,38 @@
         "height": 5.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "electric",
+      "baseScale": 0.10549450549450551,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "motordrive"
+      ],
+      "baseStats": {
+        "hp": 93,
+        "attack": 135,
+        "defence": 92,
+        "special_attack": 135,
+        "special_defence": 70,
+        "speed": 100
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 0,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
     "fabelian",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "epochone_mega"
   ]
 }

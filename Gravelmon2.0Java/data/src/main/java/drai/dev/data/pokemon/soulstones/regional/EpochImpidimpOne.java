@@ -23,7 +23,7 @@ public class EpochImpidimpOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("It is rumoured to have spawned in the fires of the underworld and has somehow made its way to the mortal plane."),
-                List.of(new EvolutionEntry("epochtwo morgrem", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomorgrem", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,16),

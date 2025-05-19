@@ -429,7 +429,8 @@
       "name": "mega",
       "primaryType": "fire",
       "baseScale": 0.15,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -444,9 +445,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 10,
       "aspects": [

@@ -981,7 +981,8 @@
       "primaryType": "dark",
       "secondaryType": "ground",
       "baseScale": 0.23661971830985915,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "defiant"
       ],
@@ -997,12 +998,36 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 14,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "electric",
+      "secondaryType": "psychic",
+      "baseScale": 18.0,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "noguard"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 70,
+        "special_attack": 160,
+        "special_defence": 145,
+        "speed": 110
+      },
+      "labels": [
+        "gen4",
+        "vanguard"
+      ],
+      "height": 15,
+      "aspects": [
+        "ayreian_mega"
       ]
     }
   ],
@@ -1013,6 +1038,7 @@
     "ayreian",
     "mystic",
     "ishirian",
-    "delta_mega"
+    "delta_mega",
+    "ayreian_mega"
   ]
 }

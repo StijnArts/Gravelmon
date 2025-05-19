@@ -23,7 +23,7 @@ public class EpochSteeneeOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("Its spikes can be launched like projectiles and are often used to break down obstacles or tree branches that have fruits."),
-                List.of(new EvolutionEntry("epochtwo tsareena", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwotsareena", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_sludge")),
                 List.of(
                         new MoveLearnSetEntry(Move.STRAFE,8),

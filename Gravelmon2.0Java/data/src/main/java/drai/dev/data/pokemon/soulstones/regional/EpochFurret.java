@@ -16,7 +16,7 @@ public class EpochFurret extends drai.dev.data.pokemon.Pokemon {
                         95,
                         80),
                 List.of(Ability.MUMMY,Ability.INNARDS_OUT), Ability.CORROSION,
-                18, 325,
+                14, 325,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,

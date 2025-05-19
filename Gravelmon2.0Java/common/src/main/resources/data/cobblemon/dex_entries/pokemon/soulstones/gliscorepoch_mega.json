@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gliscorepoch_mega",
+  "speciesId": "cobblemon:gliscor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -465,11 +465,180 @@
         "height": 4.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.23076923076923078,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "h:prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 35,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 70,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "7:firespin",
+        "18:drainingkiss",
+        "42:hypervoice",
+        "56:fireblast",
+        "36:fierydance",
+        "15:incinerate",
+        "24:mysticalfire",
+        "33:healpulse",
+        "48:flamethrower",
+        "1:ember",
+        "4:fairywind",
+        "21:perishsong",
+        "27:mistball",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "egg:healingwish",
+        "egg:memento",
+        "egg:ominouswind",
+        "egg:sunnyday",
+        "egg:haunt",
+        "egg:flameburst",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpetilil.desc"
+      ],
+      "height": 5,
+      "weight": 66,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochpetilil_lilligant_epoch",
+          "variant": "item_interact",
+          "result": "lilligant epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:fire_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "deltawater",
     "deltafairy",
-    "cefiran"
+    "cefiran",
+    "epoch"
   ]
 }

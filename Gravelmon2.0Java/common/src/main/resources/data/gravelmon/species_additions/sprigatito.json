@@ -155,9 +155,184 @@
         "height": 2.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "secondaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18823529411764706,
+      "cannotDynamax": false,
+      "abilities": [
+        "trace"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 45,
+        "defence": 45,
+        "special_attack": 65,
+        "special_defence": 61,
+        "speed": 54
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "31:eeriespell",
+        "37:darkpulse",
+        "49:heartswap",
+        "46:calmmind",
+        "19:charm",
+        "28:barrier",
+        "19:captivate",
+        "40:psychic",
+        "1:babydolleyes",
+        "28:magiccoat",
+        "1:confusion",
+        "4:kinesis",
+        "52:expandingforce",
+        "25:mistball",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:expandingforce",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:lightscreen",
+        "tm:magicalleaf",
+        "tm:magicroom",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "egg:copycat",
+        "egg:magicroom",
+        "egg:wonderroom",
+        "egg:trickroom",
+        "egg:nastyplot",
+        "egg:psychicterrain",
+        "egg:psybeam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsprigatito.desc"
+      ],
+      "height": 4,
+      "weight": 41,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochsprigatito_floragato_epoch",
+          "variant": "level_up",
+          "result": "floragato epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "ayreian"
+    "ayreian",
+    "epoch"
   ]
 }

@@ -12,6 +12,8 @@ import net.minecraft.server.level.*;
 import net.minecraft.world.entity.player.*;
 import org.spongepowered.asm.mixin.injection.callback.*;
 
+import java.util.*;
+
 import static com.cobblemon.yajatkaul.mega_showdown.megaevo.MegaLogic.playEvolveAnimation;
 import static com.cobblemon.yajatkaul.mega_showdown.utility.Utils.setTradable;
 
@@ -241,8 +243,6 @@ public class MegaEvolveLogic {
     }
 
     public static void doGravelmonMegaLogic(PokemonEntity pokemonEntity, Player player, Boolean fromBattle, CallbackInfo ci) {
-
-
         Pokemon pokemon = pokemonEntity.getPokemon();
         if(GravelmonMegas.MEGA_STONE_IDS.containsKey(pokemon.heldItem().getItem())){
             if(pokemonEntity instanceof PokemonEntity pk){
@@ -253,9 +253,6 @@ public class MegaEvolveLogic {
                     );
                     return;
                 }
-            }
-            if(player.level().isClientSide){
-                return;
             }
             var megaAspect = "mega";
             var megaSet = GravelmonMegas.MEGA_STONE_IDS.get(pokemon.heldItem().getItem());
@@ -282,7 +279,8 @@ public class MegaEvolveLogic {
                     playEvolveAnimation(pokemonEntity);
 
                     new StringSpeciesFeature("mega_evolution", megaAspect).apply(pokemon);
-
+                    var scale = pokemonEntity.getForm().getBaseScale();
+                    var exposedAspects = pokemonEntity.getExposedAspects();
                     setTradable(pokemon, false);
                 }
                 ci.cancel();

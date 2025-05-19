@@ -323,9 +323,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgothoritaone_epochtwo_gothitelle",
+          "id": "epochgothoritaone_epochtwogothitelle",
           "variant": "level_up",
-          "result": "epochtwo gothitelle",
+          "result": "epochtwogothitelle",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

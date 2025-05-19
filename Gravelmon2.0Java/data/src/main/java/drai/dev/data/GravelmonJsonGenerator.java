@@ -16,11 +16,8 @@ public class GravelmonJsonGenerator implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Gravelmon.init(false);
+//        Gravelmon.init(false);
 
-        run();
-        if(Platform.getEnv()!=EnvType.SERVER){
-            GravelmonShutDownManager.shutDown();
-        }
+
     }
 }

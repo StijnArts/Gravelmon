@@ -23,7 +23,7 @@ public class EpochGurdurrOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("They are big and bulky because of constantly carrying around large logs of wood. They are able to effortlessly bench press the log."),
-                List.of(new EvolutionEntry("epochtwo conkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwoconkeldurr", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

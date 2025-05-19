@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dragapultepoch_mega",
+  "speciesId": "cobblemon:dragapult",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

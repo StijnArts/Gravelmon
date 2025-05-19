@@ -29,6 +29,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_plusle-01",
+      "pokemon": "plusle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
     }
   ]
 }

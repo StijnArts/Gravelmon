@@ -345,10 +345,175 @@
         "height": 9.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "flying",
+      "secondaryType": "ghost",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41904761904761906,
+      "cannotDynamax": false,
+      "abilities": [
+        "illuminate",
+        "windrider",
+        "h:screencleaner"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 51,
+        "defence": 55,
+        "special_attack": 60,
+        "special_defence": 79,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "60:hurricane",
+        "39:typhoon",
+        "30:airslash",
+        "12:ominouswind",
+        "1:gust",
+        "1:haunt",
+        "15:aircutter",
+        "6:purify",
+        "52:tailwind",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:memento",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrotleone.desc"
+      ],
+      "height": 11,
+      "weight": 970,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgrotleone_epochtwotorterra",
+          "variant": "level_up",
+          "result": "epochtwotorterra",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "delta"
+    "delta",
+    "epochtwo"
   ]
 }

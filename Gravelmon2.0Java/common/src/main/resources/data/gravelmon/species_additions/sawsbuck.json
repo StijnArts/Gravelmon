@@ -299,10 +299,38 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "normal",
+      "secondaryType": "fire",
+      "baseScale": 0.45,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "reckless"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defence": 85,
+        "special_attack": 145,
+        "special_defence": 50,
+        "speed": 85
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "ayreian"
+    "ayreian",
+    "epoch_mega"
   ]
 }

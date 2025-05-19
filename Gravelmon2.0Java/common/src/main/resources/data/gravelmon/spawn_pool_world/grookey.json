@@ -27,6 +27,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_grookey-01",
+      "pokemon": "grookey epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
     }
   ]
 }

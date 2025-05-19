@@ -877,6 +877,184 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "ice",
+      "secondaryType": "poison",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3789473684210526,
+      "cannotDynamax": false,
+      "abilities": [
+        "hustle",
+        "poisontouch",
+        "h:thickfat"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 60,
+        "defence": 70,
+        "special_attack": 55,
+        "special_defence": 35,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "49:plague",
+        "56:gunkshot",
+        "52:icehammer",
+        "1:scratch",
+        "1:lick",
+        "7:meanlook",
+        "37:iciclecrash",
+        "25:crosspoison",
+        "40:rest",
+        "16:icefang",
+        "46:frostbite",
+        "4:iceshard",
+        "13:poisonfang",
+        "tm:airslash",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:tripleaxel",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:shadowpunch",
+        "egg:nightslash",
+        "egg:nobleroar",
+        "egg:honeclaws",
+        "egg:icepunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochteddiursaone.desc"
+      ],
+      "height": 6,
+      "weight": 88,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochteddiursaone_epochtwoursaring",
+          "variant": "level_up",
+          "result": "epochtwoursaring",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "40"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -885,6 +1063,7 @@
     "epoch",
     "hoennian",
     "seviian",
-    "cefiran"
+    "cefiran",
+    "epochtwo"
   ]
 }

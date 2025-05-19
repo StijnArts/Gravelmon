@@ -23,7 +23,7 @@ public class EpochMorgremOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("It is very protective of the embers in its hand. It is rumoured that it is actually the soul it received from making a bargain with a greedy human."),
-                List.of(new EvolutionEntry("epochtwo grimmsnarl", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogrimmsnarl", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,1),

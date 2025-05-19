@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:plusleepoch_mega",
+  "speciesId": "cobblemon:plusle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cryodramega",
+  "speciesId": "cobblemon:cryodra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

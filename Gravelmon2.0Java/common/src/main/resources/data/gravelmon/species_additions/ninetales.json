@@ -794,6 +794,32 @@
         "height": 4.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "baseScale": 0.36,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 73,
+        "attack": 76,
+        "defence": 95,
+        "special_attack": 115,
+        "special_defence": 121,
+        "speed": 125
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -801,6 +827,7 @@
     "epoch",
     "ayreian",
     "ayreiantwo",
-    "ishirian"
+    "ishirian",
+    "epoch_mega"
   ]
 }

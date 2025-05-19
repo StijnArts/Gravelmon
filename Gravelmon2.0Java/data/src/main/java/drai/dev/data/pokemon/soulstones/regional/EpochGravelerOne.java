@@ -23,7 +23,7 @@ public class EpochGravelerOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon emanates such strong spectral energy that it is able to use these ghostly powers to land attacks from afar."),
-                List.of(new EvolutionEntry("epochtwo golem", EvolutionType.TRADE, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwogolem", EvolutionType.TRADE, false, List.of(), 
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,18),

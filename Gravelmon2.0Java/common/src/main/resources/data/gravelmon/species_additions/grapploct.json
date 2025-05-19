@@ -332,10 +332,38 @@
         "height": 4.375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "water",
+      "secondaryType": "fighting",
+      "baseScale": 0.4909090909090909,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "contrary"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 118,
+        "defence": 120,
+        "special_attack": 70,
+        "special_defence": 62,
+        "speed": 120
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "novran"
+    "novran",
+    "epoch_mega"
   ]
 }

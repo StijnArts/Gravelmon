@@ -9,6 +9,7 @@ import drai.dev.gravelmon.items.apricorn.*;
 import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelsextendedbattles.loot.*;
 import net.minecraft.core.registries.*;
+import net.minecraft.network.chat.*;
 import net.minecraft.resources.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
@@ -201,6 +202,13 @@ public class GravelmonItems {
     }
 
     public static RegistrySupplier<Item> megaItem(String megaStoneName) {
-        return ITEMS.register(megaStoneName, () -> new Item(new Item.Properties().arch$tab(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB)));
+        Item item = new Item(new Item.Properties().arch$tab(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB)) {
+            @Override
+            public void appendHoverText(ItemStack itemStack, TooltipContext tooltipContext, List<Component> list, TooltipFlag tooltipFlag) {
+                list.add(Component.translatable("tooltip.gravelmon."+megaStoneName+".tooltip"));
+                super.appendHoverText(itemStack, tooltipContext, list, tooltipFlag);
+            }
+        };
+        return ITEMS.register(megaStoneName, () -> item);
     }
 }

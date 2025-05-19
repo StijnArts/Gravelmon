@@ -23,7 +23,7 @@ public class EpochVoltorbOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It is the beginning of a small planet and is accreting matter to grow in size and density. It will eventually be able to generate its own gravitational force."),
-                List.of(new EvolutionEntry("epochtwo electrode", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoelectrode", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTEROID_BELT,20),

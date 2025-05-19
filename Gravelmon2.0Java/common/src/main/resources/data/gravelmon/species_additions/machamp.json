@@ -522,12 +522,40 @@
         "height": 6.375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ground",
+      "secondaryType": "fighting",
+      "baseScale": 0.57,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sniper"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 150,
+        "defence": 110,
+        "special_attack": 85,
+        "special_defence": 55,
+        "speed": 95
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "ferranian",
     "epoch",
     "epochtwo",
-    "africanusan"
+    "africanusan",
+    "epoch_mega"
   ]
 }

@@ -426,9 +426,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochyanmaone_epochtwo_yanmega",
+          "id": "epochyanmaone_epochtwoyanmega",
           "variant": "item_interact",
-          "result": "epochtwo yanmega",
+          "result": "epochtwoyanmega",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

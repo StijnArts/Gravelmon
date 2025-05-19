@@ -566,12 +566,40 @@
         "height": 5.125,
         "fixed": false
       }
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "ice",
+      "secondaryType": "dark",
+      "baseScale": 18.0,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sharpness"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 115,
+        "defence": 120,
+        "special_attack": 120,
+        "special_defence": 46,
+        "speed": 71
+      },
+      "labels": [
+        "gen1",
+        "vanguard"
+      ],
+      "height": 15,
+      "aspects": [
+        "ayreian_mega"
+      ]
     }
   ],
   "features": [
     "forman",
     "epoch",
     "egho",
-    "ayreian"
+    "ayreian",
+    "ayreian_mega"
   ]
 }

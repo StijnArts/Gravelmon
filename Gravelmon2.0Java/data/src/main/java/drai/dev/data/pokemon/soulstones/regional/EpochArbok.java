@@ -16,7 +16,7 @@ public class EpochArbok extends drai.dev.data.pokemon.Pokemon {
                         65,
                         69),
                 List.of(Ability.CORROSION,Ability.SAND_SPIT), Ability.LEECHINGFANGS,
-                35, 650,
+                18, 650,
                 new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 153, ExperienceGroup.MEDIUM_FAST,

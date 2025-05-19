@@ -549,9 +549,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachopone_epochtwo_machoke",
+          "id": "epochmachopone_epochtwomachoke",
           "variant": "level_up",
-          "result": "epochtwo machoke",
+          "result": "epochtwomachoke",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

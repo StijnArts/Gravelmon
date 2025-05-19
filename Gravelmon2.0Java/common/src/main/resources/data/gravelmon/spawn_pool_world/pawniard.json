@@ -83,6 +83,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_pawniard-01",
+      "pokemon": "pawniard epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "17-37",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
     }
   ]
 }

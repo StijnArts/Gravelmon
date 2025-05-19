@@ -419,9 +419,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgurdurrone_epochtwo_conkeldurr",
+          "id": "epochgurdurrone_epochtwoconkeldurr",
           "variant": "item_interact",
-          "result": "epochtwo conkeldurr",
+          "result": "epochtwoconkeldurr",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

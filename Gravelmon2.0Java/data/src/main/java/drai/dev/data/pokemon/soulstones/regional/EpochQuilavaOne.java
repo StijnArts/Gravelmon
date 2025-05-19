@@ -23,7 +23,7 @@ public class EpochQuilavaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It can curl into a ball such that it is able to present itself as a natural formation of ice crystals."),
-                List.of(new EvolutionEntry("epochtwo typhlosion", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwotyphlosion", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BLIZZARD,57),

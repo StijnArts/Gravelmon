@@ -504,7 +504,8 @@
       "primaryType": "fire",
       "secondaryType": "rock",
       "baseScale": 0.3285714285714285,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "drought"
       ],
@@ -520,12 +521,36 @@
         "gen2",
         "daybreak"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 23,
       "aspects": [
         "armiran_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "steel",
+      "secondaryType": "dragon",
+      "baseScale": 0.5935483870967742,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "analytic"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 125,
+        "defence": 144,
+        "special_attack": 71,
+        "special_defence": 115,
+        "speed": 125
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 23,
+      "aspects": [
+        "epoch_mega"
       ]
     },
     {
@@ -572,6 +597,7 @@
     "x",
     "armiran",
     "armiran_mega",
+    "epoch_mega",
     "armored"
   ],
   "evolutions": [

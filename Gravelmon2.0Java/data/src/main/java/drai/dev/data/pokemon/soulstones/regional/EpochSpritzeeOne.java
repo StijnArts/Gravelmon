@@ -23,7 +23,7 @@ public class EpochSpritzeeOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It likes to carry around a lot of gold and shiny objects, although it's not clear how it does this given its small size."),
-                List.of(new EvolutionEntry("epochtwo aromatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwoaromatisse", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_STRIKE,44),

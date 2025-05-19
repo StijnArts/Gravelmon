@@ -23,7 +23,7 @@ public class EpochGrimerOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokemon appears in volcanically active areas. It can lob hot lava formed from its body from a distance to singe and immobilize enemies."),
-                List.of(new EvolutionEntry("epochtwo muk", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomuk", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

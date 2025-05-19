@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -135,6 +137,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_ursaring-01",
+      "pokemon": "ursaring epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
           ]
         }
       }

@@ -458,9 +458,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmudkipone_epochtwo_marshtomp",
+          "id": "epochmudkipone_epochtwomarshtomp",
           "variant": "level_up",
-          "result": "epochtwo marshtomp",
+          "result": "epochtwomarshtomp",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

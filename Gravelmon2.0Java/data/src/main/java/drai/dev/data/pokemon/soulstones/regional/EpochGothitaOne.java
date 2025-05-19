@@ -23,7 +23,7 @@ public class EpochGothitaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("When it is angered, it will hiss and shoot petrifying gazes at the subject of their anger to temporarily immobilize them."),
-                List.of(new EvolutionEntry("epochtwo gothorita", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogothorita", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),

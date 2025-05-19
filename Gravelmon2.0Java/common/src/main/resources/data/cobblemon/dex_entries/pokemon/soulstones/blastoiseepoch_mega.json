@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:blastoiseepoch_mega",
+  "speciesId": "cobblemon:blastoise",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

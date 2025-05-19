@@ -318,9 +318,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpiloswineone_epochtwo_mamoswine",
+          "id": "epochpiloswineone_epochtwomamoswine",
           "variant": "item_interact",
-          "result": "epochtwo mamoswine",
+          "result": "epochtwomamoswine",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

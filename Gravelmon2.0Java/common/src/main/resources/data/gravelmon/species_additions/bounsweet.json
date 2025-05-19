@@ -448,9 +448,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbounsweetone_epochtwo_steenee",
+          "id": "epochbounsweetone_epochtwosteenee",
           "variant": "level_up",
-          "result": "epochtwo steenee",
+          "result": "epochtwosteenee",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

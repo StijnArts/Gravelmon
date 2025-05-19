@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:emolgaepoch_mega",
+  "speciesId": "cobblemon:emolga",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

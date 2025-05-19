@@ -67,7 +67,7 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:sand_stone",
+            "item": "gravelmon:solid_stone",
             "quantityRange": "1-1",
             "percentage": 10
           }
@@ -172,7 +172,7 @@
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": "gravelmon:sand_stone",
+          "requiredContext": "gravelmon:solid_stone",
           "permanent": true
         }
       ],

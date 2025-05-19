@@ -252,11 +252,39 @@
         "height": 3.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "baseScale": 0.15584415584415584,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 115,
+        "special_defence": 135,
+        "speed": 120
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 5,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "aromian",
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ],
   "evolutions": [
     {

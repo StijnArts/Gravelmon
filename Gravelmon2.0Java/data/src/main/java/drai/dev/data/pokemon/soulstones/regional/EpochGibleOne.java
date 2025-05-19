@@ -23,7 +23,7 @@ public class EpochGibleOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("T.Gibles are able to speed through the water faster than most other Pokemon at its level."),
-                List.of(new EvolutionEntry("epochtwo gabite", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogabite", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,6),

@@ -334,9 +334,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochswinubone_epochtwo_piloswine",
+          "id": "epochswinubone_epochtwopiloswine",
           "variant": "level_up",
-          "result": "epochtwo piloswine",
+          "result": "epochtwopiloswine",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

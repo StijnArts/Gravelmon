@@ -16,7 +16,7 @@ public class EpochPidgeotto extends drai.dev.data.pokemon.Pokemon {
                         65,
                         50),
                 List.of(Ability.KEEN_EYE,Ability.REFRIGERATE), Ability.GALE_WINGS,
-                11, 300,
+                18, 300,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 122, ExperienceGroup.MEDIUM_SLOW,

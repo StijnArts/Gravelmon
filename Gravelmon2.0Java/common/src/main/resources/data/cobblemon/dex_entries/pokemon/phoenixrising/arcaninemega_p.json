@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:arcaninemega_p",
+  "speciesId": "cobblemon:arcanine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega_p",
+      "unlockForms": [
+        "mega_p"
+      ]
+    }
+  ],
+  "variations": []
+}

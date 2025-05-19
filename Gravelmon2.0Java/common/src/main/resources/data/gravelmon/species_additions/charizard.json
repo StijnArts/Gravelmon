@@ -751,11 +751,173 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "secondaryType": "flying",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 240,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5666666666666667,
+      "cannotDynamax": false,
+      "abilities": [
+        "tintedlens",
+        "compoundeyes",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 74,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "36:poisonjab",
+        "24:uturn",
+        "36:toxicthread",
+        "21:scaleshot",
+        "57:megahorn",
+        "9:furycutter",
+        "1:dualwingbeat",
+        "39:dragonclaw",
+        "48:dragonrush",
+        "54:gunkshot",
+        "15:fellstinger",
+        "1:wingattack",
+        "27:stickyweb",
+        "30:leechlife",
+        "12:breakingswipe",
+        "60:dragonascent",
+        "6:stringshot",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:crunch",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharizardone.desc"
+      ],
+      "height": 17,
+      "weight": 905,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5,
+        "height": 4.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "delta_mega",
       "primaryType": "ghost",
       "secondaryType": "dragon",
       "baseScale": 0.2181818181818182,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "noctem"
       ],
@@ -771,12 +933,90 @@
         "gen1",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 18,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "fairy",
+      "secondaryType": "rock",
+      "baseScale": 28.799999999999997,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "attack": 107,
+        "defence": 98,
+        "special_attack": 70,
+        "special_defence": 138,
+        "speed": 134
+      },
+      "labels": [
+        "gen1",
+        "vanguard"
+      ],
+      "height": 24,
+      "aspects": [
+        "ayreian_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "baseScale": 0.5810526315789474,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 122,
+        "defence": 98,
+        "special_attack": 130,
+        "special_defence": 84,
+        "speed": 105
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 23,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "bug",
+      "secondaryType": "flying",
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "galewings"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 125,
+        "defence": 108,
+        "special_attack": 127,
+        "special_defence": 84,
+        "speed": 100
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 22,
+      "aspects": [
+        "epochone_mega"
       ]
     }
   ],
@@ -785,6 +1025,10 @@
     "egho",
     "delta",
     "ayreian",
-    "delta_mega"
+    "epochtwo",
+    "delta_mega",
+    "ayreian_mega",
+    "epoch_mega",
+    "epochone_mega"
   ]
 }

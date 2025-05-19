@@ -119,7 +119,8 @@
       "primaryType": "sound",
       "secondaryType": "flying",
       "baseScale": 0.1531914893617021,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "amplifier"
       ],
@@ -134,9 +135,6 @@
       "labels": [
         "gen4",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 6,
       "aspects": [

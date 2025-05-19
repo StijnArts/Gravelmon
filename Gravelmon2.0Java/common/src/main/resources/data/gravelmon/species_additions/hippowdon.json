@@ -517,12 +517,40 @@
         "height": 10.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "baseScale": 0.6379746835443039,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "rockhead"
+      ],
+      "baseStats": {
+        "hp": 138,
+        "attack": 142,
+        "defence": 148,
+        "special_attack": 77,
+        "special_defence": 48,
+        "speed": 72
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "mahalian",
     "nodorran",
     "epoch",
-    "armiran"
+    "armiran",
+    "epoch_mega"
   ]
 }

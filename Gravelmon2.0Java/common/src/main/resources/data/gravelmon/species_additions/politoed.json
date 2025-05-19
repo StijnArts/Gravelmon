@@ -179,7 +179,8 @@
       "name": "mega",
       "primaryType": "water",
       "baseScale": 0.20816326530612245,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "drizzle"
       ],
@@ -194,9 +195,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 17,
       "aspects": [

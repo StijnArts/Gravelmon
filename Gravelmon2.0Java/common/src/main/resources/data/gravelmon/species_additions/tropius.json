@@ -613,13 +613,185 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "neutralizinggas",
+        "h:liquidvoice"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 109,
+        "attack": 98,
+        "defence": 83,
+        "special_attack": 41,
+        "special_defence": 42,
+        "speed": 87
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "27:confuseray",
+        "54:plague",
+        "33:spiritshackle",
+        "1:leer",
+        "1:lick",
+        "6:roar",
+        "45:dragonhammer",
+        "57:uproar",
+        "60:shadowforce",
+        "15:poisontail",
+        "51:dragondance",
+        "42:shadowbone",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:scaleshot",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:zenheadbutt",
+        "egg:curse",
+        "egg:poisonfang",
+        "egg:zenheadbutt",
+        "egg:grudge",
+        "egg:memento",
+        "egg:meanlook",
+        "egg:possession",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtropius.desc"
+      ],
+      "height": 20,
+      "weight": 1000,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "hizian",
     "aristosian",
     "ayreian",
-    "kaskadian"
+    "kaskadian",
+    "epoch"
   ],
   "evolutions": [
     {

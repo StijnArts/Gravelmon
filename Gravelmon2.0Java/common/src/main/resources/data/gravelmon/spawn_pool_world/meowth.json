@@ -12,12 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -37,12 +39,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -62,12 +66,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -87,12 +93,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -112,12 +120,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -225,6 +235,8 @@
         "biomes": [
           "minecraft:cherry_grove"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -342,6 +354,8 @@
         "biomes": [
           "#cobblemon:is_grassland"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {

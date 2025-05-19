@@ -465,11 +465,93 @@
         "height": 10.125,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega_soulstones",
+      "primaryType": "ice",
+      "secondaryType": "water",
+      "baseScale": 0.5932584269662922,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 75,
+        "defence": 120,
+        "special_attack": 75,
+        "special_defence": 140,
+        "speed": 125
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 22,
+      "aspects": [
+        "epoch_mega_soulstones"
+      ]
+    },
+    {
+      "name": "epoch_mega_soulstones",
+      "primaryType": "ice",
+      "secondaryType": "water",
+      "baseScale": 0.5662921348314607,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 75,
+        "defence": 120,
+        "special_attack": 75,
+        "special_defence": 140,
+        "speed": 125
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega_soulstones"
+      ]
+    },
+    {
+      "name": "epoch_mega_soulstones",
+      "primaryType": "rock",
+      "secondaryType": "electric",
+      "baseScale": 0.5123595505617977,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "eartheater"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 70,
+        "defence": 105,
+        "special_attack": 105,
+        "special_defence": 135,
+        "speed": 130
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega_soulstones"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "armiran"
+    "armiran",
+    "epoch_mega_soulstones"
   ]
 }

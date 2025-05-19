@@ -442,9 +442,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochimpidimpone_epochtwo_morgrem",
+          "id": "epochimpidimpone_epochtwomorgrem",
           "variant": "level_up",
-          "result": "epochtwo morgrem",
+          "result": "epochtwomorgrem",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -473,7 +473,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0979591836734694,
+      "baseScale": 0.20869565217391306,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -566,8 +566,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.125,
-        "height": 6.125,
+        "width": 2.875,
+        "height": 2.875,
         "fixed": false
       }
     },

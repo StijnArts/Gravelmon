@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:charizardayreian_mega",
+  "speciesId": "cobblemon:charizard",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "ayreian_mega",
+      "unlockForms": [
+        "ayreian_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

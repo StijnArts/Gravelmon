@@ -102,6 +102,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_unown-01",
+      "pokemon": "unown epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-23",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
     }
   ]
 }

@@ -381,11 +381,169 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "dark",
+      "secondaryType": "electric",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 170,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2608695652173913,
+      "cannotDynamax": false,
+      "abilities": [
+        "analytic",
+        "static",
+        "h:prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 52,
+        "defence": 68,
+        "special_attack": 75,
+        "special_defence": 102,
+        "speed": 103
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "11:siphon",
+        "44:nightdaze",
+        "26:voltswitch",
+        "50:nastyplot",
+        "1:thundershock",
+        "7:supersonic",
+        "38:electrify",
+        "4:thundercage",
+        "17:shockwave",
+        "41:thunderbolt",
+        "53:thunder",
+        "47:switcheroo",
+        "tm:attract",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wonderroom",
+        "tm:workup",
+        "egg:magneticflux",
+        "egg:torment",
+        "egg:taunt",
+        "egg:flatter",
+        "egg:swagger",
+        "egg:blackout",
+        "egg:risingvoltage",
+        "egg:electricterrain",
+        "egg:magnetrise",
+        "egg:quash",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochspiritombone.desc"
+      ],
+      "height": 10,
+      "weight": 9990,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.75,
+        "height": 5.75,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "ghost",
       "secondaryType": "dark",
       "baseScale": 0.1714285714285714,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "toughclaws"
       ],
@@ -401,9 +559,6 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 12,
       "aspects": [
         "mega"
@@ -414,6 +569,7 @@
     "mahalian",
     "epoch",
     "x",
+    "epochtwo",
     "mega"
   ]
 }

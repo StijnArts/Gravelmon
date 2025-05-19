@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "pidgey form=epoch",
-      "baseScale": 0.33,
+      "baseScale": 0.54,
       "cannotDynamax": false,
       "abilities": [
         "keeneye",
@@ -132,7 +132,7 @@
       "pokedex": [
         "cobblemon.species.epochpidgeotto.desc"
       ],
-      "height": 11,
+      "height": 18,
       "weight": 300,
       "aspects": [
         "epoch"

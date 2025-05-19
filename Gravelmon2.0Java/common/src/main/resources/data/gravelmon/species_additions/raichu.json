@@ -671,6 +671,186 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fighting",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 218,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 3.512195121951219,
+      "cannotDynamax": false,
+      "abilities": [
+        "noguard",
+        "intimidate",
+        "h:ironfist"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 90,
+        "defence": 75,
+        "special_attack": 100,
+        "special_defence": 65,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "24:armthrust",
+        "40:skyuppercut",
+        "7:matblock",
+        "1:tackle",
+        "20:forcepalm",
+        "49:flyingpress",
+        "28:megapunch",
+        "1:bounce",
+        "14:block",
+        "10:poweruppunch",
+        "56:highjumpkick",
+        "1:growl",
+        "37:bodyslam",
+        "43:darkestlariat",
+        "60:dynamicpunch",
+        "4:machpunch",
+        "17:knockoff",
+        "31:drainpunch",
+        "46:bulkup",
+        "52:noretreat",
+        "1:heavyslam",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochraichuone.desc"
+      ],
+      "height": 120,
+      "weight": 4000,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.125,
+        "height": 5.125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "sound",
+      "secondaryType": "steel",
+      "baseScale": 0.46363636363636357,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "filter"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 70,
+        "defence": 85,
+        "special_attack": 140,
+        "special_defence": 130,
+        "speed": 100
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -678,6 +858,8 @@
     "norse",
     "epoch",
     "delta",
-    "x"
+    "x",
+    "epochtwo",
+    "epoch_mega"
   ]
 }

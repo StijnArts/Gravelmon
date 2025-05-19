@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dragoniteepoch_mega",
+  "speciesId": "cobblemon:dragonite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -23,7 +23,7 @@ public class EpochYanmaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("This Pokemon is made of a fine aluminum alloy. If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."),
-                List.of(new EvolutionEntry("epochtwo yanmega", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwoyanmega", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.STEEL_WING,17),

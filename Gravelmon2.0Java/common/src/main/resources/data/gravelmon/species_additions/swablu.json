@@ -461,9 +461,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochswabluone_epochtwo_altaria",
+          "id": "epochswabluone_epochtwoaltaria",
           "variant": "level_up",
-          "result": "epochtwo altaria",
+          "result": "epochtwoaltaria",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

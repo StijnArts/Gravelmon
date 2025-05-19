@@ -229,11 +229,190 @@
         "height": 6.25,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 49,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1103448275862069,
+      "cannotDynamax": false,
+      "abilities": [
+        "airlock",
+        "fullmetalbody",
+        "h:speedboost"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 20,
+        "defence": 32,
+        "special_attack": 70,
+        "special_defence": 50,
+        "speed": 42
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "7:firespin",
+        "28:magnetrise",
+        "40:bugbuzz",
+        "52:fireblast",
+        "37:fierydance",
+        "16:incinerate",
+        "25:metalsound",
+        "46:flamethrower",
+        "55:quiverdance",
+        "1:ember",
+        "22:flameburst",
+        "34:gearup",
+        "61:blueflare",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:gyroball",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychic",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "egg:overheat",
+        "egg:discharge",
+        "egg:burnup",
+        "egg:airslash",
+        "egg:sonicboom",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcombee.desc"
+      ],
+      "height": 3,
+      "weight": 55,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcombee_vespiquen_epoch",
+          "variant": "level_up",
+          "result": "vespiquen epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.4375,
+        "height": 5.4375,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "qamoran",
-    "delta"
+    "delta",
+    "epoch"
   ],
   "evolutions": [
     {

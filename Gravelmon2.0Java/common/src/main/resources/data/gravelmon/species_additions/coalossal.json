@@ -142,9 +142,37 @@
         "height": 5.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "rock",
+      "secondaryType": "ground",
+      "baseScale": 0.575,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 120,
+        "defence": 150,
+        "special_attack": 30,
+        "special_defence": 60,
+        "speed": 140
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 23,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

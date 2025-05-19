@@ -23,7 +23,7 @@ public class EpochDoduoOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It will immerse itself up to its waist in water at most to hunt for fish. It usually does not like wading in further despite being a Water-type."),
-                List.of(new EvolutionEntry("epochtwo dodrio", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwododrio", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LOVEBURST,44),

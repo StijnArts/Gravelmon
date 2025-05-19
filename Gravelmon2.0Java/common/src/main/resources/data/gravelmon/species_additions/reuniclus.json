@@ -945,7 +945,8 @@
       "name": "mega",
       "primaryType": "psychic",
       "baseScale": 0.2,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -960,9 +961,6 @@
       "labels": [
         "gen5",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 16,
       "aspects": [

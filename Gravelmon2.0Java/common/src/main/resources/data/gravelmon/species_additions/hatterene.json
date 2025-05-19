@@ -549,12 +549,40 @@
         "height": 5.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "psychic",
+      "secondaryType": "ghost",
+      "baseScale": 0.5739130434782609,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 65,
+        "defence": 130,
+        "special_attack": 64,
+        "special_defence": 141,
+        "speed": 138
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 22,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "lagoonan",
     "novran",
-    "ayreian"
+    "ayreian",
+    "epoch_mega"
   ]
 }

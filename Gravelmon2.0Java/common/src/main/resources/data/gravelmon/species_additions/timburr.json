@@ -436,9 +436,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtimburrone_epochtwo_gurdurr",
+          "id": "epochtimburrone_epochtwogurdurr",
           "variant": "level_up",
-          "result": "epochtwo gurdurr",
+          "result": "epochtwogurdurr",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

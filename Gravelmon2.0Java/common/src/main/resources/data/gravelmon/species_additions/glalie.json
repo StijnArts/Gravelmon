@@ -593,7 +593,8 @@
       "primaryType": "fire",
       "secondaryType": "rock",
       "baseScale": 0.2376237623762376,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "reckless"
       ],
@@ -609,12 +610,36 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 20,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "baseScale": 0.5010989010989011,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "strongjaw"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defence": 150,
+        "special_attack": 120,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -623,6 +648,7 @@
     "delta",
     "ayreian",
     "cefiran",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega"
   ]
 }

@@ -34,6 +34,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_spheal-01",
+      "pokemon": "spheal epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
     }
   ]
 }

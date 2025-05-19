@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_oricorio-01",
+      "pokemon": "oricorio epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "mikitarian_oricorio-01",
       "pokemon": "oricorio mikitarian",
       "presets": [
@@ -17,7 +42,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -417,11 +417,155 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 56,
+        "defence": 67,
+        "special_attack": 80,
+        "special_defence": 106,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "7:siphon",
+        "4:leer",
+        "49:nastyplot",
+        "25:metalsound",
+        "1:taunt",
+        "34:discharge",
+        "43:darkvoid",
+        "40:autotomize",
+        "22:shockwave",
+        "25:screech",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:workup",
+        "egg:darkpulse",
+        "egg:oblivionwing",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmaractus.desc"
+      ],
+      "height": 10,
+      "weight": 280,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.6875,
+        "height": 4.6875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "avorian",
     "delta",
-    "hoennian"
+    "hoennian",
+    "epoch"
   ]
 }

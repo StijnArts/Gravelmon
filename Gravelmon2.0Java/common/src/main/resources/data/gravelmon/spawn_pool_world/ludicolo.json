@@ -96,7 +96,9 @@
         "biomes": [
           "#cobblemon:is_swamp"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

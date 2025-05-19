@@ -108,6 +108,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_bisharp-01",
+      "pokemon": "bisharp epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
     }
   ]
 }

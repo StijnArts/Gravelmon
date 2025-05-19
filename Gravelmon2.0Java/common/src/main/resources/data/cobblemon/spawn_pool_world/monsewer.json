@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
-        ]
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

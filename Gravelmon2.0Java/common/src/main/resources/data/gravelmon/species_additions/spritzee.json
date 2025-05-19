@@ -542,9 +542,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochspritzeeone_epochtwo_aromatisse",
+          "id": "epochspritzeeone_epochtwoaromatisse",
           "variant": "item_interact",
-          "result": "epochtwo aromatisse",
+          "result": "epochtwoaromatisse",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

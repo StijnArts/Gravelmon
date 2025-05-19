@@ -23,7 +23,7 @@ public class EpochHonedgeTwo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a blazing axe."),
-                List.of(new EvolutionEntry("epochtwo doublade", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("epochtwodoublade", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,36),

@@ -255,10 +255,38 @@
         "height": 4.75,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fire",
+      "secondaryType": "light",
+      "baseScale": 0.48,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "speedboost"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 110,
+        "defence": 90,
+        "special_attack": 105,
+        "special_defence": 120,
+        "speed": 90
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "forman",
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

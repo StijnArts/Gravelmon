@@ -231,12 +231,12 @@
         }
       },
       "baseStats": {
-        "hp": 97,
-        "attack": 81,
-        "defence": 81,
-        "special_attack": 28,
-        "special_defence": 69,
-        "speed": 16
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,

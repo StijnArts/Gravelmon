@@ -388,6 +388,16 @@
           "requirements": [],
           "requiredContext": "gravelmon:ocarina",
           "permanent": true
+        },
+        {
+          "id": "epochyamask_runerigus_epoch",
+          "variant": "item_interact",
+          "result": "runerigus epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
         }
       ],
       "shoulderMountable": false,

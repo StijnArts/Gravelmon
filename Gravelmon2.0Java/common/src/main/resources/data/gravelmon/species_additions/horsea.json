@@ -451,9 +451,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhorseaone_epochtwo_seadra",
+          "id": "epochhorseaone_epochtwoseadra",
           "variant": "level_up",
-          "result": "epochtwo seadra",
+          "result": "epochtwoseadra",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

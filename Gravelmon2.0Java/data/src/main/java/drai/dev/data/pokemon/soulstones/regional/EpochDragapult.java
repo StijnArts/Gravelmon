@@ -16,7 +16,7 @@ public class EpochDragapult extends drai.dev.data.pokemon.Pokemon {
                         100,
                         120),
                 List.of(Ability.WHITE_SMOKE,Ability.INFILTRATOR), Ability.WEAK_ARMOR,
-                30, 500,
+                18, 500,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 300, ExperienceGroup.SLOW,

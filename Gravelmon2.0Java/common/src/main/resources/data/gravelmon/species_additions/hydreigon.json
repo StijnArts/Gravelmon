@@ -361,7 +361,8 @@
       "primaryType": "dark",
       "secondaryType": "dragon",
       "baseScale": 0.33488372093023255,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -376,9 +377,6 @@
       "labels": [
         "gen5",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 24,
       "aspects": [

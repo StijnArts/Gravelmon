@@ -326,9 +326,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsteeneeone_epochtwo_tsareena",
+          "id": "epochsteeneeone_epochtwotsareena",
           "variant": "item_interact",
-          "result": "epochtwo tsareena",
+          "result": "epochtwotsareena",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

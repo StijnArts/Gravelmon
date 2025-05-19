@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:butterfreeepoch_mega",
+  "speciesId": "cobblemon:butterfree",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

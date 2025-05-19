@@ -23,7 +23,7 @@ public class EpochShellosTwo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.DRAGON),
                 List.of("It is an invasive species from another universe. Apparently, it is able to mimic the appearance of popular Dragon-type Pokemon."),
-                List.of(new EvolutionEntry("epochtwo gastrodon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("epochtwogastrodon", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACOSHRED,33),

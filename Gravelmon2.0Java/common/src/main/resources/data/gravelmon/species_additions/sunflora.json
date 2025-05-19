@@ -457,7 +457,8 @@
       "name": "mega",
       "primaryType": "grass",
       "baseScale": 9.600000000000001,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -472,9 +473,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 8,
       "aspects": [
@@ -486,7 +484,8 @@
       "primaryType": "fire",
       "secondaryType": "poison",
       "baseScale": 0.1736842105263158,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -501,9 +500,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 11,
       "aspects": [

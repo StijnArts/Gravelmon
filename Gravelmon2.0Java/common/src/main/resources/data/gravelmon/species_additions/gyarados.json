@@ -239,7 +239,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "magikarp form=epoch",
-      "baseScale": 1.9259259259259258,
+      "baseScale": 0.9481481481481482,
       "cannotDynamax": false,
       "abilities": [
         "angerpoint",
@@ -372,7 +372,7 @@
       "pokedex": [
         "cobblemon.species.epochgyarados.desc"
       ],
-      "height": 65,
+      "height": 32,
       "weight": 2350,
       "aspects": [
         "epoch"
@@ -541,12 +541,40 @@
         "height": 4.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "dark",
+      "baseScale": 1.051685393258427,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 155,
+        "defence": 109,
+        "special_attack": 81,
+        "special_defence": 70,
+        "speed": 130
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 39,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "ivrisian",
     "nodorran",
     "epoch",
-    "ishirian"
+    "ishirian",
+    "epoch_mega"
   ]
 }

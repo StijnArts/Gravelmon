@@ -23,7 +23,8 @@ public class EpochDipplin extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It will find crafty ways to escape its sentence, not limited to digging holes, or corroding away the steel bars that imprison it."),
-                List.of(),
+                List.of(new EvolutionEntry("EpochHydrapple", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DIG,1),
                         new MoveLearnSetEntry(Move.ACID,1),

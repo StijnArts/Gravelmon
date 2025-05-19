@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:electrodeepoch_mega",
+  "speciesId": "cobblemon:electrode",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

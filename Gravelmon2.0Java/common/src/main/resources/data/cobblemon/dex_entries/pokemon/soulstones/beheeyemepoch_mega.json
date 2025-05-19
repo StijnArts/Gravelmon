@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beheeyemepoch_mega",
+  "speciesId": "cobblemon:beheeyem",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

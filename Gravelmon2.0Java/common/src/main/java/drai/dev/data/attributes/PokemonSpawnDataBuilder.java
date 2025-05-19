@@ -24,6 +24,7 @@ public class PokemonSpawnDataBuilder {
             opt.get().setCondition(canSeeSky + "");
             return this;
         }
+        pokemonSpawnData.getSpawnConditions().add(new SpawnCondition(SpawnConditionType.CANSEESKY, canSeeSky + ""));
         return this;
     }
 
@@ -43,6 +44,13 @@ public class PokemonSpawnDataBuilder {
 
     public PokemonSpawnDataBuilder setBiomes(Biome... biomes) {
         var biomeList = pokemonSpawnData.getBiomeSpawnCondition().getBiomes();
+        if(biomeList.size() == 1 && biomeList.getFirst() == Biome.IS_VOID) biomeList.clear();
+        biomeList.addAll(Arrays.asList(biomes));
+        return this;
+    }
+
+    public PokemonSpawnDataBuilder setAntiBiomes(Biome... biomes) {
+        var biomeList = pokemonSpawnData.getAntiBiomeSpawnCondition().getBiomes();
         if(biomeList.size() == 1 && biomeList.getFirst() == Biome.IS_VOID) biomeList.clear();
         biomeList.addAll(Arrays.asList(biomes));
         return this;
@@ -152,6 +160,18 @@ public class PokemonSpawnDataBuilder {
     public PokemonSpawnDataBuilder eeveelution() {
 //        SpawnPool.ULTRA_RARE, 44, 56, 1.0
         this.setMinLevel(44).setMaxLevel(56).setWeight(1.0).setPool(SpawnPool.ULTRA_RARE);
+        return this;
+    }
+
+    public PokemonSpawnDataBuilder aboveY(int y) {
+        pokemonSpawnData.spawnConditions.add(new SpawnCondition(SpawnConditionType.MINY, ""+y));
+        return this;
+    }
+
+    public PokemonSpawnDataBuilder fossil() {
+        this.setMinLevel(1).setMaxLevel(1).setWeight(0).setPool(SpawnPool.ULTRA_RARE).setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL);
         return this;
     }
 }

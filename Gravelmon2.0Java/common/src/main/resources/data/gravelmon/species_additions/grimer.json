@@ -460,9 +460,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrimerone_epochtwo_muk",
+          "id": "epochgrimerone_epochtwomuk",
           "variant": "level_up",
-          "result": "epochtwo muk",
+          "result": "epochtwomuk",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

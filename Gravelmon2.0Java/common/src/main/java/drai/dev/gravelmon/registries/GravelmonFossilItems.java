@@ -902,5 +902,13 @@ public class GravelmonFossilItems {
             "big_beak_fossil",
             "nodoo");
 
+    public static RegistrySupplier<Item> FRUIT_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.BIRCH_TREE.uncommon(),
+                    BaseCobblemonDigSites.OAK_TREE.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "fruit_fossil",
+            "tyrunt epochtwo");
     public static void touch() {}
 }

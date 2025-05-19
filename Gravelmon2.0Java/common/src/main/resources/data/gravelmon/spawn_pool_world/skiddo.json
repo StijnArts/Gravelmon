@@ -115,6 +115,34 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_skiddo-01",
+      "pokemon": "skiddo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak",
+          "#cobblemon:is_sky"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
     }
   ]
 }

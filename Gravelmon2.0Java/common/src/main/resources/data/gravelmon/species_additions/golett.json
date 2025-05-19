@@ -647,12 +647,186 @@
         "height": 6.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 190,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "abilities": [
+        "steamengine",
+        "flashfire",
+        "h:whitesmoke"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 64,
+        "attack": 64,
+        "defence": 60,
+        "special_attack": 25,
+        "special_defence": 60,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "19:magnetbomb",
+        "52:flareblitz",
+        "34:gyroball",
+        "16:incinerate",
+        "25:autotomize",
+        "55:guillotine",
+        "40:ironhead",
+        "62:doubleironbash",
+        "52:searingshot",
+        "13:flamecharge",
+        "43:flamethrower",
+        "49:hammerarm",
+        "4:ember",
+        "58:gearup",
+        "7:bulletpunch",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gunkshot",
+        "tm:gyroball",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:steameruption",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgolettone.desc"
+      ],
+      "height": 10,
+      "weight": 920,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgolettone_epochtwogolurk",
+          "variant": "level_up",
+          "result": "epochtwogolurk",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "43"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
     "delta",
     "kaskadian",
-    "cefiran"
+    "cefiran",
+    "epochtwo"
   ]
 }

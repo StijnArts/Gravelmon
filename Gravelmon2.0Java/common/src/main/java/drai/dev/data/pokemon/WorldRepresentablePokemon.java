@@ -34,7 +34,7 @@ public abstract class WorldRepresentablePokemon {
     private final SpeciesFileData speciesFileData = new SpeciesFileData();
     private final PosingFileData posingFileData = new PosingFileData();
     private final PosingFileData femalePosingFileData = new PosingFileData();
-    protected final int height;
+    protected int height;
     protected double baseScale;
     protected double hitboxWidth = 6;
     protected double hitboxHeight = 6;

@@ -846,6 +846,204 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "sound",
+      "secondaryType": "psychic",
+      "catchRate": 235,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 40,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.23414634146341462,
+      "cannotDynamax": false,
+      "abilities": [
+        "marvelscale",
+        "synchronize",
+        "h:baddreams"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 25,
+        "defence": 25,
+        "special_attack": 40,
+        "special_defence": 45,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "31:eeriespell",
+        "25:disable",
+        "13:round",
+        "50:nastyplot",
+        "47:hypervoice",
+        "7:psywave",
+        "10:hypnosis",
+        "19:disarmingvoice",
+        "44:psychic",
+        "1:chatter",
+        "4:confusion",
+        "37:relicsong",
+        "16:psybeam",
+        "54:clangingscales",
+        "57:psystrike",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonbreath",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soundbarrier",
+        "tm:stealthrock",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:synchronoise",
+        "egg:psystrike",
+        "egg:psychicterrain",
+        "egg:magiccoat",
+        "egg:psychoshift",
+        "egg:expandingforce",
+        "egg:dreameater",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochraltsone.desc"
+      ],
+      "height": 4,
+      "weight": 66,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochraltsone_epochtwokirlia",
+          "variant": "level_up",
+          "result": "epochtwokirlia",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5625,
+        "height": 2.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "dark",
       "secondaryType": "fairy",
@@ -1023,6 +1221,7 @@
     "avalossian",
     "delta",
     "ayreian",
+    "epochtwo",
     "ishirian"
   ],
   "evolutions": [

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wigglytuffepoch_mega",
+  "speciesId": "cobblemon:wigglytuff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

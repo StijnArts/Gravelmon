@@ -152,9 +152,65 @@
         "height": 4.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "baseScale": 22.799999999999997,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "rockhead"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 135,
+        "defence": 145,
+        "special_attack": 80,
+        "special_defence": 70,
+        "speed": 105
+      },
+      "labels": [
+        "gen1",
+        "vanguard"
+      ],
+      "height": 19,
+      "aspects": [
+        "ayreian_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "dragon",
+      "secondaryType": "flying",
+      "baseScale": 0.525,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "multiscale"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 135,
+        "defence": 85,
+        "special_attack": 150,
+        "special_defence": 70,
+        "speed": 95
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "ayreian_mega",
+    "epoch_mega"
   ]
 }

@@ -27,6 +27,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_rillaboom-01",
+      "pokemon": "rillaboom epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
     }
   ]
 }

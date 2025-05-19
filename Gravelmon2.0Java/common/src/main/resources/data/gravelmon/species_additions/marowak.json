@@ -277,7 +277,8 @@
       "primaryType": "ground",
       "secondaryType": "ghost",
       "baseScale": 0.16595744680851063,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "parentalbond"
       ],
@@ -292,9 +293,6 @@
       "labels": [
         "gen1",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 13,
       "aspects": [

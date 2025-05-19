@@ -494,7 +494,8 @@
       "primaryType": "dark",
       "secondaryType": "dragon",
       "baseScale": 0.2625,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "intimidate"
       ],
@@ -510,12 +511,36 @@
         "gen1",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 21,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ice",
+      "secondaryType": "flying",
+      "baseScale": 0.45473684210526316,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "refrigerate"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "attack": 60,
+        "defence": 85,
+        "special_attack": 131,
+        "special_defence": 130,
+        "speed": 90
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -523,6 +548,7 @@
     "epoch",
     "delta",
     "ayreian",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega"
   ]
 }

@@ -23,7 +23,7 @@ public class EpochSeadraOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("They roam around in small swarms to appear more threatening. They are capable of applying some deadly stings to anyone that irritates them."),
-                List.of(new EvolutionEntry("epochtwo kingdra", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwokingdra", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:silver_powder")),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,42),

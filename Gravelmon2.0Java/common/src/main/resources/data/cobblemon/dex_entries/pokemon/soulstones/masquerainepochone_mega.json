@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:masquerainepochone_mega",
+  "speciesId": "cobblemon:masquerain",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochone_mega",
+      "unlockForms": [
+        "epochone_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

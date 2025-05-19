@@ -16,7 +16,7 @@ public class EpochGyarados extends drai.dev.data.pokemon.Pokemon {
                         55,
                         100),
                 List.of(Ability.ANGER_POINT,Ability.BLACKLIGHT), Ability.STRONG_JAW,
-                65, 2350,
+                32, 2350,
                 new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 189, ExperienceGroup.SLOW,

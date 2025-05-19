@@ -23,7 +23,7 @@ public class EpochStantlerOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is constantly channeling an electrical current between the two nodes on its head, even when it is asleep."),
-                List.of(new EvolutionEntry("epochtwo wyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwowyrdeer", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,23),

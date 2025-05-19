@@ -23,7 +23,7 @@ public class EpochSwinubOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("If you must pet this Pokemon, it prefers that the leaves on its head are scratched versus being rubbed on its belly."),
-                List.of(new EvolutionEntry("epochtwo piloswine", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwopiloswine", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,30),

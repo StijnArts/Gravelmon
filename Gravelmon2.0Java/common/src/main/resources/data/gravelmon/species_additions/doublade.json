@@ -431,9 +431,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdoubladetwo_epochtwo_aegislash",
+          "id": "epochdoubladetwo_epochtwoaegislash",
           "variant": "item_interact",
-          "result": "epochtwo aegislash",
+          "result": "epochtwoaegislash",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

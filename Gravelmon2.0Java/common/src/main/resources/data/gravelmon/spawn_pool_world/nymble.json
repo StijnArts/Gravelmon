@@ -29,6 +29,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_nymble-01",
+      "pokemon": "nymble epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-28",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
     }
   ]
 }

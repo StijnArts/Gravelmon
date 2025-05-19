@@ -417,11 +417,38 @@
         "height": 10.25,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "grass",
+      "baseScale": 0.7609756097560976,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "regenerator"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 102,
+        "defence": 115,
+        "special_attack": 70,
+        "special_defence": 102,
+        "speed": 115
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 26,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "kaskadian",
-    "cefiran"
+    "cefiran",
+    "epoch_mega"
   ]
 }

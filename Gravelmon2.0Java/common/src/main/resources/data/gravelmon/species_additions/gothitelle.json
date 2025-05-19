@@ -526,7 +526,8 @@
       "primaryType": "psychic",
       "secondaryType": "dark",
       "baseScale": 0.2125,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -542,12 +543,63 @@
         "gen5",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 17,
       "aspects": [
         "mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fairy",
+      "secondaryType": "fighting",
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "adaptability"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 135,
+        "defence": 80,
+        "special_attack": 135,
+        "special_defence": 55,
+        "speed": 115
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "poison",
+      "secondaryType": "sound",
+      "baseScale": 0.5760000000000001,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 125,
+        "defence": 105,
+        "special_attack": 65,
+        "special_defence": 125,
+        "speed": 100
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epochone_mega"
       ]
     }
   ],
@@ -556,6 +608,8 @@
     "epochtwo",
     "africanusan",
     "cefiran",
-    "mega"
+    "mega",
+    "epoch_mega",
+    "epochone_mega"
   ]
 }

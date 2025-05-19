@@ -23,7 +23,7 @@ public class EpochDuosionOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("When it has siphoned enough energy from its surroundings, it evolves and migrates to continue its parasitic lifecycle."),
-                List.of(new EvolutionEntry("epochtwo reuniclus", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtworeuniclus", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPOIL,18),

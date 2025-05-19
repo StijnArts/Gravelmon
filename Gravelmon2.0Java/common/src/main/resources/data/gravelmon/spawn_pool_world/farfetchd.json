@@ -29,6 +29,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_farfetchd-01",
+      "pokemon": "farfetchd epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "name": "cobblemon:tyrunt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [
+        "epochtwo"
+      ],
+      "poser": "cobblemon:embryo_tyrunt",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/fossils/tyrunt_epochtwo.png",
+      "layers": []
+    }
+  ]
+}

@@ -23,7 +23,7 @@ public class EpochVanillishOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The top of its head is constantly erupting and spewing out hot lava. Maintaining a safe distance from it is strongly advised."),
-                List.of(new EvolutionEntry("epochtwo vanilluxe", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwovanilluxe", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

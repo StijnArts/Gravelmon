@@ -23,7 +23,7 @@ public class EpochTimburrOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It is small and stupid. It often bashes its head against tree trunks for amusement."),
-                List.of(new EvolutionEntry("epochtwo gurdurr", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogurdurr", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

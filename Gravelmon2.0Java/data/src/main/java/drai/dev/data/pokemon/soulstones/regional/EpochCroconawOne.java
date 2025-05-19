@@ -23,7 +23,7 @@ public class EpochCroconawOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is unclear if the flame on its back is really fire, or a malicious force that has manifested."),
-                List.of(new EvolutionEntry("epochtwo feraligatr", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoferaligatr", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,22),

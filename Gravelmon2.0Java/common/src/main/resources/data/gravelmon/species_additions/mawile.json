@@ -209,7 +209,8 @@
       "primaryType": "grass",
       "secondaryType": "dark",
       "baseScale": 0.18227848101265823,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "arenatrap"
       ],
@@ -224,9 +225,6 @@
       "labels": [
         "gen3",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 12,
       "aspects": [

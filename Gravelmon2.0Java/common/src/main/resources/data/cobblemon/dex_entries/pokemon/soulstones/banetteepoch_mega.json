@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:banetteepoch_mega",
+  "speciesId": "cobblemon:banette",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

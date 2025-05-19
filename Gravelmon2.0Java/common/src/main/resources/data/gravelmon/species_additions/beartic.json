@@ -361,12 +361,39 @@
         "height": 5.75,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "normal",
+      "baseScale": 0.6065934065934065,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "fluffy"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 140,
+        "defence": 120,
+        "special_attack": 90,
+        "special_defence": 50,
+        "speed": 105
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 23,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "nodorran",
     "epoch",
-    "qamoran"
+    "qamoran",
+    "epoch_mega"
   ],
   "evolutions": [
     {

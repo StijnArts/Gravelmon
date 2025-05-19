@@ -144,9 +144,37 @@
         "height": 4.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "baseScale": 0.5230769230769231,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "protean"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 100,
+        "defence": 110,
+        "special_attack": 70,
+        "special_defence": 124,
+        "speed": 110
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

@@ -16,7 +16,7 @@ public class EpochCentiskorch extends drai.dev.data.pokemon.Pokemon {
                         50,
                         90),
                 List.of(Ability.LEECHINGFANGS,Ability.MERCILESS), Ability.POISON_TOUCH,
-                30, 1200,
+                18, 1200,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 184, ExperienceGroup.MEDIUM_FAST,

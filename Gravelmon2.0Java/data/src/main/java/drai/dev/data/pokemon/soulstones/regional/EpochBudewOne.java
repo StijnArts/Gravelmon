@@ -23,7 +23,7 @@ public class EpochBudewOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokémon attempts to stay hidden or tries to camouflage itself near densely populated trees until it is ready to bloom as that is when it evolves."),
-                List.of(new EvolutionEntry("epochtwo roselia", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtworoselia", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PETAL_DANCE,55),

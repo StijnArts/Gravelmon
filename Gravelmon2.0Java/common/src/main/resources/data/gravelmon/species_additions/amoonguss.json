@@ -291,10 +291,166 @@
         "height": 7.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "fire",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 162,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "foongus form=epoch",
+      "baseScale": 0.19726027397260273,
+      "cannotDynamax": false,
+      "abilities": [
+        "steamengine",
+        "watercompaction",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 109,
+        "attack": 50,
+        "defence": 90,
+        "special_attack": 30,
+        "special_defence": 100,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "19:waterpulse",
+        "1:smokescreen",
+        "4:firespin",
+        "56:steameruption",
+        "22:banefulbunker",
+        "13:incinerate",
+        "37:toxic",
+        "1:smog",
+        "44:flamethrower",
+        "52:acidrain",
+        "60:eruption",
+        "1:ember",
+        "40:sludgebomb",
+        "31:scald",
+        "7:clearsmog",
+        "34:lavaplume",
+        "37:venomdrench",
+        "16:sludge",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:brine",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:corrosivegas",
+        "tm:curse",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flamethrower",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:mist",
+        "tm:mudslide",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scald",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steameruption",
+        "tm:stoneedge",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:waterpulse",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochamoonguss.desc"
+      ],
+      "height": 6,
+      "weight": 105,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5625,
+        "height": 4.5625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "nodorran",
-    "delta"
+    "delta",
+    "epoch"
   ]
 }

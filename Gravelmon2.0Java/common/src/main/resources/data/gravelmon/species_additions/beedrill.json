@@ -140,9 +140,37 @@
         "height": 3.6874999999999996,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "bug",
+      "secondaryType": "steel",
+      "baseScale": 0.4732394366197183,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "trace"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 35,
+        "defence": 70,
+        "special_attack": 120,
+        "special_defence": 140,
+        "speed": 105
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 14,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

@@ -68,7 +68,7 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:sand_stone",
+            "item": "gravelmon:solid_stone",
             "quantityRange": "1-1",
             "percentage": 40
           }

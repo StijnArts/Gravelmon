@@ -140,6 +140,32 @@
       }
     },
     {
+      "id": "epoch_gallade-01",
+      "pokemon": "gallade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-57",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "ishirian_gallade-01",
       "pokemon": "gallade ishirian",
       "presets": [

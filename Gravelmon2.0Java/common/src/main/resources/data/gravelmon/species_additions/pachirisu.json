@@ -278,11 +278,163 @@
         "height": 3.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "normal",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "simple",
+        "pickup",
+        "h:skilllink"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defence": 70,
+        "special_attack": 105,
+        "special_defence": 25,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "41:agility",
+        "8:quickattack",
+        "19:charm",
+        "10:bite",
+        "22:tailslap",
+        "13:furyswipes",
+        "19:captivate",
+        "54:endeavor",
+        "28:bulletseed",
+        "4:babydolleyes",
+        "50:return",
+        "58:doubleedge",
+        "25:partingshot",
+        "1:growl",
+        "38:seedbomb",
+        "62:bellydrum",
+        "6:falseswipe",
+        "32:noretreat",
+        "47:playrough",
+        "35:hyperfang",
+        "16:rapidspin",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bounce",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:crunch",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:frostbite",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:swift",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uturn",
+        "tm:wish",
+        "tm:workup",
+        "egg:bite",
+        "egg:covet",
+        "egg:faketears",
+        "egg:flail",
+        "egg:flatter",
+        "egg:followme",
+        "egg:tailwhip",
+        "egg:chipaway",
+        "egg:tripleaxel",
+        "egg:rockblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpachirisu.desc"
+      ],
+      "height": 4,
+      "weight": 39,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "fabelian",
-    "ayreian"
+    "ayreian",
+    "epoch"
   ],
   "evolutions": [
     {

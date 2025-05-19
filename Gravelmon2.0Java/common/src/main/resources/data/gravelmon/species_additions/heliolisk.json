@@ -284,7 +284,8 @@
       "primaryType": "electric",
       "secondaryType": "fire",
       "baseScale": 0.19565217391304346,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "chlorophyll"
       ],
@@ -299,9 +300,6 @@
       "labels": [
         "gen6",
         "daybreak"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 15,
       "aspects": [

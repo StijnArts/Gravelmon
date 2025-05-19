@@ -342,9 +342,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsolosisone_epochtwo_duosion",
+          "id": "epochsolosisone_epochtwoduosion",
           "variant": "level_up",
-          "result": "epochtwo duosion",
+          "result": "epochtwoduosion",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

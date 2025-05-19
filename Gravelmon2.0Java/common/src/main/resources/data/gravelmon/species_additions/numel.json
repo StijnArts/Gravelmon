@@ -336,9 +336,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnumelone_epochtwo_camerupt",
+          "id": "epochnumelone_epochtwocamerupt",
           "variant": "level_up",
-          "result": "epochtwo camerupt",
+          "result": "epochtwocamerupt",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

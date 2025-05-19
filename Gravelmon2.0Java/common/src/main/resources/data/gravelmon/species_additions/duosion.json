@@ -329,9 +329,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochduosionone_epochtwo_reuniclus",
+          "id": "epochduosionone_epochtworeuniclus",
           "variant": "level_up",
-          "result": "epochtwo reuniclus",
+          "result": "epochtworeuniclus",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

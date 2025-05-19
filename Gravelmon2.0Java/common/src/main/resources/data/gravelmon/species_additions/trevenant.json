@@ -819,6 +819,180 @@
         "height": 5.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "cosmic",
+      "secondaryType": "psychic",
+      "catchRate": 150,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 166,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.40909090909090906,
+      "cannotDynamax": false,
+      "abilities": [
+        "dazzling",
+        "wanderingspirit",
+        "h:psychicsurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 55,
+        "defence": 56,
+        "special_attack": 76,
+        "special_defence": 95,
+        "speed": 102
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "26:confuseray",
+        "41:speedswap",
+        "14:hypnosis",
+        "1:wish",
+        "29:astralbarrage",
+        "38:blackhole",
+        "32:dazzlinggleam",
+        "53:expandingforce",
+        "41:guardswap",
+        "60:healingwish",
+        "20:flash",
+        "44:psychic",
+        "50:cosmicpower",
+        "1:confusion",
+        "41:powerswap",
+        "56:psystrike",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtrevenantone.desc"
+      ],
+      "height": 15,
+      "weight": 710,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -826,6 +1000,7 @@
     "varitasian",
     "delta",
     "ayreian",
-    "kaskadian"
+    "kaskadian",
+    "epochtwo"
   ]
 }

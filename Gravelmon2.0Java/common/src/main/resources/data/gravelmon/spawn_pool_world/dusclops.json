@@ -53,6 +53,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_dusclops-01",
+      "pokemon": "dusclops epoch",
+      "presets": [
+        "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

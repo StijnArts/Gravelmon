@@ -563,11 +563,39 @@
         "height": 9.375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "normal",
+      "secondaryType": "steel",
+      "baseScale": 0.5714285714285714,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "motordrive"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 120,
+        "defence": 140,
+        "special_attack": 65,
+        "special_defence": 75,
+        "speed": 135
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 20,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "avalossian",
-    "egho"
+    "egho",
+    "epoch_mega"
   ]
 }

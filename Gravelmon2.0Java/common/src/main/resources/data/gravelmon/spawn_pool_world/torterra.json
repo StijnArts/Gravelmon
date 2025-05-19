@@ -62,6 +62,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_torterra-01",
+      "pokemon": "torterra epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
     }
   ]
 }

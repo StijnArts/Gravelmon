@@ -30,27 +30,24 @@ public class GravelmonMegas {
     public static void init() {
         var itemModifications = new ArrayList<ItemModificationEntry>();
         var usedNames = new HashSet<String>();
-        MEGA_EVOLUTIONS.forEach((pokemonId, megaIdList) -> {
+        var keys = new ArrayList<>(MEGA_EVOLUTIONS.keySet().stream().sorted().toList());
+        keys.forEach(pokemonId -> {
             var megaStoneName = MegaStoneNameGenerator.generateMegaStoneName(pokemonId);
+            var megaIdList = MEGA_EVOLUTIONS.get(pokemonId);
             megaIdList.forEach(mega -> {
                 var aspect = mega.getMegaAspect();
 
                 String accurateStoneName = mega.getMegaStoneName(megaStoneName);
                 if(usedNames.contains(accurateStoneName)) return;
                 var item = GravelmonItems.megaItem(accurateStoneName);
-                String userSpeciesName = pokemonId + (mega.getAspect() != null ? " " + mega.getAspect().getName() : "");
+                String userSpeciesName = pokemonId + (mega.getAspect() != null ? " " + mega.getAspect().toLowerCase().replaceAll("_","") : "");
 
-                MEGA_STONE_SUPPLIERS_IDS.put(item, new Pair(userSpeciesName, aspect));
+                MEGA_STONE_SUPPLIERS_IDS.put(item, new Pair<>(userSpeciesName, aspect));
                 MEGA_STONES_PER_POKEMON.computeIfAbsent(pokemonId, k -> new ArrayList<>()).add(item);
                 usedNames.add(accurateStoneName);
-                CobblemonHeldItemManager.INSTANCE.registerStackRemap(stack -> {
-                    if(MEGA_STONE_IDS.containsKey(stack.getItem())) {
-                        return BuiltInRegistries.ITEM.getKey(stack.getItem()).getPath().toLowerCase().replaceAll("_","");
-                    }
-                    return null;
-                });
 
                 ItemModificationEntry itemModificationEntry = new ItemModificationEntry(
+                        pokemonId,
                         userSpeciesName,
                         accurateStoneName,
                         pokemonId + " " + aspect);
@@ -58,6 +55,14 @@ public class GravelmonMegas {
                         itemModificationEntry
                 );
             });
+        });
+
+        CobblemonHeldItemManager.INSTANCE.registerStackRemap(stack -> {
+            if(MEGA_STONE_IDS.containsKey(stack.getItem())) {
+                var result = BuiltInRegistries.ITEM.getKey(stack.getItem()).getPath().toLowerCase().replaceAll("_","");
+                return result;
+            }
+            return null;
         });
 
         ShowdownItemManager.MODIFY_ITEMS_EVENT.subscribe(Priority.NORMAL, showdownItemModificationEvent -> {
@@ -68,12 +73,6 @@ public class GravelmonMegas {
         if (MEGA_STONE_SUPPLIERS_IDS.isEmpty()) return;
         GravelmonMegaStonesTab.touch();
         GravelmonMegaStonesTab.TABS.register();
-    }
-
-    public static List<MegaEvolution> getMegas(String name, Set<String> aspects) {
-        return MEGA_EVOLUTIONS.computeIfAbsent(name, k -> new ArrayList<>()).stream()
-                .filter(megaEvolution -> aspects
-                .stream().anyMatch(aspect->aspect.equalsIgnoreCase(megaEvolution.getAspect().getName()))).toList();
     }
 
     public static void lateInit() {

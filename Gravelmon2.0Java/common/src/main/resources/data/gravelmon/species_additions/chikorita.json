@@ -427,9 +427,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchikoritaone_epochtwo_bayleef",
+          "id": "epochchikoritaone_epochtwobayleef",
           "variant": "level_up",
-          "result": "epochtwo bayleef",
+          "result": "epochtwobayleef",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -490,12 +490,12 @@
         }
       },
       "baseStats": {
-        "hp": 55,
-        "attack": 55,
-        "defence": 38,
-        "special_attack": 23,
-        "special_defence": 42,
-        "speed": 38
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,

@@ -907,11 +907,170 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "steel",
+      "secondaryType": "cosmic",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4915662650602409,
+      "cannotDynamax": false,
+      "abilities": [
+        "mirrorarmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 100,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "39:zenheadbutt",
+        "18:magnetbomb",
+        "4:protect",
+        "42:blackhole",
+        "33:ironhead",
+        "51:geargrind",
+        "45:meteormash",
+        "1:shiftgear",
+        "39:psychic",
+        "60:roaroftime",
+        "7:miracleeye",
+        "1:confusion",
+        "54:steelbeam",
+        "12:gearup",
+        "24:psybeam",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gyroball",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsceptileone.desc"
+      ],
+      "height": 17,
+      "weight": 522,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      }
+    },
+    {
       "name": "armiran_mega",
       "primaryType": "poison",
       "secondaryType": "dark",
       "baseScale": 0.19487179487179485,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "electricsurge"
       ],
@@ -927,12 +1086,36 @@
         "gen3",
         "daybreak"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 19,
       "aspects": [
         "armiran_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "baseScale": 0.5846153846153846,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "tintedlens"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 130,
+        "defence": 105,
+        "special_attack": 130,
+        "special_defence": 65,
+        "speed": 105
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -943,6 +1126,8 @@
     "armiran",
     "ayreian",
     "mystic",
-    "armiran_mega"
+    "epochtwo",
+    "armiran_mega",
+    "epoch_mega"
   ]
 }

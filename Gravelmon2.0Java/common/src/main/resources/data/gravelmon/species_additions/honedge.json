@@ -445,9 +445,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhonedgetwo_epochtwo_doublade",
+          "id": "epochhonedgetwo_epochtwodoublade",
           "variant": "level_up",
-          "result": "epochtwo doublade",
+          "result": "epochtwodoublade",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

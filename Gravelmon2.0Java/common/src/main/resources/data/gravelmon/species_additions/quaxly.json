@@ -143,9 +143,178 @@
         "height": 3.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "normal",
+      "secondaryType": "sound",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "scrappy",
+        "costar",
+        "h:guts"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 45,
+        "special_attack": 55,
+        "special_defence": 40,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "42:falsesurrender",
+        "54:thrash",
+        "36:powertrip",
+        "30:retaliate",
+        "48:return",
+        "39:takedown",
+        "1:growl",
+        "27:punishment",
+        "36:workup",
+        "24:knockoff",
+        "12:rapidspin",
+        "1:pound",
+        "15:encore",
+        "4:focusenergy",
+        "6:payday",
+        "27:swagger",
+        "21:doubleslap",
+        "60:facade",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:soundbarrier",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:uproar",
+        "egg:lastresort",
+        "egg:suckerpunch",
+        "egg:throatchop",
+        "egg:acrobatics",
+        "egg:agility",
+        "egg:foulplay",
+        "egg:yawn",
+        "egg:featherdance",
+        "egg:teeterdance",
+        "egg:metronome",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochquaxly.desc"
+      ],
+      "height": 5,
+      "weight": 61,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochquaxly_quaxwell_epoch",
+          "variant": "level_up",
+          "result": "quaxwell epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "ayreian"
+    "ayreian",
+    "epoch"
   ]
 }

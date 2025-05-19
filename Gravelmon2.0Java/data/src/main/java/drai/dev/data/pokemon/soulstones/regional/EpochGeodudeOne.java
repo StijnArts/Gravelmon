@@ -23,7 +23,7 @@ public class EpochGeodudeOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("A spirit has possessed and empowered this Geodude giving it spectral powers."),
-                List.of(new EvolutionEntry("epochtwo graveler", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwograveler", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,18),

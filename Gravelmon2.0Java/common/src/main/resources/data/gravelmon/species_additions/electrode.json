@@ -676,6 +676,32 @@
         "height": 9.125,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ice",
+      "baseScale": 0.454054054054054,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 130,
+        "defence": 90,
+        "special_attack": 140,
+        "special_defence": 50,
+        "speed": 120
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 14,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -683,7 +709,8 @@
     "epochtwo",
     "norheiman",
     "ayreian",
-    "mystic"
+    "mystic",
+    "epoch_mega"
   ],
   "evolutions": [
     {

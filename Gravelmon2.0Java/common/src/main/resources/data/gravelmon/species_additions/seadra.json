@@ -429,9 +429,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochseadraone_epochtwo_kingdra",
+          "id": "epochseadraone_epochtwokingdra",
           "variant": "item_interact",
-          "result": "epochtwo kingdra",
+          "result": "epochtwokingdra",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

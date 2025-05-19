@@ -329,10 +329,188 @@
         "height": 12.25,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "flying",
+      "secondaryType": "ghost",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 236,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "illuminate",
+        "windrider",
+        "h:screencleaner"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 61,
+        "defence": 81,
+        "special_attack": 84,
+        "special_defence": 104,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "60:hurricane",
+        "39:typhoon",
+        "30:airslash",
+        "12:ominouswind",
+        "1:gust",
+        "1:haunt",
+        "15:aircutter",
+        "6:purify",
+        "52:tailwind",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:memento",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:tailglow",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:weatherball",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtorterraone.desc"
+      ],
+      "height": 22,
+      "weight": 3100,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "dragon",
+      "secondaryType": "fire",
+      "baseScale": 0.7518072289156627,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "stamina"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 129,
+        "defence": 135,
+        "special_attack": 56,
+        "special_defence": 75,
+        "speed": 135
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 26,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "delta"
+    "delta",
+    "epochtwo",
+    "epoch_mega"
   ]
 }

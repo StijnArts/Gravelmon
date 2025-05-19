@@ -175,7 +175,8 @@
       "primaryType": "water",
       "secondaryType": "fighting",
       "baseScale": 0.17684210526315788,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "noguard"
       ],
@@ -190,9 +191,6 @@
       "labels": [
         "gen1",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 14,
       "aspects": [

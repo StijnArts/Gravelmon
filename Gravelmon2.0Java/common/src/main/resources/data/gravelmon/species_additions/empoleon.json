@@ -259,10 +259,38 @@
         "height": 5.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "water",
+      "secondaryType": "ice",
+      "baseScale": 0.5837837837837838,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "filter"
+      ],
+      "baseStats": {
+        "hp": 84,
+        "attack": 131,
+        "defence": 118,
+        "special_attack": 90,
+        "special_defence": 86,
+        "speed": 121
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "interian"
+    "interian",
+    "epoch_mega"
   ]
 }

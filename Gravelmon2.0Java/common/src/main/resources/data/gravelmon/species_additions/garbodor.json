@@ -458,11 +458,39 @@
         "height": 9.875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "poison",
+      "baseScale": 0.65,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "neutralizinggas"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 60,
+        "defence": 132,
+        "special_attack": 60,
+        "special_defence": 116,
+        "speed": 132
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 26,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "mahalian",
     "epoch",
-    "egho"
+    "egho",
+    "epoch_mega"
   ]
 }

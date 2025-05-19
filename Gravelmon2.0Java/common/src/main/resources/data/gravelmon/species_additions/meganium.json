@@ -931,7 +931,8 @@
       "primaryType": "grass",
       "secondaryType": "fairy",
       "baseScale": 0.25,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "magicbounce"
       ],
@@ -946,9 +947,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 20,
       "aspects": [

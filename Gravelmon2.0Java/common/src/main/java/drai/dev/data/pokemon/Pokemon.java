@@ -15,7 +15,6 @@ import java.util.stream.*;
 import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 
 public class Pokemon extends AbstractPokemon {
-
     boolean isShoulderMountable = false;
 
     private int pokedexNumber;

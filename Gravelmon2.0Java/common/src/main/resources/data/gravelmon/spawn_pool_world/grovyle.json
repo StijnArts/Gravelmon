@@ -145,6 +145,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_grovyle-01",
+      "pokemon": "grovyle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

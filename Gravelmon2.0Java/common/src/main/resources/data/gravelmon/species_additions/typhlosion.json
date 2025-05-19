@@ -1020,7 +1020,8 @@
       "name": "mega",
       "primaryType": "fire",
       "baseScale": 0.268235294117647,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "hubris"
       ],
@@ -1036,20 +1037,18 @@
         "gen2",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 19,
       "aspects": [
         "mega"
       ]
     },
     {
-      "name": "deltainactive_mega",
+      "name": "delta_mega",
       "primaryType": "electric",
       "secondaryType": "steel",
       "baseScale": 21.6,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -1065,20 +1064,18 @@
         "gen2",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 18,
       "aspects": [
-        "deltainactive_mega"
+        "delta_mega"
       ]
     },
     {
-      "name": "deltaactive_mega",
+      "name": "delta_active_mega",
       "primaryType": "electric",
       "secondaryType": "steel",
       "baseScale": 21.6,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -1094,12 +1091,9 @@
         "gen2",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 18,
       "aspects": [
-        "deltaactive_mega"
+        "delta_active_mega"
       ]
     }
   ],
@@ -1111,7 +1105,7 @@
     "delta",
     "ayreian",
     "mega",
-    "deltainactive_mega",
-    "deltaactive_mega"
+    "delta_mega",
+    "delta_active_mega"
   ]
 }

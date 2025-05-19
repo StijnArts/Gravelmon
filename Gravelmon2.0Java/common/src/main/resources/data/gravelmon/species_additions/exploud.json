@@ -422,11 +422,39 @@
         "height": 4.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "sound",
+      "baseScale": 0.49230769230769234,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "punkrock"
+      ],
+      "baseStats": {
+        "hp": 104,
+        "attack": 66,
+        "defence": 93,
+        "special_attack": 108,
+        "special_defence": 126,
+        "speed": 93
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "raianian",
     "epoch",
-    "kaskadian"
+    "kaskadian",
+    "epoch_mega"
   ]
 }

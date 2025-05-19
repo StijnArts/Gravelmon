@@ -23,7 +23,7 @@ public class EpochLarvestaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It is said to be a Pokemon from a different galaxy altogether, and it actually managed to travel here by opening a wormhole."),
-                List.of(new EvolutionEntry("epochtwo volcarona", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwovolcarona", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTACK_ORDER,44),

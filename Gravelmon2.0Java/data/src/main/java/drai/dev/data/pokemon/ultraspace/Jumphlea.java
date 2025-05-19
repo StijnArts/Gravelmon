@@ -32,7 +32,7 @@ public class Jumphlea extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),

@@ -306,9 +306,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskiploomone_epochtwo_jumpluff",
+          "id": "epochskiploomone_epochtwojumpluff",
           "variant": "level_up",
-          "result": "epochtwo jumpluff",
+          "result": "epochtwojumpluff",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

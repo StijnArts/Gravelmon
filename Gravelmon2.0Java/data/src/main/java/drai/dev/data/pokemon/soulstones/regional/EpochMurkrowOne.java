@@ -23,7 +23,7 @@ public class EpochMurkrowOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They are often used as familiars to wizards so they pick up a fair bit of magical skill by themselves from their wizard masters."),
-                List.of(new EvolutionEntry("epochtwo honchkrow", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwohonchkrow", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_SPELL,46),

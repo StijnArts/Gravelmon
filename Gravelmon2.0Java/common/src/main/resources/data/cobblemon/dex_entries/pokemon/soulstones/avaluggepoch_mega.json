@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:avaluggepoch_mega",
+  "speciesId": "cobblemon:avalugg",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

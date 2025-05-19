@@ -878,6 +878,184 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "poison",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 233,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.49230769230769234,
+      "cannotDynamax": false,
+      "abilities": [
+        "gooey",
+        "poisonpoint",
+        "h:corrosion"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 88,
+        "attack": 115,
+        "defence": 100,
+        "special_attack": 90,
+        "special_defence": 65,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "22:armthrust",
+        "25:disable",
+        "34:zenheadbutt",
+        "1:wrap",
+        "57:plague",
+        "60:closecombat",
+        "31:poisonjab",
+        "4:rocksmash",
+        "16:lowsweep",
+        "10:hypnosis",
+        "47:psychicfangs",
+        "1:coil",
+        "19:poisontail",
+        "1:machpunch",
+        "13:poisonfang",
+        "28:drainpunch",
+        "50:swordsdance",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dragonbreath",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:quicksand",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soundbarrier",
+        "tm:stealthrock",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgalladeone.desc"
+      ],
+      "height": 16,
+      "weight": 520,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "dark",
       "secondaryType": "fighting",
@@ -1055,7 +1233,8 @@
       "primaryType": "electric",
       "secondaryType": "ice",
       "baseScale": 0.26666666666666666,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "voltabsorb"
       ],
@@ -1071,12 +1250,63 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 18,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "flying",
+      "secondaryType": "fairy",
+      "baseScale": 21.6,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 138,
+        "defence": 110,
+        "special_attack": 140,
+        "special_defence": 63,
+        "speed": 82
+      },
+      "labels": [
+        "gen4",
+        "vanguard"
+      ],
+      "height": 18,
+      "aspects": [
+        "ayreian_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "baseScale": 0.5428571428571428,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sharpness"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "attack": 105,
+        "defence": 110,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 100
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -1086,7 +1316,10 @@
     "avalossian",
     "delta",
     "ayreian",
+    "epochtwo",
     "ishirian",
-    "delta_mega"
+    "delta_mega",
+    "ayreian_mega",
+    "epoch_mega"
   ]
 }

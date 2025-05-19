@@ -431,9 +431,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstantlerone_epochtwo_wyrdeer",
+          "id": "epochstantlerone_epochtwowyrdeer",
           "variant": "item_interact",
-          "result": "epochtwo wyrdeer",
+          "result": "epochtwowyrdeer",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

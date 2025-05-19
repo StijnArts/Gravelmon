@@ -112,6 +112,32 @@
       }
     },
     {
+      "id": "epoch_gardevoir-01",
+      "pokemon": "gardevoir epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-57",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ishirian_gardevoir-01",
       "pokemon": "gardevoir ishirian",
       "presets": [

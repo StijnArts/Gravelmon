@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aggronepoch_mega",
+  "speciesId": "cobblemon:aggron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

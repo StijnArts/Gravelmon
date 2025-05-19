@@ -88,6 +88,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_maractus-01",
+      "pokemon": "maractus epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

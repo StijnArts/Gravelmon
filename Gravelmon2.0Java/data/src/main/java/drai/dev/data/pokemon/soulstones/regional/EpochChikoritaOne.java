@@ -23,7 +23,7 @@ public class EpochChikoritaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("This Pokemon has electrical currents swirling from its antennae that it can channel and redirect in any direction it chooses."),
-                List.of(new EvolutionEntry("epochtwo bayleef", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwobayleef", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_GLOW,46),

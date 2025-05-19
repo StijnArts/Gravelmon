@@ -326,7 +326,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "sentret form=epoch",
-      "baseScale": 0.7714285714285714,
+      "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
         "mummy",
@@ -457,7 +457,7 @@
       "pokedex": [
         "cobblemon.species.epochfurret.desc"
       ],
-      "height": 18,
+      "height": 14,
       "weight": 325,
       "aspects": [
         "epoch"
@@ -634,6 +634,33 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ghost",
+      "secondaryType": "poison",
+      "baseScale": 0.42197802197802203,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 41,
+        "defence": 54,
+        "special_attack": 115,
+        "special_defence": 135,
+        "speed": 110
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -641,6 +668,7 @@
     "norse",
     "forman",
     "epoch",
-    "aristosian"
+    "aristosian",
+    "epoch_mega"
   ]
 }

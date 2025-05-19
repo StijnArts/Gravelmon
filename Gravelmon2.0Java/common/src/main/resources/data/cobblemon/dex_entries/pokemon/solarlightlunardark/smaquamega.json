@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:smaquamega",
+  "speciesId": "cobblemon:smaqua",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

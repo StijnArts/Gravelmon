@@ -862,6 +862,169 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5493975903614458,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "competitive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 110,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "8:siphon",
+        "6:corrosivegas",
+        "23:gastroacid",
+        "44:nastyplot",
+        "41:darkvoid",
+        "56:toxic",
+        "1:smog",
+        "53:acidrain",
+        "14:snarl",
+        "47:sludgewave",
+        "4:poisongas",
+        "50:venomdrench",
+        "29:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epocharcanineone.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "ghost",
       "secondaryType": "fire",
@@ -1017,6 +1180,60 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "mega_p",
+      "primaryType": "fire",
+      "secondaryType": "dragon",
+      "baseScale": 0.6072289156626506,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dragonsmaw"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 145,
+        "defence": 95,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 130
+      },
+      "labels": [
+        "gen1",
+        "phoenix_rising"
+      ],
+      "height": 21,
+      "aspects": [
+        "mega_p"
+      ]
+    },
+    {
+      "name": "mega_x",
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "baseScale": 0.27878787878787875,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 110,
+        "defence": 80,
+        "special_attack": 130,
+        "special_defence": 80,
+        "speed": 155
+      },
+      "labels": [
+        "gen1",
+        "xenoverse"
+      ],
+      "height": 23,
+      "aspects": [
+        "mega_x"
+      ]
     }
   ],
   "features": [
@@ -1026,6 +1243,9 @@
     "aristosian",
     "delta",
     "armiran",
-    "ishirian"
+    "epochtwo",
+    "ishirian",
+    "mega_p",
+    "mega_x"
   ]
 }

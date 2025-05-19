@@ -794,6 +794,204 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "psychic",
+      "secondaryType": "cosmic",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 77,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.1121951219512194,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockypayload",
+        "h:contrary"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 85,
+        "defence": 90,
+        "special_attack": 70,
+        "special_defence": 30,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "40:asteroidbelt",
+        "1:leer",
+        "1:rockthrow",
+        "1:mindblast",
+        "55:reflect",
+        "22:bite",
+        "49:stoneedge",
+        "55:lightscreen",
+        "37:crunch",
+        "37:psychicfangs",
+        "19:rockpolish",
+        "31:rockslide",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:expandingforce",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:moonblast",
+        "tm:mudslide",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:safeguard",
+        "tm:sandstorm",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:weatherball",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:zenheadbutt",
+        "egg:wonderroom",
+        "egg:trickroom",
+        "egg:magicroom",
+        "egg:cosmicpower",
+        "egg:wideguard",
+        "egg:frostbite",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochonixone.desc"
+      ],
+      "height": 38,
+      "weight": 2100,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochonixone_epochtwosteelix",
+          "variant": "item_interact",
+          "result": "epochtwosteelix",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:solid_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.125,
+        "height": 5.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "rock",
       "secondaryType": "fairy",
@@ -966,6 +1164,7 @@
     "nodorran",
     "epoch",
     "hoennian",
+    "epochtwo",
     "ishirian"
   ]
 }

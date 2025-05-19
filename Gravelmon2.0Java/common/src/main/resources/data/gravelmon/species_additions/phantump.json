@@ -846,6 +846,198 @@
         "height": 2.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "cosmic",
+      "secondaryType": "psychic",
+      "catchRate": 150,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18461538461538463,
+      "cannotDynamax": false,
+      "abilities": [
+        "dazzling",
+        "wanderingspirit",
+        "h:synchronize"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 53,
+        "attack": 40,
+        "defence": 38,
+        "special_attack": 43,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "26:confuseray",
+        "41:speedswap",
+        "60:healingwish",
+        "20:flash",
+        "14:hypnosis",
+        "44:psychic",
+        "29:astralbarrage",
+        "50:cosmicpower",
+        "1:confusion",
+        "38:blackhole",
+        "32:dazzlinggleam",
+        "53:expandingforce",
+        "41:powerswap",
+        "41:guardswap",
+        "56:psystrike",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:eeriespell",
+        "egg:dreameater",
+        "egg:memento",
+        "egg:stardust",
+        "egg:lightscreen",
+        "egg:reflect",
+        "egg:psychicterrain",
+        "egg:psybeam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochphantumpone.desc"
+      ],
+      "height": 4,
+      "weight": 70,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochphantumpone_epochtwotrevenant",
+          "variant": "item_interact",
+          "result": "epochtwotrevenant",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -853,6 +1045,7 @@
     "varitasian",
     "delta",
     "ayreian",
-    "kaskadian"
+    "kaskadian",
+    "epochtwo"
   ]
 }

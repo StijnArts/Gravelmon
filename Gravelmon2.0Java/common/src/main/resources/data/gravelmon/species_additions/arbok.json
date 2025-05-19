@@ -119,7 +119,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "ekans form=epoch",
-      "baseScale": 1.3333333333333333,
+      "baseScale": 0.6857142857142857,
       "cannotDynamax": false,
       "abilities": [
         "corrosion",
@@ -251,7 +251,7 @@
       "pokedex": [
         "cobblemon.species.epocharbok.desc"
       ],
-      "height": 35,
+      "height": 18,
       "weight": 650,
       "aspects": [
         "epoch"
@@ -474,13 +474,41 @@
         "height": 4.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ground",
+      "secondaryType": "poison",
+      "baseScale": 0.5560975609756097,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "intimidate"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 130,
+        "defence": 89,
+        "special_attack": 120,
+        "special_defence": 85,
+        "speed": 89
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "nodorran",
     "epoch",
     "ionosian",
-    "alteran"
+    "alteran",
+    "epoch_mega"
   ],
   "evolutions": [
     {

@@ -318,7 +318,8 @@
       "primaryType": "psychic",
       "secondaryType": "fighting",
       "baseScale": 0.31058823529411766,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "shadowsynergy"
       ],
@@ -333,9 +334,6 @@
       "labels": [
         "gen1",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 22,
       "aspects": [

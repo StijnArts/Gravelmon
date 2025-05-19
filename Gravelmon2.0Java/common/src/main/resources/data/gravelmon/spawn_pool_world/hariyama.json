@@ -29,6 +29,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_hariyama-01",
+      "pokemon": "hariyama epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

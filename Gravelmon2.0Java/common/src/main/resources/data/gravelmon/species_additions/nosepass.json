@@ -472,9 +472,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnosepassone_epochtwo_probopass",
+          "id": "epochnosepassone_epochtwoprobopass",
           "variant": "item_interact",
-          "result": "epochtwo probopass",
+          "result": "epochtwoprobopass",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

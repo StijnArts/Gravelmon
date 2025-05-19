@@ -146,9 +146,153 @@
         "height": 5.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "electric",
+      "secondaryType": "fighting",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 265,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.45176470588235296,
+      "cannotDynamax": false,
+      "abilities": [
+        "competitive",
+        "static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 65,
+        "defence": 85,
+        "special_attack": 95,
+        "special_defence": 110,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "6:thunderwave",
+        "1:leer",
+        "1:thundershock",
+        "13:thundercage",
+        "8:chargebeam",
+        "46:thunderbolt",
+        "19:aircutter",
+        "22:tailwind",
+        "28:risingvoltage",
+        "49:focusblast",
+        "56:thunder",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:boltbeak",
+        "tm:bounce",
+        "tm:bravebird",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:electricterrain",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdecidueyeone.desc"
+      ],
+      "height": 16,
+      "weight": 366,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.3125,
+        "height": 5.3125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "epochtwo"
   ]
 }

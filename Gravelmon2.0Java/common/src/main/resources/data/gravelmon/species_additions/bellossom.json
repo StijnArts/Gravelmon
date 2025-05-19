@@ -158,9 +158,37 @@
         "height": 3.0,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "flashfire"
+      ],
+      "baseStats": {
+        "hp": 155,
+        "attack": 80,
+        "defence": 85,
+        "special_attack": 100,
+        "special_defence": 110,
+        "speed": 50
+      },
+      "labels": [
+        "gen2",
+        "xenoverse"
+      ],
+      "height": 7,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "mega"
   ]
 }

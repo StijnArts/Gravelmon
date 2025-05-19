@@ -24,7 +24,7 @@ public class EpochMilcery extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("This Pokémon is the toxic residue that manifests near locations rich in fossil fuels. Its body is very hot to the touch."),
                 List.of(new EvolutionEntry("epochalcremie", EvolutionType.ITEM_INTERACT, false, List.of(),
- List.of(), List.of(), "gravelmon:sand_stone")),
+ List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garbodorepoch_mega",
+  "speciesId": "cobblemon:garbodor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

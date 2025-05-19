@@ -311,9 +311,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsurskitone_epochtwo_masquerain",
+          "id": "epochsurskitone_epochtwomasquerain",
           "variant": "level_up",
-          "result": "epochtwo masquerain",
+          "result": "epochtwomasquerain",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

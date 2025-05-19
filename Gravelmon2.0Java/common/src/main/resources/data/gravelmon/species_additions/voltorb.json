@@ -408,9 +408,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvoltorbone_epochtwo_electrode",
+          "id": "epochvoltorbone_epochtwoelectrode",
           "variant": "level_up",
-          "result": "epochtwo electrode",
+          "result": "epochtwoelectrode",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

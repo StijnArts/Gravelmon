@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lucarioayreian_mega",
+  "speciesId": "cobblemon:lucario",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "ayreian_mega",
+      "unlockForms": [
+        "ayreian_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -313,10 +313,38 @@
         "height": 5.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "ground",
+      "baseScale": 0.7200000000000001,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "galvanize"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 120,
+        "defence": 135,
+        "special_attack": 90,
+        "special_defence": 55,
+        "speed": 110
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 27,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "epoch_mega"
   ]
 }

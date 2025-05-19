@@ -23,7 +23,7 @@ public class EpochHorseaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("It is responsible for pollinating many flowers in local fields and forests. When they do so, you can hear a loud buzzing noise."),
-                List.of(new EvolutionEntry("epochtwo seadra", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoseadra", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,42),

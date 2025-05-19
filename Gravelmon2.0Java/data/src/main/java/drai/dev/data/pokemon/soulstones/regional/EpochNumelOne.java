@@ -23,7 +23,7 @@ public class EpochNumelOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its breath can crystallize the air around it into snowflakes."),
-                List.of(new EvolutionEntry("epochtwo camerupt", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwocamerupt", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,32),

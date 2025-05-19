@@ -15,6 +15,8 @@
         "biomes": [
           "#cobblemon:is_overworld"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "neededNearbyBlocks": [
           "cobblemon:pc"
         ]

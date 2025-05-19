@@ -1,6 +1,5 @@
 package drai.dev.data.games.registry;
 
-import drai.dev.data.*;
 import drai.dev.data.games.instagram.artworks218.*;
 import drai.dev.data.games.instagram.eldark.*;
 import drai.dev.data.games.instagram.federex.*;

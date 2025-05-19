@@ -46,6 +46,8 @@
         "biomes": [
           "#cobblemon:is_overworld"
         ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 0
       },
       "weightMultiplier": {

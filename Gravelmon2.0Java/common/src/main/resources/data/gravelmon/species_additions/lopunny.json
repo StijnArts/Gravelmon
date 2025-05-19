@@ -669,7 +669,8 @@
       "primaryType": "fighting",
       "secondaryType": "psychic",
       "baseScale": 0.2857142857142857,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "infiltrator"
       ],
@@ -685,12 +686,36 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 15,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "secondaryType": "ice",
+      "baseScale": 0.42162162162162165,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dancer"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 116,
+        "defence": 100,
+        "special_attack": 115,
+        "special_defence": 74,
+        "speed": 120
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 13,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -699,6 +724,7 @@
     "delta",
     "cefiran",
     "mikitarian",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega"
   ]
 }

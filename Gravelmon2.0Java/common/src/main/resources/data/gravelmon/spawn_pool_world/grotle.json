@@ -62,6 +62,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_grotle-01",
+      "pokemon": "grotle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_soul_sand"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
     }
   ]
 }

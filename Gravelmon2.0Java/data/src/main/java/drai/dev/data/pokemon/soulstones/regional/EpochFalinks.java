@@ -16,7 +16,7 @@ public class EpochFalinks extends drai.dev.data.pokemon.Pokemon {
                         65,
                         90),
                 List.of(Ability.PURE_POWER,Ability.GENIUS), Ability.NEBULACLOUD,
-                30, 620,
+                11, 620,
                 new Stats(0,2,0,0,0,0), 90,
                 -1.0,
                 165, ExperienceGroup.MEDIUM_FAST,

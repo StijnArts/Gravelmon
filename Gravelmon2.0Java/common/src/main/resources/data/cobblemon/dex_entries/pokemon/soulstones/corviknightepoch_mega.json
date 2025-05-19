@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:corviknightepoch_mega",
+  "speciesId": "cobblemon:corviknight",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

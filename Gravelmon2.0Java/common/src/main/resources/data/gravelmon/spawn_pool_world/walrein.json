@@ -34,6 +34,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_walrein-01",
+      "pokemon": "walrein epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
     }
   ]
 }

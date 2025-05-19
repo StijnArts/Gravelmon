@@ -621,12 +621,40 @@
         "height": 5.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "darkaura"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 120,
+        "defence": 105,
+        "special_attack": 110,
+        "special_defence": 85,
+        "speed": 115
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
     "novran",
-    "mystisian"
+    "mystisian",
+    "epochone_mega"
   ]
 }

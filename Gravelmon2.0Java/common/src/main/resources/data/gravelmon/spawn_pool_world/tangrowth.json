@@ -144,6 +144,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_tangrowth-01",
+      "pokemon": "tangrowth epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
     }
   ]
 }

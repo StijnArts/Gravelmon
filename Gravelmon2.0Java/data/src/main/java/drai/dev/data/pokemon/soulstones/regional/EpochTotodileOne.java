@@ -23,7 +23,7 @@ public class EpochTotodileOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It is said that this Pokemon abounds in the underworld and its fire is from an ethereal plane."),
-                List.of(new EvolutionEntry("epochtwo croconaw", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwocroconaw", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINFULSMITE,22),

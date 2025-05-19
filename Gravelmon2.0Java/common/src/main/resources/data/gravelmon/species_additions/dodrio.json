@@ -743,6 +743,33 @@
         "height": 1.6,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "secondaryType": "flying",
+      "baseScale": 0.5772151898734177,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "competitive"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 60,
+        "defence": 60,
+        "special_attack": 120,
+        "special_defence": 140,
+        "speed": 130
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -750,6 +777,7 @@
     "epochtwo",
     "delta",
     "seviian",
-    "hoennian"
+    "hoennian",
+    "epoch_mega"
   ]
 }

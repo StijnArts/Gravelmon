@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hippowdonepoch_mega",
+  "speciesId": "cobblemon:hippowdon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

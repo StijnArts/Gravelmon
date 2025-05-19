@@ -24,7 +24,9 @@ public class EpochYamask extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It rhythmically pounds away at its drum in a consistent pattern. It is not clear what the rhythm relates to or what it means."),
                 List.of(new EvolutionEntry("epochcofagrigus", EvolutionType.ITEM_INTERACT, false, List.of(),
- List.of(), List.of(), "gravelmon:ocarina")),
+ List.of(), List.of(), "gravelmon:ocarina"),
+                        new EvolutionEntry("epochrunerigus", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,16),
                         new MoveLearnSetEntry(Move.BOOMINGBEATS,32),

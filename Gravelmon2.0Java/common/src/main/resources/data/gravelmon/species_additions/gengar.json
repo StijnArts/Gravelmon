@@ -1021,6 +1021,33 @@
         "height": 13.75,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ice",
+      "secondaryType": "flying",
+      "baseScale": 0.4987012987012987,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "icebody"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 65,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 145,
+        "speed": 100
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -1030,6 +1057,7 @@
     "havaiian",
     "x",
     "ayreian",
-    "kaskadian"
+    "kaskadian",
+    "epoch_mega"
   ]
 }

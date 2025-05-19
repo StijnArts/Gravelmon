@@ -939,6 +939,86 @@
         "height": 3.625,
         "fixed": false
       }
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "baseScale": 22.799999999999997,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "chlorophyll"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 140,
+        "defence": 80,
+        "special_attack": 95,
+        "special_defence": 135,
+        "speed": 80
+      },
+      "labels": [
+        "gen3",
+        "vanguard"
+      ],
+      "height": 19,
+      "aspects": [
+        "ayreian_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "light",
+      "baseScale": 0.4097560975609756,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 130,
+        "defence": 90,
+        "special_attack": 125,
+        "special_defence": 75,
+        "speed": 80
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 14,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "psychic",
+      "secondaryType": "cosmic",
+      "baseScale": 0.4413793103448276,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sniper"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 120,
+        "defence": 105,
+        "special_attack": 115,
+        "special_defence": 45,
+        "speed": 115
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
@@ -948,7 +1028,10 @@
     "epoch",
     "epochtwo",
     "ayreian",
-    "mystisian"
+    "mystisian",
+    "ayreian_mega",
+    "epoch_mega",
+    "epochone_mega"
   ],
   "evolutions": [
     {

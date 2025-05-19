@@ -23,7 +23,7 @@ public class EpochDrilburOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When light beams bounce off this Pokemon, it can produce and warp the colours into colourful displays."),
-                List.of(new EvolutionEntry("epochtwo excadrill", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoexcadrill", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FREEZEDRY,24),

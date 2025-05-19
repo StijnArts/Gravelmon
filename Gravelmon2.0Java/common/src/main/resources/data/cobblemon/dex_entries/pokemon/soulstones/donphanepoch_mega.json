@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:donphanepoch_mega",
+  "speciesId": "cobblemon:donphan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

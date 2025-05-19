@@ -23,7 +23,7 @@ public class EpochMarshtompOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("When deep in a cave, if you see a light where you don not know where its source is coming from, it is likely from a T.Marshtomp."),
-                List.of(new EvolutionEntry("epochtwo swampert", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoswampert", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REJUVENATE,6),

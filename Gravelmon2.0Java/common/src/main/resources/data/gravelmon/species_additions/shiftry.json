@@ -325,11 +325,12 @@
       }
     },
     {
-      "name": "mega",
+      "name": "mega_i",
       "primaryType": "grass",
       "secondaryType": "dark",
       "baseScale": 0.17872340425531913,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "shadowdance"
       ],
@@ -345,18 +346,43 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 14,
       "aspects": [
-        "mega"
+        "mega_i"
+      ]
+    },
+    {
+      "name": "mega_x",
+      "primaryType": "flying",
+      "secondaryType": "dark",
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "prankster"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 160,
+        "special_defence": 80,
+        "speed": 40
+      },
+      "labels": [
+        "gen3",
+        "xenoverse"
+      ],
+      "height": 15,
+      "aspects": [
+        "mega_x"
       ]
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "mega"
+    "mega_i",
+    "mega_x"
   ]
 }

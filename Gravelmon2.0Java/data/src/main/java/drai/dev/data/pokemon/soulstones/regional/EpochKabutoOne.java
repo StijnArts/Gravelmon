@@ -23,7 +23,7 @@ public class EpochKabutoOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("This Pokemon is thought to be a cybernetic predator from a distant planet. It crash landed several million years ago."),
-                List.of(new EvolutionEntry("epochtwo kabutops", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwokabutops", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,30),

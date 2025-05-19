@@ -23,7 +23,7 @@ public class EpochSlugmaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
                 List.of("This Pokemon is very small and found along the sea floor or in small ponds. It will suck up dead algae that have fallen to the bottom of the sea floor as food."),
-                List.of(new EvolutionEntry("epochtwo magcargo", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomagcargo", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

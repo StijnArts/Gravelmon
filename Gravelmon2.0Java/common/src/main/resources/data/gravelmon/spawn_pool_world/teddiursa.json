@@ -42,7 +42,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -160,6 +162,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_teddiursa-01",
+      "pokemon": "teddiursa epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
           ]
         }
       }

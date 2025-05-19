@@ -310,9 +310,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagnetonone_epochtwo_magnezone",
+          "id": "epochmagnetonone_epochtwomagnezone",
           "variant": "item_interact",
-          "result": "epochtwo magnezone",
+          "result": "epochtwomagnezone",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

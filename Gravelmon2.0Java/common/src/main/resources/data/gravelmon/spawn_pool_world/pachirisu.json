@@ -12,12 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -49,6 +51,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_pachirisu-01",
+      "pokemon": "pachirisu epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
           ]
         }
       }

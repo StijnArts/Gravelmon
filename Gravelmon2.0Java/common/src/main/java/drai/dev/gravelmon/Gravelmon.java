@@ -33,7 +33,6 @@ public class Gravelmon
 		GravelmonPokeballs.touch();
 		boolean megaShowdownPresent = Platform.isModLoaded("mega_showdown");
 		if(megaShowdownPresent) {
-			Mixins.addConfiguration("gravelmon.megashowdown.mixins.json");
 			GravelmonMegas.init();
 		}
 		GravelmonBlocks.BLOCKS.register();

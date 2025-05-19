@@ -446,11 +446,39 @@
         "height": 0.6,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "poison",
+      "secondaryType": "flying",
+      "baseScale": 0.1411764705882353,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "moxie"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 135,
+        "defence": 75,
+        "special_attack": 138,
+        "special_defence": 40,
+        "speed": 75
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 5,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "hoennian"
+    "hoennian",
+    "epoch_mega"
   ]
 }

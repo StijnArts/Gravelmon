@@ -542,12 +542,176 @@
         "height": 1.4,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "secondaryType": "grass",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 82,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 100,
+        "special_defence": 75,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "12:waterpulse",
+        "52:petaldance",
+        "42:energyball",
+        "33:gigadrain",
+        "18:magicalleaf",
+        "4:watergun",
+        "30:tearfullook",
+        "21:aromatherapy",
+        "1:fairywind",
+        "45:sparklingaria",
+        "1:lifedew",
+        "1:absorb",
+        "39:decorate",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:energyball",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:magicalleaf",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:solarbeam",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:leaftornado",
+        "egg:followme",
+        "egg:leechseed",
+        "egg:aquaring",
+        "egg:geomancy",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochponytaone.desc"
+      ],
+      "height": 10,
+      "weight": 300,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochponytaone_epochtworapidash",
+          "variant": "level_up",
+          "result": "epochtworapidash",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "38"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "forman",
     "epoch",
     "africanusan",
-    "x"
+    "x",
+    "epochtwo"
   ]
 }

@@ -27,6 +27,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_malamar-01",
+      "pokemon": "malamar epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:sculk"
+          ]
+        }
+      }
     }
   ]
 }

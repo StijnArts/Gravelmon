@@ -29,6 +29,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_sandshrew-01",
+      "pokemon": "sandshrew epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "9-29",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
     }
   ]
 }

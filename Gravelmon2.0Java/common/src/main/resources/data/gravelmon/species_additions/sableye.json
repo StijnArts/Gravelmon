@@ -927,7 +927,8 @@
       "primaryType": "fire",
       "secondaryType": "rock",
       "baseScale": 0.12352941176470589,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "dryskin"
       ],
@@ -943,12 +944,63 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 7,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "baseScale": 0.24705882352941178,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "magicguard"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 140,
+        "defence": 130,
+        "special_attack": 60,
+        "special_defence": 45,
+        "speed": 130
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 7,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "water",
+      "secondaryType": "bug",
+      "baseScale": 0.2333333333333333,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "soundproof"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defence": 120,
+        "special_attack": 70,
+        "special_defence": 50,
+        "speed": 120
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 7,
+      "aspects": [
+        "epochone_mega"
       ]
     }
   ],
@@ -959,7 +1011,9 @@
     "enjinnian",
     "delta",
     "cefiran",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega",
+    "epochone_mega"
   ],
   "evolutions": [
     {

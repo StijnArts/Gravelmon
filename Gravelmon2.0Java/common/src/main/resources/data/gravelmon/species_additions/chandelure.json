@@ -506,12 +506,40 @@
         "height": 8.625,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "light",
+      "secondaryType": "ghost",
+      "baseScale": 0.5260273972602739,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 65,
+        "defence": 80,
+        "special_attack": 130,
+        "special_defence": 140,
+        "speed": 135
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "fabelian",
     "epoch",
     "lagoonan",
-    "delta"
+    "delta",
+    "epoch_mega"
   ]
 }

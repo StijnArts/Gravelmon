@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grapploctepoch_mega",
+  "speciesId": "cobblemon:grapploct",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

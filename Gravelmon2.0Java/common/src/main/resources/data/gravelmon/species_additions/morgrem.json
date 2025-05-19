@@ -447,9 +447,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmorgremone_epochtwo_grimmsnarl",
+          "id": "epochmorgremone_epochtwogrimmsnarl",
           "variant": "level_up",
-          "result": "epochtwo grimmsnarl",
+          "result": "epochtwogrimmsnarl",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -478,7 +478,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0979591836734694,
+      "baseScale": 0.13521126760563382,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -571,8 +571,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.125,
-        "height": 6.125,
+        "width": 4.4375,
+        "height": 4.4375,
         "fixed": false
       }
     },

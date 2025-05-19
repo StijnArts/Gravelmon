@@ -603,6 +603,175 @@
         "height": 4.3125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "water",
+      "catchRate": 123,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.48000000000000004,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim",
+        "liquidvoice"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 40,
+        "defence": 80,
+        "special_attack": 110,
+        "special_defence": 100,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "14:waterpulse",
+        "41:strangesteam",
+        "57:hydropump",
+        "17:charm",
+        "23:round",
+        "17:captivate",
+        "1:supersonic",
+        "1:defensecurl",
+        "32:raindance",
+        "48:hypervoice",
+        "1:watergun",
+        "20:disarmingvoice",
+        "10:whirlpool",
+        "26:brine",
+        "44:sparklingaria",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:echoedvoice",
+        "tm:flipturn",
+        "tm:hail",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:steameruption",
+        "tm:swift",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdonphanone.desc"
+      ],
+      "height": 11,
+      "weight": 1200,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ice",
+      "secondaryType": "ground",
+      "baseScale": 0.4097560975609756,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 140,
+        "defence": 130,
+        "special_attack": 70,
+        "special_defence": 40,
+        "speed": 130
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 14,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -610,6 +779,8 @@
     "forman",
     "epoch",
     "africanusan",
-    "ayreian"
+    "ayreian",
+    "epochtwo",
+    "epoch_mega"
   ]
 }

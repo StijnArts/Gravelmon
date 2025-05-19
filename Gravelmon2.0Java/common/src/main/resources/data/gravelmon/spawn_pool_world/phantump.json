@@ -143,6 +143,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_phantump-01",
+      "pokemon": "phantump epoch",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-31",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
     }
   ]
 }

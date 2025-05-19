@@ -334,9 +334,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgravelerone_epochtwo_golem",
+          "id": "epochgravelerone_epochtwogolem",
           "variant": "trade",
-          "result": "epochtwo golem",
+          "result": "epochtwogolem",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

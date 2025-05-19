@@ -262,7 +262,8 @@
       "primaryType": "water",
       "secondaryType": "dark",
       "baseScale": 0.20800000000000002,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "adaptability"
       ],
@@ -277,9 +278,6 @@
       "labels": [
         "gen3",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 13,
       "aspects": [

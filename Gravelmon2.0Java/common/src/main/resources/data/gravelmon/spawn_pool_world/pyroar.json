@@ -88,6 +88,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_pyroar-01",
+      "pokemon": "pyroar epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

@@ -442,9 +442,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroggenrolaone_epochtwo_boldore",
+          "id": "epochroggenrolaone_epochtwoboldore",
           "variant": "level_up",
-          "result": "epochtwo boldore",
+          "result": "epochtwoboldore",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

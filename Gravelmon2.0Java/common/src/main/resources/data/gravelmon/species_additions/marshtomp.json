@@ -327,9 +327,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmarshtompone_epochtwo_swampert",
+          "id": "epochmarshtompone_epochtwoswampert",
           "variant": "level_up",
-          "result": "epochtwo swampert",
+          "result": "epochtwoswampert",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

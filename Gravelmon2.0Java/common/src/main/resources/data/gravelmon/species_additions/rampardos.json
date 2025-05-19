@@ -334,10 +334,38 @@
         "height": 4.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "rock",
+      "secondaryType": "ground",
+      "baseScale": 0.5387755102040817,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "solidrock"
+      ],
+      "baseStats": {
+        "hp": 118,
+        "attack": 205,
+        "defence": 100,
+        "special_attack": 70,
+        "special_defence": 48,
+        "speed": 55
+      },
+      "labels": [
+        "gen4",
+        "xenoverse"
+      ],
+      "height": 22,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "novran"
+    "novran",
+    "mega"
   ]
 }

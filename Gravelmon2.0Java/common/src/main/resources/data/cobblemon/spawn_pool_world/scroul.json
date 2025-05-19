@@ -18,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -106,6 +106,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_ponyta-01",
+      "pokemon": "ponyta epoch",
+      "presets": [
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-33",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

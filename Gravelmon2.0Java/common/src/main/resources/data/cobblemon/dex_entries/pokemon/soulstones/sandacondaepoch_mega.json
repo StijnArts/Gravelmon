@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sandacondaepoch_mega",
+  "speciesId": "cobblemon:sandaconda",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

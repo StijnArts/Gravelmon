@@ -23,7 +23,7 @@ public class EpochDewpiderOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("It has eyes covering its entire body, which enables it to have a full 360-degree field of vision."),
-                List.of(new EvolutionEntry("epochtwo araquanid", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoaraquanid", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBARGO,36),

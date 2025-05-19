@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lophugmega",
+  "speciesId": "cobblemon:lophug",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "mega",
+      "unlockForms": [
+        "mega"
+      ]
+    }
+  ],
+  "variations": []
+}

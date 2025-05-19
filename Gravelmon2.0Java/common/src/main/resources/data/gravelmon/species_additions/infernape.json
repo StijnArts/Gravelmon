@@ -124,7 +124,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "monferno form=epoch",
-      "baseScale": 0.4571428571428571,
+      "baseScale": 0.5333333333333332,
       "cannotDynamax": false,
       "abilities": [
         "reckless",
@@ -254,7 +254,7 @@
       "pokedex": [
         "cobblemon.species.epochinfernape.desc"
       ],
-      "height": 12,
+      "height": 14,
       "weight": 550,
       "aspects": [
         "epoch"
@@ -266,10 +266,38 @@
         "height": 3.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "electric",
+      "secondaryType": "fighting",
+      "baseScale": 0.46153846153846156,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 104,
+        "defence": 91,
+        "special_attack": 138,
+        "special_defence": 104,
+        "speed": 91
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "nodorran",
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

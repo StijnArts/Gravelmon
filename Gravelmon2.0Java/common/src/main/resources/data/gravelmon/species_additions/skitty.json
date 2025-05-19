@@ -153,9 +153,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskittyone_epochtwo_delcatty",
+          "id": "epochskittyone_epochtwodelcatty",
           "variant": "item_interact",
-          "result": "epochtwo delcatty",
+          "result": "epochtwodelcatty",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

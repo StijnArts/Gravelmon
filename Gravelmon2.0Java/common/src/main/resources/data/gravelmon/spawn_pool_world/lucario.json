@@ -151,7 +151,9 @@
         "biomes": [
           "#cobblemon:is_desert"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

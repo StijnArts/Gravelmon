@@ -809,7 +809,8 @@
       "name": "mega",
       "primaryType": "water",
       "baseScale": 0.3,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "toughclaws"
       ],
@@ -824,9 +825,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 25,
       "aspects": [

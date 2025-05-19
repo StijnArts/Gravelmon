@@ -618,7 +618,8 @@
       "primaryType": "ice",
       "secondaryType": "ghost",
       "baseScale": 0.2375,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "furcoat"
       ],
@@ -634,9 +635,6 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 19,
       "aspects": [
         "mega"
@@ -647,7 +645,8 @@
       "primaryType": "fire",
       "secondaryType": "ghost",
       "baseScale": 0.26666666666666666,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "magicguard"
       ],
@@ -663,12 +662,36 @@
         "gen4",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 20,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ghost",
+      "secondaryType": "flying",
+      "baseScale": 0.5913043478260869,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "shadowtag"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 120,
+        "special_defence": 130,
+        "speed": 130
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -678,6 +701,7 @@
     "ayreian",
     "cefiran",
     "mega",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:relicanthayreian_mega",
+  "speciesId": "cobblemon:relicanth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "ayreian_mega",
+      "unlockForms": [
+        "ayreian_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

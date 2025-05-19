@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flygonayreian_mega",
+  "speciesId": "cobblemon:flygon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "ayreian_mega",
+      "unlockForms": [
+        "ayreian_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

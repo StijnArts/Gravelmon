@@ -23,7 +23,7 @@ public class EpochHoothootOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It is able to tilt its head 270 degrees. It uses this as a means of being able to scan its full surroundings."),
-                List.of(new EvolutionEntry("epochtwo noctowl", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwonoctowl", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COUPDEGRACE,27),

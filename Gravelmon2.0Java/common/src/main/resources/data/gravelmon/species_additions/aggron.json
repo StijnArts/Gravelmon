@@ -719,12 +719,40 @@
         "height": 5.875000000000001,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "bug",
+      "secondaryType": "rock",
+      "baseScale": 0.6133333333333333,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 135,
+        "defence": 160,
+        "special_attack": 75,
+        "special_defence": 65,
+        "speed": 115
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 23,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "hizian",
     "delta",
-    "ayreian"
+    "ayreian",
+    "epoch_mega"
   ]
 }

@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_overworld",
           "#cobblemon:is_cave"
-        ]
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

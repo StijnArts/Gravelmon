@@ -309,9 +309,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroseliaone_epochtwo_roserade",
+          "id": "epochroseliaone_epochtworoserade",
           "variant": "item_interact",
-          "result": "epochtwo roserade",
+          "result": "epochtworoserade",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

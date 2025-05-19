@@ -588,7 +588,8 @@
       "primaryType": "rock",
       "secondaryType": "grass",
       "baseScale": 0.3,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "analytic"
       ],
@@ -604,12 +605,36 @@
         "gen2",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 14,
       "aspects": [
         "mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ground",
+      "secondaryType": "grass",
+      "baseScale": 0.4864864864864865,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "adaptability"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 40,
+        "defence": 100,
+        "special_attack": 100,
+        "special_defence": 130,
+        "speed": 130
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -618,6 +643,7 @@
     "epoch",
     "novran",
     "amazeall",
-    "mega"
+    "mega",
+    "epoch_mega"
   ]
 }

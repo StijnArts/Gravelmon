@@ -23,7 +23,7 @@ public class EpochRoggenrolaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon moves by using its built in static energy to propel it in the direction it wants to go."),
-                List.of(new EvolutionEntry("epochtwo boldore", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoboldore", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),

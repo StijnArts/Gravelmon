@@ -874,6 +874,182 @@
         "height": 2.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3428571428571428,
+      "cannotDynamax": false,
+      "abilities": [
+        "tintedlens",
+        "compoundeyes",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 55,
+        "defence": 47,
+        "special_attack": 55,
+        "special_defence": 37,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "54:gunkshot",
+        "1:leer",
+        "36:poisonjab",
+        "24:uturn",
+        "36:toxicthread",
+        "15:fellstinger",
+        "21:scaleshot",
+        "27:stickyweb",
+        "30:leechlife",
+        "57:megahorn",
+        "12:breakingswipe",
+        "9:furycutter",
+        "39:dragonclaw",
+        "48:dragonrush",
+        "6:stringshot",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:crunch",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:pinmissile",
+        "egg:poisontail",
+        "egg:dualchop",
+        "egg:lunge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharmanderone.desc"
+      ],
+      "height": 6,
+      "weight": 85,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcharmanderone_epochtwocharmeleon",
+          "variant": "level_up",
+          "result": "epochtwocharmeleon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -881,6 +1057,7 @@
     "epoch",
     "egho",
     "delta",
-    "ayreian"
+    "ayreian",
+    "epochtwo"
   ]
 }

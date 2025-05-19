@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sableyeepochone_mega",
+  "speciesId": "cobblemon:sableye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochone_mega",
+      "unlockForms": [
+        "epochone_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

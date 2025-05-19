@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:absolayreian_mega",
+  "speciesId": "cobblemon:absol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "ayreian_mega",
+      "unlockForms": [
+        "ayreian_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

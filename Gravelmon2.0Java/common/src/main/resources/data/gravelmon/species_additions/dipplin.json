@@ -165,7 +165,22 @@
       "aspects": [
         "epoch"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "epochdipplin_hydrapple_epoch",
+          "variant": "level_up",
+          "result": "hydrapple epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 4.25,

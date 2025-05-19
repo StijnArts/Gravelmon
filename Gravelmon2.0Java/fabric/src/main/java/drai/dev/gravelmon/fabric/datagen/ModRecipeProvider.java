@@ -2,10 +2,14 @@ package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.tags.*;
+import com.cobblemon.yajatkaul.mega_showdown.item.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.core.*;
+import net.minecraft.core.registries.*;
+import net.minecraft.data.models.model.*;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.*;
 import net.minecraft.world.item.*;
@@ -558,5 +562,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .define('H', CobblemonItems.HARD_STONE)
                 .unlockedBy("hasHardStone", has(CobblemonItems.HARD_STONE))
                 .save(exporter);
+
+        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet()) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(MegaStones.MEGA_STONE),RecipeCategory.MISC,value.get())
+                    .unlockedBy("hasMegaStone", has(MegaStones.MEGA_STONE)).save(exporter);
+        }
     }
 }

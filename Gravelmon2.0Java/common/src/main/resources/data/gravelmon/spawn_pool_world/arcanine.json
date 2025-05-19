@@ -165,6 +165,31 @@
       }
     },
     {
+      "id": "epoch_arcanine-01",
+      "pokemon": "arcanine epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "ishirian_arcanine-01",
       "pokemon": "arcanine ishirian",
       "presets": [
@@ -179,7 +204,9 @@
         "biomes": [
           "minecraft:cherry_grove"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

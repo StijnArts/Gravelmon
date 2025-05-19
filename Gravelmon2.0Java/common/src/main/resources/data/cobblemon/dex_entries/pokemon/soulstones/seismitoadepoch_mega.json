@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:seismitoadepoch_mega",
+  "speciesId": "cobblemon:seismitoad",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

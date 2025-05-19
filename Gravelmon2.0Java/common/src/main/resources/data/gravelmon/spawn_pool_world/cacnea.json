@@ -81,6 +81,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_cacnea-01",
+      "pokemon": "cacnea epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
     }
   ]
 }

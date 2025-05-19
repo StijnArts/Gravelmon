@@ -54,6 +54,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_cacturne-01",
+      "pokemon": "cacturne epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
     }
   ]
 }

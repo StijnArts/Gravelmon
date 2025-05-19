@@ -16,7 +16,7 @@ public class EpochInfernape extends drai.dev.data.pokemon.Pokemon {
                         84,
                         61),
                 List.of(Ability.RECKLESS,Ability.LONG_REACH), Ability.SUPER_LUCK,
-                12, 550,
+                14, 550,
                 new Stats(0,0,0,0,0,3), 100,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,

@@ -663,11 +663,12 @@
       }
     },
     {
-      "name": "deltaspider_mega",
+      "name": "delta_spider_mega",
       "primaryType": "ground",
       "secondaryType": "bug",
       "baseScale": 25.200000000000003,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "moldbreaker"
       ],
@@ -683,20 +684,18 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 21,
       "aspects": [
-        "deltaspider_mega"
+        "delta_spider_mega"
       ]
     },
     {
-      "name": "deltaruin_mega",
+      "name": "delta_ruin_mega",
       "primaryType": "grass",
       "secondaryType": "rock",
       "baseScale": 26.400000000000002,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "rockhead"
       ],
@@ -712,20 +711,18 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 22,
       "aspects": [
-        "deltaruin_mega"
+        "delta_ruin_mega"
       ]
     },
     {
-      "name": "deltacrystal_mega",
+      "name": "delta_crystal_mega",
       "primaryType": "grass",
       "secondaryType": "crystal",
       "baseScale": 24.0,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "weakarmor"
       ],
@@ -741,12 +738,36 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 20,
       "aspects": [
-        "deltacrystal_mega"
+        "delta_crystal_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "secondaryType": "psychic",
+      "baseScale": 0.5419354838709678,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "weakarmor"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 140,
+        "defence": 130,
+        "special_attack": 70,
+        "special_defence": 140,
+        "speed": 140
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
@@ -755,8 +776,9 @@
     "epoch",
     "deltaspider",
     "deltaruin",
-    "deltaspider_mega",
-    "deltaruin_mega",
-    "deltacrystal_mega"
+    "delta_spider_mega",
+    "delta_ruin_mega",
+    "delta_crystal_mega",
+    "epoch_mega"
   ]
 }

@@ -18,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

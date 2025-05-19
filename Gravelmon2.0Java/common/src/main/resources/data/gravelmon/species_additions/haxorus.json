@@ -365,11 +365,169 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "rock",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 270,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "fraxure form=epoch",
+      "baseScale": 0.5538461538461539,
+      "cannotDynamax": false,
+      "abilities": [
+        "stakeout",
+        "infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 86,
+        "attack": 127,
+        "defence": 80,
+        "special_attack": 117,
+        "special_defence": 60,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "39:stealthrock",
+        "9:smackdown",
+        "1:leer",
+        "27:spikes",
+        "52:stoneedge",
+        "30:rockclimb",
+        "4:accelerock",
+        "15:taunt",
+        "12:breakingswipe",
+        "18:dragontail",
+        "21:rockblast",
+        "7:falseswipe",
+        "36:dragonclaw",
+        "45:dragondance",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:geomancy",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochhaxorus.desc"
+      ],
+      "height": 18,
+      "weight": 1055,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "dragon",
       "secondaryType": "steel",
       "baseScale": 0.27058823529411763,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "weakarmor"
       ],
@@ -385,9 +543,6 @@
         "gen5",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 23,
       "aspects": [
         "mega"
@@ -397,6 +552,7 @@
   "features": [
     "delta",
     "ayreian",
+    "epoch",
     "mega"
   ]
 }

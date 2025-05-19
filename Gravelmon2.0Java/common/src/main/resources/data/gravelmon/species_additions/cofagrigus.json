@@ -470,11 +470,39 @@
         "height": 6.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "sound",
+      "secondaryType": "ghost",
+      "baseScale": 0.45,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 58,
+        "attack": 40,
+        "defence": 145,
+        "special_attack": 50,
+        "special_defence": 145,
+        "speed": 145
+      },
+      "labels": [
+        "gen5",
+        "soulstones"
+      ],
+      "height": 18,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "x"
+    "x",
+    "epoch_mega"
   ]
 }

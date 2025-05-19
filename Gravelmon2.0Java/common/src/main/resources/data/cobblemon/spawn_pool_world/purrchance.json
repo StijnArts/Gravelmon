@@ -18,6 +18,8 @@
         "biomes": [
           "minecraft:cherry_grove"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {

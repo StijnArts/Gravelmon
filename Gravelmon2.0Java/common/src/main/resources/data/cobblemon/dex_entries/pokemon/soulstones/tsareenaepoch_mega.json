@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tsareenaepoch_mega",
+  "speciesId": "cobblemon:tsareena",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

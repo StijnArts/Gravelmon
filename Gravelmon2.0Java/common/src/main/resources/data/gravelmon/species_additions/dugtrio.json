@@ -976,6 +976,33 @@
         "height": 7.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ghost",
+      "secondaryType": "ground",
+      "baseScale": 0.6260869565217391,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "wanderingspirit"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 130,
+        "defence": 100,
+        "special_attack": 130,
+        "special_defence": 50,
+        "speed": 120
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 24,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -985,6 +1012,7 @@
     "norheiman",
     "delta",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "epoch_mega"
   ]
 }

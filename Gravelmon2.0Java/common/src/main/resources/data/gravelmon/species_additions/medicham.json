@@ -349,7 +349,8 @@
       "primaryType": "fairy",
       "secondaryType": "ground",
       "baseScale": 0.20689655172413793,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "athenian"
       ],
@@ -365,18 +366,43 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 15,
       "aspects": [
         "delta_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "light",
+      "secondaryType": "fighting",
+      "baseScale": 0.43636363636363634,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 115,
+        "special_attack": 115,
+        "special_defence": 85,
+        "speed": 125
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
       ]
     }
   ],
   "features": [
     "epoch",
     "delta",
-    "delta_mega"
+    "delta_mega",
+    "epoch_mega"
   ]
 }

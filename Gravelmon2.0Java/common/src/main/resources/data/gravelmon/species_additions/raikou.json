@@ -334,11 +334,41 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "baseScale": 0.2542372881355932,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "teravolt"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 105,
+        "defence": 95,
+        "special_attack": 135,
+        "special_defence": 120,
+        "speed": 135
+      },
+      "labels": [
+        "gen2",
+        "xenoverse"
+      ],
+      "pokedex": [
+        "The power of Mega Evolution has made Raikou even more solemn. Its mane rips through the air like lightning."
+      ],
+      "height": 25,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "fabelian",
     "forman",
-    "varitasian"
+    "varitasian",
+    "mega"
   ]
 }

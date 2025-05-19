@@ -23,7 +23,7 @@ public class EpochNosepassOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is often used as a portable light source but its stubby legs means it often needs to be carried around since it can't usually keep up with walking speed."),
-                List.of(new EvolutionEntry("epochtwo probopass", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwoprobopass", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LOCKON,53),

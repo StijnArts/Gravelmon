@@ -308,9 +308,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochquilavaone_epochtwo_typhlosion",
+          "id": "epochquilavaone_epochtwotyphlosion",
           "variant": "level_up",
-          "result": "epochtwo typhlosion",
+          "result": "epochtwotyphlosion",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -372,12 +372,12 @@
         }
       },
       "baseStats": {
-        "hp": 81,
-        "attack": 28,
-        "defence": 37,
-        "special_attack": 58,
-        "special_defence": 93,
-        "speed": 65
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
@@ -394,32 +394,28 @@
       "moves": [
         "1:ember",
         "1:acid",
-        "1:bulkup",
-        "1:bulkup",
-        "1:vacuumwave",
-        "1:vacuumwave",
         "1:growl",
         "1:leer",
-        "1:calmmind",
-        "1:calmmind",
-        "1:nastyplot",
-        "1:nastyplot",
         "10:firespin",
         "10:clearsmog",
-        "10:taunt",
-        "10:taunt",
         "15:flamecharge",
         "15:sludge",
-        "15:substitute",
-        "15:substitute",
         "20:flameburst",
         "20:toxicspikes",
-        "20:rest",
-        "20:rest",
         "25:flamethrower",
         "25:sludgebomb",
         "30:fireblast",
         "30:sludgewave",
+        "35:ember",
+        "35:poisonsting",
+        "40:growl",
+        "40:leer",
+        "45:quickattack",
+        "45:venoshock",
+        "50:flamecharge",
+        "50:poisontail",
+        "55:firepunch",
+        "55:toxicspikes",
         "tm:terablast"
       ],
       "labels": [

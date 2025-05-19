@@ -2,6 +2,7 @@ package drai.dev.data.pokemon;
 
 import com.google.gson.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -19,7 +20,7 @@ import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 public class MegaEvolution extends WorldRepresentablePokemon {
     private Ability ability;
     private String megaName = "mega";
-    private Aspect aspect;
+    private String aspect;
     private List<Label> labels;
     private String dexEntry;
     private String megaStoneName;
@@ -31,13 +32,45 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         this.ability = ability;
         this.gameName = game;
         this.name = name;
-        this.aspect = aspect;
+        if(aspect != null) this.aspect = aspect.name();
         this.labels = labels;
         this.primaryType = primaryType;
     }
 
     public MegaEvolution(String name, Type primaryType, Type secondaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
         this(name, primaryType, stats, ability, height, game, labels, aspect);
+        this.secondaryType = secondaryType;
+    }
+
+    public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable String aspect) {
+        super(height);
+        this.stats = stats;
+        this.ability = ability;
+        this.gameName = game;
+        this.name = name;
+        this.aspect = aspect;
+        this.labels = labels;
+        this.primaryType = primaryType;
+    }
+
+    public MegaEvolution(String name, Type primaryType, Type secondaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable String aspect) {
+        this(name, primaryType, stats, ability, height, game, labels, aspect);
+        this.secondaryType = secondaryType;
+    }
+
+    public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels) {
+        super(height);
+        this.stats = stats;
+        this.ability = ability;
+        this.gameName = game;
+        this.name = name;
+        this.aspect = null;
+        this.labels = labels;
+        this.primaryType = primaryType;
+    }
+
+    public MegaEvolution(String name, Type primaryType, Type secondaryType, Stats stats, Ability ability, int height, String game, List<Label> labels) {
+        this(name, primaryType, stats, ability, height, game, labels);
         this.secondaryType = secondaryType;
     }
 
@@ -62,7 +95,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     private static Map<String, List<MegaEvolution>> getMegasByAspect(List<MegaEvolution> megas) {
-        return megas.stream().collect(Collectors.groupingBy(mega->mega.getAspect() == null ? "" : mega.getAspect().getName()));
+        return megas.stream().collect(Collectors.groupingBy(mega->mega.getAspect() == null ? "" : mega.getAspect().toLowerCase().replaceAll("_","")));
     }
 
     private static Map<String, List<MegaEvolution>> getMegasBySuffix(List<MegaEvolution> megas) {
@@ -75,7 +108,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     public MegaEvolution setMegaStoneName(String megaStoneName){
-        this.megaStoneName = this.megaStoneName;
+        this.megaStoneName = megaStoneName;
         return this;
     }
 
@@ -85,8 +118,8 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     public static void addMegaEvolution(List<MegaEvolution> megaEvolutions) {
-        for (int i = 0; i < megaEvolutions.size(); i++) {
-            addMegaEvolution(megaEvolutions.get(i));
+        for (MegaEvolution megaEvolution : megaEvolutions) {
+            addMegaEvolution(megaEvolution);
         }
     }
 
@@ -114,22 +147,22 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     @Override
     public String getTextureName() {
-        return GravelmonUtils.getCleanName(getName() + "_" + GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+"mega"));
+        return GravelmonUtils.getCleanName(getName() + "_" + GravelmonUtils.getCleanName((getAspect()!=null? getAspect().toLowerCase().replaceAll("_","")+"_" : "")+"mega"));
     }
 
     @Override
     public String getCleanName() {
-        return (name+(getAspect()!=null? "_"+getAspect().getName() : "")+"_"+megaName)
+        return (name+(getAspect()!=null? "_"+getAspect().toLowerCase().replaceAll("_","") : "")+"_"+megaName)
                 .toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
                 .replace("'","").replace("\\.","");
     }
 
     public String getMegaAspect(){
-        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+megaName);
+        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().toLowerCase()+"_" : "")+megaName);
     }
 
     public String getIndependentMegaAspect(){
-        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().getName()+"_" : "")+megaName);
+        return GravelmonUtils.getCleanName((getAspect()!=null? getAspect().toLowerCase()+"_" : "")+megaName);
     }
 
     public String getNonMegaCleanName(){
@@ -146,10 +179,6 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     @Override
     protected @NotNull String getModelName() {
         return super.getModelName()+"_mega";
-    }
-
-    public Stats getStats() {
-        return stats;
     }
 
     public Ability getAbility() {
@@ -186,7 +215,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return "";
     }
 
-    public Aspect getAspect() {
+    public String getAspect() {
         return aspect;
     }
 
@@ -194,8 +223,9 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return dexEntry;
     }
 
-    public void setDexEntry(String dexEntry) {
+    public MegaEvolution setDexEntry(String dexEntry) {
         this.dexEntry = dexEntry;
+        return this;
     }
 
     public String getLangName() {
@@ -223,7 +253,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         var labels = new JsonArray();
         this.labels.stream().map(Label::getName).forEach(labels::add);
         var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA, FERRAN));
-        if (instagramLabels.contains(this.labels)) {
+        if (instagramLabels.stream().anyMatch(label->this.labels.contains(label))) {
             labels.add(INSTAGRAM.getName());
         }
         fileContents.add("labels", labels);
@@ -244,7 +274,9 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     }
 
     public String getMegaStoneName(String megaStoneName) {
-        if(this.megaStoneName!=null && !this.megaStoneName.isEmpty()) return this.megaStoneName;
+        if(this.megaStoneName!=null && !this.megaStoneName.isEmpty()) {
+            return this.megaStoneName.replaceAll(" ","_");
+        }
 
         var megaId = getMegaName();
         var megaStoneNameForId = megaStoneName;
@@ -255,7 +287,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
         var aspect = getAspect();
         if (aspect != null) {
-            megaStoneNameForId = aspect.name() + "_" + megaStoneNameForId;
+            megaStoneNameForId = aspect + "_" + megaStoneNameForId;
         }
 
         return megaStoneNameForId.toLowerCase();
@@ -264,4 +296,40 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     public MegaStonePalette getMegaStonePalette() {
         return megaStonePalette;
     }
+//
+//    public MegaEvolution setAbility(Ability ability) {
+//        this.ability = ability;
+//        return this;
+//    }
+//
+//    public MegaEvolution setStats(Stats stats) {
+//        this.stats = stats;
+//        return this;
+//    }
+//
+//    public MegaEvolution setHeight(int height){
+//        this.height = height;
+//        return this;
+//    }
+//
+//    public MegaEvolution setTypes(Type primaryType, Type secondaryType) {
+//        this.primaryType = primaryType;
+//        this.secondaryType = secondaryType;
+//        return this;
+//    }
+//
+//    public MegaEvolution setAspect(Aspect aspect) {
+//        this.aspect = aspect.name();
+//        return this;
+//    }
+//
+//    public MegaEvolution setAspect(String aspect) {
+//        this.aspect = aspect;
+//        return this;
+//    }
+//
+//    public MegaEvolution megaFromPokemon(Pokemon pokemon){
+//        var name = pokemon.getAdditionalFormKey()==null?pokemon.getCleanName():pokemon.getAdditionalFormKey();
+//        return new MegaEvolution(name, pokemon.primaryType, pokemon.secondaryType, pokemon.stats, pokemon.hiddenAbility, pokemon.height, pokemon.gameName, pokemon.labels, pokemon.getAdditionalAspect());
+//    }
 }

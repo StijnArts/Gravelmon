@@ -90,6 +90,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_blastoise-01",
+      "pokemon": "blastoise epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
     }
   ]
 }

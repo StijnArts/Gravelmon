@@ -619,13 +619,201 @@
         "height": 5.625,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 61,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18461538461538463,
+      "cannotDynamax": false,
+      "abilities": [
+        "stickyhold"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 45,
+        "defence": 65,
+        "special_attack": 40,
+        "special_defence": 15,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "55:storedpower",
+        "28:gammaray",
+        "1:watergun",
+        "25:protect",
+        "1:withdraw",
+        "7:whirlpool",
+        "22:psychocut",
+        "40:blackhole",
+        "31:razorshell",
+        "61:hydropump",
+        "49:psychic",
+        "64:meteorbeam",
+        "19:octazooka",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:soak",
+        "tm:spikyshield",
+        "tm:steameruption",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "egg:aquaring",
+        "egg:irondefense",
+        "egg:bubblebeam",
+        "egg:bigbang",
+        "egg:psybeam",
+        "egg:liquidation",
+        "egg:extrasensory",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochshellder.desc"
+      ],
+      "height": 3,
+      "weight": 40,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochshellder_cloyster_epoch",
+          "variant": "item_interact",
+          "result": "cloyster epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "forman",
     "nostan",
     "norheiman",
-    "egho"
+    "egho",
+    "epoch"
   ],
   "evolutions": [
     {

@@ -23,7 +23,7 @@ public class EpochMachopOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("This Pokemon is beginning to tap into its psychic potential. As a result, its stand is weakly formed and highly transparent."),
-                List.of(new EvolutionEntry("epochtwo machoke", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomachoke", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,47),

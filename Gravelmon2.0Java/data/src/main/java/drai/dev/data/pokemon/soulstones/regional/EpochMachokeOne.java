@@ -23,7 +23,7 @@ public class EpochMachokeOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Its psychic capabilities have advanced, allowing it to manifest a more opaque stand but it still requires further meditation to fully ascend."),
-                List.of(new EvolutionEntry("epochtwo machamp", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwomachamp", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:black_belt")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEEPINGWIND,47),

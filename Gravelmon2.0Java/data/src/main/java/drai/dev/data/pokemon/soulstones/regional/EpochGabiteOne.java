@@ -23,7 +23,7 @@ public class EpochGabiteOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("T.Gabites are able to perform various tricks and often included as part of circus troupes for aquatic stunts."),
-                List.of(new EvolutionEntry("epochtwo garchomp", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogarchomp", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"48")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGONFURY,6),

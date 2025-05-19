@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:arbokepoch_mega",
+  "speciesId": "cobblemon:arbok",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

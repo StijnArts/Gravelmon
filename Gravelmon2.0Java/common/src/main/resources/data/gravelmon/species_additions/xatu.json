@@ -259,10 +259,38 @@
         "height": 3.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "baseScale": 0.5241379310344827,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "noguard"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 95,
+        "defence": 75,
+        "special_attack": 120,
+        "special_defence": 120,
+        "speed": 110
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "ionosian"
+    "ionosian",
+    "epoch_mega"
   ]
 }

@@ -23,7 +23,7 @@ public class EpochDoubladeTwo extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon masquerades as a blazing axe."),
-                List.of(new EvolutionEntry("epochtwo aegislash", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("epochtwoaegislash", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,36),

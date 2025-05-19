@@ -250,10 +250,169 @@
         "height": 4.75,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "fighting",
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 148,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "bunnelby form=epoch",
+      "baseScale": 0.3076923076923077,
+      "cannotDynamax": false,
+      "abilities": [
+        "quickdraw"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 50,
+        "defence": 87,
+        "special_attack": 48,
+        "special_defence": 106,
+        "speed": 87
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "1:leer",
+        "15:focusenergy",
+        "42:aurasphere",
+        "1:mudslap",
+        "21:mudbomb",
+        "30:swagger",
+        "52:focusblast",
+        "1:detect",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdiggersby.desc"
+      ],
+      "height": 10,
+      "weight": 424,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.875,
+        "height": 4.875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "mahalian",
-    "kaskadian"
+    "kaskadian",
+    "epoch"
   ]
 }

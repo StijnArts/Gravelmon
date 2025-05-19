@@ -536,12 +536,40 @@
         "height": 4.25,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "normal",
+      "secondaryType": "bug",
+      "baseScale": 0.6705882352941177,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defence": 110,
+        "special_attack": 70,
+        "special_defence": 130,
+        "speed": 120
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 19,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "forman",
     "epoch",
     "africanusan",
-    "novran"
+    "novran",
+    "epoch_mega"
   ]
 }

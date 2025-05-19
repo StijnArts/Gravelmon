@@ -916,6 +916,188 @@
       }
     },
     {
+      "name": "Epochtwo",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 190,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 70,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3169811320754717,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "competitive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 40,
+        "defence": 45,
+        "special_attack": 75,
+        "special_defence": 75,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "8:siphon",
+        "6:corrosivegas",
+        "23:gastroacid",
+        "44:nastyplot",
+        "41:darkvoid",
+        "56:toxic",
+        "1:smog",
+        "53:acidrain",
+        "14:snarl",
+        "47:sludgewave",
+        "4:poisongas",
+        "50:venomdrench",
+        "29:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:nightdaze",
+        "egg:darkpulse",
+        "egg:sludgebomb",
+        "egg:smokescreen",
+        "egg:snatch",
+        "egg:quash",
+        "egg:dragonpulse",
+        "egg:extrasensory",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgrowlitheone.desc"
+      ],
+      "height": 7,
+      "weight": 190,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgrowlitheone_epochtwoarcanine",
+          "variant": "item_interact",
+          "result": "epochtwoarcanine",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "ghost",
       "secondaryType": "fire",
@@ -1086,6 +1268,7 @@
     "aristosian",
     "delta",
     "armiran",
+    "epochtwo",
     "ishirian"
   ],
   "evolutions": [

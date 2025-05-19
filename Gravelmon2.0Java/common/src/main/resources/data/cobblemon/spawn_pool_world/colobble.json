@@ -18,6 +18,8 @@
         "biomes": [
           "#cobblemon:is_mountain"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {

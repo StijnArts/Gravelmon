@@ -656,7 +656,8 @@
       "primaryType": "water",
       "secondaryType": "fairy",
       "baseScale": 0.3333333333333333,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "prismguard"
       ],
@@ -672,9 +673,6 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 25,
       "aspects": [
         "mega_i"
@@ -684,7 +682,8 @@
       "name": "delta_mega",
       "primaryType": "ghost",
       "baseScale": 0.3031578947368421,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -700,9 +699,6 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 24,
       "aspects": [
         "delta_mega"
@@ -713,7 +709,8 @@
       "primaryType": "water",
       "secondaryType": "fairy",
       "baseScale": 0.33707865168539325,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "magicbounce"
       ],
@@ -728,9 +725,6 @@
       "labels": [
         "gen3",
         "daybreak"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 25,
       "aspects": [

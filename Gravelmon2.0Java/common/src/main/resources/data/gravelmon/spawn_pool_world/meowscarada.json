@@ -29,6 +29,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_meowscarada-01",
+      "pokemon": "meowscarada epoch",
+      "presets": [
+        "illager_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.009,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
     }
   ]
 }

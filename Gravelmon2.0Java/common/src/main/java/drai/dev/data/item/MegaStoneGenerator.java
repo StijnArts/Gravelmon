@@ -65,13 +65,4 @@ public class MegaStoneGenerator {
             throw new RuntimeException(e);
         }
     }
-
-    public static void main(String[] args) throws IOException {
-        MegaStonePalette palette = new MegaStonePalette("#e33090", "#08855d", "#6d32ad");
-        List<MegaEvolution> venusaur = GravelmonMegas.MEGA_EVOLUTIONS.get("venusaur");
-        var mega = venusaur.getFirst();
-        createMegaStoneTexture("C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\Gravelmon2.0Java\\common\\src\\main\\resources",
-                "testite", mega);
-
-    }
 }

@@ -766,6 +766,33 @@
         "height": 5.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "light",
+      "secondaryType": "dragon",
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 91,
+        "attack": 120,
+        "defence": 115,
+        "special_attack": 130,
+        "special_defence": 120,
+        "speed": 124
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 24,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -773,6 +800,7 @@
     "raianiantwo",
     "epoch",
     "delta",
-    "ayreian"
+    "ayreian",
+    "epoch_mega"
   ]
 }

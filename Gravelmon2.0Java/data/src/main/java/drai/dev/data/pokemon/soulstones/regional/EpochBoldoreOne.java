@@ -23,7 +23,7 @@ public class EpochBoldoreOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its energy is dangerously unstable and it periodically gives off charged electrical novas that can fry electrical appliances."),
-                List.of(new EvolutionEntry("epochtwo gigalith", EvolutionType.TRADE, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwogigalith", EvolutionType.TRADE, false, List.of(), 
  List.of(), List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,20),

@@ -19,6 +19,8 @@
           "#cobblemon:is_grassland",
           "#cobblemon:is_floral"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "day"
       },
       "weightMultiplier": {

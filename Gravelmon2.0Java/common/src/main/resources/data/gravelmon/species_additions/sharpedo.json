@@ -306,10 +306,38 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "steel",
+      "secondaryType": "flying",
+      "baseScale": 0.6222222222222222,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "aerilate"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 100,
+        "defence": 75,
+        "special_attack": 145,
+        "special_defence": 100,
+        "speed": 75
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "x"
+    "x",
+    "epoch_mega"
   ]
 }

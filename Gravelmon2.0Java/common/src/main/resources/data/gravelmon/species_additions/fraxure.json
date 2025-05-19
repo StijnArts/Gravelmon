@@ -357,10 +357,183 @@
         "height": 4.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "rock",
+      "secondaryType": "dragon",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "axew form=epoch",
+      "baseScale": 0.36923076923076925,
+      "cannotDynamax": false,
+      "abilities": [
+        "stakeout",
+        "infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 66,
+        "attack": 107,
+        "defence": 60,
+        "special_attack": 87,
+        "special_defence": 40,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "39:stealthrock",
+        "9:smackdown",
+        "1:leer",
+        "27:spikes",
+        "52:stoneedge",
+        "30:rockclimb",
+        "4:accelerock",
+        "15:taunt",
+        "12:breakingswipe",
+        "18:dragontail",
+        "21:rockblast",
+        "7:falseswipe",
+        "36:dragonclaw",
+        "45:dragondance",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:crunch",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:geomancy",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochfraxure.desc"
+      ],
+      "height": 10,
+      "weight": 360,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochfraxure_haxorus_epoch",
+          "variant": "level_up",
+          "result": "haxorus epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "48"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0625,
+        "height": 4.0625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "delta",
-    "ayreian"
+    "ayreian",
+    "epoch"
   ]
 }

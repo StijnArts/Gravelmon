@@ -53,6 +53,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_heatmor-01",
+      "pokemon": "heatmor epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
     }
   ]
 }

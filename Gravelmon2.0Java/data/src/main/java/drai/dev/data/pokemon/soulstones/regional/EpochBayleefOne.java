@@ -23,7 +23,7 @@ public class EpochBayleefOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("When it thunder storms, this Pokemon can use the electrical rod on its head to attract certain electrical attacks."),
-                List.of(new EvolutionEntry("epochtwo meganium", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomeganium", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_GLOW,46),

@@ -29,6 +29,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_sprigatito-01",
+      "pokemon": "sprigatito epoch",
+      "presets": [
+        "illager_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
     }
   ]
 }

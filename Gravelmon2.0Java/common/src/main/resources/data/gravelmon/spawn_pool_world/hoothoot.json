@@ -12,12 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
+      "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
           "minecraft:the_void"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -70,7 +72,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -968,6 +968,87 @@
         "height": 10.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "electric",
+      "secondaryType": "dragon",
+      "baseScale": 19.200000000000003,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "surgesurfer"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 155,
+        "defence": 90,
+        "special_attack": 80,
+        "special_defence": 110,
+        "speed": 105
+      },
+      "labels": [
+        "gen3",
+        "vanguard"
+      ],
+      "height": 16,
+      "aspects": [
+        "ayreian_mega"
+      ]
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "poison",
+      "secondaryType": "dragon",
+      "baseScale": 0.37894736842105264,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 60,
+        "defence": 105,
+        "special_attack": 95,
+        "special_defence": 130,
+        "speed": 125
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epoch_mega"
+      ]
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "electric",
+      "secondaryType": "flying",
+      "baseScale": 0.4434782608695652,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "lightningrod"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 50,
+        "defence": 100,
+        "special_attack": 90,
+        "special_defence": 135,
+        "speed": 140
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
@@ -976,6 +1057,9 @@
     "varitasian",
     "egho",
     "ayreian",
-    "cefiran"
+    "cefiran",
+    "ayreian_mega",
+    "epoch_mega",
+    "epochone_mega"
   ]
 }

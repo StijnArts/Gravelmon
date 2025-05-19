@@ -6,7 +6,8 @@
       "primaryType": "steel",
       "secondaryType": "psychic",
       "baseScale": 0.08450704225352113,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "keeneye"
       ],
@@ -21,9 +22,6 @@
       "labels": [
         "gen3",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 5,
       "aspects": [

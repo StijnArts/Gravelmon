@@ -136,6 +136,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_charmander-01",
+      "pokemon": "charmander epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
     }
   ]
 }

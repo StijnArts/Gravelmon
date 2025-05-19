@@ -23,7 +23,7 @@ public class EpochWoolooOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They are regularly farmed as the bushes on these Pokemon are constantly bearing berries and fruits."),
-                List.of(new EvolutionEntry("epochtwo dubwool", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwodubwool", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,11),

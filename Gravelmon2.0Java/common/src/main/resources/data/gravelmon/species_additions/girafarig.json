@@ -417,7 +417,8 @@
       "primaryType": "normal",
       "secondaryType": "psychic",
       "baseScale": 0.18545454545454543,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "spectraljaws"
       ],
@@ -433,9 +434,6 @@
         "gen2",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 17,
       "aspects": [
         "mega"
@@ -446,7 +444,8 @@
       "primaryType": "steel",
       "secondaryType": "poison",
       "baseScale": 0.18095238095238092,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "intimidate"
       ],
@@ -461,9 +460,6 @@
       "labels": [
         "gen2",
         "insurgence"
-      ],
-      "pokedex": [
-        null
       ],
       "height": 19,
       "aspects": [

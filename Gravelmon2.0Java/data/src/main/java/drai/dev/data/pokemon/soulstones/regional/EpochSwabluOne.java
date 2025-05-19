@@ -23,7 +23,7 @@ public class EpochSwabluOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("When these Pokemon giggle, it will create a nearby thunderclap, so whatever you do, do not tickle them!"),
-                List.of(new EvolutionEntry("epochtwo altaria", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoaltaria", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE,53),

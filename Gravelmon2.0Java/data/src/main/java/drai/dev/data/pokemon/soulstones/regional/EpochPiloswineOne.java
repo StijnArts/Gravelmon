@@ -23,7 +23,7 @@ public class EpochPiloswineOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When grazing, it can keep perfectly still that it is often mistaken as a hedge or a small bush."),
-                List.of(new EvolutionEntry("epochtwo mamoswine", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwomamoswine", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,30),

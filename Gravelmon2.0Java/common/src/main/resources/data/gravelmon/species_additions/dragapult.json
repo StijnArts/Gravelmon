@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "drakloak form=epoch",
-      "baseScale": 0.9863013698630136,
+      "baseScale": 0.5917808219178082,
       "cannotDynamax": false,
       "abilities": [
         "whitesmoke",
@@ -143,7 +143,7 @@
       "pokedex": [
         "cobblemon.species.epochdragapult.desc"
       ],
-      "height": 30,
+      "height": 18,
       "weight": 500,
       "aspects": [
         "epoch"
@@ -289,10 +289,38 @@
         "height": 1.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "steel",
+      "secondaryType": "flying",
+      "baseScale": 0.5727272727272728,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "noguard"
+      ],
+      "baseStats": {
+        "hp": 115,
+        "attack": 80,
+        "defence": 110,
+        "special_attack": 140,
+        "special_defence": 135,
+        "speed": 120
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "hoennian"
+    "hoennian",
+    "epoch_mega"
   ]
 }

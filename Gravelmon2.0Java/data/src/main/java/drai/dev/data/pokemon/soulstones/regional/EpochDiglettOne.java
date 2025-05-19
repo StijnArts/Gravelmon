@@ -23,7 +23,7 @@ public class EpochDiglettOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Alongside Cacnea and Voltorb, this Pokemon often gets confused as ordinary snow."),
-                List.of(new EvolutionEntry("epochtwo dugtrio", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwodugtrio", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPOTHERMIA,23),
@@ -91,7 +91,7 @@ public class EpochDiglettOne extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),

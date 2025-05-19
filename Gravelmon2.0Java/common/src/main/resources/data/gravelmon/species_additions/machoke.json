@@ -420,9 +420,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachokeone_epochtwo_machamp",
+          "id": "epochmachokeone_epochtwomachamp",
           "variant": "item_interact",
-          "result": "epochtwo machamp",
+          "result": "epochtwomachamp",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

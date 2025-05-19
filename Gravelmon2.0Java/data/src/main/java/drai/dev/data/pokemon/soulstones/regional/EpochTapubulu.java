@@ -106,7 +106,7 @@ public class EpochTapubulu extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .subLegend()
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),

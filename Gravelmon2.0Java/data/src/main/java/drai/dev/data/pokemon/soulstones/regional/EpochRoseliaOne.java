@@ -23,7 +23,7 @@ public class EpochRoseliaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("The thorns on this Pokemon can cause very deep gashes. Even experienced florists need to be very careful when handling this Pokemon."),
-                List.of(new EvolutionEntry("epochtwo roserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtworoserade", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PETAL_DANCE,55),

@@ -383,11 +383,39 @@
         "height": 4.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "baseScale": 0.51,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 104,
+        "special_defence": 155,
+        "speed": 96
+      },
+      "labels": [
+        "gen6",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "lagoonan",
-    "vesitan"
+    "vesitan",
+    "epoch_mega"
   ]
 }

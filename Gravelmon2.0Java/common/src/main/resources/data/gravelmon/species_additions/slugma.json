@@ -459,9 +459,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochslugmaone_epochtwo_magcargo",
+          "id": "epochslugmaone_epochtwomagcargo",
           "variant": "level_up",
-          "result": "epochtwo magcargo",
+          "result": "epochtwomagcargo",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

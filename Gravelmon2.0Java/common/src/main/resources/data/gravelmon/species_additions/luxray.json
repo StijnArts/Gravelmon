@@ -852,6 +852,32 @@
         "height": 5.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "baseScale": 0.5846153846153846,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "strongjaw"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 175,
+        "defence": 85,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 123
+      },
+      "labels": [
+        "gen4",
+        "xenoverse"
+      ],
+      "height": 19,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
@@ -859,6 +885,7 @@
     "delta",
     "ayreian",
     "kaskadian",
-    "ishirian"
+    "ishirian",
+    "mega"
   ]
 }

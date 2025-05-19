@@ -338,11 +338,41 @@
         "height": 4.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "baseScale": 0.24201680672268908,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 115,
+        "attack": 135,
+        "defence": 105,
+        "special_attack": 110,
+        "special_defence": 95,
+        "speed": 120
+      },
+      "labels": [
+        "gen2",
+        "xenoverse"
+      ],
+      "pokedex": [
+        "The power of Mega Evolution has made Entei even more powerful. Its mane burns like an active volcano."
+      ],
+      "height": 24,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "fabelian",
     "forman",
-    "varitasian"
+    "varitasian",
+    "mega"
   ]
 }

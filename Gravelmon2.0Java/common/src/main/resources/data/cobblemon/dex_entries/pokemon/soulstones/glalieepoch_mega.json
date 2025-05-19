@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glalieepoch_mega",
+  "speciesId": "cobblemon:glalie",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

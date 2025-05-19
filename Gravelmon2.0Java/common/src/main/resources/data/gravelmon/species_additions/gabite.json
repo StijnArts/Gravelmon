@@ -928,9 +928,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgabiteone_epochtwo_garchomp",
+          "id": "epochgabiteone_epochtwogarchomp",
           "variant": "level_up",
-          "result": "epochtwo garchomp",
+          "result": "epochtwogarchomp",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

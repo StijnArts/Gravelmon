@@ -23,7 +23,7 @@ public class EpochCyndaquilOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Because of this Pokemon's small stature, it tries to keep a low profile. If it is startled, the ice on its back glistens brightly."),
-                List.of(new EvolutionEntry("epochtwo quilava", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoquilava", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BLIZZARD,57),

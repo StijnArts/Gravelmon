@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hattereneepoch_mega",
+  "speciesId": "cobblemon:hatterene",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

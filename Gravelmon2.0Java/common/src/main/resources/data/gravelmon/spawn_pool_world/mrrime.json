@@ -27,6 +27,32 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_mrrime-01",
+      "pokemon": "mrrime epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-56",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
     }
   ]
 }

@@ -866,6 +866,169 @@
         "height": 1.3,
         "fixed": false
       }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "fighting",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 112,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.12631578947368421,
+      "cannotDynamax": false,
+      "abilities": [
+        "noguard",
+        "intimidate",
+        "h:ironfist"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 45,
+        "special_attack": 55,
+        "special_defence": 45,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "24:armthrust",
+        "40:skyuppercut",
+        "7:matblock",
+        "1:tackle",
+        "20:forcepalm",
+        "49:flyingpress",
+        "28:megapunch",
+        "1:bounce",
+        "14:block",
+        "10:poweruppunch",
+        "56:highjumpkick",
+        "1:growl",
+        "37:bodyslam",
+        "43:darkestlariat",
+        "60:dynamicpunch",
+        "4:machpunch",
+        "17:knockoff",
+        "31:drainpunch",
+        "46:bulkup",
+        "52:noretreat",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:drainpunch",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochpikachuone.desc"
+      ],
+      "height": 4,
+      "weight": 60,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochpikachuone_epochtworaichu",
+          "variant": "item_interact",
+          "result": "epochtworaichu",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "gravelmon:dawn_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.75,
+        "height": 4.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -874,7 +1037,8 @@
     "epoch",
     "delta",
     "femalex",
-    "malex"
+    "malex",
+    "epochtwo"
   ],
   "evolutions": [
     {

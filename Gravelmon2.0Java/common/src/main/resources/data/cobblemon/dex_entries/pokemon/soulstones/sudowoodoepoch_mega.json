@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sudowoodoepoch_mega",
+  "speciesId": "cobblemon:sudowoodo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

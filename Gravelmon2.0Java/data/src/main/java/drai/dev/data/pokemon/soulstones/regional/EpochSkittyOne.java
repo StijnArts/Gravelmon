@@ -23,7 +23,7 @@ public class EpochSkittyOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("A T. Skitty is very protective of the weed on its tail. It is rumoured that if a strong breeze blows it away, the Skitty will also perish."),
-                List.of(new EvolutionEntry("epochtwo delcatty", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwodelcatty", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,1),

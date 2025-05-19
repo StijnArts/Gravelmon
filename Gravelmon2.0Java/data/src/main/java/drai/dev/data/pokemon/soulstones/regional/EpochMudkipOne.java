@@ -23,7 +23,7 @@ public class EpochMudkipOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("It has very precious crystals encrusted in its skin. As it is the weakest of its evolutionary line, poachers often hunt these Pokemon first."),
-                List.of(new EvolutionEntry("epochtwo marshtomp", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomarshtomp", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REJUVENATE,6),

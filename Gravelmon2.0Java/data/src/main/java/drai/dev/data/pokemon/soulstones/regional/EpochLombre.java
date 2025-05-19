@@ -24,7 +24,7 @@ public class EpochLombre extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokemon thrives in intense sunlight. It retains fresh water so lost wanderers in the desert will typically ask it for water when they are thirsty."),
                 List.of(new EvolutionEntry("epochludicolo", EvolutionType.ITEM_INTERACT, false, List.of(),
- List.of(), List.of(), "gravelmon:sand_stone")),
+ List.of(), List.of(), "gravelmon:solid_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,20),
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,60),

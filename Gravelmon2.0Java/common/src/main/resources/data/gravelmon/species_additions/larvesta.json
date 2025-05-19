@@ -418,9 +418,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlarvestaone_epochtwo_volcarona",
+          "id": "epochlarvestaone_epochtwovolcarona",
           "variant": "level_up",
-          "result": "epochtwo volcarona",
+          "result": "epochtwovolcarona",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

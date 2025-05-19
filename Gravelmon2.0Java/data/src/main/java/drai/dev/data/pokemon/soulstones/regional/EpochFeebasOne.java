@@ -23,7 +23,7 @@ public class EpochFeebasOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This Pokemon enjoys frolicking in hot lava, as a result, its population has grown significantly because it has no natural predators in this habitat."),
-                List.of(new EvolutionEntry("epochtwo milotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwomilotic", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,10),

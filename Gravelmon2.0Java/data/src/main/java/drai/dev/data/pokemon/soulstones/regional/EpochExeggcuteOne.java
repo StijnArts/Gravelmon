@@ -23,7 +23,7 @@ public class EpochExeggcuteOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon is often confused for being ordinary scorching embers because it is so small. They are defenseless when singled out."),
-                List.of(new EvolutionEntry("epochtwo exeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwoexeggutor", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,40),

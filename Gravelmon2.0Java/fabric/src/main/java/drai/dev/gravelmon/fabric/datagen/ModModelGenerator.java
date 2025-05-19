@@ -102,10 +102,15 @@ public class ModModelGenerator extends FabricModelProvider {
                     itemModelGenerator.output);
         }
 
-//        GravelmonMegas.init(false);
         for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet()) {
             ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
                     TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/megastones/")),
+                    itemModelGenerator.output);
+        }
+
+        for (var value : GravelmonItems.POKE_BALLS) {
+            ModelTemplates.FLAT_ITEM.create(ModelLocationUtils.getModelLocation(value.get()),
+                    TextureMapping.layer0(BuiltInRegistries.ITEM.getKey(value.get()).withPrefix("item/poke_balls/")),
                     itemModelGenerator.output);
         }
     }

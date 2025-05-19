@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wyrdeerepochone_mega",
+  "speciesId": "cobblemon:wyrdeer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochone_mega",
+      "unlockForms": [
+        "epochone_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

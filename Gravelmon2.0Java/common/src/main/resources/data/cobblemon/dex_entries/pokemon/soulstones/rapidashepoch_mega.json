@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rapidashepoch_mega",
+  "speciesId": "cobblemon:rapidash",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

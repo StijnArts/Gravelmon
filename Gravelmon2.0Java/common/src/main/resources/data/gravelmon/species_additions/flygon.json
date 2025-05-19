@@ -544,7 +544,8 @@
       "primaryType": "bug",
       "secondaryType": "dragon",
       "baseScale": 0.2594594594594595,
-      "cannotDynamax": true,
+      "cannotDynamax": false,
+      "battleOnly": true,
       "abilities": [
         "amplifier"
       ],
@@ -560,12 +561,36 @@
         "gen3",
         "insurgence"
       ],
-      "pokedex": [
-        null
-      ],
       "height": 24,
       "aspects": [
         "mega"
+      ]
+    },
+    {
+      "name": "ayreian_mega",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "baseScale": 18.0,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 80,
+        "defence": 80,
+        "special_attack": 110,
+        "special_defence": 140,
+        "speed": 120
+      },
+      "labels": [
+        "gen3",
+        "vanguard"
+      ],
+      "height": 15,
+      "aspects": [
+        "ayreian_mega"
       ]
     },
     {
@@ -613,6 +638,7 @@
     "ayreian",
     "cefiran",
     "mega",
+    "ayreian_mega",
     "armored"
   ],
   "evolutions": [

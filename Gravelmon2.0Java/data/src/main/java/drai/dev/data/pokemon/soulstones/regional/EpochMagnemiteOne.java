@@ -23,7 +23,7 @@ public class EpochMagnemiteOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("A T.Magnemite's core contains a variety of crystals, some of which are extremely valuable, leading it to being hunted to near extinction as a result."),
-                List.of(new EvolutionEntry("epochtwo magneton", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwomagneton", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MINERALWAVE,15),

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drednawepoch_mega",
+  "speciesId": "cobblemon:drednaw",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

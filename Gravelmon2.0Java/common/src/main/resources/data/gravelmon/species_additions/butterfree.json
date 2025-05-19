@@ -350,10 +350,38 @@
         "height": 5.25,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "baseScale": 0.48607594936708864,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dazzling"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 50,
+        "defence": 60,
+        "special_attack": 105,
+        "special_defence": 135,
+        "speed": 115
+      },
+      "labels": [
+        "gen1",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "ayreian"
+    "ayreian",
+    "epoch_mega"
   ]
 }

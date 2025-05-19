@@ -55,6 +55,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_jigglypuff-01",
+      "pokemon": "jigglypuff epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
     }
   ]
 }

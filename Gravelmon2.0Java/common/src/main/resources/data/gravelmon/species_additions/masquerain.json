@@ -388,11 +388,39 @@
         "height": 4.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "baseScale": 0.42857142857142855,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "triage"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 60,
+        "defence": 82,
+        "special_attack": 90,
+        "special_defence": 130,
+        "speed": 122
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "norheiman"
+    "norheiman",
+    "epochone_mega"
   ]
 }

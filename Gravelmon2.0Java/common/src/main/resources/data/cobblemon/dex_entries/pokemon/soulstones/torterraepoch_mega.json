@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:torterraepoch_mega",
+  "speciesId": "cobblemon:torterra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -52,6 +52,33 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_parasect-01",
+      "pokemon": "parasect epoch",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
     }
   ]
 }

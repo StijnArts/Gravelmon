@@ -412,9 +412,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvanillishone_epochtwo_vanilluxe",
+          "id": "epochvanillishone_epochtwovanilluxe",
           "variant": "level_up",
-          "result": "epochtwo vanilluxe",
+          "result": "epochtwovanilluxe",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

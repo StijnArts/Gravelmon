@@ -34,6 +34,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_sealeo-01",
+      "pokemon": "sealeo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-48",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
     }
   ]
 }

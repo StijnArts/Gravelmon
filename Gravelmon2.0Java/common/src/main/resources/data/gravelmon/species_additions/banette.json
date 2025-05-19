@@ -152,10 +152,38 @@
         "height": 3.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fairy",
+      "secondaryType": "dark",
+      "baseScale": 0.5217391304347826,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "prankster"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 130,
+        "defence": 95,
+        "special_attack": 90,
+        "special_defence": 63,
+        "speed": 103
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 15,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ],
   "evolutions": [
     {

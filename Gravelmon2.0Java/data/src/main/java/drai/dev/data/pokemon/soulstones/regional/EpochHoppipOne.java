@@ -23,7 +23,7 @@ public class EpochHoppipOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FAIRY),
                 List.of("Due to its small stature, a light gust is usually enough to blow it away."),
-                List.of(new EvolutionEntry("epochtwo skiploom", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwoskiploom", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_POWDER,15),

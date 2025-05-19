@@ -23,7 +23,7 @@ public class EpochGothoritaOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("The rattling sound its tail produces will often intensify when it finds prey, betraying its ability to hunt effectively."),
-                List.of(new EvolutionEntry("epochtwo gothitelle", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwogothitelle", EvolutionType.LEVEL_UP, List.of(),
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AGILITY,39),

@@ -440,11 +440,39 @@
         "height": 4.3125,
         "fixed": false
       }
+    },
+    {
+      "name": "epochone_mega",
+      "primaryType": "bug",
+      "secondaryType": "light",
+      "baseScale": 0.3031578947368421,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "tintedlens"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 45,
+        "defence": 90,
+        "special_attack": 130,
+        "special_defence": 105,
+        "speed": 105
+      },
+      "labels": [
+        "gen2",
+        "soulstones"
+      ],
+      "height": 12,
+      "aspects": [
+        "epochone_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "ayreian"
+    "ayreian",
+    "epochone_mega"
   ]
 }

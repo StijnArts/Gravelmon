@@ -85,6 +85,31 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_lilligant-01",
+      "pokemon": "lilligant epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-56",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_crimson"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
     }
   ]
 }

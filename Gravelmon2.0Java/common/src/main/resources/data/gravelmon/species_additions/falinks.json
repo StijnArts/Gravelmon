@@ -123,7 +123,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.7912087912087913,
+      "baseScale": 0.29010989010989013,
       "cannotDynamax": false,
       "abilities": [
         "purepower"
@@ -234,7 +234,7 @@
       "pokedex": [
         "cobblemon.species.epochfalinks.desc"
       ],
-      "height": 30,
+      "height": 11,
       "weight": 620,
       "aspects": [
         "epoch"
@@ -687,6 +687,32 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "cosmic",
+      "baseScale": 0.4740740740740741,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "hadronengine"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 105,
+        "defence": 90,
+        "special_attack": 95,
+        "special_defence": 105,
+        "speed": 90
+      },
+      "labels": [
+        "gen8",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
@@ -694,6 +720,7 @@
     "epoch",
     "norheiman",
     "cefiran",
-    "mikitarian"
+    "mikitarian",
+    "epoch_mega"
   ]
 }

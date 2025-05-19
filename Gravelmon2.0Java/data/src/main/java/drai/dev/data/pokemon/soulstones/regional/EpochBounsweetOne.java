@@ -23,7 +23,7 @@ public class EpochBounsweetOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("The flowers on its head secrete a noxious smelling liquid that can cause a variety of destabilizing effects from sleep to paralysis."),
-                List.of(new EvolutionEntry("epochtwo steenee", EvolutionType.LEVEL_UP, List.of(), 
+                List.of(new EvolutionEntry("epochtwosteenee", EvolutionType.LEVEL_UP, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRAFE,8),

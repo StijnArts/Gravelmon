@@ -395,6 +395,28 @@
             {
               "variant": "level",
               "minLevel": "20"
+            },
+            {
+              "variant": "time_range",
+              "range": "day"
+            }
+          ],
+          "permanent": true
+        },
+        {
+          "id": "epochwooper_clodsire_epoch",
+          "variant": "level_up",
+          "result": "clodsire epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
             }
           ],
           "permanent": true

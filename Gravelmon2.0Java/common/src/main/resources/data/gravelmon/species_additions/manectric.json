@@ -320,10 +320,38 @@
         "height": 4.5,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "ground",
+      "secondaryType": "ghost",
+      "baseScale": 0.518918918918919,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "cursedbody"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 135,
+        "defence": 65,
+        "special_attack": 135,
+        "special_defence": 55,
+        "speed": 115
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 16,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "enjinnian"
+    "enjinnian",
+    "epoch_mega"
   ]
 }

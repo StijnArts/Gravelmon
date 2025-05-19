@@ -23,7 +23,7 @@ public class EpochMagnetonOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("T.Magneton form when 3 T.Magnemite psychically fuse together. The dominant one can be identified by having an extra crystal on its body."),
-                List.of(new EvolutionEntry("epochtwo magnezone", EvolutionType.ITEM_INTERACT, false, List.of(), 
+                List.of(new EvolutionEntry("epochtwomagnezone", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:astral_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.MINERALWAVE,15),

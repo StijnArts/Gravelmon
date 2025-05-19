@@ -573,9 +573,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochexeggcuteone_epochtwo_exeggutor",
+          "id": "epochexeggcuteone_epochtwoexeggutor",
           "variant": "item_interact",
-          "result": "epochtwo exeggutor",
+          "result": "epochtwoexeggutor",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

@@ -381,11 +381,39 @@
         "height": 5.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "baseScale": 0.44835164835164837,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "dragonsmaw"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 130,
+        "defence": 105,
+        "special_attack": 120,
+        "special_defence": 130,
+        "speed": 110
+      },
+      "labels": [
+        "gen3",
+        "soulstones"
+      ],
+      "height": 17,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "ferranian",
     "raianian",
-    "epoch"
+    "epoch",
+    "epoch_mega"
   ]
 }

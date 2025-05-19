@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furretepoch_mega",
+  "speciesId": "cobblemon:furret",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

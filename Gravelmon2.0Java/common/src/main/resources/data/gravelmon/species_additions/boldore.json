@@ -425,9 +425,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochboldoreone_epochtwo_gigalith",
+          "id": "epochboldoreone_epochtwogigalith",
           "variant": "trade",
-          "result": "epochtwo gigalith",
+          "result": "epochtwogigalith",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

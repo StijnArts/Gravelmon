@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garchompepoch_mega",
+  "speciesId": "cobblemon:garchomp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epoch_mega",
+      "unlockForms": [
+        "epoch_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

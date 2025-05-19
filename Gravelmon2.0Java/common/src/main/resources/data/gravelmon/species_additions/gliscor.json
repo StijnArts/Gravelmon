@@ -278,10 +278,38 @@
         "height": 5.0,
         "fixed": false
       }
+    },
+    {
+      "name": "epoch_mega",
+      "primaryType": "rock",
+      "secondaryType": "dragon",
+      "baseScale": 0.7098591549295775,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "noguard"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 135,
+        "defence": 125,
+        "special_attack": 75,
+        "special_defence": 45,
+        "speed": 135
+      },
+      "labels": [
+        "gen4",
+        "soulstones"
+      ],
+      "height": 21,
+      "aspects": [
+        "epoch_mega"
+      ]
     }
   ],
   "features": [
     "epoch",
-    "hizian"
+    "hizian",
+    "epoch_mega"
   ]
 }
