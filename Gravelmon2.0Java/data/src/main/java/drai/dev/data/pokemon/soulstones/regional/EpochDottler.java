@@ -43,7 +43,7 @@ public class EpochDottler extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(2)
                         .setMinLevel(10).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_OVERWORLD).setAntiBiomes(Biome.IS_FOREST).canSeeSky()
+                        .setBiomes(Biome.IS_OVERWORLD).setAntiBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 0.28, 0.3,
                 List.of());

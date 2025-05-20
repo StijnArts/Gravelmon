@@ -131,7 +131,7 @@ public class EpochBouffalant extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(2)
                         .setMinLevel(31).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FLORAL).setAntiBiomes(Biome.IS_FOREST).canSeeSky()
+                        .setBiomes(Biome.IS_FLORAL).setAntiBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

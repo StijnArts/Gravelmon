@@ -95,7 +95,7 @@ public class Badgrow extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

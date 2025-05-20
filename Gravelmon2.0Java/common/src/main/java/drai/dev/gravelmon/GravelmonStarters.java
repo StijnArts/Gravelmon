@@ -770,6 +770,14 @@ public class GravelmonStarters {
                                 "bullaine level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Rikoto",
+                        List.of(
+                                "Herovor level=10",
+                                "Purrlit level=10",
+                                "Salatad level=10"
+                        )
+                ));
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {

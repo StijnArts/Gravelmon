@@ -102,7 +102,7 @@ public class AristosianSentret extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ARISTOS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 21, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_LUSH)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),

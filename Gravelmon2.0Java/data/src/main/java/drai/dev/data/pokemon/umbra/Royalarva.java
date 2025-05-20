@@ -37,7 +37,7 @@ public class Royalarva extends Pokemon {
                 List.of(Label.UMBRA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 10, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

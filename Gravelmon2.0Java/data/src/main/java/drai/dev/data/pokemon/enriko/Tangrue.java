@@ -38,7 +38,7 @@ public class Tangrue extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

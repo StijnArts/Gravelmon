@@ -111,7 +111,7 @@ public class Leukoon extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:leather",100, 1,1)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 32, 2.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),

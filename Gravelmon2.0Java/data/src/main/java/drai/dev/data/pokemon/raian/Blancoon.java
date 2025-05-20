@@ -29,7 +29,7 @@ public class Blancoon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RAIAN),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 32, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,7 +1,9 @@
 package drai.dev.data.games.pbs;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.solarlightlunardark.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class SolarLightLunarDark extends drai.dev.data.games.registry.Game {
 	public static final Game INSTANCE = new SolarLightLunarDark();
@@ -11,363 +13,1797 @@ public class SolarLightLunarDark extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Herovor());
-        addNewPokemon(new Forestone());
-        addNewPokemon(new Mountree());
-        addNewPokemon(new Purrlit());
-        addNewPokemon(new Purryo());
-        addNewPokemon(new Flearoe());
-        addNewPokemon(new Salatad());
-        addNewPokemon(new Salanip());
-        addNewPokemon(new Salaslam());
-        addNewPokemon(new Hamstar());
-        addNewPokemon(new Snuffuzz());
-        addNewPokemon(new Budcheep());
-        addNewPokemon(new Budcherp());
-        addNewPokemon(new Budsoar());
-        addNewPokemon(new Elecritter());
-        addNewPokemon(new Weashock());
-        addNewPokemon(new Stickit());
-        addNewPokemon(new Stickut());
-        addNewPokemon(new Cheepip());
-        addNewPokemon(new Aeroma());
-        addNewPokemon(new Lavenseed());
-        addNewPokemon(new Lavenbelle());
-        addNewPokemon(new Lavenrina());
-        addNewPokemon(new Moonky());
-        addNewPokemon(new Lunape());
-        addNewPokemon(new Adart());
-        addNewPokemon(new Dartoad());
-        addNewPokemon(new Doveheart());
-        addNewPokemon(new Spidox());
-        addNewPokemon(new Widox());
-        addNewPokemon(new Glowig());
-        addNewPokemon(new Glocoon());
-        addNewPokemon(new Glowing());
-        addNewPokemon(new Stotox());
-        addNewPokemon(new Bouldox());
-        addNewPokemon(new Crystox());
-        addNewPokemon(new Jumple());
-        addNewPokemon(new Casspring());
-        addNewPokemon(new Flowby());
-        addNewPokemon(new Nimblow());
-        addNewPokemon(new Cirribus());
-        addNewPokemon(new Pixwee());
-        addNewPokemon(new Pixilily());
-        addNewPokemon(new Ugling());
-        addNewPokemon(new Swellegant());
-        addNewPokemon(new Angling());
-        addNewPokemon(new Angelish());
-        addNewPokemon(new Angelight());
-        addNewPokemon(new Rubball());
-        addNewPokemon(new Rubbunny());
-        addNewPokemon(new Aquad());
-        addNewPokemon(new Smaqua());
-        addNewPokemon(new Vennap());
-        addNewPokemon(new Monstrap());
-        addNewPokemon(new Lophug());
-        addNewPokemon(new Beopup());
-        addNewPokemon(new Werehide());
-        addNewPokemon(new Aractula());
-        addNewPokemon(new Errotula());
-        addNewPokemon(new Geckone());
-        addNewPokemon(new Oron());
-        addNewPokemon(new Oriture());
-        addNewPokemon(new Natoron());
-        addNewPokemon(new Zuppy());
-        addNewPokemon(new Rushot());
-        addNewPokemon(new Flawk());
-        addNewPokemon(new Legenix());
-        addNewPokemon(new Snazap());
-        addNewPokemon(new Cobolta());
-        addNewPokemon(new Bushoo());
-        addNewPokemon(new Bushup());
-        addNewPokemon(new Bushairy());
-        addNewPokemon(new Platyplat());
-        addNewPokemon(new Platyplash());
-        addNewPokemon(new Erraz());
-        addNewPokemon(new Erravolt());
-        addNewPokemon(new Dinomite());
-        addNewPokemon(new Dinopion());
-        addNewPokemon(new Formling());
-        addNewPokemon(new Raizid());
-        addNewPokemon(new Raizodon());
-        addNewPokemon(new Vambat());
-        addNewPokemon(new Dracubat());
-        addNewPokemon(new Countula());
-        addNewPokemon(new Golkid());
-        addNewPokemon(new Golemo());
-        addNewPokemon(new Golossus());
-        addNewPokemon(new Buzzeed());
-        addNewPokemon(new Ecobuzz());
-        addNewPokemon(new Signileaf());
-        addNewPokemon(new Pupool());
-        addNewPokemon(new Pooldog());
-        addNewPokemon(new Peafan());
-        addNewPokemon(new Psyflock());
-        addNewPokemon(new Phoxy());
-        addNewPokemon(new Phoxiven());
-        addNewPokemon(new Paracaw());
-        addNewPokemon(new Paraful());
-        addNewPokemon(new Parabow());
-        addNewPokemon(new Hummzing());
-        addNewPokemon(new Hummzap());
-        addNewPokemon(new Spony());
-        addNewPokemon(new Horshush());
-        addNewPokemon(new Gworm());
-        addNewPokemon(new Wormune());
-        addNewPokemon(new Wormole());
-        addNewPokemon(new Scorlit());
-        addNewPokemon(new Scorpinova());
-        addNewPokemon(new Dugmite());
-        addNewPokemon(new Erramite());
-        addNewPokemon(new Sandster());
-        addNewPokemon(new Monstune());
-        addNewPokemon(new Wraphro());
-        addNewPokemon(new Pharobe());
-        addNewPokemon(new Roobeo());
-        addNewPokemon(new Roobeop());
-        addNewPokemon(new Dodont());
-        addNewPokemon(new Rexite());
-        addNewPokemon(new Arexite());
-        addNewPokemon(new Stegron());
-        addNewPokemon(new Stegasteel());
-        addNewPokemon(new Atomix());
-        addNewPokemon(new Atomotro());
-        addNewPokemon(new Atomotrix());
-        addNewPokemon(new Skrabble());
-        addNewPokemon(new Jeweltal());
-        addNewPokemon(new Weakid());
-        addNewPokemon(new Bulker());
-        addNewPokemon(new Dynaball());
-        addNewPokemon(new Explonade());
-        addNewPokemon(new Fawnite());
-        addNewPokemon(new Chardeer());
-        addNewPokemon(new Elkindle());
-        addNewPokemon(new Shrubsea());
-        addNewPokemon(new Kahula());
-        addNewPokemon(new Weedsea());
-        addNewPokemon(new Kelpula());
-        addNewPokemon(new Eclipo());
-        addNewPokemon(new Eclipser());
-        addNewPokemon(new Feva());
-        addNewPokemon(new Fevira());
-        addNewPokemon(new Fevesta());
-        addNewPokemon(new Moostone());
-        addNewPokemon(new Moostrike());
-        addNewPokemon(new Kidlit());
-        addNewPokemon(new Billaze());
-        addNewPokemon(new Airimp());
-        addNewPokemon(new Blimpoon());
-        addNewPokemon(new Cuburn());
-        addNewPokemon(new Grizzler());
-        addNewPokemon(new Magrizzly());
-        addNewPokemon(new Barball());
-        addNewPokemon(new Barbviral());
-        addNewPokemon(new Fyant());
-        addNewPokemon(new Blitzy());
-        addNewPokemon(new Blitziglow());
-        addNewPokemon(new Blitziboom());
-        addNewPokemon(new Hottop());
-        addNewPokemon(new Fizire());
-        addNewPokemon(new Volcadon());
-        addNewPokemon(new Napkid());
-        addNewPokemon(new Phansheet());
-        addNewPokemon(new Psytric());
-        addNewPokemon(new Ortarock());
-        addNewPokemon(new Bouldoise());
-        addNewPokemon(new Porfin());
-        addNewPokemon(new Doflap());
-        addNewPokemon(new Shrimpet());
-        addNewPokemon(new Shrimpoon());
-        addNewPokemon(new Sharko());
-        addNewPokemon(new Markrush());
-        addNewPokemon(new Kinip());
-        addNewPokemon(new Guppish());
-        addNewPokemon(new Eqwater());
-        addNewPokemon(new Gillyde());
-        addNewPokemon(new Seagic());
-        addNewPokemon(new Orcail());
-        addNewPokemon(new Jellitot());
-        addNewPokemon(new Jellitic());
-        addNewPokemon(new Jelliking());
-        addNewPokemon(new JellitotOne());
-        addNewPokemon(new Jellinip());
-        addNewPokemon(new Jelliqueen());
-        addNewPokemon(new Parasea());
-        addNewPokemon(new Paradiso());
-        addNewPokemon(new Surfide());
-        addNewPokemon(new Idude());
-        addNewPokemon(new Crablue());
-        addNewPokemon(new Rockster());
-        addNewPokemon(new Oxidon());
-        addNewPokemon(new Snapike());
-        addNewPokemon(new Holloweed());
-        addNewPokemon(new Hollowkin());
-        addNewPokemon(new Rottoween());
-        addNewPokemon(new Swampheap());
-        addNewPokemon(new Purpole());
-        addNewPokemon(new Frogoo());
-        addNewPokemon(new Oxitoad());
-        addNewPokemon(new Aqlarva());
-        addNewPokemon(new Mosliquo());
-        addNewPokemon(new Slibloo());
-        addNewPokemon(new Fungerm());
-        addNewPokemon(new Kapplash());
-        addNewPokemon(new Rollow());
-        addNewPokemon(new Rollurk());
-        addNewPokemon(new Rollger());
-        addNewPokemon(new Skeledeep());
-        addNewPokemon(new Scrow());
-        addNewPokemon(new Gaslit());
-        addNewPokemon(new Dozand());
-        addNewPokemon(new Skreech());
-        addNewPokemon(new Banshreek());
-        addNewPokemon(new Banscream());
-        addNewPokemon(new Finflix());
-        addNewPokemon(new Finndra());
-        addNewPokemon(new Hydrogon());
-        addNewPokemon(new Merkid());
-        addNewPokemon(new Mermarine());
-        addNewPokemon(new Mersidon());
-        addNewPokemon(new Corrine());
-        addNewPokemon(new Coralush());
-        addNewPokemon(new Coraltle());
-        addNewPokemon(new Gravole());
-        addNewPokemon(new Specstone());
-        addNewPokemon(new Snoozee());
-        addNewPokemon(new Ghoullow());
-        addNewPokemon(new Baawool());
-        addNewPokemon(new Baabush());
-        addNewPokemon(new Baablaze());
-        addNewPokemon(new Baabble());
-        addNewPokemon(new Baabreeze());
-        addNewPokemon(new Baablock());
-        addNewPokemon(new Baablizz());
-        addNewPokemon(new Parafox());
-        addNewPokemon(new Spirix());
-        addNewPokemon(new Pupetal());
-        addNewPokemon(new Pupyro());
-        addNewPokemon(new Puplash());
-        addNewPokemon(new Felove());
-        addNewPokemon(new Yayak());
-        addNewPokemon(new Yakkle());
-        addNewPokemon(new Leonite());
-        addNewPokemon(new Flapinko());
-        addNewPokemon(new Rollie());
-        addNewPokemon(new Elestomp());
-        addNewPokemon(new Girafire());
-        addNewPokemon(new Giraflame());
-        addNewPokemon(new Bullson());
-        addNewPokemon(new Zebrite());
-        addNewPokemon(new Hippond());
-        addNewPokemon(new Hippotone());
-        addNewPokemon(new Cheetric());
-        addNewPokemon(new Cosmet());
-        addNewPokemon(new Meterock());
-        addNewPokemon(new Syrill());
-        addNewPokemon(new Cycrill());
-        addNewPokemon(new Syphoon());
-        addNewPokemon(new Hypnopuff());
-        addNewPokemon(new Hypnosmog());
-        addNewPokemon(new Nawale());
-        addNewPokemon(new Whaley());
-        addNewPokemon(new Humbreech());
-        addNewPokemon(new Squidart());
-        addNewPokemon(new Lisquid());
-        addNewPokemon(new Hamawl());
-        addNewPokemon(new Silvicious());
-        addNewPokemon(new Groilla());
-        addNewPokemon(new Groillum());
-        addNewPokemon(new Kongrilla());
-        addNewPokemon(new Woodbeak());
-        addNewPokemon(new Woodawn());
-        addNewPokemon(new Wingon());
-        addNewPokemon(new Aerogon());
-        addNewPokemon(new Ikiki());
-        addNewPokemon(new Ikitik());
-        addNewPokemon(new Ikitoko());
-        addNewPokemon(new Cryodro());
-        addNewPokemon(new Cryodrago());//cryodra
-        addNewPokemon(new Brachio());
-        addNewPokemon(new Brachiodon());
-        addNewPokemon(new Bugray());
-        addNewPokemon(new Dracofly());
-        addNewPokemon(new Apire());
-        addNewPokemon(new Apiblaze());
-        addNewPokemon(new Sluggah());
-        addNewPokemon(new Mossnail());
-        addNewPokemon(new Lazloth());
-        addNewPokemon(new Mystablet());
-        addNewPokemon(new Bunnic());
-        addNewPokemon(new Arctichare());
-        addNewPokemon(new Moofork());
-        addNewPokemon(new Avaldeer());
-        addNewPokemon(new Molice());
-        addNewPokemon(new Undrill());
-        addNewPokemon(new Huskpup());
-        addNewPokemon(new Huskold());
-        addNewPokemon(new Crysilla());
-        addNewPokemon(new Cryscoon());
-        addNewPokemon(new Crystiwing());
-        addNewPokemon(new Snowlow());
-        addNewPokemon(new Snowrong());
-        addNewPokemon(new Aurorai());
-        addNewPokemon(new Colcub());
-        addNewPokemon(new Subearo());
-        addNewPokemon(new Polarpow());
-        addNewPokemon(new Rinolar());
-        addNewPokemon(new Rinotic());
-        addNewPokemon(new Noseal());
-        addNewPokemon(new Isealcle());
-        addNewPokemon(new Sealberg());
-        addNewPokemon(new Apein());
-        addNewPokemon(new Sascrush());
-        addNewPokemon(new Battic());
-        addNewPokemon(new Blizzibat());
-        addNewPokemon(new Carbonix());
-        addNewPokemon(new Carbonitro());
-        addNewPokemon(new Iggle());
-        addNewPokemon(new Iglow());
-        addNewPokemon(new Gigloo());
-        addNewPokemon(new Puffle());
-        addNewPokemon(new Puffpeak());
-        addNewPokemon(new Pinglett());
-        addNewPokemon(new Pinglade());
-        addNewPokemon(new Weetot());
-        addNewPokemon(new Melotweet());
-        addNewPokemon(new Eelect());
-        addNewPokemon(new Chamelec());
-        addNewPokemon(new Chamelectro());
-        addNewPokemon(new Palmo());
-        addNewPokemon(new Cocorocko());
-        addNewPokemon(new Sealug());
-        addNewPokemon(new Nembroslug());
-        addNewPokemon(new Droot());
-        addNewPokemon(new Dragoon());
-        addNewPokemon(new Frugon());
-        addNewPokemon(new Serpyro());
-        addNewPokemon(new Slitheat());
-        addNewPokemon(new Blazilisk());
-        addNewPokemon(new Pinkmee());
-        addNewPokemon(new Valure());
-        addNewPokemon(new Beautifin());
-        addNewPokemon(new Strikon());
-        addNewPokemon(new Strikloud());
-        addNewPokemon(new Strikyon());
-        addNewPokemon(new Fayely());
-        addNewPokemon(new Fayegon());
-        addNewPokemon(new Fayedra());
-        addNewPokemon(new Erradon());
-        addNewPokemon(new Igacore());
-        addNewPokemon(new Searine());
-        addNewPokemon(new Ornadowl());
-        addNewPokemon(new Aethera());
-        addNewPokemon(new Solaran());
-        addNewPokemon(new Lunaro());
-        addNewPokemon(new Cellance());
-        addNewPokemon(new Healthia());
-        addNewPokemon(new Pollusion());
-        addNewPokemon(new Gemmany());
+        addNewPokemon(new Herovor().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Forestone().overwriteSpawnData(new PokemonSpawnDataBuilder(2)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mountree().overwriteSpawnData(new PokemonSpawnDataBuilder(3)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+
+        addNewPokemon(new Purrlit().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Purryo().overwriteSpawnData(new PokemonSpawnDataBuilder(2)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Flearoe().overwriteSpawnData(new PokemonSpawnDataBuilder(3)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+
+        addNewPokemon(new Salatad().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .starter()
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Salanip().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Salaslam().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hamstar().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snuffuzz().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Budcheep().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Budcherp().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Budsoar().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Elecritter().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Weashock().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Stickit().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Stickut().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cheepip().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aeroma().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lavenseed().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lavenbelle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lavenrina().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Moonky().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lunape().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Adart().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dartoad().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Doveheart().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Spidox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Widox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Glowig().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Glocoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Glowing().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Stotox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bouldox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Crystox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jumple().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Casspring().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Flowby().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Nimblow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cirribus().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pixwee().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pixilily().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ugling().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Swellegant().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Angling().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Angelish().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Angelight().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rubball().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rubbunny().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aquad().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Smaqua().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Vennap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Monstrap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lophug().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Beopup().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Werehide().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aractula().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Errotula().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Geckone().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Oron().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Oriture().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Natoron().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Zuppy().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rushot().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Flawk().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Legenix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snazap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cobolta().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bushoo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bushup().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bushairy().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Platyplat().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Platyplash().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Erraz().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Erravolt().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dinomite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dinopion().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Formling().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Raizid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Raizodon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Vambat().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dracubat().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Countula().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Golkid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Golemo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Golossus().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Buzzeed().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ecobuzz().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Signileaf().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pupool().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pooldog().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Peafan().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Psyflock().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Phoxy().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Phoxiven().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Paracaw().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Paraful().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Parabow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hummzing().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hummzap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Spony().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Horshush().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gworm().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Wormune().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Wormole().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Scorlit().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Scorpinova().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dugmite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Erramite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sandster().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Monstune().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Wraphro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pharobe().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Roobeo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Roobeop().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dodont().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rexite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Arexite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Stegron().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Stegasteel().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Atomix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Atomotro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Atomotrix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Skrabble().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jeweltal().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Weakid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bulker().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dynaball().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Explonade().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fawnite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Chardeer().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Elkindle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Shrubsea().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kahula().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Weedsea().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kelpula().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Eclipo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Eclipser().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Feva().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fevira().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fevesta().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Moostone().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Moostrike().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kidlit().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Billaze().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Airimp().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blimpoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cuburn().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Grizzler().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Magrizzly().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Barball().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Barbviral().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fyant().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blitzy().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blitziglow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blitziboom().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hottop().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fizire().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Volcadon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Napkid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Phansheet().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Psytric().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ortarock().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bouldoise().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Porfin().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Doflap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Shrimpet().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Shrimpoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sharko().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Markrush().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kinip().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Guppish().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Eqwater().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gillyde().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Seagic().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Orcail().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jellitot().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jellitic().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jelliking().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new JellitotOne().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jellinip().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Jelliqueen().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Parasea().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Paradiso().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Surfide().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Idude().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Crablue().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rockster().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Oxidon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snapike().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Holloweed().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hollowkin().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rottoween().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Swampheap().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Purpole().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Frogoo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Oxitoad().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aqlarva().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mosliquo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Slibloo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fungerm().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kapplash().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rollow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rollurk().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rollger().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Skeledeep().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Scrow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gaslit().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dozand().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Skreech().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Banshreek().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Banscream().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Finflix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Finndra().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hydrogon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Merkid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mermarine().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mersidon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Corrine().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Coralush().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Coraltle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gravole().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Specstone().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snoozee().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ghoullow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baawool().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baabush().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baablaze().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baabble().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baabreeze().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baablock().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Baablizz().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Parafox().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Spirix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pupetal().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pupyro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Puplash().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Felove().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Yayak().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Yakkle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Leonite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Flapinko().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rollie().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Elestomp().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Girafire().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Giraflame().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bullson().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Zebrite().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hippond().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hippotone().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cheetric().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cosmet().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Meterock().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Syrill().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cycrill().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Syphoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hypnopuff().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hypnosmog().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Nawale().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Whaley().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Humbreech().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Squidart().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lisquid().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Hamawl().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Silvicious().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Groilla().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Groillum().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Kongrilla().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Woodbeak().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Woodawn().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Wingon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aerogon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ikiki().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ikitik().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ikitoko().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cryodro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cryodrago().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));//cryodra
+        addNewPokemon(new Brachio().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Brachiodon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bugray().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dracofly().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Apire().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Apiblaze().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sluggah().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mossnail().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lazloth().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Mystablet().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Bunnic().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Arctichare().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Moofork().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Avaldeer().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Molice().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Undrill().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Huskpup().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Huskold().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Crysilla().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cryscoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Crystiwing().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snowlow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Snowrong().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aurorai().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Colcub().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Subearo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Polarpow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rinolar().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Rinotic().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Noseal().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Isealcle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sealberg().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Apein().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sascrush().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Battic().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blizzibat().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Carbonix().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Carbonitro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Iggle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Iglow().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gigloo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Puffle().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Puffpeak().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pinglett().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pinglade().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Weetot().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Melotweet().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Eelect().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Chamelec().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Chamelectro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Palmo().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cocorocko().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Sealug().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Nembroslug().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Droot().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Dragoon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Frugon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Serpyro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Slitheat().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Blazilisk().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pinkmee().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Valure().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Beautifin().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Strikon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Strikloud().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Strikyon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fayely().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fayegon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Fayedra().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Erradon().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Igacore().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Searine().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Ornadowl().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Aethera().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Solaran().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Lunaro().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Cellance().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Healthia().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Pollusion().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
+        addNewPokemon(new Gemmany().overwriteSpawnData(new PokemonSpawnDataBuilder(1)
+                .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                .setContext(SpawnContext.GROUNDED)
+                .setBiomes(Biome.IS_VOID).canSeeSky()
+                .setSpawnPreset(SpawnPreset.NATURAL).build()));
     }
 }

@@ -30,7 +30,7 @@ public class Betterfree extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(3)
                         .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST).atNight()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

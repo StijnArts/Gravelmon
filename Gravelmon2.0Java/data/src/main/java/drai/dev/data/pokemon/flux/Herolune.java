@@ -57,7 +57,7 @@ public class Herolune extends Pokemon {
                 List.of(Label.FLUX),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 0.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

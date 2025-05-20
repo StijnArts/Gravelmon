@@ -95,7 +95,7 @@ public class Mimectar extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 45, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
                 List.of());

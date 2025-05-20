@@ -128,7 +128,7 @@ public class EpochBergmiteOne extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(1)
                         .setMinLevel(14).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST).duringDaytime()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

@@ -56,7 +56,7 @@ public class Probat extends Pokemon {
                 List.of(Label.LOCKEMON),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 53, 0.02, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND, Biome.IS_HILLS, Biome.IS_JUNGLE, Biome.IS_SKY, Biome.IS_SWAMP)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_HILLS, Biome.IS_JUNGLE, Biome.IS_SKY, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

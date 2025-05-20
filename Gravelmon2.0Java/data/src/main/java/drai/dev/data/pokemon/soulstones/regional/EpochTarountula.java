@@ -132,7 +132,7 @@ public class EpochTarountula extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(1)
                         .setMinLevel(5).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_SNOWY).setAntiBiomes(Biome.IS_FOREST).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY).setAntiBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

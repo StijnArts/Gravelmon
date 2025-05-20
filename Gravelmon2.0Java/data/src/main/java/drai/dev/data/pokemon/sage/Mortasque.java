@@ -95,7 +95,7 @@ public class Mortasque extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_JUNGLE)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),

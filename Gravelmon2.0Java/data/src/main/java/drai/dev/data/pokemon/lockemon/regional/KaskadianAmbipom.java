@@ -102,7 +102,7 @@ public class KaskadianAmbipom extends Pokemon {
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, 0.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());

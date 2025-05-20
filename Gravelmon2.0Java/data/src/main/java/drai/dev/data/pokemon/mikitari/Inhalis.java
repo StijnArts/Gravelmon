@@ -81,7 +81,7 @@ public class Inhalis extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(20).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST).atNight()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

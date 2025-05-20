@@ -49,7 +49,7 @@ public class Cloflower extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MIDAMIS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),

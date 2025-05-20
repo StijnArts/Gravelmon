@@ -1122,7 +1122,7 @@ public class MegaRegistry {
     }
 
     private static List<MegaEvolution> getInsurgenceMegas() {
-        var megas = new ArrayList<MegaEvolution>(List.of(
+        return new ArrayList<>(List.of(
                 new MegaEvolution("poliwrath",
                         Type.WATER, Type.FIGHTING,
                         new Stats(90,
@@ -1732,6 +1732,5 @@ public class MegaRegistry {
                         14, "insurgence", List.of(Label.GEN4, Label.INSURGENCE), Aspect.DELTA)
                         .addPalette(new MegaStonePalette("#ffbd31", "#e6dee6", "#5a5a5a"))
         ));
-        return megas;
     }
 }

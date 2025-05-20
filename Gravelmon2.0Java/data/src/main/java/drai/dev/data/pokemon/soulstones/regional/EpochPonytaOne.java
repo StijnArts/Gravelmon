@@ -120,7 +120,7 @@ public class EpochPonytaOne extends drai.dev.data.pokemon.Pokemon {
                 ), new PokemonSpawnDataBuilder(1)
                         .setMinLevel(13).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST)
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST)
                     .setSpawnPreset(SpawnPreset.NEAR_WATER).build(),
                 0.28, 0.3,
                 List.of());

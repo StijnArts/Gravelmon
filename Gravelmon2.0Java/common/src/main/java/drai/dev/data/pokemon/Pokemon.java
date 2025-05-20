@@ -325,6 +325,11 @@ public class Pokemon extends AbstractPokemon {
     public Pokemon fishingSpawnFromExisting(){
         return fishingSpawnFromExisting(List.of());
     }
+    public Pokemon overwriteSpawnData(List<PokemonSpawnData> spawnData){
+        this.spawnData.clear();
+        this.spawnData.addAll(spawnData);
+        return this;
+    }
 
     protected static void addAdditionalItemDrop(String from, String evolutionItem, Pokemon result) {
         if (evolutionItem.contains("gravelmon")) {
@@ -360,9 +365,10 @@ public class Pokemon extends AbstractPokemon {
         return additionalFormKey;
     }
 
-
     @Override
     public String getTextureName() {
         return getCleanName();
     }
+
+
 }

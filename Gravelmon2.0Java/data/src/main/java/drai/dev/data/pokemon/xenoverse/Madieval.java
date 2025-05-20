@@ -78,7 +78,7 @@ public class Madieval extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());

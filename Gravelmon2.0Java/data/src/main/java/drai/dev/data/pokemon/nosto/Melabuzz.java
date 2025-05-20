@@ -40,7 +40,7 @@ public class Melabuzz extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.NOSTO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 15, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_PLAINS))
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_PLAINS))
                 ), List.of(),
                 List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,

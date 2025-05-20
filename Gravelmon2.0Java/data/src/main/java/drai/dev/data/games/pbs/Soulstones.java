@@ -829,9 +829,9 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
         addNewPokemon(new EpochEscavalier("", Aspect.EPOCH));
         addNewPokemon(new EpochFoongus("", Aspect.EPOCH));
         addNewPokemon(new EpochAmoonguss("", Aspect.EPOCH));
-        addNewPokemon(new EpochSmoliv("", Aspect.EPOCH));
-        addNewPokemon(new EpochDolliv("", Aspect.EPOCH));
-        addNewPokemon(new EpochArboliva("", Aspect.EPOCH));
+        addNewPokemon(new EpochSmoliv("", Aspect.EPOCH).fishingSpawnFromExisting());
+        addNewPokemon(new EpochDolliv("", Aspect.EPOCH).fishingSpawnFromExisting());
+        addNewPokemon(new EpochArboliva("", Aspect.EPOCH).fishingSpawnFromExisting());
         addNewPokemon(new EpochGrowlitheOne("", Aspect.EPOCH));
         addNewPokemon(new EpochArcanineOne("", Aspect.EPOCH));
         addNewPokemon(new EpochDuraludon("", Aspect.EPOCH));
@@ -875,7 +875,7 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
         addNewPokemon(new EpochBrambleghast("", Aspect.EPOCH));
         addNewPokemon(new EpochBronzorOne("", Aspect.EPOCH));
         addNewPokemon(new EpochBronzongOne("", Aspect.EPOCH));
-        addNewPokemon(new EpochBruxish("", Aspect.EPOCH));
+        addNewPokemon(new EpochBruxish("", Aspect.EPOCH).fishingSpawnFromExisting());
         addNewPokemon(new EpochBunnelby("", Aspect.EPOCH));
         addNewPokemon(new EpochDiggersby("", Aspect.EPOCH));
         addNewPokemon(new EpochBurmy("", Aspect.EPOCH));
@@ -885,8 +885,8 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
         addNewPokemon(new EpochCacturneOne("", Aspect.EPOCH));
         addNewPokemon(new EpochCapsakid("", Aspect.EPOCH));
         addNewPokemon(new EpochScovillain("", Aspect.EPOCH));
-        addNewPokemon(new EpochCetoddle("", Aspect.EPOCH));
-        addNewPokemon(new EpochCetitan("", Aspect.EPOCH));
+        addNewPokemon(new EpochCetoddle("", Aspect.EPOCH).fishingSpawnFromExisting());
+        addNewPokemon(new EpochCetitan("", Aspect.EPOCH).fishingSpawnFromExisting());
         addNewPokemon(new EpochCetoddleOne("", Aspect.EPOCH));
         addNewPokemon(new EpochCetitanOne("", Aspect.EPOCH));
         addNewPokemon(new EpochCharmanderOne("", Aspect.EPOCH));
@@ -921,8 +921,8 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
         addNewPokemon(new EpochDewott("", Aspect.EPOCH));
         addNewPokemon(new EpochSamurott("", Aspect.EPOCH));
         addNewPokemon(new EpochDondozo("", Aspect.EPOCH));
-        addNewPokemon(new EpochPhanpyOne("", Aspect.EPOCH));
-        addNewPokemon(new EpochDonphanOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPhanpyOne("", Aspect.EPOCH).fishingSpawnFromExisting());
+        addNewPokemon(new EpochDonphanOne("", Aspect.EPOCH).fishingSpawnFromExisting());
         addNewPokemon(new EpochDrampa("", Aspect.EPOCH));
         addNewPokemon(new EpochDuskullOne("", Aspect.EPOCH));
         addNewPokemon(new EpochDusclopsOne("", Aspect.EPOCH));

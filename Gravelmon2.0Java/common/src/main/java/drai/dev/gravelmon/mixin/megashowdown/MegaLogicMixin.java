@@ -1,5 +1,7 @@
 package drai.dev.gravelmon.mixin.megashowdown;
 
+import com.cobblemon.mod.common.api.battles.model.*;
+import com.cobblemon.mod.common.battles.pokemon.*;
 import com.cobblemon.mod.common.entity.pokemon.*;
 import com.cobblemon.yajatkaul.mega_showdown.megaevo.*;
 import com.llamalad7.mixinextras.sugar.*;
@@ -16,12 +18,21 @@ import static drai.dev.gravelmon.mega.MegaEvolveLogic.gravelmonEvoLogic;
 public class MegaLogicMixin {
 
     @Inject(
-            method = "Evolve",
+            method = "Evolve(Lcom/cobblemon/mod/common/entity/pokemon/PokemonEntity;Lnet/minecraft/world/entity/player/Player;Ljava/lang/Boolean;)V",
             at = @At(value = "HEAD"), // First return in the method
             cancellable = true
     )
     private static void afterGetPokemon(PokemonEntity context, Player player, Boolean fromBattle, CallbackInfo ci) {
         doGravelmonMegaLogic(context, player, fromBattle, ci);
+    }
+
+    @Inject(
+            method = "Evolve(Lcom/cobblemon/mod/common/entity/pokemon/PokemonEntity;Lnet/minecraft/world/entity/player/Player;Lcom/cobblemon/mod/common/battles/pokemon/BattlePokemon;Lcom/cobblemon/mod/common/api/battles/model/PokemonBattle;)V",
+            at = @At(value = "HEAD"), // First return in the method
+            cancellable = true
+    )
+    private static void afterGetPokemon(PokemonEntity context, Player player, BattlePokemon battlePokemon, PokemonBattle pokemonBattle, CallbackInfo ci) {
+        doGravelmonMegaLogic(context, player, battlePokemon, pokemonBattle, ci);
     }
 
     @Inject(

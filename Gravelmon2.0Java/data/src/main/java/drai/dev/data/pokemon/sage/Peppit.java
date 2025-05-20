@@ -94,7 +94,7 @@ public class Peppit extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:seeds",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

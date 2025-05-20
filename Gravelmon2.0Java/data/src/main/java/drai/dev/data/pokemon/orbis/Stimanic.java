@@ -42,7 +42,7 @@ public class Stimanic extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(3)
                         .setMinLevel(34).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST).duringDaytime()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

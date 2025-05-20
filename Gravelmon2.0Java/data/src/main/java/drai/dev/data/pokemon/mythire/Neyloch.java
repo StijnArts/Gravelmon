@@ -79,7 +79,7 @@ public class Neyloch extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 33, 47, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_SWAMP)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER,Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),

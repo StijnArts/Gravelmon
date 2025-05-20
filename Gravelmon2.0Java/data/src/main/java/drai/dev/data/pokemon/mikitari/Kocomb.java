@@ -36,7 +36,7 @@ public class Kocomb extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(10).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST)
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.HONEY_TREE).build(),
                 0.28, 0.3,
                 List.of());

@@ -89,7 +89,7 @@ public class Tadport extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RICA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 5, 23, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND, Biome.IS_RIVER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.FRESHWATER),

@@ -59,7 +59,7 @@ public class CefiranMeowthElectric extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());

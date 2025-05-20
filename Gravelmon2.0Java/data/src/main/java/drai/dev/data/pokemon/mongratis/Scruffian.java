@@ -25,7 +25,7 @@ public class Scruffian extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(2)
                         .setMinLevel(25).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST).atNight()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

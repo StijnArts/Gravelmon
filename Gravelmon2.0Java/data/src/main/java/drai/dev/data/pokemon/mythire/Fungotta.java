@@ -45,7 +45,7 @@ public class Fungotta extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.MYTHIRE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),

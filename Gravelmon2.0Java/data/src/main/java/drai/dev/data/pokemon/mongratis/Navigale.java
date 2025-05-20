@@ -25,7 +25,7 @@ public class Navigale extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(3)
                         .setMinLevel(32).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_FOREST, Biome.IS_PLAINS).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_PLAINS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
