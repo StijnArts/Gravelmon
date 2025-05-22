@@ -442,10 +442,10 @@
       }
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "bug",
       "secondaryType": "light",
-      "baseScale": 0.3031578947368421,
+      "baseScale": 14.399999999999999,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -465,7 +465,7 @@
       ],
       "height": 12,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -473,6 +473,6 @@
     "epoch",
     "epochtwo",
     "ayreian",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

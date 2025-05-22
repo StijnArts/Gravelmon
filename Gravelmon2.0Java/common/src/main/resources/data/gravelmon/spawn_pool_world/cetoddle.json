@@ -31,6 +31,28 @@
       }
     },
     {
+      "id": "epoch_cetoddle-11",
+      "pokemon": "cetoddle epoch",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "12-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_cetoddle-01",
       "pokemon": "cetoddle epoch",
       "presets": [

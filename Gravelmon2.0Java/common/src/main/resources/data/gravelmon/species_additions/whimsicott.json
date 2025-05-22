@@ -328,10 +328,10 @@
       }
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "electric",
       "secondaryType": "grass",
-      "baseScale": 0.3142857142857143,
+      "baseScale": 13.200000000000001,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -351,13 +351,13 @@
       ],
       "height": 11,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

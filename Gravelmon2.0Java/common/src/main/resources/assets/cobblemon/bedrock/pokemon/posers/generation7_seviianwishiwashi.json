@@ -1,0 +1,155 @@
+{
+  "head": "head",
+  "portraitScale": 1.0,
+  "portraitTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "profileScale": 1.0,
+  "profileTranslation": [
+    0.0,
+    0.2,
+    0.0
+  ],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "bedrock(seviianwishiwashi, ground_idle)"
+      ],
+      "poseTypes": [
+        "STAND",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "bedrock(seviianwishiwashi, ground_walk)"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "animations": [
+        "bedrock(seviianwishiwashi, water_swim)"
+      ],
+      "poseTypes": [
+        "SWIM"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "animations": [
+        "bedrock(seviianwishiwashi, water_idle)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "bedrock(seviianwishiwashi, air_idle)"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "bedrock(seviianwishiwashi, air_fly)"
+      ],
+      "poseTypes": [
+        "FLY"
+      ],
+      "transformTicks": 10,
+      "quirks": [
+        {
+          "animations": [
+            "bedrock(seviianwishiwashi, blink)"
+          ],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "animations": [
+        "bedrock(seviianwishiwashi, ground_sleep)"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": false,
+      "quirks": []
+    },
+    "water_sleeping": {
+      "poseName": "water_sleeping",
+      "animations": [
+        "bedrock(seviianwishiwashi, water_sleep)"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "transformTicks": 10,
+      "isTouchingWater": true,
+      "quirks": []
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:charizardepochtwo_mega",
+  "speciesId": "cobblemon:charizard",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

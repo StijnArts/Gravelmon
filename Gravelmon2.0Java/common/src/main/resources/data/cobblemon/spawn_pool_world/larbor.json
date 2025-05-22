@@ -16,7 +16,7 @@
       "weight": 3.6,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#gravelmon:is_deciduous_forest"
         ]
       },
       "weightMultiplier": {

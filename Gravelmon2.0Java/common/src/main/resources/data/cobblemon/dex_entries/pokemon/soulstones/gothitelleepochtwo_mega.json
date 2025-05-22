@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gothitelleepochtwo_mega",
+  "speciesId": "cobblemon:gothitelle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

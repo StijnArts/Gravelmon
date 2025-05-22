@@ -47,7 +47,14 @@ public class ExcelExporter {
                         key = pokemon.getAdditionalFormKey();
                     }
                     if (GravelmonMegas.MEGA_EVOLUTIONS.containsKey(key)) {
-                        List<MegaEvolution> megas = GravelmonMegas.MEGA_EVOLUTIONS.get(key).stream().filter(mega -> mega.getAspect().replaceAll("_", "").equalsIgnoreCase(pokemon.getAdditionalAspect().getName())).toList();
+                        List<MegaEvolution> megas = GravelmonMegas.MEGA_EVOLUTIONS.get(key)
+                                .stream()
+                                .filter(mega -> {
+                                    if(mega.getAspect() == null) {
+                                        return mega.getAspect() == null && pokemon.getAdditionalAspect() == null;
+                                    }
+                                    return mega.getAspect().replaceAll("_", "").equalsIgnoreCase(pokemon.getAdditionalAspect().getName());
+                                }).toList();
                         pokemonAndMegas.addAll(megas);
                     }
                 });

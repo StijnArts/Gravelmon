@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:blazingemerald_oreon.geo",
-      "poser": "cobblemon:blazingemerald_oreon",
-      "texture": "cobblemon:textures/pokemon/blazingemerald/oreon/oreon.png",
+      "model": "cobblemon:cutout_gravelmon_236_by_354.geo",
+      "poser": "cobblemon:cutout_gravelmon_236_by_354",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/oreon.png",
       "layers": [
         {
           "name": "emissive"
@@ -35,12 +35,10 @@
       ]
     },
     {
-      "aspects": [
-        "shiny"
-      ],
-      "model": "cobblemon:blazingemerald_oreon.geo",
-      "poser": "cobblemon:blazingemerald_oreon",
-      "texture": "cobblemon:textures/pokemon/blazingemerald/oreon/oreon_shiny.png",
+      "aspects": [],
+      "model": "cobblemon:cutout_gravelmon_236_by_354.geo",
+      "poser": "cobblemon:cutout_gravelmon_236_by_354",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/oreon.png",
       "layers": [
         {
           "name": "emissive"

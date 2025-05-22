@@ -390,10 +390,10 @@
       }
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "grass",
       "secondaryType": "flying",
-      "baseScale": 0.42857142857142855,
+      "baseScale": 18.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -413,7 +413,7 @@
       ],
       "height": 15,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -421,6 +421,6 @@
     "epoch",
     "epochtwo",
     "norheiman",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

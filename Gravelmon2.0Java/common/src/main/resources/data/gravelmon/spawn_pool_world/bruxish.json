@@ -54,6 +54,28 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_bruxish-11",
+      "pokemon": "bruxish epoch",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

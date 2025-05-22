@@ -140,7 +140,7 @@
     "on_swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(whave, surface_idle)"
+        "bedrock(whave, surface_swim)"
       ],
       "poseTypes": [
         "FLOAT"

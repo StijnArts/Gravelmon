@@ -17,7 +17,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland",
-          "#cobblemon:is_forest",
+          "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,

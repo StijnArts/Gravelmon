@@ -17,7 +17,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom",
-          "#cobblemon:is_forest"
+          "#gravelmon:is_deciduous_forest"
         ],
         "timeRange": "night"
       },

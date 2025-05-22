@@ -1024,10 +1024,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "electric",
       "secondaryType": "flying",
-      "baseScale": 0.4434782608695652,
+      "baseScale": 20.4,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1047,7 +1047,7 @@
       ],
       "height": 17,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -1060,6 +1060,6 @@
     "cefiran",
     "ayreian_mega",
     "epoch_mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

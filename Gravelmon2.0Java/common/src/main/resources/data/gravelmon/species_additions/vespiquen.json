@@ -359,7 +359,7 @@
       "name": "epoch_mega",
       "primaryType": "steel",
       "secondaryType": "fire",
-      "baseScale": 16.799999999999997,
+      "baseScale": 0.39999999999999997,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation5_deltamaractus.geo",
-      "poser": "cobblemon:generation5_deltamaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus.png",
+      "model": "cobblemon:cutout_gravelmon_283_by_278.geo",
+      "poser": "cobblemon:cutout_gravelmon_283_by_278",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus.png",
       "layers": [
         {
           "name": "emissive"
@@ -32,7 +32,7 @@
           "name": "glow",
           "emissive": true,
           "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_emissive.png"
+          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_emissive.png"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
@@ -41,12 +41,11 @@
     },
     {
       "aspects": [
-        "delta",
-        "shiny"
+        "delta"
       ],
-      "model": "cobblemon:generation5_deltamaractus.geo",
-      "poser": "cobblemon:generation5_deltamaractus",
-      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_shiny.png",
+      "model": "cobblemon:cutout_gravelmon_283_by_278.geo",
+      "poser": "cobblemon:cutout_gravelmon_283_by_278",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus.png",
       "layers": [
         {
           "name": "emissive"
@@ -67,10 +66,7 @@
           "name": "flame"
         },
         {
-          "name": "glow",
-          "emissive": true,
-          "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation5/deltamaractus/deltamaractus_emissive_shiny.png"
+          "name": "glow"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"

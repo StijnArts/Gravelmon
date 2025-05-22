@@ -506,10 +506,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "fire",
       "secondaryType": "dark",
-      "baseScale": 0.3870967741935484,
+      "baseScale": 18.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -529,7 +529,7 @@
       ],
       "height": 15,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -538,6 +538,6 @@
     "x",
     "epochtwo",
     "mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

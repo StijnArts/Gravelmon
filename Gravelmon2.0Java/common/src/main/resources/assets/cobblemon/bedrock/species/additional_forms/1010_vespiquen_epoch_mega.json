@@ -6,8 +6,8 @@
       "aspects": [
         "epoch_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_77_by_84.geo",
+      "poser": "cobblemon:cutout_gravelmon_77_by_84",
       "texture": "cobblemon:textures/pokemon/soulstones/vespiquen_epoch_mega.png",
       "layers": [
         {

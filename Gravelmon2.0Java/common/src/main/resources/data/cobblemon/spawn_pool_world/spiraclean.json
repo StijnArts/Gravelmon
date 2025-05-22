@@ -16,7 +16,7 @@
       "weight": 2.0999999999999996,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

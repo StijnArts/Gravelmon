@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whimsicottepochtwo_mega",
+  "speciesId": "cobblemon:whimsicott",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

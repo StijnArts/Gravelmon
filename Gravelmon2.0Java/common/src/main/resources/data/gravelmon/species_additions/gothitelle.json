@@ -576,10 +576,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "poison",
       "secondaryType": "sound",
-      "baseScale": 0.5760000000000001,
+      "baseScale": 21.6,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -599,7 +599,7 @@
       ],
       "height": 18,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -610,6 +610,6 @@
     "cefiran",
     "mega",
     "epoch_mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

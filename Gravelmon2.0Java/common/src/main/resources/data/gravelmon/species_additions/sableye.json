@@ -977,10 +977,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "water",
       "secondaryType": "bug",
-      "baseScale": 0.2333333333333333,
+      "baseScale": 8.399999999999999,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1000,7 +1000,7 @@
       ],
       "height": 7,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -1013,7 +1013,7 @@
     "cefiran",
     "delta_mega",
     "epoch_mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ],
   "evolutions": [
     {

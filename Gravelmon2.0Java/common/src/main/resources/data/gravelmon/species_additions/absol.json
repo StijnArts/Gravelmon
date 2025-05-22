@@ -994,10 +994,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "psychic",
       "secondaryType": "cosmic",
-      "baseScale": 0.4413793103448276,
+      "baseScale": 19.200000000000003,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1017,7 +1017,7 @@
       ],
       "height": 16,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -1031,7 +1031,7 @@
     "mystisian",
     "ayreian_mega",
     "epoch_mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ],
   "evolutions": [
     {

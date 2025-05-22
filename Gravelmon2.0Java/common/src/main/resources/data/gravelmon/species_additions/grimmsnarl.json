@@ -623,10 +623,10 @@
       }
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "fire",
       "secondaryType": "dark",
-      "baseScale": 0.475,
+      "baseScale": 22.799999999999997,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -646,7 +646,7 @@
       ],
       "height": 19,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -655,6 +655,6 @@
     "epochtwo",
     "novran",
     "mystisian",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

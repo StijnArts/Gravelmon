@@ -54,6 +54,28 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_smoliv-11",
+      "pokemon": "smoliv epoch",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "6-26",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

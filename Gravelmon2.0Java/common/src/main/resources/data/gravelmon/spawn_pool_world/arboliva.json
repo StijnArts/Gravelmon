@@ -27,6 +27,28 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_arboliva-11",
+      "pokemon": "arboliva epoch",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "40-60",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

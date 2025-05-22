@@ -54,6 +54,28 @@
           ]
         }
       }
+    },
+    {
+      "id": "epoch_dolliv-11",
+      "pokemon": "dolliv epoch",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 32,
   "baseFriendship": 70,
-  "baseScale": 0.0588957055214724,
+  "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -114,8 +114,7 @@
     "tm:terablast"
   ],
   "labels": [
-    "xenoverse",
-    "not_modeled"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.chimaooze.desc"
@@ -127,8 +126,8 @@
   "nationalPokedexNumber": 1831,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 10.1875,
-    "height": 10.1875,
+    "width": 0.7,
+    "height": 0.5,
     "fixed": false
   },
   "features": [
@@ -146,7 +145,7 @@
       "experienceGroup": "fast",
       "eggCycles": 32,
       "baseFriendship": 70,
-      "baseScale": 2.8269938650306754,
+      "baseScale": 48.0,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -203,8 +202,7 @@
       ],
       "labels": [
         "xenoverse",
-        "gen1",
-        "not_modeled"
+        "gen1"
       ],
       "pokedex": [],
       "height": 78,

@@ -14,7 +14,7 @@
       "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest",
+          "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_swamp",
           "#cobblemon:is_freshwater"
         ],

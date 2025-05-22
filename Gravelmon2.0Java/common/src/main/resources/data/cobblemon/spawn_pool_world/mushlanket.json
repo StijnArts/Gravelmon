@@ -16,7 +16,7 @@
       "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#gravelmon:is_deciduous_forest"
         ],
         "timeRange": "night",
         "minSkyLight": 8,

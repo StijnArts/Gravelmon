@@ -361,10 +361,10 @@
       ]
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "ice",
       "secondaryType": "poison",
-      "baseScale": 1.0632911392405064,
+      "baseScale": 42.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -384,7 +384,7 @@
       ],
       "height": 35,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -392,6 +392,6 @@
     "epoch",
     "epochtwo",
     "epoch_mega",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

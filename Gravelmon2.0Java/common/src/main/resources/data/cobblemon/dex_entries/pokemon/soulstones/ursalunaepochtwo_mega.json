@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ursalunaepochtwo_mega",
+  "speciesId": "cobblemon:ursaluna",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

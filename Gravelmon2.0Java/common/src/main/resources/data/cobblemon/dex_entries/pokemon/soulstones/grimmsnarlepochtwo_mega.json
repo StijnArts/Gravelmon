@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grimmsnarlepochtwo_mega",
+  "speciesId": "cobblemon:grimmsnarl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

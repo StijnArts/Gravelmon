@@ -51,7 +51,7 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_forest",
+          "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_plains",
           "#cobblemon:is_plateau"
         ]
@@ -85,7 +85,7 @@
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_forest"
+          "#gravelmon:is_deciduous_forest"
         ]
       },
       "weightMultiplier": {

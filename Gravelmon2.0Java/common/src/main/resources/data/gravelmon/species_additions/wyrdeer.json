@@ -402,9 +402,9 @@
       }
     },
     {
-      "name": "epochone_mega",
+      "name": "epochtwo_mega",
       "primaryType": "electric",
-      "baseScale": 0.10549450549450551,
+      "baseScale": 4.800000000000001,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -424,7 +424,7 @@
       ],
       "height": 0,
       "aspects": [
-        "epochone_mega"
+        "epochtwo_mega"
       ]
     }
   ],
@@ -432,6 +432,6 @@
     "fabelian",
     "epoch",
     "epochtwo",
-    "epochone_mega"
+    "epochtwo_mega"
   ]
 }

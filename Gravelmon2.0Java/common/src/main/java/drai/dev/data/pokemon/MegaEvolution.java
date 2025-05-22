@@ -20,7 +20,7 @@ import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 public class MegaEvolution extends WorldRepresentablePokemon {
     private Ability ability;
     private String megaName = "mega";
-    private String aspect;
+    private @Nullable String aspect;
     private List<Label> labels;
     private String dexEntry;
     private String megaStoneName;

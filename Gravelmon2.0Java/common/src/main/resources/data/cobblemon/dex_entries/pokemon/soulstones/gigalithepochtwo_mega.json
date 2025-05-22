@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gigalithepochtwo_mega",
+  "speciesId": "cobblemon:gigalith",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

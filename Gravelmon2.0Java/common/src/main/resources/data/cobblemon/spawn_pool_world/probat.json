@@ -16,7 +16,7 @@
       "weight": 0.03,
       "condition": {
         "biomes": [
-          "#cobblemon:is_forest",
+          "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_grassland",
           "#cobblemon:is_hills",
           "#cobblemon:is_jungle",

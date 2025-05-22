@@ -65,12 +65,13 @@ public class ModelMetaData {
     private void getAnimatorsForAnimations(StringBuilder sb, Map<String, Set<String>> animatorsPerOptionalAnimation) {
         for (Map.Entry<String, Set<String>> entry : animatorsPerOptionalAnimation.entrySet()) {
             String animName = entry.getKey();
+            if(animName.equalsIgnoreCase("look")) continue;
             Set<String> animators = entry.getValue();
             sb.append(" - ").append(animName).append(": ");
             if (animators != null && !animators.isEmpty()) {
                 sb.append(String.join(", ", animators));
             } else {
-                sb.append("Unknown");
+                sb.append("needed");
             }
             sb.append("\n");
         }

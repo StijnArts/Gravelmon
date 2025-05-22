@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:absolepochtwo_mega",
+  "speciesId": "cobblemon:absol",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}

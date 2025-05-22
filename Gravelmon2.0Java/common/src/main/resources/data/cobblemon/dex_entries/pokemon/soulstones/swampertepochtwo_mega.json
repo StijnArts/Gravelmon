@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:swampertepochtwo_mega",
+  "speciesId": "cobblemon:swampert",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "epochtwo_mega",
+      "unlockForms": [
+        "epochtwo_mega"
+      ]
+    }
+  ],
+  "variations": []
+}
