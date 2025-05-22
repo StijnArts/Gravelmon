@@ -56,7 +56,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean canWalkOnWater = false;
     protected boolean canWalkOnLava = false;
     protected boolean avoidsLand = false;
-//    public Map<String, List<EvolutionEntry>> additionalEvolutions = new HashMap<>();
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
@@ -67,7 +66,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                            List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
         this(name, stats, primaryType, secondaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
                 evYield, learnSet, aspects, height, weight, List.of(
-                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
                 ));
     }
 
@@ -129,7 +128,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                            List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
         this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
                 evYield, learnSet, aspects, height, weight, List.of(
-                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
                 ));
     }
 
