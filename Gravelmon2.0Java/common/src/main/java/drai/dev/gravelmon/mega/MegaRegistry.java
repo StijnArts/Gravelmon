@@ -170,7 +170,7 @@ public class MegaRegistry {
                         Type.PSYCHIC, Type.COSMIC,
                         new Stats(65, 120, 105, 115, 45, 115),
                         Ability.SNIPER,
-                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        16, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#565e9a", "#8ba8ad", "#9367ad")),
                 new MegaEvolution("aerodactyl",
                         Type.DRAGON, Type.FLYING,
@@ -194,7 +194,7 @@ public class MegaRegistry {
                         Type.ELECTRIC, Type.FLYING,
                         new Stats(75, 50, 100, 90, 135, 140),
                         Ability.LIGHTNING_ROD,
-                        17, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        17, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#e2d762", "#c8faf5", "#5c5c5c")),
                 new MegaEvolution("ampharos",
                         Type.FAIRY, Type.FLYING,
@@ -272,7 +272,7 @@ public class MegaRegistry {
                         Type.FIRE, Type.DARK,
                         new Stats(70, 50, 100, 115, 130, 110),
                         Ability.SOLAR_POWER,
-                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#453e3e", "#e6c774", "#63433c")),
                 new MegaEvolution("centiskorch",
                         Type.BUG, Type.POISON,
@@ -296,7 +296,7 @@ public class MegaRegistry {
                         Type.BUG, Type.FLYING,
                         new Stats(90, 125, 108, 127, 84, 100),
                         Ability.GALE_WINGS,
-                        22, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epochone")
+                        22, "soulstones", List.of(Label.GEN1, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#7d9865", "#fefefe", "#6cbea9")),
                 new MegaEvolution("chimecho",
                         Type.ELECTRIC, Type.STEEL,
@@ -443,16 +443,10 @@ public class MegaRegistry {
                         22, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
                         .addPalette(new MegaStonePalette("#95baf5", "#d0e0ff", "#43bbff")),
                 new MegaEvolution("gigalith",
-                        Type.ICE,Type.WATER,
-                        new Stats(95,75,120,75,140,125),
-                        Ability.ICYVEINS,
-                        21, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
-                        .addPalette(new MegaStonePalette("#71c7ff", "#d0e0ff", "#4b7bb5")),
-                new MegaEvolution("gigalith",
                         Type.ROCK, Type.ELECTRIC,
                         new Stats(85, 70, 105, 105, 135, 130),
                         Ability.EARTH_EATER,
-                        19, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epoch")
+                        19, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#297b9c", "#9dffff", "#8a6d4a")),
                 new MegaEvolution("glalie",
                         Type.GHOST, Type.DARK,
@@ -482,7 +476,7 @@ public class MegaRegistry {
                         Type.POISON, Type.SOUND,
                         new Stats(70, 125, 105, 65, 125, 100),
                         Ability.NOBILITY,
-                        18, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochone")
+                        18, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#424242", "#fff86f", "#1a4318")),
                 new MegaEvolution("grapploct",
                         Type.WATER, Type.FIGHTING,
@@ -494,7 +488,7 @@ public class MegaRegistry {
                         Type.FIRE, Type.DARK,
                         new Stats(75, 120, 105, 110, 85, 115),
                         Ability.DARK_AURA,
-                        19, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        19, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#4a4a52", "#f6c04c", "#af3f2f")),
                 new MegaEvolution("gyarados",
                         Type.ELECTRIC, Type.DARK,
@@ -536,7 +530,7 @@ public class MegaRegistry {
                         Type.BUG, Type.LIGHT,
                         new Stats(85, 45, 90, 130, 105, 105),
                         Ability.TINTED_LENS,
-                        12, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epochone")
+                        12, "soulstones", List.of(Label.GEN2, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#ffee83", "#f1debc", "#c5ac8b")),
                 new MegaEvolution("kingdra",
                         Type.BUG, Type.FLYING,
@@ -572,7 +566,7 @@ public class MegaRegistry {
                         Type.GRASS, Type.FLYING,
                         new Stats(70, 60, 82, 90, 130, 122),
                         Ability.TRIAGE,
-                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        15, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#bd3939", "#b6cc6a", "#ff6a39")),
                 new MegaEvolution("medicham",
                         Type.LIGHT, Type.FIGHTING,
@@ -638,7 +632,7 @@ public class MegaRegistry {
                         Type.WATER, Type.BUG,
                         new Stats(90, 130, 120, 70, 50, 120),
                         Ability.SOUNDPROOF,
-                        7, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        7, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#ff5a5a", "#ffe6a4", "#6882b8")),
                 new MegaEvolution("salamence",
                         Type.FIRE, Type.POISON,
@@ -710,7 +704,7 @@ public class MegaRegistry {
                         Type.ROCK, Type.LIGHT,
                         new Stats(120, 75, 100, 80, 140, 120),
                         Ability.VITALITY,
-                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochone")
+                        21, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#cfb63a", "#fff6cc", "#6d4d3a")),
                 new MegaEvolution("tentacruel",
                         Type.COSMIC, Type.WATER,
@@ -752,7 +746,7 @@ public class MegaRegistry {
                         Type.ICE, Type.POISON,
                         new Stats(105, 110, 125, 120, 65, 125),
                         Ability.SHARPNESS,
-                        35, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        35, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#b3dbe0", "#def0df", "#cbf9ff")),
                 new MegaEvolution("venusaur",
                         Type.ICE, Type.FAIRY,
@@ -770,7 +764,7 @@ public class MegaRegistry {
                         Type.ELECTRIC, Type.GRASS,
                         new Stats(75, 107, 90, 101, 107, 100),
                         Ability.WIND_RIDER,
-                        11, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochone")
+                        11, "soulstones", List.of(Label.GEN5, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#417b41", "#d9d524", "#f7f9fb")),
                 new MegaEvolution("wigglytuff",
                         Type.WATER, Type.NORMAL,
@@ -788,7 +782,7 @@ public class MegaRegistry {
                         Type.ELECTRIC,
                         new Stats(93, 135, 92, 135, 70, 100),
                         Ability.MOTOR_DRIVE,
-                        0, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochone")
+                        0, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epochtwo")
                         .addPalette(new MegaStonePalette("#545765", "#ccffff", "#ffcd37")),
                 new MegaEvolution("xatu",
                         Type.STEEL, Type.ELECTRIC,

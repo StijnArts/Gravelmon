@@ -33,7 +33,6 @@ public class Pokemon extends AbstractPokemon {
         ), baseScale, portraitScale, forms);
     }
 
-
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, pokemonSpawnData, baseScale, portraitScale, forms);
     }
@@ -325,6 +324,7 @@ public class Pokemon extends AbstractPokemon {
     public Pokemon fishingSpawnFromExisting(){
         return fishingSpawnFromExisting(List.of());
     }
+
     public Pokemon overwriteSpawnData(List<PokemonSpawnData> spawnData){
         this.spawnData.clear();
         this.spawnData.addAll(spawnData);
@@ -370,5 +370,45 @@ public class Pokemon extends AbstractPokemon {
         return getCleanName();
     }
 
+    public Pokemon setCanBreatheUnderwater(boolean canBreatheUnderwater) {
+        this.canBreatheUnderwater = canBreatheUnderwater;
+        return this;
+    }
 
+    public Pokemon setAvoidsLand(boolean canBreatheUnderwater) {
+        this.avoidsLand = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setCanSwimInWater(boolean canBreatheUnderwater) {
+        this.canSwimInWater = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setCanWalkOnWater(boolean canBreatheUnderwater) {
+        this.canWalkOnWater = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setCanSwimInLava(boolean canBreatheUnderwater) {
+        this.canSwimInLava = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setCanWalkOnLava(boolean canBreatheUnderwater) {
+        this.canWalkOnLava = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setCanFly(boolean canBreatheUnderwater) {
+        this.canFly = canBreatheUnderwater;
+        return this;
+    }
+
+    public Pokemon setAquatic() {
+        this.avoidsLand = true;
+        this.canSwimInWater = true;
+        this.canBreatheUnderwater = true;
+        return this;
+    }
 }

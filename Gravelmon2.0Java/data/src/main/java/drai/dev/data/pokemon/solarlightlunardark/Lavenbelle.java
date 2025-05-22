@@ -23,8 +23,8 @@ public class Lavenbelle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Lavenbelle emanate an aroma from their skin. Because of this, their fallen petals are often used in perfumes and aromatherapy."),
-                List.of(new EvolutionEntry("lavenrina", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+                List.of(new EvolutionEntry("lavenrina", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.TEETER_DANCE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.AROMATIC_MIST,33),
                         new MoveLearnSetEntry(Move.PETAL_DANCE,49),

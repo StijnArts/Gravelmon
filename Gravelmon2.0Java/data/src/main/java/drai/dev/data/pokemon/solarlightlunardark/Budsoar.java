@@ -98,6 +98,7 @@ public class Budsoar extends drai.dev.data.pokemon.Pokemon {
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());
+        hasGenderDifferences = true;
            setLangFileName("Budsoar");
 
     }
