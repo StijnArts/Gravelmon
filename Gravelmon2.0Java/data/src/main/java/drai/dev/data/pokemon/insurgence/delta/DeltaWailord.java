@@ -131,7 +131,7 @@ public class DeltaWailord extends Pokemon {
 
         this.setBaseScale(2);
         this.setHitbox(3.2,2.1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( .47f, new Vector3(-.4, 1.2, 0));
         getPosingFileData().setProfileData( 0.25f, new Vector3(0, 1.2, 0));
         getPosingFileData().addAnimations(List.of(

@@ -110,7 +110,7 @@ public class Burrmudail extends Pokemon {
         this.setCanFly(true);
         this.setBaseScale(0.8);
         this.setHitbox(1,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Disaster Lesbian");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .9, 0));
         getPosingFileData().setBasicHead();

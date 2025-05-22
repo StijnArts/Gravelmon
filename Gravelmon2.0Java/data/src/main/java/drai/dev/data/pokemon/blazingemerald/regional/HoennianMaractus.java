@@ -74,7 +74,7 @@ public class HoennianMaractus extends Pokemon {
 
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Neoxaivus").addLayer(
                 new SimpleTextureLayerData("emissive", "hoennianmaractus_emissive", Optional.of(true), Optional.of(false), false, true)
         );;
         getPosingFileData().setPortraitData(2.08f, new Vector3(0.03, -0.27, 0));

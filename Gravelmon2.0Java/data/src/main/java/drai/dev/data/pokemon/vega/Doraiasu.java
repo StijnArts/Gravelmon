@@ -83,7 +83,7 @@ public class Doraiasu extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(1,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Uncle Berry");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

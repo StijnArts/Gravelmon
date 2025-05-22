@@ -9,11 +9,15 @@ public abstract class BasicAnimationData {
     public String poseName;
     public List<String> animations = new ArrayList<>();
     protected PosingFileData posingFileData;
+    private String animator;
 
-    public BasicAnimationData(String animationName, List<String> animations) {
+    public BasicAnimationData(String animationName, List<String> animations, String... animator) {
         this.animationName = animationName;
         this.poseName = animationName;
         this.animations.addAll(animations);
+        if(animator.length > 0) {
+            this.animator = animator[0];
+        }
     }
 
     protected JsonObject getAnimationJson(String animationFileName) {
@@ -35,5 +39,18 @@ public abstract class BasicAnimationData {
 
     public void setPosingFileData(PosingFileData posingFileData) {
         this.posingFileData = posingFileData;
+        String animator;
+        if(this.animator == null || this.animator.isEmpty()) animator = posingFileData.getPokemon().getModelMetaData().getModelers().getFirst();
+        else {
+            animator = this.animator;
+        }
+        var pokemon = this.posingFileData.getPokemon();
+        var metaData = pokemon.getModelMetaData();
+        animations.forEach(animation -> {
+            if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
+                metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator);
+            }
+            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator);
+        });
     }
 }

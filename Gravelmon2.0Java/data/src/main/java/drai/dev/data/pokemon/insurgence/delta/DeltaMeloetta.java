@@ -169,7 +169,7 @@ public class DeltaMeloetta extends Pokemon {
         this.setHitbox(0.5,1.3);
         this.setBaseScale(0.7);
         this.setCanFly(true);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("unknown");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, 1, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));
         getPosingFileData().setBasicHead();

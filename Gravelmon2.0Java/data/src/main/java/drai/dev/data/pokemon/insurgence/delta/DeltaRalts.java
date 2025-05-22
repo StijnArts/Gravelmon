@@ -108,7 +108,7 @@ public class DeltaRalts extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.5,0.9);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.7f, new Vector3(0.1, -1.8, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
         getPosingFileData().setBasicHead();

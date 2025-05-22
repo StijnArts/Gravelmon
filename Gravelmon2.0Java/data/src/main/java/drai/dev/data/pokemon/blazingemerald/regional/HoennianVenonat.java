@@ -78,7 +78,7 @@ public class HoennianVenonat extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()
-                .addBasicVariation(this)
+                .addBasicVariation("PorousMist")
                 .addLayer(
                         new SimpleTextureLayerData("emissive", "hoennianvenonat_emissive", Optional.of(true), Optional.of(false), false, true)
                 );

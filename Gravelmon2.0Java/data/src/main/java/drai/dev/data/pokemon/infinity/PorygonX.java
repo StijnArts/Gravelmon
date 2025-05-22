@@ -117,7 +117,7 @@ public class PorygonX extends Pokemon {
         this.setPreEvolution("porygon2");
         addAdditionalEvolution("porygon2", new EvolutionEntry("porygonx", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:quantum_upgrade"))));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Porous Mist");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0, 0.8, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .8, 0));
         getPosingFileData().setBasicHead();

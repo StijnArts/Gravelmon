@@ -149,7 +149,7 @@ public class DeltaSceptile extends Pokemon {
         
         this.setBaseScale(1.1);
         this.setHitbox(1,2.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.8f, new Vector3(0, 1.7, 0));
         getPosingFileData().setProfileData( 0.7f, new Vector3(0, .7, 0));
         getPosingFileData().setBasicHead();

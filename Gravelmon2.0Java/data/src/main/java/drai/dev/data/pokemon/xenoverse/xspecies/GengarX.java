@@ -105,7 +105,7 @@ public class GengarX extends Pokemon {
         
         setBaseScale(0.9);
         setHitbox(1.0, 3.5);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setAnimationFileName("gengar_x");
         getPosingFileData().setPortraitData( 1f, new Vector3(-.20, 2.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1.55, -20));

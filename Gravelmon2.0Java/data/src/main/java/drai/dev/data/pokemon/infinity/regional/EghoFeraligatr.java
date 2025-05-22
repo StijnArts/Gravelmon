@@ -144,7 +144,7 @@ public class EghoFeraligatr extends Pokemon {
         
         setBaseScale(1.2);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 0.5f, new Vector3(0, 0.7, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 0.7, 0));
         getPosingFileData().setBasicHead();

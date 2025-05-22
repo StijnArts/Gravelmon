@@ -92,7 +92,7 @@ public class PyukumukuX extends Pokemon {
         this.setCanBreathUnderwater(true);
 
         this.setBaseScale(0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("ponyta_x");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-.15, -.9, 0));
         getPosingFileData().setProfileData( 1.1f, new Vector3(0, 0, 0));

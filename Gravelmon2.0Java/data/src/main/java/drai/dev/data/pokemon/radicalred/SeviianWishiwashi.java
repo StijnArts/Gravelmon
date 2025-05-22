@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.radicalred;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -98,5 +99,24 @@ public class SeviianWishiwashi extends Pokemon {
         this.setCanSwim(true);
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);
+
+        setBaseScale(1);
+        setHitbox(1,1);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
+        getPosingFileData().setPortraitData( 1f, new Vector3(0, .2, 0));
+        getPosingFileData().setProfileData( 1f, new Vector3(0, .2, 0));
+        getPosingFileData().setAnimationFileName("seviianwishiwashi");
+        getPosingFileData().setBasicHead();
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
+                AnimationData.walkingAnimation().withBlink(),
+                AnimationData.swimmingAnimation().withBlink(),
+                AnimationData.floatingAnimation().withBlink(),
+                AnimationData.hoveringAnimation().withBlink(),
+                AnimationData.flyingAnimation().withBlink(),
+                AnimationData.sleepingAnimation().clearAnimations().addAnimation("ground_sleep").notInWater(),
+                AnimationData.waterSleepingAnimation()
+        ));
+        markReady();
     }
 }

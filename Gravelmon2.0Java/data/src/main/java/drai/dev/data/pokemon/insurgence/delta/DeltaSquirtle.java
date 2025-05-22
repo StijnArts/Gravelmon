@@ -147,7 +147,7 @@ public class DeltaSquirtle extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setHitbox(0.6,1.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.2f, new Vector3(0, -.2, 0));
         getPosingFileData().setProfileData( 0.8f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();

@@ -112,7 +112,7 @@ public class Chihaha extends Pokemon {
         
         this.setBaseScale(0.3);
         this.setHitbox(2,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Iván García");
         getPosingFileData().setPortraitData( 1.4f, new Vector3(0, .3, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
         getPosingFileData().setBasicHead();

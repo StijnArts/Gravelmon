@@ -113,7 +113,7 @@ public class Viledoom extends Pokemon {
         
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.2, .7, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, .95, -20));
         getPosingFileData().setBasicHead();

@@ -104,7 +104,7 @@ public class Harpee extends Pokemon {
         
         setBaseScale(.9);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0, -20));
         getPosingFileData().setBasicHead();

@@ -117,7 +117,7 @@ public class Sphynxeon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("sphynxeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.SAND_TOMB, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:soft_sand"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();

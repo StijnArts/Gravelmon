@@ -85,7 +85,7 @@ public class HoennianDragapult extends Pokemon {
         
         setBaseScale(0.8);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("IZetyXX").addLayer(
                 new SimpleTextureLayerData("emmisive", "dragapult_fire",
                         Optional.of(true), Optional.of(false), false, true)
         );;

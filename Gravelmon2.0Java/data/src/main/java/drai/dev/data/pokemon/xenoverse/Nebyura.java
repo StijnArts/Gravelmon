@@ -100,7 +100,7 @@ public class Nebyura extends Pokemon {
         
         setBaseScale(1.75);
         setHitbox(0.8, 1.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Roggerregoat");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(0.2, .98, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
         getPosingFileData().setBasicHead();

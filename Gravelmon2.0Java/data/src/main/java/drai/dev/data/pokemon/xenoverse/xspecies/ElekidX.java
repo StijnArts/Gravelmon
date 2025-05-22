@@ -83,7 +83,7 @@ public class ElekidX extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("elekid_x");
         getPosingFileData().setPortraitData( 2.9f, new Vector3(-.2, -1.5, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));

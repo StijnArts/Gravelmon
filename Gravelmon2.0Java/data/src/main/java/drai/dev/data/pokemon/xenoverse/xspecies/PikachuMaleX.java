@@ -88,7 +88,7 @@ public class PikachuMaleX extends Pokemon {
 
         this.setBaseScale(0.5);
         this.setHitbox(0.7, 1.3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("pikachu_x_male");
         getPosingFileData().setPortraitData( 2.2f, new Vector3(-.1, -0.35, 0));
         getPosingFileData().setProfileData( .65f, new Vector3(0, 0.78, 0));

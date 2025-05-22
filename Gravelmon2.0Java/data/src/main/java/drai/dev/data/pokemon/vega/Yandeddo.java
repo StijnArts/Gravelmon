@@ -83,7 +83,7 @@ public class Yandeddo extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 1.5f, new Vector3(0, 0.4, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
         getPosingFileData().setBasicHead();

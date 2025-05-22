@@ -125,7 +125,7 @@ public class Howlequin extends Pokemon {
         
         this.setBaseScale(0.5);
         this.setHitbox(2,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Iván García");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

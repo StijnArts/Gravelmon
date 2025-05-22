@@ -130,7 +130,7 @@ public class Nidorook extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1.2,1.3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SkyWolf");
         getPosingFileData().setPortraitData( 1.2f, new Vector3(-.7, 0.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

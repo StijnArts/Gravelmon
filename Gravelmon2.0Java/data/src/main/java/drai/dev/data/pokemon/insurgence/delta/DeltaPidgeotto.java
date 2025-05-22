@@ -151,7 +151,7 @@ public class DeltaPidgeotto extends Pokemon {
         
         this.setBaseScale(1.1);
         this.setHitbox(0.6,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2.8f, new Vector3(-0.3, -1, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0.1, 0.3, 0));
         getPosingFileData().head = "torso";

@@ -130,7 +130,7 @@ public class DeltaIvysaur extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.7,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-.45, -1.21, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();

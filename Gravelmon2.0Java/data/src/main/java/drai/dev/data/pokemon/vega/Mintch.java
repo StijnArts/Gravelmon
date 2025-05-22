@@ -105,7 +105,7 @@ public class Mintch extends Pokemon {
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.7);
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 3.5f, new Vector3(-.10, -2.2, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .25, 0));
         getPosingFileData().setBasicHead();

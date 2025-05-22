@@ -106,7 +106,7 @@ public class EghoGloom extends Pokemon {
         
         setBaseScale(0.8);
         setHitbox(0.8,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.1, -0, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .6, -20));
         getPosingFileData().setBasicHead();

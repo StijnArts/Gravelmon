@@ -77,7 +77,7 @@ public class Lucemoth extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()
-                .addBasicVariation(this);
+                .addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1.81f, new Vector3(-0.3, -0.94, 0));
         getPosingFileData().setProfileData(.69f, new Vector3(0, 0.62, 0));
         getPosingFileData().setBasicHead();

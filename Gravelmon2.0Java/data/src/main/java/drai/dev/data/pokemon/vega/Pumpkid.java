@@ -107,7 +107,7 @@ public class Pumpkid extends Pokemon {
         this.setBaseScale(0.5);
         this.setHitbox(0.7,0.7);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData( 2f, new Vector3(0, -.2, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .55, 0));
         getPosingFileData().setBasicHead();

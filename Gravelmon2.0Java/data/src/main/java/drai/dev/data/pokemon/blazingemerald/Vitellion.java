@@ -58,7 +58,7 @@ public class Vitellion extends Pokemon {
 
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Uncle Berry");
         getPosingFileData().setPortraitData(2.24f, new Vector3(0.08, -1.11, 0));
         getPosingFileData().setProfileData(1f, new Vector3(0.0, .35, 0));
         getPosingFileData().addAnimations(List.of(

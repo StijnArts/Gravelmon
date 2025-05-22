@@ -109,7 +109,7 @@ public class Yemin extends Pokemon {
         
         this.setBaseScale(0.5);
         this.setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Iván García");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0.0, .4, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0.0, 0.7, 0));
         getPosingFileData().setBasicHead();

@@ -128,7 +128,7 @@ public class DeltaRuinMetang extends Pokemon {
         
         setBaseScale(1);
         setHitbox(1,1.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));
         getPosingFileData().setBasicHead();

@@ -45,7 +45,7 @@ public class Doodloo extends Pokemon {
 
         
         this.setBaseScale(0.9);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 1.5f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
         getPosingFileData().head = "torso";

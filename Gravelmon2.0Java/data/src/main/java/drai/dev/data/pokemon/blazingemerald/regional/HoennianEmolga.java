@@ -71,7 +71,7 @@ public class HoennianEmolga extends Pokemon {
         this.setCanFly(true);
         this.setLangFileName("Emolga");
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("emolga_hoennian");
         getPosingFileData().setPortraitData(2.2f, new Vector3(-0.2, 0.3, 0));
         getPosingFileData().setProfileData(0.8f, new Vector3(0.1, 0.8, 0));

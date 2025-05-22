@@ -115,7 +115,7 @@ public class DeltaDugtrio extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();

@@ -2,11 +2,13 @@ package drai.dev.data.attributes.assets;
 
 import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
+import drai.dev.data.pokemon.*;
 
 import java.util.*;
 import java.util.stream.*;
 
 public class PosingFileData {
+    WorldRepresentablePokemon pokemon;
     public String animationFileName;
     public double profileScale = .26;
     public double portraitScale = .205;
@@ -20,6 +22,10 @@ public class PosingFileData {
     private String status;
     private String recoil;
     public String head;
+
+    public PosingFileData(WorldRepresentablePokemon pokemon) {
+        this.pokemon = pokemon;
+    }
 
     public JsonElement getPosesJson() {
         var poserJson = new JsonObject();
@@ -60,44 +66,64 @@ public class PosingFileData {
         cry = bedrockAnimationType + "('"+animationFileName+"', 'cry')";
     }
 
-    public void addFaint(){
+    public void addAnimator(String animation, String... animator) {
+        if(animator.length < 1) return;
+        var pokemon = this.getPokemon();
+        var metaData = pokemon.getModelMetaData();
+        if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
+            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator[0]);
+        }
+        metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator[0]);
+    }
+
+    public void addFaint(String... animator){
         faint = "bedrock("+animationFileName+", faint)";
+        addAnimator("faint", animator);
     }
 
-    public void addCry(){
+    public void addCry(String... animator){
         cry = "bedrock("+animationFileName+", cry)";
+        addAnimator("cry", animator);
     }
 
-    public void addPhysical(){
+    public void addPhysical(String... animator){
         physical = "bedrock("+animationFileName+", physical)";
+        addAnimator("physical", animator);
     }
 
-    public void addSpecial(){
+    public void addSpecial(String... animator){
         special = "bedrock("+animationFileName+", special)";
+        addAnimator("special", animator);
     }
 
-    public void setFaint(String faint) {
+    public void setFaint(String faint, String... animator) {
         this.faint = faint;
+        addAnimator("faint", animator);
     }
 
-    public void setCry(String cry) {
+    public void setCry(String cry, String... animator) {
         this.cry = cry;
+        addAnimator("cry", animator);
     }
 
-    public void setPhysical(String physical) {
+    public void setPhysical(String physical, String... animator) {
         this.physical = physical;
+        addAnimator("physical", animator);
     }
 
-    public void setSpecial(String special) {
+    public void setSpecial(String special, String... animator) {
         this.special = special;
+        addAnimator("special", animator);
     }
 
-    public void setRecoil(String recoil) {
+    public void setRecoil(String recoil, String... animator) {
         this.recoil = recoil;
+        addAnimator("recoil", animator);
     }
 
-    public void setStatus(String status) {
+    public void setStatus(String status, String... animator) {
         this.status = status;
+        addAnimator("status", animator);
     }
 
     public void setPortraitData(float scale, Vector3 positioning){
@@ -123,9 +149,9 @@ public class PosingFileData {
         this.animationFileName = animationFileName;
     }
 
-    public void shoulderAnimations() {
-        var leftShoulder = new AnimationData("shoulder_left", List.of(PoseType.SHOULDER_LEFT), List.of("shoulder"), List.of(), 10);
-        var rightShoulder = new AnimationData("shoulder_right", List.of(PoseType.SHOULDER_RIGHT), List.of("shoulder"), List.of(), 10);;
+    public void shoulderAnimations(String... animator) {
+        var leftShoulder = new AnimationData("shoulder_left", List.of(PoseType.SHOULDER_LEFT), List.of("shoulder"), List.of(), 10, animator);
+        var rightShoulder = new AnimationData("shoulder_right", List.of(PoseType.SHOULDER_RIGHT), List.of("shoulder"), List.of(), 10, animator);
         animations.add(leftShoulder);
     }
 
@@ -134,5 +160,9 @@ public class PosingFileData {
         var usedPoseTypes = animations.stream().flatMap(animationData -> animationData.poseTypes.stream()).collect(Collectors.toSet());
         usedPoseTypes.forEach(poseTypes::remove);
         return poseTypes;
+    }
+
+    public WorldRepresentablePokemon getPokemon() {
+        return pokemon;
     }
 }

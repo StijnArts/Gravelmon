@@ -127,7 +127,7 @@ public class Obsideon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("obsideon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.PRESSURIZE, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:hard_stone"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();

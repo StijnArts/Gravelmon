@@ -15,63 +15,63 @@ public class AnimationData extends BasicAnimationData {
     private Optional<Boolean> allPoseTypes = Optional.empty();
     private boolean isBackup;
 
-    public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks) {
-        super(animationName, animations);
+    public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks, String... animator) {
+        super(animationName, animations, animator);
         this.poseTypes.addAll(poseTypes);
         this.transformTicks = transformTicks;
         this.quirks.addAll(quirks);
     }
 
-    public static AnimationData sleepingAnimation(){
+    public static AnimationData sleepingAnimation(String... animator){
         return new AnimationData("sleeping", List.of(PoseType.SLEEP), List.of("sleep"),
-                List.of(), 10);
+                List.of(), 10, animator);
     }
 
-    public static AnimationData battleIdleAnimation(){
+    public static AnimationData battleIdleAnimation(String... animator){
         return new AnimationData("battle-idle", List.of(PoseType.STAND), List.of("battle_idle"),
-                List.of(), 10).setIsBattle(true);
+                List.of(), 10, animator).setIsBattle(true);
     }
 
-    public static AnimationData standingAnimation(){
-        return new AnimationData("standing", List.of(PoseType.STAND, PoseType.PORTRAIT, PoseType.PROFILE, PoseType.NONE), List.of("ground_idle"), List.of(), 10);
+    public static AnimationData standingAnimation(String... animator){
+        return new AnimationData("standing", List.of(PoseType.STAND, PoseType.PORTRAIT, PoseType.PROFILE, PoseType.NONE), List.of("ground_idle"), List.of(), 10, animator);
     }
 
-    public static AnimationData walkingAnimation(){
-        return new AnimationData("walking", List.of(PoseType.WALK), List.of("ground_walk"), List.of(), 10);
+    public static AnimationData walkingAnimation(String... animator){
+        return new AnimationData("walking", List.of(PoseType.WALK), List.of("ground_walk"), List.of(), 10, animator);
     }
 
-    public static AnimationData hoveringAnimation(){
-        return new AnimationData("hovering", List.of(PoseType.HOVER), List.of("air_idle"), List.of(), 10);
+    public static AnimationData hoveringAnimation(String... animator){
+        return new AnimationData("hovering", List.of(PoseType.HOVER), List.of("air_idle"), List.of(), 10, animator);
     }
 
-    public static AnimationData flyingAnimation(){
-        return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10);
+    public static AnimationData flyingAnimation(String... animator){
+        return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10, animator);
     }
 
-    public static AnimationData floatingAnimation(){
-        return new AnimationData("floating", List.of(PoseType.FLOAT), List.of("water_idle"), List.of(), 10);
+    public static AnimationData floatingAnimation(String... animator){
+        return new AnimationData("floating", List.of(PoseType.FLOAT), List.of("water_idle"), List.of(), 10, animator);
     }
 
-    public static AnimationData swimmingAnimation(){
-        return new AnimationData("swimming", List.of(PoseType.SWIM), List.of("water_swim"), List.of(), 10);
+    public static AnimationData swimmingAnimation(String... animator){
+        return new AnimationData("swimming", List.of(PoseType.SWIM), List.of("water_swim"), List.of(), 10, animator);
     }
 
     public static AnimationData emptyAnimation() {
-        return new AnimationData("standing", List.of(), List.of(), List.of(), 10).markAsBackupPose();
+        return new AnimationData("standing", List.of(), List.of(), List.of(), 10, "").markAsBackupPose();
     }
 
-    public static AnimationData surfaceFloatingAnimation(){
-        return new AnimationData("on_floating", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10)
+    public static AnimationData surfaceFloatingAnimation(String... animator){
+        return new AnimationData("on_floating", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10, animator)
                 .notInWater().setPoseName("floating");
     }
 
-    public static AnimationData surfaceSwimmingAnimation(){
-        return new AnimationData("on_swimming", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10)
+    public static AnimationData surfaceSwimmingAnimation(String... animator){
+        return new AnimationData("on_swimming", List.of(PoseType.FLOAT), List.of("surface_swim"), List.of(), 10, animator)
                 .notInWater().setPoseName("swimming");
     }
 
-    public static AnimationData waterSleepingAnimation() {
-        return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10).inWater();
+    public static AnimationData waterSleepingAnimation(String... animator){
+        return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10, animator).inWater();
     }
 
     private AnimationData setPoseName(String s) {

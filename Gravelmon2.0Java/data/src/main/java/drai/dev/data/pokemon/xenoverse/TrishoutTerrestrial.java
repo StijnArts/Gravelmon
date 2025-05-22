@@ -107,7 +107,7 @@ public class TrishoutTerrestrial extends Pokemon {
         
         this.setHitbox(0.7, 1.1);
         this.setBaseScale(1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("MayTheEpicGamer");
         getPosingFileData().setAnimationFileName("trishout_terrestrial");
         getPosingFileData().setPortraitData( 2.5f, new Vector3(0.0, 1.1, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.7, 0));

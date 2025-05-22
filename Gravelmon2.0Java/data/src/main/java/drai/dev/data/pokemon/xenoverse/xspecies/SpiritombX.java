@@ -87,7 +87,7 @@ public class SpiritombX extends Pokemon {
         this.setLangFileName("Spiritomb");
 
         this.setBaseScale(1.3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Porous Mist");
         getPosingFileData().setAnimationFileName("spiritomb_x");
         getPosingFileData().setPortraitData( 1.3f, new Vector3(-0.35, 0.7, 0));
         getPosingFileData().setProfileData( .65f, new Vector3(0, .9, 0));

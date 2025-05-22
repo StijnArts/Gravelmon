@@ -149,7 +149,7 @@ public class Wereyena extends Pokemon {
 
         setBaseScale(.9);
         setHitbox(1,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1f, new Vector3(-.57, 1.64, 0));
         getPosingFileData().setProfileData(.52f, new Vector3(-0.06, 1.04, 0));
         getPosingFileData().setBasicHead();

@@ -113,7 +113,7 @@ public class Kungfur extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1,1.3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Iván García");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, 0.8, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0.0, 0.8, 0));
         getPosingFileData().setBasicHead();

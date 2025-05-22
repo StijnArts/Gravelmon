@@ -99,7 +99,7 @@ public class Kokiseed extends Pokemon {
                 List.of());
 
         this.setBaseScale(0.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Porous Mist");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(0, -.9, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, .0, 0));
         getPosingFileData().setBasicHead();

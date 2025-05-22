@@ -75,7 +75,7 @@ public class HoennianUrsaring extends Pokemon {
         
         this.setHitbox(0.7, 2.14);
         this.setBaseScale(1.1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("PorousMist");
         getPosingFileData().setAnimationFileName("ursaring_hoennian");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.1, 1.6, 0.0));
         getPosingFileData().setProfileData( .65f, new Vector3(0.0, 0.7, 0.0));

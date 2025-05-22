@@ -77,7 +77,7 @@ public class HoennianDodrio extends Pokemon {
         addAdditionalEvolution("doduo", new EvolutionEntry("dodrio hoennian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"marowak"))));
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("PorousMist");
         getPosingFileData().setAnimationFileName("dodrio_hoennian");
         getPosingFileData().setPortraitData(1.3f, new Vector3(-0.1, .9, 0));
         getPosingFileData().setProfileData(0.4f, new Vector3(0.0, 0.6, 0.0));

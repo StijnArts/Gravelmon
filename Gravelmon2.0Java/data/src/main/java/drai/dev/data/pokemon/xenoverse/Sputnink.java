@@ -95,7 +95,7 @@ public class Sputnink extends Pokemon {
         
         setBaseScale(1.15);
         setHitbox(0.55, 0.65);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Roggerregoat");
         getPosingFileData().setPortraitData( 2.5f, new Vector3(0, -1.4, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
         getPosingFileData().setBasicHead();

@@ -120,7 +120,7 @@ public class DeltaDarumaka extends Pokemon {
         this.setCanFly(true);
         this.setBaseScale(1);
         this.setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setAnimationFileName("darumaka_delta");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.2, -.9, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .3, 0));

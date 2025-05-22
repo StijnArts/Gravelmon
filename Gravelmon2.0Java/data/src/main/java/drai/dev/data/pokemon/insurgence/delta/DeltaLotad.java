@@ -116,7 +116,7 @@ public class DeltaLotad extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()
-                .addBasicVariation(this);
+                .addBasicVariation("Disaster Lesbian");
         getPosingFileData().setPortraitData(2.22f, new Vector3(-0.1, -1.6, 0));
         getPosingFileData().setProfileData(1f, new Vector3(0, 0.26, 0));
         getPosingFileData().setBasicHead();

@@ -108,7 +108,7 @@ public class EghoSpearow extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Porous Mist");
         getPosingFileData().setPortraitData( 3.4f, new Vector3(-0.1, -2, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(-0.0, .0, 0));
         getPosingFileData().setBasicHead();

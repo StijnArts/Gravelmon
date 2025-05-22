@@ -40,12 +40,12 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected final List<String> dexEntries = new ArrayList<>();
     protected final List<PokemonSpawnData> spawnData = new ArrayList<>();
     protected boolean hasGenderDifferences = false;
-    protected boolean canFly = false;
     protected int lightLevelMinSleep = 0;
     protected int lightLevelMaxSleep = 6;
     protected double swimSpeed = 0.1;
     protected double wanderChance = 1;
     protected boolean canSleep = true;
+    protected boolean canFly = false;
     protected boolean canSwimInWater = true;
     protected boolean canSwimInLava = false;
     protected boolean canLookAround = true;
@@ -107,13 +107,8 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.aspects.addAll(aspects);
         this.weight = weight;
         this.spawnData.addAll(pokemonSpawnData);
-        if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
-            canSwimInLava = true;
-            canBreatheUnderlava = true;
-            if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
-                canWalkOnLava = true;
-            }
-        }
+
+        checkCanWalkOnSurface(spawnData);
         this.dexEntries.addAll(dexEntries);
         this.labels.addAll(labels);
         this.labels.add(Label.NOT_MODELED);
@@ -476,5 +471,15 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public List<MoveLearnSetEntry> getEggMoves(){
         return learnSet.stream().filter(moveLearnSetEntry -> moveLearnSetEntry.getCondition().equalsIgnoreCase("egg")).toList();
+    }
+
+    protected void checkCanWalkOnSurface(List<PokemonSpawnData> spawnData) {
+        if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.UNDERLAVA) || pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
+            canSwimInLava = true;
+            canBreatheUnderlava = true;
+            if(spawnData.stream().anyMatch(pokemonSpawnData1 -> pokemonSpawnData1.getSpawnPresets().contains(SpawnPreset.LAVA_SURFACE))){
+                canWalkOnLava = true;
+            }
+        }
     }
 }

@@ -132,7 +132,7 @@ public class DeltaCharmander extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.1);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                         new AnimatedLayerData("flame",
                                 List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                                 10, true,
@@ -143,9 +143,9 @@ public class DeltaCharmander extends Pokemon {
         getPosingFileData().setProfileData( 0.7f, new Vector3(0, 0.7, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose(),
-                AnimationData.walkingAnimation().withLook()
+                AnimationData.standingAnimation("maliant").withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation("maliant").withLook()
         ));
-        getPosingFileData().setFaint("bedrock(deltacharmander, faint)");
+        getPosingFileData().setFaint("bedrock(deltacharmander, faint)", "maliant");
     }
 }

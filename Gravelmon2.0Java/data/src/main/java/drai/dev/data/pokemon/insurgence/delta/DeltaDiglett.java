@@ -107,7 +107,7 @@ public class DeltaDiglett extends Pokemon {
 
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.65f, new Vector3(0, -.9, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .3, 0));
         getPosingFileData().setBasicHead();

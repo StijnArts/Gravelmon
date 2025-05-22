@@ -42,7 +42,7 @@ public class DeltaRuinBeldum extends Pokemon {
         
         setBaseScale(0.75);
         setHitbox(0.4,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 0.5, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0.5, 0));
         getPosingFileData().setBasicHead();

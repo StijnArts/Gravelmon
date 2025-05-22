@@ -73,7 +73,7 @@ public class GastlyX extends Pokemon {
         
         setBaseScale(1.2);
         setHitbox(0.7,1.45);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setAnimationFileName("gastly_x");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, .5, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0.8, -20));

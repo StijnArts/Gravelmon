@@ -114,7 +114,7 @@ public class EghoFearow extends Pokemon {
         
         this.setBaseScale(1.2);
         this.setHitbox(1,1.4);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-1.2,.9, 0));
         getPosingFileData().setProfileData( 0.7f, new Vector3(-0.0, .6, 0));
         getPosingFileData().setBasicHead();

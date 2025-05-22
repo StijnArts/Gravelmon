@@ -131,7 +131,7 @@ public class DeltaGrovyle extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1,1.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.8f, new Vector3(.6, .7, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();

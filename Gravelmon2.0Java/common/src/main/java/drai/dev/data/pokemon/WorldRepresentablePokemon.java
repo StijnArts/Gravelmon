@@ -31,18 +31,25 @@ public abstract class WorldRepresentablePokemon {
     protected Image femalePlaceholderImage;
     protected JsonObject modelJSON;
     protected boolean hasSeparateFemaleModel;
-    private final SpeciesFileData speciesFileData = new SpeciesFileData();
-    private final PosingFileData posingFileData = new PosingFileData();
-    private final PosingFileData femalePosingFileData = new PosingFileData();
+    private final SpeciesFileData speciesFileData;
+    private final PosingFileData posingFileData;
+    private final PosingFileData femalePosingFileData;
     protected int height;
     protected double baseScale;
     protected double hitboxWidth = 6;
     protected double hitboxHeight = 6;
 
+    protected ModelMetaData modelMetaData = new ModelMetaData();
+    private boolean isReady;
+
     public WorldRepresentablePokemon(int height) {
         this.height = height;
         this.name = getClass().getSimpleName();
         this.baseScale = Math.max((double) height / 10 / 4, 0.1);
+        setModelMetadata();
+        speciesFileData = new SpeciesFileData(this);
+        posingFileData = new PosingFileData(this);
+        femalePosingFileData = new PosingFileData(this);
     }
 
     protected void processPokemonAssets(String resourcesDir, boolean hasGenderDifferences){
@@ -52,16 +59,16 @@ public abstract class WorldRepresentablePokemon {
             double factor = 96d / getPlaceholderMaxSideSize();
             recalculateScales(factor);
 //            recalculateXYZOffsets(factor);
-            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
-            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
+            posingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10, ""));
+            posingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10, ""));
             ModelJsonWriter.writeModel(this, getPlaceholderImageWidth(), getPlaceholderImageHeight(), resourcesDir, false);
 
             if(femalePlaceholderImage != null) {
 //                double femaleSizeFactor = 96d / getFemalePlaceholderMaxSideSize(abstractPokemon);
 //                femalePosingFileData.portraitScale *= femaleSizeFactor;
 //                femalePosingFileData.profileScale *= femaleSizeFactor;
-                femalePosingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10));
-                femalePosingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10));
+                femalePosingFileData.animations.add(new AnimationData("profile", List.of(PoseType.PROFILE), List.of("pc_fix"), List.of(), 10, ""));
+                femalePosingFileData.animations.add(new AnimationData("portrait", List.of(PoseType.NONE, PoseType.PORTRAIT), List.of("summary_fix"), List.of(), 10, ""));
                 ModelJsonWriter.writeModel(this, getFemalePlaceholderImageWidth(), getFemalePlaceholderImageHeight(), resourcesDir, true);
             }
         } else {
@@ -73,6 +80,37 @@ public abstract class WorldRepresentablePokemon {
         generateSpeciesFileData();
         generatePosingFileData();
         if(isModeled()) validate(resourcesDir, hasGenderDifferences);
+    }
+
+    private void setModelMetadata() {
+        if(this instanceof AbstractPokemon abstractPokemon){
+            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("battle_idle", k -> new HashSet<>());
+            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("sleep", k -> new HashSet<>());
+            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("faint", k -> new HashSet<>());
+            if(abstractPokemon.canFly) {
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_idle", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_fly", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
+            } else if (abstractPokemon.canSwimInWater || abstractPokemon.canSwimInLava) {
+
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_idle", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_swim", k -> new HashSet<>());
+                if(abstractPokemon.canWalkOnWater || abstractPokemon.canWalkOnLava){
+                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_idle", k -> new HashSet<>());
+                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_swim", k -> new HashSet<>());
+                }
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
+                if(((AbstractPokemon) this).avoidsLand){
+                    return;
+                }
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
+            } else {
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_run", k -> new HashSet<>());
+            }
+        }
     }
 
     private void recalculateScales(double factor) {
@@ -211,7 +249,7 @@ public abstract class WorldRepresentablePokemon {
 
     public boolean isModeled() {
         var directoryExists = textureDirectory.exists();
-        return textureDirectory != null && directoryExists;
+        return textureDirectory != null && directoryExists && isReady;
     }
 
     public void findOrCreatePlaceholderImage(String resourcesDir, boolean hasGenderDifferences) {
@@ -362,5 +400,13 @@ public abstract class WorldRepresentablePokemon {
         if(primaryType!=null) types.add(primaryType);
         if(secondaryType!=null) types.add(secondaryType);
         return types;
+    }
+
+    public ModelMetaData getModelMetaData() {
+        return modelMetaData;
+    }
+
+    public void markReady(){
+        isReady = true;
     }
 }

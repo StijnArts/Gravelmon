@@ -124,7 +124,7 @@ public class Aguade extends Pokemon {
         this.setHitbox(1,1);
 
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .2, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();

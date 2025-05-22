@@ -117,7 +117,7 @@ public class DeltaBergmite extends Pokemon {
 
         this.setBaseScale(0.95);
         this.setHitbox(0.95,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.2f, new Vector3(
                 -0.1,
                 -1.52,

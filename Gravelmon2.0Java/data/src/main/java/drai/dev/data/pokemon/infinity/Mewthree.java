@@ -152,7 +152,7 @@ public class Mewthree extends Pokemon {
         
         setBaseScale(0.9);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setPortraitData( .8f, new Vector3(0, 1.5, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 1.5, 0));
         getPosingFileData().setBasicHead();

@@ -131,7 +131,7 @@ public class Orcabyss extends Pokemon {
 
         setBaseScale(1.7);
         setHitbox(1.6,1.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1.09f, new Vector3(-.45, -0.35, 0));
         getPosingFileData().setProfileData(.57f, new Vector3(.05, 0.5, 0));
         getPosingFileData().setBasicHead();

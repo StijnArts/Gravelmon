@@ -81,7 +81,7 @@ public class HoennianDrakloak extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()
-                .addBasicVariation(this)
+                .addBasicVariation("IZetyXX")
                 .addLayer(
                         new SimpleTextureLayerData("emmisive", "drakloak_fire",
                                 Optional.of(true), Optional.of(false), false, true)

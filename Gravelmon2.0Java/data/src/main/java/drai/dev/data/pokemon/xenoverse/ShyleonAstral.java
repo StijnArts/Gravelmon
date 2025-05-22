@@ -98,7 +98,7 @@ public class ShyleonAstral extends Pokemon {
 
         setBaseScale(1);
         setHitbox(1,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1.4f, new Vector3(-0.4, 2.08, 0));
         getPosingFileData().setProfileData(.48f, new Vector3(0.01, 1.06, 0));
         getPosingFileData().setBasicHead();

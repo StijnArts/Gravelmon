@@ -104,7 +104,7 @@ public class Foliat extends Pokemon {
         this.setBaseScale(0.9);
         this.setHitbox(1,1);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2.5f, new Vector3(.1, -1.1, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
         getPosingFileData().setBasicHead();

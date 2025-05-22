@@ -120,7 +120,7 @@ public class EghoCharmeleon extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1.3,2.0);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Drai").addLayer(
                 new AnimatedLayerData("flame",
                         List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),
                         10, true,
@@ -129,7 +129,7 @@ public class EghoCharmeleon extends Pokemon {
         getPosingFileData().setProfileData( 0.4f, new Vector3(-0.0, 1.1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink()
+                AnimationData.standingAnimation("drai").withLook().markAsBackupPose().withBlink()
         ));
         getPosingFileData().setAnimationFileName("charmeleon_egho");
     }

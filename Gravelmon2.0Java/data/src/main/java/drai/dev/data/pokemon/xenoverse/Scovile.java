@@ -53,7 +53,7 @@ public class Scovile extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1,0.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Roggerregoat");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1.1, 0));
         getPosingFileData().head = "Head";

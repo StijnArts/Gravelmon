@@ -109,7 +109,7 @@ public class Skelachone extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
         this.setSwimSpeed(0.1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-.4, 0, 0));
         getPosingFileData().setProfileData( .58f, new Vector3(0, .9, 0));
         getPosingFileData().setBasicHead();

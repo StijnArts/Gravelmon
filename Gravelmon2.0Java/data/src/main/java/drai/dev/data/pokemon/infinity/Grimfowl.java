@@ -107,7 +107,7 @@ public class Grimfowl extends Pokemon {
         
         setBaseScale(0.85);
         setHitbox(1.2, 2.4);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("grimfowl");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(-0.6, 2.1, -10.0));
         getPosingFileData().setProfileData( .5f, new Vector3(0.0, 1.05, 0.0));

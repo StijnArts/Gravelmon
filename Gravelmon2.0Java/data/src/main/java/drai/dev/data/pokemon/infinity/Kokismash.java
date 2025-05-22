@@ -127,7 +127,7 @@ public class Kokismash extends Pokemon {
                 List.of());
         
         this.setBaseScale(1.1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.3, 0.8, 0.0));
         getPosingFileData().setProfileData( .6f, new Vector3(0.0, 1.1, 0.0));
         getPosingFileData().setBasicHead();

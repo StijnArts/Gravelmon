@@ -76,7 +76,7 @@ public class HaunterX extends Pokemon {
         
         setBaseScale(1.0);
         setHitbox(1.0, 3.0);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setAnimationFileName("haunter_x");
         getPosingFileData().setPortraitData( 1.2f, new Vector3(-.30, 2, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, 1.55, -20));

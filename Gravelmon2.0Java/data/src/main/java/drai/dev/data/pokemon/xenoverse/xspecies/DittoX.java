@@ -38,7 +38,7 @@ public class DittoX extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("ditto_x");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(0, .5, 0));
         getPosingFileData().setProfileData( .72f, new Vector3(0, 0.6, 0));

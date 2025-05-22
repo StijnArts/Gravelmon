@@ -79,7 +79,7 @@ public class JoltikX extends Pokemon {
         
         this.setBaseScale(0.4);
         this.setHitbox(0.6, 0.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("joltik_x");
         getPosingFileData().setPortraitData( 3.5f, new Vector3(-.40, -3.6, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, 0, 0));

@@ -94,7 +94,7 @@ public class SharpedoX extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(0.9, 1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("sharpedo_x");
         getPosingFileData().setPortraitData( 1.4f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .8, 0));

@@ -77,16 +77,16 @@ public class Chrysalix extends Pokemon {
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Neoxaivus");
         getPosingFileData().setAnimationFileName("steelix");
         getPosingFileData().setPortraitData(0.4f, new Vector3(-0.2, 1.2, 0));
         getPosingFileData().setProfileData(0.4f, new Vector3(-0.2, 1.2, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.battleIdleAnimation().withBlink(),
-                AnimationData.sleepingAnimation(),
-                AnimationData.standingAnimation().notBattle().withBlink(),
-                AnimationData.walkingAnimation().withBlink().addPoseType(PoseType.SWIM)
+                AnimationData.battleIdleAnimation("cobblemon").withBlink(),
+                AnimationData.sleepingAnimation("cobblemon"),
+                AnimationData.standingAnimation("cobblemon").notBattle().withBlink(),
+                AnimationData.walkingAnimation("cobblemon").withBlink().addPoseType(PoseType.SWIM)
         ));
         getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
         

@@ -129,7 +129,7 @@ public class DeltaAvalugg extends Pokemon {
 
         this.setBaseScale(0.9);
         this.setHitbox(4,3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.15f, new Vector3(
                 -1.7,
                 1.6,

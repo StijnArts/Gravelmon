@@ -114,7 +114,7 @@ public class Pyroat  extends Pokemon {
         this.setHitbox(1,1.4);
 
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-.4, -.58, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .60, 0));
         getPosingFileData().setBasicHead();

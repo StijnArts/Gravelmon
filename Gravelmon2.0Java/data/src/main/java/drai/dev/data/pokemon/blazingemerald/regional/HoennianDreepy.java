@@ -80,7 +80,7 @@ public class HoennianDreepy extends Pokemon {
         setBaseScale(1);
         setHitbox(1,1);
         getSpeciesFileData()
-                .addBasicVariation(this)
+                .addBasicVariation("IZetyXX")
                 .addLayer(
                         new AnimatedLayerData("flame", List.of("flame1", "flame2"), 4,
                                 true, Optional.of(true), Optional.of(false), false, true)

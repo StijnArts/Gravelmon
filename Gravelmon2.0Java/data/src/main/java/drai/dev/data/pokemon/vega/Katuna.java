@@ -93,7 +93,7 @@ public class Katuna extends Pokemon {
             this.setSwimSpeed(0.2);
             this.setCanBreathUnderwater(true);
             this.setHitbox(0.7,0.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(0, -1.1, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .1, 0));
         getPosingFileData().setBasicHead();

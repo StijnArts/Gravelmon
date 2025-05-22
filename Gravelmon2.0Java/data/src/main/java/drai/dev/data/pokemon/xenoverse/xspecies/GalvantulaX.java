@@ -84,7 +84,7 @@ public class GalvantulaX extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1, 1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("galvantula_x");
         getPosingFileData().setPortraitData( 2.4f, new Vector3(-.4, -1.85, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.6, 0));

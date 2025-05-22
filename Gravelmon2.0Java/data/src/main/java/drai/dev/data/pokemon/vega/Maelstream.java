@@ -94,7 +94,7 @@ public class Maelstream extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
         this.setSwimSpeed(0.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-.5, -0.3, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .5, 0));
         getPosingFileData().setBasicHead();

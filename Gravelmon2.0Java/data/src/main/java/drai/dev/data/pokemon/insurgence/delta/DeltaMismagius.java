@@ -122,7 +122,7 @@ public class DeltaMismagius extends Pokemon {
         setBaseScale(1.0);
         setHitbox(1.0, 2.0);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setPortraitData( 2f, new Vector3(-1, 2.5, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, 1.25, 0));
         getPosingFileData().addAnimations(List.of(

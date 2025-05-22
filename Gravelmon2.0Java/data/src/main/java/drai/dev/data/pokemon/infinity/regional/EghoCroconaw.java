@@ -137,7 +137,7 @@ public class EghoCroconaw extends Pokemon {
         
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 0.8f, new Vector3(0, 0.6, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
         getPosingFileData().setBasicHead();

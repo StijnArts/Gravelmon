@@ -108,7 +108,7 @@ public class Shulong extends Pokemon {
         
         this.setBaseScale(0.9);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("MayTheEpicGamer");
         getPosingFileData().setPortraitData( 3.6f, new Vector3(0, -2.7, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
         getPosingFileData().setBasicHead();

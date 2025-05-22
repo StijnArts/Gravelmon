@@ -99,7 +99,7 @@ public class Bluffin extends Pokemon {
         
         this.setBaseScale(0.5);
         this.setHitbox(1,0.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Disaster Lesbian");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, .7, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, .7, 0));
         getPosingFileData().setBasicHead();

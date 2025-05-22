@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.xenoverse;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -103,6 +104,13 @@ public class Chimaooze extends Pokemon {
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
-        
+        this.setBaseScale(1);
+        this.setHitbox(.7,.5);
+        getSpeciesFileData().addBasicVariation("Rogerregoat");
+        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, -.65, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.emptyAnimation().markAsBackupPose()
+        ));
     }
 }

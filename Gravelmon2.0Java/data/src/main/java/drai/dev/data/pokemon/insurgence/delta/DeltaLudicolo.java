@@ -130,7 +130,7 @@ public class DeltaLudicolo extends Pokemon {
         this.setLangFileName("Ludicolo");
         setBaseScale(1.1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Disaster Lesbian");
         getPosingFileData().setPortraitData(2.51f, new Vector3(-0.29, -2.06, 0));
         getPosingFileData().setProfileData(0.69f, new Vector3(-0.05, 0.75, 0));
         getPosingFileData().addAnimations(List.of(

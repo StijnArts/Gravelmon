@@ -97,7 +97,7 @@ public class Mockroach extends Pokemon {
                 List.of());
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(2.19f, new Vector3(-.4, 0.41, 0));
         getPosingFileData().setProfileData(.74f, new Vector3(0, 0.7, 0));
         getPosingFileData().addAnimations(List.of(

@@ -111,7 +111,7 @@ public class Eeveeon extends Pokemon {
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("eeveeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.EEVOBOOST, 0)),
                 List.of(),List.of(),"gravelmon:astral_stone"));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Sidhwin");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.1, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();

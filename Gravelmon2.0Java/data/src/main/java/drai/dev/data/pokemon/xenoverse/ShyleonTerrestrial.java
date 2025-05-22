@@ -109,7 +109,7 @@ public class ShyleonTerrestrial extends Pokemon {
 
         this.setHitbox(0.7, 1.1);
         this.setBaseScale(1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("MayTheEpicGamer");
         getPosingFileData().setAnimationFileName("shyleon_terrestrial");
         getPosingFileData().setPortraitData( 2.5f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .42, 0));

@@ -103,7 +103,7 @@ public class CacturneX extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.8, 1.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("cacturne_x");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(0, .5, 0));
         getPosingFileData().setProfileData( .72f, new Vector3(0, 0.6, 0));

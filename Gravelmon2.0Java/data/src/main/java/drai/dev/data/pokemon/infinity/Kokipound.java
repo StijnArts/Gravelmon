@@ -120,7 +120,7 @@ public class Kokipound extends Pokemon {
                 List.of());
 
         this.setBaseScale(0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("PorousMist");
         getPosingFileData().setAnimationFileName("kokipound");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(0, 0.1, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .45, 0));

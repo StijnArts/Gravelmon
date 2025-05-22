@@ -99,7 +99,7 @@ public class Nucleon extends Pokemon {
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20"))));
 
         getSpeciesFileData()
-                .addBasicVariation(this)
+                .addBasicVariation("Ordeaux")
                 .addLayer(
                         new SimpleTextureLayerData("emissive", "nucleon_emissive", Optional.of(true), Optional.of(false), false, true)
                 );

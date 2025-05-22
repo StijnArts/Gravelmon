@@ -75,7 +75,7 @@ public class HoennianPinsir extends Pokemon {
 
         setBaseScale(1);
         setHitbox(1,1.5);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Neoxaivus");
         getPosingFileData().setAnimationFileName("hoennianpinsir");
         getPosingFileData().setPortraitData(1.8f, new Vector3(-.44, -0.07, 0));
         getPosingFileData().setProfileData(.56f, new Vector3(0, 0.9, 0));

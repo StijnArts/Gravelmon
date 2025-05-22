@@ -100,7 +100,7 @@ public class Kidling extends Pokemon {
         this.setBaseScale(0.9);
         this.setHitbox(1,1);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2f, new Vector3(-.3, -.28, 0));
         getPosingFileData().setProfileData( 1.1f, new Vector3(-.10, .20, 0));
         getPosingFileData().setBasicHead();

@@ -110,7 +110,7 @@ public class Valentide extends Pokemon {
         
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setAnimationFileName("luvdisc");
         getPosingFileData().setPortraitData( 1f, new Vector3(0.1, 0, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0.1, 0, 0));

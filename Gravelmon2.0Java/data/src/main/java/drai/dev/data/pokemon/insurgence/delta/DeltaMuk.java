@@ -137,7 +137,7 @@ public class DeltaMuk extends Pokemon {
 
         this.setBaseScale(1.4);
         this.setHitbox(1.4,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.5f, new Vector3(-0.2, -0.2, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(-.04, .43, 0));
         getPosingFileData().setBasicHead();

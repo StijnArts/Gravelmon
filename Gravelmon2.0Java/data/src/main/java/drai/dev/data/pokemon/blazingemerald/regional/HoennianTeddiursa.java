@@ -75,7 +75,7 @@ public class HoennianTeddiursa extends Pokemon {
 
         this.setHitbox(0.7, 1);
         this.setBaseScale(0.55);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("PorousMist");
         getPosingFileData().setAnimationFileName("teddiursa_hoennian");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.2, -0.7, 0.0));
         getPosingFileData().setProfileData( .7f, new Vector3(0.0, 0.7, 0.0));

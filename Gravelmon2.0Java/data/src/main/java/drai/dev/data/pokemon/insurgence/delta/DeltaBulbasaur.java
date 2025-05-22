@@ -124,7 +124,7 @@ public class DeltaBulbasaur extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.9,0.5);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setAnimationFileName("bulbasaur_egho");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.3, -1.4, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));

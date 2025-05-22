@@ -57,7 +57,7 @@ public class Kidoon extends Pokemon {
         this.setCanWalkOnWater(true);
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("this");
         getPosingFileData().setPortraitData(1.55f, new Vector3(0, -0.46, 0));
         getPosingFileData().setProfileData(.56f, new Vector3(0.7, 0.8, 0));
         getPosingFileData().addAnimations(List.of(

@@ -113,7 +113,7 @@ public class Oarwish extends Pokemon {
         
         setBaseScale(1);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData( .6f, new Vector3(-.3, .80, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(-.3, .80, 0));
         getPosingFileData().setBasicHead();

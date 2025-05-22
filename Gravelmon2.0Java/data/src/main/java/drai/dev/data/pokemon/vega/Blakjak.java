@@ -113,7 +113,7 @@ public class Blakjak extends Pokemon {
         this.setHitbox(0.7,1);
         
         setCanFly(true);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-.2, .8, 0));
         getPosingFileData().setProfileData( .65f, new Vector3(0, .8, 0));
         getPosingFileData().setBasicHead();

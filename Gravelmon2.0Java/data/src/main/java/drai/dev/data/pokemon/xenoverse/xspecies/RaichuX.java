@@ -77,7 +77,7 @@ public class RaichuX extends Pokemon {
         this.setHitbox(0.8,1.5);
         this.setBaseScale(0.8);
         this.setCanFly(true);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Drai").addLayer(
                 new AnimatedLayerData("heartbeat", AnimatedLayerData.getFrames("heartbeat/heartbeat", 10), 10, true,
                         Optional.of(false), Optional.of(false), false, true)
         );

@@ -93,7 +93,7 @@ public class PorygonWES extends Pokemon {
         this.setHitbox(0.8,1.2);
         addAdditionalEvolution("porygon2", new EvolutionEntry("porygonwes", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"gravelmon:wes_update"))));
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("this").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );
         getPosingFileData().setPortraitData( 2.4f, new Vector3(0, 1.8, 0));

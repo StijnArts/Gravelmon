@@ -109,7 +109,7 @@ public class Florabri extends Pokemon {
         this.setHitbox(1,1);
 
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2.6f, new Vector3(-0.2, -1, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0.2, .3, 0));
         getPosingFileData().setBasicHead();

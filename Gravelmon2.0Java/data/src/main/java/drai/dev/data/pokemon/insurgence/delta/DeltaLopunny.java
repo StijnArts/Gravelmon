@@ -177,7 +177,7 @@ public class DeltaLopunny extends Pokemon {
         
         this.setBaseScale(0.6);
         this.setHitbox(1.4,3);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2f, new Vector3(-0.2, 1.9, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

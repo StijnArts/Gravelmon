@@ -112,7 +112,7 @@ public class DeltaChinchou extends Pokemon {
         this.setHitbox(0.7, 0.6);
         this.setBaseScale(0.6);
         this.setCanFly(true);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setAnimationFileName("chinchou_delta");
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.2, -.7, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .5, 0));

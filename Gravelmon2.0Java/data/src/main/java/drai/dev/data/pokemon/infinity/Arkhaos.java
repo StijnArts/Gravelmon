@@ -185,19 +185,19 @@ public class Arkhaos extends Pokemon {
         
         setBaseScale(1);
         setHitbox(4,2.5);
-        getSpeciesFileData().addBasicVariation(this).addLayer(new BasicLayerData("arkhaos_emissive", Optional.of(true), Optional.of(true), false, true));
+        getSpeciesFileData().addBasicVariation("IZetyXX").addLayer(new BasicLayerData("arkhaos_emissive", Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setAnimationFileName("arkhaos");
         getPosingFileData().setPortraitData( .3f, new Vector3(-0.6, 1.5, 0));
         getPosingFileData().setProfileData( .3f, new Vector3(-0.2, 1.3, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink(),
-                AnimationData.walkingAnimation().withBlink(),
-                AnimationData.hoveringAnimation().withBlink().addPoseType(PoseType.FLOAT),
-                AnimationData.flyingAnimation().withBlink().addPoseType(PoseType.SWIM)
+                AnimationData.standingAnimation("IZetyXX").withBlink(),
+                AnimationData.walkingAnimation("IZetyXX").withBlink(),
+                AnimationData.hoveringAnimation("IZetyXX").withBlink().addPoseType(PoseType.FLOAT),
+                AnimationData.flyingAnimation("IZetyXX").withBlink().addPoseType(PoseType.SWIM)
         ));
-        getPosingFileData().setCry("q.bedrock_stateful('arkhaos', 'cry')");
-        getPosingFileData().setFaint("q.bedrock_primary('arkhaos', 'faint', q.curve('one'))");
+        getPosingFileData().setCry("q.bedrock_stateful('arkhaos', 'cry')", "IZetyXX");
+        getPosingFileData().setFaint("q.bedrock_primary('arkhaos', 'faint', q.curve('one'))", "IZetyXX");
 
     }
 }

@@ -167,7 +167,7 @@ public class DeltaLucario extends Pokemon {
         
         this.setBaseScale(1.1);
         this.setHitbox(0.8,2.45);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.4f, new Vector3(-0.3, 1, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .65, 0));
         getPosingFileData().setBasicHead();

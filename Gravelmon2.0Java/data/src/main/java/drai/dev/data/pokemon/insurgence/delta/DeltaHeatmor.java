@@ -129,7 +129,7 @@ public class DeltaHeatmor extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Donated by Snow Goose").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );
         getPosingFileData().setPortraitData( 3.5f, new Vector3(-.8, -.25, 0));

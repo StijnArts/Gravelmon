@@ -118,7 +118,7 @@ public class DeltaTreecko extends Pokemon {
 
         this.setBaseScale(0.7);
         this.setHitbox(0.6,1.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 3f, new Vector3(.3, -.8, 0));
         getPosingFileData().setProfileData( 0.9f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();

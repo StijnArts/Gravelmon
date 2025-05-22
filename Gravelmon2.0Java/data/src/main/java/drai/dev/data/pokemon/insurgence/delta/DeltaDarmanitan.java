@@ -131,7 +131,7 @@ public class DeltaDarmanitan extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1.4,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setAnimationFileName("darmanitan_delta");
         getPosingFileData().setPortraitData( 1.3f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1.2, 0));

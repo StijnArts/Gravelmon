@@ -66,7 +66,7 @@ public class Oreon extends Pokemon {
                 List.of(),List.of(),"minecraft:cookie"));
         
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Ordeaux", "Neoxaivus");
         getPosingFileData().setAnimationFileName("umbreon");
         getPosingFileData().setPortraitData(1f, new Vector3(0, 0.2, 0));
         getPosingFileData().setProfileData(0.8f, new Vector3(0, .6, 0));

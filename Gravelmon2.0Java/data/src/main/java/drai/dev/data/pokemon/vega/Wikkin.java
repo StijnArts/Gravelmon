@@ -107,7 +107,7 @@ public class Wikkin extends Pokemon {
         this.setBaseScale(0.6);
         this.setHitbox(0.7,1);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData( 2f, new Vector3(0, 0.7, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, .9, 0));
         getPosingFileData().setBasicHead();

@@ -115,7 +115,7 @@ public class DeltaDoduo extends Pokemon {
         
         this.setBaseScale(1.3);
         this.setHitbox(0.6,1.4);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0, .6, 0));
         getPosingFileData().setProfileData( .85f, new Vector3(0, .5, 0));
         getPosingFileData().head = "head";

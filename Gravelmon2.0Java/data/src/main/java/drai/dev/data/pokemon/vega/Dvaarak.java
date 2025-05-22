@@ -106,7 +106,7 @@ public class Dvaarak extends Pokemon {
 
         
         this.setBaseScale(0.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("this");
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-.6, .6, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();

@@ -150,7 +150,7 @@ public class UFI extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(0.8,0.8);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, 0.2, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();

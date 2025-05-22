@@ -78,7 +78,7 @@ public class Gachigachoo extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Rogerregoat");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, -.65, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
         getPosingFileData().setBasicHead();

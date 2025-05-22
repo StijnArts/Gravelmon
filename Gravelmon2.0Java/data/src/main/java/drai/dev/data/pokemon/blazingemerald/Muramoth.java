@@ -68,7 +68,7 @@ public class Muramoth extends Pokemon {
                 List.of());
         setBaseScale(1);
         setHitbox(1,1.5);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1.25f, new Vector3(0.14, 0.67, 0));
         getPosingFileData().setProfileData(.65f, new Vector3(0, 0.77, 0));
         getPosingFileData().setBasicHead();

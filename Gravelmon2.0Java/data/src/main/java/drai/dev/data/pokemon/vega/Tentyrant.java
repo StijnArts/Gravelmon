@@ -105,7 +105,7 @@ public class Tentyrant extends Pokemon {
         this.setHitbox(1.3,1.3);
         addAdditionalEvolution("tentacruel", new EvolutionEntry("tentyrant", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:water_stone"));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("SodaPhillium");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -0.4, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));
         getPosingFileData().addAnimations(List.of(

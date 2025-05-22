@@ -122,7 +122,7 @@ public class DeltaLombre extends Pokemon {
         this.setLangFileName("Lombre");
         setBaseScale(0.75);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Disaster Lesbian");
         getPosingFileData().setPortraitData(2.26f, new Vector3(0.01, -0.22, 0));
         getPosingFileData().setProfileData(.85f, new Vector3(0.01, 0.52, 0));
         getPosingFileData().addAnimations(List.of(

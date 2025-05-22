@@ -126,15 +126,15 @@ public class DeltaMaractus extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1,1.5);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Maliant", "maliant").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );
         getPosingFileData().setPortraitData( 2.5f, new Vector3(-0.2, -.8, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().withLook().markAsBackupPose(),
-                AnimationData.walkingAnimation().withBlink().withLook()
+                AnimationData.standingAnimation("maliant").withBlink().withLook().markAsBackupPose(),
+                AnimationData.walkingAnimation("maliant").withBlink().withLook()
         ));
     }
 }

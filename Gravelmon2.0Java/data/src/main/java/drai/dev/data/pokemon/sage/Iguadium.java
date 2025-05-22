@@ -138,7 +138,7 @@ public class Iguadium extends Pokemon {
         this.setHitbox(1,1.4);
 
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-.20, 1.2, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(-.10, .90, 0));
         getPosingFileData().setBasicHead();

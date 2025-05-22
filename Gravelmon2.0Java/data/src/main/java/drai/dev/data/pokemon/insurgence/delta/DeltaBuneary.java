@@ -163,7 +163,7 @@ public class DeltaBuneary extends Pokemon {
         
         this.setHitbox(1.5, 1.5);
         this.setBaseScale(0.5);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.65f, new Vector3(-0, 0, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();

@@ -141,7 +141,7 @@ public class EghoCharizard extends Pokemon {
         this.setBaseScale(1.05);
         this.setCanFly(true);
         this.setHitbox(2.3,3.4);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Drai").addLayer(
                 new AnimatedLayerData("flame",
                         List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4", "flame/flame5", "flame/flame6"),
                         10, true,

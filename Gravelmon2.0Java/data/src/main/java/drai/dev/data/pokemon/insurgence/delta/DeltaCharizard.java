@@ -151,7 +151,7 @@ public class DeltaCharizard extends Pokemon {
         
         this.setBaseScale(1.35);
         this.setHitbox(1,2.1);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                         new AnimatedLayerData("flame",
                                 List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                                 10, true,

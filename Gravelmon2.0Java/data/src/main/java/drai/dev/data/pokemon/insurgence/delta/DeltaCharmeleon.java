@@ -135,7 +135,7 @@ public class DeltaCharmeleon extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.5);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                 new AnimatedLayerData("flame",
                         List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),
                         10, true,

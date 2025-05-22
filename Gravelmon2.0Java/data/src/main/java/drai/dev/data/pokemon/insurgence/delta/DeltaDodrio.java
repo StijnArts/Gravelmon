@@ -121,7 +121,7 @@ public class DeltaDodrio extends Pokemon {
         
         this.setBaseScale(1.6);
         this.setHitbox(0.6,1.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.3f, new Vector3(-0, .9, 0));
         getPosingFileData().setProfileData( .81f, new Vector3(0, .6, 0));
         getPosingFileData().head = "head4";

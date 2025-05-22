@@ -175,7 +175,7 @@ public class Oculeus extends Pokemon {
         setBaseScale(1);
         setHitbox(2,2);
         getSpeciesFileData()
-                .addBasicVariation(this)
+                .addBasicVariation("IZetyXX")
                 .addLayer(
                         new SimpleTextureLayerData("emmisive", "oculeus_translucent",
                                 Optional.of(true), Optional.of(true), false, true)

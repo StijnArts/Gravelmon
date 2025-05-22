@@ -96,7 +96,7 @@ public class SeviianCarnivine extends Pokemon {
         
         setBaseScale(0.8);
         setHitbox(1.2,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();

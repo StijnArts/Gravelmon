@@ -76,7 +76,7 @@ public class ExcelExporter {
     private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<WorldRepresentablePokemon> pokemonList, MutableInt mutableInt) {
         // Create header row
         Row header = sheet.createRow(0);
-        String[] headers = {"Name", "Form", "Image      ", "Stats", "Type(s)", "Level Up Moves", "TM Moves", "Tutor Moves",
+        String[] headers = {"Name", "Form", "Image      ", "Model Status", "Stats", "Type(s)", "Level Up Moves", "TM Moves", "Tutor Moves",
                 "Egg Moves", "Evolutions", "Spawn Conditions"};
         CellStyle headerStyle = workbook.createCellStyle();
         Font font = workbook.createFont();
@@ -116,6 +116,11 @@ public class ExcelExporter {
             var imageCell = createNextCell(row, cellCount);
             imageCell.setCellFormula("Image(\"https://raw.githubusercontent.com/StijnArts/Gravelmon/refs/heads/main/Gravelmon2.0Java/common/src/main/resources/assets/cobblemon/textures/pokemon/" +
                     "/" + GravelmonUtils.getCleanName(worldRepresentablePokemon.getGameName()) + "/" + worldRepresentablePokemon.getCleanName() + ".png\")");
+
+            //Add modeling metadata
+            Cell modelMetaDataCell = createNextCell(row, cellCount);
+            modelMetaDataCell.setCellValue(worldRepresentablePokemon.getModelMetaData().toString());
+            modelMetaDataCell.setCellStyle(wrapTextStyle);
 
             // Format stats into a single string
             String stats = String.format("HP: %d,\n ATK: %d,\n DEF: %d,\n SPA: %d,\n SPDEF: %d,\n SPD: %d",

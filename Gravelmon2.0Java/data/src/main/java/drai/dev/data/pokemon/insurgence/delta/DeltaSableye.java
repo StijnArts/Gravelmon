@@ -143,7 +143,7 @@ public class DeltaSableye extends Pokemon {
 
         this.setBaseScale(0.65);
         this.setHitbox(0.7,1.2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
 //        getPosingFileData().setAnimationFileName("sableye");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.1, -.5, 0));
         getPosingFileData().setProfileData( .95f, new Vector3(0, .4, 0));

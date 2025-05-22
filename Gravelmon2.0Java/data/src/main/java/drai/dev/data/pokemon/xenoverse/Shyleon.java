@@ -102,7 +102,7 @@ public class Shyleon extends Pokemon {
         this.setBaseScale(0.9);
         setHitbox(1,1);
 
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("MayTheEpicGamer");
         getPosingFileData().setPortraitData( 2.4f, new Vector3(0, -0.8, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .30, 0));
         getPosingFileData().setBasicHead();

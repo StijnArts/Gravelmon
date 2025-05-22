@@ -129,7 +129,7 @@ public class Gorochu extends Pokemon {
         setHitbox(1,1);
         addAdditionalEvolution("pikachu", new EvolutionEntry("gorochu", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:fire_stone"));
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("b00mhammer");
         getPosingFileData().setAnimationFileName("gorochu");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0.0, 0.4, 0.0));
         getPosingFileData().setProfileData( .7f, new Vector3(0.0, 0.75, 0));

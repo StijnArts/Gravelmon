@@ -77,7 +77,7 @@ public class PonytaX extends Pokemon {
 
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("ponyta_x");
         getPosingFileData().setPortraitData( 2.4f, new Vector3(-.4, .2, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.42, 0));

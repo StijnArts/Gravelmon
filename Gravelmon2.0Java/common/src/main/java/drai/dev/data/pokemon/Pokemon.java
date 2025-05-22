@@ -328,6 +328,7 @@ public class Pokemon extends AbstractPokemon {
     public Pokemon overwriteSpawnData(List<PokemonSpawnData> spawnData){
         this.spawnData.clear();
         this.spawnData.addAll(spawnData);
+        checkCanWalkOnSurface(spawnData);
         return this;
     }
 

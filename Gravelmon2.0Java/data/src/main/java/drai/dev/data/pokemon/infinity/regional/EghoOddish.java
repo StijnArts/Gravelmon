@@ -101,7 +101,7 @@ public class EghoOddish extends Pokemon {
         
         setBaseScale(0.6);
         setHitbox(0.6,0.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("IZetyXX");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.0, -0.8, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .6, -20));
         getPosingFileData().setBasicHead();

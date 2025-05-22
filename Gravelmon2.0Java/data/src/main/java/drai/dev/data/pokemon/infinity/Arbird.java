@@ -92,7 +92,7 @@ public class Arbird extends Pokemon {
 
         setBaseScale(.78);
         setHitbox(.7,.7);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(3.05f, new Vector3(-.67, -1.23, 0));
         getPosingFileData().setProfileData(1f, new Vector3(0, 0.21, 0));
         getPosingFileData().setBasicHead();

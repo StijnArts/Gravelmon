@@ -125,7 +125,7 @@ public class DeltaWooper extends Pokemon {
 
         this.setBaseScale(0.5);
         this.setHitbox(0.8,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("wooper");
         getPosingFileData().setPortraitData( 1.3f, new Vector3(0, .3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.4, 0));

@@ -84,7 +84,7 @@ public class Yukidaru extends Pokemon {
         setBaseScale(.85);
         setHitbox(1.0, 1.0);
         
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Uncle Berry");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, 0, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .55, 0));
         getPosingFileData().setBasicHead();

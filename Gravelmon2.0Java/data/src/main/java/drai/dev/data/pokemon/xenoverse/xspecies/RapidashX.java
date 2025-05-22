@@ -116,7 +116,7 @@ public class RapidashX  extends Pokemon {
         
         this.setBaseScale(1.25);
         this.setHitbox(0.9,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("rapidash_x");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.3, 1.3, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .68, 0));

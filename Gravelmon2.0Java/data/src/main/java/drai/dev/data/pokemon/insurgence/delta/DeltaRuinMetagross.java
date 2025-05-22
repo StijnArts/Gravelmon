@@ -142,7 +142,7 @@ public class DeltaRuinMetagross extends Pokemon {
         
         setBaseScale( 1.3);
         setHitbox(1.8,1.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( .5f, new Vector3(0, .80, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, .80, 0));
         getPosingFileData().addAnimations(List.of(

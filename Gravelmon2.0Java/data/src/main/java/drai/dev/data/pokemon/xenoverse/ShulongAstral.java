@@ -105,7 +105,7 @@ public class ShulongAstral extends Pokemon {
 
         setBaseScale(1);
         setHitbox(1,2);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData(1.32f, new Vector3(-0.74, 2, 0));
         getPosingFileData().setProfileData(.48f, new Vector3(0, 1.01, 0));
         getPosingFileData().setBasicHead();

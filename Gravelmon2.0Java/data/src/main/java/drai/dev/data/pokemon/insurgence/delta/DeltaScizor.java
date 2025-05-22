@@ -131,7 +131,7 @@ public class DeltaScizor extends Pokemon {
 
         this.setBaseScale(0.85);
         this.setHitbox(1.1,2.6);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.8f, new Vector3(0, 1.4, 0));
         getPosingFileData().setProfileData( 0.65f, new Vector3(0, .7, 0));
         getPosingFileData().setBasicHead();

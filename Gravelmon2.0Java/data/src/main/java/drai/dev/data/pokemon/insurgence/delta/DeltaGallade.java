@@ -136,7 +136,7 @@ public class DeltaGallade extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.6,2.25);
-        getSpeciesFileData().addBasicVariation(this).addLayer(
+        getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );
         getPosingFileData().setPortraitData( 2.6f, new Vector3(-0.2, 1.8, 0));

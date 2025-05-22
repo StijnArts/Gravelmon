@@ -135,7 +135,7 @@ public class EghoTotodile extends Pokemon {
         
         setBaseScale(0.5);
         setHitbox(1,1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 0.7f, new Vector3(0, 0.4, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, 0.4, 0));
         getPosingFileData().setBasicHead();

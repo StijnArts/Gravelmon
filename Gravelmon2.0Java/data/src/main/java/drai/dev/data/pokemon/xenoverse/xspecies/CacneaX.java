@@ -79,7 +79,7 @@ public class CacneaX extends Pokemon {
 
         
         this.setBaseScale(1);
-        getSpeciesFileData().addBasicVariation(this);
+        getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("cacnea_x");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -.7, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.5, 0));
