@@ -130,7 +130,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.27137809187279155,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -278,8 +278,7 @@
       ],
       "labels": [
         "gen5",
-        "insurgence",
-        "not_modeled"
+        "insurgence"
       ],
       "pokedex": [
         "cobblemon.species.deltamaractus.desc"
@@ -292,8 +291,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 17.6875,
-        "height": 17.6875,
+        "width": 1.0,
+        "height": 1.5,
         "fixed": false
       }
     },

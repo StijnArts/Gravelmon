@@ -86,7 +86,7 @@ public class SpeciesDataJSONWriter {
         fileContents.add("evYield", abstractPokemon.getEvYield().getJsonRepresentation());
         fileContents.add("eggGroups", getEggGroups(abstractPokemon));
         fileContents.add("drops", getDrops(abstractPokemon.getDropAmount(), abstractPokemon.getDrops()));
-        fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
+        if(!abstractPokemon.skipMoves) fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
         var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA, FERRAN));
         if(!Collections.disjoint(abstractPokemon.getLabels(), instagramLabels)){
             abstractPokemon.getLabels().add(INSTAGRAM);

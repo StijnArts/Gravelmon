@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 55,
+    "attack": 55,
+    "defence": 65,
+    "special_attack": 19,
+    "special_defence": 46,
+    "speed": 10
   },
   "evYield": {
     "hp": 0,
@@ -60,11 +60,20 @@
   "drops": {},
   "moves": [
     "1:lowkick",
+    "1:drainpunch",
+    "1:coaching",
     "1:leer",
+    "1:bulkup",
+    "1:healbell",
     "4:revenge",
+    "4:calmmind",
+    "4:wish",
     "7:vacuumwave",
+    "7:taunt",
     "10:brickbreak",
+    "10:substitute",
     "13:aurasphere",
+    "13:rest",
     "16:focusblast",
     "19:lowkick",
     "22:leer",
@@ -103,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2492,
+  "nationalPokedexNumber": 3245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

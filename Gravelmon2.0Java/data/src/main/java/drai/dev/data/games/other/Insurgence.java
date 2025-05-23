@@ -216,6 +216,7 @@ public class Insurgence extends Game {
                 "meloetta-delta," +
                 "hoopa-delta,");
         addNewPokemon(new UFI());
+        addNewPokemon(new SpaceMew("", Aspect.SPACE));
         addNewPokemon(new ShadowMewtwo("", Aspect.SHADOW));
         ArmoredForm.addArmoredForm("mewtwo", Type.PSYCHIC,
                 new Stats(106, 110, 90 , 154, 90, 130),

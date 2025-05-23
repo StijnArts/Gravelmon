@@ -723,7 +723,7 @@
       "name": "mega_fire",
       "primaryType": "steel",
       "secondaryType": "fire",
-      "baseScale": 67.19999999999999,
+      "baseScale": 72.0,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

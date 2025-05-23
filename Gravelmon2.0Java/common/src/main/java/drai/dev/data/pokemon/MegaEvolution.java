@@ -25,6 +25,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     private String dexEntry;
     private String megaStoneName;
     private MegaStonePalette megaStonePalette;
+    public Consumer<MegaEvolution> onProcessResources = megaEvolution -> {};
 
     public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
         super(height);
@@ -152,7 +153,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     @Override
     public String getCleanName() {
-        return (name+(getAspect()!=null? "_"+getAspect().toLowerCase().replaceAll("_","") : "")+"_"+megaName)
+        return (name+(getMegaAspect()!=null? "_"+getMegaAspect().toLowerCase().replaceAll("_","") : "")+"_"+megaName)
                 .toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
                 .replace("'","").replace("\\.","");
     }
@@ -215,7 +216,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return "";
     }
 
-    public String getAspect() {
+    public @Nullable String getAspect() {
         return aspect;
     }
 
@@ -332,4 +333,10 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 //        var name = pokemon.getAdditionalFormKey()==null?pokemon.getCleanName():pokemon.getAdditionalFormKey();
 //        return new MegaEvolution(name, pokemon.primaryType, pokemon.secondaryType, pokemon.stats, pokemon.hiddenAbility, pokemon.height, pokemon.gameName, pokemon.labels, pokemon.getAdditionalAspect());
 //    }
+
+
+    public @NotNull MegaEvolution onProcessResources(Consumer<MegaEvolution> worldRepresentablePokemonConsumer) {
+        this.onProcessResources = worldRepresentablePokemonConsumer;
+        return this;
+    }
 }

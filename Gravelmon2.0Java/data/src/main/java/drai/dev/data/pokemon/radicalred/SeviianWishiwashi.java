@@ -100,8 +100,8 @@ public class SeviianWishiwashi extends Pokemon {
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);
 
-        setBaseScale(1);
-        setHitbox(1,1);
+        setBaseScale(0.4);
+        setHitbox(.6,.6);
         getSpeciesFileData().addBasicVariation("El Pigeon");
         getPosingFileData().setPortraitData( 1f, new Vector3(0, .2, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .2, 0));

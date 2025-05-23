@@ -331,7 +331,7 @@
       "name": "epochtwo_mega",
       "primaryType": "electric",
       "secondaryType": "grass",
-      "baseScale": 13.200000000000001,
+      "baseScale": 0.3142857142857143,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

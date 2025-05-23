@@ -364,7 +364,7 @@
       "name": "epochtwo_mega",
       "primaryType": "ice",
       "secondaryType": "poison",
-      "baseScale": 42.0,
+      "baseScale": 1.0632911392405064,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

@@ -404,7 +404,7 @@
     {
       "name": "epochtwo_mega",
       "primaryType": "electric",
-      "baseScale": 4.800000000000001,
+      "baseScale": 0.10549450549450551,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

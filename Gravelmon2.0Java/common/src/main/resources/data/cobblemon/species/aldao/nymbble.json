@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 37,
+    "attack": 19,
+    "defence": 39,
+    "special_attack": 66,
+    "special_defence": 39,
+    "speed": 56
   },
   "evYield": {
     "hp": 0,
@@ -66,13 +66,6 @@
     "10:surf",
     "13:chillingwater",
     "16:hydropump",
-    "19:watergun",
-    "22:tailwhip",
-    "25:bubblebeam",
-    "28:aquatail",
-    "31:surf",
-    "34:waterfall",
-    "39:liquidation",
     "tm:terablast"
   ],
   "labels": [
@@ -103,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2827,
+  "nationalPokedexNumber": 3769,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

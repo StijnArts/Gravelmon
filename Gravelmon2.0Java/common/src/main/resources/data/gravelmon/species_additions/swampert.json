@@ -622,7 +622,7 @@
       "name": "epochtwo_mega",
       "primaryType": "rock",
       "secondaryType": "light",
-      "baseScale": 25.200000000000003,
+      "baseScale": 0.63,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

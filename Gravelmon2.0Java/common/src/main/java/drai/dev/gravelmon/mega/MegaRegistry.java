@@ -1,6 +1,8 @@
 package drai.dev.gravelmon.mega;
 
+import com.cobblemon.mod.common.entity.*;
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -1249,7 +1251,23 @@ public class MegaRegistry {
                         Ability.FOUNDRY,
                         56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ca460c", "#ffc500", "#51473e"))
-                        .setMegaName("mega_fire"),
+                        .setMegaName("mega_fire").onProcessResources(pokemon->{
+                            pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry");
+                            pokemon.getPosingFileData().setAnimationFileName("mega_steelix_fire");
+                            pokemon.getPosingFileData().setPortraitData(0.4f, new Vector3(-0.2, 1.2, 0));
+                            pokemon.getPosingFileData().setProfileData(0.4f, new Vector3(-0.2, 1.2, 0));
+                            pokemon.getPosingFileData().setBasicHead();
+                            pokemon.getPosingFileData().addAnimations(List.of(
+                                    AnimationData.battleIdleAnimation("cobblemon").withBlink(),
+                                    AnimationData.sleepingAnimation("cobblemon"),
+                                    AnimationData.standingAnimation("cobblemon").notBattle().withBlink(),
+                                    AnimationData.walkingAnimation("cobblemon").withBlink().addPoseType(PoseType.SWIM)
+                            ));
+                            pokemon.getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
+
+                            pokemon.setBaseScale(1.5);
+                            pokemon.setHitbox(1,1);
+                        }),
                 new MegaEvolution("magcargo",
                         Type.FIRE,
                         new Stats(50,

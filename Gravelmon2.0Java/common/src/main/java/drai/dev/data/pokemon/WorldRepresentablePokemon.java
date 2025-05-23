@@ -18,6 +18,7 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 import java.util.List;
+import java.util.function.*;
 
 public abstract class WorldRepresentablePokemon {
     protected Stats stats;
@@ -53,6 +54,7 @@ public abstract class WorldRepresentablePokemon {
     }
 
     protected void processPokemonAssets(String resourcesDir, boolean hasGenderDifferences){
+        if(this instanceof MegaEvolution megaEvolution) megaEvolution.onProcessResources.accept(megaEvolution);
         textureDirectory = findTextureDirectory(resourcesDir);
         if(!isModeled()){
             findOrCreatePlaceholderImage(resourcesDir, hasGenderDifferences);
@@ -348,7 +350,7 @@ public abstract class WorldRepresentablePokemon {
         return hitboxHeight;
     }
 
-    protected void setHitbox(double width, double height) {
+    public void setHitbox(double width, double height) {
         this.hitboxWidth = width;
         this.hitboxHeight = height;
         if(this instanceof Pokemon pokemon){

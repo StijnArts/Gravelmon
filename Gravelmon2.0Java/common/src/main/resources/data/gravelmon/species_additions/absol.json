@@ -997,7 +997,7 @@
       "name": "epochtwo_mega",
       "primaryType": "psychic",
       "secondaryType": "cosmic",
-      "baseScale": 19.200000000000003,
+      "baseScale": 0.4413793103448276,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

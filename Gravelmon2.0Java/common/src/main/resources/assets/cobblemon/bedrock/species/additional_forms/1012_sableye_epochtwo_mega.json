@@ -6,8 +6,8 @@
       "aspects": [
         "epochtwo_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_51_by_72.geo",
+      "poser": "cobblemon:cutout_gravelmon_51_by_72",
       "texture": "cobblemon:textures/pokemon/soulstones/sableye_epochtwo_mega.png",
       "layers": [
         {

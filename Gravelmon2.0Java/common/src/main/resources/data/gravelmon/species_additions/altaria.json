@@ -1027,7 +1027,7 @@
       "name": "epochtwo_mega",
       "primaryType": "electric",
       "secondaryType": "flying",
-      "baseScale": 20.4,
+      "baseScale": 0.4434782608695652,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

@@ -35,6 +35,40 @@
           "texture": "cobblemon:textures/empty_texture.png"
         }
       ]
+    },
+    {
+      "aspects": [
+        "mega_fire"
+      ],
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega.png",
+      "layers": [
+        {
+          "name": "emissive"
+        },
+        {
+          "name": "transparentEmissive"
+        },
+        {
+          "name": "tail"
+        },
+        {
+          "name": "transparent_emissive"
+        },
+        {
+          "name": "emissive2"
+        },
+        {
+          "name": "flame"
+        },
+        {
+          "name": "glow"
+        },
+        {
+          "texture": "cobblemon:textures/empty_texture.png"
+        }
+      ]
     }
   ]
 }

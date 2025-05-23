@@ -8,7 +8,7 @@
   "eggCycles": 51,
   "baseFriendship": 70,
   "preEvolution": "eevee",
-  "baseScale": 0.18983050847457625,
+  "baseScale": 0.7,
   "cannotDynamax": false,
   "abilities": [
     "stickyhold",
@@ -102,7 +102,6 @@
   "labels": [
     "blazing_emerald",
     "joke",
-    "not_modeled",
     "eeveelution",
     "fakemonevolution"
   ],
@@ -113,11 +112,11 @@
   "weight": 289,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4114,
+  "nationalPokedexNumber": 5423,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 22.125,
-    "height": 22.125,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "features": [],

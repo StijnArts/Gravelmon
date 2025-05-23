@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.wishiwashi_solo_sevii.water_idle": {
+		"animation.seviianwishiwashi.water_idle": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -76,7 +76,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.water_swim": {
+		"animation.seviianwishiwashi.water_swim": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -150,7 +150,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.ground_idle": {
+		"animation.seviianwishiwashi.ground_idle": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -225,7 +225,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.ground_walk": {
+		"animation.seviianwishiwashi.ground_walk": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -300,7 +300,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.air_idle": {
+		"animation.seviianwishiwashi.air_idle": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -375,7 +375,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.air_fly": {
+		"animation.seviianwishiwashi.air_fly": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -457,7 +457,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.water_sleep": {
+		"animation.seviianwishiwashi.water_sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -531,7 +531,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.air_sleep": {
+		"animation.seviianwishiwashi.air_sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -605,7 +605,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.ground_sleep": {
+		"animation.seviianwishiwashi.ground_sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -688,7 +688,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.cry": {
+		"animation.seviianwishiwashi.cry": {
 			"animation_length": 1.5,
 			"bones": {
 				"neck": {
@@ -732,7 +732,7 @@
 				}
 			}
 		},
-		"animation.wishiwashi_solo_sevii.blink": {
+		"animation.seviianwishiwashi.blink": {
 			"animation_length": 0.375,
 			"bones": {
 				"eyelid_left": {

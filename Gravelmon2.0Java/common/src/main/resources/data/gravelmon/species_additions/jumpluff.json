@@ -445,7 +445,7 @@
       "name": "epochtwo_mega",
       "primaryType": "bug",
       "secondaryType": "light",
-      "baseScale": 14.399999999999999,
+      "baseScale": 0.3031578947368421,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

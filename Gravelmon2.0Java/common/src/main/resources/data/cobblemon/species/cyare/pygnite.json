@@ -1,7 +1,7 @@
 {
   "name": "Pygnite",
   "primaryType": "fire",
-  "catchRate": 255,
+  "catchRate": 211,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 45,
+    "attack": 67,
+    "defence": 39,
+    "special_attack": 23,
+    "special_defence": 43,
+    "speed": 39
   },
   "evYield": {
     "hp": 0,
@@ -61,16 +61,11 @@
   "moves": [
     "1:ember",
     "1:growl",
-    "10:firespin",
+    "10:quickattack",
     "15:flamecharge",
-    "20:flameburst",
-    "25:flamethrower",
-    "30:fireblast",
-    "35:ember",
-    "40:growl",
-    "45:quickattack",
-    "50:flamecharge",
-    "55:firepunch",
+    "20:firepunch",
+    "25:willowisp",
+    "30:flareblitz",
     "tm:terablast"
   ],
   "labels": [
@@ -99,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5642,
+  "nationalPokedexNumber": 7672,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

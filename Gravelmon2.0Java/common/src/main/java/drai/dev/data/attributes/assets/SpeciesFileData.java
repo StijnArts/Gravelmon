@@ -45,11 +45,11 @@ public class SpeciesFileData {
     }
 
     public VariationData addBasicVariation(String modelers) {
-        this.pokemon.markReady();
         return addBasicVariation(modelers, modelers);
     }
 
     public VariationData addBasicVariation(String modelers, String textureArtist) {
+        this.pokemon.markReady();
         var variation = VariationData.fromPokemon(pokemon, List.of());
         variations.add(variation);
         pokemon.getModelMetaData().getModelers().add(modelers);

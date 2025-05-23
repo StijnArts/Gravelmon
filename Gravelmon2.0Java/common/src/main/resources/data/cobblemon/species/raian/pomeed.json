@@ -39,12 +39,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 58,
+    "attack": 25,
+    "defence": 78,
+    "special_attack": 16,
+    "special_defence": 16,
+    "speed": 9
   },
   "evYield": {
     "hp": 0,
@@ -59,20 +59,22 @@
   ],
   "drops": {},
   "moves": [
-    "1:absorb",
+    "1:leafage",
+    "1:synthesis",
+    "1:grassyglide",
     "1:leer",
-    "4:megadrain",
-    "7:magicalleaf",
+    "1:bulkup",
+    "1:quickattack",
+    "4:absorb",
+    "4:calmmind",
+    "4:swordsdance",
+    "7:trailblaze",
+    "7:taunt",
     "10:gigadrain",
-    "13:energyball",
-    "16:solarbeam",
-    "19:leafage",
-    "22:leer",
-    "25:absorb",
-    "28:trailblaze",
-    "31:gigadrain",
-    "34:seedbomb",
-    "39:leafblade",
+    "10:substitute",
+    "13:seedbomb",
+    "13:rest",
+    "16:leafblade",
     "tm:terablast"
   ],
   "labels": [
@@ -103,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2487,
+  "nationalPokedexNumber": 3232,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

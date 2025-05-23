@@ -626,7 +626,7 @@
       "name": "epochtwo_mega",
       "primaryType": "fire",
       "secondaryType": "dark",
-      "baseScale": 22.799999999999997,
+      "baseScale": 0.475,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

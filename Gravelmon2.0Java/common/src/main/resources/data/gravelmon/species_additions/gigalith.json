@@ -497,7 +497,7 @@
       "name": "epochtwo_mega",
       "primaryType": "rock",
       "secondaryType": "electric",
-      "baseScale": 22.799999999999997,
+      "baseScale": 0.49565217391304345,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

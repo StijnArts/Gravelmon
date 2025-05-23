@@ -104,7 +104,8 @@ public class Chimaooze extends Pokemon {
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3)));
-        this.setBaseScale(1);
+        setBaseScale(0.4);
+        setHitbox(.6,.6);
         this.setHitbox(.7,.5);
         getSpeciesFileData().addBasicVariation("Rogerregoat");
         getPosingFileData().setPortraitData( 1.7f, new Vector3(0, -.65, 0));

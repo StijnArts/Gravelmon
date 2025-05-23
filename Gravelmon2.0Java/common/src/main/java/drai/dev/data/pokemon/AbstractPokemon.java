@@ -19,6 +19,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public static List<Aspect> ADDITIONAL_SPECIES_ASPECTS = new ArrayList<>();
 
     protected final List<Ability> abilities = new ArrayList<>();
+    public boolean skipMoves;
     protected Ability hiddenAbility;
     protected int catchRate;
     protected double maleRatio;
@@ -480,5 +481,9 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
                 canWalkOnLava = true;
             }
         }
+    }
+
+    protected void setSkipMoves(boolean b) {
+        this.skipMoves = b;
     }
 }

@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 43,
+    "attack": 55,
+    "defence": 49,
+    "special_attack": 30,
+    "special_defence": 35,
+    "speed": 45
   },
   "evYield": {
     "hp": 0,
@@ -106,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 1405,
+  "nationalPokedexNumber": 1650,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,
