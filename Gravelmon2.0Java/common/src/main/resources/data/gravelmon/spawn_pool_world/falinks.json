@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_falinks-01",
-      "pokemon": "falinks fabelian",
+      "id": "cefiran_falinks-01",
+      "pokemon": "falinks cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "23-51",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,32 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_falinks-01",
-      "pokemon": "falinks epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "21-46",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -84,19 +59,44 @@
       }
     },
     {
-      "id": "cefiran_falinks-01",
-      "pokemon": "falinks cefiran",
+      "id": "epoch_falinks-01",
+      "pokemon": "falinks epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-51",
-      "weight": 1.5,
+      "bucket": "rare",
+      "level": "21-46",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_falinks-01",
+      "pokemon": "falinks fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -105,7 +105,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:tuff"
           ]
         }
       }

@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_hatenna-01",
-      "pokemon": "hatenna fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_hatenna-01",
       "pokemon": "hatenna epoch",
       "presets": [
@@ -56,28 +29,29 @@
       }
     },
     {
-      "id": "ottoran_hatenna-01",
-      "pokemon": "hatenna ottoran",
+      "id": "ayreian_hatenna-01",
+      "pokemon": "hatenna ayreian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "13-32",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
+            "minecraft:honeycomb_block"
           ]
         }
       }
@@ -110,29 +84,55 @@
       }
     },
     {
-      "id": "ayreian_hatenna-01",
-      "pokemon": "hatenna ayreian",
+      "id": "fabelian_hatenna-01",
+      "pokemon": "hatenna fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-32",
-      "weight": 13.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ottoran_hatenna-01",
+      "pokemon": "hatenna ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }

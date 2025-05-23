@@ -2,243 +2,6 @@
   "target": "cobblemon:psyduck",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "psychic",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.037500000000000006,
-      "cannotDynamax": false,
-      "abilities": [
-        "telepathy"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confusion",
-        "1:growl",
-        "4:psybeam",
-        "7:futuresight",
-        "10:psychic",
-        "13:psyshock",
-        "16:psychoboost",
-        "19:confusion",
-        "22:growl",
-        "25:psybeam",
-        "28:futuresight",
-        "31:psychic",
-        "34:zenheadbutt",
-        "39:psychocut",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanpsyduck.desc"
-      ],
-      "height": 8,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formanpsyduck_golduck_forman",
-          "variant": "level_up",
-          "result": "golduck forman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "33"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mastenian",
-      "primaryType": "poison",
-      "secondaryType": "psychic",
-      "catchRate": 230,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.5739130434782609,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisontouch",
-        "telepathy"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 62,
-        "defence": 48,
-        "special_attack": 55,
-        "special_defence": 55,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:acid",
-        "1:confusion",
-        "1:leer",
-        "1:growl",
-        "10:clearsmog",
-        "10:psybeam",
-        "15:sludge",
-        "15:futuresight",
-        "20:toxicspikes",
-        "20:psychic",
-        "25:sludgebomb",
-        "25:psyshock",
-        "30:sludgewave",
-        "30:psychoboost",
-        "35:poisonsting",
-        "35:confusion",
-        "40:leer",
-        "40:growl",
-        "45:venoshock",
-        "45:psybeam",
-        "50:poisontail",
-        "50:futuresight",
-        "55:toxicspikes",
-        "55:psychic",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mastenia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mastenianpsyduck.desc"
-      ],
-      "height": 11,
-      "weight": 0,
-      "aspects": [
-        "mastenian"
-      ],
-      "evolutions": [
-        {
-          "id": "mastenianpsyduck_golduck_mastenian",
-          "variant": "level_up",
-          "result": "golduck mastenian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "33"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.875,
-        "height": 2.875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "psychic",
@@ -413,6 +176,120 @@
       }
     },
     {
+      "name": "Forman",
+      "primaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.037500000000000006,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:growl",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
+        "19:confusion",
+        "22:growl",
+        "25:psybeam",
+        "28:futuresight",
+        "31:psychic",
+        "34:zenheadbutt",
+        "39:psychocut",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanpsyduck.desc"
+      ],
+      "height": 8,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanpsyduck_golduck_forman",
+          "variant": "level_up",
+          "result": "golduck forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Qamoran",
       "primaryType": "fairy",
       "catchRate": 190,
@@ -523,12 +400,136 @@
         "height": 3.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "Mastenian",
+      "primaryType": "poison",
+      "secondaryType": "psychic",
+      "catchRate": 230,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5739130434782609,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "telepathy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 62,
+        "defence": 48,
+        "special_attack": 55,
+        "special_defence": 55,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:confusion",
+        "1:leer",
+        "1:growl",
+        "10:clearsmog",
+        "10:psybeam",
+        "15:sludge",
+        "15:futuresight",
+        "20:toxicspikes",
+        "20:psychic",
+        "25:sludgebomb",
+        "25:psyshock",
+        "30:sludgewave",
+        "30:psychoboost",
+        "35:poisonsting",
+        "35:confusion",
+        "40:leer",
+        "40:growl",
+        "45:venoshock",
+        "45:psybeam",
+        "50:poisontail",
+        "50:futuresight",
+        "55:toxicspikes",
+        "55:psychic",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mastenia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mastenianpsyduck.desc"
+      ],
+      "height": 11,
+      "weight": 0,
+      "aspects": [
+        "mastenian"
+      ],
+      "evolutions": [
+        {
+          "id": "mastenianpsyduck_golduck_mastenian",
+          "variant": "level_up",
+          "result": "golduck mastenian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.875,
+        "height": 2.875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
-    "mastenian",
     "epoch",
-    "qamoran"
+    "forman",
+    "qamoran",
+    "mastenian"
   ]
 }

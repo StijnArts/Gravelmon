@@ -31,33 +31,6 @@
       }
     },
     {
-      "id": "forman_skarmory-01",
-      "pokemon": "skarmory forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "23-51",
-      "weight": 3.1500000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_skarmory-01",
       "pokemon": "skarmory epoch",
       "presets": [
@@ -80,6 +53,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_skarmory-01",
+      "pokemon": "skarmory forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-51",
+      "weight": 3.1500000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

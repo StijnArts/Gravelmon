@@ -2,6 +2,116 @@
   "target": "cobblemon:doublade",
   "forms": [
     {
+      "name": "Africanusan",
+      "primaryType": "steel",
+      "secondaryType": "fighting",
+      "catchRate": 222,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 110,
+        "special_attack": 45,
+        "special_defence": 65,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:armthrust",
+        "26:irondefense",
+        "1:tackle",
+        "35:anchorshot",
+        "47:sacredsword",
+        "29:slash",
+        "32:brickbreak",
+        "8:metalsound",
+        "18:vacuumwave",
+        "13:pursuit",
+        "5:furycutter",
+        "39:powertrick",
+        "42:ironhead",
+        "50:bitterblade",
+        "20:swordsdance",
+        "tm:terablast"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusandoublade.desc"
+      ],
+      "height": 8,
+      "weight": 20,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [
+        {
+          "id": "africanusandoublade_aegislash_africanusan",
+          "variant": "item_interact",
+          "result": "aegislash africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fairy",
       "catchRate": 222,
@@ -606,116 +716,6 @@
       }
     },
     {
-      "name": "Africanusan",
-      "primaryType": "steel",
-      "secondaryType": "fighting",
-      "catchRate": 222,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.2,
-      "cannotDynamax": false,
-      "abilities": [
-        "noguard"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 120,
-        "defence": 110,
-        "special_attack": 45,
-        "special_defence": 65,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:armthrust",
-        "26:irondefense",
-        "1:tackle",
-        "35:anchorshot",
-        "47:sacredsword",
-        "29:slash",
-        "32:brickbreak",
-        "8:metalsound",
-        "18:vacuumwave",
-        "13:pursuit",
-        "5:furycutter",
-        "39:powertrick",
-        "42:ironhead",
-        "50:bitterblade",
-        "20:swordsdance",
-        "tm:terablast"
-      ],
-      "labels": [
-        "africanus",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.africanusandoublade.desc"
-      ],
-      "height": 8,
-      "weight": 20,
-      "aspects": [
-        "africanusan"
-      ],
-      "evolutions": [
-        {
-          "id": "africanusandoublade_aegislash_africanusan",
-          "variant": "item_interact",
-          "result": "aegislash africanusan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dusk_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ottoran",
       "primaryType": "grass",
       "secondaryType": "ghost",
@@ -825,11 +825,11 @@
     }
   ],
   "features": [
+    "africanusan",
     "epoch",
     "epochtwo",
     "epochthree",
     "epochfour",
-    "africanusan",
     "ottoran"
   ]
 }

@@ -2,263 +2,6 @@
   "target": "cobblemon:avalugg",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "rock",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 180,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "bergmite form=epoch",
-      "baseScale": 0.5,
-      "cannotDynamax": false,
-      "abilities": [
-        "pressure",
-        "h:solidrock"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 95,
-        "attack": 105,
-        "defence": 184,
-        "special_attack": 28,
-        "special_defence": 44,
-        "speed": 58
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "42:irondefense",
-        "10:sandstorm",
-        "1:harden",
-        "29:stealthrock",
-        "1:rockthrow",
-        "18:bite",
-        "54:stoneedge",
-        "22:accelerock",
-        "33:crunch",
-        "5:mudsport",
-        "38:rockslide",
-        "1:bodypress",
-        "26:bulldoze",
-        "64:headsmash",
-        "46:spikyshield",
-        "50:earthquake",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:breakingswipe",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:closecombat",
-        "tm:crunch",
-        "tm:curse",
-        "tm:dragonbreath",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:geomancy",
-        "tm:hiddenpower",
-        "tm:highhorsepower",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:magnetrise",
-        "tm:meteorbeam",
-        "tm:mudslide",
-        "tm:nobleroar",
-        "tm:outrage",
-        "tm:playrough",
-        "tm:powergem",
-        "tm:protect",
-        "tm:quicksand",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sandstorm",
-        "tm:sandtomb",
-        "tm:scorchingsands",
-        "tm:sleeptalk",
-        "tm:snarl",
-        "tm:spikes",
-        "tm:stealthrock",
-        "tm:steelroller",
-        "tm:stoneedge",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:taunt",
-        "tm:toxic",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochavalugg.desc"
-      ],
-      "height": 20,
-      "weight": 5050,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Vesitan",
-      "primaryType": "ice",
-      "secondaryType": "water",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.5161290322580645,
-      "cannotDynamax": false,
-      "abilities": [
-        "dryskin",
-        "icebody"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 100,
-        "defence": 155,
-        "special_attack": 67,
-        "special_defence": 58,
-        "speed": 125
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "1:irondefense",
-        "52:aquatail",
-        "1:harden",
-        "46:blizzard",
-        "1:tackle",
-        "1:bite",
-        "60:skullbash",
-        "22:curse",
-        "30:iceball",
-        "65:crunch",
-        "10:icywind",
-        "20:sharpen",
-        "42:avalanche",
-        "56:doubleedge",
-        "5:powdersnow",
-        "15:takedown",
-        "51:recover",
-        "26:icefang",
-        "35:rapidspin",
-        "37:razorshell",
-        "tm:terablast"
-      ],
-      "labels": [
-        "chaosinvestia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.vesitanavalugg.desc"
-      ],
-      "height": 20,
-      "weight": 3050,
-      "aspects": [
-        "vesitan"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.8125,
-        "height": 5.8125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "rock",
       "secondaryType": "dragon",
@@ -440,6 +183,158 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "rock",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 180,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "bergmite form=epoch",
+      "baseScale": 0.5,
+      "cannotDynamax": false,
+      "abilities": [
+        "pressure",
+        "h:solidrock"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 105,
+        "defence": 184,
+        "special_attack": 28,
+        "special_defence": 44,
+        "speed": 58
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "42:irondefense",
+        "10:sandstorm",
+        "1:harden",
+        "29:stealthrock",
+        "1:rockthrow",
+        "18:bite",
+        "54:stoneedge",
+        "22:accelerock",
+        "33:crunch",
+        "5:mudsport",
+        "38:rockslide",
+        "1:bodypress",
+        "26:bulldoze",
+        "64:headsmash",
+        "46:spikyshield",
+        "50:earthquake",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:curse",
+        "tm:dragonbreath",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:mudslide",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochavalugg.desc"
+      ],
+      "height": 20,
+      "weight": 5050,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epochtwo",
       "primaryType": "grass",
       "secondaryType": "ground",
@@ -596,6 +491,111 @@
       }
     },
     {
+      "name": "Vesitan",
+      "primaryType": "ice",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5161290322580645,
+      "cannotDynamax": false,
+      "abilities": [
+        "dryskin",
+        "icebody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 155,
+        "special_attack": 67,
+        "special_defence": 58,
+        "speed": 125
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:irondefense",
+        "52:aquatail",
+        "1:harden",
+        "46:blizzard",
+        "1:tackle",
+        "1:bite",
+        "60:skullbash",
+        "22:curse",
+        "30:iceball",
+        "65:crunch",
+        "10:icywind",
+        "20:sharpen",
+        "42:avalanche",
+        "56:doubleedge",
+        "5:powdersnow",
+        "15:takedown",
+        "51:recover",
+        "26:icefang",
+        "35:rapidspin",
+        "37:razorshell",
+        "tm:terablast"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanavalugg.desc"
+      ],
+      "height": 20,
+      "weight": 3050,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.8125,
+        "height": 5.8125,
+        "fixed": false
+      }
+    },
+    {
       "name": "epoch_mega",
       "primaryType": "rock",
       "baseScale": 0.6,
@@ -623,10 +623,10 @@
     }
   ],
   "features": [
-    "epoch",
-    "vesitan",
     "delta",
+    "epoch",
     "epochtwo",
+    "vesitan",
     "epoch_mega"
   ]
 }

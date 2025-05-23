@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sableye-lagoonan",
+  "speciesId": "cobblemon:sableye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Lagoonan",
+      "unlockForms": [
+        "Lagoonan"
+      ]
+    }
+  ],
+  "variations": []
+}

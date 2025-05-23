@@ -2,257 +2,6 @@
   "target": "cobblemon:sceptile",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "bug",
-      "secondaryType": "dragon",
-      "catchRate": 100,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 239,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "grovyle form=epoch",
-      "baseScale": 0.6375,
-      "cannotDynamax": false,
-      "abilities": [
-        "colorchange",
-        "compoundeyes",
-        "h:regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 105,
-        "attack": 100,
-        "defence": 95,
-        "special_attack": 110,
-        "special_defence": 65,
-        "speed": 65
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "25:glare",
-        "17:uturn",
-        "33:xscissor",
-        "7:firstimpression",
-        "1:camouflage",
-        "21:scaleshot",
-        "41:leechlife",
-        "54:megahorn",
-        "13:breakingswipe",
-        "10:furycutter",
-        "37:dragondance",
-        "4:detect",
-        "tm:acrobatics",
-        "tm:aromatherapy",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:breakingswipe",
-        "tm:bulletseed",
-        "tm:coaching",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:drainpunch",
-        "tm:energyball",
-        "tm:falseswipe",
-        "tm:furycutter",
-        "tm:gigadrain",
-        "tm:grassyterrain",
-        "tm:hiddenpower",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:leechlife",
-        "tm:magicalleaf",
-        "tm:outrage",
-        "tm:pinmissile",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:scaleshot",
-        "tm:sleeptalk",
-        "tm:solarbeam",
-        "tm:stoneedge",
-        "tm:strugglebug",
-        "tm:sunnyday",
-        "tm:swordsdance",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:uturn",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochsceptile.desc"
-      ],
-      "height": 17,
-      "weight": 522,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.0,
-        "height": 4.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Avalossian",
-      "primaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 239,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "grovyle form=avalossian",
-      "baseScale": 0.5468354430379747,
-      "cannotDynamax": false,
-      "abilities": [
-        "sandforce",
-        "h:unburden"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 105,
-        "defence": 85,
-        "special_attack": 85,
-        "special_defence": 65,
-        "speed": 120
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 3
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "1:stoneedge",
-        "1:peck",
-        "1:honeclaws",
-        "6:quickattack",
-        "10:metalclaw",
-        "16:irondefense",
-        "22:slash",
-        "26:airslash",
-        "30:rockpolish",
-        "36:powergem",
-        "42:nightslash",
-        "46:focusenergy",
-        "50:stoneedge",
-        "56:doubleedge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fliga",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.avalossiansceptile.desc"
-      ],
-      "height": 18,
-      "weight": 0,
-      "aspects": [
-        "avalossian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.9375,
-        "height": 4.9375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "dragon",
       "secondaryType": "fighting",
@@ -448,6 +197,520 @@
       "hitbox": {
         "width": 1.0,
         "height": 2.2,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Mystic",
+      "primaryType": "flying",
+      "secondaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "grovyle form=mystic",
+      "baseScale": 0.2756756756756757,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 65,
+        "defence": 85,
+        "special_attack": 85,
+        "special_defence": 105,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "5:fairywind",
+        "1:growl",
+        "2:lifedew",
+        "1:pound",
+        "8:gust",
+        "12:charm",
+        "16:ancientpower",
+        "20:aircutter",
+        "24:dazzlinggleam",
+        "28:hurricane",
+        "32:doubleedge",
+        "36:safeguard",
+        "40:followme",
+        "44:batonpass",
+        "48:lastresort",
+        "52:wish",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "azure",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticsceptile.desc"
+      ],
+      "height": 17,
+      "weight": 522,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.25,
+        "height": 9.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "grovyle form=epoch",
+      "baseScale": 0.6375,
+      "cannotDynamax": false,
+      "abilities": [
+        "colorchange",
+        "compoundeyes",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 100,
+        "defence": 95,
+        "special_attack": 110,
+        "special_defence": 65,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "25:glare",
+        "17:uturn",
+        "33:xscissor",
+        "7:firstimpression",
+        "1:camouflage",
+        "21:scaleshot",
+        "41:leechlife",
+        "54:megahorn",
+        "13:breakingswipe",
+        "10:furycutter",
+        "37:dragondance",
+        "4:detect",
+        "tm:acrobatics",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:breakingswipe",
+        "tm:bulletseed",
+        "tm:coaching",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:furycutter",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:stoneedge",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsceptile.desc"
+      ],
+      "height": 17,
+      "weight": 522,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0,
+        "height": 4.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "steel",
+      "secondaryType": "cosmic",
+      "catchRate": 100,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4915662650602409,
+      "cannotDynamax": false,
+      "abilities": [
+        "mirrorarmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 100,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "39:zenheadbutt",
+        "18:magnetbomb",
+        "4:protect",
+        "42:blackhole",
+        "33:ironhead",
+        "51:geargrind",
+        "45:meteormash",
+        "1:shiftgear",
+        "39:psychic",
+        "60:roaroftime",
+        "7:miracleeye",
+        "1:confusion",
+        "54:steelbeam",
+        "12:gearup",
+        "24:psybeam",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:echoedvoice",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:gyroball",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochsceptileone.desc"
+      ],
+      "height": 17,
+      "weight": 522,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Avalossian",
+      "primaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "grovyle form=avalossian",
+      "baseScale": 0.5468354430379747,
+      "cannotDynamax": false,
+      "abilities": [
+        "sandforce",
+        "h:unburden"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 105,
+        "defence": 85,
+        "special_attack": 85,
+        "special_defence": 65,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:stoneedge",
+        "1:peck",
+        "1:honeclaws",
+        "6:quickattack",
+        "10:metalclaw",
+        "16:irondefense",
+        "22:slash",
+        "26:airslash",
+        "30:rockpolish",
+        "36:powergem",
+        "42:nightslash",
+        "46:focusenergy",
+        "50:stoneedge",
+        "56:doubleedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fliga",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.avalossiansceptile.desc"
+      ],
+      "height": 18,
+      "weight": 0,
+      "aspects": [
+        "avalossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.9375,
+        "height": 4.9375,
         "fixed": false
       }
     },
@@ -802,269 +1065,6 @@
       }
     },
     {
-      "name": "Mystic",
-      "primaryType": "flying",
-      "secondaryType": "fairy",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 239,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "grovyle form=mystic",
-      "baseScale": 0.2756756756756757,
-      "cannotDynamax": false,
-      "abilities": [
-        "innerfocus",
-        "h:regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 65,
-        "defence": 85,
-        "special_attack": 85,
-        "special_defence": 105,
-        "speed": 120
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 3,
-        "speed": 0
-      },
-      "eggGroups": [
-        "dragon",
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "5:fairywind",
-        "1:growl",
-        "2:lifedew",
-        "1:pound",
-        "8:gust",
-        "12:charm",
-        "16:ancientpower",
-        "20:aircutter",
-        "24:dazzlinggleam",
-        "28:hurricane",
-        "32:doubleedge",
-        "36:safeguard",
-        "40:followme",
-        "44:batonpass",
-        "48:lastresort",
-        "52:wish",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "azure",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticsceptile.desc"
-      ],
-      "height": 17,
-      "weight": 522,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 9.25,
-        "height": 9.25,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epochtwo",
-      "primaryType": "steel",
-      "secondaryType": "cosmic",
-      "catchRate": 100,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 239,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.4915662650602409,
-      "cannotDynamax": false,
-      "abilities": [
-        "mirrorarmor"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 100,
-        "defence": 80,
-        "special_attack": 105,
-        "special_defence": 100,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "39:zenheadbutt",
-        "18:magnetbomb",
-        "4:protect",
-        "42:blackhole",
-        "33:ironhead",
-        "51:geargrind",
-        "45:meteormash",
-        "1:shiftgear",
-        "39:psychic",
-        "60:roaroftime",
-        "7:miracleeye",
-        "1:confusion",
-        "54:steelbeam",
-        "12:gearup",
-        "24:psybeam",
-        "tm:acrobatics",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bulkup",
-        "tm:burningjealousy",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:darkpulse",
-        "tm:dazzlinggleam",
-        "tm:echoedvoice",
-        "tm:expandingforce",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:geomancy",
-        "tm:gyroball",
-        "tm:healbell",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:lightscreen",
-        "tm:magicroom",
-        "tm:magnetrise",
-        "tm:memento",
-        "tm:meteorbeam",
-        "tm:meteormash",
-        "tm:metronome",
-        "tm:moonblast",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:payday",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicterrain",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:steelroller",
-        "tm:substitute",
-        "tm:swift",
-        "tm:swordsdance",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:toxic",
-        "tm:trickroom",
-        "tm:wish",
-        "tm:wonderroom",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochsceptileone.desc"
-      ],
-      "height": 17,
-      "weight": 522,
-      "aspects": [
-        "epochtwo"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.1875,
-        "height": 5.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "armiran_mega",
       "primaryType": "poison",
       "secondaryType": "dark",
@@ -1120,13 +1120,13 @@
     }
   ],
   "features": [
-    "epoch",
-    "avalossian",
     "delta",
+    "mystic",
+    "epoch",
+    "epochtwo",
+    "avalossian",
     "armiran",
     "ayreian",
-    "mystic",
-    "epochtwo",
     "armiran_mega",
     "epoch_mega"
   ]

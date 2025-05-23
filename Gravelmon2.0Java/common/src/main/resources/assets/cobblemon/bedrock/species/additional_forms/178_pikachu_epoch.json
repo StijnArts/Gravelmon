@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_58_by_52.geo",
       "poser": "cobblemon:cutout_gravelmon_58_by_52",
-      "texture": "cobblemon:textures/pokemon/generation1/epochpikachu.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochpikachu.png",
       "layers": [
         {
           "name": "emissive"

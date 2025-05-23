@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_boldore-01",
-      "pokemon": "boldore fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_boldore-01",
       "pokemon": "boldore epoch",
       "presets": [
@@ -102,6 +75,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_boldore-01",
+      "pokemon": "boldore fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
           ]
         }
       }

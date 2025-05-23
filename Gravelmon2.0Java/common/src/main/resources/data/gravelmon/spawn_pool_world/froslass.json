@@ -4,20 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_froslass-01",
-      "pokemon": "froslass epoch",
+      "id": "cefiran_froslass-01",
+      "pokemon": "froslass cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "31-54",
-      "weight": 1.0499999999999998,
+      "bucket": "rare",
+      "level": "41-48",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_savanna"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {
@@ -55,6 +57,32 @@
       }
     },
     {
+      "id": "epoch_froslass-01",
+      "pokemon": "froslass epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-54",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_froslass-01",
       "pokemon": "froslass ayreian",
       "presets": [
@@ -78,34 +106,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_froslass-01",
-      "pokemon": "froslass cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "41-48",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

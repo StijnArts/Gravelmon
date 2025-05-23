@@ -1,6 +1,8 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.hub.*;
+import drai.dev.data.pokemon.hub.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 //done
 public class HUB extends drai.dev.data.games.registry.Game {
@@ -29,7 +31,10 @@ public class HUB extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mushcary());
         addNewPokemon(new Sakurovix());
         addNewPokemon(new Nephelith());
-        addPokedexPokemon("togepi-hubian, togetic-hubian, togekiss-hubian, smeargle-hubian");
+        addNewPokemon(new HubianTogepi("", Aspect.HUBIAN));
+        addNewPokemon(new HubianTogetic("", Aspect.HUBIAN));
+        addNewPokemon(new HubianTogekiss("", Aspect.HUBIAN));
+        addNewPokemon(new HubianSmeargle("", Aspect.HUBIAN));
     }
 
 }

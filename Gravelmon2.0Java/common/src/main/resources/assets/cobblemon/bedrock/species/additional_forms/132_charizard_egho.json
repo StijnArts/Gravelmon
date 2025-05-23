@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:generation1_eghocharizard.geo",
-      "poser": "cobblemon:generation1_eghocharizard",
-      "texture": "cobblemon:textures/pokemon/generation1/eghocharizard/eghocharizard.png",
+      "model": "cobblemon:infinity_eghocharizard.geo",
+      "poser": "cobblemon:infinity_eghocharizard",
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharizard/eghocharizard.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,12 +31,12 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame1.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame2.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame3.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame4.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame5.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame6.png"
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame1.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame2.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame3.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame4.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame5.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame6.png"
             ],
             "fps": 10,
             "loop": true
@@ -46,7 +46,7 @@
           "name": "glow",
           "emissive": true,
           "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation1/eghocharizard/eghocharizard_emissive.png"
+          "texture": "cobblemon:textures/pokemon/infinity/eghocharizard/eghocharizard_emissive.png"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
@@ -58,9 +58,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:generation1_eghocharizard.geo",
-      "poser": "cobblemon:generation1_eghocharizard",
-      "texture": "cobblemon:textures/pokemon/generation1/eghocharizard/eghocharizard_shiny.png",
+      "model": "cobblemon:infinity_eghocharizard.geo",
+      "poser": "cobblemon:infinity_eghocharizard",
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharizard/eghocharizard_shiny.png",
       "layers": [
         {
           "name": "emissive"
@@ -83,12 +83,12 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame1_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame2_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame3_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame4_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame5_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharizard/flame/flame6_shiny.png"
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame1_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame2_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame3_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame4_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame5_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharizard/flame/flame6_shiny.png"
             ],
             "fps": 10,
             "loop": true
@@ -98,7 +98,7 @@
           "name": "glow",
           "emissive": true,
           "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation1/eghocharizard/eghocharizard_emissive.png"
+          "texture": "cobblemon:textures/pokemon/infinity/eghocharizard/eghocharizard_emissive.png"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"

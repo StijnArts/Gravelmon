@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_gurdurr-01",
-      "pokemon": "gurdurr fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_gurdurr-01",
       "pokemon": "gurdurr epoch",
       "presets": [
@@ -82,6 +55,33 @@
       }
     },
     {
+      "id": "kaskadian_gurdurr-01",
+      "pokemon": "gurdurr kaskadian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-40",
+      "weight": 0.81,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_gurdurr-01",
       "pokemon": "gurdurr ayreian",
       "presets": [
@@ -115,19 +115,19 @@
       }
     },
     {
-      "id": "kaskadian_gurdurr-01",
-      "pokemon": "gurdurr kaskadian",
+      "id": "fabelian_gurdurr-01",
+      "pokemon": "gurdurr fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "28-40",
-      "weight": 0.81,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -136,7 +136,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:moss_block"
           ]
         }
       }

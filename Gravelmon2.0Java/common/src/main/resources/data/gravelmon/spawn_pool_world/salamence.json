@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_salamence-01",
-      "pokemon": "salamence ferranian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
       "id": "raianian_salamence-01",
       "pokemon": "salamence raianian",
       "presets": [
@@ -80,6 +53,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_salamence-01",
+      "pokemon": "salamence ferranian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
           ]
         }
       }

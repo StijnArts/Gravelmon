@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation3_deltagrovyle.geo",
-      "poser": "cobblemon:generation3_deltagrovyle",
-      "texture": "cobblemon:textures/pokemon/generation3/deltagrovyle/deltagrovyle.png",
+      "model": "cobblemon:insurgence_deltagrovyle.geo",
+      "poser": "cobblemon:insurgence_deltagrovyle",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagrovyle/deltagrovyle.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation3_deltagrovyle.geo",
-      "poser": "cobblemon:generation3_deltagrovyle",
-      "texture": "cobblemon:textures/pokemon/generation3/deltagrovyle/deltagrovyle_shiny.png",
+      "model": "cobblemon:insurgence_deltagrovyle.geo",
+      "poser": "cobblemon:insurgence_deltagrovyle",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagrovyle/deltagrovyle_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_41_by_37",
-      "texture": "cobblemon:textures/pokemon/generation5/epochdarumaka.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdarumaka.png",
       "layers": [
         {
           "name": "emissive"

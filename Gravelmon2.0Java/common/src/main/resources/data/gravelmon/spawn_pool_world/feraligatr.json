@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "egho_feraligatr-01",
+      "pokemon": "feraligatr egho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-42",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_feraligatr-01",
       "pokemon": "feraligatr epoch",
       "presets": [
@@ -54,58 +81,6 @@
       }
     },
     {
-      "id": "ionosian_feraligatr-01",
-      "pokemon": "feraligatr ionosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-53",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_feraligatr-01",
-      "pokemon": "feraligatr egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "30-42",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_feraligatr-01",
       "pokemon": "feraligatr ayreian",
       "presets": [
@@ -122,6 +97,31 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionosian_feraligatr-01",
+      "pokemon": "feraligatr ionosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

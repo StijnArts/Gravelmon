@@ -4,6 +4,57 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "seviian_noibat-01",
+      "pokemon": "noibat seviian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_noibat-01",
+      "pokemon": "noibat delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_noibat-01",
       "pokemon": "noibat epoch",
       "presets": [
@@ -18,6 +69,34 @@
         "biomes": [
           "#cobblemon:is_cave"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_noibat-01",
+      "pokemon": "noibat ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-50",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -52,85 +131,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_noibat-01",
-      "pokemon": "noibat delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "seviian_noibat-01",
-      "pokemon": "noibat seviian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-34",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ayreian_noibat-01",
-      "pokemon": "noibat ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "5-50",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:note_block"
           ]
         }
       }

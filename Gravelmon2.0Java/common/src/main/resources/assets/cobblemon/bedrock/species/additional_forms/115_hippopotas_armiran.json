@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_128_by_76.geo",
       "poser": "cobblemon:cutout_gravelmon_128_by_76",
-      "texture": "cobblemon:textures/pokemon/generation4/armiranhippopotas.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/armiranhippopotas.png",
       "layers": [
         {
           "name": "emissive"

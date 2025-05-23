@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "x_toxapex-01",
+      "pokemon": "toxapex x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-57",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_toxapex-01",
       "pokemon": "toxapex epoch",
       "presets": [
@@ -26,31 +51,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "x_toxapex-01",
-      "pokemon": "toxapex x",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "38-57",
-      "weight": 1.0499999999999998,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

@@ -2,19 +2,21 @@
   "target": "cobblemon:pinsir",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "bug",
-      "secondaryType": "fighting",
-      "catchRate": 90,
+      "name": "Hizian",
+      "primaryType": "steel",
+      "secondaryType": "bug",
+      "catchRate": 45,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 100,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0796875,
+      "baseScale": 0.5217391304347826,
       "cannotDynamax": false,
       "abilities": [
-        "technician"
+        "steadfast",
+        "insomnia",
+        "h:innerfocus"
       ],
       "behaviour": {
         "resting": {
@@ -43,82 +45,72 @@
         }
       },
       "baseStats": {
-        "hp": 81,
-        "attack": 69,
-        "defence": 97,
-        "special_attack": 28,
-        "special_defence": 62,
-        "speed": 35
+        "hp": 65,
+        "attack": 125,
+        "defence": 100,
+        "special_attack": 55,
+        "special_defence": 70,
+        "speed": 85
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 1,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "bug"
       ],
       "drops": {},
       "moves": [
-        "1:strugglebug",
-        "1:lowkick",
-        "1:bulkup",
-        "1:drainpunch",
-        "1:stringshot",
-        "1:leer",
-        "1:calmmind",
-        "1:bulkup",
-        "4:leechlife",
-        "4:revenge",
-        "4:taunt",
-        "4:calmmind",
-        "7:lunge",
-        "7:lowsweep",
-        "7:substitute",
-        "7:taunt",
-        "10:xscissor",
-        "10:brickbreak",
-        "10:rest",
-        "10:substitute",
-        "13:uturn",
-        "13:karatechop",
-        "13:rest",
-        "16:megahorn",
-        "16:closecombat",
+        "1:furycutter",
+        "1:sandattack",
+        "4:visegrip",
+        "8:metalclaw",
+        "12:beatup",
+        "16:bugbite",
+        "20:bite",
+        "24:agility",
+        "28:dig",
+        "32:xscissor",
+        "36:crunch",
+        "40:metalsound",
+        "44:ironhead",
+        "48:entrainment",
+        "52:irondefense",
+        "56:guillotine",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "hiza",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanpinsir.desc"
+        "cobblemon.species.hizianpinsir.desc"
       ],
-      "height": 17,
-      "weight": 0,
+      "height": 15,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "hizian"
       ],
       "evolutions": [
         {
-          "id": "formanpinsir_pinsiraff",
+          "id": "hizianpinsir_greapper",
           "variant": "item_interact",
-          "result": "pinsiraff",
+          "result": "greapper",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": "cobblemon:dusk_stone",
+          "requiredContext": "cobblemon:reaper_cloth",
           "permanent": true
         }
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.3125,
+        "height": 4.3125,
         "fixed": false
       }
     },
@@ -284,21 +276,19 @@
       }
     },
     {
-      "name": "Hizian",
-      "primaryType": "steel",
-      "secondaryType": "bug",
-      "catchRate": 45,
+      "name": "Forman",
+      "primaryType": "bug",
+      "secondaryType": "fighting",
+      "catchRate": 90,
       "maleRatio": 0.5,
-      "baseExperienceYield": 100,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.5217391304347826,
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
-        "steadfast",
-        "insomnia",
-        "h:innerfocus"
+        "technician"
       ],
       "behaviour": {
         "resting": {
@@ -327,72 +317,83 @@
         }
       },
       "baseStats": {
-        "hp": 65,
-        "attack": 125,
-        "defence": 100,
-        "special_attack": 55,
-        "special_defence": 70,
-        "speed": 85
+        "hp": 81,
+        "attack": 69,
+        "defence": 97,
+        "special_attack": 28,
+        "special_defence": 62,
+        "speed": 35
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "bug"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:furycutter",
-        "1:sandattack",
-        "4:visegrip",
-        "8:metalclaw",
-        "12:beatup",
-        "16:bugbite",
-        "20:bite",
-        "24:agility",
-        "28:dig",
-        "32:xscissor",
-        "36:crunch",
-        "40:metalsound",
-        "44:ironhead",
-        "48:entrainment",
-        "52:irondefense",
-        "56:guillotine",
+        "1:strugglebug",
+        "1:lowkick",
+        "1:bulkup",
+        "1:drainpunch",
+        "1:stringshot",
+        "1:leer",
+        "1:calmmind",
+        "1:bulkup",
+        "4:leechlife",
+        "4:revenge",
+        "4:taunt",
+        "4:calmmind",
+        "7:lunge",
+        "7:lowsweep",
+        "7:substitute",
+        "7:taunt",
+        "10:xscissor",
+        "10:brickbreak",
+        "10:rest",
+        "10:substitute",
+        "13:uturn",
+        "13:karatechop",
+        "13:rest",
+        "16:megahorn",
+        "16:closecombat",
         "tm:terablast"
       ],
       "labels": [
-        "hiza",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.hizianpinsir.desc"
+        "cobblemon.species.formanpinsir.desc"
       ],
-      "height": 15,
-      "weight": 165,
+      "height": 17,
+      "weight": 0,
       "aspects": [
-        "hizian"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "hizianpinsir_greapper",
+          "id": "formanpinsir_pinsiraff",
           "variant": "item_interact",
-          "result": "greapper",
+          "result": "pinsiraff",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": "cobblemon:reaper_cloth",
+          "requiredContext": "cobblemon:dusk_stone",
           "permanent": true
         }
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.3125,
-        "height": 4.3125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -682,9 +683,9 @@
     }
   ],
   "features": [
-    "forman",
-    "epoch",
     "hizian",
+    "epoch",
+    "forman",
     "hoennian",
     "ayreian"
   ],

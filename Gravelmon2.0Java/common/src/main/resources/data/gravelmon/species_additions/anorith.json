@@ -2,6 +2,134 @@
   "target": "cobblemon:anorith",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 71,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.41379310344827586,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 95,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:harden",
+        "1:stringshot",
+        "1:poisonsting",
+        "10:twineedle",
+        "15:defensecurl",
+        "20:causticbreath",
+        "25:bugbite",
+        "30:irondefense",
+        "35:dragontail",
+        "40:xscissor",
+        "45:brace",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:frustration",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:endure",
+        "tm:strugglebug",
+        "tm:xscissor",
+        "tm:dragontail",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.hiziananorith.desc"
+      ],
+      "height": 10,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [
+        {
+          "id": "hiziananorith_armaldo_hizian",
+          "variant": "level_up",
+          "result": "armaldo hizian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "40"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "poison",
       "secondaryType": "rock",
@@ -180,138 +308,10 @@
         "height": 2.8125,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "bug",
-      "secondaryType": "dragon",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 71,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.41379310344827586,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 45,
-        "attack": 95,
-        "defence": 50,
-        "special_attack": 40,
-        "special_defence": 50,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_3"
-      ],
-      "drops": {},
-      "moves": [
-        "1:harden",
-        "1:stringshot",
-        "1:poisonsting",
-        "10:twineedle",
-        "15:defensecurl",
-        "20:causticbreath",
-        "25:bugbite",
-        "30:irondefense",
-        "35:dragontail",
-        "40:xscissor",
-        "45:brace",
-        "tm:toxic",
-        "tm:venoshock",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:protect",
-        "tm:frustration",
-        "tm:return",
-        "tm:doubleteam",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:endure",
-        "tm:strugglebug",
-        "tm:xscissor",
-        "tm:dragontail",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.hiziananorith.desc"
-      ],
-      "height": 10,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [
-        {
-          "id": "hiziananorith_armaldo_hizian",
-          "variant": "level_up",
-          "result": "armaldo hizian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "40"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.625,
-        "height": 3.625,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "hizian"
+    "hizian",
+    "epoch"
   ]
 }

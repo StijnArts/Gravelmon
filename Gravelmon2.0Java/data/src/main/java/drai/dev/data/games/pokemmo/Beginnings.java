@@ -3,6 +3,9 @@ package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.beginnings.*;
+import drai.dev.data.pokemon.beginnings.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 import java.util.*;
 
 public class Beginnings extends drai.dev.data.games.registry.Game {
@@ -69,10 +72,12 @@ public class Beginnings extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Yuesbii());
         addNewPokemon(new Eeyencii(new Stats(458, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK))));
-        addPokedexPokemon("hatenna-ottoran, hattrem-ottoran");
+        addNewPokemon(new OttoranHatenna("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranHattrem("", Aspect.OTTORAN));
         addNewPokemon(new Saucerene(new Stats(510, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
-        addPokedexPokemon("impidimp-ottoran, morgrem-ottoran");
+        addNewPokemon(new OttoranImpidimp("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranMorgrem("", Aspect.OTTORAN));
         addNewPokemon(new Grimmsquatch(new Stats(510, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.HP))));
 //        addNewPokemon(new Fawnt());   Member of line Not Finished
@@ -98,7 +103,8 @@ public class Beginnings extends drai.dev.data.games.registry.Game {
                 List.of(StatType.HP))));
         addPokedexPokemon("mienfoo, mienshao");
         addNewPokemon(new Miensei());
-        addPokedexPokemon("honedge-ottoran, doublade-ottoran");
+        addNewPokemon(new OttoranHonedge("", Aspect.OTTORAN));
+        addNewPokemon(new OttoranDoublade("", Aspect.OTTORAN));
         addNewPokemon(new Aegistump(new Stats(500, StatArchetype.PHYSICAL_WALL,
                 List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.HP))));
         addNewPokemon(new Chainslash(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,

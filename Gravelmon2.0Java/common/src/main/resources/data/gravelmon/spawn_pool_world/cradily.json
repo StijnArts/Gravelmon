@@ -4,32 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_cradily-01",
-      "pokemon": "cradily epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "40-56",
-      "weight": 1.0499999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:white_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "hizian_cradily-01",
       "pokemon": "cradily hizian",
       "presets": [
@@ -52,6 +26,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_cradily-01",
+      "pokemon": "cradily epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-56",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
           ]
         }
       }

@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_purrloin-01",
-      "pokemon": "purrloin epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "7-34",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_purrloin-01",
       "pokemon": "purrloin delta",
       "presets": [
@@ -51,6 +26,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_purrloin-01",
+      "pokemon": "purrloin epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-34",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
           ]
         }
       }

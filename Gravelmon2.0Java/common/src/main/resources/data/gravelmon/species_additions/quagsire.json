@@ -2,173 +2,6 @@
   "target": "cobblemon:quagsire",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "fairy",
-      "secondaryType": "fire",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 151,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "wooper form=epoch",
-      "baseScale": 0.5793103448275861,
-      "cannotDynamax": false,
-      "abilities": [
-        "superluck",
-        "waterabsorb",
-        "h:simple"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 105,
-        "attack": 35,
-        "defence": 95,
-        "special_attack": 25,
-        "special_defence": 85,
-        "speed": 85
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1",
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "44:strangesteam",
-        "60:steameruption",
-        "40:calmmind",
-        "12:drainingkiss",
-        "12:sweetkiss",
-        "32:amnesia",
-        "36:fierydance",
-        "1:babydolleyes",
-        "16:yawn",
-        "4:ember",
-        "48:heatwave",
-        "28:mistball",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:brine",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:burningjealousy",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:coaching",
-        "tm:cosmicpower",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:earthpower",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:flamethrower",
-        "tm:flareblitz",
-        "tm:flipturn",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:geomancy",
-        "tm:healbell",
-        "tm:heatwave",
-        "tm:hiddenpower",
-        "tm:incinerate",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lightscreen",
-        "tm:liquidation",
-        "tm:magicroom",
-        "tm:memento",
-        "tm:metronome",
-        "tm:mirrorshot",
-        "tm:mistyterrain",
-        "tm:moonblast",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:payday",
-        "tm:playrough",
-        "tm:protect",
-        "tm:raindance",
-        "tm:razorshell",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:round",
-        "tm:safeguard",
-        "tm:scald",
-        "tm:sleeptalk",
-        "tm:soak",
-        "tm:steameruption",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:trickroom",
-        "tm:waterpulse",
-        "tm:whirlpool",
-        "tm:willowisp",
-        "tm:wish",
-        "tm:wonderroom",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochquagsire.desc"
-      ],
-      "height": 14,
-      "weight": 750,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.625,
-        "height": 3.625,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "grass",
       "secondaryType": "fire",
@@ -355,10 +188,177 @@
         "height": 1.45,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "fairy",
+      "secondaryType": "fire",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 151,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "wooper form=epoch",
+      "baseScale": 0.5793103448275861,
+      "cannotDynamax": false,
+      "abilities": [
+        "superluck",
+        "waterabsorb",
+        "h:simple"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 35,
+        "defence": 95,
+        "special_attack": 25,
+        "special_defence": 85,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "44:strangesteam",
+        "60:steameruption",
+        "40:calmmind",
+        "12:drainingkiss",
+        "12:sweetkiss",
+        "32:amnesia",
+        "36:fierydance",
+        "1:babydolleyes",
+        "16:yawn",
+        "4:ember",
+        "48:heatwave",
+        "28:mistball",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:razorshell",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochquagsire.desc"
+      ],
+      "height": 14,
+      "weight": 750,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.625,
+        "height": 3.625,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "delta"
+    "delta",
+    "epoch"
   ]
 }

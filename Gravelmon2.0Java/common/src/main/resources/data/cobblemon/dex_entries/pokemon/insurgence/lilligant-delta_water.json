@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lilligant-delta_water",
+  "speciesId": "cobblemon:lilligant",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltawater",
+      "unlockForms": [
+        "Deltawater"
+      ]
+    }
+  ],
+  "variations": []
+}

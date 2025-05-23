@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_72_by_65.geo",
       "poser": "cobblemon:cutout_gravelmon_72_by_65",
-      "texture": "cobblemon:textures/pokemon/generation5/epochseismitoad.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochseismitoad.png",
       "layers": [
         {
           "name": "emissive"

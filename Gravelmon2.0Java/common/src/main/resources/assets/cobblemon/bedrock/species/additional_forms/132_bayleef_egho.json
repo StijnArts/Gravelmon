@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_108_by_132.geo",
       "poser": "cobblemon:cutout_gravelmon_108_by_132",
-      "texture": "cobblemon:textures/pokemon/generation2/eghobayleef.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghobayleef.png",
       "layers": [
         {
           "name": "emissive"

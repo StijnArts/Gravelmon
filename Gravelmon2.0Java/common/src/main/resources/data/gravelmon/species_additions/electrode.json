@@ -2,6 +2,251 @@
   "target": "cobblemon:electrode",
   "forms": [
     {
+      "name": "Mystic",
+      "primaryType": "psychic",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "preEvolution": "voltorb form=mystic",
+      "baseScale": 0.19726027397260273,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy",
+        "anticipation",
+        "h:synchronize"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 70,
+        "special_attack": 150,
+        "special_defence": 80,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:powergem",
+        "1:stealthrock",
+        "1:flamecharge",
+        "1:tackle",
+        "4:rollout",
+        "6:eerieimpulse",
+        "9:explosion",
+        "11:ancientpower",
+        "13:irondefense",
+        "16:chargebeam",
+        "20:swift",
+        "22:flameburst",
+        "26:psybeam",
+        "29:lightscreen",
+        "36:psyshock",
+        "41:heatwave",
+        "47:storedpower",
+        "54:eruption",
+        "58:meteorbeam",
+        "tutor:confuseray",
+        "tutor:chargebeam",
+        "tutor:confide",
+        "tutor:doubleteam",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:foulplay",
+        "tutor:frustration",
+        "tutor:gigaimpact",
+        "tutor:gyroball",
+        "tutor:hiddenpower",
+        "tutor:hyperbeam",
+        "tutor:lightscreen",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:protect",
+        "tutor:raindance",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:round",
+        "tutor:selfdestruct",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:substitute",
+        "tutor:swagger",
+        "tutor:swift",
+        "tutor:taunt",
+        "tutor:telekinesis",
+        "tutor:thief",
+        "tutor:thunder",
+        "tutor:thunderbolt",
+        "tutor:thunderwave",
+        "tutor:torment",
+        "tutor:toxic",
+        "tutor:voltswitch",
+        "tutor:wildcharge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "azure",
+        "gen1",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticelectrode.desc"
+      ],
+      "height": 12,
+      "weight": 666,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.125,
+        "height": 9.125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Norheiman",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 60,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "voltorb form=norheiman",
+      "baseScale": 0.576,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 89,
+        "attack": 37,
+        "defence": 74,
+        "special_attack": 106,
+        "special_defence": 74,
+        "speed": 106
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:charm",
+        "12:rollout",
+        "15:spark",
+        "18:softboiled",
+        "23:protect",
+        "29:electroball",
+        "34:takedown",
+        "38:irondefense",
+        "42:zingzap",
+        "56:icebeam",
+        "62:sheercold",
+        "tm:terablast"
+      ],
+      "labels": [
+        "norheim",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.norheimanelectrode.desc"
+      ],
+      "height": 12,
+      "weight": 165,
+      "aspects": [
+        "norheiman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.125,
+        "height": 3.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ice",
       "catchRate": 100,
@@ -286,104 +531,6 @@
       }
     },
     {
-      "name": "Norheiman",
-      "primaryType": "electric",
-      "secondaryType": "ice",
-      "catchRate": 60,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "voltorb form=norheiman",
-      "baseScale": 0.576,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 89,
-        "attack": 37,
-        "defence": 74,
-        "special_attack": 106,
-        "special_defence": 74,
-        "speed": 106
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:charm",
-        "12:rollout",
-        "15:spark",
-        "18:softboiled",
-        "23:protect",
-        "29:electroball",
-        "34:takedown",
-        "38:irondefense",
-        "42:zingzap",
-        "56:icebeam",
-        "62:sheercold",
-        "tm:terablast"
-      ],
-      "labels": [
-        "norheim",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.norheimanelectrode.desc"
-      ],
-      "height": 12,
-      "weight": 165,
-      "aspects": [
-        "norheiman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.125,
-        "height": 3.125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "fire",
       "secondaryType": "psychic",
@@ -531,153 +678,6 @@
       }
     },
     {
-      "name": "Mystic",
-      "primaryType": "psychic",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 172,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "preEvolution": "voltorb form=mystic",
-      "baseScale": 0.19726027397260273,
-      "cannotDynamax": false,
-      "abilities": [
-        "telepathy",
-        "anticipation",
-        "h:synchronize"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 50,
-        "defence": 70,
-        "special_attack": 150,
-        "special_defence": 80,
-        "speed": 80
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:powergem",
-        "1:stealthrock",
-        "1:flamecharge",
-        "1:tackle",
-        "4:rollout",
-        "6:eerieimpulse",
-        "9:explosion",
-        "11:ancientpower",
-        "13:irondefense",
-        "16:chargebeam",
-        "20:swift",
-        "22:flameburst",
-        "26:psybeam",
-        "29:lightscreen",
-        "36:psyshock",
-        "41:heatwave",
-        "47:storedpower",
-        "54:eruption",
-        "58:meteorbeam",
-        "tutor:confuseray",
-        "tutor:chargebeam",
-        "tutor:confide",
-        "tutor:doubleteam",
-        "tutor:endure",
-        "tutor:explosion",
-        "tutor:facade",
-        "tutor:foulplay",
-        "tutor:frustration",
-        "tutor:gigaimpact",
-        "tutor:gyroball",
-        "tutor:hiddenpower",
-        "tutor:hyperbeam",
-        "tutor:lightscreen",
-        "tutor:magiccoat",
-        "tutor:magnetrise",
-        "tutor:protect",
-        "tutor:raindance",
-        "tutor:reflect",
-        "tutor:rest",
-        "tutor:return",
-        "tutor:round",
-        "tutor:selfdestruct",
-        "tutor:shockwave",
-        "tutor:signalbeam",
-        "tutor:sleeptalk",
-        "tutor:snore",
-        "tutor:substitute",
-        "tutor:swagger",
-        "tutor:swift",
-        "tutor:taunt",
-        "tutor:telekinesis",
-        "tutor:thief",
-        "tutor:thunder",
-        "tutor:thunderbolt",
-        "tutor:thunderwave",
-        "tutor:torment",
-        "tutor:toxic",
-        "tutor:voltswitch",
-        "tutor:wildcharge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "azure",
-        "gen1",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticelectrode.desc"
-      ],
-      "height": 12,
-      "weight": 666,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 9.125,
-        "height": 9.125,
-        "fixed": false
-      }
-    },
-    {
       "name": "epoch_mega",
       "primaryType": "ice",
       "baseScale": 0.454054054054054,
@@ -705,11 +705,11 @@
     }
   ],
   "features": [
+    "mystic",
+    "norheiman",
     "epoch",
     "epochtwo",
-    "norheiman",
     "ayreian",
-    "mystic",
     "epoch_mega"
   ],
   "evolutions": [

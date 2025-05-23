@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_74_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_74_by_72",
-      "texture": "cobblemon:textures/pokemon/generation6/epochdoubladethree.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdoubladethree.png",
       "layers": [
         {
           "name": "emissive"

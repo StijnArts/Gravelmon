@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_82_by_74.geo",
       "poser": "cobblemon:cutout_gravelmon_82_by_74",
-      "texture": "cobblemon:textures/pokemon/generation1/africanusanrapidash.png",
+      "texture": "cobblemon:textures/pokemon/africanus/africanusanrapidash.png",
       "layers": [
         {
           "name": "emissive"

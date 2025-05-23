@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_elekid-01",
-      "pokemon": "elekid epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "2-32",
-      "weight": 3.5999999999999996,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_elekid-01",
       "pokemon": "elekid delta",
       "presets": [
@@ -78,6 +51,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_elekid-01",
+      "pokemon": "elekid epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-32",
+      "weight": 3.5999999999999996,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
           ]
         }
       }

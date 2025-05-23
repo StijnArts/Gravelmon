@@ -4,26 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_cloyster-01",
-      "pokemon": "cloyster forman",
+      "id": "epoch_cloyster-01",
+      "pokemon": "cloyster epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "uncommon",
-      "level": "35-57",
-      "weight": 0.75,
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-55",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
+          "#minecraft:is_end"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:purpur"
           ]
         }
       }
@@ -56,26 +56,26 @@
       }
     },
     {
-      "id": "epoch_cloyster-01",
-      "pokemon": "cloyster epoch",
+      "id": "forman_cloyster-01",
+      "pokemon": "cloyster forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "35-55",
-      "weight": 0.5,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "35-57",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
+          "#cobblemon:is_warm_ocean"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:prismarine"
           ]
         }
       }

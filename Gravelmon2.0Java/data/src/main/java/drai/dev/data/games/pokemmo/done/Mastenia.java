@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.mastenia.*;
+import drai.dev.data.pokemon.mastenia.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -29,9 +31,14 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Savazard());
         addPokedexPokemon("squirtle, wartortle");
         addNewPokemon(new Boltoise());
-//        addNewPokemon(new Treecko(252));
+//        addNewPokemon(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
 //        addNewPokemon(new Deceptile());MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
 //        addNewPokemon(new Henquinn()); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianMarshtomp("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Chromerge());   MEMBER OF LINE NOT FINISHED
         addNewPokemon(new Devidare(new Stats(420, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Rochpillar());
@@ -47,9 +54,12 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tuleep());   
         addNewPokemon(new Ceremonia(new Stats(504, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Terrainiac(new Stats(504, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addPokedexPokemon("wooper-mastenian");
+
+        addNewPokemon(new MastenianWooper("", Aspect.MASTENIAN));
         addNewPokemon(new Quagfire(new Stats(430, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addPokedexPokemon("volbeat-mastenian");
+//        addNewPokemon(new MastenianIllumise("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianVolbeat("", Aspect.MASTENIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Tasmeanie());
         addNewPokemon(new Tasmighty(new Stats(434, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Sparkatoo(new Stats(387, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
@@ -71,20 +81,20 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bunelania(new Stats(510, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         addPokedexPokemon("luvdisc");
         addNewPokemon(new Delfine(new Stats(430, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addPokedexPokemon("tentacool-mastenian");
+        addNewPokemon(new MastenianTentacool("", Aspect.MASTENIAN));
         addNewPokemon(new Tentarule(new Stats(515, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Gulligull());   
         addNewPokemon(new Albamate(new Stats(490, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK)))); //renamed from Albacross
-        addPokedexPokemon("chinchou-mastenian");
-        addPokedexPokemon("lanturn-mastenian");
+        addNewPokemon(new MastenianChinchou("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianLanturn("", Aspect.MASTENIAN));
         addNewPokemon(new Abyssmulk());
         addNewPokemon(new Nonono());   
         addNewPokemon(new Serpyre());
         addNewPokemon(new Adaptoad());
-        addPokedexPokemon("psyduck-mastenian");
-        addPokedexPokemon("golduck-mastenian");
+        addNewPokemon(new MastenianPsyduck("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianGolduck("", Aspect.MASTENIAN));
         addNewPokemon(new Trancendo(new Stats(410, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))));
-        addPokedexPokemon("komala-mastenian");
+        addNewPokemon(new MastenianKomala("", Aspect.MASTENIAN, new Stats(0, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
         addNewPokemon(new Lizphard(new Stats(310, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         addNewPokemon(new Plasmuff());   
         addNewPokemon(new Phanpunk());   
@@ -97,8 +107,9 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Kangaskid());   Missing Art
 //        addNewPokemon(new Kingaskhan()); MEMBER OF LINE NOT FINISHED
         addNewPokemon(new Boltbat(new Stats(370, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addPokedexPokemon("shroomish-mastenian");
-        addPokedexPokemon("breloom-mastenian");
+        addNewPokemon(new MastenianShroomish("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianBreloom("", Aspect.MASTENIAN, new Stats(460, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Roladuck(new Stats(340, StatArchetype.PHYSICAL_WALL, List.of(StatType.DEFENCE))));
         addNewPokemon(new Wandix());   
         addNewPokemon(new Steadix(new Stats(510, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
@@ -136,8 +147,8 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Terratusk());
 //        addNewPokemon(new Drump()); Member of line Not Finished  
 //        addNewPokemon(new Fredoron()); Member of line Not Finished
-        addPokedexPokemon("larvitar-mastenian");
-        addPokedexPokemon("pupitar-mastenian");
+        addNewPokemon(new MastenianLarvitar("", Aspect.MASTENIAN));
+        addNewPokemon(new MastenianPupitar("", Aspect.MASTENIAN));
         addNewPokemon(new Tidaltar());
         addNewPokemon(new Palmguana(new Stats(580, StatArchetype.FAST_PHYSICAL_WALL, List.of(StatType.DEFENCE))));
         addNewPokemon(new Ferocice(new Stats(580, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))));

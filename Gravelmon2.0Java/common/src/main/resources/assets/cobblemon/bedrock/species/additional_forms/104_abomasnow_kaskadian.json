@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_395_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_395_by_512",
-      "texture": "cobblemon:textures/pokemon/generation4/kaskadianabomasnow.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianabomasnow.png",
       "layers": [
         {
           "name": "emissive"

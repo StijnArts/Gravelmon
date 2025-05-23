@@ -4,47 +4,46 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_gengar-01",
-      "pokemon": "gengar forman",
+      "id": "x_gengar-01",
+      "pokemon": "gengar x",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "38-58",
-      "weight": 0.24,
+      "level": "36-57",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland"
-        ],
-        "timeRange": "night"
+          "#minecraft:is_end"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:raw_gold_block"
           ]
         }
       }
     },
     {
-      "id": "nodorran_gengar-01",
-      "pokemon": "gengar nodorran",
+      "id": "havaiian_gengar-01",
+      "pokemon": "gengar havaiian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "38-58",
+      "level": "36-50",
       "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "timeRange": "night"
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,21 +83,21 @@
       }
     },
     {
-      "id": "havaiian_gengar-01",
-      "pokemon": "gengar havaiian",
+      "id": "kaskadian_gengar-01",
+      "pokemon": "gengar kaskadian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "36-50",
-      "weight": 0.09,
+      "bucket": "rare",
+      "level": "36-56",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
-        ]
+          "#cobblemon:is_temperate"
+        ],
+        "isRaining": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -110,26 +109,27 @@
       }
     },
     {
-      "id": "x_gengar-01",
-      "pokemon": "gengar x",
+      "id": "forman_gengar-01",
+      "pokemon": "gengar forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "36-57",
-      "weight": 1.7999999999999998,
+      "level": "38-58",
+      "weight": 0.24,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:white_wool"
           ]
         }
       }
@@ -161,21 +161,21 @@
       }
     },
     {
-      "id": "kaskadian_gengar-01",
-      "pokemon": "gengar kaskadian",
+      "id": "nodorran_gengar-01",
+      "pokemon": "gengar nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "36-56",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_snowy"
         ],
-        "isRaining": true
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

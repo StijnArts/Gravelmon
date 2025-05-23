@@ -4,6 +4,30 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_corsola-01",
+      "pokemon": "corsola epoch",
+      "presets": [],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "8-29",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp",
+          "#cobblemon:is_freshwater"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_corsola-01",
       "pokemon": "corsola forman",
       "presets": [
@@ -47,30 +71,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_corsola-01",
-      "pokemon": "corsola epoch",
-      "presets": [],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "8-29",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp",
-          "#cobblemon:is_freshwater"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
           ]
         }
       }

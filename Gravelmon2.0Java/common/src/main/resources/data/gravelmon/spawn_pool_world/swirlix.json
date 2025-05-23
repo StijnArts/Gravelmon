@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "x_swirlix-01",
+      "pokemon": "swirlix x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_swirlix-01",
       "pokemon": "swirlix epoch",
       "presets": [
@@ -55,31 +80,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "x_swirlix-01",
-      "pokemon": "swirlix x",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-32",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

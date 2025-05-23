@@ -4,56 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_roserade-01",
-      "pokemon": "roserade epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "38-54",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_roserade-01",
-      "pokemon": "roserade epoch",
+      "id": "relic_roserade-01",
+      "pokemon": "roserade relic",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "38-54",
+      "level": "41-51",
       "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_jungle"
-        ],
-        "timeRange": "day"
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -109,6 +84,61 @@
       }
     },
     {
+      "id": "epoch_roserade-01",
+      "pokemon": "roserade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-54",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_roserade-01",
+      "pokemon": "roserade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "38-54",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_roserade-01",
       "pokemon": "roserade ayreian",
       "presets": [
@@ -131,36 +161,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_roserade-01",
-      "pokemon": "roserade relic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "41-51",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

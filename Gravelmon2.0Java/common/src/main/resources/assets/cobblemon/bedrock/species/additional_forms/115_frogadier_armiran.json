@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_94_by_106.geo",
       "poser": "cobblemon:cutout_gravelmon_94_by_106",
-      "texture": "cobblemon:textures/pokemon/generation6/armiranfrogadier.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/armiranfrogadier.png",
       "layers": [
         {
           "name": "emissive"

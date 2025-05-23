@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_152_by_144.geo",
       "poser": "cobblemon:cutout_gravelmon_152_by_144",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaarcanine.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaarcanine.png",
       "layers": [
         {
           "name": "emissive"

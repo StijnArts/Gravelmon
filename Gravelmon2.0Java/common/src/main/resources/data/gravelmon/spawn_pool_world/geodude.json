@@ -4,29 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_geodude-01",
-      "pokemon": "geodude forman",
+      "id": "delta_geodude-01",
+      "pokemon": "geodude delta",
       "presets": [
-        "natural",
-        "gemstones"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "7-29",
-      "weight": 13.5,
+      "level": "10-30",
+      "weight": 10.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cave"
+          "#cobblemon:is_jungle"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:amethyst_block"
           ]
         }
       }
@@ -83,28 +82,29 @@
       }
     },
     {
-      "id": "delta_geodude-01",
-      "pokemon": "geodude delta",
+      "id": "forman_geodude-01",
+      "pokemon": "geodude forman",
       "presets": [
-        "jungle_pyramid"
+        "natural",
+        "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "10-30",
-      "weight": 10.5,
+      "level": "7-29",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_cave"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
+            "minecraft:tuff"
           ]
         }
       }

@@ -4,61 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_tangrowth-01",
-      "pokemon": "tangrowth epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "41-54",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "qamoran_tangrowth-01",
-      "pokemon": "tangrowth qamoran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "36-56",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "minecraft:cherry_grove"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "egho_tangrowth-01",
       "pokemon": "tangrowth egho",
       "presets": [
@@ -113,6 +58,61 @@
       }
     },
     {
+      "id": "epoch_tangrowth-01",
+      "pokemon": "tangrowth epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-54",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_tangrowth-01",
+      "pokemon": "tangrowth epoch",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-60",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "hoennian_tangrowth-01",
       "pokemon": "tangrowth hoennian",
       "presets": [
@@ -146,19 +146,19 @@
       }
     },
     {
-      "id": "epoch_tangrowth-01",
-      "pokemon": "tangrowth epoch",
+      "id": "qamoran_tangrowth-01",
+      "pokemon": "tangrowth qamoran",
       "presets": [
-        "village"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "40-60",
-      "weight": 0.5,
+      "level": "36-56",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_arid"
+          "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -167,7 +167,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:prismarine"
           ]
         }
       }

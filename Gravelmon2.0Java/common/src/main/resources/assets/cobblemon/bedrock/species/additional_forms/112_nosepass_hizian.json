@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_51_by_44.geo",
       "poser": "cobblemon:cutout_gravelmon_51_by_44",
-      "texture": "cobblemon:textures/pokemon/generation3/hiziannosepass.png",
+      "texture": "cobblemon:textures/pokemon/hiza/hiziannosepass.png",
       "layers": [
         {
           "name": "emissive"

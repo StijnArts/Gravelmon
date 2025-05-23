@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "norheiman_masquerain-01",
+      "pokemon": "masquerain norheiman",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "22-45",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_masquerain-01",
       "pokemon": "masquerain epoch",
       "presets": [],
@@ -52,33 +79,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "norheiman_masquerain-01",
-      "pokemon": "masquerain norheiman",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "surface",
-      "bucket": "common",
-      "level": "22-45",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
           ]
         }
       }

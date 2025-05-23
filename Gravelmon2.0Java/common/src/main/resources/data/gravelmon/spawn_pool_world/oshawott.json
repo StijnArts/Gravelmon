@@ -4,32 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_oshawott-01",
-      "pokemon": "oshawott nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-31",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_oshawott-01",
       "pokemon": "oshawott epoch",
       "presets": [
@@ -52,6 +26,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_oshawott-01",
+      "pokemon": "oshawott nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

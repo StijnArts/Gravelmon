@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_160_by_214.geo",
       "poser": "cobblemon:cutout_gravelmon_160_by_214",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaraichu.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaraichu.png",
       "layers": [
         {
           "name": "emissive"

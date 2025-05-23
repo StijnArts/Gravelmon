@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation7/ivrisiantrumbeak.png",
+      "texture": "cobblemon:textures/pokemon/ivris/ivrisiantrumbeak.png",
       "layers": [
         {
           "name": "emissive"

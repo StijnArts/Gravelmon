@@ -2,6 +2,163 @@
   "target": "cobblemon:gastrodon",
   "forms": [
     {
+      "name": "Rican",
+      "primaryType": "rock",
+      "secondaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "shellos form=rican",
+      "baseScale": 0.225,
+      "cannotDynamax": false,
+      "abilities": [
+        "stickyhold",
+        "stormdrain",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 111,
+        "attack": 83,
+        "defence": 68,
+        "special_attack": 92,
+        "special_defence": 82,
+        "speed": 39
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mudslap",
+        "1:mudsport",
+        "4:harden",
+        "7:recover",
+        "11:waterpulse",
+        "15:mudbomb",
+        "20:ancientpower",
+        "25:dragonbreath",
+        "31:muddywater",
+        "35:earthpower",
+        "40:raindance",
+        "45:haze",
+        "50:memento",
+        "tm:bodyslam",
+        "tm:gigadrain",
+        "tm:muddywater",
+        "tm:sludgewave",
+        "tm:gunkshot",
+        "tm:dig",
+        "tm:scorchingsands",
+        "tm:echoedvoice",
+        "tm:return",
+        "tm:frustration",
+        "tm:facade",
+        "tm:hiddenpower",
+        "tm:infestation",
+        "tm:scald",
+        "tm:blizzard",
+        "tm:icebeam",
+        "tm:rockslide",
+        "tm:stoneedge",
+        "tm:rocktomb",
+        "tm:powergem",
+        "tm:bulldoze",
+        "tm:earthpower",
+        "tm:venoshock",
+        "tm:sludgebomb",
+        "tm:shadowball",
+        "tm:dragonpulse",
+        "tm:protect",
+        "tm:swagger",
+        "tm:doubleteam",
+        "tm:attract",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:raindance",
+        "tm:sandstorm",
+        "tm:stealthrock",
+        "tm:toxic",
+        "tm:rocksmash",
+        "tm:surf",
+        "tm:dive",
+        "egg:bodyslam",
+        "egg:mist",
+        "egg:counter",
+        "egg:fissure",
+        "egg:sludge",
+        "egg:amnesia",
+        "egg:acidarmor",
+        "egg:curse",
+        "egg:mirrorcoat",
+        "egg:yawn",
+        "egg:brine",
+        "egg:clearsmog",
+        "tm:terablast"
+      ],
+      "labels": [
+        "novrai",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ricangastrodon.desc"
+      ],
+      "height": 9,
+      "weight": 63,
+      "aspects": [
+        "rican"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "dragon",
       "secondaryType": "normal",
@@ -2064,166 +2221,10 @@
         "height": 4.0625,
         "fixed": false
       }
-    },
-    {
-      "name": "Rican",
-      "primaryType": "rock",
-      "secondaryType": "fire",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "shellos form=rican",
-      "baseScale": 0.225,
-      "cannotDynamax": false,
-      "abilities": [
-        "stickyhold",
-        "stormdrain",
-        "h:regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 111,
-        "attack": 83,
-        "defence": 68,
-        "special_attack": 92,
-        "special_defence": 82,
-        "speed": 39
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1",
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "1:mudslap",
-        "1:mudsport",
-        "4:harden",
-        "7:recover",
-        "11:waterpulse",
-        "15:mudbomb",
-        "20:ancientpower",
-        "25:dragonbreath",
-        "31:muddywater",
-        "35:earthpower",
-        "40:raindance",
-        "45:haze",
-        "50:memento",
-        "tm:bodyslam",
-        "tm:gigadrain",
-        "tm:muddywater",
-        "tm:sludgewave",
-        "tm:gunkshot",
-        "tm:dig",
-        "tm:scorchingsands",
-        "tm:echoedvoice",
-        "tm:return",
-        "tm:frustration",
-        "tm:facade",
-        "tm:hiddenpower",
-        "tm:infestation",
-        "tm:scald",
-        "tm:blizzard",
-        "tm:icebeam",
-        "tm:rockslide",
-        "tm:stoneedge",
-        "tm:rocktomb",
-        "tm:powergem",
-        "tm:bulldoze",
-        "tm:earthpower",
-        "tm:venoshock",
-        "tm:sludgebomb",
-        "tm:shadowball",
-        "tm:dragonpulse",
-        "tm:protect",
-        "tm:swagger",
-        "tm:doubleteam",
-        "tm:attract",
-        "tm:rest",
-        "tm:sleeptalk",
-        "tm:substitute",
-        "tm:lightscreen",
-        "tm:reflect",
-        "tm:raindance",
-        "tm:sandstorm",
-        "tm:stealthrock",
-        "tm:toxic",
-        "tm:rocksmash",
-        "tm:surf",
-        "tm:dive",
-        "egg:bodyslam",
-        "egg:mist",
-        "egg:counter",
-        "egg:fissure",
-        "egg:sludge",
-        "egg:amnesia",
-        "egg:acidarmor",
-        "egg:curse",
-        "egg:mirrorcoat",
-        "egg:yawn",
-        "egg:brine",
-        "egg:clearsmog",
-        "tm:terablast"
-      ],
-      "labels": [
-        "novrai",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.ricangastrodon.desc"
-      ],
-      "height": 9,
-      "weight": 63,
-      "aspects": [
-        "rican"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "rican",
     "epoch",
     "epochtwo",
     "epochthree",
@@ -2236,7 +2237,6 @@
     "epochten",
     "epocheleven",
     "epochtwelve",
-    "avalossian",
-    "rican"
+    "avalossian"
   ]
 }

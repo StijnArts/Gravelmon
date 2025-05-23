@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_79_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_79_by_66",
-      "texture": "cobblemon:textures/pokemon/generation8/epochfrosmoth.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochfrosmoth.png",
       "layers": [
         {
           "name": "emissive"

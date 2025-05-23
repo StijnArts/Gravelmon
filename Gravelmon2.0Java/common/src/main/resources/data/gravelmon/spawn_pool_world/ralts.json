@@ -4,20 +4,21 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_ralts-01",
-      "pokemon": "ralts fabelian",
+      "id": "delta_ralts-01",
+      "pokemon": "ralts delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 27.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_snowy"
         ],
+        "isThundering": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -25,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -58,6 +59,32 @@
       }
     },
     {
+      "id": "epoch_ralts-01",
+      "pokemon": "ralts epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "8-28",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "avalossian_ralts-01",
       "pokemon": "ralts avalossian",
       "presets": [
@@ -78,34 +105,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_ralts-01",
-      "pokemon": "ralts delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 27.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
           ]
         }
       }
@@ -139,27 +138,28 @@
       }
     },
     {
-      "id": "epoch_ralts-01",
-      "pokemon": "ralts epoch",
+      "id": "fabelian_ralts-01",
+      "pokemon": "ralts fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "8-28",
-      "weight": 5.0,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mushroom"
+          "minecraft:the_void"
         ],
-        "timeRange": "night"
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:note_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }

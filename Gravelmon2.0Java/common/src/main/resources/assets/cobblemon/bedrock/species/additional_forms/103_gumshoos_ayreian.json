@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_72_by_73.geo",
       "poser": "cobblemon:cutout_gravelmon_72_by_73",
-      "texture": "cobblemon:textures/pokemon/generation7/ayreiangumshoos.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiangumshoos.png",
       "layers": [
         {
           "name": "emissive"

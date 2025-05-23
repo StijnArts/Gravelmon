@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_mankey-01",
-      "pokemon": "mankey mahalian",
+      "id": "epoch_mankey-01",
+      "pokemon": "mankey epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:note_block"
           ]
         }
       }
@@ -58,19 +58,19 @@
       }
     },
     {
-      "id": "epoch_mankey-01",
-      "pokemon": "mankey epoch",
+      "id": "mahalian_mankey-01",
+      "pokemon": "mankey mahalian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.75,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:cherry_grove"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -79,7 +79,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:note_block"
+            "minecraft:tuff"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_102_by_126.geo",
       "poser": "cobblemon:cutout_gravelmon_102_by_126",
-      "texture": "cobblemon:textures/pokemon/generation4/mysticlucario.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticlucario.png",
       "layers": [
         {
           "name": "emissive"

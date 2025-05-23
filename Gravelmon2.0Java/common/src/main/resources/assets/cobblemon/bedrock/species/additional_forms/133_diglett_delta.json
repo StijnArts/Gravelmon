@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation1_deltadiglett.geo",
-      "poser": "cobblemon:generation1_deltadiglett",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett/deltadiglett.png",
+      "model": "cobblemon:insurgence_deltadiglett.geo",
+      "poser": "cobblemon:insurgence_deltadiglett",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadiglett/deltadiglett.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltadiglett.geo",
-      "poser": "cobblemon:generation1_deltadiglett",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett/deltadiglett_shiny.png",
+      "model": "cobblemon:insurgence_deltadiglett.geo",
+      "poser": "cobblemon:insurgence_deltadiglett",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadiglett/deltadiglett_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,50 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_mantyke-01",
-      "pokemon": "mantyke mahalian",
+      "id": "seviian_mantyke-01",
+      "pokemon": "mantyke seviian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_deep_ocean"
+        ]
       },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mahalian_mantyke-11",
-      "pokemon": "mantyke mahalian",
-      "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
+      "anticondition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_cold"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -75,36 +56,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "seviian_mantyke-01",
-      "pokemon": "mantyke seviian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "uncommon",
-      "level": "12-34",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
           ]
         }
       }
@@ -154,6 +105,55 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_mantyke-01",
+      "pokemon": "mantyke mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_mantyke-11",
+      "pokemon": "mantyke mahalian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

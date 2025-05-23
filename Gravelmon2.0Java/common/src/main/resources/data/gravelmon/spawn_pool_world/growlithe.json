@@ -4,6 +4,60 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_growlithe-01",
+      "pokemon": "growlithe delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-35",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_bamboo"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aristosian_growlithe-01",
+      "pokemon": "growlithe aristosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-35",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
       "id": "palmian_growlithe-01",
       "pokemon": "growlithe palmian",
       "presets": [
@@ -21,6 +75,56 @@
         "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_growlithe-01",
+      "pokemon": "growlithe epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_growlithe-01",
+      "pokemon": "growlithe epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -58,85 +162,6 @@
       }
     },
     {
-      "id": "epoch_growlithe-01",
-      "pokemon": "growlithe epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:purpur"
-          ]
-        }
-      }
-    },
-    {
-      "id": "aristosian_growlithe-01",
-      "pokemon": "growlithe aristosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-35",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_growlithe-01",
-      "pokemon": "growlithe delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-35",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_bamboo"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:white_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "armiran_growlithe-01",
       "pokemon": "growlithe armiran",
       "presets": [
@@ -159,31 +184,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_growlithe-01",
-      "pokemon": "growlithe epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-33",
-      "weight": 5.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
           ]
         }
       }

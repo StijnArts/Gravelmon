@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo;
 
 
 import drai.dev.data.pokemon.theos.*;
+import drai.dev.data.pokemon.theos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Theos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Theos();
@@ -11,6 +13,49 @@ public class Theos extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+
+        addNewPokemon(new TheossianRaichu("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianTauros("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianGrowlithe("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianArcanine("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianVenonat("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianVenomoth("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianOddish("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianGloom("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianVileplume("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianBellsprout("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianWeepinbell("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianVictreebel("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianSunflora("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianSpinarak("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianAriados("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianMareep("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianFlaaffy("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianAmpharos("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianHoppip("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianSkiploom("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianJumpluff("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianMiltank("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianWooper("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianQuagsire("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianHeracross("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianBellossom("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianYanma("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianShinx("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianLuxio("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianLuxray("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianCroagunk("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianToxicroak("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianYanmega("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianCottonee("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianWhimsicott("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianPetilil("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianLilligant("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianDwebble("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianCrustle("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianFlabebe("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianFloette("", Aspect.THEOSSIAN));
+        addNewPokemon(new TheossianFlorges("", Aspect.THEOSSIAN));
 
         addNewPokemon(new Meowdow());
         addNewPokemon(new Purrleo());

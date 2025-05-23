@@ -2,230 +2,6 @@
   "target": "cobblemon:girafarig",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "fairy",
-      "secondaryType": "poison",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "twinz",
-      "baseScale": 0.07500000000000001,
-      "cannotDynamax": false,
-      "abilities": [
-        "magicbounce"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 76,
-        "attack": 80,
-        "defence": 69,
-        "special_attack": 80,
-        "special_defence": 69,
-        "speed": 79
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:disarmingvoice",
-        "1:acid",
-        "1:babydolleyes",
-        "1:leer",
-        "4:drainingkiss",
-        "4:clearsmog",
-        "7:playnice",
-        "7:sludge",
-        "10:dazzlinggleam",
-        "10:toxicspikes",
-        "13:hypervoice",
-        "13:sludgebomb",
-        "16:moonblast",
-        "16:sludgewave",
-        "19:disarmingvoice",
-        "19:poisonsting",
-        "22:babydolleyes",
-        "22:leer",
-        "25:drainingkiss",
-        "25:venoshock",
-        "28:playnice",
-        "28:poisontail",
-        "31:dazzlinggleam",
-        "31:toxicspikes",
-        "34:playrough",
-        "34:sludgebomb",
-        "39:spiritbreak",
-        "39:poisonjab",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formangirafarig.desc"
-      ],
-      "height": 16,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ionosian",
-      "primaryType": "fairy",
-      "secondaryType": "psychic",
-      "catchRate": 98,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.475,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 99,
-        "attack": 34,
-        "defence": 76,
-        "special_attack": 84,
-        "special_defence": 99,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:disarmingvoice",
-        "1:confusion",
-        "1:bulkup",
-        "1:bulkup",
-        "1:babydolleyes",
-        "1:growl",
-        "1:calmmind",
-        "1:calmmind",
-        "10:drainingkiss",
-        "10:psybeam",
-        "10:taunt",
-        "10:taunt",
-        "15:playnice",
-        "15:futuresight",
-        "15:substitute",
-        "15:substitute",
-        "20:dazzlinggleam",
-        "20:psychic",
-        "20:rest",
-        "20:rest",
-        "25:hypervoice",
-        "25:psyshock",
-        "30:moonblast",
-        "30:psychoboost",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ionos",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ionosiangirafarig.desc"
-      ],
-      "height": 19,
-      "weight": 0,
-      "aspects": [
-        "ionosian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "steel",
       "secondaryType": "poison",
@@ -413,6 +189,231 @@
       }
     },
     {
+      "name": "Forman",
+      "primaryType": "fairy",
+      "secondaryType": "poison",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "twinz",
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicbounce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 76,
+        "attack": 80,
+        "defence": 69,
+        "special_attack": 80,
+        "special_defence": 69,
+        "speed": 79
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:acid",
+        "1:babydolleyes",
+        "1:leer",
+        "4:drainingkiss",
+        "4:clearsmog",
+        "7:playnice",
+        "7:sludge",
+        "10:dazzlinggleam",
+        "10:toxicspikes",
+        "13:hypervoice",
+        "13:sludgebomb",
+        "16:moonblast",
+        "16:sludgewave",
+        "19:disarmingvoice",
+        "19:poisonsting",
+        "22:babydolleyes",
+        "22:leer",
+        "25:drainingkiss",
+        "25:venoshock",
+        "28:playnice",
+        "28:poisontail",
+        "31:dazzlinggleam",
+        "31:toxicspikes",
+        "34:playrough",
+        "34:sludgebomb",
+        "39:spiritbreak",
+        "39:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formangirafarig.desc"
+      ],
+      "height": 16,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ionosian",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "catchRate": 98,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 99,
+        "attack": 34,
+        "defence": 76,
+        "special_attack": 84,
+        "special_defence": 99,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:confusion",
+        "1:bulkup",
+        "1:bulkup",
+        "1:babydolleyes",
+        "1:growl",
+        "1:calmmind",
+        "1:calmmind",
+        "10:drainingkiss",
+        "10:psybeam",
+        "10:taunt",
+        "10:taunt",
+        "15:playnice",
+        "15:futuresight",
+        "15:substitute",
+        "15:substitute",
+        "20:dazzlinggleam",
+        "20:psychic",
+        "20:rest",
+        "20:rest",
+        "25:hypervoice",
+        "25:psyshock",
+        "30:moonblast",
+        "30:psychoboost",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ionos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ionosiangirafarig.desc"
+      ],
+      "height": 19,
+      "weight": 0,
+      "aspects": [
+        "ionosian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "normal",
       "secondaryType": "psychic",
@@ -468,9 +469,9 @@
     }
   ],
   "features": [
+    "delta",
     "forman",
     "ionosian",
-    "delta",
     "mega",
     "delta_mega"
   ],

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_194_by_116.geo",
       "poser": "cobblemon:cutout_gravelmon_194_by_116",
-      "texture": "cobblemon:textures/pokemon/generation5/deltareuniclus.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltareuniclus.png",
       "layers": [
         {
           "name": "emissive"

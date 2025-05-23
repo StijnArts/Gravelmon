@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation1_electabuzzx.geo",
-      "poser": "cobblemon:generation1_electabuzzx",
-      "texture": "cobblemon:textures/pokemon/generation1/electabuzzx/electabuzzx.png",
+      "model": "cobblemon:xenoverse_electabuzzx.geo",
+      "poser": "cobblemon:xenoverse_electabuzzx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/electabuzzx/electabuzzx.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation1_electabuzzx.geo",
-      "poser": "cobblemon:generation1_electabuzzx",
-      "texture": "cobblemon:textures/pokemon/generation1/electabuzzx/electabuzzx_shiny.png",
+      "model": "cobblemon:xenoverse_electabuzzx.geo",
+      "poser": "cobblemon:xenoverse_electabuzzx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/electabuzzx/electabuzzx_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,6 +4,63 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "relic_flabebe-01",
+      "pokemon": "flabebe relic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-24",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "varitasian_flabebe-01",
+      "pokemon": "flabebe varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-21",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_flabebe-01",
       "pokemon": "flabebe epoch",
       "presets": [
@@ -57,63 +114,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_flabebe-01",
-      "pokemon": "flabebe varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "5-21",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_flabebe-01",
-      "pokemon": "flabebe relic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "7-24",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

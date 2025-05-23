@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.enjin.*;
+import drai.dev.data.pokemon.enjin.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //done
@@ -29,7 +31,8 @@ public class Enjin extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Faunifer());   Member of line Not Finished
 //        addNewPokemon(new Sirain());   Member of line Not Finished
 //        addNewPokemon(new Budbun());    Member of line Not Finished
-        addPokedexPokemon("hoothoot-enjinnian, noctowl-enjinnian");
+        addNewPokemon(new EnjinnianHoothoot("", Aspect.ENJINNIAN));
+        addNewPokemon(new EnjinnianNoctowl("", Aspect.ENJINNIAN));
         addNewPokemon(new Enchantowl());
 //        addNewPokemon(new Chimini());  Member of line Not Finished
 //        addNewPokemon(new Aquamel());   Member of line Not Finished
@@ -42,7 +45,7 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Raveclem());
         addNewPokemon(new Galats(new Stats(340, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Coldier(new Stats(330, StatArchetype.FAST_SUPPORT, List.of(StatType.HP))));
-        addPokedexPokemon("sableye-enjinnian");
+        addNewPokemon(new EnjinnianSableye("Sableye", Aspect.ENJINNIAN));
         addNewPokemon(new Eyeziant());
         addNewPokemon(new Ghostea());
         addPokedexPokemon("sinistea, polteageist");
@@ -60,7 +63,10 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rosival(new Stats(387, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.HP))));
         addNewPokemon(new Roswain(new Stats(387, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))));
         addNewPokemon(new Snooz());
-        addPokedexPokemon("drowzee, drowzee-enjinnian, hypno, hypno-enjinnian");
+        addPokedexPokemon("drowzee");
+        addNewPokemon(new EnjinnianDrowzee("", Aspect.ENJINNIAN));
+        addPokedexPokemon("hypno");
+        addNewPokemon(new EnjinnianHypno("", Aspect.ENJINNIAN));
         addNewPokemon(new Tenwreck());
 //        addNewPokemon(new Snouturf());Member of line Not Finished
         addNewPokemon(new Volverdi(new Stats(324, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
@@ -78,7 +84,8 @@ public class Enjin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chlorodra());
         addNewPokemon(new Cocoward());
         addNewPokemon(new Cocombat());
-        addPokedexPokemon("electrike-enjinnian, manectric-enjinnian");
+        addNewPokemon(new EnjinnianElectrike("", Aspect.ENJINNIAN));
+        addNewPokemon(new EnjinnianManectric("", Aspect.ENJINNIAN));
         addNewPokemon(new Lunectric());
         addNewPokemon(new Spikid());
         addNewPokemon(new Matchoppa());

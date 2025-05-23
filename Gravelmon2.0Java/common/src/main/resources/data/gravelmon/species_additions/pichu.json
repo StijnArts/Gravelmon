@@ -2,6 +2,184 @@
   "target": "cobblemon:pichu",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "flying",
+      "secondaryType": "fairy",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 41,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "baseScale": 0.17777777777777778,
+      "cannotDynamax": false,
+      "abilities": [
+        "cutecharm",
+        "cloudnine",
+        "h:galewings"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 20,
+        "attack": 40,
+        "defence": 15,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:gust",
+        "1:charm",
+        "5:tailwhip",
+        "10:sweetkiss",
+        "13:agility",
+        "18:tailwind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:roost",
+        "tm:fling",
+        "tm:retaliate",
+        "tm:psychup",
+        "tm:thunderwave",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:acrobatics",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:silverwind",
+        "tm:lunarcannon",
+        "tm:skydrop",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:pluck",
+        "tm:secretpower",
+        "tm:flash",
+        "tm:rocksmash",
+        "tm:fly",
+        "tutor:acid",
+        "tutor:aircutter",
+        "tutor:bodyslam",
+        "tutor:bounce",
+        "tutor:counter",
+        "tutor:covet",
+        "tutor:defog",
+        "tutor:dynamicpunch",
+        "tutor:endure",
+        "tutor:headbutt",
+        "tutor:healbell",
+        "tutor:heatwave",
+        "tutor:helpinghand",
+        "tutor:magiccoat",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:mimic",
+        "tutor:ominouswind",
+        "tutor:seismictoss",
+        "tutor:signalbeam",
+        "tutor:skyattack",
+        "tutor:snore",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:twister",
+        "egg:volttackle",
+        "tm:terablast"
+      ],
+      "labels": [
+        "insurgence",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltapichu.desc"
+      ],
+      "height": 3,
+      "weight": 20,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltapichu_pikachu_delta",
+          "variant": "level_up",
+          "result": "pikachu delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": "160"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.375,
+        "height": 3.375,
+        "fixed": false
+      }
+    },
+    {
       "name": "Norse",
       "primaryType": "fairy",
       "catchRate": 220,
@@ -79,8 +257,9 @@
         "tm:terablast"
       ],
       "labels": [
-        "raian",
         "not_modeled",
+        "norse",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -283,184 +462,6 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "flying",
-      "secondaryType": "fairy",
-      "catchRate": 190,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 41,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 100,
-      "baseFriendship": 70,
-      "baseScale": 0.17777777777777778,
-      "cannotDynamax": false,
-      "abilities": [
-        "cutecharm",
-        "cloudnine",
-        "h:galewings"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 20,
-        "attack": 40,
-        "defence": 15,
-        "special_attack": 35,
-        "special_defence": 35,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:gust",
-        "1:charm",
-        "5:tailwhip",
-        "10:sweetkiss",
-        "13:agility",
-        "18:tailwind",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:raindance",
-        "tm:snatch",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:irontail",
-        "tm:return",
-        "tm:doubleteam",
-        "tm:reflect",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:flamecharge",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:roost",
-        "tm:fling",
-        "tm:retaliate",
-        "tm:psychup",
-        "tm:thunderwave",
-        "tm:grassknot",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:steelwing",
-        "tm:acrobatics",
-        "tm:dazzlinggleam",
-        "tm:achillesheel",
-        "tm:silverwind",
-        "tm:lunarcannon",
-        "tm:skydrop",
-        "tm:echoedvoice",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:pluck",
-        "tm:secretpower",
-        "tm:flash",
-        "tm:rocksmash",
-        "tm:fly",
-        "tutor:acid",
-        "tutor:aircutter",
-        "tutor:bodyslam",
-        "tutor:bounce",
-        "tutor:counter",
-        "tutor:covet",
-        "tutor:defog",
-        "tutor:dynamicpunch",
-        "tutor:endure",
-        "tutor:headbutt",
-        "tutor:healbell",
-        "tutor:heatwave",
-        "tutor:helpinghand",
-        "tutor:magiccoat",
-        "tutor:megakick",
-        "tutor:megapunch",
-        "tutor:mimic",
-        "tutor:ominouswind",
-        "tutor:seismictoss",
-        "tutor:signalbeam",
-        "tutor:skyattack",
-        "tutor:snore",
-        "tutor:swift",
-        "tutor:tailwind",
-        "tutor:twister",
-        "egg:volttackle",
-        "tm:terablast"
-      ],
-      "labels": [
-        "insurgence",
-        "gen2",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltapichu.desc"
-      ],
-      "height": 3,
-      "weight": 20,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [
-        {
-          "id": "deltapichu_pikachu_delta",
-          "variant": "level_up",
-          "result": "pikachu delta",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": "160"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.375,
-        "height": 3.375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epochtwo",
       "primaryType": "fighting",
       "catchRate": 190,
@@ -634,9 +635,9 @@
     }
   ],
   "features": [
+    "delta",
     "norse",
     "epoch",
-    "delta",
     "epochtwo"
   ]
 }

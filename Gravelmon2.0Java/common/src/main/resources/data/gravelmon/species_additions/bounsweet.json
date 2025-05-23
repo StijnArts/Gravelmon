@@ -2,19 +2,20 @@
   "target": "cobblemon:bounsweet",
   "forms": [
     {
-      "name": "Ferranian",
-      "primaryType": "grass",
-      "secondaryType": "water",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "name": "Varitasian",
+      "primaryType": "ghost",
+      "secondaryType": "bug",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 42,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.2594594594594595,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "unnerve",
+        "h:poisonheal"
       ],
       "behaviour": {
         "resting": {
@@ -43,15 +44,15 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 42,
+        "attack": 30,
+        "defence": 38,
+        "special_attack": 30,
+        "special_defence": 38,
+        "speed": 32
       },
       "evYield": {
-        "hp": 0,
+        "hp": 1,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -59,58 +60,104 @@
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "grass"
       ],
       "drops": {},
       "moves": [
-        "1:absorb",
-        "1:watergun",
-        "1:leer",
-        "1:tailwhip",
-        "4:megadrain",
-        "4:bubblebeam",
-        "7:magicalleaf",
-        "7:brine",
-        "10:gigadrain",
-        "10:surf",
-        "13:energyball",
-        "13:chillingwater",
-        "16:solarbeam",
-        "16:hydropump",
-        "19:leafage",
-        "19:watergun",
-        "22:leer",
-        "22:tailwhip",
-        "25:absorb",
-        "25:bubblebeam",
-        "28:trailblaze",
-        "28:aquatail",
-        "31:gigadrain",
-        "31:surf",
-        "34:seedbomb",
-        "34:waterfall",
-        "39:leafblade",
-        "39:liquidation",
+        "1:splash",
+        "5:playnice",
+        "9:rapidspin",
+        "13:razorleaf",
+        "17:sweetscent",
+        "21:magicalleaf",
+        "25:teeterdance",
+        "29:flail",
+        "33:aromaticmist",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:helpinghand",
+        "tm:endeavor",
+        "tm:bounce",
+        "tm:covet",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:zenheadbutt",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:round",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:drainingkiss",
+        "tm:endure",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:playrough",
+        "tm:swift",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:charm",
+        "tm:grasswhistle",
+        "tm:feint",
+        "tm:acupressure",
+        "tm:playrough",
         "tm:terablast"
       ],
       "labels": [
-        "ferran",
-        "not_modeled",
-        "instagram"
+        "varitas",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianbounsweet.desc"
+        "cobblemon.species.varitasianbounsweet.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 3,
+      "weight": 165,
       "aspects": [
-        "ferranian"
+        "varitasian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "varitasianbounsweet_steenee_varitasian",
+          "variant": "level_up",
+          "result": "steenee varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 2.3125,
+        "height": 2.3125,
         "fixed": false
       }
     },
@@ -470,20 +517,19 @@
       }
     },
     {
-      "name": "Varitasian",
-      "primaryType": "ghost",
-      "secondaryType": "bug",
-      "catchRate": 235,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 42,
-      "experienceGroup": "medium_slow",
+      "name": "Ferranian",
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2594594594594595,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "unnerve",
-        "h:poisonheal"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -512,15 +558,15 @@
         }
       },
       "baseStats": {
-        "hp": 42,
-        "attack": 30,
-        "defence": 38,
-        "special_attack": 30,
-        "special_defence": 38,
-        "speed": 32
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -528,112 +574,67 @@
         "speed": 0
       },
       "eggGroups": [
-        "grass"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:splash",
-        "5:playnice",
-        "9:rapidspin",
-        "13:razorleaf",
-        "17:sweetscent",
-        "21:magicalleaf",
-        "25:teeterdance",
-        "29:flail",
-        "33:aromaticmist",
-        "tm:snore",
-        "tm:gigadrain",
-        "tm:synthesis",
-        "tm:helpinghand",
-        "tm:endeavor",
-        "tm:bounce",
-        "tm:covet",
-        "tm:worryseed",
-        "tm:seedbomb",
-        "tm:zenheadbutt",
-        "tm:solarbeam",
-        "tm:toxic",
-        "tm:doubleteam",
-        "tm:lightscreen",
-        "tm:reflect",
-        "tm:rest",
-        "tm:substitute",
-        "tm:protect",
-        "tm:swagger",
-        "tm:attract",
-        "tm:sleeptalk",
-        "tm:return",
-        "tm:frustration",
-        "tm:safeguard",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:facade",
-        "tm:naturepower",
-        "tm:energyball",
-        "tm:grassknot",
-        "tm:round",
-        "tm:confide",
-        "tm:dazzlinggleam",
-        "tm:bulletseed",
-        "tm:charm",
-        "tm:drainingkiss",
-        "tm:endure",
-        "tm:grassyglide",
-        "tm:grassyterrain",
-        "tm:leafstorm",
-        "tm:magicalleaf",
-        "tm:playrough",
-        "tm:swift",
-        "tm:takedown",
-        "tm:terablast",
-        "tm:trailblaze",
-        "tm:charm",
-        "tm:grasswhistle",
-        "tm:feint",
-        "tm:acupressure",
-        "tm:playrough",
+        "1:absorb",
+        "1:watergun",
+        "1:leer",
+        "1:tailwhip",
+        "4:megadrain",
+        "4:bubblebeam",
+        "7:magicalleaf",
+        "7:brine",
+        "10:gigadrain",
+        "10:surf",
+        "13:energyball",
+        "13:chillingwater",
+        "16:solarbeam",
+        "16:hydropump",
+        "19:leafage",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:absorb",
+        "25:bubblebeam",
+        "28:trailblaze",
+        "28:aquatail",
+        "31:gigadrain",
+        "31:surf",
+        "34:seedbomb",
+        "34:waterfall",
+        "39:leafblade",
+        "39:liquidation",
         "tm:terablast"
       ],
       "labels": [
-        "varitas",
-        "not_modeled"
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianbounsweet.desc"
+        "cobblemon.species.ferranianbounsweet.desc"
       ],
-      "height": 3,
-      "weight": 165,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "varitasian"
+        "ferranian"
       ],
-      "evolutions": [
-        {
-          "id": "varitasianbounsweet_steenee_varitasian",
-          "variant": "level_up",
-          "result": "steenee varitasian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "18"
-            }
-          ],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.3125,
-        "height": 2.3125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "ferranian",
+    "varitasian",
     "epoch",
     "epochtwo",
-    "varitasian"
+    "ferranian"
   ]
 }

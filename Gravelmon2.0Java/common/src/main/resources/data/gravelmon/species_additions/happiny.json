@@ -2,6 +2,207 @@
   "target": "cobblemon:happiny",
   "forms": [
     {
+      "name": "Egho",
+      "primaryType": "fighting",
+      "secondaryType": "fairy",
+      "catchRate": 80,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 80,
+      "experienceGroup": "fast",
+      "eggCycles": 100,
+      "baseFriendship": 70,
+      "baseScale": 0.144,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "reckless",
+        "h:owntempo"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 100,
+        "defence": 15,
+        "special_attack": 5,
+        "special_defence": 5,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:oval_stone",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
+      },
+      "moves": [
+        "1:helpinghand",
+        "1:karatechop",
+        "1:pound",
+        "1:followme",
+        "5:quickguard",
+        "9:refresh",
+        "12:defensecurl",
+        "13:doubleslap",
+        "18:hornattack",
+        "22:rockthrow",
+        "28:armthrust",
+        "32:bulkup",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:smackdown",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:flamethrower",
+        "tm:sandstorm",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:overheat",
+        "tm:fling",
+        "tm:incinerate",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:psychup",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:workup",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:rocksmash",
+        "tm:bulletseed",
+        "tm:surf",
+        "tm:strength",
+        "tutor:firepunch",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:icepunch",
+        "tutor:rollout",
+        "tutor:stealthrock",
+        "tutor:suckerpunch",
+        "tutor:superpower",
+        "tutor:zenheadbutt",
+        "tutor:karatechop",
+        "tutor:pound",
+        "tutor:followme",
+        "tutor:quickguard",
+        "tutor:refresh",
+        "tutor:defensecurl",
+        "tutor:doubleslap",
+        "tutor:hornattack",
+        "tutor:rockthrow",
+        "tutor:armthrust",
+        "egg:beatup",
+        "egg:bulletpunch",
+        "egg:counter",
+        "egg:endure",
+        "egg:healbell",
+        "egg:lastresort",
+        "egg:megahorn",
+        "egg:meteormash",
+        "egg:metronome",
+        "egg:naturalgift",
+        "egg:outrage",
+        "egg:revenge",
+        "egg:wakeupslap",
+        "egg:wideguard",
+        "tm:terablast"
+      ],
+      "labels": [
+        "infinity",
+        "gen4",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.eghohappiny.desc"
+      ],
+      "height": 6,
+      "weight": 244,
+      "aspects": [
+        "egho"
+      ],
+      "evolutions": [
+        {
+          "id": "eghohappiny_chansey_egho",
+          "variant": "level_up",
+          "result": "chansey egho",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            },
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:oval_stone"
+            },
+            {
+              "variant": "time_range",
+              "range": "day"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.25,
+        "height": 6.25,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "normal",
       "secondaryType": "steel",
@@ -356,212 +557,11 @@
         "height": 2.4375,
         "fixed": false
       }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "fighting",
-      "secondaryType": "fairy",
-      "catchRate": 80,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 80,
-      "experienceGroup": "fast",
-      "eggCycles": 100,
-      "baseFriendship": 70,
-      "baseScale": 0.144,
-      "cannotDynamax": false,
-      "abilities": [
-        "angerpoint",
-        "reckless",
-        "h:owntempo"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 100,
-        "defence": 15,
-        "special_attack": 5,
-        "special_defence": 5,
-        "speed": 30
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {
-        "amount": 1,
-        "entries": [
-          {
-            "item": "cobblemon:oval_stone",
-            "quantityRange": "1-1",
-            "percentage": 20
-          }
-        ]
-      },
-      "moves": [
-        "1:helpinghand",
-        "1:karatechop",
-        "1:pound",
-        "1:followme",
-        "5:quickguard",
-        "9:refresh",
-        "12:defensecurl",
-        "13:doubleslap",
-        "18:hornattack",
-        "22:rockthrow",
-        "28:armthrust",
-        "32:bulkup",
-        "tm:toxic",
-        "tm:bulkup",
-        "tm:hiddenpower",
-        "tm:protect",
-        "tm:raindance",
-        "tm:frustration",
-        "tm:smackdown",
-        "tm:return",
-        "tm:dig",
-        "tm:brickbreak",
-        "tm:flamethrower",
-        "tm:sandstorm",
-        "tm:fireblast",
-        "tm:rocktomb",
-        "tm:torment",
-        "tm:facade",
-        "tm:flamecharge",
-        "tm:rest",
-        "tm:lowsweep",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:overheat",
-        "tm:fling",
-        "tm:incinerate",
-        "tm:payback",
-        "tm:retaliate",
-        "tm:psychup",
-        "tm:bulldoze",
-        "tm:rockslide",
-        "tm:workup",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:rocksmash",
-        "tm:bulletseed",
-        "tm:surf",
-        "tm:strength",
-        "tutor:firepunch",
-        "tutor:foulplay",
-        "tutor:helpinghand",
-        "tutor:icepunch",
-        "tutor:rollout",
-        "tutor:stealthrock",
-        "tutor:suckerpunch",
-        "tutor:superpower",
-        "tutor:zenheadbutt",
-        "tutor:karatechop",
-        "tutor:pound",
-        "tutor:followme",
-        "tutor:quickguard",
-        "tutor:refresh",
-        "tutor:defensecurl",
-        "tutor:doubleslap",
-        "tutor:hornattack",
-        "tutor:rockthrow",
-        "tutor:armthrust",
-        "egg:beatup",
-        "egg:bulletpunch",
-        "egg:counter",
-        "egg:endure",
-        "egg:healbell",
-        "egg:lastresort",
-        "egg:megahorn",
-        "egg:meteormash",
-        "egg:metronome",
-        "egg:naturalgift",
-        "egg:outrage",
-        "egg:revenge",
-        "egg:wakeupslap",
-        "egg:wideguard",
-        "tm:terablast"
-      ],
-      "labels": [
-        "infinity",
-        "gen4",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.eghohappiny.desc"
-      ],
-      "height": 6,
-      "weight": 244,
-      "aspects": [
-        "egho"
-      ],
-      "evolutions": [
-        {
-          "id": "eghohappiny_chansey_egho",
-          "variant": "level_up",
-          "result": "chansey egho",
-          "consumeHeldItem": true,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "26"
-            },
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:oval_stone"
-            },
-            {
-              "variant": "time_range",
-              "range": "day"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.25,
-        "height": 6.25,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "egho",
     "epoch",
-    "avalossian",
-    "egho"
+    "avalossian"
   ]
 }

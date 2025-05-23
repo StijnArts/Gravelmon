@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_emolga-01",
-      "pokemon": "emolga epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "12-41",
-      "weight": 3.3000000000000003,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_emolga-01",
       "pokemon": "emolga delta",
       "presets": [
@@ -49,6 +24,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_emolga-01",
+      "pokemon": "emolga epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-41",
+      "weight": 3.3000000000000003,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
           ]
         }
       }

@@ -4,28 +4,51 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_shuckle-01",
-      "pokemon": "shuckle fabelian",
+      "id": "delta_shuckle-01",
+      "pokemon": "shuckle delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "15-50",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_forest"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_shuckle-01",
+      "pokemon": "shuckle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
           ]
         }
       }
@@ -58,58 +81,6 @@
       }
     },
     {
-      "id": "ionosian_shuckle-01",
-      "pokemon": "shuckle ionosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "23-44",
-      "weight": 2.25,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_beach"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_shuckle-01",
-      "pokemon": "shuckle delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-50",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_forest"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "hoennian_shuckle-01",
       "pokemon": "shuckle hoennian",
       "presets": [
@@ -137,26 +108,55 @@
       }
     },
     {
-      "id": "epoch_shuckle-01",
-      "pokemon": "shuckle epoch",
+      "id": "ionosian_shuckle-01",
+      "pokemon": "shuckle ionosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "33-53",
-      "weight": 0.9,
+      "level": "23-44",
+      "weight": 2.25,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_shuckle-01",
+      "pokemon": "shuckle fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
           ]
         }
       }

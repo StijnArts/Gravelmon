@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_62_by_94.geo",
       "poser": "cobblemon:cutout_gravelmon_62_by_94",
-      "texture": "cobblemon:textures/pokemon/generation3/mystictorchic.png",
+      "texture": "cobblemon:textures/pokemon/azure/mystictorchic.png",
       "layers": [
         {
           "name": "emissive"

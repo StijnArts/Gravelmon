@@ -2,6 +2,115 @@
   "target": "cobblemon:murkrow",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "flying",
+      "secondaryType": "grass",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 81,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24489795918367346,
+      "cannotDynamax": false,
+      "abilities": [
+        "earlybird"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defence": 42,
+        "special_attack": 80,
+        "special_defence": 42,
+        "speed": 101
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:tackle",
+        "3:leafage",
+        "6:astonish",
+        "9:peck",
+        "12:shadowsneak",
+        "15:razorleaf",
+        "18:synthesis",
+        "21:pluck",
+        "24:nastyplot",
+        "27:suckerpunch",
+        "30:leafblade",
+        "33:featherdance",
+        "36:bravebird",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.hizianmurkrow.desc"
+      ],
+      "height": 5,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [
+        {
+          "id": "hizianmurkrow_honchkrow_hizian",
+          "variant": "item_interact",
+          "result": "honchkrow hizian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dawn_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0625,
+        "height": 3.0625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "normal",
       "secondaryType": "flying",
@@ -354,120 +463,11 @@
         "height": 2.6875,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "flying",
-      "secondaryType": "grass",
-      "catchRate": 30,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 81,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.24489795918367346,
-      "cannotDynamax": false,
-      "abilities": [
-        "earlybird"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 80,
-        "defence": 42,
-        "special_attack": 80,
-        "special_defence": 42,
-        "speed": 101
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "flying"
-      ],
-      "drops": {},
-      "moves": [
-        "1:growl",
-        "1:tackle",
-        "3:leafage",
-        "6:astonish",
-        "9:peck",
-        "12:shadowsneak",
-        "15:razorleaf",
-        "18:synthesis",
-        "21:pluck",
-        "24:nastyplot",
-        "27:suckerpunch",
-        "30:leafblade",
-        "33:featherdance",
-        "36:bravebird",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.hizianmurkrow.desc"
-      ],
-      "height": 5,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [
-        {
-          "id": "hizianmurkrow_honchkrow_hizian",
-          "variant": "item_interact",
-          "result": "honchkrow hizian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dawn_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0625,
-        "height": 3.0625,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "hizian",
     "epoch",
-    "epochtwo",
-    "hizian"
+    "epochtwo"
   ]
 }

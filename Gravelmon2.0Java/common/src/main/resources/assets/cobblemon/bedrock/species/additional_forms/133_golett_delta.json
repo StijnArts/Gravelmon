@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_122_by_124.geo",
       "poser": "cobblemon:cutout_gravelmon_122_by_124",
-      "texture": "cobblemon:textures/pokemon/generation5/deltagolett.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagolett.png",
       "layers": [
         {
           "name": "emissive"

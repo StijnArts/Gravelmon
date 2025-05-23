@@ -4,63 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_roselia-01",
-      "pokemon": "roselia epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-43",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_roselia-01",
-      "pokemon": "roselia epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "24-43",
-      "weight": 1.6500000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_jungle"
-        ],
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "avorian_roselia-01",
-      "pokemon": "roselia avorian",
+      "id": "relic_roselia-01",
+      "pokemon": "roselia relic",
       "presets": [
         "natural"
       ],
@@ -71,14 +16,19 @@
       "weight": 1.35,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_forest"
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -134,6 +84,86 @@
       }
     },
     {
+      "id": "avorian_roselia-01",
+      "pokemon": "roselia avorian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-40",
+      "weight": 1.35,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_roselia-01",
+      "pokemon": "roselia epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_roselia-01",
+      "pokemon": "roselia epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-43",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_roselia-01",
       "pokemon": "roselia ayreian",
       "presets": [
@@ -156,36 +186,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_roselia-01",
-      "pokemon": "roselia relic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "29-40",
-      "weight": 1.35,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_30_by_28.geo",
       "poser": "cobblemon:cutout_gravelmon_30_by_28",
-      "texture": "cobblemon:textures/pokemon/generation8/ottoranhatenna.png",
+      "texture": "cobblemon:textures/pokemon/beginnings/ottoranhatenna.png",
       "layers": [
         {
           "name": "emissive"

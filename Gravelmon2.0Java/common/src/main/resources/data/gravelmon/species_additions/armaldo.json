@@ -2,6 +2,160 @@
   "target": "cobblemon:armaldo",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 173,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "anorith form=hizian",
+      "baseScale": 0.46363636363636357,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defence": 100,
+        "special_attack": 70,
+        "special_defence": 80,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:seismictoss",
+        "1:visegrip",
+        "1:stringshot",
+        "1:poisonsting",
+        "10:twineedle",
+        "15:defensecurl",
+        "20:causticbreath",
+        "25:bugbite",
+        "30:irondefense",
+        "35:dragontail",
+        "40:xscissor",
+        "45:brace",
+        "50:dualchop",
+        "55:swordsdance",
+        "57:megahorn",
+        "59:dragondance",
+        "63:dragonrush",
+        "66:superpower",
+        "70:guillotine",
+        "tm:honeclaws",
+        "tm:dragonclaw",
+        "tm:roar",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:venoshock",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:smackdown",
+        "tm:earthquake",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:endure",
+        "tm:incinerate",
+        "tm:rocksmash",
+        "tm:gigaimpact",
+        "tm:stoneedge",
+        "tm:swordsdance",
+        "tm:strugglebug",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:xscissor",
+        "tm:dragontail",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:focuspunch",
+        "tm:sleeptalk",
+        "tm:shieldbash",
+        "tm:standoff",
+        "tm:cut",
+        "tm:strength",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hizianarmaldo.desc"
+      ],
+      "height": 17,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "poison",
       "secondaryType": "rock",
@@ -162,164 +316,10 @@
         "height": 4.9375,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "bug",
-      "secondaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 173,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "anorith form=hizian",
-      "baseScale": 0.46363636363636357,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 75,
-        "attack": 125,
-        "defence": 100,
-        "special_attack": 70,
-        "special_defence": 80,
-        "speed": 45
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_3"
-      ],
-      "drops": {},
-      "moves": [
-        "1:seismictoss",
-        "1:visegrip",
-        "1:stringshot",
-        "1:poisonsting",
-        "10:twineedle",
-        "15:defensecurl",
-        "20:causticbreath",
-        "25:bugbite",
-        "30:irondefense",
-        "35:dragontail",
-        "40:xscissor",
-        "45:brace",
-        "50:dualchop",
-        "55:swordsdance",
-        "57:megahorn",
-        "59:dragondance",
-        "63:dragonrush",
-        "66:superpower",
-        "70:guillotine",
-        "tm:honeclaws",
-        "tm:dragonclaw",
-        "tm:roar",
-        "tm:toxic",
-        "tm:bulkup",
-        "tm:venoshock",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:raindance",
-        "tm:frustration",
-        "tm:smackdown",
-        "tm:earthquake",
-        "tm:return",
-        "tm:brickbreak",
-        "tm:doubleteam",
-        "tm:flamethrower",
-        "tm:fireblast",
-        "tm:rocktomb",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:focusblast",
-        "tm:falseswipe",
-        "tm:fling",
-        "tm:endure",
-        "tm:incinerate",
-        "tm:rocksmash",
-        "tm:gigaimpact",
-        "tm:stoneedge",
-        "tm:swordsdance",
-        "tm:strugglebug",
-        "tm:bulldoze",
-        "tm:rockslide",
-        "tm:xscissor",
-        "tm:dragontail",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:focuspunch",
-        "tm:sleeptalk",
-        "tm:shieldbash",
-        "tm:standoff",
-        "tm:cut",
-        "tm:strength",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hizianarmaldo.desc"
-      ],
-      "height": 17,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.5,
-        "height": 5.5,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "hizian"
+    "hizian",
+    "epoch"
   ]
 }

@@ -4,20 +4,21 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_raichu-01",
-      "pokemon": "raichu mahalian",
+      "id": "delta_raichu-01",
+      "pokemon": "raichu delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_highlands"
         ],
+        "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -25,7 +26,32 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "x_raichu-01",
+      "pokemon": "raichu x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "33-48",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }
@@ -83,59 +109,6 @@
       }
     },
     {
-      "id": "delta_raichu-01",
-      "pokemon": "raichu delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "34-54",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_highlands"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:hay_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "x_raichu-01",
-      "pokemon": "raichu x",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "33-48",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_raichu-01",
       "pokemon": "raichu epoch",
       "presets": [
@@ -158,6 +131,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_raichu-01",
+      "pokemon": "raichu mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }

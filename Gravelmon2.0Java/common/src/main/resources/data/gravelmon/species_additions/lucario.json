@@ -2,263 +2,6 @@
   "target": "cobblemon:lucario",
   "forms": [
     {
-      "name": "Raianian",
-      "primaryType": "fighting",
-      "secondaryType": "fire",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.06562499999999999,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 75,
-        "attack": 40,
-        "defence": 79,
-        "special_attack": 114,
-        "special_defence": 79,
-        "speed": 135
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:lowkick",
-        "1:ember",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:growl",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:revenge",
-        "4:firespin",
-        "7:vacuumwave",
-        "7:flamecharge",
-        "10:brickbreak",
-        "10:flameburst",
-        "13:aurasphere",
-        "13:flamethrower",
-        "16:focusblast",
-        "16:fireblast",
-        "tm:terablast"
-      ],
-      "labels": [
-        "raian",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.raianianlucario.desc"
-      ],
-      "height": 14,
-      "weight": 0,
-      "aspects": [
-        "raianian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "psychic",
-      "secondaryType": "dark",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 184,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "riolu form=epoch",
-      "baseScale": 0.41739130434782606,
-      "cannotDynamax": false,
-      "abilities": [
-        "magicbounce"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 85,
-        "attack": 70,
-        "defence": 70,
-        "special_attack": 120,
-        "special_defence": 80,
-        "speed": 100
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "field",
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "1:darkpulse",
-        "32:quickguard",
-        "4:siphon",
-        "36:calmmind",
-        "1:helpinghand",
-        "48:nastyplot",
-        "28:extrasensory",
-        "40:psychic",
-        "1:confusion",
-        "12:telekinesis",
-        "tm:attract",
-        "tm:calmmind",
-        "tm:coaching",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:darkpulse",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:expandingforce",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:geomancy",
-        "tm:hiddenpower",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:lightscreen",
-        "tm:magicroom",
-        "tm:memento",
-        "tm:metronome",
-        "tm:mist",
-        "tm:mistyterrain",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:nobleroar",
-        "tm:phantomforce",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicfangs",
-        "tm:psychicterrain",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:snarl",
-        "tm:substitute",
-        "tm:swordsdance",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:thunderfang",
-        "tm:thunderpunch",
-        "tm:toxic",
-        "tm:trickroom",
-        "tm:willowisp",
-        "tm:wish",
-        "tm:wonderroom",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochlucario.desc"
-      ],
-      "height": 12,
-      "weight": 540,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.3125,
-        "height": 4.3125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "dark",
       "secondaryType": "ground",
@@ -478,6 +221,374 @@
       }
     },
     {
+      "name": "Mystic",
+      "primaryType": "fairy",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 184,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "riolu form=mystic",
+      "baseScale": 0.22857142857142854,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "h:steelworker"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 115,
+        "attack": 90,
+        "defence": 70,
+        "special_attack": 110,
+        "special_defence": 70,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:charm",
+        "1:copycat",
+        "1:defensecurl",
+        "1:disarmingvoice",
+        "1:growl",
+        "1:pound",
+        "1:sing",
+        "1:splash",
+        "1:sweetkiss",
+        "4:mudslap",
+        "8:encore",
+        "12:afteryou",
+        "16:bulldoze",
+        "20:bulletpunch",
+        "24:moonlight",
+        "28:gravity",
+        "32:meteormash",
+        "36:earthpower",
+        "40:cosmicpower",
+        "44:moonblast",
+        "48:calmmind",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "azure",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticlucario.desc"
+      ],
+      "height": 12,
+      "weight": 540,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.875,
+        "height": 7.875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Raianian",
+      "primaryType": "fighting",
+      "secondaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.06562499999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 40,
+        "defence": 79,
+        "special_attack": 114,
+        "special_defence": 79,
+        "speed": 135
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lowkick",
+        "1:ember",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:revenge",
+        "4:firespin",
+        "7:vacuumwave",
+        "7:flamecharge",
+        "10:brickbreak",
+        "10:flameburst",
+        "13:aurasphere",
+        "13:flamethrower",
+        "16:focusblast",
+        "16:fireblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "raian",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.raianianlucario.desc"
+      ],
+      "height": 14,
+      "weight": 0,
+      "aspects": [
+        "raianian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 184,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "riolu form=epoch",
+      "baseScale": 0.41739130434782606,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicbounce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 70,
+        "defence": 70,
+        "special_attack": 120,
+        "special_defence": 80,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:darkpulse",
+        "32:quickguard",
+        "4:siphon",
+        "36:calmmind",
+        "1:helpinghand",
+        "48:nastyplot",
+        "28:extrasensory",
+        "40:psychic",
+        "1:confusion",
+        "12:telekinesis",
+        "tm:attract",
+        "tm:calmmind",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:expandingforce",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochlucario.desc"
+      ],
+      "height": 12,
+      "weight": 540,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.3125,
+        "height": 4.3125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fighting",
       "secondaryType": "psychic",
@@ -654,116 +765,6 @@
       "hitbox": {
         "width": 4.125,
         "height": 4.125,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mystic",
-      "primaryType": "fairy",
-      "secondaryType": "ground",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 184,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "riolu form=mystic",
-      "baseScale": 0.22857142857142854,
-      "cannotDynamax": false,
-      "abilities": [
-        "oblivious",
-        "h:steelworker"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 115,
-        "attack": 90,
-        "defence": 70,
-        "special_attack": 110,
-        "special_defence": 70,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field",
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "1:charm",
-        "1:copycat",
-        "1:defensecurl",
-        "1:disarmingvoice",
-        "1:growl",
-        "1:pound",
-        "1:sing",
-        "1:splash",
-        "1:sweetkiss",
-        "4:mudslap",
-        "8:encore",
-        "12:afteryou",
-        "16:bulldoze",
-        "20:bulletpunch",
-        "24:moonlight",
-        "28:gravity",
-        "32:meteormash",
-        "36:earthpower",
-        "40:cosmicpower",
-        "44:moonblast",
-        "48:calmmind",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen4",
-        "azure",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticlucario.desc"
-      ],
-      "height": 12,
-      "weight": 540,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 7.875,
-        "height": 7.875,
         "fixed": false
       }
     },
@@ -1007,7 +1008,7 @@
       "name": "ayreian_mega",
       "primaryType": "electric",
       "secondaryType": "psychic",
-      "baseScale": 18.0,
+      "baseScale": 0.4337349397590361,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1032,11 +1033,11 @@
     }
   ],
   "features": [
+    "delta",
+    "mystic",
     "raianian",
     "epoch",
-    "delta",
     "ayreian",
-    "mystic",
     "ishirian",
     "delta_mega",
     "ayreian_mega"

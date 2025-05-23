@@ -4,87 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_skiddo-01",
-      "pokemon": "skiddo epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "11-36",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "vesitan_skiddo-01",
-      "pokemon": "skiddo vesitan",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "5-27",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ayreian_skiddo-01",
-      "pokemon": "skiddo ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "6-32",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
       "id": "relic_skiddo-01",
       "pokemon": "skiddo relic",
       "presets": [
@@ -125,6 +44,33 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
+      "level": "11-36",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_skiddo-01",
+      "pokemon": "skiddo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
       "level": "12-32",
       "weight": 9.0,
       "condition": {
@@ -140,6 +86,60 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_skiddo-01",
+      "pokemon": "skiddo ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-32",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_skiddo-01",
+      "pokemon": "skiddo vesitan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-27",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.22641509433962265,
+  "baseScale": 6.0,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,8 +93,8 @@
   "nationalPokedexNumber": 5393,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 3.3125,
-    "height": 3.3125,
+    "width": 0.125,
+    "height": 0.125,
     "fixed": false
   },
   "features": [],

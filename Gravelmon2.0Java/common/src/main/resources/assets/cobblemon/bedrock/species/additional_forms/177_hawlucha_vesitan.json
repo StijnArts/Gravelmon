@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_74_by_54.geo",
       "poser": "cobblemon:cutout_gravelmon_74_by_54",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanhawlucha.png",
+      "texture": "cobblemon:textures/pokemon/chaosinvesita/vesitanhawlucha.png",
       "layers": [
         {
           "name": "emissive"

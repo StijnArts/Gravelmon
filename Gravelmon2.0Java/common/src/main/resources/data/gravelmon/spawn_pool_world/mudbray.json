@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_mudbray-01",
-      "pokemon": "mudbray fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_mudbray-01",
       "pokemon": "mudbray epoch",
       "presets": [
@@ -79,6 +52,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_mudbray-01",
+      "pokemon": "mudbray fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

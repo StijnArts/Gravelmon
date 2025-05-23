@@ -2,19 +2,21 @@
   "target": "cobblemon:spinarak",
   "forms": [
     {
-      "name": "Fabelian",
+      "name": "Aristosian",
       "primaryType": "bug",
-      "secondaryType": "dark",
+      "secondaryType": "fairy",
       "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "baseExperienceYield": 50,
+      "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.25263157894736843,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "swarm",
+        "cutecharm",
+        "h:furcoat"
       ],
       "behaviour": {
         "resting": {
@@ -43,12 +45,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 40,
+        "attack": 30,
+        "defence": 40,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 60
       },
       "evYield": {
         "hp": 0,
@@ -56,160 +58,83 @@
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 0
+        "speed": 1
       },
       "eggGroups": [
-        "field"
+        "bug"
       ],
       "drops": {},
       "moves": [
-        "1:strugglebug",
-        "1:bite",
-        "1:stringshot",
-        "1:leer",
-        "4:silverwind",
-        "4:payback",
-        "7:signalbeam",
-        "7:nightdaze",
-        "10:infestation",
-        "10:snarl",
-        "13:uturn",
-        "13:knockoff",
-        "16:bugbuzz",
-        "16:darkpulse",
-        "19:strugglebug",
-        "19:bite",
-        "22:stringshot",
-        "22:leer",
-        "25:leechlife",
-        "25:payback",
-        "28:lunge",
-        "28:nightslash",
-        "31:xscissor",
-        "31:crunch",
-        "34:uturn",
-        "34:knockoff",
-        "39:megahorn",
-        "39:suckerpunch",
+        "1:absorb",
+        "1:fairywind",
+        "6:stunspore",
+        "12:sweetscent",
+        "18:drainingkiss",
+        "24:strugglebug",
+        "30:covet",
+        "36:switcheroo",
+        "42:dazzlinggleam",
+        "48:bugbuzz",
+        "54:quiverdance",
+        "egg:aromaticmist",
+        "egg:moonblast",
+        "egg:stickyweb",
+        "tm:charm",
+        "tm:faketears",
+        "tm:protect",
+        "tm:acrobatics",
+        "tm:strugglebug",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:pounce",
+        "tm:facade",
+        "tm:swift",
+        "tm:magicalleaf",
+        "tm:drainingkiss",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:uturn",
+        "tm:sleeptalk",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:dazzlinggleam",
+        "tm:grassknot",
+        "tm:rest",
+        "tm:imprison",
+        "tm:leechlife",
+        "tm:skillswap",
+        "tm:substitute",
+        "tm:trick",
+        "tm:tailwind",
+        "tm:energyball",
+        "tm:psychic",
+        "tm:playrough",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:pollenpuff",
+        "tm:batonpass",
+        "tm:bugbuzz",
+        "tm:terablast",
+        "tm:bugbite",
         "tm:terablast"
       ],
       "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
+        "aristos",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianspinarak.desc"
+        "cobblemon.species.aristosianspinarak.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 4,
+      "weight": 165,
       "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "bug",
-      "secondaryType": "dark",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.032812499999999994,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 49,
-        "attack": 72,
-        "defence": 42,
-        "special_attack": 25,
-        "special_defence": 46,
-        "speed": 42
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:strugglebug",
-        "1:bite",
-        "1:stringshot",
-        "1:leer",
-        "4:leechlife",
-        "4:payback",
-        "7:lunge",
-        "7:nightslash",
-        "10:xscissor",
-        "10:crunch",
-        "13:uturn",
-        "13:knockoff",
-        "16:megahorn",
-        "16:suckerpunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanspinarak.desc"
-      ],
-      "height": 7,
-      "weight": 0,
-      "aspects": [
-        "forman"
+        "aristosian"
       ],
       "evolutions": [
         {
-          "id": "formanspinarak_ariados_forman",
+          "id": "aristosianspinarak_lanidos",
           "variant": "level_up",
-          "result": "ariados forman",
+          "result": "lanidos",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -223,8 +148,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 2.375,
+        "height": 2.375,
         "fixed": false
       }
     },
@@ -394,21 +319,19 @@
       }
     },
     {
-      "name": "Aristosian",
+      "name": "Forman",
       "primaryType": "bug",
-      "secondaryType": "fairy",
+      "secondaryType": "dark",
       "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 50,
-      "experienceGroup": "fast",
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.25263157894736843,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
-        "swarm",
-        "cutecharm",
-        "h:furcoat"
+        "intimidate"
       ],
       "behaviour": {
         "resting": {
@@ -437,12 +360,12 @@
         }
       },
       "baseStats": {
-        "hp": 40,
-        "attack": 30,
-        "defence": 40,
-        "special_attack": 40,
-        "special_defence": 40,
-        "speed": 60
+        "hp": 49,
+        "attack": 72,
+        "defence": 42,
+        "special_attack": 25,
+        "special_defence": 46,
+        "speed": 42
       },
       "evYield": {
         "hp": 0,
@@ -450,83 +373,48 @@
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 1
+        "speed": 0
       },
       "eggGroups": [
-        "bug"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:absorb",
-        "1:fairywind",
-        "6:stunspore",
-        "12:sweetscent",
-        "18:drainingkiss",
-        "24:strugglebug",
-        "30:covet",
-        "36:switcheroo",
-        "42:dazzlinggleam",
-        "48:bugbuzz",
-        "54:quiverdance",
-        "egg:aromaticmist",
-        "egg:moonblast",
-        "egg:stickyweb",
-        "tm:charm",
-        "tm:faketears",
-        "tm:protect",
-        "tm:acrobatics",
-        "tm:strugglebug",
-        "tm:thief",
-        "tm:trailblaze",
-        "tm:pounce",
-        "tm:facade",
-        "tm:swift",
-        "tm:magicalleaf",
-        "tm:drainingkiss",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:uturn",
-        "tm:sleeptalk",
-        "tm:reflect",
-        "tm:lightscreen",
-        "tm:dazzlinggleam",
-        "tm:grassknot",
-        "tm:rest",
-        "tm:imprison",
-        "tm:leechlife",
-        "tm:skillswap",
-        "tm:substitute",
-        "tm:trick",
-        "tm:tailwind",
-        "tm:energyball",
-        "tm:psychic",
-        "tm:playrough",
-        "tm:calmmind",
-        "tm:helpinghand",
-        "tm:pollenpuff",
-        "tm:batonpass",
-        "tm:bugbuzz",
-        "tm:terablast",
-        "tm:bugbite",
+        "1:strugglebug",
+        "1:bite",
+        "1:stringshot",
+        "1:leer",
+        "4:leechlife",
+        "4:payback",
+        "7:lunge",
+        "7:nightslash",
+        "10:xscissor",
+        "10:crunch",
+        "13:uturn",
+        "13:knockoff",
+        "16:megahorn",
+        "16:suckerpunch",
         "tm:terablast"
       ],
       "labels": [
-        "aristos",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianspinarak.desc"
+        "cobblemon.species.formanspinarak.desc"
       ],
-      "height": 4,
-      "weight": 165,
+      "height": 7,
+      "weight": 0,
       "aspects": [
-        "aristosian"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "aristosianspinarak_lanidos",
+          "id": "formanspinarak_ariados_forman",
           "variant": "level_up",
-          "result": "lanidos",
+          "result": "ariados forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -540,8 +428,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.375,
-        "height": 2.375,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -712,13 +600,127 @@
         "height": 2.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:bite",
+        "1:stringshot",
+        "1:leer",
+        "4:silverwind",
+        "4:payback",
+        "7:signalbeam",
+        "7:nightdaze",
+        "10:infestation",
+        "10:snarl",
+        "13:uturn",
+        "13:knockoff",
+        "16:bugbuzz",
+        "16:darkpulse",
+        "19:strugglebug",
+        "19:bite",
+        "22:stringshot",
+        "22:leer",
+        "25:leechlife",
+        "25:payback",
+        "28:lunge",
+        "28:nightslash",
+        "31:xscissor",
+        "31:crunch",
+        "34:uturn",
+        "34:knockoff",
+        "39:megahorn",
+        "39:suckerpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianspinarak.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "fabelian",
-    "forman",
-    "epoch",
     "aristosian",
-    "ayreian"
+    "epoch",
+    "forman",
+    "ayreian",
+    "fabelian"
   ]
 }

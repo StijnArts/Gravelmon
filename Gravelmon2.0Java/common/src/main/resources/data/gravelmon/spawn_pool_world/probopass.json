@@ -4,32 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_probopass-01",
-      "pokemon": "probopass nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "39-59",
-      "weight": 0.9,
-      "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_probopass-01",
       "pokemon": "probopass epoch",
       "presets": [
@@ -79,6 +53,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_probopass-01",
+      "pokemon": "probopass nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-59",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
           ]
         }
       }

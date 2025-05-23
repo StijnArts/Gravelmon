@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation7_pyukumukux.geo",
-      "poser": "cobblemon:generation7_pyukumukux",
-      "texture": "cobblemon:textures/pokemon/generation7/pyukumukux/pyukumukux.png",
+      "model": "cobblemon:xenoverse_pyukumukux.geo",
+      "poser": "cobblemon:xenoverse_pyukumukux",
+      "texture": "cobblemon:textures/pokemon/xenoverse/pyukumukux/pyukumukux.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation7_pyukumukux.geo",
-      "poser": "cobblemon:generation7_pyukumukux",
-      "texture": "cobblemon:textures/pokemon/generation7/pyukumukux/pyukumukux_shiny.png",
+      "model": "cobblemon:xenoverse_pyukumukux.geo",
+      "poser": "cobblemon:xenoverse_pyukumukux",
+      "texture": "cobblemon:textures/pokemon/xenoverse/pyukumukux/pyukumukux_shiny.png",
       "layers": [
         {
           "name": "emissive"

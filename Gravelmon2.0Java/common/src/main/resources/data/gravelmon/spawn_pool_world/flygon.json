@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_flygon-01",
+      "pokemon": "flygon cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-52",
+      "weight": 0.03,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_flygon-01",
       "pokemon": "flygon epoch",
       "presets": [
@@ -24,33 +51,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ionosian_flygon-01",
-      "pokemon": "flygon ionosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "45-61",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
           ]
         }
       }
@@ -83,16 +83,16 @@
       }
     },
     {
-      "id": "cefiran_flygon-01",
-      "pokemon": "flygon cefiran",
+      "id": "ionosian_flygon-01",
+      "pokemon": "flygon ionosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "45-52",
-      "weight": 0.03,
+      "level": "45-61",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

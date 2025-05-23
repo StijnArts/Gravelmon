@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "mystic_swampert-01",
+      "pokemon": "swampert mystic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_swampert-01",
       "pokemon": "swampert epoch",
       "presets": [
@@ -75,33 +102,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mystic_swampert-01",
-      "pokemon": "swampert mystic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-53",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
           ]
         }
       }

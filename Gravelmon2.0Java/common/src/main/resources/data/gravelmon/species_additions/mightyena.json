@@ -2,19 +2,22 @@
   "target": "cobblemon:mightyena",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "fighting",
-      "secondaryType": "poison",
-      "catchRate": 255,
+      "name": "Mystic",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "catchRate": 127,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "baseExperienceYield": 127,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "preEvolution": "poochyena form=mystic",
+      "baseScale": 0.16,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "intimidate",
+        "shadowtag",
+        "h:adaptability"
       ],
       "behaviour": {
         "resting": {
@@ -43,18 +46,18 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 70,
+        "attack": 60,
+        "defence": 70,
+        "special_attack": 90,
+        "special_defence": 60,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 0,
+        "special_attack": 2,
         "special_defence": 0,
         "speed": 0
       },
@@ -63,164 +66,43 @@
       ],
       "drops": {},
       "moves": [
-        "1:lowkick",
-        "1:acid",
-        "1:leer",
-        "1:leer",
-        "4:revenge",
-        "4:clearsmog",
-        "7:vacuumwave",
-        "7:sludge",
-        "10:brickbreak",
-        "10:toxicspikes",
-        "13:aurasphere",
-        "13:sludgebomb",
-        "16:focusblast",
-        "16:sludgewave",
-        "19:lowkick",
-        "19:poisonsting",
-        "22:leer",
-        "22:leer",
-        "25:revenge",
-        "25:venoshock",
-        "28:lowsweep",
-        "28:poisontail",
-        "31:brickbreak",
-        "31:toxicspikes",
-        "34:karatechop",
-        "34:sludgebomb",
-        "39:closecombat",
-        "39:poisonjab",
+        "1:astonish",
+        "1:smog",
+        "4:ember",
+        "8:minimize",
+        "12:confuseray",
+        "16:hex",
+        "20:willowisp",
+        "24:firespin",
+        "28:nightshade",
+        "32:curse",
+        "36:shadowball",
+        "40:inferno",
+        "44:imprison",
+        "48:painsplit",
+        "52:overheat",
+        "56:memento",
         "tm:terablast"
       ],
       "labels": [
-        "mahal",
+        "gen3",
+        "azure",
         "not_modeled",
-        "instagram"
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianmightyena.desc"
+        "cobblemon.species.mysticmightyena.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 10,
+      "weight": 370,
       "aspects": [
-        "mahalian"
+        "mystic"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Olysosian",
-      "primaryType": "ground",
-      "catchRate": 127,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "poochyena form=olysosian",
-      "baseScale": 0.36363636363636365,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 46,
-        "attack": 90,
-        "defence": 49,
-        "special_attack": 23,
-        "special_defence": 49,
-        "speed": 90
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:mudslap",
-        "1:quickattack",
-        "1:growl",
-        "1:swordsdance",
-        "10:sandattack",
-        "15:mudbomb",
-        "20:bulldoze",
-        "25:dig",
-        "30:earthquake",
-        "tm:terablast"
-      ],
-      "labels": [
-        "olysos",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.olysosianmightyena.desc"
-      ],
-      "height": 10,
-      "weight": 0,
-      "aspects": [
-        "olysosian"
-      ],
-      "evolutions": [
-        {
-          "id": "olysosianmightyena_alphayena",
-          "variant": "level_up",
-          "result": "alphayena",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "36"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.125,
-        "height": 4.125,
+        "width": 9.375,
+        "height": 9.375,
         "fixed": false
       }
     },
@@ -377,22 +259,19 @@
       }
     },
     {
-      "name": "Mystic",
-      "primaryType": "fire",
-      "secondaryType": "ghost",
-      "catchRate": 127,
+      "name": "Mahalian",
+      "primaryType": "fighting",
+      "secondaryType": "poison",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 127,
-      "experienceGroup": "medium_slow",
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "poochyena form=mystic",
-      "baseScale": 0.16,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "intimidate",
-        "shadowtag",
-        "h:adaptability"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -421,18 +300,18 @@
         }
       },
       "baseStats": {
-        "hp": 70,
-        "attack": 60,
-        "defence": 70,
-        "special_attack": 90,
-        "special_defence": 60,
-        "speed": 70
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 2,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
@@ -441,52 +320,174 @@
       ],
       "drops": {},
       "moves": [
-        "1:astonish",
-        "1:smog",
-        "4:ember",
-        "8:minimize",
-        "12:confuseray",
-        "16:hex",
-        "20:willowisp",
-        "24:firespin",
-        "28:nightshade",
-        "32:curse",
-        "36:shadowball",
-        "40:inferno",
-        "44:imprison",
-        "48:painsplit",
-        "52:overheat",
-        "56:memento",
+        "1:lowkick",
+        "1:acid",
+        "1:leer",
+        "1:leer",
+        "4:revenge",
+        "4:clearsmog",
+        "7:vacuumwave",
+        "7:sludge",
+        "10:brickbreak",
+        "10:toxicspikes",
+        "13:aurasphere",
+        "13:sludgebomb",
+        "16:focusblast",
+        "16:sludgewave",
+        "19:lowkick",
+        "19:poisonsting",
+        "22:leer",
+        "22:leer",
+        "25:revenge",
+        "25:venoshock",
+        "28:lowsweep",
+        "28:poisontail",
+        "31:brickbreak",
+        "31:toxicspikes",
+        "34:karatechop",
+        "34:sludgebomb",
+        "39:closecombat",
+        "39:poisonjab",
         "tm:terablast"
       ],
       "labels": [
-        "gen3",
-        "azure",
+        "mahal",
         "not_modeled",
-        "fakemonevolution"
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.mysticmightyena.desc"
+        "cobblemon.species.mahalianmightyena.desc"
       ],
-      "height": 10,
-      "weight": 370,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "mystic"
+        "mahalian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 9.375,
-        "height": 9.375,
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Olysosian",
+      "primaryType": "ground",
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "poochyena form=olysosian",
+      "baseScale": 0.36363636363636365,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 46,
+        "attack": 90,
+        "defence": 49,
+        "special_attack": 23,
+        "special_defence": 49,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mudslap",
+        "1:quickattack",
+        "1:growl",
+        "1:swordsdance",
+        "10:sandattack",
+        "15:mudbomb",
+        "20:bulldoze",
+        "25:dig",
+        "30:earthquake",
+        "tm:terablast"
+      ],
+      "labels": [
+        "olysos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.olysosianmightyena.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "olysosian"
+      ],
+      "evolutions": [
+        {
+          "id": "olysosianmightyena_alphayena",
+          "variant": "level_up",
+          "result": "alphayena",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "36"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "mahalian",
-    "olysosian",
+    "mystic",
     "epoch",
-    "mystic"
+    "mahalian",
+    "olysosian"
   ],
   "evolutions": [
     {

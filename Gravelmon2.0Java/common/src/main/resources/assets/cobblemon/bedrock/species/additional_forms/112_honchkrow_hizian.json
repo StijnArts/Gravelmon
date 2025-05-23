@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_77_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_77_by_72",
-      "texture": "cobblemon:textures/pokemon/generation4/hizianhonchkrow.png",
+      "texture": "cobblemon:textures/pokemon/hiza/hizianhonchkrow.png",
       "layers": [
         {
           "name": "emissive"

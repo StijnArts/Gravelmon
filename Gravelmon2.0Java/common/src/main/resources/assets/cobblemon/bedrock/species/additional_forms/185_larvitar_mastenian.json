@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_42_by_46.geo",
       "poser": "cobblemon:cutout_gravelmon_42_by_46",
-      "texture": "cobblemon:textures/pokemon/generation2/mastenianlarvitar.png",
+      "texture": "cobblemon:textures/pokemon/mastenia/mastenianlarvitar.png",
       "layers": [
         {
           "name": "emissive"

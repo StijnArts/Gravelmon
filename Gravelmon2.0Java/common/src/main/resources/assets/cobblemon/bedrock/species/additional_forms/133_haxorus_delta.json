@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_150_by_182.geo",
       "poser": "cobblemon:cutout_gravelmon_150_by_182",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahaxorus.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltahaxorus.png",
       "layers": [
         {
           "name": "emissive"

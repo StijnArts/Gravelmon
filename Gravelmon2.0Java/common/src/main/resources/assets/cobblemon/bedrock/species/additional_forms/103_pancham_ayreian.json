@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_30_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_30_by_39",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreianpancham.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpancham.png",
       "layers": [
         {
           "name": "emissive"

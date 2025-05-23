@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_94_by_82.geo",
       "poser": "cobblemon:cutout_gravelmon_94_by_82",
-      "texture": "cobblemon:textures/pokemon/generation3/aristosiantropius.png",
+      "texture": "cobblemon:textures/pokemon/aristos/aristosiantropius.png",
       "layers": [
         {
           "name": "emissive"

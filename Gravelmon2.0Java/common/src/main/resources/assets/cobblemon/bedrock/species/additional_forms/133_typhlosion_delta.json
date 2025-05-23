@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_74_by_94.geo",
       "poser": "cobblemon:cutout_gravelmon_74_by_94",
-      "texture": "cobblemon:textures/pokemon/generation2/deltatyphlosion.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltatyphlosion.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,57 +4,53 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_koffing-01",
-      "pokemon": "koffing forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "13-41",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_overworld"
-        ],
-        "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_koffing-01",
-      "pokemon": "koffing nodorran",
+      "id": "relic_koffing-01",
+      "pokemon": "koffing relic",
       "presets": [
         "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
-      "weight": 9.0,
+      "level": "12-34",
+      "weight": 2.7,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
-        "maxY": 0
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_koffing-01",
+      "pokemon": "koffing delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-33",
+      "weight": 13.5,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -81,6 +77,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_koffing-01",
+      "pokemon": "koffing forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-41",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -115,53 +139,29 @@
       }
     },
     {
-      "id": "delta_koffing-01",
-      "pokemon": "koffing delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-33",
-      "weight": 13.5,
-      "condition": {
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_koffing-01",
-      "pokemon": "koffing relic",
+      "id": "nodorran_koffing-01",
+      "pokemon": "koffing nodorran",
       "presets": [
         "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-34",
-      "weight": 2.7,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain",
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_wasteland"
-        ]
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:tuff"
           ]
         }
       }

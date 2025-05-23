@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_51.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_51",
-      "texture": "cobblemon:textures/pokemon/generation4/epochturtwig.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochturtwig.png",
       "layers": [
         {
           "name": "emissive"

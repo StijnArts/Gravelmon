@@ -4,28 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_bounsweet-01",
-      "pokemon": "bounsweet ferranian",
+      "id": "varitasian_bounsweet-01",
+      "pokemon": "bounsweet varitasian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "1-21",
+      "weight": 2.7,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:bone_block"
           ]
         }
       }
@@ -81,26 +79,28 @@
       }
     },
     {
-      "id": "varitasian_bounsweet-01",
-      "pokemon": "bounsweet varitasian",
+      "id": "ferranian_bounsweet-01",
+      "pokemon": "bounsweet ferranian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-21",
-      "weight": 2.7,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block"
+            "minecraft:moss_block"
           ]
         }
       }

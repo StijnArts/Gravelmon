@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_96_by_96.geo",
       "poser": "cobblemon:cutout_gravelmon_96_by_96",
-      "texture": "cobblemon:textures/pokemon/generation3/sandycastform.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/sandycastform.png",
       "layers": [
         {
           "name": "emissive"

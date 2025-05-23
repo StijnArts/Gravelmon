@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_154_by_144.geo",
       "poser": "cobblemon:cutout_gravelmon_154_by_144",
-      "texture": "cobblemon:textures/pokemon/generation4/eghomagnezone.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghomagnezone.png",
       "layers": [
         {
           "name": "emissive"

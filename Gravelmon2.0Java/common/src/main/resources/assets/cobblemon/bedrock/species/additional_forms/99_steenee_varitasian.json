@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_55",
-      "texture": "cobblemon:textures/pokemon/generation7/varitasiansteenee.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasiansteenee.png",
       "layers": [
         {
           "name": "emissive"

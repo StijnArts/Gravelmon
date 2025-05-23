@@ -2,6 +2,129 @@
   "target": "cobblemon:phanpy",
   "forms": [
     {
+      "name": "Africanusan",
+      "primaryType": "ground",
+      "secondaryType": "rock",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 60,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sandstorm",
+        "28:drillrun",
+        "1:tackle",
+        "12:mudshot",
+        "10:accelerock",
+        "1:odorsleuth",
+        "15:rollout",
+        "42:doubleedge",
+        "6:mudslap",
+        "1:growl",
+        "20:bulldoze",
+        "33:rocktomb",
+        "37:lastresort",
+        "egg:ancientpower",
+        "egg:bodyslam",
+        "egg:counter",
+        "egg:endeavor",
+        "egg:fissure",
+        "egg:focusenergy",
+        "egg:headsmash",
+        "egg:heavyslam",
+        "egg:iceshard",
+        "egg:mudslap",
+        "egg:snore",
+        "tm:terablast"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusanphanpy.desc"
+      ],
+      "height": 5,
+      "weight": 335,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [
+        {
+          "id": "africanusanphanpy_donphan_africanusan",
+          "variant": "level_up",
+          "result": "donphan africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "50"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Raianian",
       "primaryType": "ground",
       "secondaryType": "water",
@@ -82,6 +205,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -97,114 +221,6 @@
           "id": "raianianphanpy_donphan_raianian",
           "variant": "level_up",
           "result": "donphan raianian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "25"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "flying",
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
-      "cannotDynamax": false,
-      "abilities": [
-        "windrider"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 49,
-        "attack": 90,
-        "defence": 52,
-        "special_attack": 26,
-        "special_defence": 52,
-        "speed": 76
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:peck",
-        "1:quickattack",
-        "1:leer",
-        "1:swordsdance",
-        "4:pluck",
-        "7:wingattack",
-        "10:aerialace",
-        "13:drillpeck",
-        "16:bravebird",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanphanpy.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formanphanpy_donphan_forman",
-          "variant": "level_up",
-          "result": "donphan forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -400,19 +416,19 @@
       }
     },
     {
-      "name": "Africanusan",
-      "primaryType": "ground",
-      "secondaryType": "rock",
+      "name": "Epochtwo",
+      "primaryType": "water",
       "catchRate": 120,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 66,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.3076923076923077,
       "cannotDynamax": false,
       "abilities": [
-        "sturdy"
+        "swiftswim",
+        "liquidvoice"
       ],
       "behaviour": {
         "resting": {
@@ -424,6 +440,168 @@
         "moving": {
           "fly": {
             "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 20,
+        "defence": 50,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "14:waterpulse",
+        "41:strangesteam",
+        "57:hydropump",
+        "17:charm",
+        "23:round",
+        "17:captivate",
+        "1:supersonic",
+        "1:defensecurl",
+        "32:raindance",
+        "48:hypervoice",
+        "1:watergun",
+        "20:disarmingvoice",
+        "10:whirlpool",
+        "26:brine",
+        "44:sparklingaria",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:echoedvoice",
+        "tm:flipturn",
+        "tm:hail",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:mist",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:steameruption",
+        "tm:swift",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:flipturn",
+        "egg:echoedvoice",
+        "egg:screech",
+        "egg:playrough",
+        "egg:zenheadbutt",
+        "egg:steameruption",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochphanpyone.desc"
+      ],
+      "height": 5,
+      "weight": 335,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochphanpyone_epochtwodonphan",
+          "variant": "level_up",
+          "result": "epochtwodonphan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.4375,
+        "height": 2.4375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "flying",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.028124999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "windrider"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -441,15 +619,15 @@
         }
       },
       "baseStats": {
-        "hp": 90,
-        "attack": 60,
-        "defence": 60,
-        "special_attack": 40,
-        "special_defence": 40,
-        "speed": 40
+        "hp": 49,
+        "attack": 90,
+        "defence": 52,
+        "special_attack": 26,
+        "special_defence": 52,
+        "speed": 76
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -461,55 +639,42 @@
       ],
       "drops": {},
       "moves": [
-        "1:sandstorm",
-        "28:drillrun",
-        "1:tackle",
-        "12:mudshot",
-        "10:accelerock",
-        "1:odorsleuth",
-        "15:rollout",
-        "42:doubleedge",
-        "6:mudslap",
-        "1:growl",
-        "20:bulldoze",
-        "33:rocktomb",
-        "37:lastresort",
-        "egg:ancientpower",
-        "egg:bodyslam",
-        "egg:counter",
-        "egg:endeavor",
-        "egg:fissure",
-        "egg:focusenergy",
-        "egg:headsmash",
-        "egg:heavyslam",
-        "egg:iceshard",
-        "egg:mudslap",
-        "egg:snore",
+        "1:peck",
+        "1:quickattack",
+        "1:leer",
+        "1:swordsdance",
+        "4:pluck",
+        "7:wingattack",
+        "10:aerialace",
+        "13:drillpeck",
+        "16:bravebird",
         "tm:terablast"
       ],
       "labels": [
-        "africanus",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanphanpy.desc"
+        "cobblemon.species.formanphanpy.desc"
       ],
-      "height": 5,
-      "weight": 335,
+      "height": 6,
+      "weight": 0,
       "aspects": [
-        "africanusan"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "africanusanphanpy_donphan_africanusan",
+          "id": "formanphanpy_donphan_forman",
           "variant": "level_up",
-          "result": "donphan africanusan",
+          "result": "donphan forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "50"
+              "minLevel": "25"
             }
           ],
           "permanent": true
@@ -517,8 +682,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -682,177 +847,14 @@
         "height": 2.3125,
         "fixed": false
       }
-    },
-    {
-      "name": "Epochtwo",
-      "primaryType": "water",
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 66,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3076923076923077,
-      "cannotDynamax": false,
-      "abilities": [
-        "swiftswim",
-        "liquidvoice"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 20,
-        "defence": 50,
-        "special_attack": 65,
-        "special_defence": 65,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_2"
-      ],
-      "drops": {},
-      "moves": [
-        "14:waterpulse",
-        "41:strangesteam",
-        "57:hydropump",
-        "17:charm",
-        "23:round",
-        "17:captivate",
-        "1:supersonic",
-        "1:defensecurl",
-        "32:raindance",
-        "48:hypervoice",
-        "1:watergun",
-        "20:disarmingvoice",
-        "10:whirlpool",
-        "26:brine",
-        "44:sparklingaria",
-        "tm:acrobatics",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:brine",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:confuseray",
-        "tm:echoedvoice",
-        "tm:flipturn",
-        "tm:hail",
-        "tm:healbell",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:icebeam",
-        "tm:icefang",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:liquidation",
-        "tm:mist",
-        "tm:nastyplot",
-        "tm:playrough",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:round",
-        "tm:scald",
-        "tm:sleeptalk",
-        "tm:soak",
-        "tm:soundbarrier",
-        "tm:steameruption",
-        "tm:swift",
-        "tm:taunt",
-        "tm:toxic",
-        "tm:waterpulse",
-        "tm:whirlpool",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:flipturn",
-        "egg:echoedvoice",
-        "egg:screech",
-        "egg:playrough",
-        "egg:zenheadbutt",
-        "egg:steameruption",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochphanpyone.desc"
-      ],
-      "height": 5,
-      "weight": 335,
-      "aspects": [
-        "epochtwo"
-      ],
-      "evolutions": [
-        {
-          "id": "epochphanpyone_epochtwodonphan",
-          "variant": "level_up",
-          "result": "epochtwodonphan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "25"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.4375,
-        "height": 2.4375,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "raianian",
-    "forman",
-    "epoch",
     "africanusan",
-    "ayreian",
-    "epochtwo"
+    "raianian",
+    "epoch",
+    "epochtwo",
+    "forman",
+    "ayreian"
   ]
 }

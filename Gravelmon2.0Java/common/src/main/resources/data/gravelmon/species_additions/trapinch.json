@@ -167,129 +167,6 @@
       }
     },
     {
-      "name": "Ionosian",
-      "primaryType": "bug",
-      "secondaryType": "ground",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.23414634146341462,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:strugglebug",
-        "1:mudslap",
-        "1:stringshot",
-        "1:sandattack",
-        "10:silverwind",
-        "10:mudshot",
-        "15:signalbeam",
-        "15:mudbomb",
-        "20:infestation",
-        "20:bulldoze",
-        "25:uturn",
-        "25:scorchingsands",
-        "30:bugbuzz",
-        "30:earthpower",
-        "35:strugglebug",
-        "35:mudslap",
-        "40:stringshot",
-        "40:growl",
-        "45:leechlife",
-        "45:sandattack",
-        "50:lunge",
-        "50:mudbomb",
-        "55:xscissor",
-        "55:bulldoze",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ionos",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ionosiantrapinch.desc"
-      ],
-      "height": 4,
-      "weight": 0,
-      "aspects": [
-        "ionosian"
-      ],
-      "evolutions": [
-        {
-          "id": "ionosiantrapinch_vibrava_ionosian",
-          "variant": "level_up",
-          "result": "vibrava ionosian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "35"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.5625,
-        "height": 2.5625,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "bug",
       "secondaryType": "poison",
@@ -469,12 +346,135 @@
         "height": 2.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "Ionosian",
+      "primaryType": "bug",
+      "secondaryType": "ground",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.23414634146341462,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:mudslap",
+        "1:stringshot",
+        "1:sandattack",
+        "10:silverwind",
+        "10:mudshot",
+        "15:signalbeam",
+        "15:mudbomb",
+        "20:infestation",
+        "20:bulldoze",
+        "25:uturn",
+        "25:scorchingsands",
+        "30:bugbuzz",
+        "30:earthpower",
+        "35:strugglebug",
+        "35:mudslap",
+        "40:stringshot",
+        "40:growl",
+        "45:leechlife",
+        "45:sandattack",
+        "50:lunge",
+        "50:mudbomb",
+        "55:xscissor",
+        "55:bulldoze",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ionos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ionosiantrapinch.desc"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "ionosian"
+      ],
+      "evolutions": [
+        {
+          "id": "ionosiantrapinch_vibrava_ionosian",
+          "variant": "level_up",
+          "result": "vibrava ionosian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "35"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.5625,
+        "height": 2.5625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "ionosian",
-    "ayreian"
+    "ayreian",
+    "ionosian"
   ],
   "evolutions": [
     {

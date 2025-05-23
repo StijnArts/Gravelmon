@@ -45,13 +45,14 @@ public class LagoonanSableye extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAVY_SLAM,61)               ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 13, 37, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 13, 37, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.MINESHAFT),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Sableye");
 
     }

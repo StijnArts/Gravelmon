@@ -4,20 +4,21 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_wailord-01",
-      "pokemon": "wailord ferranian",
+      "id": "delta_wailord-01",
+      "pokemon": "wailord delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "40-62",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_snowy"
         ],
+        "isRaining": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -58,21 +59,20 @@
       }
     },
     {
-      "id": "delta_wailord-01",
-      "pokemon": "wailord delta",
+      "id": "ferranian_wailord-01",
+      "pokemon": "wailord ferranian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "40-62",
-      "weight": 1.5,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "minecraft:the_void"
         ],
-        "isRaining": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

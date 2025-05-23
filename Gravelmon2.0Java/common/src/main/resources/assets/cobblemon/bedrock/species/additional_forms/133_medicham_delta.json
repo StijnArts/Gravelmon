@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_92_by_124.geo",
       "poser": "cobblemon:cutout_gravelmon_92_by_124",
-      "texture": "cobblemon:textures/pokemon/generation3/deltamedicham.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltamedicham.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,6 +4,93 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_numel-01",
+      "pokemon": "numel cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-30",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_numel-01",
+      "pokemon": "numel delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 18.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "isRaining": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_trap_door"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norheiman_numel-01",
+      "pokemon": "numel norheiman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_numel-01",
       "pokemon": "numel epoch",
       "presets": [
@@ -66,66 +153,6 @@
       }
     },
     {
-      "id": "norheiman_numel-01",
-      "pokemon": "numel norheiman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "6-31",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_numel-01",
-      "pokemon": "numel delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 18.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "isRaining": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_trap_door"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_numel-01",
       "pokemon": "numel ayreian",
       "presets": [
@@ -148,33 +175,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_numel-01",
-      "pokemon": "numel cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-30",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
           ]
         }
       }

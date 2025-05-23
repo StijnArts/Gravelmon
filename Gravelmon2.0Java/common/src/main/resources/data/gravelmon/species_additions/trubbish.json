@@ -2,301 +2,6 @@
   "target": "cobblemon:trubbish",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "poison",
-      "secondaryType": "dark",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:acid",
-        "1:bite",
-        "1:leer",
-        "1:leer",
-        "4:clearsmog",
-        "4:payback",
-        "7:sludge",
-        "7:nightdaze",
-        "10:toxicspikes",
-        "10:snarl",
-        "13:sludgebomb",
-        "13:knockoff",
-        "16:sludgewave",
-        "16:darkpulse",
-        "19:poisonsting",
-        "19:bite",
-        "22:leer",
-        "22:leer",
-        "25:venoshock",
-        "25:payback",
-        "28:poisontail",
-        "28:nightslash",
-        "31:toxicspikes",
-        "31:crunch",
-        "34:sludgebomb",
-        "34:knockoff",
-        "39:poisonjab",
-        "39:suckerpunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mahal",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.mahaliantrubbish.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "mahalian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "electric",
-      "secondaryType": "poison",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 66,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.2823529411764706,
-      "cannotDynamax": false,
-      "abilities": [
-        "toxicdebris",
-        "h:electricsurge"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 62,
-        "attack": 40,
-        "defence": 55,
-        "special_attack": 40,
-        "special_defence": 65,
-        "speed": 67
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "33:painsplit",
-        "1:recycle",
-        "15:magnetrise",
-        "1:thundershock",
-        "41:electrify",
-        "12:paraboliccharge",
-        "30:discharge",
-        "53:acidrain",
-        "37:sludgebomb",
-        "5:electricterrain",
-        "21:toxicspikes",
-        "49:risingvoltage",
-        "18:sludge",
-        "27:corrode",
-        "tm:acidrain",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:confuseray",
-        "tm:corrosivegas",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:electricterrain",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:geomancy",
-        "tm:gunkshot",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:magnetrise",
-        "tm:memento",
-        "tm:meteorbeam",
-        "tm:mirrorshot",
-        "tm:nastyplot",
-        "tm:nobleroar",
-        "tm:payday",
-        "tm:phantomforce",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:possession",
-        "tm:protect",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:risingvoltage",
-        "tm:round",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:thunder",
-        "tm:thunderbolt",
-        "tm:thunderfang",
-        "tm:thunderpunch",
-        "tm:thunderwave",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:voltswitch",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:charge",
-        "egg:gammaray",
-        "egg:irondefense",
-        "egg:venomdrench",
-        "egg:corrosivegas",
-        "egg:chargebeam",
-        "egg:electroweb",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtrubbish.desc"
-      ],
-      "height": 6,
-      "weight": 310,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochtrubbish_garbodor_epoch",
-          "variant": "item_interact",
-          "result": "garbodor epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:thunder_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Egho",
       "primaryType": "poison",
       "secondaryType": "steel",
@@ -485,11 +190,307 @@
         "height": 6.3125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "secondaryType": "poison",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2823529411764706,
+      "cannotDynamax": false,
+      "abilities": [
+        "toxicdebris",
+        "h:electricsurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 62,
+        "attack": 40,
+        "defence": 55,
+        "special_attack": 40,
+        "special_defence": 65,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "33:painsplit",
+        "1:recycle",
+        "15:magnetrise",
+        "1:thundershock",
+        "41:electrify",
+        "12:paraboliccharge",
+        "30:discharge",
+        "53:acidrain",
+        "37:sludgebomb",
+        "5:electricterrain",
+        "21:toxicspikes",
+        "49:risingvoltage",
+        "18:sludge",
+        "27:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:electricterrain",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:payday",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:possession",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:charge",
+        "egg:gammaray",
+        "egg:irondefense",
+        "egg:venomdrench",
+        "egg:corrosivegas",
+        "egg:chargebeam",
+        "egg:electroweb",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtrubbish.desc"
+      ],
+      "height": 6,
+      "weight": 310,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochtrubbish_garbodor_epoch",
+          "variant": "item_interact",
+          "result": "garbodor epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:thunder_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "poison",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:bite",
+        "1:leer",
+        "1:leer",
+        "4:clearsmog",
+        "4:payback",
+        "7:sludge",
+        "7:nightdaze",
+        "10:toxicspikes",
+        "10:snarl",
+        "13:sludgebomb",
+        "13:knockoff",
+        "16:sludgewave",
+        "16:darkpulse",
+        "19:poisonsting",
+        "19:bite",
+        "22:leer",
+        "22:leer",
+        "25:venoshock",
+        "25:payback",
+        "28:poisontail",
+        "28:nightslash",
+        "31:toxicspikes",
+        "31:crunch",
+        "34:sludgebomb",
+        "34:knockoff",
+        "39:poisonjab",
+        "39:suckerpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahaliantrubbish.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "mahalian",
+    "egho",
     "epoch",
-    "egho"
+    "mahalian"
   ]
 }

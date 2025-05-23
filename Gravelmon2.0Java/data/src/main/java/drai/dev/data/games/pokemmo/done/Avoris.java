@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.avoris.*;
+import drai.dev.data.pokemon.avoris.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -57,14 +59,19 @@ public class Avoris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Aromaphant());
         addNewPokemon(new Madambrella(new Stats(487, StatArchetype.FAST_SPECIAL_ATTACKER, List.of())));
 //        addNewPokemon(new Shooba()); Member of Line not Finished
-        addPokedexPokemon("maractus-avorian");
+        addNewPokemon(new AvorianMaractus("", Aspect.AVORIAN));
         addNewPokemon(new Maracabre());
         addNewPokemon(new Cacotile());
         addNewPokemon(new Tankodile());
+//        addNewPokemon(new AvorianMareep(179)); Member of Line not finished
+//        addNewPokemon(new AvorianFlaaffy(180)); Member of Line not finished
         addNewPokemon(new Pyramud());
         addNewPokemon(new Pyradoom());
+//        addNewPokemon(new AvorianCetitan(975)); Member of line not finished
 //        addNewPokemon(new Smolink()); Member of Line not Finished
-        addPokedexPokemon("mimejr, mrmime-avorian");
+        addPokedexPokemon("mimejr");
+        addNewPokemon(new AvorianMrMime("", Aspect.AVORIAN));
+        addNewPokemon(new AvorianRoselia("Roselia", Aspect.AVORIAN));
     }
 
 }

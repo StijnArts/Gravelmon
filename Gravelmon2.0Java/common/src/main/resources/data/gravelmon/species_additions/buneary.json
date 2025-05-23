@@ -2,21 +2,19 @@
   "target": "cobblemon:buneary",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "cosmic",
-      "secondaryType": "ice",
+      "name": "Cefiran",
+      "primaryType": "ice",
       "catchRate": 190,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_fast",
+      "maleRatio": 0.5,
+      "baseExperienceYield": 67,
+      "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18113207547169813,
+      "baseScale": 0.18620689655172415,
       "cannotDynamax": false,
       "abilities": [
-        "costar",
-        "dancer",
-        "h:technician"
+        "slushrush",
+        "h:snowcloak"
       ],
       "behaviour": {
         "resting": {
@@ -45,120 +43,61 @@
         }
       },
       "baseStats": {
-        "hp": 55,
-        "attack": 66,
-        "defence": 44,
-        "special_attack": 85,
-        "special_defence": 44,
-        "speed": 56
+        "hp": 50,
+        "attack": 75,
+        "defence": 53,
+        "special_attack": 28,
+        "special_defence": 53,
+        "speed": 75
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 1,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 1
+        "speed": 0
       },
       "eggGroups": [
         "field"
       ],
       "drops": {},
       "moves": [
-        "20:luckychant",
-        "28:doublekick",
-        "36:jumpkick",
-        "1:babydolleyes",
         "1:powdersnow",
-        "56:tripleaxel",
-        "12:iceshard",
-        "16:cometpunch",
-        "32:moonlight",
-        "52:instruct",
-        "tm:acrobatics",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:blizzard",
-        "tm:bounce",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:charm",
-        "tm:closecombat",
-        "tm:coaching",
-        "tm:cosmicpower",
-        "tm:darkpulse",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:drainpunch",
-        "tm:focusblast",
-        "tm:frostbite",
-        "tm:gammaray",
-        "tm:hail",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:knockoff",
-        "tm:meteorbeam",
-        "tm:meteormash",
-        "tm:mist",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:payday",
-        "tm:playrough",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:round",
-        "tm:safeguard",
-        "tm:sleeptalk",
-        "tm:substitute",
-        "tm:swift",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:triattack",
-        "tm:tripleaxel",
-        "tm:weatherball",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:punishment",
-        "egg:poweruppunch",
-        "egg:covet",
-        "egg:charm",
-        "egg:captivate",
-        "egg:hail",
-        "egg:attract",
-        "egg:swordsdance",
-        "egg:foulplay",
+        "1:quickattack",
+        "1:growl",
+        "1:swordsdance",
+        "4:icywind",
+        "8:icepunch",
+        "12:icespinner",
+        "16:iceshard",
+        "20:iciclecrash",
         "tm:terablast"
       ],
       "labels": [
-        "soulstones",
+        "gen4",
+        "opal",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochbuneary.desc"
+        "cobblemon.species.cefiranbuneary.desc"
       ],
-      "height": 4,
-      "weight": 55,
+      "height": 9,
+      "weight": 505,
       "aspects": [
-        "epoch"
+        "cefiran"
       ],
       "evolutions": [
         {
-          "id": "epochbuneary_lopunny_epoch",
+          "id": "cefiranbuneary_lopunny_cefiran",
           "variant": "level_up",
-          "result": "lopunny epoch",
+          "result": "lopunny cefiran",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "level",
-              "minLevel": "32"
+              "variant": "friendship",
+              "amount": "210"
             }
           ],
           "permanent": true
@@ -166,8 +105,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
+        "width": 7.25,
+        "height": 7.25,
         "fixed": false
       }
     },
@@ -398,19 +337,21 @@
       }
     },
     {
-      "name": "Cefiran",
-      "primaryType": "ice",
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "ice",
       "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 67,
-      "experienceGroup": "slow",
+      "maleRatio": 0.0,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.18620689655172415,
+      "baseScale": 0.18113207547169813,
       "cannotDynamax": false,
       "abilities": [
-        "slushrush",
-        "h:snowcloak"
+        "costar",
+        "dancer",
+        "h:technician"
       ],
       "behaviour": {
         "resting": {
@@ -439,61 +380,120 @@
         }
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 75,
-        "defence": 53,
-        "special_attack": 28,
-        "special_defence": 53,
-        "speed": 75
+        "hp": 55,
+        "attack": 66,
+        "defence": 44,
+        "special_attack": 85,
+        "special_defence": 44,
+        "speed": 56
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 0
+        "speed": 1
       },
       "eggGroups": [
         "field"
       ],
       "drops": {},
       "moves": [
+        "20:luckychant",
+        "28:doublekick",
+        "36:jumpkick",
+        "1:babydolleyes",
         "1:powdersnow",
-        "1:quickattack",
-        "1:growl",
-        "1:swordsdance",
-        "4:icywind",
-        "8:icepunch",
-        "12:icespinner",
-        "16:iceshard",
-        "20:iciclecrash",
+        "56:tripleaxel",
+        "12:iceshard",
+        "16:cometpunch",
+        "32:moonlight",
+        "52:instruct",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bounce",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:tripleaxel",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:punishment",
+        "egg:poweruppunch",
+        "egg:covet",
+        "egg:charm",
+        "egg:captivate",
+        "egg:hail",
+        "egg:attract",
+        "egg:swordsdance",
+        "egg:foulplay",
         "tm:terablast"
       ],
       "labels": [
-        "gen4",
-        "opal",
+        "soulstones",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranbuneary.desc"
+        "cobblemon.species.epochbuneary.desc"
       ],
-      "height": 9,
-      "weight": 505,
+      "height": 4,
+      "weight": 55,
       "aspects": [
-        "cefiran"
+        "epoch"
       ],
       "evolutions": [
         {
-          "id": "cefiranbuneary_lopunny_cefiran",
+          "id": "epochbuneary_lopunny_epoch",
           "variant": "level_up",
-          "result": "lopunny cefiran",
+          "result": "lopunny epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "friendship",
-              "amount": "210"
+              "variant": "level",
+              "minLevel": "32"
             }
           ],
           "permanent": true
@@ -501,8 +501,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 7.25,
-        "height": 7.25,
+        "width": 3.3125,
+        "height": 3.3125,
         "fixed": false
       }
     },
@@ -696,9 +696,9 @@
     }
   ],
   "features": [
-    "epoch",
-    "delta",
     "cefiran",
+    "delta",
+    "epoch",
     "mikitarian"
   ]
 }

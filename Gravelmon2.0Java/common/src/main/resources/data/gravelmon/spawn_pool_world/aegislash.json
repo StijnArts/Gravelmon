@@ -4,6 +4,59 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "x_aegislash-01",
+      "pokemon": "aegislash x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-48",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "africanusan_aegislash-01",
+      "pokemon": "aegislash africanusan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "51-58",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_aegislash-01",
       "pokemon": "aegislash epoch",
       "presets": [
@@ -107,59 +160,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "africanusan_aegislash-01",
-      "pokemon": "aegislash africanusan",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "51-58",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna",
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "x_aegislash-01",
-      "pokemon": "aegislash x",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "33-48",
-      "weight": 0.8999999999999999,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

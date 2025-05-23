@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_156_by_136.geo",
       "poser": "cobblemon:cutout_gravelmon_156_by_136",
-      "texture": "cobblemon:textures/pokemon/generation3/egholudicolo.png",
+      "texture": "cobblemon:textures/pokemon/infinity/egholudicolo.png",
       "layers": [
         {
           "name": "emissive"

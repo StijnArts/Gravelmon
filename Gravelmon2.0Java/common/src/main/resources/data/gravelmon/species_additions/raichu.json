@@ -2,366 +2,6 @@
   "target": "cobblemon:raichu",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "electric",
-      "secondaryType": "fire",
-      "catchRate": 81,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 85,
-        "attack": 45,
-        "defence": 73,
-        "special_attack": 105,
-        "special_defence": 101,
-        "speed": 73
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:thundershock",
-        "1:ember",
-        "1:leer",
-        "1:growl",
-        "4:charge",
-        "4:firespin",
-        "7:shockwave",
-        "7:flamecharge",
-        "10:discharge",
-        "10:flameburst",
-        "13:thunderbolt",
-        "13:flamethrower",
-        "16:thunder",
-        "16:fireblast",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mahal",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.mahalianraichu.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "mahalian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Norse",
-      "primaryType": "fairy",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pikachu form=norse",
-      "baseScale": 0.0703125,
-      "cannotDynamax": false,
-      "abilities": [
-        "cutecharm"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 105,
-        "attack": 37,
-        "defence": 81,
-        "special_attack": 89,
-        "special_defence": 125,
-        "speed": 45
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:disarmingvoice",
-        "1:bulkup",
-        "1:babydolleyes",
-        "1:calmmind",
-        "4:drainingkiss",
-        "4:taunt",
-        "7:playnice",
-        "7:substitute",
-        "10:dazzlinggleam",
-        "10:rest",
-        "13:hypervoice",
-        "16:moonblast",
-        "tm:terablast"
-      ],
-      "labels": [
-        "raian",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.norseraichu.desc"
-      ],
-      "height": 15,
-      "weight": 0,
-      "aspects": [
-        "norse"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "sound",
-      "secondaryType": "steel",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 218,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pikachu form=epoch",
-      "baseScale": 0.2865671641791045,
-      "cannotDynamax": false,
-      "abilities": [
-        "lightningrod",
-        "h:soundproof"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 70,
-        "defence": 55,
-        "special_attack": 120,
-        "special_defence": 110,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 3
-      },
-      "eggGroups": [
-        "field",
-        "fairy"
-      ],
-      "drops": {
-        "amount": 1,
-        "entries": [
-          {
-            "item": "gravelmon:ocarina",
-            "quantityRange": "1-1",
-            "percentage": 40
-          }
-        ]
-      },
-      "moves": [
-        "24:agility",
-        "4:thundershock",
-        "56:boomburst",
-        "20:mirrorshot",
-        "8:doubleteam",
-        "1:nuzzle",
-        "36:overdrive",
-        "tm:acrobatics",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:bulkup",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:charm",
-        "tm:coaching",
-        "tm:confuseray",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:drainpunch",
-        "tm:echoedvoice",
-        "tm:electricterrain",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gyroball",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lightscreen",
-        "tm:magnetrise",
-        "tm:meteorbeam",
-        "tm:meteormash",
-        "tm:mirrorshot",
-        "tm:nastyplot",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:risingvoltage",
-        "tm:round",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:soundbarrier",
-        "tm:substitute",
-        "tm:swift",
-        "tm:tailglow",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:thunder",
-        "tm:thunderbolt",
-        "tm:thunderfang",
-        "tm:thunderpunch",
-        "tm:thunderwave",
-        "tm:toxic",
-        "tm:voltswitch",
-        "tm:wildcharge",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochraichu.desc"
-      ],
-      "height": 8,
-      "weight": 300,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.1875,
-        "height": 4.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "flying",
       "secondaryType": "fairy",
@@ -673,6 +313,268 @@
       }
     },
     {
+      "name": "Norse",
+      "primaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "pikachu form=norse",
+      "baseScale": 0.0703125,
+      "cannotDynamax": false,
+      "abilities": [
+        "cutecharm"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 37,
+        "defence": 81,
+        "special_attack": 89,
+        "special_defence": 125,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:bulkup",
+        "1:babydolleyes",
+        "1:calmmind",
+        "4:drainingkiss",
+        "4:taunt",
+        "7:playnice",
+        "7:substitute",
+        "10:dazzlinggleam",
+        "10:rest",
+        "13:hypervoice",
+        "16:moonblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "norse",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.norseraichu.desc"
+      ],
+      "height": 15,
+      "weight": 0,
+      "aspects": [
+        "norse"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "sound",
+      "secondaryType": "steel",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 218,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "pikachu form=epoch",
+      "baseScale": 0.2865671641791045,
+      "cannotDynamax": false,
+      "abilities": [
+        "lightningrod",
+        "h:soundproof"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 70,
+        "defence": 55,
+        "special_attack": 120,
+        "special_defence": 110,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:ocarina",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "24:agility",
+        "4:thundershock",
+        "56:boomburst",
+        "20:mirrorshot",
+        "8:doubleteam",
+        "1:nuzzle",
+        "36:overdrive",
+        "tm:acrobatics",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:echoedvoice",
+        "tm:electricterrain",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soundbarrier",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailglow",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochraichu.desc"
+      ],
+      "height": 8,
+      "weight": 300,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.1875,
+        "height": 4.1875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epochtwo",
       "primaryType": "fighting",
       "catchRate": 75,
@@ -826,6 +728,106 @@
       }
     },
     {
+      "name": "Mahalian",
+      "primaryType": "electric",
+      "secondaryType": "fire",
+      "catchRate": 81,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 45,
+        "defence": 73,
+        "special_attack": 105,
+        "special_defence": 101,
+        "speed": 73
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:ember",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:firespin",
+        "7:shockwave",
+        "7:flamecharge",
+        "10:discharge",
+        "10:flameburst",
+        "13:thunderbolt",
+        "13:flamethrower",
+        "16:thunder",
+        "16:fireblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianraichu.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "epoch_mega",
       "primaryType": "sound",
       "secondaryType": "steel",
@@ -854,12 +856,12 @@
     }
   ],
   "features": [
-    "mahalian",
-    "norse",
-    "epoch",
     "delta",
     "x",
+    "norse",
+    "epoch",
     "epochtwo",
+    "mahalian",
     "epoch_mega"
   ]
 }

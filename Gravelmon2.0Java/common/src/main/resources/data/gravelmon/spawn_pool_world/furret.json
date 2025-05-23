@@ -4,28 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aromian_furret-01",
-      "pokemon": "furret aromian",
+      "id": "aristosian_furret-01",
+      "pokemon": "furret aristosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "15-41",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#gravelmon:is_deciduous_forest",
+          "#cobblemon:is_lush"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:white_wool"
           ]
         }
       }
@@ -58,6 +64,32 @@
       }
     },
     {
+      "id": "epoch_furret-01",
+      "pokemon": "furret epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "19-37",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_furret-01",
       "pokemon": "furret forman",
       "presets": [
@@ -85,60 +117,28 @@
       }
     },
     {
-      "id": "epoch_furret-01",
-      "pokemon": "furret epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "19-37",
-      "weight": 1.0499999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "aristosian_furret-01",
-      "pokemon": "furret aristosian",
+      "id": "aromian_furret-01",
+      "pokemon": "furret aromian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-41",
-      "weight": 1.5,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest",
-          "#cobblemon:is_lush"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:packed_ice"
           ]
         }
       }

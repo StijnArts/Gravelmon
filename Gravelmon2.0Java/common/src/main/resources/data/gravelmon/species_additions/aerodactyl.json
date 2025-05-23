@@ -157,7 +157,7 @@
       "name": "ayreian_mega",
       "primaryType": "grass",
       "secondaryType": "rock",
-      "baseScale": 22.799999999999997,
+      "baseScale": 0.5010989010989011,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

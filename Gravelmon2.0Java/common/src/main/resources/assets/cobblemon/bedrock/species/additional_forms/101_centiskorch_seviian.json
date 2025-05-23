@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
       "poser": "cobblemon:cutout_gravelmon_64_by_64",
-      "texture": "cobblemon:textures/pokemon/generation8/seviiancentiskorch.png",
+      "texture": "cobblemon:textures/pokemon/sevii/seviiancentiskorch.png",
       "layers": [
         {
           "name": "emissive"

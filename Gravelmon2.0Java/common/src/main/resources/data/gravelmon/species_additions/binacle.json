@@ -2,6 +2,133 @@
   "target": "cobblemon:binacle",
   "forms": [
     {
+      "name": "Lagoonan",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 61,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.21052631578947367,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 42,
+        "attack": 52,
+        "defence": 67,
+        "special_attack": 56,
+        "special_defence": 39,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:ember",
+        "1:growl",
+        "1:growl",
+        "4:confuseray",
+        "4:firespin",
+        "7:ominouswind",
+        "7:flamecharge",
+        "10:nightshade",
+        "10:flameburst",
+        "13:hex",
+        "13:flamethrower",
+        "16:shadowball",
+        "16:fireblast",
+        "19:lick",
+        "19:ember",
+        "22:growl",
+        "22:growl",
+        "25:confuseray",
+        "25:quickattack",
+        "28:hex",
+        "28:flamecharge",
+        "31:shadowclaw",
+        "31:firepunch",
+        "34:phantomforce",
+        "34:willowisp",
+        "39:poltergeist",
+        "39:flareblitz",
+        "tm:terablast"
+      ],
+      "labels": [
+        "lagoone",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.lagoonanbinacle.desc"
+      ],
+      "height": 5,
+      "weight": 310,
+      "aspects": [
+        "lagoonan"
+      ],
+      "evolutions": [
+        {
+          "id": "lagoonanbinacle_barbaracle_lagoonan",
+          "variant": "level_up",
+          "result": "barbaracle lagoonan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "41"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5625,
+        "height": 3.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "rock",
       "secondaryType": "psychic",
@@ -181,133 +308,6 @@
       }
     },
     {
-      "name": "Lagoonan",
-      "primaryType": "ghost",
-      "secondaryType": "fire",
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 61,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.21052631578947367,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 42,
-        "attack": 52,
-        "defence": 67,
-        "special_attack": 56,
-        "special_defence": 39,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_3"
-      ],
-      "drops": {},
-      "moves": [
-        "1:lick",
-        "1:ember",
-        "1:growl",
-        "1:growl",
-        "4:confuseray",
-        "4:firespin",
-        "7:ominouswind",
-        "7:flamecharge",
-        "10:nightshade",
-        "10:flameburst",
-        "13:hex",
-        "13:flamethrower",
-        "16:shadowball",
-        "16:fireblast",
-        "19:lick",
-        "19:ember",
-        "22:growl",
-        "22:growl",
-        "25:confuseray",
-        "25:quickattack",
-        "28:hex",
-        "28:flamecharge",
-        "31:shadowclaw",
-        "31:firepunch",
-        "34:phantomforce",
-        "34:willowisp",
-        "39:poltergeist",
-        "39:flareblitz",
-        "tm:terablast"
-      ],
-      "labels": [
-        "lagoone",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.lagoonanbinacle.desc"
-      ],
-      "height": 5,
-      "weight": 310,
-      "aspects": [
-        "lagoonan"
-      ],
-      "evolutions": [
-        {
-          "id": "lagoonanbinacle_barbaracle_lagoonan",
-          "variant": "level_up",
-          "result": "barbaracle lagoonan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "41"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.5625,
-        "height": 3.5625,
-        "fixed": false
-      }
-    },
-    {
       "name": "Vesitan",
       "primaryType": "rock",
       "secondaryType": "ground",
@@ -432,8 +432,8 @@
     }
   ],
   "features": [
-    "epoch",
     "lagoonan",
+    "epoch",
     "vesitan"
   ]
 }

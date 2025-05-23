@@ -4,29 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_tentacruel-01",
-      "pokemon": "tentacruel epoch",
+      "id": "relic_tentacruel-01",
+      "pokemon": "tentacruel relic",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "31-53",
-      "weight": 1.7999999999999998,
+      "level": "30-47",
+      "weight": 1.35,
       "condition": {
         "biomes": [
-          "#minecraft:is_deep_ocean",
-          "#minecraft:is_end"
+          "#minecraft:is_ocean"
         ],
-        "timeRange": "night",
-        "maxY": 32
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "maxY": 30
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:prismarine"
           ]
         }
       }
@@ -59,6 +64,34 @@
       }
     },
     {
+      "id": "epoch_tentacruel-01",
+      "pokemon": "tentacruel epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "31-53",
+      "weight": 1.7999999999999998,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean",
+          "#minecraft:is_end"
+        ],
+        "timeRange": "night",
+        "maxY": 32
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:purpur"
+          ]
+        }
+      }
+    },
+    {
       "id": "hoennian_tentacruel-01",
       "pokemon": "tentacruel hoennian",
       "presets": [
@@ -81,39 +114,6 @@
         "biomes": [
           "#cobblemon:is_cold",
           "#cobblemon:is_freezing"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_tentacruel-01",
-      "pokemon": "tentacruel relic",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "30-47",
-      "weight": 1.35,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "maxY": 30
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
         ]
       },
       "weightMultiplier": {

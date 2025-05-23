@@ -2,16 +2,16 @@
   "target": "cobblemon:seel",
   "forms": [
     {
-      "name": "Fabelian",
+      "name": "Norheiman",
       "primaryType": "water",
-      "secondaryType": "psychic",
-      "catchRate": 255,
-      "maleRatio": 0.5,
+      "secondaryType": "fairy",
+      "catchRate": 190,
+      "maleRatio": 0.87,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.3054545454545454,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -43,124 +43,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:watergun",
-        "1:confusion",
-        "1:tailwhip",
-        "1:growl",
-        "4:bubblebeam",
-        "4:psybeam",
-        "7:brine",
-        "7:futuresight",
-        "10:surf",
-        "10:psychic",
-        "13:chillingwater",
-        "13:psyshock",
-        "16:hydropump",
-        "16:psychoboost",
-        "19:watergun",
-        "19:confusion",
-        "22:tailwhip",
-        "22:growl",
-        "25:bubblebeam",
-        "25:psybeam",
-        "28:aquatail",
-        "28:futuresight",
-        "31:surf",
-        "31:psychic",
-        "34:waterfall",
-        "34:zenheadbutt",
-        "39:liquidation",
-        "39:psychocut",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.fabelianseel.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "fighting",
-      "catchRate": 220,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.06562499999999999,
-      "cannotDynamax": false,
-      "abilities": [
-        "guts"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 72,
-        "attack": 74,
-        "defence": 72,
-        "special_attack": 25,
+        "hp": 58,
+        "attack": 30,
+        "defence": 50,
+        "special_attack": 72,
         "special_defence": 55,
-        "speed": 30
+        "speed": 63
       },
       "evYield": {
         "hp": 0,
@@ -175,45 +63,49 @@
       ],
       "drops": {},
       "moves": [
-        "1:lowkick",
-        "1:drainpunch",
-        "1:leer",
-        "1:bulkup",
-        "4:revenge",
-        "4:calmmind",
-        "7:lowsweep",
-        "7:taunt",
-        "10:brickbreak",
-        "10:substitute",
-        "13:karatechop",
-        "13:rest",
-        "16:closecombat",
+        "1:echoedvoice",
+        "1:growl",
+        "5:bubble",
+        "8:disarmingvoice",
+        "13:sing",
+        "15:whirlpool",
+        "20:drainingkiss",
+        "22:charm",
+        "27:bubblebeam",
+        "29:lifedew",
+        "34:brine",
+        "36:calmmind",
+        "41:hypervoice",
+        "43:sparklingaria",
+        "48:raindance",
+        "50:moonblast",
+        "55:perishsong",
+        "57:hydropump",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanseel.desc"
+        "cobblemon.species.norheimanseel.desc"
       ],
-      "height": 14,
-      "weight": 0,
+      "height": 7,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
       "evolutions": [
         {
-          "id": "formanseel_leomach",
+          "id": "norheimanseel_sealady",
           "variant": "level_up",
-          "result": "leomach",
+          "result": "sealady",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "38"
+              "minLevel": "35"
             }
           ],
           "permanent": true
@@ -221,8 +113,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 3.4375,
+        "height": 3.4375,
         "fixed": false
       }
     },
@@ -413,19 +305,18 @@
       }
     },
     {
-      "name": "Qamoran",
-      "primaryType": "water",
-      "secondaryType": "grass",
-      "catchRate": 190,
+      "name": "Forman",
+      "primaryType": "fighting",
+      "catchRate": 220,
       "maleRatio": 0.5,
-      "baseExperienceYield": 65,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.46153846153846156,
+      "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
-        "waterbubble"
+        "guts"
       ],
       "behaviour": {
         "resting": {
@@ -454,125 +345,12 @@
         }
       },
       "baseStats": {
-        "hp": 65,
-        "attack": 45,
-        "defence": 70,
-        "special_attack": 45,
+        "hp": 72,
+        "attack": 74,
+        "defence": 72,
+        "special_attack": 25,
         "special_defence": 55,
-        "speed": 45
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1",
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:headbutt",
-        "1:absorb",
-        "3:growl",
-        "11:leechseed",
-        "13:encore",
-        "17:magicalleaf",
-        "21:rest",
-        "23:lifedew",
-        "27:synthesis",
-        "31:aquajet",
-        "33:brine",
-        "37:takedown",
-        "41:dive",
-        "43:aquatail",
-        "47:soak",
-        "51:safeguard",
-        "53:leafstorm",
-        "tm:terablast"
-      ],
-      "labels": [
-        "qamor",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.qamoranseel.desc"
-      ],
-      "height": 10,
-      "weight": 165,
-      "aspects": [
-        "qamoran"
-      ],
-      "evolutions": [
-        {
-          "id": "qamoranseel_dewgong_qamoran",
-          "variant": "item_interact",
-          "result": "dewgong qamoran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:water_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.25,
-        "height": 3.25,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Norheiman",
-      "primaryType": "water",
-      "secondaryType": "fairy",
-      "catchRate": 190,
-      "maleRatio": 0.87,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3054545454545454,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 58,
-        "attack": 30,
-        "defence": 50,
-        "special_attack": 72,
-        "special_defence": 55,
-        "speed": 63
+        "speed": 30
       },
       "evYield": {
         "hp": 0,
@@ -587,49 +365,46 @@
       ],
       "drops": {},
       "moves": [
-        "1:echoedvoice",
-        "1:growl",
-        "5:bubble",
-        "8:disarmingvoice",
-        "13:sing",
-        "15:whirlpool",
-        "20:drainingkiss",
-        "22:charm",
-        "27:bubblebeam",
-        "29:lifedew",
-        "34:brine",
-        "36:calmmind",
-        "41:hypervoice",
-        "43:sparklingaria",
-        "48:raindance",
-        "50:moonblast",
-        "55:perishsong",
-        "57:hydropump",
+        "1:lowkick",
+        "1:drainpunch",
+        "1:leer",
+        "1:bulkup",
+        "4:revenge",
+        "4:calmmind",
+        "7:lowsweep",
+        "7:taunt",
+        "10:brickbreak",
+        "10:substitute",
+        "13:karatechop",
+        "13:rest",
+        "16:closecombat",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanseel.desc"
+        "cobblemon.species.formanseel.desc"
       ],
-      "height": 7,
-      "weight": 165,
+      "height": 14,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "norheimanseel_sealady",
+          "id": "formanseel_leomach",
           "variant": "level_up",
-          "result": "sealady",
+          "result": "leomach",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "35"
+              "minLevel": "38"
             }
           ],
           "permanent": true
@@ -637,8 +412,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.4375,
-        "height": 3.4375,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -778,14 +553,241 @@
         "height": 3.375,
         "fixed": false
       }
+    },
+    {
+      "name": "Qamoran",
+      "primaryType": "water",
+      "secondaryType": "grass",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 65,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.46153846153846156,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterbubble"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 45,
+        "defence": 70,
+        "special_attack": 45,
+        "special_defence": 55,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:headbutt",
+        "1:absorb",
+        "3:growl",
+        "11:leechseed",
+        "13:encore",
+        "17:magicalleaf",
+        "21:rest",
+        "23:lifedew",
+        "27:synthesis",
+        "31:aquajet",
+        "33:brine",
+        "37:takedown",
+        "41:dive",
+        "43:aquatail",
+        "47:soak",
+        "51:safeguard",
+        "53:leafstorm",
+        "tm:terablast"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamoranseel.desc"
+      ],
+      "height": 10,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [
+        {
+          "id": "qamoranseel_dewgong_qamoran",
+          "variant": "item_interact",
+          "result": "dewgong qamoran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:confusion",
+        "1:tailwhip",
+        "1:growl",
+        "4:bubblebeam",
+        "4:psybeam",
+        "7:brine",
+        "7:futuresight",
+        "10:surf",
+        "10:psychic",
+        "13:chillingwater",
+        "13:psyshock",
+        "16:hydropump",
+        "16:psychoboost",
+        "19:watergun",
+        "19:confusion",
+        "22:tailwhip",
+        "22:growl",
+        "25:bubblebeam",
+        "25:psybeam",
+        "28:aquatail",
+        "28:futuresight",
+        "31:surf",
+        "31:psychic",
+        "34:waterfall",
+        "34:zenheadbutt",
+        "39:liquidation",
+        "39:psychocut",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianseel.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "fabelian",
-    "forman",
-    "epoch",
-    "qamoran",
     "norheiman",
-    "hoennian"
+    "epoch",
+    "forman",
+    "hoennian",
+    "qamoran",
+    "fabelian"
   ]
 }

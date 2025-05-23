@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:xatu-ionosian",
+  "speciesId": "cobblemon:xatu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

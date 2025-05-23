@@ -2,19 +2,123 @@
   "target": "cobblemon:sableye",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "rock",
-      "secondaryType": "dark",
-      "catchRate": 255,
+      "name": "Lagoonan",
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "catchRate": 45,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "baseExperienceYield": 133,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.21818181818181817,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 95,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:superpower",
+        "1:sandstorm",
+        "1:scratch",
+        "1:howl",
+        "4:leer",
+        "7:taunt",
+        "10:pursuit",
+        "13:furyswipes",
+        "16:honeclaws",
+        "19:bite",
+        "23:odorsleuth",
+        "25:metalclaw",
+        "28:sandattack",
+        "33:feintattack",
+        "38:shieldbash",
+        "43:suckerpunch",
+        "49:stealthrock",
+        "55:irontail",
+        "61:heavyslam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "lagoone",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.lagoonansableye.desc"
+      ],
+      "height": 5,
+      "weight": 600,
+      "aspects": [
+        "lagoonan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Cefiran",
+      "primaryType": "dark",
+      "secondaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 133,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1276595744680851,
+      "cannotDynamax": false,
+      "abilities": [
+        "hustle",
+        "h:prankster"
       ],
       "behaviour": {
         "resting": {
@@ -43,74 +147,266 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 50,
+        "attack": 95,
+        "defence": 75,
+        "special_attack": 80,
+        "special_defence": 65,
+        "speed": 65
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
-        "defence": 0,
+        "attack": 1,
+        "defence": 1,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "human_like"
       ],
       "drops": {},
       "moves": [
-        "1:rockthrow",
-        "1:bite",
-        "1:defensecurl",
         "1:leer",
-        "4:rollout",
-        "4:payback",
-        "7:ancientpower",
-        "7:nightdaze",
-        "10:powergem",
-        "10:snarl",
-        "13:stealthrock",
-        "13:knockoff",
-        "16:meteorbeam",
-        "16:darkpulse",
-        "19:rockthrow",
-        "19:bite",
-        "22:defensecurl",
-        "22:leer",
-        "25:rollout",
-        "25:payback",
-        "28:smackdown",
-        "28:nightslash",
-        "31:rockblast",
-        "31:crunch",
-        "34:stealthrock",
-        "34:knockoff",
-        "39:stoneedge",
-        "39:suckerpunch",
+        "1:scratch",
+        "4:foresight",
+        "8:mudshot",
+        "11:astonish",
+        "15:furyswipes",
+        "18:fakeout",
+        "22:detect",
+        "25:rocktomb",
+        "29:knockoff",
+        "32:feintattack",
+        "39:rockslide",
+        "43:powergem",
+        "46:confuseray",
+        "53:nightslash",
+        "57:earthquake",
+        "60:meanlook",
+        "egg:captivate",
+        "egg:feint",
+        "egg:flatter",
+        "egg:meanlook",
+        "egg:metalburst",
+        "egg:moonlight",
+        "egg:nastyplot",
+        "egg:recover",
+        "egg:suckerpunch",
+        "egg:trick",
         "tm:terablast"
       ],
       "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
+        "gen3",
+        "opal",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansableye.desc"
+        "cobblemon.species.cefiransableye.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 5,
+      "weight": 110,
       "aspects": [
-        "fabelian"
+        "cefiran"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 5.875000000000001,
+        "height": 5.875000000000001,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "fire",
+      "secondaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 199,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.65,
+      "cannotDynamax": false,
+      "abilities": [
+        "solidrock",
+        "weakarmor",
+        "h:unburden"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 75,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:pound",
+        "4:glare",
+        "6:rockthrow",
+        "9:ember",
+        "11:barrage",
+        "14:detect",
+        "16:rocktomb",
+        "19:incinerate",
+        "21:fakeout",
+        "24:rockblast",
+        "26:knockoff",
+        "29:firepunch",
+        "31:willowisp",
+        "34:fling",
+        "36:rocksmash",
+        "39:inferno",
+        "41:rockslide",
+        "44:fierydance",
+        "46:meanlook",
+        "tm:honeclaws",
+        "tm:bulldoze",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:flamethrower",
+        "tm:sandstorm",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:overheat",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:willowisp",
+        "tm:shadowclaw",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:rockpolish",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:swordsdance",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:quash",
+        "tm:spikes",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:cut",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:ancientpower",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:counter",
+        "tutor:covet",
+        "tutor:dig",
+        "tutor:dynamicpunch",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:fakeout",
+        "tutor:firepunch",
+        "tutor:focuspunch",
+        "tutor:foulplay",
+        "tutor:heatwave",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:metronome",
+        "tutor:mimic",
+        "tutor:seismictoss",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:stealthrock",
+        "tutor:trick",
+        "tutor:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltasableye.desc"
+      ],
+      "height": 5,
+      "weight": 110,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.2,
         "fixed": false
       }
     },
@@ -617,21 +913,19 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "fire",
-      "secondaryType": "rock",
-      "catchRate": 45,
+      "name": "Fabelian",
+      "primaryType": "rock",
+      "secondaryType": "dark",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 199,
-      "experienceGroup": "medium_slow",
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.65,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "solidrock",
-        "weakarmor",
-        "h:unburden"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -660,265 +954,75 @@
         }
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 75,
-        "defence": 75,
-        "special_attack": 65,
-        "special_defence": 65,
-        "speed": 50
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
-        "defence": 1,
+        "attack": 0,
+        "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "undiscovered"
+        "field"
       ],
       "drops": {},
       "moves": [
+        "1:rockthrow",
+        "1:bite",
+        "1:defensecurl",
         "1:leer",
-        "1:pound",
-        "4:glare",
-        "6:rockthrow",
-        "9:ember",
-        "11:barrage",
-        "14:detect",
-        "16:rocktomb",
-        "19:incinerate",
-        "21:fakeout",
-        "24:rockblast",
-        "26:knockoff",
-        "29:firepunch",
-        "31:willowisp",
-        "34:fling",
-        "36:rocksmash",
-        "39:inferno",
-        "41:rockslide",
-        "44:fierydance",
-        "46:meanlook",
-        "tm:honeclaws",
-        "tm:bulldoze",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:snatch",
-        "tm:frustration",
-        "tm:earthquake",
-        "tm:return",
-        "tm:dig",
-        "tm:brickbreak",
-        "tm:doubleteam",
-        "tm:reflect",
-        "tm:flamethrower",
-        "tm:sandstorm",
-        "tm:fireblast",
-        "tm:rocktomb",
-        "tm:torment",
-        "tm:facade",
-        "tm:flamecharge",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:overheat",
-        "tm:focusblast",
-        "tm:falseswipe",
-        "tm:fling",
-        "tm:willowisp",
-        "tm:shadowclaw",
-        "tm:payback",
-        "tm:gigaimpact",
-        "tm:rockpolish",
-        "tm:stoneedge",
-        "tm:gyroball",
-        "tm:swordsdance",
-        "tm:rockslide",
-        "tm:swagger",
-        "tm:poweruppunch",
-        "tm:substitute",
-        "tm:smackdown",
-        "tm:sleeptalk",
-        "tm:achillesheel",
-        "tm:incinerate",
-        "tm:round",
-        "tm:captivate",
-        "tm:snarl",
-        "tm:confide",
-        "tm:quash",
-        "tm:spikes",
-        "tm:secretpower",
-        "tm:rockclimb",
-        "tm:rocksmash",
-        "tm:cut",
-        "tm:strength",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:ancientpower",
-        "tutor:block",
-        "tutor:bodyslam",
-        "tutor:counter",
-        "tutor:covet",
-        "tutor:dig",
-        "tutor:dynamicpunch",
-        "tutor:earthpower",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:fakeout",
-        "tutor:firepunch",
-        "tutor:focuspunch",
-        "tutor:foulplay",
-        "tutor:heatwave",
-        "tutor:irondefense",
-        "tutor:ironhead",
-        "tutor:knockoff",
-        "tutor:megakick",
-        "tutor:megapunch",
-        "tutor:metronome",
-        "tutor:mimic",
-        "tutor:seismictoss",
-        "tutor:snore",
-        "tutor:spite",
-        "tutor:stealthrock",
-        "tutor:trick",
-        "tutor:zenheadbutt",
+        "4:rollout",
+        "4:payback",
+        "7:ancientpower",
+        "7:nightdaze",
+        "10:powergem",
+        "10:snarl",
+        "13:stealthrock",
+        "13:knockoff",
+        "16:meteorbeam",
+        "16:darkpulse",
+        "19:rockthrow",
+        "19:bite",
+        "22:defensecurl",
+        "22:leer",
+        "25:rollout",
+        "25:payback",
+        "28:smackdown",
+        "28:nightslash",
+        "31:rockblast",
+        "31:crunch",
+        "34:stealthrock",
+        "34:knockoff",
+        "39:stoneedge",
+        "39:suckerpunch",
         "tm:terablast"
       ],
       "labels": [
-        "gen1",
-        "insurgence"
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.deltasableye.desc"
+        "cobblemon.species.fabeliansableye.desc"
       ],
-      "height": 5,
-      "weight": 110,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "delta"
+        "fabelian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 1.2,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Cefiran",
-      "primaryType": "dark",
-      "secondaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 133,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1276595744680851,
-      "cannotDynamax": false,
-      "abilities": [
-        "hustle",
-        "h:prankster"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 95,
-        "defence": 75,
-        "special_attack": 80,
-        "special_defence": 65,
-        "speed": 65
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leer",
-        "1:scratch",
-        "4:foresight",
-        "8:mudshot",
-        "11:astonish",
-        "15:furyswipes",
-        "18:fakeout",
-        "22:detect",
-        "25:rocktomb",
-        "29:knockoff",
-        "32:feintattack",
-        "39:rockslide",
-        "43:powergem",
-        "46:confuseray",
-        "53:nightslash",
-        "57:earthquake",
-        "60:meanlook",
-        "egg:captivate",
-        "egg:feint",
-        "egg:flatter",
-        "egg:meanlook",
-        "egg:metalburst",
-        "egg:moonlight",
-        "egg:nastyplot",
-        "egg:recover",
-        "egg:suckerpunch",
-        "egg:trick",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "opal",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.cefiransableye.desc"
-      ],
-      "height": 5,
-      "weight": 110,
-      "aspects": [
-        "cefiran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.875000000000001,
-        "height": 5.875000000000001,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -1005,12 +1109,13 @@
     }
   ],
   "features": [
-    "fabelian",
+    "lagoonan",
+    "cefiran",
+    "delta",
     "epoch",
     "epochtwo",
     "enjinnian",
-    "delta",
-    "cefiran",
+    "fabelian",
     "delta_mega",
     "epoch_mega",
     "epochtwo_mega"

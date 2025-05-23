@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_73_by_70.geo",
       "poser": "cobblemon:cutout_gravelmon_73_by_70",
-      "texture": "cobblemon:textures/pokemon/generation7/tapufinix.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/tapufinix.png",
       "layers": [
         {
           "name": "emissive"

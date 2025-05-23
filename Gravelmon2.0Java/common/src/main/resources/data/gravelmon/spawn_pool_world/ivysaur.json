@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_ivysaur-01",
-      "pokemon": "ivysaur epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "16-40",
-      "weight": 5.4,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freezing"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
       "id": "egho_ivysaur-01",
       "pokemon": "ivysaur egho",
       "presets": [
@@ -81,6 +54,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_ivysaur-01",
+      "pokemon": "ivysaur epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 5.4,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
           ]
         }
       }

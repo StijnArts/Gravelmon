@@ -1,7 +1,10 @@
 package drai.dev.data.games.other;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.blazingemerald.*;
+import drai.dev.data.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class BlazingEmerald extends Game {
     public static final Game INSTANCE = new BlazingEmerald();
@@ -11,6 +14,7 @@ public class BlazingEmerald extends Game {
 
     @Override
     public void registerPokemon() {
+
         addPokedexPokemon(
                 "eevee," +
                         "vaporeon," +
@@ -22,30 +26,61 @@ public class BlazingEmerald extends Game {
                         "glaceon," +
                         "sylveon");
         addNewPokemon(new Oreon());
-        addPokedexPokemon("venonat-hoennian");
+        addNewPokemon(new HoennianVenonat("", Aspect.HOENNIAN));
         addNewPokemon(new Muramoth());
         addNewPokemon(new Lucemoth());
         addPokedexPokemon("weedle, kakuna, beedrill");
         addNewPokemon(new Drilladin());
-        addPokedexPokemon("dunsparce-hoennian");
+        addNewPokemon(new HoennianDunsparce("Dunsparce", Aspect.HOENNIAN));
         addNewPokemon(new Drasparath());
-        addPokedexPokemon("mareanie-hoennian, toxapex-hoennian, farfetchd");
+        addNewPokemon(new HoennianMareanie("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianToxapex("", Aspect.HOENNIAN));
+        addPokedexPokemon("farfetchd");
         addNewPokemon(new Mallarki());
-        addPokedexPokemon("pinsir-hoennian, teddiursa-hoennian, ursaring-hoennian, doduo, dodrio-hoennian, " +
-                "skarmory-hoennian, tynamo-hoennian, eelektrik-hoennian, eelektross-hoennian, maractus-hoennian, seviper");
+        addNewPokemon(new HoennianPinsir("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianTeddiursa("Teddiursa", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianUrsaring("Ursaring", Aspect.HOENNIAN));
+        addPokedexPokemon("doduo");
+        addNewPokemon(new HoennianDodrio("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianSkarmory("Skarmory", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianTynamo("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianEelektrik("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianEelektross("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianMaractus("", Aspect.HOENNIAN));
+        addPokedexPokemon("seviper");
         addNewPokemon(new Silviper());
         addPokedexPokemon("zangoose");
         addNewPokemon(new Zangoro());
-        addPokedexPokemon("tangela-hoennian, tangrowth-hoennian, pawniard-hoennian, bisharp-hoennian, solosis-hoennian, duosion-hoennian, reuniclus-hoennian, goomy-hoennian");
+        addNewPokemon(new HoennianTangela("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianTangrowth("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianPawniard("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianBisharp("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianSolosis("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDuosion("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianReuniclus("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianGoomy("Goomy", Aspect.HOENNIAN));
         addNewPokemon(new Goolossal());
-        addPokedexPokemon("shuckle-hoennian, emolga-hoennian, onix-hoennian");
+        addNewPokemon(new HoennianShuckle("Shuckle", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianEmolga("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianOnix("", Aspect.HOENNIAN));
         addNewPokemon(new Chrysalix());
-        addPokedexPokemon("tentacool-hoennian, tentacruel-hoennian, seel-hoennian, dewgong-hoennian, chinchou-hoennian, lanturn-hoennian, qwilfish-hoennian, remoraid, octillery");
+        addNewPokemon(new HoennianTentacool("", Aspect.HOENNIAN).createFishingSpawn(SpawnPool.COMMON, 9, 34, 5.4));
+        addNewPokemon(new HoennianTentacruel("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianSeel("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDewgong("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianChinchou("Chinchou", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianLanturn("Lanturn", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianQwilfish("Qwilfish", Aspect.HOENNIAN));
+        addPokedexPokemon("remoraid, octillery");
         addNewPokemon(new Slingray());
         addNewPokemon(new Bawlfrog());
-        addPokedexPokemon("dreepy-hoennian, drakloak-hoennian, dragapult-hoennian, regigigas-hoennian");
+        addNewPokemon(new HoennianDreepy("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDrakloak("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianDragapult("", Aspect.HOENNIAN));
+        addNewPokemon(new HoennianRegigigas("", Aspect.HOENNIAN));
         addNewPokemon(new Vitellion());
         addNewPokemon(new Crawb());
         addNewPokemon(new Metunn());
+
     }
 }

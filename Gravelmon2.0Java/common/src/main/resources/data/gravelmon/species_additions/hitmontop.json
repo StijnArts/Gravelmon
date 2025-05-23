@@ -2,20 +2,21 @@
   "target": "cobblemon:hitmontop",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "fighting",
-      "secondaryType": "water",
+      "name": "Varitasian",
+      "primaryType": "psychic",
       "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 159,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tyrogue form=forman",
-      "baseScale": 0.0703125,
+      "preEvolution": "tyrogue form=varitasian",
+      "baseScale": 0.46027397260273967,
       "cannotDynamax": false,
       "abilities": [
-        "drizzle"
+        "intimidate",
+        "technician",
+        "h:steadfast"
       ],
       "behaviour": {
         "resting": {
@@ -38,96 +39,129 @@
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
+            "canBreatheUnderwater": false,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 61,
-        "attack": 79,
-        "defence": 76,
-        "special_attack": 57,
-        "special_defence": 61,
-        "speed": 110
+        "hp": 50,
+        "attack": 35,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 110,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 0,
+        "special_defence": 2,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "human_like"
       ],
       "drops": {},
       "moves": [
-        "1:lowkick",
-        "1:watergun",
-        "1:coaching",
-        "1:healbell",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:tailwhip",
-        "1:healbell",
-        "1:wish",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:revenge",
-        "4:bubblebeam",
-        "4:wish",
-        "4:quickattack",
-        "4:flipturn",
-        "7:vacuumwave",
-        "7:brine",
-        "7:swordsdance",
-        "7:quickattack",
-        "10:brickbreak",
-        "10:surf",
-        "10:swordsdance",
-        "13:aurasphere",
-        "13:chillingwater",
-        "16:focusblast",
-        "16:hydropump",
-        "19:lowkick",
-        "19:watergun",
-        "22:leer",
-        "22:tailwhip",
-        "25:revenge",
-        "25:bubblebeam",
-        "28:lowsweep",
-        "28:aquatail",
-        "31:brickbreak",
-        "31:surf",
-        "34:karatechop",
-        "34:waterfall",
-        "39:closecombat",
-        "39:liquidation",
+        "1:closecombat",
+        "6:focusenergy",
+        "10:pursuit",
+        "15:quickattack",
+        "19:rapidspin",
+        "24:feint",
+        "28:counter",
+        "33:triplekick",
+        "37:agility",
+        "42:gyroball",
+        "46:quickguard",
+        "50:detect",
+        "55:closecombat",
+        "60:endeavor",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:helpinghand",
+        "tm:roleplay",
+        "tm:endeavor",
+        "tm:covet",
+        "tm:laserfocus",
+        "tm:coaching",
+        "tm:tripleaxel",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:aerialace",
+        "tm:bulkup",
+        "tm:gyroball",
+        "tm:stoneedge",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:workup",
+        "tm:confide",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:swift",
+        "tm:horndrill",
+        "tm:takedown",
+        "tm:submission",
+        "tm:skullbash",
+        "tm:counter",
+        "tm:highjumpkick",
+        "tm:mindreader",
+        "tm:machpunch",
+        "tm:endure",
+        "tm:pursuit",
+        "tm:rapidspin",
+        "tm:feint",
+        "tm:vacuumwave",
+        "tm:bulletpunch",
         "tm:terablast"
       ],
       "labels": [
-        "form",
+        "varitas",
         "not_modeled",
         "fakemon",
-        "fakemonevolution",
-        "instagram"
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanhitmontop.desc"
+        "cobblemon.species.varitasianhitmontop.desc"
       ],
-      "height": 15,
-      "weight": 0,
+      "height": 14,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "varitasian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.5625,
+        "height": 4.5625,
         "fixed": false
       }
     },
@@ -299,6 +333,137 @@
       }
     },
     {
+      "name": "Forman",
+      "primaryType": "fighting",
+      "secondaryType": "water",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "tyrogue form=forman",
+      "baseScale": 0.0703125,
+      "cannotDynamax": false,
+      "abilities": [
+        "drizzle"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 61,
+        "attack": 79,
+        "defence": 76,
+        "special_attack": 57,
+        "special_defence": 61,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lowkick",
+        "1:watergun",
+        "1:coaching",
+        "1:healbell",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:tailwhip",
+        "1:healbell",
+        "1:wish",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:revenge",
+        "4:bubblebeam",
+        "4:wish",
+        "4:quickattack",
+        "4:flipturn",
+        "7:vacuumwave",
+        "7:brine",
+        "7:swordsdance",
+        "7:quickattack",
+        "10:brickbreak",
+        "10:surf",
+        "10:swordsdance",
+        "13:aurasphere",
+        "13:chillingwater",
+        "16:focusblast",
+        "16:hydropump",
+        "19:lowkick",
+        "19:watergun",
+        "22:leer",
+        "22:tailwhip",
+        "25:revenge",
+        "25:bubblebeam",
+        "28:lowsweep",
+        "28:aquatail",
+        "31:brickbreak",
+        "31:surf",
+        "34:karatechop",
+        "34:waterfall",
+        "39:closecombat",
+        "39:liquidation",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanhitmontop.desc"
+      ],
+      "height": 15,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Qamoran",
       "primaryType": "fighting",
       "secondaryType": "poison",
@@ -405,170 +570,6 @@
       "hitbox": {
         "width": 3.3125,
         "height": 3.3125,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Varitasian",
-      "primaryType": "psychic",
-      "catchRate": 45,
-      "maleRatio": 1.0,
-      "baseExperienceYield": 159,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "tyrogue form=varitasian",
-      "baseScale": 0.46027397260273967,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate",
-        "technician",
-        "h:steadfast"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 35,
-        "defence": 95,
-        "special_attack": 95,
-        "special_defence": 110,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "1:closecombat",
-        "6:focusenergy",
-        "10:pursuit",
-        "15:quickattack",
-        "19:rapidspin",
-        "24:feint",
-        "28:counter",
-        "33:triplekick",
-        "37:agility",
-        "42:gyroball",
-        "46:quickguard",
-        "50:detect",
-        "55:closecombat",
-        "60:endeavor",
-        "tm:lowkick",
-        "tm:snore",
-        "tm:helpinghand",
-        "tm:roleplay",
-        "tm:endeavor",
-        "tm:covet",
-        "tm:laserfocus",
-        "tm:coaching",
-        "tm:tripleaxel",
-        "tm:earthquake",
-        "tm:toxic",
-        "tm:doubleteam",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:substitute",
-        "tm:thief",
-        "tm:protect",
-        "tm:sandstorm",
-        "tm:swagger",
-        "tm:attract",
-        "tm:sleeptalk",
-        "tm:return",
-        "tm:frustration",
-        "tm:hiddenpower",
-        "tm:raindance",
-        "tm:sunnyday",
-        "tm:facade",
-        "tm:brickbreak",
-        "tm:aerialace",
-        "tm:bulkup",
-        "tm:gyroball",
-        "tm:stoneedge",
-        "tm:lowsweep",
-        "tm:round",
-        "tm:bulldoze",
-        "tm:workup",
-        "tm:confide",
-        "tm:megapunch",
-        "tm:megakick",
-        "tm:bodyslam",
-        "tm:doubleedge",
-        "tm:counter",
-        "tm:seismictoss",
-        "tm:rage",
-        "tm:dig",
-        "tm:mimic",
-        "tm:bide",
-        "tm:swift",
-        "tm:horndrill",
-        "tm:takedown",
-        "tm:submission",
-        "tm:skullbash",
-        "tm:counter",
-        "tm:highjumpkick",
-        "tm:mindreader",
-        "tm:machpunch",
-        "tm:endure",
-        "tm:pursuit",
-        "tm:rapidspin",
-        "tm:feint",
-        "tm:vacuumwave",
-        "tm:bulletpunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "varitas",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.varitasianhitmontop.desc"
-      ],
-      "height": 14,
-      "weight": 165,
-      "aspects": [
-        "varitasian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.5625,
-        "height": 4.5625,
         "fixed": false
       }
     },
@@ -737,10 +738,10 @@
     }
   ],
   "features": [
-    "forman",
-    "epoch",
-    "qamoran",
     "varitasian",
+    "epoch",
+    "forman",
+    "qamoran",
     "ayreian"
   ]
 }

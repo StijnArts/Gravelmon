@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_78_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_78_by_72",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreiankrookodile.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiankrookodile.png",
       "layers": [
         {
           "name": "emissive"

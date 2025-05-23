@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_37_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_37_by_37",
-      "texture": "cobblemon:textures/pokemon/generation1/novranomanyte.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novranomanyte.png",
       "layers": [
         {
           "name": "emissive"

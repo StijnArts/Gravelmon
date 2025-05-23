@@ -2,118 +2,6 @@
   "target": "cobblemon:yungoos",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "normal",
-      "secondaryType": "steel",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:metalclaw",
-        "1:growl",
-        "1:screech",
-        "4:round",
-        "4:irontail",
-        "7:swift",
-        "7:smartstrike",
-        "10:uproar",
-        "10:mirrorshot",
-        "13:hypervoice",
-        "13:flashcannon",
-        "16:hyperbeam",
-        "16:steelbeam",
-        "19:tackle",
-        "19:metalclaw",
-        "22:growl",
-        "22:screech",
-        "25:quickattack",
-        "25:irontail",
-        "28:bite",
-        "28:smartstrike",
-        "31:takedown",
-        "31:ironhead",
-        "34:crunch",
-        "34:meteormash",
-        "39:doubleedge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.fabelianyungoos.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "dark",
       "catchRate": 127,
@@ -262,10 +150,123 @@
         "height": 3.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "normal",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:metalclaw",
+        "1:growl",
+        "1:screech",
+        "4:round",
+        "4:irontail",
+        "7:swift",
+        "7:smartstrike",
+        "10:uproar",
+        "10:mirrorshot",
+        "13:hypervoice",
+        "13:flashcannon",
+        "16:hyperbeam",
+        "16:steelbeam",
+        "19:tackle",
+        "19:metalclaw",
+        "22:growl",
+        "22:screech",
+        "25:quickattack",
+        "25:irontail",
+        "28:bite",
+        "28:smartstrike",
+        "31:takedown",
+        "31:ironhead",
+        "34:crunch",
+        "34:meteormash",
+        "39:doubleedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianyungoos.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "fabelian",
-    "ayreian"
+    "ayreian",
+    "fabelian"
   ]
 }

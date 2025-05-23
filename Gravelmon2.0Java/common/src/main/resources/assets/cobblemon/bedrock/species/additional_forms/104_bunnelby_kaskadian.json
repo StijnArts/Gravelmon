@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_41_by_56",
-      "texture": "cobblemon:textures/pokemon/generation6/kaskadianbunnelby.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianbunnelby.png",
       "layers": [
         {
           "name": "emissive"

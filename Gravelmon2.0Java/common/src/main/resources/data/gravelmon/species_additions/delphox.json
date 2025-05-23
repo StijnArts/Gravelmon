@@ -173,114 +173,6 @@
       }
     },
     {
-      "name": "Vesitan",
-      "primaryType": "grass",
-      "secondaryType": "ghost",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.42857142857142855,
-      "cannotDynamax": false,
-      "abilities": [
-        "overgrow",
-        "contrary"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 75,
-        "attack": 114,
-        "defence": 100,
-        "special_attack": 104,
-        "special_defence": 69,
-        "speed": 78
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 3,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "18:shadowpunch",
-        "22:leechseed",
-        "69:zenheadbutt",
-        "27:luckychant",
-        "1:roleplay",
-        "1:shadowball",
-        "1:scratch",
-        "1:tailwhip",
-        "30:spite",
-        "36:hornleech",
-        "58:magicroom",
-        "1:futuresight",
-        "47:willowisp",
-        "75:mysticalfire",
-        "14:razorleaf",
-        "52:petalblizzard",
-        "57:shadowforce",
-        "42:phantomforce",
-        "5:vinewhip",
-        "11:howl",
-        "34:sleeppowder",
-        "61:woodhammer",
-        "1:switcheroo",
-        "tm:terablast"
-      ],
-      "labels": [
-        "chaosinvestia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.vesitandelphox.desc"
-      ],
-      "height": 15,
-      "weight": 390,
-      "aspects": [
-        "vesitan"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.25,
-        "height": 5.25,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "ice",
       "secondaryType": "sound",
@@ -437,11 +329,119 @@
         "height": 5.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.42857142857142855,
+      "cannotDynamax": false,
+      "abilities": [
+        "overgrow",
+        "contrary"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 114,
+        "defence": 100,
+        "special_attack": 104,
+        "special_defence": 69,
+        "speed": 78
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "18:shadowpunch",
+        "22:leechseed",
+        "69:zenheadbutt",
+        "27:luckychant",
+        "1:roleplay",
+        "1:shadowball",
+        "1:scratch",
+        "1:tailwhip",
+        "30:spite",
+        "36:hornleech",
+        "58:magicroom",
+        "1:futuresight",
+        "47:willowisp",
+        "75:mysticalfire",
+        "14:razorleaf",
+        "52:petalblizzard",
+        "57:shadowforce",
+        "42:phantomforce",
+        "5:vinewhip",
+        "11:howl",
+        "34:sleeppowder",
+        "61:woodhammer",
+        "1:switcheroo",
+        "tm:terablast"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitandelphox.desc"
+      ],
+      "height": 15,
+      "weight": 390,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.25,
+        "height": 5.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "epoch",
-    "vesitan",
-    "ayreian"
+    "ayreian",
+    "vesitan"
   ]
 }

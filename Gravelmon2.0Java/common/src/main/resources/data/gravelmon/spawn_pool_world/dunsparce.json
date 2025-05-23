@@ -4,29 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_dunsparce-01",
-      "pokemon": "dunsparce forman",
+      "id": "delta_dunsparce-01",
+      "pokemon": "dunsparce delta",
       "presets": [
-        "natural",
-        "near_water"
+        "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "uncommon",
-      "level": "13-32",
-      "weight": 6.75,
+      "level": "12-39",
+      "weight": 2.7,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_freshwater"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:honeycomb_block"
           ]
         }
       }
@@ -57,28 +56,29 @@
       }
     },
     {
-      "id": "delta_dunsparce-01",
-      "pokemon": "dunsparce delta",
+      "id": "forman_dunsparce-01",
+      "pokemon": "dunsparce forman",
       "presets": [
-        "natural"
+        "natural",
+        "near_water"
       ],
       "type": "pokemon",
-      "context": "surface",
+      "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-39",
-      "weight": 2.7,
+      "level": "13-32",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freshwater"
+          "#gravelmon:is_deciduous_forest"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:prismarine"
           ]
         }
       }

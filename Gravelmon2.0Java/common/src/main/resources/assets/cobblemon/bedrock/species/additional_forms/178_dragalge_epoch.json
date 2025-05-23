@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_93.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_93",
-      "texture": "cobblemon:textures/pokemon/generation6/epochdragalge.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdragalge.png",
       "layers": [
         {
           "name": "emissive"

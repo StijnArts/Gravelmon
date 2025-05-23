@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_79_by_70.geo",
       "poser": "cobblemon:cutout_gravelmon_79_by_70",
-      "texture": "cobblemon:textures/pokemon/generation3/avalossiansceptile.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossiansceptile.png",
       "layers": [
         {
           "name": "emissive"

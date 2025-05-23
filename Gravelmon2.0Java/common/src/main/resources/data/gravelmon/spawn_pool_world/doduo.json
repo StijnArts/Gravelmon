@@ -4,26 +4,60 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_doduo-01",
-      "pokemon": "doduo forman",
+      "id": "seviian_doduo-01",
+      "pokemon": "doduo seviian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-41",
-      "weight": 3.5999999999999996,
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_glacial"
+          "#cobblemon:is_island"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_mud"
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_doduo-01",
+      "pokemon": "doduo delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-31",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }
@@ -81,60 +115,26 @@
       }
     },
     {
-      "id": "delta_doduo-01",
-      "pokemon": "doduo delta",
+      "id": "forman_doduo-01",
+      "pokemon": "doduo forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "8-31",
-      "weight": 4.5,
+      "bucket": "uncommon",
+      "level": "15-41",
+      "weight": 3.5999999999999996,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
+          "#cobblemon:is_glacial"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "seviian_doduo-01",
-      "pokemon": "doduo seviian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "6-31",
-      "weight": 4.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_island"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_arid"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:packed_mud"
           ]
         }
       }

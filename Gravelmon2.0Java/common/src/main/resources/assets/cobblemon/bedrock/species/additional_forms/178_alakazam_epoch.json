@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_63_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_63_by_62",
-      "texture": "cobblemon:textures/pokemon/generation1/epochalakazam.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochalakazam.png",
       "layers": [
         {
           "name": "emissive"

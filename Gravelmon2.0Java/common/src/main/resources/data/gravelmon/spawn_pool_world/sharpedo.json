@@ -4,32 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_sharpedo-01",
-      "pokemon": "sharpedo epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "38-54",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "x_sharpedo-01",
       "pokemon": "sharpedo x",
       "presets": [
@@ -51,6 +25,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_sharpedo-01",
+      "pokemon": "sharpedo epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-54",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

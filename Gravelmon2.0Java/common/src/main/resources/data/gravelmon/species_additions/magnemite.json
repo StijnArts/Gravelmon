@@ -2,19 +2,21 @@
   "target": "cobblemon:magnemite",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "nuclear",
+      "name": "Egho",
+      "primaryType": "grass",
       "secondaryType": "steel",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "catchRate": 65,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 89,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
-        "analytic"
+        "overgrow",
+        "regenerator",
+        "h:analytic"
       ],
       "behaviour": {
         "resting": {
@@ -25,7 +27,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": true
+            "canFly": false
           },
           "canLook": true,
           "walk": {
@@ -43,64 +45,112 @@
         }
       },
       "baseStats": {
-        "hp": 46,
-        "attack": 31,
-        "defence": 58,
-        "special_attack": 74,
-        "special_defence": 46,
-        "speed": 84
+        "hp": 40,
+        "attack": 80,
+        "defence": 55,
+        "special_attack": 35,
+        "special_defence": 70,
+        "speed": 45
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 1,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 0,
+        "special_defence": 1,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "grass",
+        "mineral"
       ],
       "drops": {},
       "moves": [
-        "1:acid",
-        "1:metalclaw",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:screech",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:clearsmog",
-        "4:irontail",
-        "7:sludge",
-        "7:smartstrike",
-        "10:toxicspikes",
-        "10:mirrorshot",
-        "13:sludgebomb",
-        "13:flashcannon",
-        "16:sludgewave",
-        "16:steelbeam",
+        "1:tackle",
+        "4:supersonic",
+        "7:magicalleaf",
+        "11:sonicboom",
+        "15:leechseed",
+        "18:vinewhip",
+        "21:magnetbomb",
+        "25:razorleaf",
+        "29:metalburst",
+        "32:slam",
+        "35:seedbomb",
+        "39:screech",
+        "43:ironhead",
+        "46:lockon",
+        "49:bulldoze",
+        "53:fissure",
+        "57:autotomize",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:telekinesis",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:earthquake",
+        "tm:return",
+        "tm:reflect",
+        "tm:sludgewave",
+        "tm:sludgebomb",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:quash",
+        "tm:acrobatics",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:flash",
+        "tm:stoneedge",
+        "tm:swordsdance",
+        "tm:bulldoze",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:bulletseed",
+        "tm:strength",
+        "tutor:earthpower",
+        "tutor:gigadrain",
+        "tutor:magnetrise",
+        "tutor:rollout",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:zenheadbutt",
+        "egg:aromatherapy",
+        "egg:bulletpunch",
+        "egg:explosion",
+        "egg:meteormash",
+        "egg:poisonpowder",
+        "egg:sleeppowder",
+        "egg:stunspore",
+        "egg:toxicspikes",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "infinity",
+        "gen1",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanmagnemite.desc"
+        "cobblemon.species.eghomagnemite.desc"
       ],
-      "height": 6,
-      "weight": 0,
+      "height": 4,
+      "weight": 200,
       "aspects": [
-        "forman"
+        "egho"
       ],
       "evolutions": [
         {
-          "id": "formanmagnemite_magneraid",
+          "id": "eghomagnemite_magneton_egho",
           "variant": "level_up",
-          "result": "magneraid",
+          "result": "magneton egho",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -114,8 +164,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     },
@@ -442,21 +492,19 @@
       }
     },
     {
-      "name": "Egho",
-      "primaryType": "grass",
+      "name": "Forman",
+      "primaryType": "nuclear",
       "secondaryType": "steel",
-      "catchRate": 65,
-      "maleRatio": -1.0,
-      "baseExperienceYield": 89,
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.1,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
-        "overgrow",
-        "regenerator",
-        "h:analytic"
+        "analytic"
       ],
       "behaviour": {
         "resting": {
@@ -467,7 +515,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": false
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -485,112 +533,65 @@
         }
       },
       "baseStats": {
-        "hp": 40,
-        "attack": 80,
-        "defence": 55,
-        "special_attack": 35,
-        "special_defence": 70,
-        "speed": 45
+        "hp": 46,
+        "attack": 31,
+        "defence": 58,
+        "special_attack": 74,
+        "special_defence": 46,
+        "speed": 84
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 1,
+        "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "grass",
-        "mineral"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:tackle",
-        "4:supersonic",
-        "7:magicalleaf",
-        "11:sonicboom",
-        "15:leechseed",
-        "18:vinewhip",
-        "21:magnetbomb",
-        "25:razorleaf",
-        "29:metalburst",
-        "32:slam",
-        "35:seedbomb",
-        "39:screech",
-        "43:ironhead",
-        "46:lockon",
-        "49:bulldoze",
-        "53:fissure",
-        "57:autotomize",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:raindance",
-        "tm:telekinesis",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:earthquake",
-        "tm:return",
-        "tm:reflect",
-        "tm:sludgewave",
-        "tm:sludgebomb",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:energyball",
-        "tm:falseswipe",
-        "tm:quash",
-        "tm:acrobatics",
-        "tm:payback",
-        "tm:retaliate",
-        "tm:flash",
-        "tm:stoneedge",
-        "tm:swordsdance",
-        "tm:bulldoze",
-        "tm:grassknot",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:bulletseed",
-        "tm:strength",
-        "tutor:earthpower",
-        "tutor:gigadrain",
-        "tutor:magnetrise",
-        "tutor:rollout",
-        "tutor:seedbomb",
-        "tutor:signalbeam",
-        "tutor:zenheadbutt",
-        "egg:aromatherapy",
-        "egg:bulletpunch",
-        "egg:explosion",
-        "egg:meteormash",
-        "egg:poisonpowder",
-        "egg:sleeppowder",
-        "egg:stunspore",
-        "egg:toxicspikes",
+        "1:acid",
+        "1:metalclaw",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:screech",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:clearsmog",
+        "4:irontail",
+        "7:sludge",
+        "7:smartstrike",
+        "10:toxicspikes",
+        "10:mirrorshot",
+        "13:sludgebomb",
+        "13:flashcannon",
+        "16:sludgewave",
+        "16:steelbeam",
         "tm:terablast"
       ],
       "labels": [
-        "infinity",
-        "gen1",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.eghomagnemite.desc"
+        "cobblemon.species.formanmagnemite.desc"
       ],
-      "height": 4,
-      "weight": 200,
+      "height": 6,
+      "weight": 0,
       "aspects": [
-        "egho"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "eghomagnemite_magneton_egho",
+          "id": "formanmagnemite_magneraid",
           "variant": "level_up",
-          "result": "magneton egho",
+          "result": "magneraid",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -604,8 +605,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -765,10 +766,10 @@
     }
   ],
   "features": [
-    "forman",
+    "egho",
     "epoch",
     "epochtwo",
-    "egho",
+    "forman",
     "ayreian"
   ]
 }

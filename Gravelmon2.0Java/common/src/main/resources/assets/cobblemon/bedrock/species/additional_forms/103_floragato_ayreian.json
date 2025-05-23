@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_37_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_37_by_62",
-      "texture": "cobblemon:textures/pokemon/generation9/ayreianfloragato.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianfloragato.png",
       "layers": [
         {
           "name": "emissive"

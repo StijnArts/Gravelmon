@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "egho_magnezone-01",
+      "pokemon": "magnezone egho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "44-55",
+      "weight": 3.3000000000000003,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_magnezone-01",
       "pokemon": "magnezone epoch",
       "presets": [
@@ -51,33 +78,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_magnezone-01",
-      "pokemon": "magnezone egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "44-55",
-      "weight": 3.3000000000000003,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_lush"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
           ]
         }
       }

@@ -4,8 +4,62 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_sinistea-01",
-      "pokemon": "sinistea fabelian",
+      "id": "epoch_sinistea-01",
+      "pokemon": "sinistea epoch",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "11-35",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ivrisian_sinistea-01",
+      "pokemon": "sinistea ivrisian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_sinistea-01",
+      "pokemon": "sinistea ferranian",
       "presets": [
         "natural"
       ],
@@ -58,8 +112,8 @@
       }
     },
     {
-      "id": "ferranian_sinistea-01",
-      "pokemon": "sinistea ferranian",
+      "id": "fabelian_sinistea-01",
+      "pokemon": "sinistea fabelian",
       "presets": [
         "natural"
       ],
@@ -80,60 +134,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ivrisian_sinistea-01",
-      "pokemon": "sinistea ivrisian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_sinistea-01",
-      "pokemon": "sinistea epoch",
-      "presets": [
-        "mansion"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "11-35",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
           ]
         }
       }

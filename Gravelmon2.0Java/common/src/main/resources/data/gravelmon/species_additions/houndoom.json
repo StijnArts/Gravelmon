@@ -2,108 +2,6 @@
   "target": "cobblemon:houndoom",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "dark",
-      "secondaryType": "ghost",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "houndour form=forman",
-      "baseScale": 0.0703125,
-      "cannotDynamax": false,
-      "abilities": [
-        "berserk"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 88,
-        "attack": 46,
-        "defence": 95,
-        "special_attack": 109,
-        "special_defence": 84,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:bite",
-        "1:lick",
-        "1:leer",
-        "1:growl",
-        "4:payback",
-        "4:confuseray",
-        "7:nightdaze",
-        "7:ominouswind",
-        "10:snarl",
-        "10:nightshade",
-        "13:knockoff",
-        "13:hex",
-        "16:darkpulse",
-        "16:shadowball",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanhoundoom.desc"
-      ],
-      "height": 15,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "fire",
       "secondaryType": "light",
@@ -257,6 +155,109 @@
       }
     },
     {
+      "name": "Forman",
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "houndour form=forman",
+      "baseScale": 0.0703125,
+      "cannotDynamax": false,
+      "abilities": [
+        "berserk"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 88,
+        "attack": 46,
+        "defence": 95,
+        "special_attack": 109,
+        "special_defence": 84,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:lick",
+        "1:leer",
+        "1:growl",
+        "4:payback",
+        "4:confuseray",
+        "7:nightdaze",
+        "7:ominouswind",
+        "10:snarl",
+        "10:nightshade",
+        "13:knockoff",
+        "13:hex",
+        "16:darkpulse",
+        "16:shadowball",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanhoundoom.desc"
+      ],
+      "height": 15,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "epoch_mega",
       "primaryType": "fire",
       "secondaryType": "light",
@@ -285,8 +286,8 @@
     }
   ],
   "features": [
-    "forman",
     "epoch",
+    "forman",
     "epoch_mega"
   ]
 }

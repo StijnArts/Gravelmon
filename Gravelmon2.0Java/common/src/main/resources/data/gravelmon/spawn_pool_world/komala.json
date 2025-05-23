@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mastenian_komala-01",
-      "pokemon": "komala mastenian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-45",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_komala-01",
       "pokemon": "komala epoch",
       "presets": [
@@ -77,6 +50,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mastenian_komala-01",
+      "pokemon": "komala mastenian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-45",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }

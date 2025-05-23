@@ -42,10 +42,6 @@ public class Uranium extends Game {
         addNewPokemon(new Empirilla());
         var owten = new Owten(); addNewPokemon(owten);
         var eshouten = new Eshouten(); addNewPokemon(eshouten);
-        addNewPokemon(new AlteranOwten("", Aspect.ALTERAN));
-        addNewPokemon(new AlteranEshouten("", Aspect.ALTERAN));
-        removePokedexPokemon("owten-alteran");
-        removePokedexPokemon("eshouten-alteran");
         addNewPokemon(new Smore());
         addNewPokemon(new Firoke());
         addNewPokemon(new Brailip());
@@ -81,8 +77,6 @@ public class Uranium extends Game {
         addNewPokemon(new S51());
         addNewPokemon(new S51A());
         addNewPokemon(new Paraudio());
-        addNewPokemon(new AvalossianParaudio("", Aspect.AVALOSSIAN));
-        removePokedexPokemon("paraudio-avalossian");
         addNewPokemon(new Paraboom());
         addNewPokemon(new Chimical());
         addNewPokemon(new Chimaconda());

@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:generation1_hoenniandodrio.geo",
-      "poser": "cobblemon:generation1_hoenniandodrio",
-      "texture": "cobblemon:textures/pokemon/generation1/hoenniandodrio/hoenniandodrio.png",
+      "model": "cobblemon:blazingemerald_hoenniandodrio.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandodrio",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandodrio/hoenniandodrio.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:generation1_hoenniandodrio.geo",
-      "poser": "cobblemon:generation1_hoenniandodrio",
-      "texture": "cobblemon:textures/pokemon/generation1/hoenniandodrio/hoenniandodrio_shiny.png",
+      "model": "cobblemon:blazingemerald_hoenniandodrio.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandodrio",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandodrio/hoenniandodrio_shiny.png",
       "layers": [
         {
           "name": "emissive"

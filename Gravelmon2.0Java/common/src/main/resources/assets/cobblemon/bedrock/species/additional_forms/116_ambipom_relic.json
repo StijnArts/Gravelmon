@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_110_by_90.geo",
       "poser": "cobblemon:cutout_gravelmon_110_by_90",
-      "texture": "cobblemon:textures/pokemon/generation4/relicambipom.png",
+      "texture": "cobblemon:textures/pokemon/phoenixrising/relicambipom.png",
       "layers": [
         {
           "name": "emissive"

@@ -6,9 +6,9 @@
       "aspects": [
         "deltaruin"
       ],
-      "model": "cobblemon:generation3_deltaruinbeldum.geo",
-      "poser": "cobblemon:generation3_deltaruinbeldum",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum.png",
+      "model": "cobblemon:insurgence_deltaruinbeldum.geo",
+      "poser": "cobblemon:insurgence_deltaruinbeldum",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinbeldum/deltaruinbeldum.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "deltaruin",
         "shiny"
       ],
-      "model": "cobblemon:generation3_deltaruinbeldum.geo",
-      "poser": "cobblemon:generation3_deltaruinbeldum",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaruinbeldum/deltaruinbeldum_shiny.png",
+      "model": "cobblemon:insurgence_deltaruinbeldum.geo",
+      "poser": "cobblemon:insurgence_deltaruinbeldum",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaruinbeldum/deltaruinbeldum_shiny.png",
       "layers": [
         {
           "name": "emissive"

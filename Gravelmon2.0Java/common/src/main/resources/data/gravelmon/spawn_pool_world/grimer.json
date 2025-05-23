@@ -4,19 +4,46 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_grimer-01",
-      "pokemon": "grimer forman",
+      "id": "egho_grimer-01",
+      "pokemon": "grimer egho",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-37",
-      "weight": 5.4,
+      "level": "12-22",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_beach"
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_toxic"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_grimer-01",
+      "pokemon": "grimer delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-35",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
         ],
         "timeRange": "night",
         "minSkyLight": 8,
@@ -84,74 +111,19 @@
       }
     },
     {
-      "id": "novran_grimer-01",
-      "pokemon": "grimer novran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "8-33",
-      "weight": 2.7,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_grimer-01",
-      "pokemon": "grimer egho",
+      "id": "forman_grimer-01",
+      "pokemon": "grimer forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-37",
+      "weight": 5.4,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_basalt",
-          "#cobblemon:nether/is_soul_sand",
-          "#cobblemon:nether/is_toxic"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_grimer-01",
-      "pokemon": "grimer delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-35",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert"
+          "#cobblemon:is_beach"
         ],
         "timeRange": "night",
         "minSkyLight": 8,
@@ -189,6 +161,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "novran_grimer-01",
+      "pokemon": "grimer novran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 2.7,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
           ]
         }
       }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dugtrio-norheiman",
+  "speciesId": "cobblemon:dugtrio",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

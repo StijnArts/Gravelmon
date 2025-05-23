@@ -2,448 +2,6 @@
   "target": "cobblemon:skiddo",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "rock",
-      "secondaryType": "ice",
-      "catchRate": 160,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.34285714285714286,
-      "cannotDynamax": false,
-      "abilities": [
-        "guts",
-        "moxie",
-        "h:slushrush"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 56,
-        "attack": 80,
-        "defence": 48,
-        "special_attack": 87,
-        "special_defence": 32,
-        "speed": 47
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "40:zenheadbutt",
-        "1:tackle",
-        "1:rockthrow",
-        "26:smartstrike",
-        "33:iciclecrash",
-        "7:accelerock",
-        "37:amnesia",
-        "54:glaciallance",
-        "19:avalanche",
-        "44:uproar",
-        "11:rockpolish",
-        "29:takedown",
-        "1:growl",
-        "4:iceshard",
-        "15:rocktomb",
-        "23:facade",
-        "tm:attract",
-        "tm:blizzard",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:closecombat",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:flareblitz",
-        "tm:hail",
-        "tm:hiddenpower",
-        "tm:highhorsepower",
-        "tm:icefang",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:mudslide",
-        "tm:nobleroar",
-        "tm:playrough",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sleeptalk",
-        "tm:stealthrock",
-        "tm:stoneedge",
-        "tm:superpower",
-        "tm:toxic",
-        "tm:tripleaxel",
-        "tm:voltswitch",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:hornleech",
-        "egg:highhorsepower",
-        "egg:bodyslam",
-        "egg:stomp",
-        "egg:pursuit",
-        "egg:headsmash",
-        "egg:rockpolish",
-        "egg:doublekick",
-        "egg:jumpkick",
-        "egg:smackdown",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochskiddo.desc"
-      ],
-      "height": 9,
-      "weight": 310,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochskiddo_gogoat_epoch",
-          "variant": "level_up",
-          "result": "gogoat epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.9375,
-        "height": 3.9375,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Vesitan",
-      "primaryType": "grass",
-      "secondaryType": "rock",
-      "catchRate": 160,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.45,
-      "cannotDynamax": false,
-      "abilities": [
-        "sapsipper",
-        "grasspelt"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 68,
-        "defence": 48,
-        "special_attack": 41,
-        "special_defence": 62,
-        "speed": 69
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "12:leechseed",
-        "16:stealthrock",
-        "1:tackle",
-        "9:tailwhip",
-        "42:hornleech",
-        "13:razorleaf",
-        "38:doubleedge",
-        "45:leafblade",
-        "1:growth",
-        "26:bulldoze",
-        "7:vinewhip",
-        "20:synthesis",
-        "30:seedbomb",
-        "50:milkdrink",
-        "22:rocktomb",
-        "34:bulkup",
-        "egg:defensecurl",
-        "egg:milkdrink",
-        "egg:rollout",
-        "tm:terablast"
-      ],
-      "labels": [
-        "chaosinvestia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.vesitanskiddo.desc"
-      ],
-      "height": 9,
-      "weight": 310,
-      "aspects": [
-        "vesitan"
-      ],
-      "evolutions": [
-        {
-          "id": "vesitanskiddo_gogoat_vesitan",
-          "variant": "level_up",
-          "result": "gogoat vesitan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "30"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "ice",
-      "catchRate": 160,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.4153846153846154,
-      "cannotDynamax": false,
-      "abilities": [
-        "thickfat"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 66,
-        "attack": 55,
-        "defence": 48,
-        "special_attack": 52,
-        "special_defence": 72,
-        "speed": 57
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "30:freezedry",
-        "45:blizzard",
-        "1:tackle",
-        "34:calmmind",
-        "16:worryseed",
-        "13:mudshot",
-        "9:tailwhip",
-        "42:surf",
-        "22:takedown",
-        "1:growth",
-        "26:mudbomb",
-        "20:mist",
-        "50:milkdrink",
-        "7:iceshard",
-        "38:earthpower",
-        "tm:attract",
-        "tm:brickbreak",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:confide",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:endure",
-        "tm:energyball",
-        "tm:facade",
-        "tm:frustration",
-        "tm:gigadrain",
-        "tm:grassknot",
-        "tm:hiddenpower",
-        "tm:irontail",
-        "tm:naturepower",
-        "tm:payback",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:retaliate",
-        "tm:return",
-        "tm:roar",
-        "tm:rockslide",
-        "tm:rocksmash",
-        "tm:round",
-        "tm:seedbomb",
-        "tm:sleeptalk",
-        "tm:snore",
-        "tm:solarbeam",
-        "tm:strength",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:surf",
-        "tm:swagger",
-        "tm:synthesis",
-        "tm:toxic",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:worryseed",
-        "tm:zenheadbutt",
-        "egg:defensecurl",
-        "egg:rollout",
-        "egg:milkdrink",
-        "egg:grassyterrain",
-        "tm:terablast"
-      ],
-      "labels": [
-        "vanguard",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ayreianskiddo.desc"
-      ],
-      "height": 9,
-      "weight": 310,
-      "aspects": [
-        "ayreian"
-      ],
-      "evolutions": [
-        {
-          "id": "ayreianskiddo_gogoat_ayreian",
-          "variant": "level_up",
-          "result": "gogoat ayreian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.25,
-        "height": 3.25,
-        "fixed": false
-      }
-    },
-    {
       "name": "Relic",
       "primaryType": "grass",
       "secondaryType": "rock",
@@ -613,6 +171,171 @@
       "hitbox": {
         "width": 3.1875,
         "height": 3.1875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "rock",
+      "secondaryType": "ice",
+      "catchRate": 160,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.34285714285714286,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "moxie",
+        "h:slushrush"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 56,
+        "attack": 80,
+        "defence": 48,
+        "special_attack": 87,
+        "special_defence": 32,
+        "speed": 47
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "40:zenheadbutt",
+        "1:tackle",
+        "1:rockthrow",
+        "26:smartstrike",
+        "33:iciclecrash",
+        "7:accelerock",
+        "37:amnesia",
+        "54:glaciallance",
+        "19:avalanche",
+        "44:uproar",
+        "11:rockpolish",
+        "29:takedown",
+        "1:growl",
+        "4:iceshard",
+        "15:rocktomb",
+        "23:facade",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:flareblitz",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:mudslide",
+        "tm:nobleroar",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:toxic",
+        "tm:tripleaxel",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:hornleech",
+        "egg:highhorsepower",
+        "egg:bodyslam",
+        "egg:stomp",
+        "egg:pursuit",
+        "egg:headsmash",
+        "egg:rockpolish",
+        "egg:doublekick",
+        "egg:jumpkick",
+        "egg:smackdown",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochskiddo.desc"
+      ],
+      "height": 9,
+      "weight": 310,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochskiddo_gogoat_epoch",
+          "variant": "level_up",
+          "result": "gogoat epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
         "fixed": false
       }
     },
@@ -787,13 +510,290 @@
         "height": 3.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "ice",
+      "catchRate": 160,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4153846153846154,
+      "cannotDynamax": false,
+      "abilities": [
+        "thickfat"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 66,
+        "attack": 55,
+        "defence": 48,
+        "special_attack": 52,
+        "special_defence": 72,
+        "speed": 57
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "30:freezedry",
+        "45:blizzard",
+        "1:tackle",
+        "34:calmmind",
+        "16:worryseed",
+        "13:mudshot",
+        "9:tailwhip",
+        "42:surf",
+        "22:takedown",
+        "1:growth",
+        "26:mudbomb",
+        "20:mist",
+        "50:milkdrink",
+        "7:iceshard",
+        "38:earthpower",
+        "tm:attract",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:naturepower",
+        "tm:payback",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:surf",
+        "tm:swagger",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:worryseed",
+        "tm:zenheadbutt",
+        "egg:defensecurl",
+        "egg:rollout",
+        "egg:milkdrink",
+        "egg:grassyterrain",
+        "tm:terablast"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianskiddo.desc"
+      ],
+      "height": 9,
+      "weight": 310,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianskiddo_gogoat_ayreian",
+          "variant": "level_up",
+          "result": "gogoat ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "grass",
+      "secondaryType": "rock",
+      "catchRate": 160,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.45,
+      "cannotDynamax": false,
+      "abilities": [
+        "sapsipper",
+        "grasspelt"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 68,
+        "defence": 48,
+        "special_attack": 41,
+        "special_defence": 62,
+        "speed": 69
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "12:leechseed",
+        "16:stealthrock",
+        "1:tackle",
+        "9:tailwhip",
+        "42:hornleech",
+        "13:razorleaf",
+        "38:doubleedge",
+        "45:leafblade",
+        "1:growth",
+        "26:bulldoze",
+        "7:vinewhip",
+        "20:synthesis",
+        "30:seedbomb",
+        "50:milkdrink",
+        "22:rocktomb",
+        "34:bulkup",
+        "egg:defensecurl",
+        "egg:milkdrink",
+        "egg:rollout",
+        "tm:terablast"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanskiddo.desc"
+      ],
+      "height": 9,
+      "weight": 310,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [
+        {
+          "id": "vesitanskiddo_gogoat_vesitan",
+          "variant": "level_up",
+          "result": "gogoat vesitan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "vesitan",
-    "ayreian",
     "relic",
-    "epochtwo"
+    "epoch",
+    "epochtwo",
+    "ayreian",
+    "vesitan"
   ]
 }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_154_by_174.geo",
       "poser": "cobblemon:cutout_gravelmon_154_by_174",
-      "texture": "cobblemon:textures/pokemon/generation5/deltagolurk.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagolurk.png",
       "layers": [
         {
           "name": "emissive"

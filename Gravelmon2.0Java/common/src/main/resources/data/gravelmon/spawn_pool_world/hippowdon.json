@@ -4,60 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_hippowdon-01",
-      "pokemon": "hippowdon mahalian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_hippowdon-01",
-      "pokemon": "hippowdon nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "34-54",
-      "weight": 0.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_hippowdon-01",
       "pokemon": "hippowdon epoch",
       "presets": [
@@ -99,6 +45,60 @@
         "biomes": [
           "#cobblemon:is_coast",
           "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_hippowdon-01",
+      "pokemon": "hippowdon mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_hippowdon-01",
+      "pokemon": "hippowdon nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "34-54",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_88_by_75.geo",
       "poser": "cobblemon:cutout_gravelmon_88_by_75",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanchesnaught.png",
+      "texture": "cobblemon:textures/pokemon/chaosinvesita/vesitanchesnaught.png",
       "layers": [
         {
           "name": "emissive"

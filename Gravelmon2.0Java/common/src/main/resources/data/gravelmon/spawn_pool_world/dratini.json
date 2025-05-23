@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_dratini-01",
-      "pokemon": "dratini mahalian",
+      "id": "delta_dratini-01",
+      "pokemon": "dratini delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "15-30",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,29 +25,36 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:prismarine"
           ]
         }
       }
     },
     {
-      "id": "mahalian_dratini-11",
-      "pokemon": "dratini mahalian",
+      "id": "epoch_dratini-01",
+      "pokemon": "dratini epoch",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "8-32",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ]
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:glowstone"
           ]
         }
       }
@@ -102,62 +109,6 @@
       }
     },
     {
-      "id": "epoch_dratini-01",
-      "pokemon": "dratini epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "8-32",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "isRaining": false,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_dratini-01",
-      "pokemon": "dratini delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "15-30",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freshwater"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_dratini-01",
       "pokemon": "dratini ayreian",
       "presets": [
@@ -180,6 +131,55 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_dratini-01",
+      "pokemon": "dratini mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_dratini-11",
+      "pokemon": "dratini mahalian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
           ]
         }
       }

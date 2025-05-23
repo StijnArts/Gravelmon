@@ -4,58 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_avalugg-01",
-      "pokemon": "avalugg epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "37-53",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_wasteland"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "vesitan_avalugg-01",
-      "pokemon": "avalugg vesitan",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "37-48",
-      "weight": 0.75,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_avalugg-01",
       "pokemon": "avalugg delta",
       "presets": [
@@ -90,6 +38,31 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
+      "level": "37-53",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_avalugg-01",
+      "pokemon": "avalugg epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
       "level": "37-57",
       "weight": 0.9,
       "condition": {
@@ -103,6 +76,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_avalugg-01",
+      "pokemon": "avalugg vesitan",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "37-48",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
           ]
         }
       }

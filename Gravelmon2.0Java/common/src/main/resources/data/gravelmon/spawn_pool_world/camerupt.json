@@ -4,6 +4,61 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_camerupt-01",
+      "pokemon": "camerupt cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-56",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_camerupt-01",
+      "pokemon": "camerupt delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-59",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "isRaining": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_trap_door"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_camerupt-01",
       "pokemon": "camerupt epoch",
       "presets": [
@@ -66,34 +121,6 @@
       }
     },
     {
-      "id": "delta_camerupt-01",
-      "pokemon": "camerupt delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "33-59",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "isRaining": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_trap_door"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_camerupt-01",
       "pokemon": "camerupt ayreian",
       "presets": [
@@ -116,33 +143,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_camerupt-01",
-      "pokemon": "camerupt cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "33-56",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
           ]
         }
       }

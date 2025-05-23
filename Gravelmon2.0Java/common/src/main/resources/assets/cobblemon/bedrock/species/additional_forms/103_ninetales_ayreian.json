@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_73_by_79.geo",
       "poser": "cobblemon:cutout_gravelmon_73_by_79",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreianninetales.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianninetales.png",
       "layers": [
         {
           "name": "emissive"

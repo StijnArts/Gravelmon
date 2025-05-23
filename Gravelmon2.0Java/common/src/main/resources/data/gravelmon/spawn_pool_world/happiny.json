@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "egho_happiny-01",
+      "pokemon": "happiny egho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-22",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_happiny-01",
       "pokemon": "happiny epoch",
       "presets": [
@@ -49,34 +77,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_happiny-01",
-      "pokemon": "happiny egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-22",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
           ]
         }
       }

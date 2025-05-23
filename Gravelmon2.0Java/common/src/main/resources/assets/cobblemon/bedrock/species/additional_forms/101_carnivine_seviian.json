@@ -6,9 +6,9 @@
       "aspects": [
         "seviian"
       ],
-      "model": "cobblemon:generation4_seviiancarnivine.geo",
-      "poser": "cobblemon:generation4_seviiancarnivine",
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine.png",
+      "model": "cobblemon:sevii_seviiancarnivine.geo",
+      "poser": "cobblemon:sevii_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/sevii/seviiancarnivine/seviiancarnivine.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "seviian",
         "shiny"
       ],
-      "model": "cobblemon:generation4_seviiancarnivine.geo",
-      "poser": "cobblemon:generation4_seviiancarnivine",
-      "texture": "cobblemon:textures/pokemon/generation4/seviiancarnivine/seviiancarnivine_shiny.png",
+      "model": "cobblemon:sevii_seviiancarnivine.geo",
+      "poser": "cobblemon:sevii_seviiancarnivine",
+      "texture": "cobblemon:textures/pokemon/sevii/seviiancarnivine/seviiancarnivine_shiny.png",
       "layers": [
         {
           "name": "emissive"

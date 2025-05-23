@@ -2,329 +2,6 @@
   "target": "cobblemon:aggron",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "bug",
-      "secondaryType": "rock",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 239,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "lairon form=epoch",
-      "baseScale": 0.6545454545454545,
-      "cannotDynamax": false,
-      "abilities": [
-        "swarm",
-        "h:skilllink"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 115,
-        "defence": 110,
-        "special_attack": 55,
-        "special_defence": 65,
-        "speed": 105
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "bug",
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "1:armthrust",
-        "41:irondefense",
-        "54:attackorder",
-        "1:harden",
-        "5:rockthrow",
-        "8:bite",
-        "47:stoneedge",
-        "1:visegrip",
-        "19:pinmissile",
-        "30:leechlife",
-        "34:healorder",
-        "51:megahorn",
-        "38:rockslide",
-        "1:bodypress",
-        "12:furycutter",
-        "44:bodyslam",
-        "22:headbutt",
-        "34:ironhead",
-        "1:defendorder",
-        "26:rockblast",
-        "1:cometpunch",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:bulletseed",
-        "tm:closecombat",
-        "tm:dazzlinggleam",
-        "tm:dragonclaw",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:energyball",
-        "tm:furycutter",
-        "tm:geomancy",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:highhorsepower",
-        "tm:hivemind",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:leechlife",
-        "tm:mudslide",
-        "tm:pinmissile",
-        "tm:poisonjab",
-        "tm:powergem",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sandstorm",
-        "tm:scaleshot",
-        "tm:sleeptalk",
-        "tm:solarbeam",
-        "tm:spikes",
-        "tm:spikyshield",
-        "tm:stealthrock",
-        "tm:steelroller",
-        "tm:stoneedge",
-        "tm:strugglebug",
-        "tm:superpower",
-        "tm:swordsdance",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:uturn",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochaggron.desc"
-      ],
-      "height": 21,
-      "weight": 3600,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.8125,
-        "height": 4.8125,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "ground",
-      "secondaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 239,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "lairon form=hizian",
-      "baseScale": 0.6344827586206896,
-      "cannotDynamax": false,
-      "abilities": [
-        "sheerforce",
-        "h:battlearmor"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 120,
-        "defence": 170,
-        "special_attack": 60,
-        "special_defence": 60,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 3,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:tailwhip",
-        "5:smackdown",
-        "10:bulldoze",
-        "15:hornattack",
-        "20:scaryface",
-        "25:stomp",
-        "30:rockblast",
-        "35:drillrun",
-        "40:takedown",
-        "45:earthquake",
-        "50:stoneedge",
-        "55:megahorn",
-        "60:horndrill",
-        "egg:counter",
-        "egg:curse",
-        "egg:dragonrush",
-        "egg:guardsplit",
-        "egg:metalburst",
-        "egg:rockpolish",
-        "tm:takedown",
-        "tm:mudslap",
-        "tm:scaryface",
-        "tm:protect",
-        "tm:firefang",
-        "tm:thunderfang",
-        "tm:icefang",
-        "tm:thief",
-        "tm:facade",
-        "tm:bulldoze",
-        "tm:icywind",
-        "tm:mudshot",
-        "tm:rocktomb",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:sandstorm",
-        "tm:smartstrike",
-        "tm:dig",
-        "tm:bodyslam",
-        "tm:sleeptalk",
-        "tm:rockblast",
-        "tm:poisonjab",
-        "tm:stompingtantrum",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:swordsdance",
-        "tm:bodypress",
-        "tm:substitute",
-        "tm:drillrun",
-        "tm:crunch",
-        "tm:dragonpulse",
-        "tm:stealthrock",
-        "tm:heavyslam",
-        "tm:flamethrower",
-        "tm:thunderbolt",
-        "tm:earthpower",
-        "tm:reversal",
-        "tm:icebeam",
-        "tm:fireblast",
-        "tm:blizzard",
-        "tm:earthquake",
-        "tm:stoneedge",
-        "tm:thunder",
-        "tm:terablast",
-        "tm:roar",
-        "tm:smackdown",
-        "tm:highhorsepower",
-        "tm:uproar",
-        "tm:doubleedge",
-        "tm:endeavor",
-        "tm:scorchingsands",
-        "tm:curse",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hizianaggron.desc"
-      ],
-      "height": 23,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.4375,
-        "height": 5.4375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "fire",
       "secondaryType": "steel",
@@ -516,6 +193,329 @@
       "hitbox": {
         "width": 10.0,
         "height": 10.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Hizian",
+      "primaryType": "ground",
+      "secondaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 239,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "lairon form=hizian",
+      "baseScale": 0.6344827586206896,
+      "cannotDynamax": false,
+      "abilities": [
+        "sheerforce",
+        "h:battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 170,
+        "special_attack": 60,
+        "special_defence": 60,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "5:smackdown",
+        "10:bulldoze",
+        "15:hornattack",
+        "20:scaryface",
+        "25:stomp",
+        "30:rockblast",
+        "35:drillrun",
+        "40:takedown",
+        "45:earthquake",
+        "50:stoneedge",
+        "55:megahorn",
+        "60:horndrill",
+        "egg:counter",
+        "egg:curse",
+        "egg:dragonrush",
+        "egg:guardsplit",
+        "egg:metalburst",
+        "egg:rockpolish",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:firefang",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:thief",
+        "tm:facade",
+        "tm:bulldoze",
+        "tm:icywind",
+        "tm:mudshot",
+        "tm:rocktomb",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:sandstorm",
+        "tm:smartstrike",
+        "tm:dig",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:rockblast",
+        "tm:poisonjab",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:swordsdance",
+        "tm:bodypress",
+        "tm:substitute",
+        "tm:drillrun",
+        "tm:crunch",
+        "tm:dragonpulse",
+        "tm:stealthrock",
+        "tm:heavyslam",
+        "tm:flamethrower",
+        "tm:thunderbolt",
+        "tm:earthpower",
+        "tm:reversal",
+        "tm:icebeam",
+        "tm:fireblast",
+        "tm:blizzard",
+        "tm:earthquake",
+        "tm:stoneedge",
+        "tm:thunder",
+        "tm:terablast",
+        "tm:roar",
+        "tm:smackdown",
+        "tm:highhorsepower",
+        "tm:uproar",
+        "tm:doubleedge",
+        "tm:endeavor",
+        "tm:scorchingsands",
+        "tm:curse",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hizianaggron.desc"
+      ],
+      "height": 23,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.4375,
+        "height": 5.4375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "rock",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 239,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "lairon form=epoch",
+      "baseScale": 0.6545454545454545,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "h:skilllink"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 115,
+        "defence": 110,
+        "special_attack": 55,
+        "special_defence": 65,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:armthrust",
+        "41:irondefense",
+        "54:attackorder",
+        "1:harden",
+        "5:rockthrow",
+        "8:bite",
+        "47:stoneedge",
+        "1:visegrip",
+        "19:pinmissile",
+        "30:leechlife",
+        "34:healorder",
+        "51:megahorn",
+        "38:rockslide",
+        "1:bodypress",
+        "12:furycutter",
+        "44:bodyslam",
+        "22:headbutt",
+        "34:ironhead",
+        "1:defendorder",
+        "26:rockblast",
+        "1:cometpunch",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:closecombat",
+        "tm:dazzlinggleam",
+        "tm:dragonclaw",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hivemind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:mudslide",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:powergem",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:strugglebug",
+        "tm:superpower",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochaggron.desc"
+      ],
+      "height": 21,
+      "weight": 3600,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.8125,
+        "height": 4.8125,
         "fixed": false
       }
     },
@@ -749,9 +749,9 @@
     }
   ],
   "features": [
-    "epoch",
-    "hizian",
     "delta",
+    "hizian",
+    "epoch",
     "ayreian",
     "epoch_mega"
   ]

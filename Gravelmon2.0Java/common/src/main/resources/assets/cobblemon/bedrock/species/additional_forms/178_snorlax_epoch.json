@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_81_by_65.geo",
       "poser": "cobblemon:cutout_gravelmon_81_by_65",
-      "texture": "cobblemon:textures/pokemon/generation1/epochsnorlax.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsnorlax.png",
       "layers": [
         {
           "name": "emissive"

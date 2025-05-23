@@ -30,33 +30,6 @@
       }
     },
     {
-      "id": "vesitan_dragalge-01",
-      "pokemon": "dragalge vesitan",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "44-56",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
       "id": "novran_dragalge-01",
       "pokemon": "dragalge novran",
       "presets": [
@@ -79,6 +52,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_dragalge-01",
+      "pokemon": "dragalge vesitan",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "44-56",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
           ]
         }
       }

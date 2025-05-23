@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_50_by_68.geo",
       "poser": "cobblemon:cutout_gravelmon_50_by_68",
-      "texture": "cobblemon:textures/pokemon/generation1/epochtentacool.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtentacool.png",
       "layers": [
         {
           "name": "emissive"

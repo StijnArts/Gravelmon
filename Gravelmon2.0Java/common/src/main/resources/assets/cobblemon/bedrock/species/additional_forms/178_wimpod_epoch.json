@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_41_by_37",
-      "texture": "cobblemon:textures/pokemon/generation7/epochwimpod.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochwimpod.png",
       "layers": [
         {
           "name": "emissive"

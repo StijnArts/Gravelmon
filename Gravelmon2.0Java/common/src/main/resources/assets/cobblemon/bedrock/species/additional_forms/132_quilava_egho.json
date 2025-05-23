@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_114_by_108.geo",
       "poser": "cobblemon:cutout_gravelmon_114_by_108",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoquilava.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoquilava.png",
       "layers": [
         {
           "name": "emissive"

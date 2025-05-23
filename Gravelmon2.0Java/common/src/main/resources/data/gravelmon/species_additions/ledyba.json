@@ -2,19 +2,20 @@
   "target": "cobblemon:ledyba",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "bug",
-      "secondaryType": "fairy",
-      "catchRate": 255,
+      "name": "Relic",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 83,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
+      "baseExperienceYield": 53,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.046875,
+      "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
-        "sweetveil"
+        "ironfist",
+        "compoundeyes"
       ],
       "behaviour": {
         "resting": {
@@ -43,74 +44,91 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 60,
+        "attack": 60,
+        "defence": 50,
+        "special_attack": 20,
+        "special_defence": 40,
+        "speed": 55
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 1,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "bug",
+        "fairy"
       ],
       "drops": {},
       "moves": [
-        "1:strugglebug",
-        "1:disarmingvoice",
-        "1:stringshot",
-        "1:babydolleyes",
-        "4:silverwind",
-        "4:drainingkiss",
-        "7:signalbeam",
-        "7:playnice",
-        "10:infestation",
-        "10:dazzlinggleam",
-        "13:uturn",
-        "13:hypervoice",
-        "16:bugbuzz",
-        "16:moonblast",
-        "19:strugglebug",
-        "19:disarmingvoice",
-        "22:stringshot",
-        "22:babydolleyes",
-        "25:leechlife",
-        "25:drainingkiss",
-        "28:lunge",
-        "28:playnice",
-        "31:xscissor",
-        "31:dazzlinggleam",
-        "34:uturn",
-        "34:playrough",
-        "39:megahorn",
-        "39:spiritbreak",
+        "1:tackle",
+        "1:leer",
+        "5:cometpunch",
+        "8:lightscreen",
+        "8:reflect",
+        "12:bulletpunch",
+        "18:bulkup",
+        "23:craftyshield",
+        "29:uturn",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:focusblast",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:quash",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:gyroball",
+        "tm:swordsdance",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:naturepower",
+        "tm:poweruppunch",
+        "tm:dazzlinggleam",
+        "tm:confide",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "phoenix_rising",
+        "gen2",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanledyba.desc"
+        "cobblemon.species.relicledyba.desc"
       ],
-      "height": 10,
-      "weight": 0,
+      "height": 8,
+      "weight": 300,
       "aspects": [
-        "forman"
+        "relic"
       ],
       "evolutions": [
         {
-          "id": "formanledyba_ledian_forman",
+          "id": "relicledyba_ledian_relic",
           "variant": "level_up",
-          "result": "ledian forman",
+          "result": "ledian relic",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -124,8 +142,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -297,20 +315,19 @@
       }
     },
     {
-      "name": "Relic",
-      "primaryType": "fire",
-      "secondaryType": "steel",
-      "catchRate": 83,
+      "name": "Forman",
+      "primaryType": "bug",
+      "secondaryType": "fairy",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 53,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4,
+      "baseScale": 0.046875,
       "cannotDynamax": false,
       "abilities": [
-        "ironfist",
-        "compoundeyes"
+        "sweetveil"
       ],
       "behaviour": {
         "resting": {
@@ -339,91 +356,75 @@
         }
       },
       "baseStats": {
-        "hp": 60,
-        "attack": 60,
-        "defence": 50,
-        "special_attack": 20,
-        "special_defence": 40,
-        "speed": 55
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "bug",
-        "fairy"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:tackle",
-        "1:leer",
-        "5:cometpunch",
-        "8:lightscreen",
-        "8:reflect",
-        "12:bulletpunch",
-        "18:bulkup",
-        "23:craftyshield",
-        "29:uturn",
-        "tm:toxic",
-        "tm:bulkup",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:hyperbeam",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:return",
-        "tm:brickbreak",
-        "tm:doubleteam",
-        "tm:reflect",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:focusblast",
-        "tm:falseswipe",
-        "tm:fling",
-        "tm:quash",
-        "tm:payback",
-        "tm:gigaimpact",
-        "tm:gyroball",
-        "tm:swordsdance",
-        "tm:swagger",
-        "tm:sleeptalk",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:trickroom",
-        "tm:naturepower",
-        "tm:poweruppunch",
-        "tm:dazzlinggleam",
-        "tm:confide",
+        "1:strugglebug",
+        "1:disarmingvoice",
+        "1:stringshot",
+        "1:babydolleyes",
+        "4:silverwind",
+        "4:drainingkiss",
+        "7:signalbeam",
+        "7:playnice",
+        "10:infestation",
+        "10:dazzlinggleam",
+        "13:uturn",
+        "13:hypervoice",
+        "16:bugbuzz",
+        "16:moonblast",
+        "19:strugglebug",
+        "19:disarmingvoice",
+        "22:stringshot",
+        "22:babydolleyes",
+        "25:leechlife",
+        "25:drainingkiss",
+        "28:lunge",
+        "28:playnice",
+        "31:xscissor",
+        "31:dazzlinggleam",
+        "34:uturn",
+        "34:playrough",
+        "39:megahorn",
+        "39:spiritbreak",
         "tm:terablast"
       ],
       "labels": [
-        "phoenix_rising",
-        "gen2",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.relicledyba.desc"
+        "cobblemon.species.formanledyba.desc"
       ],
-      "height": 8,
-      "weight": 300,
+      "height": 10,
+      "weight": 0,
       "aspects": [
-        "relic"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "relicledyba_ledian_relic",
+          "id": "formanledyba_ledian_forman",
           "variant": "level_up",
-          "result": "ledian relic",
+          "result": "ledian forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -437,16 +438,16 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "forman",
+    "relic",
     "epoch",
-    "relic"
+    "forman"
   ],
   "evolutions": [
     {

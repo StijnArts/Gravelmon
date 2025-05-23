@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_144_by_150.geo",
       "poser": "cobblemon:cutout_gravelmon_144_by_150",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoazumarill.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoazumarill.png",
       "layers": [
         {
           "name": "emissive"

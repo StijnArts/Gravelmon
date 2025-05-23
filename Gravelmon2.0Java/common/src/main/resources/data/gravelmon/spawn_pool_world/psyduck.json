@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_psyduck-01",
+      "pokemon": "psyduck epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_psyduck-01",
       "pokemon": "psyduck forman",
       "presets": [
@@ -26,6 +54,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qamoran_psyduck-01",
+      "pokemon": "psyduck qamoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-32",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -55,59 +108,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_psyduck-01",
-      "pokemon": "psyduck epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "qamoran_psyduck-01",
-      "pokemon": "psyduck qamoran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "7-32",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

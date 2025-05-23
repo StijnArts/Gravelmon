@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_60_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_60_by_57",
-      "texture": "cobblemon:textures/pokemon/generation2/epochsudowoodo.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochsudowoodo.png",
       "layers": [
         {
           "name": "emissive"

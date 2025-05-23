@@ -6,9 +6,9 @@
       "aspects": [
         "seviian"
       ],
-      "model": "cobblemon:generation7_seviianwishiwashi.geo",
-      "poser": "cobblemon:generation7_seviianwishiwashi",
-      "texture": "cobblemon:textures/pokemon/generation7/seviianwishiwashi/seviianwishiwashi.png",
+      "model": "cobblemon:sevii_seviianwishiwashi.geo",
+      "poser": "cobblemon:sevii_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/sevii/seviianwishiwashi/seviianwishiwashi.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "seviian",
         "shiny"
       ],
-      "model": "cobblemon:generation7_seviianwishiwashi.geo",
-      "poser": "cobblemon:generation7_seviianwishiwashi",
-      "texture": "cobblemon:textures/pokemon/generation7/seviianwishiwashi/seviianwishiwashi_shiny.png",
+      "model": "cobblemon:sevii_seviianwishiwashi.geo",
+      "poser": "cobblemon:sevii_seviianwishiwashi",
+      "texture": "cobblemon:textures/pokemon/sevii/seviianwishiwashi/seviianwishiwashi_shiny.png",
       "layers": [
         {
           "name": "emissive"

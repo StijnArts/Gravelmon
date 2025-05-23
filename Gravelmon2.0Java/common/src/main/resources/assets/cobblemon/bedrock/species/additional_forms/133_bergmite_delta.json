@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation6_deltabergmite.geo",
-      "poser": "cobblemon:generation6_deltabergmite",
-      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite/deltabergmite.png",
+      "model": "cobblemon:insurgence_deltabergmite.geo",
+      "poser": "cobblemon:insurgence_deltabergmite",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabergmite/deltabergmite.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation6_deltabergmite.geo",
-      "poser": "cobblemon:generation6_deltabergmite",
-      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite/deltabergmite_shiny.png",
+      "model": "cobblemon:insurgence_deltabergmite.geo",
+      "poser": "cobblemon:insurgence_deltabergmite",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabergmite/deltabergmite_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_407.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_407",
-      "texture": "cobblemon:textures/pokemon/generation4/kaskadianskuntank.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianskuntank.png",
       "layers": [
         {
           "name": "emissive"

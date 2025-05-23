@@ -6,15 +6,15 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:generation8_hoenniandragapult.geo",
-      "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult.png",
+      "model": "cobblemon:blazingemerald_hoenniandragapult.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandragapult",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandragapult/hoenniandragapult.png",
       "layers": [
         {
           "name": "emmisive",
           "emissive": true,
           "translucent": false,
-          "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire.png"
+          "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandragapult/dragapult_fire.png"
         },
         {
           "name": "emissive"
@@ -47,15 +47,15 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:generation8_hoenniandragapult.geo",
-      "poser": "cobblemon:generation8_hoenniandragapult",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/hoenniandragapult_shiny.png",
+      "model": "cobblemon:blazingemerald_hoenniandragapult.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandragapult",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandragapult/hoenniandragapult_shiny.png",
       "layers": [
         {
           "name": "emmisive",
           "emissive": true,
           "translucent": false,
-          "texture": "cobblemon:textures/pokemon/generation8/hoenniandragapult/dragapult_fire_shiny.png"
+          "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandragapult/dragapult_fire_shiny.png"
         },
         {
           "name": "emissive"

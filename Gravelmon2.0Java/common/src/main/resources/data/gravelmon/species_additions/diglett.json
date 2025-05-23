@@ -2,19 +2,20 @@
   "target": "cobblemon:diglett",
   "forms": [
     {
-      "name": "Forman",
+      "name": "Cefiran",
       "primaryType": "ground",
-      "secondaryType": "water",
-      "catchRate": 220,
+      "secondaryType": "flying",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 53,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.0234375,
+      "baseScale": 0.10434782608695653,
       "cannotDynamax": false,
       "abilities": [
-        "waterabsorb"
+        "anticipation",
+        "h:sandforce"
       ],
       "behaviour": {
         "resting": {
@@ -30,25 +31,322 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": true
+            "avoidsLand": false
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
+            "canBreatheUnderwater": false,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 64,
-        "attack": 22,
-        "defence": 76,
-        "special_attack": 64,
-        "special_defence": 54,
-        "speed": 12
+        "hp": 30,
+        "attack": 60,
+        "defence": 35,
+        "special_attack": 95,
+        "special_defence": 35,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:sandattack",
+        "4:growl",
+        "7:astonish",
+        "12:mudslap",
+        "15:magnitude",
+        "18:aircutter",
+        "23:weatherball",
+        "26:mudbomb",
+        "29:earthquake",
+        "37:airslash",
+        "40:bravebird",
+        "45:fissure",
+        "egg:ancientpower",
+        "egg:astonish",
+        "egg:beatup",
+        "egg:endure",
+        "egg:feintattack",
+        "egg:return",
+        "egg:headbutt",
+        "egg:memento",
+        "egg:mudbomb",
+        "egg:pursuit",
+        "egg:reversal",
+        "egg:screech",
+        "egg:uproar",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefirandiglett.desc"
+      ],
+      "height": 2,
+      "weight": 8,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [
+        {
+          "id": "cefirandiglett_dugtrio_cefiran",
+          "variant": "level_up",
+          "result": "dugtrio cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.75,
+        "height": 5.75,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "ice",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 53,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "furcoat",
+        "h:oblivious"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 10,
+        "attack": 55,
+        "defence": 25,
+        "special_attack": 35,
+        "special_defence": 45,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:powdersnow",
+        "4:growl",
+        "7:astonish",
+        "12:furyswipes",
+        "15:icywind",
+        "18:hyperfang",
+        "23:takedown",
+        "26:hail",
+        "29:iciclecrash",
+        "34:dig",
+        "37:headcharge",
+        "40:blizzard",
+        "45:sheercold",
+        "tm:honeclaws",
+        "tm:bulldoze",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:protect",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:falseswipe",
+        "tm:shadowclaw",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:frostbreath",
+        "tm:achillesheel",
+        "tm:avalanche",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:cut",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:covet",
+        "tutor:dig",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:furycutter",
+        "tutor:headbutt",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:icywind",
+        "tutor:knockoff",
+        "tutor:lastresort",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:snore",
+        "tutor:suckerpunch",
+        "tutor:superfang",
+        "tutor:uproar",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltadiglett.desc"
+      ],
+      "height": 2,
+      "weight": 8,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltadiglett_dugtrio_delta",
+          "variant": "level_up",
+          "result": "dugtrio delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.5,
+        "height": 0.6,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Norheiman",
+      "primaryType": "ghost",
+      "secondaryType": "ground",
+      "catchRate": 240,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.36923076923076925,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 23,
+        "defence": 47,
+        "special_attack": 69,
+        "special_defence": 47,
+        "speed": 81
       },
       "evYield": {
         "hp": 0,
@@ -63,57 +361,48 @@
       ],
       "drops": {},
       "moves": [
-        "1:mudslap",
-        "1:watergun",
-        "1:shoreup",
-        "1:bulkup",
-        "1:sandattack",
-        "1:tailwhip",
-        "1:bulkup",
-        "1:calmmind",
-        "4:mudshot",
-        "4:bubblebeam",
-        "4:calmmind",
-        "4:taunt",
-        "7:mudbomb",
-        "7:brine",
-        "7:taunt",
-        "7:substitute",
-        "10:bulldoze",
-        "10:surf",
-        "10:substitute",
-        "10:rest",
-        "13:scorchingsands",
-        "13:chillingwater",
-        "13:rest",
-        "16:earthpower",
-        "16:hydropump",
+        "1:astonish",
+        "8:furyattack",
+        "13:mudslap",
+        "17:detect",
+        "20:shadowsneak",
+        "24:curse",
+        "27:magnitude",
+        "32:shadowpunch",
+        "37:rockblast",
+        "42:fling",
+        "46:earthquake",
+        "51:shadowclaw",
+        "56:destinybond",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formandiglett.desc"
+        "cobblemon.species.norheimandiglett.desc"
       ],
-      "height": 5,
-      "weight": 0,
+      "height": 6,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
       "evolutions": [
         {
-          "id": "formandiglett_dugtrio_forman",
+          "id": "norheimandiglett_dugtrio_norheiman",
           "variant": "level_up",
-          "result": "dugtrio forman",
+          "result": "dugtrio norheiman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
               "minLevel": "26"
+            },
+            {
+              "variant": "time_range",
+              "range": "night"
             }
           ],
           "permanent": true
@@ -121,8 +410,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 2.4375,
+        "height": 2.4375,
         "fixed": false
       }
     },
@@ -467,19 +756,19 @@
       }
     },
     {
-      "name": "Norheiman",
-      "primaryType": "ghost",
-      "secondaryType": "ground",
-      "catchRate": 240,
+      "name": "Forman",
+      "primaryType": "ground",
+      "secondaryType": "water",
+      "catchRate": 220,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.36923076923076925,
+      "baseScale": 0.0234375,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "waterabsorb"
       ],
       "behaviour": {
         "resting": {
@@ -495,25 +784,25 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 45,
-        "attack": 23,
-        "defence": 47,
-        "special_attack": 69,
-        "special_defence": 47,
-        "speed": 81
+        "hp": 64,
+        "attack": 22,
+        "defence": 76,
+        "special_attack": 64,
+        "special_defence": 54,
+        "speed": 12
       },
       "evYield": {
         "hp": 0,
@@ -528,213 +817,52 @@
       ],
       "drops": {},
       "moves": [
-        "1:astonish",
-        "8:furyattack",
-        "13:mudslap",
-        "17:detect",
-        "20:shadowsneak",
-        "24:curse",
-        "27:magnitude",
-        "32:shadowpunch",
-        "37:rockblast",
-        "42:fling",
-        "46:earthquake",
-        "51:shadowclaw",
-        "56:destinybond",
+        "1:mudslap",
+        "1:watergun",
+        "1:shoreup",
+        "1:bulkup",
+        "1:sandattack",
+        "1:tailwhip",
+        "1:bulkup",
+        "1:calmmind",
+        "4:mudshot",
+        "4:bubblebeam",
+        "4:calmmind",
+        "4:taunt",
+        "7:mudbomb",
+        "7:brine",
+        "7:taunt",
+        "7:substitute",
+        "10:bulldoze",
+        "10:surf",
+        "10:substitute",
+        "10:rest",
+        "13:scorchingsands",
+        "13:chillingwater",
+        "13:rest",
+        "16:earthpower",
+        "16:hydropump",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimandiglett.desc"
+        "cobblemon.species.formandiglett.desc"
       ],
-      "height": 6,
-      "weight": 165,
+      "height": 5,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "norheimandiglett_dugtrio_norheiman",
+          "id": "formandiglett_dugtrio_forman",
           "variant": "level_up",
-          "result": "dugtrio norheiman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "26"
-            },
-            {
-              "variant": "time_range",
-              "range": "night"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.4375,
-        "height": 2.4375,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "ice",
-      "secondaryType": "normal",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 53,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.8,
-      "cannotDynamax": false,
-      "abilities": [
-        "snowcloak",
-        "furcoat",
-        "h:oblivious"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 10,
-        "attack": 55,
-        "defence": 25,
-        "special_attack": 35,
-        "special_defence": 45,
-        "speed": 95
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:scratch",
-        "1:powdersnow",
-        "4:growl",
-        "7:astonish",
-        "12:furyswipes",
-        "15:icywind",
-        "18:hyperfang",
-        "23:takedown",
-        "26:hail",
-        "29:iciclecrash",
-        "34:dig",
-        "37:headcharge",
-        "40:blizzard",
-        "45:sheercold",
-        "tm:honeclaws",
-        "tm:bulldoze",
-        "tm:toxic",
-        "tm:hail",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:blizzard",
-        "tm:protect",
-        "tm:snatch",
-        "tm:frustration",
-        "tm:earthquake",
-        "tm:return",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:falseswipe",
-        "tm:shadowclaw",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:frostbreath",
-        "tm:achillesheel",
-        "tm:avalanche",
-        "tm:allyswitch",
-        "tm:echoedvoice",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:secretpower",
-        "tm:rocksmash",
-        "tm:workup",
-        "tm:cut",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:block",
-        "tutor:bodyslam",
-        "tutor:covet",
-        "tutor:dig",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:foulplay",
-        "tutor:furycutter",
-        "tutor:headbutt",
-        "tutor:helpinghand",
-        "tutor:hypervoice",
-        "tutor:icywind",
-        "tutor:knockoff",
-        "tutor:lastresort",
-        "tutor:mimic",
-        "tutor:mudslap",
-        "tutor:snore",
-        "tutor:suckerpunch",
-        "tutor:superfang",
-        "tutor:uproar",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen1",
-        "insurgence"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltadiglett.desc"
-      ],
-      "height": 2,
-      "weight": 8,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [
-        {
-          "id": "deltadiglett_dugtrio_delta",
-          "variant": "level_up",
-          "result": "dugtrio delta",
+          "result": "dugtrio forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -748,8 +876,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.5,
-        "height": 0.6,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -913,142 +1041,15 @@
         "height": 2.25,
         "fixed": false
       }
-    },
-    {
-      "name": "Cefiran",
-      "primaryType": "ground",
-      "secondaryType": "flying",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 53,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.10434782608695653,
-      "cannotDynamax": false,
-      "abilities": [
-        "anticipation",
-        "h:sandforce"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 30,
-        "attack": 60,
-        "defence": 35,
-        "special_attack": 95,
-        "special_defence": 35,
-        "speed": 45
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:scratch",
-        "1:sandattack",
-        "4:growl",
-        "7:astonish",
-        "12:mudslap",
-        "15:magnitude",
-        "18:aircutter",
-        "23:weatherball",
-        "26:mudbomb",
-        "29:earthquake",
-        "37:airslash",
-        "40:bravebird",
-        "45:fissure",
-        "egg:ancientpower",
-        "egg:astonish",
-        "egg:beatup",
-        "egg:endure",
-        "egg:feintattack",
-        "egg:return",
-        "egg:headbutt",
-        "egg:memento",
-        "egg:mudbomb",
-        "egg:pursuit",
-        "egg:reversal",
-        "egg:screech",
-        "egg:uproar",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen1",
-        "opal",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.cefirandiglett.desc"
-      ],
-      "height": 2,
-      "weight": 8,
-      "aspects": [
-        "cefiran"
-      ],
-      "evolutions": [
-        {
-          "id": "cefirandiglett_dugtrio_cefiran",
-          "variant": "level_up",
-          "result": "dugtrio cefiran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "26"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.75,
-        "height": 5.75,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "forman",
+    "cefiran",
+    "delta",
+    "norheiman",
     "epoch",
     "nostan",
-    "norheiman",
-    "delta",
-    "ayreian",
-    "cefiran"
+    "forman",
+    "ayreian"
   ]
 }

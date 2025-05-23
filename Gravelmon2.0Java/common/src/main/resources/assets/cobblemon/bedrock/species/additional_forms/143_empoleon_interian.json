@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_95_by_95.geo",
       "poser": "cobblemon:cutout_gravelmon_95_by_95",
-      "texture": "cobblemon:textures/pokemon/generation4/interianempoleon.png",
+      "texture": "cobblemon:textures/pokemon/interregional/interianempoleon.png",
       "layers": [
         {
           "name": "emissive"

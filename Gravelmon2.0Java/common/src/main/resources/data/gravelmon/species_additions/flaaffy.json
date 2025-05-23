@@ -2,19 +2,21 @@
   "target": "cobblemon:flaaffy",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "poison",
+      "name": "Aristosian",
+      "primaryType": "electric",
+      "secondaryType": "dark",
       "catchRate": 120,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "baseExperienceYield": 128,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareep form=forman",
-      "baseScale": 0.037500000000000006,
+      "preEvolution": "mareep form=aristosian",
+      "baseScale": 0.45,
       "cannotDynamax": false,
       "abilities": [
-        "effectspore"
+        "static",
+        "h:plus"
       ],
       "behaviour": {
         "resting": {
@@ -43,55 +45,103 @@
         }
       },
       "baseStats": {
-        "hp": 62,
-        "attack": 91,
-        "defence": 53,
-        "special_attack": 32,
-        "special_defence": 59,
-        "speed": 53
+        "hp": 70,
+        "attack": 55,
+        "defence": 55,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 45
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 0,
+        "special_attack": 2,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
+        "monster",
         "field"
       ],
       "drops": {},
       "moves": [
-        "1:poisonsting",
-        "1:leer",
-        "4:venoshock",
-        "7:poisontail",
-        "10:toxicspikes",
-        "13:sludgebomb",
-        "16:poisonjab",
+        "1:growl",
+        "4:thunderwave",
+        "8:thundershock",
+        "11:cottonspore",
+        "15:charge",
+        "18:takedown",
+        "22:electroball",
+        "25:confuseray",
+        "29:powergem",
+        "32:discharge",
+        "36:cottonguard",
+        "39:signalbeam",
+        "43:lightscreen",
+        "46:thunder",
+        "tm:snore",
+        "tm:healbell",
+        "tm:irontail",
+        "tm:signalbeam",
+        "tm:shockwave",
+        "tm:magnetrise",
+        "tm:afteryou",
+        "tm:electroweb",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:facade",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:wildcharge",
+        "tm:confide",
+        "tm:sandattack",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:agility",
+        "tm:screech",
+        "tm:flatter",
+        "tm:charge",
+        "tm:odorsleuth",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
         "tm:terablast"
       ],
       "labels": [
-        "form",
+        "aristos",
         "not_modeled",
         "fakemon",
-        "fakemonevolution",
-        "instagram"
+        "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.formanflaaffy.desc"
+        "cobblemon.species.aristosianflaaffy.desc"
       ],
-      "height": 8,
-      "weight": 0,
+      "height": 9,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "aristosian"
       ],
       "evolutions": [
         {
-          "id": "formanflaaffy_venomare",
+          "id": "aristosianflaaffy_ramvolt",
           "variant": "level_up",
-          "result": "Venomare",
+          "result": "ramvolt",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -105,8 +155,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 3.0,
+        "height": 3.0,
         "fixed": false
       }
     },
@@ -278,21 +328,19 @@
       }
     },
     {
-      "name": "Aristosian",
-      "primaryType": "electric",
-      "secondaryType": "dark",
+      "name": "Forman",
+      "primaryType": "poison",
       "catchRate": 120,
       "maleRatio": 0.5,
-      "baseExperienceYield": 128,
-      "experienceGroup": "medium_slow",
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "mareep form=aristosian",
-      "baseScale": 0.45,
+      "preEvolution": "mareep form=forman",
+      "baseScale": 0.037500000000000006,
       "cannotDynamax": false,
       "abilities": [
-        "static",
-        "h:plus"
+        "effectspore"
       ],
       "behaviour": {
         "resting": {
@@ -321,103 +369,56 @@
         }
       },
       "baseStats": {
-        "hp": 70,
-        "attack": 55,
-        "defence": 55,
-        "special_attack": 80,
-        "special_defence": 60,
-        "speed": 45
+        "hp": 62,
+        "attack": 91,
+        "defence": 53,
+        "special_attack": 32,
+        "special_defence": 59,
+        "speed": 53
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 2,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "monster",
         "field"
       ],
       "drops": {},
       "moves": [
-        "1:growl",
-        "4:thunderwave",
-        "8:thundershock",
-        "11:cottonspore",
-        "15:charge",
-        "18:takedown",
-        "22:electroball",
-        "25:confuseray",
-        "29:powergem",
-        "32:discharge",
-        "36:cottonguard",
-        "39:signalbeam",
-        "43:lightscreen",
-        "46:thunder",
-        "tm:snore",
-        "tm:healbell",
-        "tm:irontail",
-        "tm:signalbeam",
-        "tm:shockwave",
-        "tm:magnetrise",
-        "tm:afteryou",
-        "tm:electroweb",
-        "tm:thunderbolt",
-        "tm:thunderwave",
-        "tm:thunder",
-        "tm:toxic",
-        "tm:doubleteam",
-        "tm:lightscreen",
-        "tm:rest",
-        "tm:substitute",
-        "tm:protect",
-        "tm:swagger",
-        "tm:attract",
-        "tm:sleeptalk",
-        "tm:return",
-        "tm:frustration",
-        "tm:safeguard",
-        "tm:hiddenpower",
-        "tm:raindance",
-        "tm:facade",
-        "tm:chargebeam",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:wildcharge",
-        "tm:confide",
-        "tm:sandattack",
-        "tm:bodyslam",
-        "tm:takedown",
-        "tm:agility",
-        "tm:screech",
-        "tm:flatter",
-        "tm:charge",
-        "tm:odorsleuth",
-        "tm:eerieimpulse",
-        "tm:electricterrain",
+        "1:poisonsting",
+        "1:leer",
+        "4:venoshock",
+        "7:poisontail",
+        "10:toxicspikes",
+        "13:sludgebomb",
+        "16:poisonjab",
         "tm:terablast"
       ],
       "labels": [
-        "aristos",
+        "form",
         "not_modeled",
         "fakemon",
-        "fakemonevolution"
+        "fakemonevolution",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.aristosianflaaffy.desc"
+        "cobblemon.species.formanflaaffy.desc"
       ],
-      "height": 9,
-      "weight": 165,
+      "height": 8,
+      "weight": 0,
       "aspects": [
-        "aristosian"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "aristosianflaaffy_ramvolt",
+          "id": "formanflaaffy_venomare",
           "variant": "level_up",
-          "result": "ramvolt",
+          "result": "Venomare",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -431,15 +432,15 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "forman",
+    "aristosian",
     "epoch",
-    "aristosian"
+    "forman"
   ]
 }

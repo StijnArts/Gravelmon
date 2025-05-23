@@ -4,28 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_polteageist-01",
-      "pokemon": "polteageist fabelian",
+      "id": "epoch_polteageist-01",
+      "pokemon": "polteageist epoch",
       "presets": [
-        "natural"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "29-54",
+      "weight": 0.75,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block"
+            "minecraft:prismarine"
           ]
         }
       }
@@ -58,28 +58,28 @@
       }
     },
     {
-      "id": "epoch_polteageist-01",
-      "pokemon": "polteageist epoch",
+      "id": "fabelian_polteageist-01",
+      "pokemon": "polteageist fabelian",
       "presets": [
-        "mansion"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "29-54",
-      "weight": 0.75,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:bone_block"
           ]
         }
       }

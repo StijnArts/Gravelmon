@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_65.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_65",
-      "texture": "cobblemon:textures/pokemon/generation3/epochmasquerain.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmasquerain.png",
       "layers": [
         {
           "name": "emissive"

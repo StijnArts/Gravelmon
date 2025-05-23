@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_65_by_54.geo",
       "poser": "cobblemon:cutout_gravelmon_65_by_54",
-      "texture": "cobblemon:textures/pokemon/generation4/epochskuntank.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochskuntank.png",
       "layers": [
         {
           "name": "emissive"

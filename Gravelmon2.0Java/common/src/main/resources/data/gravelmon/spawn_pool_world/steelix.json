@@ -4,58 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_steelix-01",
-      "pokemon": "steelix forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "39-67",
-      "weight": 0.44999999999999996,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_basalt"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_steelix-01",
-      "pokemon": "steelix nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "35-55",
-      "weight": 0.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_steelix-01",
       "pokemon": "steelix epoch",
       "presets": [
@@ -103,6 +51,58 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_steelix-01",
+      "pokemon": "steelix forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-67",
+      "weight": 0.44999999999999996,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_steelix-01",
+      "pokemon": "steelix nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

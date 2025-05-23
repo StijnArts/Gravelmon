@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_80_by_88.geo",
       "poser": "cobblemon:cutout_gravelmon_80_by_88",
-      "texture": "cobblemon:textures/pokemon/generation4/epochmamoswineone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmamoswineone.png",
       "layers": [
         {
           "name": "emissive"

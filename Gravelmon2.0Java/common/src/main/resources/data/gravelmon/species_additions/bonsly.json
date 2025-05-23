@@ -2,118 +2,6 @@
   "target": "cobblemon:bonsly",
   "forms": [
     {
-      "name": "Nodorran",
-      "primaryType": "ground",
-      "catchRate": 155,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 58,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3733333333333333,
-      "cannotDynamax": false,
-      "abilities": [
-        "rattled",
-        "runaway",
-        "h:dryskin"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 45,
-        "attack": 30,
-        "defence": 45,
-        "special_attack": 75,
-        "special_defence": 80,
-        "speed": 20
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:copycat",
-        "1:sandattack",
-        "5:lowkick",
-        "8:mudshot",
-        "11:mimic",
-        "16:echoedvoice",
-        "20:bulldoze",
-        "23:flatter",
-        "28:naturepower",
-        "31:rockslide",
-        "35:counter",
-        "40:taunt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "nodorro",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.nodorranbonsly.desc"
-      ],
-      "height": 7,
-      "weight": 90,
-      "aspects": [
-        "nodorran"
-      ],
-      "evolutions": [
-        {
-          "id": "nodorranbonsly_sudowoodo_nodorran",
-          "variant": "level_up",
-          "result": "sudowoodo nodorran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "20"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.8125,
-        "height": 2.8125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "grass",
@@ -444,12 +332,124 @@
         "height": 2.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "ground",
+      "catchRate": 155,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3733333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "rattled",
+        "runaway",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defence": 45,
+        "special_attack": 75,
+        "special_defence": 80,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "1:sandattack",
+        "5:lowkick",
+        "8:mudshot",
+        "11:mimic",
+        "16:echoedvoice",
+        "20:bulldoze",
+        "23:flatter",
+        "28:naturepower",
+        "31:rockslide",
+        "35:counter",
+        "40:taunt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranbonsly.desc"
+      ],
+      "height": 7,
+      "weight": 90,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorranbonsly_sudowoodo_nodorran",
+          "variant": "level_up",
+          "result": "sudowoodo nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.8125,
+        "height": 2.8125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "nodorran",
     "epoch",
-    "novran"
+    "novran",
+    "nodorran"
   ],
   "evolutions": [
     {

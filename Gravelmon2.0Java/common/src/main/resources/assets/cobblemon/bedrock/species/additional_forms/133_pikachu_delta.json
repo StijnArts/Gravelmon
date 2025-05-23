@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_90_by_104.geo",
       "poser": "cobblemon:cutout_gravelmon_90_by_104",
-      "texture": "cobblemon:textures/pokemon/generation1/deltapikachu.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltapikachu.png",
       "layers": [
         {
           "name": "emissive"

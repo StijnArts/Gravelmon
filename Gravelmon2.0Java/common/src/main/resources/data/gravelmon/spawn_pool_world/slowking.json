@@ -4,26 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_slowking-01",
-      "pokemon": "slowking forman",
+      "id": "africanusan_slowking-01",
+      "pokemon": "slowking africanusan",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "37-57",
-      "weight": 0.6000000000000001,
+      "bucket": "common",
+      "level": "35-51",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_soul_sand"
-        ]
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block"
+            "minecraft:prismarine"
           ]
         }
       }
@@ -56,28 +58,26 @@
       }
     },
     {
-      "id": "africanusan_slowking-01",
-      "pokemon": "slowking africanusan",
+      "id": "forman_slowking-01",
+      "pokemon": "slowking forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "35-51",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "37-57",
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_soul_sand"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:bone_block"
           ]
         }
       }

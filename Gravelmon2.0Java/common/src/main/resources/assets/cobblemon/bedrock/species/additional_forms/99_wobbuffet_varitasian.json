@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_66",
-      "texture": "cobblemon:textures/pokemon/generation2/varitasianwobbuffet.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianwobbuffet.png",
       "layers": [
         {
           "name": "emissive"

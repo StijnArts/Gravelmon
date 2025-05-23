@@ -2,19 +2,20 @@
   "target": "cobblemon:nosepass",
   "forms": [
     {
-      "name": "Nodorran",
-      "primaryType": "rock",
-      "secondaryType": "grass",
+      "name": "Hizian",
+      "primaryType": "electric",
+      "secondaryType": "rock",
       "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 75,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.46567164179104475,
+      "baseScale": 0.47058823529411764,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "galvanize",
+        "h:sturdy"
       ],
       "behaviour": {
         "resting": {
@@ -29,7 +30,7 @@
           },
           "canLook": true,
           "walk": {
-            "canWalk": false,
+            "canWalk": true,
             "avoidsLand": false
           },
           "swim": {
@@ -43,19 +44,19 @@
         }
       },
       "baseStats": {
-        "hp": 60,
-        "attack": 50,
-        "defence": 80,
-        "special_attack": 55,
-        "special_defence": 105,
-        "speed": 25
+        "hp": 40,
+        "attack": 65,
+        "defence": 110,
+        "special_attack": 50,
+        "special_defence": 80,
+        "speed": 30
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 0,
+        "defence": 1,
         "special_attack": 0,
-        "special_defence": 1,
+        "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
@@ -63,75 +64,86 @@
       ],
       "drops": {},
       "moves": [
-        "1:rockthrow",
-        "1:absorb",
-        "1:bulkup",
-        "1:synthesis",
-        "1:healbell",
-        "1:poisonpowder",
+        "1:charge",
         "1:defensecurl",
-        "1:leer",
-        "1:calmmind",
-        "1:bulkup",
-        "1:wish",
-        "1:healbell",
-        "4:rollout",
-        "4:megadrain",
-        "4:taunt",
-        "4:calmmind",
-        "4:wish",
-        "7:ancientpower",
-        "7:magicalleaf",
-        "7:substitute",
-        "7:taunt",
-        "10:powergem",
-        "10:gigadrain",
-        "10:rest",
-        "10:substitute",
-        "13:stealthrock",
-        "13:energyball",
-        "13:rest",
-        "16:meteorbeam",
-        "16:solarbeam",
-        "19:rockthrow",
-        "19:leafage",
-        "22:defensecurl",
-        "22:leer",
-        "25:rollout",
-        "25:absorb",
-        "28:smackdown",
-        "28:trailblaze",
-        "31:rockblast",
-        "31:gigadrain",
-        "34:stealthrock",
-        "34:seedbomb",
-        "39:stoneedge",
-        "39:leafblade",
+        "1:rockpolish",
+        "1:tackle",
+        "10:rollout",
+        "12:spark",
+        "16:rockthrow",
+        "18:smackdown",
+        "22:thunderpunch",
+        "24:selfdestruct",
+        "30:stealthrock",
+        "34:rockblast",
+        "40:discharge",
+        "44:explosion",
+        "50:doubleedge",
+        "54:stoneedge",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:facade",
+        "tm:bulldoze",
+        "tm:mudshot",
+        "tm:rocktomb",
+        "tm:fling",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:sandstorm",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:bodyslam",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:sleeptalk",
+        "tm:rockblast",
+        "tm:metronome",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:bodypress",
+        "tm:ironhead",
+        "tm:substitute",
+        "tm:irondefense",
+        "tm:stealthrock",
+        "tm:heavyslam",
+        "tm:flamethrower",
+        "tm:earthpower",
+        "tm:fireblast",
+        "tm:earthquake",
+        "tm:stoneedge",
+        "tm:focusblast",
+        "tm:terablast",
+        "tm:smackdown",
+        "tm:highhorsepower",
+        "tm:focuspunch",
         "tm:terablast"
       ],
       "labels": [
-        "nodorro",
+        "hiza",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.nodorrannosepass.desc"
+        "cobblemon.species.hiziannosepass.desc"
       ],
-      "height": 13,
-      "weight": 1050,
+      "height": 10,
+      "weight": 165,
       "aspects": [
-        "nodorran"
+        "hizian"
       ],
       "evolutions": [
         {
-          "id": "nodorrannosepass_probopass_nodorran",
+          "id": "hiziannosepass_wombopass",
           "variant": "level_up",
-          "result": "probopass nodorran",
+          "result": "wombopass",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "39"
+              "minLevel": "40"
             }
           ],
           "permanent": true
@@ -139,8 +151,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.1875,
-        "height": 4.1875,
+        "width": 3.1875,
+        "height": 3.1875,
         "fixed": false
       }
     },
@@ -490,161 +502,6 @@
       }
     },
     {
-      "name": "Hizian",
-      "primaryType": "electric",
-      "secondaryType": "rock",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 75,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.47058823529411764,
-      "cannotDynamax": false,
-      "abilities": [
-        "galvanize",
-        "h:sturdy"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 40,
-        "attack": 65,
-        "defence": 110,
-        "special_attack": 50,
-        "special_defence": 80,
-        "speed": 30
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:charge",
-        "1:defensecurl",
-        "1:rockpolish",
-        "1:tackle",
-        "10:rollout",
-        "12:spark",
-        "16:rockthrow",
-        "18:smackdown",
-        "22:thunderpunch",
-        "24:selfdestruct",
-        "30:stealthrock",
-        "34:rockblast",
-        "40:discharge",
-        "44:explosion",
-        "50:doubleedge",
-        "54:stoneedge",
-        "tm:takedown",
-        "tm:mudslap",
-        "tm:scaryface",
-        "tm:protect",
-        "tm:facade",
-        "tm:bulldoze",
-        "tm:mudshot",
-        "tm:rocktomb",
-        "tm:fling",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:sandstorm",
-        "tm:dig",
-        "tm:brickbreak",
-        "tm:bodyslam",
-        "tm:firepunch",
-        "tm:thunderpunch",
-        "tm:sleeptalk",
-        "tm:rockblast",
-        "tm:metronome",
-        "tm:stompingtantrum",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:bodypress",
-        "tm:ironhead",
-        "tm:substitute",
-        "tm:irondefense",
-        "tm:stealthrock",
-        "tm:heavyslam",
-        "tm:flamethrower",
-        "tm:earthpower",
-        "tm:fireblast",
-        "tm:earthquake",
-        "tm:stoneedge",
-        "tm:focusblast",
-        "tm:terablast",
-        "tm:smackdown",
-        "tm:highhorsepower",
-        "tm:focuspunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.hiziannosepass.desc"
-      ],
-      "height": 10,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [
-        {
-          "id": "hiziannosepass_wombopass",
-          "variant": "level_up",
-          "result": "wombopass",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "40"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "rock",
       "secondaryType": "psychic",
@@ -817,13 +674,156 @@
         "height": 2.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "rock",
+      "secondaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.46567164179104475,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": false,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 80,
+        "special_attack": 55,
+        "special_defence": 105,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:rockthrow",
+        "1:absorb",
+        "1:bulkup",
+        "1:synthesis",
+        "1:healbell",
+        "1:poisonpowder",
+        "1:defensecurl",
+        "1:leer",
+        "1:calmmind",
+        "1:bulkup",
+        "1:wish",
+        "1:healbell",
+        "4:rollout",
+        "4:megadrain",
+        "4:taunt",
+        "4:calmmind",
+        "4:wish",
+        "7:ancientpower",
+        "7:magicalleaf",
+        "7:substitute",
+        "7:taunt",
+        "10:powergem",
+        "10:gigadrain",
+        "10:rest",
+        "10:substitute",
+        "13:stealthrock",
+        "13:energyball",
+        "13:rest",
+        "16:meteorbeam",
+        "16:solarbeam",
+        "19:rockthrow",
+        "19:leafage",
+        "22:defensecurl",
+        "22:leer",
+        "25:rollout",
+        "25:absorb",
+        "28:smackdown",
+        "28:trailblaze",
+        "31:rockblast",
+        "31:gigadrain",
+        "34:stealthrock",
+        "34:seedbomb",
+        "39:stoneedge",
+        "39:leafblade",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorrannosepass.desc"
+      ],
+      "height": 13,
+      "weight": 1050,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [
+        {
+          "id": "nodorrannosepass_probopass_nodorran",
+          "variant": "level_up",
+          "result": "probopass nodorran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "39"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.1875,
+        "height": 4.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "nodorran",
+    "hizian",
     "epoch",
     "epochtwo",
-    "hizian",
-    "ayreian"
+    "ayreian",
+    "nodorran"
   ]
 }

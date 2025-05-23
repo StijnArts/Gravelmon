@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_31_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_31_by_39",
-      "texture": "cobblemon:textures/pokemon/generation5/norheimanfoongus.png",
+      "texture": "cobblemon:textures/pokemon/norheim/norheimanfoongus.png",
       "layers": [
         {
           "name": "emissive"

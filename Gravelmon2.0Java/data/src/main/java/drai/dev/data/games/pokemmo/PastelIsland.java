@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.pastelisland.*;
+import drai.dev.data.pokemon.pastelisland.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -14,6 +16,23 @@ public class PastelIsland extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        addNewPokemon(new PastelianShellder("", Aspect.PASTELIAN)); 
+        addNewPokemon(new PastelianCloyster("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianChansey("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianKoffing("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianWeezing("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianLedyba("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianLedian("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianGirafarig("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianSneasel("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianSmeargle("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianWeavile("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianGothita("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianGothorita("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianGothitelle("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianFlabebe("", Aspect.PASTELIAN));
+        addNewPokemon(new PastelianFloette("", Aspect.PASTELIAN));
+        
         addNewPokemon(new Geckamp());
         addNewPokemon(new Gecktricity());
         addNewPokemon(new Geckolt());

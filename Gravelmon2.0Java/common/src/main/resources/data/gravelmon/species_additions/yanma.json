@@ -2,19 +2,21 @@
   "target": "cobblemon:yanma",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "bug",
-      "secondaryType": "dragon",
-      "catchRate": 255,
+      "name": "Delta",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "catchRate": 75,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 78,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.1894736842105263,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "adaptability",
+        "leafguard",
+        "h:naturalcure"
       ],
       "behaviour": {
         "resting": {
@@ -25,7 +27,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": false
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -43,12 +45,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 65,
+        "attack": 65,
+        "defence": 45,
+        "special_attack": 75,
+        "special_defence": 45,
+        "speed": 95
       },
       "evYield": {
         "hp": 0,
@@ -56,61 +58,127 @@
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 0
+        "speed": 1
       },
       "eggGroups": [
-        "field"
+        "undiscovered"
       ],
       "drops": {},
       "moves": [
-        "1:strugglebug",
-        "1:scratch",
-        "1:stringshot",
-        "1:leer",
-        "4:silverwind",
-        "4:twister",
-        "7:signalbeam",
-        "7:dragonbreath",
-        "10:infestation",
-        "10:breakingswipe",
-        "13:uturn",
-        "13:dragonpulse",
-        "16:bugbuzz",
-        "16:dracometeor",
-        "19:strugglebug",
-        "19:scratch",
-        "22:stringshot",
-        "22:leer",
-        "25:leechlife",
-        "25:dragonrage",
-        "28:lunge",
-        "28:dualchop",
-        "31:xscissor",
-        "31:breakingswipe",
-        "34:uturn",
-        "34:dragonclaw",
-        "39:megahorn",
-        "39:outrage",
+        "1:vinewhip",
+        "1:camouflage",
+        "6:gust",
+        "11:growth",
+        "14:razorleaf",
+        "17:detect",
+        "22:aircutter",
+        "27:leaftornado",
+        "30:pursuit",
+        "33:ancientpower",
+        "38:grasswhistle",
+        "43:airslash",
+        "46:worryseed",
+        "49:uturn",
+        "54:hurricane",
+        "57:leafstorm",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:recycle",
+        "tm:roost",
+        "tm:energyball",
+        "tm:fling",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:acrobatics",
+        "tm:achillesheel",
+        "tm:silverwind",
+        "tm:skydrop",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:naturepower",
+        "tm:fly",
+        "tutor:acid",
+        "tutor:aircutter",
+        "tutor:ancientpower",
+        "tutor:bind",
+        "tutor:bounce",
+        "tutor:bugbite",
+        "tutor:bulletseed",
+        "tutor:covet",
+        "tutor:defog",
+        "tutor:dig",
+        "tutor:electroweb",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:helpinghand",
+        "tutor:hurricane",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:synthesis",
+        "tutor:tailwind",
+        "tutor:twister",
+        "tutor:worryseed",
         "tm:terablast"
       ],
       "labels": [
-        "mahal",
-        "not_modeled",
-        "instagram"
+        "gen2",
+        "insurgence",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianyanma.desc"
+        "cobblemon.species.deltayanma.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 12,
+      "weight": 380,
       "aspects": [
-        "mahalian"
+        "delta"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "deltayanma_yanmega_delta",
+          "variant": "level_up",
+          "result": "yanmega delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "ancientpower"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 9.5,
+        "height": 9.5,
         "fixed": false
       }
     },
@@ -444,187 +512,6 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "grass",
-      "secondaryType": "flying",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 78,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1894736842105263,
-      "cannotDynamax": false,
-      "abilities": [
-        "adaptability",
-        "leafguard",
-        "h:naturalcure"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 65,
-        "defence": 45,
-        "special_attack": 75,
-        "special_defence": 45,
-        "speed": 95
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:vinewhip",
-        "1:camouflage",
-        "6:gust",
-        "11:growth",
-        "14:razorleaf",
-        "17:detect",
-        "22:aircutter",
-        "27:leaftornado",
-        "30:pursuit",
-        "33:ancientpower",
-        "38:grasswhistle",
-        "43:airslash",
-        "46:worryseed",
-        "49:uturn",
-        "54:hurricane",
-        "57:leafstorm",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:return",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:recycle",
-        "tm:roost",
-        "tm:energyball",
-        "tm:fling",
-        "tm:gigaimpact",
-        "tm:grassknot",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:acrobatics",
-        "tm:achillesheel",
-        "tm:silverwind",
-        "tm:skydrop",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:secretpower",
-        "tm:naturepower",
-        "tm:fly",
-        "tutor:acid",
-        "tutor:aircutter",
-        "tutor:ancientpower",
-        "tutor:bind",
-        "tutor:bounce",
-        "tutor:bugbite",
-        "tutor:bulletseed",
-        "tutor:covet",
-        "tutor:defog",
-        "tutor:dig",
-        "tutor:electroweb",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:furycutter",
-        "tutor:gigadrain",
-        "tutor:helpinghand",
-        "tutor:hurricane",
-        "tutor:knockoff",
-        "tutor:mimic",
-        "tutor:roleplay",
-        "tutor:seedbomb",
-        "tutor:signalbeam",
-        "tutor:snore",
-        "tutor:synthesis",
-        "tutor:tailwind",
-        "tutor:twister",
-        "tutor:worryseed",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen2",
-        "insurgence",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltayanma.desc"
-      ],
-      "height": 12,
-      "weight": 380,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [
-        {
-          "id": "deltayanma_yanmega_delta",
-          "variant": "level_up",
-          "result": "yanmega delta",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "ancientpower"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 9.5,
-        "height": 9.5,
-        "fixed": false
-      }
-    },
-    {
       "name": "Kaskadian",
       "primaryType": "bug",
       "secondaryType": "dragon",
@@ -771,13 +658,127 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:scratch",
+        "1:stringshot",
+        "1:leer",
+        "4:silverwind",
+        "4:twister",
+        "7:signalbeam",
+        "7:dragonbreath",
+        "10:infestation",
+        "10:breakingswipe",
+        "13:uturn",
+        "13:dragonpulse",
+        "16:bugbuzz",
+        "16:dracometeor",
+        "19:strugglebug",
+        "19:scratch",
+        "22:stringshot",
+        "22:leer",
+        "25:leechlife",
+        "25:dragonrage",
+        "28:lunge",
+        "28:dualchop",
+        "31:xscissor",
+        "31:breakingswipe",
+        "34:uturn",
+        "34:dragonclaw",
+        "39:megahorn",
+        "39:outrage",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianyanma.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "mahalian",
+    "delta",
     "epoch",
     "epochtwo",
-    "delta",
-    "kaskadian"
+    "kaskadian",
+    "mahalian"
   ]
 }

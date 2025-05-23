@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_magcargo-01",
+      "pokemon": "magcargo cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-56",
+      "weight": 0.27,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_magcargo-01",
       "pokemon": "magcargo epoch",
       "presets": [
@@ -49,33 +76,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_magcargo-01",
-      "pokemon": "magcargo cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "32-56",
-      "weight": 0.27,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

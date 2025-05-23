@@ -4,28 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_impidimp-01",
-      "pokemon": "impidimp fabelian",
+      "id": "varitasian_impidimp-01",
+      "pokemon": "impidimp varitasian",
       "presets": [
-        "natural"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -83,33 +83,6 @@
       }
     },
     {
-      "id": "ottoran_impidimp-01",
-      "pokemon": "impidimp ottoran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "novran_impidimp-01",
       "pokemon": "impidimp novran",
       "presets": [
@@ -137,28 +110,28 @@
       }
     },
     {
-      "id": "varitasian_impidimp-01",
-      "pokemon": "impidimp varitasian",
+      "id": "fabelian_impidimp-01",
+      "pokemon": "impidimp fabelian",
       "presets": [
-        "mansion"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "10-30",
-      "weight": 13.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:packed_ice"
           ]
         }
       }
@@ -185,6 +158,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ottoran_impidimp-01",
+      "pokemon": "impidimp ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }

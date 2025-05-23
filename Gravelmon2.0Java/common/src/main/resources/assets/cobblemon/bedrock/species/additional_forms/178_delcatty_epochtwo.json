@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_57_by_51.geo",
       "poser": "cobblemon:cutout_gravelmon_57_by_51",
-      "texture": "cobblemon:textures/pokemon/generation3/epochdelcattyone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdelcattyone.png",
       "layers": [
         {
           "name": "emissive"

@@ -17,204 +17,206 @@ public class Insurgence extends Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon("bulbasaur-delta," +
-                "ivysaur-delta," +
-                "venusaur-delta," +
-                "charmander-delta," +
-                "charmeleon-delta," +
-                "charizard-delta," +
-                "squirtle-delta," +
-                "wartortle-delta," +
-                "blastoise-delta," +
-                "pawniard-delta," +
-                "bisharp-delta," +
-                "ralts-delta," +
-                "kirlia-delta," +
-                "gardevoir-delta," +
-                "gallade-delta," +
-                "sunkern-delta," +
-                "sunflora-delta," +
-                "bergmite-delta," +
-                "avalugg-delta," +
-                "scyther-delta," +
-                "scizor-delta," +
-                "scraggy-delta," +
-                "scrafty-delta," +
-                "combee-delta," +
-                "vespiquen-delta," +
-                "koffing-delta," +
-                "weezing-delta," +
-                "purrloin-delta," +
-                "liepard-delta," +
-                "phantump-delta," +
-                "trevenant-delta," +
-                "snorunt-delta," +
-                "glalie-delta," +
-                "froslass-delta," +
-                "shinx-delta," +
-                "luxio-delta," +
-                "luxray-delta," +
-                "noibat-delta," +
-                "noivern-delta," +
-                "budew-delta," +
-                "roselia-delta," +
-                "roserade-delta," +
-                "drifloon-delta," +
-                "drifblim-delta," +
-                "grimer-delta," +
-                "muk-delta," +
-                "wooper-delta," +
-                "quagsire-delta," +
-                "munchlax-delta," +
-                "snorlax-delta," +
-                "misdreavus-delta," +
-                "mismagius-delta," +
-                "cyndaquil-delta," +
-                "quilava-delta," +
-                "typhlosion-delta," +
-                "treecko-delta," +
-                "grovyle-delta," +
-                "sceptile-delta," +
-                "torchic-delta," +
-                "combusken-delta," +
-                "blaziken-delta," +
-                "turtwig-delta," +
-                "grotle-delta," +
-                "torterra-delta," +
-                "snivy-delta," +
-                "servine-delta," +
-                "serperior-delta," +
-                "froakie-delta," +
-                "frogadier-delta," +
-                "greninja-delta," +
-                "pidgey-delta," +
-                "pidgeotto-delta," +
-                "pidgeot-delta," +
-                "diglett-delta," +
-                "dugtrio-delta," +
-                "growlithe-delta," +
-                "arcanine-delta," +
-                "geodude-delta," +
-                "graveler-delta," +
-                "golem-delta," +
-                "tentacool-delta," +
-                "tentacruel-delta," +
-                "doduo-delta," +
-                "dodrio-delta," +
-                "tangela-delta," +
-                "tangrowth-delta," +
-                "ditto-delta," +
-                "kabuto-delta," +
-                "kabutops-delta," +
-                "dratini-delta," +
-                "dragonair-delta," +
-                "dragonite-delta," +
-                "hoothoot-delta," +
-                "noctowl-delta," +
-                "chinchou-delta," +
-                "lanturn-delta," +
-                "pichu-delta," +
-                "pikachu-delta," +
-                "raichu-delta," +
-                "aipom-delta," +
-                "ambipom-delta," +
-                "yanma-delta," +
-                "yanmega-delta," +
-                "girafarig-delta," +
-                "dunsparce-delta," +
-                "shuckle-delta," +
-                "remoraid-delta," +
-                "octillery-delta," +
-                "elekid-delta," +
-                "electabuzz-delta," +
-                "electivire-delta," +
-                "magby-delta," +
-                "magmar-delta," +
-                "magmortar-delta," +
-                "lotad-delta," +
-                "lombre-delta," +
-                "ludicolo-delta," +
-                "seedot-delta," +
-                "nuzleaf-delta," +
-                "shiftry-delta," +
-                "sableye-delta," +
-                "mawile-delta," +
-                "aron-delta," +
-                "lairon-delta," +
-                "aggron-delta," +
-                "meditite-delta," +
-                "medicham-delta," +
-                "numel-delta," +
-                "camerupt-delta," +
-                "plusle-delta," +
-                "minun-delta," +
-                "wailmer-delta," +
-                "wailord-delta," +
-                "feebas-delta," +
-                "milotic-delta," +
-                "clamperl-delta," +
-                "huntail-delta," +
-                "gorebyss-delta," +
-                "beldum-delta_spider," +
-                "metang-delta_spider," +
-                "metagross-delta_spider," +
-                "beldum-delta_ruin," +
-                "metang-delta_ruin," +
-                "metagross-delta_ruin," +
-                "buneary-delta," +
-                "lopunny-delta," +
-                "riolu-delta," +
-                "lucario-delta," +
-                "croagunk-delta," +
-                "toxicroak-delta," +
-                "venipede-delta," +
-                "whirlipede-delta," +
-                "scolipede-delta," +
-                "petilil-delta_water," +
-                "lilligant-delta_water," +
-                "petilil-delta_fairy," +
-                "lilligant-delta_fairy," +
-                "solosis-delta," +
-                "duosion-delta," +
-                "reuniclus-delta," +
-                "darumaka-delta," +
-                "darmanitan-delta," +
-                "maractus-delta," +
-                "dwebble-delta_berry," +
-                "crustle-delta_berry," +
-                "dwebble-delta_cake," +
-                "crustle-delta_cake," +
-                "yamask-delta," +
-                "cofagrigus-delta," +
-                "emolga-delta," +
-                "karrablast-delta," +
-                "escavalier-delta," +
-                "foongus-delta," +
-                "amoonguss-delta," +
-                "litwick-delta," +
-                "lampent-delta," +
-                "chandelure-delta," +
-                "axew-delta," +
-                "fraxure-delta," +
-                "haxorus-delta," +
-                "golett-delta," +
-                "golurk-delta," +
-                "heatmor-delta," +
-                "deino-delta," +
-                "zweilous-delta," +
-                "hydreigon-delta," +
-                "larvesta-delta," +
-                "volcarona-delta," +
-                "amaura-delta," +
-                "aurorus-delta," +
-                "goomy-delta," +
-                "sliggoo-delta," +
-                "goodra-delta," +
-                "regirock-delta," +
-                "regice-delta," +
-                "registeel-delta," +
-                "meloetta-delta," +
-                "hoopa-delta,");
+        addNewPokemon(new DeltaBulbasaur("", Aspect.DELTA));
+        addNewPokemon(new DeltaIvysaur("", Aspect.DELTA));
+        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA));
+        addNewPokemon(new DeltaCharmander("", Aspect.DELTA));
+        addNewPokemon(new DeltaCharmeleon("", Aspect.DELTA));
+        addNewPokemon(new DeltaCharizard("", Aspect.DELTA));
+        addNewPokemon(new DeltaSquirtle("", Aspect.DELTA));
+        addNewPokemon(new DeltaWartortle("", Aspect.DELTA));
+        addNewPokemon(new DeltaBlastoise("", Aspect.DELTA));
+        addNewPokemon(new DeltaPidgey("", Aspect.DELTA));
+        addNewPokemon(new DeltaPidgeotto("", Aspect.DELTA));
+        addNewPokemon(new DeltaPidgeot("", Aspect.DELTA));
+        addNewPokemon(new DeltaPikachu("", Aspect.DELTA));
+        addNewPokemon(new DeltaRaichu("", Aspect.DELTA));
+        addNewPokemon(new DeltaDiglett("", Aspect.DELTA));
+        addNewPokemon(new DeltaDugtrio("", Aspect.DELTA));
+        addNewPokemon(new DeltaGrowlithe("", Aspect.DELTA));
+        addNewPokemon(new DeltaArcanine("", Aspect.DELTA));
+        addNewPokemon(new DeltaTentacool("", Aspect.DELTA));
+        addNewPokemon(new DeltaTentacruel("", Aspect.DELTA));
+        addNewPokemon(new DeltaGeodude("", Aspect.DELTA));
+        addNewPokemon(new DeltaGraveler("", Aspect.DELTA));
+        addNewPokemon(new DeltaGolem("", Aspect.DELTA));
+        addNewPokemon(new DeltaDoduo("", Aspect.DELTA));
+        addNewPokemon(new DeltaDodrio("", Aspect.DELTA));
+        addNewPokemon(new DeltaGrimer("", Aspect.DELTA));
+        addNewPokemon(new DeltaMuk("", Aspect.DELTA));
+        addNewPokemon(new DeltaKoffing("", Aspect.DELTA));
+        addNewPokemon(new DeltaWeezing("", Aspect.DELTA));
+        addNewPokemon(new DeltaTangela("", Aspect.DELTA));
+        addNewPokemon(new DeltaScyther("", Aspect.DELTA));
+        addNewPokemon(new DeltaElectabuzz("", Aspect.DELTA));
+        addNewPokemon(new DeltaMagmar("", Aspect.DELTA));
+        addNewPokemon(new DeltaDitto("", Aspect.DELTA));
+        addNewPokemon(new DeltaKabuto("", Aspect.DELTA));
+        addNewPokemon(new DeltaKabutops("", Aspect.DELTA));
+        addNewPokemon(new DeltaSnorlax("", Aspect.DELTA));
+        addNewPokemon(new DeltaDratini("", Aspect.DELTA));
+        addNewPokemon(new DeltaDragonair("", Aspect.DELTA));
+        addNewPokemon(new DeltaDragonite("", Aspect.DELTA));
+        addNewPokemon(new DeltaCyndaquil("Cyndaquil", Aspect.DELTA));
+        addNewPokemon(new DeltaQuilava("Quilava", Aspect.DELTA));
+        addNewPokemon(new DeltaTyphlosion("Typhlosion", Aspect.DELTA));
+        addNewPokemon(new DeltaHoothoot("Hoothoot", Aspect.DELTA));
+        addNewPokemon(new DeltaNoctowl("Noctowl", Aspect.DELTA));
+        addNewPokemon(new DeltaChinchou("Chinchou", Aspect.DELTA));
+        addNewPokemon(new DeltaLanturn("Lanturn", Aspect.DELTA));
+        addNewPokemon(new DeltaPichu("Pichu", Aspect.DELTA));
+        addNewPokemon(new DeltaAipom("Aipom", Aspect.DELTA));
+        addNewPokemon(new DeltaSunkern("Sunkern", Aspect.DELTA));
+        addNewPokemon(new DeltaSunflora("Sunflora", Aspect.DELTA));
+        addNewPokemon(new DeltaYanma("Yanma", Aspect.DELTA));
+        addNewPokemon(new DeltaWooper("Wooper", Aspect.DELTA));
+        addNewPokemon(new DeltaQuagsire("Quagsire", Aspect.DELTA));
+        addNewPokemon(new DeltaMisdreavus("Misdreavus", Aspect.DELTA));
+        addNewPokemon(new DeltaGirafarig("Girafarig", Aspect.DELTA));
+        addNewPokemon(new DeltaDunsparce("Dunsparce", Aspect.DELTA));
+        addNewPokemon(new DeltaScizor("Scizor", Aspect.DELTA));
+        addNewPokemon(new DeltaShuckle("Shuckle", Aspect.DELTA));
+        addNewPokemon(new DeltaRemoraid("Remoraid", Aspect.DELTA));
+        addNewPokemon(new DeltaOctillery("Octillery", Aspect.DELTA));
+        addNewPokemon(new DeltaElekid("Elekid", Aspect.DELTA));
+        addNewPokemon(new DeltaMagby("Magby", Aspect.DELTA));
+        addNewPokemon(new DeltaTreecko("Treecko", Aspect.DELTA));
+        addNewPokemon(new DeltaGrovyle("Grovyle", Aspect.DELTA));
+        addNewPokemon(new DeltaSceptile("Sceptile", Aspect.DELTA));
+        addNewPokemon(new DeltaTorchic("Torchic", Aspect.DELTA));
+        addNewPokemon(new DeltaCombusken("Combusken", Aspect.DELTA));
+        addNewPokemon(new DeltaBlaziken("Blaziken", Aspect.DELTA));
+        addNewPokemon(new DeltaLotad("Lotad", Aspect.DELTA));
+        addNewPokemon(new DeltaLombre("Lombre", Aspect.DELTA));
+        addNewPokemon(new DeltaLudicolo("Ludicolo", Aspect.DELTA));
+        addNewPokemon(new DeltaSeedot("Seedot", Aspect.DELTA));
+        addNewPokemon(new DeltaNuzleaf("Nuzleaf", Aspect.DELTA));
+        addNewPokemon(new DeltaShiftry("Shiftry", Aspect.DELTA));
+        addNewPokemon(new DeltaRalts("Ralts", Aspect.DELTA));
+        addNewPokemon(new DeltaKirlia("Kirlia", Aspect.DELTA));
+        addNewPokemon(new DeltaGardevoir("Gardevoir", Aspect.DELTA));
+        addNewPokemon(new DeltaSableye("Sableye", Aspect.DELTA));
+        addNewPokemon(new DeltaMawile("Mawile", Aspect.DELTA));
+        addNewPokemon(new DeltaAron("Aron", Aspect.DELTA));
+        addNewPokemon(new DeltaLairon("Lairon", Aspect.DELTA));
+        addNewPokemon(new DeltaAggron("Aggron", Aspect.DELTA));
+        addNewPokemon(new DeltaMeditite("Meditite", Aspect.DELTA));
+        addNewPokemon(new DeltaMedicham("Medicham", Aspect.DELTA));
+        addNewPokemon(new DeltaPlusle("Plusle", Aspect.DELTA));
+        addNewPokemon(new DeltaMinun("Minun", Aspect.DELTA));
+        addNewPokemon(new DeltaRoselia("Roselia", Aspect.DELTA));
+        addNewPokemon(new DeltaWailmer("Wailmer", Aspect.DELTA));
+        addNewPokemon(new DeltaWailord("Wailord", Aspect.DELTA));
+        addNewPokemon(new DeltaNumel("Numel", Aspect.DELTA));
+        addNewPokemon(new DeltaCamerupt("Camerupt", Aspect.DELTA));
+        addNewPokemon(new DeltaFeebas("Feebas", Aspect.DELTA));
+        addNewPokemon(new DeltaMilotic("Milotic", Aspect.DELTA));
+        addNewPokemon(new DeltaSnorunt("Snorunt", Aspect.DELTA));
+        addNewPokemon(new DeltaGlalie("Glalie", Aspect.DELTA));
+        addNewPokemon(new DeltaClamperl("Clamperl", Aspect.DELTA));
+        addNewPokemon(new DeltaHuntail("Huntail", Aspect.DELTA));
+        addNewPokemon(new DeltaGorebyss("Gorebyss", Aspect.DELTA));
+        addNewPokemon(new DeltaSpiderBeldum("Beldum", Aspect.DELTA_SPIDER));
+        addNewPokemon(new DeltaSpiderMetang("Metang", Aspect.DELTA_SPIDER));
+        addNewPokemon(new DeltaSpiderMetagross("Metagross", Aspect.DELTA_SPIDER));
+        addNewPokemon(new DeltaRuinBeldum("Beldum", Aspect.DELTA_RUIN));
+        addNewPokemon(new DeltaRuinMetang("Metang", Aspect.DELTA_RUIN));
+        addNewPokemon(new DeltaRuinMetagross("Metagross", Aspect.DELTA_RUIN));
+        addNewPokemon(new DeltaRegirock("Regirock", Aspect.DELTA));
+        addNewPokemon(new DeltaRegice("Regice", Aspect.DELTA));
+        addNewPokemon(new DeltaRegisteel("Registeel", Aspect.DELTA));
+        addNewPokemon(new DeltaTurtwig("", Aspect.DELTA));
+        addNewPokemon(new DeltaGrotle("", Aspect.DELTA));
+        addNewPokemon(new DeltaTorterra("", Aspect.DELTA));
+        addNewPokemon(new DeltaShinx("", Aspect.DELTA));
+        addNewPokemon(new DeltaLuxio("", Aspect.DELTA));
+        addNewPokemon(new DeltaLuxray("", Aspect.DELTA));
+        addNewPokemon(new DeltaBudew("", Aspect.DELTA));
+        addNewPokemon(new DeltaRoserade("", Aspect.DELTA));
+        addNewPokemon(new DeltaCombee("", Aspect.DELTA));
+        addNewPokemon(new DeltaVespiquen("", Aspect.DELTA));
+        addNewPokemon(new DeltaAmbipom("", Aspect.DELTA));
+        addNewPokemon(new DeltaDrifloon("", Aspect.DELTA));
+        addNewPokemon(new DeltaDrifblim("", Aspect.DELTA));
+        addNewPokemon(new DeltaBuneary("", Aspect.DELTA));
+        addNewPokemon(new DeltaLopunny("", Aspect.DELTA));
+        addNewPokemon(new DeltaMismagius("", Aspect.DELTA));
+        addNewPokemon(new DeltaMunchlax("", Aspect.DELTA));
+        addNewPokemon(new DeltaRiolu("", Aspect.DELTA));
+        addNewPokemon(new DeltaLucario("", Aspect.DELTA));
+        addNewPokemon(new DeltaCroagunk("", Aspect.DELTA));
+        addNewPokemon(new DeltaToxicroak("", Aspect.DELTA));
+        addNewPokemon(new DeltaTangrowth("", Aspect.DELTA));
+        addNewPokemon(new DeltaElectivire("", Aspect.DELTA));
+        addNewPokemon(new DeltaMagmortar("", Aspect.DELTA));
+        addNewPokemon(new DeltaYanmega("", Aspect.DELTA));
+        addNewPokemon(new DeltaGallade("", Aspect.DELTA));
+        addNewPokemon(new DeltaFroslass("", Aspect.DELTA));
+        addNewPokemon(new DeltaSnivy("", Aspect.DELTA));
+        addNewPokemon(new DeltaServine("", Aspect.DELTA));
+        addNewPokemon(new DeltaSerperior("", Aspect.DELTA));
+        addNewPokemon(new DeltaPurrloin("", Aspect.DELTA));
+        addNewPokemon(new DeltaLiepard("", Aspect.DELTA));
+        addNewPokemon(new DeltaVenipede("", Aspect.DELTA));
+        addNewPokemon(new DeltaWhirlipede("", Aspect.DELTA));
+        addNewPokemon(new DeltaScolipede("", Aspect.DELTA));
+        addNewPokemon(new DeltaWaterPetilil("", Aspect.DELTA_WATER));
+        addNewPokemon(new DeltaWaterLilligant("", Aspect.DELTA_WATER));
+        addNewPokemon(new DeltaFairyPetilil("", Aspect.DELTA_FAIRY));
+        addNewPokemon(new DeltaFairyLilligant("", Aspect.DELTA_FAIRY));
+        addNewPokemon(new DeltaDarumaka("", Aspect.DELTA));
+        addNewPokemon(new DeltaDarmanitan("", Aspect.DELTA));
+        addNewPokemon(new DeltaMaractus("", Aspect.DELTA));
+        addNewPokemon(new DeltaBerryDwebble("", Aspect.DELTA_BERRY));
+        addNewPokemon(new DeltaBerryCrustle("", Aspect.DELTA_BERRY));
+        addNewPokemon(new DeltaCakeDwebble("", Aspect.DELTA_CAKE));
+        addNewPokemon(new DeltaCakeCrustle("", Aspect.DELTA_CAKE));
+        addNewPokemon(new DeltaScraggy("", Aspect.DELTA));
+        addNewPokemon(new DeltaScrafty("", Aspect.DELTA));
+        addNewPokemon(new DeltaYamask("", Aspect.DELTA));
+        addNewPokemon(new DeltaCofagrigus("", Aspect.DELTA));
+        addNewPokemon(new DeltaSolosis("", Aspect.DELTA));
+        addNewPokemon(new DeltaDuosion("", Aspect.DELTA));
+        addNewPokemon(new DeltaReuniclus("", Aspect.DELTA));
+        addNewPokemon(new DeltaEmolga("", Aspect.DELTA));
+        addNewPokemon(new DeltaKarrablast("", Aspect.DELTA));
+        addNewPokemon(new DeltaEscavalier("", Aspect.DELTA));
+        addNewPokemon(new DeltaFoongus("", Aspect.DELTA));
+        addNewPokemon(new DeltaAmoonguss("", Aspect.DELTA));
+        addNewPokemon(new DeltaLitwick("", Aspect.DELTA));
+        addNewPokemon(new DeltaLampent("", Aspect.DELTA));
+        addNewPokemon(new DeltaChandelure("", Aspect.DELTA));
+        addNewPokemon(new DeltaAxew("", Aspect.DELTA));
+        addNewPokemon(new DeltaFraxure("", Aspect.DELTA));
+        addNewPokemon(new DeltaHaxorus("", Aspect.DELTA));
+        addNewPokemon(new DeltaGolett("", Aspect.DELTA));
+        addNewPokemon(new DeltaGolurk("", Aspect.DELTA));
+        addNewPokemon(new DeltaPawniard("", Aspect.DELTA));
+        addNewPokemon(new DeltaBisharp("", Aspect.DELTA));
+        addNewPokemon(new DeltaHeatmor("", Aspect.DELTA));
+        addNewPokemon(new DeltaDeino("", Aspect.DELTA));
+        addNewPokemon(new DeltaZweilous("", Aspect.DELTA));
+        addNewPokemon(new DeltaHydreigon("", Aspect.DELTA));
+        addNewPokemon(new DeltaLarvesta("", Aspect.DELTA));
+        addNewPokemon(new DeltaVolcarona("", Aspect.DELTA));
+        addNewPokemon(new DeltaMeloetta("", Aspect.DELTA));
+        addNewPokemon(new DeltaFroakie("Froakie", Aspect.DELTA));
+        addNewPokemon(new DeltaFrogadier("Frogadier", Aspect.DELTA));
+        addNewPokemon(new DeltaGreninja("Greninja", Aspect.DELTA));
+        addNewPokemon(new DeltaAmaura("Amaura", Aspect.DELTA));
+        addNewPokemon(new DeltaAurorus("Aurorus", Aspect.DELTA));
+        addNewPokemon(new DeltaGoomy("Goomy", Aspect.DELTA));
+        addNewPokemon(new DeltaSliggoo("Sliggoo", Aspect.DELTA));
+        addNewPokemon(new DeltaGoodra("Goodra", Aspect.DELTA));
+        addNewPokemon(new DeltaPhantump("Phantump", Aspect.DELTA));
+        addNewPokemon(new DeltaTrevenant("Trevenant", Aspect.DELTA));
+        addNewPokemon(new DeltaBergmite("Bergmite", Aspect.DELTA));
+        addNewPokemon(new DeltaAvalugg("Avalugg", Aspect.DELTA));
+        addNewPokemon(new DeltaNoibat("Noibat", Aspect.DELTA));
+        addNewPokemon(new DeltaNoivern("Noivern", Aspect.DELTA));
+        addNewPokemon(new DeltaHoopa("Hoopa", Aspect.DELTA));
+        addNewPokemon(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED));
+
         addNewPokemon(new UFI());
         addNewPokemon(new SpaceMew("", Aspect.SPACE));
         addNewPokemon(new ShadowMewtwo("", Aspect.SHADOW));

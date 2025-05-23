@@ -4,32 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_torterra-01",
-      "pokemon": "torterra epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-53",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_basalt"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_torterra-01",
       "pokemon": "torterra delta",
       "presets": [
@@ -59,6 +33,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_torterra-01",
+      "pokemon": "torterra epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_49_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_49_by_36",
-      "texture": "cobblemon:textures/pokemon/generation9/epochfinizen.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochfinizen.png",
       "layers": [
         {
           "name": "emissive"

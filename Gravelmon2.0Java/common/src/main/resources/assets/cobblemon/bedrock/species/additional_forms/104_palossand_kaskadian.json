@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_510_by_390.geo",
       "poser": "cobblemon:cutout_gravelmon_510_by_390",
-      "texture": "cobblemon:textures/pokemon/generation7/kaskadianpalossand.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianpalossand.png",
       "layers": [
         {
           "name": "emissive"

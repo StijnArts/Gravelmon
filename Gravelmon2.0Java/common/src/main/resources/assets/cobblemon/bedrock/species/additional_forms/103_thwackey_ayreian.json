@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_51_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_51_by_57",
-      "texture": "cobblemon:textures/pokemon/generation8/ayreianthwackey.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianthwackey.png",
       "layers": [
         {
           "name": "emissive"

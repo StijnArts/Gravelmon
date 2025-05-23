@@ -2,105 +2,6 @@
   "target": "cobblemon:wyrdeer",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "electric",
-      "secondaryType": "psychic",
-      "catchRate": 58,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 92,
-        "attack": 49,
-        "defence": 79,
-        "special_attack": 114,
-        "special_defence": 109,
-        "speed": 79
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:thundershock",
-        "1:confusion",
-        "1:leer",
-        "1:growl",
-        "4:charge",
-        "4:psybeam",
-        "7:shockwave",
-        "7:futuresight",
-        "10:discharge",
-        "10:psychic",
-        "13:thunderbolt",
-        "13:psyshock",
-        "16:thunder",
-        "16:psychoboost",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.fabelianwyrdeer.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "ice",
       "secondaryType": "grass",
@@ -402,6 +303,106 @@
       }
     },
     {
+      "name": "Fabelian",
+      "primaryType": "electric",
+      "secondaryType": "psychic",
+      "catchRate": 58,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 92,
+        "attack": 49,
+        "defence": 79,
+        "special_attack": 114,
+        "special_defence": 109,
+        "speed": 79
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:confusion",
+        "1:leer",
+        "1:growl",
+        "4:charge",
+        "4:psybeam",
+        "7:shockwave",
+        "7:futuresight",
+        "10:discharge",
+        "10:psychic",
+        "13:thunderbolt",
+        "13:psyshock",
+        "16:thunder",
+        "16:psychoboost",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianwyrdeer.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "epochtwo_mega",
       "primaryType": "electric",
       "baseScale": 0.10549450549450551,
@@ -429,9 +430,9 @@
     }
   ],
   "features": [
-    "fabelian",
     "epoch",
     "epochtwo",
+    "fabelian",
     "epochtwo_mega"
   ]
 }

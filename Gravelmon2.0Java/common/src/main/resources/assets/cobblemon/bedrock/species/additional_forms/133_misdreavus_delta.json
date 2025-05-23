@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation2_deltamisdreavus.geo",
-      "poser": "cobblemon:generation2_deltamisdreavus",
-      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus.png",
+      "model": "cobblemon:insurgence_deltamisdreavus.geo",
+      "poser": "cobblemon:insurgence_deltamisdreavus",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltamisdreavus/deltamisdreavus.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation2_deltamisdreavus.geo",
-      "poser": "cobblemon:generation2_deltamisdreavus",
-      "texture": "cobblemon:textures/pokemon/generation2/deltamisdreavus/deltamisdreavus_shiny.png",
+      "model": "cobblemon:insurgence_deltamisdreavus.geo",
+      "poser": "cobblemon:insurgence_deltamisdreavus",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltamisdreavus/deltamisdreavus_shiny.png",
       "layers": [
         {
           "name": "emissive"

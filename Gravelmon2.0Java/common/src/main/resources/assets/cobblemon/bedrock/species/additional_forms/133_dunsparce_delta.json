@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_112_by_94.geo",
       "poser": "cobblemon:cutout_gravelmon_112_by_94",
-      "texture": "cobblemon:textures/pokemon/generation2/deltadunsparce.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadunsparce.png",
       "layers": [
         {
           "name": "emissive"

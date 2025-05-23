@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_126_by_106.geo",
       "poser": "cobblemon:cutout_gravelmon_126_by_106",
-      "texture": "cobblemon:textures/pokemon/generation6/deltanoibat.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltanoibat.png",
       "layers": [
         {
           "name": "emissive"

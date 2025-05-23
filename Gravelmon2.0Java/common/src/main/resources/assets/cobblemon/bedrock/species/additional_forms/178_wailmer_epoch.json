@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_48.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_48",
-      "texture": "cobblemon:textures/pokemon/generation3/epochwailmer.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochwailmer.png",
       "layers": [
         {
           "name": "emissive"

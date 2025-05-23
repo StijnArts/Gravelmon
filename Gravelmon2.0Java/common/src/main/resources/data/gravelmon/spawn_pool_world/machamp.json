@@ -4,28 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_machamp-01",
-      "pokemon": "machamp ferranian",
+      "id": "africanusan_machamp-01",
+      "pokemon": "machamp africanusan",
       "presets": [
-        "natural"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "48-57",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:tuff"
           ]
         }
       }
@@ -84,28 +84,28 @@
       }
     },
     {
-      "id": "africanusan_machamp-01",
-      "pokemon": "machamp africanusan",
+      "id": "ferranian_machamp-01",
+      "pokemon": "machamp ferranian",
       "presets": [
-        "jungle_pyramid"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "48-57",
-      "weight": 0.30000000000000004,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:target_block"
           ]
         }
       }

@@ -2,147 +2,6 @@
   "target": "cobblemon:medicham",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "light",
-      "secondaryType": "fighting",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 144,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "meditite form=epoch",
-      "baseScale": 0.43333333333333335,
-      "cannotDynamax": false,
-      "abilities": [
-        "wonderskin",
-        "shielddust",
-        "h:battlearmor"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 50,
-        "defence": 85,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 95
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "9:quickguard",
-        "34:calmmind",
-        "4:meditate",
-        "38:reflect",
-        "38:lightscreen",
-        "23:flash",
-        "12:detect",
-        "tm:acrobatics",
-        "tm:airslash",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:bodyslam",
-        "tm:bulkup",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:closecombat",
-        "tm:coaching",
-        "tm:cosmicpower",
-        "tm:dazzlinggleam",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:energyball",
-        "tm:firepunch",
-        "tm:focusblast",
-        "tm:geomancy",
-        "tm:healbell",
-        "tm:heavensknuckle",
-        "tm:hiddenpower",
-        "tm:icepunch",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lightscreen",
-        "tm:memento",
-        "tm:metronome",
-        "tm:mirrorshot",
-        "tm:poweruppunch",
-        "tm:protect",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:safeguard",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:thunderpunch",
-        "tm:toxic",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochmedicham.desc"
-      ],
-      "height": 13,
-      "weight": 315,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.5,
-        "height": 4.5,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "fairy",
       "secondaryType": "ground",
@@ -345,6 +204,147 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "light",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "meditite form=epoch",
+      "baseScale": 0.43333333333333335,
+      "cannotDynamax": false,
+      "abilities": [
+        "wonderskin",
+        "shielddust",
+        "h:battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defence": 85,
+        "special_attack": 80,
+        "special_defence": 80,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "9:quickguard",
+        "34:calmmind",
+        "4:meditate",
+        "38:reflect",
+        "38:lightscreen",
+        "23:flash",
+        "12:detect",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:firepunch",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:icepunch",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmedicham.desc"
+      ],
+      "height": 13,
+      "weight": 315,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5,
+        "height": 4.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "delta_mega",
       "primaryType": "fairy",
       "secondaryType": "ground",
@@ -400,8 +400,8 @@
     }
   ],
   "features": [
-    "epoch",
     "delta",
+    "epoch",
     "delta_mega",
     "epoch_mega"
   ]

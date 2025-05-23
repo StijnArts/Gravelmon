@@ -4,109 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_cyndaquil-01",
-      "pokemon": "cyndaquil forman",
-      "presets": [
-        "mansion"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_cyndaquil-01",
-      "pokemon": "cyndaquil epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_cyndaquil-01",
-      "pokemon": "cyndaquil epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ionosian_cyndaquil-01",
-      "pokemon": "cyndaquil ionosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_wasteland"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "egho_cyndaquil-01",
       "pokemon": "cyndaquil egho",
       "presets": [
@@ -163,6 +60,83 @@
       }
     },
     {
+      "id": "epoch_cyndaquil-01",
+      "pokemon": "cyndaquil epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_cyndaquil-01",
+      "pokemon": "cyndaquil epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_cyndaquil-01",
+      "pokemon": "cyndaquil forman",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_cyndaquil-01",
       "pokemon": "cyndaquil ayreian",
       "presets": [
@@ -180,6 +154,32 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionosian_cyndaquil-01",
+      "pokemon": "cyndaquil ionosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

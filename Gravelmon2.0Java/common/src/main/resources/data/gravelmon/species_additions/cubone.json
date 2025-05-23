@@ -2,134 +2,6 @@
   "target": "cobblemon:cubone",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "dark",
-      "secondaryType": "ground",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "justified"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:bite",
-        "1:mudslap",
-        "1:leer",
-        "1:sandattack",
-        "4:payback",
-        "4:mudshot",
-        "7:nightdaze",
-        "7:mudbomb",
-        "10:snarl",
-        "10:bulldoze",
-        "13:knockoff",
-        "13:scorchingsands",
-        "16:darkpulse",
-        "16:earthpower",
-        "19:bite",
-        "19:mudslap",
-        "22:leer",
-        "22:growl",
-        "25:payback",
-        "25:sandattack",
-        "28:nightslash",
-        "28:mudbomb",
-        "31:crunch",
-        "31:bulldoze",
-        "34:knockoff",
-        "34:dig",
-        "39:suckerpunch",
-        "39:earthquake",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formancubone.desc"
-      ],
-      "height": 4,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formancubone_marowak_forman",
-          "variant": "level_up",
-          "result": "marowak forman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "28"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "water",
       "secondaryType": "rock",
@@ -299,10 +171,139 @@
         "height": 3.375,
         "fixed": false
       }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:mudslap",
+        "1:leer",
+        "1:sandattack",
+        "4:payback",
+        "4:mudshot",
+        "7:nightdaze",
+        "7:mudbomb",
+        "10:snarl",
+        "10:bulldoze",
+        "13:knockoff",
+        "13:scorchingsands",
+        "16:darkpulse",
+        "16:earthpower",
+        "19:bite",
+        "19:mudslap",
+        "22:leer",
+        "22:growl",
+        "25:payback",
+        "25:sandattack",
+        "28:nightslash",
+        "28:mudbomb",
+        "31:crunch",
+        "31:bulldoze",
+        "34:knockoff",
+        "34:dig",
+        "39:suckerpunch",
+        "39:earthquake",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formancubone.desc"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formancubone_marowak_forman",
+          "variant": "level_up",
+          "result": "marowak forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "28"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
-    "epoch"
+    "epoch",
+    "forman"
   ]
 }

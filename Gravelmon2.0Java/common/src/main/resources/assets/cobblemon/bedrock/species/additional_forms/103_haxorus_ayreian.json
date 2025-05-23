@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_91.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_91",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreianhaxorus.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianhaxorus.png",
       "layers": [
         {
           "name": "emissive"

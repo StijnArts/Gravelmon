@@ -2,22 +2,21 @@
   "target": "cobblemon:arbok",
   "forms": [
     {
-      "name": "Nodorran",
-      "primaryType": "fire",
-      "secondaryType": "poison",
+      "name": "Alteran",
+      "primaryType": "fighting",
       "catchRate": 90,
       "maleRatio": 0.5,
-      "baseExperienceYield": 157,
+      "baseExperienceYield": 58,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ekans form=nodorran",
-      "baseScale": 0.6068965517241379,
+      "preEvolution": "ekans form=alteran",
+      "baseScale": 0.5760000000000001,
       "cannotDynamax": false,
       "abilities": [
-        "intimidate",
+        "guts",
         "shedskin",
-        "h:flashfire"
+        "h:technician"
       ],
       "behaviour": {
         "resting": {
@@ -47,64 +46,70 @@
       },
       "baseStats": {
         "hp": 60,
-        "attack": 70,
-        "defence": 69,
-        "special_attack": 90,
-        "special_defence": 89,
-        "speed": 70
+        "attack": 100,
+        "defence": 74,
+        "special_attack": 60,
+        "special_defence": 79,
+        "speed": 75
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 2,
         "defence": 0,
-        "special_attack": 2,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "dragon",
-        "field"
+        "field",
+        "dragon"
       ],
       "drops": {},
       "moves": [
-        "1:pound",
+        "1:firelash",
+        "1:wrap",
         "1:defensecurl",
-        "5:bite",
-        "9:ember",
-        "11:acid",
-        "13:firefang",
-        "15:poisongas",
-        "18:incinerate",
-        "20:glare",
-        "23:willowisp",
-        "25:poisonfang",
-        "27:coil",
-        "32:sludge",
-        "36:sludgebomb",
-        "41:flamethrower",
-        "tm:icefang",
-        "tm:thunderfang",
+        "1:rollout",
+        "1:bite",
+        "12:glare",
+        "17:screech",
+        "20:revenge",
+        "27:stockpile",
+        "27:swallow",
+        "27:spitup",
+        "32:endure",
+        "39:reversal",
+        "44:quash",
+        "51:powerwhip",
+        "56:taunt",
+        "63:coil",
+        "68:closecombat",
+        "egg:beatup",
+        "egg:scaryface",
+        "egg:powertrip",
+        "egg:switcheroo",
+        "egg:submission",
         "tm:terablast"
       ],
       "labels": [
-        "nodorro",
+        "gen1",
+        "flux",
         "not_modeled",
-        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.nodorranarbok.desc"
+        "cobblemon.species.alteranarbok.desc"
       ],
-      "height": 22,
-      "weight": 726,
+      "height": 18,
+      "weight": 700,
       "aspects": [
-        "nodorran"
+        "alteran"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.4375,
-        "height": 5.4375,
+        "width": 4.6875,
+        "height": 4.6875,
         "fixed": false
       }
     },
@@ -364,21 +369,22 @@
       }
     },
     {
-      "name": "Alteran",
-      "primaryType": "fighting",
+      "name": "Nodorran",
+      "primaryType": "fire",
+      "secondaryType": "poison",
       "catchRate": 90,
       "maleRatio": 0.5,
-      "baseExperienceYield": 58,
+      "baseExperienceYield": 157,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "ekans form=alteran",
-      "baseScale": 0.5760000000000001,
+      "preEvolution": "ekans form=nodorran",
+      "baseScale": 0.6068965517241379,
       "cannotDynamax": false,
       "abilities": [
-        "guts",
+        "intimidate",
         "shedskin",
-        "h:technician"
+        "h:flashfire"
       ],
       "behaviour": {
         "resting": {
@@ -408,70 +414,64 @@
       },
       "baseStats": {
         "hp": 60,
-        "attack": 100,
-        "defence": 74,
-        "special_attack": 60,
-        "special_defence": 79,
-        "speed": 75
+        "attack": 70,
+        "defence": 69,
+        "special_attack": 90,
+        "special_defence": 89,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
-        "attack": 2,
+        "attack": 0,
         "defence": 0,
-        "special_attack": 0,
+        "special_attack": 2,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field",
-        "dragon"
+        "dragon",
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:firelash",
-        "1:wrap",
+        "1:pound",
         "1:defensecurl",
-        "1:rollout",
-        "1:bite",
-        "12:glare",
-        "17:screech",
-        "20:revenge",
-        "27:stockpile",
-        "27:swallow",
-        "27:spitup",
-        "32:endure",
-        "39:reversal",
-        "44:quash",
-        "51:powerwhip",
-        "56:taunt",
-        "63:coil",
-        "68:closecombat",
-        "egg:beatup",
-        "egg:scaryface",
-        "egg:powertrip",
-        "egg:switcheroo",
-        "egg:submission",
+        "5:bite",
+        "9:ember",
+        "11:acid",
+        "13:firefang",
+        "15:poisongas",
+        "18:incinerate",
+        "20:glare",
+        "23:willowisp",
+        "25:poisonfang",
+        "27:coil",
+        "32:sludge",
+        "36:sludgebomb",
+        "41:flamethrower",
+        "tm:icefang",
+        "tm:thunderfang",
         "tm:terablast"
       ],
       "labels": [
-        "gen1",
-        "flux",
+        "nodorro",
         "not_modeled",
+        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.alteranarbok.desc"
+        "cobblemon.species.nodorranarbok.desc"
       ],
-      "height": 18,
-      "weight": 700,
+      "height": 22,
+      "weight": 726,
       "aspects": [
-        "alteran"
+        "nodorran"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.6875,
-        "height": 4.6875,
+        "width": 5.4375,
+        "height": 5.4375,
         "fixed": false
       }
     },
@@ -504,10 +504,10 @@
     }
   ],
   "features": [
-    "nodorran",
+    "alteran",
     "epoch",
     "ionosian",
-    "alteran",
+    "nodorran",
     "epoch_mega"
   ],
   "evolutions": [

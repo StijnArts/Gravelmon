@@ -6,8 +6,8 @@
       "aspects": [
         "ayreian_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_78_by_89.geo",
+      "poser": "cobblemon:cutout_gravelmon_78_by_89",
       "texture": "cobblemon:textures/pokemon/vanguard/blastoise_ayreian_mega.png",
       "layers": [
         {

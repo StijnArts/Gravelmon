@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_72_by_71.geo",
       "poser": "cobblemon:cutout_gravelmon_72_by_71",
-      "texture": "cobblemon:textures/pokemon/generation1/avorianmrmime.png",
+      "texture": "cobblemon:textures/pokemon/avoris/avorianmrmime.png",
       "layers": [
         {
           "name": "emissive"

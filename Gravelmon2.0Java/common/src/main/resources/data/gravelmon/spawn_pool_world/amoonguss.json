@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_amoonguss-01",
-      "pokemon": "amoonguss nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "39-59",
-      "weight": 0.9,
-      "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_amoonguss-01",
       "pokemon": "amoonguss delta",
       "presets": [
@@ -78,6 +51,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_amoonguss-01",
+      "pokemon": "amoonguss nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "39-59",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

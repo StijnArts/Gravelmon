@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_36",
-      "texture": "cobblemon:textures/pokemon/generation2/epochtotodileone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtotodileone.png",
       "layers": [
         {
           "name": "emissive"

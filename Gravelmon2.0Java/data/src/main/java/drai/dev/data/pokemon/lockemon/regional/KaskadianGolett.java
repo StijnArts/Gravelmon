@@ -97,7 +97,7 @@ public class KaskadianGolett extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON, Label.GEN5),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 20, 30, 1.8, List.of(
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 30, 1.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
@@ -105,6 +105,5 @@ public class KaskadianGolett extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Golett");
-
     }
 }

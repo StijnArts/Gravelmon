@@ -4,27 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_arbok-01",
-      "pokemon": "arbok nodorran",
+      "id": "alteran_arbok-01",
+      "pokemon": "arbok alteran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "22-42",
-      "weight": 0.9,
+      "level": "22-45",
+      "weight": 0.8250000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_crimson"
-        ]
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:target_block"
           ]
         }
       }
@@ -82,28 +83,27 @@
       }
     },
     {
-      "id": "alteran_arbok-01",
-      "pokemon": "arbok alteran",
+      "id": "nodorran_arbok-01",
+      "pokemon": "arbok nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "22-45",
-      "weight": 0.8250000000000001,
+      "level": "22-42",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_crimson"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:magma_block"
           ]
         }
       }

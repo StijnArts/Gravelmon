@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_scolipede-01",
-      "pokemon": "scolipede epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "41-54",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_scolipede-01",
       "pokemon": "scolipede delta",
       "presets": [
@@ -49,6 +24,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_scolipede-01",
+      "pokemon": "scolipede epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "41-54",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

@@ -4,6 +4,63 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "relic_floette-01",
+      "pokemon": "floette relic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "19-36",
+      "weight": 1.7249999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "varitasian_floette-01",
+      "pokemon": "floette varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-35",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_floette-01",
       "pokemon": "floette epoch",
       "presets": [
@@ -57,63 +114,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_floette-01",
-      "pokemon": "floette varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "19-35",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_floette-01",
-      "pokemon": "floette relic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "19-36",
-      "weight": 1.7249999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

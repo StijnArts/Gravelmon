@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_48_by_50.geo",
       "poser": "cobblemon:cutout_gravelmon_48_by_50",
-      "texture": "cobblemon:textures/pokemon/generation1/avalossianparas.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossianparas.png",
       "layers": [
         {
           "name": "emissive"

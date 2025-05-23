@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.artworks218;
 
 
 import drai.dev.data.pokemon.arom.*;
+import drai.dev.data.pokemon.arom.regional.*;
 import drai.dev.data.pokemon.elb.*;
 import drai.dev.data.pokemon.sahl.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -66,7 +67,8 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Zapplem());
         addNewPokemon(new Terekko());
         addNewPokemon(new Gekkerra());
-        removePokedexPokemon("smoliv-aromian, dolliv-aromian");
+        addNewPokemon(new AromianSmoliv("", Aspect.AROMIAN)); 
+        addNewPokemon(new AromianDolliv("", Aspect.AROMIAN));
         addNewPokemon(new Arbovino());
         removePokedexPokemon("shroomish, breloom");
         addNewPokemon(new Scippoloom());
@@ -75,7 +77,6 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sweepoke());
         addNewPokemon(new Sweebro());
         addNewPokemon(new Sweeking());
-        removePokedexPokemon("milkitt-aromian, feralassi-aromian");
         addNewPokemon(new Aromianmilkitt());
         addNewPokemon(new Aromianferalassi());
         addNewPokemon(new Stakebble());
@@ -93,6 +94,8 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Polcreagiced());
         addNewPokemon(new Appafrigion());
         removePokedexPokemon("vanillite-aromian, vanillish-aromian");
+        addNewPokemon(new AromianVanillite("", Aspect.AROMIAN));
+        addNewPokemon(new AromianVanillish("", Aspect.AROMIAN));
         addNewPokemon(new Chocolluxe());
         addNewPokemon(new Frequenfly());
         addNewPokemon(new Mothamantra());
@@ -100,7 +103,8 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Flowacarpa());
         addNewPokemon(new Numeal());
         addNewPokemon(new Glacerus());
-        removePokedexPokemon("klink-aromian, klang-aromian");
+        addNewPokemon(new AromianKlink("", Aspect.AROMIAN)); 
+        addNewPokemon(new AromianKlang("", Aspect.AROMIAN));
         addNewPokemon(new Klinkopta());
         addNewPokemon(new Poiduck());
         addNewPokemon(new Velduck());
@@ -135,9 +139,10 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Puppoof());
         addNewPokemon(new Doggoof());
         addNewPokemon(new Madromooff());
-        removePokedexPokemon("stonjourner-aromian");
+        addNewPokemon(new AromianStonjourner("", Aspect.AROMIAN)); 
         addNewPokemon(new Stonleaner());
-        removePokedexPokemon("spritzee-aromian, aromatisse-aromian");
+        addNewPokemon(new AromianSpritzee("", Aspect.AROMIAN)); 
+        addNewPokemon(new AromianAromatisse("", Aspect.AROMIAN));
         addNewPokemon(new Aromiasma());
         addNewPokemon(new Cutelon());
         addNewPokemon(new Loafelon());
@@ -153,15 +158,21 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Poironell());
         removePokedexPokemon("charcadet, armarouge, ceruledge");
         addNewPokemon(new Amethius());
-        removePokedexPokemon("gible, gabite-aromian, garchomp-aromian");
+        removePokedexPokemon("gible");
+        addNewPokemon(new AromianGabite("", Aspect.AROMIAN)); 
+        addNewPokemon(new AromianGarchomp("", Aspect.AROMIAN));
         addNewPokemon(new Brickonet());
         addNewPokemon(new Twallgon());
         addNewPokemon(new Strowacor());
-        removePokedexPokemon("slakoth-elbian, vigoroth-elbian, vigoking-elbian, gulpin-aromian, swalot-aromian");
+        removePokedexPokemon("slakoth-elbian, vigoroth-elbian, vigoking-elbian");
+//        addNewPokemon(new AromianGulpin("", Aspect.AROMIAN)); TODO
+//        addNewPokemon(new AromianSwalot("", Aspect.AROMIAN));
         addNewPokemon(new Cervelot());
-        removePokedexPokemon("sentret-aromian, furret-aromian");
+        addNewPokemon(new AromianSentret("", Aspect.AROMIAN)); 
+        addNewPokemon(new AromianFurret("", Aspect.AROMIAN));
         addNewPokemon(new Justret());
-        removePokedexPokemon("chingling, chimecho-aromian");
+        removePokedexPokemon("chingling");
+        addNewPokemon(new AromianChimecho("", Aspect.AROMIAN)); 
         addNewPokemon(new Belldong());
         addNewPokemon(new Diveloon());
         addNewPokemon(new Diveblim());
@@ -170,9 +181,9 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Terribull());
         removePokedexPokemon("ekans, arbok");
         addNewPokemon(new Twiparok());
-        removePokedexPokemon("meowth-aromian");
+        addNewPokemon(new AromianMeowth("", Aspect.AROMIAN)); 
         addNewPokemon(new Purrow());
-        removePokedexPokemon("rhyhorn-aromian");
+        addNewPokemon(new AromianRhyhorn("", Aspect.AROMIAN)); 
         addNewPokemon(new Tricerior());
         addNewPokemon(new Clouffing());
         addNewPokemon(new Breezing());
@@ -201,6 +212,7 @@ public class Arom extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mokuonei());
         addNewPokemon(new Kaimarei());
         addNewPokemon(new Meikourkei());
+        
     }
 
 }

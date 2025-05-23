@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_49.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_49",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianduosion.png",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoennianduosion.png",
       "layers": [
         {
           "name": "emissive"

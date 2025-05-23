@@ -4,28 +4,27 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_foongus-01",
-      "pokemon": "foongus nodorran",
+      "id": "delta_foongus-01",
+      "pokemon": "foongus delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-41",
-      "weight": 9.0,
+      "level": "5-43",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:bone_block"
           ]
         }
       }
@@ -58,32 +57,6 @@
       }
     },
     {
-      "id": "delta_foongus-01",
-      "pokemon": "foongus delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "5-43",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_foongus-01",
       "pokemon": "foongus epoch",
       "presets": [
@@ -105,6 +78,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_foongus-01",
+      "pokemon": "foongus nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

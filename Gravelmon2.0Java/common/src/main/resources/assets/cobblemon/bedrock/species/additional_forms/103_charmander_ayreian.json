@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_44.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_44",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreiancharmander.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiancharmander.png",
       "layers": [
         {
           "name": "emissive"

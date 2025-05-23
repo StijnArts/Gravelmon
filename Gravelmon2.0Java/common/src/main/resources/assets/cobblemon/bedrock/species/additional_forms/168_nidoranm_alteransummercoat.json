@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_39",
-      "texture": "cobblemon:textures/pokemon/generation1/alterannidoransummercoat.png",
+      "texture": "cobblemon:textures/pokemon/flux/alterannidoransummercoat.png",
       "layers": [
         {
           "name": "emissive"

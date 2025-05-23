@@ -4,6 +4,35 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "africanusan_gothorita-01",
+      "pokemon": "gothorita africanusan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-47",
+      "weight": 1.7999999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_gothorita-01",
       "pokemon": "gothorita epoch",
       "presets": [
@@ -53,35 +82,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "africanusan_gothorita-01",
-      "pokemon": "gothorita africanusan",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "33-47",
-      "weight": 1.7999999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_arid"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_73_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_73_by_57",
-      "texture": "cobblemon:textures/pokemon/generation1/epochmarowak.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmarowak.png",
       "layers": [
         {
           "name": "emissive"

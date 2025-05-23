@@ -31,33 +31,6 @@
       }
     },
     {
-      "id": "ayreian_axew-01",
-      "pokemon": "axew ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "6-27",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_axew-01",
       "pokemon": "axew epoch",
       "presets": [
@@ -80,6 +53,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_axew-01",
+      "pokemon": "axew ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-27",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
           ]
         }
       }

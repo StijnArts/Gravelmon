@@ -2,19 +2,21 @@
   "target": "cobblemon:mantyke",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "water",
-      "secondaryType": "dark",
-      "catchRate": 255,
+      "name": "Seviian",
+      "primaryType": "electric",
+      "secondaryType": "poison",
+      "catchRate": 25,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
+      "baseExperienceYield": 69,
+      "experienceGroup": "slow",
+      "eggCycles": 51,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "static",
+        "stormdrain",
+        "h:hydration"
       ],
       "behaviour": {
         "resting": {
@@ -30,87 +32,123 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 45,
+        "attack": 20,
+        "defence": 55,
+        "special_attack": 70,
+        "special_defence": 85,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 0,
+        "special_defence": 1,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "undiscovered"
       ],
       "drops": {},
       "moves": [
-        "1:watergun",
-        "1:bite",
-        "1:tailwhip",
-        "1:leer",
-        "4:bubblebeam",
-        "4:payback",
-        "7:brine",
-        "7:nightdaze",
-        "10:surf",
-        "10:snarl",
-        "13:chillingwater",
-        "13:knockoff",
-        "16:hydropump",
-        "16:darkpulse",
-        "19:watergun",
-        "19:bite",
-        "22:tailwhip",
-        "22:leer",
-        "25:bubblebeam",
-        "25:payback",
-        "28:aquatail",
-        "28:nightslash",
-        "31:surf",
-        "31:crunch",
-        "34:waterfall",
-        "34:knockoff",
-        "39:liquidation",
-        "39:suckerpunch",
+        "1:tackle",
+        "1:thundershock",
+        "3:supersonic",
+        "7:shockwave",
+        "11:thunderwave",
+        "14:acidspray",
+        "16:headbutt",
+        "19:sludge",
+        "23:wideguard",
+        "27:takedown",
+        "32:agility",
+        "36:discharge",
+        "39:aquaring",
+        "46:bounce",
+        "49:sludgebomb",
+        "56:thunderbolt",
+        "tm:chargebeam",
+        "tm:defog",
+        "tm:facade",
+        "tm:flash",
+        "tm:hiddenpower",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:substitute",
+        "tm:surf",
+        "tm:thunder",
+        "tm:thunderwave",
+        "tm:thunderbolt",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tutor:gunkshot",
+        "egg:amnesia",
+        "egg:haze",
+        "egg:magnetrise",
+        "egg:signalbeam",
+        "egg:slam",
+        "egg:splash",
+        "egg:thunder",
+        "egg:thunderwave",
+        "egg:twister",
+        "egg:wideguard",
         "tm:terablast"
       ],
       "labels": [
-        "mahal",
-        "not_modeled",
-        "instagram"
+        "radicalred",
+        "gen4",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mahalianmantyke.desc"
+        "cobblemon.species.seviianmantyke.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 10,
+      "weight": 650,
       "aspects": [
-        "mahalian"
+        "seviian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "seviianmantyke_mantine_seviian",
+          "variant": "level_up",
+          "result": "mantine seviian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.0,
+        "height": 4.0,
         "fixed": false
       }
     },
@@ -312,157 +350,6 @@
       }
     },
     {
-      "name": "Seviian",
-      "primaryType": "electric",
-      "secondaryType": "poison",
-      "catchRate": 25,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 69,
-      "experienceGroup": "slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.375,
-      "cannotDynamax": false,
-      "abilities": [
-        "static",
-        "stormdrain",
-        "h:hydration"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 45,
-        "attack": 20,
-        "defence": 55,
-        "special_attack": 70,
-        "special_defence": 85,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:thundershock",
-        "3:supersonic",
-        "7:shockwave",
-        "11:thunderwave",
-        "14:acidspray",
-        "16:headbutt",
-        "19:sludge",
-        "23:wideguard",
-        "27:takedown",
-        "32:agility",
-        "36:discharge",
-        "39:aquaring",
-        "46:bounce",
-        "49:sludgebomb",
-        "56:thunderbolt",
-        "tm:chargebeam",
-        "tm:defog",
-        "tm:facade",
-        "tm:flash",
-        "tm:hiddenpower",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:risingvoltage",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:substitute",
-        "tm:surf",
-        "tm:thunder",
-        "tm:thunderwave",
-        "tm:thunderbolt",
-        "tm:toxic",
-        "tm:venoshock",
-        "tm:voltswitch",
-        "tm:wildcharge",
-        "tutor:gunkshot",
-        "egg:amnesia",
-        "egg:haze",
-        "egg:magnetrise",
-        "egg:signalbeam",
-        "egg:slam",
-        "egg:splash",
-        "egg:thunder",
-        "egg:thunderwave",
-        "egg:twister",
-        "egg:wideguard",
-        "tm:terablast"
-      ],
-      "labels": [
-        "radicalred",
-        "gen4",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.seviianmantyke.desc"
-      ],
-      "height": 10,
-      "weight": 650,
-      "aspects": [
-        "seviian"
-      ],
-      "evolutions": [
-        {
-          "id": "seviianmantyke_mantine_seviian",
-          "variant": "level_up",
-          "result": "mantine seviian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "30"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.0,
-        "height": 4.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "electric",
       "secondaryType": "ground",
@@ -623,12 +510,126 @@
         "height": 3.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "Mahalian",
+      "primaryType": "water",
+      "secondaryType": "dark",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:bite",
+        "1:tailwhip",
+        "1:leer",
+        "4:bubblebeam",
+        "4:payback",
+        "7:brine",
+        "7:nightdaze",
+        "10:surf",
+        "10:snarl",
+        "13:chillingwater",
+        "13:knockoff",
+        "16:hydropump",
+        "16:darkpulse",
+        "19:watergun",
+        "19:bite",
+        "22:tailwhip",
+        "22:leer",
+        "25:bubblebeam",
+        "25:payback",
+        "28:aquatail",
+        "28:nightslash",
+        "31:surf",
+        "31:crunch",
+        "34:waterfall",
+        "34:knockoff",
+        "39:liquidation",
+        "39:suckerpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianmantyke.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "mahalian",
-    "epoch",
     "seviian",
-    "ayreian"
+    "epoch",
+    "ayreian",
+    "mahalian"
   ]
 }

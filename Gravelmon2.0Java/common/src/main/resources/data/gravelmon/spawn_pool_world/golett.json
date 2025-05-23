@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_golett-01",
-      "pokemon": "golett epoch",
+      "id": "cefiran_golett-01",
+      "pokemon": "golett cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "11-34",
-      "weight": 6.6000000000000005,
+      "level": "12-43",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:is_spooky"
         ]
       },
       "weightMultiplier": {
@@ -56,46 +56,19 @@
       }
     },
     {
-      "id": "kaskadian_golett-01",
-      "pokemon": "golett kaskadian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "20-30",
-      "weight": 2.7,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_golett-01",
-      "pokemon": "golett cefiran",
+      "id": "epoch_golett-01",
+      "pokemon": "golett epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-43",
-      "weight": 7.5,
+      "level": "11-34",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_deep_dark"
         ]
       },
       "weightMultiplier": {
@@ -130,6 +103,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kaskadian_golett-01",
+      "pokemon": "golett kaskadian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-30",
+      "weight": 2.7,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
           ]
         }
       }

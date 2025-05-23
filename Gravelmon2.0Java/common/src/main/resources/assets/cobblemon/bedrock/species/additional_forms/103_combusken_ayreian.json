@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_69.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_69",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreiancombusken.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiancombusken.png",
       "layers": [
         {
           "name": "emissive"

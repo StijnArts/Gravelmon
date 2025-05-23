@@ -4,60 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_lapras-01",
-      "pokemon": "lapras ferranian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "forman_lapras-01",
-      "pokemon": "lapras forman",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "rare",
-      "level": "31-59",
-      "weight": 1.0499999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_lapras-01",
       "pokemon": "lapras epoch",
       "presets": [
@@ -112,29 +58,53 @@
       }
     },
     {
-      "id": "novran_lapras-01",
-      "pokemon": "lapras novran",
+      "id": "kaskadian_lapras-01",
+      "pokemon": "lapras kaskadian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "uncommon",
-      "level": "29-54",
-      "weight": 6.0,
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-53",
+      "weight": 15.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
+          "#cobblemon:is_warm_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_lapras-01",
+      "pokemon": "lapras forman",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "31-59",
+      "weight": 1.0499999999999998,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
           ]
         }
       }
@@ -171,26 +141,56 @@
       }
     },
     {
-      "id": "kaskadian_lapras-01",
-      "pokemon": "lapras kaskadian",
+      "id": "novran_lapras-01",
+      "pokemon": "lapras novran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "20-53",
-      "weight": 15.0,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "29-54",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ]
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_lapras-01",
+      "pokemon": "lapras ferranian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
           ]
         }
       }

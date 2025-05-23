@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:trapinch-ionosian",
+  "speciesId": "cobblemon:trapinch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    }
+  ],
+  "variations": []
+}

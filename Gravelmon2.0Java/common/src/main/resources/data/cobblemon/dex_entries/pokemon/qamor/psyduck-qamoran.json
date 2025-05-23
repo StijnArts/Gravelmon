@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyduck-qamoran",
+  "speciesId": "cobblemon:psyduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ],
+  "variations": []
+}

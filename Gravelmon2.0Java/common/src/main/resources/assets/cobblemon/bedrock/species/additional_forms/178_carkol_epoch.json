@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_47_by_61.geo",
       "poser": "cobblemon:cutout_gravelmon_47_by_61",
-      "texture": "cobblemon:textures/pokemon/generation8/epochcarkol.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochcarkol.png",
       "layers": [
         {
           "name": "emissive"

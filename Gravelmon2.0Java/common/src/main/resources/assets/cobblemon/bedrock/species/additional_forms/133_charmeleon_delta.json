@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation1_deltacharmeleon.geo",
-      "poser": "cobblemon:generation1_deltacharmeleon",
-      "texture": "cobblemon:textures/pokemon/generation1/deltacharmeleon/deltacharmeleon.png",
+      "model": "cobblemon:insurgence_deltacharmeleon.geo",
+      "poser": "cobblemon:insurgence_deltacharmeleon",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,10 +31,10 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail1.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail2.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail3.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail4.png"
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail1.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail2.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail3.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail4.png"
             ],
             "fps": 10,
             "loop": true
@@ -44,7 +44,7 @@
           "name": "glow",
           "emissive": true,
           "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation1/deltacharmeleon/deltacharmeleon_emissive.png"
+          "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_emissive.png"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"
@@ -56,9 +56,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltacharmeleon.geo",
-      "poser": "cobblemon:generation1_deltacharmeleon",
-      "texture": "cobblemon:textures/pokemon/generation1/deltacharmeleon/deltacharmeleon_shiny.png",
+      "model": "cobblemon:insurgence_deltacharmeleon.geo",
+      "poser": "cobblemon:insurgence_deltacharmeleon",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_shiny.png",
       "layers": [
         {
           "name": "emissive"
@@ -81,10 +81,10 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail1.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail2.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail3.png",
-              "cobblemon:textures/pokemon/generation1/deltacharmeleon/flame/deltatail4.png"
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail1.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail2.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail3.png",
+              "cobblemon:textures/pokemon/insurgence/deltacharmeleon/flame/deltatail4.png"
             ],
             "fps": 10,
             "loop": true
@@ -94,7 +94,7 @@
           "name": "glow",
           "emissive": true,
           "translucent": true,
-          "texture": "cobblemon:textures/pokemon/generation1/deltacharmeleon/deltacharmeleon_emissive_shiny.png"
+          "texture": "cobblemon:textures/pokemon/insurgence/deltacharmeleon/deltacharmeleon_emissive_shiny.png"
         },
         {
           "texture": "cobblemon:textures/empty_texture.png"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_84_by_71.geo",
       "poser": "cobblemon:cutout_gravelmon_84_by_71",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreianbutterfree.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianbutterfree.png",
       "layers": [
         {
           "name": "emissive"

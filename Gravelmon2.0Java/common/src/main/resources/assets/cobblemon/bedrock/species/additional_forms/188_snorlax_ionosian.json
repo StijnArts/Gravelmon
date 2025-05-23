@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_64_by_64.geo",
       "poser": "cobblemon:cutout_gravelmon_64_by_64",
-      "texture": "cobblemon:textures/pokemon/generation1/ionosiansnorlax.png",
+      "texture": "cobblemon:textures/pokemon/ionos/ionosiansnorlax.png",
       "layers": [
         {
           "name": "emissive"

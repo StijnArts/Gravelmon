@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_124_by_146.geo",
       "poser": "cobblemon:cutout_gravelmon_124_by_146",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticblaziken.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticblaziken.png",
       "layers": [
         {
           "name": "emissive"

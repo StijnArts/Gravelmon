@@ -4,56 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_unown-01",
-      "pokemon": "unown forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "norheiman_unown-01",
-      "pokemon": "unown norheiman",
-      "presets": [
-        "ruined_portal"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "earth_unown-01",
       "pokemon": "unown earth",
       "presets": [
@@ -104,6 +54,31 @@
       }
     },
     {
+      "id": "norheiman_unown-01",
+      "pokemon": "unown norheiman",
+      "presets": [
+        "ruined_portal"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_unown-01",
       "pokemon": "unown epoch",
       "presets": [
@@ -124,6 +99,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_unown-01",
+      "pokemon": "unown forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
           ]
         }
       }

@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_dragonite-01",
+      "pokemon": "dragonite delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "45-62",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "raianian_dragonite-01",
       "pokemon": "dragonite raianian",
       "presets": [
@@ -83,33 +110,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_dragonite-01",
-      "pokemon": "dragonite delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "surface",
-      "bucket": "ultra-rare",
-      "level": "45-62",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freshwater"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
           ]
         }
       }

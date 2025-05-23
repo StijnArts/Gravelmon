@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_90_by_76.geo",
       "poser": "cobblemon:cutout_gravelmon_90_by_76",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreiantyrantrum.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiantyrantrum.png",
       "layers": [
         {
           "name": "emissive"

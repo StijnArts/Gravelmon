@@ -2,268 +2,6 @@
   "target": "cobblemon:greninja",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "electric",
-      "secondaryType": "ghost",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 239,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "frogadier form=epoch",
-      "baseScale": 0.3913043478260869,
-      "cannotDynamax": false,
-      "abilities": [
-        "voltabsorb",
-        "static"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 72,
-        "attack": 95,
-        "defence": 67,
-        "special_attack": 122,
-        "special_defence": 103,
-        "speed": 71
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 3
-      },
-      "eggGroups": [
-        "water_1"
-      ],
-      "drops": {},
-      "moves": [
-        "18:confuseray",
-        "1:thundershock",
-        "1:extrasensory",
-        "14:paraboliccharge",
-        "43:doubleteam",
-        "21:shockwave",
-        "5:trick",
-        "39:thunderbolt",
-        "1:growl",
-        "1:hex",
-        "8:charge",
-        "tm:attract",
-        "tm:brine",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:coaching",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:curse",
-        "tm:dazzlinggleam",
-        "tm:drainpunch",
-        "tm:electricterrain",
-        "tm:falseswipe",
-        "tm:flipturn",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:geomancy",
-        "tm:hex",
-        "tm:hiddenpower",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:liquidation",
-        "tm:magnetrise",
-        "tm:memento",
-        "tm:meteorbeam",
-        "tm:metronome",
-        "tm:mirrorshot",
-        "tm:nastyplot",
-        "tm:phantomforce",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:risingvoltage",
-        "tm:round",
-        "tm:safeguard",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:soak",
-        "tm:substitute",
-        "tm:swift",
-        "tm:swordsdance",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:thunder",
-        "tm:thunderbolt",
-        "tm:thunderpunch",
-        "tm:thunderwave",
-        "tm:toxic",
-        "tm:triattack",
-        "tm:voltswitch",
-        "tm:waterpulse",
-        "tm:whirlpool",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochgreninja.desc"
-      ],
-      "height": 15,
-      "weight": 400,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.75,
-        "height": 5.75,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Vesitan",
-      "primaryType": "fire",
-      "secondaryType": "poison",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3870967741935484,
-      "cannotDynamax": false,
-      "abilities": [
-        "blaze",
-        "protean"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 95,
-        "defence": 90,
-        "special_attack": 122,
-        "special_defence": 103,
-        "speed": 84
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 3,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1"
-      ],
-      "drops": {},
-      "moves": [
-        "1:pound",
-        "1:nightslash",
-        "1:matblock",
-        "20:smokescreen",
-        "8:quickattack",
-        "70:gunkshot",
-        "1:roleplay",
-        "36:poisonjab",
-        "57:haze",
-        "10:lick",
-        "28:spikes",
-        "50:doubleteam",
-        "65:fireblast",
-        "14:incinerate",
-        "43:toxic",
-        "46:flamethrower",
-        "54:sludgewave",
-        "1:growl",
-        "5:ember",
-        "33:flameburst",
-        "23:sludge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "chaosinvestia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.vesitangreninja.desc"
-      ],
-      "height": 15,
-      "weight": 400,
-      "aspects": [
-        "vesitan"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.8125,
-        "height": 5.8125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "grass",
       "secondaryType": "fire",
@@ -597,6 +335,162 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "electric",
+      "secondaryType": "ghost",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 239,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "frogadier form=epoch",
+      "baseScale": 0.3913043478260869,
+      "cannotDynamax": false,
+      "abilities": [
+        "voltabsorb",
+        "static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 72,
+        "attack": 95,
+        "defence": 67,
+        "special_attack": 122,
+        "special_defence": 103,
+        "speed": 71
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "18:confuseray",
+        "1:thundershock",
+        "1:extrasensory",
+        "14:paraboliccharge",
+        "43:doubleteam",
+        "21:shockwave",
+        "5:trick",
+        "39:thunderbolt",
+        "1:growl",
+        "1:hex",
+        "8:charge",
+        "tm:attract",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:coaching",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:drainpunch",
+        "tm:electricterrain",
+        "tm:falseswipe",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:liquidation",
+        "tm:magnetrise",
+        "tm:memento",
+        "tm:meteorbeam",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:substitute",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:voltswitch",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgreninja.desc"
+      ],
+      "height": 15,
+      "weight": 400,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.75,
+        "height": 5.75,
+        "fixed": false
+      }
+    },
+    {
       "name": "Armiran",
       "primaryType": "dark",
       "secondaryType": "fire",
@@ -727,13 +621,119 @@
         "height": 9.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3870967741935484,
+      "cannotDynamax": false,
+      "abilities": [
+        "blaze",
+        "protean"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defence": 90,
+        "special_attack": 122,
+        "special_defence": 103,
+        "speed": 84
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:nightslash",
+        "1:matblock",
+        "20:smokescreen",
+        "8:quickattack",
+        "70:gunkshot",
+        "1:roleplay",
+        "36:poisonjab",
+        "57:haze",
+        "10:lick",
+        "28:spikes",
+        "50:doubleteam",
+        "65:fireblast",
+        "14:incinerate",
+        "43:toxic",
+        "46:flamethrower",
+        "54:sludgewave",
+        "1:growl",
+        "5:ember",
+        "33:flameburst",
+        "23:sludge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitangreninja.desc"
+      ],
+      "height": 15,
+      "weight": 400,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.8125,
+        "height": 5.8125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "vesitan",
     "delta",
     "x",
-    "armiran"
+    "epoch",
+    "armiran",
+    "vesitan"
   ]
 }

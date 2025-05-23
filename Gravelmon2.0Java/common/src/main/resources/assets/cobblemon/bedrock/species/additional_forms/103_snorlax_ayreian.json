@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_59_by_82.geo",
       "poser": "cobblemon:cutout_gravelmon_59_by_82",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreiansnorlax.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiansnorlax.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_32_by_43.geo",
       "poser": "cobblemon:cutout_gravelmon_32_by_43",
-      "texture": "cobblemon:textures/pokemon/generation1/epochspearow.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochspearow.png",
       "layers": [
         {
           "name": "emissive"

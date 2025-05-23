@@ -4,60 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_bulbasaur-01",
-      "pokemon": "bulbasaur forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_bulbasaur-01",
-      "pokemon": "bulbasaur epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freezing"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
       "id": "egho_bulbasaur-01",
       "pokemon": "bulbasaur egho",
       "presets": [
@@ -108,6 +54,60 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_bulbasaur-01",
+      "pokemon": "bulbasaur epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_bulbasaur-01",
+      "pokemon": "bulbasaur forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
           ]
         }
       }

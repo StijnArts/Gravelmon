@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_58_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_58_by_56",
-      "texture": "cobblemon:textures/pokemon/generation5/deltafoongus.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltafoongus.png",
       "layers": [
         {
           "name": "emissive"

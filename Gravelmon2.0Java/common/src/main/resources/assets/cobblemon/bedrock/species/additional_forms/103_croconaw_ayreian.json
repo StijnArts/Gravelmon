@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_68_by_64.geo",
       "poser": "cobblemon:cutout_gravelmon_68_by_64",
-      "texture": "cobblemon:textures/pokemon/generation2/ayreiancroconaw.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiancroconaw.png",
       "layers": [
         {
           "name": "emissive"

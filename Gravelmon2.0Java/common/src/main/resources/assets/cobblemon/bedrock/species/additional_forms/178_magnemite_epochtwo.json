@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_21.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_21",
-      "texture": "cobblemon:textures/pokemon/generation1/epochmagnemiteone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmagnemiteone.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_33_by_25.geo",
       "poser": "cobblemon:cutout_gravelmon_33_by_25",
-      "texture": "cobblemon:textures/pokemon/generation2/epochswinub.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochswinub.png",
       "layers": [
         {
           "name": "emissive"

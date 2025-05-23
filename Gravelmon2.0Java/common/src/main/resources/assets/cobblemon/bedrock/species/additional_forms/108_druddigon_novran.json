@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_77_by_68.geo",
       "poser": "cobblemon:cutout_gravelmon_77_by_68",
-      "texture": "cobblemon:textures/pokemon/generation5/novrandruddigon.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novrandruddigon.png",
       "layers": [
         {
           "name": "emissive"

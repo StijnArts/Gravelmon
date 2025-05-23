@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spinarak-aristosian",
+  "speciesId": "cobblemon:spinarak",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_72_by_68.geo",
       "poser": "cobblemon:cutout_gravelmon_72_by_68",
-      "texture": "cobblemon:textures/pokemon/generation3/enjinnianmanectric.png",
+      "texture": "cobblemon:textures/pokemon/enjin/enjinnianmanectric.png",
       "layers": [
         {
           "name": "emissive"

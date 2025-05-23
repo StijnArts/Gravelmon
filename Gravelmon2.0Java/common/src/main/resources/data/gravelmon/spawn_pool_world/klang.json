@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aromian_klang-01",
-      "pokemon": "klang aromian",
+      "id": "varitasian_klang-01",
+      "pokemon": "klang varitasian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "38-44",
+      "weight": 1.35,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:iron_block"
           ]
         }
       }
@@ -58,19 +58,19 @@
       }
     },
     {
-      "id": "varitasian_klang-01",
-      "pokemon": "klang varitasian",
+      "id": "aromian_klang-01",
+      "pokemon": "klang aromian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "38-44",
-      "weight": 1.35,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -79,7 +79,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:iron_block"
+            "minecraft:redstone_block"
           ]
         }
       }

@@ -2,6 +2,141 @@
   "target": "cobblemon:venomoth",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "bug",
+      "secondaryType": "electric",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 158,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "venonat form=hizian",
+      "baseScale": 0.5142857142857142,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 65,
+        "defence": 60,
+        "special_attack": 90,
+        "special_defence": 75,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:foresight",
+        "5:strugglebug",
+        "11:thundershock",
+        "17:psybeam",
+        "23:thunderwave",
+        "25:signalbeam",
+        "29:paraboliccharge",
+        "37:electricterrain",
+        "41:tailglow",
+        "47:thunderbolt",
+        "55:psychic",
+        "59:bugbuzz",
+        "63:quiverdance",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:roost",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:leechlife",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:energyball",
+        "tm:chargebeam",
+        "tm:acrobatics",
+        "tm:gigaimpact",
+        "tm:voltswitch",
+        "tm:thunderwave",
+        "tm:xscissor",
+        "tm:infestation",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:wildcharge",
+        "tm:naturepower",
+        "tm:dazzlinggleam",
+        "tm:confide",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hizianvenomoth.desc"
+      ],
+      "height": 15,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.375,
+        "height": 4.375,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "bug",
       "secondaryType": "grass",
@@ -152,145 +287,10 @@
         "height": 4.1875,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "bug",
-      "secondaryType": "electric",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 158,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "venonat form=hizian",
-      "baseScale": 0.5142857142857142,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 65,
-        "defence": 60,
-        "special_attack": 90,
-        "special_defence": 75,
-        "speed": 90
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "bug"
-      ],
-      "drops": {},
-      "moves": [
-        "1:foresight",
-        "5:strugglebug",
-        "11:thundershock",
-        "17:psybeam",
-        "23:thunderwave",
-        "25:signalbeam",
-        "29:paraboliccharge",
-        "37:electricterrain",
-        "41:tailglow",
-        "47:thunderbolt",
-        "55:psychic",
-        "59:bugbuzz",
-        "63:quiverdance",
-        "tm:sunnyday",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:roost",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:thunderbolt",
-        "tm:thunder",
-        "tm:return",
-        "tm:leechlife",
-        "tm:psychic",
-        "tm:doubleteam",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:round",
-        "tm:energyball",
-        "tm:chargebeam",
-        "tm:acrobatics",
-        "tm:gigaimpact",
-        "tm:voltswitch",
-        "tm:thunderwave",
-        "tm:xscissor",
-        "tm:infestation",
-        "tm:swagger",
-        "tm:sleeptalk",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:flashcannon",
-        "tm:wildcharge",
-        "tm:naturepower",
-        "tm:dazzlinggleam",
-        "tm:confide",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hizianvenomoth.desc"
-      ],
-      "height": 15,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.375,
-        "height": 4.375,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "hizian"
+    "hizian",
+    "epoch"
   ]
 }

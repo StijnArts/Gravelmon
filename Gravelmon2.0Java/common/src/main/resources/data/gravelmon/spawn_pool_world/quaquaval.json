@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ayreian_quaquaval-01",
-      "pokemon": "quaquaval ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-47",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_quaquaval-01",
       "pokemon": "quaquaval epoch",
       "presets": [
@@ -53,6 +26,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_quaquaval-01",
+      "pokemon": "quaquaval ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-47",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

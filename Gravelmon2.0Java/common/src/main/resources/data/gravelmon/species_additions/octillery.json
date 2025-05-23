@@ -2,164 +2,6 @@
   "target": "cobblemon:octillery",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "water",
-      "secondaryType": "electric",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 168,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "remoraid form=epoch",
-      "baseScale": 0.4153846153846154,
-      "cannotDynamax": false,
-      "abilities": [
-        "suctioncups",
-        "battery",
-        "h:stakeout"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 95,
-        "attack": 110,
-        "defence": 75,
-        "special_attack": 80,
-        "special_defence": 45,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1",
-        "water_2"
-      ],
-      "drops": {},
-      "moves": [
-        "20:smokescreen",
-        "60:gunkshot",
-        "28:flipturn",
-        "1:aquajet",
-        "1:octolock",
-        "12:clamp",
-        "32:obstruct",
-        "48:surgingstrikes",
-        "4:supersonic",
-        "16:spark",
-        "36:zingzap",
-        "44:coil",
-        "1:nuzzle",
-        "tm:attract",
-        "tm:blizzard",
-        "tm:bodyslam",
-        "tm:brine",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:charm",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:dazzlinggleam",
-        "tm:electricterrain",
-        "tm:flipturn",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:gunkshot",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:icebeam",
-        "tm:icefang",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:knockoff",
-        "tm:liquidation",
-        "tm:meteorbeam",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:risingvoltage",
-        "tm:scald",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:soak",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:thunder",
-        "tm:thunderbolt",
-        "tm:thunderwave",
-        "tm:toxic",
-        "tm:voltswitch",
-        "tm:waterpulse",
-        "tm:weatherball",
-        "tm:whirlpool",
-        "tm:wildcharge",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochoctillery.desc"
-      ],
-      "height": 9,
-      "weight": 285,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.25,
-        "height": 3.25,
-        "fixed": false
-      }
-    },
-    {
       "name": "Lagoonan",
       "primaryType": "ice",
       "secondaryType": "poison",
@@ -452,11 +294,169 @@
         "height": 7.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "electric",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "remoraid form=epoch",
+      "baseScale": 0.4153846153846154,
+      "cannotDynamax": false,
+      "abilities": [
+        "suctioncups",
+        "battery",
+        "h:stakeout"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 110,
+        "defence": 75,
+        "special_attack": 80,
+        "special_defence": 45,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "water_2"
+      ],
+      "drops": {},
+      "moves": [
+        "20:smokescreen",
+        "60:gunkshot",
+        "28:flipturn",
+        "1:aquajet",
+        "1:octolock",
+        "12:clamp",
+        "32:obstruct",
+        "48:surgingstrikes",
+        "4:supersonic",
+        "16:spark",
+        "36:zingzap",
+        "44:coil",
+        "1:nuzzle",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:electricterrain",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:meteorbeam",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:voltswitch",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wildcharge",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochoctillery.desc"
+      ],
+      "height": 9,
+      "weight": 285,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
     "lagoonan",
-    "delta"
+    "delta",
+    "epoch"
   ]
 }

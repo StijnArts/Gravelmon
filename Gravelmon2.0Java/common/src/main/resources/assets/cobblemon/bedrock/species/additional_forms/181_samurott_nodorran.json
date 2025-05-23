@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_69_by_87.geo",
       "poser": "cobblemon:cutout_gravelmon_69_by_87",
-      "texture": "cobblemon:textures/pokemon/generation5/nodorransamurott.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorransamurott.png",
       "layers": [
         {
           "name": "emissive"

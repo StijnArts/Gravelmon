@@ -29,32 +29,6 @@
       }
     },
     {
-      "id": "avalossian_dusclops-01",
-      "pokemon": "dusclops avalossian",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "37-52",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_dusclops-01",
       "pokemon": "dusclops epoch",
       "presets": [
@@ -76,6 +50,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "avalossian_dusclops-01",
+      "pokemon": "dusclops avalossian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "37-52",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }

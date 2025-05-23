@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation1_deltawartortle.geo",
-      "poser": "cobblemon:generation1_deltawartortle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle/deltawartortle.png",
+      "model": "cobblemon:insurgence_deltawartortle.geo",
+      "poser": "cobblemon:insurgence_deltawartortle",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawartortle/deltawartortle.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltawartortle.geo",
-      "poser": "cobblemon:generation1_deltawartortle",
-      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle/deltawartortle_shiny.png",
+      "model": "cobblemon:insurgence_deltawartortle.geo",
+      "poser": "cobblemon:insurgence_deltawartortle",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawartortle/deltawartortle_shiny.png",
       "layers": [
         {
           "name": "emissive"

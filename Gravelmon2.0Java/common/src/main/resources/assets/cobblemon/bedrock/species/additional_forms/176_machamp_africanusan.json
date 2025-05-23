@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_102_by_86.geo",
       "poser": "cobblemon:cutout_gravelmon_102_by_86",
-      "texture": "cobblemon:textures/pokemon/generation1/africanusanmachamp.png",
+      "texture": "cobblemon:textures/pokemon/africanus/africanusanmachamp.png",
       "layers": [
         {
           "name": "emissive"

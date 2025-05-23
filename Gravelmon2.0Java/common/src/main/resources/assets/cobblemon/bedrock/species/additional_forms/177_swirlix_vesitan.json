@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_30_by_47.geo",
       "poser": "cobblemon:cutout_gravelmon_30_by_47",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitanswirlix.png",
+      "texture": "cobblemon:textures/pokemon/chaosinvesita/vesitanswirlix.png",
       "layers": [
         {
           "name": "emissive"

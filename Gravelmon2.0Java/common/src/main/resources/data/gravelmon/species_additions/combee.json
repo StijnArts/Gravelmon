@@ -2,120 +2,6 @@
   "target": "cobblemon:combee",
   "forms": [
     {
-      "name": "Qamoran",
-      "primaryType": "steel",
-      "secondaryType": "flying",
-      "catchRate": 120,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1523809523809524,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 30,
-        "attack": 30,
-        "defence": 42,
-        "special_attack": 30,
-        "special_defence": 42,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leer",
-        "1:peck",
-        "4:sandattack",
-        "8:furyattack",
-        "12:metalclaw",
-        "16:agility",
-        "20:wingattack",
-        "24:slash",
-        "28:steelwing",
-        "32:payback",
-        "36:drillpeck",
-        "40:metalsound",
-        "44:spikes",
-        "48:irondefense",
-        "52:bravebird",
-        "tm:terablast"
-      ],
-      "labels": [
-        "qamor",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.qamorancombee.desc"
-      ],
-      "height": 3,
-      "weight": 165,
-      "aspects": [
-        "qamoran"
-      ],
-      "evolutions": [
-        {
-          "id": "qamorancombee_vespidron",
-          "variant": "level_up",
-          "result": "vespidron",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "20"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.9375,
-        "height": 3.9375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "steel",
       "secondaryType": "fire",
@@ -407,12 +293,126 @@
         "height": 5.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "Qamoran",
+      "primaryType": "steel",
+      "secondaryType": "flying",
+      "catchRate": 120,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1523809523809524,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 30,
+        "defence": 42,
+        "special_attack": 30,
+        "special_defence": 42,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:peck",
+        "4:sandattack",
+        "8:furyattack",
+        "12:metalclaw",
+        "16:agility",
+        "20:wingattack",
+        "24:slash",
+        "28:steelwing",
+        "32:payback",
+        "36:drillpeck",
+        "40:metalsound",
+        "44:spikes",
+        "48:irondefense",
+        "52:bravebird",
+        "tm:terablast"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamorancombee.desc"
+      ],
+      "height": 3,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [
+        {
+          "id": "qamorancombee_vespidron",
+          "variant": "level_up",
+          "result": "vespidron",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "qamoran",
     "delta",
-    "epoch"
+    "epoch",
+    "qamoran"
   ],
   "evolutions": [
     {

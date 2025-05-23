@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_seadra-01",
-      "pokemon": "seadra forman",
+      "id": "norheiman_seadra-01",
+      "pokemon": "seadra norheiman",
       "presets": [
-        "water"
+        "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "32-46",
-      "weight": 1.7999999999999998,
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 0.27,
       "condition": {
         "biomes": [
-          "#minecraft:is_deep_ocean"
+          "#cobblemon:is_cold_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:raw_gold_block"
           ]
         }
       }
@@ -86,19 +86,19 @@
       }
     },
     {
-      "id": "norheiman_seadra-01",
-      "pokemon": "seadra norheiman",
+      "id": "forman_seadra-01",
+      "pokemon": "seadra forman",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "32-44",
-      "weight": 0.27,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "32-46",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#minecraft:is_deep_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -107,7 +107,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:prismarine"
           ]
         }
       }

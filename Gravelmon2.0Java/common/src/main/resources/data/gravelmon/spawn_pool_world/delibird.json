@@ -4,27 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_delibird-01",
-      "pokemon": "delibird forman",
+      "id": "cefiran_delibird-01",
+      "pokemon": "delibird cefiran",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "23-45",
-      "weight": 1.7999999999999998,
+      "bucket": "uncommon",
+      "level": "16-45",
+      "weight": 6.27,
       "condition": {
         "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_forest"
-        ]
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -55,28 +56,27 @@
       }
     },
     {
-      "id": "cefiran_delibird-01",
-      "pokemon": "delibird cefiran",
+      "id": "forman_delibird-01",
+      "pokemon": "delibird forman",
       "presets": [
-        "village"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "16-45",
-      "weight": 6.27,
+      "bucket": "rare",
+      "level": "23-45",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_forest"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:magma_block"
           ]
         }
       }

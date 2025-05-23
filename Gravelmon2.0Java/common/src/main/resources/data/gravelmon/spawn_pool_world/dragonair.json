@@ -4,19 +4,45 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_dragonair-01",
-      "pokemon": "dragonair mahalian",
+      "id": "delta_dragonair-01",
+      "pokemon": "dragonair delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "30-42",
+      "weight": 1.35,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_freshwater"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norheiman_dragonair-01",
+      "pokemon": "dragonair norheiman",
+      "presets": [],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "35-54",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga",
+          "#cobblemon:is_freshwater"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -31,23 +57,30 @@
       }
     },
     {
-      "id": "mahalian_dragonair-11",
-      "pokemon": "dragonair mahalian",
+      "id": "epoch_dragonair-01",
+      "pokemon": "dragonair epoch",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-45",
+      "weight": 1.9500000000000002,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ]
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "isRaining": false,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:glowstone"
           ]
         }
       }
@@ -102,88 +135,6 @@
       }
     },
     {
-      "id": "epoch_dragonair-01",
-      "pokemon": "dragonair epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "31-45",
-      "weight": 1.9500000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
-        ],
-        "isRaining": false,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
-      "id": "norheiman_dragonair-01",
-      "pokemon": "dragonair norheiman",
-      "presets": [],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "35-54",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga",
-          "#cobblemon:is_freshwater"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_dragonair-01",
-      "pokemon": "dragonair delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "30-42",
-      "weight": 1.35,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freshwater"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_dragonair-01",
       "pokemon": "dragonair ayreian",
       "presets": [
@@ -206,6 +157,55 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_dragonair-01",
+      "pokemon": "dragonair mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_dragonair-11",
+      "pokemon": "dragonair mahalian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
           ]
         }
       }

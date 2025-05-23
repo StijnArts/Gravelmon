@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_142_by_106.geo",
       "poser": "cobblemon:cutout_gravelmon_142_by_106",
-      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltatoxicroak.png",
       "layers": [
         {
           "name": "emissive"

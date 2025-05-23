@@ -2,119 +2,6 @@
   "target": "cobblemon:patrat",
   "forms": [
     {
-      "name": "Ferranian",
-      "primaryType": "psychic",
-      "secondaryType": "normal",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confusion",
-        "1:tackle",
-        "1:growl",
-        "1:growl",
-        "4:psybeam",
-        "4:round",
-        "7:futuresight",
-        "7:swift",
-        "10:psychic",
-        "10:uproar",
-        "13:psyshock",
-        "13:hypervoice",
-        "16:psychoboost",
-        "16:hyperbeam",
-        "19:confusion",
-        "19:tackle",
-        "22:growl",
-        "22:growl",
-        "25:psybeam",
-        "25:quickattack",
-        "28:futuresight",
-        "28:bite",
-        "31:psychic",
-        "31:takedown",
-        "34:zenheadbutt",
-        "34:crunch",
-        "39:psychocut",
-        "39:doubleedge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ferran",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.ferranianpatrat.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "ferranian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "dark",
       "secondaryType": "psychic",
@@ -293,10 +180,124 @@
         "height": 2.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "Ferranian",
+      "primaryType": "psychic",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:psybeam",
+        "4:round",
+        "7:futuresight",
+        "7:swift",
+        "10:psychic",
+        "10:uproar",
+        "13:psyshock",
+        "13:hypervoice",
+        "16:psychoboost",
+        "16:hyperbeam",
+        "19:confusion",
+        "19:tackle",
+        "22:growl",
+        "22:growl",
+        "25:psybeam",
+        "25:quickattack",
+        "28:futuresight",
+        "28:bite",
+        "31:psychic",
+        "31:takedown",
+        "34:zenheadbutt",
+        "34:crunch",
+        "39:psychocut",
+        "39:doubleedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.ferranianpatrat.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ferranian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "ferranian",
-    "epoch"
+    "epoch",
+    "ferranian"
   ]
 }

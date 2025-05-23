@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_130_by_106.geo",
       "poser": "cobblemon:cutout_gravelmon_130_by_106",
-      "texture": "cobblemon:textures/pokemon/generation5/deltazweilous.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltazweilous.png",
       "layers": [
         {
           "name": "emissive"
@@ -43,7 +43,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_130_by_106.geo",
       "poser": "cobblemon:cutout_gravelmon_130_by_106",
-      "texture": "cobblemon:textures/pokemon/generation5/deltazweilous_female.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltazweilous_female.png",
       "layers": [
         {
           "name": "emissive"

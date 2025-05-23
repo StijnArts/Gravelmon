@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_88.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_88",
-      "texture": "cobblemon:textures/pokemon/generation4/avalossiangallade.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossiangallade.png",
       "layers": [
         {
           "name": "emissive"

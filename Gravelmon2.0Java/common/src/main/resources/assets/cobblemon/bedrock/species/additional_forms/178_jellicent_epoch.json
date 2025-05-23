@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_77_by_67.geo",
       "poser": "cobblemon:cutout_gravelmon_77_by_67",
-      "texture": "cobblemon:textures/pokemon/generation5/epochjellicent.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochjellicent.png",
       "layers": [
         {
           "name": "emissive"

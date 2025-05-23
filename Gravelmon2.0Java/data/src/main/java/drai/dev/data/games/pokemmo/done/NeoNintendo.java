@@ -2,6 +2,9 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.neonintendo.*;
+import drai.dev.data.pokemon.neonintendo.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class NeoNintendo extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new NeoNintendo();
@@ -13,7 +16,7 @@ public class NeoNintendo extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
 //        addNewPokemon(new NeoZubat(41)); Member of line not finished
 //        addNewPokemon(new NeoGeodude(74)); Member of line not finished
-        addPokedexPokemon("cacnea-neo");
+        addNewPokemon(new NeoCacnea("Cacnea", Aspect.NEO));
         addNewPokemon(new Cactussle());
 //        addNewPokemon(new NeoTurtwig(387));Member of line not finished
 //        addNewPokemon(new NeoGrotle(388));Member of line not finished

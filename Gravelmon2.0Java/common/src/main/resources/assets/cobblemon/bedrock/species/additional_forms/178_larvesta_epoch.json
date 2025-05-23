@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_43_by_45.geo",
       "poser": "cobblemon:cutout_gravelmon_43_by_45",
-      "texture": "cobblemon:textures/pokemon/generation5/epochlarvesta.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochlarvesta.png",
       "layers": [
         {
           "name": "emissive"

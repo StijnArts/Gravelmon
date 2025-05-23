@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_52_by_94.geo",
       "poser": "cobblemon:cutout_gravelmon_52_by_94",
-      "texture": "cobblemon:textures/pokemon/generation3/deltasnorunt.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasnorunt.png",
       "layers": [
         {
           "name": "emissive"

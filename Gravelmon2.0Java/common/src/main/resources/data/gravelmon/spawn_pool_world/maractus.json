@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_maractus-01",
+      "pokemon": "maractus delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "22-54",
+      "weight": 4.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "avorian_maractus-01",
       "pokemon": "maractus avorian",
       "presets": [
@@ -32,16 +57,16 @@
       }
     },
     {
-      "id": "delta_maractus-01",
-      "pokemon": "maractus delta",
+      "id": "epoch_maractus-01",
+      "pokemon": "maractus epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "22-54",
-      "weight": 4.5,
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -85,31 +110,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_maractus-01",
-      "pokemon": "maractus epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "23-43",
-      "weight": 0.9,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
           ]
         }
       }

@@ -4,60 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_lampent-01",
-      "pokemon": "lampent fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_lampent-01",
-      "pokemon": "lampent epoch",
-      "presets": [
-        "mansion"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "27-47",
-      "weight": 1.9500000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
       "id": "lagoonan_lampent-01",
       "pokemon": "lampent lagoonan",
       "presets": [
@@ -105,6 +51,60 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_lampent-01",
+      "pokemon": "lampent epoch",
+      "presets": [
+        "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-47",
+      "weight": 1.9500000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_lampent-01",
+      "pokemon": "lampent fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
           ]
         }
       }

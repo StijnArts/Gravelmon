@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_46.geo",
       "poser": "cobblemon:cutout_gravelmon_41_by_46",
-      "texture": "cobblemon:textures/pokemon/generation8/ottoranimpidimp.png",
+      "texture": "cobblemon:textures/pokemon/beginnings/ottoranimpidimp.png",
       "layers": [
         {
           "name": "emissive"

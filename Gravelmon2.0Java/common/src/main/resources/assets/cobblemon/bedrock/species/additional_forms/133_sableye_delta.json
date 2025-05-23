@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation3_deltasableye.geo",
-      "poser": "cobblemon:generation3_deltasableye",
-      "texture": "cobblemon:textures/pokemon/generation3/deltasableye/deltasableye.png",
+      "model": "cobblemon:insurgence_deltasableye.geo",
+      "poser": "cobblemon:insurgence_deltasableye",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasableye/deltasableye.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation3_deltasableye.geo",
-      "poser": "cobblemon:generation3_deltasableye",
-      "texture": "cobblemon:textures/pokemon/generation3/deltasableye/deltasableye_shiny.png",
+      "model": "cobblemon:insurgence_deltasableye.geo",
+      "poser": "cobblemon:insurgence_deltasableye",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasableye/deltasableye_shiny.png",
       "layers": [
         {
           "name": "emissive"

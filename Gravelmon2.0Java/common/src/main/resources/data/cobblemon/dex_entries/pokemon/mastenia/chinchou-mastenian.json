@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chinchou-mastenian",
+  "speciesId": "cobblemon:chinchou",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ],
+  "variations": []
+}

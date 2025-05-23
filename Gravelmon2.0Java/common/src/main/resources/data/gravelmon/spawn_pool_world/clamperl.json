@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_clamperl-01",
+      "pokemon": "clamperl delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "15-34",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_clamperl-01",
       "pokemon": "clamperl epoch",
       "presets": [
@@ -25,31 +50,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_clamperl-01",
-      "pokemon": "clamperl delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "common",
-      "level": "15-34",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
           ]
         }
       }

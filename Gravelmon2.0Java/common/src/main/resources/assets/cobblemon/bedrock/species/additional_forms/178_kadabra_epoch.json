@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_63_by_52.geo",
       "poser": "cobblemon:cutout_gravelmon_63_by_52",
-      "texture": "cobblemon:textures/pokemon/generation1/epochkadabra.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochkadabra.png",
       "layers": [
         {
           "name": "emissive"

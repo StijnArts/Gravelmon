@@ -4,28 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_morgrem-01",
-      "pokemon": "morgrem fabelian",
+      "id": "varitasian_morgrem-01",
+      "pokemon": "morgrem varitasian",
       "presets": [
-        "natural"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "32-40",
+      "weight": 0.81,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -83,33 +83,6 @@
       }
     },
     {
-      "id": "ottoran_morgrem-01",
-      "pokemon": "morgrem ottoran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "novran_morgrem-01",
       "pokemon": "morgrem novran",
       "presets": [
@@ -137,28 +110,28 @@
       }
     },
     {
-      "id": "varitasian_morgrem-01",
-      "pokemon": "morgrem varitasian",
+      "id": "fabelian_morgrem-01",
+      "pokemon": "morgrem fabelian",
       "presets": [
-        "mansion"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "32-40",
-      "weight": 0.81,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:packed_ice"
           ]
         }
       }
@@ -185,6 +158,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ottoran_morgrem-01",
+      "pokemon": "morgrem ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }

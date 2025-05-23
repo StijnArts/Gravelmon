@@ -2,6 +2,111 @@
   "target": "cobblemon:flygon",
   "forms": [
     {
+      "name": "Cefiran",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 270,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vibrava form=cefiran",
+      "baseScale": 0.2891566265060241,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 80,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sonicboom",
+        "1:sandattack",
+        "1:dragonclaw",
+        "1:sandtomb",
+        "4:dragondance",
+        "7:feintattack",
+        "10:sandtomb",
+        "13:mudslap",
+        "17:tackle",
+        "21:signalbeam",
+        "25:rockslide",
+        "29:supersonic",
+        "34:screech",
+        "35:dragonbreath",
+        "39:bugbuzz",
+        "44:leechlife",
+        "49:boomburst",
+        "55:dragonrush",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "opal",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiranflygon.desc"
+      ],
+      "height": 20,
+      "weight": 820,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 10.375,
+        "height": 10.375,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ice",
       "secondaryType": "dragon",
@@ -148,108 +253,6 @@
       "hitbox": {
         "width": 5.4375,
         "height": 5.4375,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ionosian",
-      "primaryType": "bug",
-      "secondaryType": "dragon",
-      "catchRate": 61,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.5164556962025316,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 69,
-        "attack": 34,
-        "defence": 73,
-        "special_attack": 134,
-        "special_defence": 73,
-        "speed": 134
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:strugglebug",
-        "1:scratch",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:stringshot",
-        "1:leer",
-        "1:nastyplot",
-        "1:nastyplot",
-        "10:silverwind",
-        "10:twister",
-        "15:signalbeam",
-        "15:dragonbreath",
-        "20:infestation",
-        "20:breakingswipe",
-        "25:uturn",
-        "25:dragonpulse",
-        "30:bugbuzz",
-        "30:dracometeor",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ionos",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ionosianflygon.desc"
-      ],
-      "height": 17,
-      "weight": 0,
-      "aspects": [
-        "ionosian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.9375,
-        "height": 4.9375,
         "fixed": false
       }
     },
@@ -435,17 +438,16 @@
       }
     },
     {
-      "name": "Cefiran",
+      "name": "Ionosian",
       "primaryType": "bug",
       "secondaryType": "dragon",
-      "catchRate": 45,
+      "catchRate": 61,
       "maleRatio": 0.5,
-      "baseExperienceYield": 270,
-      "experienceGroup": "medium_fast",
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "vibrava form=cefiran",
-      "baseScale": 0.2891566265060241,
+      "baseScale": 0.5164556962025316,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -477,65 +479,63 @@
         }
       },
       "baseStats": {
-        "hp": 80,
-        "attack": 100,
-        "defence": 80,
-        "special_attack": 100,
-        "special_defence": 80,
-        "speed": 80
+        "hp": 69,
+        "attack": 34,
+        "defence": 73,
+        "special_attack": 134,
+        "special_defence": 73,
+        "speed": 134
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
-        "special_attack": 2,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "bug"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:sonicboom",
-        "1:sandattack",
-        "1:dragonclaw",
-        "1:sandtomb",
-        "4:dragondance",
-        "7:feintattack",
-        "10:sandtomb",
-        "13:mudslap",
-        "17:tackle",
-        "21:signalbeam",
-        "25:rockslide",
-        "29:supersonic",
-        "34:screech",
-        "35:dragonbreath",
-        "39:bugbuzz",
-        "44:leechlife",
-        "49:boomburst",
-        "55:dragonrush",
+        "1:strugglebug",
+        "1:scratch",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:stringshot",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:silverwind",
+        "10:twister",
+        "15:signalbeam",
+        "15:dragonbreath",
+        "20:infestation",
+        "20:breakingswipe",
+        "25:uturn",
+        "25:dragonpulse",
+        "30:bugbuzz",
+        "30:dracometeor",
         "tm:terablast"
       ],
       "labels": [
-        "gen3",
-        "opal",
-        "not_modeled",
-        "fakemonevolution"
+        "ionos",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.cefiranflygon.desc"
+        "cobblemon.species.ionosianflygon.desc"
       ],
-      "height": 20,
-      "weight": 820,
+      "height": 17,
+      "weight": 0,
       "aspects": [
-        "cefiran"
+        "ionosian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 10.375,
-        "height": 10.375,
+        "width": 4.9375,
+        "height": 4.9375,
         "fixed": false
       }
     },
@@ -570,7 +570,7 @@
       "name": "ayreian_mega",
       "primaryType": "bug",
       "secondaryType": "poison",
-      "baseScale": 18.0,
+      "baseScale": 0.3913043478260869,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -633,10 +633,10 @@
     }
   ],
   "features": [
-    "epoch",
-    "ionosian",
-    "ayreian",
     "cefiran",
+    "epoch",
+    "ayreian",
+    "ionosian",
     "mega",
     "ayreian_mega",
     "armored"

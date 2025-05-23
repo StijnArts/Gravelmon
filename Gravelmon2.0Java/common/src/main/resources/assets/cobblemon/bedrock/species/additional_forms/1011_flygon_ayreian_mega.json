@@ -6,8 +6,8 @@
       "aspects": [
         "ayreian_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_86_by_92.geo",
+      "poser": "cobblemon:cutout_gravelmon_86_by_92",
       "texture": "cobblemon:textures/pokemon/vanguard/flygon_ayreian_mega.png",
       "layers": [
         {

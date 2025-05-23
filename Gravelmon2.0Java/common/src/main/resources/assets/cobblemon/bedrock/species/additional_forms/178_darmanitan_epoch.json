@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_78_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_78_by_55",
-      "texture": "cobblemon:textures/pokemon/generation5/epochdarmanitan.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochdarmanitan.png",
       "layers": [
         {
           "name": "emissive"

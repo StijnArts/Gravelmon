@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_barbaracle-01",
-      "pokemon": "barbaracle epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "34-53",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
       "id": "lagoonan_barbaracle-01",
       "pokemon": "barbaracle lagoonan",
       "presets": [
@@ -52,6 +27,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_barbaracle-01",
+      "pokemon": "barbaracle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "34-53",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
           ]
         }
       }

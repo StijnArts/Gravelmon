@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_86.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_86",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaminun.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaminun.png",
       "layers": [
         {
           "name": "emissive"

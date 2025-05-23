@@ -2,19 +2,19 @@
   "target": "cobblemon:tauros",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "fire",
-      "secondaryType": "ground",
+      "name": "Africanusan",
+      "primaryType": "normal",
+      "secondaryType": "steel",
       "catchRate": 45,
-      "maleRatio": 0.5,
+      "maleRatio": 1.0,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.084375,
+      "baseScale": 0.49411764705882355,
       "cannotDynamax": false,
       "abilities": [
-        "flamebody"
+        "angerpoint"
       ],
       "behaviour": {
         "resting": {
@@ -43,18 +43,18 @@
         }
       },
       "baseStats": {
-        "hp": 106,
-        "attack": 110,
-        "defence": 106,
-        "special_attack": 37,
-        "special_defence": 82,
-        "speed": 45
+        "hp": 90,
+        "attack": 95,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 45,
+        "speed": 55
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 1,
         "defence": 0,
-        "special_attack": 0,
+        "special_attack": 1,
         "special_defence": 0,
         "speed": 0
       },
@@ -63,51 +63,39 @@
       ],
       "drops": {},
       "moves": [
-        "1:ember",
-        "1:mudslap",
-        "1:bulkup",
-        "1:shoreup",
-        "1:growl",
-        "1:growl",
-        "1:calmmind",
-        "1:bulkup",
-        "4:quickattack",
-        "4:sandattack",
-        "4:taunt",
-        "4:calmmind",
-        "7:flamecharge",
-        "7:mudbomb",
-        "7:substitute",
-        "7:taunt",
-        "10:firepunch",
-        "10:bulldoze",
-        "10:rest",
-        "10:substitute",
-        "13:willowisp",
-        "13:dig",
-        "13:rest",
-        "16:flareblitz",
-        "16:earthquake",
+        "11:irondefense",
+        "41:metalburst",
+        "1:tackle",
+        "3:tailwhip",
+        "15:mirrorshot",
+        "5:rage",
+        "24:payback",
+        "63:doubleedge",
+        "8:hornattack",
+        "35:takedown",
+        "19:ironhead",
+        "29:workup",
+        "48:swagger",
+        "71:gigaimpact",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "africanus",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formantauros.desc"
+        "cobblemon.species.africanusantauros.desc"
       ],
-      "height": 18,
-      "weight": 0,
+      "height": 14,
+      "weight": 1300,
       "aspects": [
-        "forman"
+        "africanusan"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.25,
+        "height": 4.25,
         "fixed": false
       }
     },
@@ -272,19 +260,19 @@
       }
     },
     {
-      "name": "Africanusan",
-      "primaryType": "normal",
-      "secondaryType": "steel",
+      "name": "Forman",
+      "primaryType": "fire",
+      "secondaryType": "ground",
       "catchRate": 45,
-      "maleRatio": 1.0,
+      "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "slow",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.49411764705882355,
+      "baseScale": 0.084375,
       "cannotDynamax": false,
       "abilities": [
-        "angerpoint"
+        "flamebody"
       ],
       "behaviour": {
         "resting": {
@@ -313,18 +301,18 @@
         }
       },
       "baseStats": {
-        "hp": 90,
-        "attack": 95,
-        "defence": 95,
-        "special_attack": 95,
-        "special_defence": 45,
-        "speed": 55
+        "hp": 106,
+        "attack": 110,
+        "defence": 106,
+        "special_attack": 37,
+        "special_defence": 82,
+        "speed": 45
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
+        "attack": 0,
         "defence": 0,
-        "special_attack": 1,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
@@ -333,47 +321,60 @@
       ],
       "drops": {},
       "moves": [
-        "11:irondefense",
-        "41:metalburst",
-        "1:tackle",
-        "3:tailwhip",
-        "15:mirrorshot",
-        "5:rage",
-        "24:payback",
-        "63:doubleedge",
-        "8:hornattack",
-        "35:takedown",
-        "19:ironhead",
-        "29:workup",
-        "48:swagger",
-        "71:gigaimpact",
+        "1:ember",
+        "1:mudslap",
+        "1:bulkup",
+        "1:shoreup",
+        "1:growl",
+        "1:growl",
+        "1:calmmind",
+        "1:bulkup",
+        "4:quickattack",
+        "4:sandattack",
+        "4:taunt",
+        "4:calmmind",
+        "7:flamecharge",
+        "7:mudbomb",
+        "7:substitute",
+        "7:taunt",
+        "10:firepunch",
+        "10:bulldoze",
+        "10:rest",
+        "10:substitute",
+        "13:willowisp",
+        "13:dig",
+        "13:rest",
+        "16:flareblitz",
+        "16:earthquake",
         "tm:terablast"
       ],
       "labels": [
-        "africanus",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.africanusantauros.desc"
+        "cobblemon.species.formantauros.desc"
       ],
-      "height": 14,
-      "weight": 1300,
+      "height": 18,
+      "weight": 0,
       "aspects": [
-        "africanusan"
+        "forman"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.25,
-        "height": 4.25,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "forman",
+    "africanusan",
     "epoch",
-    "africanusan"
+    "forman"
   ],
   "preEvolution": "calfpint"
 }

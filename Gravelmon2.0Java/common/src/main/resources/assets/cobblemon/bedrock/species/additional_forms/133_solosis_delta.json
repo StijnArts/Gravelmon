@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_74_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_74_by_62",
-      "texture": "cobblemon:textures/pokemon/generation5/deltasolosis.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltasolosis.png",
       "layers": [
         {
           "name": "emissive"

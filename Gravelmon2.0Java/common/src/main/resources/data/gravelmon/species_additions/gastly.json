@@ -2,6 +2,142 @@
   "target": "cobblemon:gastly",
   "forms": [
     {
+      "name": "X",
+      "primaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 1.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "oblivious",
+        "moldbreaker",
+        "h:sturdy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 35,
+        "defence": 30,
+        "special_attack": 100,
+        "special_defence": 65,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:dragonrage",
+        "1:leer",
+        "4:takedown",
+        "8:meanlook",
+        "12:payback",
+        "16:focusenergy",
+        "20:rapidspin",
+        "28:headbutt",
+        "32:suckerpunch",
+        "36:dragonpulse",
+        "40:zenheadbutt",
+        "44:scaryface",
+        "48:outrage",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:protect",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:fling",
+        "tm:embargo",
+        "tm:payback",
+        "tm:psychup",
+        "tm:swagger",
+        "tm:substitute",
+        "tutor:dragonpulse",
+        "tutor:outrage",
+        "tutor:secretpower",
+        "tutor:snore",
+        "tm:terablast"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1"
+      ],
+      "pokedex": [
+        "cobblemon.species.gastlyx.desc"
+      ],
+      "height": 13,
+      "weight": 210,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [
+        {
+          "id": "gastlyx_haunter_x",
+          "variant": "level_up",
+          "result": "haunter x",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.45,
+        "fixed": false
+      }
+    },
+    {
       "name": "Palmian",
       "primaryType": "dark",
       "secondaryType": "poison",
@@ -80,8 +216,9 @@
         "tm:terablast"
       ],
       "labels": [
-        "raian",
         "not_modeled",
+        "palmia",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -112,422 +249,6 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "normal",
-      "secondaryType": "poison",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
-      "cannotDynamax": false,
-      "abilities": [
-        "prankster"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 34,
-        "attack": 53,
-        "defence": 36,
-        "special_attack": 18,
-        "special_defence": 36,
-        "speed": 62
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:acid",
-        "1:healbell",
-        "1:toxic",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:growl",
-        "1:leer",
-        "1:wish",
-        "1:healbell",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:round",
-        "4:clearsmog",
-        "4:wish",
-        "4:extremespeed",
-        "4:quickattack",
-        "7:swift",
-        "7:sludge",
-        "7:quickattack",
-        "7:swordsdance",
-        "10:uproar",
-        "10:toxicspikes",
-        "10:swordsdance",
-        "13:hypervoice",
-        "13:sludgebomb",
-        "16:hyperbeam",
-        "16:sludgewave",
-        "19:tackle",
-        "19:poisonsting",
-        "22:growl",
-        "22:leer",
-        "25:quickattack",
-        "25:venoshock",
-        "28:bite",
-        "28:poisontail",
-        "31:takedown",
-        "31:toxicspikes",
-        "34:crunch",
-        "34:sludgebomb",
-        "39:doubleedge",
-        "39:poisonjab",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formangastly.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formangastly_haunter_forman",
-          "variant": "level_up",
-          "result": "haunter forman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "24"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Nodorran",
-      "primaryType": "ghost",
-      "secondaryType": "ice",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.45217391304347826,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 30,
-        "attack": 30,
-        "defence": 40,
-        "special_attack": 100,
-        "special_defence": 40,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:lick",
-        "1:powdersnow",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:growl",
-        "1:growl",
-        "1:nastyplot",
-        "1:nastyplot",
-        "10:confuseray",
-        "10:icywind",
-        "15:ominouswind",
-        "15:aurorabeam",
-        "20:nightshade",
-        "20:freezedry",
-        "25:hex",
-        "25:icebeam",
-        "30:shadowball",
-        "30:blizzard",
-        "tm:terablast"
-      ],
-      "labels": [
-        "nodorro",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.nodorrangastly.desc"
-      ],
-      "height": 13,
-      "weight": 0,
-      "aspects": [
-        "nodorran"
-      ],
-      "evolutions": [
-        {
-          "id": "nodorrangastly_haunter_nodorran",
-          "variant": "level_up",
-          "result": "haunter nodorran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "24"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.3125,
-        "height": 4.3125,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "ice",
-      "secondaryType": "flying",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 62,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.6000000000000001,
-      "cannotDynamax": false,
-      "abilities": [
-        "filter",
-        "cloudnine",
-        "h:snowwarning"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 30,
-        "attack": 30,
-        "defence": 30,
-        "special_attack": 85,
-        "special_defence": 100,
-        "speed": 35
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "26:defog",
-        "61:blizzard",
-        "15:icywind",
-        "1:powdersnow",
-        "4:mist",
-        "53:tailwind",
-        "34:frostbreath",
-        "38:weatherball",
-        "46:icebeam",
-        "11:hail",
-        "tm:acidrain",
-        "tm:airslash",
-        "tm:attract",
-        "tm:blizzard",
-        "tm:brine",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:dazzlinggleam",
-        "tm:defog",
-        "tm:echoedvoice",
-        "tm:frostbite",
-        "tm:hail",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hurricane",
-        "tm:hypervoice",
-        "tm:icebeam",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:liquidation",
-        "tm:mirrorshot",
-        "tm:mist",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:scald",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:soak",
-        "tm:tailwind",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:waterpulse",
-        "tm:weatherball",
-        "tm:whirlpool",
-        "tm:wish",
-        "egg:auroraveil",
-        "egg:hurricane",
-        "egg:raindance",
-        "egg:triattack",
-        "egg:freezedry",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochgastly.desc"
-      ],
-      "height": 13,
-      "weight": 1,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochgastly_haunter_epoch",
-          "variant": "level_up",
-          "result": "haunter epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "25"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.25,
-        "height": 3.25,
         "fixed": false
       }
     },
@@ -689,20 +410,178 @@
       }
     },
     {
-      "name": "X",
-      "primaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 1.0,
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "flying",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6000000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "filter",
+        "cloudnine",
+        "h:snowwarning"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 30,
+        "attack": 30,
+        "defence": 30,
+        "special_attack": 85,
+        "special_defence": 100,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "26:defog",
+        "61:blizzard",
+        "15:icywind",
+        "1:powdersnow",
+        "4:mist",
+        "53:tailwind",
+        "34:frostbreath",
+        "38:weatherball",
+        "46:icebeam",
+        "11:hail",
+        "tm:acidrain",
+        "tm:airslash",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:frostbite",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:liquidation",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:wish",
+        "egg:auroraveil",
+        "egg:hurricane",
+        "egg:raindance",
+        "egg:triattack",
+        "egg:freezedry",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochgastly.desc"
+      ],
+      "height": 13,
+      "weight": 1,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochgastly_haunter_epoch",
+          "variant": "level_up",
+          "result": "haunter epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Kaskadian",
+      "primaryType": "ghost",
+      "secondaryType": "water",
+      "catchRate": 190,
+      "maleRatio": 0.5,
       "baseExperienceYield": 62,
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 1.2,
+      "baseScale": 0.5672727272727273,
       "cannotDynamax": false,
       "abilities": [
-        "oblivious",
-        "moldbreaker",
-        "h:sturdy"
+        "levitate",
+        "condensation",
+        "h:carboncapture"
       ],
       "behaviour": {
         "resting": {
@@ -733,10 +612,10 @@
       "baseStats": {
         "hp": 30,
         "attack": 35,
-        "defence": 30,
-        "special_attack": 100,
-        "special_defence": 65,
-        "speed": 35
+        "defence": 40,
+        "special_attack": 80,
+        "special_defence": 25,
+        "speed": 100
       },
       "evYield": {
         "hp": 0,
@@ -747,65 +626,91 @@
         "speed": 0
       },
       "eggGroups": [
-        "undiscovered"
+        "amorphous"
       ],
       "drops": {},
       "moves": [
-        "1:dragonrage",
-        "1:leer",
-        "4:takedown",
+        "1:confuseray",
+        "1:lick",
+        "4:raindance",
         "8:meanlook",
-        "12:payback",
-        "16:focusenergy",
-        "20:rapidspin",
-        "28:headbutt",
-        "32:suckerpunch",
-        "36:dragonpulse",
-        "40:zenheadbutt",
-        "44:scaryface",
-        "48:outrage",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
+        "12:watergun",
+        "16:spite",
+        "20:curse",
+        "24:hex",
+        "28:nightshade",
+        "32:waterpulse",
+        "36:darkpulse",
+        "40:shadowball",
+        "44:destinybond",
+        "48:dreameater",
+        "egg:astonish",
+        "egg:clearsmog",
+        "egg:disable",
+        "egg:haze",
+        "egg:perishsong",
+        "egg:reflecttype",
+        "egg:smog",
+        "egg:toxic",
+        "tm:scaryface",
         "tm:protect",
-        "tm:return",
-        "tm:doubleteam",
-        "tm:torment",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
+        "tm:waterpulse",
+        "tm:confuseray",
         "tm:thief",
-        "tm:round",
-        "tm:fling",
-        "tm:embargo",
-        "tm:payback",
-        "tm:psychup",
-        "tm:swagger",
+        "tm:facade",
+        "tm:hex",
+        "tm:icywind",
+        "tm:nightshade",
+        "tm:hydropump",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:foulplay",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:liquidation",
+        "tm:rest",
+        "tm:taunt",
+        "tm:imprison",
+        "tm:darkpulse",
+        "tm:skillswap",
+        "tm:aquaring",
         "tm:substitute",
-        "tutor:dragonpulse",
-        "tutor:outrage",
-        "tutor:secretpower",
-        "tutor:snore",
+        "tm:willowisp",
+        "tm:trick",
+        "tm:gigadrain",
+        "tm:shadowball",
+        "tm:energyball",
+        "tm:psychic",
+        "tm:thunderbolt",
+        "tm:nastyplot",
+        "tm:aquatail",
+        "tm:trickroom",
+        "tm:thunder",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
-        "xenoverse",
-        "gen1"
+        "lockemon",
+        "gen1",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.gastlyx.desc"
+        "cobblemon.species.kaskadiangastly.desc"
       ],
       "height": 13,
-      "weight": 210,
+      "weight": 1,
       "aspects": [
-        "x"
+        "kaskadian"
       ],
       "evolutions": [
         {
-          "id": "gastlyx_haunter_x",
+          "id": "kaskadiangastly_haunter_kaskadian",
           "variant": "level_up",
-          "result": "haunter x",
+          "result": "haunter kaskadian",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -819,8 +724,151 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 0.7,
-        "height": 1.45,
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "normal",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.028124999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 34,
+        "attack": 53,
+        "defence": 36,
+        "special_attack": 18,
+        "special_defence": 36,
+        "speed": 62
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:acid",
+        "1:healbell",
+        "1:toxic",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:growl",
+        "1:leer",
+        "1:wish",
+        "1:healbell",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:round",
+        "4:clearsmog",
+        "4:wish",
+        "4:extremespeed",
+        "4:quickattack",
+        "7:swift",
+        "7:sludge",
+        "7:quickattack",
+        "7:swordsdance",
+        "10:uproar",
+        "10:toxicspikes",
+        "10:swordsdance",
+        "13:hypervoice",
+        "13:sludgebomb",
+        "16:hyperbeam",
+        "16:sludgewave",
+        "19:tackle",
+        "19:poisonsting",
+        "22:growl",
+        "22:leer",
+        "25:quickattack",
+        "25:venoshock",
+        "28:bite",
+        "28:poisontail",
+        "31:takedown",
+        "31:toxicspikes",
+        "34:crunch",
+        "34:sludgebomb",
+        "39:doubleedge",
+        "39:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formangastly.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formangastly_haunter_forman",
+          "variant": "level_up",
+          "result": "haunter forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "24"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -1011,21 +1059,19 @@
       }
     },
     {
-      "name": "Kaskadian",
+      "name": "Nodorran",
       "primaryType": "ghost",
-      "secondaryType": "water",
+      "secondaryType": "ice",
       "catchRate": 190,
       "maleRatio": 0.5,
-      "baseExperienceYield": 62,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 26,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.5672727272727273,
+      "baseScale": 0.45217391304347826,
       "cannotDynamax": false,
       "abilities": [
-        "levitate",
-        "condensation",
-        "h:carboncapture"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -1036,7 +1082,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": false
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -1055,112 +1101,68 @@
       },
       "baseStats": {
         "hp": 30,
-        "attack": 35,
+        "attack": 30,
         "defence": 40,
-        "special_attack": 80,
-        "special_defence": 25,
-        "speed": 100
+        "special_attack": 100,
+        "special_defence": 40,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 1,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "amorphous"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:confuseray",
         "1:lick",
-        "4:raindance",
-        "8:meanlook",
-        "12:watergun",
-        "16:spite",
-        "20:curse",
-        "24:hex",
-        "28:nightshade",
-        "32:waterpulse",
-        "36:darkpulse",
-        "40:shadowball",
-        "44:destinybond",
-        "48:dreameater",
-        "egg:astonish",
-        "egg:clearsmog",
-        "egg:disable",
-        "egg:haze",
-        "egg:perishsong",
-        "egg:reflecttype",
-        "egg:smog",
-        "egg:toxic",
-        "tm:scaryface",
-        "tm:protect",
-        "tm:waterpulse",
-        "tm:confuseray",
-        "tm:thief",
-        "tm:facade",
-        "tm:hex",
-        "tm:icywind",
-        "tm:nightshade",
-        "tm:hydropump",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:foulplay",
-        "tm:firepunch",
-        "tm:thunderpunch",
-        "tm:icepunch",
-        "tm:sleeptalk",
-        "tm:dazzlinggleam",
-        "tm:liquidation",
-        "tm:rest",
-        "tm:taunt",
-        "tm:imprison",
-        "tm:darkpulse",
-        "tm:skillswap",
-        "tm:aquaring",
-        "tm:substitute",
-        "tm:willowisp",
-        "tm:trick",
-        "tm:gigadrain",
-        "tm:shadowball",
-        "tm:energyball",
-        "tm:psychic",
-        "tm:thunderbolt",
-        "tm:nastyplot",
-        "tm:aquatail",
-        "tm:trickroom",
-        "tm:thunder",
-        "tm:terablast",
+        "1:powdersnow",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:confuseray",
+        "10:icywind",
+        "15:ominouswind",
+        "15:aurorabeam",
+        "20:nightshade",
+        "20:freezedry",
+        "25:hex",
+        "25:icebeam",
+        "30:shadowball",
+        "30:blizzard",
         "tm:terablast"
       ],
       "labels": [
-        "lockemon",
-        "gen1",
+        "nodorro",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangastly.desc"
+        "cobblemon.species.nodorrangastly.desc"
       ],
       "height": 13,
-      "weight": 1,
+      "weight": 0,
       "aspects": [
-        "kaskadian"
+        "nodorran"
       ],
       "evolutions": [
         {
-          "id": "kaskadiangastly_haunter_kaskadian",
+          "id": "nodorrangastly_haunter_nodorran",
           "variant": "level_up",
-          "result": "haunter kaskadian",
+          "result": "haunter nodorran",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "25"
+              "minLevel": "24"
             }
           ],
           "permanent": true
@@ -1168,20 +1170,20 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.4375,
-        "height": 3.4375,
+        "width": 4.3125,
+        "height": 4.3125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "palmian",
-    "forman",
-    "nodorran",
-    "epoch",
-    "havaiian",
     "x",
+    "palmian",
+    "havaiian",
+    "epoch",
+    "kaskadian",
+    "forman",
     "ayreian",
-    "kaskadian"
+    "nodorran"
   ]
 }

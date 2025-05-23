@@ -4,28 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_sunkern-01",
-      "pokemon": "sunkern forman",
+      "id": "delta_sunkern-01",
+      "pokemon": "sunkern delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 7.5,
+      "level": "8-25",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_crimson"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:magma_block"
           ]
         }
       }
@@ -56,26 +54,28 @@
       }
     },
     {
-      "id": "delta_sunkern-01",
-      "pokemon": "sunkern delta",
+      "id": "forman_sunkern-01",
+      "pokemon": "sunkern forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-25",
-      "weight": 12.0,
+      "level": "3-22",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_crimson"
-        ]
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:moss_block"
           ]
         }
       }

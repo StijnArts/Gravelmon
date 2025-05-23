@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rookidee-norheiman",
+  "speciesId": "cobblemon:rookidee",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

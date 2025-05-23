@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_62_by_47.geo",
       "poser": "cobblemon:cutout_gravelmon_62_by_47",
-      "texture": "cobblemon:textures/pokemon/generation1/epochkrabby.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochkrabby.png",
       "layers": [
         {
           "name": "emissive"

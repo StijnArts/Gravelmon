@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_35_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_35_by_66",
-      "texture": "cobblemon:textures/pokemon/generation5/varitasianeelektrik.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianeelektrik.png",
       "layers": [
         {
           "name": "emissive"

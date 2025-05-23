@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_59_by_70.geo",
       "poser": "cobblemon:cutout_gravelmon_59_by_70",
-      "texture": "cobblemon:textures/pokemon/generation5/epochfrillish.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochfrillish.png",
       "layers": [
         {
           "name": "emissive"

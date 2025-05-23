@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_45_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_45_by_66",
-      "texture": "cobblemon:textures/pokemon/generation7/masteniankomala.png",
+      "texture": "cobblemon:textures/pokemon/mastenia/masteniankomala.png",
       "layers": [
         {
           "name": "emissive"

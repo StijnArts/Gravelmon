@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_184_by_148.geo",
       "poser": "cobblemon:cutout_gravelmon_184_by_148",
-      "texture": "cobblemon:textures/pokemon/generation4/deltaambipom.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaambipom.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation3/raianiansalamence.png",
+      "texture": "cobblemon:textures/pokemon/raian/raianiansalamence.png",
       "layers": [
         {
           "name": "emissive"

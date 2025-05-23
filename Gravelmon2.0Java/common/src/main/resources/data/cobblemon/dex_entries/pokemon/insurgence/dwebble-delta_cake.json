@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dwebble-delta_cake",
+  "speciesId": "cobblemon:dwebble",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltacake",
+      "unlockForms": [
+        "Deltacake"
+      ]
+    }
+  ],
+  "variations": []
+}

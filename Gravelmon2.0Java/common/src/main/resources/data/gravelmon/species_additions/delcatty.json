@@ -2,6 +2,150 @@
   "target": "cobblemon:delcatty",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "fairy",
+      "catchRate": 60,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 140,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "skitty form=hizian",
+      "baseScale": 0.4474576271186441,
+      "cannotDynamax": false,
+      "abilities": [
+        "fluffy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 65,
+        "defence": 65,
+        "special_attack": 55,
+        "special_defence": 55,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "fairy",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sweetscent",
+        "1:tackle",
+        "3:playnice",
+        "6:fairywind",
+        "9:aromatherapy",
+        "12:drainingkiss",
+        "15:faketears",
+        "18:round",
+        "21:stringshot",
+        "24:cottonspore",
+        "27:energyball",
+        "30:wish",
+        "33:playrough",
+        "36:cottonguard",
+        "39:endeavor",
+        "egg:afteryou",
+        "egg:copycat",
+        "egg:stickyweb",
+        "egg:yawn",
+        "tm:lightscreen",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:charm",
+        "tm:attract",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:helpinghand",
+        "tm:faketears",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:flamethrower",
+        "tm:surf",
+        "tm:thunderbolt",
+        "tm:psychic",
+        "tm:amnesia",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:calmmind",
+        "tm:energyball",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hiziandelcatty.desc"
+      ],
+      "height": 11,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [
+        {
+          "id": "hiziandelcatty_purrwess",
+          "variant": "item_interact",
+          "result": "purrwess",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:sun_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.6874999999999996,
+        "height": 3.6874999999999996,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epochtwo",
       "primaryType": "grass",
       "secondaryType": "light",
@@ -317,155 +461,11 @@
         "height": 3.6874999999999996,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "fairy",
-      "catchRate": 60,
-      "maleRatio": 0.25,
-      "baseExperienceYield": 140,
-      "experienceGroup": "fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "skitty form=hizian",
-      "baseScale": 0.4474576271186441,
-      "cannotDynamax": false,
-      "abilities": [
-        "fluffy"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 65,
-        "defence": 65,
-        "special_attack": 55,
-        "special_defence": 55,
-        "speed": 90
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 2
-      },
-      "eggGroups": [
-        "fairy",
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:sweetscent",
-        "1:tackle",
-        "3:playnice",
-        "6:fairywind",
-        "9:aromatherapy",
-        "12:drainingkiss",
-        "15:faketears",
-        "18:round",
-        "21:stringshot",
-        "24:cottonspore",
-        "27:energyball",
-        "30:wish",
-        "33:playrough",
-        "36:cottonguard",
-        "39:endeavor",
-        "egg:afteryou",
-        "egg:copycat",
-        "egg:stickyweb",
-        "egg:yawn",
-        "tm:lightscreen",
-        "tm:safeguard",
-        "tm:rest",
-        "tm:thief",
-        "tm:snore",
-        "tm:protect",
-        "tm:charm",
-        "tm:attract",
-        "tm:raindance",
-        "tm:sunnyday",
-        "tm:facade",
-        "tm:helpinghand",
-        "tm:faketears",
-        "tm:round",
-        "tm:drainingkiss",
-        "tm:flamethrower",
-        "tm:surf",
-        "tm:thunderbolt",
-        "tm:psychic",
-        "tm:amnesia",
-        "tm:substitute",
-        "tm:endure",
-        "tm:sleeptalk",
-        "tm:calmmind",
-        "tm:energyball",
-        "tm:playrough",
-        "tm:dazzlinggleam",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hiziandelcatty.desc"
-      ],
-      "height": 11,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [
-        {
-          "id": "hiziandelcatty_purrwess",
-          "variant": "item_interact",
-          "result": "purrwess",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:sun_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.6874999999999996,
-        "height": 3.6874999999999996,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "hizian",
     "epochtwo",
-    "epoch",
-    "hizian"
+    "epoch"
   ]
 }

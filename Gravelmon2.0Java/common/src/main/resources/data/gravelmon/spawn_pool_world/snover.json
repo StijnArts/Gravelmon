@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_snover-01",
-      "pokemon": "snover fabelian",
+      "id": "cefiran_snover-01",
+      "pokemon": "snover cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "10-39",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -95,19 +95,19 @@
       }
     },
     {
-      "id": "cefiran_snover-01",
-      "pokemon": "snover cefiran",
+      "id": "fabelian_snover-01",
+      "pokemon": "snover fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "10-39",
-      "weight": 13.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

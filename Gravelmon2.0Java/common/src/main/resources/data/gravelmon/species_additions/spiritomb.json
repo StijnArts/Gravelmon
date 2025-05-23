@@ -2,240 +2,6 @@
   "target": "cobblemon:spiritomb",
   "forms": [
     {
-      "name": "Mahalian",
-      "primaryType": "electric",
-      "secondaryType": "ghost",
-      "catchRate": 81,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 69,
-        "attack": 37,
-        "defence": 73,
-        "special_attack": 105,
-        "special_defence": 92,
-        "speed": 105
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:thundershock",
-        "1:lick",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:growl",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:charge",
-        "4:confuseray",
-        "7:shockwave",
-        "7:ominouswind",
-        "10:discharge",
-        "10:nightshade",
-        "13:thunderbolt",
-        "13:hex",
-        "16:thunder",
-        "16:shadowball",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mahal",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.mahalianspiritomb.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "mahalian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "cosmic",
-      "secondaryType": "light",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 170,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.32432432432432434,
-      "cannotDynamax": false,
-      "abilities": [
-        "flareboost"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 92,
-        "defence": 108,
-        "special_attack": 35,
-        "special_defence": 92,
-        "speed": 108
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "40:gammaray",
-        "60:bigbang",
-        "15:flash",
-        "35:cosmicpower",
-        "30:blackhole",
-        "45:dazzlinggleam",
-        "1:stardust",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:calmmind",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:darkpulse",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:earthpower",
-        "tm:energyball",
-        "tm:flareblitz",
-        "tm:gammaray",
-        "tm:geomancy",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:lightscreen",
-        "tm:meteorbeam",
-        "tm:mirrorshot",
-        "tm:moonblast",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:phantomforce",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:safeguard",
-        "tm:shadowball",
-        "tm:signalbeam",
-        "tm:sleeptalk",
-        "tm:substitute",
-        "tm:swift",
-        "tm:toxic",
-        "tm:wish",
-        "egg:astralbarrage",
-        "egg:darkpulse",
-        "egg:destinybond",
-        "egg:disable",
-        "egg:selfdestruct",
-        "egg:explosion",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochspiritomb.desc"
-      ],
-      "height": 10,
-      "weight": 9990,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.625,
-        "height": 4.625,
-        "fixed": false
-      }
-    },
-    {
       "name": "X",
       "primaryType": "ghost",
       "secondaryType": "grass",
@@ -377,6 +143,137 @@
       "hitbox": {
         "width": 1.0,
         "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "cosmic",
+      "secondaryType": "light",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 170,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32432432432432434,
+      "cannotDynamax": false,
+      "abilities": [
+        "flareboost"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 92,
+        "defence": 108,
+        "special_attack": 35,
+        "special_defence": 92,
+        "speed": 108
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "40:gammaray",
+        "60:bigbang",
+        "15:flash",
+        "35:cosmicpower",
+        "30:blackhole",
+        "45:dazzlinggleam",
+        "1:stardust",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:flareblitz",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:lightscreen",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:moonblast",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:toxic",
+        "tm:wish",
+        "egg:astralbarrage",
+        "egg:darkpulse",
+        "egg:destinybond",
+        "egg:disable",
+        "egg:selfdestruct",
+        "egg:explosion",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochspiritomb.desc"
+      ],
+      "height": 10,
+      "weight": 9990,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.625,
+        "height": 4.625,
         "fixed": false
       }
     },
@@ -538,6 +435,110 @@
       }
     },
     {
+      "name": "Mahalian",
+      "primaryType": "electric",
+      "secondaryType": "ghost",
+      "catchRate": 81,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 69,
+        "attack": 37,
+        "defence": 73,
+        "special_attack": 105,
+        "special_defence": 92,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:lick",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:charge",
+        "4:confuseray",
+        "7:shockwave",
+        "7:ominouswind",
+        "10:discharge",
+        "10:nightshade",
+        "13:thunderbolt",
+        "13:hex",
+        "16:thunder",
+        "16:shadowball",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mahal",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.mahalianspiritomb.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "mahalian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "ghost",
       "secondaryType": "dark",
@@ -566,10 +567,10 @@
     }
   ],
   "features": [
-    "mahalian",
-    "epoch",
     "x",
+    "epoch",
     "epochtwo",
+    "mahalian",
     "mega"
   ]
 }

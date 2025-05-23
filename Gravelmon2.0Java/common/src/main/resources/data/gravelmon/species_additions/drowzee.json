@@ -2,120 +2,6 @@
   "target": "cobblemon:drowzee",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "psychic",
-      "secondaryType": "electric",
-      "catchRate": 220,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.06562499999999999,
-      "cannotDynamax": false,
-      "abilities": [
-        "static"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 59,
-        "attack": 31,
-        "defence": 51,
-        "special_attack": 86,
-        "special_defence": 56,
-        "speed": 51
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confusion",
-        "1:thundershock",
-        "1:growl",
-        "1:leer",
-        "4:psybeam",
-        "4:charge",
-        "7:futuresight",
-        "7:shockwave",
-        "10:psychic",
-        "10:discharge",
-        "13:psyshock",
-        "13:thunderbolt",
-        "16:psychoboost",
-        "16:thunder",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formandrowzee.desc"
-      ],
-      "height": 14,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formandrowzee_saitro",
-          "variant": "level_up",
-          "result": "saitro",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "26"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "dark",
       "secondaryType": "fighting",
@@ -287,6 +173,121 @@
       }
     },
     {
+      "name": "Forman",
+      "primaryType": "psychic",
+      "secondaryType": "electric",
+      "catchRate": 220,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.06562499999999999,
+      "cannotDynamax": false,
+      "abilities": [
+        "static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 59,
+        "attack": 31,
+        "defence": 51,
+        "special_attack": 86,
+        "special_defence": 56,
+        "speed": 51
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:thundershock",
+        "1:growl",
+        "1:leer",
+        "4:psybeam",
+        "4:charge",
+        "7:futuresight",
+        "7:shockwave",
+        "10:psychic",
+        "10:discharge",
+        "13:psyshock",
+        "13:thunderbolt",
+        "16:psychoboost",
+        "16:thunder",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formandrowzee.desc"
+      ],
+      "height": 14,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formandrowzee_saitro",
+          "variant": "level_up",
+          "result": "saitro",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Enjinnian",
       "primaryType": "psychic",
       "catchRate": 190,
@@ -406,8 +407,8 @@
     }
   ],
   "features": [
-    "forman",
     "epoch",
+    "forman",
     "enjinnian"
   ],
   "preEvolution": "snooz"

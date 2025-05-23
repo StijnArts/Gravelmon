@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "varitasian_steenee-01",
+      "pokemon": "steenee varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-29",
+      "weight": 0.27,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_steenee-01",
       "pokemon": "steenee epoch",
       "presets": [
@@ -49,31 +74,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_steenee-01",
-      "pokemon": "steenee varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "18-29",
-      "weight": 0.27,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

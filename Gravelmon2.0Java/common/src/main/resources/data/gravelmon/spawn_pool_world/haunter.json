@@ -4,47 +4,46 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_haunter-01",
-      "pokemon": "haunter forman",
+      "id": "x_haunter-01",
+      "pokemon": "haunter x",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "24-41",
-      "weight": 2.64,
+      "level": "25-38",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland"
-        ],
-        "timeRange": "night"
+          "#minecraft:is_end"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:raw_gold_block"
           ]
         }
       }
     },
     {
-      "id": "nodorran_haunter-01",
-      "pokemon": "haunter nodorran",
+      "id": "havaiian_haunter-01",
+      "pokemon": "haunter havaiian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "24-44",
-      "weight": 0.9,
+      "bucket": "uncommon",
+      "level": "25-41",
+      "weight": 0.81,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "timeRange": "night"
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,21 +83,21 @@
       }
     },
     {
-      "id": "havaiian_haunter-01",
-      "pokemon": "haunter havaiian",
+      "id": "kaskadian_haunter-01",
+      "pokemon": "haunter kaskadian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "25-41",
+      "level": "25-40",
       "weight": 0.81,
       "condition": {
         "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
-        ]
+          "#cobblemon:is_temperate"
+        ],
+        "isRaining": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -110,26 +109,27 @@
       }
     },
     {
-      "id": "x_haunter-01",
-      "pokemon": "haunter x",
+      "id": "forman_haunter-01",
+      "pokemon": "haunter forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "25-38",
-      "weight": 0.30000000000000004,
+      "level": "24-41",
+      "weight": 2.64,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:white_wool"
           ]
         }
       }
@@ -161,21 +161,21 @@
       }
     },
     {
-      "id": "kaskadian_haunter-01",
-      "pokemon": "haunter kaskadian",
+      "id": "nodorran_haunter-01",
+      "pokemon": "haunter nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "25-40",
-      "weight": 0.81,
+      "bucket": "common",
+      "level": "24-44",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_snowy"
         ],
-        "isRaining": true
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

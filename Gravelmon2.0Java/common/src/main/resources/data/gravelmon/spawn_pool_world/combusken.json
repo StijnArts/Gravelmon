@@ -29,34 +29,6 @@
       }
     },
     {
-      "id": "ayreian_combusken-01",
-      "pokemon": "combusken ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "16-29",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "mystic_combusken-01",
       "pokemon": "combusken mystic",
       "presets": [
@@ -104,6 +76,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_combusken-01",
+      "pokemon": "combusken ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-29",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
           ]
         }
       }

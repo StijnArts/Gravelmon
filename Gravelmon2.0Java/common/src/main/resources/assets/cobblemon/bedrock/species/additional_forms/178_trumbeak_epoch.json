@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_55",
-      "texture": "cobblemon:textures/pokemon/generation7/epochtrumbeak.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtrumbeak.png",
       "layers": [
         {
           "name": "emissive"

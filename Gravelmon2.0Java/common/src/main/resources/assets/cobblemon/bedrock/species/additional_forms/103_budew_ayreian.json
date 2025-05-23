@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_41_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_41_by_36",
-      "texture": "cobblemon:textures/pokemon/generation4/ayreianbudew.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianbudew.png",
       "layers": [
         {
           "name": "emissive"

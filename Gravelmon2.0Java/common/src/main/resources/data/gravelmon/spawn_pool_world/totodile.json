@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_totodile-01",
-      "pokemon": "totodile forman",
+      "id": "egho_totodile-01",
+      "pokemon": "totodile egho",
       "presets": [
         "natural"
       ],
@@ -16,21 +16,38 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_badlands"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
-      "anticondition": {
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "egho_totodile-11",
+      "pokemon": "totodile egho",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_badlands"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:prismarine"
           ]
         }
       }
@@ -86,8 +103,8 @@
       }
     },
     {
-      "id": "ionosian_totodile-01",
-      "pokemon": "totodile ionosian",
+      "id": "forman_totodile-01",
+      "pokemon": "totodile forman",
       "presets": [
         "natural"
       ],
@@ -98,63 +115,21 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_swamp"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_totodile-01",
-      "pokemon": "totodile egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
+          "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_totodile-11",
-      "pokemon": "totodile egho",
-      "type": "pokemon",
-      "context": "fishing",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
+      "anticondition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "#cobblemon:is_overworld"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:raw_gold_block"
           ]
         }
       }
@@ -176,6 +151,31 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionosian_totodile-01",
+      "pokemon": "totodile ionosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

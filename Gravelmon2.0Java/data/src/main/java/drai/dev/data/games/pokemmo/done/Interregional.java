@@ -1,6 +1,11 @@
 package drai.dev.data.games.pokemmo.done;
 
+import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.interregional.*;
+import drai.dev.data.pokemon.interregional.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 //done
 public class Interregional extends drai.dev.data.games.registry.Game {
@@ -126,7 +131,12 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Slanbolos());
         addNewPokemon(new Oceausky());
         addNewPokemon(new Nifflom());
-        addPokedexPokemon("genesect-interian, arceus-interian, piplup-interian, prinplup-interian, empoleon-interian");
+        addNewPokemon(new InterianGenesect("", Aspect.INTERIAN));
+        addNewPokemon(new InterianArceus("", Aspect.INTERIAN));
+        addNewPokemon(new InterianPiplup("", Aspect.INTERIAN));
+        addNewPokemon(new InterianPrinplup("", Aspect.INTERIAN));
+        addNewPokemon(new InterianEmpoleon("", Aspect.INTERIAN, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_ATTACK))));
     }
 
 }

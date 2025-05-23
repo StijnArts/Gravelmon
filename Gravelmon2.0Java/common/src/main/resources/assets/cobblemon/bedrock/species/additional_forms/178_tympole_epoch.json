@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_31_by_30.geo",
       "poser": "cobblemon:cutout_gravelmon_31_by_30",
-      "texture": "cobblemon:textures/pokemon/generation5/epochtympole.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtympole.png",
       "layers": [
         {
           "name": "emissive"

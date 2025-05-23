@@ -2,6 +2,129 @@
   "target": "cobblemon:gothita",
   "forms": [
     {
+      "name": "Africanusan",
+      "primaryType": "water",
+      "secondaryType": "rock",
+      "catchRate": 200,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 30,
+        "defence": 75,
+        "special_attack": 60,
+        "special_defence": 75,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:bubble",
+        "25:waterpulse",
+        "53:hydropump",
+        "28:rockthrow",
+        "50:charm",
+        "39:stoneedge",
+        "10:faketears",
+        "24:feintattack",
+        "3:watergun",
+        "14:accelerock",
+        "7:tickle",
+        "19:ancientpower",
+        "31:futuresight",
+        "16:watersport",
+        "43:telekinesis",
+        "34:powergem",
+        "1:rockblast",
+        "egg:captivate",
+        "egg:darkpulse",
+        "egg:meanlook",
+        "egg:miracleeye",
+        "egg:mirrorcoat",
+        "egg:uproar",
+        "tm:terablast"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusangothita.desc"
+      ],
+      "height": 4,
+      "weight": 58,
+      "aspects": [
+        "africanusan"
+      ],
+      "evolutions": [
+        {
+          "id": "africanusangothita_gothorita_africanusan",
+          "variant": "level_up",
+          "result": "gothorita africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fairy",
       "secondaryType": "fighting",
@@ -353,134 +476,11 @@
         "height": 2.4375,
         "fixed": false
       }
-    },
-    {
-      "name": "Africanusan",
-      "primaryType": "water",
-      "secondaryType": "rock",
-      "catchRate": 200,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 30,
-        "defence": 75,
-        "special_attack": 60,
-        "special_defence": 75,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "1:pound",
-        "1:bubble",
-        "25:waterpulse",
-        "53:hydropump",
-        "28:rockthrow",
-        "50:charm",
-        "39:stoneedge",
-        "10:faketears",
-        "24:feintattack",
-        "3:watergun",
-        "14:accelerock",
-        "7:tickle",
-        "19:ancientpower",
-        "31:futuresight",
-        "16:watersport",
-        "43:telekinesis",
-        "34:powergem",
-        "1:rockblast",
-        "egg:captivate",
-        "egg:darkpulse",
-        "egg:meanlook",
-        "egg:miracleeye",
-        "egg:mirrorcoat",
-        "egg:uproar",
-        "tm:terablast"
-      ],
-      "labels": [
-        "africanus",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.africanusangothita.desc"
-      ],
-      "height": 4,
-      "weight": 58,
-      "aspects": [
-        "africanusan"
-      ],
-      "evolutions": [
-        {
-          "id": "africanusangothita_gothorita_africanusan",
-          "variant": "level_up",
-          "result": "gothorita africanusan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "africanusan",
     "epoch",
-    "epochtwo",
-    "africanusan"
+    "epochtwo"
   ]
 }

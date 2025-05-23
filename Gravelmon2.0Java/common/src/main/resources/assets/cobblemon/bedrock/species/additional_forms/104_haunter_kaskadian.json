@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_242_by_209.geo",
       "poser": "cobblemon:cutout_gravelmon_242_by_209",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadianhaunter.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianhaunter.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,27 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_buneary-01",
-      "pokemon": "buneary epoch",
+      "id": "cefiran_buneary-01",
+      "pokemon": "buneary cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "11-34",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "10-39",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freezing"
+          "#cobblemon:is_snowy_forest"
         ],
-        "timeRange": "night"
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:packed_ice"
           ]
         }
       }
@@ -55,28 +56,27 @@
       }
     },
     {
-      "id": "cefiran_buneary-01",
-      "pokemon": "buneary cefiran",
+      "id": "epoch_buneary-01",
+      "pokemon": "buneary epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "10-39",
-      "weight": 13.5,
+      "bucket": "rare",
+      "level": "11-34",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy_forest"
+          "#cobblemon:is_freezing"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:purpur"
           ]
         }
       }

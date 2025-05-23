@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_109_by_93.geo",
       "poser": "cobblemon:cutout_gravelmon_109_by_93",
-      "texture": "cobblemon:textures/pokemon/generation1/nodorrangyarados.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorrangyarados.png",
       "layers": [
         {
           "name": "emissive"

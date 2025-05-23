@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_30_by_42.geo",
       "poser": "cobblemon:cutout_gravelmon_30_by_42",
-      "texture": "cobblemon:textures/pokemon/generation7/epochpikipek.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochpikipek.png",
       "layers": [
         {
           "name": "emissive"

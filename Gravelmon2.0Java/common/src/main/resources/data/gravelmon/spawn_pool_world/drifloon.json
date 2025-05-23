@@ -4,28 +4,30 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_drifloon-01",
-      "pokemon": "drifloon nodorran",
+      "id": "delta_drifloon-01",
+      "pokemon": "drifloon delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "21-41",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 2.7,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains"
+          "#cobblemon:is_snowy_forest"
         ],
-        "isThundering": true,
-        "timeRange": "night"
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isRaining": false
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block"
+            "minecraft:magma_block"
           ]
         }
       }
@@ -47,35 +49,6 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_drifloon-01",
-      "pokemon": "drifloon delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "3-22",
-      "weight": 2.7,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night",
-        "isRaining": false
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -111,6 +84,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_drifloon-01",
+      "pokemon": "drifloon nodorran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ],
+        "isThundering": true,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
           ]
         }
       }

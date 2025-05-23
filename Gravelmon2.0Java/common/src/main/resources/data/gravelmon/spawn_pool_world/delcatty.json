@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "hizian_delcatty-01",
+      "pokemon": "delcatty hizian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-30",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical",
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_delcatty-01",
       "pokemon": "delcatty epoch",
       "presets": [
@@ -54,34 +82,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "hizian_delcatty-01",
-      "pokemon": "delcatty hizian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "18-30",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical",
-          "#cobblemon:is_floral"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

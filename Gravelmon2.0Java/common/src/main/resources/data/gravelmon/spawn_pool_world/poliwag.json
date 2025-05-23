@@ -4,55 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_poliwag-01",
-      "pokemon": "poliwag fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "fabelian_poliwag-11",
-      "pokemon": "poliwag fabelian",
-      "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "palmian_poliwag-01",
       "pokemon": "poliwag palmian",
       "presets": [
@@ -102,6 +53,33 @@
       }
     },
     {
+      "id": "epoch_poliwag-01",
+      "pokemon": "poliwag epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_poliwag-01",
       "pokemon": "poliwag forman",
       "presets": [
@@ -127,19 +105,19 @@
       }
     },
     {
-      "id": "epoch_poliwag-01",
-      "pokemon": "poliwag epoch",
+      "id": "fabelian_poliwag-01",
+      "pokemon": "poliwag fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -148,7 +126,29 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_poliwag-11",
+      "pokemon": "poliwag fabelian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
           ]
         }
       }

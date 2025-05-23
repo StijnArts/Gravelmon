@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_82_by_84.geo",
       "poser": "cobblemon:cutout_gravelmon_82_by_84",
-      "texture": "cobblemon:textures/pokemon/generation9/lagoonantinkaton.png",
+      "texture": "cobblemon:textures/pokemon/lagoone/lagoonantinkaton.png",
       "layers": [
         {
           "name": "emissive"

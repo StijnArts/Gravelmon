@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_33_by_47.geo",
       "poser": "cobblemon:cutout_gravelmon_33_by_47",
-      "texture": "cobblemon:textures/pokemon/generation5/epochmeloetta.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmeloetta.png",
       "layers": [
         {
           "name": "emissive"

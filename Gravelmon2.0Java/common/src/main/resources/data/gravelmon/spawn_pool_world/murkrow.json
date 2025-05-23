@@ -4,6 +4,38 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "hizian_murkrow-01",
+      "pokemon": "murkrow hizian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "16-41",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_murkrow-01",
       "pokemon": "murkrow epoch",
       "presets": [
@@ -52,38 +84,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "hizian_murkrow-01",
-      "pokemon": "murkrow hizian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "16-41",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:hay_block"
           ]
         }
       }

@@ -2,6 +2,8 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.infinity.*;
+import drai.dev.data.pokemon.infinity.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Infinity extends Game {
     public static final Game INSTANCE = new Infinity();
@@ -11,9 +13,16 @@ public class Infinity extends Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon("bulbasaur-egho, ivysaur-egho, venusaur-egho, " +
-                "charmander-egho, charmeleon-egho, charizard-egho, " +
-                "squirtle-egho, wartortle-egho, blastoise-egho");
+
+        addNewPokemon(new EghoBulbasaur("", Aspect.EGHO));
+        addNewPokemon(new EghoIvysaur("", Aspect.EGHO));
+        addNewPokemon(new EghoVenusaur("", Aspect.EGHO));
+        addNewPokemon(new EghoCharmander("", Aspect.EGHO));
+        addNewPokemon(new EghoCharmeleon("", Aspect.EGHO));
+        addNewPokemon(new EghoCharizard("", Aspect.EGHO));
+        addNewPokemon(new EghoSquirtle("", Aspect.EGHO));
+        addNewPokemon(new EghoWartortle("", Aspect.EGHO));
+        addNewPokemon(new EghoBlastoise("", Aspect.EGHO));
         //Lukpup line
         addNewPokemon(new Lukpup());
         addNewPokemon(new Lukagon());
@@ -41,10 +50,11 @@ public class Infinity extends Game {
         addPokedexPokemon("meowth, persian");
         addNewPokemon(new Faeralynx());
 
-        addPokedexPokemon("shellder-egho");
+        addNewPokemon(new EghoShellder("", Aspect.EGHO).fishingSpawnFromExisting());
         addNewPokemon(new Skulkraken());
 
-        addPokedexPokemon("grimer-egho, muk-egho");
+        addNewPokemon(new EghoGrimer("", Aspect.EGHO));
+        addNewPokemon(new EghoMuk("", Aspect.EGHO));
         addNewPokemon(new Oozma());
 
         //Eeveelutions
@@ -72,24 +82,38 @@ public class Infinity extends Game {
         addNewPokemon(new Vareon());
         addPokedexPokemon("cubone, marowak");
         addNewPokemon(new Terathwack());
-        addPokedexPokemon("spearow-egho, fearow-egho, hoothoot-egho, noctowl-egho");
+        addNewPokemon(new EghoSpearow("", Aspect.EGHO));
+        addNewPokemon(new EghoFearow("", Aspect.EGHO));
+        addNewPokemon(new EghoHoothoot("hoothoot", Aspect.EGHO));
+        addNewPokemon(new EghoNoctowl("noctowl", Aspect.EGHO));
         addNewPokemon(new Grimfowl());
-        addPokedexPokemon("azurill-egho, marill-egho, azumarill-egho, " +
-                "trubbish-egho, garbodor-egho," +
-                " swablu-egho, altaria-egho, " +
-                "lotad-egho, lombre-egho, ludicolo-egho" +
-                ", sunkern, sunflora");
+        addNewPokemon(new EghoAzurill("Azurill", Aspect.EGHO));
+        addNewPokemon(new EghoMarill("marill", Aspect.EGHO));
+        addNewPokemon(new EghoAzumarill("azumarill", Aspect.EGHO));
+        addNewPokemon(new EghoTrubbish("", Aspect.EGHO));
+        addNewPokemon(new EghoGarbodor("", Aspect.EGHO));
+        addNewPokemon(new EghoSwablu("Swablu", Aspect.EGHO));
+        addNewPokemon(new EghoAltaria("Altaria", Aspect.EGHO));
+        addNewPokemon(new EghoLotad("Lotad", Aspect.EGHO));
+        addNewPokemon(new EghoLombre("Lombre", Aspect.EGHO));
+        addNewPokemon(new EghoLudicolo("Ludicolo", Aspect.EGHO));
+        addPokedexPokemon("sunkern, sunflora");
         addNewPokemon(new Sunflorid());
         addPokedexPokemon("smoochum, jynx");
         addNewPokemon(new Sorcerice());
         addPokedexPokemon("kecleon");
         addNewPokemon(new Kecleodon());
-        addPokedexPokemon("magnemite-egho, magneton-egho, magnezone-egho, " +
-                "tangela-egho, tangrowth-egho, " +
-                "poochyena, mightyena");
+        addNewPokemon(new EghoMagnemite("", Aspect.EGHO));
+        addNewPokemon(new EghoMagneton("", Aspect.EGHO));
+        addNewPokemon(new EghoMagnezone("", Aspect.EGHO));
+        addNewPokemon(new EghoTangela("", Aspect.EGHO));
+        addNewPokemon(new EghoTangrowth("", Aspect.EGHO));
+        addPokedexPokemon("poochyena, mightyena");
         addNewPokemon(new Wereyena());
         addNewPokemon(new Reaptide().fishingSpawnFromExisting());
-        addPokedexPokemon("happiny-egho, chansey-egho, blissey-egho");
+        addNewPokemon(new EghoHappiny("", Aspect.EGHO));
+        addNewPokemon(new EghoChansey("", Aspect.EGHO));
+        addNewPokemon(new EghoBlissey( "blissey", Aspect.EGHO));
         //Kidfoot line
         addNewPokemon(new Kidfoot());
         addNewPokemon(new Snosquatch());
@@ -115,7 +139,8 @@ public class Infinity extends Game {
         addNewPokemon(new PorygonX());
 
         //Egho Oddish line
-        addPokedexPokemon("oddish-egho, gloom-egho");
+        addNewPokemon(new EghoOddish("", Aspect.EGHO));
+        addNewPokemon(new EghoGloom("", Aspect.EGHO));
         addNewPokemon(new Viledoom());
         addNewPokemon(new Mortossum());
 
@@ -143,9 +168,15 @@ public class Infinity extends Game {
         //Zapalope line
         addNewPokemon(new Zapalope());
         addNewPokemon(new Joltalope());
-        addPokedexPokemon("chikorita-egho, bayleef-egho, meganium-egho");
-        addPokedexPokemon("cyndaquil-egho, quilava-egho, typhlosion-egho");
-        addPokedexPokemon("totodile-egho, croconaw-egho, feraligatr-egho");
+        addNewPokemon(new EghoChikorita("chikorita", Aspect.EGHO));
+        addNewPokemon(new EghoBayleef("bayleef", Aspect.EGHO));
+        addNewPokemon(new EghoMeganium("meganium", Aspect.EGHO));
+        addNewPokemon(new EghoCyndaquil("cyndaquil", Aspect.EGHO));
+        addNewPokemon(new EghoQuilava("quilava", Aspect.EGHO));
+        addNewPokemon(new EghoTyphlosion("typhlosion", Aspect.EGHO));
+        addNewPokemon(new EghoTotodile("totodile", Aspect.EGHO).fishingSpawnFromExisting());
+        addNewPokemon(new EghoCroconaw("croconaw", Aspect.EGHO));
+        addNewPokemon(new EghoFeraligatr("feraligatr", Aspect.EGHO));
 
         addNewPokemon(new Mewthree());
 

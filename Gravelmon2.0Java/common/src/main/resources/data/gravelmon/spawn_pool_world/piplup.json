@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_piplup-01",
-      "pokemon": "piplup epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_freezing"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "interian_piplup-01",
       "pokemon": "piplup interian",
       "presets": [
@@ -53,6 +26,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_piplup-01",
+      "pokemon": "piplup epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_freezing"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

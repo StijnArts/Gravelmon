@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_43_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_43_by_39",
-      "texture": "cobblemon:textures/pokemon/generation2/mastenianwooper.png",
+      "texture": "cobblemon:textures/pokemon/mastenia/mastenianwooper.png",
       "layers": [
         {
           "name": "emissive"

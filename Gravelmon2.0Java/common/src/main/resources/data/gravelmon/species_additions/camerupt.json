@@ -2,6 +2,295 @@
   "target": "cobblemon:camerupt",
   "forms": [
     {
+      "name": "Cefiran",
+      "primaryType": "fire",
+      "secondaryType": "water",
+      "catchRate": 150,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "numel form=cefiran",
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "sheerforce",
+        "solidrock",
+        "h:owntempo"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 70,
+        "special_attack": 40,
+        "special_defence": 105,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:tackle",
+        "1:ember",
+        "1:magnitude",
+        "5:ember",
+        "8:magnitude",
+        "12:focusenergy",
+        "15:flameburst",
+        "19:amnesia",
+        "22:lavaplume",
+        "26:earthpower",
+        "29:curse",
+        "31:takedown",
+        "33:rockslide",
+        "39:yawn",
+        "46:earthquake",
+        "52:eruption",
+        "59:steameruption",
+        "egg:ancientpower",
+        "egg:bodyslam",
+        "egg:defensecurl",
+        "egg:endure",
+        "egg:heatwave",
+        "egg:howl",
+        "egg:ironhead",
+        "egg:mudbomb",
+        "egg:rollout",
+        "egg:scaryface",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:stomp",
+        "egg:swallow",
+        "egg:yawn",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "opal",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefirancamerupt.desc"
+      ],
+      "height": 19,
+      "weight": 2200,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "nuclear",
+      "catchRate": 150,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 161,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "numel form=delta",
+      "baseScale": 0.11666666666666665,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint",
+        "h:liquidooze"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 70,
+        "special_attack": 105,
+        "special_defence": 75,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:destinybond",
+        "1:gunkshot",
+        "1:leer",
+        "1:tackle",
+        "1:sludge",
+        "1:poisongas",
+        "5:sludge",
+        "8:poisongas",
+        "12:hex",
+        "15:venoshock",
+        "19:acidarmor",
+        "22:infestation",
+        "26:sludgebomb",
+        "29:curse",
+        "31:takedown",
+        "33:corrode",
+        "39:toxic",
+        "46:sludgewave",
+        "52:gunkshot",
+        "59:destinybond",
+        "tm:bulldoze",
+        "tm:roar",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgewave",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:chargebeam",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:venoshock",
+        "tm:wildcharge",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:lunarcannon",
+        "tm:incinerate",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:corrode",
+        "tm:confide",
+        "tm:quash",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gastroacid",
+        "tutor:gunkshot",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:mimic",
+        "tutor:outrage",
+        "tutor:painsplit",
+        "tutor:selfdestruct",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:uproar",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltacamerupt.desc"
+      ],
+      "height": 7,
+      "weight": 240,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.0,
+        "height": 9.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fire",
       "secondaryType": "water",
@@ -313,173 +602,6 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "nuclear",
-      "catchRate": 150,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 161,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "numel form=delta",
-      "baseScale": 0.11666666666666665,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisonpoint",
-        "h:liquidooze"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 100,
-        "defence": 70,
-        "special_attack": 105,
-        "special_defence": 75,
-        "speed": 40
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:destinybond",
-        "1:gunkshot",
-        "1:leer",
-        "1:tackle",
-        "1:sludge",
-        "1:poisongas",
-        "5:sludge",
-        "8:poisongas",
-        "12:hex",
-        "15:venoshock",
-        "19:acidarmor",
-        "22:infestation",
-        "26:sludgebomb",
-        "29:curse",
-        "31:takedown",
-        "33:corrode",
-        "39:toxic",
-        "46:sludgewave",
-        "52:gunkshot",
-        "59:destinybond",
-        "tm:bulldoze",
-        "tm:roar",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:frustration",
-        "tm:earthquake",
-        "tm:return",
-        "tm:shadowball",
-        "tm:doubleteam",
-        "tm:sludgewave",
-        "tm:flamethrower",
-        "tm:sludgebomb",
-        "tm:torment",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:scald",
-        "tm:chargebeam",
-        "tm:embargo",
-        "tm:explosion",
-        "tm:payback",
-        "tm:gigaimpact",
-        "tm:venoshock",
-        "tm:wildcharge",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:darkpulse",
-        "tm:achillesheel",
-        "tm:lunarcannon",
-        "tm:incinerate",
-        "tm:round",
-        "tm:captivate",
-        "tm:snarl",
-        "tm:corrode",
-        "tm:confide",
-        "tm:quash",
-        "tm:darkmatter",
-        "tm:secretpower",
-        "tm:strength",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:block",
-        "tutor:bodyslam",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:foulplay",
-        "tutor:gastroacid",
-        "tutor:gunkshot",
-        "tutor:irondefense",
-        "tutor:ironhead",
-        "tutor:mimic",
-        "tutor:outrage",
-        "tutor:painsplit",
-        "tutor:selfdestruct",
-        "tutor:snore",
-        "tutor:spite",
-        "tutor:uproar",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "insurgence",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltacamerupt.desc"
-      ],
-      "height": 7,
-      "weight": 240,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 9.0,
-        "height": 9.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "water",
       "secondaryType": "ground",
@@ -649,128 +771,6 @@
       }
     },
     {
-      "name": "Cefiran",
-      "primaryType": "fire",
-      "secondaryType": "water",
-      "catchRate": 150,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 161,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "numel form=cefiran",
-      "baseScale": 0.475,
-      "cannotDynamax": false,
-      "abilities": [
-        "sheerforce",
-        "solidrock",
-        "h:owntempo"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 100,
-        "defence": 70,
-        "special_attack": 40,
-        "special_defence": 105,
-        "speed": 75
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:growl",
-        "1:tackle",
-        "1:ember",
-        "1:magnitude",
-        "5:ember",
-        "8:magnitude",
-        "12:focusenergy",
-        "15:flameburst",
-        "19:amnesia",
-        "22:lavaplume",
-        "26:earthpower",
-        "29:curse",
-        "31:takedown",
-        "33:rockslide",
-        "39:yawn",
-        "46:earthquake",
-        "52:eruption",
-        "59:steameruption",
-        "egg:ancientpower",
-        "egg:bodyslam",
-        "egg:defensecurl",
-        "egg:endure",
-        "egg:heatwave",
-        "egg:howl",
-        "egg:ironhead",
-        "egg:mudbomb",
-        "egg:rollout",
-        "egg:scaryface",
-        "egg:spitup",
-        "egg:stockpile",
-        "egg:stomp",
-        "egg:swallow",
-        "egg:yawn",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "opal",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.cefirancamerupt.desc"
-      ],
-      "height": 19,
-      "weight": 2200,
-      "aspects": [
-        "cefiran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "delta_mega",
       "primaryType": "nuclear",
       "baseScale": 0.3493670886075949,
@@ -798,11 +798,11 @@
     }
   ],
   "features": [
+    "cefiran",
+    "delta",
     "epoch",
     "epochtwo",
-    "delta",
     "ayreian",
-    "cefiran",
     "delta_mega"
   ]
 }

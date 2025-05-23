@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "rican_gastrodon-01",
+      "pokemon": "gastrodon rican",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "31-46",
+      "weight": 0.44999999999999996,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_gastrodon-01",
       "pokemon": "gastrodon epoch",
       "presets": [
@@ -350,33 +377,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "rican_gastrodon-01",
-      "pokemon": "gastrodon rican",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "common",
-      "level": "31-46",
-      "weight": 0.44999999999999996,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
           ]
         }
       }

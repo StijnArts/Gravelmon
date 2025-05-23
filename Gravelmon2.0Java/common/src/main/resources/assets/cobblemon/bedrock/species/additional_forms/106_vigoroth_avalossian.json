@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_67_by_53.geo",
       "poser": "cobblemon:cutout_gravelmon_67_by_53",
-      "texture": "cobblemon:textures/pokemon/generation3/avalossianvigoroth.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossianvigoroth.png",
       "layers": [
         {
           "name": "emissive"

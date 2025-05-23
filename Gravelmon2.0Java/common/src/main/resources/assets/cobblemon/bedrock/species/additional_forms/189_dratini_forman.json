@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation1/formandratini.png",
+      "texture": "cobblemon:textures/pokemon/form/formandratini.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_40_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_40_by_66",
-      "texture": "cobblemon:textures/pokemon/generation5/epochwatchog.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochwatchog.png",
       "layers": [
         {
           "name": "emissive"

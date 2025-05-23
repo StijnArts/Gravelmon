@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "africanusan_kricketot-01",
+      "pokemon": "kricketot africanusan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_kricketot-01",
       "pokemon": "kricketot epoch",
       "presets": [
@@ -21,33 +48,6 @@
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "africanusan_kricketot-01",
-      "pokemon": "kricketot africanusan",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

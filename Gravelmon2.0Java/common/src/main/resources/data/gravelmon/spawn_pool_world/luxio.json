@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_luxio-01",
-      "pokemon": "luxio epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-31",
-      "weight": 1.0499999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_luxio-01",
       "pokemon": "luxio delta",
       "presets": [
@@ -58,16 +31,16 @@
       }
     },
     {
-      "id": "ayreian_luxio-01",
-      "pokemon": "luxio ayreian",
+      "id": "epoch_luxio-01",
+      "pokemon": "luxio epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-36",
-      "weight": 7.5,
+      "level": "15-31",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -79,7 +52,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -107,6 +80,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_luxio-01",
+      "pokemon": "luxio ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-36",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }

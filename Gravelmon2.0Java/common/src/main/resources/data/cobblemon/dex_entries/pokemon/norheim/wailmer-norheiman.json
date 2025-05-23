@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:wailmer-norheiman",
+  "speciesId": "cobblemon:wailmer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

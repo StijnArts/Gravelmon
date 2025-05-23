@@ -2,164 +2,6 @@
   "target": "cobblemon:tyranitar",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "steel",
-      "secondaryType": "dragon",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 270,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pupitar form=epoch",
-      "baseScale": 0.6956521739130435,
-      "cannotDynamax": false,
-      "abilities": [
-        "magnetpull",
-        "moldbreaker",
-        "h:heavymetal"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 120,
-        "attack": 104,
-        "defence": 130,
-        "special_attack": 51,
-        "special_defence": 95,
-        "speed": 100
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "35:irondefense",
-        "25:magnetbomb",
-        "1:tackle",
-        "1:leer",
-        "56:outrage",
-        "16:metalclaw",
-        "32:crunch",
-        "22:autotomize",
-        "19:breakingswipe",
-        "4:snaptrap",
-        "42:ironhead",
-        "38:dragonclaw",
-        "46:earthquake",
-        "12:detect",
-        "52:heavyslam",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:breakingswipe",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:closecombat",
-        "tm:crunch",
-        "tm:darkpulse",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:firepunch",
-        "tm:flamethrower",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gyroball",
-        "tm:hiddenpower",
-        "tm:highhorsepower",
-        "tm:hypervoice",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:incinerate",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:magnetrise",
-        "tm:meteorbeam",
-        "tm:meteormash",
-        "tm:nastyplot",
-        "tm:nobleroar",
-        "tm:outrage",
-        "tm:poweruppunch",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sleeptalk",
-        "tm:spikes",
-        "tm:steelroller",
-        "tm:stoneedge",
-        "tm:superpower",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtyranitar.desc"
-      ],
-      "height": 20,
-      "weight": 2020,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.3125,
-        "height": 4.3125,
-        "fixed": false
-      }
-    },
-    {
       "name": "X",
       "primaryType": "rock",
       "secondaryType": "bug",
@@ -316,6 +158,164 @@
       "hitbox": {
         "width": 4.875,
         "height": 4.875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "steel",
+      "secondaryType": "dragon",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 270,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "pupitar form=epoch",
+      "baseScale": 0.6956521739130435,
+      "cannotDynamax": false,
+      "abilities": [
+        "magnetpull",
+        "moldbreaker",
+        "h:heavymetal"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 120,
+        "attack": 104,
+        "defence": 130,
+        "special_attack": 51,
+        "special_defence": 95,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "35:irondefense",
+        "25:magnetbomb",
+        "1:tackle",
+        "1:leer",
+        "56:outrage",
+        "16:metalclaw",
+        "32:crunch",
+        "22:autotomize",
+        "19:breakingswipe",
+        "4:snaptrap",
+        "42:ironhead",
+        "38:dragonclaw",
+        "46:earthquake",
+        "12:detect",
+        "52:heavyslam",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:highhorsepower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:incinerate",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:magnetrise",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:steelroller",
+        "tm:stoneedge",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtyranitar.desc"
+      ],
+      "height": 20,
+      "weight": 2020,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.3125,
+        "height": 4.3125,
         "fixed": false
       }
     },
@@ -593,24 +593,14 @@
     }
   ],
   "features": [
-    "epoch",
     "x",
+    "epoch",
     "armiran",
     "armiran_mega",
     "epoch_mega",
     "armored"
   ],
   "evolutions": [
-    {
-      "id": "tyranitar_tyranitar_x",
-      "variant": "item_interact",
-      "result": "tyranitar x",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "gravelmon:inductive_ring",
-      "permanent": true
-    },
     {
       "id": "tyranitar_tyranitar_armored",
       "variant": "item_interact",
@@ -619,6 +609,16 @@
       "learnableMoves": [],
       "requirements": [],
       "requiredContext": "minecraft:netherite_helmet",
+      "permanent": true
+    },
+    {
+      "id": "tyranitar_tyranitar_x",
+      "variant": "item_interact",
+      "result": "tyranitar x",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:inductive_ring",
       "permanent": true
     }
   ]

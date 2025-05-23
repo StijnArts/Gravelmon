@@ -2,6 +2,172 @@
   "target": "cobblemon:azurill",
   "forms": [
     {
+      "name": "Egho",
+      "primaryType": "normal",
+      "secondaryType": "rock",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 31,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 0.08727272727272728,
+      "cannotDynamax": false,
+      "abilities": [
+        "hugepower",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 40,
+        "defence": 30,
+        "special_attack": 20,
+        "special_defence": 25,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {
+        "amount": 4,
+        "entries": [
+          {
+            "item": "minecraft:sand",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:rollout",
+        "1:stealthrock",
+        "1:faketears",
+        "4:tackle",
+        "9:mudslap",
+        "13:quickattack",
+        "16:rockthrow",
+        "tm:roar",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:smackdown",
+        "tm:return",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:flamethrower",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:fling",
+        "tm:quash",
+        "tm:retaliate",
+        "tm:rockpolish",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:bulldoze",
+        "tm:rockslide",
+        "tm:dragontail",
+        "tm:workup",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:rocksmash",
+        "tm:strength",
+        "tutor:aquatail",
+        "tutor:drainpunch",
+        "tutor:foulplay",
+        "tutor:magnetrise",
+        "tutor:rollout",
+        "tutor:stealthrock",
+        "tutor:superpower",
+        "tutor:zenheadbutt",
+        "egg:bodyslam",
+        "egg:encore",
+        "egg:poweruppunch",
+        "egg:taunt",
+        "egg:wish",
+        "tm:terablast"
+      ],
+      "labels": [
+        "infinity",
+        "gen3",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.eghoazurill.desc"
+      ],
+      "height": 3,
+      "weight": 40,
+      "aspects": [
+        "egho"
+      ],
+      "evolutions": [
+        {
+          "id": "eghoazurill_marill_egho",
+          "variant": "level_up",
+          "result": "marill egho",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": "160"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.875,
+        "height": 6.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fighting",
       "catchRate": 150,
@@ -182,176 +348,10 @@
         "height": 3.4375,
         "fixed": false
       }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "normal",
-      "secondaryType": "rock",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 31,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "baseScale": 0.08727272727272728,
-      "cannotDynamax": false,
-      "abilities": [
-        "hugepower",
-        "h:dryskin"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 40,
-        "defence": 30,
-        "special_attack": 20,
-        "special_defence": 25,
-        "speed": 25
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {
-        "amount": 4,
-        "entries": [
-          {
-            "item": "minecraft:sand",
-            "quantityRange": "1-2",
-            "percentage": 50
-          }
-        ]
-      },
-      "moves": [
-        "1:rollout",
-        "1:stealthrock",
-        "1:faketears",
-        "4:tackle",
-        "9:mudslap",
-        "13:quickattack",
-        "16:rockthrow",
-        "tm:roar",
-        "tm:toxic",
-        "tm:bulkup",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:protect",
-        "tm:raindance",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:smackdown",
-        "tm:return",
-        "tm:dig",
-        "tm:brickbreak",
-        "tm:flamethrower",
-        "tm:sandstorm",
-        "tm:rocktomb",
-        "tm:torment",
-        "tm:facade",
-        "tm:rest",
-        "tm:lowsweep",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:fling",
-        "tm:quash",
-        "tm:retaliate",
-        "tm:rockpolish",
-        "tm:stoneedge",
-        "tm:gyroball",
-        "tm:bulldoze",
-        "tm:rockslide",
-        "tm:dragontail",
-        "tm:workup",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:rocksmash",
-        "tm:strength",
-        "tutor:aquatail",
-        "tutor:drainpunch",
-        "tutor:foulplay",
-        "tutor:magnetrise",
-        "tutor:rollout",
-        "tutor:stealthrock",
-        "tutor:superpower",
-        "tutor:zenheadbutt",
-        "egg:bodyslam",
-        "egg:encore",
-        "egg:poweruppunch",
-        "egg:taunt",
-        "egg:wish",
-        "tm:terablast"
-      ],
-      "labels": [
-        "infinity",
-        "gen3",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.eghoazurill.desc"
-      ],
-      "height": 3,
-      "weight": 40,
-      "aspects": [
-        "egho"
-      ],
-      "evolutions": [
-        {
-          "id": "eghoazurill_marill_egho",
-          "variant": "level_up",
-          "result": "marill egho",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": "160"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.875,
-        "height": 6.875,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "egho"
+    "egho",
+    "epoch"
   ]
 }

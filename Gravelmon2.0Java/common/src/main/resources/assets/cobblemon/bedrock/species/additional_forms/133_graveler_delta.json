@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_170_by_118.geo",
       "poser": "cobblemon:cutout_gravelmon_170_by_118",
-      "texture": "cobblemon:textures/pokemon/generation1/deltagraveler.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagraveler.png",
       "layers": [
         {
           "name": "emissive"

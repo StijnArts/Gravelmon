@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_200_by_198.geo",
       "poser": "cobblemon:cutout_gravelmon_200_by_198",
-      "texture": "cobblemon:textures/pokemon/generation5/deltavolcarona.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltavolcarona.png",
       "layers": [
         {
           "name": "emissive"

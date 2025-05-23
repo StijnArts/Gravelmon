@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_45_by_40.geo",
       "poser": "cobblemon:cutout_gravelmon_45_by_40",
-      "texture": "cobblemon:textures/pokemon/generation1/avalossianbellsprout.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossianbellsprout.png",
       "layers": [
         {
           "name": "emissive"

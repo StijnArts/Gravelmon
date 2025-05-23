@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_148_by_144.geo",
       "poser": "cobblemon:cutout_gravelmon_148_by_144",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticsceptile.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticsceptile.png",
       "layers": [
         {
           "name": "emissive"

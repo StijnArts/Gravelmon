@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_98_by_78.geo",
       "poser": "cobblemon:cutout_gravelmon_98_by_78",
-      "texture": "cobblemon:textures/pokemon/generation5/deltadeino.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadeino.png",
       "layers": [
         {
           "name": "emissive"
@@ -43,7 +43,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_98_by_78.geo",
       "poser": "cobblemon:cutout_gravelmon_98_by_78",
-      "texture": "cobblemon:textures/pokemon/generation5/deltadeino_female.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadeino_female.png",
       "layers": [
         {
           "name": "emissive"

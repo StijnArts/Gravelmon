@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_gallade-01",
+      "pokemon": "gallade delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-58",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ],
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "raianian_gallade-01",
       "pokemon": "gallade raianian",
       "presets": [
@@ -59,6 +87,32 @@
       }
     },
     {
+      "id": "epoch_gallade-01",
+      "pokemon": "gallade epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "37-57",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "avalossian_gallade-01",
       "pokemon": "gallade avalossian",
       "presets": [
@@ -79,34 +133,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_gallade-01",
-      "pokemon": "gallade delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "31-58",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
           ]
         }
       }
@@ -135,32 +161,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_gallade-01",
-      "pokemon": "gallade epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "37-57",
-      "weight": 0.05,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mushroom"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

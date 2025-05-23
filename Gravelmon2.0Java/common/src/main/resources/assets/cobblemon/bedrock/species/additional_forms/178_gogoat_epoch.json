@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_66",
-      "texture": "cobblemon:textures/pokemon/generation6/epochgogoat.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgogoat.png",
       "layers": [
         {
           "name": "emissive"

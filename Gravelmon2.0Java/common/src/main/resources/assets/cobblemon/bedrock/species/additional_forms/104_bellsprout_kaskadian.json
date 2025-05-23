@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_444_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_444_by_512",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadianbellsprout.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianbellsprout.png",
       "layers": [
         {
           "name": "emissive"

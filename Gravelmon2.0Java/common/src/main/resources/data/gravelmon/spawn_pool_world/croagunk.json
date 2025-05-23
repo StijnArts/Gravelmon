@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_croagunk-01",
+      "pokemon": "croagunk delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-36",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_wasteland",
+          "#cobblemon:nether/is_crimson"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_croagunk-01",
       "pokemon": "croagunk epoch",
       "presets": [
@@ -26,32 +52,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_croagunk-01",
-      "pokemon": "croagunk delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-36",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_wasteland",
-          "#cobblemon:nether/is_crimson"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
           ]
         }
       }

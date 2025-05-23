@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "mystic_electrode-01",
+      "pokemon": "electrode mystic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-54",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norheiman_electrode-01",
+      "pokemon": "electrode norheiman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-54",
+      "weight": 0.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_electrode-01",
       "pokemon": "electrode epoch",
       "presets": [
@@ -54,33 +106,6 @@
       }
     },
     {
-      "id": "norheiman_electrode-01",
-      "pokemon": "electrode norheiman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "31-54",
-      "weight": 0.75,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_electrode-01",
       "pokemon": "electrode ayreian",
       "presets": [
@@ -101,31 +126,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mystic_electrode-01",
-      "pokemon": "electrode mystic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "31-54",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
           ]
         }
       }

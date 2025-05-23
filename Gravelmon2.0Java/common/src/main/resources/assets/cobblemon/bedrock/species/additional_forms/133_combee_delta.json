@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_100_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_100_by_72",
-      "texture": "cobblemon:textures/pokemon/generation4/deltacombee.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacombee.png",
       "layers": [
         {
           "name": "emissive"

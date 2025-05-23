@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_59_by_79.geo",
       "poser": "cobblemon:cutout_gravelmon_59_by_79",
-      "texture": "cobblemon:textures/pokemon/generation2/relicledian.png",
+      "texture": "cobblemon:textures/pokemon/phoenixrising/relicledian.png",
       "layers": [
         {
           "name": "emissive"

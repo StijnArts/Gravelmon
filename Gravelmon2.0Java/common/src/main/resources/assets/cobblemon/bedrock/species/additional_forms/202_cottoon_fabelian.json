@@ -6,8 +6,8 @@
       "aspects": [
         "fabelian"
       ],
-      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
-      "poser": "cobblemon:cutout_gravelmon_512_by_512",
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
       "texture": "cobblemon:textures/pokemon/mahal/fabeliancottoon.png",
       "layers": [
         {

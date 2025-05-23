@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_96_by_116.geo",
       "poser": "cobblemon:cutout_gravelmon_96_by_116",
-      "texture": "cobblemon:textures/pokemon/generation5/cefiranlilligant.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranlilligant.png",
       "layers": [
         {
           "name": "emissive"

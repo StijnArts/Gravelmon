@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_56",
-      "texture": "cobblemon:textures/pokemon/generation4/epochfroslass.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochfroslass.png",
       "layers": [
         {
           "name": "emissive"

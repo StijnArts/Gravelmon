@@ -4,6 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_pineco-01",
+      "pokemon": "pineco epoch",
+      "presets": [
+        "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 13.5,
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_pineco-01",
       "pokemon": "pineco forman",
       "presets": [
@@ -31,26 +51,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_pineco-01",
-      "pokemon": "pineco epoch",
-      "presets": [
-        "amethyst_geode"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-33",
-      "weight": 13.5,
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
           ]
         }
       }

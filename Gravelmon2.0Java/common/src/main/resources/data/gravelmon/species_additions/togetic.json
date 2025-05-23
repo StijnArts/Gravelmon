@@ -2,218 +2,6 @@
   "target": "cobblemon:togetic",
   "forms": [
     {
-      "name": "Varitasian",
-      "primaryType": "fairy",
-      "secondaryType": "steel",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 142,
-      "experienceGroup": "fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "togepi form=varitasian",
-      "baseScale": 0.4,
-      "cannotDynamax": false,
-      "abilities": [
-        "mirrorarmor",
-        "serenegrace",
-        "h:superluck"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 55,
-        "attack": 70,
-        "defence": 90,
-        "special_attack": 80,
-        "special_defence": 80,
-        "speed": 30
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "eggGroups": [
-        "flying",
-        "fairy"
-      ],
-      "drops": {},
-      "moves": [
-        "1:magicalleaf",
-        "5:metronome",
-        "9:sweetkiss",
-        "13:yawn",
-        "14:fairywind",
-        "17:encore",
-        "21:followme",
-        "25:bestow",
-        "29:wish",
-        "33:ancientpower",
-        "37:steelwing",
-        "41:batonpass",
-        "45:doubleedge",
-        "49:lastresort",
-        "53:afteryou",
-        "tm:snore",
-        "tm:healbell",
-        "tm:heatwave",
-        "tm:focuspunch",
-        "tm:trick",
-        "tm:magiccoat",
-        "tm:endeavor",
-        "tm:hypervoice",
-        "tm:signalbeam",
-        "tm:covet",
-        "tm:shockwave",
-        "tm:waterpulse",
-        "tm:tailwind",
-        "tm:lastresort",
-        "tm:drainpunch",
-        "tm:zenheadbutt",
-        "tm:defog",
-        "tm:telekinesis",
-        "tm:afteryou",
-        "tm:fly",
-        "tm:flamethrower",
-        "tm:hyperbeam",
-        "tm:solarbeam",
-        "tm:thunderwave",
-        "tm:toxic",
-        "tm:psychic",
-        "tm:doubleteam",
-        "tm:lightscreen",
-        "tm:reflect",
-        "tm:fireblast",
-        "tm:dreameater",
-        "tm:rest",
-        "tm:substitute",
-        "tm:protect",
-        "tm:swagger",
-        "tm:steelwing",
-        "tm:attract",
-        "tm:sleeptalk",
-        "tm:return",
-        "tm:frustration",
-        "tm:safeguard",
-        "tm:hiddenpower",
-        "tm:raindance",
-        "tm:sunnyday",
-        "tm:psychup",
-        "tm:shadowball",
-        "tm:facade",
-        "tm:brickbreak",
-        "tm:aerialace",
-        "tm:roost",
-        "tm:fling",
-        "tm:gigaimpact",
-        "tm:grassknot",
-        "tm:psyshock",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:workup",
-        "tm:confide",
-        "tm:dazzlinggleam",
-        "tm:smartstrike",
-        "tm:megapunch",
-        "tm:megakick",
-        "tm:bodyslam",
-        "tm:doubleedge",
-        "tm:counter",
-        "tm:seismictoss",
-        "tm:rage",
-        "tm:mimic",
-        "tm:bide",
-        "tm:metronome",
-        "tm:eggbomb",
-        "tm:swift",
-        "tm:softboiled",
-        "tm:triattack",
-        "tm:razorwind",
-        "tm:whirlwind",
-        "tm:takedown",
-        "tm:teleport",
-        "tm:skullbash",
-        "tm:psywave",
-        "tm:peck",
-        "tm:mirrormove",
-        "tm:foresight",
-        "tm:present",
-        "tm:morningsun",
-        "tm:futuresight",
-        "tm:secretpower",
-        "tm:extrasensory",
-        "tm:psychoshift",
-        "tm:luckychant",
-        "tm:nastyplot",
-        "tm:storedpower",
-        "tm:terablast"
-      ],
-      "labels": [
-        "varitas",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.varitasiantogetic.desc"
-      ],
-      "height": 8,
-      "weight": 165,
-      "aspects": [
-        "varitasian"
-      ],
-      "evolutions": [
-        {
-          "id": "varitasiantogetic_togetect",
-          "variant": "level_up",
-          "result": "togetect",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "has_move",
-              "move": "steelwing"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Hubian",
       "primaryType": "fairy",
       "secondaryType": "psychic",
@@ -437,6 +225,384 @@
       }
     },
     {
+      "name": "Varitasian",
+      "primaryType": "fairy",
+      "secondaryType": "steel",
+      "catchRate": 75,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "togepi form=varitasian",
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "mirrorarmor",
+        "serenegrace",
+        "h:superluck"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 90,
+        "special_attack": 80,
+        "special_defence": 80,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:magicalleaf",
+        "5:metronome",
+        "9:sweetkiss",
+        "13:yawn",
+        "14:fairywind",
+        "17:encore",
+        "21:followme",
+        "25:bestow",
+        "29:wish",
+        "33:ancientpower",
+        "37:steelwing",
+        "41:batonpass",
+        "45:doubleedge",
+        "49:lastresort",
+        "53:afteryou",
+        "tm:snore",
+        "tm:healbell",
+        "tm:heatwave",
+        "tm:focuspunch",
+        "tm:trick",
+        "tm:magiccoat",
+        "tm:endeavor",
+        "tm:hypervoice",
+        "tm:signalbeam",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:waterpulse",
+        "tm:tailwind",
+        "tm:lastresort",
+        "tm:drainpunch",
+        "tm:zenheadbutt",
+        "tm:defog",
+        "tm:telekinesis",
+        "tm:afteryou",
+        "tm:fly",
+        "tm:flamethrower",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:fireblast",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:steelwing",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:shadowball",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:aerialace",
+        "tm:roost",
+        "tm:fling",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:psyshock",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:workup",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:smartstrike",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:mimic",
+        "tm:bide",
+        "tm:metronome",
+        "tm:eggbomb",
+        "tm:swift",
+        "tm:softboiled",
+        "tm:triattack",
+        "tm:razorwind",
+        "tm:whirlwind",
+        "tm:takedown",
+        "tm:teleport",
+        "tm:skullbash",
+        "tm:psywave",
+        "tm:peck",
+        "tm:mirrormove",
+        "tm:foresight",
+        "tm:present",
+        "tm:morningsun",
+        "tm:futuresight",
+        "tm:secretpower",
+        "tm:extrasensory",
+        "tm:psychoshift",
+        "tm:luckychant",
+        "tm:nastyplot",
+        "tm:storedpower",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasiantogetic.desc"
+      ],
+      "height": 8,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasiantogetic_togetect",
+          "variant": "level_up",
+          "result": "togetect",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "steelwing"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "togepi form=epoch",
+      "baseScale": 0.2526315789473684,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster",
+        "magicguard",
+        "h:galewings"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 80,
+        "defence": 70,
+        "special_attack": 80,
+        "special_defence": 40,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying",
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "25:nightslash",
+        "1:leer",
+        "43:spectralthief",
+        "22:charm",
+        "22:captivate",
+        "10:glide",
+        "37:falsesurrender",
+        "56:foulplay",
+        "1:pursuit",
+        "31:partingshot",
+        "13:thief",
+        "28:tailwind",
+        "60:bravebird",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bravebird",
+        "tm:burningjealousy",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:dualwingbeat",
+        "tm:echoedvoice",
+        "tm:falseswipe",
+        "tm:featherdance",
+        "tm:haze",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtogetic.desc"
+      ],
+      "height": 6,
+      "weight": 32,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochtogetic_togekiss_epoch",
+          "variant": "item_interact",
+          "result": "togekiss epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dusk_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5625,
+        "height": 3.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fire",
       "secondaryType": "ice",
@@ -643,178 +809,12 @@
         "height": 3.6874999999999996,
         "fixed": false
       }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "dark",
-      "secondaryType": "flying",
-      "catchRate": 75,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 142,
-      "experienceGroup": "fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "togepi form=epoch",
-      "baseScale": 0.2526315789473684,
-      "cannotDynamax": false,
-      "abilities": [
-        "prankster",
-        "magicguard",
-        "h:galewings"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 80,
-        "defence": 70,
-        "special_attack": 80,
-        "special_defence": 40,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "eggGroups": [
-        "flying",
-        "fairy"
-      ],
-      "drops": {},
-      "moves": [
-        "25:nightslash",
-        "1:leer",
-        "43:spectralthief",
-        "22:charm",
-        "22:captivate",
-        "10:glide",
-        "37:falsesurrender",
-        "56:foulplay",
-        "1:pursuit",
-        "31:partingshot",
-        "13:thief",
-        "28:tailwind",
-        "60:bravebird",
-        "tm:acrobatics",
-        "tm:airslash",
-        "tm:attract",
-        "tm:bravebird",
-        "tm:burningjealousy",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:defog",
-        "tm:drainingkiss",
-        "tm:dualwingbeat",
-        "tm:echoedvoice",
-        "tm:falseswipe",
-        "tm:featherdance",
-        "tm:haze",
-        "tm:hex",
-        "tm:hiddenpower",
-        "tm:hurricane",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:memento",
-        "tm:metronome",
-        "tm:mistyterrain",
-        "tm:nastyplot",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:round",
-        "tm:safeguard",
-        "tm:scaleshot",
-        "tm:sleeptalk",
-        "tm:snarl",
-        "tm:steelwing",
-        "tm:substitute",
-        "tm:swift",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:toxic",
-        "tm:trickroom",
-        "tm:willowisp",
-        "tm:wish",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtogetic.desc"
-      ],
-      "height": 6,
-      "weight": 32,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochtogetic_togekiss_epoch",
-          "variant": "item_interact",
-          "result": "togekiss epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dusk_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.5625,
-        "height": 3.5625,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "varitasian",
     "hubian",
-    "ayreian",
-    "epoch"
+    "varitasian",
+    "epoch",
+    "ayreian"
   ]
 }

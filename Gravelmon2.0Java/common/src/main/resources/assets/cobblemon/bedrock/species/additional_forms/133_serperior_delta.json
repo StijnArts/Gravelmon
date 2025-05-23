@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_162_by_136.geo",
       "poser": "cobblemon:cutout_gravelmon_162_by_136",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaserperior.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaserperior.png",
       "layers": [
         {
           "name": "emissive"

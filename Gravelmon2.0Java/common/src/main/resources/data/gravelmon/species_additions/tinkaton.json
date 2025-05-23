@@ -2,6 +2,117 @@
   "target": "cobblemon:tinkaton",
   "forms": [
     {
+      "name": "Lagoonan",
+      "primaryType": "grass",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 253,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.48571428571428565,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 75,
+        "defence": 77,
+        "special_attack": 70,
+        "special_defence": 105,
+        "speed": 94
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:metalclaw",
+        "1:leer",
+        "1:screech",
+        "3:megadrain",
+        "3:irontail",
+        "6:magicalleaf",
+        "6:smartstrike",
+        "9:gigadrain",
+        "9:mirrorshot",
+        "12:energyball",
+        "12:flashcannon",
+        "15:solarbeam",
+        "15:steelbeam",
+        "18:leafage",
+        "18:metalclaw",
+        "21:leer",
+        "21:screech",
+        "24:absorb",
+        "24:irontail",
+        "27:trailblaze",
+        "27:smartstrike",
+        "30:gigadrain",
+        "30:ironhead",
+        "33:seedbomb",
+        "33:meteormash",
+        "36:leafblade",
+        "tm:terablast"
+      ],
+      "labels": [
+        "lagoone",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.lagoonantinkaton.desc"
+      ],
+      "height": 17,
+      "weight": 1128,
+      "aspects": [
+        "lagoonan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.25,
+        "height": 5.25,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ghost",
       "secondaryType": "dragon",
@@ -158,122 +269,11 @@
         "height": 5.5625,
         "fixed": false
       }
-    },
-    {
-      "name": "Lagoonan",
-      "primaryType": "grass",
-      "secondaryType": "steel",
-      "catchRate": 45,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 253,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.48571428571428565,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 85,
-        "attack": 75,
-        "defence": 77,
-        "special_attack": 70,
-        "special_defence": 105,
-        "speed": 94
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 3,
-        "speed": 0
-      },
-      "eggGroups": [
-        "fairy"
-      ],
-      "drops": {},
-      "moves": [
-        "1:absorb",
-        "1:metalclaw",
-        "1:leer",
-        "1:screech",
-        "3:megadrain",
-        "3:irontail",
-        "6:magicalleaf",
-        "6:smartstrike",
-        "9:gigadrain",
-        "9:mirrorshot",
-        "12:energyball",
-        "12:flashcannon",
-        "15:solarbeam",
-        "15:steelbeam",
-        "18:leafage",
-        "18:metalclaw",
-        "21:leer",
-        "21:screech",
-        "24:absorb",
-        "24:irontail",
-        "27:trailblaze",
-        "27:smartstrike",
-        "30:gigadrain",
-        "30:ironhead",
-        "33:seedbomb",
-        "33:meteormash",
-        "36:leafblade",
-        "tm:terablast"
-      ],
-      "labels": [
-        "lagoone",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.lagoonantinkaton.desc"
-      ],
-      "height": 17,
-      "weight": 1128,
-      "aspects": [
-        "lagoonan"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.25,
-        "height": 5.25,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "lagoonan"
+    "lagoonan",
+    "epoch"
   ],
   "preEvolution": "lagoonantinkatuff"
 }

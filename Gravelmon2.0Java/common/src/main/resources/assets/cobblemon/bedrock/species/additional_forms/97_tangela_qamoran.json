@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_39_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_39_by_57",
-      "texture": "cobblemon:textures/pokemon/generation1/qamorantangela.png",
+      "texture": "cobblemon:textures/pokemon/qamor/qamorantangela.png",
       "layers": [
         {
           "name": "emissive"

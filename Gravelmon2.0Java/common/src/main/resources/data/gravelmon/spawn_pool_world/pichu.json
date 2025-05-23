@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_pichu-01",
+      "pokemon": "pichu delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-17",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "norse_pichu-01",
       "pokemon": "pichu norse",
       "presets": [
@@ -51,34 +79,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:note_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_pichu-01",
-      "pokemon": "pichu delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "2-17",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_highlands"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:hay_block"
           ]
         }
       }

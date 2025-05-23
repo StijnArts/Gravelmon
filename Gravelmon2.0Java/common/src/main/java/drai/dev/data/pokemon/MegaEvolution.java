@@ -153,7 +153,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     @Override
     public String getCleanName() {
-        return (name+(getMegaAspect()!=null? "_"+getMegaAspect().toLowerCase().replaceAll("_","") : "")+"_"+megaName)
+        return (name+(getAspect()!=null? "_"+getAspect().toLowerCase().replaceAll("_","") : "")+"_"+megaName)
                 .toLowerCase().replace(' ','_').replaceAll("[^a-zA-Z0-9_]", "")
                 .replace("'","").replace("\\.","");
     }
@@ -172,7 +172,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     @Override
     protected @NotNull File findTextureDirectory(String resourcesDir){
-        var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getNonMegaCleanName() +
+        var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getCleanName() +
                 "\\";
         return new File(expectedDir);
     }

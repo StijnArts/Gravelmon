@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:generation2_eghonoctowl.geo",
-      "poser": "cobblemon:generation2_eghonoctowl",
-      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl.png",
+      "model": "cobblemon:infinity_eghonoctowl.geo",
+      "poser": "cobblemon:infinity_eghonoctowl",
+      "texture": "cobblemon:textures/pokemon/infinity/eghonoctowl/eghonoctowl.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:generation2_eghonoctowl.geo",
-      "poser": "cobblemon:generation2_eghonoctowl",
-      "texture": "cobblemon:textures/pokemon/generation2/eghonoctowl/eghonoctowl_shiny.png",
+      "model": "cobblemon:infinity_eghonoctowl.geo",
+      "poser": "cobblemon:infinity_eghonoctowl",
+      "texture": "cobblemon:textures/pokemon/infinity/eghonoctowl/eghonoctowl_shiny.png",
       "layers": [
         {
           "name": "emissive"

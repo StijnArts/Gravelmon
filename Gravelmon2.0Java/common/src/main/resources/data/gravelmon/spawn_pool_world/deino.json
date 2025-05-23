@@ -4,28 +4,29 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_deino-01",
-      "pokemon": "deino fabelian",
+      "id": "delta_deino-01",
+      "pokemon": "deino delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "12-43",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:packed_mud"
           ]
         }
       }
@@ -59,29 +60,28 @@
       }
     },
     {
-      "id": "delta_deino-01",
-      "pokemon": "deino delta",
+      "id": "fabelian_deino-01",
+      "pokemon": "deino fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "12-43",
-      "weight": 13.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_mud"
+            "minecraft:magma_block"
           ]
         }
       }

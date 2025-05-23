@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_55_by_51.geo",
       "poser": "cobblemon:cutout_gravelmon_55_by_51",
-      "texture": "cobblemon:textures/pokemon/generation1/norheimanseel.png",
+      "texture": "cobblemon:textures/pokemon/norheim/norheimanseel.png",
       "layers": [
         {
           "name": "emissive"

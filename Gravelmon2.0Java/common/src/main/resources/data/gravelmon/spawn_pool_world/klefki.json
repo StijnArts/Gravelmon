@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_klefki-01",
+      "pokemon": "klefki cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_klefki-01",
       "pokemon": "klefki epoch",
       "presets": [
@@ -52,32 +78,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_klefki-01",
-      "pokemon": "klefki cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "20-40",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

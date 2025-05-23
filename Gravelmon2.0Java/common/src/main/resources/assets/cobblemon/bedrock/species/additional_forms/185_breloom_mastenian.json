@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_51_by_74.geo",
       "poser": "cobblemon:cutout_gravelmon_51_by_74",
-      "texture": "cobblemon:textures/pokemon/generation3/mastenianbreloom.png",
+      "texture": "cobblemon:textures/pokemon/mastenia/mastenianbreloom.png",
       "layers": [
         {
           "name": "emissive"

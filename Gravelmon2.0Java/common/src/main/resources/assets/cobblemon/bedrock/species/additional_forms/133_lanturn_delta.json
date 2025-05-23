@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation2_deltalanturn.geo",
-      "poser": "cobblemon:generation2_deltalanturn",
-      "texture": "cobblemon:textures/pokemon/generation2/deltalanturn/deltalanturn.png",
+      "model": "cobblemon:insurgence_deltalanturn.geo",
+      "poser": "cobblemon:insurgence_deltalanturn",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltalanturn/deltalanturn.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation2_deltalanturn.geo",
-      "poser": "cobblemon:generation2_deltalanturn",
-      "texture": "cobblemon:textures/pokemon/generation2/deltalanturn/deltalanturn_shiny.png",
+      "model": "cobblemon:insurgence_deltalanturn.geo",
+      "poser": "cobblemon:insurgence_deltalanturn",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltalanturn/deltalanturn_shiny.png",
       "layers": [
         {
           "name": "emissive"

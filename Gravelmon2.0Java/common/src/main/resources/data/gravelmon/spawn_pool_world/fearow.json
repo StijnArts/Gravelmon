@@ -4,21 +4,22 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_fearow-01",
-      "pokemon": "fearow forman",
+      "id": "egho_fearow-01",
+      "pokemon": "fearow egho",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "22-45",
-      "weight": 1.2000000000000002,
+      "level": "25-38",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freezing",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_hills",
+          "#cobblemon:is_temperate"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -26,7 +27,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -59,22 +60,21 @@
       }
     },
     {
-      "id": "egho_fearow-01",
-      "pokemon": "fearow egho",
+      "id": "forman_fearow-01",
+      "pokemon": "fearow forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "25-38",
-      "weight": 0.15000000000000002,
+      "level": "22-45",
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:is_hills",
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_mountain"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -82,7 +82,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:packed_ice"
           ]
         }
       }

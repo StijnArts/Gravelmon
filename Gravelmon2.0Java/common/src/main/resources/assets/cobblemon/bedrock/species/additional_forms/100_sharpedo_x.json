@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation3_sharpedox.geo",
-      "poser": "cobblemon:generation3_sharpedox",
-      "texture": "cobblemon:textures/pokemon/generation3/sharpedox/sharpedox.png",
+      "model": "cobblemon:xenoverse_sharpedox.geo",
+      "poser": "cobblemon:xenoverse_sharpedox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sharpedox/sharpedox.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation3_sharpedox.geo",
-      "poser": "cobblemon:generation3_sharpedox",
-      "texture": "cobblemon:textures/pokemon/generation3/sharpedox/sharpedox_shiny.png",
+      "model": "cobblemon:xenoverse_sharpedox.geo",
+      "poser": "cobblemon:xenoverse_sharpedox",
+      "texture": "cobblemon:textures/pokemon/xenoverse/sharpedox/sharpedox_shiny.png",
       "layers": [
         {
           "name": "emissive"

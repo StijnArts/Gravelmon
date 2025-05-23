@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation1/trizoranonix.png",
+      "texture": "cobblemon:textures/pokemon/trizor/trizoranonix.png",
       "layers": [
         {
           "name": "emissive"

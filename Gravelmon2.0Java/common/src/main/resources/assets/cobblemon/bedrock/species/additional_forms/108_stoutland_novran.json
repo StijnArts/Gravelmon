@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_71_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_71_by_72",
-      "texture": "cobblemon:textures/pokemon/generation5/novranstoutland.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novranstoutland.png",
       "layers": [
         {
           "name": "emissive"

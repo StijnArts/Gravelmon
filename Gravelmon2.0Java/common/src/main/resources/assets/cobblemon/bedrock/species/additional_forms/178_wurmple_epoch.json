@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_30_by_45.geo",
       "poser": "cobblemon:cutout_gravelmon_30_by_45",
-      "texture": "cobblemon:textures/pokemon/generation3/epochwurmple.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochwurmple.png",
       "layers": [
         {
           "name": "emissive"

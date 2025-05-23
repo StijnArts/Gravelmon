@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_216_by_142.geo",
       "poser": "cobblemon:cutout_gravelmon_216_by_142",
-      "texture": "cobblemon:textures/pokemon/generation1/deltagolem.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltagolem.png",
       "layers": [
         {
           "name": "emissive"

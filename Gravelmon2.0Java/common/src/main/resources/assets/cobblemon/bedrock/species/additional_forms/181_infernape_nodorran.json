@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_87_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_87_by_72",
-      "texture": "cobblemon:textures/pokemon/generation4/nodorraninfernape.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorraninfernape.png",
       "layers": [
         {
           "name": "emissive"

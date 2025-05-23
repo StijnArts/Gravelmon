@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_67_by_61.geo",
       "poser": "cobblemon:cutout_gravelmon_67_by_61",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreianpinsir.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpinsir.png",
       "layers": [
         {
           "name": "emissive"

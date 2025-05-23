@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_33_by_65.geo",
       "poser": "cobblemon:cutout_gravelmon_33_by_65",
-      "texture": "cobblemon:textures/pokemon/generation5/epochvanillishone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochvanillishone.png",
       "layers": [
         {
           "name": "emissive"

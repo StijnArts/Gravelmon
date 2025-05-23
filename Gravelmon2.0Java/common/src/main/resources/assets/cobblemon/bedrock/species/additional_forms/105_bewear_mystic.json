@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_154_by_162.geo",
       "poser": "cobblemon:cutout_gravelmon_154_by_162",
-      "texture": "cobblemon:textures/pokemon/generation7/mysticbewear.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticbewear.png",
       "layers": [
         {
           "name": "emissive"

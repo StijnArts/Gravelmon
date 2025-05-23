@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_64_by_67.geo",
       "poser": "cobblemon:cutout_gravelmon_64_by_67",
-      "texture": "cobblemon:textures/pokemon/generation3/nodorrannosepass.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorrannosepass.png",
       "layers": [
         {
           "name": "emissive"

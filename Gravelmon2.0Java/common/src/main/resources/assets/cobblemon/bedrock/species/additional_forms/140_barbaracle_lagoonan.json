@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_87_by_84.geo",
       "poser": "cobblemon:cutout_gravelmon_87_by_84",
-      "texture": "cobblemon:textures/pokemon/generation6/lagoonanbarbaracle.png",
+      "texture": "cobblemon:textures/pokemon/lagoone/lagoonanbarbaracle.png",
       "layers": [
         {
           "name": "emissive"

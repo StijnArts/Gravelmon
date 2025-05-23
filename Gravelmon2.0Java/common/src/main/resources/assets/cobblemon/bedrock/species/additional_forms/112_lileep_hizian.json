@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_42_by_74.geo",
       "poser": "cobblemon:cutout_gravelmon_42_by_74",
-      "texture": "cobblemon:textures/pokemon/generation3/hizianlileep.png",
+      "texture": "cobblemon:textures/pokemon/hiza/hizianlileep.png",
       "layers": [
         {
           "name": "emissive"

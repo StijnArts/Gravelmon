@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:generation1_eghocharmeleon.geo",
-      "poser": "cobblemon:generation1_eghocharmeleon",
-      "texture": "cobblemon:textures/pokemon/generation1/eghocharmeleon/eghocharmeleon.png",
+      "model": "cobblemon:infinity_eghocharmeleon.geo",
+      "poser": "cobblemon:infinity_eghocharmeleon",
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharmeleon/eghocharmeleon.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,10 +31,10 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail1.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail2.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail3.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail4.png"
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail1.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail2.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail3.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail4.png"
             ],
             "fps": 10,
             "loop": true
@@ -53,9 +53,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:generation1_eghocharmeleon.geo",
-      "poser": "cobblemon:generation1_eghocharmeleon",
-      "texture": "cobblemon:textures/pokemon/generation1/eghocharmeleon/eghocharmeleon_shiny.png",
+      "model": "cobblemon:infinity_eghocharmeleon.geo",
+      "poser": "cobblemon:infinity_eghocharmeleon",
+      "texture": "cobblemon:textures/pokemon/infinity/eghocharmeleon/eghocharmeleon_shiny.png",
       "layers": [
         {
           "name": "emissive"
@@ -78,10 +78,10 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail1_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail2_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail3_shiny.png",
-              "cobblemon:textures/pokemon/generation1/eghocharmeleon/flame/tail4_shiny.png"
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail1_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail2_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail3_shiny.png",
+              "cobblemon:textures/pokemon/infinity/eghocharmeleon/flame/tail4_shiny.png"
             ],
             "fps": 10,
             "loop": true

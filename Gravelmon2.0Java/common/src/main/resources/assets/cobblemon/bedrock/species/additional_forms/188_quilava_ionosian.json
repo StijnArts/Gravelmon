@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_57_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_57_by_56",
-      "texture": "cobblemon:textures/pokemon/generation2/ionosianquilava.png",
+      "texture": "cobblemon:textures/pokemon/ionos/ionosianquilava.png",
       "layers": [
         {
           "name": "emissive"

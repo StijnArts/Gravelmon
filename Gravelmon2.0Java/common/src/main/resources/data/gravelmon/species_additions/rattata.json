@@ -2,119 +2,6 @@
   "target": "cobblemon:rattata",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "normal",
-      "secondaryType": "poison",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:tackle",
-        "1:acid",
-        "1:growl",
-        "1:leer",
-        "4:round",
-        "4:clearsmog",
-        "7:swift",
-        "7:sludge",
-        "10:uproar",
-        "10:toxicspikes",
-        "13:hypervoice",
-        "13:sludgebomb",
-        "16:hyperbeam",
-        "16:sludgewave",
-        "19:tackle",
-        "19:poisonsting",
-        "22:growl",
-        "22:leer",
-        "25:quickattack",
-        "25:venoshock",
-        "28:bite",
-        "28:poisontail",
-        "31:takedown",
-        "31:toxicspikes",
-        "34:crunch",
-        "34:sludgebomb",
-        "39:doubleedge",
-        "39:poisonjab",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.fabelianrattata.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Palmian",
       "primaryType": "poison",
       "catchRate": 255,
@@ -192,8 +79,9 @@
         "tm:terablast"
       ],
       "labels": [
-        "raian",
         "not_modeled",
+        "palmia",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -228,18 +116,20 @@
       }
     },
     {
-      "name": "Forman",
-      "primaryType": "psychic",
-      "catchRate": 220,
+      "name": "Norheiman",
+      "primaryType": "normal",
+      "secondaryType": "dragon",
+      "catchRate": 200,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
+      "baseScale": 0.22325581395348837,
       "cannotDynamax": false,
       "abilities": [
-        "unnerve"
+        "guts",
+        "h:swiftswim"
       ],
       "behaviour": {
         "resting": {
@@ -268,12 +158,12 @@
         }
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 26,
-        "defence": 43,
-        "special_attack": 62,
-        "special_defence": 60,
-        "speed": 43
+        "hp": 45,
+        "attack": 65,
+        "defence": 48,
+        "special_attack": 55,
+        "special_defence": 76,
+        "speed": 69
       },
       "evYield": {
         "hp": 0,
@@ -288,39 +178,84 @@
       ],
       "drops": {},
       "moves": [
-        "1:confusion",
         "1:growl",
-        "4:psybeam",
-        "7:futuresight",
-        "10:psychic",
-        "13:psyshock",
-        "16:psychoboost",
+        "1:tackle",
+        "7:rapidspin",
+        "11:taunt",
+        "14:breakingswipe",
+        "18:quickattack",
+        "23:bite",
+        "27:uturn",
+        "36:dragonclaw",
+        "40:shiftgear",
+        "45:dragonpulse",
+        "51:doubleedge",
+        "57:dragonrush",
+        "egg:aquatail",
+        "egg:irontail",
+        "egg:knockoff",
+        "egg:powerwhip",
+        "tm:takedown",
+        "tm:agility",
+        "tm:mudslap",
+        "tm:protect",
+        "tm:firefang",
+        "tm:thunderfang",
+        "tm:acrobatics",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:mudshot",
+        "tm:dragontail",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:uturn",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:dragonclaw",
+        "tm:rest",
+        "tm:taunt",
+        "tm:ironhead",
+        "tm:substitute",
+        "tm:crunch",
+        "tm:dragonpulse",
+        "tm:hypervoice",
+        "tm:icespinner",
+        "tm:thunderbolt",
+        "tm:wildcharge",
+        "tm:gigaimpact",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:hyperbeam",
+        "tm:dracometeor",
+        "tm:terablast",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanrattata.desc"
+        "cobblemon.species.norheimanrattata.desc"
       ],
-      "height": 6,
-      "weight": 0,
+      "height": 3,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
       "evolutions": [
         {
-          "id": "formanrattata_rattataff",
+          "id": "norheimanrattata_rowdent",
           "variant": "level_up",
-          "result": "rattataff",
+          "result": "rowdent",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "22"
+              "minLevel": "20"
             }
           ],
           "permanent": true
@@ -328,8 +263,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 2.6875,
+        "height": 2.6875,
         "fixed": false
       }
     },
@@ -516,20 +451,18 @@
       }
     },
     {
-      "name": "Norheiman",
-      "primaryType": "normal",
-      "secondaryType": "dragon",
-      "catchRate": 200,
+      "name": "Forman",
+      "primaryType": "psychic",
+      "catchRate": 220,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.22325581395348837,
+      "baseScale": 0.028124999999999997,
       "cannotDynamax": false,
       "abilities": [
-        "guts",
-        "h:swiftswim"
+        "unnerve"
       ],
       "behaviour": {
         "resting": {
@@ -558,12 +491,12 @@
         }
       },
       "baseStats": {
-        "hp": 45,
-        "attack": 65,
-        "defence": 48,
-        "special_attack": 55,
-        "special_defence": 76,
-        "speed": 69
+        "hp": 50,
+        "attack": 26,
+        "defence": 43,
+        "special_attack": 62,
+        "special_defence": 60,
+        "speed": 43
       },
       "evYield": {
         "hp": 0,
@@ -578,84 +511,40 @@
       ],
       "drops": {},
       "moves": [
+        "1:confusion",
         "1:growl",
-        "1:tackle",
-        "7:rapidspin",
-        "11:taunt",
-        "14:breakingswipe",
-        "18:quickattack",
-        "23:bite",
-        "27:uturn",
-        "36:dragonclaw",
-        "40:shiftgear",
-        "45:dragonpulse",
-        "51:doubleedge",
-        "57:dragonrush",
-        "egg:aquatail",
-        "egg:irontail",
-        "egg:knockoff",
-        "egg:powerwhip",
-        "tm:takedown",
-        "tm:agility",
-        "tm:mudslap",
-        "tm:protect",
-        "tm:firefang",
-        "tm:thunderfang",
-        "tm:acrobatics",
-        "tm:thief",
-        "tm:trailblaze",
-        "tm:facade",
-        "tm:aerialace",
-        "tm:mudshot",
-        "tm:dragontail",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:uturn",
-        "tm:bodyslam",
-        "tm:sleeptalk",
-        "tm:dragonclaw",
-        "tm:rest",
-        "tm:taunt",
-        "tm:ironhead",
-        "tm:substitute",
-        "tm:crunch",
-        "tm:dragonpulse",
-        "tm:hypervoice",
-        "tm:icespinner",
-        "tm:thunderbolt",
-        "tm:wildcharge",
-        "tm:gigaimpact",
-        "tm:outrage",
-        "tm:overheat",
-        "tm:hyperbeam",
-        "tm:dracometeor",
-        "tm:terablast",
+        "4:psybeam",
+        "7:futuresight",
+        "10:psychic",
+        "13:psyshock",
+        "16:psychoboost",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanrattata.desc"
+        "cobblemon.species.formanrattata.desc"
       ],
-      "height": 3,
-      "weight": 165,
+      "height": 6,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "norheimanrattata_rowdent",
+          "id": "formanrattata_rattataff",
           "variant": "level_up",
-          "result": "rowdent",
+          "result": "rattataff",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "20"
+              "minLevel": "22"
             }
           ],
           "permanent": true
@@ -663,8 +552,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.6875,
-        "height": 2.6875,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -841,6 +730,120 @@
       }
     },
     {
+      "name": "Fabelian",
+      "primaryType": "normal",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:acid",
+        "1:growl",
+        "1:leer",
+        "4:round",
+        "4:clearsmog",
+        "7:swift",
+        "7:sludge",
+        "10:uproar",
+        "10:toxicspikes",
+        "13:hypervoice",
+        "13:sludgebomb",
+        "16:hyperbeam",
+        "16:sludgewave",
+        "19:tackle",
+        "19:poisonsting",
+        "22:growl",
+        "22:leer",
+        "25:quickattack",
+        "25:venoshock",
+        "28:bite",
+        "28:poisontail",
+        "31:takedown",
+        "31:toxicspikes",
+        "34:crunch",
+        "34:sludgebomb",
+        "39:doubleedge",
+        "39:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabelianrattata.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "normal",
       "secondaryType": "poison",
@@ -984,12 +987,12 @@
     }
   ],
   "features": [
-    "fabelian",
     "palmian",
-    "forman",
-    "epoch",
     "norheiman",
+    "epoch",
+    "forman",
     "ayreian",
+    "fabelian",
     "ishirian"
   ],
   "evolutions": [

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_34_by_63.geo",
       "poser": "cobblemon:cutout_gravelmon_34_by_63",
-      "texture": "cobblemon:textures/pokemon/generation2/deltamagby.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltamagby.png",
       "layers": [
         {
           "name": "emissive"

@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.eldark;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.raian.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -160,7 +161,21 @@ public class Norse extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Vesdragon(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))));
         addNewPokemon(new Vessteel(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.DEFENCE))));
         addNewPokemon(new Vesfairy(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addPokedexPokemon("pichu-norse, pikachu-norse, raichu-norse, sentret-norse, furret-norse, absol-norse, gible-norse, gabite-norse, garchomp-norse");
+
+        addNewPokemon(new NorsePichu("", Aspect.NORSE));
+        addNewPokemon(new NorsePikachu("", Aspect.NORSE));
+        addNewPokemon(new NorseRaichu("", Aspect.NORSE, new Stats(485, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
+
+        addNewPokemon(new NorseSentret("", Aspect.NORSE));
+        addNewPokemon(new NorseFurret("", Aspect.NORSE, new Stats(415, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))));
+
+        addNewPokemon(new NorseAbsol("", Aspect.NORSE, new Stats(465, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
+
+        addNewPokemon(new NorseGible("", Aspect.NORSE));
+        addNewPokemon(new NorseGabite("", Aspect.NORSE));
+        addNewPokemon(new NorseGarchomp("", Aspect.NORSE, new Stats(600,
+                StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE))));
+
 
     }
 }

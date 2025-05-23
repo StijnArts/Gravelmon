@@ -6,8 +6,8 @@
       "aspects": [
         "mastenian"
       ],
-      "model": "cobblemon:cutout_gravelmon_38_by_40.geo",
-      "poser": "cobblemon:cutout_gravelmon_38_by_40",
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
       "texture": "cobblemon:textures/pokemon/norheim/masteniantadit.png",
       "layers": [
         {

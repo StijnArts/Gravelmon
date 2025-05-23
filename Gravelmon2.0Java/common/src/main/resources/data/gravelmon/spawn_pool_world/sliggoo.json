@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_sliggoo-01",
+      "pokemon": "sliggoo delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-58",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_sliggoo-01",
       "pokemon": "sliggoo epoch",
       "presets": [
@@ -55,31 +80,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_sliggoo-01",
-      "pokemon": "sliggoo delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "40-58",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_arid"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
           ]
         }
       }

@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation1_deltascyther.geo",
-      "poser": "cobblemon:generation1_deltascyther",
-      "texture": "cobblemon:textures/pokemon/generation1/deltascyther/deltascyther.png",
+      "model": "cobblemon:insurgence_deltascyther.geo",
+      "poser": "cobblemon:insurgence_deltascyther",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltascyther/deltascyther.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltascyther.geo",
-      "poser": "cobblemon:generation1_deltascyther",
-      "texture": "cobblemon:textures/pokemon/generation1/deltascyther/deltascyther_shiny.png",
+      "model": "cobblemon:insurgence_deltascyther.geo",
+      "poser": "cobblemon:insurgence_deltascyther",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltascyther/deltascyther_shiny.png",
       "layers": [
         {
           "name": "emissive"

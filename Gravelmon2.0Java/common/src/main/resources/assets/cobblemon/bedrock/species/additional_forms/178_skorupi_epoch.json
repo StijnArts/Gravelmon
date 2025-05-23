@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_52_by_46.geo",
       "poser": "cobblemon:cutout_gravelmon_52_by_46",
-      "texture": "cobblemon:textures/pokemon/generation4/epochskorupi.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochskorupi.png",
       "layers": [
         {
           "name": "emissive"

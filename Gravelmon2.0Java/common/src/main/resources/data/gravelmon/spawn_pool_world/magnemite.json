@@ -4,26 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_magnemite-01",
-      "pokemon": "magnemite forman",
+      "id": "egho_magnemite-01",
+      "pokemon": "magnemite egho",
       "presets": [
-        "village"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "11-39",
-      "weight": 13.5,
+      "bucket": "uncommon",
+      "level": "12-22",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_lush"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "cobblemon:healing_machine"
+            "minecraft:moss_block"
           ]
         }
       }
@@ -81,26 +81,26 @@
       }
     },
     {
-      "id": "egho_magnemite-01",
-      "pokemon": "magnemite egho",
+      "id": "forman_magnemite-01",
+      "pokemon": "magnemite forman",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "11-39",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_lush"
+          "#cobblemon:is_overworld"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "cobblemon:healing_machine"
           ]
         }
       }

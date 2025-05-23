@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_goodra-01",
+      "pokemon": "goodra delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-68",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "isRaining": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_goodra-01",
       "pokemon": "goodra epoch",
       "presets": [
@@ -55,32 +81,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_goodra-01",
-      "pokemon": "goodra delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "50-68",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_arid"
-        ],
-        "isRaining": true
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
           ]
         }
       }

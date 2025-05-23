@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:garchomp-norse",
+  "speciesId": "cobblemon:garchomp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norse",
+      "unlockForms": [
+        "Norse"
+      ]
+    }
+  ],
+  "variations": []
+}

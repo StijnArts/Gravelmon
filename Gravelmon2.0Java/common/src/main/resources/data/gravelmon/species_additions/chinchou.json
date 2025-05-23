@@ -2,6 +2,181 @@
   "target": "cobblemon:chinchou",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.6,
+      "cannotDynamax": false,
+      "abilities": [
+        "flashfire",
+        "unnerve",
+        "h:levitate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 38,
+        "defence": 38,
+        "special_attack": 56,
+        "special_defence": 56,
+        "speed": 67
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:smokescreen",
+        "6:haze",
+        "9:ember",
+        "12:smog",
+        "17:confuseray",
+        "20:incinerate",
+        "23:nightshade",
+        "28:willowisp",
+        "31:followme",
+        "34:flamethrower",
+        "39:clearsmog",
+        "42:painsplit",
+        "45:phantomforce",
+        "47:faketears",
+        "50:tailglow",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:flamethrower",
+        "tm:sludgebomb",
+        "tm:fireblast",
+        "tm:torment",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:overheat",
+        "tm:chargebeam",
+        "tm:skillswap",
+        "tm:willowisp",
+        "tm:newmoon",
+        "tm:embargo",
+        "tm:venoshock",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:sleeptalk",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:lunarcannon",
+        "tm:incinerate",
+        "tm:allyswitch",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:bounce",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:gravity",
+        "tutor:heatwave",
+        "tutor:magiccoat",
+        "tutor:magicroom",
+        "tutor:mimic",
+        "tutor:nightshade",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:trick",
+        "tutor:wonderroom",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen2",
+        "insurgence"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltachinchou.desc"
+      ],
+      "height": 7,
+      "weight": 168,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltachinchou_lanturn_delta",
+          "variant": "level_up",
+          "result": "lanturn delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "27"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Raianian",
       "primaryType": "water",
       "secondaryType": "dark",
@@ -82,6 +257,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -112,272 +288,6 @@
       "hitbox": {
         "width": 32.0,
         "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "water",
-      "secondaryType": "grass",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.032812499999999994,
-      "cannotDynamax": false,
-      "abilities": [
-        "stormdrain"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 24,
-        "defence": 53,
-        "special_attack": 59,
-        "special_defence": 82,
-        "speed": 29
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:watergun",
-        "1:absorb",
-        "1:bulkup",
-        "1:synthesis",
-        "1:tailwhip",
-        "1:leer",
-        "1:calmmind",
-        "1:bulkup",
-        "4:bubblebeam",
-        "4:megadrain",
-        "4:taunt",
-        "4:calmmind",
-        "7:brine",
-        "7:magicalleaf",
-        "7:substitute",
-        "7:taunt",
-        "10:surf",
-        "10:gigadrain",
-        "10:rest",
-        "10:substitute",
-        "13:chillingwater",
-        "13:energyball",
-        "13:rest",
-        "16:hydropump",
-        "16:solarbeam",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanchinchou.desc"
-      ],
-      "height": 7,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formanchinchou_algaphin",
-          "variant": "level_up",
-          "result": "Algaphin",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "27"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Mastenian",
-      "primaryType": "dark",
-      "secondaryType": "electric",
-      "catchRate": 210,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.35,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 47,
-        "defence": 37,
-        "special_attack": 32,
-        "special_defence": 44,
-        "speed": 37
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:bite",
-        "1:thundershock",
-        "1:bulkup",
-        "1:bulkup",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:leer",
-        "1:calmmind",
-        "1:calmmind",
-        "1:nastyplot",
-        "1:nastyplot",
-        "10:payback",
-        "10:charge",
-        "10:taunt",
-        "10:taunt",
-        "10:quickattack",
-        "10:quickattack",
-        "15:nightdaze",
-        "15:shockwave",
-        "15:substitute",
-        "15:substitute",
-        "15:swordsdance",
-        "15:swordsdance",
-        "20:snarl",
-        "20:discharge",
-        "20:rest",
-        "20:rest",
-        "25:knockoff",
-        "25:thunderbolt",
-        "30:darkpulse",
-        "30:thunder",
-        "35:bite",
-        "35:thundershock",
-        "40:leer",
-        "40:leer",
-        "45:payback",
-        "45:charge",
-        "50:nightslash",
-        "50:thunderpunch",
-        "55:crunch",
-        "55:discharge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mastenia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mastenianchinchou.desc"
-      ],
-      "height": 7,
-      "weight": 0,
-      "aspects": [
-        "mastenian"
-      ],
-      "evolutions": [
-        {
-          "id": "mastenianchinchou_lanturn_mastenian",
-          "variant": "level_up",
-          "result": "lanturn mastenian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "27"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0,
-        "height": 3.0,
         "fixed": false
       }
     },
@@ -574,21 +484,19 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "ghost",
-      "secondaryType": "fire",
+      "name": "Forman",
+      "primaryType": "water",
+      "secondaryType": "grass",
       "catchRate": 190,
       "maleRatio": 0.5,
-      "baseExperienceYield": 66,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.6,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
-        "flashfire",
-        "unnerve",
-        "h:levitate"
+        "stormdrain"
       ],
       "behaviour": {
         "resting": {
@@ -599,33 +507,33 @@
         },
         "moving": {
           "fly": {
-            "canFly": true
+            "canFly": false
           },
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
-        "hp": 75,
-        "attack": 38,
-        "defence": 38,
-        "special_attack": 56,
-        "special_defence": 56,
-        "speed": 67
+        "hp": 70,
+        "attack": 24,
+        "defence": 53,
+        "special_attack": 59,
+        "special_defence": 82,
+        "speed": 29
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -633,103 +541,56 @@
         "speed": 0
       },
       "eggGroups": [
-        "undiscovered"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:astonish",
-        "1:smokescreen",
-        "6:haze",
-        "9:ember",
-        "12:smog",
-        "17:confuseray",
-        "20:incinerate",
-        "23:nightshade",
-        "28:willowisp",
-        "31:followme",
-        "34:flamethrower",
-        "39:clearsmog",
-        "42:painsplit",
-        "45:phantomforce",
-        "47:faketears",
-        "50:tailglow",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:protect",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:return",
-        "tm:psychic",
-        "tm:shadowball",
-        "tm:doubleteam",
-        "tm:flamethrower",
-        "tm:sludgebomb",
-        "tm:fireblast",
-        "tm:torment",
-        "tm:facade",
-        "tm:flamecharge",
-        "tm:rest",
-        "tm:attract",
-        "tm:overheat",
-        "tm:chargebeam",
-        "tm:skillswap",
-        "tm:willowisp",
-        "tm:newmoon",
-        "tm:embargo",
-        "tm:venoshock",
-        "tm:dreameater",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:trickroom",
-        "tm:sleeptalk",
-        "tm:dazzlinggleam",
-        "tm:achillesheel",
-        "tm:lunarcannon",
-        "tm:incinerate",
-        "tm:allyswitch",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:darkmatter",
-        "tm:secretpower",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:bounce",
-        "tutor:earthpower",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:gravity",
-        "tutor:heatwave",
-        "tutor:magiccoat",
-        "tutor:magicroom",
-        "tutor:mimic",
-        "tutor:nightshade",
-        "tutor:ominouswind",
-        "tutor:painsplit",
-        "tutor:snore",
-        "tutor:spite",
-        "tutor:trick",
-        "tutor:wonderroom",
+        "1:watergun",
+        "1:absorb",
+        "1:bulkup",
+        "1:synthesis",
+        "1:tailwhip",
+        "1:leer",
+        "1:calmmind",
+        "1:bulkup",
+        "4:bubblebeam",
+        "4:megadrain",
+        "4:taunt",
+        "4:calmmind",
+        "7:brine",
+        "7:magicalleaf",
+        "7:substitute",
+        "7:taunt",
+        "10:surf",
+        "10:gigadrain",
+        "10:rest",
+        "10:substitute",
+        "13:chillingwater",
+        "13:energyball",
+        "13:rest",
+        "16:hydropump",
+        "16:solarbeam",
         "tm:terablast"
       ],
       "labels": [
-        "gen2",
-        "insurgence"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.deltachinchou.desc"
+        "cobblemon.species.formanchinchou.desc"
       ],
       "height": 7,
-      "weight": 168,
+      "weight": 0,
       "aspects": [
-        "delta"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "deltachinchou_lanturn_delta",
+          "id": "formanchinchou_algaphin",
           "variant": "level_up",
-          "result": "lanturn delta",
+          "result": "Algaphin",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -743,8 +604,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -880,14 +741,155 @@
         "height": 3.25,
         "fixed": false
       }
+    },
+    {
+      "name": "Mastenian",
+      "primaryType": "dark",
+      "secondaryType": "electric",
+      "catchRate": 210,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 47,
+        "defence": 37,
+        "special_attack": 32,
+        "special_defence": 44,
+        "speed": 37
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:thundershock",
+        "1:bulkup",
+        "1:bulkup",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:payback",
+        "10:charge",
+        "10:taunt",
+        "10:taunt",
+        "10:quickattack",
+        "10:quickattack",
+        "15:nightdaze",
+        "15:shockwave",
+        "15:substitute",
+        "15:substitute",
+        "15:swordsdance",
+        "15:swordsdance",
+        "20:snarl",
+        "20:discharge",
+        "20:rest",
+        "20:rest",
+        "25:knockoff",
+        "25:thunderbolt",
+        "30:darkpulse",
+        "30:thunder",
+        "35:bite",
+        "35:thundershock",
+        "40:leer",
+        "40:leer",
+        "45:payback",
+        "45:charge",
+        "50:nightslash",
+        "50:thunderpunch",
+        "55:crunch",
+        "55:discharge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mastenia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mastenianchinchou.desc"
+      ],
+      "height": 7,
+      "weight": 0,
+      "aspects": [
+        "mastenian"
+      ],
+      "evolutions": [
+        {
+          "id": "mastenianchinchou_lanturn_mastenian",
+          "variant": "level_up",
+          "result": "lanturn mastenian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "27"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0,
+        "height": 3.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "raianian",
-    "forman",
-    "mastenian",
-    "epoch",
     "delta",
-    "hoennian"
+    "raianian",
+    "epoch",
+    "forman",
+    "hoennian",
+    "mastenian"
   ]
 }

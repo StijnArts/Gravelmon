@@ -2,115 +2,6 @@
   "target": "cobblemon:corsola",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "poison",
-      "secondaryType": "rock",
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisontouch"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 110,
-        "attack": 64,
-        "defence": 130,
-        "special_attack": 31,
-        "special_defence": 31,
-        "speed": 17
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:poisonsting",
-        "1:rockthrow",
-        "1:bulkup",
-        "1:bulkup",
-        "1:leer",
-        "1:defensecurl",
-        "1:calmmind",
-        "1:calmmind",
-        "4:venoshock",
-        "4:rollout",
-        "4:taunt",
-        "4:taunt",
-        "7:poisontail",
-        "7:smackdown",
-        "7:substitute",
-        "7:substitute",
-        "10:toxicspikes",
-        "10:rockblast",
-        "10:rest",
-        "10:rest",
-        "13:sludgebomb",
-        "13:stealthrock",
-        "16:poisonjab",
-        "16:stoneedge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formancorsola.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "water",
       "secondaryType": "poison",
@@ -280,11 +171,121 @@
         "height": 3.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "poison",
+      "secondaryType": "rock",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.028124999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 110,
+        "attack": 64,
+        "defence": 130,
+        "special_attack": 31,
+        "special_defence": 31,
+        "speed": 17
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:poisonsting",
+        "1:rockthrow",
+        "1:bulkup",
+        "1:bulkup",
+        "1:leer",
+        "1:defensecurl",
+        "1:calmmind",
+        "1:calmmind",
+        "4:venoshock",
+        "4:rollout",
+        "4:taunt",
+        "4:taunt",
+        "7:poisontail",
+        "7:smackdown",
+        "7:substitute",
+        "7:substitute",
+        "10:toxicspikes",
+        "10:rockblast",
+        "10:rest",
+        "10:rest",
+        "13:sludgebomb",
+        "13:stealthrock",
+        "16:poisonjab",
+        "16:stoneedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formancorsola.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
-    "epoch"
+    "epoch",
+    "forman"
   ],
   "evolutions": [
     {

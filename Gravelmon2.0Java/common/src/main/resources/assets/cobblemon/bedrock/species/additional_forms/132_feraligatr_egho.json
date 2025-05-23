@@ -6,9 +6,9 @@
       "aspects": [
         "egho"
       ],
-      "model": "cobblemon:generation2_eghoferaligatr.geo",
-      "poser": "cobblemon:generation2_eghoferaligatr",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr.png",
+      "model": "cobblemon:infinity_eghoferaligatr.geo",
+      "poser": "cobblemon:infinity_eghoferaligatr",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoferaligatr/eghoferaligatr.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "egho",
         "shiny"
       ],
-      "model": "cobblemon:generation2_eghoferaligatr.geo",
-      "poser": "cobblemon:generation2_eghoferaligatr",
-      "texture": "cobblemon:textures/pokemon/generation2/eghoferaligatr/eghoferaligatr_shiny.png",
+      "model": "cobblemon:infinity_eghoferaligatr.geo",
+      "poser": "cobblemon:infinity_eghoferaligatr",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoferaligatr/eghoferaligatr_shiny.png",
       "layers": [
         {
           "name": "emissive"

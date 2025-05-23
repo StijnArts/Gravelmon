@@ -2,13 +2,16 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.lagoone.*;
+import drai.dev.data.pokemon.lagoone.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Lagoone extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Lagoone();
     private Lagoone() {
         super("Lagoone");
     }
-//TODO add regionals after Webbewulf
+//TODO update
     @Override
     public void registerPokemon() {
         addNewPokemon(new Leafin().fishingSpawnFromExisting());
@@ -48,7 +51,7 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bountyrant());
         addNewPokemon(new Biscaneer());
         addNewPokemon(new Gingerbeard());
-        addPokedexPokemon("sableye-lagoonan");
+        addNewPokemon(new LagoonanSableye("", Aspect.LAGOONAN));
         addNewPokemon(new Pesteeny());
         addNewPokemon(new Tadwobble());
         addNewPokemon(new Madhopple());
@@ -74,10 +77,13 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sandime());
         addNewPokemon(new Starena());
 
-        addPokedexPokemon("litwick-lagoonan, lampent-lagoonan, chandelure-lagoonan");
+        addNewPokemon(new LagoonanLitwick("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanLampent("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanChandelure("", Aspect.LAGOONAN));
         addNewPokemon(new Caskute());
         addNewPokemon(new Barammer());
-        addPokedexPokemon("finneon-lagoonan, lumineon-lagoonan");
+        addNewPokemon(new LagoonanFinneon("", Aspect.LAGOONAN).fishingSpawnFromExisting());
+        addNewPokemon(new LagoonanLumineon("", Aspect.LAGOONAN).fishingSpawnFromExisting());
         addNewPokemon(new Gloomineon());
         addNewPokemon(new Boulblin());
         addNewPokemon(new Lonestone());
@@ -96,11 +102,18 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Skyviator());
         addNewPokemon(new Crawlycan());
         addNewPokemon(new Webbewulf());
+        addNewPokemon(new LagoonanHattena("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanHattrem("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanHatterene("", Aspect.LAGOONAN));
         addNewPokemon(new Edeereal());
         addNewPokemon(new Stingfray());
+        addNewPokemon(new LagoonanRemoraid("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanOctillery("", Aspect.LAGOONAN));
         addNewPokemon(new Crystalker());
         addNewPokemon(new Tyfang());
         addNewPokemon(new Furycane());
+        addNewPokemon(new LagoonanBinacle("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanBarbaracle("", Aspect.LAGOONAN));
         addNewPokemon(new Gangill());
         addNewPokemon(new Codfather());
         addNewPokemon(new Mantilist());
@@ -110,7 +123,10 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Drasalys());
         addNewPokemon(new Dralytra());
         addNewPokemon(new Cerakeet());
-        addPokedexPokemon("tinkatink-lagoonan, tinkatuff-lagoonan, tinkaton-lagoonan, goldeen");
+        addNewPokemon(new LagoonanTinkatink("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanTinkatuff("", Aspect.LAGOONAN));
+        addNewPokemon(new LagoonanTinkaton("", Aspect.LAGOONAN));
+        addPokedexPokemon("goldeen");
         addNewPokemon(new Seasurper());
         addNewPokemon(new Veneko());
         addNewPokemon(new Toxunken());

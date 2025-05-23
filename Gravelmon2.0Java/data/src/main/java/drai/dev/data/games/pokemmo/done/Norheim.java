@@ -3,6 +3,7 @@ package drai.dev.data.games.pokemmo.done;
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.mastenia.*;
 import drai.dev.data.pokemon.norheim.*;
+import drai.dev.data.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -46,7 +47,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Strikoon());
         addNewPokemon(new Battlefly());
         addNewPokemon(new Mothight());
-        addPokedexPokemon("ratata-norheiman");
+        addNewPokemon(new NorheimanRattata("", Aspect.NORHEIMAN));
         addNewPokemon(new Rowdent());
         addNewPokemon(new Lemini());
         addNewPokemon(new Gnimmel());
@@ -73,7 +74,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Roomere());
         addNewPokemon(new Scubaa());
         addNewPokemon(new Hydroram());
-        addPokedexPokemon("foongus-norheiman");
+        addNewPokemon(new NorheimanFoongus("", Aspect.NORHEIMAN));
         addNewPokemon(new Chantarule());
         addNewPokemon(new Chantabrute());
 
@@ -92,9 +93,12 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Thikachoo(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
         addPokedexPokemon("surskit");
-        addPokedexPokemon("masquerain-norheiman");
+        addNewPokemon(new NorheimanMasquerain("Masquerain", Aspect.NORHEIMAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.HP))));
         addNewPokemon(new Surgeskit());
-        addPokedexPokemon("voltorb-norheiman, electrode-norheiman");
+        addNewPokemon(new NorheimanVoltorb("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanElectrode("", Aspect.NORHEIMAN, new Stats(490, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.HP))));
         addNewPokemon(new Firipeck());
         addNewPokemon(new Fyrepecker());
         addNewPokemon(new Bwug());
@@ -111,7 +115,8 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Aquatick());
         addNewPokemon(new Clagcoon());
         addNewPokemon(new Yggdraflygg());
-        addPokedexPokemon("pineco, forretress-norheiman");
+        addPokedexPokemon("pineco");
+        addNewPokemon(new NorheimanForretress("", Aspect.NORHEIMAN, new Stats(465, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
         addNewPokemon(new Grublin());
         addNewPokemon(new Wyrmlagar());
         addNewPokemon(new Pumfin());
@@ -122,9 +127,10 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Magnificant());
         addNewPokemon(new Pyrstack(new Stats(456, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_DEFENCE))));
-        addPokedexPokemon("rookidee-norheiman, corvisquire-norheiman");
+        addNewPokemon(new NorheimanRookidee("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanCorvisquire("", Aspect.NORHEIMAN));
         addNewPokemon(new Corvhugen());
-        addPokedexPokemon("falinks-norheiman");
+        addNewPokemon(new NorheimanFalinks("", Aspect.NORHEIMAN));
         addNewPokemon(new Vaiking());
         addNewPokemon(new Fulion());
         addNewPokemon(new Lopiliar());
@@ -142,7 +148,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Eoterra());
         addNewPokemon(new Tibeti());
         addNewPokemon(new Greynine());
-        addPokedexPokemon("unown-norheiman");
+        addNewPokemon(new NorheimanUnown("", Aspect.NORHEIMAN));
         addNewPokemon(new Waugur());
         addNewPokemon(new Svalbat());
         addNewPokemon(new Svalor(new Stats(440, StatArchetype.FAST_SPECIAL_ATTACKER,
@@ -167,6 +173,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Aprintice());
         addNewPokemon(new Adepthawl(new Stats(567, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new NorheimanSeel("", Aspect.NORHEIMAN));
         addNewPokemon(new Sealady(new Stats(475, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));
         addNewPokemon(new Streuming());
@@ -179,14 +186,17 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Heimdrake());
         addNewPokemon(new Lilpras());
         addPokedexPokemon("lapras");
-        addPokedexPokemon("horsea, seadra-norheiman");
+        addPokedexPokemon("horsea");
+        addNewPokemon(new NorheimanSeadra("", Aspect.NORHEIMAN));
         addNewPokemon(new Queendra(new Stats(540, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addPokedexPokemon("corphish-norheiman, crawdaunt-norheiman, wingull");
+        addNewPokemon(new NorheimanCorphish("Corphish", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanCrawdaunt("Crawdaunt", Aspect.NORHEIMAN, new Stats(468, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
+        addPokedexPokemon("wingull");
         addNewPokemon(new Seascull(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Charryon());
-        addPokedexPokemon("wailwhale-norheiman");
+        addNewPokemon(new NorheimanWailmer("Wailmer", Aspect.NORHEIMAN));
         addNewPokemon(new Wailwhale(new Stats(500, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
                 List.of(StatType.HP))));
         addNewPokemon(new Yellifish());
@@ -198,12 +208,11 @@ public class Norheim extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPECIAL_ATTACK))));
         var crudecay = new Crudecay();
         addNewPokemon(crudecay);
-        addNewPokemon(new MastenianCrudecay("", Aspect.MASTENIAN));  //Missing Stats
-        removePokedexPokemon("crudecay-mastenian");
-        addPokedexPokemon("shellder-norheiman");
+        addNewPokemon(new MastenianCrudecay("", Aspect.MASTENIAN));
+        addNewPokemon(new NorheimanShellder("", Aspect.NORHEIMAN));
         addNewPokemon(new Hingjaw());
         addNewPokemon(new Saberian());
-        addPokedexPokemon("ditto-norheiman");
+        addNewPokemon(new NorheimanDitto("", Aspect.NORHEIMAN));
         addNewPokemon(new Wreggog());
         addNewPokemon(new Terrahorn());
         addNewPokemon(new Thoraxe(new Stats(500, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
@@ -213,13 +222,14 @@ public class Norheim extends drai.dev.data.games.registry.Game {
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Deviburn());
         addNewPokemon(new Valbear());
-        addPokedexPokemon("numel-norheiman");
+        addNewPokemon(new NorheimanNumel("Numel", Aspect.NORHEIMAN));
         addNewPokemon(new Mountox(new Stats(460, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Rampina(new Stats(456, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addPokedexPokemon("diglett-norheiman");
-        addPokedexPokemon("dugtrio-norheiman");
+        addNewPokemon(new NorheimanDiglett("", Aspect.NORHEIMAN));
+        addNewPokemon(new NorheimanDugtrio("", Aspect.NORHEIMAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         addPokedexPokemon("snover");
         addNewPokemon(new Permaent(new Stats(494, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
@@ -231,7 +241,8 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Booseed());
         addNewPokemon(new Glowghast(new Stats(512, StatArchetype.BULKY_SUPPORT,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addPokedexPokemon("glimmora-norheiman");
+        addNewPokemon(new NorheimanGlimmora("", Aspect.NORHEIMAN, new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Anenome());
         addNewPokemon(new Trollskgur());
         addNewPokemon(new Sampig(new Stats(412, StatArchetype.SPECIAL_WALL,
@@ -245,7 +256,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Crimgon());
         addNewPokemon(new Slamander(new Stats(452, StatArchetype.PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK))));
-        addPokedexPokemon("sigilyph-norheiman");
+        addNewPokemon(new NorheimanSigilyph("", Aspect.NORHEIMAN));
         addNewPokemon(new Gloatem());
         addNewPokemon(new Aydoliman(new Stats(487, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
@@ -256,9 +267,13 @@ public class Norheim extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Missacko(new Stats(453, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));
+//        addNewPokemon(new NorheimanShinx(403)); Member of line Not Finished
+//        addNewPokemon(new NorheimanLuxio(404)); Missing Art
+//        addNewPokemon(new NorheimanLuxray(405)); Member of line Not Finished
         addPokedexPokemon("misdreavus");
-        addPokedexPokemon("mismagius-norheiman");
-        addPokedexPokemon("houndour-norheiman");
+        addNewPokemon(new NorheimanMismagius("", Aspect.NORHEIMAN, new Stats(495, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new NorheimanHoundour("", Aspect.NORHEIMAN));
         addNewPokemon(new Grimgarmr(new Stats(500, StatArchetype.MIXED_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Reavler());
@@ -279,7 +294,7 @@ public class Norheim extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Woofurr());
         addNewPokemon(new Varghast());
         addPokedexPokemon("dratini");
-        addPokedexPokemon("dragonair-norheiman");
+        addNewPokemon(new NorheimanDragonair("", Aspect.NORHEIMAN));
         addNewPokemon(new Dracoknight());
         addNewPokemon(new Kiderr());
         addNewPokemon(new Goaterr());

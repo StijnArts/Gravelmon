@@ -4,57 +4,53 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_weezing-01",
-      "pokemon": "weezing forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "35-56",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_overworld"
-        ],
-        "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_weezing-01",
-      "pokemon": "weezing nodorran",
+      "id": "relic_weezing-01",
+      "pokemon": "weezing relic",
       "presets": [
         "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "35-55",
-      "weight": 0.9,
+      "level": "35-49",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
-        "maxY": 0
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_wasteland"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_weezing-01",
+      "pokemon": "weezing delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-57",
+      "weight": 3.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -81,6 +77,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_weezing-01",
+      "pokemon": "weezing forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-56",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -115,53 +139,29 @@
       }
     },
     {
-      "id": "delta_weezing-01",
-      "pokemon": "weezing delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "35-57",
-      "weight": 3.0,
-      "condition": {
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_weezing-01",
-      "pokemon": "weezing relic",
+      "id": "nodorran_weezing-01",
+      "pokemon": "weezing nodorran",
       "presets": [
         "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "35-49",
-      "weight": 0.30000000000000004,
+      "level": "35-55",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain",
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_wasteland"
-        ]
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:tuff"
           ]
         }
       }

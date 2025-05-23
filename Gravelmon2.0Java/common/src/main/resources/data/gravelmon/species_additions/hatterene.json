@@ -2,6 +2,104 @@
   "target": "cobblemon:hatterene",
   "forms": [
     {
+      "name": "Lagoonan",
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "catchRate": 45,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 255,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.63,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 57,
+        "attack": 59,
+        "defence": 95,
+        "special_attack": 134,
+        "special_defence": 95,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:watergun",
+        "1:babydolleyes",
+        "1:tailwhip",
+        "4:drainingkiss",
+        "4:bubblebeam",
+        "8:playnice",
+        "8:brine",
+        "12:dazzlinggleam",
+        "12:surf",
+        "16:hypervoice",
+        "16:chillingwater",
+        "20:moonblast",
+        "20:hydropump",
+        "tm:terablast"
+      ],
+      "labels": [
+        "lagoone",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.lagoonanhatterene.desc"
+      ],
+      "height": 21,
+      "weight": 278,
+      "aspects": [
+        "lagoonan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "psychic",
       "secondaryType": "ghost",
@@ -147,19 +245,20 @@
       }
     },
     {
-      "name": "Lagoonan",
-      "primaryType": "fairy",
-      "secondaryType": "water",
+      "name": "Ayreian",
+      "primaryType": "bug",
+      "secondaryType": "dark",
       "catchRate": 45,
       "maleRatio": 0.0,
-      "baseExperienceYield": 255,
+      "baseExperienceYield": 60,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.63,
+      "baseScale": 0.84,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "intimidate",
+        "anticipation"
       ],
       "behaviour": {
         "resting": {
@@ -175,31 +274,31 @@
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": true
+            "avoidsLand": false
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
+            "canBreatheUnderwater": false,
             "canWalkOnLava": false
           }
         }
       },
       "baseStats": {
         "hp": 57,
-        "attack": 59,
-        "defence": 95,
-        "special_attack": 134,
-        "special_defence": 95,
-        "speed": 70
+        "attack": 125,
+        "defence": 62,
+        "special_attack": 116,
+        "special_defence": 50,
+        "speed": 100
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 3,
         "defence": 0,
-        "special_attack": 3,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
@@ -208,33 +307,77 @@
       ],
       "drops": {},
       "moves": [
-        "1:disarmingvoice",
-        "1:watergun",
-        "1:babydolleyes",
-        "1:tailwhip",
-        "4:drainingkiss",
-        "4:bubblebeam",
-        "8:playnice",
-        "8:brine",
-        "12:dazzlinggleam",
-        "12:surf",
-        "16:hypervoice",
-        "16:chillingwater",
-        "20:moonblast",
-        "20:hydropump",
+        "1:silktrap",
+        "25:skittersmack",
+        "1:feintattack",
+        "55:firstimpression",
+        "37:fellstinger",
+        "30:powertrip",
+        "64:coil",
+        "1:brutalswing",
+        "0:lunge",
+        "20:snarl",
+        "15:screech",
+        "46:knockoff",
+        "1:playnice",
+        "1:pounce",
+        "1:spiderweb",
+        "tm:uproar",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:brutalswing",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:endure",
+        "tm:facade",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:helpinghand",
+        "tm:hyperbeam",
+        "tm:playrough",
+        "tm:powerswap",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychocut",
+        "tm:rest",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:swordsdance",
+        "tm:leechlife",
+        "tm:uturn",
+        "tm:xscissor",
+        "tm:bugbuzz",
+        "tm:bugbite",
+        "tm:stickyweb",
+        "tm:foulplay",
+        "tm:brickbreak",
+        "tm:poisonjab",
+        "tm:trailblaze",
+        "tm:aerialace",
+        "tm:crosschop",
+        "tm:agility",
         "tm:terablast"
       ],
       "labels": [
-        "lagoone",
+        "vanguard",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.lagoonanhatterene.desc"
+        "cobblemon.species.ayreianhatterene.desc"
       ],
-      "height": 21,
-      "weight": 278,
+      "height": 28,
+      "weight": 855,
       "aspects": [
-        "lagoonan"
+        "ayreian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -408,149 +551,6 @@
       }
     },
     {
-      "name": "Ayreian",
-      "primaryType": "bug",
-      "secondaryType": "dark",
-      "catchRate": 45,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.84,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate",
-        "anticipation"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 57,
-        "attack": 125,
-        "defence": 62,
-        "special_attack": 116,
-        "special_defence": 50,
-        "speed": 100
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 3,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "fairy"
-      ],
-      "drops": {},
-      "moves": [
-        "1:silktrap",
-        "25:skittersmack",
-        "1:feintattack",
-        "55:firstimpression",
-        "37:fellstinger",
-        "30:powertrip",
-        "64:coil",
-        "1:brutalswing",
-        "0:lunge",
-        "20:snarl",
-        "15:screech",
-        "46:knockoff",
-        "1:playnice",
-        "1:pounce",
-        "1:spiderweb",
-        "tm:uproar",
-        "tm:attract",
-        "tm:batonpass",
-        "tm:brutalswing",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:darkpulse",
-        "tm:drainingkiss",
-        "tm:endure",
-        "tm:facade",
-        "tm:gigadrain",
-        "tm:gigaimpact",
-        "tm:helpinghand",
-        "tm:hyperbeam",
-        "tm:playrough",
-        "tm:powerswap",
-        "tm:powerwhip",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychocut",
-        "tm:rest",
-        "tm:round",
-        "tm:safeguard",
-        "tm:shadowball",
-        "tm:shadowclaw",
-        "tm:skillswap",
-        "tm:sleeptalk",
-        "tm:snore",
-        "tm:substitute",
-        "tm:swordsdance",
-        "tm:leechlife",
-        "tm:uturn",
-        "tm:xscissor",
-        "tm:bugbuzz",
-        "tm:bugbite",
-        "tm:stickyweb",
-        "tm:foulplay",
-        "tm:brickbreak",
-        "tm:poisonjab",
-        "tm:trailblaze",
-        "tm:aerialace",
-        "tm:crosschop",
-        "tm:agility",
-        "tm:terablast"
-      ],
-      "labels": [
-        "vanguard",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ayreianhatterene.desc"
-      ],
-      "height": 28,
-      "weight": 855,
-      "aspects": [
-        "ayreian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.0,
-        "height": 5.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "epoch_mega",
       "primaryType": "psychic",
       "secondaryType": "ghost",
@@ -579,10 +579,10 @@
     }
   ],
   "features": [
-    "epoch",
     "lagoonan",
-    "novran",
+    "epoch",
     "ayreian",
+    "novran",
     "epoch_mega"
   ]
 }

@@ -4,6 +4,40 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "egho_meganium-01",
+      "pokemon": "meganium egho",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-49",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_island",
+          "#cobblemon:is_tropical_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_meganium-01",
       "pokemon": "meganium epoch",
       "presets": [
@@ -56,19 +90,19 @@
       }
     },
     {
-      "id": "ionosian_meganium-01",
-      "pokemon": "meganium ionosian",
+      "id": "ayreian_meganium-01",
+      "pokemon": "meganium ayreian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-53",
-      "weight": 0.6000000000000001,
+      "level": "36-47",
+      "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
@@ -84,53 +118,19 @@
       }
     },
     {
-      "id": "egho_meganium-01",
-      "pokemon": "meganium egho",
+      "id": "ionosian_meganium-01",
+      "pokemon": "meganium ionosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "32-49",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.6000000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_island",
-          "#cobblemon:is_tropical_island"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_arid",
-          "#cobblemon:is_cold"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ayreian_meganium-01",
-      "pokemon": "meganium ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-47",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "minecraft:cherry_grove"
+          "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,

@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.eldark;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.raian.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -87,7 +88,7 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addPokedexPokemon("baltoy, claydol");
         addNewPokemon(new Azagger(new Stats(545, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE, StatType.DEFENCE))));
 
-        addPokedexPokemon("skarmory-trizoran");
+        addNewPokemon(new TrizoranSkarmory("", Aspect.TRIZORAN));
         addNewPokemon(new Azmory(new Stats(534, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Rosper());
         addNewPokemon(new Vetesper());
@@ -131,7 +132,13 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Collecjunk(new Stats(410, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Rexagon(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
 
-        addPokedexPokemon("gible-trizoran, gabite-trizoran, garchomp-trizoran, absol-trizoran, onix-trizoran");
+        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN));
+        addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN));
+        addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600,
+                StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465,
+                StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new TrizoranOnix("", Aspect.TRIZORAN));
         addNewPokemon(new Rayqunix(new Stats(510, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Cyrok());
         addNewPokemon(new Golasma());

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_59_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_59_by_37",
-      "texture": "cobblemon:textures/pokemon/generation3/varitasianswablu.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianswablu.png",
       "layers": [
         {
           "name": "emissive"

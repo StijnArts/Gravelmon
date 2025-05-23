@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_414.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_414",
-      "texture": "cobblemon:textures/pokemon/generation5/kaskadianexcadrill.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianexcadrill.png",
       "layers": [
         {
           "name": "emissive"

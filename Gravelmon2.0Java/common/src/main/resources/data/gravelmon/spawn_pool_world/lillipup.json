@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_lillipup-01",
+      "pokemon": "lillipup epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-24",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "fabelian_lillipup-01",
       "pokemon": "lillipup fabelian",
       "presets": [
@@ -20,32 +46,6 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_lillipup-01",
-      "pokemon": "lillipup epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "7-24",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

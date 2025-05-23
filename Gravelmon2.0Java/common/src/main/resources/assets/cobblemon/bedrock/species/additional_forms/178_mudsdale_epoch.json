@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_68.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_68",
-      "texture": "cobblemon:textures/pokemon/generation7/epochmudsdale.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmudsdale.png",
       "layers": [
         {
           "name": "emissive"

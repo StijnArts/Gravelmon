@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation2_elekidx.geo",
-      "poser": "cobblemon:generation2_elekidx",
-      "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx.png",
+      "model": "cobblemon:cutout_gravelmon_332_by_450.geo",
+      "poser": "cobblemon:cutout_gravelmon_332_by_450",
+      "texture": "cobblemon:textures/pokemon/xenoverse/elekidx.png",
       "layers": [
         {
           "name": "emissive"
@@ -38,12 +38,11 @@
     },
     {
       "aspects": [
-        "x",
-        "shiny"
+        "x"
       ],
-      "model": "cobblemon:generation2_elekidx.geo",
-      "poser": "cobblemon:generation2_elekidx",
-      "texture": "cobblemon:textures/pokemon/generation2/elekidx/elekidx_shiny.png",
+      "model": "cobblemon:cutout_gravelmon_332_by_450.geo",
+      "poser": "cobblemon:cutout_gravelmon_332_by_450",
+      "texture": "cobblemon:textures/pokemon/xenoverse/elekidx.png",
       "layers": [
         {
           "name": "emissive"

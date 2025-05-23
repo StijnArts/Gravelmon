@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_67_by_74.geo",
       "poser": "cobblemon:cutout_gravelmon_67_by_74",
-      "texture": "cobblemon:textures/pokemon/generation8/epochgreedent.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgreedent.png",
       "layers": [
         {
           "name": "emissive"

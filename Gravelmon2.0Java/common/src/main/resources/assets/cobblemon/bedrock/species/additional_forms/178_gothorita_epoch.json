@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_52.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_52",
-      "texture": "cobblemon:textures/pokemon/generation5/epochgothorita.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgothorita.png",
       "layers": [
         {
           "name": "emissive"

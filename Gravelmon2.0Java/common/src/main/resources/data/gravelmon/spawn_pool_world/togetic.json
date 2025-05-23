@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "hubian_togetic-01",
+      "pokemon": "togetic hubian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "25-40",
+      "weight": 1.35,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "varitasian_togetic-01",
       "pokemon": "togetic varitasian",
       "presets": [
@@ -31,28 +58,26 @@
       }
     },
     {
-      "id": "hubian_togetic-01",
-      "pokemon": "togetic hubian",
+      "id": "epoch_togetic-01",
+      "pokemon": "togetic epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "25-40",
-      "weight": 1.35,
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:nether/is_soul_sand"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -81,31 +106,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_togetic-01",
-      "pokemon": "togetic epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "20-40",
-      "weight": 0.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_soul_sand"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
           ]
         }
       }

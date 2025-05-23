@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_176_by_164.geo",
       "poser": "cobblemon:cutout_gravelmon_176_by_164",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltahydreigon.png",
       "layers": [
         {
           "name": "emissive"
@@ -43,7 +43,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_176_by_164.geo",
       "poser": "cobblemon:cutout_gravelmon_176_by_164",
-      "texture": "cobblemon:textures/pokemon/generation5/deltahydreigon_female.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltahydreigon_female.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_ekans-01",
-      "pokemon": "ekans forman",
+      "id": "alteran_ekans-01",
+      "pokemon": "ekans alteran",
       "presets": [
-        "water"
+        "natural"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "grounded",
       "bucket": "common",
-      "level": "8-35",
-      "weight": 6.8999999999999995,
+      "level": "3-22",
+      "weight": 6.074999999999999,
       "condition": {
         "biomes": [
-          "minecraft:mangrove_swamp"
+          "#cobblemon:is_desert"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,33 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_ekans-01",
-      "pokemon": "ekans nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_crimson"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:target_block"
           ]
         }
       }
@@ -77,6 +51,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_ekans-01",
+      "pokemon": "ekans forman",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "8-35",
+      "weight": 6.8999999999999995,
+      "condition": {
+        "biomes": [
+          "minecraft:mangrove_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }
@@ -109,28 +110,27 @@
       }
     },
     {
-      "id": "alteran_ekans-01",
-      "pokemon": "ekans alteran",
+      "id": "nodorran_ekans-01",
+      "pokemon": "ekans nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.074999999999999,
+      "level": "12-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_crimson"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:magma_block"
           ]
         }
       }

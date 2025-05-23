@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_72_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_72_by_62",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaaron.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaaron.png",
       "layers": [
         {
           "name": "emissive"

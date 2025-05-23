@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_106_by_86.geo",
       "poser": "cobblemon:cutout_gravelmon_106_by_86",
-      "texture": "cobblemon:textures/pokemon/generation5/deltayamask.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltayamask.png",
       "layers": [
         {
           "name": "emissive"

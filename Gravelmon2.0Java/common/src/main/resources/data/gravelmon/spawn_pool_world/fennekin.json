@@ -30,32 +30,6 @@
       }
     },
     {
-      "id": "vesitan_fennekin-01",
-      "pokemon": "fennekin vesitan",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_fennekin-01",
       "pokemon": "fennekin ayreian",
       "presets": [
@@ -78,6 +52,32 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_fennekin-01",
+      "pokemon": "fennekin vesitan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

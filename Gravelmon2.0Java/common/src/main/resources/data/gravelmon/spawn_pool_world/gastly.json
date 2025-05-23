@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "x_gastly-01",
+      "pokemon": "gastly x",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-22",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "palmian_gastly-01",
       "pokemon": "gastly palmian",
       "presets": [
@@ -32,47 +57,21 @@
       }
     },
     {
-      "id": "forman_gastly-01",
-      "pokemon": "gastly forman",
+      "id": "havaiian_gastly-01",
+      "pokemon": "gastly havaiian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 7.199999999999999,
+      "bucket": "uncommon",
+      "level": "6-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland"
-        ],
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:white_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_gastly-01",
-      "pokemon": "gastly nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "16-36",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "timeRange": "night"
+          "#cobblemon:is_volvanic",
+          "#cobblemon:nether/is_soul_fire"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -112,21 +111,21 @@
       }
     },
     {
-      "id": "havaiian_gastly-01",
-      "pokemon": "gastly havaiian",
+      "id": "kaskadian_gastly-01",
+      "pokemon": "gastly kaskadian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "6-31",
-      "weight": 13.5,
+      "level": "12-22",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_volvanic",
-          "#cobblemon:nether/is_soul_fire"
-        ]
+          "#cobblemon:is_temperate"
+        ],
+        "isRaining": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -138,26 +137,27 @@
       }
     },
     {
-      "id": "x_gastly-01",
-      "pokemon": "gastly x",
+      "id": "forman_gastly-01",
+      "pokemon": "gastly forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_grassland"
+        ],
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:white_wool"
           ]
         }
       }
@@ -189,21 +189,21 @@
       }
     },
     {
-      "id": "kaskadian_gastly-01",
-      "pokemon": "gastly kaskadian",
+      "id": "nodorran_gastly-01",
+      "pokemon": "gastly nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "16-36",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_snowy"
         ],
-        "isRaining": true
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

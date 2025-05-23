@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_75_by_65.geo",
       "poser": "cobblemon:cutout_gravelmon_75_by_65",
-      "texture": "cobblemon:textures/pokemon/generation1/alteranarbok.png",
+      "texture": "cobblemon:textures/pokemon/flux/alteranarbok.png",
       "layers": [
         {
           "name": "emissive"

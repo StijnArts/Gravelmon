@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_46.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_46",
-      "texture": "cobblemon:textures/pokemon/generation3/olysosianpoochyena.png",
+      "texture": "cobblemon:textures/pokemon/olysos/olysosianpoochyena.png",
       "layers": [
         {
           "name": "emissive"

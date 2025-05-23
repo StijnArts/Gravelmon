@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation3_deltawailmer.geo",
-      "poser": "cobblemon:generation3_deltawailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer/deltawailmer.png",
+      "model": "cobblemon:insurgence_deltawailmer.geo",
+      "poser": "cobblemon:insurgence_deltawailmer",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawailmer/deltawailmer.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation3_deltawailmer.geo",
-      "poser": "cobblemon:generation3_deltawailmer",
-      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer/deltawailmer_shiny.png",
+      "model": "cobblemon:insurgence_deltawailmer.geo",
+      "poser": "cobblemon:insurgence_deltawailmer",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawailmer/deltawailmer_shiny.png",
       "layers": [
         {
           "name": "emissive"

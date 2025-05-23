@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mastenian_volbeat-01",
-      "pokemon": "volbeat mastenian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-41",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_volbeat-01",
       "pokemon": "volbeat epoch",
       "presets": [
@@ -48,6 +21,33 @@
         "minSkyLight": 0,
         "maxSkyLight": 7,
         "maxY": 0
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mastenian_volbeat-01",
+      "pokemon": "volbeat mastenian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-41",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

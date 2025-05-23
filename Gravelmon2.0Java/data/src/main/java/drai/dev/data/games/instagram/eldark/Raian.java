@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.eldark;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.raian.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -25,6 +26,9 @@ public class Raian extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+
+
+
         addNewPokemon(new Migraff());
         addNewPokemon(new Airgraff());
         addNewPokemon(new Raffrobter(new Stats(530, BULKY_SUPPORT, List.of(HP))));
@@ -156,7 +160,12 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Sossnit(new Stats(590, FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
         addNewPokemon(new Trintity(new Stats(590, MIXED_WALL, List.of(SPEED))));
         addNewPokemon(new Mawata(new Stats(600, ALL_ROUND, List.of(SPECIAL_DEFENCE))));
-        addPokedexPokemon("growlithe, arcanine-raianian, scyther-raianian, scizor-raianian");
+        addPokedexPokemon("growlithe");
+        addNewPokemon(new RaianianArcanine("", Aspect.RAIANIAN, new Stats(555,
+                FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        addNewPokemon(new RaianianScyther("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianScizor("", Aspect.RAIANIAN, new Stats(500,
+                BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
         addPokedexPokemon(
                 "eevee," +
                         "vaporeon," +
@@ -169,9 +178,40 @@ public class Raian extends drai.dev.data.games.registry.Game {
                         "sylveon");
         addNewPokemon(new Cloueon(new Stats(524, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
 
-        addPokedexPokemon("dratini, dragonair, dragonite-raianian, dragonite-raianiantwo, hoothoot, noctowl-raianian, chinchou-raianian" +
-                "lanturn-raianian, phanpy-raianian, donphan-raianian, whismur-raianian, loudred-raianian, exploud-raianian, absol-raianian, bagon, shelgon, salamence-raianian, " +
-                "gible-raianian, gabite-raianian, garchomp-raianian, riolu, lucario-raianian, ralts, kirlia, gardevoir, gallade, gallade-raianian");
+        addPokedexPokemon("dratini, dragonairn");
+        addNewPokemon(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600,
+                BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        addNewPokemon(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600,
+                BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        addPokedexPokemon("hoothoot+" +
+                "");
+        addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542,
+                BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).fishingSpawnFromExisting());
+        addNewPokemon(new RaianianLanturn("", Aspect.RAIANIAN, new Stats(460,
+                PHYSICAL_ATTACKER, List.of(SPECIAL_DEFENCE))).fishingSpawnFromExisting());
+        addNewPokemon(new RaianianPhanpy("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianDonphan("", Aspect.RAIANIAN, new Stats(500,
+                SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        addNewPokemon(new RaianianWhismur("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianLoudred("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianExploud("", Aspect.RAIANIAN, new Stats(490,
+                PHYSICAL_ATTACKER, List.of(HP))));
+        addNewPokemon(new RaianianAbsol("", Aspect.RAIANIAN, new Stats(465,
+                PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))));
+        addPokedexPokemon("bagon, shelgon");
+        addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600,
+                SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN));
+        addNewPokemon(new RaianianGarchomp("", Aspect.RAIANIAN, new Stats(600,
+                BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))));
+        addPokedexPokemon("riolu");
+        addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525,
+                FAST_SPECIAL_ATTACKER, List.of(SPEED))));
+        addPokedexPokemon("ralts, kirlia");
+        addNewPokemon(new RaianianGallade("", Aspect.RAIANIAN, new Stats(518,
+                FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
         addNewPokemon(new TribalRaffrobter("", Aspect.TRIBAL, new Stats(580, BULKY_SUPPORT, List.of(DEFENCE))));
         addNewPokemon(new TribalErtheno("", Aspect.TRIBAL, new Stats(580, BULKY_PHYSICAL_ATTACKER, List.of(HP))));
         addNewPokemon(new TribalAmoxica("", Aspect.TRIBAL, new Stats(580, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));

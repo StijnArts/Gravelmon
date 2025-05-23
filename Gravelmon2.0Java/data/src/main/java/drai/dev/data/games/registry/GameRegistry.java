@@ -4,7 +4,6 @@ import drai.dev.data.games.instagram.artworks218.*;
 import drai.dev.data.games.instagram.eldark.*;
 import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
-import drai.dev.data.games.original.*;
 import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
 import drai.dev.data.games.pokemmo.*;
@@ -16,15 +15,6 @@ import java.util.*;
 public class GameRegistry {
     public static ArrayList<Game> games = new ArrayList<>();
     public static void registerGames(){
-        registerGame(GenerationOne.INSTANCE);
-        registerGame(GenerationTwo.INSTANCE);
-        registerGame(GenerationThree.INSTANCE);
-        registerGame(GenerationFour.INSTANCE);
-        registerGame(GenerationFive.INSTANCE);
-        registerGame(GenerationSix.INSTANCE);
-        registerGame(GenerationSeven.INSTANCE);
-        registerGame(GenerationEight.INSTANCE);
-        registerGame(GenerationNine.INSTANCE);
         DexCounter.setDexCounter(1025);
         registerGame(NeoNintendo.INSTANCE);
         registerGame(Sage.INSTANCE);
@@ -114,6 +104,7 @@ public class GameRegistry {
         registerGame(Ishiria.INSTANCE);
         registerGame(Orbis.INSTANCE);
         registerGame(Beginnings.INSTANCE);
+        registerGame(ChaosInVesita.INSTANCE);
     }
 
     private static void registerGame(Game game) {

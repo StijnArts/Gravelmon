@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crobat-forman",
+  "speciesId": "cobblemon:crobat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

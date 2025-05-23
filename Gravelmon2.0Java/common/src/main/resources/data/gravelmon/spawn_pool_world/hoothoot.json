@@ -4,20 +4,21 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_hoothoot-01",
-      "pokemon": "hoothoot fabelian",
+      "id": "egho_hoothoot-01",
+      "pokemon": "hoothoot egho",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_spooky"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -31,56 +32,28 @@
       }
     },
     {
-      "id": "forman_hoothoot-01",
-      "pokemon": "hoothoot forman",
+      "id": "delta_hoothoot-01",
+      "pokemon": "hoothoot delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-31",
-      "weight": 6.75,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
+          "#cobblemon:is_freezing"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_hoothoot-01",
-      "pokemon": "hoothoot nodorran",
-      "presets": [
-        "mansion"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:packed_ice"
           ]
         }
       }
@@ -142,6 +115,34 @@
       }
     },
     {
+      "id": "forman_hoothoot-01",
+      "pokemon": "hoothoot forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "enjinnian_hoothoot-01",
       "pokemon": "hoothoot enjinnian",
       "presets": [
@@ -170,21 +171,20 @@
       }
     },
     {
-      "id": "egho_hoothoot-01",
-      "pokemon": "hoothoot egho",
+      "id": "fabelian_hoothoot-01",
+      "pokemon": "hoothoot fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "minecraft:the_void"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -198,28 +198,28 @@
       }
     },
     {
-      "id": "delta_hoothoot-01",
-      "pokemon": "hoothoot delta",
+      "id": "nodorran_hoothoot-01",
+      "pokemon": "hoothoot nodorran",
       "presets": [
-        "natural"
+        "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-26",
-      "weight": 12.0,
+      "level": "12-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freezing"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:black_wool"
           ]
         }
       }

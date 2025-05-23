@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_92_by_69.geo",
       "poser": "cobblemon:cutout_gravelmon_92_by_69",
-      "texture": "cobblemon:textures/pokemon/uranium/alteraneshouten.png",
+      "texture": "cobblemon:textures/pokemon/flux/alteraneshouten.png",
       "layers": [
         {
           "name": "emissive"

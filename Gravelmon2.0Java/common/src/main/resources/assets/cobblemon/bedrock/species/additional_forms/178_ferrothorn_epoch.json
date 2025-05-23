@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_75_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_75_by_57",
-      "texture": "cobblemon:textures/pokemon/generation5/epochferrothorn.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochferrothorn.png",
       "layers": [
         {
           "name": "emissive"

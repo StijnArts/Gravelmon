@@ -8,6 +8,8 @@ import drai.dev.data.pokemon.atlas.Pichip;
 import drai.dev.data.pokemon.atlas.Rupsen;
 import drai.dev.data.pokemon.atlas.Shifuu;
 import drai.dev.data.pokemon.rica.*;
+import drai.dev.data.pokemon.rica.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 //done
 public class Rica extends drai.dev.data.games.registry.Game {
@@ -122,7 +124,8 @@ public class Rica extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Welking());
         addNewPokemon(new Amourish());
         addNewPokemon(new Glamoreef());
-        addPokedexPokemon("shellos-rican, gastrodon-rican");
+        addNewPokemon(new RicanShellos("", Aspect.RICAN));
+        addNewPokemon(new RicanGastrodon("", Aspect.RICAN));
         addNewPokemon(new Sweetoad());
         addNewPokemon(new Spoocap());
         addNewPokemon(new Sporror());

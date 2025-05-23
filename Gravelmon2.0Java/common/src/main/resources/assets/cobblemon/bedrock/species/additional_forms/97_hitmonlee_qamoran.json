@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_61_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_61_by_56",
-      "texture": "cobblemon:textures/pokemon/generation1/qamoranhitmonlee.png",
+      "texture": "cobblemon:textures/pokemon/qamor/qamoranhitmonlee.png",
       "layers": [
         {
           "name": "emissive"

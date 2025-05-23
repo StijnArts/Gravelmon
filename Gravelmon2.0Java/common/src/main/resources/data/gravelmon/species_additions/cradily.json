@@ -2,6 +2,138 @@
   "target": "cobblemon:cradily",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "grass",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 173,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "lileep form=hizian",
+      "baseScale": 0.4337349397590361,
+      "cannotDynamax": false,
+      "abilities": [
+        "perishbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 86,
+        "attack": 81,
+        "defence": 97,
+        "special_attack": 107,
+        "special_defence": 81,
+        "speed": 43
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_3"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:defensecurl",
+        "1:rollout",
+        "5:absorb",
+        "9:rapidspin",
+        "13:bulletseed",
+        "17:infestation",
+        "21:hex",
+        "25:megadrain",
+        "29:disable",
+        "35:phantomforce",
+        "40:gigadrain",
+        "45:curse",
+        "50:painsplit",
+        "55:powerwhip",
+        "egg:beatup",
+        "egg:block",
+        "egg:leechseed",
+        "egg:shadowsneak",
+        "egg:strengthsap",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:confuseray",
+        "tm:thief",
+        "tm:trailblaze",
+        "tm:pounce",
+        "tm:facade",
+        "tm:hex",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:bulletseed",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:grassknot",
+        "tm:rest",
+        "tm:spikes",
+        "tm:substitute",
+        "tm:gigadrain",
+        "tm:shadowball",
+        "tm:energyball",
+        "tm:grassyterrain",
+        "tm:phantomforce",
+        "tm:leafstorm",
+        "tm:solarbeam",
+        "tm:terablast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hiziancradily.desc"
+      ],
+      "height": 15,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.1875,
+        "height": 5.1875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "normal",
       "secondaryType": "flying",
@@ -150,142 +282,10 @@
         "height": 4.9375,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "grass",
-      "secondaryType": "ghost",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 173,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "lileep form=hizian",
-      "baseScale": 0.4337349397590361,
-      "cannotDynamax": false,
-      "abilities": [
-        "perishbody"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 86,
-        "attack": 81,
-        "defence": 97,
-        "special_attack": 107,
-        "special_defence": 81,
-        "speed": 43
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_3"
-      ],
-      "drops": {},
-      "moves": [
-        "1:astonish",
-        "1:defensecurl",
-        "1:rollout",
-        "5:absorb",
-        "9:rapidspin",
-        "13:bulletseed",
-        "17:infestation",
-        "21:hex",
-        "25:megadrain",
-        "29:disable",
-        "35:phantomforce",
-        "40:gigadrain",
-        "45:curse",
-        "50:painsplit",
-        "55:powerwhip",
-        "egg:beatup",
-        "egg:block",
-        "egg:leechseed",
-        "egg:shadowsneak",
-        "egg:strengthsap",
-        "tm:scaryface",
-        "tm:protect",
-        "tm:confuseray",
-        "tm:thief",
-        "tm:trailblaze",
-        "tm:pounce",
-        "tm:facade",
-        "tm:hex",
-        "tm:nightshade",
-        "tm:endure",
-        "tm:bulletseed",
-        "tm:sleeptalk",
-        "tm:seedbomb",
-        "tm:grassknot",
-        "tm:rest",
-        "tm:spikes",
-        "tm:substitute",
-        "tm:gigadrain",
-        "tm:shadowball",
-        "tm:energyball",
-        "tm:grassyterrain",
-        "tm:phantomforce",
-        "tm:leafstorm",
-        "tm:solarbeam",
-        "tm:terablast",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hiziancradily.desc"
-      ],
-      "height": 15,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.1875,
-        "height": 5.1875,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "hizian"
+    "hizian",
+    "epoch"
   ]
 }

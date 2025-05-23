@@ -91,7 +91,7 @@
     "cobblemon:pillarble",
     "cobblemon:carvarble",
     "cobblemon:wailmer",
-    "cobblemon:wailord",
+    "cobblemon: wailord",
     "cobblemon:wailord-ferranian",
     "cobblemon:gargorble",
     "cobblemon:cunooty",
@@ -111,6 +111,7 @@
     "cobblemon:slakoth-ferranian",
     "cobblemon:vigoroth-ferranian",
     "cobblemon:vigoking",
+    "cobblemon:vigoking-elbian",
     "cobblemon:savawl",
     "cobblemon:savannage",
     "cobblemon:plasmind",
@@ -125,10 +126,15 @@
     "cobblemon:cobalion-ferranian",
     "cobblemon:bounsweet-ferranian",
     "cobblemon:meleenee",
+    "cobblemon:meowth-ferranian",
     "cobblemon:empeero",
     "cobblemon:perrinnip",
     "cobblemon:viceasus",
     "cobblemon:virtryph",
-    "cobblemon:inuniferus"
+    "cobblemon:inuniferus",
+    "cobblemon:machop-ferranian",
+    "cobblemon:machoke-ferranian",
+    "cobblemon:machamp-ferranian",
+    "cobblemon:sinistea-ferranian"
   ]
 }

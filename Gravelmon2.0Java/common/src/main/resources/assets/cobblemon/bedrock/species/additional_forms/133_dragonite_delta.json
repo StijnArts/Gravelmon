@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_160_by_156.geo",
       "poser": "cobblemon:cutout_gravelmon_160_by_156",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadragonite.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadragonite.png",
       "layers": [
         {
           "name": "emissive"

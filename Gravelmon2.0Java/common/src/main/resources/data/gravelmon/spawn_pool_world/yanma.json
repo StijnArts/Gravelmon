@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_yanma-01",
-      "pokemon": "yanma mahalian",
+      "id": "delta_yanma-01",
+      "pokemon": "yanma delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "11-39",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:moss_block"
           ]
         }
       }
@@ -83,33 +83,6 @@
       }
     },
     {
-      "id": "delta_yanma-01",
-      "pokemon": "yanma delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "11-39",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "kaskadian_yanma-01",
       "pokemon": "yanma kaskadian",
       "presets": [
@@ -124,6 +97,33 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_yanma-01",
+      "pokemon": "yanma mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

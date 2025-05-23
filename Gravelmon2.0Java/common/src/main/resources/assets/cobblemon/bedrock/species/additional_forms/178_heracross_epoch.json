@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_62_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_62_by_62",
-      "texture": "cobblemon:textures/pokemon/generation2/epochheracross.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochheracross.png",
       "layers": [
         {
           "name": "emissive"

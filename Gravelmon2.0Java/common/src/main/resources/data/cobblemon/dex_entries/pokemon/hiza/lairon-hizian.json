@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lairon-hizian",
+  "speciesId": "cobblemon:lairon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hizian",
+      "unlockForms": [
+        "Hizian"
+      ]
+    }
+  ],
+  "variations": []
+}

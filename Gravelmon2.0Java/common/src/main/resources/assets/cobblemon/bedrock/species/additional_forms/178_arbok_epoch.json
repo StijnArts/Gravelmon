@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_58_by_63.geo",
       "poser": "cobblemon:cutout_gravelmon_58_by_63",
-      "texture": "cobblemon:textures/pokemon/generation1/epocharbok.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epocharbok.png",
       "layers": [
         {
           "name": "emissive"

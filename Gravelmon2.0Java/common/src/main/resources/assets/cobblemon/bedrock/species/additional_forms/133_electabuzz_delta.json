@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_112_by_120.geo",
       "poser": "cobblemon:cutout_gravelmon_112_by_120",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaelectabuzz.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaelectabuzz.png",
       "layers": [
         {
           "name": "emissive"

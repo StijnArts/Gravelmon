@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_42_by_44.geo",
       "poser": "cobblemon:cutout_gravelmon_42_by_44",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreianmarshtomp.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianmarshtomp.png",
       "layers": [
         {
           "name": "emissive"

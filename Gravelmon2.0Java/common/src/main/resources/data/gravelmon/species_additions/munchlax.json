@@ -2,21 +2,20 @@
   "target": "cobblemon:munchlax",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "ice",
-      "secondaryType": "psychic",
-      "catchRate": 92,
-      "maleRatio": 0.875,
+      "name": "Delta",
+      "primaryType": "grass",
+      "catchRate": 50,
+      "maleRatio": 0.5,
       "baseExperienceYield": 78,
-      "experienceGroup": "slow",
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.31304347826086953,
+      "baseScale": 0.16,
       "cannotDynamax": false,
       "abilities": [
-        "moody",
-        "gluttony",
-        "h:thickfat"
+        "overcoat",
+        "thickfat",
+        "h:adaptability"
       ],
       "behaviour": {
         "resting": {
@@ -45,12 +44,12 @@
         }
       },
       "baseStats": {
-        "hp": 105,
-        "attack": 20,
-        "defence": 90,
-        "special_attack": 5,
+        "hp": 135,
+        "attack": 85,
+        "defence": 40,
+        "special_attack": 40,
         "special_defence": 85,
-        "speed": 85
+        "speed": 5
       },
       "evYield": {
         "hp": 1,
@@ -65,225 +64,106 @@
       ],
       "drops": {},
       "moves": [
-        "48:storedpower",
-        "52:blizzard",
-        "44:calmmind",
-        "4:defensecurl",
-        "12:drainingkiss",
-        "36:extrasensory",
-        "16:icywind",
-        "32:amnesia",
-        "20:spitup",
-        "20:stockpile",
-        "1:confusion",
-        "1:growl",
-        "20:swallow",
-        "28:psybeam",
-        "40:icebeam",
-        "tm:attract",
-        "tm:blizzard",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bulkup",
+        "1:absorb",
+        "4:rototiller",
+        "9:growth",
+        "12:bulldoze",
+        "17:razorleaf",
+        "20:ingrain",
+        "25:bodyslam",
+        "28:synthesis",
+        "33:grassyterrain",
+        "36:rollout",
+        "41:yawn",
+        "44:bellydrum",
+        "49:grassknot",
+        "50:playrough",
+        "57:leafstorm",
         "tm:bulldoze",
-        "tm:calmmind",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:defog",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:expandingforce",
-        "tm:focusblast",
-        "tm:frostbite",
-        "tm:geomancy",
-        "tm:hail",
-        "tm:haze",
-        "tm:healbell",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:icebeam",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lightscreen",
-        "tm:magicroom",
-        "tm:meteormash",
-        "tm:mist",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:nobleroar",
-        "tm:playrough",
-        "tm:poweruppunch",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicfangs",
-        "tm:psychicterrain",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:snarl",
-        "tm:stealthrock",
-        "tm:stoneedge",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:taunt",
-        "tm:terrainpulse",
+        "tm:roar",
         "tm:toxic",
-        "tm:triattack",
-        "tm:trickroom",
-        "tm:willowisp",
-        "tm:wish",
-        "tm:wonderroom",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:mindblast",
-        "egg:belch",
-        "egg:doubleedge",
-        "egg:zenheadbutt",
-        "egg:rest",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:protect",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:recycle",
+        "tm:energyball",
+        "tm:fling",
+        "tm:embargo",
+        "tm:shadowclaw",
+        "tm:retaliate",
+        "tm:gyroball",
+        "tm:drainpunch",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:poweruppunch",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:quash",
+        "tm:secretpower",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:bulletseed",
+        "tutor:counter",
+        "tutor:covet",
+        "tutor:endure",
+        "tutor:gigadrain",
+        "tutor:helpinghand",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:metronome",
+        "tutor:mimic",
+        "tutor:rollout",
+        "tutor:seedbomb",
+        "tutor:snore",
+        "tutor:synthesis",
+        "tutor:thunderpunch",
+        "tutor:uproar",
+        "tutor:whirlpool",
+        "tutor:worryseed",
+        "tutor:zenheadbutt",
         "tm:terablast"
       ],
       "labels": [
-        "soulstones",
+        "gen4",
+        "insurgence",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.epochmunchlax.desc"
+        "cobblemon.species.deltamunchlax.desc"
       ],
       "height": 6,
       "weight": 1050,
       "aspects": [
-        "epoch"
+        "delta"
       ],
       "evolutions": [
         {
-          "id": "epochmunchlax_snorlax_epoch",
+          "id": "deltamunchlax_snorlax_delta",
           "variant": "level_up",
-          "result": "snorlax epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "40"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.875,
-        "height": 2.875,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ionosian",
-      "primaryType": "grass",
-      "secondaryType": "normal",
-      "catchRate": 170,
-      "maleRatio": 0.87,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.27169811320754716,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:growth",
-        "5:vinewhip",
-        "10:quickattack",
-        "14:odorsleuth",
-        "19:seedbomb",
-        "28:retaliate",
-        "33:synthesis",
-        "45:powerwhip",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ionos",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ionosianmunchlax.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "ionosian"
-      ],
-      "evolutions": [
-        {
-          "id": "ionosianmunchlax_snorlax_ionosian",
-          "variant": "level_up",
-          "result": "snorlax ionosian",
+          "result": "snorlax delta",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "friendship",
-              "amount": "210"
+              "amount": "160"
             }
           ],
           "permanent": true
@@ -291,8 +171,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
+        "width": 5.625,
+        "height": 5.625,
         "fixed": false
       }
     },
@@ -494,20 +374,21 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "grass",
-      "catchRate": 50,
-      "maleRatio": 0.5,
+      "name": "Epoch",
+      "primaryType": "ice",
+      "secondaryType": "psychic",
+      "catchRate": 92,
+      "maleRatio": 0.875,
       "baseExperienceYield": 78,
-      "experienceGroup": "medium_slow",
+      "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16,
+      "baseScale": 0.31304347826086953,
       "cannotDynamax": false,
       "abilities": [
-        "overcoat",
-        "thickfat",
-        "h:adaptability"
+        "moody",
+        "gluttony",
+        "h:thickfat"
       ],
       "behaviour": {
         "resting": {
@@ -536,12 +417,12 @@
         }
       },
       "baseStats": {
-        "hp": 135,
-        "attack": 85,
-        "defence": 40,
-        "special_attack": 40,
+        "hp": 105,
+        "attack": 20,
+        "defence": 90,
+        "special_attack": 5,
         "special_defence": 85,
-        "speed": 5
+        "speed": 85
       },
       "evYield": {
         "hp": 1,
@@ -556,106 +437,118 @@
       ],
       "drops": {},
       "moves": [
-        "1:absorb",
-        "4:rototiller",
-        "9:growth",
-        "12:bulldoze",
-        "17:razorleaf",
-        "20:ingrain",
-        "25:bodyslam",
-        "28:synthesis",
-        "33:grassyterrain",
-        "36:rollout",
-        "41:yawn",
-        "44:bellydrum",
-        "49:grassknot",
-        "50:playrough",
-        "57:leafstorm",
-        "tm:bulldoze",
-        "tm:roar",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:protect",
-        "tm:snatch",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:return",
-        "tm:brickbreak",
-        "tm:doubleteam",
-        "tm:rocktomb",
-        "tm:facade",
-        "tm:rest",
+        "48:storedpower",
+        "52:blizzard",
+        "44:calmmind",
+        "4:defensecurl",
+        "12:drainingkiss",
+        "36:extrasensory",
+        "16:icywind",
+        "32:amnesia",
+        "20:spitup",
+        "20:stockpile",
+        "1:confusion",
+        "1:growl",
+        "20:swallow",
+        "28:psybeam",
+        "40:icebeam",
         "tm:attract",
-        "tm:recycle",
-        "tm:energyball",
-        "tm:fling",
-        "tm:embargo",
-        "tm:shadowclaw",
-        "tm:retaliate",
-        "tm:gyroball",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:defog",
         "tm:drainpunch",
-        "tm:grassknot",
-        "tm:swagger",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:geomancy",
+        "tm:hail",
+        "tm:haze",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteormash",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:playrough",
         "tm:poweruppunch",
-        "tm:substitute",
-        "tm:smackdown",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
         "tm:sleeptalk",
-        "tm:achillesheel",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:quash",
-        "tm:secretpower",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:block",
-        "tutor:bodyslam",
-        "tutor:bulletseed",
-        "tutor:counter",
-        "tutor:covet",
-        "tutor:endure",
-        "tutor:gigadrain",
-        "tutor:helpinghand",
-        "tutor:ironhead",
-        "tutor:knockoff",
-        "tutor:metronome",
-        "tutor:mimic",
-        "tutor:rollout",
-        "tutor:seedbomb",
-        "tutor:snore",
-        "tutor:synthesis",
-        "tutor:thunderpunch",
-        "tutor:uproar",
-        "tutor:whirlpool",
-        "tutor:worryseed",
-        "tutor:zenheadbutt",
+        "tm:snarl",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:mindblast",
+        "egg:belch",
+        "egg:doubleedge",
+        "egg:zenheadbutt",
+        "egg:rest",
         "tm:terablast"
       ],
       "labels": [
-        "gen4",
-        "insurgence",
+        "soulstones",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltamunchlax.desc"
+        "cobblemon.species.epochmunchlax.desc"
       ],
       "height": 6,
       "weight": 1050,
       "aspects": [
-        "delta"
+        "epoch"
       ],
       "evolutions": [
         {
-          "id": "deltamunchlax_snorlax_delta",
+          "id": "epochmunchlax_snorlax_epoch",
           "variant": "level_up",
-          "result": "snorlax delta",
+          "result": "snorlax epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "friendship",
-              "amount": "160"
+              "variant": "level",
+              "minLevel": "40"
             }
           ],
           "permanent": true
@@ -663,8 +556,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.625,
-        "height": 5.625,
+        "width": 2.875,
+        "height": 2.875,
         "fixed": false
       }
     },
@@ -866,13 +759,120 @@
         "height": 3.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Ionosian",
+      "primaryType": "grass",
+      "secondaryType": "normal",
+      "catchRate": 170,
+      "maleRatio": 0.87,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.27169811320754716,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growth",
+        "5:vinewhip",
+        "10:quickattack",
+        "14:odorsleuth",
+        "19:seedbomb",
+        "28:retaliate",
+        "33:synthesis",
+        "45:powerwhip",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ionos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ionosianmunchlax.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "ionosian"
+      ],
+      "evolutions": [
+        {
+          "id": "ionosianmunchlax_snorlax_ionosian",
+          "variant": "level_up",
+          "result": "snorlax ionosian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "friendship",
+              "amount": "210"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "ionosian",
-    "varitasian",
     "delta",
-    "ayreian"
+    "varitasian",
+    "epoch",
+    "ayreian",
+    "ionosian"
   ]
 }

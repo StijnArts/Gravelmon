@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_152_by_161.geo",
       "poser": "cobblemon:cutout_gravelmon_152_by_161",
-      "texture": "cobblemon:textures/pokemon/generation3/cefiranaltaria.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranaltaria.png",
       "layers": [
         {
           "name": "emissive"

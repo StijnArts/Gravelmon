@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:doublade-ottoran",
+  "speciesId": "cobblemon:doublade",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Ottoran",
+      "unlockForms": [
+        "Ottoran"
+      ]
+    }
+  ],
+  "variations": []
+}

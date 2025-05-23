@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_chikorita-01",
-      "pokemon": "chikorita forman",
+      "id": "egho_chikorita-01",
+      "pokemon": "chikorita egho",
       "presets": [
         "natural"
       ],
@@ -16,16 +16,23 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_island",
+          "#cobblemon:is_tropical_island"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_cold"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:moss_block"
           ]
         }
       }
@@ -83,8 +90,8 @@
       }
     },
     {
-      "id": "ionosian_chikorita-01",
-      "pokemon": "chikorita ionosian",
+      "id": "forman_chikorita-01",
+      "pokemon": "chikorita forman",
       "presets": [
         "natural"
       ],
@@ -95,51 +102,16 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_chikorita-01",
-      "pokemon": "chikorita egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_island",
-          "#cobblemon:is_tropical_island"
+          "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_arid",
-          "#cobblemon:is_cold"
-        ]
-      },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:raw_gold_block"
           ]
         }
       }
@@ -158,6 +130,34 @@
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ionosian_chikorita-01",
+      "pokemon": "chikorita ionosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:togekiss-hubian",
+  "speciesId": "cobblemon:togekiss",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hubian",
+      "unlockForms": [
+        "Hubian"
+      ]
+    }
+  ],
+  "variations": []
+}

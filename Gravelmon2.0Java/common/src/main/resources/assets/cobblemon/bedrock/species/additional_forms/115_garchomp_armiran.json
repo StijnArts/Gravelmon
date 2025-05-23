@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_136_by_160.geo",
       "poser": "cobblemon:cutout_gravelmon_136_by_160",
-      "texture": "cobblemon:textures/pokemon/generation4/armirangarchomp.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/armirangarchomp.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_90_by_89.geo",
       "poser": "cobblemon:cutout_gravelmon_90_by_89",
-      "texture": "cobblemon:textures/pokemon/generation6/varitasiantrevenant.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasiantrevenant.png",
       "layers": [
         {
           "name": "emissive"

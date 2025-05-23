@@ -2,124 +2,6 @@
   "target": "cobblemon:grumpig",
   "forms": [
     {
-      "name": "Qamoran",
-      "primaryType": "fighting",
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 165,
-      "experienceGroup": "fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "spoink form=qamoran",
-      "baseScale": 0.28421052631578947,
-      "cannotDynamax": false,
-      "abilities": [
-        "angerpoint",
-        "unaware",
-        "h:unnerve"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 100,
-        "defence": 100,
-        "special_attack": 55,
-        "special_defence": 55,
-        "speed": 80
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:torment",
-        "7:rocksmash",
-        "10:odorsleuth",
-        "15:psychup",
-        "18:revenge",
-        "21:magiccoat",
-        "26:zenheadbutt",
-        "29:powergem",
-        "35:snore",
-        "42:bodypress",
-        "46:payback",
-        "52:closecombat",
-        "60:bounce",
-        "tm:fling",
-        "tm:rockthrow",
-        "tm:terablast"
-      ],
-      "labels": [
-        "qamor",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.qamorangrumpig.desc"
-      ],
-      "height": 9,
-      "weight": 165,
-      "aspects": [
-        "qamoran"
-      ],
-      "evolutions": [
-        {
-          "id": "qamorangrumpig_grumpork",
-          "variant": "level_up",
-          "result": "grumpork",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "45"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.75,
-        "height": 4.75,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "fire",
       "catchRate": 60,
@@ -268,10 +150,128 @@
         "height": 4.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Qamoran",
+      "primaryType": "fighting",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 165,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "spoink form=qamoran",
+      "baseScale": 0.28421052631578947,
+      "cannotDynamax": false,
+      "abilities": [
+        "angerpoint",
+        "unaware",
+        "h:unnerve"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 100,
+        "special_attack": 55,
+        "special_defence": 55,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:torment",
+        "7:rocksmash",
+        "10:odorsleuth",
+        "15:psychup",
+        "18:revenge",
+        "21:magiccoat",
+        "26:zenheadbutt",
+        "29:powergem",
+        "35:snore",
+        "42:bodypress",
+        "46:payback",
+        "52:closecombat",
+        "60:bounce",
+        "tm:fling",
+        "tm:rockthrow",
+        "tm:terablast"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamorangrumpig.desc"
+      ],
+      "height": 9,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [
+        {
+          "id": "qamorangrumpig_grumpork",
+          "variant": "level_up",
+          "result": "grumpork",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.75,
+        "height": 4.75,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "qamoran",
-    "epoch"
+    "epoch",
+    "qamoran"
   ]
 }

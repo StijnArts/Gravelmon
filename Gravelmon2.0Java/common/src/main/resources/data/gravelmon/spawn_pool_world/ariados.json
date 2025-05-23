@@ -4,28 +4,29 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_ariados-01",
-      "pokemon": "ariados fabelian",
+      "id": "epoch_ariados-01",
+      "pokemon": "ariados epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "23-45",
+      "weight": 1.2000000000000002,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_magical"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -56,34 +57,6 @@
       }
     },
     {
-      "id": "epoch_ariados-01",
-      "pokemon": "ariados epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-45",
-      "weight": 1.2000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_ariados-01",
       "pokemon": "ariados ayreian",
       "presets": [
@@ -98,6 +71,33 @@
         "biomes": [
           "#cobblemon:nether/is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_ariados-01",
+      "pokemon": "ariados fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

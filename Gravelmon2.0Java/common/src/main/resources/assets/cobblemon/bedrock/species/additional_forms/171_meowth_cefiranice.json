@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_88_by_98.geo",
       "poser": "cobblemon:cutout_gravelmon_88_by_98",
-      "texture": "cobblemon:textures/pokemon/generation1/cefiranmeowthice.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranmeowthice.png",
       "layers": [
         {
           "name": "emissive"

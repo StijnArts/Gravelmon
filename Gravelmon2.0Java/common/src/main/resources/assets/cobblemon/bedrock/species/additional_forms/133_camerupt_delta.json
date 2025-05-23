@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_144_by_128.geo",
       "poser": "cobblemon:cutout_gravelmon_144_by_128",
-      "texture": "cobblemon:textures/pokemon/generation3/deltacamerupt.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacamerupt.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_70_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_70_by_56",
-      "texture": "cobblemon:textures/pokemon/generation1/nostancloyster.png",
+      "texture": "cobblemon:textures/pokemon/nosto/nostancloyster.png",
       "layers": [
         {
           "name": "emissive"

@@ -2,178 +2,6 @@
   "target": "cobblemon:toxicroak",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "poison",
-      "secondaryType": "psychic",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 172,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "croagunk form=epoch",
-      "baseScale": 0.46567164179104475,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisontouch",
-        "telepathy",
-        "h:effectspore"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 83,
-        "attack": 112,
-        "defence": 60,
-        "special_attack": 95,
-        "special_defence": 80,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "54:gunkshot",
-        "42:poisonjab",
-        "1:mindblast",
-        "16:round",
-        "20:hypnosis",
-        "39:toxic",
-        "4:growl",
-        "1:venomdrench",
-        "45:swordsdance",
-        "1:poisonsting",
-        "tm:acidrain",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:brine",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:closecombat",
-        "tm:confuseray",
-        "tm:corrosivegas",
-        "tm:cosmicpower",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:drainpunch",
-        "tm:earthpower",
-        "tm:echoedvoice",
-        "tm:energyball",
-        "tm:expandingforce",
-        "tm:firepunch",
-        "tm:flipturn",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:gigadrain",
-        "tm:gunkshot",
-        "tm:haze",
-        "tm:heavensknuckle",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:icefang",
-        "tm:icepunch",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:lightscreen",
-        "tm:liquidation",
-        "tm:magicroom",
-        "tm:meteorbeam",
-        "tm:meteormash",
-        "tm:metronome",
-        "tm:mudslide",
-        "tm:nastyplot",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicfangs",
-        "tm:psychicterrain",
-        "tm:raindance",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:scald",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:soak",
-        "tm:steameruption",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:synthesis",
-        "tm:taunt",
-        "tm:thunderfang",
-        "tm:thunderpunch",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:trickroom",
-        "tm:waterpulse",
-        "tm:whirlpool",
-        "tm:wonderroom",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtoxicroak.desc"
-      ],
-      "height": 13,
-      "weight": 444,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.1875,
-        "height": 4.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "fire",
       "catchRate": 75,
@@ -358,10 +186,182 @@
         "height": 8.875,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "poison",
+      "secondaryType": "psychic",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "croagunk form=epoch",
+      "baseScale": 0.46567164179104475,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "telepathy",
+        "h:effectspore"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 83,
+        "attack": 112,
+        "defence": 60,
+        "special_attack": 95,
+        "special_defence": 80,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "54:gunkshot",
+        "42:poisonjab",
+        "1:mindblast",
+        "16:round",
+        "20:hypnosis",
+        "39:toxic",
+        "4:growl",
+        "1:venomdrench",
+        "45:swordsdance",
+        "1:poisonsting",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:firepunch",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:scald",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:soak",
+        "tm:steameruption",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wonderroom",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtoxicroak.desc"
+      ],
+      "height": 13,
+      "weight": 444,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.1875,
+        "height": 4.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "delta"
+    "delta",
+    "epoch"
   ]
 }

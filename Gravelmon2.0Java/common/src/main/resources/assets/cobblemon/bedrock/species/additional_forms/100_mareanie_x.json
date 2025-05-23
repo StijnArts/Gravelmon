@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_49_by_42.geo",
       "poser": "cobblemon:cutout_gravelmon_49_by_42",
-      "texture": "cobblemon:textures/pokemon/generation7/mareaniex.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/mareaniex.png",
       "layers": [
         {
           "name": "emissive"

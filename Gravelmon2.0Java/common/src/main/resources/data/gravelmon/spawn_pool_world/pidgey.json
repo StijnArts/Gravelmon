@@ -4,19 +4,18 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_pidgey-01",
-      "pokemon": "pidgey forman",
+      "id": "delta_pidgey-01",
+      "pokemon": "pidgey delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "7-23",
-      "weight": 13.5,
+      "level": "5-25",
+      "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
           "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,
@@ -26,7 +25,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:hay_block"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -59,18 +58,19 @@
       }
     },
     {
-      "id": "delta_pidgey-01",
-      "pokemon": "pidgey delta",
+      "id": "forman_pidgey-01",
+      "pokemon": "pidgey forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-25",
-      "weight": 4.5,
+      "level": "7-23",
+      "weight": 13.5,
       "condition": {
         "biomes": [
+          "#cobblemon:is_sky",
           "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,
@@ -80,7 +80,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:hay_block"
           ]
         }
       }

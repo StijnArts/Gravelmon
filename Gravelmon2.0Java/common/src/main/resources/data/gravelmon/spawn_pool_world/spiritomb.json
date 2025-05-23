@@ -4,28 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_spiritomb-01",
-      "pokemon": "spiritomb mahalian",
+      "id": "x_spiritomb-01",
+      "pokemon": "spiritomb x",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "22-44",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_end"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:bone_block"
           ]
         }
       }
@@ -56,31 +54,6 @@
       }
     },
     {
-      "id": "x_spiritomb-01",
-      "pokemon": "spiritomb x",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "22-44",
-      "weight": 1.7999999999999998,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_spiritomb-01",
       "pokemon": "spiritomb epoch",
       "presets": [
@@ -103,6 +76,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_spiritomb-01",
+      "pokemon": "spiritomb mahalian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }

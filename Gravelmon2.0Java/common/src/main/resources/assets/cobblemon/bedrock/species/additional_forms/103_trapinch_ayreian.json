@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_45_by_42.geo",
       "poser": "cobblemon:cutout_gravelmon_45_by_42",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreiantrapinch.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiantrapinch.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_venonat-01",
-      "pokemon": "venonat forman",
+      "id": "hizian_venonat-01",
+      "pokemon": "venonat hizian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-34",
-      "weight": 7.199999999999999,
+      "bucket": "common",
+      "level": "6-31",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_savanna"
+          "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -58,19 +58,19 @@
       }
     },
     {
-      "id": "hizian_venonat-01",
-      "pokemon": "venonat hizian",
+      "id": "forman_venonat-01",
+      "pokemon": "venonat forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "6-31",
-      "weight": 13.5,
+      "bucket": "uncommon",
+      "level": "13-34",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland"
+          "#cobblemon:is_savanna"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

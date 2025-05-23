@@ -2,165 +2,6 @@
   "target": "cobblemon:magmar",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "water",
-      "secondaryType": "ice",
-      "catchRate": 100,
-      "maleRatio": 0.25,
-      "baseExperienceYield": 173,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "magby form=epoch",
-      "baseScale": 0.611764705882353,
-      "cannotDynamax": false,
-      "abilities": [
-        "icebody",
-        "h:megalauncher"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 93,
-        "attack": 90,
-        "defence": 74,
-        "special_attack": 78,
-        "special_defence": 90,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "human_like"
-      ],
-      "drops": {},
-      "moves": [
-        "22:waterpulse",
-        "33:darkpulse",
-        "43:hydropump",
-        "54:blizzard",
-        "15:aurorabeam",
-        "1:leer",
-        "19:haze",
-        "12:aquaring",
-        "29:icepunch",
-        "40:raindance",
-        "5:watergun",
-        "8:iceball",
-        "48:waterspout",
-        "1:powdersnow",
-        "19:mist",
-        "26:acidarmor",
-        "36:icebeam",
-        "40:hail",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:blizzard",
-        "tm:bodyslam",
-        "tm:brine",
-        "tm:darkpulse",
-        "tm:echoedvoice",
-        "tm:energyball",
-        "tm:flipturn",
-        "tm:focusblast",
-        "tm:frostbite",
-        "tm:gammaray",
-        "tm:hail",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:icepunch",
-        "tm:iciclespear",
-        "tm:icywind",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:liquidation",
-        "tm:meteorbeam",
-        "tm:mirrorshot",
-        "tm:mist",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:scald",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:soak",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:waterpulse",
-        "tm:whirlpool",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochmagmar.desc"
-      ],
-      "height": 13,
-      "weight": 445,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochmagmar_magmortar_epoch",
-          "variant": "item_interact",
-          "result": "magmortar epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:water_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "water",
       "catchRate": 45,
@@ -336,10 +177,169 @@
         "height": 4.5,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "water",
+      "secondaryType": "ice",
+      "catchRate": 100,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 173,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "magby form=epoch",
+      "baseScale": 0.611764705882353,
+      "cannotDynamax": false,
+      "abilities": [
+        "icebody",
+        "h:megalauncher"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 93,
+        "attack": 90,
+        "defence": 74,
+        "special_attack": 78,
+        "special_defence": 90,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "22:waterpulse",
+        "33:darkpulse",
+        "43:hydropump",
+        "54:blizzard",
+        "15:aurorabeam",
+        "1:leer",
+        "19:haze",
+        "12:aquaring",
+        "29:icepunch",
+        "40:raindance",
+        "5:watergun",
+        "8:iceball",
+        "48:waterspout",
+        "1:powdersnow",
+        "19:mist",
+        "26:acidarmor",
+        "36:icebeam",
+        "40:hail",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:darkpulse",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:flipturn",
+        "tm:focusblast",
+        "tm:frostbite",
+        "tm:gammaray",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:liquidation",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:scald",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:soak",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmagmar.desc"
+      ],
+      "height": 13,
+      "weight": 445,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochmagmar_magmortar_epoch",
+          "variant": "item_interact",
+          "result": "magmortar epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "delta"
+    "delta",
+    "epoch"
   ]
 }

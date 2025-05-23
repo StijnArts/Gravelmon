@@ -2,21 +2,22 @@
   "target": "cobblemon:breloom",
   "forms": [
     {
-      "name": "Mastenian",
-      "primaryType": "dragon",
-      "secondaryType": "grass",
-      "catchRate": 80,
+      "name": "Alteran",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 90,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "baseExperienceYield": 161,
+      "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shroomish form=mastenian",
-      "baseScale": 0.454054054054054,
+      "preEvolution": "shroomish form=alteran",
+      "baseScale": 0.5236363636363636,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
-        "h:technician"
+        "poisontouch",
+        "h:moldbreaker"
       ],
       "behaviour": {
         "resting": {
@@ -45,65 +46,87 @@
         }
       },
       "baseStats": {
-        "hp": 61,
-        "attack": 30,
-        "defence": 65,
-        "special_attack": 118,
-        "special_defence": 65,
-        "speed": 118
+        "hp": 60,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 75,
+        "special_defence": 75,
+        "speed": 70
       },
       "evYield": {
-        "hp": 0,
-        "attack": 0,
+        "hp": 1,
+        "attack": 1,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "grass",
+        "fairy"
       ],
       "drops": {},
       "moves": [
-        "1:scratch",
+        "1:poisontail",
+        "1:stunspore",
+        "1:curse",
+        "1:gigadrain",
+        "1:gastroacid",
+        "1:spore",
         "1:absorb",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:leer",
-        "1:nastyplot",
-        "1:nastyplot",
-        "10:twister",
-        "10:megadrain",
-        "15:dragonbreath",
-        "15:magicalleaf",
-        "20:breakingswipe",
-        "20:gigadrain",
-        "25:dragonpulse",
-        "25:energyball",
-        "30:dracometeor",
-        "30:solarbeam",
+        "1:tackle",
+        "1:poisonpowder",
+        "1:acidspray",
+        "12:ingrain",
+        "15:megadrain",
+        "19:venoshock",
+        "22:headbutt",
+        "28:zenheadbutt",
+        "33:sludgebomb",
+        "39:energyball",
+        "44:toxic",
+        "44:venomdrench",
+        "50:gunkshot",
+        "egg:charm",
+        "egg:faketears",
+        "egg:moonblast",
+        "egg:moonlight",
         "tm:terablast"
       ],
       "labels": [
-        "mastenia",
+        "gen3",
+        "flux",
         "not_modeled",
-        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianbreloom.desc"
+        "cobblemon.species.alteranbreloom.desc"
       ],
-      "height": 14,
-      "weight": 0,
+      "height": 12,
+      "weight": 392,
       "aspects": [
-        "mastenian"
+        "alteran"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "alteranbreloom_brontoloom",
+          "variant": "level_up",
+          "result": "brontoloom",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "38"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.625,
-        "height": 4.625,
+        "width": 3.4375,
+        "height": 3.4375,
         "fixed": false
       }
     },
@@ -258,22 +281,21 @@
       }
     },
     {
-      "name": "Alteran",
-      "primaryType": "grass",
-      "secondaryType": "poison",
-      "catchRate": 90,
+      "name": "Mastenian",
+      "primaryType": "dragon",
+      "secondaryType": "grass",
+      "catchRate": 80,
       "maleRatio": 0.5,
-      "baseExperienceYield": 161,
-      "experienceGroup": "fluctuating",
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shroomish form=alteran",
-      "baseScale": 0.5236363636363636,
+      "preEvolution": "shroomish form=mastenian",
+      "baseScale": 0.454054054054054,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
-        "poisontouch",
-        "h:moldbreaker"
+        "h:technician"
       ],
       "behaviour": {
         "resting": {
@@ -302,94 +324,72 @@
         }
       },
       "baseStats": {
-        "hp": 60,
-        "attack": 100,
-        "defence": 80,
-        "special_attack": 75,
-        "special_defence": 75,
-        "speed": 70
+        "hp": 61,
+        "attack": 30,
+        "defence": 65,
+        "special_attack": 118,
+        "special_defence": 65,
+        "speed": 118
       },
       "evYield": {
-        "hp": 1,
-        "attack": 1,
+        "hp": 0,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "grass",
-        "fairy"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:poisontail",
-        "1:stunspore",
-        "1:curse",
-        "1:gigadrain",
-        "1:gastroacid",
-        "1:spore",
+        "1:scratch",
         "1:absorb",
-        "1:tackle",
-        "1:poisonpowder",
-        "1:acidspray",
-        "12:ingrain",
-        "15:megadrain",
-        "19:venoshock",
-        "22:headbutt",
-        "28:zenheadbutt",
-        "33:sludgebomb",
-        "39:energyball",
-        "44:toxic",
-        "44:venomdrench",
-        "50:gunkshot",
-        "egg:charm",
-        "egg:faketears",
-        "egg:moonblast",
-        "egg:moonlight",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:twister",
+        "10:megadrain",
+        "15:dragonbreath",
+        "15:magicalleaf",
+        "20:breakingswipe",
+        "20:gigadrain",
+        "25:dragonpulse",
+        "25:energyball",
+        "30:dracometeor",
+        "30:solarbeam",
         "tm:terablast"
       ],
       "labels": [
-        "gen3",
-        "flux",
+        "mastenia",
         "not_modeled",
+        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.alteranbreloom.desc"
+        "cobblemon.species.mastenianbreloom.desc"
       ],
-      "height": 12,
-      "weight": 392,
+      "height": 14,
+      "weight": 0,
       "aspects": [
-        "alteran"
+        "mastenian"
       ],
-      "evolutions": [
-        {
-          "id": "alteranbreloom_brontoloom",
-          "variant": "level_up",
-          "result": "brontoloom",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "38"
-            }
-          ],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.4375,
-        "height": 3.4375,
+        "width": 4.625,
+        "height": 4.625,
         "fixed": false
       }
     }
   ],
   "features": [
-    "mastenian",
+    "alteran",
     "epoch",
-    "alteran"
+    "mastenian"
   ]
 }

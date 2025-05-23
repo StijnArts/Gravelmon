@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_94_by_108.geo",
       "poser": "cobblemon:cutout_gravelmon_94_by_108",
-      "texture": "cobblemon:textures/pokemon/generation1/eghotangela.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghotangela.png",
       "layers": [
         {
           "name": "emissive"

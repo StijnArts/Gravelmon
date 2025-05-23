@@ -2,233 +2,6 @@
   "target": "cobblemon:gyarados",
   "forms": [
     {
-      "name": "Ivrisian",
-      "primaryType": "dark",
-      "secondaryType": "poison",
-      "catchRate": 50,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 117,
-        "attack": 99,
-        "defence": 139,
-        "special_attack": 41,
-        "special_defence": 90,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:bite",
-        "1:poisonsting",
-        "1:bulkup",
-        "1:bulkup",
-        "1:leer",
-        "1:leer",
-        "1:calmmind",
-        "1:calmmind",
-        "4:payback",
-        "4:venoshock",
-        "4:taunt",
-        "4:taunt",
-        "7:nightslash",
-        "7:poisontail",
-        "7:substitute",
-        "7:substitute",
-        "10:crunch",
-        "10:toxicspikes",
-        "10:rest",
-        "10:rest",
-        "13:knockoff",
-        "13:sludgebomb",
-        "16:suckerpunch",
-        "16:poisonjab",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ivris",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.ivrisiangyarados.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "ivrisian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Nodorran",
-      "primaryType": "poison",
-      "secondaryType": "dragon",
-      "catchRate": 40,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 190,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "magikarp form=nodorran",
-      "baseScale": 1.5412844036697249,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisonpoint",
-        "intimidate",
-        "h:merciless"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 90,
-        "attack": 130,
-        "defence": 80,
-        "special_attack": 82,
-        "special_defence": 68,
-        "speed": 90
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_2",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "1:acid",
-        "1:scratch",
-        "1:leer",
-        "1:leer",
-        "4:clearsmog",
-        "4:twister",
-        "8:sludge",
-        "8:dragonbreath",
-        "12:toxicspikes",
-        "12:breakingswipe",
-        "16:sludgebomb",
-        "16:dragonpulse",
-        "20:sludgewave",
-        "20:dracometeor",
-        "24:poisonsting",
-        "24:scratch",
-        "28:leer",
-        "28:leer",
-        "33:venoshock",
-        "33:dragonrage",
-        "36:poisontail",
-        "36:dualchop",
-        "40:toxicspikes",
-        "40:breakingswipe",
-        "44:sludgebomb",
-        "44:dragonclaw",
-        "48:poisonjab",
-        "48:outrage",
-        "tm:terablast"
-      ],
-      "labels": [
-        "nodorro",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.nodorrangyarados.desc"
-      ],
-      "height": 70,
-      "weight": 2450,
-      "aspects": [
-        "nodorran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.8125,
-        "height": 6.8125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "electric",
       "secondaryType": "dark",
@@ -382,6 +155,234 @@
       "hitbox": {
         "width": 5.0625,
         "height": 5.0625,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ivrisian",
+      "primaryType": "dark",
+      "secondaryType": "poison",
+      "catchRate": 50,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 117,
+        "attack": 99,
+        "defence": 139,
+        "special_attack": 41,
+        "special_defence": 90,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:poisonsting",
+        "1:bulkup",
+        "1:bulkup",
+        "1:leer",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:payback",
+        "4:venoshock",
+        "4:taunt",
+        "4:taunt",
+        "7:nightslash",
+        "7:poisontail",
+        "7:substitute",
+        "7:substitute",
+        "10:crunch",
+        "10:toxicspikes",
+        "10:rest",
+        "10:rest",
+        "13:knockoff",
+        "13:sludgebomb",
+        "16:suckerpunch",
+        "16:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ivris",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.ivrisiangyarados.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ivrisian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "poison",
+      "secondaryType": "dragon",
+      "catchRate": 40,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 190,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "magikarp form=nodorran",
+      "baseScale": 1.5412844036697249,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint",
+        "intimidate",
+        "h:merciless"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defence": 80,
+        "special_attack": 82,
+        "special_defence": 68,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_2",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:scratch",
+        "1:leer",
+        "1:leer",
+        "4:clearsmog",
+        "4:twister",
+        "8:sludge",
+        "8:dragonbreath",
+        "12:toxicspikes",
+        "12:breakingswipe",
+        "16:sludgebomb",
+        "16:dragonpulse",
+        "20:sludgewave",
+        "20:dracometeor",
+        "24:poisonsting",
+        "24:scratch",
+        "28:leer",
+        "28:leer",
+        "33:venoshock",
+        "33:dragonrage",
+        "36:poisontail",
+        "36:dualchop",
+        "40:toxicspikes",
+        "40:breakingswipe",
+        "44:sludgebomb",
+        "44:dragonclaw",
+        "48:poisonjab",
+        "48:outrage",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorrangyarados.desc"
+      ],
+      "height": 70,
+      "weight": 2450,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.8125,
+        "height": 6.8125,
         "fixed": false
       }
     },
@@ -571,9 +572,9 @@
     }
   ],
   "features": [
+    "epoch",
     "ivrisian",
     "nodorran",
-    "epoch",
     "ishirian",
     "epoch_mega"
   ]

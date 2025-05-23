@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_40_by_34.geo",
       "poser": "cobblemon:cutout_gravelmon_40_by_34",
-      "texture": "cobblemon:textures/pokemon/generation2/kaskadianmarill.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianmarill.png",
       "layers": [
         {
           "name": "emissive"

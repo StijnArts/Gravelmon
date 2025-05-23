@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_47.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_47",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreianlitleo.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianlitleo.png",
       "layers": [
         {
           "name": "emissive"

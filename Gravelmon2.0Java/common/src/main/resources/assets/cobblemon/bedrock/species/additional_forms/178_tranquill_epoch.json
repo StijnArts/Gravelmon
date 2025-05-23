@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_43_by_53.geo",
       "poser": "cobblemon:cutout_gravelmon_43_by_53",
-      "texture": "cobblemon:textures/pokemon/generation5/epochtranquill.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtranquill.png",
       "layers": [
         {
           "name": "emissive"

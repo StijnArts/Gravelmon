@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_spearow-01",
-      "pokemon": "spearow forman",
+      "id": "egho_spearow-01",
+      "pokemon": "spearow egho",
       "presets": [
         "natural"
       ],
@@ -13,12 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 7.199999999999999,
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freezing",
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_hills",
+          "#cobblemon:is_temperate"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -26,7 +27,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_ice"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -59,8 +60,8 @@
       }
     },
     {
-      "id": "egho_spearow-01",
-      "pokemon": "spearow egho",
+      "id": "forman_spearow-01",
+      "pokemon": "spearow forman",
       "presets": [
         "natural"
       ],
@@ -68,13 +69,12 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 3.0,
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_hills",
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_freezing",
+          "#cobblemon:is_mountain"
         ],
-        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -82,7 +82,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:packed_ice"
           ]
         }
       }

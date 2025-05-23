@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_96_by_95.geo",
       "poser": "cobblemon:cutout_gravelmon_96_by_95",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitannoivern.png",
+      "texture": "cobblemon:textures/pokemon/chaosinvesita/vesitannoivern.png",
       "layers": [
         {
           "name": "emissive"

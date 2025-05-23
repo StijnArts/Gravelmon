@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_64_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_64_by_66",
-      "texture": "cobblemon:textures/pokemon/generation2/deltaremoraid.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaremoraid.png",
       "layers": [
         {
           "name": "emissive"

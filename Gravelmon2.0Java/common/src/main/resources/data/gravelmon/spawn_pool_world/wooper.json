@@ -4,6 +4,56 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_wooper-01",
+      "pokemon": "wooper delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-35",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_wooper-01",
+      "pokemon": "wooper epoch",
+      "presets": [
+        "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-28",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volvanic"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_wooper-01",
       "pokemon": "wooper forman",
       "presets": [
@@ -51,56 +101,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_wooper-01",
-      "pokemon": "wooper epoch",
-      "presets": [
-        "near_water"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "5-28",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_volvanic"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_wooper-01",
-      "pokemon": "wooper delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "4-35",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
           ]
         }
       }

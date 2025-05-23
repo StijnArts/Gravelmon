@@ -2,282 +2,6 @@
   "target": "cobblemon:dunsparce",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "water",
-      "secondaryType": "dragon",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.056249999999999994,
-      "cannotDynamax": false,
-      "abilities": [
-        "waterabsorb"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 91,
-        "attack": 27,
-        "defence": 59,
-        "special_attack": 65,
-        "special_defence": 77,
-        "speed": 32
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:watergun",
-        "1:scratch",
-        "1:bulkup",
-        "1:bulkup",
-        "1:tailwhip",
-        "1:leer",
-        "1:calmmind",
-        "1:calmmind",
-        "4:bubblebeam",
-        "4:twister",
-        "4:taunt",
-        "4:taunt",
-        "7:brine",
-        "7:dragonbreath",
-        "7:substitute",
-        "7:substitute",
-        "10:surf",
-        "10:breakingswipe",
-        "10:rest",
-        "10:rest",
-        "13:chillingwater",
-        "13:dragonpulse",
-        "16:hydropump",
-        "16:dracometeor",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formandunsparce.desc"
-      ],
-      "height": 12,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formandunsparce_dunrada",
-          "variant": "item_interact",
-          "result": "dunrada",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:water_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "bug",
-      "secondaryType": "poison",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 145,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.7826086956521738,
-      "cannotDynamax": false,
-      "abilities": [
-        "emergencyexit",
-        "runaway",
-        "h:eartheater"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 95,
-        "defence": 70,
-        "special_attack": 45,
-        "special_defence": 40,
-        "speed": 65
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "12:glare",
-        "20:skittersmack",
-        "24:dig",
-        "56:plague",
-        "36:poisonjab",
-        "4:supersonic",
-        "52:endeavor",
-        "8:fellstinger",
-        "44:coil",
-        "32:leechlife",
-        "40:toxicspikes",
-        "28:screech",
-        "40:venomdrench",
-        "16:poisonfang",
-        "tm:acidrain",
-        "tm:aromatherapy",
-        "tm:attract",
-        "tm:bulletseed",
-        "tm:corrosivegas",
-        "tm:curse",
-        "tm:defog",
-        "tm:earthpower",
-        "tm:energyball",
-        "tm:furycutter",
-        "tm:gastroacid",
-        "tm:geomancy",
-        "tm:gigadrain",
-        "tm:gunkshot",
-        "tm:hiddenpower",
-        "tm:hivemind",
-        "tm:leechlife",
-        "tm:nastyplot",
-        "tm:pinmissile",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:rest",
-        "tm:return",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:stealthrock",
-        "tm:strugglebug",
-        "tm:sunnyday",
-        "tm:synthesis",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:uturn",
-        "tm:workup",
-        "egg:minimize",
-        "egg:agility",
-        "egg:batonpass",
-        "egg:endure",
-        "egg:bugbite",
-        "egg:crosspoison",
-        "egg:poisontail",
-        "egg:infestation",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochdunsparce.desc"
-      ],
-      "height": 15,
-      "weight": 140,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochdunsparce_dudunsparce_epoch",
-          "variant": "item_interact",
-          "result": "dudunsparce epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:silver_powder",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.875,
-        "height": 2.875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "bug",
       "secondaryType": "water",
@@ -461,6 +185,283 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "bug",
+      "secondaryType": "poison",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 145,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.7826086956521738,
+      "cannotDynamax": false,
+      "abilities": [
+        "emergencyexit",
+        "runaway",
+        "h:eartheater"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 95,
+        "defence": 70,
+        "special_attack": 45,
+        "special_defence": 40,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "12:glare",
+        "20:skittersmack",
+        "24:dig",
+        "56:plague",
+        "36:poisonjab",
+        "4:supersonic",
+        "52:endeavor",
+        "8:fellstinger",
+        "44:coil",
+        "32:leechlife",
+        "40:toxicspikes",
+        "28:screech",
+        "40:venomdrench",
+        "16:poisonfang",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:corrosivegas",
+        "tm:curse",
+        "tm:defog",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:stealthrock",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:workup",
+        "egg:minimize",
+        "egg:agility",
+        "egg:batonpass",
+        "egg:endure",
+        "egg:bugbite",
+        "egg:crosspoison",
+        "egg:poisontail",
+        "egg:infestation",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochdunsparce.desc"
+      ],
+      "height": 15,
+      "weight": 140,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochdunsparce_dudunsparce_epoch",
+          "variant": "item_interact",
+          "result": "dudunsparce epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:silver_powder",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.875,
+        "height": 2.875,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "water",
+      "secondaryType": "dragon",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.056249999999999994,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 91,
+        "attack": 27,
+        "defence": 59,
+        "special_attack": 65,
+        "special_defence": 77,
+        "speed": 32
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:scratch",
+        "1:bulkup",
+        "1:bulkup",
+        "1:tailwhip",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:bubblebeam",
+        "4:twister",
+        "4:taunt",
+        "4:taunt",
+        "7:brine",
+        "7:dragonbreath",
+        "7:substitute",
+        "7:substitute",
+        "10:surf",
+        "10:breakingswipe",
+        "10:rest",
+        "10:rest",
+        "13:chillingwater",
+        "13:dragonpulse",
+        "16:hydropump",
+        "16:dracometeor",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formandunsparce.desc"
+      ],
+      "height": 12,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formandunsparce_dunrada",
+          "variant": "item_interact",
+          "result": "dunrada",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Hoennian",
       "primaryType": "normal",
       "secondaryType": "electric",
@@ -598,9 +599,9 @@
     }
   ],
   "features": [
-    "forman",
-    "epoch",
     "delta",
+    "epoch",
+    "forman",
     "hoennian"
   ],
   "evolutions": [

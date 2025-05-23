@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation5_galvantulax.geo",
-      "poser": "cobblemon:generation5_galvantulax",
-      "texture": "cobblemon:textures/pokemon/generation5/galvantulax/galvantulax.png",
+      "model": "cobblemon:xenoverse_galvantulax.geo",
+      "poser": "cobblemon:xenoverse_galvantulax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/galvantulax/galvantulax.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation5_galvantulax.geo",
-      "poser": "cobblemon:generation5_galvantulax",
-      "texture": "cobblemon:textures/pokemon/generation5/galvantulax/galvantulax_shiny.png",
+      "model": "cobblemon:xenoverse_galvantulax.geo",
+      "poser": "cobblemon:xenoverse_galvantulax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/galvantulax/galvantulax_shiny.png",
       "layers": [
         {
           "name": "emissive"

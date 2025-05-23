@@ -4,6 +4,62 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_munchlax-01",
+      "pokemon": "munchlax delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "varitasian_munchlax-01",
+      "pokemon": "munchlax varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-39",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_munchlax-01",
       "pokemon": "munchlax epoch",
       "presets": [
@@ -17,6 +73,33 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ayreian_munchlax-01",
+      "pokemon": "munchlax ayreian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -59,89 +142,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_munchlax-01",
-      "pokemon": "munchlax varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "24-39",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky",
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_munchlax-01",
-      "pokemon": "munchlax delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "5-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ayreian_munchlax-01",
-      "pokemon": "munchlax ayreian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "3-22",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
           ]
         }
       }

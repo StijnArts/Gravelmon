@@ -4,34 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_slugma-01",
-      "pokemon": "slugma forman",
+      "id": "cefiran_slugma-01",
+      "pokemon": "slugma cefiran",
       "presets": [
-        "natural",
-        "gemstones"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-38",
-      "weight": 2.25,
+      "level": "12-27",
+      "weight": 2.7,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_deep_dark"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:cauldron"
           ]
         }
       }
@@ -87,28 +81,34 @@
       }
     },
     {
-      "id": "cefiran_slugma-01",
-      "pokemon": "slugma cefiran",
+      "id": "forman_slugma-01",
+      "pokemon": "slugma forman",
       "presets": [
-        "natural"
+        "natural",
+        "gemstones"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-27",
-      "weight": 2.7,
+      "level": "15-38",
+      "weight": 2.25,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:cauldron"
+            "minecraft:tuff"
           ]
         }
       }

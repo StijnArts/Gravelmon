@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_77_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_77_by_62",
-      "texture": "cobblemon:textures/pokemon/generation2/norheimanforretress.png",
+      "texture": "cobblemon:textures/pokemon/norheim/norheimanforretress.png",
       "layers": [
         {
           "name": "emissive"

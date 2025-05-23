@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.aristos.*;
+import drai.dev.data.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 //Done
 public class Aristos extends drai.dev.data.games.registry.Game {
@@ -13,15 +15,22 @@ public class Aristos extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
-        addPokedexPokemon("sentret-aristosian, furret-aristosian, spinarak-aristosian");
+        addNewPokemon(new AristosianSentret("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianFurret("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianSpinarak("", Aspect.ARISTOSIAN));
         addNewPokemon(new Lanidos());
-        addPokedexPokemon("bellsprout-aristosian, weepinbell-aristosian, victreebel-aristosian," +
-                "mareep-aristosian, flaaffy-aristosian");
+//        addNewPokemon(new AristosianTaillow(276)); Member of line not finished
+        addNewPokemon(new AristosianBellsprout("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianWeepinbell("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianVictreebel("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianMareep("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianFlaaffy("", Aspect.ARISTOSIAN));
         addNewPokemon(new Ramvolt());
 //        addNewPokemon(new Tuckle()); Missing Art
         addPokedexPokemon("farfetchd");
         addNewPokemon(new Achiefd());
-        addPokedexPokemon("growlithe-aristosian, arcanine-aristosian");
+        addNewPokemon(new AristosianGrowlithe("", Aspect.ARISTOSIAN));
+        addNewPokemon(new AristosianArcanine("", Aspect.ARISTOSIAN));
 //        addNewPokemon(new Probotheos()); Missing Art
         addPokedexPokemon("magikarp, gyarados");
         addNewPokemon(new Kamurados());
@@ -32,9 +41,9 @@ public class Aristos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tangorgon());
 //        addNewPokemon(new Soulix()); Missing Art
 //        addNewPokemon(new Fledjed()); Missing Art
-        addPokedexPokemon("tropius-aristosian");
+        addNewPokemon(new AristosianTropius("Tropius", Aspect.ARISTOSIAN));
         addNewPokemon(new Kangazad());
-        addPokedexPokemon("kangaskhan-aristosian");
+        addNewPokemon(new AristosianKangaskhan("", Aspect.ARISTOSIAN));
 //        addNewPokemon(new Paloarmo()); Missing Art Renamed from Pharoar
         addNewPokemon(new EPP_v11());
 //        addNewPokemon(new Pharoar()); Missing Art

@@ -4,6 +4,58 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "epoch_paras-01",
+      "pokemon": "paras epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-29",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_paras-01",
+      "pokemon": "paras epoch",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "9-29",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "forman_paras-01",
       "pokemon": "paras forman",
       "presets": [
@@ -20,31 +72,6 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_paras-01",
-      "pokemon": "paras epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "11-29",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -76,33 +103,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_paras-01",
-      "pokemon": "paras epoch",
-      "presets": [
-        "reef"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "uncommon",
-      "level": "9-29",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
           ]
         }
       }

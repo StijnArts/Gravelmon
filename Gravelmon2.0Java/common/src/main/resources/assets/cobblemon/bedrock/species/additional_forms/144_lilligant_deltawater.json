@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_114_by_148.geo",
       "poser": "cobblemon:cutout_gravelmon_114_by_148",
-      "texture": "cobblemon:textures/pokemon/generation5/deltawaterlilligant.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawaterlilligant.png",
       "layers": [
         {
           "name": "emissive"

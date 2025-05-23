@@ -2,6 +2,183 @@
   "target": "cobblemon:kabutops",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "bug",
+      "secondaryType": "dark",
+      "catchRate": 190,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 71,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "kabuto form=delta",
+      "baseScale": 0.21081081081081082,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "unnerve",
+        "h:toughclaws"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 115,
+        "defence": 105,
+        "special_attack": 65,
+        "special_defence": 70,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:psychocut",
+        "1:feint",
+        "1:scratch",
+        "1:focusenergy",
+        "1:furycutter",
+        "1:leer",
+        "6:furycutter",
+        "11:leer",
+        "16:furyswipes",
+        "21:taunt",
+        "26:screech",
+        "31:nightslash",
+        "36:xscissor",
+        "40:slash",
+        "45:swordsdance",
+        "54:pursuit",
+        "63:dualchop",
+        "72:psychocut",
+        "tm:honeclaws",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:return",
+        "tm:dig",
+        "tm:shadowball",
+        "tm:brickbreak",
+        "tm:doubleteam",
+        "tm:sludgebomb",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:lowsweep",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:newmoon",
+        "tm:embargo",
+        "tm:shadowclaw",
+        "tm:payback",
+        "tm:retaliate",
+        "tm:gigaimpact",
+        "tm:swordsdance",
+        "tm:venoshock",
+        "tm:rockslide",
+        "tm:xscissor",
+        "tm:poisonjab",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:silverwind",
+        "tm:lunarcannon",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:cut",
+        "tutor:acid",
+        "tutor:bodyslam",
+        "tutor:bugbite",
+        "tutor:dig",
+        "tutor:dualchop",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gastroacid",
+        "tutor:gigadrain",
+        "tutor:gunkshot",
+        "tutor:knockoff",
+        "tutor:lowkick",
+        "tutor:megakick",
+        "tutor:mimic",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:superpower",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltakabutops.desc"
+      ],
+      "height": 13,
+      "weight": 405,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.25,
+        "height": 9.25,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "bug",
       "secondaryType": "grass",
@@ -287,188 +464,11 @@
         "height": 5.125,
         "fixed": false
       }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "bug",
-      "secondaryType": "dark",
-      "catchRate": 190,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 71,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "kabuto form=delta",
-      "baseScale": 0.21081081081081082,
-      "cannotDynamax": false,
-      "abilities": [
-        "swarm",
-        "unnerve",
-        "h:toughclaws"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 60,
-        "attack": 115,
-        "defence": 105,
-        "special_attack": 65,
-        "special_defence": 70,
-        "speed": 80
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:psychocut",
-        "1:feint",
-        "1:scratch",
-        "1:focusenergy",
-        "1:furycutter",
-        "1:leer",
-        "6:furycutter",
-        "11:leer",
-        "16:furyswipes",
-        "21:taunt",
-        "26:screech",
-        "31:nightslash",
-        "36:xscissor",
-        "40:slash",
-        "45:swordsdance",
-        "54:pursuit",
-        "63:dualchop",
-        "72:psychocut",
-        "tm:honeclaws",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:taunt",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:raindance",
-        "tm:snatch",
-        "tm:frustration",
-        "tm:return",
-        "tm:dig",
-        "tm:shadowball",
-        "tm:brickbreak",
-        "tm:doubleteam",
-        "tm:sludgebomb",
-        "tm:rocktomb",
-        "tm:aerialace",
-        "tm:torment",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:lowsweep",
-        "tm:falseswipe",
-        "tm:fling",
-        "tm:newmoon",
-        "tm:embargo",
-        "tm:shadowclaw",
-        "tm:payback",
-        "tm:retaliate",
-        "tm:gigaimpact",
-        "tm:swordsdance",
-        "tm:venoshock",
-        "tm:rockslide",
-        "tm:xscissor",
-        "tm:poisonjab",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:darkpulse",
-        "tm:achillesheel",
-        "tm:silverwind",
-        "tm:lunarcannon",
-        "tm:round",
-        "tm:captivate",
-        "tm:snarl",
-        "tm:confide",
-        "tm:darkmatter",
-        "tm:secretpower",
-        "tm:rockclimb",
-        "tm:cut",
-        "tutor:acid",
-        "tutor:bodyslam",
-        "tutor:bugbite",
-        "tutor:dig",
-        "tutor:dualchop",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:foulplay",
-        "tutor:gastroacid",
-        "tutor:gigadrain",
-        "tutor:gunkshot",
-        "tutor:knockoff",
-        "tutor:lowkick",
-        "tutor:megakick",
-        "tutor:mimic",
-        "tutor:signalbeam",
-        "tutor:snore",
-        "tutor:spite",
-        "tutor:superpower",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen1",
-        "insurgence",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltakabutops.desc"
-      ],
-      "height": 13,
-      "weight": 405,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 9.25,
-        "height": 9.25,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "delta",
     "epoch",
-    "epochtwo",
-    "delta"
+    "epochtwo"
   ]
 }

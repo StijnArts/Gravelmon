@@ -4,6 +4,33 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_vibrava-01",
+      "pokemon": "vibrava cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-44",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_vibrava-01",
       "pokemon": "vibrava epoch",
       "presets": [
@@ -24,33 +51,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ionosian_vibrava-01",
-      "pokemon": "vibrava ionosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "35-51",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
           ]
         }
       }
@@ -83,15 +83,15 @@
       }
     },
     {
-      "id": "cefiran_vibrava-01",
-      "pokemon": "vibrava cefiran",
+      "id": "ionosian_vibrava-01",
+      "pokemon": "vibrava ionosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "35-44",
+      "bucket": "uncommon",
+      "level": "35-51",
       "weight": 1.5,
       "condition": {
         "biomes": [

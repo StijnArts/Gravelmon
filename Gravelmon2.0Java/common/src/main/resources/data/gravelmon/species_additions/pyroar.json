@@ -2,6 +2,108 @@
   "target": "cobblemon:pyroar",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "ghost",
+      "secondaryType": "flying",
+      "catchRate": 65,
+      "maleRatio": 0.125,
+      "baseExperienceYield": 177,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "litleo form=hizian",
+      "baseScale": 0.40909090909090906,
+      "cannotDynamax": false,
+      "abilities": [
+        "windrider"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 76,
+        "attack": 119,
+        "defence": 72,
+        "special_attack": 68,
+        "special_defence": 66,
+        "speed": 106
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:hurricane",
+        "5:gust",
+        "8:workup",
+        "11:shadowsneak",
+        "15:nobleroar",
+        "18:ominouswind",
+        "20:whirlwind",
+        "23:twister",
+        "28:spite",
+        "33:shadowclaw",
+        "35:tailwind",
+        "41:crunch",
+        "46:lastresort",
+        "50:playrough",
+        "57:phantomforce",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hizianpyroar.desc"
+      ],
+      "height": 15,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ice",
       "secondaryType": "sound",
@@ -133,261 +235,6 @@
       "weight": 815,
       "aspects": [
         "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.8125,
-        "height": 4.8125,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "ghost",
-      "secondaryType": "flying",
-      "catchRate": 65,
-      "maleRatio": 0.125,
-      "baseExperienceYield": 177,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "litleo form=hizian",
-      "baseScale": 0.40909090909090906,
-      "cannotDynamax": false,
-      "abilities": [
-        "windrider"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 76,
-        "attack": 119,
-        "defence": 72,
-        "special_attack": 68,
-        "special_defence": 66,
-        "speed": 106
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:hurricane",
-        "5:gust",
-        "8:workup",
-        "11:shadowsneak",
-        "15:nobleroar",
-        "18:ominouswind",
-        "20:whirlwind",
-        "23:twister",
-        "28:spite",
-        "33:shadowclaw",
-        "35:tailwind",
-        "41:crunch",
-        "46:lastresort",
-        "50:playrough",
-        "57:phantomforce",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hizianpyroar.desc"
-      ],
-      "height": 15,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.5,
-        "height": 5.5,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "poison",
-      "secondaryType": "normal",
-      "catchRate": 65,
-      "maleRatio": 0.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "litleo form=ayreian",
-      "baseScale": 0.4675324675324675,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisontouch",
-        "rattled"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 86,
-        "attack": 109,
-        "defence": 66,
-        "special_attack": 106,
-        "special_defence": 68,
-        "speed": 72
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:skittersmack",
-        "1:tackle",
-        "1:leer",
-        "38:poisonjab",
-        "57:direclaw",
-        "28:slash",
-        "48:hypervoice",
-        "42:crunch",
-        "51:doubleedge",
-        "20:takedown",
-        "5:poisongas",
-        "11:headbutt",
-        "8:workup",
-        "33:firefang",
-        "23:poisonfang",
-        "1:gigaimpact",
-        "15:nobleroar",
-        "tm:beatup",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:bulldoze",
-        "tm:burningjealousy",
-        "tm:charm",
-        "tm:crosspoison",
-        "tm:crunch",
-        "tm:darkpulse",
-        "tm:dig",
-        "tm:echoedvoice",
-        "tm:endeavor",
-        "tm:firefang",
-        "tm:focusenergy",
-        "tm:foulplay",
-        "tm:gunkshot",
-        "tm:headbutt",
-        "tm:helpinghand",
-        "tm:honeclaws",
-        "tm:hyperbeam",
-        "tm:hypervoice",
-        "tm:irontail",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:metalclaw",
-        "tm:mudshot",
-        "tm:overheat",
-        "tm:payback",
-        "tm:poisontail",
-        "tm:raindance",
-        "tm:retaliate",
-        "tm:revenge",
-        "tm:roar",
-        "tm:rocksmash",
-        "tm:scaryface",
-        "tm:sludgebomb",
-        "tm:snarl",
-        "tm:snatch",
-        "tm:solarbeam",
-        "tm:strength",
-        "tm:sunnyday",
-        "tm:tailslap",
-        "tm:takedown",
-        "tm:taunt",
-        "tm:thief",
-        "tm:toxic",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "vanguard",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.ayreianpyroar.desc"
-      ],
-      "height": 15,
-      "weight": 815,
-      "aspects": [
-        "ayreian"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -561,12 +408,165 @@
         "height": 4.25,
         "fixed": false
       }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "poison",
+      "secondaryType": "normal",
+      "catchRate": 65,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "litleo form=ayreian",
+      "baseScale": 0.4675324675324675,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch",
+        "rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 86,
+        "attack": 109,
+        "defence": 66,
+        "special_attack": 106,
+        "special_defence": 68,
+        "speed": 72
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:skittersmack",
+        "1:tackle",
+        "1:leer",
+        "38:poisonjab",
+        "57:direclaw",
+        "28:slash",
+        "48:hypervoice",
+        "42:crunch",
+        "51:doubleedge",
+        "20:takedown",
+        "5:poisongas",
+        "11:headbutt",
+        "8:workup",
+        "33:firefang",
+        "23:poisonfang",
+        "1:gigaimpact",
+        "15:nobleroar",
+        "tm:beatup",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:crosspoison",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:firefang",
+        "tm:focusenergy",
+        "tm:foulplay",
+        "tm:gunkshot",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:honeclaws",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:metalclaw",
+        "tm:mudshot",
+        "tm:overheat",
+        "tm:payback",
+        "tm:poisontail",
+        "tm:raindance",
+        "tm:retaliate",
+        "tm:revenge",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:scaryface",
+        "tm:sludgebomb",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:tailslap",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:thief",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianpyroar.desc"
+      ],
+      "height": 15,
+      "weight": 815,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.8125,
+        "height": 4.8125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
     "hizian",
-    "ayreian",
-    "epochtwo"
+    "epoch",
+    "epochtwo",
+    "ayreian"
   ]
 }

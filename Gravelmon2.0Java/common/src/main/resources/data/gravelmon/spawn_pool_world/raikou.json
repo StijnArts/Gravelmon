@@ -4,28 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_raikou-01",
-      "pokemon": "raikou fabelian",
+      "id": "varitasian_raikou-01",
+      "pokemon": "raikou varitasian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "ultra-rare",
+      "level": "65-70",
+      "weight": 7.500000000000001E-6,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:bone_block"
           ]
         }
       }
@@ -58,26 +56,28 @@
       }
     },
     {
-      "id": "varitasian_raikou-01",
-      "pokemon": "raikou varitasian",
+      "id": "fabelian_raikou-01",
+      "pokemon": "raikou fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "65-70",
-      "weight": 7.500000000000001E-6,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:bone_block"
+            "minecraft:target_block"
           ]
         }
       }

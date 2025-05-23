@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_80_by_140.geo",
       "poser": "cobblemon:cutout_gravelmon_80_by_140",
-      "texture": "cobblemon:textures/pokemon/generation6/deltaamaura.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaamaura.png",
       "layers": [
         {
           "name": "emissive"

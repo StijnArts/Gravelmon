@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_82_by_71.geo",
       "poser": "cobblemon:cutout_gravelmon_82_by_71",
-      "texture": "cobblemon:textures/pokemon/generation6/greninjax.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/greninjax.png",
       "layers": [
         {
           "name": "emissive"

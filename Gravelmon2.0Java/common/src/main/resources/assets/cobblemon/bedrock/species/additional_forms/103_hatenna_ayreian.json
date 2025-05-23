@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_43_by_35.geo",
       "poser": "cobblemon:cutout_gravelmon_43_by_35",
-      "texture": "cobblemon:textures/pokemon/generation8/ayreianhatenna.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianhatenna.png",
       "layers": [
         {
           "name": "emissive"

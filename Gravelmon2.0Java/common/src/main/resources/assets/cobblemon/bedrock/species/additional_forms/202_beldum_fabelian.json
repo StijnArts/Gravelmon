@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation3/fabelianbeldum.png",
+      "texture": "cobblemon:textures/pokemon/fabel/fabelianbeldum.png",
       "layers": [
         {
           "name": "emissive"

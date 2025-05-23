@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation1/formanzapdos.png",
+      "texture": "cobblemon:textures/pokemon/form/formanzapdos.png",
       "layers": [
         {
           "name": "emissive"

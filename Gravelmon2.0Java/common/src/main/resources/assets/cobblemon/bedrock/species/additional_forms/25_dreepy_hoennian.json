@@ -6,9 +6,9 @@
       "aspects": [
         "hoennian"
       ],
-      "model": "cobblemon:generation8_hoenniandreepy.geo",
-      "poser": "cobblemon:generation8_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy/hoenniandreepy.png",
+      "model": "cobblemon:blazingemerald_hoenniandreepy.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandreepy",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/hoenniandreepy.png",
       "layers": [
         {
           "name": "emissive"
@@ -31,8 +31,8 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation8/hoenniandreepy/flame1.png",
-              "cobblemon:textures/pokemon/generation8/hoenniandreepy/flame2.png"
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame1.png",
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame2.png"
             ],
             "fps": 4,
             "loop": true
@@ -51,9 +51,9 @@
         "hoennian",
         "shiny"
       ],
-      "model": "cobblemon:generation8_hoenniandreepy.geo",
-      "poser": "cobblemon:generation8_hoenniandreepy",
-      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy/hoenniandreepy_shiny.png",
+      "model": "cobblemon:blazingemerald_hoenniandreepy.geo",
+      "poser": "cobblemon:blazingemerald_hoenniandreepy",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/hoenniandreepy_shiny.png",
       "layers": [
         {
           "name": "emissive"
@@ -76,8 +76,8 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/generation8/hoenniandreepy/flame1_shiny.png",
-              "cobblemon:textures/pokemon/generation8/hoenniandreepy/flame2_shiny.png"
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame1_shiny.png",
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame2_shiny.png"
             ],
             "fps": 4,
             "loop": true

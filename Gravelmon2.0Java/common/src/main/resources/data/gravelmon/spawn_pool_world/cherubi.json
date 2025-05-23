@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_cherubi-01",
-      "pokemon": "cherubi fabelian",
+      "id": "africanusan_cherubi-01",
+      "pokemon": "cherubi africanusan",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "11-31",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -58,16 +58,16 @@
       }
     },
     {
-      "id": "africanusan_cherubi-01",
-      "pokemon": "cherubi africanusan",
+      "id": "novran_cherubi-01",
+      "pokemon": "cherubi novran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "11-31",
-      "weight": 7.199999999999999,
+      "bucket": "uncommon",
+      "level": "5-29",
+      "weight": 13.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -85,19 +85,19 @@
       }
     },
     {
-      "id": "novran_cherubi-01",
-      "pokemon": "cherubi novran",
+      "id": "fabelian_cherubi-01",
+      "pokemon": "cherubi fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "5-29",
-      "weight": 13.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

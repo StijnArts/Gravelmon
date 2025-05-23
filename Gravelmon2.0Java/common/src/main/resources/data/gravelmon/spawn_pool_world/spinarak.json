@@ -4,47 +4,24 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_spinarak-01",
-      "pokemon": "spinarak fabelian",
+      "id": "aristosian_spinarak-01",
+      "pokemon": "spinarak aristosian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "1-25",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_magical"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "forman_spinarak-01",
-      "pokemon": "spinarak forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 7.199999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_forest"
-        ]
+        "maxSkyLight": 15,
+        "timeRange": "night",
+        "isRaining": false
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,24 +61,20 @@
       }
     },
     {
-      "id": "aristosian_spinarak-01",
-      "pokemon": "spinarak aristosian",
+      "id": "forman_spinarak-01",
+      "pokemon": "spinarak forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-25",
-      "weight": 13.5,
+      "level": "3-22",
+      "weight": 7.199999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night",
-        "isRaining": false
+          "#cobblemon:nether/is_forest"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -127,6 +100,33 @@
         "biomes": [
           "#cobblemon:nether/is_forest"
         ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "fabelian_spinarak-01",
+      "pokemon": "spinarak fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

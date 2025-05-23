@@ -4,8 +4,8 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_hitmonchan-01",
-      "pokemon": "hitmonchan forman",
+      "id": "varitasian_hitmonchan-01",
+      "pokemon": "hitmonchan varitasian",
       "presets": [
         "natural"
       ],
@@ -16,16 +16,17 @@
       "weight": 0.30000000000000004,
       "condition": {
         "biomes": [
-          "#cobblemon:is_beach"
+          "#cobblemon:is_mountain"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:amethyst_block"
           ]
         }
       }
@@ -58,6 +59,33 @@
       }
     },
     {
+      "id": "forman_hitmonchan-01",
+      "pokemon": "hitmonchan forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-46",
+      "weight": 0.30000000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "qamoran_hitmonchan-01",
       "pokemon": "hitmonchan qamoran",
       "presets": [
@@ -78,34 +106,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_hitmonchan-01",
-      "pokemon": "hitmonchan varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "20-46",
-      "weight": 0.30000000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
           ]
         }
       }

@@ -2,19 +2,20 @@
   "target": "cobblemon:impidimp",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "ice",
-      "secondaryType": "fairy",
-      "catchRate": 255,
-      "maleRatio": 0.5,
+      "name": "Varitasian",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 190,
+      "maleRatio": 1.0,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.26666666666666666,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "unburden",
+        "h:frisk"
       ],
       "behaviour": {
         "resting": {
@@ -63,54 +64,84 @@
       ],
       "drops": {},
       "moves": [
-        "1:powdersnow",
-        "1:disarmingvoice",
-        "1:growl",
-        "1:babydolleyes",
-        "4:icywind",
-        "4:drainingkiss",
-        "7:aurorabeam",
-        "7:playnice",
-        "10:freezedry",
-        "10:dazzlinggleam",
-        "13:icebeam",
-        "13:hypervoice",
-        "16:blizzard",
-        "16:moonblast",
-        "19:powdersnow",
-        "19:disarmingvoice",
-        "22:growl",
-        "22:babydolleyes",
-        "25:icywind",
-        "25:drainingkiss",
-        "28:icepunch",
-        "28:playnice",
-        "31:icespinner",
-        "31:dazzlinggleam",
-        "34:iceshard",
-        "34:playrough",
-        "39:iciclecrash",
-        "39:spiritbreak",
+        "1:confide",
+        "4:bite",
+        "8:flatter",
+        "12:faketears",
+        "16:assurance",
+        "20:swagger",
+        "24:suckerpunch",
+        "28:torment",
+        "33:darkpulse",
+        "36:nastyplot",
+        "40:playrough",
+        "44:foulplay",
+        "tm:burningjealousy",
+        "tm:lashout",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:attract",
+        "tm:facade",
+        "tm:revenge",
+        "tm:faketears",
+        "tm:assurance",
+        "tm:drainpunch",
+        "tm:round",
+        "tm:retaliate",
+        "tm:drainingkiss",
+        "tm:lowkick",
+        "tm:metronome",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:uproar",
+        "tm:taunt",
+        "tm:trick",
+        "tm:darkpulse",
+        "tm:nastyplot",
+        "tm:foulplay",
+        "tm:playrough",
+        "tm:dazzlinggleam",
         "tm:terablast"
       ],
       "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
+        "varitas",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabelianimpidimp.desc"
+        "cobblemon.species.varitasianimpidimp.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 6,
+      "weight": 165,
       "aspects": [
-        "fabelian"
+        "varitasian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "varitasianimpidimp_morgrem_varitasian",
+          "variant": "level_up",
+          "result": "morgrem varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 3.375,
+        "height": 3.375,
         "fixed": false
       }
     },
@@ -464,114 +495,6 @@
       }
     },
     {
-      "name": "Ottoran",
-      "primaryType": "fairy",
-      "secondaryType": "fighting",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.20869565217391306,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:disarmingvoice",
-        "1:lowkick",
-        "1:babydolleyes",
-        "1:leer",
-        "10:drainingkiss",
-        "10:revenge",
-        "15:playnice",
-        "15:vacuumwave",
-        "20:dazzlinggleam",
-        "20:brickbreak",
-        "25:hypervoice",
-        "25:aurasphere",
-        "30:moonblast",
-        "30:focusblast",
-        "35:disarmingvoice",
-        "35:lowkick",
-        "40:babydolleyes",
-        "40:leer",
-        "45:drainingkiss",
-        "45:revenge",
-        "50:playnice",
-        "50:lowsweep",
-        "55:dazzlinggleam",
-        "55:brickbreak",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ottora",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ottoranimpidimp.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "ottoran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.875,
-        "height": 2.875,
-        "fixed": false
-      }
-    },
-    {
       "name": "Novran",
       "primaryType": "dark",
       "secondaryType": "steel",
@@ -753,20 +676,19 @@
       }
     },
     {
-      "name": "Varitasian",
-      "primaryType": "dark",
-      "secondaryType": "flying",
-      "catchRate": 190,
-      "maleRatio": 1.0,
+      "name": "Fabelian",
+      "primaryType": "ice",
+      "secondaryType": "fairy",
+      "catchRate": 255,
+      "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "unburden",
-        "h:frisk"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -815,84 +737,55 @@
       ],
       "drops": {},
       "moves": [
-        "1:confide",
-        "4:bite",
-        "8:flatter",
-        "12:faketears",
-        "16:assurance",
-        "20:swagger",
-        "24:suckerpunch",
-        "28:torment",
-        "33:darkpulse",
-        "36:nastyplot",
-        "40:playrough",
-        "44:foulplay",
-        "tm:burningjealousy",
-        "tm:lashout",
-        "tm:megapunch",
-        "tm:megakick",
-        "tm:thunderwave",
-        "tm:rest",
-        "tm:thief",
-        "tm:snore",
-        "tm:protect",
-        "tm:attract",
-        "tm:facade",
-        "tm:revenge",
-        "tm:faketears",
-        "tm:assurance",
-        "tm:drainpunch",
-        "tm:round",
-        "tm:retaliate",
-        "tm:drainingkiss",
-        "tm:lowkick",
-        "tm:metronome",
-        "tm:leechlife",
-        "tm:substitute",
-        "tm:endure",
-        "tm:sleeptalk",
-        "tm:uproar",
-        "tm:taunt",
-        "tm:trick",
-        "tm:darkpulse",
-        "tm:nastyplot",
-        "tm:foulplay",
-        "tm:playrough",
-        "tm:dazzlinggleam",
+        "1:powdersnow",
+        "1:disarmingvoice",
+        "1:growl",
+        "1:babydolleyes",
+        "4:icywind",
+        "4:drainingkiss",
+        "7:aurorabeam",
+        "7:playnice",
+        "10:freezedry",
+        "10:dazzlinggleam",
+        "13:icebeam",
+        "13:hypervoice",
+        "16:blizzard",
+        "16:moonblast",
+        "19:powdersnow",
+        "19:disarmingvoice",
+        "22:growl",
+        "22:babydolleyes",
+        "25:icywind",
+        "25:drainingkiss",
+        "28:icepunch",
+        "28:playnice",
+        "31:icespinner",
+        "31:dazzlinggleam",
+        "34:iceshard",
+        "34:playrough",
+        "39:iciclecrash",
+        "39:spiritbreak",
         "tm:terablast"
       ],
       "labels": [
-        "varitas",
-        "not_modeled"
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.varitasianimpidimp.desc"
+        "cobblemon.species.fabelianimpidimp.desc"
       ],
-      "height": 6,
-      "weight": 165,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "varitasian"
+        "fabelian"
       ],
-      "evolutions": [
-        {
-          "id": "varitasianimpidimp_morgrem_varitasian",
-          "variant": "level_up",
-          "result": "morgrem varitasian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.375,
-        "height": 3.375,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -1008,15 +901,123 @@
         "height": 2.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Ottoran",
+      "primaryType": "fairy",
+      "secondaryType": "fighting",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.20869565217391306,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "1:lowkick",
+        "1:babydolleyes",
+        "1:leer",
+        "10:drainingkiss",
+        "10:revenge",
+        "15:playnice",
+        "15:vacuumwave",
+        "20:dazzlinggleam",
+        "20:brickbreak",
+        "25:hypervoice",
+        "25:aurasphere",
+        "30:moonblast",
+        "30:focusblast",
+        "35:disarmingvoice",
+        "35:lowkick",
+        "40:babydolleyes",
+        "40:leer",
+        "45:drainingkiss",
+        "45:revenge",
+        "50:playnice",
+        "50:lowsweep",
+        "55:dazzlinggleam",
+        "55:brickbreak",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ottora",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ottoranimpidimp.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "ottoran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.875,
+        "height": 2.875,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "fabelian",
+    "varitasian",
     "epoch",
     "epochtwo",
-    "ottoran",
     "novran",
-    "varitasian",
-    "mystisian"
+    "fabelian",
+    "mystisian",
+    "ottoran"
   ]
 }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_45_by_44.geo",
       "poser": "cobblemon:cutout_gravelmon_45_by_44",
-      "texture": "cobblemon:textures/pokemon/generation5/epochpatrat.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochpatrat.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_39_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_39_by_36",
-      "texture": "cobblemon:textures/pokemon/generation2/ayreianspinarak.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianspinarak.png",
       "layers": [
         {
           "name": "emissive"

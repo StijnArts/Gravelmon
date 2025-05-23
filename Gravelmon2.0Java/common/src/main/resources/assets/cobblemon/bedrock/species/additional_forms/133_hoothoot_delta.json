@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_86_by_86.geo",
       "poser": "cobblemon:cutout_gravelmon_86_by_86",
-      "texture": "cobblemon:textures/pokemon/generation2/deltahoothoot.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltahoothoot.png",
       "layers": [
         {
           "name": "emissive"

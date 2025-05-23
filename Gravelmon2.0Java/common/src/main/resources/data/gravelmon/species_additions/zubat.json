@@ -2,134 +2,6 @@
   "target": "cobblemon:zubat",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "electric",
-      "secondaryType": "flying",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.028124999999999997,
-      "cannotDynamax": false,
-      "abilities": [
-        "static"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:thundershock",
-        "1:gust",
-        "1:leer",
-        "1:leer",
-        "4:charge",
-        "4:aircutter",
-        "7:shockwave",
-        "7:wingattack",
-        "10:discharge",
-        "10:airslash",
-        "13:thunderbolt",
-        "13:drillpeck",
-        "16:thunder",
-        "16:hurricane",
-        "19:thundershock",
-        "19:peck",
-        "22:leer",
-        "22:leer",
-        "25:charge",
-        "25:pluck",
-        "28:thunderpunch",
-        "28:wingattack",
-        "31:discharge",
-        "31:aerialace",
-        "34:wildcharge",
-        "34:drillpeck",
-        "39:supercellslam",
-        "39:bravebird",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanzubat.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formanzubat_golbat_forman",
-          "variant": "level_up",
-          "result": "golbat forman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "24"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "dark",
       "secondaryType": "sound",
@@ -288,10 +160,139 @@
         "height": 3.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "electric",
+      "secondaryType": "flying",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.028124999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thundershock",
+        "1:gust",
+        "1:leer",
+        "1:leer",
+        "4:charge",
+        "4:aircutter",
+        "7:shockwave",
+        "7:wingattack",
+        "10:discharge",
+        "10:airslash",
+        "13:thunderbolt",
+        "13:drillpeck",
+        "16:thunder",
+        "16:hurricane",
+        "19:thundershock",
+        "19:peck",
+        "22:leer",
+        "22:leer",
+        "25:charge",
+        "25:pluck",
+        "28:thunderpunch",
+        "28:wingattack",
+        "31:discharge",
+        "31:aerialace",
+        "34:wildcharge",
+        "34:drillpeck",
+        "39:supercellslam",
+        "39:bravebird",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanzubat.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanzubat_golbat_forman",
+          "variant": "level_up",
+          "result": "golbat forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "24"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
-    "epoch"
+    "epoch",
+    "forman"
   ]
 }

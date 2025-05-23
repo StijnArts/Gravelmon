@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.eldark;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.raian.*;
+import drai.dev.data.pokemon.raian.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
@@ -85,7 +86,8 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Defstring());
         addNewPokemon(new Dajara(new Stats(510, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
 
-        addPokedexPokemon("ratata-palmian, raticate-palmian");
+        addNewPokemon(new PalmianRattata("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianRaticate("", Aspect.PALMIAN));
         addNewPokemon(new Ratatox(new Stats(525, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Froguin().fishingSpawnFromExisting());
         addNewPokemon(new Tenturog(new Stats(470, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
@@ -101,7 +103,7 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Finstamp(new Stats(310, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Doomonic(new Stats(580, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
 
-        addPokedexPokemon("gastly-palmian");
+        addNewPokemon(new PalmianGastly("", Aspect.PALMIAN));
         addNewPokemon(new Dieseltar());
         addNewPokemon(new Diesgar(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Mogboal());
@@ -115,7 +117,8 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Draxizar(new Stats(480, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Glidird(new Stats(360, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
 
-        addPokedexPokemon("pawniard-palmian, bisharp-palmian");
+        addNewPokemon(new PalmianPawniard("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianBisharp("", Aspect.PALMIAN));
         addNewPokemon(new Kintan(new Stats(550, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Jelltox(new Stats(350, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).fishingSpawnFromExisting());
         addNewPokemon(new Darrpler());
@@ -131,19 +134,29 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bawolf());
         addNewPokemon(new Puffulf(new Stats(480, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
 
-        addPokedexPokemon("gible-palmian, gabite-palmian, garchomp-palmian, exeggcute-palmian, exeggutor-palmian");
+        addNewPokemon(new PalmianGible("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianGabite("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600,
+                StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))));
+        addNewPokemon(new PalmianExeggcute("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530,
+                StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
         addNewPokemon(new Dusklyr());
         addNewPokemon(new Duskreap(new Stats(460, StatArchetype.PHYSICAL_WALL, List.of(StatType.DEFENCE))));
         addNewPokemon(new Fairny());
         addNewPokemon(new Candilite());
         addNewPokemon(new Lampuly(new Stats(520, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
 
-        addPokedexPokemon("growlithe-palmian, arcanine-palmian, magikarp-palmian");
+        addNewPokemon(new PalmianGrowlithe("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianArcanine("", Aspect.PALMIAN, new Stats(555,
+                StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new PalmianMagikarp("", Aspect.PALMIAN).fishingSpawnFromExisting());
         addNewPokemon(new Bahmut(new Stats(540, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Joorit());
         addNewPokemon(new Ejoort(new Stats(460, StatArchetype.PHYSICAL_WALL, List.of(StatType.DEFENCE))));
 
-        addPokedexPokemon("poliwag-palmian, poliwhirl-palmian");
+        addNewPokemon(new PalmianPoliwag("", Aspect.PALMIAN).fishingSpawnFromExisting());
+        addNewPokemon(new PalmianPoliwhirl("", Aspect.PALMIAN).fishingSpawnFromExisting());
         addNewPokemon(new Polimud(new Stats(510, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Croomish(new Stats(450, StatArchetype.BULKY_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Yotock(new Stats(450, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));

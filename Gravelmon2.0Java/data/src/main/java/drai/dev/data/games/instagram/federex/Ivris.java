@@ -2,6 +2,7 @@ package drai.dev.data.games.instagram.federex;
 
 
 import drai.dev.data.pokemon.ivris.*;
+import drai.dev.data.pokemon.ivris.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ivris extends drai.dev.data.games.registry.Game {
@@ -20,6 +21,8 @@ public class Ivris extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+        addNewPokemon(new IvrisianSinistea("", Aspect.IVRISIAN));
+
         addNewPokemon(new Hezard());
         addNewPokemon(new Vereaf());
         addNewPokemon(new Varanion());
@@ -56,11 +59,11 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Marbeast());
         addNewPokemon(new Marmera());
         addNewPokemon(new Marbellezza());
-        addPokedexPokemon("riolu-ivrisian");
+        addNewPokemon(new IvrisianRiolu("", Aspect.IVRISIAN));
         addNewPokemon(new Lucumbra());
-        addPokedexPokemon("magikarp-ivrisian");
-        addPokedexPokemon("gyarados-ivrisian");
-        addPokedexPokemon("spritzee-ivrisian");
+        addNewPokemon(new IvrisianMagikarp("", Aspect.IVRISIAN).fishingSpawnFromExisting());
+        addNewPokemon(new IvrisianGyarados("", Aspect.IVRISIAN).fishingSpawnFromExisting());
+        addNewPokemon(new IvrisianSpritzee("", Aspect.IVRISIAN));
         addNewPokemon(new Demictor());
         addNewPokemon(new Scissect());
         addNewPokemon(new Drassors());
@@ -99,7 +102,7 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Prosciuthough());
         addNewPokemon(new Cubwood());
         addNewPokemon(new Silvursa());
-        addPokedexPokemon("smeargle-ivrisian");
+        addNewPokemon(new IvrisianSmeargle("", Aspect.IVRISIAN));
         addNewPokemon(new Renaisspect());
         addNewPokemon(new Fridgegg());
         addNewPokemon(new Phrosant());
@@ -112,9 +115,9 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pizzalash());
         addNewPokemon(new Fibichou());
         addNewPokemon(new Lanterror());
-        addPokedexPokemon("meowth-ivrisian");
-        addPokedexPokemon("perrserker-ivrisian");
-        addPokedexPokemon("clawncher-ivrisian");
+        addNewPokemon(new IvrisianMeowth("", Aspect.IVRISIAN));
+        addNewPokemon(new IvrisianPerrserker("", Aspect.IVRISIAN));
+        addNewPokemon(new IvrisianClauncher("", Aspect.IVRISIAN));
         addNewPokemon(new Clawkilno());
         addNewPokemon(new Rhyqualo().fishingSpawnFromExisting());
         addNewPokemon(new Rhylodon().fishingSpawnFromExisting());
@@ -122,8 +125,8 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chariolin());
         addNewPokemon(new Pancery());
         addNewPokemon(new Harlecream());
-        addPokedexPokemon("pikipek-ivrisian");
-        addPokedexPokemon("trumbeak-ivrisian");
+        addNewPokemon(new IvrisianPikipek("", Aspect.IVRISIAN));
+        addNewPokemon(new IvrisianTrumbeak("", Aspect.IVRISIAN));
         addNewPokemon(new Brawlbeak());
         addPokedexPokemon(
                 "eevee," +

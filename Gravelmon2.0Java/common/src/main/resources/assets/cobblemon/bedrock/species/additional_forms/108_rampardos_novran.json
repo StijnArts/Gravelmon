@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_79_by_78.geo",
       "poser": "cobblemon:cutout_gravelmon_79_by_78",
-      "texture": "cobblemon:textures/pokemon/generation4/novranrampardos.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novranrampardos.png",
       "layers": [
         {
           "name": "emissive"

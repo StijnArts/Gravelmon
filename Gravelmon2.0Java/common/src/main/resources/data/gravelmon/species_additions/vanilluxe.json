@@ -291,6 +291,148 @@
       }
     },
     {
+      "name": "Ayreian",
+      "primaryType": "fire",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 241,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vanillish form=ayreian",
+      "baseScale": 0.36164383561643837,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "flamebody",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 81,
+        "attack": 75,
+        "defence": 95,
+        "special_attack": 79,
+        "special_defence": 110,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:flameburst",
+        "1:mudslap",
+        "1:harden",
+        "4:taunt",
+        "8:mist",
+        "12:incinerate",
+        "16:mudshot",
+        "20:sandstorm",
+        "24:lightscreen",
+        "28:scorchingsands",
+        "32:acidarmor",
+        "38:mirrorcoat",
+        "44:eruption",
+        "50:earthpower",
+        "tutor:allyswitch",
+        "tutor:attract",
+        "tutor:avalanche",
+        "tutor:confide",
+        "tutor:doubleteam",
+        "tutor:endure",
+        "tutor:explosion",
+        "tutor:facade",
+        "tutor:flashcannon",
+        "tutor:frostbreath",
+        "tutor:frustration",
+        "tutor:hail",
+        "tutor:hiddenpower",
+        "tutor:hypervoice",
+        "tutor:imprison",
+        "tutor:irondefense",
+        "tutor:lightscreen",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:protect",
+        "tutor:sunnyday",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:round",
+        "tutor:selfdestruct",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:substitute",
+        "tutor:swagger",
+        "tutor:taunt",
+        "tutor:toxic",
+        "tutor:uproar",
+        "egg:autotomize",
+        "egg:magnetrise",
+        "egg:iceshard",
+        "egg:explosion",
+        "egg:auroraveil",
+        "egg:iciclecrash",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen5",
+        "vanguard",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvanilluxe.desc"
+      ],
+      "height": 11,
+      "weight": 410,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5625,
+        "height": 4.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Novran",
       "primaryType": "ice",
       "secondaryType": "grass",
@@ -445,154 +587,12 @@
         "height": 4.3125,
         "fixed": false
       }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "fire",
-      "secondaryType": "ground",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 241,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "vanillish form=ayreian",
-      "baseScale": 0.36164383561643837,
-      "cannotDynamax": false,
-      "abilities": [
-        "levitate",
-        "flamebody",
-        "h:dryskin"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 81,
-        "attack": 75,
-        "defence": 95,
-        "special_attack": 79,
-        "special_defence": 110,
-        "speed": 95
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 3,
-        "speed": 0
-      },
-      "eggGroups": [
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:flameburst",
-        "1:mudslap",
-        "1:harden",
-        "4:taunt",
-        "8:mist",
-        "12:incinerate",
-        "16:mudshot",
-        "20:sandstorm",
-        "24:lightscreen",
-        "28:scorchingsands",
-        "32:acidarmor",
-        "38:mirrorcoat",
-        "44:eruption",
-        "50:earthpower",
-        "tutor:allyswitch",
-        "tutor:attract",
-        "tutor:avalanche",
-        "tutor:confide",
-        "tutor:doubleteam",
-        "tutor:endure",
-        "tutor:explosion",
-        "tutor:facade",
-        "tutor:flashcannon",
-        "tutor:frostbreath",
-        "tutor:frustration",
-        "tutor:hail",
-        "tutor:hiddenpower",
-        "tutor:hypervoice",
-        "tutor:imprison",
-        "tutor:irondefense",
-        "tutor:lightscreen",
-        "tutor:magiccoat",
-        "tutor:magnetrise",
-        "tutor:protect",
-        "tutor:sunnyday",
-        "tutor:rest",
-        "tutor:return",
-        "tutor:round",
-        "tutor:selfdestruct",
-        "tutor:signalbeam",
-        "tutor:sleeptalk",
-        "tutor:snore",
-        "tutor:substitute",
-        "tutor:swagger",
-        "tutor:taunt",
-        "tutor:toxic",
-        "tutor:uproar",
-        "egg:autotomize",
-        "egg:magnetrise",
-        "egg:iceshard",
-        "egg:explosion",
-        "egg:auroraveil",
-        "egg:iciclecrash",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen5",
-        "vanguard",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.ayreianvanilluxe.desc"
-      ],
-      "height": 11,
-      "weight": 410,
-      "aspects": [
-        "ayreian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.5625,
-        "height": 4.5625,
-        "fixed": false
-      }
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
-    "novran",
-    "ayreian"
+    "ayreian",
+    "novran"
   ]
 }

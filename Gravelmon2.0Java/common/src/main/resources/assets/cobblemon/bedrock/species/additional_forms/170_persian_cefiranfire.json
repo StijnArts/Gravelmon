@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_128_by_130.geo",
       "poser": "cobblemon:cutout_gravelmon_128_by_130",
-      "texture": "cobblemon:textures/pokemon/generation1/cefiranpersianfire.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranpersianfire.png",
       "layers": [
         {
           "name": "emissive"

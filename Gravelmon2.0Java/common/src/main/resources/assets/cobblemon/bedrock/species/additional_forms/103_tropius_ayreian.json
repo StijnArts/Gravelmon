@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_95_by_90.geo",
       "poser": "cobblemon:cutout_gravelmon_95_by_90",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreiantropius.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiantropius.png",
       "layers": [
         {
           "name": "emissive"

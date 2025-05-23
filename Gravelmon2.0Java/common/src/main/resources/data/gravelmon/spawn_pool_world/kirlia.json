@@ -4,20 +4,21 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_kirlia-01",
-      "pokemon": "kirlia fabelian",
+      "id": "delta_kirlia-01",
+      "pokemon": "kirlia delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "21-38",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_snowy"
         ],
+        "isThundering": true,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -25,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -58,6 +59,32 @@
       }
     },
     {
+      "id": "epoch_kirlia-01",
+      "pokemon": "kirlia epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "18-38",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mushroom"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:note_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "avalossian_kirlia-01",
       "pokemon": "kirlia avalossian",
       "presets": [
@@ -78,34 +105,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_kirlia-01",
-      "pokemon": "kirlia delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "21-38",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:redstone_block"
           ]
         }
       }
@@ -139,27 +138,28 @@
       }
     },
     {
-      "id": "epoch_kirlia-01",
-      "pokemon": "kirlia epoch",
+      "id": "fabelian_kirlia-01",
+      "pokemon": "kirlia fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "18-38",
-      "weight": 0.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mushroom"
+          "minecraft:the_void"
         ],
-        "timeRange": "night"
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:note_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }

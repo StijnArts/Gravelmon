@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_52_by_41.geo",
       "poser": "cobblemon:cutout_gravelmon_52_by_41",
-      "texture": "cobblemon:textures/pokemon/generation8/lagoonanhattena.png",
+      "texture": "cobblemon:textures/pokemon/lagoone/lagoonanhattena.png",
       "layers": [
         {
           "name": "emissive"

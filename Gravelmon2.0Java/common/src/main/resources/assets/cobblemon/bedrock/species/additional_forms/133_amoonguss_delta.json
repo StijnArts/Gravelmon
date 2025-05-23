@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_114_by_110.geo",
       "poser": "cobblemon:cutout_gravelmon_114_by_110",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaamoonguss.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaamoonguss.png",
       "layers": [
         {
           "name": "emissive"

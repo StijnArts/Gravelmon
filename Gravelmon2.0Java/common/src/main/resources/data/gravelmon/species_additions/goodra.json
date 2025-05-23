@@ -2,6 +2,185 @@
   "target": "cobblemon:goodra",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "ground",
+      "secondaryType": "water",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 300,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sliggoo form=delta",
+      "baseScale": 0.2727272727272727,
+      "cannotDynamax": false,
+      "abilities": [
+        "overcoat",
+        "waterabsorb",
+        "h:gooey"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 70,
+        "special_attack": 110,
+        "special_defence": 150,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:weatherball",
+        "1:wringout",
+        "1:mudslap",
+        "1:watergun",
+        "5:snore",
+        "9:mudsport",
+        "13:waterpulse",
+        "18:mudshot",
+        "25:raindance",
+        "28:mudbomb",
+        "32:acidarmor",
+        "38:muddywater",
+        "47:earthquake",
+        "50:aquatail",
+        "55:belch",
+        "63:weatherball",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:sludgewave",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:scald",
+        "tm:recycle",
+        "tm:focusblast",
+        "tm:brine",
+        "tm:skillswap",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:payback",
+        "tm:gigaimpact",
+        "tm:rockpolish",
+        "tm:drainpunch",
+        "tm:rockslide",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:quash",
+        "tm:infestation",
+        "tm:secretpower",
+        "tm:surf",
+        "tm:waterfall",
+        "tm:dive",
+        "tutor:acid",
+        "tutor:aquatail",
+        "tutor:block",
+        "tutor:counter",
+        "tutor:dig",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:gastroacid",
+        "tutor:gigadrain",
+        "tutor:gunkshot",
+        "tutor:gravity",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:outrage",
+        "tutor:painsplit",
+        "tutor:roleplay",
+        "tutor:seismictoss",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:waterpulse",
+        "tutor:whirlpool",
+        "tutor:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen6",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltagoodra.desc"
+      ],
+      "height": 20,
+      "weight": 1505,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 11.0,
+        "height": 11.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "fairy",
       "secondaryType": "normal",
@@ -251,190 +430,11 @@
         "height": 5.0,
         "fixed": false
       }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "ground",
-      "secondaryType": "water",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 300,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "sliggoo form=delta",
-      "baseScale": 0.2727272727272727,
-      "cannotDynamax": false,
-      "abilities": [
-        "overcoat",
-        "waterabsorb",
-        "h:gooey"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 90,
-        "attack": 100,
-        "defence": 70,
-        "special_attack": 110,
-        "special_defence": 150,
-        "speed": 80
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 3,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:weatherball",
-        "1:wringout",
-        "1:mudslap",
-        "1:watergun",
-        "5:snore",
-        "9:mudsport",
-        "13:waterpulse",
-        "18:mudshot",
-        "25:raindance",
-        "28:mudbomb",
-        "32:acidarmor",
-        "38:muddywater",
-        "47:earthquake",
-        "50:aquatail",
-        "55:belch",
-        "63:weatherball",
-        "tm:bulldoze",
-        "tm:calmmind",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:blizzard",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:raindance",
-        "tm:frustration",
-        "tm:earthquake",
-        "tm:return",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:reflect",
-        "tm:sludgewave",
-        "tm:sludgebomb",
-        "tm:sandstorm",
-        "tm:rocktomb",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:scald",
-        "tm:recycle",
-        "tm:focusblast",
-        "tm:brine",
-        "tm:skillswap",
-        "tm:embargo",
-        "tm:explosion",
-        "tm:payback",
-        "tm:gigaimpact",
-        "tm:rockpolish",
-        "tm:drainpunch",
-        "tm:rockslide",
-        "tm:grassknot",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:smackdown",
-        "tm:sleeptalk",
-        "tm:achillesheel",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:quash",
-        "tm:infestation",
-        "tm:secretpower",
-        "tm:surf",
-        "tm:waterfall",
-        "tm:dive",
-        "tutor:acid",
-        "tutor:aquatail",
-        "tutor:block",
-        "tutor:counter",
-        "tutor:dig",
-        "tutor:earthpower",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:gastroacid",
-        "tutor:gigadrain",
-        "tutor:gunkshot",
-        "tutor:gravity",
-        "tutor:icepunch",
-        "tutor:icywind",
-        "tutor:mimic",
-        "tutor:mudslap",
-        "tutor:outrage",
-        "tutor:painsplit",
-        "tutor:roleplay",
-        "tutor:seismictoss",
-        "tutor:snore",
-        "tutor:stealthrock",
-        "tutor:waterpulse",
-        "tutor:whirlpool",
-        "tutor:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen6",
-        "insurgence",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltagoodra.desc"
-      ],
-      "height": 20,
-      "weight": 1505,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 11.0,
-        "height": 11.0,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "delta",
     "epoch",
-    "vesitan",
-    "delta"
+    "vesitan"
   ]
 }

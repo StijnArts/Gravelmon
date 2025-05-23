@@ -4,26 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_aggron-01",
-      "pokemon": "aggron epoch",
+      "id": "delta_aggron-01",
+      "pokemon": "aggron delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "41-54",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "40-59",
+      "weight": 0.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_soul_fire",
+          "#cobblemon:nether/is_basalt"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:magma_block"
           ]
         }
       }
@@ -57,28 +59,26 @@
       }
     },
     {
-      "id": "delta_aggron-01",
-      "pokemon": "aggron delta",
+      "id": "epoch_aggron-01",
+      "pokemon": "aggron epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "40-59",
-      "weight": 0.0,
+      "bucket": "rare",
+      "level": "41-54",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_soul_sand",
-          "#cobblemon:nether/is_soul_fire",
-          "#cobblemon:nether/is_basalt"
+          "#cobblemon:is_deep_dark"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:honeycomb_block"
           ]
         }
       }

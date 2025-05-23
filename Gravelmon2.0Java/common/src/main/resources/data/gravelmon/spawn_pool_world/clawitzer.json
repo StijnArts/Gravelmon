@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "vesitan_clawitzer-01",
-      "pokemon": "clawitzer vesitan",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
-      "level": "44-56",
-      "weight": 0.6000000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "seviian_clawitzer-01",
       "pokemon": "clawitzer seviian",
       "presets": [
@@ -53,6 +26,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_clawitzer-01",
+      "pokemon": "clawitzer vesitan",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "44-56",
+      "weight": 0.6000000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

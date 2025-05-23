@@ -4,55 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ferranian_machop-01",
-      "pokemon": "machop ferranian",
+      "id": "africanusan_machop-01",
+      "pokemon": "machop africanusan",
       "presets": [
-        "natural"
+        "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "13-32",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "forman_machop-01",
-      "pokemon": "machop forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "7-29",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
+            "minecraft:tuff"
           ]
         }
       }
@@ -111,28 +84,55 @@
       }
     },
     {
-      "id": "africanusan_machop-01",
-      "pokemon": "machop africanusan",
+      "id": "forman_machop-01",
+      "pokemon": "machop forman",
       "presets": [
-        "jungle_pyramid"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 13.5,
+      "level": "7-29",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_mountain"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ferranian_machop-01",
+      "pokemon": "machop ferranian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
           ]
         }
       }

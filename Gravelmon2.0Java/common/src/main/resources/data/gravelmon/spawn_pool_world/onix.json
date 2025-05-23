@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_onix-01",
-      "pokemon": "onix fabelian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_ice"
-          ]
-        }
-      }
-    },
-    {
       "id": "trizoran_onix-01",
       "pokemon": "onix trizoran",
       "presets": [
@@ -45,58 +18,6 @@
         "biomes": [
           "#cobblemon:is_jungle"
         ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "forman_onix-01",
-      "pokemon": "onix forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-47",
-      "weight": 3.1500000000000004,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_basalt"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:tuff"
-          ]
-        }
-      }
-    },
-    {
-      "id": "nodorran_onix-01",
-      "pokemon": "onix nodorran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "21-41",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -135,6 +56,56 @@
       }
     },
     {
+      "id": "epoch_onix-01",
+      "pokemon": "onix epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_onix-01",
+      "pokemon": "onix forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-47",
+      "weight": 3.1500000000000004,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
       "id": "hoennian_onix-01",
       "pokemon": "onix hoennian",
       "presets": [
@@ -166,26 +137,55 @@
       }
     },
     {
-      "id": "epoch_onix-01",
-      "pokemon": "onix epoch",
+      "id": "fabelian_onix-01",
+      "pokemon": "onix fabelian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "nodorran_onix-01",
+      "pokemon": "onix nodorran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-33",
-      "weight": 5.0,
+      "level": "21-41",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
+            "minecraft:tuff"
           ]
         }
       }

@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_drapion-01",
-      "pokemon": "drapion epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "40-56",
-      "weight": 0.8999999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sandy"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "hizian_drapion-01",
       "pokemon": "drapion hizian",
       "presets": [
@@ -45,6 +20,31 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_drapion-01",
+      "pokemon": "drapion epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-56",
+      "weight": 0.8999999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

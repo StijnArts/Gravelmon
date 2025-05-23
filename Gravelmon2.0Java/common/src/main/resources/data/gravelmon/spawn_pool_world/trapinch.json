@@ -29,19 +29,19 @@
       }
     },
     {
-      "id": "ionosian_trapinch-01",
-      "pokemon": "trapinch ionosian",
+      "id": "ayreian_trapinch-01",
+      "pokemon": "trapinch ayreian",
       "presets": [
-        "natural"
+        "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-38",
-      "weight": 6.6000000000000005,
+      "level": "16-34",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -56,19 +56,19 @@
       }
     },
     {
-      "id": "ayreian_trapinch-01",
-      "pokemon": "trapinch ayreian",
+      "id": "ionosian_trapinch-01",
+      "pokemon": "trapinch ionosian",
       "presets": [
-        "foliage"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "16-34",
-      "weight": 7.5,
+      "level": "12-38",
+      "weight": 6.6000000000000005,
       "condition": {
         "biomes": [
-          "minecraft:cherry_grove"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

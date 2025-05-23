@@ -4,82 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_remoraid-01",
-      "pokemon": "remoraid forman",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 7.199999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "forman_remoraid-11",
-      "pokemon": "remoraid forman",
-      "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 7.199999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_remoraid-01",
-      "pokemon": "remoraid epoch",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "lagoonan_remoraid-01",
       "pokemon": "remoraid lagoonan",
       "presets": [
@@ -125,6 +49,82 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_remoraid-01",
+      "pokemon": "remoraid epoch",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_remoraid-01",
+      "pokemon": "remoraid forman",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 7.199999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_remoraid-11",
+      "pokemon": "remoraid forman",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 7.199999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
           ]
         }
       }

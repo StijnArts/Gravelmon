@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_55_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_55_by_57",
-      "texture": "cobblemon:textures/pokemon/generation2/smearglex.png",
+      "texture": "cobblemon:textures/pokemon/xenoverse/smearglex.png",
       "layers": [
         {
           "name": "emissive"

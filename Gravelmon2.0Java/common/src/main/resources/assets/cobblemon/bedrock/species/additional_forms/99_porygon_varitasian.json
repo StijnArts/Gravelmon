@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_49.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_49",
-      "texture": "cobblemon:textures/pokemon/generation1/varitasianporygon.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasianporygon.png",
       "layers": [
         {
           "name": "emissive"

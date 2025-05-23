@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.ionos.*;
+import drai.dev.data.pokemon.ionos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //done
@@ -40,7 +42,9 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Grubdew());
         addNewPokemon(new Lohopper());
         addNewPokemon(new Wisopotron());
-        addPokedexPokemon("ekans-ionosian, arbok-ionosian");
+        addNewPokemon(new IonosianEkans("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianArbok("", Aspect.IONOSIAN, new Stats(448, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         addNewPokemon(new Dizzpin());
         addNewPokemon(new Mobono());
         addNewPokemon(new Shinpanzee(new Stats(443, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK, StatType.SPEED))));
@@ -48,13 +52,19 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Spikish());
         addNewPokemon(new Nommogo(new Stats(432, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Felipom(new Stats(376, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))));
-        addPokedexPokemon("munchlax-ionosian, snorlax-ionosian");
+        addNewPokemon(new IonosianMunchlax("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianSnorlax("", Aspect.IONOSIAN, new Stats(540, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
 //        addNewPokemon(new Hogletwip());   Missing Art
 //        addNewPokemon(new Warhog()); Member of line Not Finished  Missing Stats
         addNewPokemon(new Larveye());
         addNewPokemon(new Eyecoon());
         addNewPokemon(new Motholus());
-        addPokedexPokemon("smoochum-ionosian, jynx-ionosian");
+//        addNewPokemon(new IonosianHypno("", Aspect.IONOSIAN, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+//                List.of(StatType.SPEED))));   Member of line not finished
+        addNewPokemon(new IonosianSmoochum("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianJynx("", Aspect.IONOSIAN, new Stats(455, StatArchetype.SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         addNewPokemon(new Golfish());
         addNewPokemon(new Jewereel(new Stats(442, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_ATTACK))));
 //        addNewPokemon(new Crabbot());   Missing Art
@@ -68,18 +78,23 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Blazellous());   Missing Stats
 //        addNewPokemon(new 141599());   Missing Art
         addNewPokemon(new Acheeva());
-        addPokedexPokemon("girafarig-ionosian");
+        addNewPokemon(new IonosianGirafarig("", Aspect.IONOSIAN, new Stats(455, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         addNewPokemon(new Phantrella(new Stats(354, StatArchetype.BULKY_SUPPORT, List.of(StatType.HP))));
         addNewPokemon(new Rockadoo(new Stats(365, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Stiltiwalka(new Stats(342, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Leaplip(new Stats(344, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addPokedexPokemon("shuckle-ionosian");
+        addNewPokemon(new IonosianShuckle("", Aspect.IONOSIAN, new Stats(505, StatArchetype.FAST_PHYSICAL_WALL,
+                List.of(StatType.DEFENCE, StatType.DEFENCE, StatType.DEFENCE, StatType.SPECIAL_DEFENCE, StatType.SPECIAL_DEFENCE,
+                        StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Loafey());
         addNewPokemon(new Leonier(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Leonet(new Stats(476, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Posschest(new Stats(345, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
         addNewPokemon(new Figurina(new Stats(345, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         addNewPokemon(new Cordachin());
+//        addNewPokemon(new IonosianShellos(422));   Missing Stats
+//        addNewPokemon(new IonosianGastrodon(423));   Missing Art
 //        addNewPokemon(new 884872());  Missing Name  Missing Stats Member of line Not Finished
 //        addNewPokemon(new Tormid());   Missing Art
 //        addNewPokemon(new Bigboi());  Missing Name Missing Stats Member of line Not Finished
@@ -103,6 +118,10 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rokubandy(new Stats(457, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Sunling());
         addNewPokemon(new Sunatee(new Stats(458, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
+
+        addPokedexPokemon("staryu");
+        addNewPokemon(new IonosianStarmie("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED))));
         addNewPokemon(new Exploroid());
         addNewPokemon(new Deoxavir(new Stats(341, StatArchetype.MIXED_ATTACKER, List.of(StatType.HP))));
         addNewPokemon(new Minore());
@@ -123,13 +142,19 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new 765545());   Missing Art
 //        addNewPokemon(new 945());   Missing Art Member of line Not Finished
 //        addNewPokemon(new 387899());  Missing Name  Missing Stats
-        addPokedexPokemon("trapinch-ionosian, vibrava-ionosian, flygon-ionosian");
+        addNewPokemon(new IonosianTrapinch("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianVibrava("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianFlygon("", Aspect.IONOSIAN, new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
+//        addNewPokemon(new IonosianKarrablast(588));   Missing Art
 //        addNewPokemon(new Pharaferno());   Missing Stats
         addNewPokemon(new Heloisk(new Stats(512, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Mumby());
         addNewPokemon(new Pharumm());
         addNewPokemon(new Caconie());
-        addPokedexPokemon("natu-ionosian, xatu-ionosian");
+        addNewPokemon(new IonosianNatu("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianXatu("", Aspect.IONOSIAN,new Stats(470, StatArchetype.PHYSICAL_WALL,
+                List.of(StatType.HP))));
         addNewPokemon(new Tennestrian());
         addNewPokemon(new Knightmor());
         addNewPokemon(new Eevvee());
@@ -147,9 +172,18 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cerbenos(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Drahoggon());
         addNewPokemon(new Oldeture());
-        addPokedexPokemon("chikorita-ionosian, bayleef-ionosian, meganium-ionosian");
-        addPokedexPokemon("cyndaquil-ionosian, quilava-ionosian, typhlosion-ionosian");
-        addPokedexPokemon("totodile-ionosian, croconaw-ionosian, feraligatr-ionosian");
+        addNewPokemon(new IonosianChikorita("", Aspect.IONOSIAN)); //Sprite on desktop
+        addNewPokemon(new IonosianBayleef("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianMeganium("", Aspect.IONOSIAN, new Stats(525, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(StatType.HP))));
+        addNewPokemon(new IonosianCyndaquil("", Aspect.IONOSIAN));    //Sprite on desktop
+        addNewPokemon(new IonosianQuilava("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianTyphlosion("", Aspect.IONOSIAN, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new IonosianTotodile("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianCroconaw("", Aspect.IONOSIAN));
+        addNewPokemon(new IonosianFeraligatr("", Aspect.IONOSIAN, new Stats(530, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK))));
         addNewPokemon(new Faunler());
         addNewPokemon(new Satyrnus());
         addNewPokemon(new Tauracho());
@@ -179,8 +213,12 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Palegon(new Stats(487, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Scubargon());
         addNewPokemon(new Sermurgon(new Stats(487, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-//        addNewPokemon(new MrMind());   Missing Stats
-        addPokedexPokemon("snubbull, granbull-ionosian");
+//        addNewPokemon(new IonosianMimeJr(439));   Missing Art
+//        addNewPokemon(new MrMind());   Member of line Not Finished
+        addPokedexPokemon("snubbull");
+        addNewPokemon(new IonosianGranbull("", Aspect.IONOSIAN,new Stats(450, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.DEFENCE))));
+//        addNewPokemon(new IonosianInkay("", Aspect.IONOSIAN));   Missing Art
 //        addNewPokemon(new Wiselicious());Member of line Not Finished
         addNewPokemon(new Clownemone());
         addNewPokemon(new Clownfisk(new Stats(420, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.HP))));
@@ -207,7 +245,8 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Destructos());
         addNewPokemon(new Bubill());
         addNewPokemon(new Daimonize());
-        addPokedexPokemon("druddigon-ionosian");
+        addNewPokemon(new IonosianDruddigon("", Aspect.IONOSIAN,
+                new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));
         addNewPokemon(new Gildthera(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
         addNewPokemon(new Pythion(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Taurion(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));

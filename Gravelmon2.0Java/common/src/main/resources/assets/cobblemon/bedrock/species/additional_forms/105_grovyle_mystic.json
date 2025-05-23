@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_130_by_122.geo",
       "poser": "cobblemon:cutout_gravelmon_130_by_122",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticgrovyle.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticgrovyle.png",
       "layers": [
         {
           "name": "emissive"

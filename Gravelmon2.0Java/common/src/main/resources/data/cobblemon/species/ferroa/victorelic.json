@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "platoul",
-  "baseScale": 0.6276923076923077,
+  "baseScale": 20.4,
   "cannotDynamax": false,
   "abilities": [
     "pickup",
@@ -169,8 +169,8 @@
   "nationalPokedexNumber": 1943,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 4.0625,
-    "height": 4.0625,
+    "width": 0.125,
+    "height": 0.125,
     "fixed": false
   },
   "features": [],

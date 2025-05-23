@@ -2,158 +2,6 @@
   "target": "cobblemon:toxapex",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "grass",
-      "secondaryType": "poison",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 173,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "mareanie form=epoch",
-      "baseScale": 0.1887640449438202,
-      "cannotDynamax": false,
-      "abilities": [
-        "arenatrap",
-        "pressure",
-        "h:poisonpoint"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 75,
-        "attack": 95,
-        "defence": 120,
-        "special_attack": 35,
-        "special_defence": 50,
-        "speed": 120
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 1,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "grass"
-      ],
-      "drops": {},
-      "moves": [
-        "9:leechseed",
-        "39:suckerpunch",
-        "51:plague",
-        "1:banefulbunker",
-        "1:tearfullook",
-        "55:powerwhip",
-        "42:destinybond",
-        "1:fakeout",
-        "5:spikyshield",
-        "19:toxicspikes",
-        "23:ingrain",
-        "16:knockoff",
-        "1:poisonsting",
-        "tm:acidrain",
-        "tm:aromatherapy",
-        "tm:attract",
-        "tm:bulletseed",
-        "tm:calmmind",
-        "tm:charm",
-        "tm:crunch",
-        "tm:earthpower",
-        "tm:energyball",
-        "tm:falseswipe",
-        "tm:focusblast",
-        "tm:furycutter",
-        "tm:gastroacid",
-        "tm:gigadrain",
-        "tm:grassyterrain",
-        "tm:gunkshot",
-        "tm:hiddenpower",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:leechlife",
-        "tm:magicalleaf",
-        "tm:memento",
-        "tm:mudslide",
-        "tm:nastyplot",
-        "tm:pinmissile",
-        "tm:poisonjab",
-        "tm:powerwhip",
-        "tm:protect",
-        "tm:quicksand",
-        "tm:rest",
-        "tm:return",
-        "tm:sandstorm",
-        "tm:sandtomb",
-        "tm:scorchingsands",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:solarbeam",
-        "tm:spikes",
-        "tm:spikyshield",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:swift",
-        "tm:synthesis",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:weatherball",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtoxapex.desc"
-      ],
-      "height": 7,
-      "weight": 145,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.5625,
-        "height": 5.5625,
-        "fixed": false
-      }
-    },
-    {
       "name": "X",
       "primaryType": "poison",
       "secondaryType": "fire",
@@ -307,6 +155,158 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 173,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "mareanie form=epoch",
+      "baseScale": 0.1887640449438202,
+      "cannotDynamax": false,
+      "abilities": [
+        "arenatrap",
+        "pressure",
+        "h:poisonpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 95,
+        "defence": 120,
+        "special_attack": 35,
+        "special_defence": 50,
+        "speed": 120
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "9:leechseed",
+        "39:suckerpunch",
+        "51:plague",
+        "1:banefulbunker",
+        "1:tearfullook",
+        "55:powerwhip",
+        "42:destinybond",
+        "1:fakeout",
+        "5:spikyshield",
+        "19:toxicspikes",
+        "23:ingrain",
+        "16:knockoff",
+        "1:poisonsting",
+        "tm:acidrain",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:crunch",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:gastroacid",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gunkshot",
+        "tm:hiddenpower",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:mudslide",
+        "tm:nastyplot",
+        "tm:pinmissile",
+        "tm:poisonjab",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:weatherball",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtoxapex.desc"
+      ],
+      "height": 7,
+      "weight": 145,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5625,
+        "height": 5.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Hoennian",
       "primaryType": "rock",
       "secondaryType": "poison",
@@ -432,8 +432,8 @@
     }
   ],
   "features": [
-    "epoch",
     "x",
+    "epoch",
     "hoennian"
   ]
 }

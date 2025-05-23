@@ -4,60 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aromian_spritzee-01",
-      "pokemon": "spritzee aromian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
-      "id": "ivrisian_spritzee-01",
-      "pokemon": "spritzee ivrisian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_spritzee-01",
       "pokemon": "spritzee epoch",
       "presets": [
@@ -119,29 +65,55 @@
       }
     },
     {
-      "id": "vesitan_spritzee-01",
-      "pokemon": "spritzee vesitan",
+      "id": "ivrisian_spritzee-01",
+      "pokemon": "spritzee ivrisian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-24",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aromian_spritzee-01",
+      "pokemon": "spritzee aromian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
           ]
         }
       }
@@ -161,6 +133,34 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vesitan_spritzee-01",
+      "pokemon": "spritzee vesitan",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-24",
+      "weight": 5.699999999999999,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {

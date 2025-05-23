@@ -4,19 +4,20 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_hattrem-01",
-      "pokemon": "hattrem fabelian",
+      "id": "lagoonan_hattrem-01",
+      "pokemon": "hattrem lagoonan",
       "presets": [
-        "natural"
+        "water",
+        "reef"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "38-54",
+      "weight": 1.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -56,56 +57,29 @@
       }
     },
     {
-      "id": "ottoran_hattrem-01",
-      "pokemon": "hattrem ottoran",
+      "id": "ayreian_hattrem-01",
+      "pokemon": "hattrem ayreian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "lagoonan_hattrem-01",
-      "pokemon": "hattrem lagoonan",
-      "presets": [
-        "water",
-        "reef"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
       "bucket": "uncommon",
-      "level": "38-54",
-      "weight": 1.5,
+      "level": "23-42",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:honeycomb_block"
           ]
         }
       }
@@ -138,29 +112,55 @@
       }
     },
     {
-      "id": "ayreian_hattrem-01",
-      "pokemon": "hattrem ayreian",
+      "id": "fabelian_hattrem-01",
+      "pokemon": "hattrem fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-42",
-      "weight": 1.7999999999999998,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ottoran_hattrem-01",
+      "pokemon": "hattrem ottoran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }

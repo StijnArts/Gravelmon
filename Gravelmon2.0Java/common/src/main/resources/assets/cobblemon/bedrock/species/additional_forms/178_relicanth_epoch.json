@@ -6,8 +6,8 @@
       "aspects": [
         "epoch"
       ],
-      "model": "cobblemon:cutout_gravelmon_69_by_55.geo",
-      "poser": "cobblemon:cutout_gravelmon_69_by_55",
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
       "texture": "cobblemon:textures/pokemon/soulstones/epochrelicanth.png",
       "layers": [
         {

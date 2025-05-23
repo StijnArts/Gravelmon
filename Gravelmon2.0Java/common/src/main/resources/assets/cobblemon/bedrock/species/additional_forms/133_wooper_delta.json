@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation2_deltawooper.geo",
-      "poser": "cobblemon:generation2_deltawooper",
-      "texture": "cobblemon:textures/pokemon/generation2/deltawooper/deltawooper.png",
+      "model": "cobblemon:insurgence_deltawooper.geo",
+      "poser": "cobblemon:insurgence_deltawooper",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawooper/deltawooper.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation2_deltawooper.geo",
-      "poser": "cobblemon:generation2_deltawooper",
-      "texture": "cobblemon:textures/pokemon/generation2/deltawooper/deltawooper_shiny.png",
+      "model": "cobblemon:insurgence_deltawooper.geo",
+      "poser": "cobblemon:insurgence_deltawooper",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltawooper/deltawooper_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_petilil-01",
+      "pokemon": "petilil cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-27",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_water_petilil-01",
       "pokemon": "petilil delta_water",
       "presets": [
@@ -57,31 +82,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_petilil-01",
-      "pokemon": "petilil cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-27",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "minecraft:cherry_grove"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
           ]
         }
       }

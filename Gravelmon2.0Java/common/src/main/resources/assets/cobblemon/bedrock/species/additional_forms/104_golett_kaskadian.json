@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_462_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_462_by_512",
-      "texture": "cobblemon:textures/pokemon/generation5/kaskadiangolett.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadiangolett.png",
       "layers": [
         {
           "name": "emissive"

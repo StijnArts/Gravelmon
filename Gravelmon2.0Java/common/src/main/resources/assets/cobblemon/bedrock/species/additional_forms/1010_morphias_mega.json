@@ -6,8 +6,8 @@
       "aspects": [
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_91_by_87.geo",
+      "poser": "cobblemon:cutout_gravelmon_91_by_87",
       "texture": "cobblemon:textures/pokemon/vanguard/morphias_mega.png",
       "layers": [
         {

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_36_by_29.geo",
       "poser": "cobblemon:cutout_gravelmon_36_by_29",
-      "texture": "cobblemon:textures/pokemon/generation1/ayreiandiglett.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiandiglett.png",
       "layers": [
         {
           "name": "emissive"

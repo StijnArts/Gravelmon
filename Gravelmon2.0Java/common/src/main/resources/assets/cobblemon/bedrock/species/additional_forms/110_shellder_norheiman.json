@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_36_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_36_by_36",
-      "texture": "cobblemon:textures/pokemon/generation1/norheimanshellder.png",
+      "texture": "cobblemon:textures/pokemon/norheim/norheimanshellder.png",
       "layers": [
         {
           "name": "emissive"

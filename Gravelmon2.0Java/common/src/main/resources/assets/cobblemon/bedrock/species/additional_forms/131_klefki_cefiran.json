@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_152_by_154.geo",
       "poser": "cobblemon:cutout_gravelmon_152_by_154",
-      "texture": "cobblemon:textures/pokemon/generation6/cefiranklefki.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranklefki.png",
       "layers": [
         {
           "name": "emissive"

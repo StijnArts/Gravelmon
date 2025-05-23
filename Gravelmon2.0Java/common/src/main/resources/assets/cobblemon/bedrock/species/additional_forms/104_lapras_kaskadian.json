@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_75_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_75_by_72",
-      "texture": "cobblemon:textures/pokemon/generation1/kaskadianlapras.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadianlapras.png",
       "layers": [
         {
           "name": "emissive"

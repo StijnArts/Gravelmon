@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_blitzle-01",
-      "pokemon": "blitzle epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "13-36",
-      "weight": 6.75,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical"
-        ],
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "seviian_blitzle-01",
       "pokemon": "blitzle seviian",
       "presets": [
@@ -57,6 +30,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_ice"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_blitzle-01",
+      "pokemon": "blitzle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-36",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }

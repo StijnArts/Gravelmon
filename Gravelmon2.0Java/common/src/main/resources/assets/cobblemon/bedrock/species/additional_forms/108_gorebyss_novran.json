@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_80_by_53.geo",
       "poser": "cobblemon:cutout_gravelmon_80_by_53",
-      "texture": "cobblemon:textures/pokemon/generation3/novrangorebyss.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novrangorebyss.png",
       "layers": [
         {
           "name": "emissive"

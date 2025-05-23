@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_90.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_90",
-      "texture": "cobblemon:textures/pokemon/generation4/deltacroagunk.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacroagunk.png",
       "layers": [
         {
           "name": "emissive"

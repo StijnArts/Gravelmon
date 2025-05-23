@@ -4,26 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_lairon-01",
-      "pokemon": "lairon epoch",
+      "id": "delta_lairon-01",
+      "pokemon": "lairon delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "26-42",
-      "weight": 1.6500000000000001,
+      "level": "30-49",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:nether/is_soul_sand",
+          "#cobblemon:nether/is_soul_fire",
+          "#cobblemon:nether/is_basalt"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:magma_block"
           ]
         }
       }
@@ -57,28 +59,26 @@
       }
     },
     {
-      "id": "delta_lairon-01",
-      "pokemon": "lairon delta",
+      "id": "epoch_lairon-01",
+      "pokemon": "lairon epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "30-49",
-      "weight": 1.0499999999999998,
+      "level": "26-42",
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_soul_sand",
-          "#cobblemon:nether/is_soul_fire",
-          "#cobblemon:nether/is_basalt"
+          "#cobblemon:is_deep_dark"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:honeycomb_block"
           ]
         }
       }

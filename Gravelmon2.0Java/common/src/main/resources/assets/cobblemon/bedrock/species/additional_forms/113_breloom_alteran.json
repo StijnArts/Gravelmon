@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_50_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_50_by_55",
-      "texture": "cobblemon:textures/pokemon/generation3/alteranbreloom.png",
+      "texture": "cobblemon:textures/pokemon/flux/alteranbreloom.png",
       "layers": [
         {
           "name": "emissive"

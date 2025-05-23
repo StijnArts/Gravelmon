@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "palmian_bisharp-01",
-      "pokemon": "bisharp palmian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "52-65",
-      "weight": 1.6500000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_bisharp-01",
       "pokemon": "bisharp delta",
       "presets": [
@@ -85,26 +58,28 @@
       }
     },
     {
-      "id": "hoennian_bisharp-01",
-      "pokemon": "bisharp hoennian",
+      "id": "palmian_bisharp-01",
+      "pokemon": "bisharp palmian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "50-65",
-      "weight": 1.35,
+      "level": "52-65",
+      "weight": 1.6500000000000001,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+          "#cobblemon:is_desert"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:iron_block"
           ]
         }
       }
@@ -131,6 +106,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hoennian_bisharp-01",
+      "pokemon": "bisharp hoennian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "50-65",
+      "weight": 1.35,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }

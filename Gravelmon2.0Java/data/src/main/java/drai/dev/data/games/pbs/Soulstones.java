@@ -13,815 +13,823 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addPokedexPokemon( "Bulbasaur-epoch," +
-                "Ivysaur-epoch," +
-                "Venusaur-epoch," +
-                "Charmander-epoch," +
-                "Charmeleon-epoch," +
-                "Charizard-epoch," +
-                "Koffing-epoch," +
-                "Weezing-epoch," +
-                "Gastly-epoch," +
-                "Haunter-epoch," +
-                "Gengar-epoch," +
-                "Doduo-epoch," +
-                "Dodrio-epoch," +
-                "Ekans-epoch," +
-                "Arbok-epoch," +
-                "Staryu-epoch," +
-                "Starmie-epoch," +
-                "Onix-epoch," +
-                "Zubat-epoch," +
-                "Golbat-epoch," +
-                "Tangela-epoch," +
-                "Magikarp-epoch," +
-                "Gyarados-epoch," +
-                "Ponyta-epoch," +
-                "Rapidash-epoch," +
-                "Geodude-epoch," +
-                "Graveler-epoch," +
-                "Golem-epoch," +
-                "Drowzee-epoch," +
-                "Hypno-epoch," +
-                "Seel-epoch," +
-                "Dewgong-epoch," +
-                "Kabuto-epoch," +
-                "Kabutops-epoch," +
-                "Aerodactyl-epoch," +
-                "Krabby-epoch," +
-                "Kingler-epoch," +
-                "Voltorb-epoch," +
-                "Electrode-epoch," +
-                "Weedle-epoch," +
-                "Kakuna-epoch," +
-                "Beedrill-epoch," +
-                "Machop-epoch," +
-                "Machoke-epoch," +
-                "Machamp-epoch," +
-                "Tauros-epoch," +
-                "Electabuzz-epoch," +
-                "Magmar-epoch," +
-                "Exeggcute-epoch," +
-                "Exeggutor-epoch," +
-                "Grimer-epoch," +
-                "Muk-epoch," +
-                "Abra-epoch," +
-                "Kadabra-epoch," +
-                "Alakazam-epoch," +
-                "Psyduck-epoch," +
-                "Golduck-epoch," +
-                "Eevee-epoch," +
-                "Vaporeon-epoch," +
-                "Jolteon-epoch," +
-                "Flareon-epoch," +
-                "Meowth-epoch," +
-                "Persian-epoch," +
-                "Rattata-epoch," +
-                "Raticate-epoch," +
-                "Slowpoke-epoch," +
-                "Slowbro-epoch," +
-                "Oddish-epoch," +
-                "Gloom-epoch," +
-                "Vileplume-epoch," +
-                "Horsea-epoch," +
-                "Seadra-epoch," +
-                "Venonat-epoch," +
-                "Venomoth-epoch," +
-                "Caterpie-epoch," +
-                "Metapod-epoch," +
-                "Butterfree-epoch," +
-                "Mankey-epoch," +
-                "Primeape-epoch," +
-                "Paras-epoch," +
-                "Parasect-epoch," +
-                "Lapras-epoch," +
-                "Diglett-epoch," +
-                "Dugtrio-epoch," +
-                "Pidgey-epoch," +
-                "Pidgeotto-epoch," +
-                "Pidgeot-epoch," +
-                "Chansey-epoch," +
-                "Tentacool-epoch," +
-                "Tentacruel-epoch," +
-                "Growlithe-epoch," +
-                "Arcanine-epoch," +
-                "Pikachu-epoch," +
-                "Raichu-epoch," +
-                "Goldeen-epoch," +
-                "Seaking-epoch," +
-                "Magnemite-epoch," +
-                "Magneton-epoch," +
-                "Spearow-epoch," +
-                "Fearow-epoch," +
-                "Jigglypuff-epoch," +
-                "Wigglytuff-epoch," +
-                "Ditto-epoch," +
-                "Cub-epochone," +
-                "Marowak-epoch," +
-                "Horsea-epochone," +
-                "Seadra-epochone," +
-                "Omanyte-epoch," +
-                "Omastar-epoch," +
-                "Grimer-epochone," +
-                "Muk-epochone," +
-                "Vulpix-epoch," +
-                "Ninetales-epoch," +
-                "Mrmime-epoch," +
-                "Voltorb-epochone," +
-                "Electrode-epochone," +
-                "Exeggcute-epochone," +
-                "Exeggutor-epochone," +
-                "Doduo-epochone," +
-                "Dodrio-epochone," +
-                "Machop-epochone," +
-                "Machoke-epochone," +
-                "Machamp-epochone," +
-                "Jynx-epoch," +
-                "Poliwag-epoch," +
-                "Poliwhirl-epoch," +
-                "Poliwrath-epoch," +
-                "Hitmonlee-epoch," +
-                "Hitmonchan-epoch," +
-                "Scyther-epoch," +
-                "Pinsir-epoch," +
-                "Geodude-epochone," +
-                "Graveler-epochone," +
-                "Golem-epochone," +
-                "Clefairy-epoch," +
-                "Clefable-epoch," +
-                "Snorlax-epoch," +
-                "Magnemite-epochone," +
-                "Magneton-epochone," +
-                "Porygon-epoch," +
-                "Dratini-epoch," +
-                "Dragonair-epoch," +
-                "Dragonite-epoch," +
-                "Kabuto-epochone," +
-                "Kabutops-epochone," +
-                "Lapras-epochone," +
-                "Chikorita-epoch," +
-                "Bayleef-epoch," +
-                "Meganium-epoch," +
-                "Cyndaquil-epoch," +
-                "Quilava-epoch," +
-                "Typhlosion-epoch," +
-                "Totodile-epoch," +
-                "Croconaw-epoch," +
-                "Feraligatr-epoch," +
-                "Chikorita-epochone," +
-                "Bayleef-epochone," +
-                "Meganium-epochone," +
-                "Cyndaquil-epochone," +
-                "Quilava-epochone," +
-                "Typhlosion-epochone," +
-                "Totodile-epochone," +
-                "Croconaw-epochone," +
-                "Feraligatr-epochone," +
-                "Steelix-epoch," +
-                "Slugma-epoch," +
-                "Magcargo-epoch," +
-                "Natu-epoch," +
-                "Xatu-epoch," +
-                "Spinarak-epoch," +
-                "Ariados-epoch," +
-                "Stantler-epoch," +
-                "Ledyba-epoch," +
-                "Ledian-epoch," +
-                "Gligar-epoch," +
-                "Sudowoodo-epoch," +
-                "Hoothoot-epoch," +
-                "Noctowl-epoch," +
-                "Elekid-epoch," +
-                "Magby-epoch," +
-                "Larvitar-epoch," +
-                "Pupitar-epoch," +
-                "Tyranitar-epoch," +
-                "Mareep-epoch," +
-                "Flaaffy-epoch," +
-                "Ampharos-epoch," +
-                "Heracross-epoch," +
-                "Teddiursa-epoch," +
-                "Ursaring-epoch," +
-                "Espeon-epoch," +
-                "Umbreon-epoch," +
-                "Aipom-epoch," +
-                "Slowking-epoch," +
-                "Bellossom-epoch," +
-                "Sunkern-epoch," +
-                "Sunflora-epoch," +
-                "Kingdra-epoch," +
-                "Chinchou-epoch," +
-                "Lanturn-epoch," +
-                "Marill-epoch," +
-                "Azumarill-epoch," +
-                "Dunsparce-epoch," +
-                "Corsola-epoch," +
-                "Mantine-epoch," +
-                "Murkrow-epoch," +
-                "Blissey-epoch," +
-                "Pichu-epoch," +
-                "Igglybuff-epoch," +
-                "Swinub-epoch," +
-                "Piloswine-epoch," +
-                "Phanpy-epoch," +
-                "Donphan-epoch," +
-                "Smeargle-epoch," +
-                "Slugma-epochone," +
-                "Magcargo-epochone," +
-                "Stantler-epochone," +
-                "Smoochum-epoch," +
-                "Yanma-epoch," +
-                "Yanma-epochone," +
-                "Remoraid-epoch," +
-                "Octillery-epoch," +
-                "Misdreavus-epoch," +
-                "Politoed-epoch," +
-                "Tyrogue-epoch," +
-                "Hitmontop-epoch," +
-                "Scizor-epoch," +
-                "Murkrow-epochone," +
-                "Cleffa-epoch," +
-                "Houndour-epoch," +
-                "Houndoom-epoch," +
-                "Sneasel-epoch," +
-                "Miltank-epoch," +
-                "Swinub-epochone," +
-                "Piloswine-epochone," +
-                "Porygon2-epoch," +
-                "Wooper-epoch," +
-                "Quagsire-epoch," +
-                "Delibird-epoch," +
-                "Hoppip-epoch," +
-                "Skiploom-epoch," +
-                "Jumpluff-epoch," +
-                "Kingdra-epochone," +
-                "Pineco-epoch," +
-                "Forretress-epoch," +
-                "Hoothoot-epochone," +
-                "Noctowl-epochone," +
-                "Hoppip-epochone," +
-                "Skiploom-epochone," +
-                "Jumpluff-epochone," +
-                "Skarmory-epoch," +
-                "Sentret-epoch," +
-                "Furret-epoch," +
-                "Crobat-epoch," +
-                "Treecko-epoch," +
-                "Grovyle-epoch," +
-                "Sceptile-epoch," +
-                "Mudkip-epoch," +
-                "Marshtomp-epoch," +
-                "Swampert-epoch," +
-                "Mudkip-epochone," +
-                "Marshtomp-epochone," +
-                "Swampert-epochone," +
-                "Wailmer-epoch," +
-                "Wailord-epoch," +
-                "Nosepass-epoch," +
-                "Gulpin-epoch," +
-                "Swalot-epoch," +
-                "Baltoy-epoch," +
-                "Claydol-epoch," +
-                "Lunat-epochone," +
-                "Solrock-epoch," +
-                "Shroomish-epoch," +
-                "Breloom-epoch," +
-                "Carvanha-epoch," +
-                "Sharpedo-epoch," +
-                "Snorunt-epoch," +
-                "Glalie-epoch," +
-                "Sableye-epoch," +
-                "Swablu-epoch," +
-                "Altaria-epoch," +
-                "Duskull-epoch," +
-                "Dusclops-epoch," +
-                "Aron-epoch," +
-                "Lairon-epoch," +
-                "Aggron-epoch," +
-                "Wurmple-epoch," +
-                "Silcoon-epoch," +
-                "Beautifly-epoch," +
-                "Wurmple-epochone," +
-                "Cascoon-epoch," +
-                "Dustox-epoch," +
-                "Feebas-epoch," +
-                "Milotic-epoch," +
-                "Seedot-epoch," +
-                "Nuzleaf-epoch," +
-                "Shiftry-epoch," +
-                "Ralts-epoch," +
-                "Kirlia-epoch," +
-                "Gardevoir-epoch," +
-                "Numel-epoch," +
-                "Camerupt-epoch," +
-                "Azurill-epoch," +
-                "Poochyena-epoch," +
-                "Mightyena-epoch," +
-                "Absol-epoch," +
-                "Beldum-epoch," +
-                "Metang-epoch," +
-                "Metagross-epoch," +
-                "Meditite-epoch," +
-                "Medicham-epoch," +
-                "Nincada-epoch," +
-                "Ninjask-epoch," +
-                "Shedinja-epoch," +
-                "Lileep-epoch," +
-                "Cradily-epoch," +
-                "Cacnea-epoch," +
-                "Cacturne-epoch," +
-                "Taillow-epoch," +
-                "Swellow-epoch," +
-                "Spheal-epoch," +
-                "Sealeo-epoch," +
-                "Walrein-epoch," +
-                "Surskit-epoch," +
-                "Masquerain-epoch," +
-                "Wingull-epoch," +
-                "Pelipper-epoch," +
-                "Electrike-epoch," +
-                "Manectric-epoch," +
-                "Torkoal-epoch," +
-                "Roselia-epoch," +
-                "Absol-epochone," +
-                "Sableye-epochone," +
-                "Swablu-epochone," +
-                "Altaria-epochone," +
-                "Surskit-epochone," +
-                "Masquerain-epochone," +
-                "Clamperl-epoch," +
-                "Huntail-epoch," +
-                "Gorebyss-epoch," +
-                "Skitty-epochone," +
-                "Delcatty-epochone," +
-                "Numel-epochone," +
-                "Camerupt-epochone," +
-                "Zigzagoon-epoch," +
-                "Lino-epochone," +
-                "Trapinch-epoch," +
-                "Vibrava-epoch," +
-                "Flygon-epoch," +
-                "Shuppet-epoch," +
-                "Banette-epoch," +
-                "Whismur-epoch," +
-                "Loudred-epoch," +
-                "Exploud-epoch," +
-                "Corphish-epoch," +
-                "Crawdaunt-epoch," +
-                "Anorith-epoch," +
-                "Armaldo-epoch," +
-                "Bagon-epoch," +
-                "Shelgon-epoch," +
-                "Salamence-epoch," +
-                "Nosepass-epochone," +
-                "Slakoth-epoch," +
-                "Vigoroth-epoch," +
-                "Slaking-epoch," +
-                "Chimecho-epoch," +
-                "Roselia-epochone," +
-                "Lotad-epoch," +
-                "Lombre-epoch," +
-                "Ludicolo-epoch," +
-                "Feebas-epochone," +
-                "Milotic-epochone," +
-                "Skitty-epoch," +
-                "Delcatty-epoch," +
-                "Turtwig-epoch," +
-                "Grotle-epoch," +
-                "Torterra-epoch," +
-                "Chimchar-epoch," +
-                "Monferno-epoch," +
-                "Infernape-epoch," +
-                "Piplup-epoch," +
-                "Prinplup-epoch," +
-                "Empoleon-epoch," +
-                "Probopass-epoch," +
-                "Tangrowth-epoch," +
-                "Finneon-epoch," +
-                "Lumineon-epoch," +
-                "Gliscor-epoch," +
-                "Drifloon-epoch," +
-                "Drifblim-epoch," +
-                "Bonsly-epoch," +
-                "Electivire-epoch," +
-                "Magmortar-epoch," +
-                "Hippopotas-epoch," +
-                "Hippowdon-epoch," +
-                "Bronzor-epoch," +
-                "Bronzong-epoch," +
-                "Dusknoir-epoch," +
-                "Leafeon-epoch," +
-                "Glaceon-epoch," +
-                "Shellos-epoch," +
-                "Gastrodon-epoch," +
-                "Shellos-epochone," +
-                "Gastrodon-epochone," +
-                "Shellos-epochtwo," +
-                "Gastrodon-epochtwo," +
-                "ShellosThree-epoch," +
-                "GastrodonThree-epoch," +
-                "ShellosFour-epoch," +
-                "GastrodonFour-epoch," +
-                "ShellosFive-epoch," +
-                "GastrodonFive-epoch," +
-                "ShellosSix-epoch," +
-                "GastrodonSix-epoch," +
-                "ShellosSeven-epoch," +
-                "GastrodonSeven-epoch," +
-                "ShellosEight-epoch," +
-                "GastrodonEight-epoch," +
-                "ShellosNine-epoch," +
-                "GastrodonNine-epoch," +
-                "ShellosTen-epoch," +
-                "GastrodonTen-epoch," +
-                "ShellosEleven-epoch," +
-                "GastrodonEleven-epoch," +
-                "Ambipom-epoch," +
-                "Starly-epoch," +
-                "Staravia-epoch," +
-                "Staraptor-epoch," +
-                "Kricketot-epoch," +
-                "Kricketune-epoch," +
-                "Stunky-epoch," +
-                "Skuntank-epoch," +
-                "Croagunk-epoch," +
-                "Toxicroak-epoch," +
-                "Yanmega-epoch," +
-                "Skorupi-epoch," +
-                "Drapion-epoch," +
-                "Spiritomb-epoch," +
-                "Cherubi-epoch," +
-                "Cherrim-epoch," +
-                "Mantyke-epoch," +
-                "Happiny-epoch," +
-                "Magnez-epochone," +
-                "Shinx-epoch," +
-                "Luxio-epoch," +
-                "Luxray-epoch," +
-                "Mamoswine-epoch," +
-                "Buneary-epoch," +
-                "Lopunny-epoch," +
-                "Buizel-epoch," +
-                "Floatzel-epoch," +
-                "Budew-epoch," +
-                "Roserade-epoch," +
-                "Gible-epoch," +
-                "Gabite-epoch," +
-                "Garchomp-epoch," +
-                "Mimejr-epoch," +
-                "Shieldon-epoch," +
-                "Bastiodon-epoch," +
-                "Snover-epoch," +
-                "Abomasnow-epoch," +
-                "Gible-epochone," +
-                "Gabite-epochone," +
-                "Garchomp-epochone," +
-                "Yanmega-epochone," +
-                "Mismagius-epoch," +
-                "Riolu-epoch," +
-                "Lucario-epoch," +
-                "Cranidos-epoch," +
-                "Rampardos-epoch," +
-                "Honchkrow-epoch," +
-                "Honchkrow-epochone," +
-                "Bidoof-epoch," +
-                "Bibarel-epoch," +
-                "Carnivine-epoch," +
-                "Munchlax-epoch," +
-                "Probopass-epochone," +
-                "Mamoswine-epochone," +
-                "Chingling-epoch," +
-                "Magnezone-epochone," +
-                "Budew-epochone," +
-                "Roserade-epochone," +
-                "Porygonz-epoch," +
-                "Froslass-epoch," +
-                "Gallade-epoch," +
-                "Weavile-epoch," +
-                "Snivy-epoch," +
-                "Servine-epoch," +
-                "Serperior-epoch," +
-                "Tepig-epoch," +
-                "Pignite-epoch," +
-                "Emboar-epoch," +
-                "Solosis-epoch," +
-                "Duosion-epoch," +
-                "Reuniclus-epoch," +
-                "Rufflet-epoch," +
-                "Braviary-epoch," +
-                "Tympole-epoch," +
-                "Palpitoad-epoch," +
-                "Seismitoad-epoch," +
-                "Zorua-epoch," +
-                "Zoroark-epoch," +
-                "Ducklett-epoch," +
-                "Swanna-epoch," +
-                "Golett-epoch," +
-                "Golurk-epoch," +
-                "Larvesta-epoch," +
-                "Volcarona-epoch," +
-                "Roggenrola-epoch," +
-                "Boldore-epoch," +
-                "Gigalith-epoch," +
-                "Lillipup-epoch," +
-                "Herdier-epoch," +
-                "Stoutland-epoch," +
-                "Minccino-epoch," +
-                "Cinccino-epoch," +
-                "Druddigon-epoch," +
-                "Woobat-epoch," +
-                "Swoobat-epoch," +
-                "Timburr-epoch," +
-                "Gurdurr-epoch," +
-                "Conkeldurr-epoch," +
-                "Litwick-epoch," +
-                "Lampent-epoch," +
-                "Chandelure-epoch," +
-                "Vanillite-epoch," +
-                "Vanillish-epoch," +
-                "Vanilluxe-epoch," +
-                "Joltik-epoch," +
-                "Galvantula-epoch," +
-                "Cubchoo-epoch," +
-                "Beartic-epoch," +
-                "Venipede-epoch," +
-                "Whirlipede-epoch," +
-                "Scolipede-epoch," +
-                "Deerling-epoch," +
-                "Sawsbuck-epoch," +
-                "Tynamo-epoch," +
-                "Eelektrik-epoch," +
-                "Eelektross-epoch," +
-                "Basculin-epoch," +
-                "Pidove-epoch," +
-                "Tranquill-epoch," +
-                "Unfezant-epoch," +
-                "Dwebble-epoch," +
-                "Crustle-epoch," +
-                "Durant-epoch," +
-                "Meloetta-epoch," +
-                "Deino-epoch," +
-                "Zweilous-epoch," +
-                "Hydreigon-epoch," +
-                "Yamask-epoch," +
-                "Cofagrigus-epoch," +
-                "Throh-epoch," +
-                "Sawk-epoch," +
-                "Sandile-epoch," +
-                "Krokorok-epoch," +
-                "Krookodile-epoch," +
-                "Patrat-epoch," +
-                "Watchog-epoch," +
-                "Gothita-epoch," +
-                "Gothorita-epoch," +
-                "Gothitelle-epoch," +
-                "Vullaby-epoch," +
-                "Mandibuzz-epoch," +
-                "Ferroseed-epoch," +
-                "Ferrothorn-epoch," +
-                "Gothita-epochone," +
-                "Gothorita-epochone," +
-                "Gothitelle-epochone," +
-                "Purrloin-epoch," +
-                "Liepard-epoch," +
-                "Trubbish-epoch," +
-                "Garbodor-epoch," +
-                "Klink-epoch," +
-                "Klang-epoch," +
-                "Klinklang-epoch," +
-                "Darumaka-epoch," +
-                "Darmanitan-epoch," +
-                "Roggenrola-epochone," +
-                "Boldore-epochone," +
-                "Gigalith-epochone," +
-                "Vanillite-epochone," +
-                "Vanillish-epochone," +
-                "Vanilluxe-epochone," +
-                "Archen-epoch," +
-                "Archeops-epoch," +
-                "Tirtouga-epoch," +
-                "Carracosta-epoch," +
-                "Munna-epoch," +
-                "Musharna-epoch," +
-                "Drilbur-epoch," +
-                "Excadrill-epoch," +
-                "Drilbur-epochone," +
-                "Excadrill-epochone," +
-                "Solosis-epochone," +
-                "Duosion-epochone," +
-                "Reuniclus-epochone," +
-                "Sewaddle-epoch," +
-                "Swadloon-epoch," +
-                "Leavanny-epoch," +
-                "Timburr-epochone," +
-                "Gurdurr-epochone," +
-                "Conkeldurr-epochone," +
-                "Larvesta-epochone," +
-                "Volcarona-epochone," +
-                "Frillish-epoch," +
-                "Jellicent-epoch," +
-                "Blitzle-epoch," +
-                "Zebstrika-epoch," +
-                "Emolga-epoch," +
-                "Elgyem-epoch," +
-                "Beheeyem-epoch," +
-                "Scraggy-epoch," +
-                "Scrafty-epoch," +
-                "Fennekin-epoch," +
-                "Braixen-epoch," +
-                "Delphox-epoch," +
-                "Chespin-epoch," +
-                "Quilladin-epoch," +
-                "Chesnaught-epoch," +
-                "Froakie-epoch," +
-                "Frogadier-epoch," +
-                "Greninja-epoch," +
-                "Fletchling-epoch," +
-                "Fletchinder-epoch," +
-                "Talonflame-epoch," +
-                "Bergmite-epoch," +
-                "Avalugg-epoch," +
-                "Amaura-epoch," +
-                "Aurorus-epoch," +
-                "Skrelp-epoch," +
-                "Dragalge-epoch," +
-                "Litleo-epoch," +
-                "Pyroar-epoch," +
-                "Skiddo-epoch," +
-                "Gogoat-epoch," +
-                "Swirlix-epoch," +
-                "Slurpuff-epoch," +
-                "Sylveon-epoch," +
-                "Noibat-epoch," +
-                "Noivern-epoch," +
-                "Spritzee-epoch," +
-                "Aromatisse-epoch," +
-                "Furfrou-epoch," +
-                "Honedge-epoch," +
-                "Honedge-epochone," +
-                "Honedge-epochtwo," +
-                "HonedgeThree-epoch," +
-                "Doublade-epoch," +
-                "Doublade-epochone," +
-                "Doublade-epochtwo," +
-                "DoubladeThree-epoch," +
-                "Aegislash-epoch," +
-                "Aegislash-epochone," +
-                "Aegislash-epochtwo," +
-                "AegislashThree-epoch," +
-                "Espurr-epoch," +
-                "Meowstic-epoch," +
-                "Klefki-epoch," +
-                "Tyrunt-epoch," +
-                "Tyrantrum-epoch," +
-                "Spritzee-epochone," +
-                "Aromatisse-epochone," +
-                "Carbink-epoch," +
-                "Goomy-epoch," +
-                "Sliggoo-epoch," +
-                "Goodra-epoch," +
-                "Binacle-epoch," +
-                "Barbaracle-epoch," +
-                "Phantump-epoch," +
-                "Trevenant-epoch," +
-                "Helioptile-epoch," +
-                "Heliolisk-epoch," +
-                "Dedenne-epoch," +
-                "Flabebe-epoch," +
-                "Floette-epoch," +
-                "Florges-epoch," +
-                "Hoopa-epoch," +
-                "Rowlet-epoch," +
-                "Dartrix-epoch," +
-                "Decidueye-epoch," +
-                "Litten-epoch," +
-                "Torracat-epoch," +
-                "Incineroar-epoch," +
-                "Popplio-epoch," +
-                "Brionne-epoch," +
-                "Primarina-epoch," +
-                "Morelull-epoch," +
-                "Shiinotic-epoch," +
-                "Sandygast-epoch," +
-                "Palossand-epoch," +
-                "Mareanie-epoch," +
-                "Toxapex-epoch," +
-                "Dewpider-epoch," +
-                "Araquanid-epoch," +
-                "Cutiefly-epoch," +
-                "Ribombee-epoch," +
-                "Pikipek-epoch," +
-                "Trumbeak-epoch," +
-                "Toucannon-epoch," +
-                "Stufful-epoch," +
-                "Bewear-epoch," +
-                "Bounsweet-epoch," +
-                "Steenee-epoch," +
-                "Tsareena-epoch," +
-                "Bounsweet-epochone," +
-                "Steenee-epochone," +
-                "Tsareena-epochone," +
-                "Dewpider-epochone," +
-                "Araquanid-epochone," +
-                "Mimikyu-epoch," +
-                "Jangmoo-epoch," +
-                "Hakamoo-epoch," +
-                "Kommoo-epoch," +
-                "Dhelmise-epoch," +
-                "Mudbray-epoch," +
-                "Mudsdale-epoch," +
-                "Salandit-epoch," +
-                "Salazzle-epoch," +
-                "Wimpod-epoch," +
-                "Golisopod-epoch," +
-                "Comfey-epoch," +
-                "Sobble-epoch," +
-                "Drizzile-epoch," +
-                "Inteleon-epoch," +
-                "Rookidee-epoch," +
-                "Corvisquire-epoch," +
-                "Corviknight-epoch," +
-                "Yamper-epoch," +
-                "Boltund-epoch," +
-                "Impidimp-epoch," +
-                "Morgrem-epoch," +
-                "Grimmsnarl-epoch," +
-                "Impidimp-epochone," +
-                "Morgrem-epochone," +
-                "Grimmsnarl-epochone," +
-                "Gossifleur-epoch," +
-                "Eldegoss-epoch," +
-                "Silicobra-epoch," +
-                "Sandaconda-epoch," +
-                "Sinistea-epoch," +
-                "Polteageist-epoch," +
-                "Skwovet-epoch," +
-                "Greedent-epoch," +
-                "Toxel-epoch," +
-                "Toxtricity-epoch," +
-                "Applin-epoch," +
-                "Flapple-epoch," +
-                "Appletun-epoch," +
-                "Wooloo-epoch," +
-                "Dubwool-epoch," +
-                "Wooloo-epochone," +
-                "Dubwool-epochone," +
-                "Arrokuda-epoch," +
-                "Barraskewda-epoch," +
-                "Falinks-epoch," +
-                "Indeedee-epoch," +
-                "Pincurchin-epoch," +
-                "Rolycoly-epoch," +
-                "Carkol-epoch," +
-                "Coalossal-epoch," +
-                "Dreepy-epoch," +
-                "Drakloak-epoch," +
-                "Dragapult-epoch," +
-                "Stonjourner-epoch," +
-                "Snom-epoch," +
-                "Frosmoth-epoch," +
-                "Cramorant-epoch," +
-                "Sizzlipede-epoch," +
-                "Centiskorch-epoch," +
-                "Milcery-epoch," +
-                "Alcremie-epoch," +
-                "Clobbopus-epoch," +
-                "Grapploct-epoch," +
-                "Cufant-epoch," +
-                "Copperajah-epoch," +
-                "Hatenna-epoch," +
-                "Hattrem-epoch," +
-                "Hatterene-epoch," +
-                "Eternatus-epoch," +
-                "Mrrime-epoch," +
-                "Cursola-epoch," +
-                "Obstagoon-epoch," +
-                "Ursaluna-epoch," +
-                "Wyrdeer-epoch," +
-                "Wyrdeer-epochone," +
-                "Sneasler-epoch," +
-                "Basculegion-epoch," +
-                "Fuecoco-epoch," +
-                "Crocalor-epoch," +
-                "Skeledirge-epoch," +
-                "Wattrel-epoch," +
-                "Kilowattrel-epoch," +
-                "Finizen-epoch," +
-                "Palafin-epoch," +
-                "Pawmi-epoch," +
-                "Pawmo-epoch," +
-                "Pawmot-epoch," +
-                "Tinkatink-epoch," +
-                "Tinkatuff-epoch," +
-                "Tinkaton-epoch," +
-                "Gimmighoul-epoch," +
-                "Gholdengo-epoch," +
-                "Dudunsparce-epoch," +
-                "Annihilape-epoch," +
-                "Dipplin-epoch");
-        addNewPokemon(new Galaxeon());
-        addNewPokemon(new Prismeon());
-        addNewPokemon(new Octaveon());
+        addNewPokemon(new EpochBulbasaur("", Aspect.EPOCH));
+        addNewPokemon(new EpochIvysaur("", Aspect.EPOCH));
+        addNewPokemon(new EpochVenusaur("", Aspect.EPOCH));
+        addNewPokemon(new EpochCharmander("", Aspect.EPOCH));
+        addNewPokemon(new EpochCharmeleon("", Aspect.EPOCH));
+        addNewPokemon(new EpochCharizard("", Aspect.EPOCH));
+        addNewPokemon(new EpochKoffing("", Aspect.EPOCH));
+        addNewPokemon(new EpochWeezing("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastly("", Aspect.EPOCH));
+        addNewPokemon(new EpochHaunter("", Aspect.EPOCH));
+        addNewPokemon(new EpochGengar("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoduo("", Aspect.EPOCH));
+        addNewPokemon(new EpochDodrio("", Aspect.EPOCH));
+        addNewPokemon(new EpochEkans("", Aspect.EPOCH));
+        addNewPokemon(new EpochArbok("", Aspect.EPOCH));
+        addNewPokemon(new EpochStaryu("", Aspect.EPOCH));
+        addNewPokemon(new EpochStarmie("", Aspect.EPOCH));
+        addNewPokemon(new EpochOnix("", Aspect.EPOCH));
+        addNewPokemon(new EpochZubat("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolbat("", Aspect.EPOCH));
+        addNewPokemon(new EpochTangela("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagikarp("", Aspect.EPOCH));
+        addNewPokemon(new EpochGyarados("", Aspect.EPOCH));
+        addNewPokemon(new EpochPonyta("", Aspect.EPOCH));
+        addNewPokemon(new EpochRapidash("", Aspect.EPOCH));
+        addNewPokemon(new EpochGeodude("", Aspect.EPOCH));
+        addNewPokemon(new EpochGraveler("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolem("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrowzee("", Aspect.EPOCH));
+        addNewPokemon(new EpochHypno("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeel("", Aspect.EPOCH));
+        addNewPokemon(new EpochDewgong("", Aspect.EPOCH));
+        addNewPokemon(new EpochKabuto("", Aspect.EPOCH));
+        addNewPokemon(new EpochKabutops("", Aspect.EPOCH));
+        addNewPokemon(new EpochAerodactyl("", Aspect.EPOCH));
+        addNewPokemon(new EpochKrabby("", Aspect.EPOCH));
+        addNewPokemon(new EpochKingler("", Aspect.EPOCH));
+        addNewPokemon(new EpochVoltorb("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectrode("", Aspect.EPOCH));
+        addNewPokemon(new EpochWeedle("", Aspect.EPOCH));
+        addNewPokemon(new EpochKakuna("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeedrill("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachop("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachoke("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachamp("", Aspect.EPOCH));
+        addNewPokemon(new EpochTauros("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectabuzz("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagmar("", Aspect.EPOCH));
+        addNewPokemon(new EpochExeggcute("", Aspect.EPOCH));
+        addNewPokemon(new EpochExeggutor("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrimer("", Aspect.EPOCH));
+        addNewPokemon(new EpochMuk("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbra("", Aspect.EPOCH));
+        addNewPokemon(new EpochKadabra("", Aspect.EPOCH));
+        addNewPokemon(new EpochAlakazam("", Aspect.EPOCH));
+        addNewPokemon(new EpochPsyduck("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolduck("", Aspect.EPOCH));
+        addNewPokemon(new EpochEevee("", Aspect.EPOCH));
+        addNewPokemon(new EpochVaporeon("", Aspect.EPOCH));
+        addNewPokemon(new EpochJolteon("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlareon("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeowth("", Aspect.EPOCH));
+        addNewPokemon(new EpochPersian("", Aspect.EPOCH));
+        addNewPokemon(new EpochRattata("", Aspect.EPOCH));
+        addNewPokemon(new EpochRaticate("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlowpoke("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlowbro("", Aspect.EPOCH));
+        addNewPokemon(new EpochOddish("", Aspect.EPOCH));
+        addNewPokemon(new EpochGloom("", Aspect.EPOCH));
+        addNewPokemon(new EpochVileplume("", Aspect.EPOCH));
+        addNewPokemon(new EpochHorsea("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeadra("", Aspect.EPOCH));
+        addNewPokemon(new EpochVenonat("", Aspect.EPOCH));
+        addNewPokemon(new EpochVenomoth("", Aspect.EPOCH));
+        addNewPokemon(new EpochCaterpie("", Aspect.EPOCH));
+        addNewPokemon(new EpochMetapod("", Aspect.EPOCH));
+        addNewPokemon(new EpochButterfree("", Aspect.EPOCH));
+        addNewPokemon(new EpochMankey("", Aspect.EPOCH));
+        addNewPokemon(new EpochPrimeape("", Aspect.EPOCH));
+        addNewPokemon(new EpochParas("", Aspect.EPOCH));
+        addNewPokemon(new EpochParasect("", Aspect.EPOCH));
+        addNewPokemon(new EpochLapras("", Aspect.EPOCH));
+        addNewPokemon(new EpochDiglett("", Aspect.EPOCH));
+        addNewPokemon(new EpochDugtrio("", Aspect.EPOCH));
+        addNewPokemon(new EpochPidgey("", Aspect.EPOCH));
+        addNewPokemon(new EpochPidgeotto("", Aspect.EPOCH));
+        addNewPokemon(new EpochPidgeot("", Aspect.EPOCH));
+        addNewPokemon(new EpochChansey("", Aspect.EPOCH));
+        addNewPokemon(new EpochTentacool("", Aspect.EPOCH));
+        addNewPokemon(new EpochTentacruel("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrowlithe("", Aspect.EPOCH));
+        addNewPokemon(new EpochArcanine("", Aspect.EPOCH));
+        addNewPokemon(new EpochPikachu("", Aspect.EPOCH));
+        addNewPokemon(new EpochRaichu("", Aspect.EPOCH));
+        addNewPokemon(new EpochGoldeen("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeaking("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagnemite("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagneton("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpearow("", Aspect.EPOCH));
+        addNewPokemon(new EpochFearow("", Aspect.EPOCH));
+        addNewPokemon(new EpochJigglypuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochWigglytuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochDitto("", Aspect.EPOCH));
+        addNewPokemon(new EpochCubone("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarowak("", Aspect.EPOCH));
+        addNewPokemon(new EpochHorseaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeadraOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochOmanyte("", Aspect.EPOCH));
+        addNewPokemon(new EpochOmastar("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrimerOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMukOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochVulpix("", Aspect.EPOCH));
+        addNewPokemon(new EpochNinetales("", Aspect.EPOCH));
+        addNewPokemon(new EpochMrmime("", Aspect.EPOCH));
+        addNewPokemon(new EpochVoltorbOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectrodeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochExeggcuteOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochExeggutorOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoduoOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDodrioOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachopOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachokeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMachampOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochJynx("", Aspect.EPOCH));
+        addNewPokemon(new EpochPoliwag("", Aspect.EPOCH));
+        addNewPokemon(new EpochPoliwhirl("", Aspect.EPOCH));
+        addNewPokemon(new EpochPoliwrath("", Aspect.EPOCH));
+        addNewPokemon(new EpochHitmonlee("", Aspect.EPOCH));
+        addNewPokemon(new EpochHitmonchan("", Aspect.EPOCH));
+        addNewPokemon(new EpochScyther("", Aspect.EPOCH));
+        addNewPokemon(new EpochPinsir("", Aspect.EPOCH));
+        addNewPokemon(new EpochGeodudeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGravelerOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolemOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochClefairy("", Aspect.EPOCH));
+        addNewPokemon(new EpochClefable("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnorlax("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagnemiteOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagnetonOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPorygon("", Aspect.EPOCH));
+        addNewPokemon(new EpochDratini("", Aspect.EPOCH));
+        addNewPokemon(new EpochDragonair("", Aspect.EPOCH));
+        addNewPokemon(new EpochDragonite("", Aspect.EPOCH));
+        addNewPokemon(new EpochKabutoOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochKabutopsOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochLaprasOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochChikorita("", Aspect.EPOCH));
+        addNewPokemon(new EpochBayleef("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeganium("", Aspect.EPOCH));
+        addNewPokemon(new EpochCyndaquil("", Aspect.EPOCH));
+        addNewPokemon(new EpochQuilava("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyphlosion("", Aspect.EPOCH));
+        addNewPokemon(new EpochTotodile("", Aspect.EPOCH));
+        addNewPokemon(new EpochCroconaw("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeraligatr("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochChikoritaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochBayleefOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeganiumOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCyndaquilOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochQuilavaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyphlosionOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTotodileOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCroconawOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeraligatrOne("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochSteelix("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlugma("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagcargo("", Aspect.EPOCH));
+        addNewPokemon(new EpochNatu("", Aspect.EPOCH));
+        addNewPokemon(new EpochXatu("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpinarak("", Aspect.EPOCH));
+        addNewPokemon(new EpochAriados("", Aspect.EPOCH));
+        addNewPokemon(new EpochStantler("", Aspect.EPOCH));
+        addNewPokemon(new EpochLedyba("", Aspect.EPOCH));
+        addNewPokemon(new EpochLedian("", Aspect.EPOCH));
+        addNewPokemon(new EpochGligar("", Aspect.EPOCH));
+        addNewPokemon(new EpochSudowoodo("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoothoot("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoctowl("", Aspect.EPOCH));
+        addNewPokemon(new EpochElekid("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagby("", Aspect.EPOCH));
+        addNewPokemon(new EpochLarvitar("", Aspect.EPOCH));
+        addNewPokemon(new EpochPupitar("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyranitar("", Aspect.EPOCH));
+        addNewPokemon(new EpochMareep("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlaaffy("", Aspect.EPOCH));
+        addNewPokemon(new EpochAmpharos("", Aspect.EPOCH));
+        addNewPokemon(new EpochHeracross("", Aspect.EPOCH));
+        addNewPokemon(new EpochTeddiursa("", Aspect.EPOCH));
+        addNewPokemon(new EpochUrsaring("", Aspect.EPOCH));
+        addNewPokemon(new EpochEspeon("", Aspect.EPOCH));
+        addNewPokemon(new EpochUmbreon("", Aspect.EPOCH));
+        addNewPokemon(new EpochAipom("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlowking("", Aspect.EPOCH));
+        addNewPokemon(new EpochBellossom("", Aspect.EPOCH));
+        addNewPokemon(new EpochSunkern("", Aspect.EPOCH));
+        addNewPokemon(new EpochSunflora("", Aspect.EPOCH));
+        addNewPokemon(new EpochKingdra("", Aspect.EPOCH));
+        addNewPokemon(new EpochChinchou("", Aspect.EPOCH));
+        addNewPokemon(new EpochLanturn("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarill("", Aspect.EPOCH));
+        addNewPokemon(new EpochAzumarill("", Aspect.EPOCH));
+        addNewPokemon(new EpochDunsparce("", Aspect.EPOCH));
+        addNewPokemon(new EpochCorsola("", Aspect.EPOCH));
+        addNewPokemon(new EpochMantine("", Aspect.EPOCH));
+        addNewPokemon(new EpochMurkrow("", Aspect.EPOCH));
+        addNewPokemon(new EpochBlissey("", Aspect.EPOCH));
+        addNewPokemon(new EpochPichu("", Aspect.EPOCH));
+        addNewPokemon(new EpochIgglybuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwinub("", Aspect.EPOCH));
+        addNewPokemon(new EpochPiloswine("", Aspect.EPOCH));
+        addNewPokemon(new EpochPhanpy("", Aspect.EPOCH));
+        addNewPokemon(new EpochDonphan("", Aspect.EPOCH));
+        addNewPokemon(new EpochSmeargle("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlugmaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagcargoOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochStantlerOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSmoochum("", Aspect.EPOCH));
+        addNewPokemon(new EpochYanma("", Aspect.EPOCH));
+        addNewPokemon(new EpochYanmaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochRemoraid("", Aspect.EPOCH));
+        addNewPokemon(new EpochOctillery("", Aspect.EPOCH));
+        addNewPokemon(new EpochMisdreavus("", Aspect.EPOCH));
+        addNewPokemon(new EpochPolitoed("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyrogue("", Aspect.EPOCH));
+        addNewPokemon(new EpochHitmontop("", Aspect.EPOCH));
+        addNewPokemon(new EpochScizor("", Aspect.EPOCH));
+        addNewPokemon(new EpochMurkrowOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCleffa("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoundour("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoundoom("", Aspect.EPOCH));
+        addNewPokemon(new EpochSneasel("", Aspect.EPOCH));
+        addNewPokemon(new EpochMiltank("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwinubOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPiloswineOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPorygon2("", Aspect.EPOCH));
+        addNewPokemon(new EpochWooper("", Aspect.EPOCH));
+        addNewPokemon(new EpochQuagsire("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelibird("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoppip("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkiploom("", Aspect.EPOCH));
+        addNewPokemon(new EpochJumpluff("", Aspect.EPOCH));
+        addNewPokemon(new EpochKingdraOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPineco("", Aspect.EPOCH));
+        addNewPokemon(new EpochForretress("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoothootOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoctowlOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoppipOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkiploomOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochJumpluffOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkarmory("", Aspect.EPOCH));
+        addNewPokemon(new EpochSentret("", Aspect.EPOCH));
+        addNewPokemon(new EpochFurret("", Aspect.EPOCH));
+        addNewPokemon(new EpochCrobat("", Aspect.EPOCH));
+        addNewPokemon(new EpochTreecko("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrovyle("", Aspect.EPOCH));
+        addNewPokemon(new EpochSceptile("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudkip("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarshtomp("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwampert("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudkipOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMarshtompOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwampertOne("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochWailmer("", Aspect.EPOCH));
+        addNewPokemon(new EpochWailord("", Aspect.EPOCH));
+        addNewPokemon(new EpochNosepass("", Aspect.EPOCH));
+        addNewPokemon(new EpochGulpin("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwalot("", Aspect.EPOCH));
+        addNewPokemon(new EpochBaltoy("", Aspect.EPOCH));
+        addNewPokemon(new EpochClaydol("", Aspect.EPOCH));
+        addNewPokemon(new EpochLunatone("", Aspect.EPOCH));
+        addNewPokemon(new EpochSolrock("", Aspect.EPOCH));
+        addNewPokemon(new EpochShroomish("", Aspect.EPOCH));
+        addNewPokemon(new EpochBreloom("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarvanha("", Aspect.EPOCH));
+        addNewPokemon(new EpochSharpedo("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnorunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochGlalie("", Aspect.EPOCH));
+        addNewPokemon(new EpochSableye("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwablu("", Aspect.EPOCH));
+        addNewPokemon(new EpochAltaria("", Aspect.EPOCH));
+        addNewPokemon(new EpochDuskull("", Aspect.EPOCH));
+        addNewPokemon(new EpochDusclops("", Aspect.EPOCH));
+        addNewPokemon(new EpochAron("", Aspect.EPOCH));
+        addNewPokemon(new EpochLairon("", Aspect.EPOCH));
+        addNewPokemon(new EpochAggron("", Aspect.EPOCH));
+        addNewPokemon(new EpochWurmple("", Aspect.EPOCH));
+        addNewPokemon(new EpochSilcoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeautifly("", Aspect.EPOCH));
+        addNewPokemon(new EpochWurmpleOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCascoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochDustox("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeebas("", Aspect.EPOCH));
+        addNewPokemon(new EpochMilotic("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeedot("", Aspect.EPOCH));
+        addNewPokemon(new EpochNuzleaf("", Aspect.EPOCH));
+        addNewPokemon(new EpochShiftry("", Aspect.EPOCH));
+        addNewPokemon(new EpochRalts("", Aspect.EPOCH));
+        addNewPokemon(new EpochKirlia("", Aspect.EPOCH));
+        addNewPokemon(new EpochGardevoir("", Aspect.EPOCH));
+        addNewPokemon(new EpochNumel("", Aspect.EPOCH));
+        addNewPokemon(new EpochCamerupt("", Aspect.EPOCH));
+        addNewPokemon(new EpochAzurill("", Aspect.EPOCH));
+        addNewPokemon(new EpochPoochyena("", Aspect.EPOCH));
+        addNewPokemon(new EpochMightyena("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbsol("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeldum("", Aspect.EPOCH));
+        addNewPokemon(new EpochMetang("", Aspect.EPOCH));
+        addNewPokemon(new EpochMetagross("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeditite("", Aspect.EPOCH));
+        addNewPokemon(new EpochMedicham("", Aspect.EPOCH));
+        addNewPokemon(new EpochNincada("", Aspect.EPOCH));
+        addNewPokemon(new EpochNinjask("", Aspect.EPOCH));
+        addNewPokemon(new EpochShedinja("", Aspect.EPOCH));
+        addNewPokemon(new EpochLileep("", Aspect.EPOCH));
+        addNewPokemon(new EpochCradily("", Aspect.EPOCH));
+        addNewPokemon(new EpochCacnea("", Aspect.EPOCH));
+        addNewPokemon(new EpochCacturne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTaillow("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwellow("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpheal("", Aspect.EPOCH));
+        addNewPokemon(new EpochSealeo("", Aspect.EPOCH));
+        addNewPokemon(new EpochWalrein("", Aspect.EPOCH));
+        addNewPokemon(new EpochSurskit("", Aspect.EPOCH));
+        addNewPokemon(new EpochMasquerain("", Aspect.EPOCH));
+        addNewPokemon(new EpochWingull("", Aspect.EPOCH));
+        addNewPokemon(new EpochPelipper("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectrike("", Aspect.EPOCH));
+        addNewPokemon(new EpochManectric("", Aspect.EPOCH));
+        addNewPokemon(new EpochTorkoal("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoselia("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbsolOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSableyeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwabluOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAltariaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSurskitOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMasquerainOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochClamperl("", Aspect.EPOCH));
+        addNewPokemon(new EpochHuntail("", Aspect.EPOCH));
+        addNewPokemon(new EpochGorebyss("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkittyOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelcattyOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochNumelOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCameruptOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochZigzagoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochLinoone("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrapinch("", Aspect.EPOCH));
+        addNewPokemon(new EpochVibrava("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlygon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShuppet("", Aspect.EPOCH));
+        addNewPokemon(new EpochBanette("", Aspect.EPOCH));
+        addNewPokemon(new EpochWhismur("", Aspect.EPOCH));
+        addNewPokemon(new EpochLoudred("", Aspect.EPOCH));
+        addNewPokemon(new EpochExploud("", Aspect.EPOCH));
+        addNewPokemon(new EpochCorphish("", Aspect.EPOCH));
+        addNewPokemon(new EpochCrawdaunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochAnorith("", Aspect.EPOCH));
+        addNewPokemon(new EpochArmaldo("", Aspect.EPOCH));
+        addNewPokemon(new EpochBagon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShelgon("", Aspect.EPOCH));
+        addNewPokemon(new EpochSalamence("", Aspect.EPOCH));
+        addNewPokemon(new EpochNosepassOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlakoth("", Aspect.EPOCH));
+        addNewPokemon(new EpochVigoroth("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlaking("", Aspect.EPOCH));
+        addNewPokemon(new EpochChimecho("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoseliaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochLotad("", Aspect.EPOCH));
+        addNewPokemon(new EpochLombre("", Aspect.EPOCH));
+        addNewPokemon(new EpochLudicolo("", Aspect.EPOCH));
+        addNewPokemon(new EpochFeebasOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMiloticOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkitty("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelcatty("", Aspect.EPOCH));
+        addNewPokemon(new EpochTurtwig("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrotle("", Aspect.EPOCH));
+        addNewPokemon(new EpochTorterra("", Aspect.EPOCH));
+        addNewPokemon(new EpochChimchar("", Aspect.EPOCH));
+        addNewPokemon(new EpochMonferno("", Aspect.EPOCH));
+        addNewPokemon(new EpochInfernape("", Aspect.EPOCH));
+        addNewPokemon(new EpochPiplup("", Aspect.EPOCH));
+        addNewPokemon(new EpochPrinplup("", Aspect.EPOCH));
+        addNewPokemon(new EpochEmpoleon("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochProbopass("", Aspect.EPOCH));
+        addNewPokemon(new EpochTangrowth("", Aspect.EPOCH));
+        addNewPokemon(new EpochFinneon("", Aspect.EPOCH));
+        addNewPokemon(new EpochLumineon("", Aspect.EPOCH));
+        addNewPokemon(new EpochGliscor("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrifloon("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrifblim("", Aspect.EPOCH));
+        addNewPokemon(new EpochBonsly("", Aspect.EPOCH));
+        addNewPokemon(new EpochElectivire("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagmortar("", Aspect.EPOCH));
+        addNewPokemon(new EpochHippopotas("", Aspect.EPOCH));
+        addNewPokemon(new EpochHippowdon("", Aspect.EPOCH));
+        addNewPokemon(new EpochBronzor("", Aspect.EPOCH));
+        addNewPokemon(new EpochBronzong("", Aspect.EPOCH));
+        addNewPokemon(new EpochDusknoir("", Aspect.EPOCH));
+        addNewPokemon(new EpochLeafeon("", Aspect.EPOCH));
+        addNewPokemon(new EpochGlaceon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellos("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodon("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosFour("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonFour("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosFive("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonFive("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosSix("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonSix("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosSeven("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonSeven("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosEight("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonEight("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosNine("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonNine("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosTen("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonTen("", Aspect.EPOCH));
+        addNewPokemon(new EpochShellosEleven("", Aspect.EPOCH));
+        addNewPokemon(new EpochGastrodonEleven("", Aspect.EPOCH));
+        addNewPokemon(new EpochAmbipom("", Aspect.EPOCH));
+        addNewPokemon(new EpochStarly("", Aspect.EPOCH));
+        addNewPokemon(new EpochStaravia("", Aspect.EPOCH));
+        addNewPokemon(new EpochStaraptor("", Aspect.EPOCH));
+        addNewPokemon(new EpochKricketot("", Aspect.EPOCH));
+        addNewPokemon(new EpochKricketune("", Aspect.EPOCH));
+        addNewPokemon(new EpochStunky("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkuntank("", Aspect.EPOCH));
+        addNewPokemon(new EpochCroagunk("", Aspect.EPOCH));
+        addNewPokemon(new EpochToxicroak("", Aspect.EPOCH));
+        addNewPokemon(new EpochYanmega("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkorupi("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrapion("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpiritomb("", Aspect.EPOCH));
+        addNewPokemon(new EpochCherubi("", Aspect.EPOCH));
+        addNewPokemon(new EpochCherrim("", Aspect.EPOCH));
+        addNewPokemon(new EpochMantyke("", Aspect.EPOCH));
+        addNewPokemon(new EpochHappiny("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagnezone("", Aspect.EPOCH));
+        addNewPokemon(new EpochShinx("", Aspect.EPOCH));
+        addNewPokemon(new EpochLuxio("", Aspect.EPOCH));
+        addNewPokemon(new EpochLuxray("", Aspect.EPOCH));
+        addNewPokemon(new EpochMamoswine("", Aspect.EPOCH));
+        addNewPokemon(new EpochBuneary("", Aspect.EPOCH));
+        addNewPokemon(new EpochLopunny("", Aspect.EPOCH));
+        addNewPokemon(new EpochBuizel("", Aspect.EPOCH));
+        addNewPokemon(new EpochFloatzel("", Aspect.EPOCH));
+        addNewPokemon(new EpochBudew("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoserade("", Aspect.EPOCH));
+        addNewPokemon(new EpochGible("", Aspect.EPOCH));
+        addNewPokemon(new EpochGabite("", Aspect.EPOCH));
+        addNewPokemon(new EpochGarchomp("", Aspect.EPOCH));
+        addNewPokemon(new EpochMimejr("", Aspect.EPOCH));
+        addNewPokemon(new EpochShieldon("", Aspect.EPOCH));
+        addNewPokemon(new EpochBastiodon("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnover("", Aspect.EPOCH));
+        addNewPokemon(new EpochAbomasnow("", Aspect.EPOCH));
+        addNewPokemon(new EpochGibleOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGabiteOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGarchompOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochYanmegaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMismagius("", Aspect.EPOCH));
+        addNewPokemon(new EpochRiolu("", Aspect.EPOCH));
+        addNewPokemon(new EpochLucario("", Aspect.EPOCH));
+        addNewPokemon(new EpochCranidos("", Aspect.EPOCH));
+        addNewPokemon(new EpochRampardos("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonchkrow("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonchkrowOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochBidoof("", Aspect.EPOCH));
+        addNewPokemon(new EpochBibarel("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarnivine("", Aspect.EPOCH));
+        addNewPokemon(new EpochMunchlax("", Aspect.EPOCH));
+        addNewPokemon(new EpochProbopassOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMamoswineOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochChingling("", Aspect.EPOCH));
+        addNewPokemon(new EpochMagnezoneOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochBudewOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoseradeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPorygonz("", Aspect.EPOCH));
+        addNewPokemon(new EpochFroslass("", Aspect.EPOCH));
+        addNewPokemon(new EpochGallade("", Aspect.EPOCH));
+        addNewPokemon(new EpochWeavile("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnivy("", Aspect.EPOCH));
+        addNewPokemon(new EpochServine("", Aspect.EPOCH));
+        addNewPokemon(new EpochSerperior("", Aspect.EPOCH));
+        addNewPokemon(new EpochTepig("", Aspect.EPOCH));
+        addNewPokemon(new EpochPignite("", Aspect.EPOCH));
+        addNewPokemon(new EpochEmboar("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochSolosis("", Aspect.EPOCH));
+        addNewPokemon(new EpochDuosion("", Aspect.EPOCH));
+        addNewPokemon(new EpochReuniclus("", Aspect.EPOCH));
+        addNewPokemon(new EpochRufflet("", Aspect.EPOCH));
+        addNewPokemon(new EpochBraviary("", Aspect.EPOCH));
+        addNewPokemon(new EpochTympole("", Aspect.EPOCH));
+        addNewPokemon(new EpochPalpitoad("", Aspect.EPOCH));
+        addNewPokemon(new EpochSeismitoad("", Aspect.EPOCH));
+        addNewPokemon(new EpochZorua("", Aspect.EPOCH));
+        addNewPokemon(new EpochZoroark("", Aspect.EPOCH));
+        addNewPokemon(new EpochDucklett("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwanna("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolett("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolurk("", Aspect.EPOCH));
+        addNewPokemon(new EpochLarvesta("", Aspect.EPOCH));
+        addNewPokemon(new EpochVolcarona("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoggenrola("", Aspect.EPOCH));
+        addNewPokemon(new EpochBoldore("", Aspect.EPOCH));
+        addNewPokemon(new EpochGigalith("", Aspect.EPOCH));
+        addNewPokemon(new EpochLillipup("", Aspect.EPOCH));
+        addNewPokemon(new EpochHerdier("", Aspect.EPOCH));
+        addNewPokemon(new EpochStoutland("", Aspect.EPOCH));
+        addNewPokemon(new EpochMinccino("", Aspect.EPOCH));
+        addNewPokemon(new EpochCinccino("", Aspect.EPOCH));
+        addNewPokemon(new EpochDruddigon("", Aspect.EPOCH));
+        addNewPokemon(new EpochWoobat("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwoobat("", Aspect.EPOCH));
+        addNewPokemon(new EpochTimburr("", Aspect.EPOCH));
+        addNewPokemon(new EpochGurdurr("", Aspect.EPOCH));
+        addNewPokemon(new EpochConkeldurr("", Aspect.EPOCH));
+        addNewPokemon(new EpochLitwick("", Aspect.EPOCH));
+        addNewPokemon(new EpochLampent("", Aspect.EPOCH));
+        addNewPokemon(new EpochChandelure("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanillite("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanillish("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanilluxe("", Aspect.EPOCH));
+        addNewPokemon(new EpochJoltik("", Aspect.EPOCH));
+        addNewPokemon(new EpochGalvantula("", Aspect.EPOCH));
+        addNewPokemon(new EpochCubchoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeartic("", Aspect.EPOCH));
+        addNewPokemon(new EpochVenipede("", Aspect.EPOCH));
+        addNewPokemon(new EpochWhirlipede("", Aspect.EPOCH));
+        addNewPokemon(new EpochScolipede("", Aspect.EPOCH));
+        addNewPokemon(new EpochDeerling("", Aspect.EPOCH));
+        addNewPokemon(new EpochSawsbuck("", Aspect.EPOCH));
+        addNewPokemon(new EpochTynamo("", Aspect.EPOCH));
+        addNewPokemon(new EpochEelektrik("", Aspect.EPOCH));
+        addNewPokemon(new EpochEelektross("", Aspect.EPOCH));
+        addNewPokemon(new EpochBasculin("", Aspect.EPOCH));
+        addNewPokemon(new EpochPidove("", Aspect.EPOCH));
+        addNewPokemon(new EpochTranquill("", Aspect.EPOCH));
+        addNewPokemon(new EpochUnfezant("", Aspect.EPOCH));
+        addNewPokemon(new EpochDwebble("", Aspect.EPOCH));
+        addNewPokemon(new EpochCrustle("", Aspect.EPOCH));
+        addNewPokemon(new EpochDurant("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeloetta("", Aspect.EPOCH));
+        addNewPokemon(new EpochDeino("", Aspect.EPOCH));
+        addNewPokemon(new EpochZweilous("", Aspect.EPOCH));
+        addNewPokemon(new EpochHydreigon("", Aspect.EPOCH));
+        addNewPokemon(new EpochYamask("", Aspect.EPOCH));
+        addNewPokemon(new EpochCofagrigus("", Aspect.EPOCH));
+        addNewPokemon(new EpochThroh("", Aspect.EPOCH));
+        addNewPokemon(new EpochSawk("", Aspect.EPOCH));
+        addNewPokemon(new EpochSandile("", Aspect.EPOCH));
+        addNewPokemon(new EpochKrokorok("", Aspect.EPOCH));
+        addNewPokemon(new EpochKrookodile("", Aspect.EPOCH));
+        addNewPokemon(new EpochPatrat("", Aspect.EPOCH));
+        addNewPokemon(new EpochWatchog("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothita("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothorita("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothitelle("", Aspect.EPOCH));
+        addNewPokemon(new EpochVullaby("", Aspect.EPOCH));
+        addNewPokemon(new EpochMandibuzz("", Aspect.EPOCH));
+        addNewPokemon(new EpochFerroseed("", Aspect.EPOCH));
+        addNewPokemon(new EpochFerrothorn("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothitaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothoritaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGothitelleOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPurrloin("", Aspect.EPOCH));
+        addNewPokemon(new EpochLiepard("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrubbish("", Aspect.EPOCH));
+        addNewPokemon(new EpochGarbodor("", Aspect.EPOCH));
+        addNewPokemon(new EpochKlink("", Aspect.EPOCH));
+        addNewPokemon(new EpochKlang("", Aspect.EPOCH));
+        addNewPokemon(new EpochKlinklang("", Aspect.EPOCH));
+        addNewPokemon(new EpochDarumaka("", Aspect.EPOCH));
+        addNewPokemon(new EpochDarmanitan("", Aspect.EPOCH));
+        addNewPokemon(new EpochRoggenrolaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochBoldoreOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGigalithOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanilliteOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanillishOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochVanilluxeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochArchen("", Aspect.EPOCH));
+        addNewPokemon(new EpochArcheops("", Aspect.EPOCH));
+        addNewPokemon(new EpochTirtouga("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarracosta("", Aspect.EPOCH));
+        addNewPokemon(new EpochMunna("", Aspect.EPOCH));
+        addNewPokemon(new EpochMusharna("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrilbur("", Aspect.EPOCH));
+        addNewPokemon(new EpochExcadrill("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrilburOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochExcadrillOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSolosisOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDuosionOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochReuniclusOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSewaddle("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwadloon("", Aspect.EPOCH));
+        addNewPokemon(new EpochLeavanny("", Aspect.EPOCH));
+        addNewPokemon(new EpochTimburrOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGurdurrOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochConkeldurrOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochLarvestaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochVolcaronaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochFrillish("", Aspect.EPOCH));
+        addNewPokemon(new EpochJellicent("", Aspect.EPOCH));
+        addNewPokemon(new EpochBlitzle("", Aspect.EPOCH));
+        addNewPokemon(new EpochZebstrika("", Aspect.EPOCH));
+        addNewPokemon(new EpochEmolga("", Aspect.EPOCH));
+        addNewPokemon(new EpochElgyem("", Aspect.EPOCH));
+        addNewPokemon(new EpochBeheeyem("", Aspect.EPOCH));
+        addNewPokemon(new EpochScraggy("", Aspect.EPOCH));
+        addNewPokemon(new EpochScrafty("", Aspect.EPOCH));
+        addNewPokemon(new EpochFennekin("", Aspect.EPOCH));
+        addNewPokemon(new EpochBraixen("", Aspect.EPOCH));
+        addNewPokemon(new EpochDelphox("", Aspect.EPOCH));
+        addNewPokemon(new EpochChespin("", Aspect.EPOCH));
+        addNewPokemon(new EpochQuilladin("", Aspect.EPOCH));
+        addNewPokemon(new EpochChesnaught("", Aspect.EPOCH));
+        addNewPokemon(new EpochFroakie("", Aspect.EPOCH));
+        addNewPokemon(new EpochFrogadier("", Aspect.EPOCH));
+        addNewPokemon(new EpochGreninja("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochFletchling("", Aspect.EPOCH));
+        addNewPokemon(new EpochFletchinder("", Aspect.EPOCH));
+        addNewPokemon(new EpochTalonflame("", Aspect.EPOCH));
+        addNewPokemon(new EpochBergmite("", Aspect.EPOCH));
+        addNewPokemon(new EpochAvalugg("", Aspect.EPOCH));
+        addNewPokemon(new EpochAmaura("", Aspect.EPOCH));
+        addNewPokemon(new EpochAurorus("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkrelp("", Aspect.EPOCH));
+        addNewPokemon(new EpochDragalge("", Aspect.EPOCH));
+        addNewPokemon(new EpochLitleo("", Aspect.EPOCH));
+        addNewPokemon(new EpochPyroar("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkiddo("", Aspect.EPOCH));
+        addNewPokemon(new EpochGogoat("", Aspect.EPOCH));
+        addNewPokemon(new EpochSwirlix("", Aspect.EPOCH));
+        addNewPokemon(new EpochSlurpuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochSylveon("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoibat("", Aspect.EPOCH));
+        addNewPokemon(new EpochNoivern("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpritzee("", Aspect.EPOCH));
+        addNewPokemon(new EpochAromatisse("", Aspect.EPOCH));
+        addNewPokemon(new EpochFurfrou("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedge("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochHonedgeThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoublade("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochDoubladeThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislash("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashTwo("", Aspect.EPOCH));
+        addNewPokemon(new EpochAegislashThree("", Aspect.EPOCH));
+        addNewPokemon(new EpochEspurr("", Aspect.EPOCH));
+        addNewPokemon(new EpochMeowstic("", Aspect.EPOCH));
+        addNewPokemon(new EpochKlefki("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyrunt("", Aspect.EPOCH));
+        addNewPokemon(new EpochTyrantrum("", Aspect.EPOCH));
+        addNewPokemon(new EpochSpritzeeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAromatisseOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarbink("", Aspect.EPOCH));
+        addNewPokemon(new EpochGoomy("", Aspect.EPOCH));
+        addNewPokemon(new EpochSliggoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochGoodra("", Aspect.EPOCH));
+        addNewPokemon(new EpochBinacle("", Aspect.EPOCH));
+        addNewPokemon(new EpochBarbaracle("", Aspect.EPOCH));
+        addNewPokemon(new EpochPhantump("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrevenant("", Aspect.EPOCH));
+        addNewPokemon(new EpochHelioptile("", Aspect.EPOCH));
+        addNewPokemon(new EpochHeliolisk("", Aspect.EPOCH));
+        addNewPokemon(new EpochDedenne("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlabebe("", Aspect.EPOCH));
+        addNewPokemon(new EpochFloette("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlorges("", Aspect.EPOCH));
+        addNewPokemon(new EpochHoopa("", Aspect.EPOCH));
+        addNewPokemon(new EpochRowlet("", Aspect.EPOCH));
+        addNewPokemon(new EpochDartrix("", Aspect.EPOCH));
+        addNewPokemon(new EpochDecidueye("", Aspect.EPOCH));
+        addNewPokemon(new EpochLitten("", Aspect.EPOCH));
+        addNewPokemon(new EpochTorracat("", Aspect.EPOCH));
+        addNewPokemon(new EpochIncineroar("", Aspect.EPOCH));
+        addNewPokemon(new EpochPopplio("", Aspect.EPOCH));
+        addNewPokemon(new EpochBrionne("", Aspect.EPOCH));
+        addNewPokemon(new EpochPrimarina("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochMorelull("", Aspect.EPOCH));
+        addNewPokemon(new EpochShiinotic("", Aspect.EPOCH));
+        addNewPokemon(new EpochSandygast("", Aspect.EPOCH));
+        addNewPokemon(new EpochPalossand("", Aspect.EPOCH));
+        addNewPokemon(new EpochMareanie("", Aspect.EPOCH));
+        addNewPokemon(new EpochToxapex("", Aspect.EPOCH));
+        addNewPokemon(new EpochDewpider("", Aspect.EPOCH));
+        addNewPokemon(new EpochAraquanid("", Aspect.EPOCH));
+        addNewPokemon(new EpochCutiefly("", Aspect.EPOCH));
+        addNewPokemon(new EpochRibombee("", Aspect.EPOCH));
+        addNewPokemon(new EpochPikipek("", Aspect.EPOCH));
+        addNewPokemon(new EpochTrumbeak("", Aspect.EPOCH));
+        addNewPokemon(new EpochToucannon("", Aspect.EPOCH));
+        addNewPokemon(new EpochStufful("", Aspect.EPOCH));
+        addNewPokemon(new EpochBewear("", Aspect.EPOCH));
+        addNewPokemon(new EpochBounsweet("", Aspect.EPOCH));
+        addNewPokemon(new EpochSteenee("", Aspect.EPOCH));
+        addNewPokemon(new EpochTsareena("", Aspect.EPOCH));
+        addNewPokemon(new EpochBounsweetOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSteeneeOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochTsareenaOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDewpiderOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochAraquanidOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMimikyu("", Aspect.EPOCH));
+        addNewPokemon(new EpochJangmoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochHakamoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochKommoo("", Aspect.EPOCH));
+        addNewPokemon(new EpochDhelmise("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudbray("", Aspect.EPOCH));
+        addNewPokemon(new EpochMudsdale("", Aspect.EPOCH));
+        addNewPokemon(new EpochSalandit("", Aspect.EPOCH));
+        addNewPokemon(new EpochSalazzle("", Aspect.EPOCH));
+        addNewPokemon(new EpochWimpod("", Aspect.EPOCH));
+        addNewPokemon(new EpochGolisopod("", Aspect.EPOCH));
+        addNewPokemon(new EpochComfey("", Aspect.EPOCH));
+        addNewPokemon(new EpochSobble("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrizzile("", Aspect.EPOCH));
+        addNewPokemon(new EpochInteleon("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochRookidee("", Aspect.EPOCH));
+        addNewPokemon(new EpochCorvisquire("", Aspect.EPOCH));
+        addNewPokemon(new EpochCorviknight("", Aspect.EPOCH));
+        addNewPokemon(new EpochYamper("", Aspect.EPOCH));
+        addNewPokemon(new EpochBoltund("", Aspect.EPOCH));
+        addNewPokemon(new EpochImpidimp("", Aspect.EPOCH));
+        addNewPokemon(new EpochMorgrem("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrimmsnarl("", Aspect.EPOCH));
+        addNewPokemon(new EpochImpidimpOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochMorgremOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrimmsnarlOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochGossifleur("", Aspect.EPOCH));
+        addNewPokemon(new EpochEldegoss("", Aspect.EPOCH));
+        addNewPokemon(new EpochSilicobra("", Aspect.EPOCH));
+        addNewPokemon(new EpochSandaconda("", Aspect.EPOCH));
+        addNewPokemon(new EpochSinistea("", Aspect.EPOCH));
+        addNewPokemon(new EpochPolteageist("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkwovet("", Aspect.EPOCH));
+        addNewPokemon(new EpochGreedent("", Aspect.EPOCH));
+        addNewPokemon(new EpochToxel("", Aspect.EPOCH));
+        addNewPokemon(new EpochToxtricity("", Aspect.EPOCH));
+        addNewPokemon(new EpochApplin("", Aspect.EPOCH));
+        addNewPokemon(new EpochFlapple("", Aspect.EPOCH));
+        addNewPokemon(new EpochAppletun("", Aspect.EPOCH));
+        addNewPokemon(new EpochWooloo("", Aspect.EPOCH));
+        addNewPokemon(new EpochDubwool("", Aspect.EPOCH));
+        addNewPokemon(new EpochWoolooOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochDubwoolOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochArrokuda("", Aspect.EPOCH));
+        addNewPokemon(new EpochBarraskewda("", Aspect.EPOCH));
+        addNewPokemon(new EpochFalinks("", Aspect.EPOCH));
+        addNewPokemon(new EpochIndeedee("", Aspect.EPOCH));
+        addNewPokemon(new EpochPincurchin("", Aspect.EPOCH));
+        addNewPokemon(new EpochRolycoly("", Aspect.EPOCH));
+        addNewPokemon(new EpochCarkol("", Aspect.EPOCH));
+        addNewPokemon(new EpochCoalossal("", Aspect.EPOCH));
+        addNewPokemon(new EpochDreepy("", Aspect.EPOCH));
+        addNewPokemon(new EpochDrakloak("", Aspect.EPOCH));
+        addNewPokemon(new EpochDragapult("", Aspect.EPOCH));
+        addNewPokemon(new EpochStonjourner("", Aspect.EPOCH));
+        addNewPokemon(new EpochSnom("", Aspect.EPOCH));
+        addNewPokemon(new EpochFrosmoth("", Aspect.EPOCH));
+        addNewPokemon(new EpochCramorant("", Aspect.EPOCH));
+        addNewPokemon(new EpochSizzlipede("", Aspect.EPOCH));
+        addNewPokemon(new EpochCentiskorch("", Aspect.EPOCH));
+        addNewPokemon(new EpochMilcery("", Aspect.EPOCH));
+        addNewPokemon(new EpochAlcremie("", Aspect.EPOCH));
+        addNewPokemon(new EpochClobbopus("", Aspect.EPOCH));
+        addNewPokemon(new EpochGrapploct("", Aspect.EPOCH));
+        addNewPokemon(new EpochCufant("", Aspect.EPOCH));
+        addNewPokemon(new EpochCopperajah("", Aspect.EPOCH));
+        addNewPokemon(new EpochHatenna("", Aspect.EPOCH));
+        addNewPokemon(new EpochHattrem("", Aspect.EPOCH));
+        addNewPokemon(new EpochHatterene("", Aspect.EPOCH));
+        addNewPokemon(new EpochEternatus("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochMrrime("", Aspect.EPOCH));
+        addNewPokemon(new EpochCursola("", Aspect.EPOCH));
+        addNewPokemon(new EpochObstagoon("", Aspect.EPOCH));
+        addNewPokemon(new EpochUrsaluna("", Aspect.EPOCH));
+        addNewPokemon(new EpochWyrdeer("", Aspect.EPOCH));
+        addNewPokemon(new EpochWyrdeerOne("", Aspect.EPOCH));
+        addNewPokemon(new EpochSneasler("", Aspect.EPOCH));
+        addNewPokemon(new EpochBasculegion("", Aspect.EPOCH));
+        addNewPokemon(new EpochFuecoco("", Aspect.EPOCH));
+        addNewPokemon(new EpochCrocalor("", Aspect.EPOCH));
+        addNewPokemon(new EpochSkeledirge("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochWattrel("", Aspect.EPOCH));
+        addNewPokemon(new EpochKilowattrel("", Aspect.EPOCH));
+        addNewPokemon(new EpochFinizen("", Aspect.EPOCH));
+        addNewPokemon(new EpochPalafin("", Aspect.EPOCH));
+        addNewPokemon(new EpochPawmi("", Aspect.EPOCH));
+        addNewPokemon(new EpochPawmo("", Aspect.EPOCH));
+        addNewPokemon(new EpochPawmot("", Aspect.EPOCH));
+        addNewPokemon(new EpochTinkatink("", Aspect.EPOCH));
+        addNewPokemon(new EpochTinkatuff("", Aspect.EPOCH));
+        addNewPokemon(new EpochTinkaton("", Aspect.EPOCH));
+        addNewPokemon(new EpochGimmighoul("", Aspect.EPOCH));
+        addNewPokemon(new EpochGholdengo("", Aspect.EPOCH));
+
+        addNewPokemon(new EpochDudunsparce("", Aspect.EPOCH));
+        addNewPokemon(new EpochAnnihilape("", Aspect.EPOCH));
+        addNewPokemon(new EpochDipplin("", Aspect.EPOCH));
 
         addNewPokemon(new EpochShelmet("", Aspect.EPOCH));
         addNewPokemon(new EpochAccelgor("", Aspect.EPOCH));
@@ -1100,5 +1108,9 @@ public class Soulstones extends drai.dev.data.games.registry.Game {
         addNewPokemon(new EpochWugtrio("", Aspect.EPOCH));
         addNewPokemon(new EpochZoruaOne("", Aspect.EPOCH));
         addNewPokemon(new EpochZoroarkOne("", Aspect.EPOCH));
+
+        addNewPokemon(new Galaxeon());
+        addNewPokemon(new Prismeon());
+        addNewPokemon(new Octaveon());
     }
 }

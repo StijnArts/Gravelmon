@@ -2,19 +2,19 @@
   "target": "cobblemon:machoke",
   "forms": [
     {
-      "name": "Ferranian",
-      "primaryType": "fighting",
-      "secondaryType": "steel",
-      "catchRate": 255,
-      "maleRatio": 0.5,
+      "name": "Africanusan",
+      "primaryType": "rock",
+      "secondaryType": "ghost",
+      "catchRate": 90,
+      "maleRatio": 0.25,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.4675324675324675,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "disguise"
       ],
       "behaviour": {
         "resting": {
@@ -43,73 +43,71 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 80,
+        "attack": 101,
+        "defence": 70,
+        "special_attack": 45,
+        "special_defence": 50,
+        "speed": 60
       },
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 2,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "human_like"
       ],
       "drops": {},
       "moves": [
-        "1:lowkick",
-        "1:metalclaw",
+        "32:shadowpunch",
+        "1:shadowsneak",
+        "30:shadowclaw",
         "1:leer",
-        "1:screech",
-        "4:revenge",
-        "4:irontail",
-        "7:vacuumwave",
-        "7:smartstrike",
-        "10:brickbreak",
-        "10:mirrorshot",
-        "13:aurasphere",
-        "13:flashcannon",
-        "16:focusblast",
-        "16:steelbeam",
-        "19:lowkick",
-        "19:metalclaw",
-        "22:leer",
-        "22:screech",
+        "40:shadowball",
+        "19:rockthrow",
+        "55:stoneedge",
+        "15:accelerock",
+        "1:lowkick",
+        "7:focusenergy",
         "25:revenge",
-        "25:irontail",
-        "28:lowsweep",
-        "28:smartstrike",
-        "31:brickbreak",
-        "31:ironhead",
-        "34:karatechop",
-        "34:meteormash",
-        "39:closecombat",
+        "36:rockslide",
+        "44:powergem",
+        "10:rockblast",
+        "22:rockwrecker",
+        "51:scaryface",
         "tm:terablast"
       ],
       "labels": [
-        "ferran",
-        "not_modeled",
-        "instagram"
+        "africanus",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.ferranianmachoke.desc"
+        "cobblemon.species.africanusanmachoke.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 15,
+      "weight": 705,
       "aspects": [
-        "ferranian"
+        "africanusan"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "africanusanmachoke_machamp_africanusan",
+          "variant": "trade",
+          "result": "machamp africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.8125,
+        "height": 4.8125,
         "fixed": false
       }
     },
@@ -438,19 +436,19 @@
       }
     },
     {
-      "name": "Africanusan",
-      "primaryType": "rock",
-      "secondaryType": "ghost",
-      "catchRate": 90,
-      "maleRatio": 0.25,
+      "name": "Ferranian",
+      "primaryType": "fighting",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_slow",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4675324675324675,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "disguise"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -479,79 +477,82 @@
         }
       },
       "baseStats": {
-        "hp": 80,
-        "attack": 101,
-        "defence": 70,
-        "special_attack": 45,
-        "special_defence": 50,
-        "speed": 60
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
-        "attack": 2,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "human_like"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "32:shadowpunch",
-        "1:shadowsneak",
-        "30:shadowclaw",
-        "1:leer",
-        "40:shadowball",
-        "19:rockthrow",
-        "55:stoneedge",
-        "15:accelerock",
         "1:lowkick",
-        "7:focusenergy",
+        "1:metalclaw",
+        "1:leer",
+        "1:screech",
+        "4:revenge",
+        "4:irontail",
+        "7:vacuumwave",
+        "7:smartstrike",
+        "10:brickbreak",
+        "10:mirrorshot",
+        "13:aurasphere",
+        "13:flashcannon",
+        "16:focusblast",
+        "16:steelbeam",
+        "19:lowkick",
+        "19:metalclaw",
+        "22:leer",
+        "22:screech",
         "25:revenge",
-        "36:rockslide",
-        "44:powergem",
-        "10:rockblast",
-        "22:rockwrecker",
-        "51:scaryface",
+        "25:irontail",
+        "28:lowsweep",
+        "28:smartstrike",
+        "31:brickbreak",
+        "31:ironhead",
+        "34:karatechop",
+        "34:meteormash",
+        "39:closecombat",
         "tm:terablast"
       ],
       "labels": [
-        "africanus",
-        "not_modeled"
+        "ferran",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.africanusanmachoke.desc"
+        "cobblemon.species.ferranianmachoke.desc"
       ],
-      "height": 15,
-      "weight": 705,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "africanusan"
+        "ferranian"
       ],
-      "evolutions": [
-        {
-          "id": "africanusanmachoke_machamp_africanusan",
-          "variant": "trade",
-          "result": "machamp africanusan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.8125,
-        "height": 4.8125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "ferranian",
+    "africanusan",
     "epoch",
     "epochtwo",
-    "africanusan"
+    "ferranian"
   ]
 }

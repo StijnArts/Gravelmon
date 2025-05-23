@@ -4,29 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_ledyba-01",
-      "pokemon": "ledyba forman",
+      "id": "relic_ledyba-01",
+      "pokemon": "ledyba relic",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "2-28",
-      "weight": 6.75,
+      "level": "5-26",
+      "weight": 15.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:honeycomb_block"
+            "minecraft:magma_block"
           ]
         }
       }
@@ -59,26 +56,29 @@
       }
     },
     {
-      "id": "relic_ledyba-01",
-      "pokemon": "ledyba relic",
+      "id": "forman_ledyba-01",
+      "pokemon": "ledyba forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-26",
-      "weight": 15.0,
+      "level": "2-28",
+      "weight": 6.75,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:honeycomb_block"
           ]
         }
       }

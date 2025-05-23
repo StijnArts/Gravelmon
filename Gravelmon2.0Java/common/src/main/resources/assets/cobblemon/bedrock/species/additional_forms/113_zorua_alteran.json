@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_51_by_52.geo",
       "poser": "cobblemon:cutout_gravelmon_51_by_52",
-      "texture": "cobblemon:textures/pokemon/generation5/alteranzorua.png",
+      "texture": "cobblemon:textures/pokemon/flux/alteranzorua.png",
       "layers": [
         {
           "name": "emissive"

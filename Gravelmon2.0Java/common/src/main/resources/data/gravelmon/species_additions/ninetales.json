@@ -2,112 +2,6 @@
   "target": "cobblemon:ninetales",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "ghost",
-      "secondaryType": "fire",
-      "catchRate": 60,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "vulpix form=forman",
-      "baseScale": 0.07500000000000001,
-      "cannotDynamax": false,
-      "abilities": [
-        "cursedbody"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 72,
-        "attack": 38,
-        "defence": 76,
-        "special_attack": 130,
-        "special_defence": 76,
-        "speed": 110
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:lick",
-        "1:ember",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:growl",
-        "1:growl",
-        "1:nastyplot",
-        "1:nastyplot",
-        "4:confuseray",
-        "4:firespin",
-        "7:ominouswind",
-        "7:flamecharge",
-        "10:nightshade",
-        "10:flameburst",
-        "13:hex",
-        "13:flamethrower",
-        "16:shadowball",
-        "16:fireblast",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanninetales.desc"
-      ],
-      "height": 16,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "cosmic",
       "catchRate": 75,
@@ -250,6 +144,113 @@
       "hitbox": {
         "width": 4.625,
         "height": 4.625,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "vulpix form=forman",
+      "baseScale": 0.07500000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 72,
+        "attack": 38,
+        "defence": 76,
+        "special_attack": 130,
+        "special_defence": 76,
+        "speed": 110
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:ember",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:growl",
+        "1:growl",
+        "1:nastyplot",
+        "1:nastyplot",
+        "4:confuseray",
+        "4:firespin",
+        "7:ominouswind",
+        "7:flamecharge",
+        "10:nightshade",
+        "10:flameburst",
+        "13:hex",
+        "13:flamethrower",
+        "16:shadowball",
+        "16:fireblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanninetales.desc"
+      ],
+      "height": 16,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -823,8 +824,8 @@
     }
   ],
   "features": [
-    "forman",
     "epoch",
+    "forman",
     "ayreian",
     "ayreiantwo",
     "ishirian",

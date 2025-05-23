@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_126_by_134.geo",
       "poser": "cobblemon:cutout_gravelmon_126_by_134",
-      "texture": "cobblemon:textures/pokemon/generation1/deltadragonair.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadragonair.png",
       "layers": [
         {
           "name": "emissive"

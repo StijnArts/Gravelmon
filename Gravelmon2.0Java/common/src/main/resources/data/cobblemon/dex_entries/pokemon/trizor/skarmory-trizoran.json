@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:skarmory-trizoran",
+  "speciesId": "cobblemon:skarmory",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Trizoran",
+      "unlockForms": [
+        "Trizoran"
+      ]
+    }
+  ],
+  "variations": []
+}

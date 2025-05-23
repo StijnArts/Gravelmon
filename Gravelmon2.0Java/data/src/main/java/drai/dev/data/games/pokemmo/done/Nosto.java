@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.nosto.*;
+import drai.dev.data.pokemon.nosto.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -79,6 +81,8 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Metalien());
         addNewPokemon(new Lunetal());
         addNewPokemon(new Galextrial());
+//        addNewPokemon(new NostanTrubbish()); Missing Art
+//        addNewPokemon(new NostanGarbodor()); Missing Art
         addNewPokemon(new Shrimpond(new Stats(312, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Pekaboo());
         addNewPokemon(new Pitohood());
@@ -103,7 +107,8 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Signapsi());
         addNewPokemon(new Reneuron());
         addNewPokemon(new Brainergy());
-        addPokedexPokemon("morelull-nostan, shiinotic-nostan");
+        addNewPokemon(new NostanMorelull("", Aspect.NOSTAN));
+        addNewPokemon(new NostanShiinotic("", Aspect.NOSTAN, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
         addNewPokemon(new Primmella());
         addNewPokemon(new Primmadame());
         addNewPokemon(new Primmoiselle());
@@ -111,7 +116,8 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Fauxmingo());
         addNewPokemon(new Swandola());
         addNewPokemon(new Buldough());
-        addPokedexPokemon("diglett-nostan, dugtrio-nostan");
+        addNewPokemon(new NostanDiglett("", Aspect.NOSTAN));
+        addNewPokemon(new NostanDugtrio("", Aspect.NOSTAN));
         addNewPokemon(new Duggout());
 
         addNewPokemon(new Seasaw());
@@ -124,7 +130,8 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Planebe());
         addNewPokemon(new Staurbor());
         addNewPokemon(new Mantaqua());
-        addPokedexPokemon("shellder-nostan, cloyster-nostan");
+        addNewPokemon(new NostanShellder("", Aspect.NOSTAN));
+        addNewPokemon(new NostanCloyster("", Aspect.NOSTAN));
         addNewPokemon(new Merineon());
         addNewPokemon(new Teslax());
         addNewPokemon(new Zexalax());

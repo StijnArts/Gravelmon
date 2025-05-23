@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_64_by_87.geo",
       "poser": "cobblemon:cutout_gravelmon_64_by_87",
-      "texture": "cobblemon:textures/pokemon/generation1/nodorranarbok.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorranarbok.png",
       "layers": [
         {
           "name": "emissive"

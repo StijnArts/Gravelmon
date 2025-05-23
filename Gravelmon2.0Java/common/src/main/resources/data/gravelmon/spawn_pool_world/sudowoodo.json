@@ -4,34 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "nodorran_sudowoodo-01",
-      "pokemon": "sudowoodo nodorran",
-      "presets": [
-        "near_crops"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "20-40",
-      "weight": 1.2,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_temperate"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_sudowoodo-01",
       "pokemon": "sudowoodo epoch",
       "presets": [
@@ -55,6 +27,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "amaze_all_sudowoodo-01",
+      "pokemon": "sudowoodo amaze_all",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-39",
+      "weight": 0.15000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:has_density/sparse"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
           ]
         }
       }
@@ -87,28 +86,29 @@
       }
     },
     {
-      "id": "amaze_all_sudowoodo-01",
-      "pokemon": "sudowoodo amaze_all",
+      "id": "nodorran_sudowoodo-01",
+      "pokemon": "sudowoodo nodorran",
       "presets": [
-        "natural"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "20-39",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 1.2,
       "condition": {
         "biomes": [
-          "#cobblemon:has_density/sparse"
+          "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "day"
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:iron_block"
+            "minecraft:packed_mud"
           ]
         }
       }

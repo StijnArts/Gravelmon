@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_130_by_138.geo",
       "poser": "cobblemon:cutout_gravelmon_130_by_138",
-      "texture": "cobblemon:textures/pokemon/generation3/armiransceptile.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/armiransceptile.png",
       "layers": [
         {
           "name": "emissive"

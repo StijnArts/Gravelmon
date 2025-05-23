@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_60_by_150.geo",
       "poser": "cobblemon:cutout_gravelmon_60_by_150",
-      "texture": "cobblemon:textures/pokemon/generation4/deltadrifloon.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltadrifloon.png",
       "layers": [
         {
           "name": "emissive"

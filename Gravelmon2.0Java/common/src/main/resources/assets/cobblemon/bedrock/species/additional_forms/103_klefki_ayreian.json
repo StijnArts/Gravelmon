@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_61_by_91.geo",
       "poser": "cobblemon:cutout_gravelmon_61_by_91",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreianklefki.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianklefki.png",
       "layers": [
         {
           "name": "emissive"

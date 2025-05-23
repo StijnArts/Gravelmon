@@ -4,28 +4,53 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_voltorb-01",
-      "pokemon": "voltorb forman",
+      "id": "mystic_voltorb-01",
+      "pokemon": "voltorb mystic",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 5.699999999999999,
+      "level": "12-22",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cave"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:iron_block"
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norheiman_voltorb-01",
+      "pokemon": "voltorb norheiman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
           ]
         }
       }
@@ -81,28 +106,28 @@
       }
     },
     {
-      "id": "norheiman_voltorb-01",
-      "pokemon": "voltorb norheiman",
+      "id": "forman_voltorb-01",
+      "pokemon": "voltorb forman",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-33",
-      "weight": 7.5,
+      "level": "13-32",
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain"
+          "#cobblemon:is_cave"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:iron_block"
           ]
         }
       }
@@ -128,31 +153,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mystic_voltorb-01",
-      "pokemon": "voltorb mystic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "12-22",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
           ]
         }
       }

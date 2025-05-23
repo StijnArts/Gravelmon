@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_61_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_61_by_55",
-      "texture": "cobblemon:textures/pokemon/generation5/epochblitzle.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochblitzle.png",
       "layers": [
         {
           "name": "emissive"

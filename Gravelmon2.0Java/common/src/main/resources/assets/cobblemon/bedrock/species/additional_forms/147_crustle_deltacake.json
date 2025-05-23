@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_176_by_144.geo",
       "poser": "cobblemon:cutout_gravelmon_176_by_144",
-      "texture": "cobblemon:textures/pokemon/generation5/deltacakecrustle.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltacakecrustle.png",
       "layers": [
         {
           "name": "emissive"

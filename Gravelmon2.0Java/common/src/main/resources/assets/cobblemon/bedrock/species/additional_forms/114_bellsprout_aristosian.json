@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_59_by_48.geo",
       "poser": "cobblemon:cutout_gravelmon_59_by_48",
-      "texture": "cobblemon:textures/pokemon/generation1/aristosianbellsprout.png",
+      "texture": "cobblemon:textures/pokemon/aristos/aristosianbellsprout.png",
       "layers": [
         {
           "name": "emissive"

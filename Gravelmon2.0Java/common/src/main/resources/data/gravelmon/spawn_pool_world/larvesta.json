@@ -4,28 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_larvesta-01",
-      "pokemon": "larvesta mahalian",
+      "id": "delta_larvesta-01",
+      "pokemon": "larvesta delta",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "12-43",
+      "weight": 3.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:prismarine"
+            "minecraft:black_wool"
           ]
         }
       }
@@ -83,28 +83,28 @@
       }
     },
     {
-      "id": "delta_larvesta-01",
-      "pokemon": "larvesta delta",
+      "id": "mahalian_larvesta-01",
+      "pokemon": "larvesta mahalian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "12-43",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:prismarine"
           ]
         }
       }

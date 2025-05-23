@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_42.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_42",
-      "texture": "cobblemon:textures/pokemon/generation2/varitasiantyrogue.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasiantyrogue.png",
       "layers": [
         {
           "name": "emissive"

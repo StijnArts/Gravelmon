@@ -2,19 +2,178 @@
   "target": "cobblemon:voltorb",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "steel",
-      "secondaryType": "fire",
+      "name": "Mystic",
+      "primaryType": "psychic",
       "catchRate": 190,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
+      "baseExperienceYield": 66,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.0234375,
+      "baseScale": 0.13636363636363635,
       "cannotDynamax": false,
       "abilities": [
-        "flashfire"
+        "telepathy",
+        "anticipation",
+        "h:synchronize"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defence": 50,
+        "special_attack": 100,
+        "special_defence": 55,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:endeavor",
+        "1:protect",
+        "1:recover",
+        "12:psybeam",
+        "16:charm",
+        "20:psyshock",
+        "24:lightscreen",
+        "24:reflect",
+        "28:allyswitch",
+        "35:painsplit",
+        "40:psychic",
+        "46:skillswap",
+        "52:futuresight",
+        "58:wonderroom",
+        "tm:charm",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:confuseray",
+        "tm:facade",
+        "tm:swift",
+        "tm:rocktomb",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:psyshock",
+        "tm:zenheadbutt",
+        "tm:sleeptalk",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:imprison",
+        "tm:flashcannon",
+        "tm:skillswap",
+        "tm:substitute",
+        "tm:irondefense",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:energyball",
+        "tm:psychic",
+        "tm:encore",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:psychicterrain",
+        "tm:trickroom",
+        "tm:thunder",
+        "tm:terablast",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:painsplit",
+        "tm:psychup",
+        "tm:endeavor",
+        "tm:futuresight",
+        "tm:expandingforce",
+        "tm:terablast"
+      ],
+      "labels": [
+        "azure",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticvoltorb.desc"
+      ],
+      "height": 5,
+      "weight": 104,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
+        {
+          "id": "mysticvoltorb_electrode_mystic",
+          "variant": "level_up",
+          "result": "electrode mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.5,
+        "height": 5.5,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Norheiman",
+      "primaryType": "electric",
+      "secondaryType": "ice",
+      "catchRate": 180,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.75,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -43,10 +202,10 @@
         }
       },
       "baseStats": {
-        "hp": 49,
-        "attack": 88,
+        "hp": 62,
+        "attack": 25,
         "defence": 51,
-        "special_attack": 25,
+        "special_attack": 74,
         "special_defence": 51,
         "speed": 74
       },
@@ -63,44 +222,36 @@
       ],
       "drops": {},
       "moves": [
-        "1:metalclaw",
-        "1:ember",
-        "1:bulletpunch",
-        "1:quickattack",
-        "1:screech",
-        "1:growl",
-        "1:quickattack",
-        "1:swordsdance",
-        "4:irontail",
-        "4:quickattack",
-        "4:swordsdance",
-        "7:smartstrike",
-        "7:flamecharge",
-        "10:ironhead",
-        "10:firepunch",
-        "13:meteormash",
-        "13:willowisp",
-        "16:flareblitz",
+        "1:charm",
+        "12:rollout",
+        "15:spark",
+        "18:softboiled",
+        "23:protect",
+        "29:electroball",
+        "34:takedown",
+        "38:irondefense",
+        "42:zingzap",
+        "56:icebeam",
+        "62:sheercold",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanvoltorb.desc"
+        "cobblemon.species.norheimanvoltorb.desc"
       ],
-      "height": 5,
-      "weight": 0,
+      "height": 10,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
       "evolutions": [
         {
-          "id": "formanvoltorb_boomrod",
+          "id": "norheimanvoltorb_electrode_norheiman",
           "variant": "level_up",
-          "result": "boomrod",
+          "result": "electrode norheiman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -114,8 +265,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 2.0,
+        "height": 2.0,
         "fixed": false
       }
     },
@@ -430,19 +581,19 @@
       }
     },
     {
-      "name": "Norheiman",
-      "primaryType": "electric",
-      "secondaryType": "ice",
-      "catchRate": 180,
-      "maleRatio": 0.0,
+      "name": "Forman",
+      "primaryType": "steel",
+      "secondaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.75,
+      "baseScale": 0.0234375,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "flashfire"
       ],
       "behaviour": {
         "resting": {
@@ -471,10 +622,10 @@
         }
       },
       "baseStats": {
-        "hp": 62,
-        "attack": 25,
+        "hp": 49,
+        "attack": 88,
         "defence": 51,
-        "special_attack": 74,
+        "special_attack": 25,
         "special_defence": 51,
         "speed": 74
       },
@@ -491,36 +642,45 @@
       ],
       "drops": {},
       "moves": [
-        "1:charm",
-        "12:rollout",
-        "15:spark",
-        "18:softboiled",
-        "23:protect",
-        "29:electroball",
-        "34:takedown",
-        "38:irondefense",
-        "42:zingzap",
-        "56:icebeam",
-        "62:sheercold",
+        "1:metalclaw",
+        "1:ember",
+        "1:bulletpunch",
+        "1:quickattack",
+        "1:screech",
+        "1:growl",
+        "1:quickattack",
+        "1:swordsdance",
+        "4:irontail",
+        "4:quickattack",
+        "4:swordsdance",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:ironhead",
+        "10:firepunch",
+        "13:meteormash",
+        "13:willowisp",
+        "16:flareblitz",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanvoltorb.desc"
+        "cobblemon.species.formanvoltorb.desc"
       ],
-      "height": 10,
-      "weight": 165,
+      "height": 5,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "norheimanvoltorb_electrode_norheiman",
+          "id": "formanvoltorb_boomrod",
           "variant": "level_up",
-          "result": "electrode norheiman",
+          "result": "boomrod",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -534,8 +694,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.0,
-        "height": 2.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -691,173 +851,14 @@
         "height": 2.25,
         "fixed": false
       }
-    },
-    {
-      "name": "Mystic",
-      "primaryType": "psychic",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 66,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 26,
-      "baseFriendship": 70,
-      "baseScale": 0.13636363636363635,
-      "cannotDynamax": false,
-      "abilities": [
-        "telepathy",
-        "anticipation",
-        "h:synchronize"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 40,
-        "attack": 30,
-        "defence": 50,
-        "special_attack": 100,
-        "special_defence": 55,
-        "speed": 55
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confusion",
-        "1:endeavor",
-        "1:protect",
-        "1:recover",
-        "12:psybeam",
-        "16:charm",
-        "20:psyshock",
-        "24:lightscreen",
-        "24:reflect",
-        "28:allyswitch",
-        "35:painsplit",
-        "40:psychic",
-        "46:skillswap",
-        "52:futuresight",
-        "58:wonderroom",
-        "tm:charm",
-        "tm:protect",
-        "tm:psybeam",
-        "tm:confuseray",
-        "tm:facade",
-        "tm:swift",
-        "tm:rocktomb",
-        "tm:storedpower",
-        "tm:nightshade",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:psyshock",
-        "tm:zenheadbutt",
-        "tm:sleeptalk",
-        "tm:reflect",
-        "tm:lightscreen",
-        "tm:thunderwave",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:imprison",
-        "tm:flashcannon",
-        "tm:skillswap",
-        "tm:substitute",
-        "tm:irondefense",
-        "tm:trick",
-        "tm:shadowball",
-        "tm:energyball",
-        "tm:psychic",
-        "tm:encore",
-        "tm:calmmind",
-        "tm:helpinghand",
-        "tm:psychicterrain",
-        "tm:trickroom",
-        "tm:thunder",
-        "tm:terablast",
-        "tm:gravity",
-        "tm:gyroball",
-        "tm:painsplit",
-        "tm:psychup",
-        "tm:endeavor",
-        "tm:futuresight",
-        "tm:expandingforce",
-        "tm:terablast"
-      ],
-      "labels": [
-        "azure",
-        "gen1",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticvoltorb.desc"
-      ],
-      "height": 5,
-      "weight": 104,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [
-        {
-          "id": "mysticvoltorb_electrode_mystic",
-          "variant": "level_up",
-          "result": "electrode mystic",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "30"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.5,
-        "height": 5.5,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "forman",
+    "mystic",
+    "norheiman",
     "epoch",
     "epochtwo",
-    "norheiman",
-    "ayreian",
-    "mystic"
+    "forman",
+    "ayreian"
   ]
 }

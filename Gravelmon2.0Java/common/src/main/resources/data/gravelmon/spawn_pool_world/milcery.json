@@ -4,28 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_milcery-01",
-      "pokemon": "milcery fabelian",
+      "id": "varitasian_milcery-01",
+      "pokemon": "milcery varitasian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "2-27",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:cauldron"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -56,26 +54,28 @@
       }
     },
     {
-      "id": "varitasian_milcery-01",
-      "pokemon": "milcery varitasian",
+      "id": "fabelian_milcery-01",
+      "pokemon": "milcery fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "2-27",
-      "weight": 13.5,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
-        ]
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
+            "minecraft:cauldron"
           ]
         }
       }

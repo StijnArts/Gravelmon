@@ -23,6 +23,8 @@ import drai.dev.data.pokemon.atlas.Trillowee;
 import drai.dev.data.pokemon.atlas.Turtelisk;
 import drai.dev.data.pokemon.atlas.Wilspri;
 import drai.dev.data.pokemon.orohnhavai.*;
+import drai.dev.data.pokemon.orohnhavai.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //done
@@ -126,7 +128,9 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Carosella());
         addNewPokemon(new Timingo());
         addNewPokemon(new Flambagant());
-        addPokedexPokemon("gastly-havaiian, haunter-havaiian, gengar-havaiian");
+        addNewPokemon(new HavaiianGastly("", Aspect.HAVAIIAN));
+        addNewPokemon(new HavaiianHaunter("", Aspect.HAVAIIAN));
+        addNewPokemon(new HavaiianGengar("", Aspect.HAVAIIAN));
 //        addNewPokemon(new Glimpid()); Member of line not finished
 //        addNewPokemon(new Cryosect()); Missing Art
         addNewPokemon(new Hematick());
@@ -233,6 +237,16 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Intelix()); Missing art
 //        addNewPokemon(new Nectavian()); Missing art
 
+//        addNewPokemon(new HavaiianPoliwag(60)); //Member of line Not Finished
+//        addNewPokemon(new HavaiianPoliwhirl(61)); Missing Art
+//        addNewPokemon(new HavaiianKrabby(98)); Missing Stats
+//        addNewPokemon(new HavaiianExeggcute(102)); Missing Art
+//        addNewPokemon(new HavaiianExeggutor(103)); Missing Art
+//        addNewPokemon(new HavaiianHorsea(116)); //Member of line Not Finished
+//        addNewPokemon(new HavaiianBlipbug(824)); Member of line Not Finished
+//        addNewPokemon(new HavaiianDottler(825)); Missing Art
+//        addNewPokemon(new HavaiianOrbeetle(826)); Missing Art
+//        addNewPokemon(new HavaiianOshawott(501)); Member of line Not Finished
     }
 
 }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_48_by_57.geo",
       "poser": "cobblemon:cutout_gravelmon_48_by_57",
-      "texture": "cobblemon:textures/pokemon/generation2/epochskiploomone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochskiploomone.png",
       "layers": [
         {
           "name": "emissive"

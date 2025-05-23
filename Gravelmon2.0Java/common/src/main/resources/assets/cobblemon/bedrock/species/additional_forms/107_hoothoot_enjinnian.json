@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_49_by_45.geo",
       "poser": "cobblemon:cutout_gravelmon_49_by_45",
-      "texture": "cobblemon:textures/pokemon/generation2/enjinnianhoothoot.png",
+      "texture": "cobblemon:textures/pokemon/enjin/enjinnianhoothoot.png",
       "layers": [
         {
           "name": "emissive"

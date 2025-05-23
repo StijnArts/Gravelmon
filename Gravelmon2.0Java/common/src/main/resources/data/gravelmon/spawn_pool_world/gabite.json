@@ -4,19 +4,46 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "aromian_gabite-01",
-      "pokemon": "gabite aromian",
+      "id": "raianian_gabite-01",
+      "pokemon": "gabite raianian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "24-47",
+      "weight": 1.7999999999999998,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norse_gabite-01",
+      "pokemon": "gabite norse",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "24-47",
+      "weight": 1.9500000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -59,33 +86,6 @@
       }
     },
     {
-      "id": "raianian_gabite-01",
-      "pokemon": "gabite raianian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "24-47",
-      "weight": 1.7999999999999998,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "trizoran_gabite-01",
       "pokemon": "gabite trizoran",
       "presets": [
@@ -101,33 +101,6 @@
           "#cobblemon:is_grassland"
         ],
         "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "norse_gabite-01",
-      "pokemon": "gabite norse",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "24-47",
-      "weight": 1.9500000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_frozen"
-        ],
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -189,6 +162,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "aromian_gabite-01",
+      "pokemon": "gabite aromian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_44_by_41.geo",
       "poser": "cobblemon:cutout_gravelmon_44_by_41",
-      "texture": "cobblemon:textures/pokemon/generation4/novrancherubi.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novrancherubi.png",
       "layers": [
         {
           "name": "emissive"

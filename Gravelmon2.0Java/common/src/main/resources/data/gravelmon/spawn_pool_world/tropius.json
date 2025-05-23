@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "aristosian_tropius-01",
+      "pokemon": "tropius aristosian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-45",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_island"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "hizian_tropius-01",
       "pokemon": "tropius hizian",
       "presets": [
@@ -37,8 +65,33 @@
       }
     },
     {
-      "id": "aristosian_tropius-01",
-      "pokemon": "tropius aristosian",
+      "id": "epoch_tropius-01",
+      "pokemon": "tropius epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "33-53",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kaskadian_tropius-01",
+      "pokemon": "tropius kaskadian",
       "presets": [
         "natural"
       ],
@@ -49,8 +102,7 @@
       "weight": 3.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_island"
+          "#cobblemon:is_old_growth_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -88,58 +140,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "kaskadian_tropius-01",
-      "pokemon": "tropius kaskadian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-45",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_old_growth_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_tropius-01",
-      "pokemon": "tropius epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "33-53",
-      "weight": 0.5,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

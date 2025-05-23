@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_85_by_87.geo",
       "poser": "cobblemon:cutout_gravelmon_85_by_87",
-      "texture": "cobblemon:textures/pokemon/generation7/epochtsareena.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtsareena.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_lombre-01",
-      "pokemon": "lombre epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "14-32",
-      "weight": 1.2000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sandy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "egho_lombre-01",
       "pokemon": "lombre egho",
       "presets": [
@@ -77,6 +50,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_lombre-01",
+      "pokemon": "lombre epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "14-32",
+      "weight": 1.2000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

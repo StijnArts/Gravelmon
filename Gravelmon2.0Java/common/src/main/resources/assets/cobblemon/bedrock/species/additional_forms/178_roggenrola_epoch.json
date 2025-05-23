@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_20_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_20_by_36",
-      "texture": "cobblemon:textures/pokemon/generation5/epochroggenrola.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochroggenrola.png",
       "layers": [
         {
           "name": "emissive"

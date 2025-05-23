@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_35_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_35_by_39",
-      "texture": "cobblemon:textures/pokemon/generation5/epochtepig.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtepig.png",
       "layers": [
         {
           "name": "emissive"

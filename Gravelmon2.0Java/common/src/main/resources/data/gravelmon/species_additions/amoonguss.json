@@ -2,117 +2,6 @@
   "target": "cobblemon:amoonguss",
   "forms": [
     {
-      "name": "Nodorran",
-      "primaryType": "grass",
-      "secondaryType": "fairy",
-      "catchRate": 75,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "foongus form=nodorran",
-      "baseScale": 0.27169811320754716,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 69,
-        "defence": 90,
-        "special_attack": 80,
-        "special_defence": 90,
-        "speed": 35
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:absorb",
-        "1:disarmingvoice",
-        "1:leer",
-        "1:babydolleyes",
-        "10:megadrain",
-        "10:drainingkiss",
-        "15:magicalleaf",
-        "15:playnice",
-        "20:gigadrain",
-        "20:dazzlinggleam",
-        "25:energyball",
-        "25:hypervoice",
-        "30:solarbeam",
-        "30:moonblast",
-        "35:leafage",
-        "35:disarmingvoice",
-        "40:leer",
-        "40:babydolleyes",
-        "45:absorb",
-        "45:drainingkiss",
-        "50:trailblaze",
-        "50:playnice",
-        "55:gigadrain",
-        "55:dazzlinggleam",
-        "tm:terablast"
-      ],
-      "labels": [
-        "nodorro",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.nodorranamoonguss.desc"
-      ],
-      "height": 6,
-      "weight": 0,
-      "aspects": [
-        "nodorran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "ghost",
       "secondaryType": "dark",
@@ -446,11 +335,122 @@
         "height": 4.5625,
         "fixed": false
       }
+    },
+    {
+      "name": "Nodorran",
+      "primaryType": "grass",
+      "secondaryType": "fairy",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "foongus form=nodorran",
+      "baseScale": 0.27169811320754716,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 69,
+        "defence": 90,
+        "special_attack": 80,
+        "special_defence": 90,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "10:megadrain",
+        "10:drainingkiss",
+        "15:magicalleaf",
+        "15:playnice",
+        "20:gigadrain",
+        "20:dazzlinggleam",
+        "25:energyball",
+        "25:hypervoice",
+        "30:solarbeam",
+        "30:moonblast",
+        "35:leafage",
+        "35:disarmingvoice",
+        "40:leer",
+        "40:babydolleyes",
+        "45:absorb",
+        "45:drainingkiss",
+        "50:trailblaze",
+        "50:playnice",
+        "55:gigadrain",
+        "55:dazzlinggleam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorranamoonguss.desc"
+      ],
+      "height": 6,
+      "weight": 0,
+      "aspects": [
+        "nodorran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "nodorran",
     "delta",
-    "epoch"
+    "epoch",
+    "nodorran"
   ]
 }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_39_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_39_by_37",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreianmudkip.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianmudkip.png",
       "layers": [
         {
           "name": "emissive"

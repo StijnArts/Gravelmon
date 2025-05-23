@@ -2,18 +2,20 @@
   "target": "cobblemon:chikorita",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "dragon",
+      "name": "Egho",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
       "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "maleRatio": 0.875,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.032812499999999994,
+      "baseScale": 0.28695652173913044,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "chlorophyll",
+        "h:regenerator"
       ],
       "behaviour": {
         "resting": {
@@ -42,15 +44,15 @@
         }
       },
       "baseStats": {
-        "hp": 44,
-        "attack": 65,
-        "defence": 38,
-        "special_attack": 23,
-        "special_defence": 42,
-        "speed": 38
+        "hp": 85,
+        "attack": 10,
+        "defence": 49,
+        "special_attack": 65,
+        "special_defence": 65,
+        "speed": 44
       },
       "evYield": {
-        "hp": 0,
+        "hp": 1,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -58,43 +60,128 @@
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "grass",
+        "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:apple",
+            "quantityRange": "1-2",
+            "percentage": 50
+          }
+        ]
+      },
       "moves": [
-        "1:scratch",
-        "1:leer",
-        "4:dragonrage",
-        "7:dualchop",
-        "10:breakingswipe",
-        "13:dragonclaw",
-        "16:outrage",
+        "1:aromatherapy",
+        "1:sweetscent",
+        "1:charm",
+        "1:absorb",
+        "1:ingrain",
+        "7:twister",
+        "11:sleeppowder",
+        "15:bide",
+        "19:magicalleaf",
+        "23:leechseed",
+        "27:dragonbreath",
+        "31:megadrain",
+        "35:assist",
+        "40:gigadrain",
+        "45:dragonpulse",
+        "50:entrainment",
+        "55:weatherball",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:bulkup",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:blizzard",
+        "tm:protect",
+        "tm:telekinesis",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:dig",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:energyball",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:quash",
+        "tm:embargo",
+        "tm:retaliate",
+        "tm:flash",
+        "tm:stoneedge",
+        "tm:thunderwave",
+        "tm:swordsdance",
+        "tm:rockslide",
+        "tm:xscissor",
+        "tm:dragontail",
+        "tm:workup",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:flashcannon",
+        "tm:wildcharge",
+        "tm:rocksmash",
+        "tm:bulletseed",
+        "tm:cut",
+        "tm:flashflood",
+        "tutor:dazzlinggleam",
+        "tutor:dragonpulse",
+        "tutor:earthpower",
+        "tutor:gigadrain",
+        "tutor:helpinghand",
+        "tutor:seedbomb",
+        "tutor:superpower",
+        "tutor:zenheadbutt",
+        "egg:cottonspore",
+        "egg:craftyshield",
+        "egg:endure",
+        "egg:grasspledge",
+        "egg:leafstorm",
+        "egg:painsplit",
+        "egg:spikyshield",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "egg:wideguard",
+        "egg:yawn",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
+        "gen2",
+        "infinity",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanchikorita.desc"
+        "cobblemon.species.eghochikorita.desc"
       ],
-      "height": 7,
-      "weight": 0,
+      "height": 11,
+      "weight": 64,
       "aspects": [
-        "forman"
+        "egho"
       ],
       "evolutions": [
         {
-          "id": "formanchikorita_sawtears",
+          "id": "eghochikorita_bayleef_egho",
           "variant": "level_up",
-          "result": "sawtears",
+          "result": "bayleef egho",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "14"
+              "minLevel": "16"
             }
           ],
           "permanent": true
@@ -102,8 +189,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 5.75,
+        "height": 5.75,
         "fixed": false
       }
     },
@@ -449,16 +536,15 @@
       }
     },
     {
-      "name": "Ionosian",
-      "primaryType": "grass",
-      "secondaryType": "dark",
+      "name": "Forman",
+      "primaryType": "dragon",
       "catchRate": 45,
-      "maleRatio": 0.87,
+      "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.125,
+      "baseScale": 0.032812499999999994,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -490,12 +576,12 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 44,
+        "attack": 65,
+        "defence": 38,
+        "special_attack": 23,
+        "special_defence": 42,
+        "speed": 38
       },
       "evYield": {
         "hp": 0,
@@ -510,55 +596,40 @@
       ],
       "drops": {},
       "moves": [
-        "1:absorb",
-        "1:bite",
+        "1:scratch",
         "1:leer",
-        "1:leer",
-        "10:megadrain",
-        "10:payback",
-        "15:magicalleaf",
-        "15:nightdaze",
-        "20:gigadrain",
-        "20:snarl",
-        "25:energyball",
-        "25:knockoff",
-        "30:solarbeam",
-        "30:darkpulse",
-        "35:leafage",
-        "35:bite",
-        "40:leer",
-        "40:leer",
-        "45:absorb",
-        "45:payback",
-        "50:trailblaze",
-        "50:nightslash",
-        "55:gigadrain",
-        "55:crunch",
+        "4:dragonrage",
+        "7:dualchop",
+        "10:breakingswipe",
+        "13:dragonclaw",
+        "16:outrage",
         "tm:terablast"
       ],
       "labels": [
-        "ionos",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.ionosianchikorita.desc"
+        "cobblemon.species.formanchikorita.desc"
       ],
-      "height": 5,
+      "height": 7,
       "weight": 0,
       "aspects": [
-        "ionosian"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "ionosianchikorita_bayleef_ionosian",
+          "id": "formanchikorita_sawtears",
           "variant": "level_up",
-          "result": "bayleef ionosian",
+          "result": "sawtears",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "18"
+              "minLevel": "14"
             }
           ],
           "permanent": true
@@ -566,201 +637,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Egho",
-      "primaryType": "grass",
-      "secondaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 64,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.28695652173913044,
-      "cannotDynamax": false,
-      "abilities": [
-        "chlorophyll",
-        "h:regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 85,
-        "attack": 10,
-        "defence": 49,
-        "special_attack": 65,
-        "special_defence": 65,
-        "speed": 44
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "grass",
-        "dragon"
-      ],
-      "drops": {
-        "amount": 2,
-        "entries": [
-          {
-            "item": "minecraft:apple",
-            "quantityRange": "1-2",
-            "percentage": 50
-          }
-        ]
-      },
-      "moves": [
-        "1:aromatherapy",
-        "1:sweetscent",
-        "1:charm",
-        "1:absorb",
-        "1:ingrain",
-        "7:twister",
-        "11:sleeppowder",
-        "15:bide",
-        "19:magicalleaf",
-        "23:leechseed",
-        "27:dragonbreath",
-        "31:megadrain",
-        "35:assist",
-        "40:gigadrain",
-        "45:dragonpulse",
-        "50:entrainment",
-        "55:weatherball",
-        "tm:psyshock",
-        "tm:calmmind",
-        "tm:toxic",
-        "tm:bulkup",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:blizzard",
-        "tm:protect",
-        "tm:telekinesis",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:thunderbolt",
-        "tm:return",
-        "tm:dig",
-        "tm:psychic",
-        "tm:shadowball",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:energyball",
-        "tm:fling",
-        "tm:chargebeam",
-        "tm:quash",
-        "tm:embargo",
-        "tm:retaliate",
-        "tm:flash",
-        "tm:stoneedge",
-        "tm:thunderwave",
-        "tm:swordsdance",
-        "tm:rockslide",
-        "tm:xscissor",
-        "tm:dragontail",
-        "tm:workup",
-        "tm:dreameater",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:flashcannon",
-        "tm:wildcharge",
-        "tm:rocksmash",
-        "tm:bulletseed",
-        "tm:cut",
-        "tm:flashflood",
-        "tutor:dazzlinggleam",
-        "tutor:dragonpulse",
-        "tutor:earthpower",
-        "tutor:gigadrain",
-        "tutor:helpinghand",
-        "tutor:seedbomb",
-        "tutor:superpower",
-        "tutor:zenheadbutt",
-        "egg:cottonspore",
-        "egg:craftyshield",
-        "egg:endure",
-        "egg:grasspledge",
-        "egg:leafstorm",
-        "egg:painsplit",
-        "egg:spikyshield",
-        "egg:spitup",
-        "egg:stockpile",
-        "egg:swallow",
-        "egg:wideguard",
-        "egg:yawn",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen2",
-        "infinity",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.eghochikorita.desc"
-      ],
-      "height": 11,
-      "weight": 64,
-      "aspects": [
-        "egho"
-      ],
-      "evolutions": [
-        {
-          "id": "eghochikorita_bayleef_egho",
-          "variant": "level_up",
-          "result": "bayleef egho",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "16"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.75,
-        "height": 5.75,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -945,6 +823,129 @@
       }
     },
     {
+      "name": "Ionosian",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.87,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:bite",
+        "1:leer",
+        "1:leer",
+        "10:megadrain",
+        "10:payback",
+        "15:magicalleaf",
+        "15:nightdaze",
+        "20:gigadrain",
+        "20:snarl",
+        "25:energyball",
+        "25:knockoff",
+        "30:solarbeam",
+        "30:darkpulse",
+        "35:leafage",
+        "35:bite",
+        "40:leer",
+        "40:leer",
+        "45:absorb",
+        "45:payback",
+        "50:trailblaze",
+        "50:nightslash",
+        "55:gigadrain",
+        "55:crunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "ionos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ionosianchikorita.desc"
+      ],
+      "height": 5,
+      "weight": 0,
+      "aspects": [
+        "ionosian"
+      ],
+      "evolutions": [
+        {
+          "id": "ionosianchikorita_bayleef_ionosian",
+          "variant": "level_up",
+          "result": "bayleef ionosian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ishirian",
       "primaryType": "steel",
       "catchRate": 45,
@@ -1110,12 +1111,12 @@
     }
   ],
   "features": [
-    "forman",
+    "egho",
     "epoch",
     "epochtwo",
-    "ionosian",
-    "egho",
+    "forman",
     "ayreian",
+    "ionosian",
     "ishirian"
   ]
 }

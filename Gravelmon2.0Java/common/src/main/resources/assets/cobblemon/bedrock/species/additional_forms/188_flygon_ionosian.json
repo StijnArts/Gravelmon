@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_69_by_79.geo",
       "poser": "cobblemon:cutout_gravelmon_69_by_79",
-      "texture": "cobblemon:textures/pokemon/generation3/ionosianflygon.png",
+      "texture": "cobblemon:textures/pokemon/ionos/ionosianflygon.png",
       "layers": [
         {
           "name": "emissive"

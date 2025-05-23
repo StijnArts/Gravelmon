@@ -4,6 +4,60 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "raianian_gible-01",
+      "pokemon": "gible raianian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "norse_gible-01",
+      "pokemon": "gible norse",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_frozen"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "palmian_gible-01",
       "pokemon": "gible palmian",
       "presets": [
@@ -32,33 +86,6 @@
       }
     },
     {
-      "id": "raianian_gible-01",
-      "pokemon": "gible raianian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "5-30",
-      "weight": 6.75,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "trizoran_gible-01",
       "pokemon": "gible trizoran",
       "presets": [
@@ -74,33 +101,6 @@
           "#cobblemon:is_grassland"
         ],
         "isThundering": true,
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "norse_gible-01",
-      "pokemon": "gible norse",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "5-30",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_frozen"
-        ],
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

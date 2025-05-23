@@ -2,107 +2,6 @@
   "target": "cobblemon:lickitung",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "lickitin",
-      "baseScale": 0.056249999999999994,
-      "cannotDynamax": false,
-      "abilities": [
-        "dryskin"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:scratch",
-        "1:leer",
-        "4:twister",
-        "7:dragonbreath",
-        "10:breakingswipe",
-        "13:dragonpulse",
-        "16:dracometeor",
-        "19:scratch",
-        "22:leer",
-        "25:dragonrage",
-        "28:dualchop",
-        "31:breakingswipe",
-        "34:dragonclaw",
-        "39:outrage",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanlickitung.desc"
-      ],
-      "height": 12,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Hizian",
       "primaryType": "fairy",
       "catchRate": 45,
@@ -373,12 +272,114 @@
         "height": 3.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "lickitin",
+      "baseScale": 0.056249999999999994,
+      "cannotDynamax": false,
+      "abilities": [
+        "dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:leer",
+        "4:twister",
+        "7:dragonbreath",
+        "10:breakingswipe",
+        "13:dragonpulse",
+        "16:dracometeor",
+        "19:scratch",
+        "22:leer",
+        "25:dragonrage",
+        "28:dualchop",
+        "31:breakingswipe",
+        "34:dragonclaw",
+        "39:outrage",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanlickitung.desc"
+      ],
+      "height": 12,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
     "hizian",
-    "epoch"
+    "epoch",
+    "forman"
   ],
   "preEvolution": "tasticky"
 }

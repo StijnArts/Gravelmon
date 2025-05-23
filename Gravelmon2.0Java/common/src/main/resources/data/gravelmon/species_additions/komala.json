@@ -2,114 +2,6 @@
   "target": "cobblemon:komala",
   "forms": [
     {
-      "name": "Mastenian",
-      "primaryType": "psychic",
-      "secondaryType": "normal",
-      "catchRate": 90,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.32727272727272727,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confusion",
-        "1:tackle",
-        "1:growl",
-        "1:growl",
-        "10:psybeam",
-        "10:round",
-        "15:futuresight",
-        "15:swift",
-        "20:psychic",
-        "20:uproar",
-        "25:psyshock",
-        "25:hypervoice",
-        "30:psychoboost",
-        "30:hyperbeam",
-        "35:confusion",
-        "35:tackle",
-        "40:growl",
-        "40:growl",
-        "45:psybeam",
-        "45:quickattack",
-        "50:futuresight",
-        "50:bite",
-        "55:psychic",
-        "55:takedown",
-        "tm:terablast"
-      ],
-      "labels": [
-        "mastenia",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.masteniankomala.desc"
-      ],
-      "height": 9,
-      "weight": 0,
-      "aspects": [
-        "mastenian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.125,
-        "height": 4.125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "cosmic",
       "secondaryType": "normal",
@@ -413,11 +305,119 @@
         "height": 3.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Mastenian",
+      "primaryType": "psychic",
+      "secondaryType": "normal",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32727272727272727,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "10:psybeam",
+        "10:round",
+        "15:futuresight",
+        "15:swift",
+        "20:psychic",
+        "20:uproar",
+        "25:psyshock",
+        "25:hypervoice",
+        "30:psychoboost",
+        "30:hyperbeam",
+        "35:confusion",
+        "35:tackle",
+        "40:growl",
+        "40:growl",
+        "45:psybeam",
+        "45:quickattack",
+        "50:futuresight",
+        "50:bite",
+        "55:psychic",
+        "55:takedown",
+        "tm:terablast"
+      ],
+      "labels": [
+        "mastenia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.masteniankomala.desc"
+      ],
+      "height": 9,
+      "weight": 0,
+      "aspects": [
+        "mastenian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.125,
+        "height": 4.125,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "mastenian",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "mastenian"
   ]
 }

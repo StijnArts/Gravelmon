@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_38_by_41.geo",
       "poser": "cobblemon:cutout_gravelmon_38_by_41",
-      "texture": "cobblemon:textures/pokemon/generation2/epochcyndaquilone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochcyndaquilone.png",
       "layers": [
         {
           "name": "emissive"

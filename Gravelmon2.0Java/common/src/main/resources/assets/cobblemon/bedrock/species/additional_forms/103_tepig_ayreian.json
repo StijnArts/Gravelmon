@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_32_by_32.geo",
       "poser": "cobblemon:cutout_gravelmon_32_by_32",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreiantepig.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiantepig.png",
       "layers": [
         {
           "name": "emissive"

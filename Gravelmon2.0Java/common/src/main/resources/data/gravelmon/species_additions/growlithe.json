@@ -2,6 +2,309 @@
   "target": "cobblemon:growlithe",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "normal",
+      "secondaryType": "dragon",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.14736842105263157,
+      "cannotDynamax": false,
+      "abilities": [
+        "innerfocus",
+        "intimidate",
+        "h:multiscale"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 70,
+        "defence": 45,
+        "special_attack": 70,
+        "special_defence": 50,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:roar",
+        "6:dragonrage",
+        "8:howl",
+        "10:safeguard",
+        "12:helpinghand",
+        "17:quickattack",
+        "19:metalclaw",
+        "21:dragonbreath",
+        "23:takedown",
+        "28:dragontail",
+        "30:agility",
+        "32:retaliate",
+        "34:dragonrush",
+        "39:crunch",
+        "41:metalburst",
+        "43:outrage",
+        "45:gigaimpact",
+        "tm:dragonclaw",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:roar",
+        "tm:toxic",
+        "tm:dragonpulse",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:irontail",
+        "tm:earthquake",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:dragontail",
+        "tm:embargo",
+        "tm:shadowclaw",
+        "tm:retaliate",
+        "tm:gigaimpact",
+        "tm:psychup",
+        "tm:swordsdance",
+        "tm:wildcharge",
+        "tm:rockslide",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:dracojet",
+        "tm:sleeptalk",
+        "tm:achillesheel",
+        "tm:allyswitch",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:dragonify",
+        "tm:secretpower",
+        "tm:rockclimb",
+        "tm:rocksmash",
+        "tm:workup",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:block",
+        "tutor:bodyslam",
+        "tutor:bounce",
+        "tutor:dig",
+        "tutor:dracometeor",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:headbutt",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:lastresort",
+        "tutor:mimic",
+        "tutor:outrage",
+        "tutor:roleplay",
+        "tutor:snore",
+        "tutor:superfang",
+        "tutor:superpower",
+        "tutor:twister",
+        "tutor:uproar",
+        "tutor:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltagrowlithe.desc"
+      ],
+      "height": 7,
+      "weight": 190,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltagrowlithe_arcanine_delta",
+          "variant": "item_interact",
+          "result": "arcanine delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.125,
+        "height": 7.125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Aristosian",
+      "primaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 70,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3918367346938776,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "snowcloak",
+        "h:slushrush"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 49,
+        "defence": 56,
+        "special_attack": 66,
+        "special_defence": 62,
+        "speed": 73
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:powdersnow",
+        "1:lick",
+        "1:lovelykiss",
+        "5:lick",
+        "8:lovelykiss",
+        "11:powdersnow",
+        "15:doubleslap",
+        "18:icepunch",
+        "21:heartstamp",
+        "25:meanlook",
+        "28:faketears",
+        "39:avalanche",
+        "44:bodyslam",
+        "51:frostbite",
+        "59:perishsong",
+        "66:blizzard",
+        "tm:terablast"
+      ],
+      "labels": [
+        "aristos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.aristosiangrowlithe.desc"
+      ],
+      "height": 8,
+      "weight": 165,
+      "aspects": [
+        "aristosian"
+      ],
+      "evolutions": [
+        {
+          "id": "aristosiangrowlithe_arcanine_aristosian",
+          "variant": "item_interact",
+          "result": "arcanine aristosian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.0625,
+        "height": 3.0625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Palmian",
       "primaryType": "dark",
       "secondaryType": "ghost",
@@ -91,8 +394,9 @@
         "tm:terablast"
       ],
       "labels": [
-        "raian",
         "not_modeled",
+        "palmia",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -112,129 +416,6 @@
           "learnableMoves": [],
           "requirements": [],
           "requiredContext": "cobblemon:moon_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "fire",
-      "secondaryType": "poison",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pudyro",
-      "baseScale": 0.0421875,
-      "cannotDynamax": false,
-      "abilities": [
-        "poisontouch"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 84,
-        "attack": 86,
-        "defence": 84,
-        "special_attack": 29,
-        "special_defence": 65,
-        "speed": 35
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:ember",
-        "1:poisonsting",
-        "1:bulkup",
-        "1:bulkup",
-        "1:growl",
-        "1:leer",
-        "1:calmmind",
-        "1:calmmind",
-        "4:quickattack",
-        "4:venoshock",
-        "4:taunt",
-        "4:taunt",
-        "7:flamecharge",
-        "7:poisontail",
-        "7:substitute",
-        "7:substitute",
-        "10:firepunch",
-        "10:toxicspikes",
-        "10:rest",
-        "10:rest",
-        "13:willowisp",
-        "13:sludgebomb",
-        "16:flareblitz",
-        "16:poisonjab",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formangrowlithe.desc"
-      ],
-      "height": 9,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formangrowlithe_arckore",
-          "variant": "item_interact",
-          "result": "arckore",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:fire_stone",
           "permanent": true
         }
       ],
@@ -429,134 +610,20 @@
       }
     },
     {
-      "name": "Aristosian",
-      "primaryType": "ice",
+      "name": "Epochtwo",
+      "primaryType": "dark",
+      "secondaryType": "poison",
       "catchRate": 190,
-      "maleRatio": 0.75,
+      "maleRatio": 0.25,
       "baseExperienceYield": 70,
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3918367346938776,
+      "baseScale": 0.3169811320754717,
       "cannotDynamax": false,
       "abilities": [
-        "intimidate",
-        "snowcloak",
-        "h:slushrush"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 49,
-        "defence": 56,
-        "special_attack": 66,
-        "special_defence": 62,
-        "speed": 73
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:pound",
-        "1:powdersnow",
-        "1:lick",
-        "1:lovelykiss",
-        "5:lick",
-        "8:lovelykiss",
-        "11:powdersnow",
-        "15:doubleslap",
-        "18:icepunch",
-        "21:heartstamp",
-        "25:meanlook",
-        "28:faketears",
-        "39:avalanche",
-        "44:bodyslam",
-        "51:frostbite",
-        "59:perishsong",
-        "66:blizzard",
-        "tm:terablast"
-      ],
-      "labels": [
-        "aristos",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.aristosiangrowlithe.desc"
-      ],
-      "height": 8,
-      "weight": 165,
-      "aspects": [
-        "aristosian"
-      ],
-      "evolutions": [
-        {
-          "id": "aristosiangrowlithe_arcanine_aristosian",
-          "variant": "item_interact",
-          "result": "arcanine aristosian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:shiny_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0625,
-        "height": 3.0625,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "normal",
-      "secondaryType": "dragon",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 70,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.14736842105263157,
-      "cannotDynamax": false,
-      "abilities": [
-        "innerfocus",
-        "intimidate",
-        "h:multiscale"
+        "infiltrator",
+        "competitive"
       ],
       "behaviour": {
         "resting": {
@@ -586,10 +653,10 @@
       },
       "baseStats": {
         "hp": 55,
-        "attack": 70,
+        "attack": 40,
         "defence": 45,
-        "special_attack": 70,
-        "special_defence": 50,
+        "special_attack": 75,
+        "special_defence": 75,
         "speed": 60
       },
       "evYield": {
@@ -601,133 +668,250 @@
         "speed": 0
       },
       "eggGroups": [
-        "undiscovered"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:bite",
-        "1:roar",
-        "6:dragonrage",
-        "8:howl",
-        "10:safeguard",
-        "12:helpinghand",
-        "17:quickattack",
-        "19:metalclaw",
-        "21:dragonbreath",
-        "23:takedown",
-        "28:dragontail",
-        "30:agility",
-        "32:retaliate",
-        "34:dragonrush",
-        "39:crunch",
-        "41:metalburst",
-        "43:outrage",
-        "45:gigaimpact",
-        "tm:dragonclaw",
+        "8:siphon",
+        "6:corrosivegas",
+        "23:gastroacid",
+        "44:nastyplot",
+        "41:darkvoid",
+        "56:toxic",
+        "1:smog",
+        "53:acidrain",
+        "14:snarl",
+        "47:sludgewave",
+        "4:poisongas",
+        "50:venomdrench",
+        "29:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
         "tm:bulldoze",
         "tm:calmmind",
-        "tm:roar",
-        "tm:toxic",
-        "tm:dragonpulse",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:hyperbeam",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:irontail",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:corrosivegas",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
         "tm:earthquake",
-        "tm:return",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:reflect",
-        "tm:rocktomb",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
         "tm:falseswipe",
-        "tm:fling",
-        "tm:dragontail",
-        "tm:embargo",
-        "tm:shadowclaw",
-        "tm:retaliate",
-        "tm:gigaimpact",
-        "tm:psychup",
-        "tm:swordsdance",
-        "tm:wildcharge",
-        "tm:rockslide",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:dracojet",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
         "tm:sleeptalk",
-        "tm:achillesheel",
-        "tm:allyswitch",
-        "tm:echoedvoice",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:dragonify",
-        "tm:secretpower",
-        "tm:rockclimb",
-        "tm:rocksmash",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:wildcharge",
         "tm:workup",
-        "tm:strength",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:block",
-        "tutor:bodyslam",
-        "tutor:bounce",
-        "tutor:dig",
-        "tutor:dracometeor",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:headbutt",
-        "tutor:helpinghand",
-        "tutor:hypervoice",
-        "tutor:irondefense",
-        "tutor:ironhead",
-        "tutor:lastresort",
-        "tutor:mimic",
-        "tutor:outrage",
-        "tutor:roleplay",
-        "tutor:snore",
-        "tutor:superfang",
-        "tutor:superpower",
-        "tutor:twister",
-        "tutor:uproar",
-        "tutor:zenheadbutt",
+        "tm:zenheadbutt",
+        "egg:nightdaze",
+        "egg:darkpulse",
+        "egg:sludgebomb",
+        "egg:smokescreen",
+        "egg:snatch",
+        "egg:quash",
+        "egg:dragonpulse",
+        "egg:extrasensory",
         "tm:terablast"
       ],
       "labels": [
-        "gen1",
-        "insurgence",
+        "soulstones",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.deltagrowlithe.desc"
+        "cobblemon.species.epochgrowlitheone.desc"
       ],
       "height": 7,
       "weight": 190,
       "aspects": [
-        "delta"
+        "epochtwo"
       ],
       "evolutions": [
         {
-          "id": "deltagrowlithe_arcanine_delta",
+          "id": "epochgrowlitheone_epochtwoarcanine",
           "variant": "item_interact",
-          "result": "arcanine delta",
+          "result": "epochtwoarcanine",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": "cobblemon:shiny_stone",
+          "requiredContext": "cobblemon:dusk_stone",
           "permanent": true
         }
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 7.125,
-        "height": 7.125,
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "pudyro",
+      "baseScale": 0.0421875,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisontouch"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 84,
+        "attack": 86,
+        "defence": 84,
+        "special_attack": 29,
+        "special_defence": 65,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:poisonsting",
+        "1:bulkup",
+        "1:bulkup",
+        "1:growl",
+        "1:leer",
+        "1:calmmind",
+        "1:calmmind",
+        "4:quickattack",
+        "4:venoshock",
+        "4:taunt",
+        "4:taunt",
+        "7:flamecharge",
+        "7:poisontail",
+        "7:substitute",
+        "7:substitute",
+        "10:firepunch",
+        "10:toxicspikes",
+        "10:rest",
+        "10:rest",
+        "13:willowisp",
+        "13:sludgebomb",
+        "16:flareblitz",
+        "16:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formangrowlithe.desc"
+      ],
+      "height": 9,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formangrowlithe_arckore",
+          "variant": "item_interact",
+          "result": "arckore",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:fire_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -916,188 +1100,6 @@
       }
     },
     {
-      "name": "Epochtwo",
-      "primaryType": "dark",
-      "secondaryType": "poison",
-      "catchRate": 190,
-      "maleRatio": 0.25,
-      "baseExperienceYield": 70,
-      "experienceGroup": "slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3169811320754717,
-      "cannotDynamax": false,
-      "abilities": [
-        "infiltrator",
-        "competitive"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 55,
-        "attack": 40,
-        "defence": 45,
-        "special_attack": 75,
-        "special_defence": 75,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "8:siphon",
-        "6:corrosivegas",
-        "23:gastroacid",
-        "44:nastyplot",
-        "41:darkvoid",
-        "56:toxic",
-        "1:smog",
-        "53:acidrain",
-        "14:snarl",
-        "47:sludgewave",
-        "4:poisongas",
-        "50:venomdrench",
-        "29:corrode",
-        "tm:acidrain",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:breakingswipe",
-        "tm:bulkup",
-        "tm:bulldoze",
-        "tm:calmmind",
-        "tm:closecombat",
-        "tm:confuseray",
-        "tm:corrosivegas",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:defog",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:earthquake",
-        "tm:falseswipe",
-        "tm:flamethrower",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:gunkshot",
-        "tm:heatwave",
-        "tm:hex",
-        "tm:hiddenpower",
-        "tm:incinerate",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:memento",
-        "tm:mist",
-        "tm:mistyterrain",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:nobleroar",
-        "tm:outrage",
-        "tm:phantomforce",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:shadowball",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:snarl",
-        "tm:substitute",
-        "tm:superpower",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:nightdaze",
-        "egg:darkpulse",
-        "egg:sludgebomb",
-        "egg:smokescreen",
-        "egg:snatch",
-        "egg:quash",
-        "egg:dragonpulse",
-        "egg:extrasensory",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochgrowlitheone.desc"
-      ],
-      "height": 7,
-      "weight": 190,
-      "aspects": [
-        "epochtwo"
-      ],
-      "evolutions": [
-        {
-          "id": "epochgrowlitheone_epochtwoarcanine",
-          "variant": "item_interact",
-          "result": "epochtwoarcanine",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dusk_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ishirian",
       "primaryType": "ghost",
       "secondaryType": "fire",
@@ -1262,13 +1264,13 @@
     }
   ],
   "features": [
-    "palmian",
-    "forman",
-    "epoch",
-    "aristosian",
     "delta",
-    "armiran",
+    "aristosian",
+    "palmian",
+    "epoch",
     "epochtwo",
+    "forman",
+    "armiran",
     "ishirian"
   ],
   "evolutions": [

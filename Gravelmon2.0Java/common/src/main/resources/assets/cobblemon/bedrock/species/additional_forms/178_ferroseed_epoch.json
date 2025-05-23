@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_50_by_36.geo",
       "poser": "cobblemon:cutout_gravelmon_50_by_36",
-      "texture": "cobblemon:textures/pokemon/generation5/epochferroseed.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochferroseed.png",
       "layers": [
         {
           "name": "emissive"

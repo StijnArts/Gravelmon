@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_56_by_98.geo",
       "poser": "cobblemon:cutout_gravelmon_56_by_98",
-      "texture": "cobblemon:textures/pokemon/generation5/deltakarrablast.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltakarrablast.png",
       "layers": [
         {
           "name": "emissive"

@@ -6,8 +6,8 @@
       "aspects": [
         "mastenian"
       ],
-      "model": "cobblemon:cutout_gravelmon_62_by_62.geo",
-      "poser": "cobblemon:cutout_gravelmon_62_by_62",
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
       "texture": "cobblemon:textures/pokemon/norheim/masteniancrudecay.png",
       "layers": [
         {

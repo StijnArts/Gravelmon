@@ -4,6 +4,34 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "lagoonan_tinkatuff-01",
+      "pokemon": "tinkatuff lagoonan",
+      "presets": [
+        "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-44",
+      "weight": 1.6500000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#minecraft:is_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_tinkatuff-01",
       "pokemon": "tinkatuff epoch",
       "presets": [
@@ -28,34 +56,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "lagoonan_tinkatuff-01",
-      "pokemon": "tinkatuff lagoonan",
-      "presets": [
-        "shipwreck"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "24-44",
-      "weight": 1.6500000000000001,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_beach",
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
           ]
         }
       }

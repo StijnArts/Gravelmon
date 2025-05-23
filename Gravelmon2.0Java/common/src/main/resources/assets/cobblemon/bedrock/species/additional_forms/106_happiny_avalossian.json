@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_29_by_39.geo",
       "poser": "cobblemon:cutout_gravelmon_29_by_39",
-      "texture": "cobblemon:textures/pokemon/generation4/avalossianhappiny.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossianhappiny.png",
       "layers": [
         {
           "name": "emissive"

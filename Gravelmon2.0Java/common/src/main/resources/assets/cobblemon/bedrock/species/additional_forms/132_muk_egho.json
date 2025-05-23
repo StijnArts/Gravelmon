@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_156_by_138.geo",
       "poser": "cobblemon:cutout_gravelmon_156_by_138",
-      "texture": "cobblemon:textures/pokemon/generation1/eghomuk.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghomuk.png",
       "layers": [
         {
           "name": "emissive"

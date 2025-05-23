@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_48_by_56.geo",
       "poser": "cobblemon:cutout_gravelmon_48_by_56",
-      "texture": "cobblemon:textures/pokemon/generation7/epochmudbray.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmudbray.png",
       "layers": [
         {
           "name": "emissive"

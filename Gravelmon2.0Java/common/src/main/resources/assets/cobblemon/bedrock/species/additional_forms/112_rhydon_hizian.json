@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_69.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_69",
-      "texture": "cobblemon:textures/pokemon/generation1/hizianrhydon.png",
+      "texture": "cobblemon:textures/pokemon/hiza/hizianrhydon.png",
       "layers": [
         {
           "name": "emissive"

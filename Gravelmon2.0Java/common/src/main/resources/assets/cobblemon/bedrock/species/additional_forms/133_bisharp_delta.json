@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_122_by_146.geo",
       "poser": "cobblemon:cutout_gravelmon_122_by_146",
-      "texture": "cobblemon:textures/pokemon/generation5/deltabisharp.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabisharp.png",
       "layers": [
         {
           "name": "emissive"

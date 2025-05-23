@@ -2,134 +2,6 @@
   "target": "cobblemon:horsea",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "water",
-      "secondaryType": "psychic",
-      "catchRate": 225,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:watergun",
-        "1:confusion",
-        "1:tailwhip",
-        "1:growl",
-        "4:bubblebeam",
-        "4:psybeam",
-        "7:brine",
-        "7:futuresight",
-        "10:surf",
-        "10:psychic",
-        "13:chillingwater",
-        "13:psyshock",
-        "16:hydropump",
-        "16:psychoboost",
-        "19:watergun",
-        "19:confusion",
-        "22:tailwhip",
-        "22:growl",
-        "25:bubblebeam",
-        "25:psybeam",
-        "28:aquatail",
-        "28:futuresight",
-        "31:surf",
-        "31:psychic",
-        "34:waterfall",
-        "34:zenheadbutt",
-        "39:liquidation",
-        "39:psychocut",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formanhorsea.desc"
-      ],
-      "height": 4,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formanhorsea_seadra_forman",
-          "variant": "level_up",
-          "result": "seadra forman",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "water",
       "secondaryType": "light",
@@ -471,12 +343,141 @@
         "height": 2.4375,
         "fixed": false
       }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 225,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:confusion",
+        "1:tailwhip",
+        "1:growl",
+        "4:bubblebeam",
+        "4:psybeam",
+        "7:brine",
+        "7:futuresight",
+        "10:surf",
+        "10:psychic",
+        "13:chillingwater",
+        "13:psyshock",
+        "16:hydropump",
+        "16:psychoboost",
+        "19:watergun",
+        "19:confusion",
+        "22:tailwhip",
+        "22:growl",
+        "25:bubblebeam",
+        "25:psybeam",
+        "28:aquatail",
+        "28:futuresight",
+        "31:surf",
+        "31:psychic",
+        "34:waterfall",
+        "34:zenheadbutt",
+        "39:liquidation",
+        "39:psychocut",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formanhorsea.desc"
+      ],
+      "height": 4,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formanhorsea_seadra_forman",
+          "variant": "level_up",
+          "result": "seadra forman",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "forman",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "forman"
   ],
   "evolutions": [
     {

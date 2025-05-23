@@ -2,18 +2,20 @@
   "target": "cobblemon:snorunt",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "fire",
-      "catchRate": 255,
+      "name": "Cefiran",
+      "primaryType": "ground",
+      "catchRate": 190,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.21,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "innerfocus",
+        "poisonheal",
+        "h:moody"
       ],
       "behaviour": {
         "resting": {
@@ -42,15 +44,15 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 50,
+        "attack": 50,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 50
       },
       "evYield": {
-        "hp": 0,
+        "hp": 1,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -58,44 +60,256 @@
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "fairy",
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mudslap",
+        "1:leer",
+        "4:doubleteam",
+        "10:bite",
+        "13:mudshot",
+        "19:headbutt",
+        "22:protect",
+        "28:mudbomb",
+        "31:crunch",
+        "37:earthpower",
+        "40:sandstorm",
+        "46:earthquake",
+        "egg:avalanche",
+        "egg:tackle",
+        "egg:block",
+        "egg:disable",
+        "egg:faketears",
+        "egg:hex",
+        "egg:rollout",
+        "egg:spikes",
+        "egg:weatherball",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "opal",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.cefiransnorunt.desc"
+      ],
+      "height": 7,
+      "weight": 168,
+      "aspects": [
+        "cefiran"
+      ],
+      "evolutions": [
+        {
+          "id": "cefiransnorunt_glalie_cefiran",
+          "variant": "level_up",
+          "result": "glalie cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "42"
+            }
+          ],
+          "permanent": true
+        },
+        {
+          "id": "cefiransnorunt_froslass_cefiran",
+          "variant": "item_interact",
+          "result": "froslass cefiran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:dawn_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Delta",
+      "primaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.17872340425531913,
+      "cannotDynamax": false,
+      "abilities": [
+        "whitesmoke",
+        "h:flashfire"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
       ],
       "drops": {},
       "moves": [
         "1:ember",
-        "1:growl",
-        "4:firespin",
-        "7:flamecharge",
-        "10:flameburst",
-        "13:flamethrower",
-        "16:fireblast",
-        "19:ember",
-        "22:growl",
-        "25:quickattack",
-        "28:flamecharge",
-        "31:firepunch",
-        "34:willowisp",
-        "39:flareblitz",
+        "1:leer",
+        "5:doubleteam",
+        "10:haze",
+        "14:incinerate",
+        "19:bite",
+        "23:firefang",
+        "28:headbutt",
+        "32:willowisp",
+        "37:lavaplume",
+        "41:crunch",
+        "46:fireblast",
+        "50:eruption",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:protect",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:rocktomb",
+        "tm:facade",
+        "tm:flamecharge",
+        "tm:rest",
+        "tm:attract",
+        "tm:overheat",
+        "tm:energyball",
+        "tm:willowisp",
+        "tm:payback",
+        "tm:gyroball",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:incinerate",
+        "tm:echoedvoice",
+        "tm:round",
+        "tm:captivate",
+        "tm:snarl",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:spikes",
+        "tm:secretpower",
+        "tm:strength",
+        "tutor:acid",
+        "tutor:block",
+        "tutor:earthpower",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:heatwave",
+        "tutor:helpinghand",
+        "tutor:hypervoice",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:painsplit",
+        "tutor:snore",
+        "tutor:stealthrock",
+        "tutor:uproar",
         "tm:terablast"
       ],
       "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
+        "gen3",
+        "insurgence",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliansnorunt.desc"
+        "cobblemon.species.deltasnorunt.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 7,
+      "weight": 168,
       "aspects": [
-        "fabelian"
+        "delta"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "deltasnorunt_glalie_delta",
+          "variant": "level_up",
+          "result": "glalie delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "42"
+            }
+          ],
+          "permanent": true
+        },
+        {
+          "id": "deltasnorunt_froslass_delta",
+          "variant": "item_interact",
+          "result": "froslass delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "gender=female",
+              "contains": true
+            }
+          ],
+          "requiredContext": "cobblemon:dawn_stone",
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 5.875000000000001,
+        "height": 5.875000000000001,
         "fixed": false
       }
     },
@@ -288,185 +502,6 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "fire",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.17872340425531913,
-      "cannotDynamax": false,
-      "abilities": [
-        "whitesmoke",
-        "h:flashfire"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 50,
-        "attack": 50,
-        "defence": 50,
-        "special_attack": 50,
-        "special_defence": 50,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:ember",
-        "1:leer",
-        "5:doubleteam",
-        "10:haze",
-        "14:incinerate",
-        "19:bite",
-        "23:firefang",
-        "28:headbutt",
-        "32:willowisp",
-        "37:lavaplume",
-        "41:crunch",
-        "46:fireblast",
-        "50:eruption",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:protect",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:return",
-        "tm:doubleteam",
-        "tm:flamethrower",
-        "tm:fireblast",
-        "tm:rocktomb",
-        "tm:facade",
-        "tm:flamecharge",
-        "tm:rest",
-        "tm:attract",
-        "tm:overheat",
-        "tm:energyball",
-        "tm:willowisp",
-        "tm:payback",
-        "tm:gyroball",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:darkpulse",
-        "tm:achillesheel",
-        "tm:incinerate",
-        "tm:echoedvoice",
-        "tm:round",
-        "tm:captivate",
-        "tm:snarl",
-        "tm:confide",
-        "tm:darkmatter",
-        "tm:spikes",
-        "tm:secretpower",
-        "tm:strength",
-        "tutor:acid",
-        "tutor:block",
-        "tutor:earthpower",
-        "tutor:endure",
-        "tutor:foulplay",
-        "tutor:heatwave",
-        "tutor:helpinghand",
-        "tutor:hypervoice",
-        "tutor:knockoff",
-        "tutor:mimic",
-        "tutor:painsplit",
-        "tutor:snore",
-        "tutor:stealthrock",
-        "tutor:uproar",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "insurgence",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltasnorunt.desc"
-      ],
-      "height": 7,
-      "weight": 168,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [
-        {
-          "id": "deltasnorunt_glalie_delta",
-          "variant": "level_up",
-          "result": "glalie delta",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "42"
-            }
-          ],
-          "permanent": true
-        },
-        {
-          "id": "deltasnorunt_froslass_delta",
-          "variant": "item_interact",
-          "result": "froslass delta",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "properties",
-              "target": "gender=female",
-              "contains": true
-            }
-          ],
-          "requiredContext": "cobblemon:dawn_stone",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.875000000000001,
-        "height": 5.875000000000001,
-        "fixed": false
-      }
-    },
-    {
       "name": "Ayreian",
       "primaryType": "fire",
       "catchRate": 190,
@@ -646,20 +681,18 @@
       }
     },
     {
-      "name": "Cefiran",
-      "primaryType": "ground",
-      "catchRate": 190,
+      "name": "Fabelian",
+      "primaryType": "fire",
+      "catchRate": 255,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.21,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "innerfocus",
-        "poisonheal",
-        "h:moody"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -688,15 +721,15 @@
         }
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 50,
-        "defence": 50,
-        "special_attack": 50,
-        "special_defence": 50,
-        "speed": 50
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -704,86 +737,54 @@
         "speed": 0
       },
       "eggGroups": [
-        "fairy",
-        "mineral"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:mudslap",
-        "1:leer",
-        "4:doubleteam",
-        "10:bite",
-        "13:mudshot",
-        "19:headbutt",
-        "22:protect",
-        "28:mudbomb",
-        "31:crunch",
-        "37:earthpower",
-        "40:sandstorm",
-        "46:earthquake",
-        "egg:avalanche",
-        "egg:tackle",
-        "egg:block",
-        "egg:disable",
-        "egg:faketears",
-        "egg:hex",
-        "egg:rollout",
-        "egg:spikes",
-        "egg:weatherball",
+        "1:ember",
+        "1:growl",
+        "4:firespin",
+        "7:flamecharge",
+        "10:flameburst",
+        "13:flamethrower",
+        "16:fireblast",
+        "19:ember",
+        "22:growl",
+        "25:quickattack",
+        "28:flamecharge",
+        "31:firepunch",
+        "34:willowisp",
+        "39:flareblitz",
         "tm:terablast"
       ],
       "labels": [
-        "gen3",
-        "opal",
-        "not_modeled"
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.cefiransnorunt.desc"
+        "cobblemon.species.fabeliansnorunt.desc"
       ],
-      "height": 7,
-      "weight": 168,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "cefiran"
+        "fabelian"
       ],
-      "evolutions": [
-        {
-          "id": "cefiransnorunt_glalie_cefiran",
-          "variant": "level_up",
-          "result": "glalie cefiran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "42"
-            }
-          ],
-          "permanent": true
-        },
-        {
-          "id": "cefiransnorunt_froslass_cefiran",
-          "variant": "item_interact",
-          "result": "froslass cefiran",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dawn_stone",
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.0,
-        "height": 5.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "fabelian",
-    "epoch",
+    "cefiran",
     "delta",
+    "epoch",
     "ayreian",
-    "cefiran"
+    "fabelian"
   ]
 }

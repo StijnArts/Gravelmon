@@ -2,119 +2,6 @@
   "target": "cobblemon:gurdurr",
   "forms": [
     {
-      "name": "Fabelian",
-      "primaryType": "grass",
-      "secondaryType": "fighting",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:absorb",
-        "1:lowkick",
-        "1:leer",
-        "1:leer",
-        "4:megadrain",
-        "4:revenge",
-        "7:magicalleaf",
-        "7:vacuumwave",
-        "10:gigadrain",
-        "10:brickbreak",
-        "13:energyball",
-        "13:aurasphere",
-        "16:solarbeam",
-        "16:focusblast",
-        "19:leafage",
-        "19:lowkick",
-        "22:leer",
-        "22:leer",
-        "25:absorb",
-        "25:revenge",
-        "28:trailblaze",
-        "28:lowsweep",
-        "31:gigadrain",
-        "31:brickbreak",
-        "34:seedbomb",
-        "34:karatechop",
-        "39:leafblade",
-        "39:closecombat",
-        "tm:terablast"
-      ],
-      "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.fabeliangurdurr.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "fabelian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "ghost",
       "secondaryType": "fighting",
@@ -437,6 +324,153 @@
       }
     },
     {
+      "name": "Kaskadian",
+      "primaryType": "fighting",
+      "secondaryType": "grass",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.056249999999999994,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 105,
+        "defence": 85,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:lowkick",
+        "1:pound",
+        "1:branchpoke",
+        "12:focusenergy",
+        "16:bulkup",
+        "20:rockslide",
+        "24:slam",
+        "30:trailblaze",
+        "36:dynamicpunch",
+        "42:hammerarm",
+        "48:stoneedge",
+        "54:superpower",
+        "60:woodhammer",
+        "tm:takedown",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:lowkick",
+        "tm:thief",
+        "tm:facade",
+        "tm:rocktomb",
+        "tm:lowsweep",
+        "tm:fling",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:dig",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:icepunch",
+        "tm:sleeptalk",
+        "tm:drainpunch",
+        "tm:grassknot",
+        "tm:poisonjab",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:taunt",
+        "tm:substitute",
+        "tm:helpinghand",
+        "tm:reversal",
+        "tm:stoneedge",
+        "tm:focusblast",
+        "tm:closecombat",
+        "tm:terablast",
+        "tm:smackdown",
+        "tm:knockoff",
+        "tm:highhorsepower",
+        "tm:focuspunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen5",
+        "lockemon",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.kaskadiangurdurr.desc"
+      ],
+      "height": 12,
+      "weight": 400,
+      "aspects": [
+        "kaskadian"
+      ],
+      "evolutions": [
+        {
+          "id": "kaskadiangurdurr_conkeldurr_kaskadian",
+          "variant": "item_interact",
+          "result": "conkeldurr kaskadian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:leaf_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fighting",
       "secondaryType": "grass",
@@ -611,20 +645,19 @@
       }
     },
     {
-      "name": "Kaskadian",
-      "primaryType": "fighting",
-      "secondaryType": "grass",
-      "catchRate": 90,
+      "name": "Fabelian",
+      "primaryType": "grass",
+      "secondaryType": "fighting",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 142,
-      "experienceGroup": "medium_slow",
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.056249999999999994,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "guts",
-        "sheerforce"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -653,103 +686,71 @@
         }
       },
       "baseStats": {
-        "hp": 85,
-        "attack": 105,
-        "defence": 85,
-        "special_attack": 40,
-        "special_defence": 50,
-        "speed": 40
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
         "hp": 0,
-        "attack": 2,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "human_like"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:leer",
+        "1:absorb",
         "1:lowkick",
-        "1:pound",
-        "1:branchpoke",
-        "12:focusenergy",
-        "16:bulkup",
-        "20:rockslide",
-        "24:slam",
-        "30:trailblaze",
-        "36:dynamicpunch",
-        "42:hammerarm",
-        "48:stoneedge",
-        "54:superpower",
-        "60:woodhammer",
-        "tm:takedown",
-        "tm:scaryface",
-        "tm:protect",
-        "tm:lowkick",
-        "tm:thief",
-        "tm:facade",
-        "tm:rocktomb",
-        "tm:lowsweep",
-        "tm:fling",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:dig",
-        "tm:brickbreak",
-        "tm:bulkup",
-        "tm:firepunch",
-        "tm:thunderpunch",
-        "tm:icepunch",
-        "tm:sleeptalk",
-        "tm:drainpunch",
-        "tm:grassknot",
-        "tm:poisonjab",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:taunt",
-        "tm:substitute",
-        "tm:helpinghand",
-        "tm:reversal",
-        "tm:stoneedge",
-        "tm:focusblast",
-        "tm:closecombat",
-        "tm:terablast",
-        "tm:smackdown",
-        "tm:knockoff",
-        "tm:highhorsepower",
-        "tm:focuspunch",
+        "1:leer",
+        "1:leer",
+        "4:megadrain",
+        "4:revenge",
+        "7:magicalleaf",
+        "7:vacuumwave",
+        "10:gigadrain",
+        "10:brickbreak",
+        "13:energyball",
+        "13:aurasphere",
+        "16:solarbeam",
+        "16:focusblast",
+        "19:leafage",
+        "19:lowkick",
+        "22:leer",
+        "22:leer",
+        "25:absorb",
+        "25:revenge",
+        "28:trailblaze",
+        "28:lowsweep",
+        "31:gigadrain",
+        "31:brickbreak",
+        "34:seedbomb",
+        "34:karatechop",
+        "39:leafblade",
+        "39:closecombat",
         "tm:terablast"
       ],
       "labels": [
-        "gen5",
-        "lockemon",
-        "not_modeled"
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.kaskadiangurdurr.desc"
+        "cobblemon.species.fabeliangurdurr.desc"
       ],
-      "height": 12,
-      "weight": 400,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "kaskadian"
+        "fabelian"
       ],
-      "evolutions": [
-        {
-          "id": "kaskadiangurdurr_conkeldurr_kaskadian",
-          "variant": "item_interact",
-          "result": "conkeldurr kaskadian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:leaf_stone",
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
         "width": 32.0,
@@ -759,10 +760,10 @@
     }
   ],
   "features": [
-    "fabelian",
     "epoch",
     "epochtwo",
+    "kaskadian",
     "ayreian",
-    "kaskadian"
+    "fabelian"
   ]
 }

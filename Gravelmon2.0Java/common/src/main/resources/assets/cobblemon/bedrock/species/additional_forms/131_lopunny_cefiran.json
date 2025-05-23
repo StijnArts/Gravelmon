@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_100_by_140.geo",
       "poser": "cobblemon:cutout_gravelmon_100_by_140",
-      "texture": "cobblemon:textures/pokemon/generation4/cefiranlopunny.png",
+      "texture": "cobblemon:textures/pokemon/opal/cefiranlopunny.png",
       "layers": [
         {
           "name": "emissive"

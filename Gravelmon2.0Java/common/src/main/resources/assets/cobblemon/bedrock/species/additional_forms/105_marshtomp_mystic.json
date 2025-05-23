@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_96_by_94.geo",
       "poser": "cobblemon:cutout_gravelmon_96_by_94",
-      "texture": "cobblemon:textures/pokemon/generation3/mysticmarshtomp.png",
+      "texture": "cobblemon:textures/pokemon/azure/mysticmarshtomp.png",
       "layers": [
         {
           "name": "emissive"

@@ -2,22 +2,21 @@
   "target": "cobblemon:glalie",
   "forms": [
     {
-      "name": "Epoch",
+      "name": "Cefiran",
       "primaryType": "ghost",
-      "secondaryType": "dark",
-      "catchRate": 100,
-      "maleRatio": 1.0,
+      "secondaryType": "flying",
+      "catchRate": 190,
+      "maleRatio": 0.5,
       "baseExperienceYield": 168,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "snorunt form=epoch",
-      "baseScale": 0.6000000000000001,
+      "preEvolution": "snorunt form=cefiran",
+      "baseScale": 0.1935483870967742,
       "cannotDynamax": false,
       "abilities": [
-        "cursedbody",
-        "pressure",
-        "h:solidrock"
+        "intimidate",
+        "h:moody"
       ],
       "behaviour": {
         "resting": {
@@ -28,7 +27,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": false
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -46,16 +45,16 @@
         }
       },
       "baseStats": {
-        "hp": 70,
-        "attack": 100,
-        "defence": 110,
-        "special_attack": 100,
-        "special_defence": 50,
-        "speed": 50
+        "hp": 80,
+        "attack": 90,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 90,
+        "speed": 80
       },
       "evYield": {
-        "hp": 0,
-        "attack": 1,
+        "hp": 2,
+        "attack": 0,
         "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
@@ -67,85 +66,51 @@
       ],
       "drops": {},
       "moves": [
-        "15:shadowsneak",
-        "35:glare",
-        "1:tackle",
-        "5:rockthrow",
-        "9:meanlook",
-        "20:bite",
-        "13:curse",
-        "45:crunch",
-        "55:phantomforce",
-        "25:bonerush",
-        "1:knockoff",
-        "1:astonish",
-        "40:shadowbone",
-        "tm:attract",
-        "tm:bounce",
-        "tm:confuseray",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:drainingkiss",
-        "tm:earthpower",
-        "tm:falseswipe",
-        "tm:firefang",
-        "tm:focusblast",
-        "tm:geomancy",
-        "tm:hex",
-        "tm:hiddenpower",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:memento",
-        "tm:metronome",
-        "tm:moonblast",
-        "tm:nastyplot",
-        "tm:phantomforce",
-        "tm:playrough",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:stealthrock",
-        "tm:stoneedge",
-        "tm:substitute",
-        "tm:swift",
-        "tm:taunt",
-        "tm:thunderfang",
-        "tm:toxic",
-        "tm:workup",
-        "tm:zenheadbutt",
+        "1:nightshade",
+        "1:leer",
+        "1:doubleteam",
+        "1:bite",
+        "4:doubleteam",
+        "10:bite",
+        "13:ominouswind",
+        "19:headbutt",
+        "22:protect",
+        "28:acrobatics",
+        "31:crunch",
+        "37:shadowball",
+        "40:curse",
+        "51:airslash",
+        "59:hypervoice",
+        "egg:avalanche",
+        "egg:tackle",
+        "egg:block",
+        "egg:disable",
+        "egg:faketears",
+        "egg:hex",
+        "egg:rollout",
+        "egg:spikes",
+        "egg:weatherball",
         "tm:terablast"
       ],
       "labels": [
-        "soulstones",
+        "gen3",
+        "opal",
         "not_modeled",
-        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.epochglalie.desc"
+        "cobblemon.species.cefiranglalie.desc"
       ],
       "height": 15,
       "weight": 2565,
       "aspects": [
-        "epoch"
+        "cefiran"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.75,
-        "height": 3.75,
+        "width": 11.625,
+        "height": 11.625,
         "fixed": false
       }
     },
@@ -321,6 +286,154 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "ghost",
+      "secondaryType": "dark",
+      "catchRate": 100,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "snorunt form=epoch",
+      "baseScale": 0.6000000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "pressure",
+        "h:solidrock"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 110,
+        "special_attack": 100,
+        "special_defence": 50,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "15:shadowsneak",
+        "35:glare",
+        "1:tackle",
+        "5:rockthrow",
+        "9:meanlook",
+        "20:bite",
+        "13:curse",
+        "45:crunch",
+        "55:phantomforce",
+        "25:bonerush",
+        "1:knockoff",
+        "1:astonish",
+        "40:shadowbone",
+        "tm:attract",
+        "tm:bounce",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:metronome",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:swift",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochglalie.desc"
+      ],
+      "height": 15,
+      "weight": 2565,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.75,
+        "height": 3.75,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fire",
       "secondaryType": "fighting",
@@ -476,119 +589,6 @@
       }
     },
     {
-      "name": "Cefiran",
-      "primaryType": "ghost",
-      "secondaryType": "flying",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 168,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "snorunt form=cefiran",
-      "baseScale": 0.1935483870967742,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate",
-        "h:moody"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 80,
-        "attack": 90,
-        "defence": 80,
-        "special_attack": 80,
-        "special_defence": 90,
-        "speed": 80
-      },
-      "evYield": {
-        "hp": 2,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "fairy",
-        "mineral"
-      ],
-      "drops": {},
-      "moves": [
-        "1:nightshade",
-        "1:leer",
-        "1:doubleteam",
-        "1:bite",
-        "4:doubleteam",
-        "10:bite",
-        "13:ominouswind",
-        "19:headbutt",
-        "22:protect",
-        "28:acrobatics",
-        "31:crunch",
-        "37:shadowball",
-        "40:curse",
-        "51:airslash",
-        "59:hypervoice",
-        "egg:avalanche",
-        "egg:tackle",
-        "egg:block",
-        "egg:disable",
-        "egg:faketears",
-        "egg:hex",
-        "egg:rollout",
-        "egg:spikes",
-        "egg:weatherball",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "opal",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.cefiranglalie.desc"
-      ],
-      "height": 15,
-      "weight": 2565,
-      "aspects": [
-        "cefiran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 11.625,
-        "height": 11.625,
-        "fixed": false
-      }
-    },
-    {
       "name": "delta_mega",
       "primaryType": "fire",
       "secondaryType": "rock",
@@ -644,10 +644,10 @@
     }
   ],
   "features": [
-    "epoch",
-    "delta",
-    "ayreian",
     "cefiran",
+    "delta",
+    "epoch",
+    "ayreian",
     "delta_mega",
     "epoch_mega"
   ]

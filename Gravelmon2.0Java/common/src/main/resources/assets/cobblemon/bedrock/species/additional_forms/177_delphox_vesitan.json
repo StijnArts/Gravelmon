@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_62_by_84.geo",
       "poser": "cobblemon:cutout_gravelmon_62_by_84",
-      "texture": "cobblemon:textures/pokemon/generation6/vesitandelphox.png",
+      "texture": "cobblemon:textures/pokemon/chaosinvesita/vesitandelphox.png",
       "layers": [
         {
           "name": "emissive"

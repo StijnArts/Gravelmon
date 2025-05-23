@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_66_by_66.geo",
       "poser": "cobblemon:cutout_gravelmon_66_by_66",
-      "texture": "cobblemon:textures/pokemon/generation1/nodorranhaunter.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorranhaunter.png",
       "layers": [
         {
           "name": "emissive"

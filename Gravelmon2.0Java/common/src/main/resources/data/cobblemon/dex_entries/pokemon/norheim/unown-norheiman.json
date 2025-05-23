@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:unown-norheiman",
+  "speciesId": "cobblemon:unown",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    }
+  ],
+  "variations": []
+}

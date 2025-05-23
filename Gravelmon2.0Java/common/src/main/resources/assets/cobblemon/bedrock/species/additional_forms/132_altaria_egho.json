@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_102_by_130.geo",
       "poser": "cobblemon:cutout_gravelmon_102_by_130",
-      "texture": "cobblemon:textures/pokemon/generation3/eghoaltaria.png",
+      "texture": "cobblemon:textures/pokemon/infinity/eghoaltaria.png",
       "layers": [
         {
           "name": "emissive"

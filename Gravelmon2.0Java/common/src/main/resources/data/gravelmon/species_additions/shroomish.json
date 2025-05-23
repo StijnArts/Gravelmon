@@ -2,20 +2,21 @@
   "target": "cobblemon:shroomish",
   "forms": [
     {
-      "name": "Mastenian",
-      "primaryType": "dragon",
-      "secondaryType": "grass",
-      "catchRate": 220,
+      "name": "Alteran",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "baseExperienceYield": 59,
+      "experienceGroup": "fluctuating",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.2,
+      "baseScale": 0.29090909090909095,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
-        "h:quickfeet"
+        "poisontouch",
+        "h:moldbreaker"
       ],
       "behaviour": {
         "resting": {
@@ -44,15 +45,15 @@
         }
       },
       "baseStats": {
-        "hp": 42,
-        "attack": 21,
-        "defence": 45,
-        "special_attack": 82,
-        "special_defence": 45,
-        "speed": 82
+        "hp": 60,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 60,
+        "speed": 35
       },
       "evYield": {
-        "hp": 0,
+        "hp": 1,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -60,47 +61,48 @@
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "grass",
+        "fairy"
       ],
       "drops": {},
       "moves": [
-        "1:scratch",
         "1:absorb",
-        "1:vacuumwave",
-        "1:vacuumwave",
-        "1:leer",
-        "1:leer",
-        "1:nastyplot",
-        "1:nastyplot",
-        "10:twister",
-        "10:megadrain",
-        "15:dragonbreath",
-        "15:magicalleaf",
-        "20:breakingswipe",
-        "20:gigadrain",
-        "25:dragonpulse",
-        "25:energyball",
-        "30:dracometeor",
-        "30:solarbeam",
+        "1:tackle",
+        "5:poisonpowder",
+        "8:stunspore",
+        "12:ingrain",
+        "15:megadrain",
+        "19:curse",
+        "22:headbutt",
+        "26:gastroacid",
+        "29:gigadrain",
+        "33:energyball",
+        "36:toxic",
+        "36:spore",
+        "egg:charm",
+        "egg:faketears",
+        "egg:moonblast",
+        "egg:moonlight",
         "tm:terablast"
       ],
       "labels": [
-        "mastenia",
+        "gen3",
+        "flux",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.mastenianshroomish.desc"
+        "cobblemon.species.alteranshroomish.desc"
       ],
-      "height": 8,
-      "weight": 0,
+      "height": 4,
+      "weight": 41,
       "aspects": [
-        "mastenian"
+        "alteran"
       ],
       "evolutions": [
         {
-          "id": "mastenianshroomish_breloom_mastenian",
+          "id": "alteranshroomish_breloom_alteran",
           "variant": "level_up",
-          "result": "breloom mastenian",
+          "result": "breloom alteran",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -114,8 +116,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 2.0625,
+        "height": 2.0625,
         "fixed": false
       }
     },
@@ -284,21 +286,20 @@
       }
     },
     {
-      "name": "Alteran",
-      "primaryType": "grass",
-      "secondaryType": "poison",
-      "catchRate": 255,
+      "name": "Mastenian",
+      "primaryType": "dragon",
+      "secondaryType": "grass",
+      "catchRate": 220,
       "maleRatio": 0.5,
-      "baseExperienceYield": 59,
-      "experienceGroup": "fluctuating",
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.29090909090909095,
+      "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
-        "poisontouch",
-        "h:moldbreaker"
+        "h:quickfeet"
       ],
       "behaviour": {
         "resting": {
@@ -327,15 +328,15 @@
         }
       },
       "baseStats": {
-        "hp": 60,
-        "attack": 40,
-        "defence": 60,
-        "special_attack": 40,
-        "special_defence": 60,
-        "speed": 35
+        "hp": 42,
+        "attack": 21,
+        "defence": 45,
+        "special_attack": 82,
+        "special_defence": 45,
+        "speed": 82
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -343,48 +344,47 @@
         "speed": 0
       },
       "eggGroups": [
-        "grass",
-        "fairy"
+        "field"
       ],
       "drops": {},
       "moves": [
+        "1:scratch",
         "1:absorb",
-        "1:tackle",
-        "5:poisonpowder",
-        "8:stunspore",
-        "12:ingrain",
-        "15:megadrain",
-        "19:curse",
-        "22:headbutt",
-        "26:gastroacid",
-        "29:gigadrain",
-        "33:energyball",
-        "36:toxic",
-        "36:spore",
-        "egg:charm",
-        "egg:faketears",
-        "egg:moonblast",
-        "egg:moonlight",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:leer",
+        "1:leer",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:twister",
+        "10:megadrain",
+        "15:dragonbreath",
+        "15:magicalleaf",
+        "20:breakingswipe",
+        "20:gigadrain",
+        "25:dragonpulse",
+        "25:energyball",
+        "30:dracometeor",
+        "30:solarbeam",
         "tm:terablast"
       ],
       "labels": [
-        "gen3",
-        "flux",
+        "mastenia",
         "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.alteranshroomish.desc"
+        "cobblemon.species.mastenianshroomish.desc"
       ],
-      "height": 4,
-      "weight": 41,
+      "height": 8,
+      "weight": 0,
       "aspects": [
-        "alteran"
+        "mastenian"
       ],
       "evolutions": [
         {
-          "id": "alteranshroomish_breloom_alteran",
+          "id": "mastenianshroomish_breloom_mastenian",
           "variant": "level_up",
-          "result": "breloom alteran",
+          "result": "breloom mastenian",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -398,15 +398,15 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.0625,
-        "height": 2.0625,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "mastenian",
+    "alteran",
     "epoch",
-    "alteran"
+    "mastenian"
   ]
 }

@@ -6,8 +6,8 @@
       "aspects": [
         "mastenian"
       ],
-      "model": "cobblemon:cutout_gravelmon_56_by_44.geo",
-      "poser": "cobblemon:cutout_gravelmon_56_by_44",
+      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
+      "poser": "cobblemon:cutout_gravelmon_2_by_2",
       "texture": "cobblemon:textures/pokemon/okeno/masteniancoathief.png",
       "layers": [
         {

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_80_by_80.geo",
       "poser": "cobblemon:cutout_gravelmon_80_by_80",
-      "texture": "cobblemon:textures/pokemon/generation5/deltaberrydwebble.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaberrydwebble.png",
       "layers": [
         {
           "name": "emissive"

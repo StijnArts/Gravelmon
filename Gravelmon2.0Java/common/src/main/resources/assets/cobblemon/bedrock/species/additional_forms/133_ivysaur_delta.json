@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation1_deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur.png",
+      "model": "cobblemon:insurgence_deltaivysaur.geo",
+      "poser": "cobblemon:insurgence_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaivysaur/deltaivysaur.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_shiny.png",
+      "model": "cobblemon:insurgence_deltaivysaur.geo",
+      "poser": "cobblemon:insurgence_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaivysaur/deltaivysaur_shiny.png",
       "layers": [
         {
           "name": "emissive"
@@ -76,9 +76,9 @@
         "delta",
         "female"
       ],
-      "model": "cobblemon:generation1_deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_female.png",
+      "model": "cobblemon:insurgence_deltaivysaur.geo",
+      "poser": "cobblemon:insurgence_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaivysaur/deltaivysaur_female.png",
       "layers": [
         {
           "name": "emissive"
@@ -112,9 +112,9 @@
         "female",
         "shiny"
       ],
-      "model": "cobblemon:generation1_deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur/deltaivysaur_female_shiny.png",
+      "model": "cobblemon:insurgence_deltaivysaur.geo",
+      "poser": "cobblemon:insurgence_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaivysaur/deltaivysaur_female_shiny.png",
       "layers": [
         {
           "name": "emissive"

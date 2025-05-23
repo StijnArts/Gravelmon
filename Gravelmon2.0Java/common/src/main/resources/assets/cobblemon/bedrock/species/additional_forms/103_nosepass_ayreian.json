@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_39_by_45.geo",
       "poser": "cobblemon:cutout_gravelmon_39_by_45",
-      "texture": "cobblemon:textures/pokemon/generation3/ayreiannosepass.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreiannosepass.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_166_by_112.geo",
       "poser": "cobblemon:cutout_gravelmon_166_by_112",
-      "texture": "cobblemon:textures/pokemon/generation1/deltatentacool.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltatentacool.png",
       "layers": [
         {
           "name": "emissive"

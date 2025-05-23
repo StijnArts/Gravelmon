@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:metang-delta_spider",
+  "speciesId": "cobblemon:metang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltaspider",
+      "unlockForms": [
+        "Deltaspider"
+      ]
+    }
+  ],
+  "variations": []
+}

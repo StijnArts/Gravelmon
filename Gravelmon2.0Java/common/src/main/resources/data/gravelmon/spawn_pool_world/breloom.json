@@ -4,26 +4,28 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mastenian_breloom-01",
-      "pokemon": "breloom mastenian",
+      "id": "alteran_breloom-01",
+      "pokemon": "breloom alteran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "23-43",
-      "weight": 0.9,
+      "bucket": "uncommon",
+      "level": "23-45",
+      "weight": 4.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_magical"
-        ]
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
+            "minecraft:moss_block"
           ]
         }
       }
@@ -57,28 +59,26 @@
       }
     },
     {
-      "id": "alteran_breloom-01",
-      "pokemon": "breloom alteran",
+      "id": "mastenian_breloom-01",
+      "pokemon": "breloom mastenian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-45",
-      "weight": 4.5,
+      "bucket": "common",
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_magical"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:raw_gold_block"
           ]
         }
       }

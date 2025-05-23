@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_89_by_78.geo",
       "poser": "cobblemon:cutout_gravelmon_89_by_78",
-      "texture": "cobblemon:textures/pokemon/generation7/epochtoxapex.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochtoxapex.png",
       "layers": [
         {
           "name": "emissive"

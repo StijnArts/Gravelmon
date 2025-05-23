@@ -2,160 +2,6 @@
   "target": "cobblemon:clamperl",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "psychic",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 69,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.25263157894736843,
-      "cannotDynamax": false,
-      "abilities": [
-        "telepathy",
-        "friendguard",
-        "h:rattled"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": true
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 35,
-        "attack": 34,
-        "defence": 105,
-        "special_attack": 32,
-        "special_defence": 34,
-        "speed": 105
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1"
-      ],
-      "drops": {},
-      "moves": [
-        "1:irondefense",
-        "1:mindblast",
-        "1:reflect",
-        "50:powertrick",
-        "1:lightscreen",
-        "tm:attract",
-        "tm:aurasphere",
-        "tm:calmmind",
-        "tm:chargebeam",
-        "tm:confuseray",
-        "tm:cosmicpower",
-        "tm:darkpulse",
-        "tm:dazzlinggleam",
-        "tm:drainingkiss",
-        "tm:earthpower",
-        "tm:energyball",
-        "tm:expandingforce",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:geomancy",
-        "tm:hiddenpower",
-        "tm:lightscreen",
-        "tm:magicroom",
-        "tm:meteorbeam",
-        "tm:mirrorshot",
-        "tm:mist",
-        "tm:mistyterrain",
-        "tm:nastyplot",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicfangs",
-        "tm:psychicterrain",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:shadowball",
-        "tm:sleeptalk",
-        "tm:substitute",
-        "tm:swift",
-        "tm:toxic",
-        "tm:trickroom",
-        "tm:wonderroom",
-        "tm:workup",
-        "egg:refresh",
-        "egg:confuseray",
-        "egg:barrier",
-        "egg:aquaring",
-        "egg:shellsmash",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochclamperl.desc"
-      ],
-      "height": 4,
-      "weight": 525,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochclamperl_huntail_epoch",
-          "variant": "item_interact",
-          "result": "huntail epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:water_stone",
-          "permanent": true
-        },
-        {
-          "id": "epochclamperl_gorebyss_epoch",
-          "variant": "item_interact",
-          "result": "gorebyss epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:silver_powder",
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.375,
-        "height": 2.375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "dragon",
       "catchRate": 255,
@@ -309,11 +155,165 @@
         "height": 5.125,
         "fixed": false
       }
+    },
+    {
+      "name": "Epoch",
+      "primaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 69,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.25263157894736843,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy",
+        "friendguard",
+        "h:rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 34,
+        "defence": 105,
+        "special_attack": 32,
+        "special_defence": 34,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:irondefense",
+        "1:mindblast",
+        "1:reflect",
+        "50:powertrick",
+        "1:lightscreen",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:confuseray",
+        "tm:cosmicpower",
+        "tm:darkpulse",
+        "tm:dazzlinggleam",
+        "tm:drainingkiss",
+        "tm:earthpower",
+        "tm:energyball",
+        "tm:expandingforce",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:geomancy",
+        "tm:hiddenpower",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:meteorbeam",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:swift",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:wonderroom",
+        "tm:workup",
+        "egg:refresh",
+        "egg:confuseray",
+        "egg:barrier",
+        "egg:aquaring",
+        "egg:shellsmash",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochclamperl.desc"
+      ],
+      "height": 4,
+      "weight": 525,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochclamperl_huntail_epoch",
+          "variant": "item_interact",
+          "result": "huntail epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:water_stone",
+          "permanent": true
+        },
+        {
+          "id": "epochclamperl_gorebyss_epoch",
+          "variant": "item_interact",
+          "result": "gorebyss epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:silver_powder",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.375,
+        "height": 2.375,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "delta"
+    "delta",
+    "epoch"
   ],
   "evolutions": [
     {

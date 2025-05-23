@@ -2,6 +2,361 @@
   "target": "cobblemon:duosion",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "ghost",
+      "secondaryType": "rock",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "solosis form=delta",
+      "baseScale": 0.10909090909090909,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "cursedbody",
+        "h:intimidate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 40,
+        "defence": 50,
+        "special_attack": 125,
+        "special_defence": 60,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:astonish",
+        "1:harden",
+        "1:rollout",
+        "1:snatch",
+        "3:harden",
+        "7:rollout",
+        "10:snatch",
+        "14:ominouswind",
+        "16:meanlook",
+        "19:grudge",
+        "24:gigadrain",
+        "25:ancientpower",
+        "28:endeavor",
+        "31:phantomforce",
+        "34:painsplit",
+        "39:hex",
+        "43:powergem",
+        "50:healblock",
+        "53:curse",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:taunt",
+        "tm:protect",
+        "tm:snatch",
+        "tm:frustration",
+        "tm:earthquake",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:willowisp",
+        "tm:newmoon",
+        "tm:embargo",
+        "tm:explosion",
+        "tm:payback",
+        "tm:rockpolish",
+        "tm:stoneedge",
+        "tm:gyroball",
+        "tm:rockslide",
+        "tm:dreameater",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:smackdown",
+        "tm:sleeptalk",
+        "tm:darkpulse",
+        "tm:achillesheel",
+        "tm:lunarcannon",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:darkmatter",
+        "tm:secretpower",
+        "tutor:acid",
+        "tutor:afteryou",
+        "tutor:ancientpower",
+        "tutor:block",
+        "tutor:covet",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:ominouswind",
+        "tutor:painsplit",
+        "tutor:rollout",
+        "tutor:selfdestruct",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:stealthrock",
+        "tutor:suckerpunch",
+        "tutor:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen5",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltaduosion.desc"
+      ],
+      "height": 6,
+      "weight": 160,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [
+        {
+          "id": "deltaduosion_reuniclus_delta",
+          "variant": "level_up",
+          "result": "reuniclus delta",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "41"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.25,
+        "height": 8.25,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Mystic",
+      "primaryType": "water",
+      "secondaryType": "ghost",
+      "catchRate": 100,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 158,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "solosis form=mystic",
+      "baseScale": 0.11428571428571427,
+      "cannotDynamax": false,
+      "abilities": [
+        "filter",
+        "static",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 30,
+        "defence": 60,
+        "special_attack": 125,
+        "special_defence": 50,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:confusion",
+        "1:protect",
+        "4:recover",
+        "8:waterpulse",
+        "12:ominouswind",
+        "16:charm",
+        "20:shadowball",
+        "24:lightscreen",
+        "24:reflect",
+        "28:allyswitch",
+        "33:painsplit",
+        "36:psychic",
+        "40:skillswap",
+        "44:hydropump",
+        "48:wonderroom",
+        "egg:acidarmor",
+        "egg:astonish",
+        "egg:confuseray",
+        "tm:charm",
+        "tm:protect",
+        "tm:psybeam",
+        "tm:confuseray",
+        "tm:facade",
+        "tm:swift",
+        "tm:rocktomb",
+        "tm:storedpower",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:raindance",
+        "tm:psyshock",
+        "tm:zenheadbutt",
+        "tm:sleeptalk",
+        "tm:reflect",
+        "tm:lightscreen",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:imprison",
+        "tm:flashcannon",
+        "tm:skillswap",
+        "tm:substitute",
+        "tm:irondefense",
+        "tm:trick",
+        "tm:shadowball",
+        "tm:energyball",
+        "tm:psychic",
+        "tm:encore",
+        "tm:calmmind",
+        "tm:helpinghand",
+        "tm:psychicterrain",
+        "tm:trickroom",
+        "tm:thunder",
+        "tm:terablast",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:painsplit",
+        "tm:psychup",
+        "tm:endeavor",
+        "tm:futuresight",
+        "tm:expandingforce",
+        "tm:terablast"
+      ],
+      "labels": [
+        "azure",
+        "gen5",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticduosion.desc"
+      ],
+      "height": 6,
+      "weight": 80,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
+        {
+          "id": "mysticduosion_reuniclus_mystic",
+          "variant": "level_up",
+          "result": "reuniclus mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "54"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 7.875,
+        "height": 7.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "water",
       "secondaryType": "psychic",
@@ -351,341 +706,6 @@
       }
     },
     {
-      "name": "Delta",
-      "primaryType": "ghost",
-      "secondaryType": "rock",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 130,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "solosis form=delta",
-      "baseScale": 0.10909090909090909,
-      "cannotDynamax": false,
-      "abilities": [
-        "levitate",
-        "cursedbody",
-        "h:intimidate"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 40,
-        "defence": 50,
-        "special_attack": 125,
-        "special_defence": 60,
-        "speed": 30
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:astonish",
-        "1:harden",
-        "1:rollout",
-        "1:snatch",
-        "3:harden",
-        "7:rollout",
-        "10:snatch",
-        "14:ominouswind",
-        "16:meanlook",
-        "19:grudge",
-        "24:gigadrain",
-        "25:ancientpower",
-        "28:endeavor",
-        "31:phantomforce",
-        "34:painsplit",
-        "39:hex",
-        "43:powergem",
-        "50:healblock",
-        "53:curse",
-        "tm:calmmind",
-        "tm:toxic",
-        "tm:hiddenpower",
-        "tm:taunt",
-        "tm:protect",
-        "tm:snatch",
-        "tm:frustration",
-        "tm:earthquake",
-        "tm:return",
-        "tm:psychic",
-        "tm:shadowball",
-        "tm:doubleteam",
-        "tm:sludgebomb",
-        "tm:sandstorm",
-        "tm:rocktomb",
-        "tm:torment",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:willowisp",
-        "tm:newmoon",
-        "tm:embargo",
-        "tm:explosion",
-        "tm:payback",
-        "tm:rockpolish",
-        "tm:stoneedge",
-        "tm:gyroball",
-        "tm:rockslide",
-        "tm:dreameater",
-        "tm:swagger",
-        "tm:substitute",
-        "tm:trickroom",
-        "tm:smackdown",
-        "tm:sleeptalk",
-        "tm:darkpulse",
-        "tm:achillesheel",
-        "tm:lunarcannon",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:darkmatter",
-        "tm:secretpower",
-        "tutor:acid",
-        "tutor:afteryou",
-        "tutor:ancientpower",
-        "tutor:block",
-        "tutor:covet",
-        "tutor:earthpower",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:foulplay",
-        "tutor:gigadrain",
-        "tutor:icywind",
-        "tutor:irondefense",
-        "tutor:ironhead",
-        "tutor:knockoff",
-        "tutor:mimic",
-        "tutor:ominouswind",
-        "tutor:painsplit",
-        "tutor:rollout",
-        "tutor:selfdestruct",
-        "tutor:snore",
-        "tutor:spite",
-        "tutor:stealthrock",
-        "tutor:suckerpunch",
-        "tutor:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen5",
-        "insurgence",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltaduosion.desc"
-      ],
-      "height": 6,
-      "weight": 160,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [
-        {
-          "id": "deltaduosion_reuniclus_delta",
-          "variant": "level_up",
-          "result": "reuniclus delta",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "41"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 8.25,
-        "height": 8.25,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Hoennian",
-      "primaryType": "psychic",
-      "secondaryType": "grass",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 130,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "preEvolution": "solosis form=hoennian",
-      "baseScale": 0.24489795918367346,
-      "cannotDynamax": false,
-      "abilities": [
-        "fruitrition"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 30,
-        "defence": 70,
-        "special_attack": 125,
-        "special_defence": 60,
-        "speed": 30
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "tm:trickroom",
-        "tm:calmmind",
-        "tm:toxic",
-        "tm:bulletseed",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:raindance",
-        "tm:energyball",
-        "tm:solarbeam",
-        "tm:thunderbolt",
-        "tm:thunder",
-        "tm:return",
-        "tm:psychic",
-        "tm:shadowball",
-        "tm:shimmershot",
-        "tm:reflect",
-        "tm:shockwave",
-        "tm:flamethrower",
-        "tm:fireblast",
-        "tm:facade",
-        "tm:secretpower",
-        "tm:rest",
-        "tm:attract",
-        "tm:flash",
-        "1:sleeppowder",
-        "1:stunspore",
-        "1:poisonpowder",
-        "7:confusion",
-        "13:magicalleaf",
-        "20:ripen",
-        "28:synthesis",
-        "32:psybeam",
-        "38:megadrain",
-        "42:recover",
-        "48:magiccoat",
-        "egg:growth",
-        "egg:seedbomb",
-        "tm:terablast"
-      ],
-      "labels": [
-        "blazing_emerald",
-        "gen5",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.hoennianduosion.desc"
-      ],
-      "height": 5,
-      "weight": 107,
-      "aspects": [
-        "hoennian"
-      ],
-      "evolutions": [
-        {
-          "id": "hoennianduosion_reuniclus_hoennian",
-          "variant": "level_up",
-          "result": "reuniclus hoennian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "friendship",
-              "amount": "160"
-            },
-            {
-              "variant": "time_range",
-              "range": "day"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.0625,
-        "height": 3.0625,
-        "fixed": false
-      }
-    },
-    {
       "name": "Kaskadian",
       "primaryType": "psychic",
       "secondaryType": "water",
@@ -847,22 +867,20 @@
       }
     },
     {
-      "name": "Mystic",
-      "primaryType": "water",
-      "secondaryType": "ghost",
+      "name": "Hoennian",
+      "primaryType": "psychic",
+      "secondaryType": "grass",
       "catchRate": 100,
       "maleRatio": 0.5,
-      "baseExperienceYield": 158,
+      "baseExperienceYield": 130,
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "solosis form=mystic",
-      "baseScale": 0.11428571428571427,
+      "preEvolution": "solosis form=hoennian",
+      "baseScale": 0.24489795918367346,
       "cannotDynamax": false,
       "abilities": [
-        "filter",
-        "static",
-        "h:waterabsorb"
+        "fruitrition"
       ],
       "behaviour": {
         "resting": {
@@ -873,19 +891,19 @@
         },
         "moving": {
           "fly": {
-            "canFly": true
+            "canFly": false
           },
           "canLook": true,
           "walk": {
             "canWalk": true,
-            "avoidsLand": true
+            "avoidsLand": false
           },
           "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": true,
+            "canBreatheUnderwater": false,
             "canWalkOnLava": false
           }
         }
@@ -893,10 +911,10 @@
       "baseStats": {
         "hp": 65,
         "attack": 30,
-        "defence": 60,
+        "defence": 70,
         "special_attack": 125,
-        "special_defence": 50,
-        "speed": 40
+        "special_defence": 60,
+        "speed": 30
       },
       "evYield": {
         "hp": 0,
@@ -911,94 +929,76 @@
       ],
       "drops": {},
       "moves": [
-        "1:confusion",
-        "1:protect",
-        "4:recover",
-        "8:waterpulse",
-        "12:ominouswind",
-        "16:charm",
-        "20:shadowball",
-        "24:lightscreen",
-        "24:reflect",
-        "28:allyswitch",
-        "33:painsplit",
-        "36:psychic",
-        "40:skillswap",
-        "44:hydropump",
-        "48:wonderroom",
-        "egg:acidarmor",
-        "egg:astonish",
-        "egg:confuseray",
-        "tm:charm",
-        "tm:protect",
-        "tm:psybeam",
-        "tm:confuseray",
-        "tm:facade",
-        "tm:swift",
-        "tm:rocktomb",
-        "tm:storedpower",
-        "tm:nightshade",
-        "tm:endure",
-        "tm:sunnyday",
-        "tm:raindance",
-        "tm:psyshock",
-        "tm:zenheadbutt",
-        "tm:sleeptalk",
-        "tm:reflect",
-        "tm:lightscreen",
-        "tm:thunderwave",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:imprison",
-        "tm:flashcannon",
-        "tm:skillswap",
-        "tm:substitute",
-        "tm:irondefense",
-        "tm:trick",
-        "tm:shadowball",
-        "tm:energyball",
-        "tm:psychic",
-        "tm:encore",
-        "tm:calmmind",
-        "tm:helpinghand",
-        "tm:psychicterrain",
         "tm:trickroom",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:bulletseed",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:energyball",
+        "tm:solarbeam",
+        "tm:thunderbolt",
         "tm:thunder",
-        "tm:terablast",
-        "tm:gravity",
-        "tm:gyroball",
-        "tm:painsplit",
-        "tm:psychup",
-        "tm:endeavor",
-        "tm:futuresight",
-        "tm:expandingforce",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:shimmershot",
+        "tm:reflect",
+        "tm:shockwave",
+        "tm:flamethrower",
+        "tm:fireblast",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:flash",
+        "1:sleeppowder",
+        "1:stunspore",
+        "1:poisonpowder",
+        "7:confusion",
+        "13:magicalleaf",
+        "20:ripen",
+        "28:synthesis",
+        "32:psybeam",
+        "38:megadrain",
+        "42:recover",
+        "48:magiccoat",
+        "egg:growth",
+        "egg:seedbomb",
         "tm:terablast"
       ],
       "labels": [
-        "azure",
+        "blazing_emerald",
         "gen5",
         "not_modeled",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.mysticduosion.desc"
+        "cobblemon.species.hoennianduosion.desc"
       ],
-      "height": 6,
-      "weight": 80,
+      "height": 5,
+      "weight": 107,
       "aspects": [
-        "mystic"
+        "hoennian"
       ],
       "evolutions": [
         {
-          "id": "mysticduosion_reuniclus_mystic",
+          "id": "hoennianduosion_reuniclus_hoennian",
           "variant": "level_up",
-          "result": "reuniclus mystic",
+          "result": "reuniclus hoennian",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
             {
-              "variant": "level",
-              "minLevel": "54"
+              "variant": "friendship",
+              "amount": "160"
+            },
+            {
+              "variant": "time_range",
+              "range": "day"
             }
           ],
           "permanent": true
@@ -1006,19 +1006,19 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 7.875,
-        "height": 7.875,
+        "width": 3.0625,
+        "height": 3.0625,
         "fixed": false
       }
     }
   ],
   "features": [
+    "delta",
+    "mystic",
     "epoch",
     "epochtwo",
-    "delta",
-    "hoennian",
     "kaskadian",
-    "mystic"
+    "hoennian"
   ],
   "evolutions": [
     {

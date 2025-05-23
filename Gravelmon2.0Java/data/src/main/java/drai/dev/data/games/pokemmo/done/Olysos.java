@@ -3,6 +3,8 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.olysos.*;
+import drai.dev.data.pokemon.olysos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -63,6 +65,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Ceryneer());   Missing Art
 //        addNewPokemon(new Kabby());   MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Avalak());   Missing Art
+//        addNewPokemon(new OlysosianBuneary("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new OlysosianLopunny("", Aspect.OLYSOSIAN)); Missing Art
 //        addNewPokemon(new Bubby());   MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Coarsent());   Missing Art
 //        addNewPokemon(new Yinyan());   MEMBER OF LINE NOT FINISHED
@@ -82,7 +86,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Eruptinon());
         addPokedexPokemon("torkoal");
         addNewPokemon(new Tortorge());
-        addPokedexPokemon("poochyena-olysosian, mightyena-olysosian");
+        addNewPokemon(new OlysosianMightyena("", Aspect.OLYSOSIAN));
+        addNewPokemon(new OlysosianPoochyena("", Aspect.OLYSOSIAN));
         addNewPokemon(new Alphayena(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED, StatType.ATTACK))));
         addNewPokemon(new Pepstep());
@@ -103,6 +108,8 @@ public class Olysos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Sabretal());   Missing Art
 //        addNewPokemon(new Solsaur());   MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Spinerno());   Missing Art
+//        addNewPokemon(new OlysosianSkorupi("", Aspect.OLYSOSIAN)); Missing Art
+//        addNewPokemon(new OlysosianDrapion("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Snugub());   MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Plushug());   Missing Art
 //        addNewPokemon(new Draconaut());MEMBER OF LINE NOT FINISHED

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_26_by_28.geo",
       "poser": "cobblemon:cutout_gravelmon_26_by_28",
-      "texture": "cobblemon:textures/pokemon/generation5/varitasiantynamo.png",
+      "texture": "cobblemon:textures/pokemon/varitas/varitasiantynamo.png",
       "layers": [
         {
           "name": "emissive"

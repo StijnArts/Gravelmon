@@ -10,7 +10,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3,
+      "baseScale": 8.399999999999999,
       "cannotDynamax": false,
       "abilities": [
         "pickup",
@@ -103,8 +103,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.5,
-        "height": 3.5,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }

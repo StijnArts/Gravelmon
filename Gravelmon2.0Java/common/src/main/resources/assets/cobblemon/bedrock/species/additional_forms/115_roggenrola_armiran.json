@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_78.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_78",
-      "texture": "cobblemon:textures/pokemon/generation5/armiranroggenrola.png",
+      "texture": "cobblemon:textures/pokemon/daybreak/armiranroggenrola.png",
       "layers": [
         {
           "name": "emissive"

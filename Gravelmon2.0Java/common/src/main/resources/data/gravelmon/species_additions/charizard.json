@@ -2,176 +2,6 @@
   "target": "cobblemon:charizard",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "ground",
-      "secondaryType": "dragon",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 240,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "charmeleon form=epoch",
-      "baseScale": 0.5037037037037037,
-      "cannotDynamax": false,
-      "abilities": [
-        "moxie",
-        "sandforce",
-        "h:poisonheal"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 95,
-        "attack": 90,
-        "defence": 80,
-        "special_attack": 100,
-        "special_defence": 84,
-        "speed": 85
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "32:stompingtantrum",
-        "4:smokescreen",
-        "1:leer",
-        "1:scratch",
-        "40:bonemerang",
-        "36:crunch",
-        "18:dragontail",
-        "21:bonerush",
-        "48:earthquake",
-        "28:scaryface",
-        "12:tarshot",
-        "tm:airslash",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:breakingswipe",
-        "tm:bulldoze",
-        "tm:burningjealousy",
-        "tm:charm",
-        "tm:coaching",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:defog",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:drainpunch",
-        "tm:dualwingbeat",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:falseswipe",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:flamethrower",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:geomancy",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hurricane",
-        "tm:incinerate",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:meteormash",
-        "tm:mudslide",
-        "tm:outrage",
-        "tm:playrough",
-        "tm:powergem",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:quicksand",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sandstorm",
-        "tm:sandtomb",
-        "tm:scaleshot",
-        "tm:scorchingsands",
-        "tm:sleeptalk",
-        "tm:spikes",
-        "tm:stealthrock",
-        "tm:steelroller",
-        "tm:steelwing",
-        "tm:stoneedge",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:superpower",
-        "tm:swift",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochcharizard.desc"
-      ],
-      "height": 17,
-      "weight": 905,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.0625,
-        "height": 5.0625,
-        "fixed": false
-      }
-    },
-    {
       "name": "Egho",
       "primaryType": "fire",
       "secondaryType": "dragon",
@@ -572,6 +402,337 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 240,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "charmeleon form=epoch",
+      "baseScale": 0.5037037037037037,
+      "cannotDynamax": false,
+      "abilities": [
+        "moxie",
+        "sandforce",
+        "h:poisonheal"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 90,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 84,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "32:stompingtantrum",
+        "4:smokescreen",
+        "1:leer",
+        "1:scratch",
+        "40:bonemerang",
+        "36:crunch",
+        "18:dragontail",
+        "21:bonerush",
+        "48:earthquake",
+        "28:scaryface",
+        "12:tarshot",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharizard.desc"
+      ],
+      "height": 17,
+      "weight": 905,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0625,
+        "height": 5.0625,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "secondaryType": "flying",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 240,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5666666666666667,
+      "cannotDynamax": false,
+      "abilities": [
+        "tintedlens",
+        "compoundeyes",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 105,
+        "special_defence": 74,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "36:poisonjab",
+        "24:uturn",
+        "36:toxicthread",
+        "21:scaleshot",
+        "57:megahorn",
+        "9:furycutter",
+        "1:dualwingbeat",
+        "39:dragonclaw",
+        "48:dragonrush",
+        "54:gunkshot",
+        "15:fellstinger",
+        "1:wingattack",
+        "27:stickyweb",
+        "30:leechlife",
+        "12:breakingswipe",
+        "60:dragonascent",
+        "6:stringshot",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:crunch",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharizardone.desc"
+      ],
+      "height": 17,
+      "weight": 905,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.5,
+        "height": 4.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fairy",
       "secondaryType": "rock",
@@ -751,167 +912,6 @@
       }
     },
     {
-      "name": "Epochtwo",
-      "primaryType": "bug",
-      "secondaryType": "flying",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 240,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.5666666666666667,
-      "cannotDynamax": false,
-      "abilities": [
-        "tintedlens",
-        "compoundeyes",
-        "h:noguard"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 90,
-        "attack": 100,
-        "defence": 80,
-        "special_attack": 105,
-        "special_defence": 74,
-        "speed": 85
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leer",
-        "36:poisonjab",
-        "24:uturn",
-        "36:toxicthread",
-        "21:scaleshot",
-        "57:megahorn",
-        "9:furycutter",
-        "1:dualwingbeat",
-        "39:dragonclaw",
-        "48:dragonrush",
-        "54:gunkshot",
-        "15:fellstinger",
-        "1:wingattack",
-        "27:stickyweb",
-        "30:leechlife",
-        "12:breakingswipe",
-        "60:dragonascent",
-        "6:stringshot",
-        "tm:acrobatics",
-        "tm:airslash",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:charm",
-        "tm:crunch",
-        "tm:defog",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:dualwingbeat",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:focusblast",
-        "tm:furycutter",
-        "tm:geomancy",
-        "tm:gunkshot",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hivemind",
-        "tm:hurricane",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:leechlife",
-        "tm:nastyplot",
-        "tm:outrage",
-        "tm:pinmissile",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:scaleshot",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:snarl",
-        "tm:strugglebug",
-        "tm:sunnyday",
-        "tm:swordsdance",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:uturn",
-        "tm:weatherball",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochcharizardone.desc"
-      ],
-      "height": 17,
-      "weight": 905,
-      "aspects": [
-        "epochtwo"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.5,
-        "height": 4.5,
-        "fixed": false
-      }
-    },
-    {
       "name": "delta_mega",
       "primaryType": "ghost",
       "secondaryType": "dragon",
@@ -942,7 +942,7 @@
       "name": "ayreian_mega",
       "primaryType": "fairy",
       "secondaryType": "rock",
-      "baseScale": 28.799999999999997,
+      "baseScale": 0.6127659574468084,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1021,11 +1021,11 @@
     }
   ],
   "features": [
-    "epoch",
     "egho",
     "delta",
-    "ayreian",
+    "epoch",
     "epochtwo",
+    "ayreian",
     "delta_mega",
     "ayreian_mega",
     "epoch_mega",

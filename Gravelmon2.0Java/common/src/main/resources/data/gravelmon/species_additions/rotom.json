@@ -2,6 +2,164 @@
   "target": "cobblemon:rotom",
   "forms": [
     {
+      "name": "Epoch",
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "catchRate": 45,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1391304347826087,
+      "cannotDynamax": false,
+      "abilities": [
+        "magicguard",
+        "trace",
+        "h:contrary"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 105,
+        "defence": 87,
+        "special_attack": 91,
+        "special_defence": 50,
+        "speed": 87
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "7:shadowsneak",
+        "25:honeclaws",
+        "61:memento",
+        "10:confuseray",
+        "31:suckerpunch",
+        "37:spiritshackle",
+        "43:substitute",
+        "49:spectralthief",
+        "1:lick",
+        "13:bite",
+        "40:obstruct",
+        "46:foulplay",
+        "1:doubleteam",
+        "34:crunch",
+        "55:possession",
+        "1:pursuit",
+        "52:destinybond",
+        "4:fakeout",
+        "19:snatch",
+        "tm:attract",
+        "tm:charm",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:gammaray",
+        "tm:gastroacid",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:magicroom",
+        "tm:memento",
+        "tm:metronome",
+        "tm:mysticalfire",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicfangs",
+        "tm:psychicterrain",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:trickroom",
+        "tm:willowisp",
+        "tm:wish",
+        "tm:wonderroom",
+        "tm:workup",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochrotom.desc"
+      ],
+      "height": 3,
+      "weight": 3,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.3125,
+        "height": 4.3125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Sol",
       "primaryType": "electric",
       "secondaryType": "dragon",
@@ -1196,167 +1354,10 @@
         "height": 6.0,
         "fixed": false
       }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "dark",
-      "secondaryType": "ghost",
-      "catchRate": 45,
-      "maleRatio": -1.0,
-      "baseExperienceYield": 154,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1391304347826087,
-      "cannotDynamax": false,
-      "abilities": [
-        "magicguard",
-        "trace",
-        "h:contrary"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 105,
-        "defence": 87,
-        "special_attack": 91,
-        "special_defence": 50,
-        "speed": 87
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 1,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "amorphous"
-      ],
-      "drops": {},
-      "moves": [
-        "7:shadowsneak",
-        "25:honeclaws",
-        "61:memento",
-        "10:confuseray",
-        "31:suckerpunch",
-        "37:spiritshackle",
-        "43:substitute",
-        "49:spectralthief",
-        "1:lick",
-        "13:bite",
-        "40:obstruct",
-        "46:foulplay",
-        "1:doubleteam",
-        "34:crunch",
-        "55:possession",
-        "1:pursuit",
-        "52:destinybond",
-        "4:fakeout",
-        "19:snatch",
-        "tm:attract",
-        "tm:charm",
-        "tm:confuseray",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:defog",
-        "tm:drainingkiss",
-        "tm:falseswipe",
-        "tm:focusblast",
-        "tm:gammaray",
-        "tm:gastroacid",
-        "tm:geomancy",
-        "tm:gunkshot",
-        "tm:hex",
-        "tm:hiddenpower",
-        "tm:hypervoice",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:lightscreen",
-        "tm:magicroom",
-        "tm:memento",
-        "tm:metronome",
-        "tm:mysticalfire",
-        "tm:nastyplot",
-        "tm:phantomforce",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:poltergeist",
-        "tm:possession",
-        "tm:protect",
-        "tm:psychic",
-        "tm:psychicfangs",
-        "tm:psychicterrain",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:shadowball",
-        "tm:shadowpunch",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:snarl",
-        "tm:substitute",
-        "tm:taunt",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:trickroom",
-        "tm:willowisp",
-        "tm:wish",
-        "tm:wonderroom",
-        "tm:workup",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochrotom.desc"
-      ],
-      "height": 3,
-      "weight": 3,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.3125,
-        "height": 4.3125,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "epoch",
     "sol",
     "sway",
     "brawl",
@@ -1365,7 +1366,6 @@
     "home",
     "bass",
     "twirl",
-    "mix",
-    "epoch"
+    "mix"
   ]
 }

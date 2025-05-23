@@ -2,232 +2,6 @@
   "target": "cobblemon:spritzee",
   "forms": [
     {
-      "name": "Aromian",
-      "primaryType": "poison",
-      "secondaryType": "ghost",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:acid",
-        "1:lick",
-        "1:leer",
-        "1:growl",
-        "4:clearsmog",
-        "4:confuseray",
-        "7:sludge",
-        "7:ominouswind",
-        "10:toxicspikes",
-        "10:nightshade",
-        "13:sludgebomb",
-        "13:hex",
-        "16:sludgewave",
-        "16:shadowball",
-        "19:poisonsting",
-        "19:lick",
-        "22:leer",
-        "22:growl",
-        "25:venoshock",
-        "25:confuseray",
-        "28:poisontail",
-        "28:hex",
-        "31:toxicspikes",
-        "31:shadowclaw",
-        "34:sludgebomb",
-        "34:phantomforce",
-        "39:poisonjab",
-        "39:poltergeist",
-        "tm:terablast"
-      ],
-      "labels": [
-        "aroma",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.aromianspritzee.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "aromian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ivrisian",
-      "primaryType": "poison",
-      "secondaryType": "fairy",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:acid",
-        "1:disarmingvoice",
-        "1:leer",
-        "1:babydolleyes",
-        "4:clearsmog",
-        "4:drainingkiss",
-        "7:sludge",
-        "7:playnice",
-        "10:toxicspikes",
-        "10:dazzlinggleam",
-        "13:sludgebomb",
-        "13:hypervoice",
-        "16:sludgewave",
-        "16:moonblast",
-        "19:poisonsting",
-        "19:disarmingvoice",
-        "22:leer",
-        "22:babydolleyes",
-        "25:venoshock",
-        "25:drainingkiss",
-        "28:poisontail",
-        "28:playnice",
-        "31:toxicspikes",
-        "31:dazzlinggleam",
-        "34:sludgebomb",
-        "34:playrough",
-        "39:poisonjab",
-        "39:spiritbreak",
-        "tm:terablast"
-      ],
-      "labels": [
-        "ivris",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.ivrisianspritzee.desc"
-      ],
-      "height": 0,
-      "weight": 0,
-      "aspects": [
-        "ivrisian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "fairy",
       "secondaryType": "poison",
@@ -560,20 +334,19 @@
       }
     },
     {
-      "name": "Vesitan",
-      "primaryType": "fairy",
-      "secondaryType": "psychic",
-      "catchRate": 200,
+      "name": "Ivrisian",
+      "primaryType": "poison",
+      "secondaryType": "fairy",
+      "catchRate": 255,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.24615384615384617,
+      "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [
-        "healer",
-        "aromaveil"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -602,15 +375,15 @@
         }
       },
       "baseStats": {
-        "hp": 78,
-        "attack": 23,
-        "defence": 60,
-        "special_attack": 70,
-        "special_defence": 63,
-        "speed": 52
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -618,64 +391,173 @@
         "speed": 0
       },
       "eggGroups": [
-        "fairy"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "38:flail",
-        "17:calmmind",
-        "35:charm",
-        "31:moonblast",
-        "21:drainingkiss",
-        "6:sweetkiss",
-        "50:disarmingvoice",
-        "48:psychic",
-        "8:odorsleuth",
-        "44:skillswap",
-        "1:sweetscent",
-        "29:attract",
-        "13:confusion",
-        "25:aromatherapy",
-        "1:fairywind",
-        "42:mistyterrain",
-        "egg:captivate",
-        "egg:disable",
-        "egg:refresh",
-        "egg:wish",
+        "1:acid",
+        "1:disarmingvoice",
+        "1:leer",
+        "1:babydolleyes",
+        "4:clearsmog",
+        "4:drainingkiss",
+        "7:sludge",
+        "7:playnice",
+        "10:toxicspikes",
+        "10:dazzlinggleam",
+        "13:sludgebomb",
+        "13:hypervoice",
+        "16:sludgewave",
+        "16:moonblast",
+        "19:poisonsting",
+        "19:disarmingvoice",
+        "22:leer",
+        "22:babydolleyes",
+        "25:venoshock",
+        "25:drainingkiss",
+        "28:poisontail",
+        "28:playnice",
+        "31:toxicspikes",
+        "31:dazzlinggleam",
+        "34:sludgebomb",
+        "34:playrough",
+        "39:poisonjab",
+        "39:spiritbreak",
         "tm:terablast"
       ],
       "labels": [
-        "chaosinvestia",
-        "not_modeled"
+        "ivris",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.vesitanspritzee.desc"
+        "cobblemon.species.ivrisianspritzee.desc"
       ],
-      "height": 2,
-      "weight": 5,
+      "height": 0,
+      "weight": 0,
       "aspects": [
-        "vesitan"
+        "ivrisian"
       ],
-      "evolutions": [
-        {
-          "id": "vesitanspritzee_aromatisse_vesitan",
-          "variant": "level_up",
-          "result": "aromatisse vesitan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "25"
-            }
-          ],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.4375,
-        "height": 2.4375,
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:acid",
+        "1:lick",
+        "1:leer",
+        "1:growl",
+        "4:clearsmog",
+        "4:confuseray",
+        "7:sludge",
+        "7:ominouswind",
+        "10:toxicspikes",
+        "10:nightshade",
+        "13:sludgebomb",
+        "13:hex",
+        "16:sludgewave",
+        "16:shadowball",
+        "19:poisonsting",
+        "19:lick",
+        "22:leer",
+        "22:growl",
+        "25:venoshock",
+        "25:confuseray",
+        "28:poisontail",
+        "28:hex",
+        "31:toxicspikes",
+        "31:shadowclaw",
+        "34:sludgebomb",
+        "34:phantomforce",
+        "39:poisonjab",
+        "39:poltergeist",
+        "tm:terablast"
+      ],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromianspritzee.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -844,15 +726,135 @@
         "height": 2.375,
         "fixed": false
       }
+    },
+    {
+      "name": "Vesitan",
+      "primaryType": "fairy",
+      "secondaryType": "psychic",
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.24615384615384617,
+      "cannotDynamax": false,
+      "abilities": [
+        "healer",
+        "aromaveil"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 78,
+        "attack": 23,
+        "defence": 60,
+        "special_attack": 70,
+        "special_defence": 63,
+        "speed": 52
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "38:flail",
+        "17:calmmind",
+        "35:charm",
+        "31:moonblast",
+        "21:drainingkiss",
+        "6:sweetkiss",
+        "50:disarmingvoice",
+        "48:psychic",
+        "8:odorsleuth",
+        "44:skillswap",
+        "1:sweetscent",
+        "29:attract",
+        "13:confusion",
+        "25:aromatherapy",
+        "1:fairywind",
+        "42:mistyterrain",
+        "egg:captivate",
+        "egg:disable",
+        "egg:refresh",
+        "egg:wish",
+        "tm:terablast"
+      ],
+      "labels": [
+        "chaosinvestia",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.vesitanspritzee.desc"
+      ],
+      "height": 2,
+      "weight": 5,
+      "aspects": [
+        "vesitan"
+      ],
+      "evolutions": [
+        {
+          "id": "vesitanspritzee_aromatisse_vesitan",
+          "variant": "level_up",
+          "result": "aromatisse vesitan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.4375,
+        "height": 2.4375,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "aromian",
-    "ivrisian",
     "epoch",
     "epochtwo",
-    "vesitan",
-    "mikitarian"
+    "ivrisian",
+    "aromian",
+    "mikitarian",
+    "vesitan"
   ],
   "evolutions": [
     {

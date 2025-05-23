@@ -2,6 +2,122 @@
   "target": "cobblemon:stufful",
   "forms": [
     {
+      "name": "Mystic",
+      "primaryType": "normal",
+      "secondaryType": "ghost",
+      "catchRate": 140,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 68,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "baseScale": 0.13333333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "unaware",
+        "h:cutecharm"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 70,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:scratch",
+        "4:torment",
+        "8:honeclaws",
+        "12:shadowsneak",
+        "16:curse",
+        "20:taunt",
+        "24:knockoff",
+        "28:spite",
+        "32:agility",
+        "36:shadowclaw",
+        "40:doubleedge",
+        "44:swordsdance",
+        "48:drainpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "azure",
+        "gen7",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticstufful.desc"
+      ],
+      "height": 5,
+      "weight": 68,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
+        {
+          "id": "mysticstufful_bewear_mystic",
+          "variant": "level_up",
+          "result": "bewear mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "27"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.625,
+        "height": 5.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ghost",
       "secondaryType": "fighting",
@@ -178,126 +294,10 @@
         "height": 2.4375,
         "fixed": false
       }
-    },
-    {
-      "name": "Mystic",
-      "primaryType": "normal",
-      "secondaryType": "ghost",
-      "catchRate": 140,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 68,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 51,
-      "baseFriendship": 70,
-      "baseScale": 0.13333333333333333,
-      "cannotDynamax": false,
-      "abilities": [
-        "cursedbody",
-        "unaware",
-        "h:cutecharm"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 75,
-        "attack": 70,
-        "defence": 50,
-        "special_attack": 50,
-        "special_defence": 50,
-        "speed": 45
-      },
-      "evYield": {
-        "hp": 1,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leer",
-        "1:scratch",
-        "4:torment",
-        "8:honeclaws",
-        "12:shadowsneak",
-        "16:curse",
-        "20:taunt",
-        "24:knockoff",
-        "28:spite",
-        "32:agility",
-        "36:shadowclaw",
-        "40:doubleedge",
-        "44:swordsdance",
-        "48:drainpunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "azure",
-        "gen7",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticstufful.desc"
-      ],
-      "height": 5,
-      "weight": 68,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [
-        {
-          "id": "mysticstufful_bewear_mystic",
-          "variant": "level_up",
-          "result": "bewear mystic",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "27"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.625,
-        "height": 5.625,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "mystic"
+    "mystic",
+    "epoch"
   ]
 }

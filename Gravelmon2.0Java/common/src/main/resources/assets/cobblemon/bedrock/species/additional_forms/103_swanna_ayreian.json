@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_51_by_69.geo",
       "poser": "cobblemon:cutout_gravelmon_51_by_69",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreianswanna.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianswanna.png",
       "layers": [
         {
           "name": "emissive"

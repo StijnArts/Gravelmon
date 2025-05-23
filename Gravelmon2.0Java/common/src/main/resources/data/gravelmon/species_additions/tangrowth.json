@@ -2,259 +2,6 @@
   "target": "cobblemon:tangrowth",
   "forms": [
     {
-      "name": "Epoch",
-      "primaryType": "ground",
-      "secondaryType": "grass",
-      "catchRate": 100,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 187,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "tangela form=epoch",
-      "baseScale": 0.6575342465753424,
-      "cannotDynamax": false,
-      "abilities": [
-        "sandrush",
-        "stormdrain",
-        "h:waterabsorb"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 100,
-        "defence": 125,
-        "special_attack": 80,
-        "special_defence": 60,
-        "speed": 70
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "grass"
-      ],
-      "drops": {},
-      "moves": [
-        "46:sandstorm",
-        "4:sandtomb",
-        "23:dig",
-        "1:branchpoke",
-        "1:rototiller",
-        "36:bounce",
-        "1:sandattack",
-        "30:acrobatics",
-        "43:leafblade",
-        "49:powerwhip",
-        "20:bulldoze",
-        "40:bodyslam",
-        "7:vinewhip",
-        "33:seedbomb",
-        "27:knockoff",
-        "17:needlearm",
-        "55:earthquake",
-        "tm:acrobatics",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:bulldoze",
-        "tm:bulletseed",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:energyball",
-        "tm:geomancy",
-        "tm:gigadrain",
-        "tm:grassyterrain",
-        "tm:gyroball",
-        "tm:hiddenpower",
-        "tm:irondefense",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:magicalleaf",
-        "tm:memento",
-        "tm:mudslide",
-        "tm:playrough",
-        "tm:powerwhip",
-        "tm:protect",
-        "tm:quicksand",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sandstorm",
-        "tm:sandtomb",
-        "tm:scorchingsands",
-        "tm:sleeptalk",
-        "tm:solarbeam",
-        "tm:spikes",
-        "tm:spikyshield",
-        "tm:stealthrock",
-        "tm:stoneedge",
-        "tm:sunnyday",
-        "tm:synthesis",
-        "tm:tailwind",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochtangrowth.desc"
-      ],
-      "height": 20,
-      "weight": 400,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.5625,
-        "height": 4.5625,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Qamoran",
-      "primaryType": "water",
-      "secondaryType": "dragon",
-      "catchRate": 30,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 187,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "tangela form=qamoran",
-      "baseScale": 0.5517241379310345,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye",
-        "h:regenerator"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 100,
-        "attack": 110,
-        "defence": 50,
-        "special_attack": 100,
-        "special_defence": 125,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 2,
-        "speed": 0
-      },
-      "eggGroups": [
-        "grass"
-      ],
-      "drops": {},
-      "moves": [
-        "1:watergun",
-        "3:supersonic",
-        "7:flash",
-        "13:thunderwave",
-        "16:waterpulse",
-        "20:safeguard",
-        "24:magnetrise",
-        "28:brine",
-        "33:memento",
-        "38:screech",
-        "43:raindance",
-        "49:recover",
-        "55:hydropump",
-        "tm:terablast"
-      ],
-      "labels": [
-        "qamor",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.qamorantangrowth.desc"
-      ],
-      "height": 20,
-      "weight": 165,
-      "aspects": [
-        "qamoran"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.4375,
-        "height": 5.4375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Egho",
       "primaryType": "electric",
       "secondaryType": "steel",
@@ -620,20 +367,22 @@
       }
     },
     {
-      "name": "Hoennian",
-      "primaryType": "fighting",
-      "secondaryType": "dark",
-      "catchRate": 45,
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "grass",
+      "catchRate": 100,
       "maleRatio": 0.5,
-      "baseExperienceYield": 87,
+      "baseExperienceYield": 187,
       "experienceGroup": "medium_fast",
-      "eggCycles": 51,
+      "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "tangela form=hoennian",
-      "baseScale": 0.8,
+      "preEvolution": "tangela form=epoch",
+      "baseScale": 0.6575342465753424,
       "cannotDynamax": false,
       "abilities": [
-        "barbednest"
+        "sandrush",
+        "stormdrain",
+        "h:waterabsorb"
       ],
       "behaviour": {
         "resting": {
@@ -663,16 +412,16 @@
       },
       "baseStats": {
         "hp": 100,
-        "attack": 115,
-        "defence": 105,
-        "special_attack": 85,
-        "special_defence": 50,
-        "speed": 80
+        "attack": 100,
+        "defence": 125,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 70
       },
       "evYield": {
         "hp": 0,
-        "attack": 1,
-        "defence": 1,
+        "attack": 0,
+        "defence": 2,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
@@ -682,65 +431,90 @@
       ],
       "drops": {},
       "moves": [
-        "1:leer",
-        "4:heavypunch",
-        "10:razorleaf",
-        "13:revenge",
-        "19:knockoff",
-        "22:bulkup",
-        "28:bramblebash",
-        "32:needlearm",
-        "37:cheapshot",
-        "43:poisonjab",
-        "48:fakeout",
-        "54:submission",
-        "tm:toxic",
-        "tm:pursuit",
-        "tm:bulletseed",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:veiledsky",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:raindance",
-        "tm:earthquake",
-        "tm:return",
-        "tm:brickbreak",
-        "tm:shimmershot",
-        "tm:sludgebomb",
-        "tm:sandstorm",
-        "tm:rocktomb",
-        "tm:gigaimpact",
-        "tm:facade",
-        "tm:secretpower",
-        "tm:rest",
+        "46:sandstorm",
+        "4:sandtomb",
+        "23:dig",
+        "1:branchpoke",
+        "1:rototiller",
+        "36:bounce",
+        "1:sandattack",
+        "30:acrobatics",
+        "43:leafblade",
+        "49:powerwhip",
+        "20:bulldoze",
+        "40:bodyslam",
+        "7:vinewhip",
+        "33:seedbomb",
+        "27:knockoff",
+        "17:needlearm",
+        "55:earthquake",
+        "tm:acrobatics",
         "tm:attract",
-        "tm:thief",
-        "tm:strength",
-        "tm:rocksmash",
-        "egg:uturn",
-        "egg:snatch",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:mudslide",
+        "tm:playrough",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikes",
+        "tm:spikyshield",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:sunnyday",
+        "tm:synthesis",
+        "tm:tailwind",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt",
         "tm:terablast"
       ],
       "labels": [
-        "blazing_emerald",
-        "gen4",
+        "soulstones",
         "not_modeled",
+        "fakemon",
         "fakemonevolution"
       ],
       "pokedex": [
-        "cobblemon.species.hoenniantangrowth.desc"
+        "cobblemon.species.epochtangrowth.desc"
       ],
-      "height": 21,
-      "weight": 1099,
+      "height": 20,
+      "weight": 400,
       "aspects": [
-        "hoennian"
+        "epoch"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.9375,
-        "height": 3.9375,
+        "width": 4.5625,
+        "height": 4.5625,
         "fixed": false
       }
     },
@@ -899,14 +673,240 @@
         "height": 5.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "Hoennian",
+      "primaryType": "fighting",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 87,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "tangela form=hoennian",
+      "baseScale": 0.8,
+      "cannotDynamax": false,
+      "abilities": [
+        "barbednest"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 115,
+        "defence": 105,
+        "special_attack": 85,
+        "special_defence": 50,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "4:heavypunch",
+        "10:razorleaf",
+        "13:revenge",
+        "19:knockoff",
+        "22:bulkup",
+        "28:bramblebash",
+        "32:needlearm",
+        "37:cheapshot",
+        "43:poisonjab",
+        "48:fakeout",
+        "54:submission",
+        "tm:toxic",
+        "tm:pursuit",
+        "tm:bulletseed",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:veiledsky",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:earthquake",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:shimmershot",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:rocktomb",
+        "tm:gigaimpact",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:strength",
+        "tm:rocksmash",
+        "egg:uturn",
+        "egg:snatch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "blazing_emerald",
+        "gen4",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hoenniantangrowth.desc"
+      ],
+      "height": 21,
+      "weight": 1099,
+      "aspects": [
+        "hoennian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.9375,
+        "height": 3.9375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Qamoran",
+      "primaryType": "water",
+      "secondaryType": "dragon",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 187,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "tangela form=qamoran",
+      "baseScale": 0.5517241379310345,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 110,
+        "defence": 50,
+        "special_attack": 100,
+        "special_defence": 125,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "3:supersonic",
+        "7:flash",
+        "13:thunderwave",
+        "16:waterpulse",
+        "20:safeguard",
+        "24:magnetrise",
+        "28:brine",
+        "33:memento",
+        "38:screech",
+        "43:raindance",
+        "49:recover",
+        "55:hydropump",
+        "tm:terablast"
+      ],
+      "labels": [
+        "qamor",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.qamorantangrowth.desc"
+      ],
+      "height": 20,
+      "weight": 165,
+      "aspects": [
+        "qamoran"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.4375,
+        "height": 5.4375,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "epoch",
-    "qamoran",
     "egho",
     "delta",
+    "epoch",
+    "epochtwo",
     "hoennian",
-    "epochtwo"
+    "qamoran"
   ]
 }

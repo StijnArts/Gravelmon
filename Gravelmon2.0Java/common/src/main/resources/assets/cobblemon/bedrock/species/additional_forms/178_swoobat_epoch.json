@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_95_by_55.geo",
       "poser": "cobblemon:cutout_gravelmon_95_by_55",
-      "texture": "cobblemon:textures/pokemon/generation5/epochswoobat.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochswoobat.png",
       "layers": [
         {
           "name": "emissive"

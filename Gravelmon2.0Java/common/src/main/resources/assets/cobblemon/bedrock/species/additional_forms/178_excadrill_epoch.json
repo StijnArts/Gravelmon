@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_83_by_72.geo",
       "poser": "cobblemon:cutout_gravelmon_83_by_72",
-      "texture": "cobblemon:textures/pokemon/generation5/epochexcadrill.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochexcadrill.png",
       "layers": [
         {
           "name": "emissive"

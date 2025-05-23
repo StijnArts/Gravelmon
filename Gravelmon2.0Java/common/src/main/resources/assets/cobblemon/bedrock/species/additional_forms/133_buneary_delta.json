@@ -6,9 +6,9 @@
       "aspects": [
         "delta"
       ],
-      "model": "cobblemon:generation4_deltabuneary.geo",
-      "poser": "cobblemon:generation4_deltabuneary",
-      "texture": "cobblemon:textures/pokemon/generation4/deltabuneary/deltabuneary.png",
+      "model": "cobblemon:insurgence_deltabuneary.geo",
+      "poser": "cobblemon:insurgence_deltabuneary",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabuneary/deltabuneary.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "delta",
         "shiny"
       ],
-      "model": "cobblemon:generation4_deltabuneary.geo",
-      "poser": "cobblemon:generation4_deltabuneary",
-      "texture": "cobblemon:textures/pokemon/generation4/deltabuneary/deltabuneary_shiny.png",
+      "model": "cobblemon:insurgence_deltabuneary.geo",
+      "poser": "cobblemon:insurgence_deltabuneary",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltabuneary/deltabuneary_shiny.png",
       "layers": [
         {
           "name": "emissive"

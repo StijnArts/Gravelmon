@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_skorupi-01",
-      "pokemon": "skorupi epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "9-31",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_sandy"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "hizian_skorupi-01",
       "pokemon": "skorupi hizian",
       "presets": [
@@ -45,6 +20,31 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_skorupi-01",
+      "pokemon": "skorupi epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-31",
+      "weight": 6.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sandy"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

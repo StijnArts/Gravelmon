@@ -2,19 +2,19 @@
   "target": "cobblemon:cherubi",
   "forms": [
     {
-      "name": "Fabelian",
+      "name": "Africanusan",
       "primaryType": "grass",
       "secondaryType": "poison",
-      "catchRate": 255,
+      "catchRate": 190,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "chlorophyll"
       ],
       "behaviour": {
         "resting": {
@@ -43,74 +43,84 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 45,
+        "attack": 35,
+        "defence": 45,
+        "special_attack": 35,
+        "special_defence": 80,
+        "speed": 53
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 0,
+        "special_defence": 1,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "fairy",
+        "grass"
       ],
       "drops": {},
       "moves": [
-        "1:absorb",
-        "1:acid",
-        "1:leer",
-        "1:leer",
-        "4:megadrain",
-        "4:clearsmog",
-        "7:magicalleaf",
-        "7:sludge",
-        "10:gigadrain",
-        "10:toxicspikes",
-        "13:energyball",
-        "13:sludgebomb",
-        "16:solarbeam",
-        "16:sludgewave",
-        "19:leafage",
-        "19:poisonsting",
-        "22:leer",
-        "22:leer",
-        "25:absorb",
-        "25:venoshock",
-        "28:trailblaze",
-        "28:poisontail",
-        "31:gigadrain",
-        "31:toxicspikes",
-        "34:seedbomb",
-        "34:sludgebomb",
-        "39:leafblade",
-        "39:poisonjab",
+        "13:razorleaf",
+        "10:acid",
+        "1:tackle",
+        "22:venoshock",
+        "37:solarbeam",
+        "28:gigadrain",
+        "40:sludgebomb",
+        "19:magicalleaf",
+        "7:absorb",
+        "31:sludge",
+        "egg:aromatherapy",
+        "egg:defensecurl",
+        "egg:grasswhistle",
+        "egg:healpulse",
+        "egg:healingwish",
+        "egg:naturalgift",
+        "egg:naturepower",
+        "egg:razorleaf",
+        "egg:rollout",
+        "egg:seedbomb",
+        "egg:sweetscent",
+        "egg:tickle",
+        "egg:weatherball",
         "tm:terablast"
       ],
       "labels": [
-        "fabel",
-        "not_modeled",
-        "instagram"
+        "africanus",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.fabeliancherubi.desc"
+        "cobblemon.species.africanusancherubi.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 4,
+      "weight": 33,
       "aspects": [
-        "fabelian"
+        "africanusan"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "africanusancherubi_cherrim_africanusan",
+          "variant": "level_up",
+          "result": "cherrim africanusan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "25"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     },
@@ -282,129 +292,6 @@
       }
     },
     {
-      "name": "Africanusan",
-      "primaryType": "grass",
-      "secondaryType": "poison",
-      "catchRate": 190,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.1,
-      "cannotDynamax": false,
-      "abilities": [
-        "chlorophyll"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 45,
-        "attack": 35,
-        "defence": 45,
-        "special_attack": 35,
-        "special_defence": 80,
-        "speed": 53
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 1,
-        "speed": 0
-      },
-      "eggGroups": [
-        "fairy",
-        "grass"
-      ],
-      "drops": {},
-      "moves": [
-        "13:razorleaf",
-        "10:acid",
-        "1:tackle",
-        "22:venoshock",
-        "37:solarbeam",
-        "28:gigadrain",
-        "40:sludgebomb",
-        "19:magicalleaf",
-        "7:absorb",
-        "31:sludge",
-        "egg:aromatherapy",
-        "egg:defensecurl",
-        "egg:grasswhistle",
-        "egg:healpulse",
-        "egg:healingwish",
-        "egg:naturalgift",
-        "egg:naturepower",
-        "egg:razorleaf",
-        "egg:rollout",
-        "egg:seedbomb",
-        "egg:sweetscent",
-        "egg:tickle",
-        "egg:weatherball",
-        "tm:terablast"
-      ],
-      "labels": [
-        "africanus",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.africanusancherubi.desc"
-      ],
-      "height": 4,
-      "weight": 33,
-      "aspects": [
-        "africanusan"
-      ],
-      "evolutions": [
-        {
-          "id": "africanusancherubi_cherrim_africanusan",
-          "variant": "level_up",
-          "result": "cherrim africanusan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "25"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Novran",
       "primaryType": "grass",
       "secondaryType": "flying",
@@ -561,12 +448,126 @@
         "height": 2.75,
         "fixed": false
       }
+    },
+    {
+      "name": "Fabelian",
+      "primaryType": "grass",
+      "secondaryType": "poison",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:acid",
+        "1:leer",
+        "1:leer",
+        "4:megadrain",
+        "4:clearsmog",
+        "7:magicalleaf",
+        "7:sludge",
+        "10:gigadrain",
+        "10:toxicspikes",
+        "13:energyball",
+        "13:sludgebomb",
+        "16:solarbeam",
+        "16:sludgewave",
+        "19:leafage",
+        "19:poisonsting",
+        "22:leer",
+        "22:leer",
+        "25:absorb",
+        "25:venoshock",
+        "28:trailblaze",
+        "28:poisontail",
+        "31:gigadrain",
+        "31:toxicspikes",
+        "34:seedbomb",
+        "34:sludgebomb",
+        "39:leafblade",
+        "39:poisonjab",
+        "tm:terablast"
+      ],
+      "labels": [
+        "fabel",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.fabeliancherubi.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "fabelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
-    "fabelian",
-    "epoch",
     "africanusan",
-    "novran"
+    "epoch",
+    "novran",
+    "fabelian"
   ]
 }

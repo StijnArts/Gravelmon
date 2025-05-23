@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_57_by_49.geo",
       "poser": "cobblemon:cutout_gravelmon_57_by_49",
-      "texture": "cobblemon:textures/pokemon/generation1/epochmankey.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochmankey.png",
       "layers": [
         {
           "name": "emissive"

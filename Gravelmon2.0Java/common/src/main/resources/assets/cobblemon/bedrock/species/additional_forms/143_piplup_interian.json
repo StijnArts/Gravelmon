@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_31_by_45.geo",
       "poser": "cobblemon:cutout_gravelmon_31_by_45",
-      "texture": "cobblemon:textures/pokemon/generation4/interianpiplup.png",
+      "texture": "cobblemon:textures/pokemon/interregional/interianpiplup.png",
       "layers": [
         {
           "name": "emissive"

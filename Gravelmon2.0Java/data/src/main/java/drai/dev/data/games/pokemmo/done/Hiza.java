@@ -1,6 +1,9 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.hiza.*;
+import drai.dev.data.pokemon.hiza.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Hiza extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Hiza();
@@ -94,14 +97,17 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Seevile());
         addNewPokemon(new Dryath());
         addNewPokemon(new Bloomare());
-        addPokedexPokemon("venonat-hizian, venomoth-hizian");
+        addNewPokemon(new HizianVenonat("", Aspect.HIZIAN));
+        addNewPokemon(new HizianVenomoth("", Aspect.HIZIAN));
         addNewPokemon(new Banup());
         addNewPokemon(new Barkana());
-        addPokedexPokemon("skitty-hizian, delcatty-hizian");
+        addNewPokemon(new HizianSkitty("Skitty", Aspect.HIZIAN));
+        addNewPokemon(new HizianDelcatty("Delcatty", Aspect.HIZIAN));
         addNewPokemon(new Purrwess());
         addNewPokemon(new Bufierce());
         addNewPokemon(new Beefierce());
-        addPokedexPokemon("litleo-hizian, pyroar-hizian");
+        addNewPokemon(new HizianLitleo("Litleo", Aspect.HIZIAN));
+        addNewPokemon(new HizianPyroar("Pyroar", Aspect.HIZIAN));
         addNewPokemon(new Fortuller());
         addNewPokemon(new Mysteele());
         addNewPokemon(new Slushling());
@@ -109,7 +115,8 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Goosmire());
 
         addNewPokemon(new Frazzelle());
-        addPokedexPokemon("silicobra-hizian, sandaconda-hizian");
+        addNewPokemon(new HizianSilicobra("", Aspect.HIZIAN));
+        addNewPokemon(new HizianSandaconda("", Aspect.HIZIAN));
         addNewPokemon(new Knocust());
         addNewPokemon(new Forsect());
         addNewPokemon(new Heathling());
@@ -117,24 +124,28 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Infermingo());
         addNewPokemon(new Eruwana());
         addNewPokemon(new Erupaima());
-        addPokedexPokemon("luvdisc-hizian");
+        addNewPokemon(new HizianLuvdisc("Luvdisc", Aspect.HIZIAN));
         addNewPokemon(new Luvanguish());
-        addPokedexPokemon("lickitung-hizian");
+        addNewPokemon(new HizianLickitung("", Aspect.HIZIAN));
         addNewPokemon(new Sweetinel());
         addNewPokemon(new Stunooki());
         addNewPokemon(new Blitzchief());
         addNewPokemon(new Crocmire());
-        addPokedexPokemon("aron-hizian, lairon-hizian, aggron-hizian");
+        addNewPokemon(new HizianAron("Aron", Aspect.HIZIAN));
+        addNewPokemon(new HizianLairon("Lairon", Aspect.HIZIAN));
+        addNewPokemon(new HizianAggron("Aggron", Aspect.HIZIAN));
         addNewPokemon(new Luradune());
         addNewPokemon(new Tombarach());
-        addPokedexPokemon("skorupi-hizian, drapion-hizian");
+        addNewPokemon(new HizianSkorupi("", Aspect.HIZIAN));
+        addNewPokemon(new HizianDrapion("", Aspect.HIZIAN));
         addNewPokemon(new Buzzover());
         addNewPokemon(new Chopteran());
         addNewPokemon(new Gunkile());
         addNewPokemon(new Crocoxic());
         addNewPokemon(new Solarelo());
         addNewPokemon(new Dfinn());
-        addPokedexPokemon("gligar-hizian, gliscor-hizian");
+        addNewPokemon(new HizianGligar("", Aspect.HIZIAN));
+        addNewPokemon(new HizianGliscor("", Aspect.HIZIAN));
         addNewPokemon(new Gargross());
         addNewPokemon(new Ruthedral());
         addNewPokemon(new Rabbeti());
@@ -142,11 +153,11 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Petrawl());
         addNewPokemon(new Cycrush());
         addNewPokemon(new Gargulchan());
-        addPokedexPokemon("scyther-hizian");
+        addNewPokemon(new HizianScyther("", Aspect.HIZIAN));
         addNewPokemon(new Falcher());
-        addPokedexPokemon("pinsir-hizian");
+        addNewPokemon(new HizianPinsir("", Aspect.HIZIAN));
         addNewPokemon(new Greapper());
-        addPokedexPokemon("heatmor-hizian");
+        addNewPokemon(new HizianHeatmor("", Aspect.HIZIAN));
         addNewPokemon(new Hairubb());
         addNewPokemon(new Horrifluff());
         addNewPokemon(new Reflic());
@@ -172,7 +183,11 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Baobash());
         addNewPokemon(new Larvozer());
         addNewPokemon(new Armophant());
-        addPokedexPokemon("murkrow-hizian, honchkrow-hizian, misdreavus-hizian, mismagius-hizian, tropius-hizian");
+        addNewPokemon(new HizianMurkrow("", Aspect.HIZIAN));
+        addNewPokemon(new HizianHonchkrow("", Aspect.HIZIAN));
+        addNewPokemon(new HizianMisdreavus("", Aspect.HIZIAN));
+        addNewPokemon(new HizianMismagius("", Aspect.HIZIAN));
+        addNewPokemon(new HizianTropius("Tropius", Aspect.HIZIAN));
         addNewPokemon(new Bountius());
         addNewPokemon(new Hollotite());
         addNewPokemon(new Stalacpace());
@@ -205,17 +220,21 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pupkin());
         addNewPokemon(new Doggourd());
         addNewPokemon(new Jackhowl());
-        addPokedexPokemon("rhyhorn-hizian, rhydon-hizian");
+        addNewPokemon(new HizianRhyhorn("", Aspect.HIZIAN));
+        addNewPokemon(new HizianRhydon("", Aspect.HIZIAN));
         addNewPokemon(new Rhyferal());
-        addPokedexPokemon("nosepass-hizian");
+        addNewPokemon(new HizianNosepass("Nosepass", Aspect.HIZIAN));
         addNewPokemon(new Wombopass());
         addNewPokemon(new Brainby());
         addNewPokemon(new Invoider());
         addNewPokemon(new Cereblast());
-        addPokedexPokemon("lileep-hizian, cradily-hizian, anorith-hizian, armaldo-hizian");
+        addNewPokemon(new HizianLileep("Lileep", Aspect.HIZIAN));
+        addNewPokemon(new HizianCradily("Cradily", Aspect.HIZIAN));
+        addNewPokemon(new HizianAnorith("Anorith", Aspect.HIZIAN));
+        addNewPokemon(new HizianArmaldo("Armaldo", Aspect.HIZIAN));
         addNewPokemon(new Lurkitopi());
         addNewPokemon(new Kalamark());
-        addPokedexPokemon("druddigon-hizian");
+        addNewPokemon(new HizianDruddigon("", Aspect.HIZIAN));
         addNewPokemon(new Vultox());
         addNewPokemon(new Carriotten());
         addNewPokemon(new Doomture());

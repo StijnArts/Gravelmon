@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_seel-01",
-      "pokemon": "seel fabelian",
+      "id": "norheiman_seel-01",
+      "pokemon": "seel norheiman",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_coast"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -31,16 +31,26 @@
       }
     },
     {
-      "id": "fabelian_seel-11",
-      "pokemon": "seel fabelian",
+      "id": "epoch_seel-01",
+      "pokemon": "seel epoch",
+      "presets": [
+        "natural"
+      ],
       "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "11-32",
+      "weight": 4.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_coast"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_beach"
         ]
       },
       "weightMultiplier": {
@@ -85,26 +95,28 @@
       }
     },
     {
-      "id": "epoch_seel-01",
-      "pokemon": "seel epoch",
+      "id": "hoennian_seel-01",
+      "pokemon": "seel hoennian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "11-32",
-      "weight": 4.5,
+      "bucket": "common",
+      "level": "9-33",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_coast"
+          "#minecraft:is_ocean"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "minY": 48
       },
       "anticondition": {
         "biomes": [
-          "#cobblemon:is_beach"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
         ]
       },
       "weightMultiplier": {
@@ -143,19 +155,19 @@
       }
     },
     {
-      "id": "norheiman_seel-01",
-      "pokemon": "seel norheiman",
+      "id": "fabelian_seel-01",
+      "pokemon": "seel fabelian",
       "presets": [
-        "village"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_coast"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -170,28 +182,16 @@
       }
     },
     {
-      "id": "hoennian_seel-01",
-      "pokemon": "seel hoennian",
-      "presets": [
-        "water"
-      ],
+      "id": "fabelian_seel-11",
+      "pokemon": "seel fabelian",
       "type": "pokemon",
-      "context": "submerged",
+      "context": "fishing",
       "bucket": "common",
-      "level": "9-33",
-      "weight": 13.5,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "minY": 48
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_freezing"
+          "minecraft:the_void"
         ]
       },
       "weightMultiplier": {

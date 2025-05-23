@@ -2,19 +2,21 @@
   "target": "cobblemon:sentret",
   "forms": [
     {
-      "name": "Aromian",
-      "primaryType": "ice",
-      "secondaryType": "normal",
+      "name": "Aristosian",
+      "primaryType": "normal",
+      "secondaryType": "grass",
       "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 60,
+      "baseExperienceYield": 51,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.018750000000000003,
+      "baseScale": 0.17647058823529413,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "runaway",
+        "grasspelt",
+        "h:overcoat"
       ],
       "behaviour": {
         "resting": {
@@ -43,15 +45,15 @@
         }
       },
       "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
+        "hp": 55,
+        "attack": 45,
+        "defence": 33,
+        "special_attack": 35,
+        "special_defence": 45,
+        "speed": 40
       },
       "evYield": {
-        "hp": 0,
+        "hp": 1,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -63,54 +65,113 @@
       ],
       "drops": {},
       "moves": [
-        "1:powdersnow",
-        "1:tackle",
-        "1:growl",
-        "1:growl",
-        "4:icywind",
-        "4:round",
-        "7:aurorabeam",
-        "7:swift",
-        "10:freezedry",
-        "10:uproar",
-        "13:icebeam",
-        "13:hypervoice",
-        "16:blizzard",
-        "16:hyperbeam",
-        "19:powdersnow",
-        "19:tackle",
-        "22:growl",
-        "22:growl",
-        "25:icywind",
-        "25:quickattack",
-        "28:icepunch",
-        "28:bite",
-        "31:icespinner",
-        "31:takedown",
-        "34:iceshard",
-        "34:crunch",
-        "39:iciclecrash",
-        "39:doubleedge",
+        "1:camouflage",
+        "4:defensecurl",
+        "7:quickattack",
+        "16:followme",
+        "19:slam",
+        "25:bulletseed",
+        "28:suckerpunch",
+        "31:seedbomb",
+        "36:batonpass",
+        "39:grassyterrain",
+        "42:mefirst",
+        "47:leafstorm",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:superfang",
+        "tm:snore",
+        "tm:irontail",
+        "tm:uproar",
+        "tm:focuspunch",
+        "tm:helpinghand",
+        "tm:trick",
+        "tm:knockoff",
+        "tm:hypervoice",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:waterpulse",
+        "tm:lastresort",
+        "tm:aquatail",
+        "tm:flamethrower",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:solarbeam",
+        "tm:thunderbolt",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:shadowball",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:uturn",
+        "tm:fling",
+        "tm:shadowclaw",
+        "tm:grassknot",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:workup",
+        "tm:confide",
+        "tm:brutalswing",
+        "tm:doubleedge",
+        "tm:focusenergy",
+        "tm:slash",
+        "tm:reversal",
+        "tm:charm",
+        "tm:pursuit",
+        "tm:assist",
+        "tm:naturalgift",
+        "tm:captivate",
+        "tm:babydolleyes",
         "tm:terablast"
       ],
       "labels": [
-        "aroma",
-        "not_modeled",
-        "instagram"
+        "aristos",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.aromiansentret.desc"
+        "cobblemon.species.aristosiansentret.desc"
       ],
-      "height": 0,
-      "weight": 0,
+      "height": 5,
+      "weight": 165,
       "aspects": [
-        "aromian"
+        "aristosian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "aristosiansentret_furret_aristosian",
+          "variant": "level_up",
+          "result": "furret aristosian",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "agility"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "21"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.25,
+        "height": 4.25,
         "fixed": false
       }
     },
@@ -190,8 +251,9 @@
         "tm:terablast"
       ],
       "labels": [
-        "raian",
         "not_modeled",
+        "norse",
+        "instagram",
         "instagram"
       ],
       "pokedex": [
@@ -207,120 +269,6 @@
           "id": "norsesentret_furret_norse",
           "variant": "level_up",
           "result": "furret norse",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "15"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Forman",
-      "primaryType": "fire",
-      "secondaryType": "flying",
-      "catchRate": 255,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.037500000000000006,
-      "cannotDynamax": false,
-      "abilities": [
-        "flashfire"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 62,
-        "attack": 26,
-        "defence": 43,
-        "special_attack": 62,
-        "special_defence": 48,
-        "speed": 43
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:ember",
-        "1:gust",
-        "1:growl",
-        "1:leer",
-        "4:firespin",
-        "4:aircutter",
-        "7:flamecharge",
-        "7:wingattack",
-        "10:flameburst",
-        "10:airslash",
-        "13:flamethrower",
-        "13:drillpeck",
-        "16:fireblast",
-        "16:hurricane",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formansentret.desc"
-      ],
-      "height": 8,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formansentret_furret_forman",
-          "variant": "level_up",
-          "result": "furret forman",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -510,21 +458,19 @@
       }
     },
     {
-      "name": "Aristosian",
-      "primaryType": "normal",
-      "secondaryType": "grass",
+      "name": "Forman",
+      "primaryType": "fire",
+      "secondaryType": "flying",
       "catchRate": 255,
       "maleRatio": 0.5,
-      "baseExperienceYield": 51,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.17647058823529413,
+      "baseScale": 0.037500000000000006,
       "cannotDynamax": false,
       "abilities": [
-        "runaway",
-        "grasspelt",
-        "h:overcoat"
+        "flashfire"
       ],
       "behaviour": {
         "resting": {
@@ -553,15 +499,15 @@
         }
       },
       "baseStats": {
-        "hp": 55,
-        "attack": 45,
-        "defence": 33,
-        "special_attack": 35,
-        "special_defence": 45,
-        "speed": 40
+        "hp": 62,
+        "attack": 26,
+        "defence": 43,
+        "special_attack": 62,
+        "special_defence": 48,
+        "speed": 43
       },
       "evYield": {
-        "hp": 1,
+        "hp": 0,
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
@@ -573,104 +519,47 @@
       ],
       "drops": {},
       "moves": [
-        "1:camouflage",
-        "4:defensecurl",
-        "7:quickattack",
-        "16:followme",
-        "19:slam",
-        "25:bulletseed",
-        "28:suckerpunch",
-        "31:seedbomb",
-        "36:batonpass",
-        "39:grassyterrain",
-        "42:mefirst",
-        "47:leafstorm",
-        "tm:firepunch",
-        "tm:icepunch",
-        "tm:thunderpunch",
-        "tm:superfang",
-        "tm:snore",
-        "tm:irontail",
-        "tm:uproar",
-        "tm:focuspunch",
-        "tm:helpinghand",
-        "tm:trick",
-        "tm:knockoff",
-        "tm:hypervoice",
-        "tm:covet",
-        "tm:shockwave",
-        "tm:waterpulse",
-        "tm:lastresort",
-        "tm:aquatail",
-        "tm:flamethrower",
-        "tm:surf",
-        "tm:icebeam",
-        "tm:solarbeam",
-        "tm:thunderbolt",
-        "tm:toxic",
-        "tm:doubleteam",
-        "tm:rest",
-        "tm:substitute",
-        "tm:thief",
-        "tm:protect",
-        "tm:swagger",
-        "tm:attract",
-        "tm:sleeptalk",
-        "tm:return",
-        "tm:frustration",
-        "tm:hiddenpower",
-        "tm:raindance",
-        "tm:sunnyday",
-        "tm:shadowball",
-        "tm:facade",
-        "tm:brickbreak",
-        "tm:uturn",
-        "tm:fling",
-        "tm:shadowclaw",
-        "tm:grassknot",
-        "tm:chargebeam",
-        "tm:round",
-        "tm:echoedvoice",
-        "tm:workup",
-        "tm:confide",
-        "tm:brutalswing",
-        "tm:doubleedge",
-        "tm:focusenergy",
-        "tm:slash",
-        "tm:reversal",
-        "tm:charm",
-        "tm:pursuit",
-        "tm:assist",
-        "tm:naturalgift",
-        "tm:captivate",
-        "tm:babydolleyes",
+        "1:ember",
+        "1:gust",
+        "1:growl",
+        "1:leer",
+        "4:firespin",
+        "4:aircutter",
+        "7:flamecharge",
+        "7:wingattack",
+        "10:flameburst",
+        "10:airslash",
+        "13:flamethrower",
+        "13:drillpeck",
+        "16:fireblast",
+        "16:hurricane",
         "tm:terablast"
       ],
       "labels": [
-        "aristos",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.aristosiansentret.desc"
+        "cobblemon.species.formansentret.desc"
       ],
-      "height": 5,
-      "weight": 165,
+      "height": 8,
+      "weight": 0,
       "aspects": [
-        "aristosian"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "aristosiansentret_furret_aristosian",
+          "id": "formansentret_furret_forman",
           "variant": "level_up",
-          "result": "furret aristosian",
+          "result": "furret forman",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "agility"
-          ],
+          "learnableMoves": [],
           "requirements": [
             {
               "variant": "level",
-              "minLevel": "21"
+              "minLevel": "15"
             }
           ],
           "permanent": true
@@ -678,17 +567,131 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.25,
-        "height": 4.25,
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Aromian",
+      "primaryType": "ice",
+      "secondaryType": "normal",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.018750000000000003,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:powdersnow",
+        "1:tackle",
+        "1:growl",
+        "1:growl",
+        "4:icywind",
+        "4:round",
+        "7:aurorabeam",
+        "7:swift",
+        "10:freezedry",
+        "10:uproar",
+        "13:icebeam",
+        "13:hypervoice",
+        "16:blizzard",
+        "16:hyperbeam",
+        "19:powdersnow",
+        "19:tackle",
+        "22:growl",
+        "22:growl",
+        "25:icywind",
+        "25:quickattack",
+        "28:icepunch",
+        "28:bite",
+        "31:icespinner",
+        "31:takedown",
+        "34:iceshard",
+        "34:crunch",
+        "39:iciclecrash",
+        "39:doubleedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "aroma",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.aromiansentret.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "aromian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "aromian",
+    "aristosian",
     "norse",
-    "forman",
     "epoch",
-    "aristosian"
+    "forman",
+    "aromian"
   ]
 }

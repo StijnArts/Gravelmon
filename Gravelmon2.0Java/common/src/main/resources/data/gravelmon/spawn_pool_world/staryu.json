@@ -4,50 +4,26 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "mahalian_staryu-01",
-      "pokemon": "staryu mahalian",
+      "id": "epoch_staryu-01",
+      "pokemon": "staryu epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 5.699999999999999,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mahalian_staryu-11",
-      "pokemon": "staryu mahalian",
-      "type": "pokemon",
-      "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "minecraft:the_void"
+          "#minecraft:is_end"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
+            "minecraft:purpur"
           ]
         }
       }
@@ -100,26 +76,50 @@
       }
     },
     {
-      "id": "epoch_staryu-01",
-      "pokemon": "staryu epoch",
+      "id": "mahalian_staryu-01",
+      "pokemon": "staryu mahalian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-34",
-      "weight": 5.699999999999999,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mahalian_staryu-11",
+      "pokemon": "staryu mahalian",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
         ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:purpur"
+            "minecraft:amethyst_block"
           ]
         }
       }

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_46_by_62.geo",
       "poser": "cobblemon:cutout_gravelmon_46_by_62",
-      "texture": "cobblemon:textures/pokemon/generation9/ayreianquaxwell.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianquaxwell.png",
       "layers": [
         {
           "name": "emissive"

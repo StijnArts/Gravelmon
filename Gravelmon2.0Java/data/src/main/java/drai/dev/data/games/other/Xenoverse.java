@@ -3,11 +3,13 @@ package drai.dev.data.games.other;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.data.pokemon.xenoverse.*;
+import drai.dev.data.pokemon.xenoverse.regional.*;
 import drai.dev.data.pokemon.xenoverse.xspecies.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Xenoverse extends Game {
     public static final Game INSTANCE = new Xenoverse();
+
     private Xenoverse() {
         super("Xenoverse");
     }
@@ -18,20 +20,14 @@ public class Xenoverse extends Game {
         addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new ShyleonAstral("", Aspect.ASTRAL));
-        addNewPokemon(new ShyleonX("", Aspect.X));
-        removePokedexPokemon("shyleon-x");
         addNewPokemon(new Trishout());
         addNewPokemon(new TrishoutTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new TrishoutXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new TrishoutAstral("", Aspect.ASTRAL));
-        addNewPokemon(new TrishoutX("", Aspect.X));
-        removePokedexPokemon("trishout-x");
         addNewPokemon(new Shulong());
         addNewPokemon(new ShulongTerrestrial("", Aspect.TERRESTRIAL));
         addNewPokemon(new ShulongXenoversal("", Aspect.XENOVERSAL));
         addNewPokemon(new ShulongAstral("", Aspect.ASTRAL));
-        addNewPokemon(new ShulongX("", Aspect.X));
-        removePokedexPokemon("shulong-x");
         addNewPokemon(new Sparkowl());
         addNewPokemon(new Shawkbird());
         addNewPokemon(new Harrowk());
@@ -49,7 +45,7 @@ public class Xenoverse extends Game {
         addNewPokemon(new Mylomute());
         addNewPokemon(new Kidoon());
         addNewPokemon(new Honchen());
-        addPokedexPokemon("meowth-eldiwan");
+        addNewPokemon(new EldiwanMeowth("", Aspect.ELDIWAN));
         addNewPokemon(new Persage());
         addNewPokemon(new Koinkoin());
         addNewPokemon(new Beefle());
@@ -67,8 +63,6 @@ public class Xenoverse extends Game {
         addNewPokemon(new Pepequeno());
         Pokemon scovile = new Scovile();
         addNewPokemon(scovile);
-        addNewPokemon(new ScovileX("", Aspect.X));
-        removePokedexPokemon("scovile-x");
         addNewPokemon(new Excalibould());
         addNewPokemon(new Madieval());
         addNewPokemon(new Rockapye());
@@ -111,10 +105,6 @@ public class Xenoverse extends Game {
                 "porygon2," +
                 "porygonz");
         addNewPokemon(new PorygonWES());
-        addNewPokemon(new Electaburst());
-        removePokedexPokemon("electaburst");
-        addNewPokemon(new Chientilly());
-        removePokedexPokemon("chientilly");
         addNewPokemon(new Dusmee());
         addNewPokemon(new Egohiss());
         addNewPokemon(new Egorgeon());
@@ -131,53 +121,57 @@ public class Xenoverse extends Game {
         addNewPokemon(new Luxflon());
         Pokemon dragalisk = new Dragalisk();
         addNewPokemon(dragalisk);
-        addNewPokemon(new DragaliskX("", Aspect.X));
         addNewPokemon(new Dielebi());
         addNewPokemon(new Reginalous());
-        addPokedexPokemon("elekid-x," +
-                "electabuzz-x," +
-                "electaburst," +
-                "spiritomb-x," +
-                "carvanha-x," +
-                "sharpedo-x," +
-                "pyukumuku-x," +
-                "pikachu-male_x," +
-                "pikachu-female_x," +
-                "joltik-x," +
-                "galvantula-x," +
-                "smeargle-x," +
-                "chientilly," +
-                "gastly-x," +
-                "haunter-x," +
-                "gengar-x," +
-                "yamask-x," +
-                "cofagrigus-x," +
-                "ponyta-x," +
-                "rapidash-x," +
-                "cacnea-x," +
-                "cacturne-x," +
-                "swirlix-x," +
-                "slurpuff-x," +
-                "budew-x," +
-                "roselia-x," +
-                "roserade-x," +
-                "mareanie-x," +
-                "toxapex-x," +
-                "greninja-x," +
-                "mewtwo-x," +
-                "raichu-x," +
-                "bisharp-x," +
-                "scovile-x," +
-                "tyranitar-x," +
-                "ditto-x," +
-                "aegislash-x," +
-                "tapufini-x," +
-                "tapulele-x," +
-                "tapukoko-x," +
-                "tapubulu-x," +
-                "dragalisk-x," +
-                "shyleon-x," +
-                "trishout-x," +
-                "shulong-x");
+
+//        addPokedexPokemon(
+        addNewPokemon(new ElekidX("Elekid", Aspect.X));
+        addNewPokemon(new ElectabuzzX("", Aspect.X));
+        addNewPokemon(new Electaburst());
+        addNewPokemon(new SpiritombX("", Aspect.X));
+        addNewPokemon(new CarvanhaX("", Aspect.X));
+        addNewPokemon(new SharpedoX("", Aspect.X));
+        addNewPokemon(new PyukumukuX("", Aspect.X));
+        addNewPokemon(new PikachuMaleX("Pikachu", Aspect.MALE_X));
+        addNewPokemon(new PikachuFemaleX("Pikachu", Aspect.FEMALE_X));
+        addNewPokemon(new JoltikX("", Aspect.X));
+        addNewPokemon(new GalvantulaX("", Aspect.X));
+        addNewPokemon(new SmeargleX("Smeargle", Aspect.X));
+        addNewPokemon(new Chientilly());
+        addNewPokemon(new GastlyX("", Aspect.X));
+        addNewPokemon(new HaunterX("", Aspect.X));
+        addNewPokemon(new GengarX("", Aspect.X));
+        addNewPokemon(new YamaskX("", Aspect.X));
+        addNewPokemon(new CofagrigusX("", Aspect.X));
+        addNewPokemon(new PonytaX("", Aspect.X));
+        addNewPokemon(new RapidashX("", Aspect.X));
+        addNewPokemon(new CacneaX("", Aspect.X));
+        addNewPokemon(new CacturneX("", Aspect.X));
+        addNewPokemon(new SwirlixX("Swirlix", Aspect.X));
+        addNewPokemon(new SlurpuffX("Slurpuff", Aspect.X));
+        addNewPokemon(new BudewX("", Aspect.X));
+        addNewPokemon(new RoseliaX("", Aspect.X));
+        addNewPokemon(new RoseradeX("", Aspect.X));
+        addNewPokemon(new MareanieX("", Aspect.X));
+        addNewPokemon(new ToxapexX("Toxapex", Aspect.X));
+        addNewPokemon(new GreninjaX("Greninja", Aspect.X));
+        addNewPokemon(new MewtwoX("", Aspect.X));
+        addNewPokemon(new RaichuX("", Aspect.X));
+        addNewPokemon(new BisharpX("", Aspect.X));
+        addNewPokemon(new ScovileX("", Aspect.X));
+        addNewPokemon(new TyranitarX("Tyranitar", Aspect.X));
+        addNewPokemon(new DittoX("", Aspect.X));
+        addNewPokemon(new AegislashX("Aegislash", Aspect.X));
+        addNewPokemon(new TapuFiniX("", Aspect.X));
+        addNewPokemon(new TapuLeleX("", Aspect.X));
+        addNewPokemon(new TapuKokoX("", Aspect.X));
+        addNewPokemon(new TapuBuluX("", Aspect.X));
+        addNewPokemon(new DragaliskX("", Aspect.X));
+        addNewPokemon(new ShyleonX("", Aspect.X));
+        addNewPokemon(new TrishoutX("", Aspect.X));
+        addNewPokemon(new ShulongX("", Aspect.X));
+
+        addNewPokemon(new UnownEarth("Unown", Aspect.EARTH));
+        addNewPokemon(new UnownXenoverse("Unown", Aspect.XENOVERSE));
     }
 }

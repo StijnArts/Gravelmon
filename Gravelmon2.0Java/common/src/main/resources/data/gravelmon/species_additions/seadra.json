@@ -2,20 +2,19 @@
   "target": "cobblemon:seadra",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "water",
-      "secondaryType": "psychic",
-      "catchRate": 120,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "name": "Norheiman",
+      "primaryType": "dragon",
+      "catchRate": 65,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "horsea form=forman",
-      "baseScale": 0.051562500000000004,
+      "baseScale": 0.3169811320754717,
       "cannotDynamax": false,
       "abilities": [
-        "regenerator"
+        "swiftswim",
+        "sniper"
       ],
       "behaviour": {
         "resting": {
@@ -44,83 +43,80 @@
         }
       },
       "baseStats": {
-        "hp": 81,
-        "attack": 28,
-        "defence": 62,
-        "special_attack": 69,
-        "special_defence": 97,
-        "speed": 35
+        "hp": 55,
+        "attack": 60,
+        "defence": 65,
+        "special_attack": 110,
+        "special_defence": 65,
+        "speed": 85
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 0,
+        "special_attack": 2,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "field"
+        "dragon",
+        "water_1"
       ],
       "drops": {},
       "moves": [
-        "1:watergun",
-        "1:confusion",
-        "1:bulkup",
-        "1:bulkup",
-        "1:tailwhip",
-        "1:growl",
-        "1:calmmind",
-        "1:calmmind",
-        "4:bubblebeam",
-        "4:psybeam",
-        "4:taunt",
-        "4:taunt",
-        "7:brine",
-        "7:futuresight",
-        "7:substitute",
-        "7:substitute",
-        "10:surf",
-        "10:psychic",
-        "10:rest",
-        "10:rest",
-        "13:chillingwater",
-        "13:psyshock",
-        "16:hydropump",
-        "16:psychoboost",
+        "1:leer",
+        "1:thunderwave",
+        "1:twister",
+        "1:wrap",
+        "15:dragontail",
+        "20:agility",
+        "25:slam",
+        "33:aquatail",
+        "39:dragonrush",
+        "46:safeguard",
+        "53:raindance",
+        "60:dragondance",
+        "67:outrage",
+        "74:hyperbeam",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanseadra.desc"
+        "cobblemon.species.norheimanseadra.desc"
       ],
-      "height": 11,
-      "weight": 0,
+      "height": 7,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
       "evolutions": [
         {
-          "id": "formanseadra_dradna",
-          "variant": "item_interact",
-          "result": "dradna",
+          "id": "norheimanseadra_queendra",
+          "variant": "level_up",
+          "result": "queendra",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dragon_scale",
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            },
+            {
+              "variant": "properties",
+              "target": "gender=female",
+              "contains": true
+            }
+          ],
           "permanent": true
         }
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 3.3125,
+        "height": 3.3125,
         "fixed": false
       }
     },
@@ -447,19 +443,20 @@
       }
     },
     {
-      "name": "Norheiman",
-      "primaryType": "dragon",
-      "catchRate": 65,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 154,
-      "experienceGroup": "medium_slow",
+      "name": "Forman",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.3169811320754717,
+      "preEvolution": "horsea form=forman",
+      "baseScale": 0.051562500000000004,
       "cannotDynamax": false,
       "abilities": [
-        "swiftswim",
-        "sniper"
+        "regenerator"
       ],
       "behaviour": {
         "resting": {
@@ -488,88 +485,92 @@
         }
       },
       "baseStats": {
-        "hp": 55,
-        "attack": 60,
-        "defence": 65,
-        "special_attack": 110,
-        "special_defence": 65,
-        "speed": 85
+        "hp": 81,
+        "attack": 28,
+        "defence": 62,
+        "special_attack": 69,
+        "special_defence": 97,
+        "speed": 35
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
         "defence": 0,
-        "special_attack": 2,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "dragon",
-        "water_1"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:leer",
-        "1:thunderwave",
-        "1:twister",
-        "1:wrap",
-        "15:dragontail",
-        "20:agility",
-        "25:slam",
-        "33:aquatail",
-        "39:dragonrush",
-        "46:safeguard",
-        "53:raindance",
-        "60:dragondance",
-        "67:outrage",
-        "74:hyperbeam",
+        "1:watergun",
+        "1:confusion",
+        "1:bulkup",
+        "1:bulkup",
+        "1:tailwhip",
+        "1:growl",
+        "1:calmmind",
+        "1:calmmind",
+        "4:bubblebeam",
+        "4:psybeam",
+        "4:taunt",
+        "4:taunt",
+        "7:brine",
+        "7:futuresight",
+        "7:substitute",
+        "7:substitute",
+        "10:surf",
+        "10:psychic",
+        "10:rest",
+        "10:rest",
+        "13:chillingwater",
+        "13:psyshock",
+        "16:hydropump",
+        "16:psychoboost",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanseadra.desc"
+        "cobblemon.species.formanseadra.desc"
       ],
-      "height": 7,
-      "weight": 165,
+      "height": 11,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
       "evolutions": [
         {
-          "id": "norheimanseadra_queendra",
-          "variant": "level_up",
-          "result": "queendra",
+          "id": "formanseadra_dradna",
+          "variant": "item_interact",
+          "result": "dradna",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "45"
-            },
-            {
-              "variant": "properties",
-              "target": "gender=female",
-              "contains": true
-            }
-          ],
+          "requirements": [],
+          "requiredContext": "cobblemon:dragon_scale",
           "permanent": true
         }
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.3125,
-        "height": 3.3125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "forman",
+    "norheiman",
     "epoch",
     "epochtwo",
-    "norheiman"
+    "forman"
   ]
 }

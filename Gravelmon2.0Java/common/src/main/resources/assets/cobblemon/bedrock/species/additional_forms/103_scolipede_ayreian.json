@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_93.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_93",
-      "texture": "cobblemon:textures/pokemon/generation5/ayreianscolipede.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianscolipede.png",
       "layers": [
         {
           "name": "emissive"

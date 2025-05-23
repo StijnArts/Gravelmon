@@ -2,6 +2,150 @@
   "target": "cobblemon:galvantula",
   "forms": [
     {
+      "name": "X",
+      "primaryType": "bug",
+      "secondaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 164,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "joltik form=x",
+      "baseScale": 1.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "compoundeyes",
+        "shielddust",
+        "h:refrigerate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 74,
+        "defence": 50,
+        "special_attack": 100,
+        "special_defence": 50,
+        "speed": 129
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 50
+          }
+        ]
+      },
+      "moves": [
+        "1:beatup",
+        "1:bugbite",
+        "1:furycutter",
+        "1:powdersnow",
+        "1:stickyweb",
+        "1:waterpulse",
+        "12:icywind",
+        "16:mist",
+        "20:frostbreath",
+        "24:agility",
+        "28:suckerpunch",
+        "32:slash",
+        "36:hail",
+        "39:freezedry",
+        "44:screech",
+        "50:bugbuzz",
+        "56:blizzard",
+        "tm:toxic",
+        "tm:hail",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:leechlife",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:gigaimpact",
+        "tm:frostbreath",
+        "tm:xscissor",
+        "tm:infestation",
+        "tm:swagger",
+        "tm:substitute",
+        "tutor:bounce",
+        "tutor:bugbite",
+        "tutor:icywind",
+        "tutor:secretpower",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:strugglebug",
+        "tm:terablast"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen5",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.galvantulax.desc"
+      ],
+      "height": 8,
+      "weight": 186,
+      "aspects": [
+        "x"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "bug",
       "secondaryType": "dark",
@@ -152,154 +296,10 @@
         "height": 4.375,
         "fixed": false
       }
-    },
-    {
-      "name": "X",
-      "primaryType": "bug",
-      "secondaryType": "ice",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 164,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "joltik form=x",
-      "baseScale": 1.0,
-      "cannotDynamax": false,
-      "abilities": [
-        "compoundeyes",
-        "shielddust",
-        "h:refrigerate"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 74,
-        "defence": 50,
-        "special_attack": 100,
-        "special_defence": 50,
-        "speed": 129
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 1
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {
-        "amount": 1,
-        "entries": [
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 50
-          }
-        ]
-      },
-      "moves": [
-        "1:beatup",
-        "1:bugbite",
-        "1:furycutter",
-        "1:powdersnow",
-        "1:stickyweb",
-        "1:waterpulse",
-        "12:icywind",
-        "16:mist",
-        "20:frostbreath",
-        "24:agility",
-        "28:suckerpunch",
-        "32:slash",
-        "36:hail",
-        "39:freezedry",
-        "44:screech",
-        "50:bugbuzz",
-        "56:blizzard",
-        "tm:toxic",
-        "tm:hail",
-        "tm:hiddenpower",
-        "tm:icebeam",
-        "tm:blizzard",
-        "tm:hyperbeam",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:raindance",
-        "tm:return",
-        "tm:doubleteam",
-        "tm:leechlife",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:thief",
-        "tm:round",
-        "tm:gigaimpact",
-        "tm:frostbreath",
-        "tm:xscissor",
-        "tm:infestation",
-        "tm:swagger",
-        "tm:substitute",
-        "tutor:bounce",
-        "tutor:bugbite",
-        "tutor:icywind",
-        "tutor:secretpower",
-        "tutor:signalbeam",
-        "tutor:snore",
-        "tutor:strugglebug",
-        "tm:terablast"
-      ],
-      "labels": [
-        "xenoverse",
-        "gen5",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.galvantulax.desc"
-      ],
-      "height": 8,
-      "weight": 186,
-      "aspects": [
-        "x"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 1.0,
-        "height": 1.0,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "x"
+    "x",
+    "epoch"
   ]
 }

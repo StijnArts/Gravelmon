@@ -4,28 +4,56 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "ivrisian_riolu-01",
-      "pokemon": "riolu ivrisian",
+      "id": "delta_riolu-01",
+      "pokemon": "riolu delta",
       "presets": [
-        "natural"
+        "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "12-30",
+      "weight": 13.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_desert"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mystic_riolu-01",
+      "pokemon": "riolu mystic",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-28",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:sandstone"
           ]
         }
       }
@@ -56,22 +84,22 @@
       }
     },
     {
-      "id": "delta_riolu-01",
-      "pokemon": "riolu delta",
+      "id": "ivrisian_riolu-01",
+      "pokemon": "riolu ivrisian",
       "presets": [
-        "desert_pyramid"
+        "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-30",
-      "weight": 13.5,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_desert"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -103,34 +131,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "mystic_riolu-01",
-      "pokemon": "riolu mystic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "12-28",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:sandstone"
           ]
         }
       }

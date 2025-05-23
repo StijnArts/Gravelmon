@@ -6,9 +6,9 @@
       "aspects": [
         "mega_fire"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega.png",
+      "model": "cobblemon:insurgence_steelix_mega_fire.geo",
+      "poser": "cobblemon:insurgence_steelix_mega_fire",
+      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega.png",
       "layers": [
         {
           "name": "emissive"
@@ -38,11 +38,12 @@
     },
     {
       "aspects": [
-        "mega_fire"
+        "mega_fire",
+        "shiny"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
-      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega.png",
+      "model": "cobblemon:insurgence_steelix_mega_fire.geo",
+      "poser": "cobblemon:insurgence_steelix_mega_fire",
+      "texture": "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/steelix_mega_shiny.png",
       "layers": [
         {
           "name": "emissive"

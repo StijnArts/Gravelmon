@@ -4,22 +4,97 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_smeargle-01",
-      "pokemon": "smeargle fabelian",
+      "id": "hubian_smeargle-01",
+      "pokemon": "smeargle hubian",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-25",
+      "weight": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cefiran_smeargle-01",
+      "pokemon": "smeargle cefiran",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-25",
+      "weight": 15.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "x_smeargle-01",
+      "pokemon": "smeargle x",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "30-43",
+      "weight": 0.15000000000000002,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_smeargle-01",
+      "pokemon": "smeargle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "21-43",
+      "weight": 2.25,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -85,94 +160,19 @@
       }
     },
     {
-      "id": "epoch_smeargle-01",
-      "pokemon": "smeargle epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "21-43",
-      "weight": 2.25,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "hubian_smeargle-01",
-      "pokemon": "smeargle hubian",
-      "presets": [
-        "village"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "11-25",
-      "weight": 15.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "x_smeargle-01",
-      "pokemon": "smeargle x",
+      "id": "fabelian_smeargle-01",
+      "pokemon": "smeargle fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "30-43",
-      "weight": 0.15000000000000002,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_smeargle-01",
-      "pokemon": "smeargle cefiran",
-      "presets": [
-        "village"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "11-25",
-      "weight": 15.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_cold"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -181,7 +181,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:white_wool"
+            "minecraft:black_wool"
           ]
         }
       }

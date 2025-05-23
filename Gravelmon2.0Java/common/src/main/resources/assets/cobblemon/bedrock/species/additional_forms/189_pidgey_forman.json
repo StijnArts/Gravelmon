@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation1/formanpidgey.png",
+      "texture": "cobblemon:textures/pokemon/form/formanpidgey.png",
       "layers": [
         {
           "name": "emissive"

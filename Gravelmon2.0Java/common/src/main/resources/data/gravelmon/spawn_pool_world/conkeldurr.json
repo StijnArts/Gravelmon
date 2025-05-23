@@ -55,6 +55,33 @@
       }
     },
     {
+      "id": "kaskadian_conkeldurr-01",
+      "pokemon": "conkeldurr kaskadian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-50",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_conkeldurr-01",
       "pokemon": "conkeldurr ayreian",
       "presets": [
@@ -77,33 +104,6 @@
           "#cobblemon:is_jungle",
           "#cobblemon:is_taiga"
         ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "kaskadian_conkeldurr-01",
-      "pokemon": "conkeldurr kaskadian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "41-50",
-      "weight": 0.09,
-      "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

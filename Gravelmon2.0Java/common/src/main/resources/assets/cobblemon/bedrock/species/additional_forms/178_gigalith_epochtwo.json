@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_92_by_83.geo",
       "poser": "cobblemon:cutout_gravelmon_92_by_83",
-      "texture": "cobblemon:textures/pokemon/generation5/epochgigalithone.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochgigalithone.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_42_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_42_by_37",
-      "texture": "cobblemon:textures/pokemon/generation1/nostanshellder.png",
+      "texture": "cobblemon:textures/pokemon/nosto/nostanshellder.png",
       "layers": [
         {
           "name": "emissive"

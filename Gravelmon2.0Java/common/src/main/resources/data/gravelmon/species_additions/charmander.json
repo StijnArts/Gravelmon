@@ -2,308 +2,6 @@
   "target": "cobblemon:charmander",
   "forms": [
     {
-      "name": "Forman",
-      "primaryType": "ice",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.0421875,
-      "cannotDynamax": false,
-      "abilities": [
-        "keeneye"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 56,
-        "attack": 19,
-        "defence": 43,
-        "special_attack": 47,
-        "special_defence": 66,
-        "speed": 23
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:powdersnow",
-        "1:growl",
-        "4:icywind",
-        "7:aurorabeam",
-        "10:freezedry",
-        "13:icebeam",
-        "16:blizzard",
-        "19:powdersnow",
-        "22:growl",
-        "25:icywind",
-        "28:icepunch",
-        "31:icespinner",
-        "34:iceshard",
-        "39:iciclecrash",
-        "tm:terablast"
-      ],
-      "labels": [
-        "form",
-        "not_modeled",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.formancharmander.desc"
-      ],
-      "height": 9,
-      "weight": 0,
-      "aspects": [
-        "forman"
-      ],
-      "evolutions": [
-        {
-          "id": "formancharmander_glameleon",
-          "variant": "level_up",
-          "result": "glameleon",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "14"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Epoch",
-      "primaryType": "ground",
-      "secondaryType": "dragon",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 62,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.32,
-      "cannotDynamax": false,
-      "abilities": [
-        "moxie",
-        "sandforce",
-        "h:poisonheal"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 55,
-        "attack": 50,
-        "defence": 47,
-        "special_attack": 65,
-        "special_defence": 42,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "32:stompingtantrum",
-        "4:smokescreen",
-        "1:leer",
-        "1:scratch",
-        "40:bonemerang",
-        "36:crunch",
-        "18:dragontail",
-        "21:bonerush",
-        "48:earthquake",
-        "28:scaryface",
-        "12:tarshot",
-        "tm:airslash",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:breakingswipe",
-        "tm:bulldoze",
-        "tm:burningjealousy",
-        "tm:charm",
-        "tm:coaching",
-        "tm:cosmicpower",
-        "tm:crunch",
-        "tm:curse",
-        "tm:darkpulse",
-        "tm:defog",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:drainpunch",
-        "tm:dualwingbeat",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:falseswipe",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:flamethrower",
-        "tm:flareblitz",
-        "tm:focusblast",
-        "tm:geomancy",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hurricane",
-        "tm:incinerate",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:meteormash",
-        "tm:mudslide",
-        "tm:outrage",
-        "tm:playrough",
-        "tm:powergem",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:quicksand",
-        "tm:rest",
-        "tm:return",
-        "tm:rockblast",
-        "tm:rockslide",
-        "tm:rocktomb",
-        "tm:sandstorm",
-        "tm:sandtomb",
-        "tm:scaleshot",
-        "tm:scorchingsands",
-        "tm:sleeptalk",
-        "tm:spikes",
-        "tm:stealthrock",
-        "tm:steelroller",
-        "tm:steelwing",
-        "tm:stoneedge",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:superpower",
-        "tm:swift",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:wildcharge",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:rockthrow",
-        "egg:smackdown",
-        "egg:bite",
-        "egg:metalclaw",
-        "egg:dragonrush",
-        "egg:rockslide",
-        "egg:gunkshot",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochcharmander.desc"
-      ],
-      "height": 6,
-      "weight": 85,
-      "aspects": [
-        "epoch"
-      ],
-      "evolutions": [
-        {
-          "id": "epochcharmander_charmeleon_epoch",
-          "variant": "level_up",
-          "result": "charmeleon epoch",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "16"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.8125,
-        "height": 2.8125,
-        "fixed": false
-      }
-    },
-    {
       "name": "Egho",
       "primaryType": "fire",
       "secondaryType": "dragon",
@@ -685,6 +383,485 @@
       }
     },
     {
+      "name": "Epoch",
+      "primaryType": "ground",
+      "secondaryType": "dragon",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32,
+      "cannotDynamax": false,
+      "abilities": [
+        "moxie",
+        "sandforce",
+        "h:poisonheal"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 50,
+        "defence": 47,
+        "special_attack": 65,
+        "special_defence": 42,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "32:stompingtantrum",
+        "4:smokescreen",
+        "1:leer",
+        "1:scratch",
+        "40:bonemerang",
+        "36:crunch",
+        "18:dragontail",
+        "21:bonerush",
+        "48:earthquake",
+        "28:scaryface",
+        "12:tarshot",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulldoze",
+        "tm:burningjealousy",
+        "tm:charm",
+        "tm:coaching",
+        "tm:cosmicpower",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:drainpunch",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:falseswipe",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:geomancy",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:incinerate",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:meteormash",
+        "tm:mudslide",
+        "tm:outrage",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:quicksand",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:sandtomb",
+        "tm:scaleshot",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:steelwing",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:rockthrow",
+        "egg:smackdown",
+        "egg:bite",
+        "egg:metalclaw",
+        "egg:dragonrush",
+        "egg:rockslide",
+        "egg:gunkshot",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharmander.desc"
+      ],
+      "height": 6,
+      "weight": 85,
+      "aspects": [
+        "epoch"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcharmander_charmeleon_epoch",
+          "variant": "level_up",
+          "result": "charmeleon epoch",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.8125,
+        "height": 2.8125,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Epochtwo",
+      "primaryType": "bug",
+      "catchRate": 90,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 62,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3428571428571428,
+      "cannotDynamax": false,
+      "abilities": [
+        "tintedlens",
+        "compoundeyes",
+        "h:noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 55,
+        "defence": 47,
+        "special_attack": 55,
+        "special_defence": 37,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "54:gunkshot",
+        "1:leer",
+        "36:poisonjab",
+        "24:uturn",
+        "36:toxicthread",
+        "15:fellstinger",
+        "21:scaleshot",
+        "27:stickyweb",
+        "30:leechlife",
+        "57:megahorn",
+        "12:breakingswipe",
+        "9:furycutter",
+        "39:dragonclaw",
+        "48:dragonrush",
+        "6:stringshot",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:crunch",
+        "tm:defog",
+        "tm:dracometeor",
+        "tm:dragonbreath",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:hivemind",
+        "tm:hurricane",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:outrage",
+        "tm:pinmissile",
+        "tm:playrough",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:scaleshot",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:strugglebug",
+        "tm:sunnyday",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uturn",
+        "tm:weatherball",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "egg:pinmissile",
+        "egg:poisontail",
+        "egg:dualchop",
+        "egg:lunge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochcharmanderone.desc"
+      ],
+      "height": 6,
+      "weight": 85,
+      "aspects": [
+        "epochtwo"
+      ],
+      "evolutions": [
+        {
+          "id": "epochcharmanderone_epochtwocharmeleon",
+          "variant": "level_up",
+          "result": "epochtwocharmeleon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "16"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Forman",
+      "primaryType": "ice",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.0421875,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 56,
+        "attack": 19,
+        "defence": 43,
+        "special_attack": 47,
+        "special_defence": 66,
+        "speed": 23
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:powdersnow",
+        "1:growl",
+        "4:icywind",
+        "7:aurorabeam",
+        "10:freezedry",
+        "13:icebeam",
+        "16:blizzard",
+        "19:powdersnow",
+        "22:growl",
+        "25:icywind",
+        "28:icepunch",
+        "31:icespinner",
+        "34:iceshard",
+        "39:iciclecrash",
+        "tm:terablast"
+      ],
+      "labels": [
+        "form",
+        "not_modeled",
+        "instagram",
+        "instagram"
+      ],
+      "pokedex": [
+        "cobblemon.species.formancharmander.desc"
+      ],
+      "height": 9,
+      "weight": 0,
+      "aspects": [
+        "forman"
+      ],
+      "evolutions": [
+        {
+          "id": "formancharmander_glameleon",
+          "variant": "level_up",
+          "result": "glameleon",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "14"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 32.0,
+        "height": 32.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Ayreian",
       "primaryType": "fairy",
       "secondaryType": "rock",
@@ -874,190 +1051,14 @@
         "height": 2.875,
         "fixed": false
       }
-    },
-    {
-      "name": "Epochtwo",
-      "primaryType": "bug",
-      "catchRate": 90,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 62,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.3428571428571428,
-      "cannotDynamax": false,
-      "abilities": [
-        "tintedlens",
-        "compoundeyes",
-        "h:noguard"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 65,
-        "attack": 55,
-        "defence": 47,
-        "special_attack": 55,
-        "special_defence": 37,
-        "speed": 50
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 1,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "54:gunkshot",
-        "1:leer",
-        "36:poisonjab",
-        "24:uturn",
-        "36:toxicthread",
-        "15:fellstinger",
-        "21:scaleshot",
-        "27:stickyweb",
-        "30:leechlife",
-        "57:megahorn",
-        "12:breakingswipe",
-        "9:furycutter",
-        "39:dragonclaw",
-        "48:dragonrush",
-        "6:stringshot",
-        "tm:acrobatics",
-        "tm:airslash",
-        "tm:attract",
-        "tm:bodypress",
-        "tm:bodyslam",
-        "tm:bounce",
-        "tm:charm",
-        "tm:crunch",
-        "tm:defog",
-        "tm:dracometeor",
-        "tm:dragonbreath",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:dualwingbeat",
-        "tm:earthpower",
-        "tm:earthquake",
-        "tm:focusblast",
-        "tm:furycutter",
-        "tm:geomancy",
-        "tm:gunkshot",
-        "tm:haze",
-        "tm:hiddenpower",
-        "tm:hivemind",
-        "tm:hurricane",
-        "tm:ironhead",
-        "tm:knockoff",
-        "tm:lashout",
-        "tm:leechlife",
-        "tm:nastyplot",
-        "tm:outrage",
-        "tm:pinmissile",
-        "tm:playrough",
-        "tm:poisonfang",
-        "tm:poisonjab",
-        "tm:protect",
-        "tm:psychicfangs",
-        "tm:rest",
-        "tm:return",
-        "tm:scaleshot",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:sludgewave",
-        "tm:snarl",
-        "tm:strugglebug",
-        "tm:sunnyday",
-        "tm:swordsdance",
-        "tm:tailwind",
-        "tm:taunt",
-        "tm:terrainpulse",
-        "tm:toxic",
-        "tm:toxicspikes",
-        "tm:uturn",
-        "tm:weatherball",
-        "tm:wish",
-        "tm:workup",
-        "tm:zenheadbutt",
-        "egg:pinmissile",
-        "egg:poisontail",
-        "egg:dualchop",
-        "egg:lunge",
-        "tm:terablast"
-      ],
-      "labels": [
-        "soulstones",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.epochcharmanderone.desc"
-      ],
-      "height": 6,
-      "weight": 85,
-      "aspects": [
-        "epochtwo"
-      ],
-      "evolutions": [
-        {
-          "id": "epochcharmanderone_epochtwocharmeleon",
-          "variant": "level_up",
-          "result": "epochtwocharmeleon",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "16"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 2.625,
-        "height": 2.625,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "forman",
-    "epoch",
     "egho",
     "delta",
-    "ayreian",
-    "epochtwo"
+    "epoch",
+    "epochtwo",
+    "forman",
+    "ayreian"
   ]
 }

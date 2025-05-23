@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation3_carvanhax.geo",
-      "poser": "cobblemon:generation3_carvanhax",
-      "texture": "cobblemon:textures/pokemon/generation3/carvanhax/carvanhax.png",
+      "model": "cobblemon:xenoverse_carvanhax.geo",
+      "poser": "cobblemon:xenoverse_carvanhax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/carvanhax/carvanhax.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation3_carvanhax.geo",
-      "poser": "cobblemon:generation3_carvanhax",
-      "texture": "cobblemon:textures/pokemon/generation3/carvanhax/carvanhax_shiny.png",
+      "model": "cobblemon:xenoverse_carvanhax.geo",
+      "poser": "cobblemon:xenoverse_carvanhax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/carvanhax/carvanhax_shiny.png",
       "layers": [
         {
           "name": "emissive"

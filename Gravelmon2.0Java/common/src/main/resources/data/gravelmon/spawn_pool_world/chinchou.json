@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "delta_chinchou-01",
+      "pokemon": "chinchou delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_desert",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "raianian_chinchou-01",
       "pokemon": "chinchou raianian",
       "presets": [
@@ -49,6 +75,30 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_chinchou-01",
+      "pokemon": "chinchou epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "8-27",
+      "weight": 6.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:glowstone"
           ]
         }
       }
@@ -105,6 +155,32 @@
       }
     },
     {
+      "id": "hoennian_chinchou-01",
+      "pokemon": "chinchou hoennian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "9-31",
+      "weight": 13.5,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "maxY": 48
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "mastenian_chinchou-01",
       "pokemon": "chinchou mastenian",
       "presets": [
@@ -128,82 +204,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_chinchou-01",
-      "pokemon": "chinchou epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "8-27",
-      "weight": 6.0,
-      "condition": {
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:glowstone"
-          ]
-        }
-      }
-    },
-    {
-      "id": "delta_chinchou-01",
-      "pokemon": "chinchou delta",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 12.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:nether/is_desert",
-          "#cobblemon:nether/is_wasteland"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "hoennian_chinchou-01",
-      "pokemon": "chinchou hoennian",
-      "presets": [
-        "water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "common",
-      "level": "9-31",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ],
-        "maxY": 48
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
           ]
         }
       }

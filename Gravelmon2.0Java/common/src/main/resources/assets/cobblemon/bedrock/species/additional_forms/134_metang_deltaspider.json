@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_146_by_104.geo",
       "poser": "cobblemon:cutout_gravelmon_146_by_104",
-      "texture": "cobblemon:textures/pokemon/generation3/deltaspidermetang.png",
+      "texture": "cobblemon:textures/pokemon/insurgence/deltaspidermetang.png",
       "layers": [
         {
           "name": "emissive"

@@ -2,128 +2,6 @@
   "target": "cobblemon:bisharp",
   "forms": [
     {
-      "name": "Palmian",
-      "primaryType": "steel",
-      "secondaryType": "fire",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "pawniard form=palmian",
-      "baseScale": 0.0796875,
-      "cannotDynamax": false,
-      "abilities": [
-        "flashfire",
-        "defiant"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 54,
-        "attack": 99,
-        "defence": 58,
-        "special_attack": 29,
-        "special_defence": 58,
-        "speed": 84
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:metalclaw",
-        "1:ember",
-        "1:bulletpunch",
-        "1:quickattack",
-        "1:screech",
-        "1:growl",
-        "1:quickattack",
-        "1:swordsdance",
-        "4:irontail",
-        "4:quickattack",
-        "4:swordsdance",
-        "7:smartstrike",
-        "7:flamecharge",
-        "10:ironhead",
-        "10:firepunch",
-        "13:meteormash",
-        "13:willowisp",
-        "16:flareblitz",
-        "tm:terablast"
-      ],
-      "labels": [
-        "raian",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
-      ],
-      "pokedex": [
-        "cobblemon.species.palmianbisharp.desc"
-      ],
-      "height": 17,
-      "weight": 0,
-      "aspects": [
-        "palmian"
-      ],
-      "evolutions": [
-        {
-          "id": "palmianbisharp_kintan",
-          "variant": "level_up",
-          "result": "Kintan",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "65"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
-        "fixed": false
-      }
-    },
-    {
       "name": "Delta",
       "primaryType": "flying",
       "secondaryType": "fighting",
@@ -447,20 +325,21 @@
       }
     },
     {
-      "name": "Hoennian",
-      "primaryType": "fairy",
-      "secondaryType": "steel",
+      "name": "Palmian",
+      "primaryType": "steel",
+      "secondaryType": "fire",
       "catchRate": 45,
       "maleRatio": 0.5,
-      "baseExperienceYield": 172,
+      "baseExperienceYield": 60,
       "experienceGroup": "medium_fast",
-      "eggCycles": 51,
+      "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pawniard form=hoennian",
-      "baseScale": 0.675,
+      "preEvolution": "pawniard form=palmian",
+      "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
-        "battlearmor"
+        "flashfire",
+        "defiant"
       ],
       "behaviour": {
         "resting": {
@@ -489,73 +368,82 @@
         }
       },
       "baseStats": {
-        "hp": 85,
-        "attack": 90,
-        "defence": 115,
-        "special_attack": 40,
-        "special_defence": 85,
-        "speed": 75
+        "hp": 54,
+        "attack": 99,
+        "defence": 58,
+        "special_attack": 29,
+        "special_defence": 58,
+        "speed": 84
       },
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 2,
+        "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
       "eggGroups": [
-        "human_like"
+        "field"
       ],
       "drops": {},
       "moves": [
-        "1:slash",
-        "1:batonpass",
-        "50:knightsvow",
-        "tm:toxic",
-        "tm:pursuit",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:hyperbeam",
-        "tm:lightscreen",
-        "tm:protect",
-        "tm:earthquake",
-        "tm:return",
-        "tm:brickbreak",
-        "tm:shimmershot",
-        "tm:reflect",
-        "tm:sandstorm",
-        "tm:gigaimpact",
-        "tm:facade",
-        "tm:secretpower",
-        "tm:rest",
-        "tm:attract",
-        "tm:xscissor",
-        "tm:cut",
-        "tm:strength",
-        "tm:rocksmash",
-        "egg:glare",
+        "1:metalclaw",
+        "1:ember",
+        "1:bulletpunch",
+        "1:quickattack",
+        "1:screech",
+        "1:growl",
+        "1:quickattack",
+        "1:swordsdance",
+        "4:irontail",
+        "4:quickattack",
+        "4:swordsdance",
+        "7:smartstrike",
+        "7:flamecharge",
+        "10:ironhead",
+        "10:firepunch",
+        "13:meteormash",
+        "13:willowisp",
+        "16:flareblitz",
         "tm:terablast"
       ],
       "labels": [
-        "blazing_emerald",
-        "gen5",
         "not_modeled",
-        "fakemonevolution"
+        "fakemon",
+        "fakemonevolution",
+        "palmia",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.hoennianbisharp.desc"
+        "cobblemon.species.palmianbisharp.desc"
       ],
-      "height": 18,
-      "weight": 780,
+      "height": 17,
+      "weight": 0,
       "aspects": [
-        "hoennian"
+        "palmian"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "palmianbisharp_kintan",
+          "variant": "level_up",
+          "result": "Kintan",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "65"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.0,
-        "height": 4.0,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     },
@@ -717,6 +605,119 @@
       }
     },
     {
+      "name": "Hoennian",
+      "primaryType": "fairy",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 51,
+      "baseFriendship": 70,
+      "preEvolution": "pawniard form=hoennian",
+      "baseScale": 0.675,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 90,
+        "defence": 115,
+        "special_attack": 40,
+        "special_defence": 85,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:slash",
+        "1:batonpass",
+        "50:knightsvow",
+        "tm:toxic",
+        "tm:pursuit",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:earthquake",
+        "tm:return",
+        "tm:brickbreak",
+        "tm:shimmershot",
+        "tm:reflect",
+        "tm:sandstorm",
+        "tm:gigaimpact",
+        "tm:facade",
+        "tm:secretpower",
+        "tm:rest",
+        "tm:attract",
+        "tm:xscissor",
+        "tm:cut",
+        "tm:strength",
+        "tm:rocksmash",
+        "egg:glare",
+        "tm:terablast"
+      ],
+      "labels": [
+        "blazing_emerald",
+        "gen5",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.hoennianbisharp.desc"
+      ],
+      "height": 18,
+      "weight": 780,
+      "aspects": [
+        "hoennian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.0,
+        "height": 4.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "dark",
       "secondaryType": "steel",
@@ -772,11 +773,11 @@
     }
   ],
   "features": [
-    "palmian",
     "delta",
     "x",
-    "hoennian",
+    "palmian",
     "epoch",
+    "hoennian",
     "mega",
     "delta_mega"
   ],

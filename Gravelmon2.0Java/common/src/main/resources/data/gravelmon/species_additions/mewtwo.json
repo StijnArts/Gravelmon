@@ -2,6 +2,110 @@
   "target": "cobblemon:mewtwo",
   "forms": [
     {
+      "name": "Shadow",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.37058823529411766,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 106,
+        "attack": 110,
+        "defence": 90,
+        "special_attack": 154,
+        "special_defence": 90,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:nightslash",
+        "1:confusion",
+        "1:disable",
+        "1:safeguard",
+        "8:swift",
+        "15:futuresight",
+        "22:psychup",
+        "29:miracleeye",
+        "36:psychocut",
+        "43:powerswap",
+        "43:guardswap",
+        "50:recover",
+        "57:psychic",
+        "64:barrier",
+        "70:aurasphere",
+        "79:amnesia",
+        "86:mist",
+        "93:mefirst",
+        "100:psystrike",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen1",
+        "insurgence",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.shadowmewtwo.desc"
+      ],
+      "height": 21,
+      "weight": 1220,
+      "aspects": [
+        "shadow"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 8.5,
+        "height": 8.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "X",
       "primaryType": "psychic",
       "catchRate": 12,
@@ -210,110 +314,6 @@
       }
     },
     {
-      "name": "Shadow",
-      "primaryType": "psychic",
-      "secondaryType": "dark",
-      "catchRate": 3,
-      "maleRatio": -1.0,
-      "baseExperienceYield": 64,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.37058823529411766,
-      "cannotDynamax": false,
-      "abilities": [
-        "intimidate"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 106,
-        "attack": 110,
-        "defence": 90,
-        "special_attack": 154,
-        "special_defence": 90,
-        "speed": 130
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 3,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:nightslash",
-        "1:confusion",
-        "1:disable",
-        "1:safeguard",
-        "8:swift",
-        "15:futuresight",
-        "22:psychup",
-        "29:miracleeye",
-        "36:psychocut",
-        "43:powerswap",
-        "43:guardswap",
-        "50:recover",
-        "57:psychic",
-        "64:barrier",
-        "70:aurasphere",
-        "79:amnesia",
-        "86:mist",
-        "93:mefirst",
-        "100:psystrike",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen1",
-        "insurgence",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.shadowmewtwo.desc"
-      ],
-      "height": 21,
-      "weight": 1220,
-      "aspects": [
-        "shadow"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 8.5,
-        "height": 8.5,
-        "fixed": false
-      }
-    },
-    {
       "name": "shadow_mega",
       "primaryType": "psychic",
       "secondaryType": "fighting",
@@ -379,8 +379,8 @@
     }
   ],
   "features": [
-    "x",
     "shadow",
+    "x",
     "shadow_mega",
     "armored"
   ],

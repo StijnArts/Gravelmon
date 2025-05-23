@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_94_by_91.geo",
       "poser": "cobblemon:cutout_gravelmon_94_by_91",
-      "texture": "cobblemon:textures/pokemon/generation8/epocheternatus.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epocheternatus.png",
       "layers": [
         {
           "name": "emissive"

@@ -4,6 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "cefiran_lilligant-01",
+      "pokemon": "lilligant cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "27-48",
+      "weight": 1.35,
+      "condition": {
+        "biomes": [
+          "minecraft:cherry_grove"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "delta_water_lilligant-01",
       "pokemon": "lilligant delta_water",
       "presets": [
@@ -57,31 +82,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_lilligant-01",
-      "pokemon": "lilligant cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "27-48",
-      "weight": 1.35,
-      "condition": {
-        "biomes": [
-          "minecraft:cherry_grove"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
           ]
         }
       }

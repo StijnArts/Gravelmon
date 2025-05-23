@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crustle-delta_berry",
+  "speciesId": "cobblemon:crustle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Deltaberry",
+      "unlockForms": [
+        "Deltaberry"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation1_ponytax.geo",
-      "poser": "cobblemon:generation1_ponytax",
-      "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax.png",
+      "model": "cobblemon:xenoverse_ponytax.geo",
+      "poser": "cobblemon:xenoverse_ponytax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/ponytax/ponytax.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation1_ponytax.geo",
-      "poser": "cobblemon:generation1_ponytax",
-      "texture": "cobblemon:textures/pokemon/generation1/ponytax/ponytax_shiny.png",
+      "model": "cobblemon:xenoverse_ponytax.geo",
+      "poser": "cobblemon:xenoverse_ponytax",
+      "texture": "cobblemon:textures/pokemon/xenoverse/ponytax/ponytax_shiny.png",
       "layers": [
         {
           "name": "emissive"

@@ -65,6 +65,31 @@
       }
     },
     {
+      "id": "epoch_wartortle-01",
+      "pokemon": "wartortle epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-40",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_wartortle-01",
       "pokemon": "wartortle ayreian",
       "presets": [
@@ -87,31 +112,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_wartortle-01",
-      "pokemon": "wartortle epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "16-40",
-      "weight": 3.6,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_deep_dark"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:cauldron"
           ]
         }
       }

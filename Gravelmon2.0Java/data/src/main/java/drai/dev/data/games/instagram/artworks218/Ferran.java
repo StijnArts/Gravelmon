@@ -5,6 +5,7 @@ import drai.dev.data.pokemon.arom.*;
 import drai.dev.data.pokemon.elb.*;
 import drai.dev.data.pokemon.ferran.*;
 import drai.dev.data.pokemon.ferran.Romarlord;
+import drai.dev.data.pokemon.ferran.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Ferran extends drai.dev.data.games.registry.Game {
@@ -23,6 +24,7 @@ public class Ferran extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+
         addNewPokemon(new Chamaerol());
         addNewPokemon(new Chamaelik());
         addNewPokemon(new Chamaelec());
@@ -37,7 +39,8 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Staphug());
         addNewPokemon(new Staphoon());
         addNewPokemon(new Starmortle());
-        addPokedexPokemon("barboach-ferranian, whiscash-ferranian");
+        addNewPokemon(new FerranianBarboach("", Aspect.FERRANIAN).fishingSpawnFromExisting());
+        addNewPokemon(new FerranianWhiscash("", Aspect.FERRANIAN));
         addNewPokemon(new Whislong());
         addNewPokemon(new Denhoru());
         addNewPokemon(new Voodoll());
@@ -46,14 +49,15 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Thoraco());
         addNewPokemon(new Literay());
         addNewPokemon(new Herocray());
-        addPokedexPokemon("patrat-ferranian, watchog-ferranian");
+        addNewPokemon(new FerranianPatrat("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianWatchog("", Aspect.FERRANIAN));
         addNewPokemon(new Peanou());
         addNewPokemon(new Peaster());
         addNewPokemon(new Peamash());
         addNewPokemon(new Firy());
         addNewPokemon(new Flaritch());
         addNewPokemon(new Flapurgess());
-        addPokedexPokemon("applin-ferranian");
+        addNewPokemon(new FerranianApplin("", Aspect.FERRANIAN));
         addNewPokemon(new Jackozard());
         addNewPokemon(new Yumkinpie());
         addNewPokemon(new Froby());
@@ -69,7 +73,7 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cacteat());
         addNewPokemon(new Cacturst());
         addNewPokemon(new Labee());
-        addPokedexPokemon("lapras-ferranian");
+        addNewPokemon(new FerranianLapras("", Aspect.FERRANIAN));
         addNewPokemon(new Flouzy());
         addNewPokemon(new Bammerjet());
         addNewPokemon(new Clamoon().fishingSpawnFromExisting());
@@ -81,7 +85,9 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Surpeg());
         addNewPokemon(new Bloomeg());
         addNewPokemon(new Hourghas());
-        addPokedexPokemon("bagon-ferranian, shelgon-ferranian, salamence-ferranian");
+        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN));
         addNewPokemon(new Scorpait());
         addNewPokemon(new Scorpunter());
         addNewPokemon(new Hummagic());
@@ -106,13 +112,14 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Machaunt());
         addNewPokemon(new Pillarble());
         addNewPokemon(new Carvarble());
-        addPokedexPokemon("wailmer, wailord, wailord-ferranian");
+        addPokedexPokemon("wailmer, wailord");
+        addNewPokemon(new FerranianWailord("", Aspect.FERRANIAN));
         addNewPokemon(new Gargorble());
         addNewPokemon(new Cunooty());
         addNewPokemon(new Cunignite());
         addNewPokemon(new Jelliamp());
         addNewPokemon(new Jelliora());
-        addPokedexPokemon("yamask-ferranian");
+        addNewPokemon(new FerranianYamask("", Aspect.FERRANIAN));
         addNewPokemon(new Chematrigus());
         addNewPokemon(new Gerilliki());
         addNewPokemon(new Beavel());
@@ -122,10 +129,10 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Snoraktor());
         addNewPokemon(new Mazzruggle());
         addNewPokemon(new Mazzogre());
-        addPokedexPokemon("slakoth-ferranian, vigoroth-ferranian");
+        addNewPokemon(new FerranianSlakoth("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianVigoroth("", Aspect.FERRANIAN));
         addNewPokemon(new Vigoking());
         addNewPokemon(new ElbianVigoking("", Aspect.ELBIAN));
-        removePokedexPokemon("vigoking-elbian");
         addNewPokemon(new Savawl());
         addNewPokemon(new Savannage());
         addNewPokemon(new Plasmind());
@@ -135,14 +142,26 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mantunfu());
         addNewPokemon(new Glorm());
         addNewPokemon(new Glowero());
-        addPokedexPokemon("virizion-ferranian, terrakion-ferranian, cobalion-ferranian, bounsweet-ferranian");
+        addNewPokemon(new FerranianVirizion("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianTerrakion("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianCobalion("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianBounsweet("", Aspect.FERRANIAN));
         addNewPokemon(new Meleenee());
-        removePokedexPokemon("meowth-ferranian");
+        addNewPokemon(new FerranianMeowth("", Aspect.FERRANIAN));
         addNewPokemon(new Empeero());
         addNewPokemon(new Perrinnip());
         addNewPokemon(new Viceasus());
         addNewPokemon(new Virtryph());
         addNewPokemon(new Inuniferus());
+
+        addNewPokemon(new FerranianMachop("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianMachoke("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianMachamp("", Aspect.FERRANIAN));
+
+
+
+
+        addNewPokemon(new FerranianSinistea("", Aspect.FERRANIAN));
     }
 
 }

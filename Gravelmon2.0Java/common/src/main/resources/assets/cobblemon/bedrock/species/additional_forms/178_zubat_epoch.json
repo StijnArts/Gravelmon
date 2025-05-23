@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_57_by_46.geo",
       "poser": "cobblemon:cutout_gravelmon_57_by_46",
-      "texture": "cobblemon:textures/pokemon/generation1/epochzubat.png",
+      "texture": "cobblemon:textures/pokemon/soulstones/epochzubat.png",
       "layers": [
         {
           "name": "emissive"

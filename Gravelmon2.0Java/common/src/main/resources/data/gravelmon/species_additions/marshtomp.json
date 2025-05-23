@@ -2,6 +2,125 @@
   "target": "cobblemon:marshtomp",
   "forms": [
     {
+      "name": "Mystic",
+      "primaryType": "fighting",
+      "secondaryType": "dragon",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "mudkip form=mystic",
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "immunity",
+        "h:thickfat"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 85,
+        "defence": 70,
+        "special_attack": 50,
+        "special_defence": 70,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:tackle",
+        "4:armthrust",
+        "8:twister",
+        "12:circlethrow",
+        "16:lowsweep",
+        "20:workup",
+        "24:slash",
+        "28:vitalthrow",
+        "33:scaleshot",
+        "36:bodyslam",
+        "40:dragondance",
+        "44:dragontail",
+        "44:closecombat",
+        "48:muddywater",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen3",
+        "azure",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.mysticmarshtomp.desc"
+      ],
+      "height": 7,
+      "weight": 280,
+      "aspects": [
+        "mystic"
+      ],
+      "evolutions": [
+        {
+          "id": "mysticmarshtomp_swampert_mystic",
+          "variant": "level_up",
+          "result": "swampert mystic",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "36"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "cosmic",
       "secondaryType": "fire",
@@ -516,131 +635,12 @@
         "height": 2.75,
         "fixed": false
       }
-    },
-    {
-      "name": "Mystic",
-      "primaryType": "fighting",
-      "secondaryType": "dragon",
-      "catchRate": 45,
-      "maleRatio": 0.875,
-      "baseExperienceYield": 154,
-      "experienceGroup": "medium_slow",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "mudkip form=mystic",
-      "baseScale": 0.175,
-      "cannotDynamax": false,
-      "abilities": [
-        "immunity",
-        "h:thickfat"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 70,
-        "attack": 85,
-        "defence": 70,
-        "special_attack": 50,
-        "special_defence": 70,
-        "speed": 60
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "water_1",
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leer",
-        "1:tackle",
-        "4:armthrust",
-        "8:twister",
-        "12:circlethrow",
-        "16:lowsweep",
-        "20:workup",
-        "24:slash",
-        "28:vitalthrow",
-        "33:scaleshot",
-        "36:bodyslam",
-        "40:dragondance",
-        "44:dragontail",
-        "44:closecombat",
-        "48:muddywater",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen3",
-        "azure",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.mysticmarshtomp.desc"
-      ],
-      "height": 7,
-      "weight": 280,
-      "aspects": [
-        "mystic"
-      ],
-      "evolutions": [
-        {
-          "id": "mysticmarshtomp_swampert_mystic",
-          "variant": "level_up",
-          "result": "swampert mystic",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "36"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "mystic",
     "epoch",
     "epochtwo",
-    "ayreian",
-    "mystic"
+    "ayreian"
   ]
 }

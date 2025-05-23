@@ -6,9 +6,9 @@
       "aspects": [
         "x"
       ],
-      "model": "cobblemon:generation1_gengarx.geo",
-      "poser": "cobblemon:generation1_gengarx",
-      "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx.png",
+      "model": "cobblemon:xenoverse_gengarx.geo",
+      "poser": "cobblemon:xenoverse_gengarx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/gengarx/gengarx.png",
       "layers": [
         {
           "name": "emissive"
@@ -41,9 +41,9 @@
         "x",
         "shiny"
       ],
-      "model": "cobblemon:generation1_gengarx.geo",
-      "poser": "cobblemon:generation1_gengarx",
-      "texture": "cobblemon:textures/pokemon/generation1/gengarx/gengarx_shiny.png",
+      "model": "cobblemon:xenoverse_gengarx.geo",
+      "poser": "cobblemon:xenoverse_gengarx",
+      "texture": "cobblemon:textures/pokemon/xenoverse/gengarx/gengarx_shiny.png",
       "layers": [
         {
           "name": "emissive"

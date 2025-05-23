@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_76_by_77.geo",
       "poser": "cobblemon:cutout_gravelmon_76_by_77",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreianpyroar.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpyroar.png",
       "layers": [
         {
           "name": "emissive"
@@ -43,7 +43,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_86_by_79.geo",
       "poser": "cobblemon:cutout_gravelmon_86_by_79",
-      "texture": "cobblemon:textures/pokemon/generation6/ayreianpyroar_female.png",
+      "texture": "cobblemon:textures/pokemon/vanguard/ayreianpyroar_female.png",
       "layers": [
         {
           "name": "emissive"

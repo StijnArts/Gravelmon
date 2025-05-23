@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_35_by_37.geo",
       "poser": "cobblemon:cutout_gravelmon_35_by_37",
-      "texture": "cobblemon:textures/pokemon/generation3/avalossianduskull.png",
+      "texture": "cobblemon:textures/pokemon/fliga/avalossianduskull.png",
       "layers": [
         {
           "name": "emissive"

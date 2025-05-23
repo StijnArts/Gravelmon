@@ -4,22 +4,45 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_oddish-01",
-      "pokemon": "oddish fabelian",
+      "id": "egho_oddish-01",
+      "pokemon": "oddish egho",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_oddish-01",
+      "pokemon": "oddish epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "6-26",
+      "weight": 6.75,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -58,51 +81,28 @@
       }
     },
     {
-      "id": "epoch_oddish-01",
-      "pokemon": "oddish epoch",
+      "id": "fabelian_oddish-01",
+      "pokemon": "oddish fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-26",
-      "weight": 6.75,
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_oddish-01",
-      "pokemon": "oddish egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }

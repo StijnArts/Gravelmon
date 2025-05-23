@@ -4,19 +4,76 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_swablu-01",
-      "pokemon": "swablu fabelian",
+      "id": "egho_swablu-01",
+      "pokemon": "swablu egho",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "3-22",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_snowy"
+        ],
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:white_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cefiran_swablu-01",
+      "pokemon": "swablu cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "16-34",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_sky",
+          "#cobblemon:is_mountain"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "isThundering": true
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "varitasian_swablu-01",
+      "pokemon": "swablu varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "16-34",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +82,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:redstone_block"
+            "minecraft:moss_block"
           ]
         }
       }
@@ -85,61 +142,6 @@
       }
     },
     {
-      "id": "varitasian_swablu-01",
-      "pokemon": "swablu varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "16-34",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_grassland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "egho_swablu-01",
-      "pokemon": "swablu egho",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "timeRange": "day",
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:white_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "ayreian_swablu-01",
       "pokemon": "swablu ayreian",
       "presets": [
@@ -170,24 +172,22 @@
       }
     },
     {
-      "id": "cefiran_swablu-01",
-      "pokemon": "swablu cefiran",
+      "id": "fabelian_swablu-01",
+      "pokemon": "swablu fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "16-34",
-      "weight": 7.5,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sky",
-          "#cobblemon:is_mountain"
+          "minecraft:the_void"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "isThundering": true
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

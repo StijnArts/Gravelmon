@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_35_by_51.geo",
       "poser": "cobblemon:cutout_gravelmon_35_by_51",
-      "texture": "cobblemon:textures/pokemon/generation1/nodorrankoffing.png",
+      "texture": "cobblemon:textures/pokemon/nodorro/nodorrankoffing.png",
       "layers": [
         {
           "name": "emissive"

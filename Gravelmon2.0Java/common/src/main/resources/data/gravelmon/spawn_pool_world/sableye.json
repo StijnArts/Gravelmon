@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "fabelian_sableye-01",
-      "pokemon": "sableye fabelian",
+      "id": "lagoonan_sableye-01",
+      "pokemon": "sableye lagoonan",
       "presets": [
-        "natural"
+        "shipwreck"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "13-37",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +25,60 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cefiran_sableye-01",
+      "pokemon": "sableye cefiran",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-57",
+      "weight": 3.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_badlands"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "delta_sableye-01",
+      "pokemon": "sableye delta",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-48",
+      "weight": 4.800000000000001,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_desert"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:magma_block"
           ]
         }
       }
@@ -109,54 +162,28 @@
       }
     },
     {
-      "id": "delta_sableye-01",
-      "pokemon": "sableye delta",
+      "id": "fabelian_sableye-01",
+      "pokemon": "sableye fabelian",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-48",
-      "weight": 4.800000000000001,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:nether/is_basalt",
-          "#cobblemon:nether/is_desert"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:magma_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "cefiran_sableye-01",
-      "pokemon": "sableye cefiran",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "24-57",
-      "weight": 3.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
+          "minecraft:the_void"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:black_wool"
+            "minecraft:tuff"
           ]
         }
       }

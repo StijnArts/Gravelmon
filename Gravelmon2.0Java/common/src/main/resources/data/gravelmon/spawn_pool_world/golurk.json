@@ -4,19 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_golurk-01",
-      "pokemon": "golurk epoch",
+      "id": "cefiran_golurk-01",
+      "pokemon": "golurk cefiran",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "43-57",
-      "weight": 1.0499999999999998,
+      "level": "44-70",
+      "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:is_spooky"
         ]
       },
       "weightMultiplier": {
@@ -56,19 +56,19 @@
       }
     },
     {
-      "id": "cefiran_golurk-01",
-      "pokemon": "golurk cefiran",
+      "id": "epoch_golurk-01",
+      "pokemon": "golurk epoch",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "44-70",
-      "weight": 7.5,
+      "level": "43-57",
+      "weight": 1.0499999999999998,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_deep_dark"
         ]
       },
       "weightMultiplier": {

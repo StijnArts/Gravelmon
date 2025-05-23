@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "forman_jigglypuff-01",
-      "pokemon": "jigglypuff forman",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-38",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_glacial"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_jigglypuff-01",
       "pokemon": "jigglypuff epoch",
       "presets": [
@@ -77,6 +52,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "forman_jigglypuff-01",
+      "pokemon": "jigglypuff forman",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-38",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_glacial"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
           ]
         }
       }

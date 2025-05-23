@@ -2,6 +2,186 @@
   "target": "cobblemon:yanmega",
   "forms": [
     {
+      "name": "Delta",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 78,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "yanma form=delta",
+      "baseScale": 0.24,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "leafguard",
+        "h:naturalcure"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 86,
+        "attack": 76,
+        "defence": 86,
+        "special_attack": 116,
+        "special_defence": 56,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leafstorm",
+        "1:hurricane",
+        "1:naturepower",
+        "1:powerwhip",
+        "1:vinewhip",
+        "1:camouflage",
+        "1:gust",
+        "1:growth",
+        "6:gust",
+        "11:growth",
+        "14:razorleaf",
+        "17:detect",
+        "22:aircutter",
+        "27:leaftornado",
+        "30:pursuit",
+        "33:ancientpower",
+        "38:grasswhistle",
+        "43:airslash",
+        "46:worryseed",
+        "49:uturn",
+        "54:hurricane",
+        "57:leafstorm",
+        "tm:toxic",
+        "tm:dragonpulse",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:solarbeam",
+        "tm:irontail",
+        "tm:return",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:recycle",
+        "tm:roost",
+        "tm:energyball",
+        "tm:fling",
+        "tm:dragontail",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:uturn",
+        "tm:substitute",
+        "tm:sleeptalk",
+        "tm:steelwing",
+        "tm:acrobatics",
+        "tm:dazzlinggleam",
+        "tm:achillesheel",
+        "tm:silverwind",
+        "tm:skydrop",
+        "tm:round",
+        "tm:captivate",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:naturepower",
+        "tm:fly",
+        "tutor:acid",
+        "tutor:aircutter",
+        "tutor:ancientpower",
+        "tutor:aquatail",
+        "tutor:bind",
+        "tutor:bounce",
+        "tutor:bugbite",
+        "tutor:bulletseed",
+        "tutor:covet",
+        "tutor:defog",
+        "tutor:dig",
+        "tutor:electroweb",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:furycutter",
+        "tutor:gigadrain",
+        "tutor:helpinghand",
+        "tutor:hurricane",
+        "tutor:knockoff",
+        "tutor:mimic",
+        "tutor:roleplay",
+        "tutor:seedbomb",
+        "tutor:signalbeam",
+        "tutor:snore",
+        "tutor:synthesis",
+        "tutor:tailwind",
+        "tutor:twister",
+        "tutor:worryseed",
+        "tm:terablast"
+      ],
+      "labels": [
+        "gen4",
+        "insurgence",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.deltayanmega.desc"
+      ],
+      "height": 19,
+      "weight": 515,
+      "aspects": [
+        "delta"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 11.875,
+        "height": 11.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "bug",
       "secondaryType": "water",
@@ -298,191 +478,11 @@
         "height": 4.6875,
         "fixed": false
       }
-    },
-    {
-      "name": "Delta",
-      "primaryType": "grass",
-      "secondaryType": "flying",
-      "catchRate": 30,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 78,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "preEvolution": "yanma form=delta",
-      "baseScale": 0.24,
-      "cannotDynamax": false,
-      "abilities": [
-        "adaptability",
-        "leafguard",
-        "h:naturalcure"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": true
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 86,
-        "attack": 76,
-        "defence": 86,
-        "special_attack": 116,
-        "special_defence": 56,
-        "speed": 95
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "undiscovered"
-      ],
-      "drops": {},
-      "moves": [
-        "1:leafstorm",
-        "1:hurricane",
-        "1:naturepower",
-        "1:powerwhip",
-        "1:vinewhip",
-        "1:camouflage",
-        "1:gust",
-        "1:growth",
-        "6:gust",
-        "11:growth",
-        "14:razorleaf",
-        "17:detect",
-        "22:aircutter",
-        "27:leaftornado",
-        "30:pursuit",
-        "33:ancientpower",
-        "38:grasswhistle",
-        "43:airslash",
-        "46:worryseed",
-        "49:uturn",
-        "54:hurricane",
-        "57:leafstorm",
-        "tm:toxic",
-        "tm:dragonpulse",
-        "tm:hiddenpower",
-        "tm:sunnyday",
-        "tm:taunt",
-        "tm:hyperbeam",
-        "tm:protect",
-        "tm:safeguard",
-        "tm:frustration",
-        "tm:solarbeam",
-        "tm:irontail",
-        "tm:return",
-        "tm:dig",
-        "tm:doubleteam",
-        "tm:aerialace",
-        "tm:facade",
-        "tm:rest",
-        "tm:attract",
-        "tm:recycle",
-        "tm:roost",
-        "tm:energyball",
-        "tm:fling",
-        "tm:dragontail",
-        "tm:gigaimpact",
-        "tm:grassknot",
-        "tm:swagger",
-        "tm:uturn",
-        "tm:substitute",
-        "tm:sleeptalk",
-        "tm:steelwing",
-        "tm:acrobatics",
-        "tm:dazzlinggleam",
-        "tm:achillesheel",
-        "tm:silverwind",
-        "tm:skydrop",
-        "tm:round",
-        "tm:captivate",
-        "tm:confide",
-        "tm:secretpower",
-        "tm:naturepower",
-        "tm:fly",
-        "tutor:acid",
-        "tutor:aircutter",
-        "tutor:ancientpower",
-        "tutor:aquatail",
-        "tutor:bind",
-        "tutor:bounce",
-        "tutor:bugbite",
-        "tutor:bulletseed",
-        "tutor:covet",
-        "tutor:defog",
-        "tutor:dig",
-        "tutor:electroweb",
-        "tutor:endeavor",
-        "tutor:endure",
-        "tutor:furycutter",
-        "tutor:gigadrain",
-        "tutor:helpinghand",
-        "tutor:hurricane",
-        "tutor:knockoff",
-        "tutor:mimic",
-        "tutor:roleplay",
-        "tutor:seedbomb",
-        "tutor:signalbeam",
-        "tutor:snore",
-        "tutor:synthesis",
-        "tutor:tailwind",
-        "tutor:twister",
-        "tutor:worryseed",
-        "tm:terablast"
-      ],
-      "labels": [
-        "gen4",
-        "insurgence",
-        "not_modeled",
-        "fakemonevolution"
-      ],
-      "pokedex": [
-        "cobblemon.species.deltayanmega.desc"
-      ],
-      "height": 19,
-      "weight": 515,
-      "aspects": [
-        "delta"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 11.875,
-        "height": 11.875,
-        "fixed": false
-      }
     }
   ],
   "features": [
+    "delta",
     "epoch",
-    "epochtwo",
-    "delta"
+    "epochtwo"
   ]
 }

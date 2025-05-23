@@ -2,20 +2,19 @@
   "target": "cobblemon:forretress",
   "forms": [
     {
-      "name": "Forman",
+      "name": "Norheiman",
       "primaryType": "bug",
-      "secondaryType": "rock",
-      "catchRate": 90,
+      "secondaryType": "fire",
+      "catchRate": 75,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
+      "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "pineco form=forman",
-      "baseScale": 0.060937500000000006,
+      "baseScale": 0.374025974025974,
       "cannotDynamax": false,
       "abilities": [
-        "sturdy"
+        "keeneye"
       ],
       "behaviour": {
         "resting": {
@@ -44,12 +43,12 @@
         }
       },
       "baseStats": {
-        "hp": 79,
-        "attack": 42,
-        "defence": 91,
-        "special_attack": 79,
-        "special_defence": 54,
-        "speed": 15
+        "hp": 120,
+        "attack": 101,
+        "defence": 101,
+        "special_attack": 35,
+        "special_defence": 86,
+        "speed": 20
       },
       "evYield": {
         "hp": 0,
@@ -64,67 +63,38 @@
       ],
       "drops": {},
       "moves": [
-        "1:strugglebug",
-        "1:rockthrow",
-        "1:bulkup",
-        "1:bulkup",
-        "1:stringshot",
-        "1:defensecurl",
-        "1:calmmind",
-        "1:calmmind",
-        "4:silverwind",
-        "4:rollout",
-        "4:taunt",
-        "4:taunt",
-        "7:signalbeam",
-        "7:ancientpower",
-        "7:substitute",
-        "7:substitute",
-        "10:infestation",
-        "10:powergem",
-        "10:rest",
-        "10:rest",
-        "13:uturn",
-        "13:stealthrock",
-        "16:bugbuzz",
-        "16:meteorbeam",
+        "1:ember",
+        "1:smokescreen",
+        "5:wrap",
+        "10:bite",
+        "15:flamewheel",
+        "20:bugbite",
+        "25:coil",
+        "30:slam",
+        "35:firespin",
+        "40:crunch",
+        "45:firelash",
+        "50:lunge",
+        "55:burnup",
         "tm:terablast"
       ],
       "labels": [
-        "form",
-        "not_modeled",
-        "fakemon",
-        "fakemonevolution",
-        "instagram"
+        "norheim",
+        "not_modeled"
       ],
       "pokedex": [
-        "cobblemon.species.formanforretress.desc"
+        "cobblemon.species.norheimanforretress.desc"
       ],
-      "height": 13,
-      "weight": 0,
+      "height": 12,
+      "weight": 165,
       "aspects": [
-        "forman"
+        "norheiman"
       ],
-      "evolutions": [
-        {
-          "id": "formanforretress_crystshell",
-          "variant": "level_up",
-          "result": "crystshell",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "51"
-            }
-          ],
-          "permanent": true
-        }
-      ],
+      "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 32.0,
-        "height": 32.0,
+        "width": 4.8125,
+        "height": 4.8125,
         "fixed": false
       }
     },
@@ -293,19 +263,20 @@
       }
     },
     {
-      "name": "Norheiman",
+      "name": "Forman",
       "primaryType": "bug",
-      "secondaryType": "fire",
-      "catchRate": 75,
+      "secondaryType": "rock",
+      "catchRate": 90,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
+      "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.374025974025974,
+      "preEvolution": "pineco form=forman",
+      "baseScale": 0.060937500000000006,
       "cannotDynamax": false,
       "abilities": [
-        "keeneye"
+        "sturdy"
       ],
       "behaviour": {
         "resting": {
@@ -334,12 +305,12 @@
         }
       },
       "baseStats": {
-        "hp": 120,
-        "attack": 101,
-        "defence": 101,
-        "special_attack": 35,
-        "special_defence": 86,
-        "speed": 20
+        "hp": 79,
+        "attack": 42,
+        "defence": 91,
+        "special_attack": 79,
+        "special_defence": 54,
+        "speed": 15
       },
       "evYield": {
         "hp": 0,
@@ -354,45 +325,75 @@
       ],
       "drops": {},
       "moves": [
-        "1:ember",
-        "1:smokescreen",
-        "5:wrap",
-        "10:bite",
-        "15:flamewheel",
-        "20:bugbite",
-        "25:coil",
-        "30:slam",
-        "35:firespin",
-        "40:crunch",
-        "45:firelash",
-        "50:lunge",
-        "55:burnup",
+        "1:strugglebug",
+        "1:rockthrow",
+        "1:bulkup",
+        "1:bulkup",
+        "1:stringshot",
+        "1:defensecurl",
+        "1:calmmind",
+        "1:calmmind",
+        "4:silverwind",
+        "4:rollout",
+        "4:taunt",
+        "4:taunt",
+        "7:signalbeam",
+        "7:ancientpower",
+        "7:substitute",
+        "7:substitute",
+        "10:infestation",
+        "10:powergem",
+        "10:rest",
+        "10:rest",
+        "13:uturn",
+        "13:stealthrock",
+        "16:bugbuzz",
+        "16:meteorbeam",
         "tm:terablast"
       ],
       "labels": [
-        "norheim",
-        "not_modeled"
+        "form",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution",
+        "instagram",
+        "instagram"
       ],
       "pokedex": [
-        "cobblemon.species.norheimanforretress.desc"
+        "cobblemon.species.formanforretress.desc"
       ],
-      "height": 12,
-      "weight": 165,
+      "height": 13,
+      "weight": 0,
       "aspects": [
-        "norheiman"
+        "forman"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "formanforretress_crystshell",
+          "variant": "level_up",
+          "result": "crystshell",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "51"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.8125,
-        "height": 4.8125,
+        "width": 32.0,
+        "height": 32.0,
         "fixed": false
       }
     }
   ],
   "features": [
-    "forman",
+    "norheiman",
     "epoch",
-    "norheiman"
+    "forman"
   ]
 }

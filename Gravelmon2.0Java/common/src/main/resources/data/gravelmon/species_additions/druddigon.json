@@ -2,6 +2,159 @@
   "target": "cobblemon:druddigon",
   "forms": [
     {
+      "name": "Hizian",
+      "primaryType": "dragon",
+      "secondaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 170,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4864864864864865,
+      "cannotDynamax": false,
+      "abilities": [
+        "stamina"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 77,
+        "attack": 120,
+        "defence": 90,
+        "special_attack": 50,
+        "special_defence": 100,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "dragon",
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ancientpower",
+        "1:roar",
+        "1:tackle",
+        "1:tailwhip",
+        "12:charm",
+        "16:bite",
+        "20:dragontail",
+        "24:stomp",
+        "28:rockslide",
+        "32:crunch",
+        "36:dragonclaw",
+        "42:thrash",
+        "48:earthquake",
+        "54:horndrill",
+        "60:gigaimpact",
+        "66:headsmash",
+        "tutor:lashout",
+        "tutor:meteorbeam",
+        "tutor:scaleshot",
+        "tm:hyperbeam",
+        "tm:gigaimpact",
+        "tm:dig",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:snore",
+        "tm:protect",
+        "tm:scaryface",
+        "tm:charm",
+        "tm:attract",
+        "tm:sandstorm",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:rockblast",
+        "tm:assurance",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:brutalswing",
+        "tm:stompingtantrum",
+        "tm:breakingswipe",
+        "tm:bodyslam",
+        "tm:earthquake",
+        "tm:substitute",
+        "tm:outrage",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:irontail",
+        "tm:crunch",
+        "tm:superpower",
+        "tm:hypervoice",
+        "tm:irondefense",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:closecombat",
+        "tm:darkpulse",
+        "tm:dragonpulse",
+        "tm:earthpower",
+        "tm:zenheadbutt",
+        "tm:ironhead",
+        "tm:stoneedge",
+        "tm:stealthrock",
+        "tm:playrough",
+        "tm:highhorsepower",
+        "tm:psychicfangs",
+        "tm:terablast"
+      ],
+      "labels": [
+        "hiza",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.hiziandruddigon.desc"
+      ],
+      "height": 15,
+      "weight": 165,
+      "aspects": [
+        "hizian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.625,
+        "height": 4.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "dragon",
       "secondaryType": "fighting",
@@ -164,6 +317,179 @@
       "hitbox": {
         "width": 5.0,
         "height": 5.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Ayreian",
+      "primaryType": "electric",
+      "secondaryType": "cosmic",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5082352941176471,
+      "cannotDynamax": false,
+      "abilities": [
+        "corrosion",
+        "download"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 82,
+        "attack": 110,
+        "defence": 120,
+        "special_attack": 48,
+        "special_defence": 40,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "50:poltergeist",
+        "45:glare",
+        "20:thunderwave",
+        "10:roar",
+        "55:supercellslam",
+        "60:strengthsap",
+        "15:spark",
+        "40:toxic",
+        "25:screech",
+        "35:wildcharge",
+        "1:eerieimpulse",
+        "5:charge",
+        "1:poisonsting",
+        "tm:aerialace",
+        "tm:aquatail",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:confide",
+        "tm:crunch",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:dragonclaw",
+        "tm:dragonpulse",
+        "tm:dragontail",
+        "tm:dualwingbeat",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:lashout",
+        "tm:megapunch",
+        "tm:outrage",
+        "tm:payback",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:revenge",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scaleshot",
+        "tm:scaryface",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:smackdown",
+        "tm:snarl",
+        "tm:snatch",
+        "tm:snore",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:surf",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:torment",
+        "tm:toxic",
+        "egg:nightslash",
+        "egg:poisontail",
+        "egg:glare",
+        "egg:suckerpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiandruddigon.desc"
+      ],
+      "height": 18,
+      "weight": 1,
+      "aspects": [
+        "ayreian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.3125,
+        "height": 5.3125,
         "fixed": false
       }
     },
@@ -464,339 +790,13 @@
         "height": 4.8125,
         "fixed": false
       }
-    },
-    {
-      "name": "Hizian",
-      "primaryType": "dragon",
-      "secondaryType": "rock",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 170,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.4864864864864865,
-      "cannotDynamax": false,
-      "abilities": [
-        "stamina"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 77,
-        "attack": 120,
-        "defence": 90,
-        "special_attack": 50,
-        "special_defence": 100,
-        "speed": 48
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 2,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "dragon",
-        "monster"
-      ],
-      "drops": {},
-      "moves": [
-        "1:ancientpower",
-        "1:roar",
-        "1:tackle",
-        "1:tailwhip",
-        "12:charm",
-        "16:bite",
-        "20:dragontail",
-        "24:stomp",
-        "28:rockslide",
-        "32:crunch",
-        "36:dragonclaw",
-        "42:thrash",
-        "48:earthquake",
-        "54:horndrill",
-        "60:gigaimpact",
-        "66:headsmash",
-        "tutor:lashout",
-        "tutor:meteorbeam",
-        "tutor:scaleshot",
-        "tm:hyperbeam",
-        "tm:gigaimpact",
-        "tm:dig",
-        "tm:rest",
-        "tm:rockslide",
-        "tm:snore",
-        "tm:protect",
-        "tm:scaryface",
-        "tm:charm",
-        "tm:attract",
-        "tm:sandstorm",
-        "tm:sunnyday",
-        "tm:facade",
-        "tm:brickbreak",
-        "tm:rocktomb",
-        "tm:rockblast",
-        "tm:assurance",
-        "tm:thunderfang",
-        "tm:icefang",
-        "tm:firefang",
-        "tm:round",
-        "tm:bulldoze",
-        "tm:brutalswing",
-        "tm:stompingtantrum",
-        "tm:breakingswipe",
-        "tm:bodyslam",
-        "tm:earthquake",
-        "tm:substitute",
-        "tm:outrage",
-        "tm:endure",
-        "tm:sleeptalk",
-        "tm:irontail",
-        "tm:crunch",
-        "tm:superpower",
-        "tm:hypervoice",
-        "tm:irondefense",
-        "tm:dragonclaw",
-        "tm:dragondance",
-        "tm:closecombat",
-        "tm:darkpulse",
-        "tm:dragonpulse",
-        "tm:earthpower",
-        "tm:zenheadbutt",
-        "tm:ironhead",
-        "tm:stoneedge",
-        "tm:stealthrock",
-        "tm:playrough",
-        "tm:highhorsepower",
-        "tm:psychicfangs",
-        "tm:terablast"
-      ],
-      "labels": [
-        "hiza",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.hiziandruddigon.desc"
-      ],
-      "height": 15,
-      "weight": 165,
-      "aspects": [
-        "hizian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 4.625,
-        "height": 4.625,
-        "fixed": false
-      }
-    },
-    {
-      "name": "Ayreian",
-      "primaryType": "electric",
-      "secondaryType": "cosmic",
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 60,
-      "experienceGroup": "medium_fast",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.5082352941176471,
-      "cannotDynamax": false,
-      "abilities": [
-        "corrosion",
-        "download"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 82,
-        "attack": 110,
-        "defence": 120,
-        "special_attack": 48,
-        "special_defence": 40,
-        "speed": 85
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 2,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "monster",
-        "dragon"
-      ],
-      "drops": {},
-      "moves": [
-        "50:poltergeist",
-        "45:glare",
-        "20:thunderwave",
-        "10:roar",
-        "55:supercellslam",
-        "60:strengthsap",
-        "15:spark",
-        "40:toxic",
-        "25:screech",
-        "35:wildcharge",
-        "1:eerieimpulse",
-        "5:charge",
-        "1:poisonsting",
-        "tm:aerialace",
-        "tm:aquatail",
-        "tm:attract",
-        "tm:bodyslam",
-        "tm:bulldoze",
-        "tm:chargebeam",
-        "tm:confide",
-        "tm:crunch",
-        "tm:cut",
-        "tm:darkpulse",
-        "tm:doubleteam",
-        "tm:dragonclaw",
-        "tm:dragonpulse",
-        "tm:dragontail",
-        "tm:dualwingbeat",
-        "tm:endure",
-        "tm:facade",
-        "tm:firefang",
-        "tm:firepunch",
-        "tm:flamethrower",
-        "tm:flashcannon",
-        "tm:fling",
-        "tm:focusblast",
-        "tm:frustration",
-        "tm:gigaimpact",
-        "tm:gunkshot",
-        "tm:heatwave",
-        "tm:hiddenpower",
-        "tm:hyperbeam",
-        "tm:ironhead",
-        "tm:irontail",
-        "tm:lashout",
-        "tm:megapunch",
-        "tm:outrage",
-        "tm:payback",
-        "tm:poweruppunch",
-        "tm:protect",
-        "tm:raindance",
-        "tm:rest",
-        "tm:retaliate",
-        "tm:return",
-        "tm:revenge",
-        "tm:roar",
-        "tm:rockslide",
-        "tm:rocksmash",
-        "tm:rocktomb",
-        "tm:round",
-        "tm:scaleshot",
-        "tm:scaryface",
-        "tm:shadowclaw",
-        "tm:shockwave",
-        "tm:sleeptalk",
-        "tm:sludgebomb",
-        "tm:smackdown",
-        "tm:snarl",
-        "tm:snatch",
-        "tm:snore",
-        "tm:stealthrock",
-        "tm:stompingtantrum",
-        "tm:strength",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:superpower",
-        "tm:surf",
-        "tm:swagger",
-        "tm:taunt",
-        "tm:thunderfang",
-        "tm:thunderpunch",
-        "tm:torment",
-        "tm:toxic",
-        "egg:nightslash",
-        "egg:poisontail",
-        "egg:glare",
-        "egg:suckerpunch",
-        "tm:terablast"
-      ],
-      "labels": [
-        "vanguard",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.ayreiandruddigon.desc"
-      ],
-      "height": 18,
-      "weight": 1,
-      "aspects": [
-        "ayreian"
-      ],
-      "evolutions": [],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 5.3125,
-        "height": 5.3125,
-        "fixed": false
-      }
     }
   ],
   "features": [
-    "epoch",
-    "ionosian",
-    "novran",
     "hizian",
-    "ayreian"
+    "epoch",
+    "ayreian",
+    "ionosian",
+    "novran"
   ]
 }

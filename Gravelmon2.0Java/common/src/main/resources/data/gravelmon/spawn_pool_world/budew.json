@@ -4,56 +4,31 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_budew-01",
-      "pokemon": "budew epoch",
+      "id": "relic_budew-01",
+      "pokemon": "budew relic",
       "presets": [
         "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "23-43",
+      "bucket": "common",
+      "level": "1-28",
       "weight": 7.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_floral",
-          "#cobblemon:is_magical"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_budew-01",
-      "pokemon": "budew epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "2-23",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_jungle"
-        ],
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:pink_stained_glass"
           ]
         }
       }
@@ -109,6 +84,61 @@
       }
     },
     {
+      "id": "epoch_budew-01",
+      "pokemon": "budew epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-43",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral",
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_budew-01",
+      "pokemon": "budew epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-23",
+      "weight": 7.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_tropical_island",
+          "#cobblemon:is_jungle"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "ayreian_budew-01",
       "pokemon": "budew ayreian",
       "presets": [
@@ -131,36 +161,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:iron_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "relic_budew-01",
-      "pokemon": "budew relic",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "1-28",
-      "weight": 7.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
           ]
         }
       }

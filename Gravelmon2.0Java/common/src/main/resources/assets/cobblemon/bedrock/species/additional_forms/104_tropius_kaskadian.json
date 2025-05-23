@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_417_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_417_by_512",
-      "texture": "cobblemon:textures/pokemon/generation3/kaskadiantropius.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadiantropius.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_55_by_73.geo",
       "poser": "cobblemon:cutout_gravelmon_55_by_73",
-      "texture": "cobblemon:textures/pokemon/generation4/hizianmismagius.png",
+      "texture": "cobblemon:textures/pokemon/hiza/hizianmismagius.png",
       "layers": [
         {
           "name": "emissive"

@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_57_by_41.geo",
       "poser": "cobblemon:cutout_gravelmon_57_by_41",
-      "texture": "cobblemon:textures/pokemon/generation1/novranslowpoke.png",
+      "texture": "cobblemon:textures/pokemon/novrai/novranslowpoke.png",
       "layers": [
         {
           "name": "emissive"

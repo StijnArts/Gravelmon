@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "poser": "cobblemon:cutout_gravelmon_512_by_512",
-      "texture": "cobblemon:textures/pokemon/generation4/palmiangabite.png",
+      "texture": "cobblemon:textures/pokemon/palmia/palmiangabite.png",
       "layers": [
         {
           "name": "emissive"

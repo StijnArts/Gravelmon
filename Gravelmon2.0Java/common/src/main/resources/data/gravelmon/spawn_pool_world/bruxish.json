@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "kaskadian_bruxish-01",
-      "pokemon": "bruxish kaskadian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "14-30",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_river"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:prismarine"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_bruxish-01",
       "pokemon": "bruxish epoch",
       "presets": [
@@ -66,6 +41,31 @@
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kaskadian_bruxish-01",
+      "pokemon": "bruxish kaskadian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "14-30",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_river"
         ]
       },
       "weightMultiplier": {

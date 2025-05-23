@@ -8,7 +8,7 @@
       ],
       "model": "cobblemon:cutout_gravelmon_222_by_214.geo",
       "poser": "cobblemon:cutout_gravelmon_222_by_214",
-      "texture": "cobblemon:textures/pokemon/generation8/kaskadiandubwool.png",
+      "texture": "cobblemon:textures/pokemon/lockemon/kaskadiandubwool.png",
       "layers": [
         {
           "name": "emissive"

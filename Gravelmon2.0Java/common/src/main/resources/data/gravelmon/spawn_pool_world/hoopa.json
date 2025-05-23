@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "epoch_hoopa-01",
-      "pokemon": "hoopa epoch",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "65-75",
-      "weight": 9.0E-4,
-      "condition": {
-        "biomes": [
-          "#minecraft:is_end"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "delta_hoopa-01",
       "pokemon": "hoopa delta",
       "presets": [
@@ -79,6 +54,31 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_hoopa-01",
+      "pokemon": "hoopa epoch",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-75",
+      "weight": 9.0E-4,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_end"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:target_block"
           ]
         }
       }
