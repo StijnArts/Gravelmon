@@ -117,7 +117,7 @@ public class GameRegistry {
     }
 
     private static void registerGame(Game game) {
-        registerGame(game);
+        games.add(game);
         game.getNewPokemon().forEach(pokemon -> {
             if(pokemon.getAdditionalAspect()==null){
                 DexCounter.incrementDexCounter();

@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "preEvolution": "sabolt",
+      "preEvolution": "sabolt form=xenoversal",
       "baseScale": 0.23703703703703705,
       "cannotDynamax": false,
       "abilities": [
@@ -66,14 +66,14 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
           },
           {
             "item": "gravelmon:terrestrial_ring",
@@ -196,7 +196,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "preEvolution": "sabolt",
+      "preEvolution": "sabolt form=terrestrial",
       "baseScale": 0.4387096774193548,
       "cannotDynamax": false,
       "abilities": [
@@ -256,14 +256,14 @@
             "percentage": 40
           },
           {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
             "item": "gravelmon:terrestrial_ring",
             "quantityRange": "1-1",
             "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
           }
         ]
       },
