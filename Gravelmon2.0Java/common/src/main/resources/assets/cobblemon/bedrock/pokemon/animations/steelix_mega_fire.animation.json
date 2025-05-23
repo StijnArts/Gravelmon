@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.steelix_mega_fire.ground_idle": {
+		"animation.mega_steelix_fire.ground_idle": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -62,7 +62,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.ground_walk": {
+		"animation.mega_steelix_fire.ground_walk": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -135,7 +135,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.battle_idle": {
+		"animation.mega_steelix_fire.battle_idle": {
 			"loop": true,
 			"bones": {
 				"head": {
@@ -197,7 +197,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.blink": {
+		"animation.mega_steelix_fire.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -216,7 +216,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.cry": {
+		"animation.mega_steelix_fire.cry": {
 			"animation_length": 2.5,
 			"bones": {
 				"head": {
@@ -390,11 +390,11 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "pokemon.steelix_mega_fire.cry"
+					"effect": "pokemon.mega_steelix_fire.cry"
 				}
 			}
 		},
-		"animation.steelix_mega_fire.demon": {
+		"animation.mega_steelix_fire.demon": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -456,7 +456,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.quirk_jawjitter": {
+		"animation.mega_steelix_fire.quirk_jawjitter": {
 			"animation_length": 1,
 			"bones": {
 				"jaw": {
@@ -468,7 +468,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.sleep": {
+		"animation.mega_steelix_fire.sleep": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -537,7 +537,7 @@
 				}
 			}
 		},
-		"animation.steelix_mega_fire.faint_WIP": {
+		"animation.mega_steelix_fire.faint_WIP": {
 			"loop": true,
 			"bones": {
 				"head": {
