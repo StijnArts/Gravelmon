@@ -183,8 +183,7 @@ public class Raian extends drai.dev.data.games.registry.Game {
                 BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
         addNewPokemon(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600,
                 BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        addPokedexPokemon("hoothoot+" +
-                "");
+        addPokedexPokemon("hoothoot");
         addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542,
                 BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
         addNewPokemon(new RaianianChinchou("", Aspect.RAIANIAN).fishingSpawnFromExisting());

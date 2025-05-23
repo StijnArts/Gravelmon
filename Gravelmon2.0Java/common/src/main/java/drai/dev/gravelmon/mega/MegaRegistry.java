@@ -1252,10 +1252,11 @@ public class MegaRegistry {
                         56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ca460c", "#ffc500", "#51473e"))
                         .setMegaName("mega_fire").onProcessResources(pokemon->{
-                            pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry");
+                            pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry").addLayer(new SimpleTextureLayerData("glow", "steelix_mega_emissive",
+                                    Optional.of(true), Optional.of(true), true, false));
                             pokemon.getPosingFileData().setAnimationFileName("mega_steelix_fire");
-                            pokemon.getPosingFileData().setPortraitData(0.4f, new Vector3(-0.2, 1.2, 0));
-                            pokemon.getPosingFileData().setProfileData(0.4f, new Vector3(-0.2, 1.2, 0));
+                            pokemon.getPosingFileData().setPortraitData(0.61f, new Vector3(-0.4, 1.77, 0));
+                            pokemon.getPosingFileData().setProfileData(0.4f, new Vector3(-0.1, 1.12, 0));
                             pokemon.getPosingFileData().setBasicHead();
                             pokemon.getPosingFileData().addAnimations(List.of(
                                     AnimationData.battleIdleAnimation("cobblemon").withBlink(),

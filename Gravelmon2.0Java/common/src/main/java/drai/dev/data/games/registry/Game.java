@@ -48,10 +48,11 @@ public abstract class Game {
     public void addPokedexPokemon(String... pokemonNames){
         for (int i = 0; i < pokemonNames.length; i++) {
             var name = pokemonNames[i];
-            if(!name.contains(",")) pokedex.add("cobblemon:"+ name);else {
+            if(!name.contains(",")) pokedex.add("cobblemon:"+ name.trim());
+            else {
                 var splitEntries = name.split(",");
                 for (int j = 0; j < splitEntries.length; j++) {
-                    pokedex.add("cobblemon:"+ splitEntries[j]);
+                    pokedex.add("cobblemon:"+ splitEntries[j].trim());
                 }
             }
         }

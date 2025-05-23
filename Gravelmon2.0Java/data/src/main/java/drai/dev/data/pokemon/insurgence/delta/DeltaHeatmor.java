@@ -10,7 +10,7 @@ import java.util.*;
 public class DeltaHeatmor extends Pokemon {
     public DeltaHeatmor(String name, Aspect aspect) {
         super(name, aspect,"DeltaHeatmor",
-                Type.POISON, Type.STEEL,
+                Type.NUCLEAR, Type.STEEL,
                 new Stats(85, 97, 66, 105, 66, 65),
                 List.of(Ability.LIQUID_OOZE, Ability.SHEER_FORCE), Ability.MEGA_LAUNCHER,
                 14, 1160,
@@ -132,8 +132,8 @@ public class DeltaHeatmor extends Pokemon {
         getSpeciesFileData().addBasicVariation("Donated by Snow Goose").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );
-        getPosingFileData().setPortraitData( 3.5f, new Vector3(-.8, -.25, 0));
-        getPosingFileData().setProfileData( .85f, new Vector3(0, .4, 0));
+        getPosingFileData().setPortraitData( 2.83f, new Vector3(-.72, .6, 0));
+        getPosingFileData().setProfileData( .7f, new Vector3(0, .71, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose(),
