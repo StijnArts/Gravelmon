@@ -6,8 +6,8 @@
       "aspects": [
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_84_by_142.geo",
+      "poser": "cobblemon:cutout_gravelmon_84_by_142",
       "texture": "cobblemon:textures/pokemon/insurgence/sunflora_mega.png",
       "layers": [
         {

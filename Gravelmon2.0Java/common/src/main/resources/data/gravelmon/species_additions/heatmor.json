@@ -3,7 +3,7 @@
   "forms": [
     {
       "name": "Delta",
-      "primaryType": "poison",
+      "primaryType": "nuclear",
       "secondaryType": "steel",
       "catchRate": 90,
       "maleRatio": 0.5,

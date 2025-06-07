@@ -10,15 +10,15 @@ public class Deneb extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Nimbleaf());
-        addNewPokemon(new Leafrond());
-        addNewPokemon(new Syleafid());
-        addNewPokemon(new Peyero());
-        addNewPokemon(new Infiris());
-        addNewPokemon(new Astignite());
-        addNewPokemon(new Liquiput());
-        addNewPokemon(new Hydrush());
-        addNewPokemon(new Correncid());
+        addNewPokemon(new Nimbleaf().addLabels(Label.STARTER));
+        addNewPokemon(new Leafrond().addLabels(Label.STARTER));
+        addNewPokemon(new Syleafid().addLabels(Label.STARTER));
+        addNewPokemon(new Peyero().addLabels(Label.STARTER));
+        addNewPokemon(new Infiris().addLabels(Label.STARTER));
+        addNewPokemon(new Astignite().addLabels(Label.STARTER));
+        addNewPokemon(new Liquiput().addLabels(Label.STARTER));
+        addNewPokemon(new Hydrush().addLabels(Label.STARTER));
+        addNewPokemon(new Correncid().addLabels(Label.STARTER));
         addNewPokemon(new Takuni());
         addNewPokemon(new Percussoon());
         addNewPokemon(new Cupricorn());
@@ -93,22 +93,22 @@ public class Deneb extends Game {
         addNewPokemon(new Laquagon());
         addNewPokemon(new Dragune());
         addNewPokemon(new Nostratos());
-        addNewPokemon(new Lylapse());
-        addNewPokemon(new Ganimede());
-        addNewPokemon(new Nemea());
-        addNewPokemon(new Aldina());
-        addNewPokemon(new Almaria());
-        addNewPokemon(new Asphere());
+        addNewPokemon(new Lylapse().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Ganimede().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Nemea().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Aldina().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Almaria().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Asphere().addLabels(Label.LEGENDARY));
 
-        addNewPokemon(new Basille());
-        addNewPokemon(new Basield());
-        addNewPokemon(new Basilux());
-        addNewPokemon(new Patroleo());
-        addNewPokemon(new Gardleon());
-        addNewPokemon(new Royalert());
-        addNewPokemon(new Katuna());
-        addNewPokemon(new Maelstream());
-        addNewPokemon(new Skelachone());
+        addNewPokemon(new Basille().addLabels(Label.STARTER));
+        addNewPokemon(new Basield().addLabels(Label.STARTER));
+        addNewPokemon(new Basilux().addLabels(Label.STARTER));
+        addNewPokemon(new Patroleo().addLabels(Label.STARTER));
+        addNewPokemon(new Gardleon().addLabels(Label.STARTER));
+        addNewPokemon(new Royalert().addLabels(Label.STARTER));
+        addNewPokemon(new Katuna().addLabels(Label.STARTER));
+        addNewPokemon(new Maelstream().addLabels(Label.STARTER));
+        addNewPokemon(new Skelachone().addLabels(Label.STARTER));
         addNewPokemon(new Cheshile());
         addNewPokemon(new Cheshess());
         addNewPokemon(new Chessire());
@@ -253,10 +253,10 @@ public class Deneb extends Game {
         addNewPokemon(new Gagokin());
         addNewPokemon(new Borubotto());
         addNewPokemon(new Boltuft());
-        addNewPokemon(new Sailodon()); //seirodon
-        addNewPokemon(new Spinerus()); //supinerusu
-        addNewPokemon(new Foreiphin()); //ikuchisu
-        addNewPokemon(new Travelphin()); //ibachirasu
+        addNewPokemon(new Sailodon().addLabels(Label.FOSSIL)); //seirodon
+        addNewPokemon(new Spinerus().addLabels(Label.FOSSIL)); //supinerusu
+        addNewPokemon(new Foreiphin().addLabels(Label.FOSSIL)); //ikuchisu
+        addNewPokemon(new Travelphin().addLabels(Label.FOSSIL)); //ibachirasu
         addNewPokemon(new Toranya());
         addNewPokemon(new Nyaga());
         addNewPokemon(new Byakuga());
@@ -312,11 +312,11 @@ public class Deneb extends Game {
         addPokedexPokemon("chingling");
         addPokedexPokemon("chimecho");
         addNewPokemon(new Karakoron());
-        addNewPokemon(new Demini());
-        addNewPokemon(new Demiddul());
-        addNewPokemon(new Demorigan());
-        addNewPokemon(new Arugari());
-        addNewPokemon(new Anoga());
-        addNewPokemon(new Kasodan());
+        addNewPokemon(new Demini().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Demiddul().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Demorigan().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Arugari().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Anoga().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kasodan().addLabels(Label.PSEUDO_LEGENDARY));
     }
 }

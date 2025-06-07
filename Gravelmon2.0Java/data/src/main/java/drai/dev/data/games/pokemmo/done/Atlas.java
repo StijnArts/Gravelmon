@@ -5,7 +5,7 @@ import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.okeno.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//Done
+//Done https://pokengine.org/collections/10vvpsw8/Atlas
 public class Atlas extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Atlas();
     private Atlas() {        super("Atlas");
@@ -13,55 +13,55 @@ public class Atlas extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Fawnlora());
-        addNewPokemon(new Botaneer());
-        addNewPokemon(new Forelk());
+        addNewPokemon(new Fawnlora().addLabels(Label.STARTER));
+        addNewPokemon(new Botaneer().addLabels(Label.STARTER));
+        addNewPokemon(new Forelk().addLabels(Label.STARTER));
 
-        addNewPokemon(new Baneep());
-        addNewPokemon(new Bannawk());
-        addNewPokemon(new Phoenan());
+        addNewPokemon(new Baneep().addLabels(Label.STARTER));
+        addNewPokemon(new Bannawk().addLabels(Label.STARTER));
+        addNewPokemon(new Phoenan().addLabels(Label.STARTER));
 
-        addNewPokemon(new Instick());
-        addNewPokemon(new Inscepter());
-        addNewPokemon(new Chloradise());
+        addNewPokemon(new Instick().addLabels(Label.STARTER));
+        addNewPokemon(new Inscepter().addLabels(Label.STARTER));
+        addNewPokemon(new Chloradise().addLabels(Label.STARTER));
 
-        addNewPokemon(new Nawdile());
-        addNewPokemon(new Aliblador());
-        addNewPokemon(new Razorvile());
+        addNewPokemon(new Nawdile().addLabels(Label.STARTER));
+        addNewPokemon(new Aliblador().addLabels(Label.STARTER));
+        addNewPokemon(new Razorvile().addLabels(Label.STARTER));
 
         //Fire
-        addNewPokemon(new Scorchet());
-        addNewPokemon(new Torchet());
-        addNewPokemon(new Regalient());
+        addNewPokemon(new Scorchet().addLabels(Label.STARTER));
+        addNewPokemon(new Torchet().addLabels(Label.STARTER));
+        addNewPokemon(new Regalient().addLabels(Label.STARTER));
 
-        addNewPokemon(new Vulkidna());
-        addNewPokemon(new Heatreme());
-        addNewPokemon(new Ekiama());
+        addNewPokemon(new Vulkidna().addLabels(Label.STARTER));
+        addNewPokemon(new Heatreme().addLabels(Label.STARTER));
+        addNewPokemon(new Ekiama().addLabels(Label.STARTER));
 
-        addNewPokemon(new Ruflame());
-        addNewPokemon(new Reparch());
-        addNewPokemon(new Slymander());
+        addNewPokemon(new Ruflame().addLabels(Label.STARTER));
+        addNewPokemon(new Reparch().addLabels(Label.STARTER));
+        addNewPokemon(new Slymander().addLabels(Label.STARTER));
 
-        addNewPokemon(new Barkindle());
-        addNewPokemon(new Wolflaze());
-        addNewPokemon(new Wolverize());
+        addNewPokemon(new Barkindle().addLabels(Label.STARTER));
+        addNewPokemon(new Wolflaze().addLabels(Label.STARTER));
+        addNewPokemon(new Wolverize().addLabels(Label.STARTER));
 
         //Water
-        addNewPokemon(new Finjoy());
-        addNewPokemon(new Finlock());
-        addNewPokemon(new Gandolph());
+        addNewPokemon(new Finjoy().addLabels(Label.STARTER));
+        addNewPokemon(new Finlock().addLabels(Label.STARTER));
+        addNewPokemon(new Gandolph().addLabels(Label.STARTER));
 
-        addNewPokemon(new Pumpel());
-        addNewPokemon(new Hydrank());
-        addNewPokemon(new Hydromedary());
+        addNewPokemon(new Pumpel().addLabels(Label.STARTER));
+        addNewPokemon(new Hydrank().addLabels(Label.STARTER));
+        addNewPokemon(new Hydromedary().addLabels(Label.STARTER));
 
-        addNewPokemon(new Caimar());
-        addNewPokemon(new Torpeed());
-        addNewPokemon(new Damasoar());
+        addNewPokemon(new Caimar().addLabels(Label.STARTER));
+        addNewPokemon(new Torpeed().addLabels(Label.STARTER));
+        addNewPokemon(new Damasoar().addLabels(Label.STARTER));
 
-        addNewPokemon(new Watuber());
-        addNewPokemon(new Berswade());
-        addNewPokemon(new Chambrawl());
+        addNewPokemon(new Watuber().addLabels(Label.STARTER));
+        addNewPokemon(new Berswade().addLabels(Label.STARTER));
+        addNewPokemon(new Chambrawl().addLabels(Label.STARTER));
 
         addNewPokemon(new Roachem());
         addNewPokemon(new Enkroach());
@@ -269,20 +269,20 @@ public class Atlas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mammolaya());
         addNewPokemon(new Mesoth());
         addNewPokemon(new Megatherice());
-        addNewPokemon(new Paow());
-        addNewPokemon(new Ganpaow());
-        addNewPokemon(new Yanpaow());
+        addNewPokemon(new Paow().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Ganpaow().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Yanpaow().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Beaniscule());
         addNewPokemon(new Beanormous());
         addNewPokemon(new Visclaw());
         addNewPokemon(new Edifierce());
-        addNewPokemon(new Aurorelk());
-        addNewPokemon(new Phanfrica());
-        addNewPokemon(new Penguinsula());
-        addNewPokemon(new Phanta());
-        addNewPokemon(new Lepiterros());
-        addNewPokemon(new Orotolas());
-        addNewPokemon(new Devilicious());
+        addNewPokemon(new Aurorelk().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Phanfrica().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Penguinsula().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Phanta().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Lepiterros().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Orotolas().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Devilicious().addLabels(Label.MYTHICAL));
 
     }
 

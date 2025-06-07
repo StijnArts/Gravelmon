@@ -16,30 +16,30 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Kididna());   
-        addNewPokemon(new Hididna());   
-        addNewPokemon(new Wreckidna());
-        addNewPokemon(new Platykid());   
-        addNewPokemon(new Platysus());   
-        addNewPokemon(new Searopod());
-        addNewPokemon(new Bwibble());   
-        addNewPokemon(new Sailizard());   
-        addNewPokemon(new Dracurrent());
+        addNewPokemon(new Kididna().addLabels(Label.STARTER));
+        addNewPokemon(new Hididna().addLabels(Label.STARTER));
+        addNewPokemon(new Wreckidna().addLabels(Label.STARTER));
+        addNewPokemon(new Platykid().addLabels(Label.STARTER));
+        addNewPokemon(new Platysus().addLabels(Label.STARTER));
+        addNewPokemon(new Searopod().addLabels(Label.STARTER));
+        addNewPokemon(new Bwibble().addLabels(Label.STARTER));
+        addNewPokemon(new Sailizard().addLabels(Label.STARTER));
+        addNewPokemon(new Dracurrent().addLabels(Label.STARTER));
         addPokedexPokemon("bulbasaur, ivysaur");
-        addNewPokemon(new Cereusaur());
+        addNewPokemon(new Cereusaur().addLabels(Label.STARTER));
         addPokedexPokemon("charmander, charmeleon");
-        addNewPokemon(new Savazard());
+        addNewPokemon(new Savazard().addLabels(Label.STARTER));
         addPokedexPokemon("squirtle, wartortle");
-        addNewPokemon(new Boltoise());
-//        addNewPokemon(new MastenianTreecko("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new MastenianGrovyle("", Aspect.MASTENIAN)); MISSING ART
-//        addNewPokemon(new Deceptile());MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new MastenianTorchic("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new MastenianCombusken("", Aspect.MASTENIAN)); MISSING ART
-//        addNewPokemon(new Henquinn()); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new MastenianMudkip("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new MastenianMarshtomp("", Aspect.MASTENIAN)); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new Chromerge());   MEMBER OF LINE NOT FINISHED
+        addNewPokemon(new Boltoise().addLabels(Label.STARTER));
+//        addNewPokemon(new MastenianTreecko("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianGrovyle("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MISSING ART
+//        addNewPokemon(new Deceptile().addLabels(Label.STARTER));MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianTorchic("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianCombusken("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MISSING ART
+//        addNewPokemon(new Henquinn().addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianMudkip("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new MastenianMarshtomp("", Aspect.MASTENIAN).addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new Chromerge().addLabels(Label.STARTER));   MEMBER OF LINE NOT FINISHED
         addNewPokemon(new Devidare(new Stats(420, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Rochpillar());
         addNewPokemon(new Roccoon());
@@ -147,17 +147,17 @@ public class Mastenia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Terratusk());
 //        addNewPokemon(new Drump()); Member of line Not Finished  
 //        addNewPokemon(new Fredoron()); Member of line Not Finished
-        addNewPokemon(new MastenianLarvitar("", Aspect.MASTENIAN));
-        addNewPokemon(new MastenianPupitar("", Aspect.MASTENIAN));
-        addNewPokemon(new Tidaltar());
-        addNewPokemon(new Palmguana(new Stats(580, StatArchetype.FAST_PHYSICAL_WALL, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Ferocice(new Stats(580, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))));
-        addNewPokemon(new Turteller(new Stats(580, StatArchetype.PHYSICAL_WALL, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Terrosect(new Stats(580, StatArchetype.MIXED_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Resurexor());
+        addNewPokemon(new MastenianLarvitar("", Aspect.MASTENIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new MastenianPupitar("", Aspect.MASTENIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Tidaltar().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Palmguana(new Stats(580, StatArchetype.FAST_PHYSICAL_WALL, List.of(StatType.DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Ferocice(new Stats(580, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Turteller(new Stats(580, StatArchetype.PHYSICAL_WALL, List.of(StatType.DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Terrosect(new Stats(580, StatArchetype.MIXED_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Resurexor().addLabels(Label.LEGENDARY));
         addNewPokemon(new Obspeedian());
         addNewPokemon(new Tecthanic());
-        addNewPokemon(new Paruwha());
+        addNewPokemon(new Paruwha().addLabels(Label.SUB_LEGENDARY));
 //        addNewPokemon(new Stunzeed());   Missing Art
     }
 

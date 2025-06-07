@@ -24,7 +24,7 @@ public class Beopup extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Beopup hunt in packs, in every pack there's an Alpha. To be Alpha they must know a certain move, if another Beopup learns that move, it can compete for the role of Alpha."),
                 List.of(new EvolutionEntry("werehide", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")), List.of(), "gravelmon:razorclaw")),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")), List.of(), "cobblemon:razor_claw")),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,23),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,11),

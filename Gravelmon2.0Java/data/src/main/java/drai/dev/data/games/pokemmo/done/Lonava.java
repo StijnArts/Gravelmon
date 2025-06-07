@@ -4,7 +4,7 @@ import drai.dev.data.pokemon.lonava.*;
 import drai.dev.data.pokemon.lonava.Dimwraith;
 import drai.dev.data.pokemon.mystis.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-//done
+//done https://pokengine.org/collections/101p1q1f/Lonava
 public class Lonava extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Lonava();
     private Lonava() {
@@ -132,9 +132,9 @@ public class Lonava extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Conedian());
         addNewPokemon(new Balloonga());
         addNewPokemon(new Aeroluga());
-        addNewPokemon(new Gobbeel());
-        addNewPokemon(new Inviseel());
-        addNewPokemon(new Auroreal());
+        addNewPokemon(new Gobbeel().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Inviseel().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Auroreal().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Blizzarcher());
         addNewPokemon(new Caprihorn());
         addNewPokemon(new Leilyne());
@@ -143,12 +143,12 @@ public class Lonava extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Eldorchard());
         addNewPokemon(new Gemolofry());
         addNewPokemon(new Appreciafin());
-        addNewPokemon(new Enchantice());
-        addNewPokemon(new Mossowl());
-        addNewPokemon(new Corobelisk());
-        addNewPokemon(new Monumoon());
-        addNewPokemon(new Faeleaf());
-        addNewPokemon(new Aetumnal());
+        addNewPokemon(new Enchantice().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Mossowl().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Corobelisk().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Monumoon().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Faeleaf().addLabels(Label.MYTHICAL));
+        addNewPokemon(new Aetumnal().addLabels(Label.MYTHICAL));
     }
 
 }

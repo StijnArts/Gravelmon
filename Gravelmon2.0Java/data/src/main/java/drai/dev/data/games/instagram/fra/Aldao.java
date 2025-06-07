@@ -20,15 +20,15 @@ public class Aldao extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Pupfleur());
-        addNewPokemon(new Corfleur());
-        addNewPokemon(new Wolfleur());
-        addNewPokemon(new Cubby());
-        addNewPokemon(new Tigember());
-        addNewPokemon(new Tigerage());
-        addNewPokemon(new Nymbble().fishingSpawnFromExisting());
-        addNewPokemon(new Nymbubble());
-        addNewPokemon(new Dracodont());
+        addNewPokemon(new Pupfleur().addLabels(Label.STARTER));
+        addNewPokemon(new Corfleur().addLabels(Label.STARTER));
+        addNewPokemon(new Wolfleur().addLabels(Label.STARTER));
+        addNewPokemon(new Cubby().addLabels(Label.STARTER));
+        addNewPokemon(new Tigember().addLabels(Label.STARTER));
+        addNewPokemon(new Tigerage().addLabels(Label.STARTER));
+        addNewPokemon(new Nymbble().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Nymbubble().addLabels(Label.STARTER));
+        addNewPokemon(new Dracodont().addLabels(Label.STARTER));
 
         addNewPokemon(new Lilbil());
         addNewPokemon(new Megabil());
@@ -142,10 +142,10 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Manticrown());
         addNewPokemon(new Glowbug());
         addNewPokemon(new Glitterbulb());
-        addNewPokemon(new Branceros()); //fossil
-        addNewPokemon(new Trenceros());
-        addNewPokemon(new Icephan()); //fossil
-        addNewPokemon(new Mastogleys());
+        addNewPokemon(new Branceros().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Trenceros().addLabels(Label.FOSSIL));
+        addNewPokemon(new Icephan().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Mastogleys().addLabels(Label.FOSSIL));
         addNewPokemon(new Scub());
         addNewPokemon(new Pangoleo());
         addNewPokemon(new Lacry());
@@ -157,12 +157,12 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bugleef());
         addNewPokemon(new Insleef());
         addNewPokemon(new Arnistix());
-        addNewPokemon(new Chicomet());
-        addNewPokemon(new Asterave());
-        addNewPokemon(new Astradarna());
-        addNewPokemon(new Lakankilat());
-        addNewPokemon(new Lakandagat().fishingSpawnFromExisting());
-        addNewPokemon(new Lakanlinog());
+        addNewPokemon(new Chicomet().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Asterave().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Astradarna().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Lakankilat().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Lakandagat().fishingSpawnFromExisting().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Lakanlinog().addLabels(Label.LEGENDARY));
     }
 
 }

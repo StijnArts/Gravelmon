@@ -15,6 +15,7 @@ public class PokemonSpawnDataBuilder {
     }
 
     public List<PokemonSpawnData> build() {
+        pokemonSpawnData.validate();
         return new ArrayList<>(List.of(pokemonSpawnData));
     }
 
@@ -160,6 +161,18 @@ public class PokemonSpawnDataBuilder {
     public PokemonSpawnDataBuilder eeveelution() {
 //        SpawnPool.ULTRA_RARE, 44, 56, 1.0
         this.setMinLevel(44).setMaxLevel(56).setWeight(1.0).setPool(SpawnPool.ULTRA_RARE);
+        return this;
+    }
+
+    public PokemonSpawnDataBuilder abnormality() {
+//        SpawnPool.ULTRA_RARE, 44, 56, 1.0
+        this.setMinLevel(50).setMaxLevel(70).setWeight(.05).setPool(SpawnPool.ULTRA_RARE);
+        return this;
+    }
+
+    public PokemonSpawnDataBuilder mythical() {//TODO
+//        SpawnPool.ULTRA_RARE, 44, 56, 1.0
+        this.setMinLevel(50).setMaxLevel(70).setWeight(.05).setPool(SpawnPool.ULTRA_RARE);
         return this;
     }
 

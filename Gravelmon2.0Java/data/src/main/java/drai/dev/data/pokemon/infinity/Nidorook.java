@@ -134,6 +134,7 @@ public class Nidorook extends Pokemon {
         getPosingFileData().setPortraitData( 1.2f, new Vector3(-.7, 0.4, 0));
         getPosingFileData().setProfileData( .5f, new Vector3(0, 1, 0));
         getPosingFileData().setBasicHead();
+        getPosingFileData().head = "other_head_bone";
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
                 AnimationData.walkingAnimation().withLook().withBlink(),

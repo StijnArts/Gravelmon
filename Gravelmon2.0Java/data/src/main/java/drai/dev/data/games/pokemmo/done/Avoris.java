@@ -8,21 +8,22 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-//Done
+//Done https://pokengine.org/collections/10584gw0/Avoris
 public class Avoris extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Avoris();
     private Avoris() {
         super("Avoris");
     }
 
+    //todo instagram/artwork
     @Override
     public void registerPokemon() {
-//        addNewPokemon(new Taramby()); Member of Line not Finished
-//        addNewPokemon(new Rambliss()); Member of Line not Finished
-//        addNewPokemon(new Scorxio()); Member of Line not Finished
-//        addNewPokemon(new Toxiscore()); Member of Line not Finished
-//        addNewPokemon(new Ekino()); Member of Line not Finished
-//        addNewPokemon(new Wizquid()); Member of Line not Finished
+//        addNewPokemon(new Taramby().addLabels(Label.STARTER)); Member of Line not Finished
+//        addNewPokemon(new Rambliss().addLabels(Label.STARTER)); Member of Line not Finished
+//        addNewPokemon(new Scorxio().addLabels(Label.STARTER)); Member of Line not Finished
+//        addNewPokemon(new Toxiscore().addLabels(Label.STARTER)); Member of Line not Finished
+//        addNewPokemon(new Ekino().addLabels(Label.STARTER)); Member of Line not Finished
+//        addNewPokemon(new Wizquid().addLabels(Label.STARTER)); Member of Line not Finished
         addNewPokemon(new Fyrmite());
         addNewPokemon(new Carabomb());
         addNewPokemon(new Bombeezle());

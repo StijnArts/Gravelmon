@@ -3,6 +3,7 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.orbis.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -138,10 +139,10 @@ public class Orbis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Orcloud());
         addNewPokemon(new Deye());
         addNewPokemon(new Pyroulette());
-        addNewPokemon(new Aerling());
-        addNewPokemon(new Cyclowyrm());
-        addNewPokemon(new Xephyron());
-        addNewPokemon(new Coralegion());
+        addNewPokemon(new Aerling().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Cyclowyrm().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Xephyron().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Coralegion().addLabels(Label.LEGENDARY));
     }
 
 }

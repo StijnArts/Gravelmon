@@ -12,15 +12,15 @@ public class ChaosInVesita extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new VesitanChespin("", Aspect.VESITAN));
-        addNewPokemon(new VesitanQuilladin("", Aspect.VESITAN));
-        addNewPokemon(new VesitanChesnaught("", Aspect.VESITAN));
-        addNewPokemon(new VesitanFennekin("", Aspect.VESITAN));
-        addNewPokemon(new VesitanBraixen("", Aspect.VESITAN));
-        addNewPokemon(new VesitanDelphox("", Aspect.VESITAN));
-        addNewPokemon(new VesitanFroakie("", Aspect.VESITAN));
-        addNewPokemon(new VesitanFrogadier("", Aspect.VESITAN));
-        addNewPokemon(new VesitanGreninja("", Aspect.VESITAN));
+        addNewPokemon(new VesitanChespin("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanQuilladin("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanChesnaught("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanFennekin("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanBraixen("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanDelphox("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanFroakie("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanFrogadier("", Aspect.VESITAN).addLabels(Label.STARTER));
+        addNewPokemon(new VesitanGreninja("", Aspect.VESITAN).addLabels(Label.STARTER));
         addNewPokemon(new VesitanScatterbug("", Aspect.VESITAN));
         addNewPokemon(new VesitanSpewpa("", Aspect.VESITAN));
         addNewPokemon(new VesitanVivillon("", Aspect.VESITAN));
@@ -45,9 +45,9 @@ public class ChaosInVesita extends drai.dev.data.games.registry.Game {
         addNewPokemon(new VesitanHeliolisk("", Aspect.VESITAN));
         addNewPokemon(new VesitanHawlucha("", Aspect.VESITAN));
         addNewPokemon(new VesitanDedenne("", Aspect.VESITAN));
-        addNewPokemon(new VesitanGoomy("", Aspect.VESITAN));
-        addNewPokemon(new VesitanSliggoo("", Aspect.VESITAN));
-        addNewPokemon(new VesitanGoodra("", Aspect.VESITAN));
+        addNewPokemon(new VesitanGoomy("", Aspect.VESITAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new VesitanSliggoo("", Aspect.VESITAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new VesitanGoodra("", Aspect.VESITAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new VesitanBergmite("", Aspect.VESITAN));
         addNewPokemon(new VesitanAvalugg("", Aspect.VESITAN));
         addNewPokemon(new VesitanNoibat("", Aspect.VESITAN));

@@ -148,6 +148,7 @@ public class DeltaCharizard extends Pokemon {
                 0.35, 0.3,
                 List.of());
         this.setLangFileName("Charizard");
+        setCanBreatheUnderwater(true);
         
         this.setBaseScale(1.35);
         this.setHitbox(1,2.1);

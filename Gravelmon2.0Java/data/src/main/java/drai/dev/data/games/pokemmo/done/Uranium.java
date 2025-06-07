@@ -11,12 +11,12 @@ public class Uranium extends Game {
     private Uranium() { super("Uranium"); }
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Orchynx());
-        addNewPokemon(new Metalynx());
-        addNewPokemon(new Raptorch());
-        addNewPokemon(new Archilles());
-        addNewPokemon(new Eletux());
-        addNewPokemon(new Electruxo());
+        addNewPokemon(new Orchynx().addLabels(Label.STARTER));
+        addNewPokemon(new Metalynx().addLabels(Label.STARTER));
+        addNewPokemon(new Raptorch().addLabels(Label.STARTER));
+        addNewPokemon(new Archilles().addLabels(Label.STARTER));
+        addNewPokemon(new Eletux().addLabels(Label.STARTER));
+        addNewPokemon(new Electruxo().addLabels(Label.STARTER));
         addNewPokemon(new Chyinmunk());
         addNewPokemon(new Kinetmunk());
         addNewPokemon(new Birbie());
@@ -100,7 +100,7 @@ public class Uranium extends Game {
         addNewPokemon(new Jackdeary());
         addNewPokemon(new Winotinger());
         addNewPokemon(new Duplicat());
-        addNewPokemon(new Nucleon());
+        addNewPokemon(new Nucleon().addLabels(Label.EEVEELUTION));
         addNewPokemon(new Ratsy());
         addNewPokemon(new Raffiti());
         addNewPokemon(new Gargryph());
@@ -146,26 +146,26 @@ public class Uranium extends Game {
         addNewPokemon(new Sheebit());
         addNewPokemon(new Terrabbit());
         addNewPokemon(new Laissure());
-        addNewPokemon(new Volchik());
-        addNewPokemon(new Voltasu());
-        addNewPokemon(new Yatagaryu());
-        addNewPokemon(new Devimp());
-        addNewPokemon(new Fallengel());
-        addNewPokemon(new Beliaddon());
+        addNewPokemon(new Volchik().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Voltasu().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Yatagaryu().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Devimp().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Fallengel().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Beliaddon().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Seikamater());
-        addNewPokemon(new Garlikid());
-        addNewPokemon(new Baitatao());
-        addNewPokemon(new Leviathao());
-        addNewPokemon(new Krakanao());
-        addNewPokemon(new Lanthan());
-        addNewPokemon(new Actan());
-        var urayne = new Urayne();
+        addNewPokemon(new Garlikid().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Baitatao().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Leviathao().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Krakanao().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Lanthan().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Actan().addLabels(Label.LEGENDARY));
+        var urayne = new Urayne().addLabels(Label.LEGENDARY);
         addNewPokemon(urayne);
-        addNewPokemon(new BetaUrayne("", Aspect.BETA));
+        addNewPokemon(new BetaUrayne("", Aspect.BETA).addLabels(Label.LEGENDARY));
         removePokedexPokemon("urayne-beta");
-        addNewPokemon(new Aotius());
-        addNewPokemon(new Mutios());
-        addNewPokemon(new Zephy());
+        addNewPokemon(new Aotius().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Mutios().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Zephy().addLabels(Label.MYTHICAL));
 
     }
 }

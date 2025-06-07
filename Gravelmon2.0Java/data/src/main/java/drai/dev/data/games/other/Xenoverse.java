@@ -16,18 +16,18 @@ public class Xenoverse extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Shyleon());
-        addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL));
-        addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL));
-        addNewPokemon(new ShyleonAstral("", Aspect.ASTRAL));
-        addNewPokemon(new Trishout());
-        addNewPokemon(new TrishoutTerrestrial("", Aspect.TERRESTRIAL));
-        addNewPokemon(new TrishoutXenoversal("", Aspect.XENOVERSAL));
-        addNewPokemon(new TrishoutAstral("", Aspect.ASTRAL));
-        addNewPokemon(new Shulong());
-        addNewPokemon(new ShulongTerrestrial("", Aspect.TERRESTRIAL));
-        addNewPokemon(new ShulongXenoversal("", Aspect.XENOVERSAL));
-        addNewPokemon(new ShulongAstral("", Aspect.ASTRAL));
+        addNewPokemon(new Shyleon().addLabels(Label.STARTER));
+        addNewPokemon(new ShyleonTerrestrial("", Aspect.TERRESTRIAL).addLabels(Label.STARTER));
+        addNewPokemon(new ShyleonXenoversal("", Aspect.XENOVERSAL).addLabels(Label.STARTER));
+        addNewPokemon(new ShyleonAstral("", Aspect.ASTRAL).addLabels(Label.STARTER));
+        addNewPokemon(new Trishout().addLabels(Label.STARTER));
+        addNewPokemon(new TrishoutTerrestrial("", Aspect.TERRESTRIAL).addLabels(Label.STARTER));
+        addNewPokemon(new TrishoutXenoversal("", Aspect.XENOVERSAL).addLabels(Label.STARTER));
+        addNewPokemon(new TrishoutAstral("", Aspect.ASTRAL).addLabels(Label.STARTER));
+        addNewPokemon(new Shulong().addLabels(Label.STARTER));
+        addNewPokemon(new ShulongTerrestrial("", Aspect.TERRESTRIAL).addLabels(Label.STARTER));
+        addNewPokemon(new ShulongXenoversal("", Aspect.XENOVERSAL).addLabels(Label.STARTER));
+        addNewPokemon(new ShulongAstral("", Aspect.ASTRAL).addLabels(Label.STARTER));
         addNewPokemon(new Sparkowl());
         addNewPokemon(new Shawkbird());
         addNewPokemon(new Harrowk());
@@ -99,30 +99,30 @@ public class Xenoverse extends Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Bandeon());
-        addNewPokemon(new Scaleon());
+        addNewPokemon(new Bandeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Scaleon().addLabels(Label.EEVEELUTION));
         addPokedexPokemon("porygon," +
                 "porygon2," +
                 "porygonz");
         addNewPokemon(new PorygonWES());
-        addNewPokemon(new Dusmee());
-        addNewPokemon(new Egohiss());
-        addNewPokemon(new Egorgeon());
-        addNewPokemon(new Chiripe());
-        addNewPokemon(new Batnana());
-        addNewPokemon(new Vesperfum());
-        addNewPokemon(new Croakling());
-        addNewPokemon(new Bullverin());
-        addNewPokemon(new Croakraze());
+        addNewPokemon(new Dusmee().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Egohiss().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Egorgeon().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Chiripe().addLabels(Label.STARTER));
+        addNewPokemon(new Batnana().addLabels(Label.STARTER));
+        addNewPokemon(new Vesperfum().addLabels(Label.STARTER));
+        addNewPokemon(new Croakling().addLabels(Label.STARTER));
+        addNewPokemon(new Bullverin().addLabels(Label.STARTER));
+        addNewPokemon(new Croakraze().addLabels(Label.STARTER));
 
-        addNewPokemon(new Inflant());
-        addNewPokemon(new Floatusk());
-        addNewPokemon(new Swelephant());
-        addNewPokemon(new Luxflon());
-        Pokemon dragalisk = new Dragalisk();
-        addNewPokemon(dragalisk);
-        addNewPokemon(new Dielebi());
-        addNewPokemon(new Reginalous());
+        addNewPokemon(new Inflant().addLabels(Label.STARTER));
+        addNewPokemon(new Floatusk().addLabels(Label.STARTER));
+        addNewPokemon(new Swelephant().addLabels(Label.STARTER));
+        addNewPokemon(new Luxflon().addLabels(Label.LEGENDARY));
+        Pokemon dragalisk = new Dragalisk().addLabels(Label.LEGENDARY);
+        addNewPokemon(dragalisk.addLabels(Label.LEGENDARY));
+        addNewPokemon(new Dielebi().addLabels(Label.MYTHICAL));
+        addNewPokemon(new Reginalous().addLabels(Label.SUB_LEGENDARY));
 
 //        addPokedexPokemon(
         addNewPokemon(new ElekidX("Elekid", Aspect.X));
@@ -155,21 +155,21 @@ public class Xenoverse extends Game {
         addNewPokemon(new MareanieX("", Aspect.X));
         addNewPokemon(new ToxapexX("Toxapex", Aspect.X));
         addNewPokemon(new GreninjaX("Greninja", Aspect.X));
-        addNewPokemon(new MewtwoX("", Aspect.X));
+        addNewPokemon(new MewtwoX("", Aspect.X).addLabels(Label.LEGENDARY));
         addNewPokemon(new RaichuX("", Aspect.X));
         addNewPokemon(new BisharpX("", Aspect.X));
         addNewPokemon(new ScovileX("", Aspect.X));
-        addNewPokemon(new TyranitarX("Tyranitar", Aspect.X));
+        addNewPokemon(new TyranitarX("Tyranitar", Aspect.X).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new DittoX("", Aspect.X));
         addNewPokemon(new AegislashX("Aegislash", Aspect.X));
-        addNewPokemon(new TapuFiniX("", Aspect.X));
-        addNewPokemon(new TapuLeleX("", Aspect.X));
-        addNewPokemon(new TapuKokoX("", Aspect.X));
-        addNewPokemon(new TapuBuluX("", Aspect.X));
-        addNewPokemon(new DragaliskX("", Aspect.X));
-        addNewPokemon(new ShyleonX("", Aspect.X));
-        addNewPokemon(new TrishoutX("", Aspect.X));
-        addNewPokemon(new ShulongX("", Aspect.X));
+        addNewPokemon(new TapuFiniX("", Aspect.X).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new TapuLeleX("", Aspect.X).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new TapuKokoX("", Aspect.X).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new TapuBuluX("", Aspect.X).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new DragaliskX("", Aspect.X).addLabels(Label.LEGENDARY));
+        addNewPokemon(new ShyleonX("", Aspect.X).addLabels(Label.STARTER));
+        addNewPokemon(new TrishoutX("", Aspect.X).addLabels(Label.STARTER));
+        addNewPokemon(new ShulongX("", Aspect.X).addLabels(Label.STARTER));
 
         addNewPokemon(new UnownEarth("Unown", Aspect.EARTH));
         addNewPokemon(new UnownXenoverse("Unown", Aspect.XENOVERSE));

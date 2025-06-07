@@ -15,15 +15,15 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        addNewPokemon(new Fruibat()); //Member of line not Finished
-//        addNewPokemon(new Battack()); //Missing Art
-//        addNewPokemon(new Batornado()); //Member of line not Finished
-//        addNewPokemon(new 420471());   Missing Art
-//        addNewPokemon(new 455818());   Missing Art
-//        addNewPokemon(new Komotox());   //Member of line not Finished
-        addNewPokemon(new Pubble());
-        addNewPokemon(new Bouldog());
-        addNewPokemon(new Vinagruff());
+//        addNewPokemon(new Fruibat().addLabels(Label.STARTER)); //Member of line not Finished
+//        addNewPokemon(new Battack().addLabels(Label.STARTER)); //Member of line not Finished
+//        addNewPokemon(new Batornado().addLabels(Label.STARTER)); //Member of line not Finished
+//        addNewPokemon(new 420471().addLabels(Label.STARTER));   Missing Art
+//        addNewPokemon(new 455818().addLabels(Label.STARTER));   Missing Art
+//        addNewPokemon(new Komotox().addLabels(Label.STARTER));   //Member of line not Finished
+        addNewPokemon(new Pubble().addLabels(Label.STARTER));
+        addNewPokemon(new Bouldog().addLabels(Label.STARTER));
+        addNewPokemon(new Vinagruff().addLabels(Label.STARTER));
         addNewPokemon(new Punibara());
         addNewPokemon(new Dopibara());
         var coathief = new Coathief();
@@ -215,9 +215,9 @@ public class Okeno extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Pyrotile()); //Missing Art
 //        addNewPokemon(new Tropiguana()); //Missing Art
 //        addNewPokemon(new Brazilisk()); //Missing Art
-        addNewPokemon(new Selveger());
-        addNewPokemon(new Hoatrex());
-        addNewPokemon(new Gnetic());
+        addNewPokemon(new Selveger().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Hoatrex().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Gnetic().addLabels(Label.MYTHICAL));
 
     }
 

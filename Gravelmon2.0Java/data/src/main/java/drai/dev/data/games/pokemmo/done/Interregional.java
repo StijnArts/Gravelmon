@@ -16,15 +16,15 @@ public class Interregional extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Leafrog());
-        addNewPokemon(new Ribbush());
-        addNewPokemon(new Agacloakis());
-        addNewPokemon(new Giraze());
-        addNewPokemon(new Bonfah());
-        addNewPokemon(new Magmaraffa());
-        addNewPokemon(new Damphant());
-        addNewPokemon(new Droophant());
-        addNewPokemon(new Cyclodon());
+        addNewPokemon(new Leafrog().addLabels(Label.STARTER));
+        addNewPokemon(new Ribbush().addLabels(Label.STARTER));
+        addNewPokemon(new Agacloakis().addLabels(Label.STARTER));
+        addNewPokemon(new Giraze().addLabels(Label.STARTER));
+        addNewPokemon(new Bonfah().addLabels(Label.STARTER));
+        addNewPokemon(new Magmaraffa().addLabels(Label.STARTER));
+        addNewPokemon(new Damphant().addLabels(Label.STARTER));
+        addNewPokemon(new Droophant().addLabels(Label.STARTER));
+        addNewPokemon(new Cyclodon().addLabels(Label.STARTER));
         addNewPokemon(new Solcorn());
         addNewPokemon(new Ferrutail());
         addNewPokemon(new Tweejay());
@@ -113,30 +113,30 @@ public class Interregional extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Shocalf());
         addNewPokemon(new Voltuff());
         addNewPokemon(new Chargibull());
-        addNewPokemon(new Sebrium());
-        addNewPokemon(new Kirastrum());
-        addNewPokemon(new Vitoshum());
+        addNewPokemon(new Sebrium().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kirastrum().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Vitoshum().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Bubblea());
         addNewPokemon(new Chesture());
         addNewPokemon(new Acard());
         addNewPokemon(new Hiveum());
         addNewPokemon(new Gigantoid());
 //        addNewPokemon(new Exwahyzee()); Missing Art
-        addNewPokemon(new Periyeti());
-        addNewPokemon(new Magness());
-        addNewPokemon(new Tyranntric());
-        addNewPokemon(new Phoeuck());
-        addNewPokemon(new Metamarine());
-        addNewPokemon(new Mechrazore());
-        addNewPokemon(new Slanbolos());
-        addNewPokemon(new Oceausky());
-        addNewPokemon(new Nifflom());
-        addNewPokemon(new InterianGenesect("", Aspect.INTERIAN));
-        addNewPokemon(new InterianArceus("", Aspect.INTERIAN));
-        addNewPokemon(new InterianPiplup("", Aspect.INTERIAN));
-        addNewPokemon(new InterianPrinplup("", Aspect.INTERIAN));
+        addNewPokemon(new Periyeti().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Magness().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Tyranntric().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Phoeuck().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Metamarine().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Mechrazore().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Slanbolos().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Oceausky().addLabels(Label.MYTHICAL));
+        addNewPokemon(new Nifflom().addLabels(Label.MYTHICAL));
+        addNewPokemon(new InterianGenesect("", Aspect.INTERIAN).addLabels(Label.MYTHICAL));
+        addNewPokemon(new InterianArceus("", Aspect.INTERIAN).addLabels(Label.MYTHICAL));
+        addNewPokemon(new InterianPiplup("", Aspect.INTERIAN).addLabels(Label.STARTER));
+        addNewPokemon(new InterianPrinplup("", Aspect.INTERIAN).addLabels(Label.STARTER));
         addNewPokemon(new InterianEmpoleon("", Aspect.INTERIAN, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_ATTACK))));
+                List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
     }
 
 }

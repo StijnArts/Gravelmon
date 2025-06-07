@@ -101,7 +101,7 @@ public class Squink extends Pokemon {
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());
         this.setCanSwim(true);

@@ -11,18 +11,18 @@ public class Avalos extends drai.dev.data.games.registry.Game {
     private Avalos() {
         super("Fliga");
     }
-
+    //todo instagram/artwork
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Aggronut());
-        addNewPokemon(new Kerbunsta());
-        addNewPokemon(new Harebinger());
-        addNewPokemon(new Meltuff());
-        addNewPokemon(new Magrumble());
-        addNewPokemon(new Obsidious());
-        addNewPokemon(new Nibblish());
-        addNewPokemon(new Vicera());
-        addNewPokemon(new Marawder());
+        addNewPokemon(new Aggronut().addLabels(Label.STARTER));
+        addNewPokemon(new Kerbunsta().addLabels(Label.STARTER));
+        addNewPokemon(new Harebinger().addLabels(Label.STARTER));
+        addNewPokemon(new Meltuff().addLabels(Label.STARTER));
+        addNewPokemon(new Magrumble().addLabels(Label.STARTER));
+        addNewPokemon(new Obsidious().addLabels(Label.STARTER));
+        addNewPokemon(new Nibblish().addLabels(Label.STARTER));
+        addNewPokemon(new Vicera().addLabels(Label.STARTER));
+        addNewPokemon(new Marawder().addLabels(Label.STARTER));
         addNewPokemon(new Squirelutton());
         addNewPokemon(new Muncheek());
         addNewPokemon(new Scuffbill());
@@ -127,26 +127,26 @@ public class Avalos extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Sobalo());   Missing Art
         addNewPokemon(new Bowvine());
         addNewPokemon(new Stingpin());
-        addNewPokemon(new Slith());
-        addNewPokemon(new Amalgin());
-        addNewPokemon(new Chimericon());
+        addNewPokemon(new Slith().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Amalgin().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Chimericon().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Growlain());
 //        addNewPokemon(new Tristous());   Missing Art
 //        addNewPokemon(new Lancarot());   Missing Art
 //        addNewPokemon(new Bedavare());   Missing Art
-        addNewPokemon(new Morgous());
+        addNewPokemon(new Morgous().addLabels(Label.LEGENDARY));
 //        addNewPokemon(new Merlinus());   Missing Art
 //        addNewPokemon(new Galahaus());   Missing Art
 //        addNewPokemon(new Arthuriac());   Missing Art
-        addNewPokemon(new Marvelisk());
-        addNewPokemon(new Calligraphis());
-        addNewPokemon(new Andracarina());
-        addNewPokemon(new Hullk());
-        addNewPokemon(new Julimese());
-        addNewPokemon(new Newcleaur());
-        addNewPokemon(new Chilormangur());
-        addNewPokemon(new Operlogica());
-        addNewPokemon(new Wushenli());
+        addNewPokemon(new Marvelisk().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Calligraphis().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Andracarina().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Hullk().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Julimese().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Newcleaur().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Chilormangur().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Operlogica().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Wushenli().addLabels(Label.ULTRA_BEAST));
     }
 
 }

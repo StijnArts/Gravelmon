@@ -24,6 +24,8 @@ public abstract class WorldRepresentablePokemon {
     protected Stats stats;
     protected Type primaryType;
     protected Type secondaryType;
+    protected final List<Ability> abilities = new ArrayList<>();
+    protected Ability hiddenAbility;
     protected String gameName;
     protected String name;
     protected File textureDirectory;
@@ -410,5 +412,13 @@ public abstract class WorldRepresentablePokemon {
 
     public void markReady(){
         isReady = true;
+    }
+
+    public String getPrintableAbilities() {
+        var abilities = String.join(", ", this.abilities.stream().map(Ability::getName).toList());
+        if(hiddenAbility != null && !this.abilities.contains(hiddenAbility)) {
+            abilities+= ",\n" + hiddenAbility.getName()+" (Hidden)";
+        }
+        return abilities;
     }
 }

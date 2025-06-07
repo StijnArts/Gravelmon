@@ -133,7 +133,7 @@ public class MegaRegistry {
                         Ability.STRONG_JAW,
                         18, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
                         .addPalette(new MegaStonePalette("#5e697b","#bae6ea","#c4b59f")),
-                new MegaEvolution("cryodra",
+                new MegaEvolution("cryodrago",
                         Type.ICE,Type.DRAGON,
                         new Stats(90,60,90,95,145,160),
                         Ability.MAGICBOUNCE,
@@ -1252,8 +1252,12 @@ public class MegaRegistry {
                         56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ca460c", "#ffc500", "#51473e"))
                         .setMegaName("mega_fire").onProcessResources(pokemon->{
-                            pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry").addLayer(new SimpleTextureLayerData("glow", "steelix_mega_emissive",
-                                    Optional.of(true), Optional.of(true), true, false));
+                            pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry")
+                                    .addLayer(new SimpleTextureLayerData("glow", "steelix_mega_emissive",
+                                    Optional.of(true), Optional.of(true), true, false))
+                                    .addLayer(new AnimatedLayerData("flame", List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4"), 10,
+                                                    true, Optional.of(true), Optional.of(false), false, true)
+                                    );
                             pokemon.getPosingFileData().setAnimationFileName("mega_steelix_fire");
                             pokemon.getPosingFileData().setPortraitData(0.61f, new Vector3(-0.4, 1.77, 0));
                             pokemon.getPosingFileData().setProfileData(0.4f, new Vector3(-0.1, 1.12, 0));

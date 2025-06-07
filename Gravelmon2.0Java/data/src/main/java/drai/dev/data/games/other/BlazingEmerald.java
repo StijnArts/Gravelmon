@@ -25,7 +25,7 @@ public class BlazingEmerald extends Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Oreon());
+        addNewPokemon(new Oreon().addLabels(Label.EEVEELUTION));
         addNewPokemon(new HoennianVenonat("", Aspect.HOENNIAN));
         addNewPokemon(new Muramoth());
         addNewPokemon(new Lucemoth());
@@ -74,13 +74,13 @@ public class BlazingEmerald extends Game {
         addPokedexPokemon("remoraid, octillery");
         addNewPokemon(new Slingray());
         addNewPokemon(new Bawlfrog());
-        addNewPokemon(new HoennianDreepy("", Aspect.HOENNIAN));
-        addNewPokemon(new HoennianDrakloak("", Aspect.HOENNIAN));
-        addNewPokemon(new HoennianDragapult("", Aspect.HOENNIAN));
-        addNewPokemon(new HoennianRegigigas("", Aspect.HOENNIAN));
-        addNewPokemon(new Vitellion());
-        addNewPokemon(new Crawb());
-        addNewPokemon(new Metunn());
+        addNewPokemon(new HoennianDreepy("", Aspect.HOENNIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new HoennianDrakloak("", Aspect.HOENNIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new HoennianDragapult("", Aspect.HOENNIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new HoennianRegigigas("", Aspect.HOENNIAN).addLabels(Label.LEGENDARY));
+        addNewPokemon(new Vitellion().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Crawb().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Metunn().addLabels(Label.LEGENDARY));
 
     }
 }

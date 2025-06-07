@@ -17,15 +17,15 @@ public class Insurgence extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new DeltaBulbasaur("", Aspect.DELTA));
-        addNewPokemon(new DeltaIvysaur("", Aspect.DELTA));
-        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA));
-        addNewPokemon(new DeltaCharmander("", Aspect.DELTA));
-        addNewPokemon(new DeltaCharmeleon("", Aspect.DELTA));
-        addNewPokemon(new DeltaCharizard("", Aspect.DELTA));
-        addNewPokemon(new DeltaSquirtle("", Aspect.DELTA));
-        addNewPokemon(new DeltaWartortle("", Aspect.DELTA));
-        addNewPokemon(new DeltaBlastoise("", Aspect.DELTA));
+        addNewPokemon(new DeltaBulbasaur("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaIvysaur("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaVenusaur("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaCharmander("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaCharmeleon("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaCharizard("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaSquirtle("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaWartortle("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaBlastoise("", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaPidgey("", Aspect.DELTA));
         addNewPokemon(new DeltaPidgeotto("", Aspect.DELTA));
         addNewPokemon(new DeltaPidgeot("", Aspect.DELTA));
@@ -54,12 +54,12 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaKabuto("", Aspect.DELTA));
         addNewPokemon(new DeltaKabutops("", Aspect.DELTA));
         addNewPokemon(new DeltaSnorlax("", Aspect.DELTA));
-        addNewPokemon(new DeltaDratini("", Aspect.DELTA));
-        addNewPokemon(new DeltaDragonair("", Aspect.DELTA));
-        addNewPokemon(new DeltaDragonite("", Aspect.DELTA));
-        addNewPokemon(new DeltaCyndaquil("Cyndaquil", Aspect.DELTA));
-        addNewPokemon(new DeltaQuilava("Quilava", Aspect.DELTA));
-        addNewPokemon(new DeltaTyphlosion("Typhlosion", Aspect.DELTA));
+        addNewPokemon(new DeltaDratini("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaDragonair("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaDragonite("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaCyndaquil("Cyndaquil", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaQuilava("Quilava", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaTyphlosion("Typhlosion", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaHoothoot("Hoothoot", Aspect.DELTA));
         addNewPokemon(new DeltaNoctowl("Noctowl", Aspect.DELTA));
         addNewPokemon(new DeltaChinchou("Chinchou", Aspect.DELTA));
@@ -80,12 +80,12 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaOctillery("Octillery", Aspect.DELTA));
         addNewPokemon(new DeltaElekid("Elekid", Aspect.DELTA));
         addNewPokemon(new DeltaMagby("Magby", Aspect.DELTA));
-        addNewPokemon(new DeltaTreecko("Treecko", Aspect.DELTA));
-        addNewPokemon(new DeltaGrovyle("Grovyle", Aspect.DELTA));
-        addNewPokemon(new DeltaSceptile("Sceptile", Aspect.DELTA));
-        addNewPokemon(new DeltaTorchic("Torchic", Aspect.DELTA));
-        addNewPokemon(new DeltaCombusken("Combusken", Aspect.DELTA));
-        addNewPokemon(new DeltaBlaziken("Blaziken", Aspect.DELTA));
+        addNewPokemon(new DeltaTreecko("Treecko", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaGrovyle("Grovyle", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaSceptile("Sceptile", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaTorchic("Torchic", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaCombusken("Combusken", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaBlaziken("Blaziken", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaLotad("Lotad", Aspect.DELTA));
         addNewPokemon(new DeltaLombre("Lombre", Aspect.DELTA));
         addNewPokemon(new DeltaLudicolo("Ludicolo", Aspect.DELTA));
@@ -116,18 +116,18 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaClamperl("Clamperl", Aspect.DELTA));
         addNewPokemon(new DeltaHuntail("Huntail", Aspect.DELTA));
         addNewPokemon(new DeltaGorebyss("Gorebyss", Aspect.DELTA));
-        addNewPokemon(new DeltaSpiderBeldum("Beldum", Aspect.DELTA_SPIDER));
-        addNewPokemon(new DeltaSpiderMetang("Metang", Aspect.DELTA_SPIDER));
-        addNewPokemon(new DeltaSpiderMetagross("Metagross", Aspect.DELTA_SPIDER));
-        addNewPokemon(new DeltaRuinBeldum("Beldum", Aspect.DELTA_RUIN));
-        addNewPokemon(new DeltaRuinMetang("Metang", Aspect.DELTA_RUIN));
-        addNewPokemon(new DeltaRuinMetagross("Metagross", Aspect.DELTA_RUIN));
-        addNewPokemon(new DeltaRegirock("Regirock", Aspect.DELTA));
-        addNewPokemon(new DeltaRegice("Regice", Aspect.DELTA));
-        addNewPokemon(new DeltaRegisteel("Registeel", Aspect.DELTA));
-        addNewPokemon(new DeltaTurtwig("", Aspect.DELTA));
-        addNewPokemon(new DeltaGrotle("", Aspect.DELTA));
-        addNewPokemon(new DeltaTorterra("", Aspect.DELTA));
+        addNewPokemon(new DeltaSpiderBeldum("Beldum", Aspect.DELTA_SPIDER).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaSpiderMetang("Metang", Aspect.DELTA_SPIDER).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaSpiderMetagross("Metagross", Aspect.DELTA_SPIDER).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaRuinBeldum("Beldum", Aspect.DELTA_RUIN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaRuinMetang("Metang", Aspect.DELTA_RUIN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaRuinMetagross("Metagross", Aspect.DELTA_RUIN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaRegirock("Regirock", Aspect.DELTA).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new DeltaRegice("Regice", Aspect.DELTA).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new DeltaRegisteel("Registeel", Aspect.DELTA).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new DeltaTurtwig("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaGrotle("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaTorterra("", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaShinx("", Aspect.DELTA));
         addNewPokemon(new DeltaLuxio("", Aspect.DELTA));
         addNewPokemon(new DeltaLuxray("", Aspect.DELTA));
@@ -152,9 +152,9 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaYanmega("", Aspect.DELTA));
         addNewPokemon(new DeltaGallade("", Aspect.DELTA));
         addNewPokemon(new DeltaFroslass("", Aspect.DELTA));
-        addNewPokemon(new DeltaSnivy("", Aspect.DELTA));
-        addNewPokemon(new DeltaServine("", Aspect.DELTA));
-        addNewPokemon(new DeltaSerperior("", Aspect.DELTA));
+        addNewPokemon(new DeltaSnivy("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaServine("", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaSerperior("", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaPurrloin("", Aspect.DELTA));
         addNewPokemon(new DeltaLiepard("", Aspect.DELTA));
         addNewPokemon(new DeltaVenipede("", Aspect.DELTA));
@@ -194,15 +194,15 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaPawniard("", Aspect.DELTA));
         addNewPokemon(new DeltaBisharp("", Aspect.DELTA));
         addNewPokemon(new DeltaHeatmor("", Aspect.DELTA));
-        addNewPokemon(new DeltaDeino("", Aspect.DELTA));
-        addNewPokemon(new DeltaZweilous("", Aspect.DELTA));
-        addNewPokemon(new DeltaHydreigon("", Aspect.DELTA));
+        addNewPokemon(new DeltaDeino("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaZweilous("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new DeltaHydreigon("", Aspect.DELTA).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new DeltaLarvesta("", Aspect.DELTA));
         addNewPokemon(new DeltaVolcarona("", Aspect.DELTA));
-        addNewPokemon(new DeltaMeloetta("", Aspect.DELTA));
-        addNewPokemon(new DeltaFroakie("Froakie", Aspect.DELTA));
-        addNewPokemon(new DeltaFrogadier("Frogadier", Aspect.DELTA));
-        addNewPokemon(new DeltaGreninja("Greninja", Aspect.DELTA));
+        addNewPokemon(new DeltaMeloetta("", Aspect.DELTA).addLabels(Label.MYTHICAL));
+        addNewPokemon(new DeltaFroakie("Froakie", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaFrogadier("Frogadier", Aspect.DELTA).addLabels(Label.STARTER));
+        addNewPokemon(new DeltaGreninja("Greninja", Aspect.DELTA).addLabels(Label.STARTER));
         addNewPokemon(new DeltaAmaura("Amaura", Aspect.DELTA));
         addNewPokemon(new DeltaAurorus("Aurorus", Aspect.DELTA));
         addNewPokemon(new DeltaGoomy("Goomy", Aspect.DELTA));
@@ -214,12 +214,12 @@ public class Insurgence extends Game {
         addNewPokemon(new DeltaAvalugg("Avalugg", Aspect.DELTA));
         addNewPokemon(new DeltaNoibat("Noibat", Aspect.DELTA));
         addNewPokemon(new DeltaNoivern("Noivern", Aspect.DELTA));
-        addNewPokemon(new DeltaHoopa("Hoopa", Aspect.DELTA));
-        addNewPokemon(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED));
+        addNewPokemon(new DeltaHoopa("Hoopa", Aspect.DELTA).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new DeltaHoopaUnleashed("Hoopa", Aspect.DELTA_UNLEASHED).addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new UFI());
-        addNewPokemon(new SpaceMew("", Aspect.SPACE));
-        addNewPokemon(new ShadowMewtwo("", Aspect.SHADOW));
+        addNewPokemon(new UFI().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new SpaceMew("", Aspect.SPACE).addLabels(Label.MYTHICAL));
+        addNewPokemon(new ShadowMewtwo("", Aspect.SHADOW).addLabels(Label.LEGENDARY));
         ArmoredForm.addArmoredForm("mewtwo", Type.PSYCHIC,
                 new Stats(106, 110, 90 , 154, 90, 130),
                 List.of(Ability.HUBRIS), Ability.HUBRIS,

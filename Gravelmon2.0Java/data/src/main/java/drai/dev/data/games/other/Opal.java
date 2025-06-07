@@ -19,16 +19,16 @@ public class Opal extends Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new Snampery());
-        addNewPokemon(new Descargot());
-        addNewPokemon(new Gastesla());
-        addNewPokemon(new Flasinge());
-        addNewPokemon(new Shaboon());
-        addNewPokemon(new Lunaye());
-        addNewPokemon(new Swolphin());
-        addNewPokemon(new Norspear());
-        addNewPokemon(new Narvalor());
-        addNewPokemon(new Cefireon());
+        addNewPokemon(new Snampery().addLabels(Label.STARTER));
+        addNewPokemon(new Descargot().addLabels(Label.STARTER));
+        addNewPokemon(new Gastesla().addLabels(Label.STARTER));
+        addNewPokemon(new Flasinge().addLabels(Label.STARTER));
+        addNewPokemon(new Shaboon().addLabels(Label.STARTER));
+        addNewPokemon(new Lunaye().addLabels(Label.STARTER));
+        addNewPokemon(new Swolphin().addLabels(Label.STARTER));
+        addNewPokemon(new Norspear().addLabels(Label.STARTER));
+        addNewPokemon(new Narvalor().addLabels(Label.STARTER));
+        addNewPokemon(new Cefireon().addLabels(Label.STARTER));
 
         addNewPokemon(new CefiranDiglett("", Aspect.CEFIRAN));
         addNewPokemon(new CefiranDugtrio("", Aspect.CEFIRAN));
@@ -69,16 +69,16 @@ public class Opal extends Game {
         addNewPokemon(new CefiranKlefki("Klefki", Aspect.CEFIRAN));
         addNewPokemon(new CefiranFalinks("", Aspect.CEFIRAN, new Stats(470, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
 
-        addNewPokemon(new Polekin());
-        addNewPokemon(new Fungorse());
-        addNewPokemon(new Cervantrier());
-        addNewPokemon(new Lugnis());
-        addNewPokemon(new Luravit());
-        addNewPokemon(new Luxpiravit());
-        addNewPokemon(new Quisquite());
-        addNewPokemon(new Gambarrel());
-        addNewPokemon(new Bogaleon());
-        addNewPokemon(new Astrem());
-        addNewPokemon(new Unktena());
+        addNewPokemon(new Polekin().addLabels(Label.STARTER));
+        addNewPokemon(new Fungorse().addLabels(Label.STARTER));
+        addNewPokemon(new Cervantrier().addLabels(Label.STARTER));
+        addNewPokemon(new Lugnis().addLabels(Label.STARTER));
+        addNewPokemon(new Luravit().addLabels(Label.STARTER));
+        addNewPokemon(new Luxpiravit().addLabels(Label.STARTER));
+        addNewPokemon(new Quisquite().addLabels(Label.STARTER));
+        addNewPokemon(new Gambarrel().addLabels(Label.STARTER));
+        addNewPokemon(new Bogaleon().addLabels(Label.STARTER));
+        addNewPokemon(new Astrem().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Unktena().addLabels(Label.LEGENDARY));
     }
 }

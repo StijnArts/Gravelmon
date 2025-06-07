@@ -25,20 +25,20 @@ public class Trizor extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Babear());
-        addNewPokemon(new Roybear());
-        addNewPokemon(new Beroxic(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
-        addNewPokemon(new Tecanbear(new Stats(530, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new Babear().addLabels(Label.STARTER));
+        addNewPokemon(new Roybear().addLabels(Label.STARTER));
+        addNewPokemon(new Beroxic(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).addLabels(Label.STARTER));
+        addNewPokemon(new Tecanbear(new Stats(530, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
 
-        addNewPokemon(new Gorire());
-        addNewPokemon(new Gorajack());
-        addNewPokemon(new Gorisulfa(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Tecnorilla(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
+        addNewPokemon(new Gorire().addLabels(Label.STARTER));
+        addNewPokemon(new Gorajack().addLabels(Label.STARTER));
+        addNewPokemon(new Gorisulfa(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Tecnorilla(new Stats(530, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
 
-        addNewPokemon(new Spactrish().fishingSpawnFromExisting());
-        addNewPokemon(new Spacteel());
-        addNewPokemon(new Whaleist(new Stats(530, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Tecnophin(new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
+        addNewPokemon(new Spactrish().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Spacteel().addLabels(Label.STARTER));
+        addNewPokemon(new Whaleist(new Stats(530, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Tecnophin(new Stats(530, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.STARTER));
 
         addNewPokemon(new Woolorm());
         addNewPokemon(new Blancoon());
@@ -94,15 +94,15 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Vetesper());
         addNewPokemon(new Masper(new Stats(520, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
 
-        addNewPokemon(new Lizaflage());
-        addNewPokemon(new Camoflora());
-        addNewPokemon(new Camottle(new Stats(524, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Kapalze());
-        addNewPokemon(new Tutolar());
-        addNewPokemon(new Locanel(new Stats(530, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Dropico().fishingSpawnFromExisting());
-        addNewPokemon(new Droprock());
-        addNewPokemon(new Rexdew(new Stats(528, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
+        addNewPokemon(new Lizaflage().addLabels(Label.STARTER));
+        addNewPokemon(new Camoflora().addLabels(Label.STARTER));
+        addNewPokemon(new Camottle(new Stats(524, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Kapalze().addLabels(Label.STARTER));
+        addNewPokemon(new Tutolar().addLabels(Label.STARTER));
+        addNewPokemon(new Locanel(new Stats(530, StatArchetype.FAST_SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Dropico().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Droprock().addLabels(Label.STARTER));
+        addNewPokemon(new Rexdew(new Stats(528, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
 
         addNewPokemon(new Stoni());
         addNewPokemon(new Waraoni(new Stats(480, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))));
@@ -132,16 +132,16 @@ public class Trizor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Collecjunk(new Stats(410, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Rexagon(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
 
-        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN));
-        addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN));
+        addNewPokemon(new TrizoranGible("", Aspect.TRIZORAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new TrizoranGabite("", Aspect.TRIZORAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new TrizoranGarchomp("", Aspect.TRIZORAN, new Stats(600,
-                StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))));
+                StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED, StatType.SPECIAL_ATTACK))).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new TrizoranAbsol("", Aspect.TRIZORAN, new Stats(465,
                 StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new TrizoranOnix("", Aspect.TRIZORAN));
         addNewPokemon(new Rayqunix(new Stats(510, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Cyrok());
-        addNewPokemon(new Golasma());
-        addNewPokemon(new Crimsagon(new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
+        addNewPokemon(new Cyrok().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Golasma().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Crimsagon(new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
     }
 }

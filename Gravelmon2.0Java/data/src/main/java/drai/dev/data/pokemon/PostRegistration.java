@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
@@ -75,6 +76,7 @@ public class PostRegistration {
                     if (!isBasedOnOriginalPokemon(pokemon)) {
                         result.getLabels().add(Label.FAKEMON);
                     }
+                    result.setNormalizedPreEvolution(pokemon.getCleanName());
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
                         resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
@@ -114,6 +116,7 @@ public class PostRegistration {
                         }
                         String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().name();
                         result.setPreEvolution(pokemon.getCleanName() + aspect);
+                        result.setNormalizedPreEvolution(pokemon.getCleanName());
                     }
                 }
             }
@@ -201,6 +204,7 @@ public class PostRegistration {
 
             if (Gravelmon.FOSSIL_MAP.containsValue(pokemon.getCleanName()) || Gravelmon.FOSSIL_MAP.containsValue(pokemon.getPreEvolution())) {
                 FOSSIL_POKEMON.add(pokemon);
+                pokemon.labels.add(Label.FOSSIL);
             }
 
             if (pokemon.getLearnSet().isEmpty() || pokemon.getLearnSet().stream().noneMatch(moveLearnSetEntry -> StringUtils.isNumeric(moveLearnSetEntry.getCondition()))) {
@@ -219,6 +223,9 @@ public class PostRegistration {
                     pokemon.setCatchRate(resolveNumber(baseStatTotal));
                 }
             }
+
+            checkEvolutionStatus(pokemon);
+            if(pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
         System.out.println(pokemonWithZeroBaseStats);
 
@@ -241,7 +248,9 @@ public class PostRegistration {
                         evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition"))
                                 .forEach(entry -> addItemAsDrop(pokemon, entry.getConditionParameter().replace("", ""), result));
                     }
+                    if(result.getPreEvolution()!=null) continue;
 
+                    result.setNormalizedPreEvolution(pokemon.getCleanName());
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, pokemon).stream().findFirst();
                         resultName.ifPresent(s -> result.setPreEvolution(s + " form=" + pokemon.getAdditionalAspect().name().toLowerCase()));
@@ -249,7 +258,23 @@ public class PostRegistration {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
                 }
+                checkEvolutionStatus(pokemon);
+                if(pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
             }
+        }
+    }
+
+    private static void checkEvolutionStatus(Pokemon pokemon) {
+        if(pokemon.evolutions.isEmpty()) {
+            if (pokemon.getNormalizedPreEvolution() != null && !pokemon.getNormalizedPreEvolution().isEmpty()) {
+                var preEvo = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(pokemon.getNormalizedPreEvolution())).findFirst().orElse(null);
+                if (preEvo != null) {
+                    if(preEvo.getNormalizedPreEvolution() == null) pokemon.evolutionStage = 2;
+                    else pokemon.evolutionStage = 3;
+                }
+            }
+        } else {
+            if (pokemon.getNormalizedPreEvolution() != null && !pokemon.getNormalizedPreEvolution().isEmpty()) pokemon.evolutionStage = 2;
         }
     }
 

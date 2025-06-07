@@ -25,15 +25,15 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Wizlit());
-        addNewPokemon(new Wazloom());
-        addNewPokemon(new Hollose(new Stats(528, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Oryoze());
-        addNewPokemon(new Burnyx());
-        addNewPokemon(new Pyroxall(new Stats(530, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Squcale().fishingSpawnFromExisting());
-        addNewPokemon(new Beracale());
-        addNewPokemon(new Yadazard(new Stats(534, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
+        addNewPokemon(new Wizlit().addLabels(Label.STARTER));
+        addNewPokemon(new Wazloom().addLabels(Label.STARTER));
+        addNewPokemon(new Hollose(new Stats(528, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Oryoze().addLabels(Label.STARTER));
+        addNewPokemon(new Burnyx().addLabels(Label.STARTER));
+        addNewPokemon(new Pyroxall(new Stats(530, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.STARTER));
+        addNewPokemon(new Squcale().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Beracale().addLabels(Label.STARTER));
+        addNewPokemon(new Yadazard(new Stats(534, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))).addLabels(Label.STARTER));
 
         addNewPokemon(new Bulblute());
         addNewPokemon(new Euphobul());
@@ -72,9 +72,9 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Topazeon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Marsheon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.HP))));
-        addNewPokemon(new Piezeon(new Stats(525, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))));
+        addNewPokemon(new Topazeon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Marsheon(new Stats(525, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.HP))).addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Piezeon(new Stats(525, StatArchetype.SPECIAL_WALL, List.of(StatType.HP))).addLabels(Label.EEVEELUTION));
         addNewPokemon(new Chibug(new Stats(320, StatArchetype.BULKY_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Snakolt(new Stats(320, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Grumyna());
@@ -134,10 +134,10 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Bawolf());
         addNewPokemon(new Puffulf(new Stats(480, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
 
-        addNewPokemon(new PalmianGible("", Aspect.PALMIAN));
-        addNewPokemon(new PalmianGabite("", Aspect.PALMIAN));
+        addNewPokemon(new PalmianGible("", Aspect.PALMIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new PalmianGabite("", Aspect.PALMIAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new PalmianGarchomp("", Aspect.PALMIAN, new Stats(600,
-                StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))));
+                StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE, StatType.ATTACK, StatType.ATTACK))).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new PalmianExeggcute("", Aspect.PALMIAN));
         addNewPokemon(new PalmianExeggutor("", Aspect.PALMIAN, new Stats(530,
                 StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
@@ -161,15 +161,15 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Croomish(new Stats(450, StatArchetype.BULKY_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Yotock(new Stats(450, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
 
-        addNewPokemon(new Chikotize());
-        addNewPokemon(new Florize());
-        addNewPokemon(new Purgrize(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Cyndaqize());
-        addNewPokemon(new Flamize());
-        addNewPokemon(new Efreetize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Totodize().fishingSpawnFromExisting());
-        addNewPokemon(new Aqurize());
-        addNewPokemon(new Orcarize(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
+        addNewPokemon(new Chikotize().addLabels(Label.STARTER));
+        addNewPokemon(new Florize().addLabels(Label.STARTER));
+        addNewPokemon(new Purgrize(new Stats(580, StatArchetype.BULKY_SUPPORT, List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Cyndaqize().addLabels(Label.STARTER));
+        addNewPokemon(new Flamize().addLabels(Label.STARTER));
+        addNewPokemon(new Efreetize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Totodize().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Aqurize().addLabels(Label.STARTER));
+        addNewPokemon(new Orcarize(new Stats(580, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
 
         addPokedexPokemon("eevee");
         addNewPokemon(new Eonize(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
@@ -218,14 +218,14 @@ public class Palmia  extends drai.dev.data.games.registry.Game {
         addPokedexPokemon("klang");
         addPokedexPokemon("klinklang");
         addNewPokemon(new Kagenrize(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Drarize());
-        addNewPokemon(new Dreadrize());
-        addNewPokemon(new Tymarize(new Stats(600, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Maditize(new Stats(610, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Coratize(new Stats(610, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Noistize(new Stats(610, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
-        addNewPokemon(new Mothrize(new Stats(680, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Majaite(new Stats(680, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Royandy(new Stats(680, StatArchetype.PHYSICAL_WALL, List.of(StatType.ATTACK))));
+        addNewPokemon(new Drarize().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Dreadrize().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Tymarize(new Stats(600, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Maditize(new Stats(610, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Coratize(new Stats(610, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Noistize(new Stats(610, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Mothrize(new Stats(680, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.LEGENDARY));
+        addNewPokemon(new Majaite(new Stats(680, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.LEGENDARY));
+        addNewPokemon(new Royandy(new Stats(680, StatArchetype.PHYSICAL_WALL, List.of(StatType.ATTACK))).addLabels(Label.LEGENDARY));
     }
 }

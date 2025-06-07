@@ -13,15 +13,15 @@ public class Ishiria extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Patouette());
-        addNewPokemon(new Filignon());
-        addNewPokemon(new Aratrap());
-        addNewPokemon(new Capoubou());
-        addNewPokemon(new Sorcerieu());
-        addNewPokemon(new Histeria());
-        addNewPokemon(new Bullaine());
-        addNewPokemon(new Moumeil());
-        addNewPokemon(new Gniage());
+        addNewPokemon(new Patouette().addLabels(Label.STARTER));
+        addNewPokemon(new Filignon().addLabels(Label.STARTER));
+        addNewPokemon(new Aratrap().addLabels(Label.STARTER));
+        addNewPokemon(new Capoubou().addLabels(Label.STARTER));
+        addNewPokemon(new Sorcerieu().addLabels(Label.STARTER));
+        addNewPokemon(new Histeria().addLabels(Label.STARTER));
+        addNewPokemon(new Bullaine().addLabels(Label.STARTER));
+        addNewPokemon(new Moumeil().addLabels(Label.STARTER));
+        addNewPokemon(new Gniage().addLabels(Label.STARTER));
         addNewPokemon(new IshirianRalts("", Aspect.ISHIRIAN));
         addNewPokemon(new IshirianKirlia("", Aspect.ISHIRIAN));
         addNewPokemon(new IshirianGardevoir("", Aspect.ISHIRIAN));
@@ -85,9 +85,9 @@ public class Ishiria extends drai.dev.data.games.registry.Game {
         addNewPokemon(new IshirianElekid("", Aspect.ISHIRIAN));
         addNewPokemon(new IshirianElectabuzz("", Aspect.ISHIRIAN));
         addNewPokemon(new IshirianElectivire("", Aspect.ISHIRIAN));
-        addNewPokemon(new IshirianChikorita("", Aspect.ISHIRIAN));
-        addNewPokemon(new IshirianBayleef("", Aspect.ISHIRIAN));
-        addNewPokemon(new IshirianMeganium("", Aspect.ISHIRIAN));
+        addNewPokemon(new IshirianChikorita("", Aspect.ISHIRIAN).addLabels(Label.STARTER));
+        addNewPokemon(new IshirianBayleef("", Aspect.ISHIRIAN).addLabels(Label.STARTER));
+        addNewPokemon(new IshirianMeganium("", Aspect.ISHIRIAN).addLabels(Label.STARTER));
         addNewPokemon(new Aracrne());
         addNewPokemon(new Diablentule());
         addNewPokemon(new Horlactus());

@@ -14,10 +14,10 @@ public class Daybreak extends Game {
     @Override
     public void registerPokemon() {
         addPokedexPokemon("treecko, grovyle, sceptile");
-        addNewPokemon(new ArmiranSceptile("Sceptile", Aspect.ARMIRAN));
-        addNewPokemon(new ArmiranFroakie("Froakie", Aspect.ARMIRAN));
-        addNewPokemon(new ArmiranFrogadier("Frogadier", Aspect.ARMIRAN));
-        addNewPokemon(new ArmiranGreninja("Greninja", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranSceptile("Sceptile", Aspect.ARMIRAN).addLabels(Label.STARTER));
+        addNewPokemon(new ArmiranFroakie("Froakie", Aspect.ARMIRAN).addLabels(Label.STARTER));
+        addNewPokemon(new ArmiranFrogadier("Frogadier", Aspect.ARMIRAN).addLabels(Label.STARTER));
+        addNewPokemon(new ArmiranGreninja("Greninja", Aspect.ARMIRAN).addLabels(Label.STARTER));
         addPokedexPokemon("taillow, swellow");
         addNewPokemon(new ArmiranSwellow("Swellow", Aspect.ARMIRAN));
         addPokedexPokemon("sandshrew, sandshrew-alolan, " +
@@ -32,8 +32,8 @@ public class Daybreak extends Game {
         addNewPokemon(new ArmiranHippopotas("", Aspect.ARMIRAN));
         addNewPokemon(new ArmiranHippowdon("", Aspect.ARMIRAN));
         addPokedexPokemon("larvitar, pupitar, tyranitar");
-        addNewPokemon(new ArmiranTyranitar("", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranTyranitar("", Aspect.ARMIRAN).addLabels(Label.PSEUDO_LEGENDARY));
         addPokedexPokemon("gible, gabite, garchomp");
-        addNewPokemon(new ArmiranGarchomp("", Aspect.ARMIRAN));
+        addNewPokemon(new ArmiranGarchomp("", Aspect.ARMIRAN).addLabels(Label.PSEUDO_LEGENDARY));
     }
 }

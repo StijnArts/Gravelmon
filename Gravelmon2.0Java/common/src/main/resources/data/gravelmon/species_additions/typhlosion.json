@@ -1046,7 +1046,7 @@
       "name": "delta_mega",
       "primaryType": "electric",
       "secondaryType": "steel",
-      "baseScale": 21.6,
+      "baseScale": 0.2805194805194805,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -1073,7 +1073,7 @@
       "name": "delta_active_mega",
       "primaryType": "electric",
       "secondaryType": "steel",
-      "baseScale": 21.6,
+      "baseScale": 0.2805194805194805,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

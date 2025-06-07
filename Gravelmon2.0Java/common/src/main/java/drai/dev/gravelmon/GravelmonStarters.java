@@ -555,11 +555,19 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Ionos",
+                createCategory("Ionos 1",
                         List.of(
                                 "Shrubbie level=10",
                                 "Radarent level=10",
                                 "Chompper level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ionos 2",
+                        List.of(
+                                "Faunler level=10",
+                                "Kinbat level=10",
+                                "Fillybrum level=10"
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,

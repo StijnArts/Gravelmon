@@ -82,12 +82,12 @@ public class HoennianDreepy extends Pokemon {
         getSpeciesFileData()
                 .addBasicVariation("IZetyXX")
                 .addLayer(
-                        new AnimatedLayerData("flame", List.of("flame1", "flame2"), 4,
+                        new AnimatedLayerData("flame", List.of("flame/flame1", "flame/flame2"), 4,
                                 true, Optional.of(true), Optional.of(false), false, true)
                 );
         getPosingFileData().setAnimationFileName("hoenniandreepy");
-        getPosingFileData().setPortraitData(1f, new Vector3(0, 0.5, 0));
-        getPosingFileData().setProfileData(1f, new Vector3(0, 0.5, 0));
+        getPosingFileData().setPortraitData(2.15f, new Vector3(-.46, -0.28, 0));
+        getPosingFileData().setProfileData(.82f, new Vector3(0, 0.87, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().notBattle().withBlink().addPoseType(PoseType.FLOAT).addPoseType(PoseType.HOVER),

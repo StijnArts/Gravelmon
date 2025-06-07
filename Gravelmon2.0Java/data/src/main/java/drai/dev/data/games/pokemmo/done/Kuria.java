@@ -2,7 +2,9 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.kuria.*;
-//done
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+//done https://pokengine.org/collections/102c91de/Azurite
 public class Kuria extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Kuria();
     private Kuria() {
@@ -11,15 +13,15 @@ public class Kuria extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Twigit());
-        addNewPokemon(new Harestic());
-        addNewPokemon(new Katorit());
-        addNewPokemon(new Kuuby());
-        addNewPokemon(new Kitsu());
-        addNewPokemon(new Kitsurah());
-        addNewPokemon(new Kikro());
-        addNewPokemon(new Gekroak());
-        addNewPokemon(new Sennitoad());
+        addNewPokemon(new Twigit().addLabels(Label.STARTER));
+        addNewPokemon(new Harestic().addLabels(Label.STARTER));
+        addNewPokemon(new Katorit().addLabels(Label.STARTER));
+        addNewPokemon(new Kuuby().addLabels(Label.STARTER));
+        addNewPokemon(new Kitsu().addLabels(Label.STARTER));
+        addNewPokemon(new Kitsurah().addLabels(Label.STARTER));
+        addNewPokemon(new Kikro().addLabels(Label.STARTER));
+        addNewPokemon(new Gekroak().addLabels(Label.STARTER));
+        addNewPokemon(new Sennitoad().addLabels(Label.STARTER));
         addNewPokemon(new Centillite());
         addNewPokemon(new Cocoolite());
         addNewPokemon(new Mosquilite());
@@ -110,12 +112,12 @@ public class Kuria extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Kotsumo());
         addNewPokemon(new Keshigami());
         addNewPokemon(new Kokesheity());
-        addNewPokemon(new Typheon());
-        addNewPokemon(new Astreon());
-        addNewPokemon(new Illuseon());
-        addNewPokemon(new Icheon());
-        addNewPokemon(new Fulgeon());
-        addNewPokemon(new Shyneon());
+        addNewPokemon(new Typheon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Astreon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Illuseon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Icheon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Fulgeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Shyneon().addLabels(Label.EEVEELUTION));
 
         addNewPokemon(new Asawaji());
         addNewPokemon(new Chichaw());
@@ -151,10 +153,10 @@ public class Kuria extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Yoppa());
         addNewPokemon(new Crystail());
         addNewPokemon(new Glacyo());
-        addNewPokemon(new Wurmidrake());
-        addNewPokemon(new Visacoon());
-        addNewPokemon(new Visarab());
-        addNewPokemon(new Lumeny());
+        addNewPokemon(new Wurmidrake().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Visacoon().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Visarab().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Lumeny().addLabels(Label.MYTHICAL));
     }
 
 }

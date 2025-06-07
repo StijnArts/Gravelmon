@@ -12,15 +12,15 @@ public class Lockemon extends Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new Llampas());
-        addNewPokemon(new Danfluff());
-        addNewPokemon(new Alfalphalops());
-        addNewPokemon(new Therpal());
-        addNewPokemon(new Aspfault());
-        addNewPokemon(new Tarmendoa());
-        addNewPokemon(new Burbwhirl());
-        addNewPokemon(new Spoutlaw());
-        addNewPokemon(new Vaquamael());
+        addNewPokemon(new Llampas().addLabels(Label.STARTER));
+        addNewPokemon(new Danfluff().addLabels(Label.STARTER));
+        addNewPokemon(new Alfalphalops().addLabels(Label.STARTER));
+        addNewPokemon(new Therpal().addLabels(Label.STARTER));
+        addNewPokemon(new Aspfault().addLabels(Label.STARTER));
+        addNewPokemon(new Tarmendoa().addLabels(Label.STARTER));
+        addNewPokemon(new Burbwhirl().addLabels(Label.STARTER));
+        addNewPokemon(new Spoutlaw().addLabels(Label.STARTER));
+        addNewPokemon(new Vaquamael().addLabels(Label.STARTER));
         addNewPokemon(new Chewmunk());
         addNewPokemon(new Cheekat());
         addNewPokemon(new Specoey());
@@ -152,9 +152,9 @@ public class Lockemon extends Game {
         addNewPokemon(new ShadyCastform("Castform", Aspect.SHADY));
         addNewPokemon(new LovelyCastform("Castform", Aspect.LOVELY));
         addNewPokemon(new Vendrom());
-        addNewPokemon(new Buwuve());
-        addNewPokemon(new Wasgrowl());
-        addNewPokemon(new Worcane());
+        addNewPokemon(new Buwuve().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Wasgrowl().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Worcane().addLabels(Label.PSEUDO_LEGENDARY));
         addPokedexPokemon("zubat, golbat, crobat");
         addNewPokemon(new Probat());
         addNewPokemon(new Jemineye());
@@ -200,18 +200,18 @@ public class Lockemon extends Game {
         addNewPokemon(new BassRotom("", Aspect.BASS));
         addNewPokemon(new TwirlRotom("", Aspect.TWIRL));
         addNewPokemon(new MixRotom("", Aspect.MIX));
-        addNewPokemon(new Rotomb());
-        addNewPokemon(new Tamunk());
-        addNewPokemon(new Temunk());
-        addNewPokemon(new Manadza());
-        addNewPokemon(new Arctikull());
-        addNewPokemon(new Wicoot());
-        addNewPokemon(new KaskadianDiancie("Diancie", Aspect.KASKADIAN));
-        addNewPokemon(new Orbtholod());
-        addNewPokemon(new Pestalation());
-        addNewPokemon(new Revylon());
-        addNewPokemon(new Leoseace());
-        addNewPokemon(new Lamentu());
-        addNewPokemon(new EndramOdai());
+        addNewPokemon(new Rotomb().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Tamunk().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Temunk().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Manadza().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Arctikull().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Wicoot().addLabels(Label.LEGENDARY));
+        addNewPokemon(new KaskadianDiancie("Diancie", Aspect.KASKADIAN).addLabels(Label.MYTHICAL));
+        addNewPokemon(new Orbtholod().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Pestalation().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Revylon().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Leoseace().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Lamentu().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new EndramOdai().addLabels(Label.ULTRA_BEAST));
     }
 }

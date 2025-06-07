@@ -2,7 +2,9 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.kuulkid.*;
-//done
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+//done https://pokengine.org/collections/10pt9pyv/Kuulkid
 public class Kuulkid extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Kuulkid();
     private Kuulkid() {
@@ -11,15 +13,15 @@ public class Kuulkid extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Shelliphant());
-        addNewPokemon(new Tusknut());
-        addNewPokemon(new Pachipeanut());
-        addNewPokemon(new Peppercoon());
-        addNewPokemon(new Krakoon());
-        addNewPokemon(new Coonkaboom());
-        addNewPokemon(new Anemini());
-        addNewPokemon(new Juggljelly());
-        addNewPokemon(new Comictini());
+        addNewPokemon(new Shelliphant().addLabels(Label.STARTER));
+        addNewPokemon(new Tusknut().addLabels(Label.STARTER));
+        addNewPokemon(new Pachipeanut().addLabels(Label.STARTER));
+        addNewPokemon(new Peppercoon().addLabels(Label.STARTER));
+        addNewPokemon(new Krakoon().addLabels(Label.STARTER));
+        addNewPokemon(new Coonkaboom().addLabels(Label.STARTER));
+        addNewPokemon(new Anemini().addLabels(Label.STARTER));
+        addNewPokemon(new Juggljelly().addLabels(Label.STARTER));
+        addNewPokemon(new Comictini().addLabels(Label.STARTER));
         addNewPokemon(new Kernelkit());
         addNewPokemon(new Maizent());
         addNewPokemon(new Bigpop());
@@ -180,15 +182,15 @@ public class Kuulkid extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Laddiebug());
         addNewPokemon(new Muleseye());
         addNewPokemon(new Dartypooper());
-        addNewPokemon(new Galactot());
-        addNewPokemon(new Scorptrooper());
-        addNewPokemon(new Xenoscorp());
-        addNewPokemon(new Kernequine());
-        addNewPokemon(new Nightknight());
-        addNewPokemon(new Regitoasty());
-        addNewPokemon(new Dradical());
-        addNewPokemon(new Tubedude());
-        addNewPokemon(new Stummacake());
+        addNewPokemon(new Galactot().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Scorptrooper().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Xenoscorp().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kernequine().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Nightknight().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Regitoasty().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Dradical().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Tubedude().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Stummacake().addLabels(Label.SUB_LEGENDARY));
     }
 
 }

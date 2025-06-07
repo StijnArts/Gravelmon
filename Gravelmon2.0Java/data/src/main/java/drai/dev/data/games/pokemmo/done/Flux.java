@@ -4,22 +4,22 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.flux.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-
+//TODO update https://pokengine.org/collections/10lj54e1/Flux
 public class Flux extends Game {
     public static final Game INSTANCE = new Flux();
     private Flux() {super("Flux");}
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Mozz());
-        addNewPokemon(new Mosseer());
-        addNewPokemon(new Daemoth());
-        addNewPokemon(new Chiklit());
-        addNewPokemon(new Burnychus());
-        addNewPokemon(new Pyropteryx());
-        addNewPokemon(new Findolf());
-        addNewPokemon(new Delfender());
-        addNewPokemon(new Hydrocean());
+        addNewPokemon(new Mozz().addLabels(Label.STARTER));
+        addNewPokemon(new Mosseer().addLabels(Label.STARTER));
+        addNewPokemon(new Daemoth().addLabels(Label.STARTER));
+        addNewPokemon(new Chiklit().addLabels(Label.STARTER));
+        addNewPokemon(new Burnychus().addLabels(Label.STARTER));
+        addNewPokemon(new Pyropteryx().addLabels(Label.STARTER));
+        addNewPokemon(new Findolf().addLabels(Label.STARTER));
+        addNewPokemon(new Delfender().addLabels(Label.STARTER));
+        addNewPokemon(new Hydrocean().addLabels(Label.STARTER));
         addNewPokemon(new Minyan());
         addNewPokemon(new Vilucard());
         addNewPokemon(new Lunapup());
@@ -106,9 +106,9 @@ public class Flux extends Game {
         addNewPokemon(new Amperincus());
         addNewPokemon(new Ramhorn());
         addNewPokemon(new Purrchance());
-        addNewPokemon(new Grizzlet());
-        addNewPokemon(new Geogriff());
-        addNewPokemon(new Diastryx());
+        addNewPokemon(new Grizzlet().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Geogriff().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Diastryx().addLabels(Label.PSEUDO_LEGENDARY));
 
         addNewPokemon(new AlteranMeowth("", Aspect.ALTERAN));
     }

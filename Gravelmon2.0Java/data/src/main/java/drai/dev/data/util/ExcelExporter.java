@@ -83,7 +83,7 @@ public class ExcelExporter {
     private static void createSheet(Sheet sheet, Workbook workbook, String sheetName, List<WorldRepresentablePokemon> pokemonList, MutableInt mutableInt) {
         // Create header row
         Row header = sheet.createRow(0);
-        String[] headers = {"Name", "Form", "Image      ", "Model Status", "Stats", "Type(s)", "Level Up Moves", "TM Moves", "Tutor Moves",
+        String[] headers = {"Name", "Form", "Image      ", "Model Status", "Stats", "Type(s)", "Abilities", "Level Up Moves", "TM Moves", "Tutor Moves",
                 "Egg Moves", "Evolutions", "Spawn Conditions"};
         CellStyle headerStyle = workbook.createCellStyle();
         Font font = workbook.createFont();
@@ -144,6 +144,7 @@ public class ExcelExporter {
             // Type(s) and Moves as comma-separated values
 
             createNextCell(row, cellCount).setCellValue(String.join(",\n", worldRepresentablePokemon.getTypes().stream().map(Type::getName).toList()));
+            createNextCell(row, cellCount).setCellValue(String.join(",\n", worldRepresentablePokemon.getPrintableAbilities()));
             if(!isMega){
                 createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getLevelUpMoves().stream().map(moveLearnSetEntry ->
                         moveLearnSetEntry.getCondition() + " - " + StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
@@ -153,6 +154,7 @@ public class ExcelExporter {
                         StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
                 createNextCell(row, cellCount).setCellValue(String.join(",\n", asPokemon.getEggMoves().stream().map(moveLearnSetEntry ->
                         StringUtils.capitalize(moveLearnSetEntry.getMove().name().toLowerCase().replaceAll("_", ""))).toList()));
+
                 // Evolution (handling null values)
                 List<String> evolutionsForPrint = asPokemon.getEvolutionsForPrint();
                 createNextCell(row, cellCount).setCellValue(evolutionsForPrint.isEmpty() ? "" :

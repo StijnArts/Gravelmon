@@ -14,32 +14,32 @@ public class Infinity extends Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new EghoBulbasaur("", Aspect.EGHO));
-        addNewPokemon(new EghoIvysaur("", Aspect.EGHO));
-        addNewPokemon(new EghoVenusaur("", Aspect.EGHO));
-        addNewPokemon(new EghoCharmander("", Aspect.EGHO));
-        addNewPokemon(new EghoCharmeleon("", Aspect.EGHO));
-        addNewPokemon(new EghoCharizard("", Aspect.EGHO));
-        addNewPokemon(new EghoSquirtle("", Aspect.EGHO));
-        addNewPokemon(new EghoWartortle("", Aspect.EGHO));
-        addNewPokemon(new EghoBlastoise("", Aspect.EGHO));
+        addNewPokemon(new EghoBulbasaur("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoIvysaur("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoVenusaur("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoCharmander("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoCharmeleon("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoCharizard("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoSquirtle("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoWartortle("", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoBlastoise("", Aspect.EGHO).addLabels(Label.STARTER));
         //Lukpup line
-        addNewPokemon(new Lukpup());
-        addNewPokemon(new Lukagon());
+        addNewPokemon(new Lukpup().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Lukagon().addLabels(Label.PSEUDO_LEGENDARY));
         //Kokiseed line
-        addNewPokemon(new Kokiseed());
-        addNewPokemon(new Kokipound());
-        addNewPokemon(new Kokismash());
+        addNewPokemon(new Kokiseed().addLabels(Label.STARTER));
+        addNewPokemon(new Kokipound().addLabels(Label.STARTER));
+        addNewPokemon(new Kokismash().addLabels(Label.STARTER));
 
         //Chargo line
-        addNewPokemon(new Chargo());
-        addNewPokemon(new Burnaram());
-        addNewPokemon(new Psysteed());
+        addNewPokemon(new Chargo().addLabels(Label.STARTER));
+        addNewPokemon(new Burnaram().addLabels(Label.STARTER));
+        addNewPokemon(new Psysteed().addLabels(Label.STARTER));
 
         //Darpole line
-        addNewPokemon(new Darpole().fishingSpawnFromExisting());
-        addNewPokemon(new Brutoad());
-        addNewPokemon(new Godfrogger());
+        addNewPokemon(new Darpole().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Brutoad().addLabels(Label.STARTER));
+        addNewPokemon(new Godfrogger().addLabels(Label.STARTER));
 
         addPokedexPokemon("pichu, pikachu");
         addNewPokemon(new Gorochu());
@@ -69,17 +69,17 @@ public class Infinity extends Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Omeon());
-        addNewPokemon(new Champeon());
-        addNewPokemon(new Lepideon());
-        addNewPokemon(new Guardeon());
-        addNewPokemon(new Obsideon());
-        addNewPokemon(new Scorpeon());
-        addNewPokemon(new Sphynxeon());
-        addNewPokemon(new Nimbeon());
-        addNewPokemon(new Draconeon());
-        addNewPokemon(new Eeveeon());
-        addNewPokemon(new Vareon());
+        addNewPokemon(new Omeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Champeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Lepideon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Guardeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Obsideon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Scorpeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Sphynxeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Nimbeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Draconeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Eeveeon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Vareon().addLabels(Label.EEVEELUTION));
         addPokedexPokemon("cubone, marowak");
         addNewPokemon(new Terathwack());
         addNewPokemon(new EghoSpearow("", Aspect.EGHO));
@@ -129,9 +129,9 @@ public class Infinity extends Game {
         addNewPokemon(new Jollibird());
         addPokedexPokemon("qwilfish");
         addNewPokemon(new Kablowfish());
-        addNewPokemon(new Scalarva());
-        addNewPokemon(new Dragalis());
-        addNewPokemon(new Ceregal());
+        addNewPokemon(new Scalarva().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Dragalis().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Ceregal().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Gargon());
         addNewPokemon(new Wardern());
         addNewPokemon(new Dragoyle());
@@ -168,20 +168,20 @@ public class Infinity extends Game {
         //Zapalope line
         addNewPokemon(new Zapalope());
         addNewPokemon(new Joltalope());
-        addNewPokemon(new EghoChikorita("chikorita", Aspect.EGHO));
-        addNewPokemon(new EghoBayleef("bayleef", Aspect.EGHO));
-        addNewPokemon(new EghoMeganium("meganium", Aspect.EGHO));
-        addNewPokemon(new EghoCyndaquil("cyndaquil", Aspect.EGHO));
-        addNewPokemon(new EghoQuilava("quilava", Aspect.EGHO));
-        addNewPokemon(new EghoTyphlosion("typhlosion", Aspect.EGHO));
-        addNewPokemon(new EghoTotodile("totodile", Aspect.EGHO).fishingSpawnFromExisting());
-        addNewPokemon(new EghoCroconaw("croconaw", Aspect.EGHO));
-        addNewPokemon(new EghoFeraligatr("feraligatr", Aspect.EGHO));
+        addNewPokemon(new EghoChikorita("chikorita", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoBayleef("bayleef", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoMeganium("meganium", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoCyndaquil("cyndaquil", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoQuilava("quilava", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoTyphlosion("typhlosion", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoTotodile("totodile", Aspect.EGHO).fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new EghoCroconaw("croconaw", Aspect.EGHO).addLabels(Label.STARTER));
+        addNewPokemon(new EghoFeraligatr("feraligatr", Aspect.EGHO).addLabels(Label.STARTER));
 
-        addNewPokemon(new Mewthree());
+        addNewPokemon(new Mewthree().addLabels(Label.LEGENDARY));
 
-        addNewPokemon(new Oculeus());
+        addNewPokemon(new Oculeus().addLabels(Label.LEGENDARY));
 
-        addNewPokemon(new Arkhaos());
+        addNewPokemon(new Arkhaos().addLabels(Label.LEGENDARY));
     }
 }

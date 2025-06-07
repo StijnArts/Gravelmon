@@ -6,8 +6,8 @@
       "aspects": [
         "delta_spider_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_190_by_116.geo",
+      "poser": "cobblemon:cutout_gravelmon_190_by_116",
       "texture": "cobblemon:textures/pokemon/insurgence/metagross_deltaspider_mega.png",
       "layers": [
         {

@@ -21,9 +21,9 @@ public class Sahl extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new SahlianCobalion("", Aspect.SAHLIAN)); //TODO
-        addNewPokemon(new SahlianTerrakion("", Aspect.SAHLIAN));
-        addNewPokemon(new SahlianVirizion("", Aspect.SAHLIAN));
+        addNewPokemon(new SahlianCobalion("", Aspect.SAHLIAN).addLabels(Label.SUB_LEGENDARY)); //TODO
+        addNewPokemon(new SahlianTerrakion("", Aspect.SAHLIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new SahlianVirizion("", Aspect.SAHLIAN).addLabels(Label.SUB_LEGENDARY));
 
     }
 

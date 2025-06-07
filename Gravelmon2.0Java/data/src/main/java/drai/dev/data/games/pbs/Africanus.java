@@ -42,17 +42,18 @@ public class Africanus extends drai.dev.data.games.registry.Game {
         addNewPokemon(new AfricanusanAegislash("", Aspect.AFRICANUSAN));
         addNewPokemon(new AfricanusanComfey("", Aspect.AFRICANUSAN));
 
-        addNewPokemon(new Petiolis());
-        addNewPokemon(new Virilis());
-        addNewPokemon(new Lupercalis());
-        addNewPokemon(new Harregg());
-        addNewPokemon(new Igneagle());
-        addNewPokemon(new Imperiavem());
-        addNewPokemon(new Hipporos());
-        addNewPokemon(new Equxic());
-        addNewPokemon(new Marecampus());
-        addNewPokemon(new Houndplut());
+        addNewPokemon(new Petiolis().addLabels(Label.STARTER));
+        addNewPokemon(new Virilis().addLabels(Label.STARTER));
+        addNewPokemon(new Lupercalis().addLabels(Label.STARTER));
+        addNewPokemon(new Harregg().addLabels(Label.STARTER));
+        addNewPokemon(new Igneagle().addLabels(Label.STARTER));
+        addNewPokemon(new Imperiavem().addLabels(Label.STARTER));
+        addNewPokemon(new Hipporos().addLabels(Label.STARTER));
+        addNewPokemon(new Equxic().addLabels(Label.STARTER));
+        addNewPokemon(new Marecampus().addLabels(Label.STARTER));
+        addPokedexPokemon("skiddo, gogoat");
         addNewPokemon(new Fawniae());
+        addNewPokemon(new Houndplut().addLabels(Label.LEGENDARY));
     }
 
 }

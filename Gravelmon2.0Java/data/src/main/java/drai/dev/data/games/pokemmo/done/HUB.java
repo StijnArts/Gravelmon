@@ -29,8 +29,8 @@ public class HUB extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mushpunky());
         addNewPokemon(new Mushilly());
         addNewPokemon(new Mushcary());
-        addNewPokemon(new Sakurovix());
-        addNewPokemon(new Nephelith());
+        addNewPokemon(new Sakurovix().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Nephelith().addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new HubianTogepi("", Aspect.HUBIAN));
         addNewPokemon(new HubianTogetic("", Aspect.HUBIAN));
         addNewPokemon(new HubianTogekiss("", Aspect.HUBIAN));

@@ -39,9 +39,10 @@ public class PokemonForm extends AbstractPokemon {
                        double baseScale, double portraitScale
 
     ) {
-        super(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
-                eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, spawnContext, spawnPool, minSpawnLevel,
-                maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
+        super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
+                eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, aspects, height, weight, List.of(
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                ));
         this.name = name;
 //        this.formOf = formOf;
         this.isBattleOnly = isBattleOnly;

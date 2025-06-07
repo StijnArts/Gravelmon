@@ -2,6 +2,7 @@ package drai.dev.data.games.other;
 
 import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.umbra.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Umbra extends Game {
     public static final Game INSTANCE = new Umbra();
@@ -9,15 +10,15 @@ public class Umbra extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Psypole());
-        addNewPokemon(new Telefrog());
-        addNewPokemon(new Tarotoad());
-        addNewPokemon(new Boxeroo());
-        addNewPokemon(new Marsupunch());
-        addNewPokemon(new Kankombat());
-        addNewPokemon(new Seijitsu());
-        addNewPokemon(new Kousetsu());
-        addNewPokemon(new Mangetsu());
+        addNewPokemon(new Psypole().addLabels(Label.STARTER));
+        addNewPokemon(new Telefrog().addLabels(Label.STARTER));
+        addNewPokemon(new Tarotoad().addLabels(Label.STARTER));
+        addNewPokemon(new Boxeroo().addLabels(Label.STARTER));
+        addNewPokemon(new Marsupunch().addLabels(Label.STARTER));
+        addNewPokemon(new Kankombat().addLabels(Label.STARTER));
+        addNewPokemon(new Seijitsu().addLabels(Label.STARTER));
+        addNewPokemon(new Kousetsu().addLabels(Label.STARTER));
+        addNewPokemon(new Mangetsu().addLabels(Label.STARTER));
         addNewPokemon(new Rockroach());
         addNewPokemon(new Boulderoach());
         addNewPokemon(new Axolil());

@@ -18,9 +18,8 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public static List<String> EVOLUTION_ITEMS = new ArrayList<>();
     public static List<Aspect> ADDITIONAL_SPECIES_ASPECTS = new ArrayList<>();
 
-    protected final List<Ability> abilities = new ArrayList<>();
+    public int evolutionStage = 1;
     public boolean skipMoves;
-    protected Ability hiddenAbility;
     protected int catchRate;
     protected double maleRatio;
     protected int baseExperienceYield;
@@ -57,32 +56,9 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean canWalkOnWater = false;
     protected boolean canWalkOnLava = false;
     protected boolean avoidsLand = false;
+    private String normalizedPreEvolution;
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
-                           int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
-                           int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
-                           Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
-                           int height, int weight, SpawnContext spawnContext,
-                           SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                           List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
-        this(name, stats, primaryType, secondaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
-                evYield, learnSet, aspects, height, weight, List.of(
-                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
-                ));
-    }
-
-    public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
-                           int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
-                           int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
-                           List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
-                           Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
-                           int height, int weight, List<PokemonSpawnData> pokemonSpawnData) {
-        this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
-                evYield, learnSet, aspects, height, weight, pokemonSpawnData);
-        this.secondaryType = secondaryType;
-    }
-
-    public AbstractPokemon(String name, Stats stats, Type primaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
                            int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
                            List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
@@ -91,6 +67,7 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         super(height);
         this.stats = stats;
         this.primaryType = primaryType;
+        this.secondaryType = secondaryType;
         this.hiddenAbility = hiddenAbility;
         this.catchRate = catchRate;
         this.maleRatio = maleRatio;
@@ -117,20 +94,6 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         if (this.abilities.size() > 2) {
             this.abilities.remove(2);
         }
-    }
-
-    public AbstractPokemon(String name, Stats stats, Type primaryType, List<Ability> abilities, Ability hiddenAbility,
-                           int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
-                           int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
-                           List<Label> labels, int dropAmount, List<ItemDrop> drops, int baseFriendship,
-                           Stats evYield, List<MoveLearnSetEntry> learnSet, List<Aspect> aspects,
-                           int height, int weight, SpawnContext spawnContext,
-                           SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                           List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets) {
-        this(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup, eggCycles, eggGroups, dexEntries, evolutions, labels, dropAmount, drops, baseFriendship,
-                evYield, learnSet, aspects, height, weight, List.of(
-                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
-                ));
     }
 
     public static boolean isAnAdditionalForm(String key) {
@@ -248,6 +211,9 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         }
         this.labels.add(Label.FAKEMON_EVOLUTION);
         this.preEvolution = cleanName;
+        if(normalizedPreEvolution==null) {
+            this.normalizedPreEvolution = cleanName;
+        }
     }
 
     public List<MoveLearnSetEntry> getLearnSet() {
@@ -485,5 +451,13 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     protected void setSkipMoves(boolean b) {
         this.skipMoves = b;
+    }
+
+    public void setNormalizedPreEvolution(String cleanName) {
+        this.normalizedPreEvolution = cleanName;
+    }
+
+    public String getNormalizedPreEvolution() {
+        return normalizedPreEvolution;
     }
 }

@@ -19,9 +19,10 @@ import drai.dev.data.pokemon.atlas.Terbipan;
 import drai.dev.data.pokemon.atlas.Tulifun;
 import drai.dev.data.pokemon.atlas.Twoolepin;
 import drai.dev.data.pokemon.isiah.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done
+//done https://pokengine.org/collections/10qucv38/Garnet
 public class Isiah extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Isiah();
     private Isiah() {
@@ -30,15 +31,15 @@ public class Isiah extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Inood());
-        addNewPokemon(new Shibark());
-        addNewPokemon(new Gardraog());
-        addNewPokemon(new Frilzard());
-        addNewPokemon(new Venomane());
-        addNewPokemon(new Membraze());
-        addNewPokemon(new Finvore());
-        addNewPokemon(new Bullark());
-        addNewPokemon(new Crushark());
+        addNewPokemon(new Inood().addLabels(Label.STARTER));
+        addNewPokemon(new Shibark().addLabels(Label.STARTER));
+        addNewPokemon(new Gardraog().addLabels(Label.STARTER));
+        addNewPokemon(new Frilzard().addLabels(Label.STARTER));
+        addNewPokemon(new Venomane().addLabels(Label.STARTER));
+        addNewPokemon(new Membraze().addLabels(Label.STARTER));
+        addNewPokemon(new Finvore().addLabels(Label.STARTER));
+        addNewPokemon(new Bullark().addLabels(Label.STARTER));
+        addNewPokemon(new Crushark().addLabels(Label.STARTER));
         addNewPokemon(new Caviat());
         addNewPokemon(new Rodat());
         addNewPokemon(new Maggotle());
@@ -175,14 +176,14 @@ public class Isiah extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Valkite());
         addNewPokemon(new Calvakair());
         addNewPokemon(new Cetoacean());
-        addNewPokemon(new Nicklack());
-        addNewPokemon(new Silvern());
-        addNewPokemon(new Avidrage());
-        addNewPokemon(new Valialty());
-        addNewPokemon(new Oweesage());
-        addNewPokemon(new Koslich());
-        addNewPokemon(new Eiseith());
-        addNewPokemon(new Excanth());
+        addNewPokemon(new Nicklack().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Silvern().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Avidrage().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Valialty().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Oweesage().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Koslich().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Eiseith().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Excanth().addLabels(Label.LEGENDARY));
     }
 
 }

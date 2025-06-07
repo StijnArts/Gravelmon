@@ -29,9 +29,10 @@ import drai.dev.data.pokemon.rica.Conchorn;
 import drai.dev.data.pokemon.rica.Conium;
 import drai.dev.data.pokemon.rica.Lumibuzz;
 import drai.dev.data.pokemon.rica.Snoosect;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done
+//done https://pokengine.org/collections/107s9ir4/Cyare
 public class Cyare extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Cyare();
     private Cyare() {
@@ -40,15 +41,15 @@ public class Cyare extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Scurley());
-        addNewPokemon(new Burramble());
-        addNewPokemon(new Bramboom());
-        addNewPokemon(new Lamber());
-        addNewPokemon(new Volpaca());
-        addNewPokemon(new Sheruption());
-//        addNewPokemon(new Pengle()); Member of line Not Finished
-//        addNewPokemon(new Twaddle()); Member of line Not Finished
-//        addNewPokemon(new Pengalance());   Missing Art
+        addNewPokemon(new Scurley().addLabels(Label.STARTER));
+        addNewPokemon(new Burramble().addLabels(Label.STARTER));
+        addNewPokemon(new Bramboom().addLabels(Label.STARTER));
+        addNewPokemon(new Lamber().addLabels(Label.STARTER));
+        addNewPokemon(new Volpaca().addLabels(Label.STARTER));
+        addNewPokemon(new Sheruption().addLabels(Label.STARTER));
+//        addNewPokemon(new Pengle().addLabels(Label.STARTER)); Member of line Not Finished
+//        addNewPokemon(new Twaddle().addLabels(Label.STARTER)); Member of line Not Finished
+//        addNewPokemon(new Pengalance().addLabels(Label.STARTER));   Missing Art
         addNewPokemon(new Grubble());
         addNewPokemon(new Pupive());
         addNewPokemon(new Waspen(new Stats(410, StatArchetype.FAST_PHYSICAL_ATTACKER, 
@@ -243,18 +244,18 @@ public class Cyare extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Frospine());
         addNewPokemon(new Phasmyst());
         addNewPokemon(new Spectrice());
-        addNewPokemon(new Chibiryu());
-        addNewPokemon(new Midryu());
+        addNewPokemon(new Chibiryu().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Midryu().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Ryurai(new Stats(600, StatArchetype.SPECIAL_ATTACKER, 
-                List.of(StatType.SPECIAL_DEFENCE))));
+                List.of(StatType.SPECIAL_DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Seaquine(new Stats(590, StatArchetype.FAST_SPECIAL_WALL, 
-                List.of(StatType.HP))));
+                List.of(StatType.HP))).addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Greequine(new Stats(590, StatArchetype.FAST_SUPPORT, 
-                List.of(StatType.HP))));
+                List.of(StatType.HP))).addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Orequine(new Stats(590, StatArchetype.FAST_PHYSICAL_WALL, 
-                List.of(StatType.HP))));
+                List.of(StatType.HP))).addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Draquados(new Stats(650, StatArchetype.SPECIAL_WALL, 
-                List.of(StatType.SPECIAL_ATTACK))));
+                List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.LEGENDARY));
     }
 
 }

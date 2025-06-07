@@ -1,6 +1,8 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.mythire.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Mythire extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mythire();
@@ -10,15 +12,15 @@ public class Mythire extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Glimruff());
-        addNewPokemon(new Gildog());
-        addNewPokemon(new Heraldise());
-        addNewPokemon(new Noviss());
-        addNewPokemon(new Volkydra());
-        addNewPokemon(new Thermodusa());
-        addNewPokemon(new Mollup());
-        addNewPokemon(new Polypod());
-        addNewPokemon(new Carcoral());
+        addNewPokemon(new Glimruff().addLabels(Label.STARTER));
+        addNewPokemon(new Gildog().addLabels(Label.STARTER));
+        addNewPokemon(new Heraldise().addLabels(Label.STARTER));
+        addNewPokemon(new Noviss().addLabels(Label.STARTER));
+        addNewPokemon(new Volkydra().addLabels(Label.STARTER));
+        addNewPokemon(new Thermodusa().addLabels(Label.STARTER));
+        addNewPokemon(new Mollup().addLabels(Label.STARTER));
+        addNewPokemon(new Polypod().addLabels(Label.STARTER));
+        addNewPokemon(new Carcoral().addLabels(Label.STARTER));
         addNewPokemon(new Shrewpy());
         addNewPokemon(new Rattotem());
         addNewPokemon(new Sootillar());
@@ -133,12 +135,12 @@ public class Mythire extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Chrystasis());
         addNewPokemon(new Effipy());
         addNewPokemon(new Harpiron());
-        addNewPokemon(new Mistoria());
-        addNewPokemon(new Vortereign());
-        addNewPokemon(new Pestinox());
-        addNewPokemon(new Solstarian());
-        addNewPokemon(new Garlone());
-        addNewPokemon(new Mementori());
+        addNewPokemon(new Mistoria().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Vortereign().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Pestinox().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Solstarian().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Garlone().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Mementori().addLabels(Label.SUB_LEGENDARY));
 
     }
 

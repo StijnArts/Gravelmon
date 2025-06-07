@@ -7,7 +7,7 @@ import drai.dev.data.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done
+//done https://pokengine.org/collections/10o85alw/Enjin
 public class Enjin extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Enjin();
     private Enjin() {
@@ -16,21 +16,21 @@ public class Enjin extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Mouldon());
-        addNewPokemon(new Fungrove());
-        addNewPokemon(new Saprodon());
-        addNewPokemon(new Gastrohm());
-        addNewPokemon(new Mollectric());
-        addNewPokemon(new Nudibolt());
-//        addNewPokemon(new Arborsa());   Member of line Not Finished
-//        addNewPokemon(new Fumostrello());   Member of line Not Finished
-//        addNewPokemon(new Salamare());   Member of line Not Finished
-//        addNewPokemon(new Seefowl());   Member of line Not Finished
-//        addNewPokemon(new Hamstorch());   Member of line Not Finished
-//        addNewPokemon(new Hippop());   Member of line Not Finished
-//        addNewPokemon(new Faunifer());   Member of line Not Finished
-//        addNewPokemon(new Sirain());   Member of line Not Finished
-//        addNewPokemon(new Budbun());    Member of line Not Finished
+        addNewPokemon(new Mouldon().addLabels(Label.STARTER));
+        addNewPokemon(new Fungrove().addLabels(Label.STARTER));
+        addNewPokemon(new Saprodon().addLabels(Label.STARTER));
+        addNewPokemon(new Gastrohm().addLabels(Label.STARTER));
+        addNewPokemon(new Mollectric().addLabels(Label.STARTER));
+        addNewPokemon(new Nudibolt().addLabels(Label.STARTER));
+//        addNewPokemon(new Arborsa().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Fumostrello().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Salamare().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Seefowl().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Hamstorch().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Hippop().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Faunifer().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Sirain().addLabels(Label.STARTER));   Member of line Not Finished
+//        addNewPokemon(new Budbun().addLabels(Label.STARTER));    Member of line Not Finished
         addNewPokemon(new EnjinnianHoothoot("", Aspect.ENJINNIAN));
         addNewPokemon(new EnjinnianNoctowl("", Aspect.ENJINNIAN));
         addNewPokemon(new Enchantowl());

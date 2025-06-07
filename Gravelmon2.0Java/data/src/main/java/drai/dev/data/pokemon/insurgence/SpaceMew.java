@@ -37,7 +37,7 @@ public class SpaceMew  extends Pokemon {
         this.setBaseScale(1);
         this.setHitbox(1,1);
         getSpeciesFileData().addBasicVariation("Maliant");
-        getPosingFileData().setPortraitData( 3.5f, new Vector3(-.8, -.25, 0));
+        getPosingFileData().setPortraitData( 3f, new Vector3(-.02, -.51, 0));
         getPosingFileData().setProfileData( .85f, new Vector3(0, .4, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(

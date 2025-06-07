@@ -16,25 +16,25 @@ public class Nosto extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Neschick());
-        addNewPokemon(new Phloxling());
-        addNewPokemon(new Mosstrich());
-        addNewPokemon(new Treetle());
-        addNewPokemon(new Tumball());
-        addNewPokemon(new Titanoss());
-        addNewPokemon(new Pepinch());
-        addNewPokemon(new Torpepo());
+        addNewPokemon(new Neschick().addLabels(Label.STARTER));
+        addNewPokemon(new Phloxling().addLabels(Label.STARTER));
+        addNewPokemon(new Mosstrich().addLabels(Label.STARTER));
+        addNewPokemon(new Treetle().addLabels(Label.STARTER));
+        addNewPokemon(new Tumball().addLabels(Label.STARTER));
+        addNewPokemon(new Titanoss().addLabels(Label.STARTER));
+        addNewPokemon(new Pepinch().addLabels(Label.STARTER));
+        addNewPokemon(new Torpepo().addLabels(Label.STARTER));
         addNewPokemon(new Melauncher(new Stats(563, StatArchetype.PHYSICAL_WALL,
-                List.of(StatType.DEFENCE))));
-        addNewPokemon(new Charrat());
-        addNewPokemon(new Blashrew());
-        addNewPokemon(new Explodent());
-        addNewPokemon(new Squiddle());
-        addNewPokemon(new Squignite());
-        addNewPokemon(new Cephlame());
-        addNewPokemon(new Drimp());
-        addNewPokemon(new Prawnee());
-        addNewPokemon(new Fabulusk());
+                List.of(StatType.DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Charrat().addLabels(Label.STARTER));
+        addNewPokemon(new Blashrew().addLabels(Label.STARTER));
+        addNewPokemon(new Explodent().addLabels(Label.STARTER));
+        addNewPokemon(new Squiddle().addLabels(Label.STARTER));
+        addNewPokemon(new Squignite().addLabels(Label.STARTER));
+        addNewPokemon(new Cephlame().addLabels(Label.STARTER));
+        addNewPokemon(new Drimp().addLabels(Label.STARTER));
+        addNewPokemon(new Prawnee().addLabels(Label.STARTER));
+        addNewPokemon(new Fabulusk().addLabels(Label.STARTER));
         addNewPokemon(new Cheekii());
         addNewPokemon(new Grumpster());
         addNewPokemon(new Ferasquab());
@@ -151,8 +151,8 @@ public class Nosto extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Maspook());
         addNewPokemon(new Cresprit());
         addNewPokemon(new Spectmare());
-        addNewPokemon(new Suravi());
-        addNewPokemon(new Pzeigon());
+        addNewPokemon(new Suravi().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Pzeigon().addLabels(Label.LEGENDARY));
     }
 
 }

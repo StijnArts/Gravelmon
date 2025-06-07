@@ -23,14 +23,15 @@ public class Molore extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Molore is known for its impressive burrowing skills, which it uses to navigate underground tunnels and create its own burrows. Its back is covered in spikey, electrically charged fur that can stun predators, making it difficult for them to attack. Despite its clumsy appearance, Molore is surprisingly quick and nimble when it needs to be, using its sharp claws to dig through soil and rocks."),
-                List.of(),
+                List.of(new EvolutionEntry("minerolt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 0.28, 0.3,
                 List.of());

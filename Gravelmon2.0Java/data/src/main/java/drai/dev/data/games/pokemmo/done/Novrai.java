@@ -13,15 +13,15 @@ public class Novrai extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Snipsnap());
-        addNewPokemon(new Crable());
-        addNewPokemon(new Lobstrike());
-        addNewPokemon(new Impyre());
-        addNewPokemon(new Incubat());
-        addNewPokemon(new Nocturnace());
-        addNewPokemon(new Scuddle());
-        addNewPokemon(new Bubbeetle());
-        addNewPokemon(new Cascarapace());
+        addNewPokemon(new Snipsnap().addLabels(Label.STARTER));
+        addNewPokemon(new Crable().addLabels(Label.STARTER));
+        addNewPokemon(new Lobstrike().addLabels(Label.STARTER));
+        addNewPokemon(new Impyre().addLabels(Label.STARTER));
+        addNewPokemon(new Incubat().addLabels(Label.STARTER));
+        addNewPokemon(new Nocturnace().addLabels(Label.STARTER));
+        addNewPokemon(new Scuddle().addLabels(Label.STARTER));
+        addNewPokemon(new Bubbeetle().addLabels(Label.STARTER));
+        addNewPokemon(new Cascarapace().addLabels(Label.STARTER));
         addNewPokemon(new Fervole());
         addNewPokemon(new Volentine());
         addNewPokemon(new Sidepeck());
@@ -303,9 +303,9 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Orbitgami());
         addNewPokemon(new Elepath());
         addNewPokemon(new Wackyderm());
-        addNewPokemon(new Varanox());
-        addNewPokemon(new Halitox());
-        addNewPokemon(new Juroxic());
+        addNewPokemon(new Varanox().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Halitox().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Juroxic().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Snowitall());
         addNewPokemon(new Subzerebrum());
         addNewPokemon(new Amygdalanche());
@@ -333,20 +333,20 @@ public class Novrai extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Kerohelion());
         addNewPokemon(new Cadavillar());
         addNewPokemon(new Entomortis());
-        addNewPokemon(new XLixir());
-        addNewPokemon(new Relmirror());
-        addNewPokemon(new Gronegardian());
-        addNewPokemon(new Magemeltre());
-        addNewPokemon(new Krailstorm());
-        addNewPokemon(new Surusen());
-        addNewPokemon(new Ikarma());
-        addNewPokemon(new Nedareap());
-        addNewPokemon(new Utsoul());
-        addNewPokemon(new Anaither());
-        addNewPokemon(new Mizevaris());
-        addNewPokemon(new Chondrius());
-        addNewPokemon(new Astroyatlas());
-        addNewPokemon(new Migreat());
+        addNewPokemon(new XLixir().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Relmirror().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Gronegardian().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Magemeltre().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Krailstorm().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Surusen().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Ikarma().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Nedareap().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Utsoul().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Anaither().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Mizevaris().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Chondrius().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Astroyatlas().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Migreat().addLabels(Label.LEGENDARY));
     }
 
 }

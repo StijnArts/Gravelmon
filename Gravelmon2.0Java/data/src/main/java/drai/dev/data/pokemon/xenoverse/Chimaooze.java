@@ -108,8 +108,8 @@ public class Chimaooze extends Pokemon {
         setHitbox(.6,.6);
         this.setHitbox(.7,.5);
         getSpeciesFileData().addBasicVariation("Rogerregoat");
-        getPosingFileData().setPortraitData( 1.7f, new Vector3(0, -.65, 0));
-        getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
+        getPosingFileData().setPortraitData( 2.36f, new Vector3(0.07, -1.89, 0));
+        getPosingFileData().setProfileData( .9f, new Vector3(0.07, .24, 0));
         getPosingFileData().addAnimations(List.of(
                 AnimationData.emptyAnimation().markAsBackupPose()
         ));

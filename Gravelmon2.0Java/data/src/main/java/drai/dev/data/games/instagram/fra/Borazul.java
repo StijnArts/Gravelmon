@@ -18,15 +18,15 @@ public class Borazul extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Drubat()); //Renamed from Fruibat
-        addNewPokemon(new Foliwing());
-        addNewPokemon(new Acairadon());
-        addNewPokemon(new Coaliz());
-        addNewPokemon(new Sizzlick());
-        addNewPokemon(new Apoiformer());
-        addNewPokemon(new Seaquin().fishingSpawnFromExisting());
-        addNewPokemon(new Equamarin().fishingSpawnFromExisting());
-        addNewPokemon(new Aquavallo());
+        addNewPokemon(new Drubat().addLabels(Label.STARTER)); //Renamed from Fruibat
+        addNewPokemon(new Foliwing().addLabels(Label.STARTER));
+        addNewPokemon(new Acairadon().addLabels(Label.STARTER));
+        addNewPokemon(new Coaliz().addLabels(Label.STARTER));
+        addNewPokemon(new Sizzlick().addLabels(Label.STARTER));
+        addNewPokemon(new Apoiformer().addLabels(Label.STARTER));
+        addNewPokemon(new Seaquin().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Equamarin().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Aquavallo().addLabels(Label.STARTER));
         addNewPokemon(new Humbird());
         addNewPokemon(new Paradivia());
         addNewPokemon(new Pitic());

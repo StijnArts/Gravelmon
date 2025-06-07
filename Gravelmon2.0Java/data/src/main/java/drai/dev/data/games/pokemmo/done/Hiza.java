@@ -11,15 +11,15 @@ public class Hiza extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Gnabling());
-        addNewPokemon(new Beastalk());
-        addNewPokemon(new Morassic());
-        addNewPokemon(new Kerodillo());
-        addNewPokemon(new Voladillo());
-        addNewPokemon(new Flamaggedon());
-        addNewPokemon(new Bubbalo());
-        addNewPokemon(new Bullfount());
-        addNewPokemon(new Hydrotaur());
+        addNewPokemon(new Gnabling().addLabels(Label.STARTER));
+        addNewPokemon(new Beastalk().addLabels(Label.STARTER));
+        addNewPokemon(new Morassic().addLabels(Label.STARTER));
+        addNewPokemon(new Kerodillo().addLabels(Label.STARTER));
+        addNewPokemon(new Voladillo().addLabels(Label.STARTER));
+        addNewPokemon(new Flamaggedon().addLabels(Label.STARTER));
+        addNewPokemon(new Bubbalo().addLabels(Label.STARTER));
+        addNewPokemon(new Bullfount().addLabels(Label.STARTER));
+        addNewPokemon(new Hydrotaur().addLabels(Label.STARTER));
         addNewPokemon(new Chicaw());
         addNewPokemon(new Cawlor());
         addNewPokemon(new Cawptain());
@@ -256,16 +256,16 @@ public class Hiza extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Rivestic());
         addNewPokemon(new Serpentidal());
         addNewPokemon(new Duomeleon());
-        addNewPokemon(new Twydra());
-        addNewPokemon(new Cometile());
-        addNewPokemon(new Orbitalon());
-        addNewPokemon(new Novagon());
-        addNewPokemon(new Ogrelisk());
-        addNewPokemon(new Catastropod());
-        addNewPokemon(new Harvinger());
-        addNewPokemon(new Vintera());
-        addNewPokemon(new Gaierth());
-        addNewPokemon(new Hellsire());
+        addNewPokemon(new Twydra().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Cometile().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Orbitalon().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Novagon().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Ogrelisk().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Catastropod().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Harvinger().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Vintera().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Gaierth().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Hellsire().addLabels(Label.LEGENDARY));
     }
 
 }

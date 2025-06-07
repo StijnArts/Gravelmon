@@ -13,7 +13,7 @@ public enum Label {
     GEN7("gen7"),
     GEN8("gen8"),
     GEN9("gen9"),
-    LEGENDARY("legendary"),
+    LEGENDARY("legendary"), FOSSIL(), STARTER(), PSEUDO_LEGENDARY(), SUB_LEGENDARY("legendary"), PARADOX(), ULTRA_BEAST(),
     SAGE("sage"),
     INFINITY("infinity"),
     ALOLA_REGIONAL("alola_regional"),

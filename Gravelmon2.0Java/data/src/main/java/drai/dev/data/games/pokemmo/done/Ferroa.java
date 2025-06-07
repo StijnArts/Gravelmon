@@ -4,7 +4,7 @@ import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.pokemon.ferroa.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done
+//done https://pokengine.org/collections/107pw39l/Ferroa
 public class Ferroa extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ferroa();
     private Ferroa() {
@@ -13,15 +13,15 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Crabble());
-        addNewPokemon(new Carapoma());
-        addNewPokemon(new Crustorchard());
-        addNewPokemon(new Burrliz());
-        addNewPokemon(new Reptack());
-        addNewPokemon(new Calientrop());
-        addNewPokemon(new Sharby());
-        addNewPokemon(new Lamnaw());
-        addNewPokemon(new Squalucid());
+        addNewPokemon(new Crabble().addLabels(Label.STARTER));
+        addNewPokemon(new Carapoma().addLabels(Label.STARTER));
+        addNewPokemon(new Crustorchard().addLabels(Label.STARTER));
+        addNewPokemon(new Burrliz().addLabels(Label.STARTER));
+        addNewPokemon(new Reptack().addLabels(Label.STARTER));
+        addNewPokemon(new Calientrop().addLabels(Label.STARTER));
+        addNewPokemon(new Sharby().addLabels(Label.STARTER));
+        addNewPokemon(new Lamnaw().addLabels(Label.STARTER));
+        addNewPokemon(new Squalucid().addLabels(Label.STARTER));
         addNewPokemon(new Chirunner());
         addNewPokemon(new Roaduner());
 //        addNewPokemon(new Misthary()); Member of line Not Finished
@@ -204,9 +204,9 @@ public class Ferroa extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Platoul());
         addNewPokemon(new Victorelic());
         addNewPokemon(new Batellite());
-        addNewPokemon(new Purrth());
-        addNewPokemon(new Terrachnid());
-        addNewPokemon(new Miserachnid());
+        addNewPokemon(new Purrth().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Terrachnid().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Miserachnid().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Messoul());
         addNewPokemon(new Wastenaut());
 //        addNewPokemon(new Draguma()); Member of line Not Finished

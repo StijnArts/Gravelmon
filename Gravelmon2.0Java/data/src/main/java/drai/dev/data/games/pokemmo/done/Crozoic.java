@@ -3,8 +3,11 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.crozoic.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
+
+//https://pokengine.org/collections/10t91ck9/Crozoic
 public class Crozoic extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Crozoic();
     private Crozoic() {
@@ -103,11 +106,11 @@ public class Crozoic extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pachicorn(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Onsentient());
         addNewPokemon(new Stegairy());
-        addNewPokemon(new Reptor(new Stats(411, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Ordovice(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Permiblaze(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Kretozone(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Ucarya(new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
+        addNewPokemon(new Reptor(new Stats(411, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Ordovice(new Stats(580, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Permiblaze(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Kretozone(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Ucarya(new Stats(600, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.LEGENDARY));
     }
 
 }

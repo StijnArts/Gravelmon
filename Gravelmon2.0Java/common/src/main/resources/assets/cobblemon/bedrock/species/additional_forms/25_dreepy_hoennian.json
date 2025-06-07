@@ -31,8 +31,8 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame1.png",
-              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame2.png"
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame/flame1.png",
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame/flame2.png"
             ],
             "fps": 4,
             "loop": true
@@ -76,8 +76,8 @@
           "translucent": false,
           "texture": {
             "frames": [
-              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame1_shiny.png",
-              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame2_shiny.png"
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame/flame1_shiny.png",
+              "cobblemon:textures/pokemon/blazingemerald/hoenniandreepy/flame/flame2_shiny.png"
             ],
             "fps": 4,
             "loop": true

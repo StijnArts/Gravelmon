@@ -22,11 +22,6 @@ public class Fabel extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-
-//
-
-
-
         addNewPokemon(new FabelianYungoos("", Aspect.FABELIAN));
         addNewPokemon(new FabelianGumshoos("", Aspect.FABELIAN));
         addNewPokemon(new FabelianBidoof("", Aspect.FABELIAN));
@@ -76,17 +71,17 @@ public class Fabel extends drai.dev.data.games.registry.Game {
         addNewPokemon(new FabelianKirlia("", Aspect.FABELIAN));
         addNewPokemon(new Gardefleur());
         removePokedexPokemon("sprigatito, floragato");
-        addNewPokemon(new Walpurrgeow());
+        addNewPokemon(new Walpurrgeow().addLabels(Label.STARTER));
         removePokedexPokemon("scorbunny, raboot");
-        addNewPokemon(new Lorderace());
+        addNewPokemon(new Lorderace().addLabels(Label.STARTER));
         removePokedexPokemon("froakie, frogadier");
-        addNewPokemon(new Frogermit());
-        addNewPokemon(new Ironblaster());
-        addNewPokemon(new Ironmask());
-        addNewPokemon(new Ironcauldron());
-        addNewPokemon(new Savagesword());
-        addNewPokemon(new Ragingfist());
-        addNewPokemon(new Fluffyscales());
+        addNewPokemon(new Frogermit().addLabels(Label.STARTER));
+        addNewPokemon(new Ironblaster().addLabels(Label.PARADOX));
+        addNewPokemon(new Ironmask().addLabels(Label.PARADOX));
+        addNewPokemon(new Ironcauldron().addLabels(Label.PARADOX));
+        addNewPokemon(new Savagesword().addLabels(Label.PARADOX));
+        addNewPokemon(new Ragingfist().addLabels(Label.PARADOX));
+        addNewPokemon(new Fluffyscales().addLabels(Label.PARADOX));
         addNewPokemon(new FabelianPoliwag("", Aspect.FABELIAN).fishingSpawnFromExisting());
         addNewPokemon(new FabelianPoliwhirl("", Aspect.FABELIAN).fishingSpawnFromExisting());
         addNewPokemon(new Poliwring());
@@ -140,16 +135,16 @@ public class Fabel extends drai.dev.data.games.registry.Game {
         addNewPokemon(new FabelianPyukumuku("", Aspect.FABELIAN));
         addNewPokemon(new FabelianDhelmise("", Aspect.FABELIAN).fishingSpawnFromExisting());
         addNewPokemon(new Dutchmise());
-        addNewPokemon(new FabelianDeino("", Aspect.FABELIAN));
-        addNewPokemon(new Zweino());
-        addNewPokemon(new Bombreino());
-        addNewPokemon(new FabelianBeldum("", Aspect.FABELIAN));
-        addNewPokemon(new FabelianMetang("", Aspect.FABELIAN));
-        addNewPokemon(new FabelianMetagross("", Aspect.FABELIAN));
-        addNewPokemon(new FabelianRaikou("", Aspect.FABELIAN));
-        addNewPokemon(new FabelianEntei("", Aspect.FABELIAN));
-        addNewPokemon(new FabelianSuicune("", Aspect.FABELIAN));
-        addNewPokemon(new Schattenwolf());
+        addNewPokemon(new FabelianDeino("", Aspect.FABELIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Zweino().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Bombreino().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FabelianBeldum("", Aspect.FABELIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FabelianMetang("", Aspect.FABELIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FabelianMetagross("", Aspect.FABELIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FabelianRaikou("", Aspect.FABELIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new FabelianEntei("", Aspect.FABELIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new FabelianSuicune("", Aspect.FABELIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Schattenwolf().addLabels(Label.LEGENDARY));
     }
 
 }

@@ -1,12 +1,17 @@
 package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.api.tags.*;
+import com.cobblemon.yajatkaul.mega_showdown.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.core.*;
+import net.minecraft.core.registries.*;
 import net.minecraft.resources.*;
+import net.minecraft.tags.*;
+import net.minecraft.world.item.*;
 
 import java.util.concurrent.*;
 
@@ -14,7 +19,6 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
     public ModItemTagGenerator(FabricDataOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
         super(output, completableFuture);
     }
-
     @Override
     protected void addTags(HolderLookup.Provider arg) {
         getOrCreateTagBuilder(CobblemonItemTags.EVOLUTION_STONES)
@@ -83,5 +87,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
         Gravelmon.FOSSIL_ITEM_MAP.forEach((key, value) -> fossilTagBuilder.add(value.get()));
         var pokeballTagBuilder = getOrCreateTagBuilder(CobblemonItemTags.POKE_BALLS);
         GravelmonItems.POKE_BALLS.forEach((key) -> pokeballTagBuilder.add(key.get()));
+        var megaStoneTagBuilder = getOrCreateTagBuilder(GravelmonItemTags.MEGA_STONES);
+        GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet().forEach((key) -> megaStoneTagBuilder.add(key.get()));
     }
 }

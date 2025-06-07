@@ -29,15 +29,15 @@ public class Raian extends drai.dev.data.games.registry.Game {
 
 
 
-        addNewPokemon(new Migraff());
-        addNewPokemon(new Airgraff());
-        addNewPokemon(new Raffrobter(new Stats(530, BULKY_SUPPORT, List.of(HP))));
-        addNewPokemon(new Hymbr());
-        addNewPokemon(new Blayna());
-        addNewPokemon(new Ertheno(new Stats(525, BULKY_PHYSICAL_ATTACKER, List.of(HP))));
-        addNewPokemon(new Aquama());
-        addNewPokemon(new Salaima());
-        addNewPokemon(new Amoxica(new Stats(534, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+        addNewPokemon(new Migraff().addLabels(Label.STARTER));
+        addNewPokemon(new Airgraff().addLabels(Label.STARTER));
+        addNewPokemon(new Raffrobter(new Stats(530, BULKY_SUPPORT, List.of(HP))).addLabels(Label.STARTER));
+        addNewPokemon(new Hymbr().addLabels(Label.STARTER));
+        addNewPokemon(new Blayna().addLabels(Label.STARTER));
+        addNewPokemon(new Ertheno(new Stats(525, BULKY_PHYSICAL_ATTACKER, List.of(HP))).addLabels(Label.STARTER));
+        addNewPokemon(new Aquama().addLabels(Label.STARTER));
+        addNewPokemon(new Salaima().addLabels(Label.STARTER));
+        addNewPokemon(new Amoxica(new Stats(534, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.STARTER));
 
         addNewPokemon(new Flufforn());
         addNewPokemon(new Sahawk());
@@ -61,15 +61,15 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Maxard());
         addNewPokemon(new Triagon(new Stats(410, FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
 
-        addNewPokemon(new Snaprick());
-        addNewPokemon(new Turtace());
-        addNewPokemon(new Spiritur(new Stats(525, SLOW_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        addNewPokemon(new Sycrog());
-        addNewPokemon(new Zenrog());
-        addNewPokemon(new Triclope(new Stats(534, FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
-        addNewPokemon(new Dagekko());
-        addNewPokemon(new Evigekko());
-        addNewPokemon(new Predodator(new Stats(530, PHYSICAL_ATTACKER, List.of(ATTACK))));
+        addNewPokemon(new Snaprick().addLabels(Label.STARTER));
+        addNewPokemon(new Turtace().addLabels(Label.STARTER));
+        addNewPokemon(new Spiritur(new Stats(525, SLOW_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Sycrog().addLabels(Label.STARTER));
+        addNewPokemon(new Zenrog().addLabels(Label.STARTER));
+        addNewPokemon(new Triclope(new Stats(534, FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Dagekko().addLabels(Label.STARTER));
+        addNewPokemon(new Evigekko().addLabels(Label.STARTER));
+        addNewPokemon(new Predodator(new Stats(530, PHYSICAL_ATTACKER, List.of(ATTACK))).addLabels(Label.STARTER));
 
         addNewPokemon(new Bubotus().fishingSpawnFromExisting());
         addNewPokemon(new Vamprquid(new Stats(440, SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
@@ -96,15 +96,15 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cublog());
         addNewPokemon(new Leoquare(new Stats(460, BULKY_SPECIAL_ATTACKER, List.of(SPEED))));
 
-        addNewPokemon(new Solice());
-        addNewPokemon(new Frozarawn());
-        addNewPokemon(new Darcicle(new Stats(534, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        addNewPokemon(new Watchost());
-        addNewPokemon(new Redinfine());
-        addNewPokemon(new Securider(new Stats(520, PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        addNewPokemon(new Clasoil());
-        addNewPokemon(new Cimentok());
-        addNewPokemon(new Closalarm(new Stats(525, SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+        addNewPokemon(new Solice().addLabels(Label.STARTER));
+        addNewPokemon(new Frozarawn().addLabels(Label.STARTER));
+        addNewPokemon(new Darcicle(new Stats(534, BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Watchost().addLabels(Label.STARTER));
+        addNewPokemon(new Redinfine().addLabels(Label.STARTER));
+        addNewPokemon(new Securider(new Stats(520, PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Clasoil().addLabels(Label.STARTER));
+        addNewPokemon(new Cimentok().addLabels(Label.STARTER));
+        addNewPokemon(new Closalarm(new Stats(525, SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.STARTER));
 
         addNewPokemon(new Biomkid());
         addNewPokemon(new Mbombo());
@@ -147,10 +147,10 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Spiturtos(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(DEFENCE))));
         addNewPokemon(new Beninroz(new Stats(550, FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
 
-        addNewPokemon(new Tryambeak()); //fossil
-        addNewPokemon(new Terrotryma(new Stats(460, PHYSICAL_ATTACKER, List.of(ATTACK))));
-        addNewPokemon(new Nodoo()); //fossil
-        addNewPokemon(new Dodenius(new Stats(460, PHYSICAL_WALL, List.of(HP))));
+        addNewPokemon(new Tryambeak().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Terrotryma(new Stats(460, PHYSICAL_ATTACKER, List.of(ATTACK))).addLabels(Label.FOSSIL));
+        addNewPokemon(new Nodoo().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Dodenius(new Stats(460, PHYSICAL_WALL, List.of(HP))).addLabels(Label.FOSSIL));
         addNewPokemon(new Chamenetic());
         addNewPokemon(new Geneleon(new Stats(450, SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
         addNewPokemon(new Grifowl());
@@ -176,13 +176,13 @@ public class Raian extends drai.dev.data.games.registry.Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Cloueon(new Stats(524, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        addNewPokemon(new Cloueon(new Stats(524, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).addLabels(Label.EEVEELUTION));
 
         addPokedexPokemon("dratini, dragonairn");
         addNewPokemon(new RaianianDragonite("", Aspect.RAIANIAN, new Stats(600,
-                BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
+                BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new RaianianDragoniteOne("", Aspect.RAIANIAN, new Stats(600,
-                BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
+                BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
         addPokedexPokemon("hoothoot");
         addNewPokemon(new RaianianNoctowl("", Aspect.RAIANIAN, new Stats(542,
                 BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
@@ -200,11 +200,11 @@ public class Raian extends drai.dev.data.games.registry.Game {
                 PHYSICAL_ATTACKER, List.of(ATTACK, ATTACK, ATTACK))));
         addPokedexPokemon("bagon, shelgon");
         addNewPokemon(new RaianianSalamence("", Aspect.RAIANIAN, new Stats(600,
-                SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN));
-        addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN));
+                SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new RaianianGible("", Aspect.RAIANIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new RaianianGabite("", Aspect.RAIANIAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new RaianianGarchomp("", Aspect.RAIANIAN, new Stats(600,
-                BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))));
+                BULKY_SUPPORT, List.of(ATTACK, ATTACK, ATTACK))).addLabels(Label.PSEUDO_LEGENDARY));
         addPokedexPokemon("riolu");
         addNewPokemon(new RaianianLucario("", Aspect.RAIANIAN, new Stats(525,
                 FAST_SPECIAL_ATTACKER, List.of(SPEED))));
@@ -221,8 +221,8 @@ public class Raian extends drai.dev.data.games.registry.Game {
         addNewPokemon(new TribalSecurider("", Aspect.TRIBAL, new Stats(580, SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
         addNewPokemon(new TribalClosalarm("", Aspect.TRIBAL, new Stats(580, SPECIAL_WALL, List.of(SPECIAL_DEFENCE, SPECIAL_DEFENCE))));
 
-        addNewPokemon(new Chaontouka(new Stats(680, BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))));
-        addNewPokemon(new Ordabada(new Stats(680, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
+        addNewPokemon(new Chaontouka(new Stats(680, BULKY_PHYSICAL_ATTACKER, List.of(ATTACK))).addLabels(Label.LEGENDARY));
+        addNewPokemon(new Ordabada(new Stats(680, BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).addLabels(Label.LEGENDARY));
     }
 
 }

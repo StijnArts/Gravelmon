@@ -22,24 +22,24 @@ public class Vanguard extends Game {
         addNewPokemon(new AyreianHitmonchan("", Aspect.AYREIAN));
         addNewPokemon(new AyreianJynx("", Aspect.AYREIAN));
         addNewPokemon(new AyreianSnorlax("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianDratini("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianDragonair("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianDragonite("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianDratini("", Aspect.AYREIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new AyreianDragonair("", Aspect.AYREIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new AyreianDragonite("", Aspect.AYREIAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new AyreianLapras("", Aspect.AYREIAN));
         addNewPokemon(new AyreianVulpix("", Aspect.AYREIAN));
         addNewPokemon(new AyreianNinetales("", Aspect.AYREIAN));
         addNewPokemon(new AyreianVulpixOne("", Aspect.AYREIAN));
         addNewPokemon(new AyreianNinetalesOne("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianBulbasaur("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianIvysaur("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianVenusaur("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCharmander("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCharmeleon("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCharizard("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSquirtle("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianWartortle("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBlastoise("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianBulbasaur("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianIvysaur("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianVenusaur("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCharmander("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCharmeleon("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCharizard("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianSquirtle("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianWartortle("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianBlastoise("", Aspect.AYREIAN).addLabels(Label.STARTER));
         addNewPokemon(new AyreianCaterpie("", Aspect.AYREIAN));
         addNewPokemon(new AyreianMetapod("", Aspect.AYREIAN));
         addNewPokemon(new AyreianButterfree("", Aspect.AYREIAN));
@@ -72,28 +72,28 @@ public class Vanguard extends Game {
         addNewPokemon(new AyreianHitmontop("", Aspect.AYREIAN));
         addNewPokemon(new AyreianSmoochum("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianChikorita("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBayleef("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianMeganium("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCyndaquil("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianQuilava("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTyphlosion("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTotodile("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCroconaw("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianFeraligatr("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianChikorita("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianBayleef("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianMeganium("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCyndaquil("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianQuilava("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianTyphlosion("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianTotodile("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCroconaw("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianFeraligatr("", Aspect.AYREIAN).addLabels(Label.STARTER));
         addNewPokemon(new AyreianSpinarak("", Aspect.AYREIAN));
         addNewPokemon(new AyreianAriados("", Aspect.AYREIAN));
         addNewPokemon(new AyreianStantler("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTreecko("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianGrovyle("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSceptile("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTorchic("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianCombusken("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBlaziken("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianTreecko("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianGrovyle("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianSceptile("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianTorchic("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianCombusken("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianBlaziken("", Aspect.AYREIAN).addLabels(Label.STARTER));
 
-        addNewPokemon(new AyreianMudkip("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianMarshtomp("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSwampert("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianMudkip("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianMarshtomp("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianSwampert("", Aspect.AYREIAN).addLabels(Label.STARTER));
 
         addNewPokemon(new AyreianZigzagoon("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLinoone("", Aspect.AYREIAN));
@@ -137,12 +137,12 @@ public class Vanguard extends Game {
         addNewPokemon(new AyreianDrifblim("", Aspect.AYREIAN));
 
         addNewPokemon(new AyreianFroslass("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSnivy("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianServine("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianSerperior("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianTepig("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianPignite("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianEmboar("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSnivy("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianServine("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianSerperior("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianTepig("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianPignite("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianEmboar("", Aspect.AYREIAN).addLabels(Label.STARTER));
         addNewPokemon(new AyreianPidove("", Aspect.AYREIAN));
         addNewPokemon(new AyreianTranquill("", Aspect.AYREIAN));
         addNewPokemon(new AyreianUnfezant("", Aspect.AYREIAN));
@@ -189,9 +189,9 @@ public class Vanguard extends Game {
         addNewPokemon(new AyreianNoibat("", Aspect.AYREIAN));
         addNewPokemon(new AyreianNoivern("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianFennekin("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianBraixen("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianDelphox("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFennekin("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianBraixen("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianDelphox("", Aspect.AYREIAN).addLabels(Label.STARTER));
         addNewPokemon(new AyreianTyrunt("", Aspect.AYREIAN));
         addNewPokemon(new AyreianTyrantrum("", Aspect.AYREIAN));
         addNewPokemon(new AyreianLitleo("", Aspect.AYREIAN));
@@ -202,9 +202,9 @@ public class Vanguard extends Game {
 
         addNewPokemon(new AyreianYungoos("", Aspect.AYREIAN));
         addNewPokemon(new AyreianGumshoos("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianGrookey("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianThwackey("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianRillaboom("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianGrookey("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianThwackey("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianRillaboom("", Aspect.AYREIAN).addLabels(Label.STARTER));
         addNewPokemon(new AyreianSizzlipede("", Aspect.AYREIAN));
         addNewPokemon(new AyreianCentiskorch("", Aspect.AYREIAN));
 
@@ -215,12 +215,12 @@ public class Vanguard extends Game {
 
         addNewPokemon(new AyreianAlcremie("", Aspect.AYREIAN));
 
-        addNewPokemon(new AyreianSprigatito("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianFloragato("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianMeowscarada("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianQuaxly("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianQuaxwell("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianQuaquaval("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianSprigatito("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianFloragato("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianMeowscarada("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianQuaxly("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianQuaxwell("", Aspect.AYREIAN).addLabels(Label.STARTER));
+        addNewPokemon(new AyreianQuaquaval("", Aspect.AYREIAN).addLabels(Label.STARTER));
 
         addNewPokemon(new AyreianMagnemite("", Aspect.AYREIAN));
         addNewPokemon(new AyreianMagneton("", Aspect.AYREIAN));
@@ -260,15 +260,15 @@ public class Vanguard extends Game {
         addNewPokemon(new Astralaxy());
         addNewPokemon(new Masimuthi());
         addNewPokemon(new Wraifanggal());
-        addNewPokemon(new Mujineon());
-        addNewPokemon(new Spareon());
-        addNewPokemon(new Almireon());
+        addNewPokemon(new Mujineon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Spareon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Almireon().addLabels(Label.EEVEELUTION));
 //        addNewPokemon(new Quartzeon()); //MISSING ART
-        addNewPokemon(new Evoleon());
-        addNewPokemon(new Caeleon());
-        addNewPokemon(new Saureon());
-        addNewPokemon(new Burreon());
-        addNewPokemon(new Halluceon());
+        addNewPokemon(new Evoleon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Caeleon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Saureon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Burreon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Halluceon().addLabels(Label.EEVEELUTION));
         addNewPokemon(new Vultema());
         addNewPokemon(new Parlomai());
         addNewPokemon(new Valevant());

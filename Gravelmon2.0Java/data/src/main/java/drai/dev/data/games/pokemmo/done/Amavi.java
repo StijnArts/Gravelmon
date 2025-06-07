@@ -3,6 +3,7 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //Done
@@ -11,18 +12,18 @@ public class Amavi extends drai.dev.data.games.registry.Game {
     private Amavi() {
         super("Amavi");
     }
-
+    //https://pokengine.org/collections/10l89w8e/Amavi
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Ankleaf());
-        addNewPokemon(new Bashorn());
-        addNewPokemon(new Tanklyo());
-        addNewPokemon(new Spawnkey());
-        addNewPokemon(new Impanzee());
-        addNewPokemon(new Beelzeboon());
-        addNewPokemon(new Shellop());
-        addNewPokemon(new Glossail());
-        addNewPokemon(new Atlantice());
+        addNewPokemon(new Ankleaf().addLabels(Label.STARTER));
+        addNewPokemon(new Bashorn().addLabels(Label.STARTER));
+        addNewPokemon(new Tanklyo().addLabels(Label.STARTER));
+        addNewPokemon(new Spawnkey().addLabels(Label.STARTER));
+        addNewPokemon(new Impanzee().addLabels(Label.STARTER));
+        addNewPokemon(new Beelzeboon().addLabels(Label.STARTER));
+        addNewPokemon(new Shellop().addLabels(Label.STARTER));
+        addNewPokemon(new Glossail().addLabels(Label.STARTER));
+        addNewPokemon(new Atlantice().addLabels(Label.STARTER));
         addNewPokemon(new Lulloon());
         addNewPokemon(new Magpipe());
         addNewPokemon(new Lyricroon());

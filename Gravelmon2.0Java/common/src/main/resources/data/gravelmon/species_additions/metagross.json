@@ -667,7 +667,7 @@
       "name": "delta_spider_mega",
       "primaryType": "ground",
       "secondaryType": "bug",
-      "baseScale": 25.200000000000003,
+      "baseScale": 0.26526315789473687,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -694,7 +694,7 @@
       "name": "delta_ruin_mega",
       "primaryType": "grass",
       "secondaryType": "rock",
-      "baseScale": 26.400000000000002,
+      "baseScale": 0.28695652173913044,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [
@@ -721,7 +721,7 @@
       "name": "delta_crystal_mega",
       "primaryType": "grass",
       "secondaryType": "crystal",
-      "baseScale": 24.0,
+      "baseScale": 0.21621621621621623,
       "cannotDynamax": false,
       "battleOnly": true,
       "abilities": [

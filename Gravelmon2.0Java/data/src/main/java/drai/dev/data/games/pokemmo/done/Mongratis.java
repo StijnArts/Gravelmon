@@ -15,6 +15,7 @@ import drai.dev.data.pokemon.myth.Hissiorite;
 import drai.dev.data.pokemon.myth.Lavare;
 import drai.dev.data.pokemon.myth.Lavee;
 import drai.dev.data.pokemon.myth.Pythonova;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
@@ -26,13 +27,13 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Geckrow());
-        addNewPokemon(new Goanopy());
-        addNewPokemon(new Varanitor());
-        addNewPokemon(new Hissiorite());
-        addNewPokemon(new Cobarett());
-        addNewPokemon(new Pythonova());
-        addNewPokemon(new Ninoala());   
+        addNewPokemon(new Geckrow().addLabels(Label.STARTER));
+        addNewPokemon(new Goanopy().addLabels(Label.STARTER));
+        addNewPokemon(new Varanitor().addLabels(Label.STARTER));
+        addNewPokemon(new Hissiorite().addLabels(Label.STARTER));
+        addNewPokemon(new Cobarett().addLabels(Label.STARTER));
+        addNewPokemon(new Pythonova().addLabels(Label.STARTER));
+        addNewPokemon(new Ninoala());
         addNewPokemon(new Koaninja(new Stats(430, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Anu(new Stats(340, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
         addNewPokemon(new Merlicun());
@@ -40,9 +41,9 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Baoby());
         addNewPokemon(new Baobaraffe());
         addNewPokemon(new Nuenflu(new Stats(360, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Drashimi());   
-        addNewPokemon(new Tsushimi());   
-        addNewPokemon(new Tobishimi());
+        addNewPokemon(new Drashimi().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Tsushimi().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Tobishimi().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Baulder());
         addNewPokemon(new Dreadrock());
         addNewPokemon(new Tekagon());
@@ -80,15 +81,15 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Moosid());
         addNewPokemon(new Egoelk());
         addNewPokemon(new Suprago());
-        addNewPokemon(new Timberry());   
-        addNewPokemon(new Howliage());   
-        addNewPokemon(new Botanine(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Saurky());
-        addNewPokemon(new Crestaka());
-        addNewPokemon(new Avipex(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
-        addNewPokemon(new Bonfur());   
-        addNewPokemon(new Tindursa());   
-        addNewPokemon(new Sizzly(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
+        addNewPokemon(new Timberry().addLabels(Label.STARTER));
+        addNewPokemon(new Howliage().addLabels(Label.STARTER));
+        addNewPokemon(new Botanine(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Saurky().addLabels(Label.STARTER));
+        addNewPokemon(new Crestaka().addLabels(Label.STARTER));
+        addNewPokemon(new Avipex(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Bonfur().addLabels(Label.STARTER));
+        addNewPokemon(new Tindursa().addLabels(Label.STARTER));
+        addNewPokemon(new Sizzly(new Stats(520, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))).addLabels(Label.STARTER));
         addNewPokemon(new Lollybog());   
         addNewPokemon(new Brewtrid());   
         addNewPokemon(new Forbiddron(new Stats(510, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
@@ -224,9 +225,9 @@ public class Mongratis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Flyrry());   
         addNewPokemon(new Wyntry(new Stats(440, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_DEFENCE))));
         addNewPokemon(new Gardial(new Stats(410, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
-        addNewPokemon(new Appalyp());   
-        addNewPokemon(new Sycoral());   
-        addNewPokemon(new Nemesusa(new Stats(520, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.DEFENCE))));
+        addNewPokemon(new Appalyp().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Sycoral().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Nemesusa(new Stats(600, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Fencival(new Stats(430, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.ATTACK))));
         addNewPokemon(new Enderbird(new Stats(410, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Lizquent());

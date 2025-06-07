@@ -4,7 +4,8 @@ public enum SpawnWeight {
     VERY_COMMON(12),
     COMMON(9),
     UNCOMMON(5),
-    RARE(.9);
+    RARE(.9),
+    ULTRA_RARE(.05);
     private final double weight;
     SpawnWeight(double weight) {
         this.weight = weight;

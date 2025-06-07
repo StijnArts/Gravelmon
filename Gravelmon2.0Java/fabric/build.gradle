@@ -1,3 +1,5 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+
 plugins {
     id 'com.github.johnrengelman.shadow'
     id 'org.jetbrains.kotlin.jvm' version "1.9.23"
@@ -118,5 +120,16 @@ sourceSets {
             ]
         }
     }
+}
+tasks.withType(Jar).configureEach {
+    zip64 = true
+}
+
+tasks.withType(Zip).configureEach {
+    zip64 = true
+}
+
+tasks.named("shadowJar", ShadowJar) {
+    zip64 = true
 }
 

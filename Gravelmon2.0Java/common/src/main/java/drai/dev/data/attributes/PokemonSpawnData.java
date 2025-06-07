@@ -3,6 +3,7 @@ package drai.dev.data.attributes;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
+import java.util.logging.*;
 
 public class PokemonSpawnData {
     SpawnContext spawnContext;
@@ -150,5 +151,18 @@ public class PokemonSpawnData {
 
     public List<String> getRequiredBlocks() {
         return requiredBlocks;
+    }
+
+    public void validate() {
+        var snowyBiomes = List.of(
+                Biome.IS_SNOWY , Biome.IS_SNOWY_FOREST , Biome.IS_FREEZING , Biome.IS_FROZEN_OCEAN, Biome.IS_PEAK
+        );
+        if(getBiomeSpawnCondition().getBiomes().stream().anyMatch(snowyBiomes::contains)) {
+            if(getSpawnConditions().stream().anyMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING)) {
+                getSpawnConditions().removeIf(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING);
+                getSpawnConditions().add(new SpawnCondition(SpawnConditionType.IS_RAINING, "true"));
+            }
+            Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a snowy biome condition and expects thunder. Mitigated");
+        }
     }
 }

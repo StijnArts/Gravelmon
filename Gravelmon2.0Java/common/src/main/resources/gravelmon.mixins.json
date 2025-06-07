@@ -8,7 +8,7 @@
     "CobblemonPlacedFeaturesMixin",
     "PokeBallMixin",
     "PokeBallsAccessor",
-    "ShowdownItemManagerMixin",
+    "ShowdownFileManagerMixin",
     "megashowdown.EventUtilsMixin",
     "megashowdown.MegaLogicMixin",
     "megashowdown.RevertEventsMixin"

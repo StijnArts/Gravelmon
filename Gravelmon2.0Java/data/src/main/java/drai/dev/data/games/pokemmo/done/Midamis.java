@@ -1,6 +1,8 @@
 package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Midamis extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Midamis();
@@ -10,15 +12,15 @@ public class Midamis extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Florcoon());
-        addNewPokemon(new Bufaroon());
-        addNewPokemon(new Grandaroon());
-        addNewPokemon(new Pyrall());
-        addNewPokemon(new Baufire());
-        addNewPokemon(new Inferlauf());
-        addNewPokemon(new Aquaff());
-        addNewPokemon(new Aqualf());
-        addNewPokemon(new Oxatear());
+        addNewPokemon(new Florcoon().addLabels(Label.STARTER));
+        addNewPokemon(new Bufaroon().addLabels(Label.STARTER));
+        addNewPokemon(new Grandaroon().addLabels(Label.STARTER));
+        addNewPokemon(new Pyrall().addLabels(Label.STARTER));
+        addNewPokemon(new Baufire().addLabels(Label.STARTER));
+        addNewPokemon(new Inferlauf().addLabels(Label.STARTER));
+        addNewPokemon(new Aquaff().addLabels(Label.STARTER));
+        addNewPokemon(new Aqualf().addLabels(Label.STARTER));
+        addNewPokemon(new Oxatear().addLabels(Label.STARTER));
 
         addNewPokemon(new Mitorch());
         addNewPokemon(new Taratorcha());
@@ -150,19 +152,19 @@ public class Midamis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Juldon());
         addNewPokemon(new Abramadon());
         addNewPokemon(new Adeerex());
-        addNewPokemon(new Leebrio());
-        addNewPokemon(new Leebrey());
-        addNewPokemon(new Leeceri());
-        addNewPokemon(new Kiell());
-        addNewPokemon(new Kiriliel());
-        addNewPokemon(new Kivirial());
-        addNewPokemon(new Mesopolin());
-        addNewPokemon(new Kaplantis());
-        addNewPokemon(new Valhengu());
-        addNewPokemon(new Luceyan());
-        addNewPokemon(new Kamiyin());
-        addNewPokemon(new Balas());
-        addNewPokemon(new Autricee());
+        addNewPokemon(new Leebrio().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Leebrey().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Leeceri().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kiell().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kiriliel().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Kivirial().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Mesopolin().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Kaplantis().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Valhengu().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Luceyan().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Kamiyin().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Balas().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Autricee().addLabels(Label.LEGENDARY));
     }
 
 }

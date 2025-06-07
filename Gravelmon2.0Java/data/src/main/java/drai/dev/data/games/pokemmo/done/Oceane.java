@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.done;
 
 import drai.dev.data.attributes.*;
 import drai.dev.data.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 //done
@@ -13,15 +14,15 @@ public class Oceane extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Bublit());
-        addNewPokemon(new Nautilite());
-        addNewPokemon(new Tentalcyon(new Stats(537, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Friney());
-        addNewPokemon(new Ripplier());
-        addNewPokemon(new Swordier());
-        addNewPokemon(new Nomstar());
-        addNewPokemon(new Disastar());
-        addNewPokemon(new Ferossicle(new Stats(542, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
+        addNewPokemon(new Bublit().addLabels(Label.STARTER));
+        addNewPokemon(new Nautilite().addLabels(Label.STARTER));
+        addNewPokemon(new Tentalcyon(new Stats(537, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.STARTER));
+        addNewPokemon(new Friney().addLabels(Label.STARTER));
+        addNewPokemon(new Ripplier().addLabels(Label.STARTER));
+        addNewPokemon(new Swordier().addLabels(Label.STARTER));
+        addNewPokemon(new Nomstar().addLabels(Label.STARTER));
+        addNewPokemon(new Disastar().addLabels(Label.STARTER));
+        addNewPokemon(new Ferossicle(new Stats(542, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))).addLabels(Label.STARTER));
         addNewPokemon(new Planten());
         addNewPokemon(new Handren());
         addNewPokemon(new Digdog());
@@ -97,14 +98,14 @@ public class Oceane extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mamagma());
         addNewPokemon(new Kellyp());
         addNewPokemon(new Ferrush(new Stats(498, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Bwobble());
-        addNewPokemon(new Noxical());
-        addNewPokemon(new Venomenace());
+        addNewPokemon(new Bwobble().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Noxical().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Venomenace().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Octomuray(new Stats(484, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Cycaroon());
-        addNewPokemon(new Argoceane());
-        addNewPokemon(new Dreadtyde());
-        addNewPokemon(new Abysside(new Stats(640, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))));
+        addNewPokemon(new Cycaroon().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Argoceane().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Dreadtyde().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Abysside(new Stats(640, StatArchetype.SPECIAL_WALL, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.LEGENDARY));
     }
 
 }

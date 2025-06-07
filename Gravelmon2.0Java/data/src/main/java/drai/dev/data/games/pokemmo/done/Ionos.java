@@ -7,7 +7,7 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done
+//done https://pokengine.org/collections/10vxw2l3/Ionos
 public class Ionos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ionos();
     private Ionos() {
@@ -16,15 +16,15 @@ public class Ionos extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Shrubbie());
-        addNewPokemon(new Herbelle());
-        addNewPokemon(new Miralide());
-        addNewPokemon(new Radarent());
-        addNewPokemon(new Sparkadillo());
-        addNewPokemon(new Armadealo());
-        addNewPokemon(new Chompper());
-        addNewPokemon(new Crunchawtle());
-        addNewPokemon(new Tormightier());
+        addNewPokemon(new Shrubbie().addLabels(Label.STARTER));
+        addNewPokemon(new Herbelle().addLabels(Label.STARTER));
+        addNewPokemon(new Miralide().addLabels(Label.STARTER));
+        addNewPokemon(new Radarent().addLabels(Label.STARTER));
+        addNewPokemon(new Sparkadillo().addLabels(Label.STARTER));
+        addNewPokemon(new Armadealo().addLabels(Label.STARTER));
+        addNewPokemon(new Chompper().addLabels(Label.STARTER));
+        addNewPokemon(new Crunchawtle().addLabels(Label.STARTER));
+        addNewPokemon(new Tormightier().addLabels(Label.STARTER));
         addNewPokemon(new Sengishrew());
         addNewPokemon(new Plagarata(new Stats(421, StatArchetype.FAST_SUPPORT, List.of(StatType.ATTACK))));
         addNewPokemon(new Pomfly());
@@ -166,33 +166,33 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Typhoonos(new Stats(500, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.SPEED))));
         addNewPokemon(new Pottlin());
         addNewPokemon(new Pottyrm(new Stats(501, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Xinigen());
-        addNewPokemon(new Puffjinn());
-        addNewPokemon(new Minjin());
-        addNewPokemon(new Cerbenos(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Drahoggon());
-        addNewPokemon(new Oldeture());
-        addNewPokemon(new IonosianChikorita("", Aspect.IONOSIAN)); //Sprite on desktop
-        addNewPokemon(new IonosianBayleef("", Aspect.IONOSIAN));
+        addNewPokemon(new Xinigen().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Puffjinn().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Minjin().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Cerbenos(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Drahoggon().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Oldeture().addLabels(Label.LEGENDARY));
+        addNewPokemon(new IonosianChikorita("", Aspect.IONOSIAN).addLabels(Label.STARTER)); //Sprite on desktop
+        addNewPokemon(new IonosianBayleef("", Aspect.IONOSIAN).addLabels(Label.STARTER));
         addNewPokemon(new IonosianMeganium("", Aspect.IONOSIAN, new Stats(525, StatArchetype.PHYSICAL_ATTACKER,
-                List.of(StatType.HP))));
-        addNewPokemon(new IonosianCyndaquil("", Aspect.IONOSIAN));    //Sprite on desktop
-        addNewPokemon(new IonosianQuilava("", Aspect.IONOSIAN));
+                List.of(StatType.HP))).addLabels(Label.STARTER));
+        addNewPokemon(new IonosianCyndaquil("", Aspect.IONOSIAN).addLabels(Label.STARTER));    //Sprite on desktop
+        addNewPokemon(new IonosianQuilava("", Aspect.IONOSIAN).addLabels(Label.STARTER));
         addNewPokemon(new IonosianTyphlosion("", Aspect.IONOSIAN, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new IonosianTotodile("", Aspect.IONOSIAN));
-        addNewPokemon(new IonosianCroconaw("", Aspect.IONOSIAN));
+                List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new IonosianTotodile("", Aspect.IONOSIAN).addLabels(Label.STARTER));
+        addNewPokemon(new IonosianCroconaw("", Aspect.IONOSIAN).addLabels(Label.STARTER));
         addNewPokemon(new IonosianFeraligatr("", Aspect.IONOSIAN, new Stats(530, StatArchetype.FAST_PHYSICAL_ATTACKER,
-                List.of(StatType.ATTACK))));
-        addNewPokemon(new Faunler());
-        addNewPokemon(new Satyrnus());
-        addNewPokemon(new Tauracho());
-        addNewPokemon(new Kinbat());
-        addNewPokemon(new Garpyre());
-        addNewPokemon(new Duabat(new Stats(526, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Fillybrum());
-        addNewPokemon(new Corashu());
-        addNewPokemon(new Campullion());
+                List.of(StatType.ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Faunler().addLabels(Label.STARTER));
+        addNewPokemon(new Satyrnus().addLabels(Label.STARTER));
+        addNewPokemon(new Tauracho().addLabels(Label.STARTER));
+        addNewPokemon(new Kinbat().addLabels(Label.STARTER));
+        addNewPokemon(new Garpyre().addLabels(Label.STARTER));
+        addNewPokemon(new Duabat(new Stats(526, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_ATTACK))).addLabels(Label.STARTER));
+        addNewPokemon(new Fillybrum().addLabels(Label.STARTER));
+        addNewPokemon(new Corashu().addLabels(Label.STARTER));
+        addNewPokemon(new Campullion().addLabels(Label.STARTER));
         addNewPokemon(new Tarsiboo());
         addNewPokemon(new Peerhini());
         addNewPokemon(new Velitite());
@@ -247,11 +247,11 @@ public class Ionos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Daimonize());
         addNewPokemon(new IonosianDruddigon("", Aspect.IONOSIAN,
                 new Stats(485, StatArchetype.BULKY_PHYSICAL_ATTACKER, List.of())));
-        addNewPokemon(new Gildthera(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))));
-        addNewPokemon(new Pythion(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-        addNewPokemon(new Taurion(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
-        addNewPokemon(new Regishard());
-        addNewPokemon(new Nightrogen());
+        addNewPokemon(new Gildthera(new Stats(580, StatArchetype.PHYSICAL_ATTACKER, List.of(StatType.DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Pythion(new Stats(580, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Taurion(new Stats(580, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Regishard().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Nightrogen().addLabels(Label.SUB_LEGENDARY));
     }
 
 }

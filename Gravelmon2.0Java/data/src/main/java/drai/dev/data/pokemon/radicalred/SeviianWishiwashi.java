@@ -103,8 +103,8 @@ public class SeviianWishiwashi extends Pokemon {
         setBaseScale(0.4);
         setHitbox(.6,.6);
         getSpeciesFileData().addBasicVariation("El Pigeon");
-        getPosingFileData().setPortraitData( 1f, new Vector3(0, .2, 0));
-        getPosingFileData().setProfileData( 1f, new Vector3(0, .2, 0));
+        getPosingFileData().setPortraitData( 2.45f, new Vector3(-.22, -2.22, 0));
+        getPosingFileData().setProfileData( .67f, new Vector3(0.08, .43, 0));
         getPosingFileData().setAnimationFileName("seviianwishiwashi");
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(

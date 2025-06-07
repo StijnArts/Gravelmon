@@ -13,15 +13,15 @@ public class Mystis extends drai.dev.data.games.registry.Game {
     //TODO dex integration
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Munchmite());
-        addNewPokemon(new Larbor());
-        addNewPokemon(new Anbrosia());
-        addNewPokemon(new Lavat());
-        addNewPokemon(new Flamfluff()); //Renamed from Flufflame
-        addNewPokemon(new Demolecho());
-        addNewPokemon(new Crubble());
-        addNewPokemon(new Aquagator());
-        addNewPokemon(new Ryuvern());
+        addNewPokemon(new Munchmite().addLabels(Label.STARTER));
+        addNewPokemon(new Larbor().addLabels(Label.STARTER));
+        addNewPokemon(new Anbrosia().addLabels(Label.STARTER));
+        addNewPokemon(new Lavat().addLabels(Label.STARTER));
+        addNewPokemon(new Flamfluff().addLabels(Label.STARTER)); //Renamed from Flufflame
+        addNewPokemon(new Demolecho().addLabels(Label.STARTER));
+        addNewPokemon(new Crubble().addLabels(Label.STARTER));
+        addNewPokemon(new Aquagator().addLabels(Label.STARTER));
+        addNewPokemon(new Ryuvern().addLabels(Label.STARTER));
         addNewPokemon(new Cragrub());
         addNewPokemon(new Mechoon());
         addNewPokemon(new Wormor());
@@ -142,15 +142,15 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Ovizap());
         addNewPokemon(new Zaptor());
         addNewPokemon(new Lectraptor());
-        addNewPokemon(new Cutezal());
-        addNewPokemon(new Quetsun());
-        addNewPokemon(new Vivility());
-        addNewPokemon(new Levinity());
-        addNewPokemon(new Myotitan());
-        addNewPokemon(new Neuregel());
-        addNewPokemon(new Prismativern());
-        addNewPokemon(new Abyssalvern());
-        addNewPokemon(new Wyverserk());
+        addNewPokemon(new Cutezal().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Quetsun().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Vivility().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Levinity().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Myotitan().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Neuregel().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Prismativern().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Abyssalvern().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Wyverserk().addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Friendemise());
 //        addNewPokemon(new Charpy());MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Casstrike());MEMBER OF LINE NOT FINISHED

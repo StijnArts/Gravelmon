@@ -23,15 +23,15 @@ public class Ivris extends drai.dev.data.games.registry.Game {
     public void registerPokemon() {
         addNewPokemon(new IvrisianSinistea("", Aspect.IVRISIAN));
 
-        addNewPokemon(new Hezard());
-        addNewPokemon(new Vereaf());
-        addNewPokemon(new Varanion());
-        addNewPokemon(new Calburn());
-        addNewPokemon(new Caligni());
-        addNewPokemon(new Meluros());
-        addNewPokemon(new Amppo());
-        addNewPokemon(new Mudppo());
-        addNewPokemon(new Hipposh());
+        addNewPokemon(new Hezard().addLabels(Label.STARTER));
+        addNewPokemon(new Vereaf().addLabels(Label.STARTER));
+        addNewPokemon(new Varanion().addLabels(Label.STARTER));
+        addNewPokemon(new Calburn().addLabels(Label.STARTER));
+        addNewPokemon(new Caligni().addLabels(Label.STARTER));
+        addNewPokemon(new Meluros().addLabels(Label.STARTER));
+        addNewPokemon(new Amppo().addLabels(Label.STARTER));
+        addNewPokemon(new Mudppo().addLabels(Label.STARTER));
+        addNewPokemon(new Hipposh().addLabels(Label.STARTER));
         addNewPokemon(new Spinhog());
         addNewPokemon(new Galhog());
         addNewPokemon(new Gruchick());
@@ -138,8 +138,8 @@ public class Ivris extends drai.dev.data.games.registry.Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Belleon());
-        addNewPokemon(new Ferreon());
+        addNewPokemon(new Belleon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Ferreon().addLabels(Label.EEVEELUTION));
         addPokedexPokemon("combee");
         addPokedexPokemon("vespiquen");
         addNewPokemon(new Gladavius());
@@ -186,33 +186,33 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Moroller());
         addNewPokemon(new Strinmmer());
         addNewPokemon(new Nartana());
-        addNewPokemon(new Wrrazal()); //fossil
-        addNewPokemon(new Specterzal());
-        addNewPokemon(new IronJaws().fishingSpawnFromExisting());
-        addNewPokemon(new AbyssalHunger().fishingSpawnFromExisting());
-        addNewPokemon(new IronFists());
-        addNewPokemon(new FuriousPunches());
-        addNewPokemon(new IronSail());
-        addNewPokemon(new DustyFangs());
-        addNewPokemon(new IronDinosaur());
-        addNewPokemon(new ColossalLeaf());
-        addNewPokemon(new IronSaber());
-        addNewPokemon(new RoughBlades());
-        addNewPokemon(new IronFrill());
-        addNewPokemon(new VenomousCrest());
-        addNewPokemon(new IronBones());
-        addNewPokemon(new RagingSpikes());
-        addNewPokemon(new IronIncinerator());
-        addNewPokemon(new FlamingTongue());
-        addNewPokemon(new IronPurifier());
-        addNewPokemon(new SpikyMushroom());
-        addNewPokemon(new IronPrankster());
-        addNewPokemon(new DemonicChains());
-        addNewPokemon(new IronDrone());
-        addNewPokemon(new DeadlyPincers());
-        addNewPokemon(new IronJet());
-        addNewPokemon(new FerociousFins());
-        addNewPokemon(new IronDragon());
+        addNewPokemon(new Wrrazal().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Specterzal().addLabels(Label.FOSSIL));
+        addNewPokemon(new IronJaws().fishingSpawnFromExisting().addLabels(Label.PARADOX));
+        addNewPokemon(new AbyssalHunger().fishingSpawnFromExisting().addLabels(Label.PARADOX));
+        addNewPokemon(new IronFists().addLabels(Label.PARADOX));
+        addNewPokemon(new FuriousPunches().addLabels(Label.PARADOX));
+        addNewPokemon(new IronSail().addLabels(Label.PARADOX));
+        addNewPokemon(new DustyFangs().addLabels(Label.PARADOX));
+        addNewPokemon(new IronDinosaur().addLabels(Label.PARADOX));
+        addNewPokemon(new ColossalLeaf().addLabels(Label.PARADOX));
+        addNewPokemon(new IronSaber().addLabels(Label.PARADOX));
+        addNewPokemon(new RoughBlades().addLabels(Label.PARADOX));
+        addNewPokemon(new IronFrill().addLabels(Label.PARADOX));
+        addNewPokemon(new VenomousCrest().addLabels(Label.PARADOX));
+        addNewPokemon(new IronBones().addLabels(Label.PARADOX));
+        addNewPokemon(new RagingSpikes().addLabels(Label.PARADOX));
+        addNewPokemon(new IronIncinerator().addLabels(Label.PARADOX));
+        addNewPokemon(new FlamingTongue().addLabels(Label.PARADOX));
+        addNewPokemon(new IronPurifier().addLabels(Label.PARADOX));
+        addNewPokemon(new SpikyMushroom().addLabels(Label.PARADOX));
+        addNewPokemon(new IronPrankster().addLabels(Label.PARADOX));
+        addNewPokemon(new DemonicChains().addLabels(Label.PARADOX));
+        addNewPokemon(new IronDrone().addLabels(Label.PARADOX));
+        addNewPokemon(new DeadlyPincers().addLabels(Label.PARADOX));
+        addNewPokemon(new IronJet().addLabels(Label.PARADOX));
+        addNewPokemon(new FerociousFins().addLabels(Label.PARADOX));
+        addNewPokemon(new IronDragon().addLabels(Label.PARADOX));
     }
 
 }

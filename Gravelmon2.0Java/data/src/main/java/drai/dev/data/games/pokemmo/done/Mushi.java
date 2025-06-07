@@ -2,6 +2,7 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Mushi extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mushi();
@@ -11,15 +12,15 @@ public class Mushi extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Bewilt());
-        addNewPokemon(new Twirleef());
-        addNewPokemon(new Pestrina());
-        addNewPokemon(new Pyroki());
-        addNewPokemon(new Formidet());
-        addNewPokemon(new Formillant());
-        addNewPokemon(new Micronaut());
-        addNewPokemon(new Divernaut());
-        addNewPokemon(new Tarpress());
+        addNewPokemon(new Bewilt().addLabels(Label.STARTER));
+        addNewPokemon(new Twirleef().addLabels(Label.STARTER));
+        addNewPokemon(new Pestrina().addLabels(Label.STARTER));
+        addNewPokemon(new Pyroki().addLabels(Label.STARTER));
+        addNewPokemon(new Formidet().addLabels(Label.STARTER));
+        addNewPokemon(new Formillant().addLabels(Label.STARTER));
+        addNewPokemon(new Micronaut().addLabels(Label.STARTER));
+        addNewPokemon(new Divernaut().addLabels(Label.STARTER));
+        addNewPokemon(new Tarpress().addLabels(Label.STARTER));
         addNewPokemon(new Kawaiiko());
         addNewPokemon(new Moffluffle());
         addNewPokemon(new Hedodan());

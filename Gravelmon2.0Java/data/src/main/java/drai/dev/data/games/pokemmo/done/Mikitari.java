@@ -13,15 +13,15 @@ public class Mikitari extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Rhinplink());
-        addNewPokemon(new Trunkorn());
-        addNewPokemon(new Rhintain());
-        addNewPokemon(new Skindling());
-        addNewPokemon(new Skingnite());
-        addNewPokemon(new Eruptile());
-        addNewPokemon(new Dampybara());
-        addNewPokemon(new Glovet());
-        addNewPokemon(new Mortarine());
+        addNewPokemon(new Rhinplink().addLabels(Label.STARTER));
+        addNewPokemon(new Trunkorn().addLabels(Label.STARTER));
+        addNewPokemon(new Rhintain().addLabels(Label.STARTER));
+        addNewPokemon(new Skindling().addLabels(Label.STARTER));
+        addNewPokemon(new Skingnite().addLabels(Label.STARTER));
+        addNewPokemon(new Eruptile().addLabels(Label.STARTER));
+        addNewPokemon(new Dampybara().addLabels(Label.STARTER));
+        addNewPokemon(new Glovet().addLabels(Label.STARTER));
+        addNewPokemon(new Mortarine().addLabels(Label.STARTER));
         addNewPokemon(new Petidaw());
         addNewPokemon(new Croober());
         addNewPokemon(new Ravendler());
@@ -99,9 +99,9 @@ public class Mikitari extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Lambi());
         addNewPokemon(new Mourin());
         addNewPokemon(new Keerin());
-        addNewPokemon(new Flarepent());
-        addNewPokemon(new Singepent());//renamed from searpent
-        addNewPokemon(new Conflevour());
+        addNewPokemon(new Flarepent().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Singepent().addLabels(Label.PSEUDO_LEGENDARY));//renamed from searpent
+        addNewPokemon(new Conflevour().addLabels(Label.PSEUDO_LEGENDARY));
     }
 
 }

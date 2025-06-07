@@ -2,6 +2,8 @@ package drai.dev.data.games.pokemmo.done;
 
 
 import drai.dev.data.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
 //done
 public class Enriko extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Enriko();
@@ -10,15 +12,15 @@ public class Enriko extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
         addNewPokemon(new WoggleJr());
-        addNewPokemon(new Plantis());
-        addNewPokemon(new Savantis());
-        addNewPokemon(new Vivantis());
-        addNewPokemon(new Blastpole());
-        addNewPokemon(new Wogfire());
-        addNewPokemon(new Pyroad());
-        addNewPokemon(new Aqualisk());
-        addNewPokemon(new Pearlizz());
-        addNewPokemon(new Reptide());
+        addNewPokemon(new Plantis().addLabels(Label.STARTER));
+        addNewPokemon(new Savantis().addLabels(Label.STARTER));
+        addNewPokemon(new Vivantis().addLabels(Label.STARTER));
+        addNewPokemon(new Blastpole().addLabels(Label.STARTER));
+        addNewPokemon(new Wogfire().addLabels(Label.STARTER));
+        addNewPokemon(new Pyroad().addLabels(Label.STARTER));
+        addNewPokemon(new Aqualisk().addLabels(Label.STARTER));
+        addNewPokemon(new Pearlizz().addLabels(Label.STARTER));
+        addNewPokemon(new Reptide().addLabels(Label.STARTER));
         addNewPokemon(new Whipcrat());
         addNewPokemon(new Ratonine());
         addNewPokemon(new Hogspur());

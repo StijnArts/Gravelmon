@@ -6,8 +6,8 @@
       "aspects": [
         "delta_ruin_mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_184_by_170.geo",
+      "poser": "cobblemon:cutout_gravelmon_184_by_170",
       "texture": "cobblemon:textures/pokemon/insurgence/metagross_deltaruin_mega.png",
       "layers": [
         {

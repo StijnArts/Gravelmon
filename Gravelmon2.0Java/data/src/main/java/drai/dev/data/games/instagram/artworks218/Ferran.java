@@ -25,15 +25,15 @@ public class Ferran extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new Chamaerol());
-        addNewPokemon(new Chamaelik());
-        addNewPokemon(new Chamaelec());
-        addNewPokemon(new Hogoat());
-        addNewPokemon(new Flamalope());
-        addNewPokemon(new Shamalope());
-        addNewPokemon(new Platyblub());
-        addNewPokemon(new Platypuf());
-        addNewPokemon(new Platox());
+        addNewPokemon(new Chamaerol().addLabels(Label.STARTER));
+        addNewPokemon(new Chamaelik().addLabels(Label.STARTER));
+        addNewPokemon(new Chamaelec().addLabels(Label.STARTER));
+        addNewPokemon(new Hogoat().addLabels(Label.STARTER));
+        addNewPokemon(new Flamalope().addLabels(Label.STARTER));
+        addNewPokemon(new Shamalope().addLabels(Label.STARTER));
+        addNewPokemon(new Platyblub().addLabels(Label.STARTER));
+        addNewPokemon(new Platypuf().addLabels(Label.STARTER));
+        addNewPokemon(new Platox().addLabels(Label.STARTER));
         addNewPokemon(new Puddiny());
         addNewPokemon(new Frosplit());
         addNewPokemon(new Staphug());
@@ -85,9 +85,9 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Surpeg());
         addNewPokemon(new Bloomeg());
         addNewPokemon(new Hourghas());
-        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN));
-        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN));
-        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianBagon("", Aspect.FERRANIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FerranianShelgon("", Aspect.FERRANIAN).addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new FerranianSalamence("", Aspect.FERRANIAN).addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Scorpait());
         addNewPokemon(new Scorpunter());
         addNewPokemon(new Hummagic());
@@ -101,12 +101,12 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pechick());
         addNewPokemon(new Pegrow());
         addNewPokemon(new Jungrowl());
-        addNewPokemon(new Gorilagma()); //fossil
-        addNewPokemon(new Calameteo());
-        addNewPokemon(new Forestryx()); //fossil
-        addNewPokemon(new Bulldozon());
-        addNewPokemon(new Poanter()); //fossil
-        addNewPokemon(new Smiloachur());
+        addNewPokemon(new Gorilagma().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Calameteo().addLabels(Label.FOSSIL));
+        addNewPokemon(new Forestryx().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Bulldozon().addLabels(Label.FOSSIL));
+        addNewPokemon(new Poanter().addLabels(Label.FOSSIL)); //fossil
+        addNewPokemon(new Smiloachur().addLabels(Label.FOSSIL));
         addNewPokemon(new Babybara());
         addNewPokemon(new Capypapa());
         addNewPokemon(new Machaunt());
@@ -142,17 +142,17 @@ public class Ferran extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mantunfu());
         addNewPokemon(new Glorm());
         addNewPokemon(new Glowero());
-        addNewPokemon(new FerranianVirizion("", Aspect.FERRANIAN));
-        addNewPokemon(new FerranianTerrakion("", Aspect.FERRANIAN));
-        addNewPokemon(new FerranianCobalion("", Aspect.FERRANIAN));
-        addNewPokemon(new FerranianBounsweet("", Aspect.FERRANIAN));
+        addNewPokemon(new FerranianVirizion("", Aspect.FERRANIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new FerranianTerrakion("", Aspect.FERRANIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new FerranianCobalion("", Aspect.FERRANIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new FerranianBounsweet("", Aspect.FERRANIAN).addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Meleenee());
         addNewPokemon(new FerranianMeowth("", Aspect.FERRANIAN));
         addNewPokemon(new Empeero());
         addNewPokemon(new Perrinnip());
-        addNewPokemon(new Viceasus());
-        addNewPokemon(new Virtryph());
-        addNewPokemon(new Inuniferus());
+        addNewPokemon(new Viceasus().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Virtryph().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Inuniferus().addLabels(Label.LEGENDARY));
 
         addNewPokemon(new FerranianMachop("", Aspect.FERRANIAN));
         addNewPokemon(new FerranianMachoke("", Aspect.FERRANIAN));

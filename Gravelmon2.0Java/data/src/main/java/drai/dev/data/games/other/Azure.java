@@ -13,15 +13,15 @@ public class Azure extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new MysticTreecko("Treecko", Aspect.MYSTIC).setPreferredBlocks("minecraft:blue_wool"));
-        addNewPokemon(new MysticGrovyle("Grovyle", Aspect.MYSTIC));
-        addNewPokemon(new MysticSceptile("Sceptile", Aspect.MYSTIC));
-        addNewPokemon(new MysticTorchic("Torchic", Aspect.MYSTIC).setPreferredBlocks("minecraft:amethyst_block"));
-        addNewPokemon(new MysticCombusken("Combusken", Aspect.MYSTIC));
-        addNewPokemon(new MysticBlaziken("Blaziken", Aspect.MYSTIC));
-        addNewPokemon(new MysticMudkip("Mudkip", Aspect.MYSTIC).setPreferredBlocks("minecraft:sandstone"));
-        addNewPokemon(new MysticMarshtomp("Marshtomp", Aspect.MYSTIC));
-        addNewPokemon(new MysticSwampert("Swampert", Aspect.MYSTIC));
+        addNewPokemon(new MysticTreecko("Treecko", Aspect.MYSTIC).setPreferredBlocks("minecraft:blue_wool").addLabels(Label.STARTER));
+        addNewPokemon(new MysticGrovyle("Grovyle", Aspect.MYSTIC).addLabels(Label.STARTER));
+        addNewPokemon(new MysticSceptile("Sceptile", Aspect.MYSTIC).addLabels(Label.STARTER));
+        addNewPokemon(new MysticTorchic("Torchic", Aspect.MYSTIC).addLabels(Label.STARTER).setPreferredBlocks("minecraft:amethyst_block"));
+        addNewPokemon(new MysticCombusken("Combusken", Aspect.MYSTIC).addLabels(Label.STARTER));
+        addNewPokemon(new MysticBlaziken("Blaziken", Aspect.MYSTIC).addLabels(Label.STARTER));
+        addNewPokemon(new MysticMudkip("Mudkip", Aspect.MYSTIC).addLabels(Label.STARTER).setPreferredBlocks("minecraft:sandstone"));
+        addNewPokemon(new MysticMarshtomp("Marshtomp", Aspect.MYSTIC).addLabels(Label.STARTER));
+        addNewPokemon(new MysticSwampert("Swampert", Aspect.MYSTIC).addLabels(Label.STARTER));
         addNewPokemon(new MysticPoochyena("Poochyena", Aspect.MYSTIC).setPreferredBlocks("minecraft:bone_block"));
         addNewPokemon(new MysticMightyena("Mightyena", Aspect.MYSTIC));
         addNewPokemon(new MysticRiolu("", Aspect.MYSTIC).setPreferredBlocks("minecraft:sandstone"));

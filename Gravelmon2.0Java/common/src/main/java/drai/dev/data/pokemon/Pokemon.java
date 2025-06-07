@@ -1,22 +1,19 @@
 package drai.dev.data.pokemon;
 
 import drai.dev.data.attributes.*;
-import drai.dev.data.jsonwriters.*;
 import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-import kotlin.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
 
 import java.util.*;
 import java.util.stream.*;
 
-import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
-
 public class Pokemon extends AbstractPokemon {
     boolean isShoulderMountable = false;
-
+    //temp
+    public boolean needsUpdatedSpawnDefinition = false;
     private int pokedexNumber;
     private final List<PokemonForm> forms;
     private Boolean isNew = true;
@@ -26,12 +23,14 @@ public class Pokemon extends AbstractPokemon {
     @Nullable
     private Aspect formAdditionAspect;
     private String additionalFormKey;
+    private final List<EvolutionEntry> additionalEvolutions = new ArrayList<>();
 
     //additional form constructors
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, double baseScale, double portraitScale, List<PokemonForm> forms) {
         this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
                 new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
         ), baseScale, portraitScale, forms);
+        needsUpdatedSpawnDefinition = true;
     }
 
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, double baseScale, double portraitScale, List<PokemonForm> forms) {
@@ -42,6 +41,7 @@ public class Pokemon extends AbstractPokemon {
         this(originalPokemon, aspect, name, primaryType, secondaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
                 new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
         ), baseScale, portraitScale, forms);
+        needsUpdatedSpawnDefinition = true;
     }
 
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Type secondaryType, Stats stats,
@@ -69,6 +69,8 @@ public class Pokemon extends AbstractPokemon {
                         new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
                 ),
                 baseScale, portraitScale, forms);
+        needsUpdatedSpawnDefinition = true;
+
     }
 
     public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities,
@@ -93,6 +95,7 @@ public class Pokemon extends AbstractPokemon {
         this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, entries, evolutions, learnSet, labels, dropAmount, drops, List.of(
                 new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight*1.5d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
         ), forms);
+        needsUpdatedSpawnDefinition = true;
     }
 
     public Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height,
@@ -106,7 +109,7 @@ public class Pokemon extends AbstractPokemon {
                     int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
                     int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> entries, List<EvolutionEntry> evolutions,
                     List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, List<PokemonForm> forms) {
-        super(name, stats, primaryType, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
+        super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
                 eggCycles, eggGroups, entries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, List.of(), height, weight, pokemonSpawnData);
         this.forms = forms;
         POKEMON_REGISTRY.put(this.name.toLowerCase().replaceAll("\\W", ""), this);
@@ -127,12 +130,8 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public void addAdditionalEvolution(String from, EvolutionEntry evolutionEntry) {
-        if (from.contains(" ")) {
-            return;
-        }
-        var forms = ADDITIONAL_EVOLUTIONS.computeIfAbsent(from, k -> new ArrayList<>());
-        forms.add(evolutionEntry);
-//        this.additionalEvolutions.computeIfAbsent(from, k -> new ArrayList<>()).add(evolutionEntry);
+        addStaticAdditionalEvolution(from, evolutionEntry);
+        additionalEvolutions.add(evolutionEntry);
     }
 
     private void addAdditionalForm(String originalPokemon, Pokemon pokemon) {
@@ -309,10 +308,10 @@ public class Pokemon extends AbstractPokemon {
     }
 
     public List<String> getEvolutionsForPrint() {
-        var strings = new ArrayList<String>(this.getEvolutions().stream().map(EvolutionEntry::toString).toList());
-//        additionalEvolutions.forEach((key, value)-> value.forEach(evolutionEntry -> {
-//            strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + key));
-//        }));
+        var strings = new ArrayList<>(this.getEvolutions().stream().map(EvolutionEntry::toString).toList());
+        additionalEvolutions.forEach(evolutionEntry -> {
+            strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + this.getCleanName()));
+        });
         return strings;
     }
 
@@ -323,6 +322,11 @@ public class Pokemon extends AbstractPokemon {
     @Override
     public String getTextureName() {
         return getCleanName();
+    }
+
+    public Pokemon addLabels(Label... labels) {
+        this.labels.addAll(Arrays.stream(labels).toList());
+        return this;
     }
 
     public Pokemon setCanBreatheUnderwater(boolean canBreatheUnderwater) {

@@ -16,26 +16,27 @@ import drai.dev.data.pokemon.atlas.Surchin;
 import drai.dev.data.pokemon.atlas.Wisdaum;
 import drai.dev.data.pokemon.atlas.Wombabe;
 import drai.dev.data.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done
+//done https://pokengine.org/collections/10l0j1ih/Dhiome
 public class Dhiome extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Dhiome();
     private Dhiome() {
         super("Dhiome");
     }
-
+    //TODO get art from deviant art
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Spearex());
-        addNewPokemon(new Jagrowth());
-        addNewPokemon(new Venoble());
-        addNewPokemon(new Caflare());
-        addNewPokemon(new Bovlame());
-        addNewPokemon(new Pharaox());
-        addNewPokemon(new Bubblebon());
-        addNewPokemon(new Scufflebon());
-        addNewPokemon(new Lochare());
+        addNewPokemon(new Spearex().addLabels(Label.STARTER));
+        addNewPokemon(new Jagrowth().addLabels(Label.STARTER));
+        addNewPokemon(new Venoble().addLabels(Label.STARTER));
+        addNewPokemon(new Caflare().addLabels(Label.STARTER));
+        addNewPokemon(new Bovlame().addLabels(Label.STARTER));
+        addNewPokemon(new Pharaox().addLabels(Label.STARTER));
+        addNewPokemon(new Bubblebon().addLabels(Label.STARTER));
+        addNewPokemon(new Scufflebon().addLabels(Label.STARTER));
+        addNewPokemon(new Lochare().addLabels(Label.STARTER));
 
         addNewPokemon(new Wombabe());
         addNewPokemon(new Korboral());

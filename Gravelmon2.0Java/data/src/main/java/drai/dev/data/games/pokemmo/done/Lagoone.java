@@ -5,7 +5,7 @@ import drai.dev.data.pokemon.lagoone.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done
+//done https://pokengine.org/collections/10uvah5o/Lagoone
 public class Lagoone extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Lagoone();
     private Lagoone() {
@@ -14,15 +14,15 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
 //TODO update
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Leafin().fishingSpawnFromExisting());
-        addNewPokemon(new Sharkage());
-        addNewPokemon(new Sharcleave());
-        addNewPokemon(new Torshell().fishingSpawnFromExisting());
-        addNewPokemon(new Emberaid());
-        addNewPokemon(new Galliente());
-        addNewPokemon(new Squigill().fishingSpawnFromExisting());
-        addNewPokemon(new Whirlamari());
-        addNewPokemon(new Douseidon());
+        addNewPokemon(new Leafin().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Sharkage().addLabels(Label.STARTER));
+        addNewPokemon(new Sharcleave().addLabels(Label.STARTER));
+        addNewPokemon(new Torshell().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Emberaid().addLabels(Label.STARTER));
+        addNewPokemon(new Galliente().addLabels(Label.STARTER));
+        addNewPokemon(new Squigill().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Whirlamari().addLabels(Label.STARTER));
+        addNewPokemon(new Douseidon().addLabels(Label.STARTER));
         addNewPokemon(new Pillunge());
         addNewPokemon(new Rumball());
         addNewPokemon(new Likandua());
@@ -62,9 +62,9 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Shrizzler());
         addNewPokemon(new Flintlaw());
         addNewPokemon(new Burnslinger());
-        addNewPokemon(new Shockitt());
-        addNewPokemon(new Felightning());
-        addNewPokemon(new Zenithera());
+        addNewPokemon(new Shockitt().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Felightning().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Zenithera().addLabels(Label.PSEUDO_LEGENDARY));
         addNewPokemon(new Driftilla());
         addNewPokemon(new Rudeworm());
         addNewPokemon(new Coldera());
@@ -132,7 +132,8 @@ public class Lagoone extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Toxunken());
         addNewPokemon(new Skullocaris());
         addNewPokemon(new Exovision());
-        addNewPokemon(new Corabdis());
+        addNewPokemon(new Corabdis().addLabels(Label.LEGENDARY));
+//        addNewPokemon(new Biovereign().addLabels(Label.LEGENDARY)); TODO
 
     }
 

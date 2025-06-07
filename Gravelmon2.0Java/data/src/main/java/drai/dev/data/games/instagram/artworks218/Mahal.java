@@ -24,19 +24,15 @@ public class Mahal extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-
-
-
-
-        addNewPokemon(new Honylin());
-        addNewPokemon(new Madhulin());
-        addNewPokemon(new Sabandolin());
-        addNewPokemon(new Saany());
-        addNewPokemon(new Saanarak());
-        addNewPokemon(new Kobarak());
-        addNewPokemon(new Wavalo());
-        addNewPokemon(new Chigalo());
-        addNewPokemon(new Buffaware());
+        addNewPokemon(new Honylin().addLabels(Label.STARTER));
+        addNewPokemon(new Madhulin().addLabels(Label.STARTER));
+        addNewPokemon(new Sabandolin().addLabels(Label.STARTER));
+        addNewPokemon(new Saany().addLabels(Label.STARTER));
+        addNewPokemon(new Saanarak().addLabels(Label.STARTER));
+        addNewPokemon(new Kobarak().addLabels(Label.STARTER));
+        addNewPokemon(new Wavalo().addLabels(Label.STARTER));
+        addNewPokemon(new Chigalo().addLabels(Label.STARTER));
+        addNewPokemon(new Buffaware().addLabels(Label.STARTER));
 
         addNewPokemon(new Kyudoeye());
         addNewPokemon(new Typhogun());
@@ -131,10 +127,10 @@ public class Mahal extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Camocout());
         addNewPokemon(new Reacon());
         addNewPokemon(new Generaron());
-        addNewPokemon(new Burflorodon()); //fossils
-        addNewPokemon(new Iroflorodos()); //fossils
-        addNewPokemon(new Burgustodon()); //fossils
-        addNewPokemon(new Irogustodos()); //fossils
+        addNewPokemon(new Burflorodon().addLabels(Label.FOSSIL)); //fossils
+        addNewPokemon(new Iroflorodos().addLabels(Label.FOSSIL)); //fossils
+        addNewPokemon(new Burgustodon().addLabels(Label.FOSSIL)); //fossils
+        addNewPokemon(new Irogustodos().addLabels(Label.FOSSIL)); //fossils
         addNewPokemon(new Farbaay());
         addNewPokemon(new Capronze());
         addNewPokemon(new MahalianMantyke("", Aspect.MAHALIAN).fishingSpawnFromExisting());
@@ -153,20 +149,20 @@ public class Mahal extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Floarial().fishingSpawnFromExisting());
         addNewPokemon(new Makarial().fishingSpawnFromExisting());
         addNewPokemon(new Makarotus());
-        addNewPokemon(new MahalianDratini("", Aspect.MAHALIAN).fishingSpawnFromExisting());
-        addNewPokemon(new MahalianDragonair("", Aspect.MAHALIAN).fishingSpawnFromExisting());
-        addNewPokemon(new Dragonice());
-        addNewPokemon(new Regiwater());
-        addNewPokemon(new Regigrass());
-        addNewPokemon(new MahalianTornadus("", Aspect.MAHALIAN));
-        addNewPokemon(new MahalianThundurus("", Aspect.MAHALIAN));
-        addNewPokemon(new MahalianLandorus("", Aspect.MAHALIAN));
-        addNewPokemon(new Ivorata());
-        addNewPokemon(new Ebodhenu());
-        addNewPokemon(new Nirvakali());
-        addNewPokemon(new Thronoor());
-        addNewPokemon(new Sequardian());
-        addNewPokemon(new Gogadra());
+        addNewPokemon(new MahalianDratini("", Aspect.MAHALIAN).fishingSpawnFromExisting().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new MahalianDragonair("", Aspect.MAHALIAN).fishingSpawnFromExisting().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Dragonice().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Regiwater().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Regigrass().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new MahalianTornadus("", Aspect.MAHALIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new MahalianThundurus("", Aspect.MAHALIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new MahalianLandorus("", Aspect.MAHALIAN).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Ivorata().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Ebodhenu().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Nirvakali().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Thronoor().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Sequardian().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Gogadra().addLabels(Label.ULTRA_BEAST));
         addNewPokemon(new MahalianRaichu("", Aspect.MAHALIAN));
     }
 

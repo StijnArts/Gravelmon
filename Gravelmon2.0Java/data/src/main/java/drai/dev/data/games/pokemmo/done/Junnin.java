@@ -21,8 +21,9 @@ import drai.dev.data.pokemon.atlas.Stuckry;
 import drai.dev.data.pokemon.atlas.Wildyre;
 import drai.dev.data.pokemon.atlas.Withereen;
 import drai.dev.data.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done
+//done https://pokengine.org/collections/10ryf7r0/Junnin
 public class Junnin extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Junnin();
     private Junnin() {
@@ -31,41 +32,42 @@ public class Junnin extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Eucuwala());
-        addNewPokemon(new Gulacuff());
-        addNewPokemon(new Timberawl());
+        addNewPokemon(new Eucuwala().addLabels(Label.STARTER));
+        addNewPokemon(new Gulacuff().addLabels(Label.STARTER));
+        addNewPokemon(new Timberawl().addLabels(Label.STARTER));
 
-        addNewPokemon(new Reptling());
-        addNewPokemon(new Rapteror());
-        addNewPokemon(new Velosaur());
+        addNewPokemon(new Reptling().addLabels(Label.STARTER));
+        addNewPokemon(new Rapteror().addLabels(Label.STARTER));
+        addNewPokemon(new Velosaur().addLabels(Label.STARTER));
 
-        addNewPokemon(new Yetini());
-        addNewPokemon(new Yeteen());
-        addNewPokemon(new Yetitan());
+        addNewPokemon(new Yetini().addLabels(Label.STARTER));
+        addNewPokemon(new Yeteen().addLabels(Label.STARTER));
+        addNewPokemon(new Yetitan().addLabels(Label.STARTER));
 
-        addNewPokemon(new Kindlemur());
-        addNewPokemon(new Burmurly());
-        addNewPokemon(new Merculey());
+        addNewPokemon(new Kindlemur().addLabels(Label.STARTER));
+        addNewPokemon(new Burmurly().addLabels(Label.STARTER));
+        addNewPokemon(new Merculey().addLabels(Label.STARTER));
 
-        addNewPokemon(new Woolvry());
-        addNewPokemon(new Clokruel());
-        addNewPokemon(new Smoldrine());
+        addNewPokemon(new Woolvry().addLabels(Label.STARTER));
+        addNewPokemon(new Clokruel().addLabels(Label.STARTER));
+        addNewPokemon(new Smoldrine().addLabels(Label.STARTER));
 
-        addNewPokemon(new Batorch());
-        addNewPokemon(new Batrix());
-        addNewPokemon(new Vamfire());
+        addNewPokemon(new Batorch().addLabels(Label.STARTER));
+        addNewPokemon(new Batrix().addLabels(Label.STARTER));
+        addNewPokemon(new Vamfire().addLabels(Label.STARTER));
 
-        addNewPokemon(new Dimetrus());
-        addNewPokemon(new Permidon());
-        addNewPokemon(new Lividon());
+        addNewPokemon(new Dimetrus().addLabels(Label.STARTER));
+        addNewPokemon(new Permidon().addLabels(Label.STARTER));
+        addNewPokemon(new Lividon().addLabels(Label.STARTER));
 
-        addNewPokemon(new Liqueel());
-        addNewPokemon(new Electeel());
-        addNewPokemon(new Emporeel());
+        addNewPokemon(new Liqueel().addLabels(Label.STARTER));
+        addNewPokemon(new Electeel().addLabels(Label.STARTER));
+        addNewPokemon(new Emporeel().addLabels(Label.STARTER));
 
-        addNewPokemon(new Lochsea());
-        addNewPokemon(new Nesshoal());
-        addNewPokemon(new Psyren());
+        addNewPokemon(new Lochsea().addLabels(Label.STARTER));
+        addNewPokemon(new Nesshoal().addLabels(Label.STARTER));
+        addNewPokemon(new Psyren().addLabels(Label.STARTER));
+
         addNewPokemon(new Aromutt());
         addNewPokemon(new Odorog());
         addNewPokemon(new Chinchul());
@@ -127,9 +129,9 @@ public class Junnin extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Tuttby());
         addNewPokemon(new Whiscleo());
         addNewPokemon(new Pharoar());
-        addNewPokemon(new Equia());
-        addNewPokemon(new Treiarch());
-        addNewPokemon(new Andromini());
+        addNewPokemon(new Equia().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Treiarch().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Andromini().addLabels(Label.LEGENDARY));
 
     }
 

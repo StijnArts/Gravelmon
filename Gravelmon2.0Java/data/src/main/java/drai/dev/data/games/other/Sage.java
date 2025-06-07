@@ -14,19 +14,19 @@ public class Sage extends Game {
     @Override
     public void registerPokemon() {
         //Foliat Line
-        addNewPokemon(new Foliat());
-        addNewPokemon(new Florabri());
-        addNewPokemon(new Floressum());
+        addNewPokemon(new Foliat().addLabels(Label.STARTER));
+        addNewPokemon(new Florabri().addLabels(Label.STARTER));
+        addNewPokemon(new Floressum().addLabels(Label.STARTER));
 
         //Kidling line
-        addNewPokemon(new Kidling());
-        addNewPokemon(new Pyroat());
-        addNewPokemon(new Flairees());
+        addNewPokemon(new Kidling().addLabels(Label.STARTER));
+        addNewPokemon(new Pyroat().addLabels(Label.STARTER));
+        addNewPokemon(new Flairees().addLabels(Label.STARTER));
 
         //Aguade line
-        addNewPokemon(new Aguade());
-        addNewPokemon(new Iguadium());
-        addNewPokemon(new Aguanaut());
+        addNewPokemon(new Aguade().addLabels(Label.STARTER));
+        addNewPokemon(new Iguadium().addLabels(Label.STARTER));
+        addNewPokemon(new Aguanaut().addLabels(Label.STARTER));
 
         //Harpee line
         addNewPokemon(new Harpee());
@@ -258,12 +258,12 @@ public class Sage extends Game {
         addNewPokemon(new Vultergyst());
 
         //Dinkywink line
-        addNewPokemon(new Dinkywink());
-        addNewPokemon(new Dunkywunkr());
+        addNewPokemon(new Dinkywink().addLabels(Label.FOSSIL));
+        addNewPokemon(new Dunkywunkr().addLabels(Label.FOSSIL));
 
         //Calphite line
-        addNewPokemon(new Calphite());
-        addNewPokemon(new Indrolith());
+        addNewPokemon(new Calphite().addLabels(Label.FOSSIL));
+        addNewPokemon(new Indrolith().addLabels(Label.FOSSIL));
 
         addNewPokemon(new Solacari());
 
@@ -402,14 +402,14 @@ public class Sage extends Game {
         addNewPokemon(new Comossus());
 
         //Larvyn line
-        addNewPokemon(new Larvyn());
-        addNewPokemon(new Dracoon());
-        addNewPokemon(new Basilect());
+        addNewPokemon(new Larvyn().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Dracoon().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Basilect().addLabels(Label.PSEUDO_LEGENDARY));
 
         //Carbite line
-        addNewPokemon(new Carbite());
-        addNewPokemon(new Pressaur());
-        addNewPokemon(new Diamat());
+        addNewPokemon(new Carbite().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Pressaur().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Diamat().addLabels(Label.PSEUDO_LEGENDARY));
 
         //Quecko line
         addNewPokemon(new Quecko());
@@ -423,25 +423,25 @@ public class Sage extends Game {
         addNewPokemon(new Draggar());
         addNewPokemon(new Ragnarow());
 
-        addNewPokemon(new Eronze());
+        addNewPokemon(new Eronze().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Erion());
+        addNewPokemon(new Erion().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Erace());
+        addNewPokemon(new Erace().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Patama());
+        addNewPokemon(new Patama().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Machima());
+        addNewPokemon(new Machima().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Yacuma());
+        addNewPokemon(new Yacuma().addLabels(Label.SUB_LEGENDARY));
 
-        var quetzar = new Quetzar();
+        var quetzar = new Quetzar().addLabels(Label.LEGENDARY);
         addNewPokemon(quetzar);
-        addNewPokemon(new QuetzarSpace("", Aspect.SPACE));
+        addNewPokemon(new QuetzarSpace("", Aspect.SPACE).addLabels(Label.LEGENDARY));
         removePokedexPokemon("quetzar-space");
 
-        addNewPokemon(new Xochi());
+        addNewPokemon(new Xochi().addLabels(Label.SUB_LEGENDARY));
 
-        addNewPokemon(new Xotec());
+        addNewPokemon(new Xotec().addLabels(Label.SUB_LEGENDARY));
     }
 }

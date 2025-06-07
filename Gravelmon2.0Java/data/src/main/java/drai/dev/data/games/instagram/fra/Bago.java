@@ -19,15 +19,15 @@ public class Bago extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Cattail());
-        addNewPokemon(new Taillico());
-        addNewPokemon(new Felorest());
-        addNewPokemon(new Searpent());
-        addNewPokemon(new Serfiery());
-        addNewPokemon(new Serfierno());
-        addNewPokemon(new Marmink());
-        addNewPokemon(new Marshten());
-        addNewPokemon(new Ocermine());
+        addNewPokemon(new Cattail().addLabels(Label.STARTER));
+        addNewPokemon(new Taillico().addLabels(Label.STARTER));
+        addNewPokemon(new Felorest().addLabels(Label.STARTER));
+        addNewPokemon(new Searpent().addLabels(Label.STARTER));
+        addNewPokemon(new Serfiery().addLabels(Label.STARTER));
+        addNewPokemon(new Serfierno().addLabels(Label.STARTER));
+        addNewPokemon(new Marmink().addLabels(Label.STARTER));
+        addNewPokemon(new Marshten().addLabels(Label.STARTER));
+        addNewPokemon(new Ocermine().addLabels(Label.STARTER));
 
         addNewPokemon(new Picact());
         addNewPokemon(new Cactalop());

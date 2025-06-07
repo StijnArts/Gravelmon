@@ -16,15 +16,15 @@ public class Qamor extends drai.dev.data.games.registry.Game {
     @Override
     public void registerPokemon() {
 
-        addNewPokemon(new Albat());
-        addNewPokemon(new Gremleaf());
-        addNewPokemon(new Tropifox());
-        addNewPokemon(new Kindlet());
-        addNewPokemon(new Occultlet());
-        addNewPokemon(new Dambattoir());
-        addNewPokemon(new Barbay());
-        addNewPokemon(new Makrabla());
-        addNewPokemon(new Barrakoba());
+        addNewPokemon(new Albat().addLabels(Label.STARTER));
+        addNewPokemon(new Gremleaf().addLabels(Label.STARTER));
+        addNewPokemon(new Tropifox().addLabels(Label.STARTER));
+        addNewPokemon(new Kindlet().addLabels(Label.STARTER));
+        addNewPokemon(new Occultlet().addLabels(Label.STARTER));
+        addNewPokemon(new Dambattoir().addLabels(Label.STARTER));
+        addNewPokemon(new Barbay().addLabels(Label.STARTER));
+        addNewPokemon(new Makrabla().addLabels(Label.STARTER));
+        addNewPokemon(new Barrakoba().addLabels(Label.STARTER));
         addNewPokemon(new Whoopwing());
         addNewPokemon(new Miamacaw());
         addNewPokemon(new Spectipilla());
@@ -156,9 +156,9 @@ public class Qamor extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mightiro());
         addNewPokemon(new Encantomb());
         addNewPokemon(new Gorsylum());
-//        addNewPokemon(new Coldron()); //Missing Art
-//        addNewPokemon(new Burrboil()); //Missing Art
-//        addNewPokemon(new Frigitank()); //Missing Art
+//        addNewPokemon(new Coldron()); // TODO
+//        addNewPokemon(new Burrboil());
+//        addNewPokemon(new Frigitank());
         addNewPokemon(new Frodent());
         addNewPokemon(new Bunbrisk());
         addNewPokemon(new Wintweasel());
@@ -183,6 +183,6 @@ public class Qamor extends drai.dev.data.games.registry.Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new EXEon());
+        addNewPokemon(new EXEon().addLabels(Label.EEVEELUTION));
     }
 }

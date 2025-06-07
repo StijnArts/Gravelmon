@@ -33,18 +33,18 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
     private OrohnHavai() {
         super("Orohn-Havai");
     }
-
+    //TODO update from deviant art https://www.deviantart.com/havaipokemon/gallery/53060546/orohn-region
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Ekopi());
-        addNewPokemon(new Ekoraft());
-        addNewPokemon(new Expertri());
-        addNewPokemon(new Flaero());
-        addNewPokemon(new Impferno());
-        addNewPokemon(new Pyrovern());
-        addNewPokemon(new Kelpony());
-        addNewPokemon(new Maritide());
-        addNewPokemon(new Reefallion());
+        addNewPokemon(new Ekopi().addLabels(Label.STARTER));
+        addNewPokemon(new Ekoraft().addLabels(Label.STARTER));
+        addNewPokemon(new Expertri().addLabels(Label.STARTER));
+        addNewPokemon(new Flaero().addLabels(Label.STARTER));
+        addNewPokemon(new Impferno().addLabels(Label.STARTER));
+        addNewPokemon(new Pyrovern().addLabels(Label.STARTER));
+        addNewPokemon(new Kelpony().addLabels(Label.STARTER));
+        addNewPokemon(new Maritide().addLabels(Label.STARTER));
+        addNewPokemon(new Reefallion().addLabels(Label.STARTER));
         addNewPokemon(new Chenileaf());
         addNewPokemon(new Cottoon());
         addNewPokemon(new Sedavlin());
@@ -215,27 +215,27 @@ public class OrohnHavai extends drai.dev.data.games.registry.Game {
                         "leafeon," +
                         "glaceon," +
                         "sylveon");
-        addNewPokemon(new Alpheon());
-        addNewPokemon(new Eveon());
+        addNewPokemon(new Alpheon().addLabels(Label.EEVEELUTION));
+        addNewPokemon(new Eveon().addLabels(Label.EEVEELUTION));
         addNewPokemon(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
-        addNewPokemon(new Finray());
-        addNewPokemon(new Ogoprowl());
-        addNewPokemon(new Sephysar());
-//        addNewPokemon(new Vexigon()); Member of line not finished
-//        addNewPokemon(new Noxareo()); Missing art
-//        addNewPokemon(new Darcastro()); Member of line not finished
-        addNewPokemon(new Rivulcred());
-        addNewPokemon(new Valecred());
-//        addNewPokemon(new Drazephir()); Missing art
-        addNewPokemon(new Netherval());
-        addNewPokemon(new Quadrossal());
-        addNewPokemon(new Infiluv());
-//        addNewPokemon(new Obideion()); Missing art
-//        addNewPokemon(new Generion()); Missing art
-//        addNewPokemon(new Indureion()); Missing art
-        addNewPokemon(new Zedakazm());
-//        addNewPokemon(new Intelix()); Missing art
-//        addNewPokemon(new Nectavian()); Missing art
+        addNewPokemon(new Finray().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Ogoprowl().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Sephysar().addLabels(Label.PSEUDO_LEGENDARY));
+//        addNewPokemon(new Vexigon().addLabels(Label.PSEUDO_LEGENDARY)); Member of line not finished
+//        addNewPokemon(new Noxareo().addLabels(Label.PSEUDO_LEGENDARY)); Missing art
+//        addNewPokemon(new Darcastro().addLabels(Label.PSEUDO_LEGENDARY)); Member of line not finished
+        addNewPokemon(new Rivulcred().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Valecred().addLabels(Label.SUB_LEGENDARY));
+//        addNewPokemon(new Drazephir().addLabels(Label.SUB_LEGENDARY)); Missing art
+        addNewPokemon(new Netherval().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Quadrossal().addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Infiluv().addLabels(Label.SUB_LEGENDARY));
+//        addNewPokemon(new Obideion().addLabels(Label.SUB_LEGENDARY)); Missing art
+//        addNewPokemon(new Generion().addLabels(Label.SUB_LEGENDARY)); Missing art
+//        addNewPokemon(new Indureion().addLabels(Label.SUB_LEGENDARY)); Missing art
+        addNewPokemon(new Zedakazm().addLabels(Label.SUB_LEGENDARY));
+//        addNewPokemon(new Intelix().addLabels(Label.SUB_LEGENDARY)); Missing art
+//        addNewPokemon(new Nectavian().addLabels(Label.SUB_LEGENDARY)); Missing art
 
 //        addNewPokemon(new HavaiianPoliwag(60)); //Member of line Not Finished
 //        addNewPokemon(new HavaiianPoliwhirl(61)); Missing Art

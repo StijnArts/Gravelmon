@@ -17,18 +17,18 @@ public class Rica extends drai.dev.data.games.registry.Game {
     private Rica() {
         super("Rica");
     }
-
+    //tODO get missing art from https://www.deviantart.com/fuzzball288
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Cotylit());
-        addNewPokemon(new Cotyleaf());
-        addNewPokemon(new Nymphlora());
-        addNewPokemon(new Bunfin());
-        addNewPokemon(new Arsinge());
-        addNewPokemon(new Rupsen());
-        addNewPokemon(new Mirmoor().fishingSpawnFromExisting());
-        addNewPokemon(new Sloowin());
-        addNewPokemon(new Atrocean());
+        addNewPokemon(new Cotylit().addLabels(Label.STARTER));
+        addNewPokemon(new Cotyleaf().addLabels(Label.STARTER));
+        addNewPokemon(new Nymphlora().addLabels(Label.STARTER));
+        addNewPokemon(new Bunfin().addLabels(Label.STARTER));
+        addNewPokemon(new Arsinge().addLabels(Label.STARTER));
+        addNewPokemon(new Rupsen().addLabels(Label.STARTER));
+        addNewPokemon(new Mirmoor().fishingSpawnFromExisting().addLabels(Label.STARTER));
+        addNewPokemon(new Sloowin().addLabels(Label.STARTER));
+        addNewPokemon(new Atrocean().addLabels(Label.STARTER));
         addNewPokemon(new Skurrel());
         addNewPokemon(new Sparskia());
         addNewPokemon(new Sparruff());
@@ -179,13 +179,13 @@ public class Rica extends drai.dev.data.games.registry.Game {
 //        addNewPokemon(new Rainu()); //Missing Art
 
 //        addNewPokemon(new Tsuchinu()); //Missing Art
-//        addNewPokemon(new Darabble()); //Member of Line not Finished
-//        addNewPokemon(new Rovorage()); //Missing Art
-//        addNewPokemon(new Helluster()); //Member of Line not Finished
-        addNewPokemon(new Tunnelid());
-//        addNewPokemon(new Yamiju()); //Missing Art
-//        addNewPokemon(new Taranturem()); //Missing Art
-        addNewPokemon(new Solios());
+//        addNewPokemon(new Darabble().addLabels(Label.PSEUDO_LEGENDARY)); TODO
+//        addNewPokemon(new Rovorage().addLabels(Label.PSEUDO_LEGENDARY));
+//        addNewPokemon(new Helluster().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Tunnelid().addLabels(Label.SUB_LEGENDARY));
+//        addNewPokemon(new Yamiju().addLabels(Label.SUB_LEGENDARY)); //Missing Art
+//        addNewPokemon(new Taranturem().addLabels(Label.SUB_LEGENDARY)); //Missing Art
+        addNewPokemon(new Solios().addLabels(Label.MYTHICAL));
 
     }
 

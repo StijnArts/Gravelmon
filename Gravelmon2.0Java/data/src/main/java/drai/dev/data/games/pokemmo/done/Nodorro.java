@@ -16,15 +16,15 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Faunox());
-        addNewPokemon(new Fauxian());
-        addNewPokemon(new Sylvotaur());
-        addNewPokemon(new Mouslit());
-        addNewPokemon(new Ignimus());
-        addNewPokemon(new Necromus());
-        addNewPokemon(new Feloam());
-        addNewPokemon(new Mistiger());
-        addNewPokemon(new Torahaze());
+        addNewPokemon(new Faunox().addLabels(Label.STARTER));
+        addNewPokemon(new Fauxian().addLabels(Label.STARTER));
+        addNewPokemon(new Sylvotaur().addLabels(Label.STARTER));
+        addNewPokemon(new Mouslit().addLabels(Label.STARTER));
+        addNewPokemon(new Ignimus().addLabels(Label.STARTER));
+        addNewPokemon(new Necromus().addLabels(Label.STARTER));
+        addNewPokemon(new Feloam().addLabels(Label.STARTER));
+        addNewPokemon(new Mistiger().addLabels(Label.STARTER));
+        addNewPokemon(new Torahaze().addLabels(Label.STARTER));
         addNewPokemon(new Haffy());
         addNewPokemon(new Baldawk());
         addNewPokemon(new Stoadent());
@@ -135,34 +135,34 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Hoodrikus());
         addNewPokemon(new Puppesite());
         addNewPokemon(new Akaineko());
-        addNewPokemon(new Cephinky()); //renamed from squink
-        addNewPokemon(new Inquidy());
-        addNewPokemon(new Krakuid());
-        addNewPokemon(new Sarqua());
-        addNewPokemon(new Slifin()); //Renamed from Sharfin
-        addNewPokemon(new Draquafin());
+        addNewPokemon(new Cephinky().addLabels(Label.PSEUDO_LEGENDARY)); //renamed from squink
+        addNewPokemon(new Inquidy().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Krakuid().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Sarqua().addLabels(Label.PSEUDO_LEGENDARY));
+        addNewPokemon(new Slifin().addLabels(Label.PSEUDO_LEGENDARY)); //Renamed from Sharfin
+        addNewPokemon(new Draquafin().addLabels(Label.PSEUDO_LEGENDARY));
 //        addNewPokemon(new Pirook()); MEMBER OF LINE NOT FINISHED
 //        addNewPokemon(new Jacksparrow());   Missing Art
 //        addNewPokemon(new Virusyte()); MEMBER OF LINE NOT FINISHED
         addNewPokemon(new Tortanic());
-        addNewPokemon(new Terranguis());
-        addNewPokemon(new Leviathrus());
-        addNewPokemon(new Scaelicius());
-//        addNewPokemon(new NodorranTreecko("", Aspect.NODORRAN));  MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new NodorranGrovyle("", Aspect.NODORRAN)); MEMBER OF LINE NOT FINISHED
-//        addNewPokemon(new NodorranSceptile("", Aspect.NODORRAN)); Missing art
-        addNewPokemon(new NodorranChimchar("", Aspect.NODORRAN));
-        addNewPokemon(new NodorranMonferno("", Aspect.NODORRAN));
-        addNewPokemon(new NodorranInfernape("", Aspect.NODORRAN));
-        addNewPokemon(new NodorranOshawott("", Aspect.NODORRAN));
-        addNewPokemon(new NodorranDewott("", Aspect.NODORRAN));
-        addNewPokemon(new NodorranSamurott("", Aspect.NODORRAN));
+        addNewPokemon(new Terranguis().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Leviathrus().addLabels(Label.LEGENDARY));
+        addNewPokemon(new Scaelicius().addLabels(Label.LEGENDARY));
+//        addNewPokemon(new NodorranTreecko("", Aspect.NODORRAN).addLabels(Label.STARTER));  MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new NodorranGrovyle("", Aspect.NODORRAN).addLabels(Label.STARTER)); MEMBER OF LINE NOT FINISHED
+//        addNewPokemon(new NodorranSceptile("", Aspect.NODORRAN).addLabels(Label.STARTER)); Missing art
+        addNewPokemon(new NodorranChimchar("", Aspect.NODORRAN).addLabels(Label.STARTER));
+        addNewPokemon(new NodorranMonferno("", Aspect.NODORRAN).addLabels(Label.STARTER));
+        addNewPokemon(new NodorranInfernape("", Aspect.NODORRAN).addLabels(Label.STARTER));
+        addNewPokemon(new NodorranOshawott("", Aspect.NODORRAN).addLabels(Label.STARTER));
+        addNewPokemon(new NodorranDewott("", Aspect.NODORRAN).addLabels(Label.STARTER));
+        addNewPokemon(new NodorranSamurott("", Aspect.NODORRAN).addLabels(Label.STARTER));
         addNewPokemon(new Kuruhinomi(new Stats(580, StatArchetype.FAST_SUPPORT,
-                List.of(StatType.SPEED))));
-        addNewPokemon(new Kanyonomi());
+                List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Kanyonomi().addLabels(Label.SUB_LEGENDARY));
         addNewPokemon(new Kyokinomi(new Stats(580, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPEED))));
-        addNewPokemon(new Protagobits());
+                List.of(StatType.SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Protagobits().addLabels(Label.MYTHICAL));
 //        addNewPokemon(new Trafficlight());   Missing Art
 //        addNewPokemon(new Knightfall());   Missing Art
     }

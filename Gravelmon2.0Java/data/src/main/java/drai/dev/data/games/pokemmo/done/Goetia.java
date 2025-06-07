@@ -6,11 +6,12 @@ import drai.dev.data.pokemon.goetia.*;
 import drai.dev.data.pokemon.oceane.*;
 import drai.dev.data.pokemon.oceane.Jawee;
 import drai.dev.data.pokemon.oceane.Jawsome;
+import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
 import static drai.dev.data.attributes.StatType.*;
-//done
+//todo update https://pokengine.org/collections/10t6rlxi/Goetia?changes
 public class Goetia extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Goetia();
     private Goetia() {
@@ -19,24 +20,24 @@ public class Goetia extends drai.dev.data.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new Nymfaun());
-        addNewPokemon(new Faeribou());
-        addNewPokemon(new Moosquatch(new Stats(535, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))));
-        addNewPokemon(new Slowth());
-        addNewPokemon(new Mossloth());
-        addNewPokemon(new Slowgrowth(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new Pinonkey());
-        addNewPokemon(new Donkeyata());
-        addNewPokemon(new Fiestaur(new Stats(534, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
-        addNewPokemon(new Taratinder());
-        addNewPokemon(new Tarantorch());
-        addNewPokemon(new Charantula(new Stats(534, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new Seamian());
-        addNewPokemon(new Mermonkey());
-        addNewPokemon(new Panseidon(new Stats(533, StatArchetype.SPECIAL_WALL, List.of(HP))));
-        addNewPokemon(new Cowet());
-        addNewPokemon(new Moistox());
-        addNewPokemon(new Buffaloam(new Stats(531, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
+        addNewPokemon(new Nymfaun().addLabels(Label.STARTER));
+        addNewPokemon(new Faeribou().addLabels(Label.STARTER));
+        addNewPokemon(new Moosquatch(new Stats(535, StatArchetype.PHYSICAL_ATTACKER, List.of(HP))).addLabels(Label.STARTER));
+        addNewPokemon(new Slowth().addLabels(Label.STARTER));
+        addNewPokemon(new Mossloth().addLabels(Label.STARTER));
+        addNewPokemon(new Slowgrowth(new Stats(532, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Pinonkey().addLabels(Label.STARTER));
+        addNewPokemon(new Donkeyata().addLabels(Label.STARTER));
+        addNewPokemon(new Fiestaur(new Stats(534, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))).addLabels(Label.STARTER));
+        addNewPokemon(new Taratinder().addLabels(Label.STARTER));
+        addNewPokemon(new Tarantorch().addLabels(Label.STARTER));
+        addNewPokemon(new Charantula(new Stats(534, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.STARTER));
+        addNewPokemon(new Seamian().addLabels(Label.STARTER));
+        addNewPokemon(new Mermonkey().addLabels(Label.STARTER));
+        addNewPokemon(new Panseidon(new Stats(533, StatArchetype.SPECIAL_WALL, List.of(HP))).addLabels(Label.STARTER));
+        addNewPokemon(new Cowet().addLabels(Label.STARTER));
+        addNewPokemon(new Moistox().addLabels(Label.STARTER));
+        addNewPokemon(new Buffaloam(new Stats(531, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))).addLabels(Label.STARTER));
         addNewPokemon(new Glaby());
         addNewPokemon(new Glaboar(new Stats(380, StatArchetype.PHYSICAL_WALL, List.of(HP))));
         addNewPokemon(new Weevoll());
@@ -402,27 +403,27 @@ public class Goetia extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Larvade());
         addNewPokemon(new Invadien());
         addNewPokemon(new Xenovader(new Stats(523, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(ATTACK, SPEED, ATTACK))));
-        addNewPokemon(new Mefowl(new Stats(410, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
-        addNewPokemon(new Liviscous(new Stats(378, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new Punkoil(new Stats(388, StatArchetype.PHYSICAL_WALL, List.of(HP))));
-        addNewPokemon(new Feverm(new Stats(366, StatArchetype.SPECIAL_ATTACKER, List.of(DEFENCE))));
-        addNewPokemon(new Sinchilla(new Stats(366, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new Sourpent(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))));
-        addNewPokemon(new Perilouse(new Stats(355, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))));
-        addNewPokemon(new Poxopon(new Stats(365, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))));
-        addNewPokemon(new Grimongrel(new Stats(358, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
-        addNewPokemon(new Baiking(new Stats(387, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))));
-        addNewPokemon(new Caulderon());
-        addNewPokemon(new Seraphlea(new Stats(570, StatArchetype.SPECIAL_WALL, List.of(HP, SPECIAL_DEFENCE))));
-        addNewPokemon(new Nirvantis(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(HP))));
-        addNewPokemon(new Gargorgon());
-        addNewPokemon(new Nitecrawler());
-        addNewPokemon(new Hallowither());
-        addNewPokemon(new Apeiron());
-        addNewPokemon(new Kathekon(new Stats(570, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))));
-        addNewPokemon(new Olgorkoi(new Stats(570, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))));
-        addNewPokemon(new Telos(new Stats(570, StatArchetype.PHYSICAL_WALL, List.of(HP))));
-        addNewPokemon(new AlkDhuulq(new Stats(570, StatArchetype.SPECIAL_WALL, List.of(HP))));
+        addNewPokemon(new Mefowl(new Stats(410, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Liviscous(new Stats(378, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Punkoil(new Stats(388, StatArchetype.PHYSICAL_WALL, List.of(HP))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Feverm(new Stats(366, StatArchetype.SPECIAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Sinchilla(new Stats(366, StatArchetype.SPECIAL_WALL, List.of(SPECIAL_DEFENCE))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Sourpent(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Perilouse(new Stats(355, StatArchetype.PHYSICAL_ATTACKER, List.of(ATTACK))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Poxopon(new Stats(365, StatArchetype.FAST_PHYSICAL_ATTACKER, List.of(SPEED))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Grimongrel(new Stats(358, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(HP))).addLabels(Label.SUB_LEGENDARY));
+        addNewPokemon(new Baiking(new Stats(387, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(HP))).addLabels(Label.LEGENDARY));
+        addNewPokemon(new Caulderon().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Seraphlea(new Stats(570, StatArchetype.SPECIAL_WALL, List.of(HP, SPECIAL_DEFENCE))).addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Nirvantis(new Stats(570, StatArchetype.SPECIAL_ATTACKER, List.of(HP))).addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Gargorgon().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Nitecrawler().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Hallowither().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Apeiron().addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Kathekon(new Stats(570, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(SPECIAL_DEFENCE))).addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Olgorkoi(new Stats(570, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER, List.of(DEFENCE))).addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new Telos(new Stats(570, StatArchetype.PHYSICAL_WALL, List.of(HP))).addLabels(Label.ULTRA_BEAST));
+        addNewPokemon(new AlkDhuulq(new Stats(570, StatArchetype.SPECIAL_WALL, List.of(HP))).addLabels(Label.ULTRA_BEAST));
         addNewPokemon(new DNArc(new Stats(540, StatArchetype.ALL_ROUND, List.of())));
         addNewPokemon(new Snipierce(new Stats(540, StatArchetype.SPECIAL_ATTACKER, List.of(SPECIAL_ATTACK))));
     }
