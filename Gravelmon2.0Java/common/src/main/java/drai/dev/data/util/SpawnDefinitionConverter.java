@@ -99,8 +99,10 @@ public class SpawnDefinitionConverter {
             sb.append("    .setPool(SpawnPool.").append(spawnPool).append(")\n");
             sb.append("    .setMinLevel(").append(old.getMinSpawnLevel()).append(")\n");
             var weight = old.getSpawnWeight();
+            var accurateStage = stage;
             if(preEvolutionSpawnWeight != 0) weight = preEvolutionSpawnWeight;
-            var approxWeightEnum = resolveWeightEnum(weight, stage); // use stage = 1 or calculate
+            if(preEvolutionSpawnWeight != 0) accurateStage = stage-1;
+            var approxWeightEnum = resolveWeightEnum(weight, accurateStage); // use stage = 1 or calculate
             sb.append(approxWeightEnum);
         }
 
