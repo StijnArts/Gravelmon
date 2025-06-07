@@ -40,7 +40,6 @@ public class Gireamer extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SAVANNA).canSeeSky().duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.WILD).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Gireamer");
         addAdditionalEvolution("girafarig", new EvolutionEntry("gireamer", EvolutionType.LEVEL_UP, List.of(),

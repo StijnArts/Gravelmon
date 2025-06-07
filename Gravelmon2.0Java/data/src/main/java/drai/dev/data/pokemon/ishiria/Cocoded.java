@@ -133,7 +133,6 @@ public class Cocoded extends drai.dev.data.pokemon.Pokemon {
                         .setBiomes(Biome.IS_TROPICAL_ISLAND, Biome.IS_BEACH)
                         .isNotBiomes(Biome.IS_COLD).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Cocoded");
 

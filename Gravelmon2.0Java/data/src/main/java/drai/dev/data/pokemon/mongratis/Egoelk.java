@@ -41,7 +41,6 @@ public class Egoelk extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_TUNDRA, Biome.IS_SNOWY_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         addAdditionalEvolution("stantler", new EvolutionEntry("egoelk", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.CALM_MIND.getName()))));

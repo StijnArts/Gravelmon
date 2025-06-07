@@ -39,7 +39,6 @@ public class Tormine extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_THERMAL, Biome.IS_MOUNTAIN).setRequiredBlock("#minecraft:coal_ores")
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Tormine");
         addAdditionalEvolution("torkoal", new EvolutionEntry("tormine", EvolutionType.LEVEL_UP, List.of(),

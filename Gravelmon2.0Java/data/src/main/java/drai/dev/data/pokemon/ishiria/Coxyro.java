@@ -160,7 +160,6 @@ public class Coxyro extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_BIRCH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.TREE_TOP).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Coxyro");
         addAdditionalEvolution("ledian", new EvolutionEntry("coxyro", EvolutionType.LEVEL_UP, List.of(),

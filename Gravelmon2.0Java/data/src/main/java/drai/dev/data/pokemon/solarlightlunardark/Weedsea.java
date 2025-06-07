@@ -92,7 +92,6 @@ new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=mal
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Weedsea");
 

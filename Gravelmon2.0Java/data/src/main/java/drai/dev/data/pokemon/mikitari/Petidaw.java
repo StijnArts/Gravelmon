@@ -112,7 +112,6 @@ public class Petidaw extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_TAIGA, Biome.IS_PLAINS, Biome.IS_SPOOKY)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Petidaw");
 

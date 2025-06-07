@@ -121,7 +121,6 @@ public class EpochAvaluggOne extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_DECIDUOUS_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Avalugg");
 

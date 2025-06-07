@@ -144,7 +144,6 @@ public class EpochCetoddle extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SURFACE)
                         .setBiomes(Biome.IS_OCEAN).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

@@ -49,7 +49,6 @@ public class Tecthanic extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SEAFLOOR)
                         .setBiomes(Biome.IS_OCEAN)
                         .setSpawnPreset(SpawnPreset.NEAR_MAGMA).build(),
-                0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
            setLangFileName("Tecthanic");

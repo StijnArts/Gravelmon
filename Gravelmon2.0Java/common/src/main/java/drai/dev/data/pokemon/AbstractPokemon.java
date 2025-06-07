@@ -57,6 +57,8 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     protected boolean canWalkOnLava = false;
     protected boolean avoidsLand = false;
     private String normalizedPreEvolution;
+    //TMP todo
+    public SpawnPool preEvolutionSpawnPool;
 
     public AbstractPokemon(String name, Stats stats, Type primaryType, Type secondaryType, List<Ability> abilities, Ability hiddenAbility,
                            int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
@@ -459,5 +461,9 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
 
     public String getNormalizedPreEvolution() {
         return normalizedPreEvolution;
+    }
+
+    public void setPreEvolutionSpawnPool(SpawnPool spawnPool) {
+        this.preEvolutionSpawnPool = spawnPool;
     }
 }

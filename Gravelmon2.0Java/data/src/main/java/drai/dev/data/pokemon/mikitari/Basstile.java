@@ -103,7 +103,6 @@ public class Basstile extends drai.dev.data.pokemon.Pokemon {
                         .setMinLevel(43).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_FRESHWATER).canSeeSky().build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

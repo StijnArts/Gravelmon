@@ -27,7 +27,6 @@ public class Gelescent extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
-                0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
            setLangFileName("Gelescent");

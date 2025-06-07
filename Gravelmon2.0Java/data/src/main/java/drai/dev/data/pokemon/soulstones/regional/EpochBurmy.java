@@ -118,7 +118,6 @@ new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_MAGICAL).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Burmy");
 

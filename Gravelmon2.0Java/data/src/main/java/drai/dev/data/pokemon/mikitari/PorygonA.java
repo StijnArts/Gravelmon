@@ -123,7 +123,6 @@ public class PorygonA extends drai.dev.data.pokemon.Pokemon {
                         .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).canSeeSky().setRequiredBlock("cobblemon:pc").build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Porygon-A");
         addAdditionalEvolution("porygon", new EvolutionEntry("porygona", EvolutionType.LEVEL_UP, List.of(),

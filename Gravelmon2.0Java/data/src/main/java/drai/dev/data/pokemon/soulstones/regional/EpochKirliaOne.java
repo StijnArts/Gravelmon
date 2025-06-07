@@ -160,7 +160,6 @@ new EvolutionEntry("epochtwogallade", EvolutionType.ITEM_INTERACT, false, List.o
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_MUSHROOM).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Kirlia");
 

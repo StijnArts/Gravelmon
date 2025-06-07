@@ -108,7 +108,6 @@ new EvolutionEntry("eclipser", EvolutionType.ITEM_INTERACT, false, List.of(),
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Eclipo");
 

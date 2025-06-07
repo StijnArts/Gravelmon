@@ -49,7 +49,6 @@ public class Vermicapone extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SNOWY).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.VILLAGE).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Vermicapone");
 

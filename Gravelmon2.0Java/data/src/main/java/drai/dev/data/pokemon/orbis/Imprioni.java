@@ -27,7 +27,6 @@ public class Imprioni extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SEAFLOOR)
                         .setBiomes(Biome.IS_WARM_OCEAN).atNight()
                         .setSpawnPreset(SpawnPreset.REEF, SpawnPreset.UNDERWATER).build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

@@ -134,7 +134,6 @@ public class EpochCryogonal extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Cryogonal");
 

@@ -160,7 +160,6 @@ public class IshirianNinetales extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_CHERRY_GROVE).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         addAdditionalEvolution("vulpix", new EvolutionEntry("ishirianninetales", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dusk_stone"));

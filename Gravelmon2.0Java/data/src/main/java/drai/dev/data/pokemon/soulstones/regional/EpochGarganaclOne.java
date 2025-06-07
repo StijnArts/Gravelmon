@@ -142,7 +142,6 @@ public class EpochGarganaclOne extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SNOWY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.VILLAGE).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Garganacl");
 

@@ -84,7 +84,6 @@ public class Sprousy extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_GRASSLAND, Biome.IS_FLORAL).canSeeSky().duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Sprousy");
 

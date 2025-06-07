@@ -46,7 +46,6 @@ public class Staticroak extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_BADLANDS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Staticroak");
         addAdditionalEvolution("croagunk", new EvolutionEntry("staticroak", EvolutionType.LEVEL_UP, List.of(),

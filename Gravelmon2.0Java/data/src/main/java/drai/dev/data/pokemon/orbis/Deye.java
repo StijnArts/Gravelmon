@@ -33,7 +33,6 @@ public class Deye extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.MANSION).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Deye");
 

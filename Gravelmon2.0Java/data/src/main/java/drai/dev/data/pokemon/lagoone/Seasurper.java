@@ -32,7 +32,6 @@ public class Seasurper extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_WARM_OCEAN).atNight()
                         .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Seasurper");
         addAdditionalEvolution("goldeen", new EvolutionEntry("seasurper", EvolutionType.LEVEL_UP, List.of(),

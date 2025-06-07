@@ -27,7 +27,6 @@ public class Chimbat extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_CAVE)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Chimbat");

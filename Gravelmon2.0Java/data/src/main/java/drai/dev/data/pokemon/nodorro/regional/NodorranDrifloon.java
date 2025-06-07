@@ -33,7 +33,6 @@ public class NodorranDrifloon extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_PLAINS).isThundering().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Drifloon");

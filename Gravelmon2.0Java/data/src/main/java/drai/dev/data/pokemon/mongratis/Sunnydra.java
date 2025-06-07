@@ -96,7 +96,6 @@ public class Sunnydra extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).setRequiredBlock("minecraft:sunflower").canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Sunnydra");
         addAdditionalEvolution("sunflora", new EvolutionEntry("sunnydra", EvolutionType.LEVEL_UP, List.of(),

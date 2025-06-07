@@ -150,7 +150,6 @@ public class EpochTropius extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_DEEP_OCEAN)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

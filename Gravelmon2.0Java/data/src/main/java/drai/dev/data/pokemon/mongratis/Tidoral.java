@@ -27,7 +27,6 @@ public class Tidoral extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_FRESHWATER).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Tidoral");
 

@@ -133,7 +133,6 @@ public class EpochDondozo extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky().belowY(40)
                         .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

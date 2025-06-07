@@ -32,7 +32,6 @@ public class Wulvlacine extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_FOREST, Biome.IS_BADLANDS)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Wulvlacine");
 

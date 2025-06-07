@@ -144,7 +144,6 @@ public class Spireon extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SPOOKY).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Spireon");
         addAdditionalEvolution("eevee", new EvolutionEntry(this.getCleanName(), EvolutionType.ITEM_INTERACT, false, List.of(),

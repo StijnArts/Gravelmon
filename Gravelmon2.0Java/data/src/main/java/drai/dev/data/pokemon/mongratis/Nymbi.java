@@ -33,7 +33,6 @@ public class Nymbi extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Nymbi");

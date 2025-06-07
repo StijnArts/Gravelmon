@@ -32,7 +32,6 @@ public class Lavyrm extends drai.dev.data.pokemon.Pokemon {
                         .setMinLevel(14).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Lavyrm");
 

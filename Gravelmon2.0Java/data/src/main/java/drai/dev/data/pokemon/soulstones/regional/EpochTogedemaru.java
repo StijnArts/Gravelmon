@@ -122,7 +122,6 @@ public class EpochTogedemaru extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SEAFLOOR)
                         .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky()
                         .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Togedemaru");
            setCanWalk(false);

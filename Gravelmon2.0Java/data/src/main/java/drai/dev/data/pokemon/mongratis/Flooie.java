@@ -34,7 +34,6 @@ public class Flooie extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SURFACE)
                         .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
-                0.28, 0.3,
                 List.of());
         setCanWalkOnWater(true);
            setLangFileName("Flooie");

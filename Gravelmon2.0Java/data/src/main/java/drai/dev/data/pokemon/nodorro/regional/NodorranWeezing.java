@@ -33,7 +33,6 @@ public class NodorranWeezing extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).cantSeeSky().belowY(0)
                         .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Weezing");

@@ -64,7 +64,6 @@ public class AlteranHagoop extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_NETHER)
                         .setSpawnPreset(SpawnPreset.NEAR_LAVA).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Hagoop");
 

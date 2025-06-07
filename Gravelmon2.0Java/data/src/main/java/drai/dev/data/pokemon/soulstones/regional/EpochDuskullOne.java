@@ -149,7 +149,6 @@ public class EpochDuskullOne extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.SUBMERGED)
                         .setBiomes(Biome.IS_OCEAN).atNight()
                         .setSpawnPreset(SpawnPreset.SHIP_WRECK).build(),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

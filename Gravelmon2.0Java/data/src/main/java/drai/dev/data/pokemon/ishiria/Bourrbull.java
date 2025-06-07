@@ -187,7 +187,6 @@ public class Bourrbull extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
                         .setSpawnPreset(SpawnPreset.VILLAGE).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Bourrbull");
         addAdditionalEvolution("granbull", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),

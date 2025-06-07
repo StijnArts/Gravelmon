@@ -138,7 +138,6 @@ public class EpochTyruntOne extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SOULSTONES),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1).fossil().build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Tyrunt");
 

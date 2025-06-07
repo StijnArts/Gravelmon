@@ -151,7 +151,6 @@ public class Wingeon extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SKY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
-                0.28, 0.3,
                 List.of());
 
         addAdditionalEvolution("eevee", new EvolutionEntry(this.getCleanName(), EvolutionType.ITEM_INTERACT, false, List.of(),

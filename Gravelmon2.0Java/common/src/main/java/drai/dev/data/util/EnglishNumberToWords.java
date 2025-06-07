@@ -41,7 +41,7 @@ public class EnglishNumberToWords {
             " nineteen"
     };
 
-    private static final Map<String, Integer> numberWords = createNumberWordsMap();
+    public static final Map<String, Integer> numberWords = createNumberWordsMap();
     private static final Map<String, Long> scaleWords = Map.of(
             "billion", 1_000_000_000L,
             "million", 1_000_000L,

@@ -150,13 +150,15 @@ public class EpochGravelerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
-           setLangFileName("Graveler");
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	   setLangFileName("Graveler");
 
     }
 

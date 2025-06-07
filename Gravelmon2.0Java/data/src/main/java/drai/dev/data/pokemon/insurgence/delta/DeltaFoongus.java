@@ -107,13 +107,15 @@ public class DeltaFoongus extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 43, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
-        this.setLangFileName("Foongus");
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	this.setLangFileName("Foongus");
     }
 }

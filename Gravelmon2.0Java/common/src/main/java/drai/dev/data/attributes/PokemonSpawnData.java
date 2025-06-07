@@ -164,5 +164,17 @@ public class PokemonSpawnData {
             }
             Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a snowy biome condition and expects thunder. Mitigated");
         }
+
+        if(SpawnContext.GROUNDED != getSpawnContext()) {
+            if(getSpawnPresets().contains(SpawnPreset.NATURAL)){
+                Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a submerged or seafloor context and a natural spawn preset. This is not allowed.");
+                getSpawnPresets().remove(SpawnPreset.NATURAL);
+                if(getSpawnContext() == SpawnContext.SUBMERGED || getSpawnContext() == SpawnContext.SEAFLOOR) {
+                    getSpawnPresets().add(SpawnPreset.UNDERWATER);
+                } else if(getSpawnContext() == SpawnContext.SURFACE) {
+                    getSpawnPresets().add(SpawnPreset.WATER_SURFACE);
+                }
+            }
+        }
     }
 }

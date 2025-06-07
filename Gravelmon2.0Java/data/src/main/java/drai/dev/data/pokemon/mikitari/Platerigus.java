@@ -104,7 +104,6 @@ public class Platerigus extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_JUNGLE).atNight()
                         .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Platerigus");
 

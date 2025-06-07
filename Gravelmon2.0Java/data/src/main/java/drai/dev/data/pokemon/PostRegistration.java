@@ -5,6 +5,7 @@ import drai.dev.data.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
+import org.jetbrains.annotations.*;
 
 import java.util.*;
 
@@ -26,7 +27,7 @@ public class PostRegistration {
         for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            for (var spawnData : pokemon.getSpawnData()){
+            for (var spawnData : pokemon.getSpawnData()) {
                 if (spawnData.getSpawnPresets().size() > 1) {
                     pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", being: ");
                     for (var preset : spawnData.getSpawnPresets()) {
@@ -34,7 +35,7 @@ public class PostRegistration {
                     }
                     pokemonWithMoreThanTwoSpawnPresets.append("\n");
                 }
-                if(spawnData.getPreferredBlocks().isEmpty()){
+                if (spawnData.getPreferredBlocks().isEmpty()) {
                     pokemonWithNoPreferredBlocks.add(pokemon);
                 }
             }
@@ -48,7 +49,7 @@ public class PostRegistration {
             }
 
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                Pokemon result = getEvolutionResultAsPokemon(pokemon, evolutionEntry.getResult());
                 if (result != null) {
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
@@ -145,30 +146,31 @@ public class PostRegistration {
         for (int i = pokemonWithNoPreferredBlocks.size() - 1; i > -1; i--) {
             var pokemon = pokemonWithNoPreferredBlocks.get(i);
             pokemon.spawnData.forEach(pokemonSpawnData -> {
-                if(pokemonSpawnData.getPreferredBlocks().isEmpty()) pokemonSpawnData.getPreferredBlocks().add(pokemon.primaryType.getPreferredBlock());
+                if (pokemonSpawnData.getPreferredBlocks().isEmpty())
+                    pokemonSpawnData.getPreferredBlocks().add(pokemon.primaryType.getPreferredBlock());
             });
         }
         for (var pokemon : sortedPokemonList) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 var evoResult = evolutionEntry.getResult();
-                if(evoResult.contains(" ")){
+                if (evoResult.contains(" ")) {
                     var parts = evoResult.split(" ");
-                    if(hasTrailingNumber(parts[0])) {
+                    if (hasTrailingNumber(parts[0])) {
                         evoResult = evoResult.replace(" ", "");
-                    }
-                    else evoResult = (parts[1].contains("=false")
+                    } else evoResult = (parts[1].contains("=false")
                             ? ""
-                            : parts[1].replaceAll("=true", "")+" ") + parts[0];
+                            : parts[1].replaceAll("=true", "") + " ") + parts[0];
                 }
                 String finalEvoResult = evoResult;
-                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(finalEvoResult)).findFirst().orElse(null);
+                Pokemon result = getEvolutionResultAsPokemon(pokemon, finalEvoResult);
                 if (result != null) {
                     if (isAnAdditionalForm(result)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
                         resultName.ifPresent(s -> evolutionEntry.setResult(s + " " + result.getAdditionalAspect().name().toLowerCase()));
                     }
                 } else {
-                    if(!evolutionEntry.getResult().contains(" ")) ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
+                    if (!evolutionEntry.getResult().contains(" "))
+                        ADDITIONAL_PRE_EVOLUTIONS.put(evolutionEntry.getResult().toLowerCase(), pokemon.getCleanName());
                 }
             }
 
@@ -178,7 +180,7 @@ public class PostRegistration {
                     form.setHiddenAbility(null);
                 }
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
-                    Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                    Pokemon result = getEvolutionResultAsPokemon(form, evolutionEntry.getResult());
                     if (result != null) {
                         if (isAnAdditionalForm(result)) {
                             var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
@@ -225,14 +227,14 @@ public class PostRegistration {
             }
 
             checkEvolutionStatus(pokemon);
-            if(pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
+            if (pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
         System.out.println(pokemonWithZeroBaseStats);
 
         for (var additionalEvolutionEntrySet : ADDITIONAL_EVOLUTIONS.entrySet()) {
             var pokemon = POKEMON_REGISTRY.get(additionalEvolutionEntrySet.getKey());
             for (var evolutionEntry : additionalEvolutionEntrySet.getValue()) {
-                Pokemon result = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                Pokemon result = getEvolutionResultAsPokemon(pokemon, evolutionEntry.getResult());
                 if (result == null) continue;
                 if (pokemon == null) {
                     if (evolutionEntry.getRequiredContext() != null) {
@@ -248,7 +250,7 @@ public class PostRegistration {
                         evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition"))
                                 .forEach(entry -> addItemAsDrop(pokemon, entry.getConditionParameter().replace("", ""), result));
                     }
-                    if(result.getPreEvolution()!=null) continue;
+                    if (result.getPreEvolution() != null) continue;
 
                     result.setNormalizedPreEvolution(pokemon.getCleanName());
                     if (Pokemon.isAnAdditionalForm(pokemon)) {
@@ -259,22 +261,60 @@ public class PostRegistration {
                     }
                 }
                 checkEvolutionStatus(pokemon);
-                if(pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
+                if (pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
             }
         }
     }
 
-    private static void checkEvolutionStatus(Pokemon pokemon) {
-        if(pokemon.evolutions.isEmpty()) {
-            if (pokemon.getNormalizedPreEvolution() != null && !pokemon.getNormalizedPreEvolution().isEmpty()) {
-                var preEvo = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(pokemon.getNormalizedPreEvolution())).findFirst().orElse(null);
-                if (preEvo != null) {
-                    if(preEvo.getNormalizedPreEvolution() == null) pokemon.evolutionStage = 2;
-                    else pokemon.evolutionStage = 3;
+    private static @Nullable Pokemon getEvolutionResultAsPokemon(AbstractPokemon source, String evolutionEntry) {
+        String finalEvolutionEntry2 = evolutionEntry;
+        Pokemon result = POKEMON_REGISTRY.values().stream().filter(p ->
+                p.getCleanName().equalsIgnoreCase(finalEvolutionEntry2)).findFirst().orElse(null);
+
+        if (result == null) {
+            String finalEvolutionEntry = evolutionEntry;
+
+            if(EnglishNumberToWords.numberWords.keySet().stream().anyMatch(word ->
+                    finalEvolutionEntry.toLowerCase().contains(word.toLowerCase()))){
+                String finalEvolutionEntry1 = evolutionEntry;
+                String numberWord = EnglishNumberToWords.numberWords.keySet().stream().filter(word ->
+                        finalEvolutionEntry1.toLowerCase().contains(word.toLowerCase())).findFirst().orElse(null);
+
+                if (numberWord != null) {
+                    String number = EnglishNumberToWords.convert(numberWordToInt.get(numberWord)-1);
+                    evolutionEntry = evolutionEntry.replaceFirst(numberWord,"") + number;
+                    String finalEvolutionEntry3 = evolutionEntry;
+                    result = POKEMON_REGISTRY.values().stream().filter(p -> p.getCleanName().equalsIgnoreCase(finalEvolutionEntry3)).findFirst().orElse(null);
                 }
             }
-        } else {
-            if (pokemon.getNormalizedPreEvolution() != null && !pokemon.getNormalizedPreEvolution().isEmpty()) pokemon.evolutionStage = 2;
+
+
+        }
+        if(result == null){
+            if(evolutionEntry.contains(" ")){
+                var parts = evolutionEntry.split(" ");
+
+                String finalEvolutionEntry4 = parts[1] + parts[0];
+                result = POKEMON_REGISTRY.values().stream().filter(p -> p.getCleanName().equalsIgnoreCase(finalEvolutionEntry4)).findFirst().orElse(null);
+            }
+        }
+        return result;
+    }
+
+    private static void checkEvolutionStatus(Pokemon pokemon) {
+        if (pokemon.getNormalizedPreEvolution() != null && !pokemon.getNormalizedPreEvolution().isEmpty()) {
+            var preEvo = POKEMON_REGISTRY.values().stream().filter(p -> p.getName().equalsIgnoreCase(pokemon.getNormalizedPreEvolution())).findFirst().orElse(null);
+            if (pokemon.evolutions.isEmpty()) {
+                if (preEvo != null) {
+                    if (preEvo.getNormalizedPreEvolution() == null) pokemon.evolutionStage = 2;
+                    else pokemon.evolutionStage = 3;
+                }
+            } else pokemon.evolutionStage = 2;
+
+            if(preEvo != null){
+                pokemon.setPreEvolutionSpawnPool(preEvo.getSpawnData().getFirst().getSpawnPool());
+                pokemon.preEvolutionSpawnWeight = preEvo.getSpawnData().getFirst().getSpawnWeight();
+            }
         }
     }
 

@@ -33,7 +33,6 @@ public class MastenianPupitar extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_WARM_OCEAN)
                         .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Pupitar");
         setCanSwim(true);

@@ -31,7 +31,7 @@ public class SpawnDefinitionConverter {
                 String oldBlock = content.substring(start, listOfEnd + "List.of());".length());
 
                 // Replace with new block
-                String newBlock = convertOldBlockToBuilder(pokemon.getSpawnData().getFirst(), pokemon.getLabels(), pokemon.evolutionStage);
+                String newBlock = convertOldBlockToBuilder(pokemon.getSpawnData().getFirst(), pokemon.getLabels(), pokemon.evolutionStage, pokemon.preEvolutionSpawnPool, pokemon.preEvolutionSpawnWeight);
                 updatedContent.append(content, currentIndex, start);
                 updatedContent.append(newBlock);
 
@@ -72,7 +72,7 @@ public class SpawnDefinitionConverter {
         return -1;
     }
 
-    public static String convertOldBlockToBuilder(PokemonSpawnData old, List<Label> labels, int stage) {
+    public static String convertOldBlockToBuilder(PokemonSpawnData old, List<Label> labels, int stage, SpawnPool preEvolutionSpawnPool, double preEvolutionSpawnWeight) {
         StringBuilder sb = new StringBuilder("new PokemonSpawnDataBuilder("+stage+")\n");
 
         if (labels == null) labels = new ArrayList<>();
@@ -94,20 +94,24 @@ public class SpawnDefinitionConverter {
             sb.append("    .mythical()\n");
         } else {
             // Context, Pool, Weight
-            sb.append("    .setPool(").append(old.getSpawnPool()).append(")\n");
+            var spawnPool = old.getSpawnPool();
+            if(preEvolutionSpawnPool!=null) spawnPool = preEvolutionSpawnPool;
+            sb.append("    .setPool(SpawnPool.").append(spawnPool).append(")\n");
             sb.append("    .setMinLevel(").append(old.getMinSpawnLevel()).append(")\n");
-            var approxWeightEnum = resolveWeightEnum(old.getSpawnWeight(), stage); // use stage = 1 or calculate
+            var weight = old.getSpawnWeight();
+            if(preEvolutionSpawnWeight != 0) weight = preEvolutionSpawnWeight;
+            var approxWeightEnum = resolveWeightEnum(weight, stage); // use stage = 1 or calculate
             sb.append(approxWeightEnum);
         }
 
 
-        sb.append("    .setContext(").append(old.getSpawnContext()).append(")\n");
+        sb.append("    .setContext(SpawnContext.").append(old.getSpawnContext()).append(")\n");
 
         // Biomes
         var biomeCondition = old.getBiomeSpawnCondition();
         if (!biomeCondition.getBiomes().isEmpty()) {
             sb.append("    .setBiomes(")
-                    .append(biomeCondition.getBiomes().stream().map(Enum::toString).collect(Collectors.joining(", ")))
+                    .append(biomeCondition.getBiomes().stream().map(e->"Biome."+e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
@@ -115,7 +119,7 @@ public class SpawnDefinitionConverter {
         var antiBiomeCondition = old.getAntiBiomeSpawnCondition();
         if (!antiBiomeCondition.getBiomes().isEmpty()) {
             sb.append("    .setAntiBiomes(")
-                    .append(antiBiomeCondition.getBiomes().stream().map(Enum::toString).collect(Collectors.joining(", ")))
+                    .append(antiBiomeCondition.getBiomes().stream().map(e->"Biome."+e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
@@ -161,7 +165,7 @@ public class SpawnDefinitionConverter {
         // Spawn presets
         if (!old.getSpawnPresets().isEmpty()) {
             sb.append("    .setSpawnPreset(")
-                    .append(old.getSpawnPresets().stream().map(Enum::toString).collect(Collectors.joining(", ")))
+                    .append(old.getSpawnPresets().stream().map(e->"SpawnPreset."+e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
@@ -172,7 +176,7 @@ public class SpawnDefinitionConverter {
                     .append(")\n");
         }
 
-        sb.append("    .build());\n");
+        sb.append("    .build(), List.of());\n\t");
         return sb.toString();
     }
 

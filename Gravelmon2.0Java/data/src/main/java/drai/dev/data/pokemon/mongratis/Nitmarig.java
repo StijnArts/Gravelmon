@@ -40,7 +40,6 @@ public class Nitmarig extends drai.dev.data.pokemon.Pokemon {
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_SAVANNA).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.WILD).build(),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Nitmarig");
         addAdditionalEvolution("girafarig", new EvolutionEntry("nitmarig", EvolutionType.LEVEL_UP, List.of(),
