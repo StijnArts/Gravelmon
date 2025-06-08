@@ -243,6 +243,9 @@ public class PostRegistration {
                         evolutionEntry.getRequirements().stream().filter(entry -> entry.getCondition().equals("itemCondition"))
                                 .forEach(entry -> addAdditionalItemDrop(additionalEvolutionEntrySet.getKey(), entry.getConditionParameter().replace("", ""), result));
                     }
+
+                    result.setPreEvolution(evolutionEntry.getResult());
+                    result.evolutionStage = OriginalPokemonByStage.lookUpEvolutionStage(evolutionEntry.getResult()) + 1;
                 } else {
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);

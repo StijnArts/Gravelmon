@@ -172,7 +172,7 @@ public class PokemonSpawnDataBuilder {
 
     public PokemonSpawnDataBuilder mythical() {//TODO
 //        SpawnPool.ULTRA_RARE, 44, 56, 1.0
-        this.setMinLevel(50).setMaxLevel(70).setWeight(.05).setPool(SpawnPool.ULTRA_RARE);
+        this.setMinLevel(50).setMaxLevel(70).setWeight(.005).setPool(SpawnPool.ULTRA_RARE);
         return this;
     }
 

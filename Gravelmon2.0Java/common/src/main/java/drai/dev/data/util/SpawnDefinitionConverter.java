@@ -7,6 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
+import java.util.regex.*;
 import java.util.stream.*;
 
 public class SpawnDefinitionConverter {
@@ -16,30 +17,21 @@ public class SpawnDefinitionConverter {
         try {
             String content = Files.readString(filePath);
             StringBuilder updatedContent = new StringBuilder();
-
+            if (!content.contains("List.of());")) {
+                System.out.println("pokemon has forms and old spawn definition: " + pokemon.getName() + " - skipping conversion");
+                return;
+            }
             int currentIndex = 0;
 
-            while (true) {
-                int start = content.indexOf("SpawnContext.", currentIndex);
-                if (start == -1) break;
+            String firstPart = content.split("SpawnContext.")[0];
+            String secondPart = content.split(Pattern.quote("List.of());"))[1];
+            // Find the matching closing "List.of());"
 
-                // Find the matching closing "List.of());"
-                int listOfEnd = findListOfEnd(content, start);
-                if (listOfEnd == -1) break;
-
-                // Extract old block
-                String oldBlock = content.substring(start, listOfEnd + "List.of());".length());
-
-                // Replace with new block
-                String newBlock = convertOldBlockToBuilder(pokemon.getSpawnData().getFirst(), pokemon.getLabels(), pokemon.evolutionStage, pokemon.preEvolutionSpawnPool, pokemon.preEvolutionSpawnWeight);
-                updatedContent.append(content, currentIndex, start);
-                updatedContent.append(newBlock);
-
-                currentIndex = listOfEnd + "List.of());".length();
-            }
-
-            // Append the remaining content
-            updatedContent.append(content.substring(currentIndex));
+            // Replace with new block
+            String newBlock = convertOldBlockToBuilder(pokemon.getSpawnData().getFirst(), pokemon.getLabels(), pokemon.evolutionStage, pokemon.preEvolutionSpawnPool, pokemon.preEvolutionSpawnWeight);
+            updatedContent.append(firstPart);
+            updatedContent.append(newBlock);
+            updatedContent.append(secondPart);
 
             // Write back to file
             Files.writeString(filePath, updatedContent.toString());
@@ -73,7 +65,7 @@ public class SpawnDefinitionConverter {
     }
 
     public static String convertOldBlockToBuilder(PokemonSpawnData old, List<Label> labels, int stage, SpawnPool preEvolutionSpawnPool, double preEvolutionSpawnWeight) {
-        StringBuilder sb = new StringBuilder("new PokemonSpawnDataBuilder("+stage+")\n");
+        StringBuilder sb = new StringBuilder("new PokemonSpawnDataBuilder(" + stage + ")\n");
 
         if (labels == null) labels = new ArrayList<>();
         if (labels.stream().anyMatch(l -> l == Label.STARTER)) {
@@ -95,13 +87,13 @@ public class SpawnDefinitionConverter {
         } else {
             // Context, Pool, Weight
             var spawnPool = old.getSpawnPool();
-            if(preEvolutionSpawnPool!=null) spawnPool = preEvolutionSpawnPool;
+            if (preEvolutionSpawnPool != null) spawnPool = preEvolutionSpawnPool;
             sb.append("    .setPool(SpawnPool.").append(spawnPool).append(")\n");
             sb.append("    .setMinLevel(").append(old.getMinSpawnLevel()).append(")\n");
             var weight = old.getSpawnWeight();
             var accurateStage = stage;
-            if(preEvolutionSpawnWeight != 0) weight = preEvolutionSpawnWeight;
-            if(preEvolutionSpawnWeight != 0) accurateStage = stage-1;
+            if (preEvolutionSpawnWeight != 0) weight = preEvolutionSpawnWeight;
+            if (preEvolutionSpawnWeight != 0) accurateStage = stage - 1;
             var approxWeightEnum = resolveWeightEnum(weight, accurateStage); // use stage = 1 or calculate
             sb.append(approxWeightEnum);
         }
@@ -113,7 +105,7 @@ public class SpawnDefinitionConverter {
         var biomeCondition = old.getBiomeSpawnCondition();
         if (!biomeCondition.getBiomes().isEmpty()) {
             sb.append("    .setBiomes(")
-                    .append(biomeCondition.getBiomes().stream().map(e->"Biome."+e.toString()).collect(Collectors.joining(", ")))
+                    .append(biomeCondition.getBiomes().stream().map(e -> "Biome." + e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
@@ -121,7 +113,7 @@ public class SpawnDefinitionConverter {
         var antiBiomeCondition = old.getAntiBiomeSpawnCondition();
         if (!antiBiomeCondition.getBiomes().isEmpty()) {
             sb.append("    .setAntiBiomes(")
-                    .append(antiBiomeCondition.getBiomes().stream().map(e->"Biome."+e.toString()).collect(Collectors.joining(", ")))
+                    .append(antiBiomeCondition.getBiomes().stream().map(e -> "Biome." + e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
@@ -167,7 +159,7 @@ public class SpawnDefinitionConverter {
         // Spawn presets
         if (!old.getSpawnPresets().isEmpty()) {
             sb.append("    .setSpawnPreset(")
-                    .append(old.getSpawnPresets().stream().map(e->"SpawnPreset."+e.toString()).collect(Collectors.joining(", ")))
+                    .append(old.getSpawnPresets().stream().map(e -> "SpawnPreset." + e.toString()).collect(Collectors.joining(", ")))
                     .append(")\n");
         }
 
