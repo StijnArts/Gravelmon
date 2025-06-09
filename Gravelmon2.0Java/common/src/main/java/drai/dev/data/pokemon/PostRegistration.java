@@ -262,9 +262,9 @@ public class PostRegistration {
                     } else {
                         result.setPreEvolution(pokemon.getCleanName());
                     }
+                    checkEvolutionStatus(result);
                 }
-                checkEvolutionStatus(pokemon);
-                if (pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
+                if (result.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(result);
             }
         }
     }

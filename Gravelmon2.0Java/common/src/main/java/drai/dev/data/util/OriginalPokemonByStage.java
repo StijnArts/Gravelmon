@@ -44,7 +44,6 @@ public class OriginalPokemonByStage {
             Map.entry(GravelmonUtils.getCleanName("Nidoran♀"), 1),
             Map.entry(GravelmonUtils.getCleanName("Nidorina"), 2),
             Map.entry(GravelmonUtils.getCleanName("Nidoqueen"), 3),
-            Map.entry(GravelmonUtils.getCleanName("Nidoran♂"), 1),
             Map.entry(GravelmonUtils.getCleanName("Nidorino"), 2),
             Map.entry(GravelmonUtils.getCleanName("Nidoking"), 3),
             Map.entry(GravelmonUtils.getCleanName("Cleffa"), 1),
