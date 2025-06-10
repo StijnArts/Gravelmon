@@ -18,7 +18,6 @@ import static drai.dev.gravelmon.mega.GravelmonMegas.MEGA_EVOLUTIONS;
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 
 public class MegaEvolution extends WorldRepresentablePokemon {
-    private Ability ability;
     private String megaName = "mega";
     private @Nullable String aspect;
     private List<Label> labels;
@@ -30,7 +29,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable Aspect aspect) {
         super(height);
         this.stats = stats;
-        this.ability = ability;
+        this.abilities.add(ability);
         this.gameName = game;
         this.name = name;
         if(aspect != null) this.aspect = aspect.name();
@@ -46,7 +45,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels, @Nullable String aspect) {
         super(height);
         this.stats = stats;
-        this.ability = ability;
+        this.abilities.add(ability);
         this.gameName = game;
         this.name = name;
         this.aspect = aspect;
@@ -62,7 +61,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
     public MegaEvolution(String name, Type primaryType, Stats stats, Ability ability, int height, String game, List<Label> labels) {
         super(height);
         this.stats = stats;
-        this.ability = ability;
+        this.abilities.add(ability);
         this.gameName = game;
         this.name = name;
         this.aspect = null;
@@ -182,10 +181,6 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return super.getModelName()+"_mega";
     }
 
-    public Ability getAbility() {
-        return ability;
-    }
-
     public @Nullable Type getPrimaryType() {
         return primaryType;
     }
@@ -248,7 +243,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         fileContents.addProperty("cannotDynamax", false);
         fileContents.addProperty("battleOnly", true);
         var abilities = new JsonArray();
-        abilities.add(ability.getName());
+        abilities.add(abilities.get(0));
         fileContents.add("abilities", abilities);
         fileContents.add("baseStats", stats.getJsonRepresentation());
         var labels = new JsonArray();

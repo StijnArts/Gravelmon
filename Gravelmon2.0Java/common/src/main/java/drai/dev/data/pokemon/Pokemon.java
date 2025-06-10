@@ -302,7 +302,7 @@ public class Pokemon extends AbstractPokemon {
     public List<String> getEvolutionsForPrint() {
         var strings = new ArrayList<>(this.getEvolutions().stream().map(EvolutionEntry::toString).toList());
         additionalEvolutions.forEach(evolutionEntry -> {
-            strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + this.getCleanName()));
+            strings.add(evolutionEntry.toString().replaceAll("evolves into "+evolutionEntry.getResult(), "evolves from " + evolutionEntry.getSource().getCleanName()));
         });
         return strings;
     }

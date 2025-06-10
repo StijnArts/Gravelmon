@@ -15,6 +15,7 @@ public class SpawnDefinitionConverter {
         if(!pokemon.needsUpdatedSpawnDefinition) return;
         String className = pokemon.getClass().getName(); // e.g. "com.example.pokemon.MyPokemon"
         Path filePath = Path.of("C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\Gravelmon2.0Java\\data\\src\\main\\java", className.replace('.', '/') + ".java");
+        if(!filePath.toString().contains("ayrei")) return;
         try {
             String content = Files.readString(filePath);
             StringBuilder updatedContent = new StringBuilder();
