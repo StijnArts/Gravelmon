@@ -177,6 +177,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pidove form=ayreian",
       "baseScale": 0.22153846153846155,
       "cannotDynamax": false,
       "abilities": [
@@ -282,7 +283,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiantranquill.desc"

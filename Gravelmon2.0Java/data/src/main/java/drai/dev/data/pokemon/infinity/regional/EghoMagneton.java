@@ -97,13 +97,16 @@ public class EghoMagneton extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN1),
                 4, List.of(
                         new ItemDrop("minecraft:vines",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 34, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.26, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_LUSH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Magneton");
 
     }

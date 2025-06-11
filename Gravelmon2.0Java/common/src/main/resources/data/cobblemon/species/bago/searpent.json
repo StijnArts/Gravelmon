@@ -64,6 +64,7 @@
   "labels": [
     "bago",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -89,7 +90,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3662,
+  "nationalPokedexNumber": 3601,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

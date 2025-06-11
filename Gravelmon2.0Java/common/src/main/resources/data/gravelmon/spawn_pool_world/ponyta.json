@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-37",
-      "weight": 13.5,
+      "level": "13-33",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "11-32",
-      "weight": 4.5,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -109,13 +109,13 @@
       "id": "forman_ponyta-01",
       "pokemon": "ponyta forman",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "12-39",
-      "weight": 6.8999999999999995,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snipion form=crozoican",
       "baseScale": 0.4853932584269663,
       "cannotDynamax": false,
       "abilities": [
@@ -77,7 +78,9 @@
       ],
       "labels": [
         "crozoic",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.crozoicanchainscraw.desc"

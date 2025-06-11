@@ -1,0 +1,148 @@
+{
+  "target": "cobblemon:epochregice",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "catchRate": 75,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 261,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.45,
+      "cannotDynamax": false,
+      "abilities": [
+        "roughskin",
+        "overcoat",
+        "h:overgrow"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 100,
+        "defence": 200,
+        "special_attack": 50,
+        "special_defence": 25,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 3,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leechseed",
+        "1:branchpoke",
+        "8:rockthrow",
+        "17:razorleaf",
+        "53:hammerarm",
+        "43:rockslide",
+        "38:bodyslam",
+        "21:synthesis",
+        "34:seedbomb",
+        "29:spikyshield",
+        "59:woodhammer",
+        "tm:aromatherapy",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:closecombat",
+        "tm:drainpunch",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:energyball",
+        "tm:falseswipe",
+        "tm:focusblast",
+        "tm:furycutter",
+        "tm:geomancy",
+        "tm:gigadrain",
+        "tm:grassyterrain",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:magicalleaf",
+        "tm:memento",
+        "tm:pinmissile",
+        "tm:powerwhip",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:solarbeam",
+        "tm:spikyshield",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:synthesis",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochregice.desc"
+      ],
+      "height": 18,
+      "weight": 1750,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

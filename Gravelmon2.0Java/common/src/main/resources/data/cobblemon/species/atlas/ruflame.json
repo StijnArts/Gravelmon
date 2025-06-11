@@ -116,7 +116,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.ruflame.desc"
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6894,
+  "nationalPokedexNumber": 6833,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

@@ -78,6 +78,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "norse",
     "instagram",
     "instagram"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3314,
+  "nationalPokedexNumber": 3253,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

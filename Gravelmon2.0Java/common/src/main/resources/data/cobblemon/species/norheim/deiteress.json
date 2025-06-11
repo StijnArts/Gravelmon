@@ -83,7 +83,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.deiteress.desc"
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4282,
+  "nationalPokedexNumber": 4221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

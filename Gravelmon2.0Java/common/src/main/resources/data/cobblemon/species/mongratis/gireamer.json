@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "gireamer",
   "baseScale": 0.7263157894736841,
   "cannotDynamax": false,
   "abilities": [
@@ -91,7 +92,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gireamer.desc"
@@ -100,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8529,
+  "nationalPokedexNumber": 8468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

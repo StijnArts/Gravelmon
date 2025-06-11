@@ -81,13 +81,16 @@ public class SeviianClawitzer extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN6),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Clawitzer");
     }
 }

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "remoraid",
+  "preEvolution": "slingray",
   "baseScale": 0.7619047619047619,
   "cannotDynamax": false,
   "abilities": [
@@ -119,6 +119,7 @@
   "labels": [
     "blazing_emerald",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -128,7 +129,7 @@
   "weight": 194,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5110,
+  "nationalPokedexNumber": 5049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

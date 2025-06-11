@@ -137,7 +137,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.mistoria.desc"
@@ -146,7 +147,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5237,
+  "nationalPokedexNumber": 5176,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.1875,

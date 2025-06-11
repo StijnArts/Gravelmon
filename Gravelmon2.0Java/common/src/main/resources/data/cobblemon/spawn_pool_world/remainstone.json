@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "33-55",
-      "weight": 4.5,
+      "level": "33-53",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_sand"

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-46",
-      "weight": 13.5,
+      "level": "21-41",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"

@@ -56,12 +56,15 @@ public class HoennianMareanie extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN7),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 41, 9.0, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.AMETHYST_GEODE),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(10)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
+    .build(), List.of());
+	
         this.setLangFileName("Mareanie");
         
     }

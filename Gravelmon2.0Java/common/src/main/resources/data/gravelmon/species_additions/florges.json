@@ -271,6 +271,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "floette form=vesitan",
       "baseScale": 0.3882352941176471,
       "cannotDynamax": false,
       "abilities": [
@@ -342,7 +343,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanflorges.desc"

@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "ultra-rare",
-      "level": "55-65",
-      "weight": 0.015,
+      "level": "55-75",
+      "weight": 0.01,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

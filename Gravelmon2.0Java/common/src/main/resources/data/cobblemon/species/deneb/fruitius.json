@@ -8,6 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "fruitius",
   "baseScale": 1.3125,
   "cannotDynamax": false,
   "abilities": [
@@ -115,7 +116,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fruitius.desc"
@@ -124,7 +126,7 @@
   "weight": 1450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6295,
+  "nationalPokedexNumber": 6234,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

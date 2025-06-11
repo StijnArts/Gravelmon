@@ -94,7 +94,9 @@
   ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "legendary",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.dragalisk.desc"

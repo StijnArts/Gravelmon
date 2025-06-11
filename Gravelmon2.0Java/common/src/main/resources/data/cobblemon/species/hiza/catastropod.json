@@ -82,7 +82,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.catastropod.desc"
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3088,
+  "nationalPokedexNumber": 3027,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

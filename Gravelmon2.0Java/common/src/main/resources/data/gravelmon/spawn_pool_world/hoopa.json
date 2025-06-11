@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "50-70",
-      "weight": 3.0000000000000004E-5,
+      "level": "55-75",
+      "weight": 0.01,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain",
@@ -39,9 +39,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-43",
-      "weight": 0.0,
+      "bucket": "ultra-rare",
+      "level": "55-75",
+      "weight": 0.01,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -67,8 +67,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "65-75",
-      "weight": 9.0E-4,
+      "level": "65-85",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

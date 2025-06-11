@@ -95,12 +95,16 @@ public class RelicFlabebe extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PHOENIX_RISING, Label.GEN6),
                 0, List.of(
                 ),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 24, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(7)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_FLORAL)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Flabébé");
 
     }

@@ -88,7 +88,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.spinotap.desc"
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8174,
+  "nationalPokedexNumber": 8113,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

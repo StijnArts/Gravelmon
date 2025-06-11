@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "9-31",
-      "weight": 6.0,
+      "level": "9-29",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

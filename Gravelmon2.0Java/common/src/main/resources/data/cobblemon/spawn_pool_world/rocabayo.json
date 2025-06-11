@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "7-27",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"

@@ -132,7 +132,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.varaquake.desc"
@@ -141,7 +142,7 @@
   "weight": 3053,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4326,
+  "nationalPokedexNumber": 4265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

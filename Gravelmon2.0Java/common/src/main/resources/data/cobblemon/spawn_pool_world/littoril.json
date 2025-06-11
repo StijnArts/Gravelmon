@@ -7,7 +7,7 @@
       "id": "littoril-01",
       "pokemon": "littoril",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

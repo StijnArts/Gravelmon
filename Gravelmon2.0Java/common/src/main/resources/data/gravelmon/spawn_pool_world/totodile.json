@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -36,8 +36,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -61,8 +61,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -86,8 +86,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_fire"
@@ -111,19 +111,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_overworld"
-        ]
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -143,8 +138,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -170,8 +165,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

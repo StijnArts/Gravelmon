@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "nitmarig",
   "baseScale": 0.6461538461538462,
   "cannotDynamax": false,
   "abilities": [
@@ -91,7 +92,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.nitmarig.desc"
@@ -100,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8530,
+  "nationalPokedexNumber": 8469,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

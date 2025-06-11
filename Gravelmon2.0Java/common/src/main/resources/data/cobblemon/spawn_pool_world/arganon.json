@@ -7,13 +7,13 @@
       "id": "arganon-01",
       "pokemon": "arganon",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "41-59",
-      "weight": 0.6000000000000001,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

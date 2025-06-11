@@ -7,24 +7,19 @@
       "id": "selody-01",
       "pokemon": "selody",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "35-56",
-      "weight": 4.5,
+      "level": "35-55",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_jungle"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

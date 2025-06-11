@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Croomish",
   "baseScale": 0.06562499999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -119,6 +120,7 @@
   ],
   "labels": [
     "not_modeled",
+    "fakemonevolution",
     "palmia",
     "instagram",
     "instagram"
@@ -130,7 +132,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3522,
+  "nationalPokedexNumber": 3461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

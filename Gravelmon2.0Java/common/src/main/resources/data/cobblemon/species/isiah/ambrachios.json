@@ -79,7 +79,8 @@
     "isiah",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ambrachios.desc"
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5777,
+  "nationalPokedexNumber": 5716,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

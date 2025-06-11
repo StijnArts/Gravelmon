@@ -85,6 +85,7 @@
   "labels": [
     "flux",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2616,
+  "nationalPokedexNumber": 2555,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

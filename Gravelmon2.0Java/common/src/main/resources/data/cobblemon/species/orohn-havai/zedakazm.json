@@ -81,7 +81,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.zedakazm.desc"
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4049,
+  "nationalPokedexNumber": 3988,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.75,

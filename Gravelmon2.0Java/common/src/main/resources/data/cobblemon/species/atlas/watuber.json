@@ -113,7 +113,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.watuber.desc"
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6909,
+  "nationalPokedexNumber": 6848,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

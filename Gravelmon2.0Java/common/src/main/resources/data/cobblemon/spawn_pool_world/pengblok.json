@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "17-35",
-      "weight": 2.55,
+      "level": "17-37",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",

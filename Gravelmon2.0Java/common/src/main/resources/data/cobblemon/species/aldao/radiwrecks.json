@@ -82,6 +82,7 @@
     "not_modeled",
     "fakemon",
     "fakemonevolution",
+    "fossil",
     "instagram",
     "instagram"
   ],
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3802,
+  "nationalPokedexNumber": 3741,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -385,6 +385,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "geodude form=epoch",
       "baseScale": 0.2608695652173913,
       "cannotDynamax": false,
       "abilities": [
@@ -535,7 +536,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgravelerone.desc"
@@ -547,9 +550,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgravelerone_epochtwogolem",
+          "id": "epochgravelerone_golem_epoch",
           "variant": "trade",
-          "result": "epochtwogolem",
+          "result": "golem epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

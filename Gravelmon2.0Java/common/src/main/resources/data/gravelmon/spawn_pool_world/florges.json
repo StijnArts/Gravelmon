@@ -11,15 +11,10 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "36-54",
-      "weight": 0.44999999999999996,
+      "bucket": "uncommon",
+      "level": "36-56",
+      "weight": 0.12,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_floral"
         ]
@@ -42,9 +37,9 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "rare",
-      "level": "41-54",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "41-61",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -67,20 +62,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "35-46",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.12,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold"
+          "#cobblemon:is_snowy"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

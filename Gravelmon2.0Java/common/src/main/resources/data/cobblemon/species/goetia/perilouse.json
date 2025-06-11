@@ -78,7 +78,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.perilouse.desc"
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8236,
+  "nationalPokedexNumber": 8175,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

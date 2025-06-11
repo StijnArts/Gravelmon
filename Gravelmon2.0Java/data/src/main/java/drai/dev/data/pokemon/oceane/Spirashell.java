@@ -33,12 +33,15 @@ public class Spirashell extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 11, 21, 1.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(11)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

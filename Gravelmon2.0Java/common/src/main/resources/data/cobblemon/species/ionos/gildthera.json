@@ -77,7 +77,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.gildthera.desc"
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6577,
+  "nationalPokedexNumber": 6516,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

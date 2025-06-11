@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-59",
-      "weight": 1.2000000000000002,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "33-48",
-      "weight": 0.30000000000000004,
+      "level": "33-53",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -65,7 +65,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -89,11 +89,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-54",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": -20
       },
       "weightMultiplier": {
@@ -115,7 +118,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"

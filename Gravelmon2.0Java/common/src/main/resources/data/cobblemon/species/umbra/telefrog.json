@@ -153,6 +153,7 @@
   "labels": [
     "umbra",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -178,7 +179,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4906,
+  "nationalPokedexNumber": 4845,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

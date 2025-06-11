@@ -68,14 +68,18 @@ public class RelicTentacool extends Pokemon {
                         ),
                 List.of(Label.PHOENIX_RISING, Label.GEN1),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.COMMON, 9, 31, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY, "48")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(9)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .belowY(48)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setLangFileName("Tentacool");
 
         this.setCanSwim(true);

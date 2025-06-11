@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "mujineon",
   "baseScale": 0.374025974025974,
   "cannotDynamax": false,
   "abilities": [
@@ -158,7 +159,9 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mujineon.desc"
@@ -167,7 +170,7 @@
   "weight": 45,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5492,
+  "nationalPokedexNumber": 5431,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

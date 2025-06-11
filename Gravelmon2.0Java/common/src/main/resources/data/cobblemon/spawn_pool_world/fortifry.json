@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "4-12",
+      "level": "4-24",
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_river"
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_temperate",
-          "#cobblemon:is_arid"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -42,14 +37,9 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "4-12",
+      "level": "4-24",
       "weight": 9.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_river"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"

@@ -83,13 +83,17 @@ public class Fawning extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:berries",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_MOUNTAIN))),
-                List.of(SpawnPreset.NATURAL),
-                0.34, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TAIGA, Biome.IS_SNOWY)
+    .setAntiBiomes(Biome.IS_HILLS, Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

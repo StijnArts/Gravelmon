@@ -405,6 +405,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ralts form=epoch",
       "baseScale": 0.4085106382978723,
       "cannotDynamax": false,
       "abilities": [
@@ -458,7 +459,16 @@
         "human_like",
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:air_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "31:eeriespell",
         "25:disable",
@@ -553,7 +563,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochkirliaone.desc"
@@ -565,9 +577,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkirliaone_epochtwogardevoir",
+          "id": "epochkirliaone_gardevoir_epoch",
           "variant": "item_interact",
-          "result": "epochtwogardevoir",
+          "result": "gardevoir epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -575,9 +587,9 @@
           "permanent": true
         },
         {
-          "id": "epochkirliaone_epochtwogallade",
+          "id": "epochkirliaone_gallade_epoch",
           "variant": "item_interact",
-          "result": "epochtwogallade",
+          "result": "gallade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

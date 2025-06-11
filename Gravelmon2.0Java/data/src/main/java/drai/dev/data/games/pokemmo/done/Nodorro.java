@@ -116,7 +116,6 @@ public class Nodorro extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Snowder());
         addNewPokemon(new Frauster());
         addNewPokemon(new Scroul()); //Renamed from Scroul
-//        addNewPokemon(new OlysosianScroul("", Aspect.OLYSOSIAN)); MEMBER OF LINE NOT FINISHED
         addNewPokemon(new Magisbook());
         addNewPokemon(new Prudexwell());
         addNewPokemon(new NodorranOnix("", Aspect.NODORRAN));

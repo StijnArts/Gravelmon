@@ -157,6 +157,7 @@
   "labels": [
     "ishiria",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -167,7 +168,7 @@
   "weight": 480,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8951,
+  "nationalPokedexNumber": 8841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

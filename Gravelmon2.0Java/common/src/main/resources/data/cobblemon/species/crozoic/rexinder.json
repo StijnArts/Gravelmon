@@ -73,7 +73,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.rexinder.desc"
@@ -93,7 +94,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4327,
+  "nationalPokedexNumber": 4266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

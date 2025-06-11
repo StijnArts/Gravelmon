@@ -557,9 +557,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochphanpyone_epochtwodonphan",
+          "id": "epochphanpyone_donphan_epoch",
           "variant": "level_up",
-          "result": "epochtwodonphan",
+          "result": "donphan epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

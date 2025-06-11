@@ -535,6 +535,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "roselia avorian",
       "baseScale": 0.1,
       "cannotDynamax": false,
       "abilities": [
@@ -659,7 +660,8 @@
       ],
       "labels": [
         "avoris",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.avorianroselia.desc"
@@ -844,6 +846,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "budew form=epoch",
       "baseScale": 0.15737704918032788,
       "cannotDynamax": false,
       "abilities": [
@@ -973,7 +976,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochroseliaone.desc"
@@ -985,9 +990,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroseliaone_epochtworoserade",
+          "id": "epochroseliaone_roserade_epoch",
           "variant": "item_interact",
-          "result": "epochtworoserade",
+          "result": "roserade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

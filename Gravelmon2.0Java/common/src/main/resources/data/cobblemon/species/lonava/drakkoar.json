@@ -36,6 +36,7 @@
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
+        "canWalkOnWater": true,
         "canWalkOnLava": false
       }
     }
@@ -86,7 +87,8 @@
     "lonava",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.drakkoar.desc"
@@ -95,7 +97,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4508,
+  "nationalPokedexNumber": 4447,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -7,26 +7,21 @@
       "id": "baaschaf-01",
       "pokemon": "baaschaf",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
-      "level": "22-48",
-      "weight": 0.75,
+      "level": "22-42",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_arid"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

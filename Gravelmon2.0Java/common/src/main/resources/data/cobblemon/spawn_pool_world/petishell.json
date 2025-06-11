@@ -7,13 +7,13 @@
       "id": "petishell-01",
       "pokemon": "petishell",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "5-25",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

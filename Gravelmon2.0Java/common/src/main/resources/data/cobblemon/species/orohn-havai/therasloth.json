@@ -85,7 +85,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.therasloth.desc"
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3991,
+  "nationalPokedexNumber": 3930,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

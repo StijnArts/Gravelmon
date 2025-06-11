@@ -125,7 +125,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.wushenli.desc"
@@ -134,7 +135,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5330,
+  "nationalPokedexNumber": 5269,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

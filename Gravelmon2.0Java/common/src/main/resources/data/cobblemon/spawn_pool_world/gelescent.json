@@ -7,8 +7,8 @@
       "id": "gelescent-01",
       "pokemon": "gelescent",
       "presets": [
-        "natural",
-        "near_water"
+        "near_water",
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

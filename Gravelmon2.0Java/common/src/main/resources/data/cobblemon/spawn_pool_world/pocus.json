@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "41-49",
-      "weight": 0.6000000000000001,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

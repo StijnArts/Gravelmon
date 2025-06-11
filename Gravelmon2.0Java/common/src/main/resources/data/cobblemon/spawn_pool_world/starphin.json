@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "13-33",
-      "weight": 4.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -38,7 +38,7 @@
       "context": "fishing",
       "bucket": "uncommon",
       "level": "13-33",
-      "weight": 4.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

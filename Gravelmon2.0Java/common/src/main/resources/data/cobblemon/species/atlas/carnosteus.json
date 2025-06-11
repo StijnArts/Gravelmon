@@ -123,7 +123,8 @@
     "atlas",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.carnosteus.desc"
@@ -132,7 +133,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7096,
+  "nationalPokedexNumber": 7035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

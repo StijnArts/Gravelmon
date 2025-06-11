@@ -78,6 +78,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "trizor",
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3623,
+  "nationalPokedexNumber": 3562,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

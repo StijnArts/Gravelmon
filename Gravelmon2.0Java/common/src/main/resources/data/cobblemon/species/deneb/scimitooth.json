@@ -131,7 +131,8 @@
     "deneb",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.scimitooth.desc"
@@ -140,7 +141,7 @@
   "weight": 2822,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6143,
+  "nationalPokedexNumber": 6082,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

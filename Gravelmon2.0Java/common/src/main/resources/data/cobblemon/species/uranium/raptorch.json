@@ -122,7 +122,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.raptorch.desc"
@@ -146,7 +147,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2465,
+  "nationalPokedexNumber": 2404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

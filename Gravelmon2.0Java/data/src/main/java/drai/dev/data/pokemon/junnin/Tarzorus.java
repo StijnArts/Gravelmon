@@ -84,13 +84,16 @@ public class Tarzorus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

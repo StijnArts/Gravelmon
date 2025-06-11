@@ -1,0 +1,166 @@
+{
+  "target": "cobblemon:ayreianpolitoed",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "water",
+      "secondaryType": "sound",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.275,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterabsorb",
+        "damp"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 75,
+        "defence": 75,
+        "special_attack": 70,
+        "special_defence": 90,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "48:hydropump",
+        "1:mudshot",
+        "14:round",
+        "0:bounce",
+        "55:boomburst",
+        "24:raindance",
+        "32:hypervoice",
+        "1:watergun",
+        "1:hypnosis",
+        "1:uproar",
+        "66:doubleedge",
+        "18:bubblebeam",
+        "52:bellydrum",
+        "44:earthpower",
+        "tm:attract",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:dig",
+        "tm:dive",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:encore",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:hail",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:liquidation",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:metronome",
+        "tm:muddywater",
+        "tm:payback",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:scald",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:strength",
+        "tm:substitute",
+        "tm:surf",
+        "tm:swagger",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterfall",
+        "tm:waterpulse",
+        "tm:whirlpool"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianpolitoed.desc"
+      ],
+      "height": 11,
+      "weight": 339,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

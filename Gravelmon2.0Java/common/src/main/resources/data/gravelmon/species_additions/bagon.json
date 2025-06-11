@@ -158,7 +158,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochbagon.desc"
@@ -286,6 +287,7 @@
       "labels": [
         "ferran",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

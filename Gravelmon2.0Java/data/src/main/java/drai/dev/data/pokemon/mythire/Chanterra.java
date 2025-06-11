@@ -113,13 +113,17 @@ public class Chanterra extends drai.dev.data.pokemon.Pokemon {
                         ),
         List.of(Label.MYTHIRE),
                 0, List.of(
-        ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, .3, List.of(
-                new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_DECIDUOUS_FOREST)),
-                new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-        ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+        ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MUSHROOM, Biome.IS_DECIDUOUS_FOREST)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Chanterra");
 
     }

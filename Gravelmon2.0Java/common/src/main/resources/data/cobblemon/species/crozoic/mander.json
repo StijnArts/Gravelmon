@@ -83,7 +83,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.mander.desc"
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4310,
+  "nationalPokedexNumber": 4249,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

@@ -1,0 +1,167 @@
+{
+  "target": "cobblemon:theossianoddish",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "h:runaway"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 50,
+        "defence": 55,
+        "special_attack": 65,
+        "special_defence": 75,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growth",
+        "1:absorb",
+        "5:sweetscent",
+        "9:acid",
+        "13:poisonpowder",
+        "14:stunspore",
+        "15:sleeppowder",
+        "19:megadrain",
+        "23:luckychant",
+        "27:moonlight",
+        "31:gigadrain",
+        "35:toxic",
+        "39:naturalgift",
+        "43:moonblast",
+        "47:grassyterrain",
+        "51:petaldance",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:gastroacid",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:afteryou",
+        "tm:grassyglide",
+        "tm:swordsdance",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:infestation",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:cut",
+        "tm:flash",
+        "tm:grassyterrain",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:charm",
+        "tm:curse",
+        "tm:endure",
+        "tm:headbutt",
+        "tm:naturalgift",
+        "tm:secretpower",
+        "tm:sweetscent",
+        "tm:razorleaf",
+        "tm:flail",
+        "tm:charm",
+        "tm:ingrain",
+        "tm:secretpower",
+        "tm:teeterdance",
+        "tm:tickle",
+        "tm:strengthsap"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianoddish.desc"
+      ],
+      "height": 5,
+      "weight": 54,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

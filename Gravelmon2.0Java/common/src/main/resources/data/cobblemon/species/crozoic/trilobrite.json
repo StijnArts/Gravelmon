@@ -77,7 +77,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.trilobrite.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4312,
+  "nationalPokedexNumber": 4251,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

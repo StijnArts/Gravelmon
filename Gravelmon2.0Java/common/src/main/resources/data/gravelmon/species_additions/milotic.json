@@ -509,6 +509,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "feebas form=epoch",
       "baseScale": 1.9578947368421051,
       "cannotDynamax": false,
       "abilities": [
@@ -633,7 +634,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmiloticone.desc"

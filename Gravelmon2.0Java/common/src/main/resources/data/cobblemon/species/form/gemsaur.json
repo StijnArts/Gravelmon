@@ -80,6 +80,7 @@
   "labels": [
     "form",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4977,
+  "nationalPokedexNumber": 4916,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

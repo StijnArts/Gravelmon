@@ -82,7 +82,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.aquapo.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6503,
+  "nationalPokedexNumber": 6442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

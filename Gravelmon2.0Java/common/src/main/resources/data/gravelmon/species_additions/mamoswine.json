@@ -164,6 +164,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "piloswine form=epoch",
       "baseScale": 0.6818181818181818,
       "cannotDynamax": false,
       "abilities": [
@@ -296,7 +297,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmamoswineone.desc"

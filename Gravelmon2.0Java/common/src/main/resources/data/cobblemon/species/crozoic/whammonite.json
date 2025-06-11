@@ -79,7 +79,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.whammonite.desc"
@@ -88,7 +89,7 @@
   "weight": 172,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4355,
+  "nationalPokedexNumber": 4294,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

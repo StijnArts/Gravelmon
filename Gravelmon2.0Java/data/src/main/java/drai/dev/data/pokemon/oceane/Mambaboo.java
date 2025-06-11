@@ -43,12 +43,15 @@ public class Mambaboo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 54, .8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
-                ), List.of(),
-                List.of(SpawnPreset.ILLAGER_STRUCTURES),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SWAMP)
+    .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES)
+    .build(), List.of());
+	
            setLangFileName("Mambaboo");
 
     }

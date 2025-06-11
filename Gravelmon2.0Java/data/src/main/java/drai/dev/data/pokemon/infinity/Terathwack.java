@@ -134,13 +134,16 @@ public class Terathwack extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 1, List.of(new ItemDrop("gravelmon:long_club",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 41, 51, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.43, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SANDY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setPreEvolution("marowak");
         addAdditionalEvolution("marowak", new EvolutionEntry("terathwack", EvolutionType.LEVEL_UP, List.of(),

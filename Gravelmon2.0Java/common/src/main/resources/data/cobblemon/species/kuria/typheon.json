@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "typheon",
   "baseScale": 0.4067796610169492,
   "cannotDynamax": false,
   "abilities": [
@@ -116,7 +117,9 @@
   ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.typheon.desc"
@@ -125,7 +128,7 @@
   "weight": 106,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5610,
+  "nationalPokedexNumber": 5549,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

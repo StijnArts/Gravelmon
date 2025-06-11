@@ -98,7 +98,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.demini.desc"
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6350,
+  "nationalPokedexNumber": 6289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

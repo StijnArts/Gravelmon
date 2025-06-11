@@ -134,7 +134,8 @@
   ],
   "labels": [
     "okeno",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.pubble.desc"
@@ -158,7 +159,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5955,
+  "nationalPokedexNumber": 5894,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

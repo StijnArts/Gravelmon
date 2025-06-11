@@ -10,8 +10,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "4-25",
-      "weight": 7.5,
+      "level": "4-24",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river",

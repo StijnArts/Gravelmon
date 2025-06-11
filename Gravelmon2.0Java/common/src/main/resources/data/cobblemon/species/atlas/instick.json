@@ -112,7 +112,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.instick.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6882,
+  "nationalPokedexNumber": 6821,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

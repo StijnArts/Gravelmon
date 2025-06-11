@@ -74,7 +74,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.nifflom.desc"

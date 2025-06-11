@@ -13,18 +13,13 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

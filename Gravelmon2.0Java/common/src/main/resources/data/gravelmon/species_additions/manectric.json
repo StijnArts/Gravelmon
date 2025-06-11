@@ -169,6 +169,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "electrike form=enjinnian",
       "baseScale": 0.5,
       "cannotDynamax": false,
       "abilities": [
@@ -292,7 +293,9 @@
       ],
       "labels": [
         "enjin",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.enjinnianmanectric.desc"

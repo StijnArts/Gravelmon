@@ -194,6 +194,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianiangallade",
       "baseScale": 0.0796875,
       "cannotDynamax": false,
       "abilities": [
@@ -278,6 +279,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -462,6 +464,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kirlia form=epoch",
       "baseScale": 0.49230769230769234,
       "cannotDynamax": false,
       "abilities": [
@@ -612,7 +615,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgalladeone.desc"
@@ -843,6 +848,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kirlia form=ayreian",
       "baseScale": 0.43636363636363634,
       "cannotDynamax": false,
       "abilities": [
@@ -1038,7 +1044,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiangallade.desc"

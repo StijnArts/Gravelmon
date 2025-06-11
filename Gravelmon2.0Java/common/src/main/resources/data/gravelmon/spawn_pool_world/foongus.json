@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-43",
-      "weight": 7.5,
+      "level": "5-25",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-43",
-      "weight": 13.5,
+      "level": "5-25",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"

@@ -89,7 +89,8 @@
     "orohnhavai",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.wreckasaur.desc"
@@ -98,7 +99,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3987,
+  "nationalPokedexNumber": 3926,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

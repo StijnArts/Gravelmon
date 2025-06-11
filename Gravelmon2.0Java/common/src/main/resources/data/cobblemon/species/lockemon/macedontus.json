@@ -82,7 +82,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.macedontus.desc"
@@ -91,7 +92,7 @@
   "weight": 295,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4615,
+  "nationalPokedexNumber": 4554,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

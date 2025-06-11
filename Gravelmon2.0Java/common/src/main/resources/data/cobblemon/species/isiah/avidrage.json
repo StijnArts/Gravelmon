@@ -79,6 +79,7 @@
   "labels": [
     "isiah",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5798,
+  "nationalPokedexNumber": 5737,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

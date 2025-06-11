@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "vibrava cefiran",
       "baseScale": 0.25882352941176473,
       "cannotDynamax": false,
       "abilities": [
@@ -85,7 +86,8 @@
       "labels": [
         "gen3",
         "opal",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.cefiranvibrava.desc"
@@ -476,6 +478,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "trapinch form=ionosian",
       "baseScale": 0.23606557377049178,
       "cannotDynamax": false,
       "abilities": [
@@ -556,7 +559,9 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianvibrava.desc"

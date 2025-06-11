@@ -209,7 +209,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "infinity"
+    "infinity",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.arkhaos.desc"

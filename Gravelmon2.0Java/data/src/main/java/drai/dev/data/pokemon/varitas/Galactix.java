@@ -17,7 +17,7 @@ public class Galactix extends drai.dev.data.pokemon.Pokemon {
                         65,
                         30),
                 List.of(Ability.LEVITATE,Ability.STURDY,Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                8, 165,
+                38, 165,
                 new Stats(0,0,2,0,0,0), 25,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -106,12 +106,13 @@ public class Galactix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(34).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Galactix");
 
     }

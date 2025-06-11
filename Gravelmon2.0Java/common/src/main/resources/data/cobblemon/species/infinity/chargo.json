@@ -135,7 +135,8 @@
   ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.chargo.desc"

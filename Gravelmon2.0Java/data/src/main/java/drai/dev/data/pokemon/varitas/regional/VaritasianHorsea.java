@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHorsea extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianHorsea() {
-        super("VaritasianHorsea",
+    public VaritasianHorsea(String s, Aspect aspect) {
+        super(s, aspect, "VaritasianHorsea",
                 Type.GRASS, Type.DRAGON,
                 new Stats(30,
                         40,
@@ -17,14 +17,15 @@ public class VaritasianHorsea extends drai.dev.data.pokemon.Pokemon {
                         25,
                         60),
                 List.of(Ability.SWIFT_SWIM,Ability.SNIPER,Ability.DAMP), Ability.DAMP,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 225,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokemon swims by cleverly flapping the fin on its back."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianseadra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),
@@ -95,11 +96,14 @@ public class VaritasianHorsea extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.VARITAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Horsea");
 
     }

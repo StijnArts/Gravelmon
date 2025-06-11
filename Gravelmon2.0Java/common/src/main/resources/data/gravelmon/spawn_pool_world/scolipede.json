@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "37-59",
-      "weight": 0.07500000000000001,
+      "level": "37-57",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
@@ -36,9 +36,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "41-54",
-      "weight": 0.15000000000000002,
+      "bucket": "common",
+      "level": "41-61",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -62,15 +62,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

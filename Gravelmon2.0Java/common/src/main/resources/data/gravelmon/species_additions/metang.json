@@ -170,6 +170,7 @@
         "gen3",
         "insurgence",
         "not_modeled",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -361,6 +362,7 @@
       "labels": [
         "gen3",
         "insurgence",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -542,6 +544,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -670,6 +673,7 @@
       "labels": [
         "fabel",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

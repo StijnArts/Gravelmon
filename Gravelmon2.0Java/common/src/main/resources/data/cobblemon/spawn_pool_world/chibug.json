@@ -13,13 +13,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "23-43",
-      "weight": 5.699999999999999,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

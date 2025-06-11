@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "23-44",
-      "weight": 1.35,
+      "level": "23-43",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "28-44",
-      "weight": 1.7999999999999998,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -61,9 +61,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "25-45",
-      "weight": 6.0,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

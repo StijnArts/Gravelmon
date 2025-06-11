@@ -109,7 +109,8 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.scurley.desc"
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7291,
+  "nationalPokedexNumber": 7230,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

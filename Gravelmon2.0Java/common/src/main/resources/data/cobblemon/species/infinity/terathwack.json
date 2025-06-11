@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "marowak",
+  "preEvolution": "terathwack",
   "baseScale": 0.4051948051948052,
   "cannotDynamax": false,
   "abilities": [
@@ -192,6 +192,7 @@
   "labels": [
     "infinity",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

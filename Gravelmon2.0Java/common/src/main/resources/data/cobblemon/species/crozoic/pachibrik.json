@@ -78,7 +78,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pachibrik.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4374,
+  "nationalPokedexNumber": 4313,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -79,7 +79,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.crubble.desc"
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8690,
+  "nationalPokedexNumber": 8629,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

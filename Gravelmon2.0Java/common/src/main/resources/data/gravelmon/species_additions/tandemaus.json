@@ -326,9 +326,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtandemausone_epochtwomaushold",
+          "id": "epochtandemausone_maushold_epoch",
           "variant": "item_interact",
-          "result": "epochtwomaushold",
+          "result": "maushold epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

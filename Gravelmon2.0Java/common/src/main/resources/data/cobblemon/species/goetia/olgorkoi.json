@@ -89,7 +89,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.olgorkoi.desc"
@@ -98,7 +99,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8248,
+  "nationalPokedexNumber": 8187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

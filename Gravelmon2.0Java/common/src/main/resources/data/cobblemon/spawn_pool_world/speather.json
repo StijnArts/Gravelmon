@@ -12,21 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "34-56",
-      "weight": 1.5,
+      "level": "34-54",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_cold_ocean",
-          "#cobblemon:is_coast"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:has_season/spring",
           "#cobblemon:has_season/summer"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

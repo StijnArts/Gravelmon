@@ -1,0 +1,180 @@
+{
+  "target": "cobblemon:ayreianmimejr",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fire",
+      "secondaryType": "fairy",
+      "catchRate": 145,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "soundproof",
+        "filter"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 20,
+        "attack": 25,
+        "defence": 45,
+        "special_attack": 60,
+        "special_defence": 70,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "8:encore",
+        "40:suckerpunch",
+        "52:teeterdance",
+        "36:reflect",
+        "36:safeguard",
+        "20:drainingkiss",
+        "36:lightscreen",
+        "16:protect",
+        "48:psychic",
+        "32:mimic",
+        "12:confusion",
+        "1:ember",
+        "44:dazzlinggleam",
+        "28:psybeam",
+        "4:echoedvoice",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:brickbreak",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:dazzlinggleam",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:dreameater",
+        "tm:encore",
+        "tm:endure",
+        "tm:facade",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:futuresight",
+        "tm:grassknot",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:icywind",
+        "tm:infestation",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magicroom",
+        "tm:mistyterrain",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychicterrain",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roleplay",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:storedpower",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:telekinesis",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:toxic",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:uproar",
+        "tm:wonderroom",
+        "egg:hypnosis",
+        "egg:fakeout",
+        "egg:confuseray",
+        "egg:powersplit",
+        "egg:tickle"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianmimejr.desc"
+      ],
+      "height": 6,
+      "weight": 130,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

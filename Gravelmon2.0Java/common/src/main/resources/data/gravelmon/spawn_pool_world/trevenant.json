@@ -12,54 +12,21 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "30-52",
-      "weight": 0.44999999999999996,
+      "level": "30-50",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_floral"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_plains",
           "#cobblemon:has_season/autumn"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
-      "id": "varitasian_trevenant-01",
-      "pokemon": "trevenant varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "6-31",
-      "weight": 2.7,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "day"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:bone_block"
           ]
         }
       }
@@ -73,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "37-54",
-      "weight": 1.5,
+      "level": "37-57",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -125,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "30-52",
-      "weight": 0.44999999999999996,
+      "level": "30-50",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_fungus"
@@ -152,8 +119,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "31-54",
-      "weight": 0.6000000000000001,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

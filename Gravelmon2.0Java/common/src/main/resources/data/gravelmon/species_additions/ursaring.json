@@ -484,6 +484,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "teddiursa form=epoch",
       "baseScale": 0.6260869565217392,
       "cannotDynamax": false,
       "abilities": [
@@ -614,7 +615,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochursaringone.desc"
@@ -626,9 +629,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochursaringone_epochtwoursaluna",
+          "id": "epochursaringone_ursaluna_epoch",
           "variant": "item_interact",
-          "result": "epochtwoursaluna",
+          "result": "ursaluna epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-22",
-      "weight": 6.8999999999999995,
+      "level": "1-21",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-25",
-      "weight": 13.5,
+      "level": "1-21",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -67,8 +67,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -92,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 7.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -117,14 +117,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 13.5,
+      "level": "3-23",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -109,7 +109,8 @@
   "labels": [
     "vega",
     "mythical",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.aldina.desc"
@@ -133,7 +134,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6152,
+  "nationalPokedexNumber": 6091,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

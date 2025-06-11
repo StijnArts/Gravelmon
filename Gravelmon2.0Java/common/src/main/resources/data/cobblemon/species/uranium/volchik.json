@@ -149,7 +149,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.volchik.desc"
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2598,
+  "nationalPokedexNumber": 2537,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

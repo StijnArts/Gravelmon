@@ -80,7 +80,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.sharkaic.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3038,
+  "nationalPokedexNumber": 2977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

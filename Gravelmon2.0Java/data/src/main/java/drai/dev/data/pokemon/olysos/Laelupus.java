@@ -16,7 +16,7 @@ public class Laelupus extends drai.dev.data.pokemon.Pokemon {
                         45,
                         81),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                5, 155,
+                12, 155,
                 new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,

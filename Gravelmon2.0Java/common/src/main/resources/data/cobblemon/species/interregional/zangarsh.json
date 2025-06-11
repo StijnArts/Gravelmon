@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Zangarsh",
   "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
@@ -147,7 +148,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.zangarsh.desc"

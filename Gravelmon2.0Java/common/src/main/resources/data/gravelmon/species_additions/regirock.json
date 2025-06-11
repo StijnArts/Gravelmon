@@ -154,7 +154,8 @@
         "gen3",
         "insurgence",
         "legendary",
-        "not_modeled"
+        "not_modeled",
+        "legendary"
       ],
       "pokedex": [
         "cobblemon.species.deltaregirock.desc"

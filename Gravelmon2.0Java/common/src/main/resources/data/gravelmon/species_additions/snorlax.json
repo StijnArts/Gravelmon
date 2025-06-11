@@ -374,6 +374,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "munchlax form=ayreian",
       "baseScale": 0.6146341463414634,
       "cannotDynamax": false,
       "abilities": [
@@ -592,7 +593,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiansnorlax.desc"
@@ -620,6 +623,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "munchlax form=ionosian",
       "baseScale": 0.7124999999999999,
       "cannotDynamax": false,
       "abilities": [
@@ -684,7 +688,9 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosiansnorlax.desc"

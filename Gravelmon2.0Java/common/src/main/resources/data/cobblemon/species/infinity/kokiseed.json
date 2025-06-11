@@ -137,7 +137,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "infinity"
+    "infinity",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.kokiseed.desc"

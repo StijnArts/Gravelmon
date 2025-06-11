@@ -80,7 +80,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.munchmite.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8684,
+  "nationalPokedexNumber": 8623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

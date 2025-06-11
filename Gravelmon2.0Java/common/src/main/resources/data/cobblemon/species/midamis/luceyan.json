@@ -81,7 +81,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.luceyan.desc"
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5951,
+  "nationalPokedexNumber": 5890,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

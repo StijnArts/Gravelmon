@@ -80,7 +80,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.pestalation.desc"
@@ -89,7 +90,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4624,
+  "nationalPokedexNumber": 4563,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -72,6 +72,7 @@
   "labels": [
     "mongratis",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8535,
+  "nationalPokedexNumber": 8474,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

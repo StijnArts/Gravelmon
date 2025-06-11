@@ -81,7 +81,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.mesopolin.desc"
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5948,
+  "nationalPokedexNumber": 5887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

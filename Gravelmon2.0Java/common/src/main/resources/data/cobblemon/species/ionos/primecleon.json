@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "primecleon",
   "baseScale": 0.5806451612903225,
   "cannotDynamax": false,
   "abilities": [
@@ -99,7 +100,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.primecleon.desc"
@@ -108,7 +110,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6502,
+  "nationalPokedexNumber": 6441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "50-68",
-      "weight": 0.6000000000000001,
+      "level": "50-70",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "51-65",
-      "weight": 0.15000000000000002,
+      "level": "65-85",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "51-67",
-      "weight": 0.15000000000000002,
+      "level": "65-85",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

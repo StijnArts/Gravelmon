@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "kagenrize",
   "baseScale": 0.10312500000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -78,6 +79,7 @@
   ],
   "labels": [
     "not_modeled",
+    "fakemonevolution",
     "palmia",
     "instagram",
     "instagram"
@@ -89,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3547,
+  "nationalPokedexNumber": 3486,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

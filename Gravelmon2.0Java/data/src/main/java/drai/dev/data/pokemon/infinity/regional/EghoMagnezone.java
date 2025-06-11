@@ -98,13 +98,16 @@ public class EghoMagnezone extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN4),
                 4, List.of(
                         new ItemDrop("minecraft:vines",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 55, 2.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.34, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(44)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_LUSH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Magnezone");
 
     }

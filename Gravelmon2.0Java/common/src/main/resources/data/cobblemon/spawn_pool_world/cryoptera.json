@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "31-52",
-      "weight": 2.25,
+      "bucket": "uncommon",
+      "level": "31-51",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "jynx",
+  "preEvolution": "rougella",
   "baseScale": 0.6476190476190475,
   "cannotDynamax": false,
   "abilities": [
@@ -130,6 +130,7 @@
   "labels": [
     "vega",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -139,7 +140,7 @@
   "weight": 388,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6172,
+  "nationalPokedexNumber": 6111,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

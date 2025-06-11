@@ -11,8 +11,8 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "bucket": "ultra-rare",
+      "level": "5-31",
       "weight": 6.0,
       "condition": {
         "biomes": [

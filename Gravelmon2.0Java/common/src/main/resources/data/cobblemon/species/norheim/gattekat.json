@@ -95,6 +95,7 @@
   "labels": [
     "norheim",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -105,7 +106,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4083,
+  "nationalPokedexNumber": 4022,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

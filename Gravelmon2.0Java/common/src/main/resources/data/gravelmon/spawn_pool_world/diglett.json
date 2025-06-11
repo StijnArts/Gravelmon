@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 13.5,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -38,13 +38,8 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 3.0,
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ]
@@ -68,7 +63,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 13.5,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -95,8 +90,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 13.5,
+      "level": "3-23",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -120,8 +115,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "2-27",
-      "weight": 28.5,
+      "level": "2-22",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -148,8 +143,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 7.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -173,19 +168,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-26",
-      "weight": 13.5,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

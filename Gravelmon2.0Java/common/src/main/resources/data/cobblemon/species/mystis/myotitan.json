@@ -92,7 +92,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.myotitan.desc"
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8803,
+  "nationalPokedexNumber": 8742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

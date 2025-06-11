@@ -86,7 +86,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.florcoon.desc"
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5804,
+  "nationalPokedexNumber": 5743,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

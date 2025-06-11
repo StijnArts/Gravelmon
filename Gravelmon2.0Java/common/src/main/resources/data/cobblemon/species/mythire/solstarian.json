@@ -159,7 +159,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.solstarian.desc"
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5240,
+  "nationalPokedexNumber": 5179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

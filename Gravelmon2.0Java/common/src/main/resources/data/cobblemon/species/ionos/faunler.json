@@ -76,7 +76,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.faunler.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6528,
+  "nationalPokedexNumber": 6467,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

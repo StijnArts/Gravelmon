@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.75,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -67,20 +67,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-29",
-      "weight": 5.699999999999999,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_plains"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -95,7 +90,7 @@
       "id": "epoch_phanpy-01",
       "pokemon": "phanpy epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -149,8 +144,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 6.75,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -177,8 +172,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "11-32",
-      "weight": 6.0,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

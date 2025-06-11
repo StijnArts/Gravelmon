@@ -454,6 +454,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "numel form=epoch",
       "baseScale": 0.8761904761904761,
       "cannotDynamax": false,
       "abilities": [
@@ -583,7 +584,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochcameruptone.desc"

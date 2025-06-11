@@ -93,7 +93,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.tubedude.desc"
@@ -102,7 +103,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2870,
+  "nationalPokedexNumber": 2809,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

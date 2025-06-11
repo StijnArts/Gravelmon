@@ -304,6 +304,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "blitzle form=epoch",
       "baseScale": 0.48,
       "cannotDynamax": false,
       "abilities": [
@@ -420,7 +421,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochzebstrikaone.desc"

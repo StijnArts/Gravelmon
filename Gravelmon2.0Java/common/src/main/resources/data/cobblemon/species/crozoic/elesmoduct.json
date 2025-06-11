@@ -89,7 +89,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.elesmoduct.desc"
@@ -98,7 +99,7 @@
   "weight": 3240,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4356,
+  "nationalPokedexNumber": 4295,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

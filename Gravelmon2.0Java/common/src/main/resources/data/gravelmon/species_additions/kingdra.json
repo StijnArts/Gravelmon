@@ -164,6 +164,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "seadra form=epoch",
       "baseScale": 0.6084507042253521,
       "cannotDynamax": false,
       "abilities": [
@@ -284,7 +285,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochkingdraone.desc"

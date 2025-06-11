@@ -1,0 +1,155 @@
+{
+  "target": "cobblemon:epochregirock",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 261,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.425,
+      "cannotDynamax": false,
+      "abilities": [
+        "hydration",
+        "raindish",
+        "h:drizzle"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 105,
+        "attack": 25,
+        "defence": 100,
+        "special_attack": 50,
+        "special_defence": 100,
+        "speed": 200
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "53:hurricane",
+        "29:raindance",
+        "1:doubleteam",
+        "4:gust",
+        "13:aircutter",
+        "21:mist",
+        "48:tailwind",
+        "59:thunder",
+        "tm:airslash",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:brine",
+        "tm:calmmind",
+        "tm:chargebeam",
+        "tm:cosmicpower",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:echoedvoice",
+        "tm:focusblast",
+        "tm:hail",
+        "tm:haze",
+        "tm:healbell",
+        "tm:heavensknuckle",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:liquidation",
+        "tm:metronome",
+        "tm:mirrorshot",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:protect",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scald",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:soak",
+        "tm:soundbarrier",
+        "tm:substitute",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:wish",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochregirock.desc"
+      ],
+      "height": 17,
+      "weight": 2300,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

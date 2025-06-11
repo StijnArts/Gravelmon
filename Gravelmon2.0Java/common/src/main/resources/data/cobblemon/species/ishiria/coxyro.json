@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "coxyro",
   "baseScale": 0.6650602409638553,
   "cannotDynamax": false,
   "abilities": [
@@ -195,7 +196,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.coxyro.desc"
@@ -204,7 +206,7 @@
   "weight": 828,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8970,
+  "nationalPokedexNumber": 8860,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

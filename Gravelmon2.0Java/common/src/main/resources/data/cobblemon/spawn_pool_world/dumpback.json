@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
-      "level": "42-65",
-      "weight": 0.44999999999999996,
+      "bucket": "uncommon",
+      "level": "42-62",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

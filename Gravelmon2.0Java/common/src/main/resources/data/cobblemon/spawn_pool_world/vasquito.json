@@ -7,13 +7,13 @@
       "id": "vasquito-01",
       "pokemon": "vasquito",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "23-32",
-      "weight": 0.44999999999999996,
+      "level": "23-43",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

@@ -70,7 +70,8 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.hipporos.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2385,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

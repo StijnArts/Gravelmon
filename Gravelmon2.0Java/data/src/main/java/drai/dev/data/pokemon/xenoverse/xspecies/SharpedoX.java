@@ -80,12 +80,15 @@ public class SharpedoX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN3),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 47, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.27, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(30)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_END, Biome.IS_DEEP_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setLangFileName("Sharpedo");
 
         this.setCanBreathUnderwater(true);

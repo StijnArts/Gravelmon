@@ -79,7 +79,8 @@
   "labels": [
     "kuulkid",
     "joke",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.regitoasty.desc"
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2868,
+  "nationalPokedexNumber": 2807,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

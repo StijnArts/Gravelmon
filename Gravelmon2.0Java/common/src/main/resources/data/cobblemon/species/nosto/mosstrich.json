@@ -137,6 +137,7 @@
   "labels": [
     "nosto",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4631,
+  "nationalPokedexNumber": 4570,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

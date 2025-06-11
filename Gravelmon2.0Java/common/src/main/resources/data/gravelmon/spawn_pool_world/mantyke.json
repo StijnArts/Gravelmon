@@ -7,19 +7,14 @@
       "id": "seviian_mantyke-01",
       "pokemon": "mantyke seviian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "12-34",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -42,8 +37,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "6-27",
-      "weight": 6.75,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -69,8 +64,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "6-32",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -93,8 +88,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "uncommon",
-      "level": "6-32",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

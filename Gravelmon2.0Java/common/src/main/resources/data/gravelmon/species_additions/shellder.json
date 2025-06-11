@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "shellder",
+      "preEvolution": "shellder egho",
       "baseScale": 0.32,
       "cannotDynamax": false,
       "abilities": [
@@ -63,7 +63,16 @@
       "eggGroups": [
         "water_3"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:slowpoke_tail",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:spikes",
         "1:withdraw",
@@ -143,6 +152,7 @@
         "gen1",
         "infinity",
         "not_modeled",
+        "fakemonevolution",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -827,5 +837,15 @@
       "requiredContext": "gravelmon:slowpoke_tail",
       "permanent": true
     }
-  ]
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "gravelmon:slowpoke_tail",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

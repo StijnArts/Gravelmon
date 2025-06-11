@@ -87,6 +87,7 @@
   "labels": [
     "mushi",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8444,
+  "nationalPokedexNumber": 8383,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

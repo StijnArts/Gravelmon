@@ -7,19 +7,14 @@
       "id": "seviian_feebas-01",
       "pokemon": "feebas seviian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "10-20",
-      "weight": 1.5,
+      "level": "10-30",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -39,14 +34,9 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "uncommon",
-      "level": "10-20",
-      "weight": 1.5,
+      "level": "10-30",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -64,13 +54,13 @@
       "id": "delta_feebas-01",
       "pokemon": "feebas delta",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "10-22",
-      "weight": 1.5,
+      "level": "10-30",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -94,13 +84,12 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
         ],
-        "timeRange": 30,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -122,8 +111,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "8-27",
-      "weight": 7.5,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"

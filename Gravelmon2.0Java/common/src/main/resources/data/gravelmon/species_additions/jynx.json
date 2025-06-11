@@ -164,6 +164,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
+      "preEvolution": "jynx kaskadian",
       "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
@@ -282,7 +283,8 @@
       "labels": [
         "lockemon",
         "gen1",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.kaskadianjynx.desc"
@@ -413,6 +415,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "smoochum form=ayreian",
       "baseScale": 0.4307692307692308,
       "cannotDynamax": false,
       "abilities": [
@@ -560,7 +563,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianjynx.desc"
@@ -603,6 +608,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "smoochum form=ionosian",
       "baseScale": 0.46265060240963857,
       "cannotDynamax": false,
       "abilities": [
@@ -673,7 +679,9 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianjynx.desc"

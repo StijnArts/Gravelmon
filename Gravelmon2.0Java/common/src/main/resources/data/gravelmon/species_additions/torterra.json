@@ -153,6 +153,7 @@
         "gen4",
         "insurgence",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -311,6 +312,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -340,6 +342,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grotle form=epoch",
       "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
@@ -461,7 +464,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochtorterraone.desc"

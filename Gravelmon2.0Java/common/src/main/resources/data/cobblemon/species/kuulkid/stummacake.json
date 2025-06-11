@@ -92,7 +92,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.stummacake.desc"
@@ -101,7 +102,7 @@
   "weight": 30000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2871,
+  "nationalPokedexNumber": 2810,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

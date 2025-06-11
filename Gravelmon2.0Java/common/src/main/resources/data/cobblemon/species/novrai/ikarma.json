@@ -162,7 +162,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.ikarma.desc"
@@ -171,7 +172,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6868,
+  "nationalPokedexNumber": 6807,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

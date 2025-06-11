@@ -172,6 +172,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "nosepass form=epoch",
       "baseScale": 0.43636363636363634,
       "cannotDynamax": false,
       "abilities": [
@@ -291,7 +292,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochprobopassone.desc"

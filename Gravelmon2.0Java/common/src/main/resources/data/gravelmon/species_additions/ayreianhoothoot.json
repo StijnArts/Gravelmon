@@ -1,0 +1,188 @@
+{
+  "target": "cobblemon:ayreianhoothoot",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "psychic",
+      "secondaryType": "flying",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 52,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 39,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "insomnia",
+        "mirrorarmor",
+        "h:tintedlens"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 30,
+        "defence": 30,
+        "special_attack": 50,
+        "special_defence": 65,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "1:gust",
+        "1:growl",
+        "3:tackle",
+        "6:echoedvoice",
+        "9:confusion",
+        "12:reflect",
+        "15:psychoshift",
+        "18:aircutter",
+        "21:psybeam",
+        "24:swift",
+        "27:nastyplot",
+        "30:roost",
+        "33:moonblast",
+        "36:hypnosis",
+        "39:hurricane",
+        "tutor:confuseray",
+        "tutor:snarl",
+        "tutor:aerialace",
+        "tutor:agility",
+        "tutor:airslash",
+        "tutor:amnesia",
+        "tutor:attract",
+        "tutor:calmmind",
+        "tutor:confide",
+        "tutor:defog",
+        "tutor:doubleteam",
+        "tutor:dreameater",
+        "tutor:dualwingbeat",
+        "tutor:echoedvoice",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:fly",
+        "tutor:frustration",
+        "tutor:heatwave",
+        "tutor:hiddenpower",
+        "tutor:hurricane",
+        "tutor:hypervoice",
+        "tutor:imprison",
+        "tutor:magiccoat",
+        "tutor:nastyplot",
+        "tutor:protect",
+        "tutor:psychic",
+        "tutor:psychup",
+        "tutor:raindance",
+        "tutor:recycle",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:roost",
+        "tutor:round",
+        "tutor:screech",
+        "tutor:shadowball",
+        "tutor:skyattack",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:steelwing",
+        "tutor:storedpower",
+        "tutor:substitute",
+        "tutor:sunnyday",
+        "tutor:swagger",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:thief",
+        "tutor:toxic",
+        "tutor:uproar",
+        "tutor:workup",
+        "tutor:zenheadbutt",
+        "egg:mirrormove",
+        "egg:supersonic",
+        "egg:feintattack",
+        "egg:wingattack",
+        "egg:whirlwind",
+        "egg:skyattack",
+        "egg:featherdance",
+        "egg:agility",
+        "egg:nightshade",
+        "egg:defog",
+        "egg:meanlook",
+        "egg:hurricane"
+      ],
+      "labels": [
+        "vanguard",
+        "gen2",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianhoothoot.desc"
+      ],
+      "height": 7,
+      "weight": 212,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianhoothoot_ayreiannoctowl",
+          "variant": "level_up",
+          "result": "ayreiannoctowl",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "20"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "5-25",
-      "weight": 4.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate",

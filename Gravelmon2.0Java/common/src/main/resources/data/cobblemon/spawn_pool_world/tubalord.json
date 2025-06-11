@@ -7,25 +7,20 @@
       "id": "tubalord-01",
       "pokemon": "tubalord",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "35-54",
-      "weight": 0.30000000000000004,
+      "level": "35-55",
+      "weight": 0.12,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_river"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:has_season/winter",
           "#cobblemon:has_season/autumn"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -7,13 +7,13 @@
       "id": "teslax-01",
       "pokemon": "teslax",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "13-35",
-      "weight": 4.5,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

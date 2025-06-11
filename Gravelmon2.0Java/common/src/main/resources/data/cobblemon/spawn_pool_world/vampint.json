@@ -7,13 +7,13 @@
       "id": "vampint-01",
       "pokemon": "vampint",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 4.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

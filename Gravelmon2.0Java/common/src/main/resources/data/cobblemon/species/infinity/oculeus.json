@@ -200,7 +200,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "infinity"
+    "infinity",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.oculeus.desc"

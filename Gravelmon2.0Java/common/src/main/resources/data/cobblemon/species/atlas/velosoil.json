@@ -79,7 +79,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.velosoil.desc"
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7052,
+  "nationalPokedexNumber": 6991,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

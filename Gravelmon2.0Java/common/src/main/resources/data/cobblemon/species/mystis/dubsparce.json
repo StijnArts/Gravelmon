@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "dubsparce",
   "baseScale": 0.5468354430379747,
   "cannotDynamax": false,
   "abilities": [
@@ -181,7 +182,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dubsparce.desc"
@@ -205,7 +207,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8792,
+  "nationalPokedexNumber": 8731,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

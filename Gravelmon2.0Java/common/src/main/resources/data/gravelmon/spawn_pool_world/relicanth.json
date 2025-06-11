@@ -7,7 +7,7 @@
       "id": "epoch_relicanth-01",
       "pokemon": "relicanth epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -40,11 +40,14 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "20-48",
-      "weight": 15.0,
+      "level": "20-40",
+      "weight": 12.0,
       "condition": {
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
+        "biomes": [
+          "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 0
       },
       "weightMultiplier": {

@@ -90,7 +90,8 @@
   ],
   "labels": [
     "qamor",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.barbay.desc"
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5338,
+  "nationalPokedexNumber": 5277,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

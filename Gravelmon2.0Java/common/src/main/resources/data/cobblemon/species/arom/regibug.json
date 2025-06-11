@@ -78,6 +78,7 @@
   "labels": [
     "sahl",
     "not_modeled",
+    "legendary",
     "instagram",
     "instagram"
   ],
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7839,
+  "nationalPokedexNumber": 7778,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

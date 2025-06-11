@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-30",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 18.0,
+      "level": "3-23",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -67,19 +67,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-31",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -99,8 +94,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "9-32",
-      "weight": 6.0,
+      "level": "9-29",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove",
@@ -127,21 +122,16 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "8-35",
-      "weight": 6.449999999999999,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_plains",
           "#cobblemon:is_plateau"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -161,8 +151,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-30",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

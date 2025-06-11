@@ -7,13 +7,13 @@
       "id": "rican_gastrodon-01",
       "pokemon": "gastrodon rican",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "31-46",
-      "weight": 0.44999999999999996,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -38,9 +38,36 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_gastrodon-01",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -66,8 +93,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -93,8 +120,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -120,8 +147,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -147,8 +174,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -174,8 +201,62 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_gastrodon-01",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epoch_gastrodon-01",
+      "pokemon": "gastrodon epoch",
+      "presets": [
+        "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -201,8 +282,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -228,8 +309,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -255,89 +336,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_gastrodon-01",
-      "pokemon": "gastrodon epoch",
-      "presets": [
-        "reef"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_gastrodon-01",
-      "pokemon": "gastrodon epoch",
-      "presets": [
-        "reef"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:raw_gold_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "epoch_gastrodon-01",
-      "pokemon": "gastrodon epoch",
-      "presets": [
-        "reef"
-      ],
-      "type": "pokemon",
-      "context": "seafloor",
-      "bucket": "rare",
-      "level": "30-54",
-      "weight": 0.15000000000000002,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -363,8 +363,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "26-43",
-      "weight": 0.44999999999999996,
+      "level": "26-46",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"

@@ -83,7 +83,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.minjin.desc"
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6524,
+  "nationalPokedexNumber": 6463,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

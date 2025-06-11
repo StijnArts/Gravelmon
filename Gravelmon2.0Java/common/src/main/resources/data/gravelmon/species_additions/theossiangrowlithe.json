@@ -1,0 +1,190 @@
+{
+  "target": "cobblemon:theossiangrowlithe",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ground",
+      "catchRate": 190,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 70,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "defiant",
+        "sandrush",
+        "h:justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 65,
+        "defence": 45,
+        "special_attack": 65,
+        "special_defence": 50,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:roar",
+        "6:ember",
+        "8:leer",
+        "10:odorsleuth",
+        "12:helpinghand",
+        "17:flamewheel",
+        "19:reversal",
+        "21:firefang",
+        "23:takedown",
+        "28:flameburst",
+        "30:agility",
+        "32:retaliate",
+        "34:flamethrower",
+        "39:crunch",
+        "41:heatwave",
+        "43:outrage",
+        "45:flareblitz",
+        "tm:snore",
+        "tm:outrage",
+        "tm:irontail",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:covet",
+        "tm:roar",
+        "tm:flamethrower",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:willowisp",
+        "tm:facade",
+        "tm:overheat",
+        "tm:aerialace",
+        "tm:flamecharge",
+        "tm:round",
+        "tm:wildcharge",
+        "tm:snarl",
+        "tm:confide",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:dragonrage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:playrough",
+        "tm:rocksmash",
+        "tm:agility",
+        "tm:captivate",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:curse",
+        "tm:dragonbreath",
+        "tm:endure",
+        "tm:firefang",
+        "tm:firespin",
+        "tm:flareblitz",
+        "tm:headbutt",
+        "tm:incinerate",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:psychicfangs",
+        "tm:retaliate",
+        "tm:reversal",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:strength",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:doublekick",
+        "tm:bodyslam",
+        "tm:thrash",
+        "tm:doubleedge",
+        "tm:firespin",
+        "tm:morningsun",
+        "tm:crunch",
+        "tm:howl",
+        "tm:closecombat",
+        "tm:flareblitz",
+        "tm:burnup",
+        "tm:ragingfury"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossiangrowlithe.desc"
+      ],
+      "height": 7,
+      "weight": 190,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

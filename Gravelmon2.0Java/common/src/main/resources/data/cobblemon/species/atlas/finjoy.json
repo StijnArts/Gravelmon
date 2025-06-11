@@ -120,7 +120,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.finjoy.desc"
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6900,
+  "nationalPokedexNumber": 6839,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

@@ -127,7 +127,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.orbtholod.desc"
@@ -136,7 +137,7 @@
   "weight": 937,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4623,
+  "nationalPokedexNumber": 4562,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

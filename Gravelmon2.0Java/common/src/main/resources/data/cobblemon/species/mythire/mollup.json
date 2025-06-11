@@ -94,7 +94,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mollup.desc"
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5121,
+  "nationalPokedexNumber": 5060,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

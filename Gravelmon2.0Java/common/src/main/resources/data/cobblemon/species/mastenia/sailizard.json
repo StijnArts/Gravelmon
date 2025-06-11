@@ -78,6 +78,7 @@
   "labels": [
     "mastenia",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8260,
+  "nationalPokedexNumber": 8199,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

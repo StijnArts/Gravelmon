@@ -89,7 +89,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.devostoric.desc"
@@ -98,7 +99,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3985,
+  "nationalPokedexNumber": 3924,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0625,

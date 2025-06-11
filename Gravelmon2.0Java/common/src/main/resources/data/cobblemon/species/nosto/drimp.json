@@ -112,7 +112,8 @@
   ],
   "labels": [
     "nosto",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.drimp.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4644,
+  "nationalPokedexNumber": 4583,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

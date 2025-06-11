@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMarowak extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianMarowak() {
-        super("Marowak",
+    public VaritasianMarowak(String s, Aspect aspect) {
+        super(s, aspect, "Marowak",
                 Type.DARK, Type.FLYING,
                 new Stats(60,
                         80,
@@ -17,14 +17,15 @@ public class VaritasianMarowak extends drai.dev.data.pokemon.Pokemon {
                         80,
                         45),
                 List.of(Ability.ROCK_HEAD,Ability.LIGHTNING_ROD,Ability.BATTLE_ARMOR), Ability.BATTLE_ARMOR,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 75,
                 0.5,
                 149, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns."),
-                List.of(),
+                List.of(new EvolutionEntry("marowing", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BONE_CLUB,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),
@@ -126,10 +127,10 @@ public class VaritasianMarowak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SPOOKY).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Marowak");

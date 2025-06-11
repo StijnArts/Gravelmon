@@ -1,0 +1,91 @@
+{
+  "target": "cobblemon:mystisanmorgrem",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 120,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 60,
+        "defence": 75,
+        "special_attack": 75,
+        "special_defence": 65,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [],
+      "labels": [
+        "mystis",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mystisanmorgrem.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

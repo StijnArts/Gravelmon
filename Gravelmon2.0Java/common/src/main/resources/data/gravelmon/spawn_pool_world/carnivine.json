@@ -7,13 +7,13 @@
       "id": "seviian_carnivine-01",
       "pokemon": "carnivine seviian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "18-55",
-      "weight": 1.5,
+      "level": "18-38",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "23-44",
-      "weight": 3.5999999999999996,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

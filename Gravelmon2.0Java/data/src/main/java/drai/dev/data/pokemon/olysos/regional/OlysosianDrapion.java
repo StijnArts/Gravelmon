@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class OlysosianDrapion extends drai.dev.data.pokemon.Pokemon {
-    public OlysosianDrapion(String name, Aspect aspect) {
+    public OlysosianDrapion(String name, Aspect aspect, Stats stats) {
         super(name, aspect, "Drapion",
                 Type.DRAGON,Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
-                List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                stats,
+                List.of(Ability.BATTLE_ARMOR, Ability.SNIPER), Ability.SHARPNESS,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +22,10 @@ public class OlysosianDrapion extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_NETHER_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Drapion");

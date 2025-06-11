@@ -158,7 +158,8 @@
       "labels": [
         "gen3",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltatorchic.desc"
@@ -274,7 +275,8 @@
       "labels": [
         "gen3",
         "azure",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.mystictorchic.desc"
@@ -458,7 +460,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochtorchic.desc"
@@ -564,6 +567,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -755,7 +759,8 @@
       "labels": [
         "gen3",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiantorchic.desc"

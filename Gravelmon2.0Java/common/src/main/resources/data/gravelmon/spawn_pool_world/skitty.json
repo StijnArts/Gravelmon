@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "1-15",
-      "weight": 7.5,
+      "level": "1-21",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "7-27",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral",
@@ -69,8 +69,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-27",
-      "weight": 6.0,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

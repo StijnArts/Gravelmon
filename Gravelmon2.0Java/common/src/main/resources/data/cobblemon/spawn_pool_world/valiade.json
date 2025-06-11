@@ -7,13 +7,13 @@
       "id": "valiade-01",
       "pokemon": "valiade",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "44-65",
-      "weight": 0.15000000000000002,
+      "level": "44-64",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

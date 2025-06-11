@@ -119,12 +119,15 @@ public class DeltaAvalugg extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 58, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_DESERT))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.39, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(40)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_DESERT)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Avalugg");
 
         this.setBaseScale(0.9);

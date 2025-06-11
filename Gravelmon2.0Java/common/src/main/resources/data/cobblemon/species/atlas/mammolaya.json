@@ -118,7 +118,8 @@
     "atlas",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.mammolaya.desc"
@@ -127,7 +128,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7100,
+  "nationalPokedexNumber": 7039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

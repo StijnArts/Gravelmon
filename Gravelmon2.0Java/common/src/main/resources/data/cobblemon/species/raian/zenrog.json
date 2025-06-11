@@ -74,6 +74,7 @@
   "labels": [
     "raian",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3218,
+  "nationalPokedexNumber": 3157,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.gnatle.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4075,
+  "nationalPokedexNumber": 4014,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

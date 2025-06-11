@@ -364,6 +364,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "axew form=ayreian",
       "baseScale": 0.36363636363636365,
       "cannotDynamax": false,
       "abilities": [
@@ -497,7 +498,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianfraxure.desc"

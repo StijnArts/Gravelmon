@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "37-53",
-      "weight": 0.15000000000000002,
+      "bucket": "common",
+      "level": "37-57",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands"

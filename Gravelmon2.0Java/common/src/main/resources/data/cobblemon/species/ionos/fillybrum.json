@@ -75,7 +75,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.fillybrum.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6534,
+  "nationalPokedexNumber": 6473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

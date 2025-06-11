@@ -1,0 +1,191 @@
+{
+  "target": "cobblemon:varitasiancubone",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 64,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "rockhead",
+        "lightningrod",
+        "h:battlearmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 50,
+        "defence": 95,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 35
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "3:tailwhip",
+        "7:boneclub",
+        "11:headbutt",
+        "13:leer",
+        "17:focusenergy",
+        "21:bonemerang",
+        "23:rage",
+        "27:falseswipe",
+        "31:thrash",
+        "33:fling",
+        "37:stompingtantrum",
+        "41:endeavor",
+        "43:doubleedge",
+        "47:retaliate",
+        "51:bonerush",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:uproar",
+        "tm:focuspunch",
+        "tm:knockoff",
+        "tm:endeavor",
+        "tm:irondefense",
+        "tm:earthpower",
+        "tm:ironhead",
+        "tm:stealthrock",
+        "tm:swordsdance",
+        "tm:flamethrower",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:falseswipe",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:fling",
+        "tm:smackdown",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:brutalswing",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:submission",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:earthquake",
+        "tm:fissure",
+        "tm:dig",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:fireblast",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute",
+        "tm:strength",
+        "tm:doublekick",
+        "tm:screech",
+        "tm:skullbash",
+        "tm:curse",
+        "tm:bellydrum",
+        "tm:perishsong",
+        "tm:detect",
+        "tm:endure",
+        "tm:ancientpower",
+        "tm:chipaway"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasiancubone.desc"
+      ],
+      "height": 4,
+      "weight": 165,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

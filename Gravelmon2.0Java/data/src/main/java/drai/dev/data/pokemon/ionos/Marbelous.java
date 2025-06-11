@@ -52,12 +52,15 @@ public class Marbelous extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 38, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
-                ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(27)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPRING)
+    .setSpawnPreset(SpawnPreset.TRAIL_RUINS)
+    .build(), List.of());
+	
            setLangFileName("Marbelous");
 
     }

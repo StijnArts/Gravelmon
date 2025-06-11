@@ -91,7 +91,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.sarqua.desc"
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8883,
+  "nationalPokedexNumber": 8822,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

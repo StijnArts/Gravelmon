@@ -319,9 +319,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhoppipone_epochtwoskiploom",
+          "id": "epochhoppipone_skiploom_epoch",
           "variant": "level_up",
-          "result": "epochtwoskiploom",
+          "result": "skiploom epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

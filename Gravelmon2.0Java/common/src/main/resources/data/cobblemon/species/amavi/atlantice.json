@@ -82,6 +82,7 @@
   "labels": [
     "amavi",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -92,7 +93,7 @@
   "weight": 3084,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7125,
+  "nationalPokedexNumber": 7064,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

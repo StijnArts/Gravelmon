@@ -144,6 +144,7 @@
   "labels": [
     "novrai",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6583,
+  "nationalPokedexNumber": 6522,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

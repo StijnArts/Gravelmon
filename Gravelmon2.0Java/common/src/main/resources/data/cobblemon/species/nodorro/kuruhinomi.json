@@ -101,7 +101,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kuruhinomi.desc"
@@ -110,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8890,
+  "nationalPokedexNumber": 8829,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

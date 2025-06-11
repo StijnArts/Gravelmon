@@ -7,6 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "karakoron",
   "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
@@ -98,7 +99,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.karakoron.desc"
@@ -107,7 +109,7 @@
   "weight": 160,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6349,
+  "nationalPokedexNumber": 6288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

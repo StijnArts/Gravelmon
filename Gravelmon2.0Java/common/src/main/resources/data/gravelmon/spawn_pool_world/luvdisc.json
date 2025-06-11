@@ -7,13 +7,13 @@
       "id": "hizian_luvdisc-01",
       "pokemon": "luvdisc hizian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "8-33",
-      "weight": 15.0,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -38,14 +38,14 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "20-48",
-      "weight": 15.0,
+      "level": "20-40",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "maxY": 30
       },
       "weightMultiplier": {

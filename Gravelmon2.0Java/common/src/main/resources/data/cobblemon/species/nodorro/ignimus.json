@@ -110,6 +110,7 @@
   "labels": [
     "nodorro",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8824,
+  "nationalPokedexNumber": 8763,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

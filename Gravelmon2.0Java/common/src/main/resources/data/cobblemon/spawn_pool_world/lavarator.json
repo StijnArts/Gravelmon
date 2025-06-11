@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
-      "level": "43-67",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "43-63",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"

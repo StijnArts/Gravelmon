@@ -12,15 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "31-56",
-      "weight": 0.6000000000000001,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
         "timeRange": "night",
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

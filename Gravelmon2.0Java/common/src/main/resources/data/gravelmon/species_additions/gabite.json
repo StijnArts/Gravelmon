@@ -83,6 +83,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "instagram",
@@ -210,6 +211,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "norse",
@@ -329,6 +331,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "palmia",
@@ -451,6 +454,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "trizor",
@@ -633,6 +637,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -677,6 +682,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gible form=epoch",
       "baseScale": 0.6109090909090908,
       "cannotDynamax": false,
       "abilities": [
@@ -807,7 +813,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgabiteone.desc"
@@ -819,9 +828,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgabiteone_epochtwogarchomp",
+          "id": "epochgabiteone_garchomp_epoch",
           "variant": "level_up",
-          "result": "epochtwogarchomp",
+          "result": "garchomp epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -935,6 +944,7 @@
       "labels": [
         "aroma",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

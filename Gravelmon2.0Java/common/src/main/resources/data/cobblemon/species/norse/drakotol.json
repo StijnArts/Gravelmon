@@ -90,6 +90,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "norse",
@@ -103,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3366,
+  "nationalPokedexNumber": 3305,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

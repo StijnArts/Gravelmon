@@ -126,7 +126,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.glizyrup.desc"
@@ -135,7 +136,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4296,
+  "nationalPokedexNumber": 4235,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

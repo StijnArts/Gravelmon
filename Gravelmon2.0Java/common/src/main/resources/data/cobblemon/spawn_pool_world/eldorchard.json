@@ -12,21 +12,16 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "23-54",
-      "weight": 4.5,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:has_season/autumn",
           "#cobblemon:has_season/summer",
           "#cobblemon:is_taiga"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

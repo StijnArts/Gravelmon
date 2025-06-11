@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "EPP_v11",
   "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
@@ -76,7 +77,8 @@
   ],
   "labels": [
     "aristos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.epp_v11.desc"
@@ -85,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2459,
+  "nationalPokedexNumber": 2398,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

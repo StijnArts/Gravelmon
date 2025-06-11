@@ -170,6 +170,7 @@
         "gen2",
         "infinity",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -364,6 +365,7 @@
         "gen2",
         "insurgence",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -524,6 +526,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -552,6 +555,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "quilava form=epoch",
       "baseScale": 0.544,
       "cannotDynamax": false,
       "abilities": [
@@ -663,7 +667,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochtyphlosionone.desc"
@@ -885,6 +892,7 @@
         "gen2",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -913,6 +921,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "quilava form=ionosian",
       "baseScale": 0.48,
       "cannotDynamax": false,
       "abilities": [
@@ -998,7 +1007,10 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosiantyphlosion.desc"

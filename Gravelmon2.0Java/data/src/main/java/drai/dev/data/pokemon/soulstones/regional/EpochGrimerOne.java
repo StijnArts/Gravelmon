@@ -134,12 +134,15 @@ public class EpochGrimerOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMOKESCREEN,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 33, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
-                ), List.of(),
-                List.of(SpawnPreset.LAVA_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_NETHER)
+    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
+    .build(), List.of());
+	
         setCanSwim(true);
            setLangFileName("Grimer");
 

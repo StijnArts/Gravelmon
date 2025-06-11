@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "27-48",
-      "weight": 1.35,
+      "level": "27-47",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -32,19 +32,14 @@
       "id": "delta_water_lilligant-01",
       "pokemon": "lilligant delta_water",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "27-48",
-      "weight": 1.35,
+      "level": "27-47",
+      "weight": 1.2,
       "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -67,8 +62,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-27",
-      "weight": 13.5,
+      "level": "13-33",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",

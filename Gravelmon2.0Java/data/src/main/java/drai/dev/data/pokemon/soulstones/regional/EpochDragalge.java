@@ -81,12 +81,15 @@ public class EpochDragalge extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 58, 1.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(43)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OCEAN)
+    .setSpawnPreset(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

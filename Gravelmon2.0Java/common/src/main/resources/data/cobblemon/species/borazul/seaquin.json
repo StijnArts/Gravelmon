@@ -71,6 +71,7 @@
   "labels": [
     "borazul",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3883,
+  "nationalPokedexNumber": 3822,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

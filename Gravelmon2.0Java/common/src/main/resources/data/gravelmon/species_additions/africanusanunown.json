@@ -1,0 +1,118 @@
+{
+  "target": "cobblemon:africanusanunown",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "psychic",
+      "secondaryType": "rock",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "owntempo",
+        "clearbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 90,
+        "defence": 100,
+        "special_attack": 90,
+        "special_defence": 125,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "59:skyuppercut",
+        "1:thousandarrows",
+        "66:fleurcannon",
+        "1:thousandwaves",
+        "32:quickattack",
+        "1:scratch",
+        "16:doublekick",
+        "13:moonblast",
+        "1:hyperspacefury",
+        "1:diamondstorm",
+        "1:highjumpkick",
+        "1:growl",
+        "1:dazzlinggleam",
+        "28:bulkup",
+        "36:playrough",
+        "1:precipiceblades",
+        "1:firepunch",
+        "1:steameruption",
+        "49:charm",
+        "42:slash",
+        "21:sandattack",
+        "7:focusenergy",
+        "1:originpulse",
+        "1:lightofruin",
+        "1:hyperspacehole",
+        "1:dragonascent"
+      ],
+      "labels": [
+        "africanus",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.africanusanunown.desc"
+      ],
+      "height": 19,
+      "weight": 520,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

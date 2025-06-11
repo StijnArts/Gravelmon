@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "granvesp",
   "baseScale": 0.5793103448275861,
   "cannotDynamax": false,
   "abilities": [
@@ -129,7 +130,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.granvesp.desc"
@@ -138,7 +140,7 @@
   "weight": 425,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6337,
+  "nationalPokedexNumber": 6276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

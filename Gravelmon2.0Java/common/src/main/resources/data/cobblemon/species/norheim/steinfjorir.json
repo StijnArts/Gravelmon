@@ -80,7 +80,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.steinfjorir.desc"
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4277,
+  "nationalPokedexNumber": 4216,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "spewpa form=vesitan",
       "baseScale": 0.42985074626865666,
       "cannotDynamax": false,
       "abilities": [
@@ -86,7 +87,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanvivillon.desc"

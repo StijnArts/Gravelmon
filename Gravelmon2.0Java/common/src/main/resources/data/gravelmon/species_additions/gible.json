@@ -96,6 +96,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],
@@ -238,6 +239,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "norse",
         "instagram",
         "instagram"
@@ -354,6 +356,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "palmia",
         "instagram",
         "instagram"
@@ -483,6 +486,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "trizor",
         "instagram",
         "instagram"
@@ -668,7 +672,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochgible.desc"
@@ -845,7 +850,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochgibleone.desc"
@@ -857,9 +863,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgibleone_epochtwogabite",
+          "id": "epochgibleone_gabite_epoch",
           "variant": "level_up",
-          "result": "epochtwogabite",
+          "result": "gabite epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

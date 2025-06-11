@@ -317,9 +317,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsphealone_epochtwosealeo",
+          "id": "epochsphealone_sealeo_epoch",
           "variant": "level_up",
-          "result": "epochtwosealeo",
+          "result": "sealeo epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

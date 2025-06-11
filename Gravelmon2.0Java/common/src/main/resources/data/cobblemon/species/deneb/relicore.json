@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "relicanth",
+  "preEvolution": "relicore",
   "baseScale": 38.400000000000006,
   "cannotDynamax": false,
   "abilities": [
@@ -131,6 +131,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -140,7 +141,7 @@
   "weight": 831,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6213,
+  "nationalPokedexNumber": 6152,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

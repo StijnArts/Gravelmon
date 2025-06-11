@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70-70",
-      "weight": 1.5000000000000002E-5,
+      "level": "50-70",
+      "weight": 0.005,
       "condition": {
         "biomes": [
           "#cobblemon:is_peak"

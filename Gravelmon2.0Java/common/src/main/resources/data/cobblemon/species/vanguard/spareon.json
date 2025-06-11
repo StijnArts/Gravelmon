@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "spareon",
   "baseScale": 0.28235294117647064,
   "cannotDynamax": false,
   "abilities": [
@@ -146,7 +147,9 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.spareon.desc"
@@ -155,7 +158,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5493,
+  "nationalPokedexNumber": 5432,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

@@ -81,7 +81,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.finvore.desc"
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5660,
+  "nationalPokedexNumber": 5599,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

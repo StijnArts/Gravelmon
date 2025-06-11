@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "11-42",
-      "weight": 3.0,
+      "level": "11-31",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",

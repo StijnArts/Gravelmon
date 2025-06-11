@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSeadra extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianSeadra() {
-        super("VaritasianSeadra",
+    public VaritasianSeadra(String s, Aspect aspect) {
+        super(s, aspect, "VaritasianSeadra",
                 Type.GRASS, Type.DRAGON,
                 new Stats(55,
                         65,
@@ -17,14 +17,15 @@ public class VaritasianSeadra extends drai.dev.data.pokemon.Pokemon {
                         45,
                         85),
                 List.of(Ability.POISON_POINT,Ability.SNIPER,Ability.DAMP), Ability.DAMP,
-                8, 165,
+                12, 165,
                 new Stats(0,0,1,1,0,0), 75,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokemon weakens prey with these currents, then swallows it whole."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasiankingdra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),
@@ -88,12 +89,15 @@ public class VaritasianSeadra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Seadra");
 
     }

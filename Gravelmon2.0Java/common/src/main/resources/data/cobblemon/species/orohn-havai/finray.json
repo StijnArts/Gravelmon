@@ -90,7 +90,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.finray.desc"
@@ -114,7 +115,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4041,
+  "nationalPokedexNumber": 3980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

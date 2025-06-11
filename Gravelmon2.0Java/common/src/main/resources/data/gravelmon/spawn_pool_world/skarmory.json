@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "33-54",
-      "weight": 4.050000000000001,
+      "level": "33-53",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-54",
-      "weight": 3.0,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "23-51",
-      "weight": 3.1500000000000004,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -93,8 +93,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "20-46",
-      "weight": 15.0,
+      "level": "20-40",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_thermal",

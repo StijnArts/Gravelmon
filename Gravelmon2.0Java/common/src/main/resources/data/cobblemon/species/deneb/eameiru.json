@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "eameiru",
   "baseScale": 0.8999999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -103,7 +104,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eameiru.desc"
@@ -112,7 +114,7 @@
   "weight": 1655,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6294,
+  "nationalPokedexNumber": 6233,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

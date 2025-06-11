@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "chatart",
   "baseScale": 0.3272727272727272,
   "cannotDynamax": false,
   "abilities": [
@@ -82,7 +83,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chatart.desc"
@@ -91,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6561,
+  "nationalPokedexNumber": 6500,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

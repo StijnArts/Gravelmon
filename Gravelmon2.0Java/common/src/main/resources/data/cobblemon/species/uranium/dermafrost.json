@@ -140,7 +140,8 @@
     "uranium",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.dermafrost.desc"
@@ -149,7 +150,7 @@
   "weight": 8881,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2541,
+  "nationalPokedexNumber": 2480,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

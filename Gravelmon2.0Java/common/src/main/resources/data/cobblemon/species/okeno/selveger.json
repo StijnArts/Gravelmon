@@ -77,7 +77,8 @@
   ],
   "labels": [
     "okeno",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.selveger.desc"
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6066,
+  "nationalPokedexNumber": 6005,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

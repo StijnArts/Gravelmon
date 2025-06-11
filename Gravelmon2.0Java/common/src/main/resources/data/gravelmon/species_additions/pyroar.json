@@ -254,6 +254,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "litleo form=epoch",
       "baseScale": 0.5294117647058824,
       "cannotDynamax": false,
       "abilities": [
@@ -391,7 +392,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochpyroarone.desc"

@@ -127,7 +127,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.andromini.desc"
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3183,
+  "nationalPokedexNumber": 3122,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

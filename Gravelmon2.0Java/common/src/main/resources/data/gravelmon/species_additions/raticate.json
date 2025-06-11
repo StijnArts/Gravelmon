@@ -286,6 +286,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "raticate kaskadian",
       "baseScale": 0.2434782608695652,
       "cannotDynamax": false,
       "abilities": [
@@ -338,7 +339,16 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:ice_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:focusenergy",
         "1:quickattack",
@@ -406,7 +416,8 @@
       "labels": [
         "lockemon",
         "gen1",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.kaskadianraticate.desc"

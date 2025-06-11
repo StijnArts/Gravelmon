@@ -80,7 +80,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kaplantis.desc"
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5949,
+  "nationalPokedexNumber": 5888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

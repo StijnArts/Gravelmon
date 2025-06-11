@@ -7,13 +7,13 @@
       "id": "craberrant-01",
       "pokemon": "craberrant",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "23-45",
-      "weight": 4.5,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"

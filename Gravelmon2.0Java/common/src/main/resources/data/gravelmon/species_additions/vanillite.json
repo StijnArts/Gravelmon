@@ -314,9 +314,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochvanilliteone_epochtwovanillish",
+          "id": "epochvanilliteone_vanillish_epoch",
           "variant": "level_up",
-          "result": "epochtwovanillish",
+          "result": "vanillish epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

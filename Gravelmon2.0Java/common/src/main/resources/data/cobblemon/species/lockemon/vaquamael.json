@@ -85,6 +85,7 @@
   "labels": [
     "lockemon",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -95,7 +96,7 @@
   "weight": 445,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4526,
+  "nationalPokedexNumber": 4465,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

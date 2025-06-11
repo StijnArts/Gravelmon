@@ -120,13 +120,16 @@ public class Nobunata extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("cobblemon:rare_candy",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 45, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_PLAINS, Biome.IS_SAVANNA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

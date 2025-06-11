@@ -91,13 +91,16 @@ public class ArmiranHippowdon extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.DAYBREAK),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 52, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST, Biome.IS_BEACH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COAST, Biome.IS_BEACH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Hippowdon");
         setCanBreathUnderwater(true);
         setCanSwim(true);

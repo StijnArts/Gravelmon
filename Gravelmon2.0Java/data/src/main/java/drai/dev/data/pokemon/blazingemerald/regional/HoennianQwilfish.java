@@ -61,12 +61,16 @@ public class HoennianQwilfish extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 44, 10.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_WARM_OCEAN))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_COLD, Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setLangFileName("Qwilfish");
         
         this.setCanSwim(true);

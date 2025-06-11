@@ -1,0 +1,168 @@
+{
+  "target": "cobblemon:ayreianigglybuff",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "sound",
+      "secondaryType": "fairy",
+      "catchRate": 170,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "cutecharm",
+        "competitive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 30,
+        "defence": 15,
+        "special_attack": 15,
+        "special_defence": 50,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "16:disable",
+        "20:charm",
+        "1:sing",
+        "4:defensecurl",
+        "8:sweetkiss",
+        "12:disarmingvoice",
+        "1:echoedvoice",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainingkiss",
+        "tm:dreameater",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icywind",
+        "tm:lastresort",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mistyterrain",
+        "tm:painsplit",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roleplay",
+        "tm:round",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterpulse",
+        "tm:wildcharge",
+        "tm:workup",
+        "egg:covet",
+        "egg:gravity",
+        "egg:healpulse",
+        "egg:lastresort",
+        "egg:perishsong",
+        "egg:present",
+        "egg:wish",
+        "egg:rollout"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianigglybuff.desc"
+      ],
+      "height": 3,
+      "weight": 10,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

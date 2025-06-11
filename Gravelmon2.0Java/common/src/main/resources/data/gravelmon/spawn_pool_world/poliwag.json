@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 7.199999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -36,8 +36,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 7.199999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -61,8 +61,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -88,8 +88,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "7-28",
-      "weight": 7.199999999999999,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"

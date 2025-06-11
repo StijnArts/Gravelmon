@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "egoelk",
   "baseScale": 0.5428571428571428,
   "cannotDynamax": false,
   "abilities": [
@@ -97,7 +98,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.egoelk.desc"
@@ -106,7 +108,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8532,
+  "nationalPokedexNumber": 8471,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

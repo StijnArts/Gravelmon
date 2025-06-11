@@ -129,7 +129,8 @@
   ],
   "labels": [
     "rica",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mirmoor.desc"

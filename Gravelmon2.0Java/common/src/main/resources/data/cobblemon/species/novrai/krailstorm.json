@@ -133,7 +133,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.krailstorm.desc"
@@ -142,7 +143,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6866,
+  "nationalPokedexNumber": 6805,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

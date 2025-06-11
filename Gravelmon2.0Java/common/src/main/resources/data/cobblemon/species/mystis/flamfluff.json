@@ -95,6 +95,7 @@
   "labels": [
     "mystis",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -120,7 +121,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8688,
+  "nationalPokedexNumber": 8627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

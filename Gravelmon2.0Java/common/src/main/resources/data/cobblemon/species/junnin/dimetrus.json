@@ -87,7 +87,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.dimetrus.desc"
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3111,
+  "nationalPokedexNumber": 3050,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

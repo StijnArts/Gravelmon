@@ -280,6 +280,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mismagius norheiman",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -331,7 +332,16 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:dawn_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:helpinghand",
         "1:worryseed",
@@ -358,7 +368,8 @@
       ],
       "labels": [
         "norheim",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.norheimanmismagius.desc"

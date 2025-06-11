@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "26-45",
-      "weight": 0.30000000000000004,
+      "bucket": "common",
+      "level": "26-46",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

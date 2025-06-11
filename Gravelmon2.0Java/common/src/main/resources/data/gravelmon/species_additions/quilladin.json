@@ -139,6 +139,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -183,6 +184,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chespin form=vesitan",
       "baseScale": 0.28965517241379307,
       "cannotDynamax": false,
       "abilities": [
@@ -255,7 +257,10 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanquilladin.desc"

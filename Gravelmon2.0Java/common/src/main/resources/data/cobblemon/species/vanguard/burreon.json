@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "burreon",
   "baseScale": 0.18461538461538463,
   "cannotDynamax": false,
   "abilities": [
@@ -145,7 +146,9 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.burreon.desc"
@@ -154,7 +157,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5498,
+  "nationalPokedexNumber": 5437,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

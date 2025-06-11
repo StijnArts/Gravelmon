@@ -182,6 +182,7 @@
       "labels": [
         "gen3",
         "insurgence",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -287,6 +288,7 @@
         "gen3",
         "azure",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -435,6 +437,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -464,6 +467,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grovyle form=epoch",
       "baseScale": 0.4915662650602409,
       "cannotDynamax": false,
       "abilities": [
@@ -594,7 +598,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochsceptileone.desc"
@@ -723,7 +730,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "Grovyle",
+      "preEvolution": "sceptile armiran",
       "baseScale": 0.29565217391304344,
       "cannotDynamax": false,
       "abilities": [
@@ -867,6 +874,8 @@
         "gen3",
         "daybreak",
         "not_modeled",
+        "fakemonevolution",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -895,6 +904,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "grovyle form=ayreian",
       "baseScale": 0.4584269662921348,
       "cannotDynamax": false,
       "abilities": [
@@ -1046,7 +1056,10 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiansceptile.desc"

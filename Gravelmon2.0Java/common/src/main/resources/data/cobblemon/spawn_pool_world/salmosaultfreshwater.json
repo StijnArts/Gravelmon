@@ -7,19 +7,14 @@
       "id": "salmosaultfreshwater-01",
       "pokemon": "salmosaultfreshwater",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "24-49",
-      "weight": 6.75,
+      "bucket": "common",
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_river"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_arid",
           "#cobblemon:is_temperate"

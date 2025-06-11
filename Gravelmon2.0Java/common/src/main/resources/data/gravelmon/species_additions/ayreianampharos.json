@@ -1,0 +1,172 @@
+{
+  "target": "cobblemon:ayreianampharos",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35,
+      "cannotDynamax": false,
+      "abilities": [
+        "guts",
+        "noguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 135,
+        "defence": 95,
+        "special_attack": 65,
+        "special_defence": 55,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "11:irondefense",
+        "62:aquatail",
+        "65:suckerpunch",
+        "1:tackle",
+        "70:closecombat",
+        "49:throatchop",
+        "75:outrage",
+        "1:bite",
+        "53:curse",
+        "20:gyroball",
+        "46:irontail",
+        "57:powertrip",
+        "40:taunt",
+        "0:breakingswipe",
+        "15:hornattack",
+        "1:growl",
+        "25:assurance",
+        "28:ironhead",
+        "1:swagger",
+        "1:bulletpunch",
+        "35:lashout",
+        "tm:afteryou",
+        "tm:attract",
+        "tm:brickbreak",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:dragonpulse",
+        "tm:echoedvoice",
+        "tm:endure",
+        "tm:facade",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:healbell",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:reflect",
+        "tm:magnetrise",
+        "tm:outrage",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:strength",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:swift",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:drainpunch",
+        "tm:swordsdance",
+        "tm:bellydrum",
+        "tm:earthquake",
+        "tm:headlongrush",
+        "tm:darkestlariat",
+        "tm:foulplay",
+        "tm:lowsweep",
+        "tm:reversal",
+        "tm:assurance",
+        "tm:zenheadbutt",
+        "tm:stoneedge",
+        "tm:lashout",
+        "tm:dragontail",
+        "tm:counter",
+        "tm:bulkup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianampharos.desc"
+      ],
+      "height": 14,
+      "weight": 615,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

@@ -763,9 +763,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbudewone_epochtworoselia",
+          "id": "epochbudewone_roselia_epoch",
           "variant": "level_up",
-          "result": "epochtworoselia",
+          "result": "roselia epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

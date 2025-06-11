@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-35",
-      "weight": 6.0,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "13-32",
-      "weight": 7.5,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

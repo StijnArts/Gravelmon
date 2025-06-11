@@ -4,31 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasian_alcremie-01",
-      "pokemon": "alcremie varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "22-50",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_alcremie-01",
       "pokemon": "alcremie epoch",
       "presets": [
@@ -37,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "32-54",
-      "weight": 0.6000000000000001,
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_sand"
@@ -62,14 +37,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "15-41",
-      "weight": 6.0,
+      "level": "15-35",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

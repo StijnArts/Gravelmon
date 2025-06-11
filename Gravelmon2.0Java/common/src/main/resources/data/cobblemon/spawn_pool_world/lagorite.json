@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "55-69",
-      "weight": 0.30000000000000004,
+      "level": "55-75",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"

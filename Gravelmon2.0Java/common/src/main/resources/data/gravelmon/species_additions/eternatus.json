@@ -119,7 +119,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "legendary"
       ],
       "pokedex": [
         "cobblemon.species.epocheternatus.desc"

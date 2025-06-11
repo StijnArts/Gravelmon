@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "draceon",
   "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
@@ -137,7 +138,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.draceon.desc"
@@ -146,7 +148,7 @@
   "weight": 292,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8999,
+  "nationalPokedexNumber": 8889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

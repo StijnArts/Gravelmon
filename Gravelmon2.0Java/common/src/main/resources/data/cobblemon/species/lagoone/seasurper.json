@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "seasurper",
   "baseScale": 0.39452054794520547,
   "cannotDynamax": false,
   "abilities": [
@@ -92,7 +93,8 @@
   ],
   "labels": [
     "lagoone",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seasurper.desc"

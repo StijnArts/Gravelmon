@@ -78,7 +78,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.newcleaur.desc"
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5327,
+  "nationalPokedexNumber": 5266,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

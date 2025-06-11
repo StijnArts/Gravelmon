@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "porygona",
   "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
@@ -165,7 +166,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.porygona.desc"
@@ -174,7 +176,7 @@
   "weight": 415,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8427,
+  "nationalPokedexNumber": 8366,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

@@ -91,13 +91,16 @@ public class Cradecart extends Pokemon {
                 ),
                 List.of(Label.GEN5,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 35, 56, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         this.setLangFileName("Cradecart");
     }
 }

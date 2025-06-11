@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "exeon",
   "baseScale": 0.4528301886792453,
   "cannotDynamax": false,
   "abilities": [
@@ -165,7 +166,9 @@
   ],
   "labels": [
     "qamor",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.exeon.desc"
@@ -174,7 +177,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5461,
+  "nationalPokedexNumber": 5400,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

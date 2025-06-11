@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "porygony",
   "baseScale": 0.5599999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -143,7 +144,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.porygony.desc"
@@ -152,7 +154,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6568,
+  "nationalPokedexNumber": 6507,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

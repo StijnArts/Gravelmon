@@ -158,7 +158,8 @@
       "labels": [
         "gen2",
         "infinity",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.eghocyndaquil.desc"
@@ -334,7 +335,8 @@
       "labels": [
         "gen2",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltacyndaquil.desc"
@@ -509,7 +511,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochcyndaquil.desc"
@@ -674,7 +677,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochcyndaquilone.desc"
@@ -686,9 +690,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcyndaquilone_epochtwoquilava",
+          "id": "epochcyndaquilone_quilava_epoch",
           "variant": "level_up",
-          "result": "epochtwoquilava",
+          "result": "quilava epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -787,6 +791,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -989,7 +994,8 @@
       "labels": [
         "gen2",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiancyndaquil.desc"
@@ -1113,7 +1119,8 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ionosiancyndaquil.desc"

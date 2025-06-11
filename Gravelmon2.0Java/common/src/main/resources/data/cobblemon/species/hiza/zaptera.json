@@ -80,7 +80,8 @@
     "hiza",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.zaptera.desc"
@@ -89,7 +90,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3043,
+  "nationalPokedexNumber": 2982,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

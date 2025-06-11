@@ -78,7 +78,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kamiyin.desc"
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5952,
+  "nationalPokedexNumber": 5891,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

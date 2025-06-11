@@ -72,7 +72,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.emii.desc"
@@ -81,7 +82,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4279,
+  "nationalPokedexNumber": 4218,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

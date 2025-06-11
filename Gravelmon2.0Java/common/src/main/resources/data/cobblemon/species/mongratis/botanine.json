@@ -72,6 +72,7 @@
   "labels": [
     "mongratis",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -82,7 +83,7 @@
   "weight": 650,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8536,
+  "nationalPokedexNumber": 8475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

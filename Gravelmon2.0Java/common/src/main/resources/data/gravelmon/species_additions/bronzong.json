@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bronzor form=africanusan",
       "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
@@ -85,7 +86,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusanbronzong.desc"
@@ -273,6 +276,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bronzor form=epoch",
       "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
@@ -398,7 +402,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochbronzongone.desc"

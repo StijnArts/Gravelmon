@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.0,
+      "level": "3-23",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -39,19 +39,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.0,
+      "level": "3-23",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -71,19 +66,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.0,
+      "level": "3-23",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -103,8 +93,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.0,
+      "level": "3-23",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -159,8 +149,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-27",
-      "weight": 4.5,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -213,14 +203,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-38",
-      "weight": 0.6000000000000001,
+      "level": "15-35",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

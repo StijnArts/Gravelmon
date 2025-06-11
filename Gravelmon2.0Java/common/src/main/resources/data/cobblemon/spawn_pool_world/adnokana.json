@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "44-63",
-      "weight": 0.675,
+      "level": "44-64",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"

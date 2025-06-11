@@ -132,6 +132,7 @@
   "labels": [
     "uranium",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -142,7 +143,7 @@
   "weight": 855,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2468,
+  "nationalPokedexNumber": 2407,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

@@ -80,7 +80,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.aggronut.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5243,
+  "nationalPokedexNumber": 5182,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

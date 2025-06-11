@@ -111,7 +111,8 @@
     "atlas",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.carnaceous.desc"
@@ -120,7 +121,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7094,
+  "nationalPokedexNumber": 7033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

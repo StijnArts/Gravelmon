@@ -35,6 +35,7 @@
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": true,
+        "canWalkOnWater": true,
         "canWalkOnLava": false
       }
     }
@@ -79,7 +80,8 @@
   ],
   "labels": [
     "enriko",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.aqualisk.desc"

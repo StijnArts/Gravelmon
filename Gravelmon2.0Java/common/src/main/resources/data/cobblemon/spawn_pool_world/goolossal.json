@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
+      "bucket": "rare",
       "level": "50-70",
-      "weight": 6.0,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

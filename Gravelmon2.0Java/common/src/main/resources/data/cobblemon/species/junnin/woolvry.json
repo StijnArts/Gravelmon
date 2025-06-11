@@ -126,7 +126,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.woolvry.desc"
@@ -150,7 +151,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3105,
+  "nationalPokedexNumber": 3044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

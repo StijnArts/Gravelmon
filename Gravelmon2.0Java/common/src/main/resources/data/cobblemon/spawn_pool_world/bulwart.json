@@ -12,15 +12,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "38-57",
-      "weight": 0.44999999999999996,
+      "bucket": "common",
+      "level": "38-58",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

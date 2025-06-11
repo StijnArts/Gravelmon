@@ -55,7 +55,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Porcipice());
         addNewPokemon(new Slugmud());
         addNewPokemon(new Mudsnail());
-        addNewPokemon(new Pitohood());
+        addNewPokemon(new Spitohood());
         addNewPokemon(new Plaguwing());
         addNewPokemon(new Zenpole().fishingSpawnFromExisting()); //Renamed from psypole
         addNewPokemon(new Amphisage());
@@ -84,7 +84,7 @@ public class Aldao extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Shadowl());
         addNewPokemon(new Shamandor());
         addNewPokemon(new Shaodrake());
-        addNewPokemon(new Rockid()); //renamed from rockid
+        addNewPokemon(new Bahcrag()); //renamed from rockid
         addNewPokemon(new Craggoat());
         addNewPokemon(new Goattain());
         addNewPokemon(new Shockitty());

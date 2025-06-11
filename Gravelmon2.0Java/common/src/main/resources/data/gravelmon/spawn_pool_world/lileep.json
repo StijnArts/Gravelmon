@@ -7,13 +7,13 @@
       "id": "hizian_lileep-01",
       "pokemon": "lileep hizian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "ultra-rare",
-      "level": "16-35",
-      "weight": 1.5,
+      "level": "16-36",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-30",
-      "weight": 6.0,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",

@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "ratamie",
   "baseScale": 8.399999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +80,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ratamie.desc"
@@ -88,7 +90,7 @@
   "weight": 190,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8833,
+  "nationalPokedexNumber": 8772,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

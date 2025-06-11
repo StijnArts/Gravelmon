@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "39-55",
-      "weight": 0.27,
+      "level": "39-59",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -34,7 +34,7 @@
       "id": "epoch_rhydon-01",
       "pokemon": "rhydon epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

@@ -112,7 +112,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pekohmu.desc"
@@ -121,7 +122,7 @@
   "weight": 65,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4297,
+  "nationalPokedexNumber": 4236,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

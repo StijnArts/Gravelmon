@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-11",
-      "weight": 7.5,
+      "level": "1-21",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-16",
-      "weight": 7.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kricketot form=africanusan",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -84,7 +85,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusankricketune.desc"

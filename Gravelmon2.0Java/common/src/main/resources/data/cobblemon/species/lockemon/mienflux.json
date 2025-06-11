@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "mienflux",
   "baseScale": 0.060937500000000006,
   "cannotDynamax": false,
   "abilities": [
@@ -97,7 +98,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mienflux.desc"
@@ -106,7 +108,7 @@
   "weight": 1124,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4578,
+  "nationalPokedexNumber": 4517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

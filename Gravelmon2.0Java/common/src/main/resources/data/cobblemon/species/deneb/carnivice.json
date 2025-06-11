@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "carnivine",
+  "preEvolution": "carnivice",
   "baseScale": 0.8250000000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -132,6 +132,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -141,7 +142,7 @@
   "weight": 547,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6233,
+  "nationalPokedexNumber": 6172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -83,7 +83,8 @@
     "hiza",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ripwreck.desc"
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3039,
+  "nationalPokedexNumber": 2978,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

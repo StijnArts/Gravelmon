@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "remoraid form=lagoonan",
       "baseScale": 0.41904761904761906,
       "cannotDynamax": false,
       "abilities": [
@@ -96,7 +97,9 @@
       ],
       "labels": [
         "lagoone",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.lagoonanoctillery.desc"

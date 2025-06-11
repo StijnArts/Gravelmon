@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
-      "level": "22-45",
-      "weight": 0.30000000000000004,
+      "level": "22-42",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "36-51",
-      "weight": 0.44999999999999996,
+      "level": "36-56",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate",
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "25-41",
-      "weight": 0.8999999999999999,
+      "level": "25-45",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical",

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-32",
-      "weight": 5.699999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"

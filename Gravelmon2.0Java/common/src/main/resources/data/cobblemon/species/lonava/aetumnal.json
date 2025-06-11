@@ -76,7 +76,8 @@
   ],
   "labels": [
     "lonava",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.aetumnal.desc"
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4517,
+  "nationalPokedexNumber": 4456,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

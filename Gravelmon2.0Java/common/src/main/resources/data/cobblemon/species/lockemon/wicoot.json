@@ -126,7 +126,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.wicoot.desc"
@@ -135,7 +136,7 @@
   "weight": 937,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4622,
+  "nationalPokedexNumber": 4561,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

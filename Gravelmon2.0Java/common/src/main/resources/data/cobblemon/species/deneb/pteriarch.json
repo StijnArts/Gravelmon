@@ -136,7 +136,8 @@
     "deneb",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pteriarch.desc"
@@ -145,7 +146,7 @@
   "weight": 2246,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6141,
+  "nationalPokedexNumber": 6080,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

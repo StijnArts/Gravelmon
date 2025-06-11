@@ -87,14 +87,17 @@ public class Loathedisc extends Pokemon {
                 ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 24, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"30")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(24)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .belowY(30)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

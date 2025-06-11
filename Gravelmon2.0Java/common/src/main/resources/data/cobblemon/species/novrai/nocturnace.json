@@ -157,6 +157,7 @@
   "labels": [
     "novrai",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -167,7 +168,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6587,
+  "nationalPokedexNumber": 6526,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

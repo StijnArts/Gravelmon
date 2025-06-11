@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "unown",
+  "preEvolution": "metunn",
   "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
@@ -82,6 +82,8 @@
     "blazing_emerald",
     "joke",
     "not_modeled",
+    "fakemonevolution",
+    "legendary",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -91,7 +93,7 @@
   "weight": 503,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5114,
+  "nationalPokedexNumber": 5053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

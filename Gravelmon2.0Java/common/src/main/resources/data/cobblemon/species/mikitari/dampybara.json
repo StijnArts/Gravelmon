@@ -149,7 +149,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.dampybara.desc"
@@ -173,7 +174,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8364,
+  "nationalPokedexNumber": 8303,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

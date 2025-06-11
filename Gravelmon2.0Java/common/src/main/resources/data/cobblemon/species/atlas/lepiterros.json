@@ -75,7 +75,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.lepiterros.desc"
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7114,
+  "nationalPokedexNumber": 7053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

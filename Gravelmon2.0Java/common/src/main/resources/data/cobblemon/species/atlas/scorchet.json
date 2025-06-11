@@ -113,7 +113,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.scorchet.desc"
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6888,
+  "nationalPokedexNumber": 6827,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

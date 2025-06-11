@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "2-30",
-      "weight": 13.5,
+      "level": "2-22",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -41,13 +41,8 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "4-24",
-      "weight": 6.75,
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ]
@@ -84,34 +79,6 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:target_block"
-          ]
-        }
-      }
-    },
-    {
-      "id": "olysosian_poochyena-01",
-      "pokemon": "poochyena olysosian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "4-24",
-      "weight": 9.0,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
           ]
         }
       }

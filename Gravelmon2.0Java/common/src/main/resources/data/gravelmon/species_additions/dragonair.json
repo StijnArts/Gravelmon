@@ -151,6 +151,7 @@
         "gen1",
         "insurgence",
         "not_modeled",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -193,6 +194,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dragonair norheiman",
       "baseScale": 0.676056338028169,
       "cannotDynamax": false,
       "abilities": [
@@ -264,7 +266,8 @@
       ],
       "labels": [
         "norheim",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.norheimandragonair.desc"
@@ -440,6 +443,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -560,6 +564,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "instagram",
@@ -606,6 +611,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dratini form=ayreian",
       "baseScale": 1.263157894736842,
       "cannotDynamax": false,
       "abilities": [
@@ -656,7 +662,16 @@
       "eggGroups": [
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "20:agility",
         "46:zenheadbutt",
@@ -718,7 +733,10 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandragonair.desc"
@@ -842,6 +860,7 @@
       "labels": [
         "mahal",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

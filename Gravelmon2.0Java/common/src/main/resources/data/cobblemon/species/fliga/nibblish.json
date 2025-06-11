@@ -80,7 +80,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.nibblish.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5249,
+  "nationalPokedexNumber": 5188,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

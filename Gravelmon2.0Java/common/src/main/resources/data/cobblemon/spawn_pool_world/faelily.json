@@ -7,13 +7,13 @@
       "id": "faelily-01",
       "pokemon": "faelily",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "21-39",
-      "weight": 1.5,
+      "level": "21-41",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",

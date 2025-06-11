@@ -86,7 +86,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.glowpa.desc"
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4315,
+  "nationalPokedexNumber": 4254,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

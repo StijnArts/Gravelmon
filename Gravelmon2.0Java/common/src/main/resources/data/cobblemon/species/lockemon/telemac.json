@@ -84,7 +84,8 @@
     "lockemon",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.telemac.desc"
@@ -93,7 +94,7 @@
   "weight": 756,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4614,
+  "nationalPokedexNumber": 4553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

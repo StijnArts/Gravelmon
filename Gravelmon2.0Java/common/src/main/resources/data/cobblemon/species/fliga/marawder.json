@@ -83,6 +83,7 @@
   "labels": [
     "fliga",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -93,7 +94,7 @@
   "weight": 1923,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5251,
+  "nationalPokedexNumber": 5190,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

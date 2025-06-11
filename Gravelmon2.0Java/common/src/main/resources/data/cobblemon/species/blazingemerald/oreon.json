@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "eevee",
+  "preEvolution": "oreon",
   "baseScale": 0.7,
   "cannotDynamax": false,
   "abilities": [
@@ -103,6 +103,8 @@
     "blazing_emerald",
     "joke",
     "eeveelution",
+    "fakemonevolution",
+    "eeveelution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -112,7 +114,7 @@
   "weight": 289,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5100,
+  "nationalPokedexNumber": 5039,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

@@ -93,6 +93,7 @@
   "labels": [
     "qamor",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -103,7 +104,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5340,
+  "nationalPokedexNumber": 5279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

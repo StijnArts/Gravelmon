@@ -7,13 +7,13 @@
       "id": "navolatle-01",
       "pokemon": "navolatle",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "34-55",
-      "weight": 0.75,
+      "level": "34-54",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

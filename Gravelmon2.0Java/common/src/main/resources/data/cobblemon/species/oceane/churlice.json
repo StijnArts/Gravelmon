@@ -84,7 +84,8 @@
   ],
   "labels": [
     "oceane",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.churlice.desc"

@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "miensei",
   "baseScale": 21.6,
   "cannotDynamax": false,
   "abilities": [
@@ -92,7 +93,8 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.miensei.desc"
@@ -101,7 +103,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9191,
+  "nationalPokedexNumber": 9081,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

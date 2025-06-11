@@ -340,9 +340,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmudbrayone_epochtwomudsdale",
+          "id": "epochmudbrayone_mudsdale_epoch",
           "variant": "level_up",
-          "result": "epochtwomudsdale",
+          "result": "mudsdale epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

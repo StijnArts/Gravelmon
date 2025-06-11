@@ -139,12 +139,13 @@ public class UFI extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 75, 75, 0.008, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setCanFly(true);
 

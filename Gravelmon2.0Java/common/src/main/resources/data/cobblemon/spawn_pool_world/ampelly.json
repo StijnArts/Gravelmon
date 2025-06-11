@@ -7,13 +7,13 @@
       "id": "ampelly-01",
       "pokemon": "ampelly",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "6-29",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

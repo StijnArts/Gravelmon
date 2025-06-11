@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "45-52",
-      "weight": 0.03,
+      "level": "45-65",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -38,9 +38,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "45-58",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -63,9 +63,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "45-67",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -90,9 +90,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "45-61",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

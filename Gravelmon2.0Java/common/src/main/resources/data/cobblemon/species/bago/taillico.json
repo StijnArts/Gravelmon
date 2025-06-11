@@ -76,6 +76,7 @@
   "labels": [
     "bago",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3660,
+  "nationalPokedexNumber": 3599,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

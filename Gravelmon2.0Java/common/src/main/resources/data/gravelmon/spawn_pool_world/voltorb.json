@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-33",
-      "weight": 7.5,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-34",
-      "weight": 5.699999999999999,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -89,8 +89,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-34",
-      "weight": 5.699999999999999,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -114,14 +114,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 5.699999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -141,8 +141,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt"

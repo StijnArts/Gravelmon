@@ -178,6 +178,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "linoone form=ayreian",
       "baseScale": 0.48607594936708864,
       "cannotDynamax": false,
       "abilities": [
@@ -315,7 +316,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianobstagoon.desc"

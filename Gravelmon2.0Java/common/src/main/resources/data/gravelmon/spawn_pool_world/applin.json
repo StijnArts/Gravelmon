@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "7-27",
-      "weight": 4.949999999999999,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

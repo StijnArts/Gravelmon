@@ -86,6 +86,7 @@
   "labels": [
     "norheim",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4085,
+  "nationalPokedexNumber": 4024,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

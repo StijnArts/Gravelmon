@@ -156,7 +156,8 @@
       "labels": [
         "gen5",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.deltadeino.desc"
@@ -462,6 +463,7 @@
       "labels": [
         "fabel",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

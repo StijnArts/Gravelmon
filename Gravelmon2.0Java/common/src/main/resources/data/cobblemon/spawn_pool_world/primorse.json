@@ -7,13 +7,13 @@
       "id": "primorse-01",
       "pokemon": "primorse",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "29-47",
-      "weight": 0.6000000000000001,
+      "level": "29-49",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

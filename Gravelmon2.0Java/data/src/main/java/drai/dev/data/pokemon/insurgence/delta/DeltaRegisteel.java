@@ -117,12 +117,13 @@ public class DeltaRegisteel extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE, Label.LEGENDARY),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 69, 80, 0.00003, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
-                ), List.of(),
-                List.of(SpawnPreset.LAVA_SURFACE),
-                0.19, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_NETHER_WASTELAND)
+    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
+    .build(), List.of());
+	
         this.setLangFileName("Registeel");
     }
 }

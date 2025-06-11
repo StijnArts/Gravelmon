@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "bourrbull",
   "baseScale": 0.6133333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -227,7 +228,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bourrbull.desc"
@@ -236,7 +238,7 @@
   "weight": 916,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9005,
+  "nationalPokedexNumber": 8895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

@@ -82,7 +82,8 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.petiolis.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2440,
+  "nationalPokedexNumber": 2379,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

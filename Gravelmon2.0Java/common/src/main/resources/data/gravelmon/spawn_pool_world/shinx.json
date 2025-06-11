@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "8-26",
-      "weight": 13.5,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-23",
-      "weight": 6.0,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "8-26",
-      "weight": 13.5,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold"
@@ -93,8 +93,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "8-26",
-      "weight": 13.5,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

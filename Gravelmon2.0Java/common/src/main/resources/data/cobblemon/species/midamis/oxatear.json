@@ -80,6 +80,7 @@
   "labels": [
     "midamis",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5812,
+  "nationalPokedexNumber": 5751,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -12,20 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "40-54",
-      "weight": 0.44999999999999996,
+      "level": "40-60",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland",
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_savanna"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_savanna"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

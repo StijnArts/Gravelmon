@@ -119,7 +119,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.nimbleaf.desc"
@@ -143,7 +144,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6069,
+  "nationalPokedexNumber": 6008,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

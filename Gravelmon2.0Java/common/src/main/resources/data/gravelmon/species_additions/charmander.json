@@ -155,7 +155,8 @@
       ],
       "labels": [
         "gen1",
-        "infinity"
+        "infinity",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.eghocharmander.desc"
@@ -349,7 +350,8 @@
       ],
       "labels": [
         "gen1",
-        "insurgence"
+        "insurgence",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltacharmander.desc"
@@ -538,7 +540,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochcharmander.desc"
@@ -714,7 +717,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochcharmanderone.desc"
@@ -726,9 +730,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcharmanderone_epochtwocharmeleon",
+          "id": "epochcharmanderone_charmeleon_epoch",
           "variant": "level_up",
-          "result": "epochtwocharmeleon",
+          "result": "charmeleon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -827,6 +831,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -1019,7 +1024,8 @@
       "labels": [
         "gen1",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiancharmander.desc"

@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "7-26",
-      "weight": 5.699999999999999,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 7.199999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

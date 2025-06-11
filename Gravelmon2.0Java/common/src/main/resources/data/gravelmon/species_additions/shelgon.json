@@ -155,6 +155,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -284,6 +285,7 @@
       "labels": [
         "ferran",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

@@ -76,7 +76,8 @@
   ],
   "labels": [
     "amavi",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.ankleaf.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7117,
+  "nationalPokedexNumber": 7056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

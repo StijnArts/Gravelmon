@@ -12,15 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "30-60",
-      "weight": 13.5,
+      "level": "30-50",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands",
           "#cobblemon:is_mountain"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "28-48",
-      "weight": 3.0,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -67,8 +67,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "29-53",
-      "weight": 1.0499999999999998,
+      "level": "29-49",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -94,14 +94,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "33-54",
-      "weight": 1.0499999999999998,
+      "level": "33-53",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -121,8 +121,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "29-54",
-      "weight": 4.5,
+      "level": "29-49",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"

@@ -107,6 +107,7 @@
   "labels": [
     "ivris",
     "not_modeled",
+    "paradox",
     "instagram",
     "instagram"
   ],
@@ -117,7 +118,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4896,
+  "nationalPokedexNumber": 4835,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

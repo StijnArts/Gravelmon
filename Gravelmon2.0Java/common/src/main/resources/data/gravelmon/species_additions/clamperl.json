@@ -344,5 +344,20 @@
       ],
       "permanent": true
     }
-  ]
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:deep_sea_tooth",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

@@ -40,6 +40,7 @@
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
+            "canWalkOnWater": true,
             "canWalkOnLava": false
           }
         }
@@ -342,9 +343,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcetoddleone_epochtwocetitan",
+          "id": "epochcetoddleone_cetitan_epoch",
           "variant": "item_interact",
-          "result": "epochtwocetitan",
+          "result": "cetitan epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

@@ -151,7 +151,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.pestinox.desc"
@@ -160,7 +161,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5239,
+  "nationalPokedexNumber": 5178,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

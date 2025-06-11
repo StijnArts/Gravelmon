@@ -12,19 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "41-59",
-      "weight": 0.675,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_beach"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

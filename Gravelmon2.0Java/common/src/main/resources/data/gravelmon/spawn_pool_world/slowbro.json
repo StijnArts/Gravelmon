@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "35-51",
-      "weight": 0.30000000000000004,
+      "level": "35-55",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "34-54",
-      "weight": 3.0,
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "37-57",
-      "weight": 0.6000000000000001,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_sand"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "37-49",
-      "weight": 0.81,
+      "level": "37-57",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

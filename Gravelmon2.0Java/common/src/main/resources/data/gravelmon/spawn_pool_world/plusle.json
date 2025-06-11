@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "10-40",
-      "weight": 7.5,
+      "level": "10-30",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral"

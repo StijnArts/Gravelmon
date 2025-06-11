@@ -334,9 +334,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochnaclione_epochtwonaclstack",
+          "id": "epochnaclione_naclstack_epoch",
           "variant": "item_interact",
-          "result": "epochtwonaclstack",
+          "result": "naclstack epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

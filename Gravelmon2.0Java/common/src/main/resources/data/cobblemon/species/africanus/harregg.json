@@ -82,7 +82,8 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.harregg.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2443,
+  "nationalPokedexNumber": 2382,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

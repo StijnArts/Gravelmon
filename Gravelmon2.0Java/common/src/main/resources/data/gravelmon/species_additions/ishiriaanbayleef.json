@@ -1,0 +1,156 @@
+{
+  "target": "cobblemon:ishiriaanbayleef",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 141,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35,
+      "cannotDynamax": false,
+      "abilities": [
+        "clearbody",
+        "sturdy",
+        "h:sharpness"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 76,
+        "attack": 83,
+        "defence": 80,
+        "special_attack": 53,
+        "special_defence": 72,
+        "speed": 41
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:scratch",
+        "5:honeclaws",
+        "8:metalclaw",
+        "11:stomp",
+        "15:furycutter",
+        "17:bulldoze",
+        "20:slash",
+        "24:smartstrike",
+        "26:irondefense",
+        "30:bodyslam",
+        "33:flashcannon",
+        "37:strength",
+        "40:nightslash",
+        "43:ironhead",
+        "47:swordsdance",
+        "51:guillotine",
+        "tm:takedown",
+        "tm:charm",
+        "tm:protect",
+        "tm:facade",
+        "tm:aerialace",
+        "tm:metalclaw",
+        "tm:endure",
+        "tm:raindance",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:rest",
+        "tm:taunt",
+        "tm:nastyplot",
+        "tm:helpinghand",
+        "tm:flashcannon",
+        "tm:ironhead",
+        "tm:irondefense",
+        "tm:xscissor",
+        "tm:gyroball",
+        "tm:metalsound",
+        "tm:curse",
+        "tm:falseswipe",
+        "tm:substitute",
+        "tm:steelbeam",
+        "tm:sacredsword",
+        "tm:razorshell",
+        "tm:nightslash",
+        "tm:slash",
+        "tm:metalclaw",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:attract",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:terablast",
+        "tm:bodyslam",
+        "tm:smartstrike",
+        "tm:irondefense",
+        "tm:metalsound",
+        "tm:stealthrock",
+        "tm:curse"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriaanbayleef.desc"
+      ],
+      "height": 14,
+      "weight": 373,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

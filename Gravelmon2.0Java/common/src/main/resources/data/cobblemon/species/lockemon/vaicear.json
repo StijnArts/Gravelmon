@@ -84,7 +84,8 @@
     "lockemon",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.vaicear.desc"
@@ -93,7 +94,7 @@
   "weight": 815,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4612,
+  "nationalPokedexNumber": 4551,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

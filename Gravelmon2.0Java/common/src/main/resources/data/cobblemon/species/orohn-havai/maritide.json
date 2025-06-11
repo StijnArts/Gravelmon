@@ -87,6 +87,7 @@
   "labels": [
     "orohnhavai",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3902,
+  "nationalPokedexNumber": 3841,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

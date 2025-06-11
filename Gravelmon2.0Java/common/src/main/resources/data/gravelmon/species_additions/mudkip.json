@@ -84,7 +84,8 @@
       "labels": [
         "gen3",
         "azure",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.mysticmudkip.desc"
@@ -271,7 +272,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochmudkip.desc"
@@ -442,7 +444,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochmudkipone.desc"
@@ -454,9 +457,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmudkipone_epochtwomarshtomp",
+          "id": "epochmudkipone_marshtomp_epoch",
           "variant": "level_up",
-          "result": "epochtwomarshtomp",
+          "result": "marshtomp epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -562,6 +565,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -738,7 +742,8 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreianmudkip.desc"

@@ -79,6 +79,7 @@
   "labels": [
     "mahal",
     "not_modeled",
+    "fossil",
     "instagram",
     "instagram"
   ],
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7628,
+  "nationalPokedexNumber": 7567,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

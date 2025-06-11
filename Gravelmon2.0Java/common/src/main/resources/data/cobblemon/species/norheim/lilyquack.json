@@ -77,7 +77,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.lilyquack.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4078,
+  "nationalPokedexNumber": 4017,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

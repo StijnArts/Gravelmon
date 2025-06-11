@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Dnaeon",
   "baseScale": 0.060937500000000006,
   "cannotDynamax": false,
   "abilities": [
@@ -79,6 +80,8 @@
   ],
   "labels": [
     "not_modeled",
+    "eeveelution",
+    "fakemonevolution",
     "norse",
     "instagram",
     "instagram"
@@ -90,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3349,
+  "nationalPokedexNumber": 3288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

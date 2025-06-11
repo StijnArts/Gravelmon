@@ -81,7 +81,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.calligraphis.desc"
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5323,
+  "nationalPokedexNumber": 5262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

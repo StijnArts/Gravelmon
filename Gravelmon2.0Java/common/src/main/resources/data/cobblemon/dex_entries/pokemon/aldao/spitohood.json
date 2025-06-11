@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spitohood",
+  "speciesId": "cobblemon:spitohood",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

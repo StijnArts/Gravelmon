@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothitelle cefiran",
       "baseScale": 0.22784810126582278,
       "cannotDynamax": false,
       "abilities": [
@@ -89,7 +90,8 @@
       "labels": [
         "gen5",
         "opal",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.cefirangothitelle.desc"
@@ -117,6 +119,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothorita form=africanusan",
       "baseScale": 0.375,
       "cannotDynamax": false,
       "abilities": [
@@ -190,7 +193,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusangothitelle.desc"
@@ -375,6 +380,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothorita form=epoch",
       "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
@@ -503,7 +509,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgothitelleone.desc"

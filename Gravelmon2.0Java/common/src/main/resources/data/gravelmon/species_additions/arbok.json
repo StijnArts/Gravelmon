@@ -279,6 +279,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ekans form=ionosian",
       "baseScale": 0.4915662650602409,
       "cannotDynamax": false,
       "abilities": [
@@ -350,7 +351,9 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianarbok.desc"

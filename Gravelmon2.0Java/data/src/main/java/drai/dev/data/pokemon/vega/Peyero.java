@@ -88,12 +88,13 @@ public class Peyero extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 6, 19, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(1)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_WASTELAND)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
     }
 }

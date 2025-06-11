@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "38-54",
-      "weight": 0.6000000000000001,
+      "level": "38-58",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "41-56",
-      "weight": 0.6000000000000001,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "35-54",
-      "weight": 1.2000000000000002,
+      "level": "35-55",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",

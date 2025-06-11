@@ -76,7 +76,8 @@
   ],
   "labels": [
     "mushi",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bewilt.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8437,
+  "nationalPokedexNumber": 8376,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

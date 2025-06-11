@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 52,
   "baseFriendship": 70,
+  "preEvolution": "faeralynx",
   "baseScale": 0.23376623376623376,
   "cannotDynamax": false,
   "abilities": [
@@ -150,7 +151,8 @@
   ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.faeralynx.desc"

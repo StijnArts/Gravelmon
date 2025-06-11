@@ -136,6 +136,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -248,6 +249,7 @@
       "labels": [
         "nodorro",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],

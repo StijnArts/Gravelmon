@@ -78,7 +78,8 @@
   "labels": [
     "uranium",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.zephy.desc"
@@ -87,7 +88,7 @@
   "weight": 279,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2614,
+  "nationalPokedexNumber": 2553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

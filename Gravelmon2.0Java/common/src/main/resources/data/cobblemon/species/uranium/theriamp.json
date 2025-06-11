@@ -153,7 +153,8 @@
     "uranium",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.theriamp.desc"
@@ -162,7 +163,7 @@
   "weight": 4900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2543,
+  "nationalPokedexNumber": 2482,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

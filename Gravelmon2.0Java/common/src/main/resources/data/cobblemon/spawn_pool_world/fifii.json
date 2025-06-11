@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "65-75",
-      "weight": 0.009000000000000001,
+      "level": "50-70",
+      "weight": 0.005,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

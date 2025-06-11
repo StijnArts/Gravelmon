@@ -101,7 +101,8 @@
   "labels": [
     "deneb",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.ganimede.desc"
@@ -110,7 +111,7 @@
   "weight": 1958,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6150,
+  "nationalPokedexNumber": 6089,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

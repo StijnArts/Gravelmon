@@ -7,26 +7,21 @@
       "id": "baariette-01",
       "pokemon": "baariette",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "uncommon",
-      "level": "44-61",
-      "weight": 2.25,
+      "bucket": "common",
+      "level": "44-64",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_arid"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

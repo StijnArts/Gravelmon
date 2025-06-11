@@ -85,7 +85,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.aquaff.desc"
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5810,
+  "nationalPokedexNumber": 5749,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "witherscence",
   "baseScale": 0.24615384615384617,
   "cannotDynamax": false,
   "abilities": [
@@ -113,7 +114,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.witherscence.desc"
@@ -122,7 +124,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4171,
+  "nationalPokedexNumber": 4110,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

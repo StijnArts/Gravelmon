@@ -142,7 +142,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.treiarch.desc"
@@ -151,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3182,
+  "nationalPokedexNumber": 3121,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.9375,

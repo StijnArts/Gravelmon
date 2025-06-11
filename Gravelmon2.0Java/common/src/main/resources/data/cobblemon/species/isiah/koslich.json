@@ -76,7 +76,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.koslich.desc"
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5801,
+  "nationalPokedexNumber": 5740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

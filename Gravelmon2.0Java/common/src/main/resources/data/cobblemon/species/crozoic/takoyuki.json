@@ -107,7 +107,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.takoyuki.desc"
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4365,
+  "nationalPokedexNumber": 4304,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

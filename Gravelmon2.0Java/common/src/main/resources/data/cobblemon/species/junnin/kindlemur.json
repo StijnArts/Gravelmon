@@ -80,7 +80,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.kindlemur.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3102,
+  "nationalPokedexNumber": 3041,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

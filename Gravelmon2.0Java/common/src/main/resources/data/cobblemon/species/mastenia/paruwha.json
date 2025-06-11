@@ -81,7 +81,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.paruwha.desc"
@@ -90,7 +91,7 @@
   "weight": 854,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8357,
+  "nationalPokedexNumber": 8296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

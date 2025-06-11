@@ -97,7 +97,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.aurorelk.desc"
@@ -106,7 +107,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7110,
+  "nationalPokedexNumber": 7049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.4375,

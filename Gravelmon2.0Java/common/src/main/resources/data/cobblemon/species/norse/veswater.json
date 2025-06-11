@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Veswater",
   "baseScale": 0.1171875,
   "cannotDynamax": false,
   "abilities": [
@@ -97,6 +98,8 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
+    "fakemonevolution",
     "norse",
     "instagram",
     "instagram"
@@ -108,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3415,
+  "nationalPokedexNumber": 3354,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

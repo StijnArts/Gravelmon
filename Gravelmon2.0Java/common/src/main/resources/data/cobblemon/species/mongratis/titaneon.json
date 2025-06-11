@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "titaneon",
   "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
@@ -85,7 +86,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.titaneon.desc"
@@ -94,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8526,
+  "nationalPokedexNumber": 8465,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

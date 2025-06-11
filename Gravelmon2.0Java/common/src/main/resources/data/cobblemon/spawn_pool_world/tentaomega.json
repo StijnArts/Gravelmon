@@ -7,13 +7,13 @@
       "id": "tentaomega-01",
       "pokemon": "tentaomega",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "37-58",
-      "weight": 0.15000000000000002,
+      "bucket": "common",
+      "level": "37-57",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

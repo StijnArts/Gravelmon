@@ -93,7 +93,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.anemini.desc"
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 2639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

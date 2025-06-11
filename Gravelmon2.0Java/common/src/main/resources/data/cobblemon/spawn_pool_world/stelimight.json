@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "26-42",
-      "weight": 1.5,
+      "level": "26-46",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_dripstone"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

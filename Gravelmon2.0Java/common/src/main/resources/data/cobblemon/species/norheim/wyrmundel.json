@@ -78,7 +78,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.wyrmundel.desc"
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4284,
+  "nationalPokedexNumber": 4223,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

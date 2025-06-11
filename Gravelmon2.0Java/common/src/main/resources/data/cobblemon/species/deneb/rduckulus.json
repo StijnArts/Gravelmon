@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "farfetchd",
+  "preEvolution": "rduckulus",
   "baseScale": 0.41250000000000003,
   "cannotDynamax": false,
   "abilities": [
@@ -138,6 +138,7 @@
   "labels": [
     "vega",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -147,7 +148,7 @@
   "weight": 270,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6246,
+  "nationalPokedexNumber": 6185,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -78,7 +78,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.peppercoon.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2697,
+  "nationalPokedexNumber": 2636,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

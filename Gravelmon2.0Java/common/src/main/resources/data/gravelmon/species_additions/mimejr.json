@@ -322,9 +322,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmimejrone_epochtwomrmime",
+          "id": "epochmimejrone_mrmime_epoch",
           "variant": "level_up",
-          "result": "epochtwomrmime",
+          "result": "mrmime epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

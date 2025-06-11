@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "24-47",
-      "weight": 0.6000000000000001,
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"
@@ -36,9 +36,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "25-54",
-      "weight": 9.0,
+      "bucket": "common",
+      "level": "25-45",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
@@ -62,8 +62,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "32-54",
-      "weight": 0.75,
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "corecif",
   "baseScale": 0.6333333333333333,
   "cannotDynamax": false,
   "abilities": [
@@ -192,7 +193,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.corecif.desc"
@@ -201,7 +203,7 @@
   "weight": 2060,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8962,
+  "nationalPokedexNumber": 8852,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

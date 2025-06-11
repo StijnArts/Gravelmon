@@ -11,15 +11,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "61-70",
-      "weight": 0.15000000000000002,
+      "bucket": "rare",
+      "level": "61-81",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
         "timeRange": "night"
       },
       "weightMultiplier": {

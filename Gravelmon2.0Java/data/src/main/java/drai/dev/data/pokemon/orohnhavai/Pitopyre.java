@@ -41,12 +41,15 @@ public class Pitopyre extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 42, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_CAVE))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA, SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(11)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_VOLCANIC, Biome.IS_CAVE)
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA, SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Pitopyre");
 
     }

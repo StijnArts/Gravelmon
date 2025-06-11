@@ -7,13 +7,13 @@
       "id": "miragill-01",
       "pokemon": "miragill",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "29-45",
-      "weight": 0.44999999999999996,
+      "level": "29-49",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

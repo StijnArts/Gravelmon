@@ -1,0 +1,178 @@
+{
+  "target": "cobblemon:ayreianreuniclus",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "water",
+      "catchRate": 50,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "overcoat",
+        "gooey"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 40,
+        "defence": 105,
+        "special_attack": 65,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "12:waterpulse",
+        "35:painsplit",
+        "56:hydropump",
+        "28:allyswitch",
+        "0:flipturn",
+        "24:reflect",
+        "8:endeavor",
+        "24:lightscreen",
+        "1:protect",
+        "64:recover",
+        "48:sludgebomb",
+        "40:scald",
+        "20:chillingwater",
+        "16:acidarmor",
+        "1:lifedew",
+        "4:sludge",
+        "tm:afteryou",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:embargo",
+        "tm:encore",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flashcannon",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:futuresight",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:guardswap",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:imprison",
+        "tm:infestation",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:megapunch",
+        "tm:painsplit",
+        "tm:powerswap",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:psyshock",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roleplay",
+        "tm:round",
+        "tm:safeguard",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:skillswap",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:snore",
+        "tm:storedpower",
+        "tm:strength",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:trick",
+        "tm:trickroom",
+        "tm:wonderroom",
+        "tm:bodypress"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianreuniclus.desc"
+      ],
+      "height": 16,
+      "weight": 554,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

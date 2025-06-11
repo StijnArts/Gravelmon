@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_plains"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold",
           "#cobblemon:is_arid"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,14 +40,9 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold",
           "#cobblemon:is_arid"
@@ -76,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -128,8 +118,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
@@ -155,7 +145,7 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
+      "level": "5-25",
       "weight": 9.0,
       "condition": {
         "biomes": [
@@ -182,8 +172,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "5-32",
-      "weight": 9.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

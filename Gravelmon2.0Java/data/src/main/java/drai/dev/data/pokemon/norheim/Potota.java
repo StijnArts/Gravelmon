@@ -35,13 +35,16 @@ public class Potota extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 33, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_CROPS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(17)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_WINTER, Biome.IS_AUTUMN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
+    .build(), List.of());
+	
            setLangFileName("Potota");
 
     }

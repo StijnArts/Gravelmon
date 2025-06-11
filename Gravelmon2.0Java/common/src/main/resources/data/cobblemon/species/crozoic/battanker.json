@@ -79,7 +79,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.battanker.desc"
@@ -88,7 +89,7 @@
   "weight": 3600,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4345,
+  "nationalPokedexNumber": 4284,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

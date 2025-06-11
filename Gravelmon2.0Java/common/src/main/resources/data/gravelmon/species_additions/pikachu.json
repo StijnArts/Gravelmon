@@ -770,6 +770,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pichu form=epoch",
       "baseScale": 0.12631578947368421,
       "cannotDynamax": false,
       "abilities": [
@@ -823,7 +824,16 @@
         "field",
         "fairy"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:dawn_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "24:armthrust",
         "40:skyuppercut",
@@ -895,7 +905,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochpikachuone.desc"
@@ -907,9 +919,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpikachuone_epochtworaichu",
+          "id": "epochpikachuone_raichu_epoch",
           "variant": "item_interact",
-          "result": "epochtworaichu",
+          "result": "raichu epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

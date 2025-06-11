@@ -1,11 +1,13 @@
 package drai.dev.data.attributes;
 
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 import java.util.logging.*;
 
 public class PokemonSpawnData {
+    WorldRepresentablePokemon pokemon;
     SpawnContext spawnContext;
     SpawnPool spawnPool;
     int minSpawnLevel;
@@ -35,6 +37,14 @@ public class PokemonSpawnData {
         this.spawnAntiConditions.addAll(spawnAntiConditions);
         this.spawnPresets.addAll(spawnPresets);
         this.preferredBlocks.addAll(preferredBlocks);
+    }
+
+    public void setPokemon(WorldRepresentablePokemon pokemon) {
+        this.pokemon = pokemon;
+    }
+
+    public WorldRepresentablePokemon getPokemon() {
+        return pokemon;
     }
 
     public static List<PokemonSpawnData> placeholder() {
@@ -161,8 +171,8 @@ public class PokemonSpawnData {
             if(getSpawnConditions().stream().anyMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING)) {
                 getSpawnConditions().removeIf(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING);
                 getSpawnConditions().add(new SpawnCondition(SpawnConditionType.IS_RAINING, "true"));
+                Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a snowy biome condition and expects thunder. Mitigated");
             }
-            Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a snowy biome condition and expects thunder. Mitigated");
         }
 
         if(SpawnContext.GROUNDED != getSpawnContext()) {

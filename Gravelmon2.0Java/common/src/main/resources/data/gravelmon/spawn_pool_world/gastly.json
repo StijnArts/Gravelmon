@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-43",
-      "weight": 7.199999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "6-31",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "8-27",
-      "weight": 7.5,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -119,8 +119,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -145,8 +145,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 7.199999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"
@@ -171,8 +171,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-22",
-      "weight": 3.0,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"

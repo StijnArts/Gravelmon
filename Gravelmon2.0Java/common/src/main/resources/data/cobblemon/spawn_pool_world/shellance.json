@@ -7,24 +7,19 @@
       "id": "shellance-01",
       "pokemon": "shellance",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "28-41",
-      "weight": 2.0999999999999996,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_beach"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

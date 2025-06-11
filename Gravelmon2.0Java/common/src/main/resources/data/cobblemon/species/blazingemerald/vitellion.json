@@ -83,7 +83,8 @@
   ],
   "labels": [
     "blazing_emerald",
-    "joke"
+    "joke",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.vitellion.desc"
@@ -92,7 +93,7 @@
   "weight": 45,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5112,
+  "nationalPokedexNumber": 5051,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

@@ -331,6 +331,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mantyke form=ayreian",
       "baseScale": 0.6904109589041095,
       "cannotDynamax": false,
       "abilities": [
@@ -471,7 +472,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianmantine.desc"

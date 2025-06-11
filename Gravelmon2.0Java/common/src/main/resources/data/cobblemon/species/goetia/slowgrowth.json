@@ -78,6 +78,7 @@
   "labels": [
     "goetia",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7852,
+  "nationalPokedexNumber": 7791,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

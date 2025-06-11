@@ -1,0 +1,164 @@
+{
+  "target": "cobblemon:ayreianwhimsicott",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "prankster",
+        "infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 67,
+        "defence": 85,
+        "special_attack": 116,
+        "special_defence": 77,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "30:leechseed",
+        "21:poisonpowder",
+        "42:hurricane",
+        "33:cottonspore",
+        "39:sunnyday",
+        "48:solarbeam",
+        "36:energyball",
+        "24:gigadrain",
+        "27:charm",
+        "1:helpinghand",
+        "45:cottonguard",
+        "3:gust",
+        "12:megadrain",
+        "15:aircutter",
+        "18:growth",
+        "0:tailwind",
+        "1:absorb",
+        "6:stunspore",
+        "tm:attract",
+        "tm:beatup",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:encore",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fling",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:mistyterrain",
+        "tm:naturepower",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychic",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thief",
+        "tm:toxic",
+        "tm:trickroom",
+        "tm:uturn",
+        "tm:worryseed"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianwhimsicott.desc"
+      ],
+      "height": 7,
+      "weight": 66,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "10-35",
-      "weight": 2.7,
+      "level": "10-30",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -34,7 +34,7 @@
       "id": "epoch_rhyhorn-01",
       "pokemon": "rhyhorn epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-39",
-      "weight": 5.699999999999999,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

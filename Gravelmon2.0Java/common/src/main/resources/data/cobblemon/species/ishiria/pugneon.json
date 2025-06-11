@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "pugneon",
   "baseScale": 0.528813559322034,
   "cannotDynamax": false,
   "abilities": [
@@ -180,7 +181,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pugneon.desc"
@@ -189,7 +191,7 @@
   "weight": 299,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8996,
+  "nationalPokedexNumber": 8886,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

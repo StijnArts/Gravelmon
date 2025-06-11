@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "electrode",
+  "preEvolution": "sphericoil",
   "baseScale": 0.5901639344262295,
   "cannotDynamax": false,
   "abilities": [
@@ -102,6 +102,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -111,7 +112,7 @@
   "weight": 1232,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6098,
+  "nationalPokedexNumber": 6037,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

@@ -1,0 +1,158 @@
+{
+  "target": "cobblemon:epochtapubulu",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 285,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "drought",
+        "solarpower",
+        "h:reckless"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 130,
+        "defence": 115,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "26:shadowpunch",
+        "30:firepunch",
+        "11:shadowsneak",
+        "54:flareblitz",
+        "63:memento",
+        "1:tackle",
+        "44:spiritshackle",
+        "21:curse",
+        "14:flamecharge",
+        "1:withdraw",
+        "58:solarblade",
+        "4:astonish",
+        "34:nobleroar",
+        "39:blazekick",
+        "tm:acrobatics",
+        "tm:airslash",
+        "tm:attract",
+        "tm:bulkup",
+        "tm:burningjealousy",
+        "tm:closecombat",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:echoedvoice",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:flareblitz",
+        "tm:focusblast",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:incinerate",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:mysticalfire",
+        "tm:nobleroar",
+        "tm:outrage",
+        "tm:phantomforce",
+        "tm:playrough",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:scorchingsands",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtapubulu.desc"
+      ],
+      "height": 19,
+      "weight": 455,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

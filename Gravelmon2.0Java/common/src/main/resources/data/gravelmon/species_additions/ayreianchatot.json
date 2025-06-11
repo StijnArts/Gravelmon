@@ -1,0 +1,154 @@
+{
+  "target": "cobblemon:ayreianchatot",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "sound",
+      "secondaryType": "flying",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye",
+        "tangledfeet"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 76,
+        "attack": 65,
+        "defence": 45,
+        "special_attack": 91,
+        "special_defence": 112,
+        "speed": 42
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "9:mirrormove",
+        "29:round",
+        "49:synchronoise",
+        "13:sing",
+        "57:hypervoice",
+        "50:featherdance",
+        "21:chatter",
+        "25:taunt",
+        "45:uproar",
+        "17:furyattack",
+        "33:mimic",
+        "5:growl",
+        "1:peck",
+        "1:confide",
+        "41:roost",
+        "37:echoedvoice",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:echoedvoice",
+        "tm:endure",
+        "tm:facade",
+        "tm:fly",
+        "tm:frustration",
+        "tm:heatwave",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roleplay",
+        "tm:roost",
+        "tm:round",
+        "tm:skyattack",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thief",
+        "tm:torment",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:uturn",
+        "tm:workup",
+        "egg:encore",
+        "egg:nightshade",
+        "egg:agility",
+        "egg:nastyplot",
+        "egg:supersonic",
+        "egg:steelwing",
+        "egg:sleeptalk",
+        "egg:defog",
+        "egg:aircutter",
+        "egg:boomburst"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianchatot.desc"
+      ],
+      "height": 5,
+      "weight": 19,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

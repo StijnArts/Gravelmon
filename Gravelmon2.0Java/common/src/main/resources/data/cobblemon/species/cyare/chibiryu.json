@@ -75,7 +75,8 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.chibiryu.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7431,
+  "nationalPokedexNumber": 7370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

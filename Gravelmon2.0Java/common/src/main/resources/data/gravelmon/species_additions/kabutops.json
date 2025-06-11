@@ -324,6 +324,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "kabuto form=epoch",
       "baseScale": 0.3804878048780488,
       "cannotDynamax": false,
       "abilities": [
@@ -447,7 +448,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochkabutopsone.desc"

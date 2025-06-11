@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "corsoreef",
   "baseScale": 0.6646153846153847,
   "cannotDynamax": false,
   "abilities": [
@@ -152,7 +153,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.corsoreef.desc"
@@ -161,7 +163,7 @@
   "weight": 838,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2515,
+  "nationalPokedexNumber": 2454,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

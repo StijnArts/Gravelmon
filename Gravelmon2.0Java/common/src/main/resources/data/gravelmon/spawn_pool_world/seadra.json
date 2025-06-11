@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "32-44",
-      "weight": 0.27,
+      "level": "32-52",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "24-38",
-      "weight": 1.6500000000000001,
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -61,13 +61,13 @@
       "id": "epoch_seadra-01",
       "pokemon": "seadra epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "27-43",
-      "weight": 1.5,
+      "level": "27-47",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",
@@ -93,9 +93,9 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "32-46",
-      "weight": 1.7999999999999998,
+      "bucket": "common",
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "luvdisc",
+  "preEvolution": "valentide",
   "baseScale": 1.0,
   "cannotDynamax": false,
   "abilities": [
@@ -121,6 +121,7 @@
   ],
   "labels": [
     "deneb",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -130,7 +131,7 @@
   "weight": 174,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6236,
+  "nationalPokedexNumber": 6175,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

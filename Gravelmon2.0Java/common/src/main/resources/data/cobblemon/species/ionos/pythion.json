@@ -82,7 +82,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.pythion.desc"
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6578,
+  "nationalPokedexNumber": 6517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -60,13 +60,16 @@ public class HoennianSkarmory extends Pokemon {
                 ),
                 List.of(Label.GEN2,Label.BLAZING_EMERALD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 20, 46, 10.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Skarmory");
         this.setCanFly(true);
     }

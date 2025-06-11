@@ -333,6 +333,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "nodorransunflora",
       "baseScale": 0.3661016949152543,
       "cannotDynamax": false,
       "abilities": [
@@ -435,7 +436,8 @@
       ],
       "labels": [
         "nodorro",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.nodorransunflora.desc"

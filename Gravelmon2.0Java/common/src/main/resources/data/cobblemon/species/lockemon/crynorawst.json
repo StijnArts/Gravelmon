@@ -81,7 +81,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.crynorawst.desc"
@@ -90,7 +91,7 @@
   "weight": 1200,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4616,
+  "nationalPokedexNumber": 4555,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

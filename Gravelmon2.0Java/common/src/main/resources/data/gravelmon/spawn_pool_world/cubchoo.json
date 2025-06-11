@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-45",
-      "weight": 6.6000000000000005,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_taiga"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "5-40",
-      "weight": 7.5,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",

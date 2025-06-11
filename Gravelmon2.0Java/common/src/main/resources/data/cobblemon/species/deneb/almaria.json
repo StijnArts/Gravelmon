@@ -119,6 +119,7 @@
     "vega",
     "mythical",
     "not_modeled",
+    "legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -129,7 +130,7 @@
   "weight": 362,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6153,
+  "nationalPokedexNumber": 6092,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

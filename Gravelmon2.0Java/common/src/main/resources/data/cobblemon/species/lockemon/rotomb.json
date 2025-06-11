@@ -77,7 +77,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.rotomb.desc"
@@ -86,7 +87,7 @@
   "weight": 3,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4617,
+  "nationalPokedexNumber": 4556,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

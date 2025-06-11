@@ -82,7 +82,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.funeraptor.desc"
@@ -91,7 +92,7 @@
   "weight": 803,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4325,
+  "nationalPokedexNumber": 4264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

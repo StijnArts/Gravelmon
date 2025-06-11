@@ -171,6 +171,7 @@
         "gen3",
         "insurgence",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -290,6 +291,7 @@
         "gen3",
         "azure",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -470,6 +472,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -664,6 +667,7 @@
         "gen3",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [

@@ -91,7 +91,8 @@
     "goetia",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.shalegion.desc"
@@ -100,7 +101,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8177,
+  "nationalPokedexNumber": 8116,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

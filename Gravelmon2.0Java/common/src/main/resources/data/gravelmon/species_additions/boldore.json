@@ -161,6 +161,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "roggenrola form=epoch",
       "baseScale": 0.27341772151898736,
       "cannotDynamax": false,
       "abilities": [
@@ -301,7 +302,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochboldoreone.desc"
@@ -313,9 +316,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochboldoreone_epochtwogigalith",
+          "id": "epochboldoreone_gigalith_epoch",
           "variant": "trade",
-          "result": "epochtwogigalith",
+          "result": "gigalith epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

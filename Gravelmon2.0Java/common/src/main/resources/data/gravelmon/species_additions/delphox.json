@@ -153,6 +153,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -312,7 +313,8 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandelphox.desc"
@@ -340,6 +342,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "braixen form=vesitan",
       "baseScale": 0.42857142857142855,
       "cannotDynamax": false,
       "abilities": [
@@ -420,7 +423,10 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitandelphox.desc"

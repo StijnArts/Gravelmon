@@ -414,7 +414,16 @@
       "eggGroups": [
         "bug"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:ocarina",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "17:steelwing",
         "1:foresight",
@@ -494,9 +503,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochyanmaone_epochtwoyanmega",
+          "id": "epochyanmaone_yanmega_epoch",
           "variant": "item_interact",
-          "result": "epochtwoyanmega",
+          "result": "yanmega epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

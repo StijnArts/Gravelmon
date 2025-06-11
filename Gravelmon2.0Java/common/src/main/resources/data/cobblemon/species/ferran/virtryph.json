@@ -91,6 +91,7 @@
   "labels": [
     "ferran",
     "not_modeled",
+    "legendary",
     "instagram",
     "instagram"
   ],
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7544,
+  "nationalPokedexNumber": 7483,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

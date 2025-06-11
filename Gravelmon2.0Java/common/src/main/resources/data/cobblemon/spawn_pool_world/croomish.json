@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "37-53",
-      "weight": 0.30000000000000004,
+      "level": "37-57",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom",

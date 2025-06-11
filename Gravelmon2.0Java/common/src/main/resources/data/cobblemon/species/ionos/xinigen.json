@@ -82,7 +82,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.xinigen.desc"
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6522,
+  "nationalPokedexNumber": 6461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

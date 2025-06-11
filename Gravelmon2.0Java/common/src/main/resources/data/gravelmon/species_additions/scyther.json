@@ -718,9 +718,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochscytherone_epochtwoscizor",
+          "id": "epochscytherone_scizor_epoch",
           "variant": "item_interact",
-          "result": "epochtwoscizor",
+          "result": "scizor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

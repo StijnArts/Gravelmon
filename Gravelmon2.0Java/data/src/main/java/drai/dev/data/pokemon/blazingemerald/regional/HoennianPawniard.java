@@ -56,12 +56,15 @@ public class HoennianPawniard extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 55, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(15)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Pawniard");
 
     }

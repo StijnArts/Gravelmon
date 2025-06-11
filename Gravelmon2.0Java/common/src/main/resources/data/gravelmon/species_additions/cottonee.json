@@ -341,9 +341,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcottoneeone_epochtwowhimsicott",
+          "id": "epochcottoneeone_whimsicott_epoch",
           "variant": "item_interact",
-          "result": "epochtwowhimsicott",
+          "result": "whimsicott epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

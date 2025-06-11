@@ -155,6 +155,7 @@
         "gen6",
         "insurgence",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -471,6 +472,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -604,6 +606,7 @@
         "gen6",
         "daybreak",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -632,6 +635,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "frogadier form=vesitan",
       "baseScale": 0.3870967741935484,
       "cannotDynamax": false,
       "abilities": [
@@ -710,7 +714,10 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitangreninja.desc"

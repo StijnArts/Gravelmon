@@ -7,13 +7,13 @@
       "id": "narspike-01",
       "pokemon": "narspike",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
       "level": "16-36",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"

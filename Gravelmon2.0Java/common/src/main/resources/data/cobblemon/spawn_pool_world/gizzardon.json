@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "48-58",
-      "weight": 0.03,
+      "level": "48-68",
+      "weight": 0.009,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands",

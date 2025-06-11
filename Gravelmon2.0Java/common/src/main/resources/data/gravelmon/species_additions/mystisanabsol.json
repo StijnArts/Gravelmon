@@ -1,0 +1,190 @@
+{
+  "target": "cobblemon:mystisanabsol",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ice",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 163,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "slushrush",
+        "h:snowwarning"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 130,
+        "defence": 60,
+        "special_attack": 75,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:scratch",
+        "1:feint",
+        "4:leer",
+        "7:quickattack",
+        "10:pursuit",
+        "13:haze",
+        "16:icefang",
+        "19:doubleteam",
+        "22:slash",
+        "25:swordsdance",
+        "29:nightslash",
+        "33:detect",
+        "35:avalanche",
+        "37:psychocut",
+        "39:aurorabeam",
+        "41:mefirst",
+        "49:razorwind",
+        "53:futuresight",
+        "57:perishsong",
+        "tm:snore",
+        "tm:spite",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:roleplay",
+        "tm:superpower",
+        "tm:magiccoat",
+        "tm:knockoff",
+        "tm:snatch",
+        "tm:bounce",
+        "tm:shockwave",
+        "tm:waterpulse",
+        "tm:zenheadbutt",
+        "tm:foulplay",
+        "tm:laserfocus",
+        "tm:throatchop",
+        "tm:swordsdance",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:falseswipe",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:shadowball",
+        "tm:snowscape",
+        "tm:torment",
+        "tm:willowisp",
+        "tm:facade",
+        "tm:taunt",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:calmmind",
+        "tm:payback",
+        "tm:darkpulse",
+        "tm:xscissor",
+        "tm:gigaimpact",
+        "tm:shadowclaw",
+        "tm:stoneedge",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:snarl",
+        "tm:confide",
+        "tm:brutalswing",
+        "tm:airslash",
+        "tm:iciclecrash",
+        "tm:auroraveil",
+        "tm:doubleedge",
+        "tm:curse",
+        "tm:feintattack",
+        "tm:perishsong",
+        "tm:meanlook",
+        "tm:megahorn",
+        "tm:batonpass",
+        "tm:assurance",
+        "tm:mefirst",
+        "tm:punishment",
+        "tm:suckerpunch",
+        "tm:hex",
+        "tm:playrough",
+        "tm:iceshard"
+      ],
+      "labels": [
+        "mystis",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mystisanabsol.desc"
+      ],
+      "height": 0,
+      "weight": 0,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

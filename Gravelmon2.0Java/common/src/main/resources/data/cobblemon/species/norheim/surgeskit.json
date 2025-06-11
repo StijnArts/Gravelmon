@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "surgeskit",
   "baseScale": 0.3235955056179775,
   "cannotDynamax": false,
   "abilities": [
@@ -92,7 +93,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.surgeskit.desc"
@@ -101,7 +103,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4143,
+  "nationalPokedexNumber": 4082,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5625,

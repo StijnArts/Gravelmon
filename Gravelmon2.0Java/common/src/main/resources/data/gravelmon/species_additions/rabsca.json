@@ -11,6 +11,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rabsca qamoran",
       "baseScale": 0.187012987012987,
       "cannotDynamax": false,
       "abilities": [
@@ -87,7 +88,8 @@
       ],
       "labels": [
         "qamor",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.qamoranrabsca.desc"

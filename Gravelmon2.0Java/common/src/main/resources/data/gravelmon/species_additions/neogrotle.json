@@ -1,0 +1,162 @@
+{
+  "target": "cobblemon:neogrotle",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fairy",
+      "secondaryType": "ground",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.275,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye",
+        "h:magicguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 64,
+        "defence": 75,
+        "special_attack": 70,
+        "special_defence": 85,
+        "speed": 36
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "5:withdraw",
+        "7:fairywind",
+        "9:mudslap",
+        "13:aromatherapy",
+        "17:bite",
+        "22:bulldoze",
+        "31:growth",
+        "35:moonlight",
+        "39:extrasensory",
+        "43:moonblast",
+        "47:earthpower",
+        "53:mistyterrain",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:irontail",
+        "tm:synthesis",
+        "tm:superpower",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:earthpower",
+        "tm:stealthrock",
+        "tm:swordsdance",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:round",
+        "tm:workup",
+        "tm:confide",
+        "tm:calmmind",
+        "tm:gigadrain",
+        "tm:dig",
+        "tm:secretpower",
+        "tm:silverwind",
+        "tm:captivate",
+        "tm:sleeptalk",
+        "tm:naturalgift",
+        "tm:cut",
+        "tm:strength",
+        "tm:rocksmash",
+        "tm:rockclimb",
+        "tm:petalblizzard",
+        "tm:bodyslam",
+        "tm:thrash",
+        "tm:doubleedge",
+        "tm:growth",
+        "tm:amnesia",
+        "tm:tickle",
+        "tm:sandtomb",
+        "tm:wideguard",
+        "tm:heavyslam",
+        "tm:grassyterrain"
+      ],
+      "labels": [
+        "neonintendo",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.neogrotle.desc"
+      ],
+      "height": 11,
+      "weight": 970,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

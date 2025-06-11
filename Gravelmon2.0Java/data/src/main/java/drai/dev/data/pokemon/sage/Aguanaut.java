@@ -135,12 +135,13 @@ public class Aguanaut extends Pokemon {
                 5, List.of(
                         new ItemDrop("minecraft:prismarine", 50, 4, 8),
                         new ItemDrop("minecraft:leather", 50, 4, 8)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 42, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.6, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COAST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setCanSwim(true);
 
         this.setBaseScale(1);

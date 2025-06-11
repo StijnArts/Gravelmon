@@ -92,6 +92,7 @@
   "labels": [
     "raian",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3247,
+  "nationalPokedexNumber": 3186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

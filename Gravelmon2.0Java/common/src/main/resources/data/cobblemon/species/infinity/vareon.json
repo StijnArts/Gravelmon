@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 35,
   "baseFriendship": 70,
-  "preEvolution": "eevee",
+  "preEvolution": "vareon",
   "baseScale": 0.3096774193548387,
   "cannotDynamax": false,
   "abilities": [
@@ -168,6 +168,8 @@
   "labels": [
     "infinity",
     "not_modeled",
+    "eeveelution",
+    "fakemonevolution",
     "eeveelution",
     "fakemonevolution"
   ],

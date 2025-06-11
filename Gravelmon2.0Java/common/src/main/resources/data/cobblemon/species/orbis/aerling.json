@@ -80,7 +80,8 @@
   ],
   "labels": [
     "orbis",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.aerling.desc"
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 9130,
+  "nationalPokedexNumber": 9020,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -102,7 +102,8 @@
   "labels": [
     "uranium",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.krakanao.desc"
@@ -111,7 +112,7 @@
   "weight": 886,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2608,
+  "nationalPokedexNumber": 2547,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

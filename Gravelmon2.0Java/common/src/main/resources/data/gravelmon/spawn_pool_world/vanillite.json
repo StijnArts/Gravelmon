@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "11-34",
-      "weight": 6.75,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "11-32",
-      "weight": 7.5,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-29",
-      "weight": 6.0,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -92,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-37",
-      "weight": 6.75,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt",
@@ -118,8 +118,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "5-37",
-      "weight": 6.0,
+      "level": "5-25",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"

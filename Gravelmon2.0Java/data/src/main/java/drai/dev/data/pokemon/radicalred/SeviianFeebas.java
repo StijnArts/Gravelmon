@@ -58,12 +58,16 @@ public class SeviianFeebas extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN3),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 10, 20, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(10)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_SWAMP)
+    .setAntiBiomes(Biome.IS_COLD)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Feebas");
     }
 }

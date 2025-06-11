@@ -168,6 +168,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "krokorok form=ayreian",
       "baseScale": 0.46153846153846156,
       "cannotDynamax": false,
       "abilities": [
@@ -326,7 +327,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiankrookodile.desc"

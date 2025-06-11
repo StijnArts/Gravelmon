@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "tangorgon",
   "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
@@ -85,7 +86,8 @@
   ],
   "labels": [
     "aristos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tangorgon.desc"
@@ -94,7 +96,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2457,
+  "nationalPokedexNumber": 2396,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

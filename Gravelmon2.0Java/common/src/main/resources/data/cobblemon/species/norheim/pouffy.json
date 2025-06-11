@@ -75,7 +75,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.pouffy.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4093,
+  "nationalPokedexNumber": 4032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

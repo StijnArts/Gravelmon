@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
+  "preEvolution": "drilladin",
   "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
@@ -94,7 +95,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "blazing_emerald"
+    "blazing_emerald",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drilladin.desc"
@@ -103,7 +105,7 @@
   "weight": 453,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5103,
+  "nationalPokedexNumber": 5042,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

@@ -239,7 +239,16 @@
         "mineral",
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "1:smokescreen",
         "4:acid",
@@ -337,9 +346,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpoltchageistone_epochtwosinistcha",
+          "id": "epochpoltchageistone_sinistcha_epoch",
           "variant": "item_interact",
-          "result": "epochtwosinistcha",
+          "result": "sinistcha epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

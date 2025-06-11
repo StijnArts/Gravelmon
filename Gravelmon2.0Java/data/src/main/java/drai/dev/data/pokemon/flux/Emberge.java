@@ -33,14 +33,17 @@ public class Emberge extends Pokemon {
                         ),
                 List.of(Label.FLUX),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 54, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_FOREST)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
         setCanFly(true);
     }
 }

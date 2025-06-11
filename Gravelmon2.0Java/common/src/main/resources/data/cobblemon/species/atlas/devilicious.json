@@ -76,7 +76,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.devilicious.desc"
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7116,
+  "nationalPokedexNumber": 7055,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

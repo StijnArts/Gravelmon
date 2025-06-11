@@ -147,7 +147,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "taillow",
+      "preEvolution": "swellow armiran",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -277,6 +277,7 @@
         "gen3",
         "daybreak",
         "not_modeled",
+        "fakemonevolution",
         "fakemonevolution"
       ],
       "pokedex": [

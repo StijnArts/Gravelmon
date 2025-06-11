@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "seascull",
   "baseScale": 0.3952941176470588,
   "cannotDynamax": false,
   "abilities": [
@@ -78,7 +79,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seascull.desc"
@@ -87,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4208,
+  "nationalPokedexNumber": 4147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

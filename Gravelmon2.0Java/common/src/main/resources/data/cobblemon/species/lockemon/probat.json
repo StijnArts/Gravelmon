@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "probat",
   "baseScale": 0.060937500000000006,
   "cannotDynamax": false,
   "abilities": [
@@ -99,7 +100,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.probat.desc"
@@ -108,7 +110,7 @@
   "weight": 1221,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4596,
+  "nationalPokedexNumber": 4535,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -96,7 +96,8 @@
   "labels": [
     "uranium",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.baitatao.desc"
@@ -105,7 +106,7 @@
   "weight": 2550,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2606,
+  "nationalPokedexNumber": 2545,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

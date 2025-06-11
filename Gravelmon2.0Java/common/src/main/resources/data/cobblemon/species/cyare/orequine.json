@@ -77,7 +77,8 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.orequine.desc"
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7436,
+  "nationalPokedexNumber": 7375,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

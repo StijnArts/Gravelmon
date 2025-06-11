@@ -7,19 +7,14 @@
       "id": "seviian_milotic-01",
       "pokemon": "milotic seviian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "30-55",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_swamp"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -37,13 +32,13 @@
       "id": "delta_milotic-01",
       "pokemon": "milotic delta",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "30-57",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -67,13 +62,12 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
         ],
-        "timeRange": 30,
         "minSkyLight": 8,
         "maxSkyLight": 15
       },
@@ -94,9 +88,9 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "34-54",
-      "weight": 1.2000000000000002,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"

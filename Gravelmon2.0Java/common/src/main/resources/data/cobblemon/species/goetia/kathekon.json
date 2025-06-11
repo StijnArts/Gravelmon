@@ -89,7 +89,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.kathekon.desc"
@@ -98,7 +99,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8247,
+  "nationalPokedexNumber": 8186,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

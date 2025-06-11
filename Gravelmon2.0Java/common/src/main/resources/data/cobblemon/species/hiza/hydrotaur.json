@@ -126,6 +126,7 @@
   "labels": [
     "hiza",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -136,7 +137,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2880,
+  "nationalPokedexNumber": 2819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

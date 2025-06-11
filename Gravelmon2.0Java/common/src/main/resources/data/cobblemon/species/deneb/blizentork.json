@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "delibird",
+  "preEvolution": "blizentork",
   "baseScale": 0.52,
   "cannotDynamax": false,
   "abilities": [
@@ -131,6 +131,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -140,7 +141,7 @@
   "weight": 305,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6243,
+  "nationalPokedexNumber": 6182,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

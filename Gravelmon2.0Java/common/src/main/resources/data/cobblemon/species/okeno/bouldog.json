@@ -141,6 +141,7 @@
   "labels": [
     "okeno",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -166,7 +167,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5956,
+  "nationalPokedexNumber": 5895,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

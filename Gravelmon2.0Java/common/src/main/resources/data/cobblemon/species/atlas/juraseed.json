@@ -104,7 +104,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.juraseed.desc"
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7093,
+  "nationalPokedexNumber": 7032,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

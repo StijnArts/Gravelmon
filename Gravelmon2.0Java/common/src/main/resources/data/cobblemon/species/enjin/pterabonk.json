@@ -140,7 +140,8 @@
   ],
   "labels": [
     "enjin",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pterabonk.desc"
@@ -164,7 +165,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6416,
+  "nationalPokedexNumber": 6355,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

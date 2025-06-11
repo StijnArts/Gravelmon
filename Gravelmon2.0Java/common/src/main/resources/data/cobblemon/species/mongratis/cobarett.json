@@ -91,6 +91,7 @@
   "labels": [
     "myth",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8484,
+  "nationalPokedexNumber": 8423,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

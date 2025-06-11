@@ -94,12 +94,15 @@ public class GengarX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN1),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 36, 57, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Gengar");
 
         

@@ -7,13 +7,13 @@
       "id": "balloonga-01",
       "pokemon": "balloonga",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "11-33",
-      "weight": 7.5,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

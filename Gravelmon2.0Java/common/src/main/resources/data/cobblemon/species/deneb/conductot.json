@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "chatot",
+  "preEvolution": "conductot",
   "baseScale": 0.6000000000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -123,6 +123,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -132,7 +133,7 @@
   "weight": 336,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6178,
+  "nationalPokedexNumber": 6117,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

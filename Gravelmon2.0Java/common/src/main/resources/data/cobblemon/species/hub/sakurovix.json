@@ -143,7 +143,8 @@
   ],
   "labels": [
     "hub",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.sakurovix.desc"

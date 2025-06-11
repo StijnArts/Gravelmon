@@ -88,7 +88,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.punkoil.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8232,
+  "nationalPokedexNumber": 8171,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

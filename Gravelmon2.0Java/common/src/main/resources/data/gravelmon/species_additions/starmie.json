@@ -165,6 +165,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "starmie ionosian",
       "baseScale": 0.6428571428571428,
       "cannotDynamax": false,
       "abilities": [
@@ -215,7 +216,16 @@
       "eggGroups": [
         "field"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:metalclaw",
         "1:ember",
@@ -239,7 +249,8 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianstarmie.desc"
@@ -329,5 +340,15 @@
       "requiredContext": "cobblemon:astral_stone",
       "permanent": true
     }
-  ]
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

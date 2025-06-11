@@ -147,7 +147,8 @@
     "mythire",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.amphibrea.desc"
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5231,
+  "nationalPokedexNumber": 5170,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

@@ -116,7 +116,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.razaury.desc"
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4298,
+  "nationalPokedexNumber": 4237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

@@ -134,7 +134,8 @@
       "labels": [
         "gen4",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltaturtwig.desc"
@@ -315,7 +316,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochturtwig.desc"
@@ -485,7 +487,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochturtwigone.desc"
@@ -497,9 +500,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochturtwigone_epochtwogrotle",
+          "id": "epochturtwigone_grotle_epoch",
           "variant": "level_up",
-          "result": "epochtwogrotle",
+          "result": "grotle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

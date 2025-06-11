@@ -7,7 +7,7 @@
       "id": "ampupoda-01",
       "pokemon": "ampupoda",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

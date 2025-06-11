@@ -75,7 +75,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.wellmr.desc"
@@ -84,7 +85,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4271,
+  "nationalPokedexNumber": 4210,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

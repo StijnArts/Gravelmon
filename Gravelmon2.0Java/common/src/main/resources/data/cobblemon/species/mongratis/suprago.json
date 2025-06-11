@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "suprago",
   "baseScale": 0.544,
   "cannotDynamax": false,
   "abilities": [
@@ -87,7 +88,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.suprago.desc"
@@ -96,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8533,
+  "nationalPokedexNumber": 8472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

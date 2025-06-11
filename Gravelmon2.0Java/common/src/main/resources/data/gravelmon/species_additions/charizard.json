@@ -184,6 +184,7 @@
       "labels": [
         "gen1",
         "infinity",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -240,7 +241,7 @@
             "canSwimInWater": true,
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
+            "canBreatheUnderwater": true,
             "canWalkOnLava": false
           }
         }
@@ -383,6 +384,7 @@
       "labels": [
         "gen1",
         "insurgence",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -552,6 +554,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -581,6 +584,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "charmeleon form=epoch",
       "baseScale": 0.5666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -714,7 +718,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochcharizardone.desc"
@@ -893,6 +900,7 @@
         "gen1",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [

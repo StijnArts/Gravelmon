@@ -82,7 +82,8 @@
   ],
   "labels": [
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mozz.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2615,
+  "nationalPokedexNumber": 2554,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

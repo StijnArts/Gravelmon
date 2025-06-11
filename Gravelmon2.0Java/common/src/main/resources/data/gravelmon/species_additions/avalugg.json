@@ -344,6 +344,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bergmite form=epoch",
       "baseScale": 0.5217391304347826,
       "cannotDynamax": false,
       "abilities": [
@@ -472,7 +473,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochavaluggone.desc"
@@ -500,6 +503,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "bergmite form=vesitan",
       "baseScale": 0.5161290322580645,
       "cannotDynamax": false,
       "abilities": [
@@ -577,7 +581,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanavalugg.desc"

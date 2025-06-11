@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 44,
-    "attack": 23,
-    "defence": 48,
-    "special_attack": 55,
-    "special_defence": 42,
-    "speed": 37
+    "hp": 51,
+    "attack": 27,
+    "defence": 56,
+    "special_attack": 63,
+    "special_defence": 49,
+    "speed": 44
   },
   "evYield": {
     "hp": 0,
@@ -88,7 +88,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.appalyp.desc"
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8678,
+  "nationalPokedexNumber": 8617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

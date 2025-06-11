@@ -85,12 +85,15 @@ public class Seekore extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 5.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
-                ), List.of(),
-                List.of(SpawnPreset.MINESHAFT),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(7)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .setSpawnPreset(SpawnPreset.MINESHAFT)
+    .build(), List.of());
+	
            setLangFileName("Seekore");
 
     }

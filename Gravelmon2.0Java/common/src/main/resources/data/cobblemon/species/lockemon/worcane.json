@@ -84,6 +84,7 @@
   "labels": [
     "lockemon",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -94,7 +95,7 @@
   "weight": 121,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4595,
+  "nationalPokedexNumber": 4534,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

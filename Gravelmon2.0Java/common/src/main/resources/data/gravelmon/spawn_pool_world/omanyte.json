@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-34",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -34,13 +34,13 @@
       "id": "novran_omanyte-01",
       "pokemon": "omanyte novran",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
-      "level": "11-36",
-      "weight": 13.5,
+      "level": "11-31",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"

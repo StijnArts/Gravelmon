@@ -78,7 +78,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.squisker.desc"
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4286,
+  "nationalPokedexNumber": 4225,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

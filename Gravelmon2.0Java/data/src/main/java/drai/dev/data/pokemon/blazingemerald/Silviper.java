@@ -71,13 +71,16 @@ public class Silviper extends Pokemon {
                 List.of(Label.BLAZING_EMERALD),
                 1, List.of(
                         new ItemDrop("gravelmon:silver_scale",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 56, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setPreEvolution("seviper");
         addAdditionalEvolution("seviper", new EvolutionEntry("silviper", EvolutionType.LEVEL_UP, List.of(),

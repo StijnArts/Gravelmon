@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "9-31",
-      "weight": 13.5,
+      "level": "9-29",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "maxY": 48
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-35",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -67,13 +62,13 @@
       "id": "epoch_tentacool-01",
       "pokemon": "tentacool epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "11-29",
-      "weight": 13.5,
+      "level": "11-31",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean",
@@ -95,13 +90,13 @@
       "id": "forman_tentacool-01",
       "pokemon": "tentacool forman",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "21-36",
-      "weight": 1.6500000000000001,
+      "level": "21-41",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -128,21 +123,16 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "9-31",
-      "weight": 13.5,
+      "level": "9-29",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "maxY": 48
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_freezing"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -179,8 +169,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "13-32",
-      "weight": 13.5,
+      "level": "13-33",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

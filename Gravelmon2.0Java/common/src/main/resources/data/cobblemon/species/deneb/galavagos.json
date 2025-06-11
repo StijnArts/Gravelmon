@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "torkoal",
+  "preEvolution": "galavagos",
   "baseScale": 0.675,
   "cannotDynamax": false,
   "abilities": [
@@ -129,6 +129,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -138,7 +139,7 @@
   "weight": 2304,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6244,
+  "nationalPokedexNumber": 6183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

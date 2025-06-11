@@ -173,6 +173,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "inkay form=vesitan",
       "baseScale": 0.4444444444444444,
       "cannotDynamax": false,
       "abilities": [
@@ -255,7 +256,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanmalamar.desc"

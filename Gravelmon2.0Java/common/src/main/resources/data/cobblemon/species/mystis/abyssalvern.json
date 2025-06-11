@@ -64,7 +64,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.abyssalvern.desc"
@@ -73,7 +74,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8806,
+  "nationalPokedexNumber": 8745,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

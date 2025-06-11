@@ -10,8 +10,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "24-41",
-      "weight": 0.75,
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",

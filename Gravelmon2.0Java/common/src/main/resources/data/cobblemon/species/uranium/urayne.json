@@ -150,6 +150,7 @@
     "uranium",
     "legendary",
     "not_modeled",
+    "legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -171,7 +172,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2611,
+  "nationalPokedexNumber": 2550,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

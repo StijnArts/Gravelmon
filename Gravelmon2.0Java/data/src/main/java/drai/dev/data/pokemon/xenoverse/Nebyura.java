@@ -89,13 +89,14 @@ public class Nebyura extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 52, 0.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_CROPS),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
+    .build(), List.of());
+	
         
         
         setBaseScale(1.75);

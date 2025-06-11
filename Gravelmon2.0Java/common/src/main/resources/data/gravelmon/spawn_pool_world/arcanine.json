@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "31-56",
-      "weight": 0.30000000000000004,
+      "level": "31-51",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "36-53",
-      "weight": 0.30000000000000004,
+      "level": "36-56",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "33-54",
-      "weight": 1.0499999999999998,
+      "level": "33-53",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
@@ -88,13 +88,13 @@
       "id": "palmian_arcanine-01",
       "pokemon": "arcanine palmian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "38-58",
-      "weight": 0.44999999999999996,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -121,8 +121,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "37-54",
-      "weight": 0.6000000000000001,
+      "level": "37-57",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -171,8 +171,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "36-53",
-      "weight": 0.30000000000000004,
+      "level": "36-56",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

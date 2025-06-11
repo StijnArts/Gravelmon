@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "18-27",
-      "weight": 1.5,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-40",
-      "weight": 1.35,
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -65,7 +65,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-40",
-      "weight": 5.4,
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_fire"
@@ -89,8 +89,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "16-29",
-      "weight": 1.5,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -117,7 +117,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "16-40",
-      "weight": 5.4,
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

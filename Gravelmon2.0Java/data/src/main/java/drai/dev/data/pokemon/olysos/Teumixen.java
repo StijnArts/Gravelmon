@@ -16,7 +16,7 @@ public class Teumixen extends drai.dev.data.pokemon.Pokemon {
                         92,
                         54),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                7, 350,
+                14, 350,
                 new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,

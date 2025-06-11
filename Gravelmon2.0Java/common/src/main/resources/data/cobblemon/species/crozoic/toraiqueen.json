@@ -110,7 +110,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.toraiqueen.desc"
@@ -119,7 +120,7 @@
   "weight": 2898,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4330,
+  "nationalPokedexNumber": 4269,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

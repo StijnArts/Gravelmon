@@ -1,6 +1,7 @@
 package drai.dev.data.jsonwriters.assets;
 
 import com.google.gson.*;
+import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.*;
 
 import javax.imageio.*;
@@ -20,7 +21,9 @@ public class FossilJSONWriter {
                 var lootDir = dataDir + "loot_tables\\fossils\\rare\\";
                 var resolverDir = assetDir + "bedrock\\fossils\\variations\\";
                 var poserDir = assetDir + "bedrock\\fossils\\posers\\";
+                String textureDir = assetDir + "textures\\fossils\\";
 
+                Files.createDirectories(new File(textureDir).toPath());
                 Files.createDirectories(new File(fossilDir).toPath());
                 Files.createDirectories(new File(lootDir).toPath());
                 Files.createDirectories(new File(resolverDir).toPath());
@@ -95,7 +98,24 @@ public class FossilJSONWriter {
         variations.add(variation);
         fileContents.add("variations", variations);
 
-        createPlaceholderTextureIfNotExists( species.replaceAll(" ","_") + ".png", resourcesDir);
+        var pokemon = Pokemon.getPokemonById(species);
+        if(pokemon != null && !pokemon.isModeled()) {
+            variation.add("model", new JsonPrimitive("cobblemon:"+pokemon.getPlaceholderModelName(false)));
+            var path = pokemon.getTexturePath();
+            var file = new File(path);
+            if(!file.exists()) {
+                String textureDir = resourcesDir + "\\assets\\cobblemon\\textures\\fossils\\";
+                File targetFile = new File(textureDir, file.getName());
+
+                try {
+                    Files.copy(file.toPath(), targetFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        } else {
+            createPlaceholderTextureIfNotExists( species.replaceAll(" ","_") + ".png", resourcesDir);
+        }
 
         var assetFile = new File(dir + speciesName + ".json");
         if (!assetFile.exists()) {
@@ -112,7 +132,6 @@ public class FossilJSONWriter {
         if (!textureLocation.exists()) {
             BufferedImage placeholder = new BufferedImage(96, 96, 3);
             try {
-                Files.createDirectories(new File(textureDir).toPath());
                 ImageIO.write(placeholder, "png", textureLocation);
             } catch (IOException e) {
                 throw new RuntimeException(e);

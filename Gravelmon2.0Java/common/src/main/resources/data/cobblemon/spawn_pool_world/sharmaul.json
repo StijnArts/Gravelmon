@@ -7,13 +7,13 @@
       "id": "sharmaul-01",
       "pokemon": "sharmaul",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "41-64",
-      "weight": 0.75,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "45-57",
-      "weight": 0.375,
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

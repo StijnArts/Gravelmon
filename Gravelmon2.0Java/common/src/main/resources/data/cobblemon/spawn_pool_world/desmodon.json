@@ -9,23 +9,15 @@
       "presets": [],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "33-54",
-      "weight": 0.045,
+      "bucket": "common",
+      "level": "33-53",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest",
-          "#cobblemon:is_grassland",
-          "#cobblemon:is_river",
-          "#cobblemon:is_freshwater"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

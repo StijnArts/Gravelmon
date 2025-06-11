@@ -80,12 +80,15 @@ public class SeviianDhelmise extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN7),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.RARE, 24, 56, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(24)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dhelmise");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

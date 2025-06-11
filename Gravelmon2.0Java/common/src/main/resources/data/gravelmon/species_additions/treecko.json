@@ -149,7 +149,8 @@
       ],
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltatreecko.desc"
@@ -266,7 +267,8 @@
       "labels": [
         "gen3",
         "azure",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.mystictreecko.desc"
@@ -435,7 +437,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochtreecko.desc"
@@ -609,7 +612,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochtreeckoone.desc"
@@ -621,9 +625,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtreeckoone_epochtwogrovyle",
+          "id": "epochtreeckoone_grovyle_epoch",
           "variant": "level_up",
-          "result": "epochtwogrovyle",
+          "result": "grovyle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -715,6 +719,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -1011,7 +1016,8 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiantreecko.desc"

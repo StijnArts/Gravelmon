@@ -108,7 +108,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.vulkidna.desc"
@@ -132,7 +133,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6891,
+  "nationalPokedexNumber": 6830,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

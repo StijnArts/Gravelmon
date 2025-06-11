@@ -140,6 +140,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -266,6 +267,7 @@
       "labels": [
         "mastenia",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],

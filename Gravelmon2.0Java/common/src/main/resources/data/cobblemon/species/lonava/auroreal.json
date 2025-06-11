@@ -114,6 +114,7 @@
   "labels": [
     "lonava",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -124,7 +125,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4503,
+  "nationalPokedexNumber": 4442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -467,9 +467,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochblitzleone_epochtwozebstrika",
+          "id": "epochblitzleone_zebstrika_epoch",
           "variant": "level_up",
-          "result": "epochtwozebstrika",
+          "result": "zebstrika epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

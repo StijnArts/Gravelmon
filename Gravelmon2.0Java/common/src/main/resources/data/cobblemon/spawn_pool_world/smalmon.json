@@ -7,13 +7,13 @@
       "id": "smalmon-01",
       "pokemon": "smalmon",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
       "level": "2-22",
-      "weight": 10.5,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river"

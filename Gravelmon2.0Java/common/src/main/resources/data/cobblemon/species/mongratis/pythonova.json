@@ -94,6 +94,7 @@
   "labels": [
     "myth",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -104,7 +105,7 @@
   "weight": 69,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8485,
+  "nationalPokedexNumber": 8424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

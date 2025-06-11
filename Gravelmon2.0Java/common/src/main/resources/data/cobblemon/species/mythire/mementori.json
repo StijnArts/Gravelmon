@@ -138,7 +138,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.mementori.desc"
@@ -147,7 +148,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5242,
+  "nationalPokedexNumber": 5181,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -68,7 +68,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.timberry.desc"
@@ -92,7 +93,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8534,
+  "nationalPokedexNumber": 8473,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

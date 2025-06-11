@@ -677,9 +677,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcacneaone_epochtwocacturne",
+          "id": "epochcacneaone_cacturne_epoch",
           "variant": "level_up",
-          "result": "epochtwocacturne",
+          "result": "cacturne epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

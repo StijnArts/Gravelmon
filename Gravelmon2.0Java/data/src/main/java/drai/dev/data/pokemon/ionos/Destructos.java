@@ -58,12 +58,15 @@ public class Destructos extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_HAMMER,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
-                ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPRING)
+    .setSpawnPreset(SpawnPreset.TRAIL_RUINS)
+    .build(), List.of());
+	
            setLangFileName("Destructos");
 
     }

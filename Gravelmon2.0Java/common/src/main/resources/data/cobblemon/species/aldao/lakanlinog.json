@@ -71,6 +71,7 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "legendary",
     "instagram",
     "instagram"
   ],
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3861,
+  "nationalPokedexNumber": 3800,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

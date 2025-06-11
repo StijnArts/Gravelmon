@@ -84,6 +84,7 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -96,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3858,
+  "nationalPokedexNumber": 3797,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -732,9 +732,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrimerone_epochtwomuk",
+          "id": "epochgrimerone_muk_epoch",
           "variant": "level_up",
-          "result": "epochtwomuk",
+          "result": "muk epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

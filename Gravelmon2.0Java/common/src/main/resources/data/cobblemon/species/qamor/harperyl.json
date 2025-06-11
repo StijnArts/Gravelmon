@@ -85,7 +85,8 @@
     "qamor",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.harperyl.desc"
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5433,
+  "nationalPokedexNumber": 5372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

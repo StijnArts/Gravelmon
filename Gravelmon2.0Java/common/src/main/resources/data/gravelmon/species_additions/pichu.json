@@ -612,9 +612,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochpichuone_epochtwopikachu",
+          "id": "epochpichuone_pikachu_epoch",
           "variant": "level_up",
-          "result": "epochtwopikachu",
+          "result": "pikachu epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

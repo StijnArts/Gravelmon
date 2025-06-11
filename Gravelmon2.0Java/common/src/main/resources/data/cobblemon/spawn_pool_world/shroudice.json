@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "55-65",
-      "weight": 0.15000000000000002,
+      "bucket": "common",
+      "level": "55-75",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

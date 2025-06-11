@@ -81,7 +81,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.delvalite.desc"
@@ -90,7 +91,7 @@
   "weight": 380,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4313,
+  "nationalPokedexNumber": 4252,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

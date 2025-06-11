@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "porygon2",
+  "preEvolution": "porygonwes",
   "baseScale": 0.9,
   "cannotDynamax": false,
   "abilities": [
@@ -129,6 +129,7 @@
   ],
   "labels": [
     "xenoverse",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

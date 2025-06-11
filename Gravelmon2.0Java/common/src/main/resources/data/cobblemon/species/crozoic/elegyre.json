@@ -126,7 +126,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.elegyre.desc"
@@ -135,7 +136,7 @@
   "weight": 472,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4371,
+  "nationalPokedexNumber": 4310,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

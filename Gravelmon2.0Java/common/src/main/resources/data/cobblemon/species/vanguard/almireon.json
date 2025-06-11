@@ -137,7 +137,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution"
   ],
   "pokedex": [
     "cobblemon.species.almireon.desc"
@@ -146,7 +147,7 @@
   "weight": 950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5494,
+  "nationalPokedexNumber": 5433,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

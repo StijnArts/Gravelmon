@@ -83,6 +83,7 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "fossil",
     "instagram",
     "instagram"
   ],
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3803,
+  "nationalPokedexNumber": 3742,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

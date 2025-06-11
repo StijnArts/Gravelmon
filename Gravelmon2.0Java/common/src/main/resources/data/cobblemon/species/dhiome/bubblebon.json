@@ -80,7 +80,8 @@
   ],
   "labels": [
     "dhiome",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bubblebon.desc"

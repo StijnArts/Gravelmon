@@ -88,7 +88,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.seraphlea.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8241,
+  "nationalPokedexNumber": 8180,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

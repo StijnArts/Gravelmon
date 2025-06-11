@@ -96,12 +96,15 @@ public class Wikkin extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.43, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setCanFly(true);
         this.setBaseScale(0.6);

@@ -296,6 +296,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snooz",
       "baseScale": 0.25,
       "cannotDynamax": false,
       "abilities": [
@@ -368,7 +369,9 @@
       ],
       "labels": [
         "enjin",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.enjinniandrowzee.desc"

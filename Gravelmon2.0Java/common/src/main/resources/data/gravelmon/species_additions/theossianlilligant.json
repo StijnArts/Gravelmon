@@ -1,0 +1,164 @@
+{
+  "target": "cobblemon:theossianlilligant",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "ice",
+      "catchRate": 75,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 168,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.275,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "h:serenegrace"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 60,
+        "defence": 75,
+        "special_attack": 110,
+        "special_defence": 75,
+        "speed": 90
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:megadrain",
+        "1:synthesis",
+        "1:growth",
+        "1:leechseed",
+        "10:teeterdance",
+        "28:quiverdance",
+        "46:petaldance",
+        "50:petalblizzard",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:healbell",
+        "tm:synthesis",
+        "tm:helpinghand",
+        "tm:roleplay",
+        "tm:covet",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:afteryou",
+        "tm:laserfocus",
+        "tm:swordsdance",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:round",
+        "tm:confide",
+        "tm:grassyterrain",
+        "tm:petalblizzard",
+        "tm:babydolleyes",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:cut",
+        "tm:encore",
+        "tm:endure",
+        "tm:flash",
+        "tm:grassyglide",
+        "tm:leafblade",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:pollenpuff",
+        "tm:secretpower",
+        "tm:solarblade",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:weatherball",
+        "tm:bide",
+        "tm:endure",
+        "tm:charm",
+        "tm:encore",
+        "tm:sweetscent",
+        "tm:ingrain",
+        "tm:grasswhistle",
+        "tm:healingwish",
+        "tm:naturalgift"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianlilligant.desc"
+      ],
+      "height": 11,
+      "weight": 163,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

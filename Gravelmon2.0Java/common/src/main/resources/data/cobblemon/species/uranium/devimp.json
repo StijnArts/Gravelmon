@@ -145,7 +145,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.devimp.desc"
@@ -169,7 +170,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2601,
+  "nationalPokedexNumber": 2540,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

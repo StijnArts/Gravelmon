@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "24-46",
-      "weight": 0.8999999999999999,
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "minecraft:mangrove_swamp"

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianKingdra extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianKingdra() {
-        super("Kingdra",
+    public VaritasianKingdra(String s, Aspect aspect) {
+        super(s, aspect, "Kingdra",
                 Type.GRASS, Type.DRAGON,
                 new Stats(75,
                         95,
@@ -17,7 +17,7 @@ public class VaritasianKingdra extends drai.dev.data.pokemon.Pokemon {
                         95,
                         85),
                 List.of(Ability.SWIFT_SWIM,Ability.SNIPER,Ability.DAMP), Ability.DAMP,
-                8, 165,
+                18, 165,
                 new Stats(0,1,0,1,1,0), 45,
                 0.5,
                 243, ExperienceGroup.MEDIUM_FAST,
@@ -114,12 +114,15 @@ public class VaritasianKingdra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(45).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Kingdra");
 
     }

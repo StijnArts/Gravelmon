@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "habaneevil",
   "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
@@ -131,7 +132,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.habaneevil.desc"
@@ -140,7 +142,7 @@
   "weight": 850,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5486,
+  "nationalPokedexNumber": 5425,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -12,16 +12,16 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "35-58",
-      "weight": 0.75,
+      "level": "35-55",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush",
           "#cobblemon:has_season/spring",
           "#cobblemon:has_season/autumn"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -7,13 +7,13 @@
       "id": "hornaval-01",
       "pokemon": "hornaval",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "33-55",
-      "weight": 0.6000000000000001,
+      "level": "33-53",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"

@@ -607,6 +607,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "lilpras",
       "baseScale": 0.7317073170731707,
       "cannotDynamax": false,
       "abilities": [
@@ -751,7 +752,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianlapras.desc"

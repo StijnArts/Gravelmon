@@ -72,7 +72,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.palagaia.desc"
@@ -81,7 +82,7 @@
   "weight": 2240,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4372,
+  "nationalPokedexNumber": 4311,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

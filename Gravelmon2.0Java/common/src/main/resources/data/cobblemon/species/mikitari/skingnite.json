@@ -155,6 +155,7 @@
   "labels": [
     "mikitari",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -180,7 +181,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8362,
+  "nationalPokedexNumber": 8301,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

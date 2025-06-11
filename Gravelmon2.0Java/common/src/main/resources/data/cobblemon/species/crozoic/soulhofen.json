@@ -139,7 +139,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.soulhofen.desc"
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4358,
+  "nationalPokedexNumber": 4297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "24-47",
-      "weight": 6.300000000000001,
+      "level": "24-44",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -34,8 +34,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "uncommon",
-      "level": "24-47",
-      "weight": 6.300000000000001,
+      "level": "24-44",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

@@ -144,7 +144,8 @@
     "uranium",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.majungold.desc"
@@ -153,7 +154,7 @@
   "weight": 1566,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2579,
+  "nationalPokedexNumber": 2518,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

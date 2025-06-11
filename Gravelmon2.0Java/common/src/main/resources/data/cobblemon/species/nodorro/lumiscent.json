@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "lumiscent",
   "baseScale": 10.8,
   "cannotDynamax": false,
   "abilities": [
@@ -77,7 +78,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lumiscent.desc"
@@ -86,7 +88,7 @@
   "weight": 6,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8837,
+  "nationalPokedexNumber": 8776,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

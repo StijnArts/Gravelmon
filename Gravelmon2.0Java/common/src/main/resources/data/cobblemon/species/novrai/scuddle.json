@@ -138,7 +138,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.scuddle.desc"
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6588,
+  "nationalPokedexNumber": 6527,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0625,

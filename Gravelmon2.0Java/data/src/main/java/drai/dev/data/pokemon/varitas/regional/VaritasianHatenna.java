@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHatenna extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianHatenna() {
-        super("Hatenna",
+    public VaritasianHatenna(String s, Aspect aspect) {
+        super(s, aspect, "Hatenna",
                 Type.PSYCHIC, Type.GROUND,
                 new Stats(0,
                         0,
@@ -17,14 +17,15 @@ public class VaritasianHatenna extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.HEALER), Ability.SAND_VEIL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 235,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Hatenna of Varitas adapted to living in desert climates. The tassel of hair on the top of its head is very sensitive to changes in the wind. When confronted, it uses its other two hair tassels to whip up sand and escape."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianhattrem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.LIFE_DEW,5),
@@ -72,9 +73,9 @@ public class VaritasianHatenna extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.VARITAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(6).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hatenna");

@@ -74,7 +74,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.julimese.desc"
@@ -83,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5326,
+  "nationalPokedexNumber": 5265,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

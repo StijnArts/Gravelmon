@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "3-22",
-      "weight": 2.7,
+      "level": "3-23",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -41,8 +41,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
-      "level": "36-54",
-      "weight": 1.5,
+      "level": "36-56",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "28-48",
-      "weight": 2.4000000000000004,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
@@ -93,8 +93,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "28-50",
-      "weight": 0.30000000000000004,
+      "level": "28-48",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

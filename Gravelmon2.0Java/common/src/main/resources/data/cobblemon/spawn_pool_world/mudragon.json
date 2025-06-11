@@ -7,13 +7,13 @@
       "id": "mudragon-01",
       "pokemon": "mudragon",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "22-51",
-      "weight": 0.645,
+      "level": "22-42",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

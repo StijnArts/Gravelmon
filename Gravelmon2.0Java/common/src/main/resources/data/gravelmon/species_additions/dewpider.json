@@ -319,9 +319,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdewpiderone_epochtwoaraquanid",
+          "id": "epochdewpiderone_araquanid_epoch",
           "variant": "level_up",
-          "result": "epochtwoaraquanid",
+          "result": "araquanid epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

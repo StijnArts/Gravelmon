@@ -143,6 +143,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "ledian alteran",
       "baseScale": 0.325,
       "cannotDynamax": false,
       "abilities": [
@@ -224,7 +225,8 @@
       "labels": [
         "flux",
         "gen2",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.alteranledian.desc"

@@ -121,13 +121,16 @@ public class DeltaDunsparce extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 12, 39, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_FRESHWATER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dunsparce");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(false);

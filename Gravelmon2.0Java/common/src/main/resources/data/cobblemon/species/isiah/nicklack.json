@@ -77,7 +77,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.nicklack.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5796,
+  "nationalPokedexNumber": 5735,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

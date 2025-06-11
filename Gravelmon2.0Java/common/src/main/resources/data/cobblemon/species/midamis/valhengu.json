@@ -82,7 +82,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.valhengu.desc"
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5950,
+  "nationalPokedexNumber": 5889,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "26-51",
-      "weight": 0.75,
+      "level": "26-46",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#minecraft:is_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",
           "#cobblemon:is_cold_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

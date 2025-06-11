@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "3-24",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

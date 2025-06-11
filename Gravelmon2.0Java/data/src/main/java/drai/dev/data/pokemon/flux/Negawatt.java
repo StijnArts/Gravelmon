@@ -48,12 +48,16 @@ public class Negawatt extends Pokemon {
                 ),
                 List.of(Label.FLUX),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 44, 67, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(44)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setAntiBiomes(Biome.IS_HIGHLANDS)
+    .isThundering()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

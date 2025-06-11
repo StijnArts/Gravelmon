@@ -78,7 +78,8 @@
   ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.wurmidrake.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5650,
+  "nationalPokedexNumber": 5589,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

@@ -1,0 +1,191 @@
+{
+  "target": "cobblemon:theossianarcanine",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ground",
+      "catchRate": 75,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 194,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "defiant",
+        "sandrush",
+        "h:justified"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 80,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:thunderfang",
+        "1:odorsleuth",
+        "1:bite",
+        "1:roar",
+        "1:firefang",
+        "34:extremespeed",
+        "tm:snore",
+        "tm:outrage",
+        "tm:irontail",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:covet",
+        "tm:dragonpulse",
+        "tm:ironhead",
+        "tm:laserfocus",
+        "tm:roar",
+        "tm:flamethrower",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:willowisp",
+        "tm:facade",
+        "tm:overheat",
+        "tm:aerialace",
+        "tm:gigaimpact",
+        "tm:flamecharge",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:wildcharge",
+        "tm:snarl",
+        "tm:confide",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:dragonrage",
+        "tm:dig",
+        "tm:teleport",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:playrough",
+        "tm:rocksmash",
+        "tm:agility",
+        "tm:captivate",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:crunch",
+        "tm:curse",
+        "tm:dragonbreath",
+        "tm:endure",
+        "tm:firefang",
+        "tm:firespin",
+        "tm:flareblitz",
+        "tm:headbutt",
+        "tm:hypervoice",
+        "tm:incinerate",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:psychicfangs",
+        "tm:retaliate",
+        "tm:reversal",
+        "tm:rockclimb",
+        "tm:scaryface",
+        "tm:scorchingsands",
+        "tm:secretpower",
+        "tm:strength",
+        "tm:superpower",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:heatcrash",
+        "tm:doublekick",
+        "tm:bodyslam",
+        "tm:thrash",
+        "tm:doubleedge",
+        "tm:firespin",
+        "tm:morningsun",
+        "tm:crunch",
+        "tm:howl",
+        "tm:closecombat",
+        "tm:flareblitz",
+        "tm:burnup",
+        "tm:ragingfury"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianarcanine.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

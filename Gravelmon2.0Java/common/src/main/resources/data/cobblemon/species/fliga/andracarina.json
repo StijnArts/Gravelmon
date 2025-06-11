@@ -80,7 +80,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.andracarina.desc"
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5324,
+  "nationalPokedexNumber": 5263,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

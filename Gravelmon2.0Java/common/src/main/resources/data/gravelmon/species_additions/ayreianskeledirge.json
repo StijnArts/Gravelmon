@@ -1,0 +1,159 @@
+{
+  "target": "cobblemon:ayreianskeledirge",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fire",
+      "secondaryType": "sound",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 265,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.4,
+      "cannotDynamax": false,
+      "abilities": [
+        "blaze",
+        "h:unaware"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 104,
+        "attack": 75,
+        "defence": 100,
+        "special_attack": 66,
+        "special_defence": 110,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 104,
+        "attack": 75,
+        "defence": 100,
+        "special_attack": 3,
+        "special_defence": 110,
+        "speed": 75
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "38:shadowball",
+        "7:lick",
+        "10:round",
+        "15:bite",
+        "28:roar",
+        "42:hypervoice",
+        "58:fireblast",
+        "17:incinerate",
+        "47:willowisp",
+        "0:torchsong",
+        "32:flamethrower",
+        "24:snarl",
+        "1:ember",
+        "47:hex",
+        "64:overheat",
+        "12:scaryface",
+        "tm:takedown",
+        "tm:mudslap",
+        "tm:scaryface",
+        "tm:protect",
+        "tm:firefang",
+        "tm:thunderfang",
+        "tm:disarmingvoice",
+        "tm:firespin",
+        "tm:facade",
+        "tm:hex",
+        "tm:snarl",
+        "tm:flamecharge",
+        "tm:nightshade",
+        "tm:endure",
+        "tm:sunnyday",
+        "tm:dig",
+        "tm:zenheadbutt",
+        "tm:shadowclaw",
+        "tm:bodyslam",
+        "tm:sleeptalk",
+        "tm:seedbomb",
+        "tm:stompingtantrum",
+        "tm:rest",
+        "tm:imprison",
+        "tm:substitute",
+        "tm:willowisp",
+        "tm:crunch",
+        "tm:shadowball",
+        "tm:hypervoice",
+        "tm:heatwave",
+        "tm:encore",
+        "tm:flamethrower",
+        "tm:helpinghand",
+        "tm:earthpower",
+        "tm:fireblast",
+        "tm:firepledge",
+        "tm:earthquake",
+        "tm:gigaimpact",
+        "tm:blastburn",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:hyperbeam",
+        "tm:flareblitz",
+        "tm:solarbeam",
+        "tm:terablast",
+        "egg:curse",
+        "egg:encore",
+        "egg:slackoff",
+        "egg:belch"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianskeledirge.desc"
+      ],
+      "height": 16,
+      "weight": 3265,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

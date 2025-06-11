@@ -447,6 +447,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "vibrava form=ionosian",
       "baseScale": 0.5164556962025316,
       "cannotDynamax": false,
       "abilities": [
@@ -521,7 +522,9 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianflygon.desc"

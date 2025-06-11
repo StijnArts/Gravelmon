@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Coarsent extends drai.dev.data.pokemon.Pokemon {
-    public Coarsent() {
+    public Coarsent(Stats stats) {
         super("Coarsent",
                 Type.WATER, Type.LIGHT,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
-                List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                stats,
+                List.of(Ability.VOLT_ABSORB,Ability.OBLIVIOUS), Ability.RATTLED,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +22,15 @@ public class Coarsent extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Coarsent");
 
     }

@@ -120,7 +120,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ptervus.desc"
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6140,
+  "nationalPokedexNumber": 6079,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

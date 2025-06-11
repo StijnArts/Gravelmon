@@ -93,7 +93,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.gorgonox.desc"
@@ -102,7 +103,7 @@
   "weight": 114,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4340,
+  "nationalPokedexNumber": 4279,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

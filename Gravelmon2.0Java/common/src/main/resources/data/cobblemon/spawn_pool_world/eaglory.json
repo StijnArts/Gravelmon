@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "28-53",
-      "weight": 0.44999999999999996,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast",

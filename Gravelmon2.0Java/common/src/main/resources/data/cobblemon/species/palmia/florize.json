@@ -87,6 +87,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "palmia",
@@ -115,7 +116,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3525,
+  "nationalPokedexNumber": 3464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

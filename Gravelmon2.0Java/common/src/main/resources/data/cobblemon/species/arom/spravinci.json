@@ -83,6 +83,7 @@
   "labels": [
     "aroma",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -93,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7703,
+  "nationalPokedexNumber": 7642,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -73,7 +73,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.fifii.desc"
@@ -82,7 +83,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4278,
+  "nationalPokedexNumber": 4217,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

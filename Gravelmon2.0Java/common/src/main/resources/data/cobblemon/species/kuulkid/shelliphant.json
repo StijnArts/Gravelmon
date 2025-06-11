@@ -78,7 +78,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.shelliphant.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2694,
+  "nationalPokedexNumber": 2633,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

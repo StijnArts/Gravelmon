@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "spitohood",
   "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
@@ -83,6 +84,8 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],
@@ -93,7 +96,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3755,
+  "nationalPokedexNumber": 3694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

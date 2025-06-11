@@ -87,6 +87,7 @@
   "labels": [
     "enjin",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6357,
+  "nationalPokedexNumber": 6296,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

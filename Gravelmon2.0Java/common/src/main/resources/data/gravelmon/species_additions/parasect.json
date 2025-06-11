@@ -165,6 +165,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "paras form=epoch",
       "baseScale": 0.35294117647058826,
       "cannotDynamax": false,
       "abilities": [
@@ -295,7 +296,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochparasectone.desc"

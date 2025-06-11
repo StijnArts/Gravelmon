@@ -12,7 +12,7 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-28",
+      "level": "6-26",
       "weight": 9.0,
       "condition": {
         "biomes": [
@@ -20,8 +20,8 @@
           "#cobblemon:nether/is_basalt",
           "#cobblemon:is_volvanic"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

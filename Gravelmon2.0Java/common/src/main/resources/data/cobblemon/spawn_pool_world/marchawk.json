@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "17-33",
-      "weight": 2.0999999999999996,
+      "level": "17-37",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_plains",

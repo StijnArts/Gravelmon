@@ -12,23 +12,17 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "uncommon",
-      "level": "37-51",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "37-57",
+      "weight": 0.09,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean",
-          "#cobblemon:is_lukewarm_ocean"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_desert",
           "#cobblemon:is_mountain",
           "#cobblemon:is_hills"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

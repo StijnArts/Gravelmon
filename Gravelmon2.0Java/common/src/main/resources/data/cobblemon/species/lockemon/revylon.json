@@ -125,7 +125,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.revylon.desc"
@@ -134,7 +135,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4625,
+  "nationalPokedexNumber": 4564,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

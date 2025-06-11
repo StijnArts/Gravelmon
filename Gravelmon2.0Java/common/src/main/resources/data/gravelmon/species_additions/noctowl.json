@@ -345,6 +345,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianiannoctowl",
       "baseScale": 0.0703125,
       "cannotDynamax": false,
       "abilities": [
@@ -426,6 +427,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -601,6 +603,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoothoot form=epoch",
       "baseScale": 0.573134328358209,
       "cannotDynamax": false,
       "abilities": [
@@ -717,7 +720,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochnoctowlone.desc"
@@ -1050,6 +1055,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mikitariannoctowl",
       "baseScale": 0.518918918918919,
       "cannotDynamax": false,
       "abilities": [
@@ -1209,7 +1215,8 @@
       ],
       "labels": [
         "mikitari",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.mikitariannoctowl.desc"

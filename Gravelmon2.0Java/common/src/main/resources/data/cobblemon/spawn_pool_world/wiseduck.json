@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "45-63",
-      "weight": 0.30000000000000004,
+      "bucket": "common",
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

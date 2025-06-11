@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "pachirisu",
+  "preEvolution": "pachirikku",
   "baseScale": 0.35,
   "cannotDynamax": false,
   "abilities": [
@@ -130,6 +130,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -139,7 +140,7 @@
   "weight": 233,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6169,
+  "nationalPokedexNumber": 6108,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

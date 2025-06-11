@@ -79,7 +79,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.spiritnir.desc"
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4275,
+  "nationalPokedexNumber": 4214,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

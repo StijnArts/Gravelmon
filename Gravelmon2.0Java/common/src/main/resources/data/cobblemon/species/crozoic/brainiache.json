@@ -165,7 +165,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.brainiache.desc"
@@ -174,7 +175,7 @@
   "weight": 980,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4301,
+  "nationalPokedexNumber": 4240,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

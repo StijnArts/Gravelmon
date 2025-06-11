@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianBonsly extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianBonsly() {
-        super("Bonsly",
+    public VaritasianBonsly(String s, Aspect aspect) {
+        super(s, aspect, "Bonsly",
                 Type.GRASS,
                 new Stats(50,
                         80,
@@ -17,14 +17,15 @@ public class VaritasianBonsly extends drai.dev.data.pokemon.Pokemon {
                         45,
                         10),
                 List.of(Ability.STURDY,Ability.ROCK_HEAD,Ability.RATTLED), Ability.RATTLED,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("If its body gets too damp, it will die. So, in a process reminiscent of sweating, its eyes expel moisture."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasiansudowoodo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.MIMIC.getName())))	),
                 List.of(
                         new MoveLearnSetEntry(Move.COPYCAT,1),
                         new MoveLearnSetEntry(Move.FLAIL,5),
@@ -99,14 +100,12 @@ public class VaritasianBonsly extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.VARITAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_NETHER_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Bonsly");
 
     }
-
-
 }

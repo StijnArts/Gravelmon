@@ -171,6 +171,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "herdier novran",
       "baseScale": 0.4235294117647059,
       "cannotDynamax": false,
       "abilities": [
@@ -296,7 +297,8 @@
       ],
       "labels": [
         "novrai",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.novranherdier.desc"

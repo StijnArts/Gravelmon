@@ -73,6 +73,7 @@
   "labels": [
     "africanus",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2447,
+  "nationalPokedexNumber": 2386,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

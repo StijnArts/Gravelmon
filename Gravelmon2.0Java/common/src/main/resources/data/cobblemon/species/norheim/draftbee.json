@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "draftbee",
   "baseScale": 0.6933333333333334,
   "cannotDynamax": false,
   "abilities": [
@@ -77,7 +78,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.draftbee.desc"
@@ -86,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4124,
+  "nationalPokedexNumber": 4063,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

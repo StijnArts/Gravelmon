@@ -100,13 +100,16 @@ public class Hangead extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 1, List.of(new ItemDrop("gravelmon:dread_pendant",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 46, 2.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.3, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

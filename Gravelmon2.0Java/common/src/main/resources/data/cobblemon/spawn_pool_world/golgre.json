@@ -7,19 +7,19 @@
       "id": "golgre-01",
       "pokemon": "golgre",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "43-56",
-      "weight": 2.7,
+      "bucket": "uncommon",
+      "level": "43-63",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

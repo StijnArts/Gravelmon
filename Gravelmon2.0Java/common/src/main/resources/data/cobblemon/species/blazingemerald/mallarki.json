@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 51,
   "baseFriendship": 70,
-  "preEvolution": "farfetchd",
+  "preEvolution": "mallarki",
   "baseScale": 0.38095238095238093,
   "cannotDynamax": false,
   "abilities": [
@@ -108,6 +108,7 @@
   "labels": [
     "blazing_emerald",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -117,7 +118,7 @@
   "weight": 289,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5105,
+  "nationalPokedexNumber": 5044,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

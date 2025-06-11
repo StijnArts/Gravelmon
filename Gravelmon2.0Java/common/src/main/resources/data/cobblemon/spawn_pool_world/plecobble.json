@@ -10,8 +10,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "8-27",
-      "weight": 3.75,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river",

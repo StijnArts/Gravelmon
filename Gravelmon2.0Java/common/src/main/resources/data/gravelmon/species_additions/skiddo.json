@@ -490,9 +490,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskiddoone_epochtwogogoat",
+          "id": "epochskiddoone_gogoat_epoch",
           "variant": "level_up",
-          "result": "epochtwogogoat",
+          "result": "gogoat epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

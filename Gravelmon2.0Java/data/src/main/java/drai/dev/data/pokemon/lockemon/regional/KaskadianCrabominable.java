@@ -24,13 +24,16 @@ public class KaskadianCrabominable  extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON, Label.GEN7),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 35, 65, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Golett");
         this.addAdditionalEvolution("crawbrawler", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_SNOWY_FOREST.getId() + ":" + Biome.IS_SNOWY_FOREST.getName()))));

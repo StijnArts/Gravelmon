@@ -161,7 +161,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.slith.desc"
@@ -185,7 +186,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5317,
+  "nationalPokedexNumber": 5256,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

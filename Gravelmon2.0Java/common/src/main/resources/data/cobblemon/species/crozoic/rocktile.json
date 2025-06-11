@@ -76,7 +76,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.rocktile.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4337,
+  "nationalPokedexNumber": 4276,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

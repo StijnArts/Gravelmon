@@ -74,7 +74,8 @@
   ],
   "labels": [
     "amavi",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.spawnkey.desc"
@@ -98,7 +99,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7120,
+  "nationalPokedexNumber": 7059,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

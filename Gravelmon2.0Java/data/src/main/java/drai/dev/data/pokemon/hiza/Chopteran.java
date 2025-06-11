@@ -37,13 +37,16 @@ public class Chopteran extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 31, 48, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING,Biome.IS_AUTUMN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_SPRING, Biome.IS_AUTUMN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machoke form=africanusan",
       "baseScale": 0.3764705882352941,
       "cannotDynamax": false,
       "abilities": [
@@ -92,7 +93,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusanmachamp.desc"
@@ -273,6 +276,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machoke form=epoch",
       "baseScale": 0.4129032258064516,
       "cannotDynamax": false,
       "abilities": [
@@ -395,7 +399,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmachampone.desc"

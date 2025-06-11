@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "relido",
   "baseScale": 1.1446153846153848,
   "cannotDynamax": false,
   "abilities": [
@@ -87,7 +88,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relido.desc"
@@ -96,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6501,
+  "nationalPokedexNumber": 6440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

@@ -13,18 +13,13 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "34-54",
-      "weight": 4.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_spooky"
         ],
         "timeRange": "day",
         "isRaining": false
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

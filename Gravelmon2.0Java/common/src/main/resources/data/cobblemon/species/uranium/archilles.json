@@ -130,7 +130,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.archilles.desc"
@@ -139,7 +140,7 @@
   "weight": 885,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2466,
+  "nationalPokedexNumber": 2405,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

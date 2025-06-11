@@ -7,13 +7,13 @@
       "id": "cascaprine-01",
       "pokemon": "cascaprine",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "35-54",
-      "weight": 1.5,
+      "level": "35-55",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast"

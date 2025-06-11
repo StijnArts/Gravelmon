@@ -80,7 +80,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.lungrebe.desc"
@@ -89,7 +90,7 @@
   "weight": 933,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4353,
+  "nationalPokedexNumber": 4292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

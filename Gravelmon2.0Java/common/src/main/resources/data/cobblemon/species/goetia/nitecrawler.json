@@ -75,7 +75,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.nitecrawler.desc"
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8244,
+  "nationalPokedexNumber": 8183,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

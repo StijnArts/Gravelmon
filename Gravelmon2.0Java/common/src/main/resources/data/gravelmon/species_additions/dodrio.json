@@ -486,6 +486,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "doduo form=epoch",
       "baseScale": 0.675,
       "cannotDynamax": false,
       "abilities": [
@@ -604,7 +605,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdodrioone.desc"
@@ -632,7 +635,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
-      "preEvolution": "Doduo",
+      "preEvolution": "dodrio hoennian",
       "baseScale": 1.6,
       "cannotDynamax": false,
       "abilities": [
@@ -726,6 +729,7 @@
       "labels": [
         "blazing_emerald",
         "gen1",
+        "fakemonevolution",
         "fakemonevolution"
       ],
       "pokedex": [

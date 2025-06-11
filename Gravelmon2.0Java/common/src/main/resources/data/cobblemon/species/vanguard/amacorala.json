@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "amacorala",
   "baseScale": 0.34285714285714286,
   "cannotDynamax": false,
   "abilities": [
@@ -149,7 +150,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.amacorala.desc"
@@ -173,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5465,
+  "nationalPokedexNumber": 5404,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

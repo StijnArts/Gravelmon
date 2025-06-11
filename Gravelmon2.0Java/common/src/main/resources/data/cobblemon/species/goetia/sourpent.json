@@ -82,7 +82,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.sourpent.desc"
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8235,
+  "nationalPokedexNumber": 8174,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

@@ -337,9 +337,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdrilburone_epochtwoexcadrill",
+          "id": "epochdrilburone_excadrill_epoch",
           "variant": "level_up",
-          "result": "epochtwoexcadrill",
+          "result": "excadrill epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

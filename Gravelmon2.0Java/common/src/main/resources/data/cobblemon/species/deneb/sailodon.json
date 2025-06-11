@@ -130,7 +130,9 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fossil",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.sailodon.desc"
@@ -154,7 +156,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6303,
+  "nationalPokedexNumber": 6242,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

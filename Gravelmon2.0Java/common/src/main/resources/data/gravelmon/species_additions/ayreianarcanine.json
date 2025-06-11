@@ -1,0 +1,166 @@
+{
+  "target": "cobblemon:ayreianarcanine",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "catchRate": 75,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.475,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "cursedbody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 75,
+        "defence": 130,
+        "special_attack": 85,
+        "special_defence": 95,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "24:glare",
+        "55:storedpower",
+        "44:calmmind",
+        "1:leer",
+        "40:shadowball",
+        "12:rockthrow",
+        "8:bite",
+        "28:swift",
+        "0:extrasensory",
+        "37:psychic",
+        "49:meteorbeam",
+        "20:rockpolish",
+        "1:confusion",
+        "30:powergem",
+        "16:psybeam",
+        "4:howl",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:attract",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:closecombat",
+        "tm:confide",
+        "tm:covet",
+        "tm:crunch",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:dragonpulse",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:firespin",
+        "tm:flamecharge",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:reflect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:reversal",
+        "tm:roar",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:safeguard",
+        "tm:scaryface",
+        "tm:scorchingsands",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swagger",
+        "tm:swift",
+        "tm:thief",
+        "tm:thunderfang",
+        "tm:toxic",
+        "tm:wildcharge",
+        "tm:willowisp",
+        "tm:stoneedge"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianarcanine.desc"
+      ],
+      "height": 19,
+      "weight": 1550,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

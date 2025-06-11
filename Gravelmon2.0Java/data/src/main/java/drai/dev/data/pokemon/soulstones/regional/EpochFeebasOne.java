@@ -113,12 +113,15 @@ public class EpochFeebasOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAME_BURST,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 8, 27, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERLAVA),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(8)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_NETHER)
+    .setSpawnPreset(SpawnPreset.UNDERLAVA)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

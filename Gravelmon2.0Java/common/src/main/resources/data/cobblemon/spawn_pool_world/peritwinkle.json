@@ -12,16 +12,17 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 15.0,
+      "level": "3-23",
+      "weight": 12.0,
       "condition": {
+        "biomes": [
+          "minecraft:the_void",
+          "#cobblemon:is_freshwater"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night",
-        "isRaining": true,
-        "biomes": [
-          "#cobblemon:is_freshwater"
-        ]
+        "isRaining": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,

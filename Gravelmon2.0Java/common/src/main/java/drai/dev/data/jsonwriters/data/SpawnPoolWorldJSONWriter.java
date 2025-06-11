@@ -109,8 +109,10 @@ public class SpawnPoolWorldJSONWriter {
 
     public static void processCondition(JsonObject condition, SpawnCondition spawnCondition) {
         if(spawnCondition instanceof BiomeSpawnCondition biomeSpawnCondition){
+            if (biomeSpawnCondition.getBiomes().isEmpty()) return;
             var biomeSpawnConditionsArray = new JsonArray();
-            biomeSpawnCondition.getBiomes().forEach(biome -> biomeSpawnConditionsArray.add(biome.getId()+":"+biome.getName()));
+            var biomes = biomeSpawnCondition.getBiomes();
+            biomes.forEach(biome -> biomeSpawnConditionsArray.add(biome.getId()+":"+biome.getName()));
             condition.add("biomes", biomeSpawnConditionsArray);
         }
         else if(spawnCondition.getConditionKind().getName().equalsIgnoreCase("canSeeSky")){

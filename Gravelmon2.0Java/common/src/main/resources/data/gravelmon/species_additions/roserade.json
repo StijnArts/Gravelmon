@@ -654,6 +654,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "roselia form=epoch",
       "baseScale": 0.33230769230769236,
       "cannotDynamax": false,
       "abilities": [
@@ -776,7 +777,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochroseradeone.desc"

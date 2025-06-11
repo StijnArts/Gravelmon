@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "ultra-rare",
       "level": "5-31",
-      "weight": 13.5,
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

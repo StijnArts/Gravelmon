@@ -91,6 +91,7 @@
   "labels": [
     "goetia",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -116,7 +117,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7863,
+  "nationalPokedexNumber": 7802,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

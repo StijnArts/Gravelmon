@@ -119,6 +119,7 @@
   "labels": [
     "lockemon",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4519,
+  "nationalPokedexNumber": 4458,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

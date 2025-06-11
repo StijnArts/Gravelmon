@@ -58,14 +58,17 @@ public class Muramoth extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 48, 0.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SWAMP)
+    .duringDaytime()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setBaseScale(1);
         setHitbox(1,1.5);
         getSpeciesFileData().addBasicVariation("El Pigeon");

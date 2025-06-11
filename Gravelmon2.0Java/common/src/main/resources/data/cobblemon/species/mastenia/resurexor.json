@@ -85,7 +85,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.resurexor.desc"
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8354,
+  "nationalPokedexNumber": 8293,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

@@ -352,9 +352,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsneaselone_epochtwosneasler",
+          "id": "epochsneaselone_sneasler_epoch",
           "variant": "item_interact",
-          "result": "epochtwosneasler",
+          "result": "sneasler epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -362,9 +362,9 @@
           "permanent": true
         },
         {
-          "id": "epochsneaselone_epochtwoweavile",
+          "id": "epochsneaselone_weavile_epoch",
           "variant": "item_interact",
-          "result": "epochtwoweavile",
+          "result": "weavile epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

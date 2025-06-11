@@ -670,9 +670,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellostwo_epochtwogastrodon",
+          "id": "epochshellostwo_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochtwogastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -857,9 +857,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosthree_epochthree_gastrodon",
+          "id": "epochshellosthree_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochthree gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1226,9 +1226,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosfive_epochfive_gastrodon",
+          "id": "epochshellosfive_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochfive gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1404,9 +1404,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellossix_epochsix_gastrodon",
+          "id": "epochshellossix_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochsix gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1579,9 +1579,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosseven_epochseven_gastrodon",
+          "id": "epochshellosseven_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochseven gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1759,9 +1759,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshelloseight_epocheightgastrodon",
+          "id": "epochshelloseight_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epocheightgastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1942,9 +1942,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosnine_epochninegastrodon",
+          "id": "epochshellosnine_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochninegastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -2133,9 +2133,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshellosten_epochten_gastrodon",
+          "id": "epochshellosten_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epochten gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -2314,9 +2314,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochshelloseleven_epocheleven_gastrodon",
+          "id": "epochshelloseleven_gastrodon_epoch",
           "variant": "level_up",
-          "result": "epocheleven gastrodon",
+          "result": "gastrodon epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

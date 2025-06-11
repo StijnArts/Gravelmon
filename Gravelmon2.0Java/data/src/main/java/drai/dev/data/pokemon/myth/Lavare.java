@@ -45,11 +45,14 @@ public class Lavare extends Pokemon {
                 ),
                 List.of(Label.MYTH),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 25, 43, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_NETHER)
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
     }
 }

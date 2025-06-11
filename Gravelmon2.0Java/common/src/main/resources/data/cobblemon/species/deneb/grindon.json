@@ -125,7 +125,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.grindon.desc"
@@ -149,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6142,
+  "nationalPokedexNumber": 6081,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

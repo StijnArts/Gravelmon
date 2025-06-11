@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "36-50",
-      "weight": 1.5,
+      "bucket": "uncommon",
+      "level": "36-56",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "28-51",
-      "weight": 0.6000000000000001,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

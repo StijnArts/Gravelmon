@@ -77,7 +77,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.tarboraze.desc"
@@ -86,7 +87,7 @@
   "weight": 2898,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4328,
+  "nationalPokedexNumber": 4267,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

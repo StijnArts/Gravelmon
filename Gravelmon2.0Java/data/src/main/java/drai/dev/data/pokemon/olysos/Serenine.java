@@ -10,7 +10,7 @@ public class Serenine extends drai.dev.data.pokemon.Pokemon {
         super("Serenine",
                 Type.LIGHT, Type.GHOST,
                 stats,
-                List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
+                List.of(Ability.CURSED_BODY), Ability.ILLUMINATE,
                 14, 0,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,

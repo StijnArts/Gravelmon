@@ -1,0 +1,199 @@
+{
+  "target": "cobblemon:ayreianjigglypuff",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "sound",
+      "secondaryType": "fairy",
+      "catchRate": 170,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "cutecharm",
+        "competitive"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 115,
+        "attack": 45,
+        "defence": 20,
+        "special_attack": 20,
+        "special_defence": 75,
+        "speed": 25
+      },
+      "evYield": {
+        "hp": 2,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:copycat",
+        "1:disable",
+        "1:charm",
+        "16:round",
+        "1:sing",
+        "1:defensecurl",
+        "36:hypervoice",
+        "1:sweetkiss",
+        "8:covet",
+        "32:gyroball",
+        "1:disarmingvoice",
+        "12:spitup",
+        "12:stockpile",
+        "20:rest",
+        "44:doubleedge",
+        "28:mimic",
+        "12:swallow",
+        "24:bodyslam",
+        "40:playrough",
+        "4:echoedvoice",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:bounce",
+        "tm:brickbreak",
+        "tm:chargebeam",
+        "tm:charm",
+        "tm:confide",
+        "tm:covet",
+        "tm:dazzlinggleam",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainingkiss",
+        "tm:drainpunch",
+        "tm:dreameater",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fireblast",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:gravity",
+        "tm:gyroball",
+        "tm:healbell",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:knockoff",
+        "tm:lastresort",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:mistyexplosion",
+        "tm:mistyterrain",
+        "tm:painsplit",
+        "tm:playrough",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:reflect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:roleplay",
+        "tm:round",
+        "tm:safeguard",
+        "tm:screech",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snatch",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:stealthrock",
+        "tm:steelroller",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:telekinesis",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:triattack",
+        "tm:uproar",
+        "tm:waterpulse",
+        "tm:wildcharge",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianjigglypuff.desc"
+      ],
+      "height": 5,
+      "weight": 55,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

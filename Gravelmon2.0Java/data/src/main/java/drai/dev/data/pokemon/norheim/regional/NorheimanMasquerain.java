@@ -35,13 +35,16 @@ public class NorheimanMasquerain extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 22, 45, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_TAIGA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Masquerain");
         addAdditionalEvolution("surskit", new EvolutionEntry("masquerain norheiman", EvolutionType.LEVEL_UP, List.of(),

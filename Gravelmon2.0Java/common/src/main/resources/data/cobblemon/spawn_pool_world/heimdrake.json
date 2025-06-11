@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "41-54",
-      "weight": 0.75,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

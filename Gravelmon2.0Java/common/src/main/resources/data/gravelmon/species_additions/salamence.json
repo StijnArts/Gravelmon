@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianiansalamence",
       "baseScale": 0.0703125,
       "cannotDynamax": false,
       "abilities": [
@@ -82,6 +83,8 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -255,6 +258,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -365,6 +369,7 @@
       "labels": [
         "ferran",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

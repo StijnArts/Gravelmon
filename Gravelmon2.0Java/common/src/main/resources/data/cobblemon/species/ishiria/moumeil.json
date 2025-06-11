@@ -136,6 +136,7 @@
   "labels": [
     "ishiria",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8950,
+  "nationalPokedexNumber": 8840,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

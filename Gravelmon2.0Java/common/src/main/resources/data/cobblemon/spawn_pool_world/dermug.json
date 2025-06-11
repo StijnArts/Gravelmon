@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "10-34",
-      "weight": 5.550000000000001,
+      "level": "10-30",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

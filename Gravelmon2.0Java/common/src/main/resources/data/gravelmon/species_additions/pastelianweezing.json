@@ -1,0 +1,163 @@
+{
+  "target": "cobblemon:pastelianweezing",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ice",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 172,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "neutralizinggas",
+        "h:refrigerate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defence": 70,
+        "special_attack": 85,
+        "special_defence": 120,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:smokescreen",
+        "1:doublehit",
+        "1:tackle",
+        "1:smog",
+        "1:powdersnow",
+        "4:fairywind",
+        "7:iceball",
+        "12:assurance",
+        "15:confuseray",
+        "18:aurorabeam",
+        "23:selfdestruct",
+        "26:haze",
+        "29:gyroball",
+        "34:icebeam",
+        "40:avalanche",
+        "46:sheercold",
+        "51:moonblast",
+        "57:memento",
+        "tm:snore",
+        "tm:spite",
+        "tm:painsplit",
+        "tm:uproar",
+        "tm:shockwave",
+        "tm:corrosivegas",
+        "tm:flamethrower",
+        "tm:hyperbeam",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:fireblast",
+        "tm:explosion",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:shadowball",
+        "tm:torment",
+        "tm:willowisp",
+        "tm:facade",
+        "tm:taunt",
+        "tm:gyroball",
+        "tm:payback",
+        "tm:darkpulse",
+        "tm:gigaimpact",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:infestation",
+        "tm:toxic",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:selfdestruct",
+        "tm:fireblast",
+        "tm:rest",
+        "tm:explosion",
+        "tm:substitute"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.pastelianweezing.desc"
+      ],
+      "height": 12,
+      "weight": 95,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

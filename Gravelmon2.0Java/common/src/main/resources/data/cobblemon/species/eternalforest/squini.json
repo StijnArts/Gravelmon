@@ -138,7 +138,8 @@
   ],
   "labels": [
     "eternal_forest",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.squini.desc"
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4056,
+  "nationalPokedexNumber": 3995,
   "shoulderMountable": false,
   "hitbox": {
     "width": 44.0,

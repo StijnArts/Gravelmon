@@ -12,14 +12,9 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "47-65",
-      "weight": 1.5,
+      "level": "47-67",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]

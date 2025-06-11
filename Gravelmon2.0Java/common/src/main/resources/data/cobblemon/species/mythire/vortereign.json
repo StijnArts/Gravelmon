@@ -148,7 +148,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.vortereign.desc"
@@ -157,7 +158,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5238,
+  "nationalPokedexNumber": 5177,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

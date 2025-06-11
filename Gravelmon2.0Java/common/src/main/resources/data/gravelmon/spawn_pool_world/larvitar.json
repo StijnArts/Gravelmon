@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "8-28",
-      "weight": 13.5,
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -36,20 +36,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "14-35",
-      "weight": 6.675000000000001,
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "anticondition": {
-        "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

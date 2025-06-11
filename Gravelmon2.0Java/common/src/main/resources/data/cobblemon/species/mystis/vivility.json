@@ -72,6 +72,7 @@
   "labels": [
     "mystis",
     "not_modeled",
+    "legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -82,7 +83,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8801,
+  "nationalPokedexNumber": 8740,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

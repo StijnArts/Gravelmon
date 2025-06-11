@@ -23,16 +23,18 @@ public class Draconaut extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.AMORPHOUS),
                 List.of("Draconaut hatchlings are born from comet eggs that crash-land on Earth. They spend their early days floating around in search of food, using their powerful feet and hand flames to propel themselves through the air. Despite their small size, they are highly intelligent and possess a strong connection to the cosmos."),
-                List.of(),
+                List.of(new EvolutionEntry("nebulazer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .pseudoLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Draconaut");
 
     }

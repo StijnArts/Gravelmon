@@ -309,7 +309,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochgoomy.desc"
@@ -570,7 +571,8 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.vesitangoomy.desc"

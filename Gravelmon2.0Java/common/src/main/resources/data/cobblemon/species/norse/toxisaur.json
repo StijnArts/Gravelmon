@@ -89,6 +89,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "norse",
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3384,
+  "nationalPokedexNumber": 3323,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

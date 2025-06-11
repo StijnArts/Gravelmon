@@ -142,7 +142,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "xenoverse"
+    "xenoverse",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.trishout.desc"

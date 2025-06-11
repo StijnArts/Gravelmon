@@ -85,7 +85,8 @@
     "ionos",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.eruptor.desc"
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6506,
+  "nationalPokedexNumber": 6445,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

@@ -82,7 +82,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.sauropot.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4334,
+  "nationalPokedexNumber": 4273,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

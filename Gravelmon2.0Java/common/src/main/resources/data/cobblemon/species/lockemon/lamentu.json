@@ -142,7 +142,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.lamentu.desc"
@@ -151,7 +152,7 @@
   "weight": 337,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4627,
+  "nationalPokedexNumber": 4566,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

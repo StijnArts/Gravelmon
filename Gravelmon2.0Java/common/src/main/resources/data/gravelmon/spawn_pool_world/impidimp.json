@@ -4,33 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasian_impidimp-01",
-      "pokemon": "impidimp varitasian",
-      "presets": [
-        "mansion"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "10-30",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:black_wool"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_impidimp-01",
       "pokemon": "impidimp epoch",
       "presets": [
@@ -39,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-33",
-      "weight": 6.6000000000000005,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -66,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-33",
-      "weight": 6.6000000000000005,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
@@ -92,7 +65,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "10-30",
-      "weight": 3.0,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_sandy"

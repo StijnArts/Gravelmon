@@ -583,6 +583,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "pikachu form=epoch",
       "baseScale": 3.512195121951219,
       "cannotDynamax": false,
       "abilities": [
@@ -636,7 +637,16 @@
         "field",
         "fairy"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:dawn_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "24:armthrust",
         "40:skyuppercut",
@@ -709,7 +719,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochraichuone.desc"

@@ -124,7 +124,9 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fossil",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.foreiphin.desc"
@@ -148,7 +150,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6305,
+  "nationalPokedexNumber": 6244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "51-65",
-      "weight": 0.6000000000000001,
+      "bucket": "rare",
+      "level": "51-71",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",

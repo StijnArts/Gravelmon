@@ -12,20 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-41",
-      "weight": 1.5,
+      "level": "15-35",
+      "weight": 1.2,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest",
-          "#cobblemon:is_lush"
+          "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-39",
-      "weight": 1.7999999999999998,
+      "level": "15-35",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -72,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "19-37",
-      "weight": 1.0499999999999998,
+      "level": "19-39",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -98,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "15-45",
-      "weight": 1.6500000000000001,
+      "level": "15-35",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

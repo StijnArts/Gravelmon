@@ -78,7 +78,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.cometile.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3084,
+  "nationalPokedexNumber": 3023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

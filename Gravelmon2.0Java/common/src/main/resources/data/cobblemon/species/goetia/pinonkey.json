@@ -101,7 +101,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.pinonkey.desc"
@@ -125,7 +126,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7853,
+  "nationalPokedexNumber": 7792,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

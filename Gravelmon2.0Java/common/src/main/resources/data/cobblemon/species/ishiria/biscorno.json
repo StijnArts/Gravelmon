@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Biscorno",
   "baseScale": 0.5305263157894737,
   "cannotDynamax": false,
   "abilities": [
@@ -183,7 +184,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.biscorno.desc"
@@ -192,7 +194,7 @@
   "weight": 1211,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8986,
+  "nationalPokedexNumber": 8876,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

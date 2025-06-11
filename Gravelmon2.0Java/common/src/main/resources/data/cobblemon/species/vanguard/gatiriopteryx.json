@@ -123,7 +123,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.gatiriopteryx.desc"
@@ -132,7 +133,7 @@
   "weight": 950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5487,
+  "nationalPokedexNumber": 5426,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

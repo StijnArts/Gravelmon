@@ -122,7 +122,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "xenoverse"
+    "xenoverse",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.sputnink.desc"

@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "sableye",
+  "preEvolution": "sableater",
   "baseScale": 0.375,
   "cannotDynamax": false,
   "abilities": [
@@ -142,6 +142,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -151,7 +152,7 @@
   "weight": 220,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6206,
+  "nationalPokedexNumber": 6145,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

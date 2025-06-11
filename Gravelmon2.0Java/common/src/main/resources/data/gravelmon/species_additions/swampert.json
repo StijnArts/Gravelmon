@@ -87,6 +87,7 @@
         "gen3",
         "azure",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -254,6 +255,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -283,6 +285,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "marshtomp form=epoch",
       "baseScale": 0.4864864864864865,
       "cannotDynamax": false,
       "abilities": [
@@ -405,7 +408,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochswampertone.desc"
@@ -572,6 +578,7 @@
       "labels": [
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "phanpy form=africanusan",
       "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
@@ -84,7 +85,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusandonphan.desc"
@@ -370,6 +373,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "phanpy form=epoch",
       "baseScale": 0.48000000000000004,
       "cannotDynamax": false,
       "abilities": [
@@ -485,7 +489,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdonphanone.desc"
@@ -610,6 +616,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "phanpy form=ayreian",
       "baseScale": 0.3826086956521739,
       "cannotDynamax": false,
       "abilities": [
@@ -730,7 +737,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandonphan.desc"

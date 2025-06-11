@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "sunflora",
+  "preEvolution": "sunflorid",
   "baseScale": 0.16666666666666666,
   "cannotDynamax": false,
   "abilities": [
@@ -161,6 +161,7 @@
   "labels": [
     "infinity",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

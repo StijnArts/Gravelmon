@@ -140,7 +140,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.therapex.desc"
@@ -149,7 +150,7 @@
   "weight": 1150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5488,
+  "nationalPokedexNumber": 5427,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

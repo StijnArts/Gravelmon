@@ -12,7 +12,7 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "44-56",
+      "level": "44-64",
       "weight": 0.09,
       "condition": {
         "biomes": [

@@ -97,14 +97,17 @@ public class Tubareel extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 34, 59, 1.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"35")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_DARK)
+    .canSeeSky()
+    .belowY(35)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

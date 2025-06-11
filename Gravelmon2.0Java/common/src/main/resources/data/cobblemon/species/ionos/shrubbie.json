@@ -75,7 +75,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.shrubbie.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6431,
+  "nationalPokedexNumber": 6370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

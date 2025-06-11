@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "fungeon",
   "baseScale": 0.20425531914893616,
   "cannotDynamax": false,
   "abilities": [
@@ -92,7 +93,8 @@
   ],
   "labels": [
     "dhiome",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fungeon.desc"

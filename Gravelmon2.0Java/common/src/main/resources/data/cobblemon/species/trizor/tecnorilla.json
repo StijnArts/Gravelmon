@@ -90,6 +90,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "trizor",
@@ -103,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3564,
+  "nationalPokedexNumber": 3503,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

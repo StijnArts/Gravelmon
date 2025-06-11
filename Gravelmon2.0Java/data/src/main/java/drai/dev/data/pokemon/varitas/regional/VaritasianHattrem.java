@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHattrem extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianHattrem() {
-        super("Hattrem",
+    public VaritasianHattrem(String s, Aspect aspect) {
+        super(s, aspect, "Hattrem",
                 Type.PSYCHIC, Type.GROUND,
                 new Stats(57,
                         40,
@@ -17,14 +17,15 @@ public class VaritasianHattrem extends drai.dev.data.pokemon.Pokemon {
                         73,
                         49),
                 List.of(Ability.HEALER,Ability.ANTICIPATION,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,2,0,0), 120,
                 0.0,
                 130, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer."),
-                List.of(),
+                List.of(new EvolutionEntry("hatterage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
                         new MoveLearnSetEntry(Move.AROMATHERAPY,15),
@@ -66,10 +67,10 @@ public class VaritasianHattrem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hattrem");

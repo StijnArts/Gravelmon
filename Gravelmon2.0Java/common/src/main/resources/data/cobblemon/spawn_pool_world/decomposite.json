@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "43-62",
-      "weight": 0.30000000000000004,
+      "level": "43-63",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_mushroom"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

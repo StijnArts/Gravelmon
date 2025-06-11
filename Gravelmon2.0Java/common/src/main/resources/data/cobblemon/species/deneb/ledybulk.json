@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "ledian",
+  "preEvolution": "ledybulk",
   "baseScale": 0.6000000000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -134,6 +134,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -143,7 +144,7 @@
   "weight": 495,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6179,
+  "nationalPokedexNumber": 6118,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

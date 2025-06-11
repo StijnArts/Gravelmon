@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "38-51",
-      "weight": 0.44999999999999996,
+      "level": "38-58",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

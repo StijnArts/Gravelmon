@@ -164,6 +164,7 @@
   "labels": [
     "mikitari",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -174,7 +175,7 @@
   "weight": 2950,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8360,
+  "nationalPokedexNumber": 8299,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

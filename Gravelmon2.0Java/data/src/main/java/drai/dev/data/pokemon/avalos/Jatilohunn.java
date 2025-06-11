@@ -112,14 +112,17 @@ public class Jatilohunn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CIRCLE_THROW,"tm")                        ),
                 List.of(Label.AVALOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 49, 10, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.WILD),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(24)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SAVANNA)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.WILD)
+    .build(), List.of());
+	
            setLangFileName("Jatilohunn");
 
     }

@@ -130,7 +130,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.equia.desc"
@@ -139,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3181,
+  "nationalPokedexNumber": 3120,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.5625,

@@ -1,0 +1,170 @@
+{
+  "target": "cobblemon:ayreianwatchog",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "normal",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.275,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 75,
+        "defence": 74,
+        "special_attack": 82,
+        "special_defence": 105,
+        "speed": 74
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "0:confuseray",
+        "50:slam",
+        "1:tackle",
+        "3:leer",
+        "21:superfang",
+        "22:mudshot",
+        "6:bite",
+        "39:nastyplot",
+        "29:swift",
+        "25:extrasensory",
+        "32:psychup",
+        "18:hypnosis",
+        "43:psychic",
+        "36:uproar",
+        "13:mudslap",
+        "8:confusion",
+        "11:detect",
+        "46:batonpass",
+        "tm:afteryou",
+        "tm:aquatail",
+        "tm:attract",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:gunkshot",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:icepunch",
+        "tm:irontail",
+        "tm:knockoff",
+        "tm:laserfocus",
+        "tm:lastresort",
+        "tm:lightscreen",
+        "tm:lowkick",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:round",
+        "tm:seedbomb",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderpunch",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianwatchog.desc"
+      ],
+      "height": 11,
+      "weight": 270,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

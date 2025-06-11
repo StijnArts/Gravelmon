@@ -150,7 +150,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.slothohm.desc"
@@ -174,7 +175,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2542,
+  "nationalPokedexNumber": 2481,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

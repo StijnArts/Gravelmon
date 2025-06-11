@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "octaveon",
   "baseScale": 0.42105263157894735,
   "cannotDynamax": false,
   "abilities": [
@@ -139,7 +140,9 @@
   ],
   "labels": [
     "soulstones",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.octaveon.desc"
@@ -148,7 +151,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4289,
+  "nationalPokedexNumber": 4228,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

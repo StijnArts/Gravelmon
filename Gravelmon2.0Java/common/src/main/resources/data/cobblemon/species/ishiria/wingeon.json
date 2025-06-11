@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "wingeon",
   "baseScale": 0.27096774193548384,
   "cannotDynamax": false,
   "abilities": [
@@ -188,7 +189,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wingeon.desc"
@@ -197,7 +199,7 @@
   "weight": 214,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8997,
+  "nationalPokedexNumber": 8887,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

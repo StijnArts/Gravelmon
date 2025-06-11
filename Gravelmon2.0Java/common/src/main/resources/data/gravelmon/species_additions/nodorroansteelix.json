@@ -1,0 +1,107 @@
+{
+  "target": "cobblemon:nodorroansteelix",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "catchRate": 30,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 279,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 2.5,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "voltabsorb",
+        "h:electricsurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 70,
+        "defence": 150,
+        "special_attack": 80,
+        "special_defence": 100,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bind",
+        "1:tackle",
+        "1:harden",
+        "4:thundershock",
+        "9:rockthrow",
+        "11:spark",
+        "14:rockpolish",
+        "17:thunderfang",
+        "24:rockslide",
+        "27:irontail",
+        "30:stealthrock",
+        "36:discharge",
+        "43:earthquake",
+        "55:rockwrecker"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorroansteelix.desc"
+      ],
+      "height": 100,
+      "weight": 3990,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

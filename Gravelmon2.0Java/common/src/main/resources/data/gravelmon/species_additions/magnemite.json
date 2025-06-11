@@ -470,9 +470,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmagnemiteone_epochtwomagneton",
+          "id": "epochmagnemiteone_magneton_epoch",
           "variant": "level_up",
-          "result": "epochtwomagneton",
+          "result": "magneton epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

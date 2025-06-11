@@ -150,7 +150,8 @@
       ],
       "labels": [
         "gen1",
-        "infinity"
+        "infinity",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.eghobulbasaur.desc"
@@ -335,7 +336,8 @@
       ],
       "labels": [
         "gen1",
-        "insurgence"
+        "insurgence",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltabulbasaur.desc"
@@ -525,7 +527,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochbulbasaur.desc"
@@ -631,6 +634,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -800,7 +804,8 @@
       "labels": [
         "gen1",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreianbulbasaur.desc"

@@ -80,7 +80,8 @@
     "dhiome",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ancervus.desc"

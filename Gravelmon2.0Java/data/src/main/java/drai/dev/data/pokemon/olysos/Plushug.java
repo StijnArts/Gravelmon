@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Plushug extends drai.dev.data.pokemon.Pokemon {
-    public Plushug() {
+    public Plushug(Stats stats) {
         super("Plushug",
                 Type.FAIRY, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,11 +22,11 @@ public class Plushug extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OLYSOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.VERY_COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SPOOKY).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.MANSION).build(),
                 List.of());
            setLangFileName("Plushug");
 

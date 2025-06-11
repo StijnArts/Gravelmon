@@ -100,7 +100,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.arugari.desc"
@@ -124,7 +125,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6353,
+  "nationalPokedexNumber": 6292,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

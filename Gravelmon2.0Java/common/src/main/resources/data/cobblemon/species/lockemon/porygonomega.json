@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "porygonomega",
   "baseScale": 0.051562500000000004,
   "cannotDynamax": false,
   "abilities": [
@@ -91,7 +92,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.porygonomega.desc"
@@ -100,7 +102,7 @@
   "weight": 1255,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4570,
+  "nationalPokedexNumber": 4509,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

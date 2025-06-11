@@ -82,7 +82,8 @@
     "atlas",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.rapterra.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7053,
+  "nationalPokedexNumber": 6992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

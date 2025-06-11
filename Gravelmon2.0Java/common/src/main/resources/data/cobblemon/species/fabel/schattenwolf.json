@@ -73,6 +73,7 @@
   "labels": [
     "fabel",
     "not_modeled",
+    "legendary",
     "instagram",
     "instagram"
   ],
@@ -83,7 +84,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7700,
+  "nationalPokedexNumber": 7639,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

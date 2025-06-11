@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "qualder",
   "baseScale": 21.6,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +80,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.qualder.desc"
@@ -88,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8843,
+  "nationalPokedexNumber": 8782,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

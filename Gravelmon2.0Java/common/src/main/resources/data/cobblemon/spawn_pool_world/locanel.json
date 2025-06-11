@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
+      "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.15000000000000002,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

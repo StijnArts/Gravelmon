@@ -12,14 +12,9 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-28",
-      "weight": 7.5,
+      "level": "1-21",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_floral"
         ]
@@ -42,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "2-18",
-      "weight": 7.5,
+      "level": "2-22",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -67,8 +62,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "4-17",
-      "weight": 4.5,
+      "level": "4-24",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -93,7 +88,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 7.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral",
@@ -120,8 +115,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "2-23",
-      "weight": 7.5,
+      "level": "2-22",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",
@@ -147,8 +142,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "1-28",
-      "weight": 7.5,
+      "level": "1-21",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

@@ -7,13 +7,13 @@
       "id": "ganimede-01",
       "pokemon": "ganimede",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
-      "level": "65-70",
-      "weight": 7.500000000000001E-6,
+      "level": "55-75",
+      "weight": 0.01,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky"

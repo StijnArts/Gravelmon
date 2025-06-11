@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "50-70",
-      "weight": 0.07500000000000001,
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

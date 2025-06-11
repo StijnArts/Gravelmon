@@ -122,7 +122,8 @@
   ],
   "labels": [
     "ferroa",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.enigmore.desc"

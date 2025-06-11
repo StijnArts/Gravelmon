@@ -1,0 +1,107 @@
+{
+  "target": "cobblemon:pasteliansmeargle",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 88,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "owntempo",
+        "infiltrator",
+        "h:moody"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 25,
+        "defence": 30,
+        "special_attack": 25,
+        "special_defence": 40,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sketch",
+        "1:astonish",
+        "1:spotlight",
+        "5:fling",
+        "7:knockoff",
+        "10:torment",
+        "12:acid",
+        "13:recycle",
+        "16:nightdaze",
+        "19:memento",
+        "22:facade",
+        "25:copycat",
+        "28:imprison",
+        "30:embargo",
+        "34:darkpulse"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.pasteliansmeargle.desc"
+      ],
+      "height": 12,
+      "weight": 580,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

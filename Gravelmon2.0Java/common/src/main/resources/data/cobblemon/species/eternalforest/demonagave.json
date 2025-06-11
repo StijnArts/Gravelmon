@@ -160,6 +160,7 @@
   "labels": [
     "eternal_forest",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -170,7 +171,7 @@
   "weight": 867,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4052,
+  "nationalPokedexNumber": 3991,
   "shoulderMountable": false,
   "hitbox": {
     "width": 57.5,

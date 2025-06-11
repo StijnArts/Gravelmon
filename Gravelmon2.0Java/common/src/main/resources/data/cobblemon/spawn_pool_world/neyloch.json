@@ -7,26 +7,20 @@
       "id": "neyloch-01",
       "pokemon": "neyloch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "33-47",
-      "weight": 0.75,
+      "level": "33-53",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest",
-          "#cobblemon:is_swamp"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:has_season/winter",
           "#cobblemon:has_season/summer"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

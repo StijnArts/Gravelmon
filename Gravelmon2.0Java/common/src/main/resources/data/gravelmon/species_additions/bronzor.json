@@ -450,9 +450,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbronzorone_epochtwobronzong",
+          "id": "epochbronzorone_bronzong_epoch",
           "variant": "level_up",
-          "result": "epochtwobronzong",
+          "result": "bronzong epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

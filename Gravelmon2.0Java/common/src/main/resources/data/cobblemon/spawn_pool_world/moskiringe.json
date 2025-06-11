@@ -9,9 +9,9 @@
       "presets": [],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "uncommon",
-      "level": "31-54",
-      "weight": 0.30000000000000004,
+      "bucket": "common",
+      "level": "31-51",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp",

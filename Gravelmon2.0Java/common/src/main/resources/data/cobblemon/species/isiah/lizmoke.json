@@ -111,7 +111,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.lizmoke.desc"
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5778,
+  "nationalPokedexNumber": 5717,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

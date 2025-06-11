@@ -42,12 +42,15 @@ public class Gloshroom extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.DHIOME),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 28, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_LUSH))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MUSHROOM, Biome.IS_LUSH)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Gloshroom");
 
     }

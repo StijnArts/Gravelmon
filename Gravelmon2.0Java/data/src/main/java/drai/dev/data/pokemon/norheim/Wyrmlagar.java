@@ -41,13 +41,16 @@ public class Wyrmlagar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GILDEDSPEAR,85)      ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 29, 57, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(29)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN, Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

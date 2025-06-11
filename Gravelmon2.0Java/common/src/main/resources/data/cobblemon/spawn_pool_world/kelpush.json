@@ -7,13 +7,13 @@
       "id": "kelpush-01",
       "pokemon": "kelpush",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "26-37",
-      "weight": 3.0,
+      "level": "26-46",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

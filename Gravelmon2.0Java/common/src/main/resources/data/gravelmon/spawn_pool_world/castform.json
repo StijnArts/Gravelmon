@@ -12,9 +12,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -37,9 +40,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -62,9 +68,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -87,9 +96,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -112,9 +124,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -137,9 +152,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -162,9 +180,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -187,9 +208,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -212,9 +236,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -237,9 +264,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -262,9 +292,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -287,9 +320,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -312,9 +348,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true
@@ -337,9 +376,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "5-60",
-      "weight": 1.5,
+      "level": "5-25",
+      "weight": 0.9,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "isRaining": true

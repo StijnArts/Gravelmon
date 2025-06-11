@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "16-44",
-      "weight": 3.0,
+      "level": "16-36",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "7-28",
-      "weight": 4.5,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -36,8 +36,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "7-28",
-      "weight": 4.5,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

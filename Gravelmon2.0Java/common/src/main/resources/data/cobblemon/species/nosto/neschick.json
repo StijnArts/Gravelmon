@@ -110,7 +110,8 @@
   ],
   "labels": [
     "nosto",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.neschick.desc"
@@ -134,7 +135,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4629,
+  "nationalPokedexNumber": 4568,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

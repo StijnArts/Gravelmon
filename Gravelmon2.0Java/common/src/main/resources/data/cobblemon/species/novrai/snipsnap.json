@@ -137,7 +137,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.snipsnap.desc"
@@ -161,7 +162,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6582,
+  "nationalPokedexNumber": 6521,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

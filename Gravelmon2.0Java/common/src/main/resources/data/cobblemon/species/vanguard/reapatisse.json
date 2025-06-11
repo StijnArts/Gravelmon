@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "reapatisse",
   "baseScale": 0.4732394366197183,
   "cannotDynamax": false,
   "abilities": [
@@ -148,7 +149,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.reapatisse.desc"
@@ -157,7 +159,7 @@
   "weight": 355,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5485,
+  "nationalPokedexNumber": 5424,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

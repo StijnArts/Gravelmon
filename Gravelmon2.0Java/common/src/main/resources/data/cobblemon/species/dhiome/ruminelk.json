@@ -76,7 +76,8 @@
   ],
   "labels": [
     "dhiome",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ruminelk.desc"

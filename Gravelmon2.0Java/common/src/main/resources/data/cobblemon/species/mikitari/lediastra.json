@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "lediastra",
   "baseScale": 0.561038961038961,
   "cannotDynamax": false,
   "abilities": [
@@ -166,7 +167,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lediastra.desc"
@@ -175,7 +177,7 @@
   "weight": 554,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8425,
+  "nationalPokedexNumber": 8364,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

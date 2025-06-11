@@ -76,7 +76,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.hullk.desc"
@@ -85,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5325,
+  "nationalPokedexNumber": 5264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

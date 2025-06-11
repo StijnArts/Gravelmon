@@ -1,0 +1,140 @@
+{
+  "target": "cobblemon:epochtapufini",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 285,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.325,
+      "cannotDynamax": false,
+      "abilities": [
+        "corrosion",
+        "shedskin",
+        "h:keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 75,
+        "defence": 115,
+        "special_attack": 85,
+        "special_defence": 95,
+        "speed": 130
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "11:shadowsneak",
+        "63:memento",
+        "7:acid",
+        "14:venoshock",
+        "21:curse",
+        "58:sludgewave",
+        "26:hex",
+        "49:venomdrench",
+        "4:astonish",
+        "17:corrode",
+        "tm:acidrain",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:gastroacid",
+        "tm:gunkshot",
+        "tm:hex",
+        "tm:hiddenpower",
+        "tm:irondefense",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:memento",
+        "tm:nastyplot",
+        "tm:phantomforce",
+        "tm:poisonfang",
+        "tm:poisonjab",
+        "tm:poltergeist",
+        "tm:possession",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:shadowball",
+        "tm:shadowpunch",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snarl",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:workup"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochtapufini.desc"
+      ],
+      "height": 13,
+      "weight": 212,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

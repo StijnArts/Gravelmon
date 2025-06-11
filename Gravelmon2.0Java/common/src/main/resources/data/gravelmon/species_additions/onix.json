@@ -364,7 +364,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "40:asteroidbelt",
         "1:leer",
@@ -484,9 +493,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochonixone_epochtwosteelix",
+          "id": "epochonixone_steelix_epoch",
           "variant": "item_interact",
-          "result": "epochtwosteelix",
+          "result": "steelix epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

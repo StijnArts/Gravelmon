@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "coralya",
   "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
@@ -100,7 +101,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.coralya.desc"
@@ -109,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8522,
+  "nationalPokedexNumber": 8461,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

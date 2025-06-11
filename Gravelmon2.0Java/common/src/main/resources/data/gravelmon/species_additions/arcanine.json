@@ -301,6 +301,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianianarcanine",
       "baseScale": 0.11249999999999999,
       "cannotDynamax": false,
       "abilities": [
@@ -385,6 +386,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -442,6 +444,7 @@
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": false,
+            "canWalkOnWater": true,
             "canWalkOnLava": false
           }
         }

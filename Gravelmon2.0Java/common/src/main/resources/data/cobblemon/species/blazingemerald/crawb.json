@@ -106,7 +106,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "blazing_emerald"
+    "blazing_emerald",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.crawb.desc"
@@ -115,7 +116,7 @@
   "weight": 150,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5113,
+  "nationalPokedexNumber": 5052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

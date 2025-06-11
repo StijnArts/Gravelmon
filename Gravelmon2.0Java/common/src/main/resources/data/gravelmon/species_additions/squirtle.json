@@ -146,7 +146,8 @@
       ],
       "labels": [
         "gen1",
-        "infinity"
+        "infinity",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.eghosquirtle.desc"
@@ -355,7 +356,8 @@
       ],
       "labels": [
         "gen1",
-        "insurgence"
+        "insurgence",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.deltasquirtle.desc"
@@ -526,7 +528,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochsquirtle.desc"
@@ -646,6 +649,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -821,7 +825,8 @@
       "labels": [
         "gen1",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreiansquirtle.desc"

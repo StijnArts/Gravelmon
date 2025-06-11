@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianDrakloak extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianDrakloak() {
-        super("Drakloak",
+    public VaritasianDrakloak(String s, Aspect aspect) {
+        super(s, aspect, "Drakloak",
                 Type.DRAGON, Type.WATER,
                 new Stats(68,
                         80,
@@ -17,14 +17,15 @@ public class VaritasianDrakloak extends drai.dev.data.pokemon.Pokemon {
                         50,
                         102),
                 List.of(Ability.HYDRATION,Ability.INFILTRATOR,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.DRAGON),
                 List.of("It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasiandragapult", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"60")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.LOCKON,6),
@@ -81,12 +82,14 @@ public class VaritasianDrakloak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ), new PokemonSpawnDataBuilder(2)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_WARM_OCEAN).setAntiBiomes(Biome.IS_DEEP_OCEAN).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Drakloak");
 
     }

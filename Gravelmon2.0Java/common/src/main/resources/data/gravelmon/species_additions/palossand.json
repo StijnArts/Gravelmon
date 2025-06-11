@@ -154,6 +154,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "palossand kaskadian",
       "baseScale": 0.0611764705882353,
       "cannotDynamax": false,
       "abilities": [
@@ -270,7 +271,8 @@
       "labels": [
         "lockemon",
         "gen7",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.kaskadianpalossand.desc"

@@ -1,0 +1,179 @@
+{
+  "target": "cobblemon:ayreianexploud",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "sound",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.375,
+      "cannotDynamax": false,
+      "abilities": [
+        "soundproof"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 104,
+        "attack": 71,
+        "defence": 63,
+        "special_attack": 68,
+        "special_defence": 111,
+        "speed": 73
+      },
+      "evYield": {
+        "hp": 3,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "81:hyperbeam",
+        "23:round",
+        "15:sleeptalk",
+        "29:roar",
+        "36:supersonic",
+        "72:boomburst",
+        "63:hypervoice",
+        "13:disarmingvoice",
+        "45:uproar",
+        "15:rest",
+        "0:flamethrower",
+        "1:snarl",
+        "54:screech",
+        "1:astonish",
+        "9:howl",
+        "5:echoedvoice",
+        "tm:attract",
+        "tm:avalanche",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:crunch",
+        "tm:doubleteam",
+        "tm:earthquake",
+        "tm:echoedvoice",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fireblast",
+        "tm:firefang",
+        "tm:firepunch",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hydropump",
+        "tm:hyperbeam",
+        "tm:hypervoice",
+        "tm:icebeam",
+        "tm:icefang",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:lowkick",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:outrage",
+        "tm:overheat",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:roar",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:stompingtantrum",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:surf",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:terrainpulse",
+        "tm:thunderfang",
+        "tm:thunderpunch",
+        "tm:torment",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianexploud.desc"
+      ],
+      "height": 15,
+      "weight": 840,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

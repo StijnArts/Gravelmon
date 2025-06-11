@@ -12,14 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "18-32",
-      "weight": 3.0,
+      "level": "18-38",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

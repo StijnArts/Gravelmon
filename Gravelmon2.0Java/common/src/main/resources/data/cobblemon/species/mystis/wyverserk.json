@@ -91,7 +91,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.wyverserk.desc"
@@ -100,7 +101,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8807,
+  "nationalPokedexNumber": 8746,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

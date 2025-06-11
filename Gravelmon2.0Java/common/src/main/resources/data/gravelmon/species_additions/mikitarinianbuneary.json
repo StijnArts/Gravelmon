@@ -1,0 +1,180 @@
+{
+  "target": "cobblemon:mikitarinianbuneary",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 70,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "runaway",
+        "oblivious",
+        "h:limber"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 66,
+        "defence": 44,
+        "special_attack": 44,
+        "special_defence": 56,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:splash",
+        "4:defensecurl",
+        "8:meanlook",
+        "12:afteryou",
+        "16:quickattack",
+        "20:doublekick",
+        "24:taunt",
+        "28:batonpass",
+        "32:throatchop",
+        "36:agility",
+        "40:entrainment",
+        "44:flatter",
+        "48:bounce",
+        "52:destinybond",
+        "56:highjumpkick",
+        "tm:focuspunch",
+        "tm:workup",
+        "tm:sunnyday",
+        "tm:icebeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:irontail",
+        "tm:thunderbolt",
+        "tm:lowsweep",
+        "tm:dig",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:shockwave",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:endure",
+        "tm:drainpunch",
+        "tm:nastyplot",
+        "tm:payback",
+        "tm:thunderwave",
+        "tm:snarl",
+        "tm:darkpulse",
+        "tm:sleeptalk",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:bounce",
+        "tm:reversal",
+        "tm:poweruppunch",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:hypervoice",
+        "tm:closecombat",
+        "tm:playrough",
+        "tm:darkestlariat",
+        "tm:throatchop",
+        "tm:encore",
+        "tm:lashout",
+        "tm:tripleaxel",
+        "tm:cut",
+        "tm:rocksmash",
+        "tm:rage",
+        "tm:bide",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:secretpower",
+        "tm:naturalgift",
+        "tm:captivate",
+        "tm:circlethrow",
+        "tm:copycat",
+        "tm:punishment",
+        "tm:doublehit",
+        "tm:encore",
+        "tm:fakeout",
+        "tm:faketears",
+        "tm:firepunch",
+        "tm:flail",
+        "tm:icepunch",
+        "tm:lowkick",
+        "tm:poweruppunch",
+        "tm:sweetkiss",
+        "tm:switcheroo",
+        "tm:teeterdance",
+        "tm:thunderpunch"
+      ],
+      "labels": [
+        "mikitari",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.mikitarinianbuneary.desc"
+      ],
+      "height": 4,
+      "weight": 55,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

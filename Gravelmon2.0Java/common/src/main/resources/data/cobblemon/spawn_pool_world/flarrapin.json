@@ -11,13 +11,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "46-59",
-      "weight": 9.0,
+      "bucket": "common",
+      "level": "46-66",
+      "weight": 0.12,
       "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ],
         "maxY": -40,
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

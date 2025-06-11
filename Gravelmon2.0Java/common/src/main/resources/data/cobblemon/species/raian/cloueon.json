@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "cloueon",
   "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
@@ -85,6 +86,8 @@
   "labels": [
     "raian",
     "not_modeled",
+    "eeveelution",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],
@@ -95,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3305,
+  "nationalPokedexNumber": 3244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

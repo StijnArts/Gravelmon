@@ -83,7 +83,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.caulderon.desc"
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8240,
+  "nationalPokedexNumber": 8179,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

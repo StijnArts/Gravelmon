@@ -81,7 +81,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.protagobits.desc"
@@ -90,7 +91,7 @@
   "weight": 607,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8893,
+  "nationalPokedexNumber": 8832,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

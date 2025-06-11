@@ -12,18 +12,13 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "18-43",
-      "weight": 0.30000000000000004,
+      "level": "18-38",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_coast"
         ],
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_coast"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

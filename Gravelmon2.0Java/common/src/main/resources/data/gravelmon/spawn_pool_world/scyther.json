@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "20-45",
-      "weight": 3.0,
+      "level": "20-40",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "25-50",
-      "weight": 2.7,
+      "level": "25-45",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -67,7 +67,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 5.550000000000001,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "12-38",
-      "weight": 6.0,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -144,8 +144,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-32",
-      "weight": 6.6000000000000005,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

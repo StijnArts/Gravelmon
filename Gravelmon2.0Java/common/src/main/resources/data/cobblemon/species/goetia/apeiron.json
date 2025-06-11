@@ -81,7 +81,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.apeiron.desc"
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8246,
+  "nationalPokedexNumber": 8185,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

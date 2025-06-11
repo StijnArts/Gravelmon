@@ -76,7 +76,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.kiell.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5945,
+  "nationalPokedexNumber": 5884,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -7,13 +7,13 @@
       "id": "trojalmon-01",
       "pokemon": "trojalmon",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "34-53",
-      "weight": 3.4499999999999997,
+      "level": "34-54",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_river"

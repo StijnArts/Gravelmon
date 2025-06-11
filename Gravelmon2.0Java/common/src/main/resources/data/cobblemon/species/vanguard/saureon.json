@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "saureon",
   "baseScale": 0.5907692307692308,
   "cannotDynamax": false,
   "abilities": [
@@ -152,7 +153,9 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.saureon.desc"
@@ -161,7 +164,7 @@
   "weight": 1250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5497,
+  "nationalPokedexNumber": 5436,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

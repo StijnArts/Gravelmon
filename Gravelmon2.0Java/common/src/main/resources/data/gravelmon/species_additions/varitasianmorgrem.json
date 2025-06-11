@@ -1,0 +1,153 @@
+{
+  "target": "cobblemon:varitasianmorgrem",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "secondaryType": "flying",
+      "catchRate": 90,
+      "maleRatio": 1.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2,
+      "cannotDynamax": false,
+      "abilities": [
+        "unburden",
+        "h:frisk"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:flatter",
+        "12:faketears",
+        "16:assurance",
+        "20:swagger",
+        "24:suckerpunch",
+        "28:torment",
+        "35:darkpulse",
+        "40:nastyplot",
+        "46:playrough",
+        "52:foulplay",
+        "tm:burningjealousy",
+        "tm:lashout",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:thief",
+        "tm:snore",
+        "tm:protect",
+        "tm:attract",
+        "tm:facade",
+        "tm:revenge",
+        "tm:faketears",
+        "tm:assurance",
+        "tm:drainpunch",
+        "tm:shadowclaw",
+        "tm:round",
+        "tm:retaliate",
+        "tm:drainingkiss",
+        "tm:lowkick",
+        "tm:metronome",
+        "tm:leechlife",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:uproar",
+        "tm:taunt",
+        "tm:trick",
+        "tm:darkpulse",
+        "tm:nastyplot",
+        "tm:foulplay",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:throatchop"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmorgrem.desc"
+      ],
+      "height": 8,
+      "weight": 125,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianmorgrem_grimpire",
+          "variant": "level_up",
+          "result": "grimpire",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "42"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

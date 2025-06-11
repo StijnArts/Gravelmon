@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "35-64",
-      "weight": 0.30000000000000004,
+      "level": "35-55",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

@@ -127,7 +127,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.geckrow.desc"
@@ -151,7 +152,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8480,
+  "nationalPokedexNumber": 8419,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

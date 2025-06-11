@@ -445,9 +445,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochlitleoone_epochtwopyroar",
+          "id": "epochlitleoone_pyroar_epoch",
           "variant": "level_up",
-          "result": "epochtwopyroar",
+          "result": "pyroar epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

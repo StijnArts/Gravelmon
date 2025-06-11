@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "sandeon",
   "baseScale": 0.3116883116883117,
   "cannotDynamax": false,
   "abilities": [
@@ -133,7 +134,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sandeon.desc"
@@ -142,7 +144,7 @@
   "weight": 261,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8998,
+  "nationalPokedexNumber": 8888,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

@@ -270,6 +270,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "granbull ionosian",
       "baseScale": 0.5806451612903225,
       "cannotDynamax": false,
       "abilities": [
@@ -350,7 +351,8 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosiangranbull.desc"

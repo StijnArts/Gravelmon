@@ -1,0 +1,159 @@
+{
+  "target": "cobblemon:ishiriaangrowlithe",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ghost",
+      "secondaryType": "fire",
+      "catchRate": 175,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 91,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "cursedbody",
+        "h:infiltrator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 60,
+        "defence": 45,
+        "special_attack": 80,
+        "special_defence": 45,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:leer",
+        "1:ember",
+        "4:howl",
+        "8:flamecharge",
+        "12:snarl",
+        "16:nightshade",
+        "20:confuseray",
+        "24:burningjealousy",
+        "28:shadowclaw",
+        "32:takedown",
+        "36:hex",
+        "40:flamethrower",
+        "44:roar",
+        "48:phantomforce",
+        "52:mysticalfire",
+        "56:burnup",
+        "60:destinybond",
+        "tm:leer",
+        "tm:howl",
+        "tm:snarl",
+        "tm:lick",
+        "tm:nightshade",
+        "tm:confuseray",
+        "tm:shadowclaw",
+        "tm:takedown",
+        "tm:hex",
+        "tm:roar",
+        "tm:destinybond",
+        "tm:shadowball",
+        "tm:astonish",
+        "tm:rest",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:protect",
+        "tm:hiddenpower",
+        "tm:attract",
+        "tm:facade",
+        "tm:thief",
+        "tm:bite",
+        "tm:crunch",
+        "tm:phantomforce",
+        "tm:flamethrower",
+        "tm:mysticalfire",
+        "tm:burnup",
+        "tm:burningjealousy",
+        "tm:fireblast",
+        "tm:lavaplume",
+        "tm:heatwave",
+        "tm:firefang",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:round",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:substitute",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:terablast",
+        "tm:slam",
+        "tm:howl",
+        "tm:shadowsneak",
+        "tm:doublekick",
+        "tm:willowisp"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriaangrowlithe.desc"
+      ],
+      "height": 7,
+      "weight": 70,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

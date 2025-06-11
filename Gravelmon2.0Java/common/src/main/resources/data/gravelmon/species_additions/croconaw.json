@@ -179,6 +179,7 @@
       "labels": [
         "gen2",
         "infinity",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -362,6 +363,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -406,6 +408,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "totodile form=epoch",
       "baseScale": 0.48000000000000004,
       "cannotDynamax": false,
       "abilities": [
@@ -533,7 +536,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochcroconawone.desc"
@@ -545,9 +551,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcroconawone_epochtwoferaligatr",
+          "id": "epochcroconawone_feraligatr_epoch",
           "variant": "level_up",
-          "result": "epochtwoferaligatr",
+          "result": "feraligatr epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -715,6 +721,7 @@
         "gen2",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -758,6 +765,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "totodile form=ionosian",
       "baseScale": 0.29473684210526313,
       "cannotDynamax": false,
       "abilities": [
@@ -838,7 +846,10 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosiancroconaw.desc"

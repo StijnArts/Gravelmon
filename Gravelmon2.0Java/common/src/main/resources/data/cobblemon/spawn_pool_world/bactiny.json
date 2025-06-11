@@ -7,13 +7,13 @@
       "id": "bactiny-01",
       "pokemon": "bactiny",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "7-32",
-      "weight": 13.5,
+      "level": "7-27",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

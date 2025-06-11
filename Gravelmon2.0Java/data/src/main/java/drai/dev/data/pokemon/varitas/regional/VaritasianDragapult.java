@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianDragapult extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianDragapult() {
-        super("Dragapult",
+    public VaritasianDragapult(String s, Aspect aspect) {
+        super(s, aspect, "Dragapult",
                 Type.DRAGON, Type.WATER,
                 new Stats(88,
                         120,
@@ -17,7 +17,7 @@ public class VaritasianDragapult extends drai.dev.data.pokemon.Pokemon {
                         75,
                         142),
                 List.of(Ability.HYDRATION,Ability.INFILTRATOR,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 300, ExperienceGroup.SLOW,
@@ -90,12 +90,14 @@ public class VaritasianDragapult extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ), new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).duringDaytime()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Dragapult");
 
     }

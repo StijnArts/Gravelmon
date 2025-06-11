@@ -143,7 +143,8 @@
     "enjin",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.smashzal.desc"
@@ -152,7 +153,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6417,
+  "nationalPokedexNumber": 6356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

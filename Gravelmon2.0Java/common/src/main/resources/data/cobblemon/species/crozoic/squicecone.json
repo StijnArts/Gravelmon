@@ -78,7 +78,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.squicecone.desc"
@@ -87,7 +88,7 @@
   "weight": 1100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4366,
+  "nationalPokedexNumber": 4305,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

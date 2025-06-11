@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "20-40",
-      "weight": 7.5,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "21-47",
-      "weight": 3.0,
+      "level": "21-41",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-30",
-      "weight": 13.5,
+      "level": "12-32",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

@@ -1,0 +1,6 @@
+{
+    "keys": [ "nostantwo" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

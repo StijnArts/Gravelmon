@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "41-61",
-      "weight": 0.44999999999999996,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "34-53",
-      "weight": 0.6000000000000001,
+      "level": "34-54",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "33-45",
-      "weight": 0.6000000000000001,
+      "level": "33-53",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_dripstone"

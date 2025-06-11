@@ -41,12 +41,15 @@ public class Poogurt extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,90)                        ),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 28, 2, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_CROPS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
+    .build(), List.of());
+	
            setLangFileName("Poogurt");
 
     }

@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothita form=africanusan",
       "baseScale": 0.175,
       "cannotDynamax": false,
       "abilities": [
@@ -84,7 +85,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusangothorita.desc"
@@ -299,6 +302,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gothita form=epoch",
       "baseScale": 0.32941176470588235,
       "cannotDynamax": false,
       "abilities": [
@@ -427,7 +431,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgothoritaone.desc"
@@ -439,9 +445,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgothoritaone_epochtwogothitelle",
+          "id": "epochgothoritaone_gothitelle_epoch",
           "variant": "level_up",
-          "result": "epochtwogothitelle",
+          "result": "gothitelle epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

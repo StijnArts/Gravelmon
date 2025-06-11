@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "stellith",
+  "preEvolution": "planite",
   "baseScale": 0.9913043478260869,
   "cannotDynamax": false,
   "abilities": [
@@ -122,6 +122,8 @@
     "not_modeled",
     "fakemonevolution",
     "fakemon",
+    "fakemonevolution",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -131,7 +133,7 @@
   "weight": 2430,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6137,
+  "nationalPokedexNumber": 6076,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

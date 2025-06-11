@@ -121,7 +121,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.crestoral.desc"
@@ -130,7 +131,7 @@
   "weight": 100,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4351,
+  "nationalPokedexNumber": 4290,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

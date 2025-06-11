@@ -106,7 +106,8 @@
   ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.chiripe.desc"

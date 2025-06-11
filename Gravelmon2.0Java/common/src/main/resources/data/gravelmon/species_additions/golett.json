@@ -626,9 +626,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgolettone_epochtwogolurk",
+          "id": "epochgolettone_golurk_epoch",
           "variant": "level_up",
-          "result": "epochtwogolurk",
+          "result": "golurk epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

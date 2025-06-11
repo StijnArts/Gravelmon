@@ -132,7 +132,8 @@
   ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.yacuma.desc"

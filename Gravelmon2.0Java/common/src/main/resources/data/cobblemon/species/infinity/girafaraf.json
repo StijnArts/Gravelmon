@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "girafarig",
+  "preEvolution": "girafaraf",
   "baseScale": 0.345,
   "cannotDynamax": false,
   "abilities": [
@@ -184,6 +184,7 @@
   "labels": [
     "infinity",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

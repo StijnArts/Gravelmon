@@ -75,7 +75,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.dregion.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8176,
+  "nationalPokedexNumber": 8115,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

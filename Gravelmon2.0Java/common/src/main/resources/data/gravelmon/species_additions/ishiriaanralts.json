@@ -1,0 +1,163 @@
+{
+  "target": "cobblemon:ishiriaanralts",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "dark",
+      "secondaryType": "fairy",
+      "catchRate": 235,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 40,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "infiltrator",
+        "trace",
+        "h:telepathy"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 28,
+        "attack": 35,
+        "defence": 25,
+        "special_attack": 45,
+        "special_defence": 25,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "4:disarmingvoice",
+        "6:doubleteam",
+        "8:feintattack",
+        "9:teleport",
+        "11:confusion",
+        "17:magicalleaf",
+        "19:nightslash",
+        "22:drainingkiss",
+        "24:calmmind",
+        "27:nightdaze",
+        "29:imprison",
+        "32:darkpulse",
+        "34:charm",
+        "37:hypnosis",
+        "39:dreameater",
+        "42:storedpower",
+        "tm:psyshock",
+        "tm:calmmind",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:taunt",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:raindance",
+        "tm:safeguard",
+        "tm:frustration",
+        "tm:thunderbolt",
+        "tm:return",
+        "tm:psychic",
+        "tm:shadowball",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:torment",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:thief",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:willowisp",
+        "tm:flash",
+        "tm:thunderwave",
+        "tm:psychup",
+        "tm:dreameater",
+        "tm:grassknot",
+        "tm:swagger",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:trickroom",
+        "tm:dazzlinggleam",
+        "tm:confide",
+        "tm:secretpower",
+        "tm:snore",
+        "tm:endure",
+        "tm:allyswitch",
+        "tm:confuseray",
+        "tm:destinybond",
+        "tm:disable",
+        "tm:encore",
+        "tm:grudge",
+        "tm:meanlook",
+        "tm:memento",
+        "tm:mistyterrain",
+        "tm:shadowsneak",
+        "tm:skillswap",
+        "tm:synchronoise"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriaanralts.desc"
+      ],
+      "height": 4,
+      "weight": 66,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

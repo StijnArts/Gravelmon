@@ -162,6 +162,7 @@
   "labels": [
     "umbra",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -172,7 +173,7 @@
   "weight": 1572,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4907,
+  "nationalPokedexNumber": 4846,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

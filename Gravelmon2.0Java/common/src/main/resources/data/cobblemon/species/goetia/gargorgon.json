@@ -81,7 +81,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.gargorgon.desc"
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8243,
+  "nationalPokedexNumber": 8182,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

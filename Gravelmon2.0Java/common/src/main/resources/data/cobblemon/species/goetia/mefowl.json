@@ -82,7 +82,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.mefowl.desc"
@@ -91,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8230,
+  "nationalPokedexNumber": 8169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

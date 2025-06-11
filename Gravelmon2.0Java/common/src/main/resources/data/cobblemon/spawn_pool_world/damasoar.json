@@ -7,14 +7,14 @@
       "id": "damasoar-01",
       "pokemon": "damasoar",
       "presets": [
-        "natural",
+        "water",
         "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen",

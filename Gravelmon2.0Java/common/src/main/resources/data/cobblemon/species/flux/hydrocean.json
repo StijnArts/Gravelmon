@@ -90,6 +90,7 @@
   "labels": [
     "flux",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -100,7 +101,7 @@
   "weight": 748,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2623,
+  "nationalPokedexNumber": 2562,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

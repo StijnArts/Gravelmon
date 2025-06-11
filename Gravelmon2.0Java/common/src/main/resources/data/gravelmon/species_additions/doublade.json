@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "honedge form=africanusan",
       "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
@@ -82,7 +83,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusandoublade.desc"
@@ -285,6 +288,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "honedge form=epoch",
       "baseScale": 0.23414634146341462,
       "cannotDynamax": false,
       "abilities": [
@@ -387,7 +391,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdoubladeone.desc"
@@ -541,9 +547,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdoubladetwo_epochtwoaegislash",
+          "id": "epochdoubladetwo_aegislash_epoch",
           "variant": "item_interact",
-          "result": "epochtwoaegislash",
+          "result": "aegislash epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -698,9 +704,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdoubladethree_epochthree_aegislash",
+          "id": "epochdoubladethree_aegislash_epoch",
           "variant": "item_interact",
-          "result": "epochthree aegislash",
+          "result": "aegislash epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

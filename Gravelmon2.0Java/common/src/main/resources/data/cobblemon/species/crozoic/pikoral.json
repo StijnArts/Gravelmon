@@ -112,7 +112,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pikoral.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4350,
+  "nationalPokedexNumber": 4289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

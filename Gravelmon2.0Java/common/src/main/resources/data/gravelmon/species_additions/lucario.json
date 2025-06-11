@@ -340,6 +340,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianianlucario",
       "baseScale": 0.06562499999999999,
       "cannotDynamax": false,
       "abilities": [
@@ -415,6 +416,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -598,6 +600,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "riolu form=ayreian",
       "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
@@ -750,7 +753,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianlucario.desc"
@@ -778,6 +783,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ishirianlucario",
       "baseScale": 0.4571428571428571,
       "cannotDynamax": false,
       "abilities": [
@@ -959,7 +965,8 @@
       ],
       "labels": [
         "ishiria",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ishirianlucario.desc"

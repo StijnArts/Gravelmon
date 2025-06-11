@@ -1,0 +1,155 @@
+{
+  "target": "cobblemon:ayreianledian",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "bug",
+      "secondaryType": "fighting",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "earlybird"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 100,
+        "defence": 45,
+        "special_attack": 110,
+        "special_defence": 55,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "33:agility",
+        "20:bugbite",
+        "12:reflect",
+        "12:safeguard",
+        "42:bounce",
+        "5:supersonic",
+        "8:swift",
+        "12:lightscreen",
+        "47:doubleedge",
+        "38:lunge",
+        "0:thunderpunch",
+        "15:machpunch",
+        "24:cometpunch",
+        "29:drainpunch",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:brickbreak",
+        "tm:bugbite",
+        "tm:confide",
+        "tm:defog",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:endure",
+        "tm:facade",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:icepunch",
+        "tm:infestation",
+        "tm:knockoff",
+        "tm:lightscreen",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strength",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:thunderpunch",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianledian.desc"
+      ],
+      "height": 14,
+      "weight": 356,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

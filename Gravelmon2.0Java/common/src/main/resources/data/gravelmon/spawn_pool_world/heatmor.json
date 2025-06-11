@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "18-51",
-      "weight": 3.0,
+      "level": "18-38",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-48",
-      "weight": 13.5,
+      "level": "23-43",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland",

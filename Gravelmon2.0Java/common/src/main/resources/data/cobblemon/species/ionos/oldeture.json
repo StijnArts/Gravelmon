@@ -77,7 +77,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.oldeture.desc"
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6527,
+  "nationalPokedexNumber": 6466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.125,

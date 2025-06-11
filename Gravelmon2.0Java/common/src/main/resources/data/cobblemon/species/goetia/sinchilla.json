@@ -88,7 +88,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.sinchilla.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8234,
+  "nationalPokedexNumber": 8173,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

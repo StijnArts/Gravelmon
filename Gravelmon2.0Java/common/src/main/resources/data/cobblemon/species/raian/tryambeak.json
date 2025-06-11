@@ -71,6 +71,8 @@
   "labels": [
     "raian",
     "not_modeled",
+    "fossil",
+    "fossil",
     "instagram",
     "instagram"
   ],
@@ -96,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3292,
+  "nationalPokedexNumber": 3231,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

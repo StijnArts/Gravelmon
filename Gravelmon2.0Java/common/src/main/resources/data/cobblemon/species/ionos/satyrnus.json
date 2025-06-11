@@ -81,6 +81,7 @@
   "labels": [
     "ionos",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6529,
+  "nationalPokedexNumber": 6468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

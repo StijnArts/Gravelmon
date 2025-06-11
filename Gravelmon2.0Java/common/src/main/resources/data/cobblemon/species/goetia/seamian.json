@@ -35,6 +35,7 @@
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": true,
+        "canWalkOnWater": true,
         "canWalkOnLava": false
       }
     }
@@ -88,7 +89,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.seamian.desc"
@@ -112,7 +114,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7859,
+  "nationalPokedexNumber": 7798,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

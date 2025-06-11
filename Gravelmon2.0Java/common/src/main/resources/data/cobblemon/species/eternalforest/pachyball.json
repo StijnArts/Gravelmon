@@ -148,7 +148,8 @@
   ],
   "labels": [
     "eternal_forest",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.pachyball.desc"
@@ -172,7 +173,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4053,
+  "nationalPokedexNumber": 3992,
   "shoulderMountable": false,
   "hitbox": {
     "width": 43.4375,

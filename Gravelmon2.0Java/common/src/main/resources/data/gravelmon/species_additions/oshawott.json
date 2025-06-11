@@ -143,7 +143,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochoshawott.desc"
@@ -270,7 +271,8 @@
       ],
       "labels": [
         "nodorro",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.nodorranoshawott.desc"

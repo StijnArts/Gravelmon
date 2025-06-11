@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "70-70",
-      "weight": 1.5000000000000001E-4,
+      "level": "65-85",
+      "weight": 6.0E-4,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

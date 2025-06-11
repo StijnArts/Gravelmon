@@ -1,0 +1,2444 @@
+{
+  "target": "cobblemon:ayreianvivillon",
+  "forms": [
+    {
+      "name": "Nostantwelve",
+      "primaryType": "ground",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "12:spikes",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivilloneleven.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostantwelve"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostannine",
+      "primaryType": "dragon",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "12:dragoncheer",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivilloneight.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostannine"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostantwo",
+      "primaryType": "electric",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "12:electroweb",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonone.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostantwo"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanfour",
+      "primaryType": "grass",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "12:strengthsap",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonthree.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanfour"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanten",
+      "primaryType": "ghost",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "12:hex",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonnine.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanten"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanfifteen",
+      "primaryType": "ice",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "12:icywind",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:icebeam",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonfourteen.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanfifteen"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostan",
+      "primaryType": "fighting",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "12:coaching",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillon.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanfive",
+      "primaryType": "fire",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "12:incinerate",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonfour.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanfive"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostaneight",
+      "primaryType": "water",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "12:lifedew",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonseven.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostaneight"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanseventeen",
+      "primaryType": "normal",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "12:wish",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonsixteen.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanseventeen"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostansixteen",
+      "primaryType": "fairy",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "12:floralhealing",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:electroweb",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:icebeam",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonfifteen.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostansixteen"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostansix",
+      "primaryType": "steel",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "12:irondefense",
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonfive.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostansix"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanthree",
+      "primaryType": "poison",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "12:toxicthread",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillontwo.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanthree"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostaneleven",
+      "primaryType": "rock",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "50:hurricane",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "12:wideguard",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonten.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostaneleven"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanfourteen",
+      "primaryType": "psychic",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "12:reflect",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "12:lightscreen",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonthirteen.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanfourteen"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanthirteen",
+      "primaryType": "sound",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "12:echoedvoice",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillontwelve.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanthirteen"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    },
+    {
+      "name": "Nostanseven",
+      "primaryType": "dark",
+      "secondaryType": "bug",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3,
+      "cannotDynamax": false,
+      "abilities": [
+        "adaptability",
+        "compoundeyes"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 52,
+        "defence": 65,
+        "special_attack": 89,
+        "special_defence": 100,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "8:bugbite",
+        "10:harden",
+        "1:tackle",
+        "26:revelationdance",
+        "50:airslash",
+        "41:safeguard",
+        "35:bugbuzz",
+        "21:supersonic",
+        "1:protect",
+        "12:taunt",
+        "31:aromatherapy",
+        "45:quiverdance",
+        "17:strugglebug",
+        "55:powder",
+        "5:stunspore",
+        "1:stringshot",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bugbite",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:hiddenpower",
+        "tm:hyperbeam",
+        "tm:infestation",
+        "tm:laserfocus",
+        "tm:lightscreen",
+        "tm:protect",
+        "tm:psychic",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:roost",
+        "tm:round",
+        "tm:safeguard",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:strugglebug",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:tailwind",
+        "tm:thief",
+        "tm:toxic",
+        "tm:uturn"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianvivillonsix.desc"
+      ],
+      "height": 12,
+      "weight": 170,
+      "aspects": [
+        "nostanseven"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostantwelve",
+    "nostannine",
+    "nostantwo",
+    "nostanfour",
+    "nostanten",
+    "nostanfifteen",
+    "nostan",
+    "nostanfive",
+    "nostaneight",
+    "nostanseventeen",
+    "nostansixteen",
+    "nostansix",
+    "nostanthree",
+    "nostaneleven",
+    "nostanfourteen",
+    "nostanthirteen",
+    "nostanseven"
+  ]
+}

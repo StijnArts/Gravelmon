@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Desol",
   "baseScale": 0.018750000000000003,
   "cannotDynamax": false,
   "abilities": [
@@ -92,6 +93,7 @@
   ],
   "labels": [
     "not_modeled",
+    "fakemonevolution",
     "palmia",
     "instagram",
     "instagram"
@@ -103,7 +105,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3510,
+  "nationalPokedexNumber": 3449,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

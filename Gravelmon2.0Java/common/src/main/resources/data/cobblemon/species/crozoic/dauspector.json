@@ -69,7 +69,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.dauspector.desc"
@@ -78,7 +79,7 @@
   "weight": 320,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4332,
+  "nationalPokedexNumber": 4271,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "rare",
-      "level": "47-64",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "47-67",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

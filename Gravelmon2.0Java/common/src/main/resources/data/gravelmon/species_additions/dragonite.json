@@ -40,6 +40,7 @@
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
+            "canWalkOnWater": true,
             "canWalkOnLava": false
           }
         }
@@ -188,6 +189,7 @@
         "gen1",
         "insurgence",
         "not_modeled",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -216,6 +218,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "raianiandragonite",
       "baseScale": 0.12656250000000002,
       "cannotDynamax": false,
       "abilities": [
@@ -297,6 +300,8 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
+        "fakemonevolution",
         "instagram",
         "instagram"
       ],
@@ -407,6 +412,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],
@@ -569,6 +575,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -598,6 +605,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "dragonair form=ayreian",
       "baseScale": 0.6068965517241379,
       "cannotDynamax": false,
       "abilities": [
@@ -648,7 +656,16 @@
       "eggGroups": [
         "dragon"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:firepunch",
         "20:agility",
@@ -751,7 +768,10 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandragonite.desc"

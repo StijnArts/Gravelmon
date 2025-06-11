@@ -79,7 +79,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.phoeuck.desc"

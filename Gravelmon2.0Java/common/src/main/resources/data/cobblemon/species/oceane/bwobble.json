@@ -74,7 +74,8 @@
   ],
   "labels": [
     "oceane",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.bwobble.desc"

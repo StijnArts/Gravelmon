@@ -7,13 +7,13 @@
       "id": "lubub-01",
       "pokemon": "lubub",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "9-31",
-      "weight": 13.5,
+      "level": "9-29",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

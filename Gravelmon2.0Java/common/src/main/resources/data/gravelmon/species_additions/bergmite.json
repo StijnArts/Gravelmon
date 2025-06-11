@@ -511,9 +511,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbergmiteone_epochtwoavalugg",
+          "id": "epochbergmiteone_avalugg_epoch",
           "variant": "level_up",
-          "result": "epochtwoavalugg",
+          "result": "avalugg epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

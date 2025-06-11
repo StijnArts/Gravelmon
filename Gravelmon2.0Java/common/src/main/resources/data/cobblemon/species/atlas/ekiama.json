@@ -116,6 +116,7 @@
   "labels": [
     "atlas",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -126,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6893,
+  "nationalPokedexNumber": 6832,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

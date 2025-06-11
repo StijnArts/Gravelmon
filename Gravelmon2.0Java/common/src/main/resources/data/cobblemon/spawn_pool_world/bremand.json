@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-39",
-      "weight": 6.0,
+      "weight": 5.2,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-39",
-      "weight": 6.0,
+      "weight": 5.2,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -69,7 +69,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-39",
-      "weight": 6.0,
+      "weight": 5.2,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -97,7 +97,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-39",
-      "weight": 6.0,
+      "weight": 5.2,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"

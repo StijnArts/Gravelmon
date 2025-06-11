@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "arbok",
+  "preEvolution": "setsarec",
   "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
@@ -139,6 +139,7 @@
   "labels": [
     "vanguard",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -148,7 +149,7 @@
   "weight": 1440,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5478,
+  "nationalPokedexNumber": 5417,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

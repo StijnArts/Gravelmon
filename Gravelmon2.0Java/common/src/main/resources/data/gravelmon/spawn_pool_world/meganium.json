@@ -12,21 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "32-49",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_island",
-          "#cobblemon:is_tropical_island"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_arid",
           "#cobblemon:is_cold"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -47,7 +41,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.15000000000000002,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -74,7 +68,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.15000000000000002,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
@@ -98,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-47",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
@@ -127,7 +121,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "6-19",
-      "weight": 12.0,
+      "level": "5-31",
+      "weight": 6.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"

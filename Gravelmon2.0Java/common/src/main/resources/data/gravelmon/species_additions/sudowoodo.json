@@ -160,6 +160,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 26,
       "baseFriendship": 70,
+      "preEvolution": "sudowoodo amazeall",
       "baseScale": 0.2,
       "cannotDynamax": false,
       "abilities": [
@@ -211,7 +212,16 @@
       "eggGroups": [
         "mineral"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:amaze_drive",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:confuseray",
         "1:confusion",
@@ -290,7 +300,8 @@
       "labels": [
         "lockemon",
         "gen2",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.amazeallsudowoodo.desc"

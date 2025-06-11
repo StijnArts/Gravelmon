@@ -7,13 +7,13 @@
       "id": "gunkile-01",
       "pokemon": "gunkile",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "12-33",
-      "weight": 13.5,
+      "level": "12-32",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

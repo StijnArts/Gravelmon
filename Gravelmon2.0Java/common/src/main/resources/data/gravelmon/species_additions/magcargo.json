@@ -266,6 +266,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "slugma form=epoch",
       "baseScale": 0.3047619047619048,
       "cannotDynamax": false,
       "abilities": [
@@ -407,7 +408,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmagcargoone.desc"

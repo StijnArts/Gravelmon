@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "35-47",
-      "weight": 1.6500000000000001,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

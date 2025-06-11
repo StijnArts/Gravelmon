@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "lumineon",
+  "preEvolution": "tetoraito",
   "baseScale": 0.6476190476190475,
   "cannotDynamax": false,
   "abilities": [
@@ -131,6 +131,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -140,7 +141,7 @@
   "weight": 450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6335,
+  "nationalPokedexNumber": 6274,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

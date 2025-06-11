@@ -99,7 +99,8 @@
   "labels": [
     "deneb",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.lylapse.desc"
@@ -108,7 +109,7 @@
   "weight": 2342,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6149,
+  "nationalPokedexNumber": 6088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

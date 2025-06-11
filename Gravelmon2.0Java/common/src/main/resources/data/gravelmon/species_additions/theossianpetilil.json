@@ -1,0 +1,163 @@
+{
+  "target": "cobblemon:theossianpetilil",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "ice",
+      "catchRate": 190,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 56,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "snowcloak",
+        "owntempo",
+        "h:leafguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 35,
+        "defence": 50,
+        "special_attack": 70,
+        "special_defence": 50,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "4:growth",
+        "8:leechseed",
+        "10:sleeppowder",
+        "13:megadrain",
+        "17:synthesis",
+        "19:magicalleaf",
+        "22:stunspore",
+        "26:gigadrain",
+        "28:aromatherapy",
+        "31:helpinghand",
+        "35:energyball",
+        "37:entrainment",
+        "40:sunnyday",
+        "44:afteryou",
+        "46:leafstorm",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:healbell",
+        "tm:synthesis",
+        "tm:helpinghand",
+        "tm:covet",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:afteryou",
+        "tm:laserfocus",
+        "tm:babydolleyes",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:round",
+        "tm:confide",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:cut",
+        "tm:encore",
+        "tm:endure",
+        "tm:flash",
+        "tm:grassyglide",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:pollenpuff",
+        "tm:secretpower",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:bide",
+        "tm:endure",
+        "tm:charm",
+        "tm:encore",
+        "tm:sweetscent",
+        "tm:ingrain",
+        "tm:grasswhistle",
+        "tm:healingwish",
+        "tm:naturalgift"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianpetilil.desc"
+      ],
+      "height": 5,
+      "weight": 66,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

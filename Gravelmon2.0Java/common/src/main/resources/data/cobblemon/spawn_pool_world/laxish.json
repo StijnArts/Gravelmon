@@ -12,20 +12,14 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.5999999999999996,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:has_season/winter",
-          "#cobblemon:has_season/autumn"
+          "#minecraft:is_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#minecraft:is_ocean"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

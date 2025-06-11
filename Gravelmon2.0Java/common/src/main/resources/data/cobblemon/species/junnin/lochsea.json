@@ -76,7 +76,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.lochsea.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3117,
+  "nationalPokedexNumber": 3056,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

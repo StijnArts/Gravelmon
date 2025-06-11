@@ -7,13 +7,13 @@
       "id": "mosveratu-01",
       "pokemon": "mosveratu",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "34-51",
-      "weight": 0.15000000000000002,
+      "level": "34-54",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

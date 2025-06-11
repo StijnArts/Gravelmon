@@ -149,7 +149,8 @@
     "nosto",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.chainjaw.desc"
@@ -158,7 +159,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4721,
+  "nationalPokedexNumber": 4660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

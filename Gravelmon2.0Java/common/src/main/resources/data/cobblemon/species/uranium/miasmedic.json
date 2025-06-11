@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "preEvolution": "spritzee",
+  "preEvolution": "miasmedic",
   "baseScale": 0.26301369863013696,
   "cannotDynamax": false,
   "abilities": [
@@ -142,6 +142,7 @@
   "labels": [
     "uranium",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -151,7 +152,7 @@
   "weight": 155,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2548,
+  "nationalPokedexNumber": 2487,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "28-44",
-      "weight": 1.5,
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -39,21 +39,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "28-44",
-      "weight": 1.5,
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -72,21 +67,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "28-44",
-      "weight": 1.5,
+      "bucket": "common",
+      "level": "28-48",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_badlands"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -106,8 +96,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "28-45",
-      "weight": 0.44999999999999996,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "21-48",
-      "weight": 3.3000000000000003,
+      "level": "21-41",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_desert"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-45",
-      "weight": 0.6000000000000001,
+      "level": "23-43",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "23-45",
-      "weight": 3.1500000000000004,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"

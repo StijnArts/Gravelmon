@@ -7,13 +7,13 @@
       "id": "krillzaingel-01",
       "pokemon": "krillzaingel",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "14-44",
-      "weight": 6.0,
+      "level": "14-34",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

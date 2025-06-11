@@ -7,13 +7,13 @@
       "id": "rivestic-01",
       "pokemon": "rivestic",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
-      "level": "16-40",
-      "weight": 5.4,
+      "level": "16-36",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands",

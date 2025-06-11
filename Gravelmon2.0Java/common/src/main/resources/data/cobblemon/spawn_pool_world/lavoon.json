@@ -11,20 +11,15 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "rare",
-      "level": "45-55",
-      "weight": 4.5,
+      "bucket": "common",
+      "level": "45-65",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#minecraft:is_deep_ocean"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

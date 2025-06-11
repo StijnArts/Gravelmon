@@ -83,6 +83,7 @@
       "labels": [
         "raian",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "instagram",
@@ -195,6 +196,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "norse",
@@ -299,6 +301,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "palmia",
@@ -406,6 +409,7 @@
       ],
       "labels": [
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution",
         "trizor",
@@ -573,6 +577,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -602,6 +607,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gabite form=epoch",
       "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
@@ -732,7 +738,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgarchompone.desc"
@@ -760,7 +769,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "Gabite",
+      "preEvolution": "garchomp armiran",
       "baseScale": 0.285,
       "cannotDynamax": false,
       "abilities": [
@@ -897,6 +906,8 @@
         "gen4",
         "daybreak",
         "not_modeled",
+        "fakemonevolution",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -1001,6 +1012,7 @@
       "labels": [
         "aroma",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

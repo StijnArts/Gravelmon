@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-45",
-      "weight": 3.0,
+      "level": "15-35",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",
@@ -40,20 +40,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-45",
-      "weight": 3.0,
+      "level": "15-35",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:has_season/summer"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_desert"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -68,7 +63,7 @@
       "id": "epoch_tropius-01",
       "pokemon": "tropius epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -98,8 +93,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-45",
-      "weight": 3.0,
+      "level": "15-35",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_old_growth_taiga"
@@ -125,8 +120,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "15-45",
-      "weight": 3.0,
+      "level": "15-35",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",

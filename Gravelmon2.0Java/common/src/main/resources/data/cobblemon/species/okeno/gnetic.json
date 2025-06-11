@@ -64,7 +64,8 @@
   ],
   "labels": [
     "okeno",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.gnetic.desc"
@@ -73,7 +74,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6068,
+  "nationalPokedexNumber": 6007,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

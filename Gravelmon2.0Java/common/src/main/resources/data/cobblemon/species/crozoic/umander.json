@@ -87,7 +87,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.umander.desc"
@@ -96,7 +97,7 @@
   "weight": 247,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4311,
+  "nationalPokedexNumber": 4250,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "rare",
       "level": "36-56",
-      "weight": 1.9500000000000002,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"
@@ -37,7 +37,7 @@
       "context": "fishing",
       "bucket": "rare",
       "level": "36-56",
-      "weight": 1.9500000000000002,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"

@@ -7,13 +7,13 @@
       "id": "blobhorent-01",
       "pokemon": "blobhorent",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "24-42",
-      "weight": 0.75,
+      "level": "24-44",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

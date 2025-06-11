@@ -79,7 +79,8 @@
       "labels": [
         "gen3",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.deltaspiderbeldum.desc"
@@ -182,7 +183,8 @@
       ],
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.deltaruinbeldum.desc"
@@ -361,7 +363,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochbeldum.desc"
@@ -488,6 +491,7 @@
       "labels": [
         "fabel",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

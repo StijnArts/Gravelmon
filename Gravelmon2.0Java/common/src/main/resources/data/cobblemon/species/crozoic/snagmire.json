@@ -74,7 +74,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.snagmire.desc"
@@ -83,7 +84,7 @@
   "weight": 2840,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4321,
+  "nationalPokedexNumber": 4260,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

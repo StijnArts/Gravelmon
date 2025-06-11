@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "Sandslash",
+  "preEvolution": "sandridger",
   "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
@@ -155,6 +155,7 @@
   "labels": [
     "daybreak",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -164,7 +165,7 @@
   "weight": 555,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5331,
+  "nationalPokedexNumber": 5270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 11.25,

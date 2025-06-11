@@ -92,7 +92,8 @@
   ],
   "labels": [
     "opal",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.quisquite.desc"

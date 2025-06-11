@@ -174,7 +174,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "sage"
+    "sage",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.ufi.desc"

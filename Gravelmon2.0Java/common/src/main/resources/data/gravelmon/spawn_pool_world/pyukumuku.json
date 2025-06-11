@@ -7,13 +7,13 @@
       "id": "x_pyukumuku-01",
       "pokemon": "pyukumuku x",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "20-37",
-      "weight": 4.65,
+      "level": "20-40",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end",

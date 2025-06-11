@@ -37,6 +37,7 @@
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": true,
+        "canWalkOnWater": true,
         "canWalkOnLava": false
       }
     }
@@ -130,6 +131,7 @@
   "labels": [
     "atlas",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -140,7 +142,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6908,
+  "nationalPokedexNumber": 6847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

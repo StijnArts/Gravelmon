@@ -78,7 +78,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.feverm.desc"
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8233,
+  "nationalPokedexNumber": 8172,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

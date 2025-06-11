@@ -67,6 +67,7 @@ subprojects {
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
         mappings loom.officialMojangMappings()
+        implementation 'org.reflections:reflections:0.10.2'
     }
 
     java {

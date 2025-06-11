@@ -12,18 +12,13 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "28-55",
-      "weight": 0.27,
+      "level": "28-48",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_spooky"
+          "#cobblemon:is_cold"
         ],
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -43,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-27",
-      "weight": 0.27,
+      "level": "12-32",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -70,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "41-54",
-      "weight": 1.5,
+      "level": "41-61",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -121,8 +116,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-27",
-      "weight": 0.27,
+      "level": "12-32",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"

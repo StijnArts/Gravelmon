@@ -81,7 +81,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.puffjinn.desc"
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6523,
+  "nationalPokedexNumber": 6462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

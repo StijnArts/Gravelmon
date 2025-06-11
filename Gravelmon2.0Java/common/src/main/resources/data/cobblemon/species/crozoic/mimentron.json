@@ -79,7 +79,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.mimentron.desc"
@@ -88,7 +89,7 @@
   "weight": 619,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4323,
+  "nationalPokedexNumber": 4262,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

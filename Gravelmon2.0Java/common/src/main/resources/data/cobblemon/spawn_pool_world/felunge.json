@@ -13,18 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "19-39",
-      "weight": 0.22499999999999998,
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

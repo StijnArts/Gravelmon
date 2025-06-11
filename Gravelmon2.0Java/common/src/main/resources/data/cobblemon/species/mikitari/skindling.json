@@ -142,7 +142,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.skindling.desc"
@@ -166,7 +167,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8361,
+  "nationalPokedexNumber": 8300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

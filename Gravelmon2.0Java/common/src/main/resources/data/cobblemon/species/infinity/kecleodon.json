@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "kecleon",
+  "preEvolution": "kecleodon",
   "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
@@ -155,6 +155,7 @@
   "labels": [
     "infinity",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

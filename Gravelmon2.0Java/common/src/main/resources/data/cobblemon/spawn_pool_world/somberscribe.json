@@ -11,16 +11,10 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "38-56",
-      "weight": 0.44999999999999996,
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 0.05,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_mushroom",
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_jungle"
         ]

@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "pixirize",
   "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -79,6 +80,7 @@
   ],
   "labels": [
     "not_modeled",
+    "fakemonevolution",
     "palmia",
     "instagram",
     "instagram"
@@ -90,7 +92,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3542,
+  "nationalPokedexNumber": 3481,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

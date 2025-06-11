@@ -93,6 +93,7 @@
   "labels": [
     "ferran",
     "not_modeled",
+    "fossil",
     "instagram",
     "instagram"
   ],
@@ -103,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7505,
+  "nationalPokedexNumber": 7444,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

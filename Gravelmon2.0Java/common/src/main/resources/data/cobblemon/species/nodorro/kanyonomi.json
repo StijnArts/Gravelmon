@@ -88,7 +88,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kanyonomi.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8891,
+  "nationalPokedexNumber": 8830,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

@@ -62,14 +62,18 @@ public class HoennianDunsparce extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 41, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
-                        new SpawnCondition(SpawnConditionType.MAXY, "20")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_ARID)
+    .setAntiBiomes(Biome.IS_DEEP_DARK)
+    .canSeeSky()
+    .belowY(20)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dunsparce");
 
     }

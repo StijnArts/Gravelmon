@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "2-24",
-      "weight": 13.5,
+      "level": "2-22",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_river"

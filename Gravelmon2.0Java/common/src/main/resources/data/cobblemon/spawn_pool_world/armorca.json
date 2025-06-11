@@ -7,13 +7,13 @@
       "id": "armorca-01",
       "pokemon": "armorca",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "23-44",
-      "weight": 3.0,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"

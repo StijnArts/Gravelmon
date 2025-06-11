@@ -660,9 +660,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochteddiursaone_epochtwoursaring",
+          "id": "epochteddiursaone_ursaring_epoch",
           "variant": "level_up",
-          "result": "epochtwoursaring",
+          "result": "ursaring epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

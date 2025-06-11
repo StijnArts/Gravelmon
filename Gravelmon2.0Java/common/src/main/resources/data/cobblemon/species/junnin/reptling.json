@@ -124,7 +124,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.reptling.desc"
@@ -148,7 +149,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 3035,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

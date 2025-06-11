@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "spireon",
   "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
@@ -172,7 +173,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.spireon.desc"
@@ -181,7 +183,7 @@
   "weight": 240,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8995,
+  "nationalPokedexNumber": 8885,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.25,

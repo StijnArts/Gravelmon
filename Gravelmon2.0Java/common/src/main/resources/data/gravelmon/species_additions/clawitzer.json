@@ -155,6 +155,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "clauncher form=vesitan",
       "baseScale": 0.39493670886075954,
       "cannotDynamax": false,
       "abilities": [
@@ -230,7 +231,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanclawitzer.desc"

@@ -7,13 +7,13 @@
       "id": "sellfish-01",
       "pokemon": "sellfish",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "16-39",
-      "weight": 6.0,
+      "level": "16-36",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

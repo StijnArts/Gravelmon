@@ -243,7 +243,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         fileContents.addProperty("cannotDynamax", false);
         fileContents.addProperty("battleOnly", true);
         var abilities = new JsonArray();
-        abilities.add(abilities.get(0));
+        abilities.add(this.abilities.getFirst().getName());
         fileContents.add("abilities", abilities);
         fileContents.add("baseStats", stats.getJsonRepresentation());
         var labels = new JsonArray();

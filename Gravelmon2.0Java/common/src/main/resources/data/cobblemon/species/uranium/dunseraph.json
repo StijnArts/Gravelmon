@@ -8,6 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
+  "preEvolution": "dunseraph",
   "baseScale": 1.3499999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -164,7 +165,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dunseraph.desc"
@@ -173,7 +175,7 @@
   "weight": 1098,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2484,
+  "nationalPokedexNumber": 2423,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

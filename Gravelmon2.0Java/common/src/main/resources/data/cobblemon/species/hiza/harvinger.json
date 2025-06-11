@@ -77,7 +77,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.harvinger.desc"
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3089,
+  "nationalPokedexNumber": 3028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

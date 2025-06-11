@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "delfine",
   "baseScale": 0.7081967213114754,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +80,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.delfine.desc"
@@ -88,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8298,
+  "nationalPokedexNumber": 8237,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

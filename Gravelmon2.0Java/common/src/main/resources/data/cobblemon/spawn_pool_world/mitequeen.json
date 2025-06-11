@@ -11,15 +11,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "50-71",
-      "weight": 0.15000000000000002,
+      "bucket": "uncommon",
+      "level": "50-70",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "glanchog",
   "baseScale": 0.5052631578947369,
   "cannotDynamax": false,
   "abilities": [
@@ -165,7 +166,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.glanchog.desc"
@@ -174,7 +176,7 @@
   "weight": 467,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8426,
+  "nationalPokedexNumber": 8365,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

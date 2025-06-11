@@ -77,7 +77,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pterai.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3042,
+  "nationalPokedexNumber": 2981,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

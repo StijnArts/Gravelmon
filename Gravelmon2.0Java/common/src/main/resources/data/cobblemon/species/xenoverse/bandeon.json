@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 35,
   "baseFriendship": 70,
+  "preEvolution": "bandeon",
   "baseScale": 0.42105263157894735,
   "cannotDynamax": false,
   "abilities": [
@@ -135,7 +136,9 @@
   ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bandeon.desc"

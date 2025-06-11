@@ -79,7 +79,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.batorch.desc"
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3108,
+  "nationalPokedexNumber": 3047,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

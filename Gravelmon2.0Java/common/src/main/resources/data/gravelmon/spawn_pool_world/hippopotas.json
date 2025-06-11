@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
-      "level": "21-43",
-      "weight": 6.0,
+      "level": "21-41",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-33",
-      "weight": 7.5,
+      "level": "12-32",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_coast",

@@ -84,7 +84,8 @@
   ],
   "labels": [
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.grizzlet.desc"
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2691,
+  "nationalPokedexNumber": 2630,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

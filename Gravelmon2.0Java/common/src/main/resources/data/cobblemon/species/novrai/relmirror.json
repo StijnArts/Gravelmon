@@ -139,7 +139,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.relmirror.desc"
@@ -148,7 +149,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6863,
+  "nationalPokedexNumber": 6802,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -79,7 +79,8 @@
   ],
   "labels": [
     "qamor",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.cragato.desc"
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5430,
+  "nationalPokedexNumber": 5369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

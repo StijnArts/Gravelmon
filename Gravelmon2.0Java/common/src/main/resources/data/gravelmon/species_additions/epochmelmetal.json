@@ -1,0 +1,170 @@
+{
+  "target": "cobblemon:epochmelmetal",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ice",
+      "secondaryType": "fairy",
+      "catchRate": 3,
+      "maleRatio": -1.0,
+      "baseExperienceYield": 300,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.625,
+      "cannotDynamax": false,
+      "abilities": [
+        "icebody",
+        "sweetveil",
+        "h:refrigerate"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 135,
+        "attack": 143,
+        "defence": 103,
+        "special_attack": 64,
+        "special_defence": 50,
+        "speed": 105
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:pound",
+        "1:harden",
+        "47:icehammer",
+        "25:charm",
+        "28:icepunch",
+        "25:captivate",
+        "35:doublehit",
+        "43:crushclaw",
+        "4:sweetkiss",
+        "63:thrash",
+        "17:iceball",
+        "14:avalanche",
+        "21:barrage",
+        "32:dizzypunch",
+        "1:iceshard",
+        "39:playrough",
+        "58:decorate",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:breakingswipe",
+        "tm:bulkup",
+        "tm:bulldoze",
+        "tm:calmmind",
+        "tm:charm",
+        "tm:closecombat",
+        "tm:dazzlinggleam",
+        "tm:defog",
+        "tm:drainingkiss",
+        "tm:echoedvoice",
+        "tm:frostbite",
+        "tm:geomancy",
+        "tm:gunkshot",
+        "tm:gyroball",
+        "tm:hail",
+        "tm:haze",
+        "tm:hiddenpower",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:iciclespear",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:lightscreen",
+        "tm:memento",
+        "tm:meteormash",
+        "tm:metronome",
+        "tm:mist",
+        "tm:mistyterrain",
+        "tm:moonblast",
+        "tm:nastyplot",
+        "tm:payday",
+        "tm:playrough",
+        "tm:powergem",
+        "tm:protect",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:rockblast",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sleeptalk",
+        "tm:stoneedge",
+        "tm:substitute",
+        "tm:superpower",
+        "tm:swift",
+        "tm:taunt",
+        "tm:toxic",
+        "tm:tripleaxel",
+        "tm:wish",
+        "tm:workup",
+        "tm:zenheadbutt"
+      ],
+      "labels": [
+        "soulstones",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.epochmelmetal.desc"
+      ],
+      "height": 25,
+      "weight": 8000,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

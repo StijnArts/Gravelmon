@@ -11,15 +11,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "44-55",
-      "weight": 3.3000000000000003,
+      "bucket": "uncommon",
+      "level": "44-64",
+      "weight": 0.009,
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "48-58",
-      "weight": 0.15000000000000002,
+      "level": "48-68",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -64,14 +64,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "45-58",
-      "weight": 0.15000000000000002,
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -106,14 +106,18 @@ public class RDuckulus extends Pokemon {
                         ),
                 List.of(Label.VEGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 55, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .setAntiBiomes(Biome.IS_SPOOKY)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setPreEvolution("farfetchd");
         setLangFileName("R'duckulus");
         addAdditionalEvolution("farfetchd", new EvolutionEntry("rduckulus", EvolutionType.LEVEL_UP, List.of(),

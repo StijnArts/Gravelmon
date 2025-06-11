@@ -12,14 +12,9 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "30-58",
-      "weight": 0.6000000000000001,
+      "level": "30-50",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_plains"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"
@@ -43,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "27-51",
-      "weight": 0.8999999999999999,
+      "level": "27-47",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral",

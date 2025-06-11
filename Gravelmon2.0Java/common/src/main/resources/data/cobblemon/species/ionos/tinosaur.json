@@ -82,7 +82,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.tinosaur.desc"
@@ -106,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6505,
+  "nationalPokedexNumber": 6444,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

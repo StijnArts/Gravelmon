@@ -105,13 +105,16 @@ public class Cheauking extends Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,"egg")
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 67, 0.02, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                0, List.of(), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SWAMP)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setPreEvolution("weezing");
         addAdditionalEvolution("weezing", new EvolutionEntry("cheauking", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"))));

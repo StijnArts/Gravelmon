@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 42,
-    "attack": 49,
-    "defence": 36,
-    "special_attack": 31,
-    "special_defence": 31,
-    "speed": 42
+    "hp": 46,
+    "attack": 75,
+    "defence": 46,
+    "special_attack": 41,
+    "special_defence": 41,
+    "speed": 41
   },
   "evYield": {
     "hp": 0,
@@ -76,7 +76,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.sebrium.desc"

@@ -330,9 +330,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochroggenrolaone_epochtwoboldore",
+          "id": "epochroggenrolaone_boldore_epoch",
           "variant": "level_up",
-          "result": "epochtwoboldore",
+          "result": "boldore epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

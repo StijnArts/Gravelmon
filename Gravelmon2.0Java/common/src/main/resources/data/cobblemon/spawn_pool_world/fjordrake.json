@@ -12,20 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "32-54",
-      "weight": 3.0,
+      "level": "32-52",
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_coast"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_beach",
           "#cobblemon:has_season/summer"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -79,7 +79,8 @@
     "hiza",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.kentrocious.desc"
@@ -88,7 +89,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3041,
+  "nationalPokedexNumber": 2980,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

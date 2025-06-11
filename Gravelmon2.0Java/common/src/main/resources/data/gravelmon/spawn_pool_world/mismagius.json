@@ -11,19 +11,14 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "32-58",
-      "weight": 3.0,
+      "bucket": "common",
+      "level": "32-52",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold"
+          "#cobblemon:is_spooky"
         ],
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -43,8 +38,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "39-50",
-      "weight": 0.8999999999999999,
+      "level": "39-59",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_island",
@@ -72,8 +67,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "39-50",
-      "weight": 0.8999999999999999,
+      "level": "39-59",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
@@ -100,8 +95,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "36-54",
-      "weight": 0.6000000000000001,
+      "level": "36-56",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

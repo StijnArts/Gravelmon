@@ -12,21 +12,15 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "35-50",
-      "weight": 2.25,
+      "level": "35-55",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freshwater",
-          "#cobblemon:is_swamp"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "night"
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

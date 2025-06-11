@@ -10,6 +10,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "seadra norheiman",
       "baseScale": 0.3169811320754717,
       "cannotDynamax": false,
       "abilities": [
@@ -82,7 +83,8 @@
       ],
       "labels": [
         "norheim",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.norheimanseadra.desc"
@@ -294,6 +296,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "horsea form=epoch",
       "baseScale": 0.5433962264150943,
       "cannotDynamax": false,
       "abilities": [
@@ -413,7 +416,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochseadraone.desc"
@@ -425,9 +430,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochseadraone_epochtwokingdra",
+          "id": "epochseadraone_kingdra_epoch",
           "variant": "item_interact",
-          "result": "epochtwokingdra",
+          "result": "kingdra epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

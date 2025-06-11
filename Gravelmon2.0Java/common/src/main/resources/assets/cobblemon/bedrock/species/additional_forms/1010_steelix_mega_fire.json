@@ -36,7 +36,7 @@
               "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame3.png",
               "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame4.png"
             ],
-            "fps": 4,
+            "fps": 10,
             "loop": true
           }
         },
@@ -86,7 +86,7 @@
               "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame3_shiny.png",
               "cobblemon:textures/pokemon/insurgence/steelix_mega_fire/flame/flame4_shiny.png"
             ],
-            "fps": 4,
+            "fps": 10,
             "loop": true
           }
         },

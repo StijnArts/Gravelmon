@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "piezeon",
   "baseScale": 0.0703125,
   "cannotDynamax": false,
   "abilities": [
@@ -85,6 +86,8 @@
   ],
   "labels": [
     "not_modeled",
+    "eeveelution",
+    "fakemonevolution",
     "palmia",
     "instagram",
     "instagram"
@@ -96,7 +99,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3463,
+  "nationalPokedexNumber": 3402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

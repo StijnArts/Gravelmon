@@ -141,7 +141,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.astroyatlas.desc"
@@ -150,7 +151,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6874,
+  "nationalPokedexNumber": 6813,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

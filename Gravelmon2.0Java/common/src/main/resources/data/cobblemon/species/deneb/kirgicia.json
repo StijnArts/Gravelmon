@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "ralts",
+  "preEvolution": "kirgicia",
   "baseScale": 0.41379310344827586,
   "cannotDynamax": false,
   "abilities": [
@@ -142,6 +142,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -162,7 +163,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6138,
+  "nationalPokedexNumber": 6077,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

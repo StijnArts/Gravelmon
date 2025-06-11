@@ -127,6 +127,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -262,6 +263,7 @@
         "gen9",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [

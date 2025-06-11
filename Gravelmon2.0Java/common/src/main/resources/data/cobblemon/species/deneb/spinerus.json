@@ -132,8 +132,10 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fossil",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.spinerus.desc"
@@ -142,7 +144,7 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6304,
+  "nationalPokedexNumber": 6243,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

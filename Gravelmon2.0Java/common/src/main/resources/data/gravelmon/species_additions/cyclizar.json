@@ -38,6 +38,7 @@
             "canSwimInLava": false,
             "canBreatheUnderlava": false,
             "canBreatheUnderwater": true,
+            "canWalkOnWater": true,
             "canWalkOnLava": false
           }
         }

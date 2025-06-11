@@ -88,6 +88,7 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
     "palmia",
     "instagram",
     "instagram"
@@ -99,7 +100,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3555,
+  "nationalPokedexNumber": 3494,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

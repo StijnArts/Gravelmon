@@ -584,9 +584,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochfeebasone_epochtwomilotic",
+          "id": "epochfeebasone_milotic_epoch",
           "variant": "item_interact",
-          "result": "epochtwomilotic",
+          "result": "milotic epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

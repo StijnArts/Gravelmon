@@ -8,7 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "pinsir",
+  "preEvolution": "pinchor",
   "baseScale": 0.675,
   "cannotDynamax": false,
   "abilities": [
@@ -128,6 +128,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -137,7 +138,7 @@
   "weight": 1170,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6208,
+  "nationalPokedexNumber": 6147,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

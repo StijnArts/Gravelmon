@@ -82,7 +82,8 @@
     "qamor",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.resistreak.desc"
@@ -91,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5431,
+  "nationalPokedexNumber": 5370,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

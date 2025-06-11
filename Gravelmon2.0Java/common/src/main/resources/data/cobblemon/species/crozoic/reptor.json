@@ -79,7 +79,9 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "legendary",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.reptor.desc"
@@ -88,7 +90,7 @@
   "weight": 608,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4378,
+  "nationalPokedexNumber": 4317,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

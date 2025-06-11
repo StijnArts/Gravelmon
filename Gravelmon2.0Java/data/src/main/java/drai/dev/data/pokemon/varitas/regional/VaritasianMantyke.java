@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMantyke extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianMantyke() {
-        super("Mantyke",
+    public VaritasianMantyke(String s, Aspect aspect) {
+        super(s, aspect, "Mantyke",
                 Type.WATER, Type.GROUND,
                 new Stats(45,
                         20,
@@ -16,15 +16,16 @@ public class VaritasianMantyke extends drai.dev.data.pokemon.Pokemon {
                         60,
                         120,
                         50),
-                List.of(Ability.SWIFT_SWIM,Ability.SAND_RUSH,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                List.of(Ability.SWIFT_SWIM,Ability.SAND_RUSH), Ability.SAND_VEIL,
+                10, 165,
                 new Stats(0,0,0,0,1,0), 25,
                 0.5,
                 69, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It adapted to hiding on the seafloor rather than leaping out of water. Unlike the more common form of Mantyke, it can often be quite shy."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianmantine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,3),
@@ -98,11 +99,14 @@ public class VaritasianMantyke extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.VARITAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(4).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Mantyke");
 
     }

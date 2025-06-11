@@ -80,7 +80,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.oblitoad.desc"
@@ -89,7 +90,7 @@
   "weight": 1486,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4320,
+  "nationalPokedexNumber": 4259,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

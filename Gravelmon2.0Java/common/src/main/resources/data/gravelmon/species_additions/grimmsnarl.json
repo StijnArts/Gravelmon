@@ -179,6 +179,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "morgrem form=epoch",
       "baseScale": 0.41860465116279066,
       "cannotDynamax": false,
       "abilities": [
@@ -310,7 +311,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgrimmsnarlone.desc"

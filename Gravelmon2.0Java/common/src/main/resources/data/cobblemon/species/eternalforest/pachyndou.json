@@ -163,6 +163,7 @@
   "labels": [
     "eternal_forest",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -188,7 +189,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4054,
+  "nationalPokedexNumber": 3993,
   "shoulderMountable": false,
   "hitbox": {
     "width": 60.37500000000001,

@@ -421,4 +421,8 @@ public abstract class WorldRepresentablePokemon {
         }
         return abilities;
     }
+
+    public String getTexturePath() {
+        return textureDirectory.getAbsolutePath()+"\\" + getTextureName() + ".png";
+    }
 }

@@ -280,6 +280,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "exploud kaskadian",
       "baseScale": 0.4931506849315068,
       "cannotDynamax": false,
       "abilities": [
@@ -406,7 +407,8 @@
       "labels": [
         "lockemon",
         "gen3",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.kaskadianexploud.desc"

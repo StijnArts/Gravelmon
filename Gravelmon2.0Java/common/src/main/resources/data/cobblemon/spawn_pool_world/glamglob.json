@@ -7,13 +7,13 @@
       "id": "glamglob-01",
       "pokemon": "glamglob",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "13-34",
-      "weight": 3.0,
+      "level": "13-33",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

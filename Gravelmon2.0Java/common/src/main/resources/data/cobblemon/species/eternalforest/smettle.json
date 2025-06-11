@@ -147,7 +147,8 @@
   ],
   "labels": [
     "eternal_forest",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.smettle.desc"
@@ -171,7 +172,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4050,
+  "nationalPokedexNumber": 3989,
   "shoulderMountable": false,
   "hitbox": {
     "width": 46.5,

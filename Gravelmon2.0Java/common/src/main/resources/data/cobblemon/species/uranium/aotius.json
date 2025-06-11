@@ -68,7 +68,8 @@
   "labels": [
     "uranium",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.aotius.desc"
@@ -77,7 +78,7 @@
   "weight": 3592,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2612,
+  "nationalPokedexNumber": 2551,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

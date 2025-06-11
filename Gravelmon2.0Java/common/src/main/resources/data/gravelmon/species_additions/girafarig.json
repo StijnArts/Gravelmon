@@ -497,20 +497,6 @@
       "permanent": true
     },
     {
-      "id": "girafarig_kirinirik",
-      "variant": "level_up",
-      "result": "kirinirik",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "outrage"
-        }
-      ],
-      "permanent": true
-    },
-    {
       "id": "girafarig_folifarig",
       "variant": "level_up",
       "result": "folifarig",
@@ -556,6 +542,20 @@
         {
           "variant": "time_range",
           "range": "dusk"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "girafarig_kirinirik",
+      "variant": "level_up",
+      "result": "kirinirik",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "outrage"
         }
       ],
       "permanent": true

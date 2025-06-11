@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "30-58",
-      "weight": 6.0,
+      "bucket": "common",
+      "level": "30-50",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"

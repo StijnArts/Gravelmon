@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "binacle form=lagoonan",
       "baseScale": 0.3586206896551724,
       "cannotDynamax": false,
       "abilities": [
@@ -95,7 +96,9 @@
       ],
       "labels": [
         "lagoone",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.lagoonanbarbaracle.desc"
@@ -288,6 +291,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "binacle form=vesitan",
       "baseScale": 0.39493670886075954,
       "cannotDynamax": false,
       "abilities": [
@@ -366,7 +370,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanbarbaracle.desc"

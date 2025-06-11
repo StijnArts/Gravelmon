@@ -71,6 +71,7 @@
   "labels": [
     "africanus",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -81,7 +82,7 @@
   "weight": 1000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2442,
+  "nationalPokedexNumber": 2381,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

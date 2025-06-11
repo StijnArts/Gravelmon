@@ -80,7 +80,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.bristilt.desc"
@@ -89,7 +90,7 @@
   "weight": 70,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4361,
+  "nationalPokedexNumber": 4300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "32-56",
-      "weight": 0.8999999999999999,
+      "level": "32-52",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold"

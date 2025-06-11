@@ -90,6 +90,7 @@
   "labels": [
     "ionos",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -100,7 +101,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6536,
+  "nationalPokedexNumber": 6475,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

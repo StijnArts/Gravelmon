@@ -85,7 +85,8 @@
   ],
   "labels": [
     "enjin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mouldon.desc"
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6356,
+  "nationalPokedexNumber": 6295,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

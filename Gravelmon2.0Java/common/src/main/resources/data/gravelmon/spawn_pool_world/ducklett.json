@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "9-36",
-      "weight": 6.75,
+      "level": "9-29",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -41,8 +41,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "4-40",
-      "weight": 6.0,
+      "level": "4-24",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove",

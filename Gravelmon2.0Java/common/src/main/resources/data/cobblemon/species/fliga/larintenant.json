@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "larintenant",
   "baseScale": 0.4740740740740741,
   "cannotDynamax": false,
   "abilities": [
@@ -139,7 +140,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.larintenant.desc"
@@ -148,7 +150,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5256,
+  "nationalPokedexNumber": 5195,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

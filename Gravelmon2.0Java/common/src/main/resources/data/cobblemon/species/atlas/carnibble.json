@@ -112,7 +112,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.carnibble.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7095,
+  "nationalPokedexNumber": 7034,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.375,

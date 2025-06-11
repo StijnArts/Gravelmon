@@ -86,6 +86,7 @@
   "labels": [
     "orbis",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -111,7 +112,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 9131,
+  "nationalPokedexNumber": 9021,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

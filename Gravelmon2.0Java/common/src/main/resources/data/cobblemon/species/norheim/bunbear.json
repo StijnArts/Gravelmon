@@ -84,7 +84,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bunbear.desc"
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4084,
+  "nationalPokedexNumber": 4023,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

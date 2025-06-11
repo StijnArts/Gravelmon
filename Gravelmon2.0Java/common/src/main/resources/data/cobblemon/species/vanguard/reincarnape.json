@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "reincarnape",
   "baseScale": 0.3555555555555555,
   "cannotDynamax": false,
   "abilities": [
@@ -153,7 +154,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.reincarnape.desc"
@@ -162,7 +164,7 @@
   "weight": 760,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5483,
+  "nationalPokedexNumber": 5422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

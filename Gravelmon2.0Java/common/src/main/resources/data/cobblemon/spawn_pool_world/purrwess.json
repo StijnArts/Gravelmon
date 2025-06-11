@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "39-59",
-      "weight": 0.44999999999999996,
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",

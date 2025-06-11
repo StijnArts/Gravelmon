@@ -1,0 +1,184 @@
+{
+  "target": "cobblemon:nodorroanbonsly",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "ground",
+      "catchRate": 155,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.175,
+      "cannotDynamax": false,
+      "abilities": [
+        "rattled",
+        "runaway",
+        "h:dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defence": 45,
+        "special_attack": 75,
+        "special_defence": 80,
+        "speed": 20
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:sandattack",
+        "1:copycat",
+        "5:lowkick",
+        "8:mudshot",
+        "11:mimic",
+        "16:echoedvoice",
+        "20:bulldoze",
+        "23:flatter",
+        "28:naturepower",
+        "31:rockslide",
+        "35:counter",
+        "40:taunt",
+        "tm:aromatherapy",
+        "tm:attract",
+        "tm:bide",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:bulldoze",
+        "tm:bulletseed",
+        "tm:calmmind",
+        "tm:confide",
+        "tm:counter",
+        "tm:curse",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:doubleedge",
+        "tm:drillrun",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:faketears",
+        "tm:fissure",
+        "tm:foulplay",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:grassyterrain",
+        "tm:growth",
+        "tm:headbutt",
+        "tm:hiddenpower",
+        "tm:lowkick",
+        "tm:magicalleaf",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:mudslide",
+        "tm:naturalgift",
+        "tm:naturepower",
+        "tm:protect",
+        "tm:psychup",
+        "tm:rage",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:rototiller",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:secretpower",
+        "tm:seedbomb",
+        "tm:skullbash",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:snore",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:stoneedge",
+        "tm:submission",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:synthesis",
+        "tm:takedown",
+        "tm:thief",
+        "tm:toxic",
+        "tm:trailblaze",
+        "tm:afteryou",
+        "tm:block",
+        "tm:captivate",
+        "tm:covet",
+        "tm:helpinghand",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:roleplay",
+        "tm:rollout",
+        "tm:uproar"
+      ],
+      "labels": [
+        "nodorro",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.nodorroanbonsly.desc"
+      ],
+      "height": 7,
+      "weight": 90,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

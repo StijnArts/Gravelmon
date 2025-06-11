@@ -100,12 +100,15 @@ public class EghoLudicolo extends Pokemon {
                 ),
                 List.of(Label.INFINITY, Label.GEN3),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 49, 2.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.31, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(39)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_FOREST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Ludicolo");
         
     }

@@ -78,7 +78,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.cerbenos.desc"
@@ -87,7 +88,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6525,
+  "nationalPokedexNumber": 6464,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

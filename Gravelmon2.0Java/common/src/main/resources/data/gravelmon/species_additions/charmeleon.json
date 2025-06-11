@@ -162,6 +162,7 @@
       "labels": [
         "gen1",
         "infinity",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -361,6 +362,7 @@
       "labels": [
         "gen1",
         "insurgence",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -545,6 +547,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -588,6 +591,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "charmander form=epoch",
       "baseScale": 0.4474576271186441,
       "cannotDynamax": false,
       "abilities": [
@@ -719,7 +723,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochcharmeleonone.desc"
@@ -731,9 +738,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcharmeleonone_epochtwocharizard",
+          "id": "epochcharmeleonone_charizard_epoch",
           "variant": "level_up",
-          "result": "epochtwocharizard",
+          "result": "charizard epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -913,6 +920,7 @@
         "gen1",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [

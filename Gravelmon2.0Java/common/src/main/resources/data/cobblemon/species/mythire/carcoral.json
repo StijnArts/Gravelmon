@@ -168,6 +168,7 @@
   "labels": [
     "mythire",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -178,7 +179,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5123,
+  "nationalPokedexNumber": 5062,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.9375,

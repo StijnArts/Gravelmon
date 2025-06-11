@@ -80,6 +80,7 @@
   "labels": [
     "cyare",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7433,
+  "nationalPokedexNumber": 7372,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

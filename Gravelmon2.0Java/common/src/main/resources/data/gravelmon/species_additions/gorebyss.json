@@ -322,6 +322,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "gorebyss novran",
       "baseScale": 0.6,
       "cannotDynamax": false,
       "abilities": [
@@ -373,7 +374,16 @@
       "eggGroups": [
         "water_1"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:deep_sea_scale",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:confuseray",
         "5:absorb",
@@ -476,7 +486,8 @@
       ],
       "labels": [
         "novrai",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.novrangorebyss.desc"

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.balas.desc"
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5953,
+  "nationalPokedexNumber": 5892,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

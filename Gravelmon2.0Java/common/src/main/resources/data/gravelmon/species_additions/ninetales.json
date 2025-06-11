@@ -585,6 +585,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ishirianninetales",
       "baseScale": 0.35200000000000004,
       "cannotDynamax": false,
       "abilities": [
@@ -778,7 +779,8 @@
       ],
       "labels": [
         "ishiria",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ishirianninetales.desc"

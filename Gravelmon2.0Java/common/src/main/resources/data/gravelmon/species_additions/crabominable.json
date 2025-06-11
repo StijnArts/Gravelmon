@@ -11,6 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "kaskadiancrabominable",
       "baseScale": 18.0,
       "cannotDynamax": false,
       "abilities": [
@@ -83,7 +84,8 @@
       "labels": [
         "lockemon",
         "gen7",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.kaskadiancrabominable.desc"

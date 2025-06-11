@@ -326,6 +326,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "weepinbell form=avalossian",
       "baseScale": 0.5666666666666667,
       "cannotDynamax": false,
       "abilities": [
@@ -399,7 +400,9 @@
       ],
       "labels": [
         "fliga",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.avalossianvictreebel.desc"

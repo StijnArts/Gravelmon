@@ -7,13 +7,13 @@
       "id": "pleech-01",
       "pokemon": "pleech",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "8-27",
-      "weight": 13.5,
+      "level": "8-28",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

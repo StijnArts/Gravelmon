@@ -98,7 +98,8 @@
   ],
   "labels": [
     "junnin",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.yetini.desc"
@@ -122,7 +123,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3099,
+  "nationalPokedexNumber": 3038,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

@@ -92,7 +92,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.nightknight.desc"
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2867,
+  "nationalPokedexNumber": 2806,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

@@ -149,7 +149,8 @@
   ],
   "labels": [
     "umbra",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.psypole.desc"
@@ -175,7 +176,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4905,
+  "nationalPokedexNumber": 4844,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

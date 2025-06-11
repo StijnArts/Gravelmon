@@ -4,34 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasian_eelektross-01",
-      "pokemon": "eelektross varitasian",
-      "presets": [
-        "natural",
-        "near_water"
-      ],
-      "type": "pokemon",
-      "context": "submerged",
-      "bucket": "rare",
-      "level": "45-60",
-      "weight": 1.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_badlands"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:packed_mud"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_eelektross-01",
       "pokemon": "eelektross epoch",
       "presets": [
@@ -39,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "35-54",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "35-55",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -67,15 +39,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "52-68",
-      "weight": 0.10500000000000001,
+      "level": "52-72",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
         ],
         "maxY": 40,
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

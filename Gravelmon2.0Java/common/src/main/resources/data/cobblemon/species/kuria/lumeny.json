@@ -76,7 +76,8 @@
   ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.lumeny.desc"
@@ -85,7 +86,7 @@
   "weight": 14,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5653,
+  "nationalPokedexNumber": 5592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

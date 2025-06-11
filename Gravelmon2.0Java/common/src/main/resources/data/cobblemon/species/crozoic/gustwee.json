@@ -86,7 +86,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.gustwee.desc"
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4370,
+  "nationalPokedexNumber": 4309,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

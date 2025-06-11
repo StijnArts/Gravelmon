@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "basstile",
   "baseScale": 0.75,
   "cannotDynamax": false,
   "abilities": [
@@ -136,7 +137,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.basstile.desc"
@@ -145,7 +147,7 @@
   "weight": 700,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8382,
+  "nationalPokedexNumber": 8321,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

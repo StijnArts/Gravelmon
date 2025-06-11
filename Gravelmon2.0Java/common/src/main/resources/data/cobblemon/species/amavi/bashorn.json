@@ -94,6 +94,7 @@
   "labels": [
     "amavi",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -119,7 +120,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7118,
+  "nationalPokedexNumber": 7057,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

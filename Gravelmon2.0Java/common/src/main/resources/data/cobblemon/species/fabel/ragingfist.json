@@ -79,6 +79,7 @@
   "labels": [
     "fabel",
     "not_modeled",
+    "paradox",
     "instagram",
     "instagram"
   ],
@@ -89,7 +90,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7679,
+  "nationalPokedexNumber": 7618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

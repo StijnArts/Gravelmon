@@ -109,12 +109,13 @@ public class EndramOdai extends Pokemon {
                 List.of(Label.LOCKEMON),
                 0, List.of(
 
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 90, 0.00005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.33, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .abnormality()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
         setLangFileName("Endram-Odai");
     }

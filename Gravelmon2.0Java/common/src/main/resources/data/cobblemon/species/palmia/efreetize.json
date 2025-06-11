@@ -71,6 +71,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "palmia",
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3529,
+  "nationalPokedexNumber": 3468,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -7,19 +7,14 @@
       "id": "seviian_mantine-01",
       "pokemon": "mantine seviian",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "37-55",
-      "weight": 0.6000000000000001,
+      "level": "37-57",
+      "weight": 0.5,
       "condition": {
-        "biomes": [
-          "#minecraft:is_deep_ocean"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold"
         ]
@@ -42,8 +37,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "31-48",
-      "weight": 1.6500000000000001,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -69,8 +64,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "30-54",
-      "weight": 0.8999999999999999,
+      "level": "30-50",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

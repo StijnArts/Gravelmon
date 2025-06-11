@@ -127,6 +127,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -171,6 +172,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rowlet form=epoch",
       "baseScale": 0.2666666666666666,
       "cannotDynamax": false,
       "abilities": [
@@ -286,7 +288,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdartrixone.desc"
@@ -298,9 +303,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdartrixone_epochtwodecidueye",
+          "id": "epochdartrixone_decidueye_epoch",
           "variant": "level_up",
-          "result": "epochtwodecidueye",
+          "result": "decidueye epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

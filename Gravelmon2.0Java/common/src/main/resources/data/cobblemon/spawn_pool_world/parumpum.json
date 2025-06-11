@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "32-42",
-      "weight": 0.44999999999999996,
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_tropical_island",

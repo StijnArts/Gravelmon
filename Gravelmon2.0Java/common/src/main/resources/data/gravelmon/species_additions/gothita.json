@@ -456,9 +456,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgothitaone_epochtwogothorita",
+          "id": "epochgothitaone_gothorita_epoch",
           "variant": "level_up",
-          "result": "epochtwogothorita",
+          "result": "gothorita epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

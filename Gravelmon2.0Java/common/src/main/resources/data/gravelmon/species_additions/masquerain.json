@@ -11,6 +11,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "masquerain norheiman",
       "baseScale": 0.2953846153846154,
       "cannotDynamax": false,
       "abilities": [
@@ -80,7 +81,8 @@
       ],
       "labels": [
         "norheim",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.norheimanmasquerain.desc"
@@ -254,6 +256,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "surskit form=epoch",
       "baseScale": 0.26301369863013696,
       "cannotDynamax": false,
       "abilities": [
@@ -371,7 +374,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmasquerainone.desc"

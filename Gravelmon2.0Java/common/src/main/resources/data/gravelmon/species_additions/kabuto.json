@@ -478,9 +478,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochkabutoone_epochtwokabutops",
+          "id": "epochkabutoone_kabutops_epoch",
           "variant": "level_up",
-          "result": "epochtwokabutops",
+          "result": "kabutops epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

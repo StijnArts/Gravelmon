@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "9-28",
-      "weight": 13.5,
+      "level": "9-29",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -41,18 +41,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-26",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#gravelmon:is_deciduous_forest"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

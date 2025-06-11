@@ -92,6 +92,7 @@
   "labels": [
     "qamor",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -117,7 +118,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5339,
+  "nationalPokedexNumber": 5278,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

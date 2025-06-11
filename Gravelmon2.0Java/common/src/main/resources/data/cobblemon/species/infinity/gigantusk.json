@@ -145,7 +145,8 @@
     "infinity",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.gigantusk.desc"

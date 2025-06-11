@@ -126,12 +126,15 @@ public class DeltaGirafarig extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 48, 2.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.35, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_DESERT)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Girafarig");
     }
 }

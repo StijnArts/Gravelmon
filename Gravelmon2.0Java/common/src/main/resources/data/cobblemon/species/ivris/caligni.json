@@ -92,6 +92,7 @@
   "labels": [
     "ivris",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -102,7 +103,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4755,
+  "nationalPokedexNumber": 4694,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

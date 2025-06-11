@@ -444,9 +444,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochzoruaone_epochtwozoroark",
+          "id": "epochzoruaone_zoroark_epoch",
           "variant": "level_up",
-          "result": "epochtwozoroark",
+          "result": "zoroark epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

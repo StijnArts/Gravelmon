@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "betterfree",
   "baseScale": 18.0,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +80,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.betterfree.desc"
@@ -88,7 +90,7 @@
   "weight": 350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8834,
+  "nationalPokedexNumber": 8773,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

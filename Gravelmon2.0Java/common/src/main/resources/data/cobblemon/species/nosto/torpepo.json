@@ -78,6 +78,7 @@
   "labels": [
     "nosto",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4636,
+  "nationalPokedexNumber": 4575,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

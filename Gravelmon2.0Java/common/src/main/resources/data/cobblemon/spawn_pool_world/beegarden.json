@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "17-46",
-      "weight": 0.6000000000000001,
+      "level": "17-37",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_floral"

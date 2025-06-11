@@ -167,6 +167,7 @@
         "gen2",
         "infinity",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -331,6 +332,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -375,6 +377,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chikorita form=epoch",
       "baseScale": 0.46451612903225803,
       "cannotDynamax": false,
       "abilities": [
@@ -499,7 +502,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochbayleefone.desc"
@@ -511,9 +517,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochbayleefone_epochtwomeganium",
+          "id": "epochbayleefone_meganium_epoch",
           "variant": "level_up",
-          "result": "epochtwomeganium",
+          "result": "meganium epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -682,6 +688,7 @@
         "gen2",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -725,6 +732,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "chikorita form=ionosian",
       "baseScale": 0.42,
       "cannotDynamax": false,
       "abilities": [
@@ -805,7 +813,10 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianbayleef.desc"
@@ -971,6 +982,7 @@
       "labels": [
         "ishiria",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],

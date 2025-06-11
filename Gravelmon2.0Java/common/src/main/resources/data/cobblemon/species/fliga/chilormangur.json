@@ -123,7 +123,8 @@
   ],
   "labels": [
     "fliga",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.chilormangur.desc"
@@ -132,7 +133,7 @@
   "weight": 2141,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5328,
+  "nationalPokedexNumber": 5267,
   "shoulderMountable": false,
   "hitbox": {
     "width": 7.125,

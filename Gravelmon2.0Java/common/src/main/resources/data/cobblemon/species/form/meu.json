@@ -93,6 +93,7 @@
   "labels": [
     "form",
     "not_modeled",
+    "mythical",
     "instagram",
     "instagram"
   ],
@@ -103,7 +104,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5057,
+  "nationalPokedexNumber": 4996,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

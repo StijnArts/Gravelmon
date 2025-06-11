@@ -88,6 +88,7 @@
   "labels": [
     "orohnhavai",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -98,7 +99,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3897,
+  "nationalPokedexNumber": 3836,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.25,

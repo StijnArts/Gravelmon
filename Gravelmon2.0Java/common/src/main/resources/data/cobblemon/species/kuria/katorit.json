@@ -79,6 +79,7 @@
   "labels": [
     "kuria",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -89,7 +90,7 @@
   "weight": 546,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5513,
+  "nationalPokedexNumber": 5452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

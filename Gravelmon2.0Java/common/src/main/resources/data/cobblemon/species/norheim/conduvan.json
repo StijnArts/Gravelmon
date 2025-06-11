@@ -76,7 +76,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.conduvan.desc"
@@ -85,7 +86,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4270,
+  "nationalPokedexNumber": 4209,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

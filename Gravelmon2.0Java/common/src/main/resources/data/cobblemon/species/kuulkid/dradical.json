@@ -92,7 +92,8 @@
   ],
   "labels": [
     "kuulkid",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.dradical.desc"
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2869,
+  "nationalPokedexNumber": 2808,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

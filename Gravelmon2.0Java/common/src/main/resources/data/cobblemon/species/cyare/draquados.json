@@ -88,7 +88,8 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.draquados.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7437,
+  "nationalPokedexNumber": 7376,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

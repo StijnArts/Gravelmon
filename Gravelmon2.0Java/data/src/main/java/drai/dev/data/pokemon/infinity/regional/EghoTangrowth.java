@@ -113,13 +113,16 @@ public class EghoTangrowth extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN4),
                 4, List.of(
                         new ItemDrop("minecraft:redstone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 44, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.39, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Tangrowth");
 
     }

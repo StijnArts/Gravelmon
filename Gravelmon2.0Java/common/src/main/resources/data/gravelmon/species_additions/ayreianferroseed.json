@@ -1,0 +1,116 @@
+{
+  "target": "cobblemon:ayreianferroseed",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "poison",
+      "secondaryType": "steel",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironbarbs",
+        "poisonpoint"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 44,
+        "attack": 50,
+        "defence": 91,
+        "special_attack": 10,
+        "special_defence": 24,
+        "speed": 86
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass",
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "35:irondefense",
+        "1:harden",
+        "30:acid",
+        "1:tackle",
+        "25:ironhead",
+        "15:toxicspikes",
+        "50:explosion",
+        "41:curse",
+        "20:flashcannon",
+        "5:metalclaw",
+        "45:gyroball",
+        "10:poisonsting",
+        "egg:bulletseed",
+        "egg:leechseed",
+        "egg:spikes",
+        "egg:worryseed",
+        "egg:seedbomb",
+        "egg:gravity",
+        "egg:rockclimb",
+        "egg:stealthrock",
+        "egg:acidspray",
+        "egg:toxic",
+        "egg:knockoff"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianferroseed.desc"
+      ],
+      "height": 6,
+      "weight": 188,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

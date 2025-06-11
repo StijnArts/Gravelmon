@@ -7,6 +7,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "panditsy",
   "baseScale": 0.44210526315789467,
   "cannotDynamax": false,
   "abilities": [
@@ -93,7 +94,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.panditsy.desc"

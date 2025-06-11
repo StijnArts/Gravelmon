@@ -882,8 +882,8 @@ public class GravelmonFossilItems {
             "branceros");
     public static RegistrySupplier<Item> TUSK_ICICLE = fossilItem(
             List.of(
-                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
-                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+                    BaseCobblemonDigSites.SUSPICIOUS_MOUND.uncommon(),
+                    BaseCobblemonDigSites.FROZEN_POND.uncommon()
             ),
             "tusk_icicle",
             "icephan");
@@ -910,5 +910,20 @@ public class GravelmonFossilItems {
             ),
             "fruit_fossil",
             "tyrunt epochtwo");
+    public static RegistrySupplier<Item> SABER_TOOTH_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.FROZEN_SPIKE.uncommon(),
+                    BaseCobblemonDigSites.FROZEN_POND.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "saber_tooth_fossil",
+            "artikit");
+    public static RegistrySupplier<Item> RIVER_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon()
+            ),
+            "river_fossil",
+            "solsaur");
     public static void touch() {}
 }

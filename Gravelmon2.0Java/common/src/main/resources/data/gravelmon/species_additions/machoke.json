@@ -11,6 +11,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machop form=africanusan",
       "baseScale": 0.4675324675324675,
       "cannotDynamax": false,
       "abilities": [
@@ -83,7 +84,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusanmachoke.desc"
@@ -284,6 +287,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "machop form=epoch",
       "baseScale": 0.4235294117647059,
       "cannotDynamax": false,
       "abilities": [
@@ -406,7 +410,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmachokeone.desc"
@@ -418,9 +424,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachokeone_epochtwomachamp",
+          "id": "epochmachokeone_machamp_epoch",
           "variant": "item_interact",
-          "result": "epochtwomachamp",
+          "result": "machamp epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

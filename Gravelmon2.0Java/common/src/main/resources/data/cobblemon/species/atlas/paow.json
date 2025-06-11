@@ -128,7 +128,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.paow.desc"
@@ -152,7 +153,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7103,
+  "nationalPokedexNumber": 7042,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

@@ -13,7 +13,7 @@
       "context": "seafloor",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 0.44999999999999996,
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

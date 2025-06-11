@@ -71,6 +71,7 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 3665,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

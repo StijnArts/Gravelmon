@@ -322,6 +322,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "huntail novran",
       "baseScale": 0.6857142857142857,
       "cannotDynamax": false,
       "abilities": [
@@ -373,7 +374,16 @@
       "eggGroups": [
         "water_1"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:deep_sea_tooth",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:confuseray",
         "5:screech",
@@ -467,7 +477,8 @@
       ],
       "labels": [
         "novrai",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.novranhuntail.desc"

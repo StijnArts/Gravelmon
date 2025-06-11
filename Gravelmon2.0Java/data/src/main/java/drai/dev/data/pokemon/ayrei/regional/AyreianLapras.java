@@ -116,12 +116,16 @@ public class AyreianLapras extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPARKLING_ARIA,"egg")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 20, 53, 10, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FROZEN_OCEAN))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setAntiBiomes(Biome.IS_COLD, Biome.IS_FROZEN_OCEAN)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Lapras");
         this.setAvoidsLand(true);
         setCanSwim(true);

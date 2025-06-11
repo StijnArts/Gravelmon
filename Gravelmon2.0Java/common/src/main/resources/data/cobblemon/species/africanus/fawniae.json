@@ -8,7 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "gogoat",
+  "preEvolution": "fawniae",
   "baseScale": 0.5010989010989011,
   "cannotDynamax": false,
   "abilities": [
@@ -98,6 +98,7 @@
   "labels": [
     "africanus",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -107,7 +108,7 @@
   "weight": 520,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2388,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

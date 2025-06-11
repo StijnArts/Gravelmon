@@ -144,7 +144,8 @@
       "labels": [
         "gen1",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.deltadratini.desc"
@@ -324,7 +325,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochdratini.desc"
@@ -452,6 +454,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],
@@ -608,7 +611,8 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.ayreiandratini.desc"
@@ -736,6 +740,7 @@
       "labels": [
         "mahal",
         "not_modeled",
+        "pseudo_legendary",
         "instagram",
         "instagram"
       ],

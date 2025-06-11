@@ -79,6 +79,7 @@
   "labels": [
     "kuria",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -104,7 +105,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5512,
+  "nationalPokedexNumber": 5451,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.3125,

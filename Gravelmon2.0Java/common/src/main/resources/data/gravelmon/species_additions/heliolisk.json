@@ -187,6 +187,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "helioptile form=vesitan",
       "baseScale": 0.34285714285714286,
       "cannotDynamax": false,
       "abilities": [
@@ -261,7 +262,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanheliolisk.desc"

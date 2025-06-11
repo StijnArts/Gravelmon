@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "prismeon",
   "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
@@ -134,7 +135,9 @@
   ],
   "labels": [
     "soulstones",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.prismeon.desc"
@@ -143,7 +146,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4288,
+  "nationalPokedexNumber": 4227,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

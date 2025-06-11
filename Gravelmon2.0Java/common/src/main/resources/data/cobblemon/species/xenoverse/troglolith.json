@@ -140,7 +140,8 @@
     "xenoverse",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.troglolith.desc"

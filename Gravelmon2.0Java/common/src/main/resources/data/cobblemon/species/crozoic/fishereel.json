@@ -75,7 +75,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.fishereel.desc"
@@ -84,7 +85,7 @@
   "weight": 513,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4308,
+  "nationalPokedexNumber": 4247,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

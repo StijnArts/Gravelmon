@@ -330,6 +330,7 @@
       "experienceGroup": "fluctuating",
       "eggCycles": 51,
       "baseFriendship": 70,
+      "preEvolution": "drifblim amazeall",
       "baseScale": 0.3,
       "cannotDynamax": false,
       "abilities": [
@@ -381,7 +382,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:amaze_drive",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:astonish",
         "1:focusenergy",
@@ -449,7 +459,8 @@
       "labels": [
         "lockemon",
         "gen4",
-        "not_modeled"
+        "not_modeled",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.amazealldrifblim.desc"

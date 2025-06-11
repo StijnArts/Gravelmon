@@ -443,6 +443,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "snorunt form=ayreian",
       "baseScale": 0.5714285714285714,
       "cannotDynamax": false,
       "abilities": [
@@ -570,7 +571,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianglalie.desc"

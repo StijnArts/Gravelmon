@@ -412,9 +412,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrookideeone_epochtwocorvisquire",
+          "id": "epochrookideeone_corvisquire_epoch",
           "variant": "level_up",
-          "result": "epochtwocorvisquire",
+          "result": "corvisquire epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

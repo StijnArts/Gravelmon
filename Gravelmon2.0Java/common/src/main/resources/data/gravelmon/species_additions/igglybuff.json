@@ -330,9 +330,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochigglybuffone_epochtwojigglypuff",
+          "id": "epochigglybuffone_jigglypuff_epoch",
           "variant": "level_up",
-          "result": "epochtwojigglypuff",
+          "result": "jigglypuff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -1,0 +1,171 @@
+{
+  "target": "cobblemon:pastelianledian",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "bug",
+      "secondaryType": "electric",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 137,
+      "experienceGroup": "fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.35,
+      "cannotDynamax": false,
+      "abilities": [
+        "swarm",
+        "earlybird",
+        "h:ironfist"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 60,
+        "defence": 50,
+        "special_attack": 45,
+        "special_defence": 100,
+        "speed": 80
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "bug"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "5:supersonic",
+        "8:swift",
+        "12:lightscreen",
+        "12:safeguard",
+        "12:reflect",
+        "15:machpunch",
+        "20:silverwind",
+        "24:cometpunch",
+        "29:batonpass",
+        "33:agility",
+        "38:bugbuzz",
+        "42:airslash",
+        "47:doubleedge",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:uproar",
+        "tm:focuspunch",
+        "tm:knockoff",
+        "tm:tailwind",
+        "tm:drainpunch",
+        "tm:defog",
+        "tm:bugbite",
+        "tm:swordsdance",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:aerialace",
+        "tm:roost",
+        "tm:uturn",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:gigaimpact",
+        "tm:round",
+        "tm:acrobatics",
+        "tm:confide",
+        "tm:infestation",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:swift",
+        "tm:whirlwind",
+        "tm:takedown",
+        "tm:submission",
+        "tm:psybeam",
+        "tm:counter",
+        "tm:screech",
+        "tm:bide",
+        "tm:dizzypunch",
+        "tm:endure",
+        "tm:encore",
+        "tm:silverwind",
+        "tm:bugbuzz"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.pastelianledian.desc"
+      ],
+      "height": 14,
+      "weight": 356,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

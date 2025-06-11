@@ -318,9 +318,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochstantlerone_epochtwowyrdeer",
+          "id": "epochstantlerone_wyrdeer_epoch",
           "variant": "item_interact",
-          "result": "epochtwowyrdeer",
+          "result": "wyrdeer epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

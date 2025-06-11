@@ -73,7 +73,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.sharpunk.desc"
@@ -97,7 +98,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4341,
+  "nationalPokedexNumber": 4280,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.ribitar.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5230,
+  "nationalPokedexNumber": 5169,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

@@ -72,12 +72,15 @@ public class SlurpuffX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN6),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",20, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 48, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Slurpuff");
 
     }

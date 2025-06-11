@@ -112,7 +112,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "deneb"
+    "deneb",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.katuna.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6161,
+  "nationalPokedexNumber": 6100,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.7,

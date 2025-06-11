@@ -123,7 +123,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.orchynx.desc"
@@ -147,7 +148,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2463,
+  "nationalPokedexNumber": 2402,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

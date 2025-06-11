@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 35,
   "baseFriendship": 70,
+  "preEvolution": "cefireon",
   "baseScale": 0.1875,
   "cannotDynamax": false,
   "abilities": [
@@ -89,7 +90,9 @@
   ],
   "labels": [
     "opal",
-    "not_modeled"
+    "not_modeled",
+    "starter",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cefireon.desc"

@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Vesfairy",
   "baseScale": 0.10312500000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -97,6 +98,8 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
+    "fakemonevolution",
     "norse",
     "instagram",
     "instagram"
@@ -108,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3424,
+  "nationalPokedexNumber": 3363,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

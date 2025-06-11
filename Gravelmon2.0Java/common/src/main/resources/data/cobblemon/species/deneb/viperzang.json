@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "viperzang",
   "baseScale": 0.6476190476190475,
   "cannotDynamax": false,
   "abilities": [
@@ -120,7 +121,9 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.viperzang.desc"
@@ -129,7 +132,7 @@
   "weight": 623,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6282,
+  "nationalPokedexNumber": 6221,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -1,0 +1,169 @@
+{
+  "target": "cobblemon:ishiriaanelekid",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.75,
+      "baseExperienceYield": 72,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 65,
+        "defence": 57,
+        "special_attack": 63,
+        "special_defence": 55,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:tackle",
+        "4:metalclaw",
+        "8:torment",
+        "12:swift",
+        "16:magnetbomb",
+        "20:metalsound",
+        "24:screech",
+        "28:assurance",
+        "32:darkpulse",
+        "36:lowkick",
+        "40:ironhead",
+        "44:irondefense",
+        "48:comeuppance",
+        "tm:torment",
+        "tm:metalsound",
+        "tm:screech",
+        "tm:assurance",
+        "tm:darkpulse",
+        "tm:lowkick",
+        "tm:ironhead",
+        "tm:irondefense",
+        "tm:beatup",
+        "tm:crunch",
+        "tm:fling",
+        "tm:foulplay",
+        "tm:knockoff",
+        "tm:lashout",
+        "tm:payback",
+        "tm:throatchop",
+        "tm:supercellslam",
+        "tm:thunderpunch",
+        "tm:wildcharge",
+        "tm:brickbreak",
+        "tm:drainpunch",
+        "tm:focuspunch",
+        "tm:lowsweep",
+        "tm:poweruppunch",
+        "tm:rocksmash",
+        "tm:superpower",
+        "tm:firepunch",
+        "tm:trailblaze",
+        "tm:bodyslam",
+        "tm:cut",
+        "tm:frustration",
+        "tm:return",
+        "tm:secretpower",
+        "tm:snarl",
+        "tm:hiddenpower",
+        "tm:round",
+        "tm:snore",
+        "tm:terablast",
+        "tm:flashcannon",
+        "tm:steelbeam",
+        "tm:embargo",
+        "tm:honeclaws",
+        "tm:taunt",
+        "tm:thunderwave",
+        "tm:sunnyday",
+        "tm:attract",
+        "tm:confide",
+        "tm:endure",
+        "tm:protect",
+        "tm:sleeptalk",
+        "tm:substitute",
+        "tm:workup",
+        "tm:toxic",
+        "tm:rest",
+        "tm:raindance",
+        "tm:doubleteam",
+        "tm:swagger",
+        "tm:facade",
+        "tm:dynamicpunch",
+        "tm:hammerarm",
+        "tm:headbutt",
+        "tm:thrash",
+        "tm:bulletpunch",
+        "tm:partingshot"
+      ],
+      "labels": [
+        "ishiria",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ishiriaanelekid.desc"
+      ],
+      "height": 6,
+      "weight": 287,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

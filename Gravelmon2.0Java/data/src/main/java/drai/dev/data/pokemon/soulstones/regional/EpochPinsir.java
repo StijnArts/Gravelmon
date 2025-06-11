@@ -122,12 +122,15 @@ public class EpochPinsir extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 54, 1.8, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.AMETHYST_GEODE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(26)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
+    .build(), List.of());
+	
            setLangFileName("Pinsir");
 
     }

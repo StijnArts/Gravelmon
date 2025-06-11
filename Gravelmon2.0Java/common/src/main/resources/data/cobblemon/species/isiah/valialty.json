@@ -85,7 +85,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.valialty.desc"
@@ -94,7 +95,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5799,
+  "nationalPokedexNumber": 5738,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

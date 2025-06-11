@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "32-48",
-      "weight": 0.75,
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

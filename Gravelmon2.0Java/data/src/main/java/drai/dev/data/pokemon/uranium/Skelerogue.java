@@ -112,13 +112,17 @@ public class Skelerogue extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 40, 55, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH, Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
-                List.of(SpawnPreset.SHIP_WRECK),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(40)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_BEACH, Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_HILLS)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
+    .build(), List.of());
+	
     }
 }

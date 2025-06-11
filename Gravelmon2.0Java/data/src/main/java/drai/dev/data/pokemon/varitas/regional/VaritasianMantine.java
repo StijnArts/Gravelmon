@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMantine extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianMantine() {
-        super("Mantine",
+    public VaritasianMantine(String s, Aspect aspect) {
+        super(s, aspect, "Mantine",
                 Type.WATER, Type.GROUND,
                 new Stats(85,
                         40,
@@ -16,8 +16,8 @@ public class VaritasianMantine extends drai.dev.data.pokemon.Pokemon {
                         80,
                         140,
                         70),
-                List.of(Ability.SWIFT_SWIM,Ability.SAND_RUSH,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                List.of(Ability.SWIFT_SWIM,Ability.SAND_RUSH), Ability.SAND_VEIL,
+                21, 165,
                 new Stats(0,0,0,0,2,0), 25,
                 0.5,
                 163, ExperienceGroup.SLOW,
@@ -107,12 +107,15 @@ public class VaritasianMantine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Mantine");
 
     }

@@ -13,13 +13,8 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "26-46",
-      "weight": 1.5,
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_freezing"
         ]
@@ -42,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "25-43",
-      "weight": 1.7999999999999998,
+      "level": "25-45",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

@@ -35,6 +35,7 @@
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
         "canBreatheUnderwater": false,
+        "canWalkOnWater": true,
         "canWalkOnLava": false
       }
     }
@@ -83,7 +84,8 @@
   ],
   "labels": [
     "lonava",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.angloch.desc"
@@ -107,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4507,
+  "nationalPokedexNumber": 4446,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

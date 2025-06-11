@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "13-37",
-      "weight": 7.5,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -39,14 +39,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "24-57",
-      "weight": 3.0,
+      "level": "24-44",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -66,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-48",
-      "weight": 4.800000000000001,
+      "level": "15-35",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_basalt",
@@ -92,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "23-44",
-      "weight": 3.0,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
@@ -112,13 +112,13 @@
       "id": "epoch_sableye-01",
       "pokemon": "sableye epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "23-45",
-      "weight": 6.0,
+      "level": "23-43",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
@@ -144,8 +144,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "24-37",
-      "weight": 3.0,
+      "level": "24-44",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"

@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "sevicrush",
   "baseScale": 0.7875000000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -144,7 +145,9 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sevicrush.desc"
@@ -153,7 +156,7 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6283,
+  "nationalPokedexNumber": 6222,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

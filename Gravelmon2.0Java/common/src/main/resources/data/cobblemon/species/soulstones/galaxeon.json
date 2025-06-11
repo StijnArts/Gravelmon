@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "galaxeon",
   "baseScale": 0.4,
   "cannotDynamax": false,
   "abilities": [
@@ -154,7 +155,9 @@
   ],
   "labels": [
     "soulstones",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.galaxeon.desc"
@@ -163,7 +166,7 @@
   "weight": 290,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4287,
+  "nationalPokedexNumber": 4226,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

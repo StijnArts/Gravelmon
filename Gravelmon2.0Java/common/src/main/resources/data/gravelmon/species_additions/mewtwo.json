@@ -87,7 +87,8 @@
       "labels": [
         "gen1",
         "insurgence",
-        "not_modeled"
+        "not_modeled",
+        "legendary"
       ],
       "pokedex": [
         "cobblemon.species.shadowmewtwo.desc"
@@ -295,7 +296,8 @@
       "labels": [
         "xenoverse",
         "gen1",
-        "not_modeled"
+        "not_modeled",
+        "legendary"
       ],
       "pokedex": [
         "cobblemon.species.mewtwox.desc"

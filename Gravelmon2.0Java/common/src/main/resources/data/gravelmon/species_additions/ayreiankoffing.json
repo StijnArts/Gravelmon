@@ -1,0 +1,161 @@
+{
+  "target": "cobblemon:ayreiankoffing",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "poison",
+      "secondaryType": "fire",
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "neutralizinggas"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 45,
+        "defence": 95,
+        "special_attack": 35,
+        "special_defence": 80,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "8:smokescreen",
+        "48:memento",
+        "24:haze",
+        "44:explosion",
+        "40:belch",
+        "36:toxic",
+        "4:smog",
+        "52:destinybond",
+        "1:poisongas",
+        "1:ember",
+        "28:flameburst",
+        "32:sludgebomb",
+        "12:clearsmog",
+        "20:sludge",
+        "tm:confuseray",
+        "tm:assurance",
+        "tm:attract",
+        "tm:confide",
+        "tm:corrosivegas",
+        "tm:darkpulse",
+        "tm:doubleteam",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:flamethrower",
+        "tm:flamecharge",
+        "tm:frustration",
+        "tm:gyroball",
+        "tm:hiddenpower",
+        "tm:infestation",
+        "tm:painsplit",
+        "tm:payback",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:screech",
+        "tm:selfdestruct",
+        "tm:shadowball",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:sludgewave",
+        "tm:snore",
+        "tm:spite",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:taunt",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:torment",
+        "tm:toxic",
+        "tm:toxicspikes",
+        "tm:uproar",
+        "tm:venomdrench",
+        "tm:venoshock",
+        "tm:willowisp",
+        "egg:psybeam",
+        "egg:painsplit",
+        "egg:grudge",
+        "egg:spite",
+        "egg:curse",
+        "egg:stockpile",
+        "egg:swallow",
+        "egg:spitup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreiankoffing.desc"
+      ],
+      "height": 6,
+      "weight": 10,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

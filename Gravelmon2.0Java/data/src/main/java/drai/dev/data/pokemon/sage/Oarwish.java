@@ -99,13 +99,17 @@ public class Oarwish extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 40, 56, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE,Biome.IS_ARID))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.6, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(40)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER, Biome.IS_COLD_OCEAN)
+    .setAntiBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);

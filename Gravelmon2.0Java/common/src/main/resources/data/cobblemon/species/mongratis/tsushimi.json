@@ -75,7 +75,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.tsushimi.desc"
@@ -84,7 +85,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8495,
+  "nationalPokedexNumber": 8434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

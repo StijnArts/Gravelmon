@@ -78,7 +78,8 @@
   ],
   "labels": [
     "nosto",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.squiddle.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4641,
+  "nationalPokedexNumber": 4580,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

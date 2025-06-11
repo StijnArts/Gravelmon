@@ -115,14 +115,17 @@ public class DeltaRaichu extends Pokemon {
                         ),
                 List.of(Label.INSURGENCE, Label.GEN1),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.17, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_HIGHLANDS)
+    .duringDaytime()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Raichu");
         this.setCanFly(true);
 

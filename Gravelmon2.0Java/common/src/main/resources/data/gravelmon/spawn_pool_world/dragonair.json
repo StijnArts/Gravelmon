@@ -7,13 +7,13 @@
       "id": "delta_dragonair-01",
       "pokemon": "dragonair delta",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "30-42",
-      "weight": 1.35,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_freshwater"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "35-54",
-      "weight": 1.5,
+      "level": "35-55",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga",
@@ -64,9 +64,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "31-45",
-      "weight": 1.9500000000000002,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -93,9 +93,9 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "31-54",
-      "weight": 0.44999999999999996,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -117,9 +117,9 @@
       "pokemon": "dragonair forman",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "rare",
-      "level": "31-54",
-      "weight": 0.44999999999999996,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -142,9 +142,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "31-54",
-      "weight": 1.35,
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"

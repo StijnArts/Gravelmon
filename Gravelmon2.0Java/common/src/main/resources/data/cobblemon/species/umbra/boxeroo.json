@@ -141,7 +141,8 @@
   ],
   "labels": [
     "umbra",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.boxeroo.desc"
@@ -167,7 +168,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4908,
+  "nationalPokedexNumber": 4847,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

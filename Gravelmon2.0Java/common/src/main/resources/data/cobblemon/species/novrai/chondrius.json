@@ -147,7 +147,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.chondrius.desc"
@@ -156,7 +157,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6873,
+  "nationalPokedexNumber": 6812,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

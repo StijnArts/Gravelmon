@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "34-57",
-      "weight": 0.10500000000000001,
+      "level": "34-54",
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "39-54",
-      "weight": 0.15000000000000002,
+      "level": "39-59",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_volvanic",
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "44-58",
-      "weight": 0.15000000000000002,
+      "level": "44-64",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_end"

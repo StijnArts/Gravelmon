@@ -2,150 +2,6 @@
   "target": "cobblemon:impidimp",
   "forms": [
     {
-      "name": "Varitasian",
-      "primaryType": "dark",
-      "secondaryType": "flying",
-      "catchRate": 190,
-      "maleRatio": 1.0,
-      "baseExperienceYield": 60,
-      "experienceGroup": "erratic",
-      "eggCycles": 50,
-      "baseFriendship": 70,
-      "baseScale": 0.26666666666666666,
-      "cannotDynamax": false,
-      "abilities": [
-        "unburden",
-        "h:frisk"
-      ],
-      "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-6"
-        },
-        "moving": {
-          "fly": {
-            "canFly": false
-          },
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
-          },
-          "swim": {
-            "swimSpeed": 0.1,
-            "canSwimInWater": true,
-            "canSwimInLava": false,
-            "canBreatheUnderlava": false,
-            "canBreatheUnderwater": false,
-            "canWalkOnLava": false
-          }
-        }
-      },
-      "baseStats": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 0,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "eggGroups": [
-        "field"
-      ],
-      "drops": {},
-      "moves": [
-        "1:confide",
-        "4:bite",
-        "8:flatter",
-        "12:faketears",
-        "16:assurance",
-        "20:swagger",
-        "24:suckerpunch",
-        "28:torment",
-        "33:darkpulse",
-        "36:nastyplot",
-        "40:playrough",
-        "44:foulplay",
-        "tm:burningjealousy",
-        "tm:lashout",
-        "tm:megapunch",
-        "tm:megakick",
-        "tm:thunderwave",
-        "tm:rest",
-        "tm:thief",
-        "tm:snore",
-        "tm:protect",
-        "tm:attract",
-        "tm:facade",
-        "tm:revenge",
-        "tm:faketears",
-        "tm:assurance",
-        "tm:drainpunch",
-        "tm:round",
-        "tm:retaliate",
-        "tm:drainingkiss",
-        "tm:lowkick",
-        "tm:metronome",
-        "tm:leechlife",
-        "tm:substitute",
-        "tm:endure",
-        "tm:sleeptalk",
-        "tm:uproar",
-        "tm:taunt",
-        "tm:trick",
-        "tm:darkpulse",
-        "tm:nastyplot",
-        "tm:foulplay",
-        "tm:playrough",
-        "tm:dazzlinggleam",
-        "tm:terablast"
-      ],
-      "labels": [
-        "varitas",
-        "not_modeled"
-      ],
-      "pokedex": [
-        "cobblemon.species.varitasianimpidimp.desc"
-      ],
-      "height": 6,
-      "weight": 165,
-      "aspects": [
-        "varitasian"
-      ],
-      "evolutions": [
-        {
-          "id": "varitasianimpidimp_morgrem_varitasian",
-          "variant": "level_up",
-          "result": "morgrem varitasian",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "32"
-            }
-          ],
-          "permanent": true
-        }
-      ],
-      "shoulderMountable": false,
-      "hitbox": {
-        "width": 3.375,
-        "height": 3.375,
-        "fixed": false
-      }
-    },
-    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "fairy",
@@ -473,9 +329,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochimpidimpone_epochtwomorgrem",
+          "id": "epochimpidimpone_morgrem_epoch",
           "variant": "level_up",
-          "result": "epochtwomorgrem",
+          "result": "morgrem epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -1012,7 +868,6 @@
     }
   ],
   "features": [
-    "varitasian",
     "epoch",
     "epochtwo",
     "novran",

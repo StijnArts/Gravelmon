@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSudowoodo extends drai.dev.data.pokemon.Pokemon {
-    public VaritasianSudowoodo() {
-        super("Sudowoodo",
+    public VaritasianSudowoodo(String s, Aspect aspect) {
+        super(s, aspect, "Sudowoodo",
                 Type.GRASS,
                 new Stats(70,
                         100,
@@ -17,14 +17,15 @@ public class VaritasianSudowoodo extends drai.dev.data.pokemon.Pokemon {
                         65,
                         30),
                 List.of(Ability.STURDY,Ability.ROCK_HEAD,Ability.RATTLED), Ability.RATTLED,
-                8, 165,
+                9, 165,
                 new Stats(0,0,2,0,0,0), 65,
                 0.5,
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Despite appearing to be a tree, its body is closer to rocks and stones. It's so popular with the elderly that there's a magazine devoted to this Pokemon. Fans obsess over the particular length and angle of its arms."),
-                List.of(),
+                List.of(new EvolutionEntry("sudoferno", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),
                         new MoveLearnSetEntry(Move.FLAIL,5),
@@ -114,10 +115,10 @@ public class VaritasianSudowoodo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SAND_TOMB,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(15).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_NETHER_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Sudowoodo");

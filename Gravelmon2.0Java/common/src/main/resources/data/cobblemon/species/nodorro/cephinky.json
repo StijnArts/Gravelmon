@@ -75,7 +75,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.cephinky.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8880,
+  "nationalPokedexNumber": 8819,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

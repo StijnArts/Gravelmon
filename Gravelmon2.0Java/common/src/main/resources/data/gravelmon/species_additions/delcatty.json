@@ -155,6 +155,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skitty form=epoch",
       "baseScale": 0.4631578947368421,
       "cannotDynamax": false,
       "abilities": [
@@ -278,7 +279,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdelcattyone.desc"

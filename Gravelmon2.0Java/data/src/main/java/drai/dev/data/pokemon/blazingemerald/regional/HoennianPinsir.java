@@ -64,13 +64,17 @@ public class HoennianPinsir extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 25, 50, 10.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.VILLAGE),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_ARID)
+    .setAntiBiomes(Biome.IS_COLD, Biome.IS_TEMPERATE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Pinsir");
 
         setBaseScale(1);

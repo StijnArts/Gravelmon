@@ -106,7 +106,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.patroleo.desc"
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6158,
+  "nationalPokedexNumber": 6097,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

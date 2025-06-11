@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "6-26",
-      "weight": 12.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
@@ -67,8 +67,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "9-32",
-      "weight": 7.199999999999999,
+      "level": "9-29",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -96,8 +96,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.75,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
@@ -123,8 +123,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-31",
-      "weight": 6.75,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
@@ -151,8 +151,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.0,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

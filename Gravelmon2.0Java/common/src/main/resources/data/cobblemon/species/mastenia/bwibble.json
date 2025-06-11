@@ -76,7 +76,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bwibble.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8259,
+  "nationalPokedexNumber": 8198,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

@@ -119,6 +119,7 @@
   "labels": [
     "cyare",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7292,
+  "nationalPokedexNumber": 7231,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.4375,

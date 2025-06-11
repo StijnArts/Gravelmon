@@ -78,7 +78,8 @@
   ],
   "labels": [
     "lagoone",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.felightning.desc"

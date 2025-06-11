@@ -76,7 +76,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.platykid.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8256,
+  "nationalPokedexNumber": 8195,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

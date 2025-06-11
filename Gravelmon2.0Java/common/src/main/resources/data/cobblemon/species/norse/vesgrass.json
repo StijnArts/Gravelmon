@@ -84,6 +84,7 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
     "fakemonevolution",
     "norse",
     "instagram",
@@ -96,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3413,
+  "nationalPokedexNumber": 3352,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

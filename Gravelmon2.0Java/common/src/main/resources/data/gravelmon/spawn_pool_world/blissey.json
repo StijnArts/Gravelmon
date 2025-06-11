@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "45-70",
-      "weight": 0.44999999999999996,
+      "level": "45-65",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "40-75",
-      "weight": 0.44999999999999996,
+      "level": "40-60",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "43-56",
-      "weight": 0.15000000000000002,
+      "level": "43-63",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"

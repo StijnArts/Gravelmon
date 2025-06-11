@@ -110,6 +110,7 @@
   "labels": [
     "nodorro",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -120,7 +121,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8882,
+  "nationalPokedexNumber": 8821,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

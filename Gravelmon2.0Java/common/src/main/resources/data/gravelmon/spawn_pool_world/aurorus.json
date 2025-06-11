@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "39-58",
-      "weight": 1.2000000000000002,
+      "level": "39-59",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "37-54",
-      "weight": 0.6000000000000001,
+      "level": "37-57",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands"

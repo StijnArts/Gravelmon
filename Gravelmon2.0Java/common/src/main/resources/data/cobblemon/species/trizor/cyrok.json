@@ -92,6 +92,7 @@
   ],
   "labels": [
     "not_modeled",
+    "pseudo_legendary",
     "trizor",
     "instagram",
     "instagram"
@@ -118,7 +119,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3656,
+  "nationalPokedexNumber": 3595,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

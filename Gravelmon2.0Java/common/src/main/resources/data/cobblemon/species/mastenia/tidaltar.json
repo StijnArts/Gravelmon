@@ -91,6 +91,7 @@
   "labels": [
     "mastenia",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8349,
+  "nationalPokedexNumber": 8288,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.5,

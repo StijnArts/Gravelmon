@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "suripitto",
   "baseScale": 0.7124999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -109,7 +110,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.suripitto.desc"
@@ -118,7 +120,7 @@
   "weight": 879,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6348,
+  "nationalPokedexNumber": 6287,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

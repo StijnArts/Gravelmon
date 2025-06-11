@@ -1,0 +1,176 @@
+{
+  "target": "cobblemon:theossianbellossom",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 221,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "chlorophyll",
+        "h:magicguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 100,
+        "special_defence": 90,
+        "speed": 50
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:megadrain",
+        "1:magicalleaf",
+        "1:stunspore",
+        "1:sweetscent",
+        "1:sunnyday",
+        "1:leafblade",
+        "39:quiverdance",
+        "49:petalblizzard",
+        "59:petaldance",
+        "69:leafstorm",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:uproar",
+        "tm:gastroacid",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:drainpunch",
+        "tm:afteryou",
+        "tm:laserfocus",
+        "tm:grassyglide",
+        "tm:swordsdance",
+        "tm:hyperbeam",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:fling",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:infestation",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:cut",
+        "tm:flash",
+        "tm:grassyterrain",
+        "tm:petalblizzard",
+        "tm:batonpass",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:charm",
+        "tm:curse",
+        "tm:endure",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:leafblade",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:naturalgift",
+        "tm:playrough",
+        "tm:secretpower",
+        "tm:sweetscent",
+        "tm:razorleaf",
+        "tm:flail",
+        "tm:charm",
+        "tm:ingrain",
+        "tm:secretpower",
+        "tm:teeterdance",
+        "tm:tickle",
+        "tm:strengthsap"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianbellossom.desc"
+      ],
+      "height": 4,
+      "weight": 58,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

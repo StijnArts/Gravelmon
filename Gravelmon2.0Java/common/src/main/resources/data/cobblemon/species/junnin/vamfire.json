@@ -158,6 +158,7 @@
   "labels": [
     "junnin",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -168,7 +169,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3110,
+  "nationalPokedexNumber": 3049,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.6875,

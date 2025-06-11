@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-33",
-      "weight": 7.199999999999999,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -36,8 +36,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "6-33",
-      "weight": 7.199999999999999,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

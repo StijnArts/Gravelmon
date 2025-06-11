@@ -83,6 +83,7 @@
   "labels": [
     "fliga",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5250,
+  "nationalPokedexNumber": 5189,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

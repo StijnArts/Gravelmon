@@ -560,9 +560,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhonedgetwo_epochtwodoublade",
+          "id": "epochhonedgetwo_doublade_epoch",
           "variant": "level_up",
-          "result": "epochtwodoublade",
+          "result": "doublade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -732,9 +732,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhonedgethree_epochthree_doublade",
+          "id": "epochhonedgethree_doublade_epoch",
           "variant": "level_up",
-          "result": "epochthree doublade",
+          "result": "doublade epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

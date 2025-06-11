@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "43-58",
-      "weight": 0.75,
+      "level": "43-63",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"

@@ -74,6 +74,7 @@
   "labels": [
     "form",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5094,
+  "nationalPokedexNumber": 5033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

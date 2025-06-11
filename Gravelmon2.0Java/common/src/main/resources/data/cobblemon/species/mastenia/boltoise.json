@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "boltoise",
   "baseScale": 0.4173913043478261,
   "cannotDynamax": false,
   "abilities": [
@@ -193,7 +194,9 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "starter",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.boltoise.desc"
@@ -202,7 +205,7 @@
   "weight": 855,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8264,
+  "nationalPokedexNumber": 8203,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

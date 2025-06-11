@@ -139,7 +139,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "sage"
+    "sage",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.kidling.desc"

@@ -1,0 +1,174 @@
+{
+  "target": "cobblemon:theossianshinx",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "psychic",
+      "catchRate": 235,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 53,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "telepathy",
+        "h:magicguard"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 35,
+        "special_attack": 65,
+        "special_defence": 35,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:tackle",
+        "5:leer",
+        "9:charge",
+        "11:babydolleyes",
+        "13:spark",
+        "17:bite",
+        "21:roar",
+        "25:swagger",
+        "29:thunderfang",
+        "33:crunch",
+        "37:scaryface",
+        "41:discharge",
+        "45:wildcharge",
+        "tm:snore",
+        "tm:irontail",
+        "tm:helpinghand",
+        "tm:signalbeam",
+        "tm:shockwave",
+        "tm:magnetrise",
+        "tm:babydolleyes",
+        "tm:roar",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:facade",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:snarl",
+        "tm:confide",
+        "tm:flash",
+        "tm:captivate",
+        "tm:confuseray",
+        "tm:crunch",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:endure",
+        "tm:faketears",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:headbutt",
+        "tm:icefang",
+        "tm:mudslap",
+        "tm:naturalgift",
+        "tm:playrough",
+        "tm:psychicfangs",
+        "tm:risingvoltage",
+        "tm:scaryface",
+        "tm:secretpower",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:swift",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:thunderfang",
+        "tm:trailblaze",
+        "tm:doublekick",
+        "tm:takedown",
+        "tm:quickattack",
+        "tm:swift",
+        "tm:faketears",
+        "tm:howl",
+        "tm:nightslash",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:eerieimpulse"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianshinx.desc"
+      ],
+      "height": 5,
+      "weight": 95,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

@@ -97,7 +97,8 @@
   ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.larvyn.desc"

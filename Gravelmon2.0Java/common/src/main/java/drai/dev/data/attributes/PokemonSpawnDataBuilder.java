@@ -45,7 +45,7 @@ public class PokemonSpawnDataBuilder {
 
     public PokemonSpawnDataBuilder setBiomes(Biome... biomes) {
         var biomeList = pokemonSpawnData.getBiomeSpawnCondition().getBiomes();
-        if(biomeList.size() == 1 && biomeList.getFirst() == Biome.IS_VOID) biomeList.clear();
+        if(biomeList.stream().allMatch(biome -> biome == Biome.IS_VOID)) biomeList.clear();
         biomeList.addAll(Arrays.asList(biomes));
         return this;
     }

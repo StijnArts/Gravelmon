@@ -7,13 +7,13 @@
       "id": "slingray-01",
       "pokemon": "slingray",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "34-56",
-      "weight": 1.5,
+      "level": "34-54",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

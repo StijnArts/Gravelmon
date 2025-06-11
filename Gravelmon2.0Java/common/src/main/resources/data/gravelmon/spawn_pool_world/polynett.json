@@ -7,13 +7,13 @@
       "id": "dhioman_polynett-01",
       "pokemon": "polynett dhioman",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 7.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

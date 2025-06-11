@@ -183,6 +183,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sandile form=ayreian",
       "baseScale": 0.4,
       "cannotDynamax": false,
       "abilities": [
@@ -322,7 +323,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiankrokorok.desc"

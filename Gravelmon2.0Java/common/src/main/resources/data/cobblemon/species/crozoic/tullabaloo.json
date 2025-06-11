@@ -77,7 +77,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.tullabaloo.desc"
@@ -86,7 +87,7 @@
   "weight": 8,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4363,
+  "nationalPokedexNumber": 4302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.375,

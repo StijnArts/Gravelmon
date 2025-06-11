@@ -7,18 +7,13 @@ import java.util.*;
 
 
 public class Diamondure extends drai.dev.data.pokemon.Pokemon {
-    public Diamondure() {
+    public Diamondure(Stats stats) {
         super("Diamondure",
                 Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.STURDY,Ability.CLEAR_BODY,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,12 +23,13 @@ public class Diamondure extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(35).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        learnSet.add(new MoveLearnSetEntry(Move.ROCK_POLISH, 35));
            setLangFileName("Diamondure");
 
     }

@@ -94,14 +94,15 @@ public class Skelachone extends Pokemon {
                         new MoveLearnSetEntry(Move.TORMENT,"egg")
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 54, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.4, 0.3,
-                List.of());
+                0, List.of(), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         
         
         this.setBaseScale(1.1);

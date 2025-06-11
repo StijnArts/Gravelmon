@@ -167,6 +167,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cutiefly form=ayreian",
       "baseScale": 0.15737704918032788,
       "cannotDynamax": false,
       "abilities": [
@@ -298,7 +299,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianribombee.desc"

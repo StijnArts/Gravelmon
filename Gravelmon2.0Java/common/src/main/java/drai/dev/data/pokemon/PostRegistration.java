@@ -6,7 +6,9 @@ import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import org.apache.commons.lang3.*;
 import org.jetbrains.annotations.*;
+import org.reflections.*;
 
+import java.lang.reflect.*;
 import java.util.*;
 
 import static drai.dev.data.jsonwriters.assets.AdditionalFormAssetsJSONWriter.numberWordToInt;
@@ -49,7 +51,7 @@ public class PostRegistration {
             }
 
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = getEvolutionResultAsPokemon(pokemon, evolutionEntry.getResult());
+                Pokemon result = getPokemonById(evolutionEntry.getResult());
                 if (result != null) {
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
@@ -162,7 +164,7 @@ public class PostRegistration {
                             : parts[1].replaceAll("=true", "") + " ") + parts[0];
                 }
                 String finalEvoResult = evoResult;
-                Pokemon result = getEvolutionResultAsPokemon(pokemon, finalEvoResult);
+                Pokemon result = getPokemonById(finalEvoResult);
                 if (result != null) {
                     if (isAnAdditionalForm(result)) {
                         var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
@@ -180,7 +182,7 @@ public class PostRegistration {
                     form.setHiddenAbility(null);
                 }
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
-                    Pokemon result = getEvolutionResultAsPokemon(form, evolutionEntry.getResult());
+                    Pokemon result = getPokemonById(evolutionEntry.getResult());
                     if (result != null) {
                         if (isAnAdditionalForm(result)) {
                             var resultName = getKeysByValue(ADDITIONAL_FORMS, result).stream().findFirst();
@@ -227,14 +229,14 @@ public class PostRegistration {
             }
 
             checkEvolutionStatus(pokemon);
-            if (pokemon.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
+            SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
         System.out.println(pokemonWithZeroBaseStats);
 
         for (var additionalEvolutionEntrySet : ADDITIONAL_EVOLUTIONS.entrySet()) {
             var pokemon = POKEMON_REGISTRY.get(additionalEvolutionEntrySet.getKey());
             for (var evolutionEntry : additionalEvolutionEntrySet.getValue()) {
-                Pokemon result = getEvolutionResultAsPokemon(pokemon, evolutionEntry.getResult());
+                Pokemon result = getPokemonById(evolutionEntry.getResult());
                 if (result == null) continue;
                 if (pokemon == null) {
                     if (evolutionEntry.getRequiredContext() != null) {
@@ -264,44 +266,62 @@ public class PostRegistration {
                     }
                     checkEvolutionStatus(result);
                 }
-                if (result.needsUpdatedSpawnDefinition) SpawnDefinitionConverter.updateSpawnDefinitionInFile(result);
+                SpawnDefinitionConverter.updateSpawnDefinitionInFile(result);
             }
+        }
+
+        fixSpawnsForAllPokemon();
+//
+//        POKEMON_REGISTRY.values().forEach(SpawnDefinitionConverter::updateSpawnDefinitionInFile);
+    }
+
+    private static void fixSpawnsForAllPokemon() {
+        var allPokemonClasses = getAllPokemonClasses();
+        for (var pokemon : allPokemonClasses) {
+            SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
     }
 
-    private static @Nullable Pokemon getEvolutionResultAsPokemon(AbstractPokemon source, String evolutionEntry) {
-        String finalEvolutionEntry2 = evolutionEntry;
-        Pokemon result = POKEMON_REGISTRY.values().stream().filter(p ->
-                p.getCleanName().equalsIgnoreCase(finalEvolutionEntry2)).findFirst().orElse(null);
+    private static List<Pokemon> getAllPokemonClasses() {
+        Reflections reflections = new Reflections("drai.dev.data.pokemon");
+        var pokemon = new ArrayList<Pokemon>();
+        Set<Class<? extends Pokemon>> subclasses = reflections.getSubTypesOf(Pokemon.class);
 
-        if (result == null) {
-            String finalEvolutionEntry = evolutionEntry;
+        for (Class<? extends Pokemon> clazz : subclasses) {
+            if (SpawnDefinitionConverter.convertedClasses.contains(clazz.getName())) continue;
+            try {
+                Pokemon instance = null;
 
-            if(EnglishNumberToWords.numberWords.keySet().stream().anyMatch(word ->
-                    finalEvolutionEntry.toLowerCase().contains(word.toLowerCase()))){
-                String finalEvolutionEntry1 = evolutionEntry;
-                String numberWord = EnglishNumberToWords.numberWords.keySet().stream().filter(word ->
-                        finalEvolutionEntry1.toLowerCase().contains(word.toLowerCase())).findFirst().orElse(null);
+                // Try constructor with (String, Aspect)
+                for (Constructor<?> constructor : clazz.getConstructors()) {
+                    Class<?>[] params = constructor.getParameterTypes();
 
-                if (numberWord != null) {
-                    String number = EnglishNumberToWords.convert(numberWordToInt.get(numberWord)-1);
-                    evolutionEntry = evolutionEntry.replaceFirst(numberWord,"") + number;
-                    String finalEvolutionEntry3 = evolutionEntry;
-                    result = POKEMON_REGISTRY.values().stream().filter(p -> p.getCleanName().equalsIgnoreCase(finalEvolutionEntry3)).findFirst().orElse(null);
+                    if (params.length == 0) {
+                        instance = (Pokemon) constructor.newInstance();
+                        break;
+                    }if (params.length == 2 && params[0] == String.class && params[1] == Aspect.class) {
+                        instance = (Pokemon) constructor.newInstance("", Aspect.NOSTAN);
+                        break;
+                    } else if (params.length == 1 && params[0] == Stats.class) {
+                        instance = (Pokemon) constructor.newInstance(new Stats(0, 0, 0, 0, 0, 0));
+                        break;
+                    } else if (params.length == 3 && params[0] == String.class && params[2] == Stats.class && params[1] == Aspect.class) {
+                        instance = (Pokemon) constructor.newInstance("", Aspect.NOSTAN, new Stats(0, 0, 0, 0, 0, 0));
+                        break;
+                    }
                 }
-            }
 
-
-        }
-        if(result == null){
-            if(evolutionEntry.contains(" ")){
-                var parts = evolutionEntry.split(" ");
-
-                String finalEvolutionEntry4 = parts[1] + parts[0];
-                result = POKEMON_REGISTRY.values().stream().filter(p -> p.getCleanName().equalsIgnoreCase(finalEvolutionEntry4)).findFirst().orElse(null);
+                if (instance != null) {
+                    pokemon.add(instance);
+                } else {
+                    System.out.println("No valid constructor for: " + clazz.getName());
+                }
+            } catch (Exception e) {
+                System.out.println("Error creating instance of " + clazz.getName() + ": " + e.getMessage());
             }
         }
-        return result;
+
+        return pokemon;
     }
 
     private static void checkEvolutionStatus(Pokemon pokemon) {

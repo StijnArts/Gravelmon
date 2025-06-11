@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 6.074999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -40,7 +40,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-32",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_desert"
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "8-35",
-      "weight": 6.8999999999999995,
+      "level": "8-28",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "minecraft:mangrove_swamp"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "11-34",
-      "weight": 6.8999999999999995,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"

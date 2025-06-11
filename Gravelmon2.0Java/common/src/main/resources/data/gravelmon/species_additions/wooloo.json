@@ -329,9 +329,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochwoolooone_epochtwodubwool",
+          "id": "epochwoolooone_dubwool_epoch",
           "variant": "level_up",
-          "result": "epochtwodubwool",
+          "result": "dubwool epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

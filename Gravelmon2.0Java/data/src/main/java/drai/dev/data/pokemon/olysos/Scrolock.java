@@ -28,11 +28,12 @@ public class Scrolock extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(32).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.VERY_COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_JUNGLE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Scrolock");
 
     }

@@ -164,6 +164,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "sealeo form=epoch",
       "baseScale": 0.454054054054054,
       "cannotDynamax": false,
       "abilities": [
@@ -281,7 +282,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochwalreinone.desc"

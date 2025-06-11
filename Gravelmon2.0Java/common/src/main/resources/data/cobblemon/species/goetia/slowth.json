@@ -76,7 +76,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.slowth.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7850,
+  "nationalPokedexNumber": 7789,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

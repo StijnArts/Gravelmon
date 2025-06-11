@@ -11,16 +11,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "31-58",
-      "weight": 12.0,
+      "bucket": "common",
+      "level": "31-51",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
         ],
-        "isThundering": true,
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "isRaining": true
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "30-52",
-      "weight": 0.09375,
+      "level": "30-50",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",
@@ -68,8 +68,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "40-56",
-      "weight": 0.22499999999999998,
+      "level": "40-60",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -121,8 +121,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "30-52",
-      "weight": 0.07500000000000001,
+      "level": "30-50",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -145,9 +145,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "34-54",
-      "weight": 0.44999999999999996,
+      "weight": 0.09,
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands",

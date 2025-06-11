@@ -77,7 +77,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.phanta.desc"
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7113,
+  "nationalPokedexNumber": 7052,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

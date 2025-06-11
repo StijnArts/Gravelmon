@@ -79,12 +79,16 @@ public class SeviianMantine extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN2),
                 0, List.of(),
-                SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 37, 55, 0.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(37)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .setAntiBiomes(Biome.IS_COLD)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Mantine");
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);

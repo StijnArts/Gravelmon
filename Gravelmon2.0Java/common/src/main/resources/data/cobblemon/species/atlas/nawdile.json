@@ -114,7 +114,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.nawdile.desc"
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6885,
+  "nationalPokedexNumber": 6824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

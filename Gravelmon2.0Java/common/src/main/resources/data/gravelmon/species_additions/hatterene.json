@@ -11,6 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hattrem form=lagoonan",
       "baseScale": 0.63,
       "cannotDynamax": false,
       "abilities": [
@@ -81,7 +82,9 @@
       ],
       "labels": [
         "lagoone",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.lagoonanhatterene.desc"
@@ -254,6 +257,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hattrem form=ayreian",
       "baseScale": 0.84,
       "cannotDynamax": false,
       "abilities": [
@@ -369,7 +373,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianhatterene.desc"

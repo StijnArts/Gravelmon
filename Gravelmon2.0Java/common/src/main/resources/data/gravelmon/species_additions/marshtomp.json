@@ -87,6 +87,7 @@
         "gen3",
         "azure",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -269,6 +270,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -313,6 +315,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "mudkip form=epoch",
       "baseScale": 0.28965517241379307,
       "cannotDynamax": false,
       "abilities": [
@@ -434,7 +437,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochmarshtompone.desc"
@@ -446,9 +452,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmarshtompone_epochtwoswampert",
+          "id": "epochmarshtompone_swampert_epoch",
           "variant": "level_up",
-          "result": "epochtwoswampert",
+          "result": "swampert epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -602,6 +608,7 @@
       "labels": [
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],

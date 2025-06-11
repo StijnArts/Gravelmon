@@ -111,7 +111,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.mampth.desc"
@@ -130,7 +131,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7099,
+  "nationalPokedexNumber": 7038,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

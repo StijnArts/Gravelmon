@@ -7,7 +7,7 @@
       "id": "tidoral-01",
       "pokemon": "tidoral",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

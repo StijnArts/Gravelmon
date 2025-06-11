@@ -147,7 +147,8 @@
   ],
   "labels": [
     "vega",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.tyranos.desc"
@@ -156,7 +157,7 @@
   "weight": 8752,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6144,
+  "nationalPokedexNumber": 6083,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -140,7 +140,8 @@
   "labels": [
     "uranium",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.lanthan.desc"
@@ -149,7 +150,7 @@
   "weight": 14270,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2609,
+  "nationalPokedexNumber": 2548,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

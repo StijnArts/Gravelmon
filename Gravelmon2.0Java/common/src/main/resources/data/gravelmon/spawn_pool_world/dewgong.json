@@ -7,24 +7,19 @@
       "id": "epoch_dewgong-01",
       "pokemon": "dewgong epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "38-53",
-      "weight": 0.44999999999999996,
+      "level": "38-58",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_coast"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_beach"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -44,21 +39,16 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "33-56",
-      "weight": 1.35,
+      "level": "33-53",
+      "weight": 1.2,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_freezing"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "minY": 48
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_freezing"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -78,8 +68,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "34-48",
-      "weight": 1.5,
+      "level": "34-54",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean",

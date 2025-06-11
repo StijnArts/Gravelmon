@@ -530,9 +530,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochraltsone_epochtwokirlia",
+          "id": "epochraltsone_kirlia_epoch",
           "variant": "level_up",
-          "result": "epochtwokirlia",
+          "result": "kirlia epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

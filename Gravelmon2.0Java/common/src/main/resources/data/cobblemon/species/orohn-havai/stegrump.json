@@ -83,7 +83,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.stegrump.desc"
@@ -92,7 +93,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3983,
+  "nationalPokedexNumber": 3922,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

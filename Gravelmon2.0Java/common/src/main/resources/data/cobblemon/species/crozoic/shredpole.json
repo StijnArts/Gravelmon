@@ -71,7 +71,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.shredpole.desc"
@@ -95,7 +96,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4319,
+  "nationalPokedexNumber": 4258,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

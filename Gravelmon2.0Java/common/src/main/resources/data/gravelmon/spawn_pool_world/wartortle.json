@@ -12,20 +12,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "16-29",
-      "weight": 1.5,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
-          "#cobblemon:is_mountain",
-          "#cobblemon:is_highlands"
+          "#cobblemon:is_freezing"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_freezing"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "16-29",
-      "weight": 1.5,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
@@ -98,8 +92,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "16-29",
-      "weight": 1.5,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

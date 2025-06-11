@@ -89,6 +89,7 @@
   "labels": [
     "raian",
     "not_modeled",
+    "legendary",
     "instagram",
     "instagram"
   ],
@@ -99,7 +100,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3306,
+  "nationalPokedexNumber": 3245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

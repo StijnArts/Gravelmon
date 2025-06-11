@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -36,9 +36,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "15-31",
-      "weight": 1.5,
+      "bucket": "common",
+      "level": "15-35",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -64,7 +64,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "7-27",
-      "weight": 13.5,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
@@ -92,7 +92,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "7-27",
-      "weight": 13.5,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

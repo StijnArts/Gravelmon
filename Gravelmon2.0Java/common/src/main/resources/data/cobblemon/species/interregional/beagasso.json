@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "beagasso",
   "baseScale": 0.4864864864864865,
   "cannotDynamax": false,
   "abilities": [
@@ -75,7 +76,8 @@
   ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.beagasso.desc"

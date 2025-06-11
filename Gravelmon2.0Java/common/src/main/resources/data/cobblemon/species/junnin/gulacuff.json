@@ -112,6 +112,7 @@
   "labels": [
     "junnin",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -137,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3094,
+  "nationalPokedexNumber": 3033,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

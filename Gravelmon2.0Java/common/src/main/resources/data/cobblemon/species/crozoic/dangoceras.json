@@ -92,7 +92,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.dangoceras.desc"
@@ -101,7 +102,7 @@
   "weight": 720,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4367,
+  "nationalPokedexNumber": 4306,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

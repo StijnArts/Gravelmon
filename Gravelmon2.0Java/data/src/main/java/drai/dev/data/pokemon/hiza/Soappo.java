@@ -54,13 +54,17 @@ public class Soappo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 18, 33, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(18)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_RIVER)
+    .setAntiBiomes(Biome.IS_WINTER, Biome.IS_AUTUMN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

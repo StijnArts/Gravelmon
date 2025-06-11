@@ -145,6 +145,7 @@
   "labels": [
     "okeno",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -155,7 +156,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5957,
+  "nationalPokedexNumber": 5896,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

@@ -360,9 +360,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtyruntone_epochtwotyrantrum",
+          "id": "epochtyruntone_tyrantrum_epoch",
           "variant": "level_up",
-          "result": "epochtwotyrantrum",
+          "result": "tyrantrum epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

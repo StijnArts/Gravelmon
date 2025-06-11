@@ -40,11 +40,14 @@ public class Hiveum extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,48)),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 3, List.of(
-                ), List.of(),
-                List.of(SpawnPreset.HONEY_TREE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(23)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setSpawnPreset(SpawnPreset.HONEY_TREE)
+    .build(), List.of());
+	
            setLangFileName("Hiveum");
 
     }

@@ -78,7 +78,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.lavat.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8687,
+  "nationalPokedexNumber": 8626,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

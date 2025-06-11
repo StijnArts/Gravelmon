@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "32-51",
-      "weight": 1.35,
+      "level": "16-40",
+      "weight": 3.6,
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"

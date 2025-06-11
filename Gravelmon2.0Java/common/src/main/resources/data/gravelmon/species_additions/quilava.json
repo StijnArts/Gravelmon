@@ -163,6 +163,7 @@
         "gen2",
         "infinity",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -355,6 +356,7 @@
         "gen2",
         "insurgence",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -529,6 +531,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -572,6 +575,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cyndaquil form=epoch",
       "baseScale": 0.3085714285714286,
       "cannotDynamax": false,
       "abilities": [
@@ -683,7 +687,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochquilavaone.desc"
@@ -695,9 +702,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochquilavaone_epochtwotyphlosion",
+          "id": "epochquilavaone_typhlosion_epoch",
           "variant": "level_up",
-          "result": "epochtwotyphlosion",
+          "result": "typhlosion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -921,6 +928,7 @@
         "gen2",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -964,6 +972,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "cyndaquil form=ionosian",
       "baseScale": 0.29473684210526313,
       "cannotDynamax": false,
       "abilities": [
@@ -1045,7 +1054,10 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianquilava.desc"

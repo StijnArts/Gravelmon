@@ -88,7 +88,8 @@
     "orohnhavai",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.slotherror.desc"
@@ -97,7 +98,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3992,
+  "nationalPokedexNumber": 3931,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

@@ -111,6 +111,7 @@
   "labels": [
     "atlas",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6892,
+  "nationalPokedexNumber": 6831,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

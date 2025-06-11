@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "valevant",
   "baseScale": 0.5037037037037037,
   "cannotDynamax": false,
   "abilities": [
@@ -132,7 +133,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.valevant.desc"
@@ -141,7 +143,7 @@
   "weight": 780,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5502,
+  "nationalPokedexNumber": 5441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

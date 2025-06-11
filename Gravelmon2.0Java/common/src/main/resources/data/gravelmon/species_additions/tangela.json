@@ -707,9 +707,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochtangelaone_epochtwotangrowth",
+          "id": "epochtangelaone_tangrowth_epoch",
           "variant": "level_up",
-          "result": "epochtwotangrowth",
+          "result": "tangrowth epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

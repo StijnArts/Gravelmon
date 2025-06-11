@@ -10,8 +10,8 @@
       "type": "pokemon",
       "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:has_season/spring",

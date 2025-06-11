@@ -7,19 +7,19 @@
       "id": "delta_dunsparce-01",
       "pokemon": "dunsparce delta",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "uncommon",
-      "level": "12-39",
-      "weight": 2.7,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_freshwater"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "6-25",
-      "weight": 6.0,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "13-32",
-      "weight": 6.75,
+      "level": "13-33",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#gravelmon:is_deciduous_forest"
@@ -92,20 +92,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-41",
-      "weight": 2.7,
+      "level": "12-32",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_arid"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7,
-        "maxY": 20
-      },
-      "anticondition": {
-        "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "maxY": 20
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -170,6 +170,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoppip form=epoch",
       "baseScale": 0.2526315789473684,
       "cannotDynamax": false,
       "abilities": [
@@ -294,7 +295,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochskiploomone.desc"
@@ -306,9 +309,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochskiploomone_epochtwojumpluff",
+          "id": "epochskiploomone_jumpluff_epoch",
           "variant": "level_up",
-          "result": "epochtwojumpluff",
+          "result": "jumpluff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -337,6 +340,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "hoppip form=ayreian",
       "baseScale": 0.33488372093023255,
       "cannotDynamax": false,
       "abilities": [
@@ -450,7 +454,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianskiploom.desc"

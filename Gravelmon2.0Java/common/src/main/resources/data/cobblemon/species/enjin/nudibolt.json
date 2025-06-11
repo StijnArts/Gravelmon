@@ -85,6 +85,7 @@
   "labels": [
     "enjin",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -95,7 +96,7 @@
   "weight": 900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6361,
+  "nationalPokedexNumber": 6300,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "ionos",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.drahoggon.desc"
@@ -86,7 +87,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6526,
+  "nationalPokedexNumber": 6465,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

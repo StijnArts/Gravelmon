@@ -7,7 +7,7 @@
       "id": "shrimpod-01",
       "pokemon": "shrimpod",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",

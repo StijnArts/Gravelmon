@@ -130,7 +130,8 @@
   ],
   "labels": [
     "ishiria",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bullaine.desc"
@@ -154,7 +155,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8949,
+  "nationalPokedexNumber": 8839,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

@@ -14,7 +14,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "13-33",
-      "weight": 6.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "12-32",
-      "weight": 12.0,
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "12-33",
-      "weight": 11.7,
+      "level": "12-32",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -64,8 +64,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "11-35",
-      "weight": 6.0,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "9-32",
-      "weight": 13.5,
+      "level": "9-29",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

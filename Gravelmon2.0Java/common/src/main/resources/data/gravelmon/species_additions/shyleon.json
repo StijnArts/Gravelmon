@@ -163,6 +163,7 @@
       ],
       "labels": [
         "xenoverse",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -407,6 +408,7 @@
       "labels": [
         "xenoverse",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -652,6 +654,7 @@
       ],
       "labels": [
         "xenoverse",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -789,7 +792,8 @@
       ],
       "labels": [
         "xenoverse",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.shyleonx.desc"

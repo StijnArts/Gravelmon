@@ -111,7 +111,8 @@
   ],
   "labels": [
     "lonava",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.gobbeel.desc"
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4501,
+  "nationalPokedexNumber": 4440,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

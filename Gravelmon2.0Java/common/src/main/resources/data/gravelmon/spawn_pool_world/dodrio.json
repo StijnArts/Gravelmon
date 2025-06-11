@@ -12,21 +12,16 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "31-56",
-      "weight": 0.44999999999999996,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_island"
+          "#cobblemon:is_cold",
+          "#cobblemon:is_arid"
         ],
         "timeRange": "day",
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_arid"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -46,8 +41,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "28-49",
-      "weight": 0.44999999999999996,
+      "level": "28-48",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -71,8 +66,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "35-54",
-      "weight": 0.6000000000000001,
+      "level": "35-55",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#minecraft:is_end"
@@ -96,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "32-45",
-      "weight": 0.44999999999999996,
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -123,8 +118,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "31-47",
-      "weight": 1.5,
+      "level": "31-51",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"

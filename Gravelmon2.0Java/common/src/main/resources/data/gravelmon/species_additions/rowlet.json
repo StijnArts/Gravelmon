@@ -128,7 +128,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochrowlet.desc"
@@ -290,7 +291,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochrowletone.desc"
@@ -302,9 +304,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochrowletone_epochtwodartrix",
+          "id": "epochrowletone_dartrix_epoch",
           "variant": "level_up",
-          "result": "epochtwodartrix",
+          "result": "dartrix epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

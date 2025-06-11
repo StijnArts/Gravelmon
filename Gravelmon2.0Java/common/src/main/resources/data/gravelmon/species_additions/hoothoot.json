@@ -651,9 +651,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochhoothootone_epochtwonoctowl",
+          "id": "epochhoothootone_noctowl_epoch",
           "variant": "level_up",
-          "result": "epochtwonoctowl",
+          "result": "noctowl epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

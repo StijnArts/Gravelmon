@@ -13,8 +13,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "11-34",
-      "weight": 13.5,
+      "level": "11-31",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -38,8 +38,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "7-32",
-      "weight": 13.5,
+      "level": "7-27",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -63,8 +63,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "23-44",
-      "weight": 13.5,
+      "level": "23-43",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_cold_ocean"

@@ -129,7 +129,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.astralaxy.desc"
@@ -138,7 +139,7 @@
   "weight": 490,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5489,
+  "nationalPokedexNumber": 5428,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.25,

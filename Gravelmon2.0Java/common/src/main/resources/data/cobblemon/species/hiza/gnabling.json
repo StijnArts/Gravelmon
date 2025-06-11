@@ -111,7 +111,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.gnabling.desc"
@@ -135,7 +136,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2872,
+  "nationalPokedexNumber": 2811,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.6875,

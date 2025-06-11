@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "magcargo",
+  "preEvolution": "magukigai",
   "baseScale": 0.5249999999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -138,6 +138,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -147,7 +148,7 @@
   "weight": 1280,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6334,
+  "nationalPokedexNumber": 6273,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

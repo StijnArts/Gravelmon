@@ -12,14 +12,9 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-24",
-      "weight": 7.5,
+      "level": "7-27",
+      "weight": 5.0,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_spooky"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_floral"
         ]
@@ -34,33 +29,6 @@
       }
     },
     {
-      "id": "varitasian_flabebe-01",
-      "pokemon": "flabebe varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "5-21",
-      "weight": 13.5,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:pink_stained_glass"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_flabebe-01",
       "pokemon": "flabebe epoch",
       "presets": [
@@ -70,8 +38,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "6-28",
-      "weight": 13.5,
+      "level": "6-26",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -95,19 +63,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "4-23",
-      "weight": 13.5,
+      "level": "4-24",
+      "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold"
+          "#cobblemon:is_snowy"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_snowy"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

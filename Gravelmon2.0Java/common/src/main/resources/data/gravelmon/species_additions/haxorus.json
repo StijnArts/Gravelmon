@@ -357,6 +357,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "fraxure form=ayreian",
       "baseScale": 0.47472527472527476,
       "cannotDynamax": false,
       "abilities": [
@@ -503,7 +504,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreianhaxorus.desc"

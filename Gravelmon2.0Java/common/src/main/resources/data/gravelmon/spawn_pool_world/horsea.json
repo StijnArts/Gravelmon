@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -34,13 +34,13 @@
       "id": "epoch_horsea-01",
       "pokemon": "horsea epoch",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle",
@@ -67,8 +67,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "common",
-      "level": "11-32",
-      "weight": 7.199999999999999,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "11-32",
-      "weight": 7.199999999999999,
+      "level": "11-31",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

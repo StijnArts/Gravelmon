@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "vesground",
   "baseScale": 0.09843750000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -98,6 +99,8 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
+    "fakemonevolution",
     "norse",
     "instagram",
     "instagram"
@@ -109,7 +112,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3417,
+  "nationalPokedexNumber": 3356,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

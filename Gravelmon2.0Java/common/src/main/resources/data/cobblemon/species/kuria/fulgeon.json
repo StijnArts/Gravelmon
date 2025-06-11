@@ -103,7 +103,8 @@
   ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution"
   ],
   "pokedex": [
     "cobblemon.species.fulgeon.desc"
@@ -112,7 +113,7 @@
   "weight": 39,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5614,
+  "nationalPokedexNumber": 5553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

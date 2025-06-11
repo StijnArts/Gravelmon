@@ -7,13 +7,13 @@
       "id": "royjibiv-01",
       "pokemon": "royjibiv",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "54-65",
-      "weight": 0.75,
+      "level": "54-74",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"

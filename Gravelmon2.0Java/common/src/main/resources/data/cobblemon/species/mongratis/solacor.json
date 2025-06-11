@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "amacorala",
+  "preEvolution": "solacor",
   "baseScale": 0.6193548387096774,
   "cannotDynamax": false,
   "abilities": [
@@ -103,6 +103,7 @@
     "mongratis",
     "not_modeled",
     "fakemon",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -112,7 +113,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8523,
+  "nationalPokedexNumber": 8462,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.875,

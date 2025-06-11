@@ -109,13 +109,16 @@ public class Musbushel extends Pokemon {
                         new ItemDrop("minecraft:sweet_berry",40, 1,3),
                         new ItemDrop("minecraft:glow_berry",40, 1,3),
                         new ItemDrop("cobblemon:berry_sweet",20, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 38, 2.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         
     }
 }

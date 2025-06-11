@@ -8,6 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 35,
+  "preEvolution": "tentyrant",
   "baseScale": 1.9,
   "cannotDynamax": false,
   "abilities": [
@@ -127,7 +128,8 @@
     "tm:terablast"
   ],
   "labels": [
-    "deneb"
+    "deneb",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tentyrant.desc"
@@ -136,7 +138,7 @@
   "weight": 785,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6097,
+  "nationalPokedexNumber": 6036,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.3,

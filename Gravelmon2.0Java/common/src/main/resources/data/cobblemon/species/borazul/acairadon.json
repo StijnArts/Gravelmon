@@ -84,6 +84,7 @@
   "labels": [
     "borazul",
     "not_modeled",
+    "starter",
     "instagram",
     "instagram"
   ],
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3879,
+  "nationalPokedexNumber": 3818,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

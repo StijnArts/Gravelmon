@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Valbear",
   "baseScale": 0.5793103448275863,
   "cannotDynamax": false,
   "abilities": [
@@ -86,7 +87,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.valbear.desc"
@@ -95,7 +97,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4224,
+  "nationalPokedexNumber": 4163,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

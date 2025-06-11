@@ -92,7 +92,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.scaelicius.desc"
@@ -101,7 +102,7 @@
   "weight": 2000,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8889,
+  "nationalPokedexNumber": 8828,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

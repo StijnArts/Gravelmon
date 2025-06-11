@@ -72,7 +72,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.oloraudio.desc"
@@ -81,7 +82,7 @@
   "weight": 2907,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4331,
+  "nationalPokedexNumber": 4270,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

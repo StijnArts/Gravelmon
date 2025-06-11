@@ -78,7 +78,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.calfyr.desc"
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4090,
+  "nationalPokedexNumber": 4029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0625,

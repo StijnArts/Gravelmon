@@ -41,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 60,
-    "attack": 70,
-    "defence": 52,
-    "special_attack": 45,
-    "special_defence": 45,
-    "speed": 60
+    "hp": 66,
+    "attack": 108,
+    "defence": 66,
+    "special_attack": 59,
+    "special_defence": 59,
+    "speed": 59
   },
   "evYield": {
     "hp": 0,
@@ -78,6 +78,7 @@
   "labels": [
     "interregional",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],

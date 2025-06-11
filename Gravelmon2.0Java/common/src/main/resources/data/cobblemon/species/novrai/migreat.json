@@ -130,7 +130,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.migreat.desc"
@@ -139,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6875,
+  "nationalPokedexNumber": 6814,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.625,

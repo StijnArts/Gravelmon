@@ -4,34 +4,6 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "varitasian_tyrogue-01",
-      "pokemon": "tyrogue varitasian",
-      "presets": [
-        "natural"
-      ],
-      "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "1-21",
-      "weight": 2.7,
-      "condition": {
-        "biomes": [
-          "#cobblemon:is_mountain"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
-        "timeRange": "night"
-      },
-      "weightMultiplier": {
-        "multiplier": 5.0,
-        "condition": {
-          "neededNearbyBlocks": [
-            "minecraft:amethyst_block"
-          ]
-        }
-      }
-    },
-    {
       "id": "epoch_tyrogue-01",
       "pokemon": "tyrogue epoch",
       "presets": [
@@ -40,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 5.699999999999999,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
@@ -68,7 +40,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "1-21",
-      "weight": 2.7,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"
@@ -95,7 +67,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "1-21",
-      "weight": 2.7,
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"

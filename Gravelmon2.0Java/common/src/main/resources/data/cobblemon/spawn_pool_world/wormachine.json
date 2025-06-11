@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "13-36",
-      "weight": 2.805,
+      "level": "13-33",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_beach"

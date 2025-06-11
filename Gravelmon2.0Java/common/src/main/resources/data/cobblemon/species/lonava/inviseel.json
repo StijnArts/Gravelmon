@@ -113,6 +113,7 @@
   "labels": [
     "lonava",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4502,
+  "nationalPokedexNumber": 4441,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

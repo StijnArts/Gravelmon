@@ -696,9 +696,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochsolosisone_epochtwoduosion",
+          "id": "epochsolosisone_duosion_epoch",
           "variant": "level_up",
-          "result": "epochtwoduosion",
+          "result": "duosion epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

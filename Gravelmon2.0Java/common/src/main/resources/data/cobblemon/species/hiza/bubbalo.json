@@ -104,7 +104,8 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bubbalo.desc"
@@ -128,7 +129,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2878,
+  "nationalPokedexNumber": 2817,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

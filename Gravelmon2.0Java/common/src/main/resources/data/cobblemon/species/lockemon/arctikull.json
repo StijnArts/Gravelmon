@@ -112,7 +112,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.arctikull.desc"
@@ -121,7 +122,7 @@
   "weight": 3520,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4621,
+  "nationalPokedexNumber": 4560,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

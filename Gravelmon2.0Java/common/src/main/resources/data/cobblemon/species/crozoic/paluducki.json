@@ -76,7 +76,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.paluducki.desc"
@@ -100,7 +101,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4317,
+  "nationalPokedexNumber": 4256,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

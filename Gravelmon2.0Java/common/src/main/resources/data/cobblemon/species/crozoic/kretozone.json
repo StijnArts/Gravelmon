@@ -74,7 +74,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kretozone.desc"
@@ -83,7 +84,7 @@
   "weight": 920,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4381,
+  "nationalPokedexNumber": 4320,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.1875,

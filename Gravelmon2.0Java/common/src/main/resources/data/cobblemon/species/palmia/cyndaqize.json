@@ -70,6 +70,7 @@
   ],
   "labels": [
     "not_modeled",
+    "starter",
     "palmia",
     "instagram",
     "instagram"
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3527,
+  "nationalPokedexNumber": 3466,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

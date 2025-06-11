@@ -87,7 +87,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.tenchondri.desc"
@@ -96,7 +97,7 @@
   "weight": 810,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4369,
+  "nationalPokedexNumber": 4308,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

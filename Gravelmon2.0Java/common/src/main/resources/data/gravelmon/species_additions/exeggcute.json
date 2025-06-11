@@ -435,9 +435,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochexeggcuteone_epochtwoexeggutor",
+          "id": "epochexeggcuteone_exeggutor_epoch",
           "variant": "item_interact",
-          "result": "epochtwoexeggutor",
+          "result": "exeggutor epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

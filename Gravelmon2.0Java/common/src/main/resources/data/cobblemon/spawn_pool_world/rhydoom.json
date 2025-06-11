@@ -13,20 +13,15 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "23-43",
-      "weight": 3.0,
+      "weight": 0.9,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_coast"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_temperate",
           "#cobblemon:is_beach"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

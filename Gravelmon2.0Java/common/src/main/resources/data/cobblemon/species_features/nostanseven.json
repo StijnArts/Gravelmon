@@ -1,0 +1,6 @@
+{
+    "keys": [ "nostanseven" ],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

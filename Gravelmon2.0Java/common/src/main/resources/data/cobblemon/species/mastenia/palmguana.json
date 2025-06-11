@@ -95,7 +95,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.palmguana.desc"
@@ -104,7 +105,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8350,
+  "nationalPokedexNumber": 8289,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

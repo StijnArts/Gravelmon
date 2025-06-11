@@ -144,7 +144,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.impyre.desc"
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6585,
+  "nationalPokedexNumber": 6524,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -153,7 +153,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.flarepent.desc"
@@ -177,7 +178,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8434,
+  "nationalPokedexNumber": 8373,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "7-22",
-      "weight": 2.0999999999999996,
+      "level": "7-27",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"

@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "staticroak",
   "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
@@ -98,7 +99,8 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.staticroak.desc"
@@ -107,7 +109,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8810,
+  "nationalPokedexNumber": 8749,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.375,

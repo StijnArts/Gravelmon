@@ -170,6 +170,7 @@
       "labels": [
         "gen1",
         "infinity",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -380,6 +381,7 @@
       "labels": [
         "gen1",
         "insurgence",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -535,6 +537,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -701,6 +704,7 @@
         "gen1",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [

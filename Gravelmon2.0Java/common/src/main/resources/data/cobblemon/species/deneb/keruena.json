@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "keruena",
   "baseScale": 0.675,
   "cannotDynamax": false,
   "abilities": [
@@ -111,7 +112,8 @@
   ],
   "labels": [
     "deneb",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.keruena.desc"
@@ -120,7 +122,7 @@
   "weight": 742,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6325,
+  "nationalPokedexNumber": 6264,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

@@ -126,8 +126,10 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fossil",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.travelphin.desc"
@@ -136,7 +138,7 @@
   "weight": 1278,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6306,
+  "nationalPokedexNumber": 6245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

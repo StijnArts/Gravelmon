@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "rare",
-      "level": "2-26",
-      "weight": 3.0,
+      "level": "2-22",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"

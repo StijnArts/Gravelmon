@@ -177,6 +177,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "duskull form=epoch",
       "baseScale": 0.5408450704225353,
       "cannotDynamax": false,
       "abilities": [
@@ -229,7 +230,16 @@
       "eggGroups": [
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "31:spiritshackle",
         "1:leer",
@@ -304,7 +314,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochdusclopsone.desc"
@@ -316,9 +328,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdusclopsone_epochtwodusknoir",
+          "id": "epochdusclopsone_dusknoir_epoch",
           "variant": "item_interact",
-          "result": "epochtwodusknoir",
+          "result": "dusknoir epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

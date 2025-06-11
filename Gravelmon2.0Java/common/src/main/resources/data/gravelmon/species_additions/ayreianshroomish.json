@@ -1,0 +1,166 @@
+{
+  "target": "cobblemon:ayreianshroomish",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "poison",
+      "secondaryType": "ice",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "fluctuating",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.1,
+      "cannotDynamax": false,
+      "abilities": [
+        "corrosion",
+        "unburden"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 35,
+        "special_defence": 40,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "8:acid",
+        "1:tackle",
+        "22:aurorabeam",
+        "12:icywind",
+        "29:amnesia",
+        "33:toxic",
+        "40:sludgewave",
+        "19:poisongas",
+        "15:toxicspikes",
+        "36:frostbreath",
+        "5:stunspore",
+        "26:sludge",
+        "1:poisonsting",
+        "tm:attract",
+        "tm:bulletseed",
+        "tm:confide",
+        "tm:doubleteam",
+        "tm:drainpunch",
+        "tm:endure",
+        "tm:energyball",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:grassknot",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:protect",
+        "tm:rest",
+        "tm:return",
+        "tm:round",
+        "tm:safeguard",
+        "tm:seedbomb",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snatch",
+        "tm:snore",
+        "tm:solarbeam",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swordsdance",
+        "tm:synthesis",
+        "tm:toxic",
+        "tm:venoshock",
+        "tm:worryseed",
+        "tm:icebeam",
+        "egg:faketears",
+        "egg:charm",
+        "egg:helpinghand",
+        "egg:worryseed",
+        "egg:wakeupslap",
+        "egg:seedbomb",
+        "egg:bulletseed",
+        "egg:focuspunch",
+        "egg:naturalgift",
+        "egg:drainpunch"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianshroomish.desc"
+      ],
+      "height": 4,
+      "weight": 45,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianshroomish_breloom_ayreian",
+          "variant": "level_up",
+          "result": "breloom ayreian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "26"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

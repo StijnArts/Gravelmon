@@ -102,6 +102,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -123,7 +124,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6354,
+  "nationalPokedexNumber": 6293,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.625,

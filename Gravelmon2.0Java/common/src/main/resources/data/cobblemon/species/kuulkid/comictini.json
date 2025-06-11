@@ -95,6 +95,7 @@
   "labels": [
     "kuulkid",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -105,7 +106,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 2641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

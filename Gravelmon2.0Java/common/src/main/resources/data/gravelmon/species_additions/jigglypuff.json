@@ -176,6 +176,7 @@
       "experienceGroup": "fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "igglybuff form=epoch",
       "baseScale": 0.631578947368421,
       "cannotDynamax": false,
       "abilities": [
@@ -305,7 +306,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochjigglypuffone.desc"
@@ -317,9 +320,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochjigglypuffone_epochtwowigglytuff",
+          "id": "epochjigglypuffone_wigglytuff_epoch",
           "variant": "item_interact",
-          "result": "epochtwowigglytuff",
+          "result": "wigglytuff epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

@@ -315,6 +315,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skiddo form=epoch",
       "baseScale": 0.6276923076923077,
       "cannotDynamax": false,
       "abilities": [
@@ -434,7 +435,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgogoatone.desc"
@@ -462,6 +465,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skiddo form=ayreian",
       "baseScale": 0.5037037037037037,
       "cannotDynamax": false,
       "abilities": [
@@ -584,7 +588,9 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiangogoat.desc"
@@ -612,6 +618,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "skiddo form=vesitan",
       "baseScale": 0.6276923076923077,
       "cannotDynamax": false,
       "abilities": [
@@ -688,7 +695,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitangogoat.desc"

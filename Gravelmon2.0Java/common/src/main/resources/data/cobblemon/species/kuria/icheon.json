@@ -7,6 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "icheon",
   "baseScale": 0.42857142857142855,
   "cannotDynamax": false,
   "abilities": [
@@ -111,7 +112,9 @@
   ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.icheon.desc"
@@ -120,7 +123,7 @@
   "weight": 224,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5613,
+  "nationalPokedexNumber": 5552,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

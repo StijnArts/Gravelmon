@@ -91,6 +91,7 @@
   "labels": [
     "mushi",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -101,7 +102,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8445,
+  "nationalPokedexNumber": 8384,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

@@ -164,6 +164,7 @@
       "labels": [
         "gen3",
         "insurgence",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -284,6 +285,7 @@
         "gen3",
         "azure",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -447,6 +449,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -491,6 +494,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "treecko form=epoch",
       "baseScale": 0.36000000000000004,
       "cannotDynamax": false,
       "abilities": [
@@ -620,7 +624,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochgrovyleone.desc"
@@ -632,9 +639,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrovyleone_epochtwosceptile",
+          "id": "epochgrovyleone_sceptile_epoch",
           "variant": "level_up",
-          "result": "epochtwosceptile",
+          "result": "sceptile epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -779,6 +786,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "treecko form=ayreian",
       "baseScale": 0.4394366197183099,
       "cannotDynamax": false,
       "abilities": [
@@ -924,7 +932,10 @@
       ],
       "labels": [
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ayreiangrovyle.desc"

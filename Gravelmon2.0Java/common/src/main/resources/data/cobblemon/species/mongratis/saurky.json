@@ -70,7 +70,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.saurky.desc"
@@ -94,7 +95,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8537,
+  "nationalPokedexNumber": 8476,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

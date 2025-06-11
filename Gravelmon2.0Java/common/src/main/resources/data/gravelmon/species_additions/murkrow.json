@@ -344,7 +344,16 @@
       "eggGroups": [
         "flying"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:astral_stone",
+            "quantityRange": "1-1",
+            "percentage": 10
+          }
+        ]
+      },
       "moves": [
         "46:eeriespell",
         "52:hurricane",
@@ -447,9 +456,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmurkrowone_epochtwohonchkrow",
+          "id": "epochmurkrowone_honchkrow_epoch",
           "variant": "item_interact",
-          "result": "epochtwohonchkrow",
+          "result": "honchkrow epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

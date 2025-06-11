@@ -116,7 +116,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.chillaxo.desc"
@@ -140,7 +141,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4305,
+  "nationalPokedexNumber": 4244,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

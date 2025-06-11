@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "savazard",
   "baseScale": 0.5517241379310345,
   "cannotDynamax": false,
   "abilities": [
@@ -200,7 +201,9 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "starter",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.savazard.desc"
@@ -209,7 +212,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8263,
+  "nationalPokedexNumber": 8202,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.4375,

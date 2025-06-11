@@ -81,7 +81,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.pachicorn.desc"
@@ -90,7 +91,7 @@
   "weight": 2560,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4375,
+  "nationalPokedexNumber": 4314,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

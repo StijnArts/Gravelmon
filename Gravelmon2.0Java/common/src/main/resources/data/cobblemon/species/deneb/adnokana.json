@@ -8,7 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "arbok",
+  "preEvolution": "adnokana",
   "baseScale": 0.8250000000000001,
   "cannotDynamax": false,
   "abilities": [
@@ -145,6 +145,7 @@
   "labels": [
     "deneb",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -154,7 +155,7 @@
   "weight": 1364,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6209,
+  "nationalPokedexNumber": 6148,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

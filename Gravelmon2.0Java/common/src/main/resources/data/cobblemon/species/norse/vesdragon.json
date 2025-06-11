@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Vesdragon",
   "baseScale": 0.12656250000000002,
   "cannotDynamax": false,
   "abilities": [
@@ -117,6 +118,8 @@
   ],
   "labels": [
     "not_modeled",
+    "legendary",
+    "fakemonevolution",
     "norse",
     "instagram",
     "instagram"
@@ -128,7 +131,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3422,
+  "nationalPokedexNumber": 3361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

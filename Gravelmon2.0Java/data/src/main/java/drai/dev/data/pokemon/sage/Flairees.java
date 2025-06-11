@@ -114,13 +114,14 @@ public class Flairees  extends Pokemon {
                 9, List.of(
                         new ItemDrop("minecraft:flint",20, 1,2),
                         new ItemDrop("minecraft:leather",80, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 49, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                1, 0.7,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setBaseScale(1);
         this.setHitbox(1,1.4);

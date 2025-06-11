@@ -120,7 +120,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.mesoth.desc"
@@ -144,7 +145,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7101,
+  "nationalPokedexNumber": 7040,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

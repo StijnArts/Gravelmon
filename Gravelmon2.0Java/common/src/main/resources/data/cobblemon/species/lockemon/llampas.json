@@ -117,7 +117,8 @@
   ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.llampas.desc"
@@ -141,7 +142,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4518,
+  "nationalPokedexNumber": 4457,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

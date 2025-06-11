@@ -163,6 +163,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ponyta form=africanusan",
       "baseScale": 0.49756097560975604,
       "cannotDynamax": false,
       "abilities": [
@@ -239,7 +240,9 @@
       ],
       "labels": [
         "africanus",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.africanusanrapidash.desc"
@@ -408,6 +411,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "ponyta form=epoch",
       "baseScale": 0.6580645161290323,
       "cannotDynamax": false,
       "abilities": [
@@ -523,7 +527,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochrapidashone.desc"

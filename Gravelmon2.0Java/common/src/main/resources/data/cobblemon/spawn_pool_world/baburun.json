@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "2-19",
-      "weight": 12.0,
+      "level": "2-22",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

@@ -137,7 +137,8 @@
     "crozoic",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.kulapack.desc"
@@ -146,7 +147,7 @@
   "weight": 1186,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4306,
+  "nationalPokedexNumber": 4245,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

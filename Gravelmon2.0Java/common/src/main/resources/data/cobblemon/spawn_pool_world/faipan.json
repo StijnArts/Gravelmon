@@ -12,15 +12,15 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "39-56",
-      "weight": 0.8999999999999999,
+      "level": "39-59",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_magical",
           "#cobblemon:is_jungle"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

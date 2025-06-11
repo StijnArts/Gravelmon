@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "moosid",
   "baseScale": 0.5917808219178082,
   "cannotDynamax": false,
   "abilities": [
@@ -112,7 +113,8 @@
   ],
   "labels": [
     "mongratis",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.moosid.desc"
@@ -121,7 +123,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8531,
+  "nationalPokedexNumber": 8470,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5625,

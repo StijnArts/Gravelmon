@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "17-37",
-      "weight": 0.6000000000000001,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
@@ -39,19 +39,14 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "15-39",
-      "weight": 3.0,
+      "level": "15-35",
+      "weight": 1.2,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_cold"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_cold"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

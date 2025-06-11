@@ -76,6 +76,7 @@
   "labels": [
     "bago",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -88,7 +89,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3661,
+  "nationalPokedexNumber": 3600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

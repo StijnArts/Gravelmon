@@ -1,0 +1,170 @@
+{
+  "target": "cobblemon:ayreianmonferno",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "fire",
+      "secondaryType": "poison",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.225,
+      "cannotDynamax": false,
+      "abilities": [
+        "blaze",
+        "moxie"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 64,
+        "attack": 88,
+        "defence": 47,
+        "special_attack": 101,
+        "special_defence": 58,
+        "speed": 47
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "30:firepunch",
+        "62:flareblitz",
+        "1:leer",
+        "38:poisonjab",
+        "23:feint",
+        "27:crosspoison",
+        "44:crunch",
+        "9:taunt",
+        "0:toxic",
+        "15:flamewheel",
+        "53:acrobatics",
+        "48:firelash",
+        "20:machpunch",
+        "7:cometpunch",
+        "12:poisonfang",
+        "58:bulkup",
+        "1:poisonsting",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:brickbreak",
+        "tm:bulkup",
+        "tm:confide",
+        "tm:covet",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:dualchop",
+        "tm:endeavor",
+        "tm:endure",
+        "tm:facade",
+        "tm:fireblast",
+        "tm:firepledge",
+        "tm:firepunch",
+        "tm:flamecharge",
+        "tm:flamethrower",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:gunkshot",
+        "tm:heatwave",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:lowkick",
+        "tm:lowsweep",
+        "tm:overheat",
+        "tm:poisonjab",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:rest",
+        "tm:retaliate",
+        "tm:return",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:roleplay",
+        "tm:round",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:stealthrock",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:swordsdance",
+        "tm:taunt",
+        "tm:thunderpunch",
+        "tm:torment",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:willowisp",
+        "tm:workup"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianmonferno.desc"
+      ],
+      "height": 9,
+      "weight": 220,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

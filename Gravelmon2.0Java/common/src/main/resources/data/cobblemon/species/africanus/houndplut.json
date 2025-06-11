@@ -87,7 +87,8 @@
   ],
   "labels": [
     "africanus",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.houndplut.desc"
@@ -96,7 +97,7 @@
   "weight": 520,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2449,
+  "nationalPokedexNumber": 2389,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

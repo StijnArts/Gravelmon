@@ -72,7 +72,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.ordovice.desc"
@@ -81,7 +82,7 @@
   "weight": 2250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4379,
+  "nationalPokedexNumber": 4318,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.9375,

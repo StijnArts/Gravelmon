@@ -12,19 +12,14 @@
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "19-31",
-      "weight": 0.30000000000000004,
+      "level": "19-39",
+      "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_coast"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_beach"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

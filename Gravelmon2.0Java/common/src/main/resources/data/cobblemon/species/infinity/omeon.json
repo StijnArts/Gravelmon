@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 35,
   "baseFriendship": 70,
+  "preEvolution": "omeon",
   "baseScale": 0.8,
   "cannotDynamax": false,
   "abilities": [
@@ -161,7 +162,9 @@
     "tm:terablast"
   ],
   "labels": [
-    "infinity"
+    "infinity",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.omeon.desc"

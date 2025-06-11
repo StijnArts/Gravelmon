@@ -71,6 +71,7 @@
   "labels": [
     "ivris",
     "not_modeled",
+    "eeveelution",
     "instagram",
     "instagram"
   ],
@@ -81,7 +82,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4846,
+  "nationalPokedexNumber": 4785,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

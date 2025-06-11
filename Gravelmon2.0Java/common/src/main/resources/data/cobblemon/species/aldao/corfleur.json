@@ -75,6 +75,7 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -102,7 +103,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3721,
+  "nationalPokedexNumber": 3660,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.rivulcred.desc"
@@ -86,7 +87,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4044,
+  "nationalPokedexNumber": 3983,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.875,

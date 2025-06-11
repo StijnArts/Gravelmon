@@ -651,9 +651,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochdoduoone_epochtwododrio",
+          "id": "epochdoduoone_dodrio_epoch",
           "variant": "level_up",
-          "result": "epochtwododrio",
+          "result": "dodrio epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

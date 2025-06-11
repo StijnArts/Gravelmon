@@ -7,6 +7,7 @@
   "experienceGroup": "slow",
   "eggCycles": 100,
   "baseFriendship": 70,
+  "preEvolution": "empirilla",
   "baseScale": 0.5772151898734177,
   "cannotDynamax": false,
   "abilities": [
@@ -158,7 +159,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.empirilla.desc"
@@ -167,7 +169,7 @@
   "weight": 883,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2491,
+  "nationalPokedexNumber": 2430,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

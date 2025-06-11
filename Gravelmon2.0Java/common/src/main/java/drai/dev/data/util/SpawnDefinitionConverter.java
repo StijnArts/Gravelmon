@@ -11,14 +11,25 @@ import java.util.regex.*;
 import java.util.stream.*;
 
 public class SpawnDefinitionConverter {
+    public static List<String> convertedClasses = new ArrayList<>();
+
+
     public static void updateSpawnDefinitionInFile(Pokemon pokemon) {
-        if(!pokemon.needsUpdatedSpawnDefinition) return;
         String className = pokemon.getClass().getName(); // e.g. "com.example.pokemon.MyPokemon"
+        if(!pokemon.needsUpdatedSpawnDefinition) {
+            convertedClasses.add(className);
+            return;
+        };
+        if(!convertedClasses.contains(className)) return;
         Path filePath = Path.of("C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\Gravelmon2.0Java\\data\\src\\main\\java", className.replace('.', '/') + ".java");
-        if(!filePath.toString().contains("ayrei")) return;
         try {
             String content = Files.readString(filePath);
             StringBuilder updatedContent = new StringBuilder();
+            if (content.contains("new PokemonSpawnDataBuilder(")) {
+                System.out.println("pokemon has new spawn definition: " + pokemon.getName() + " - skipping conversion");
+                convertedClasses.add(className);
+                return;
+            }
             if (!content.contains("List.of());")) {
                 System.out.println("pokemon has forms and old spawn definition: " + pokemon.getName() + " - skipping conversion");
                 return;
@@ -39,7 +50,8 @@ public class SpawnDefinitionConverter {
             Files.writeString(filePath, updatedContent.toString());
 
             System.out.println("Updated spawn definitions in: " + filePath);
-
+            pokemon.needsUpdatedSpawnDefinition = false;
+            convertedClasses.add(className);
         } catch (IOException e) {
             e.printStackTrace();
         }

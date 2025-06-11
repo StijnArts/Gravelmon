@@ -96,7 +96,8 @@
   ],
   "labels": [
     "realidea_system",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.meadew.desc"

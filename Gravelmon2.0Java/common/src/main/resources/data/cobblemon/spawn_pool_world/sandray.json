@@ -7,24 +7,19 @@
       "id": "sandray-01",
       "pokemon": "sandray",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 7.5,
+      "level": "3-23",
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_coast"
+          "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
-      },
-      "anticondition": {
-        "biomes": [
-          "#cobblemon:is_taiga"
-        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -80,6 +80,7 @@
   "labels": [
     "borazul",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution",
     "instagram",
@@ -92,7 +93,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3885,
+  "nationalPokedexNumber": 3824,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

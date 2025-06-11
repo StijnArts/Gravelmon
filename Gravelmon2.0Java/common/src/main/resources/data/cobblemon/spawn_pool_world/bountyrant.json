@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "seafloor",
-      "bucket": "uncommon",
-      "level": "41-58",
-      "weight": 0.15000000000000002,
+      "bucket": "common",
+      "level": "41-61",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

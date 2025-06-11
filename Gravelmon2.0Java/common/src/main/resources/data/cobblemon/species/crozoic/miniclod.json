@@ -72,7 +72,8 @@
   ],
   "labels": [
     "crozoic",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.miniclod.desc"
@@ -96,7 +97,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 4333,
+  "nationalPokedexNumber": 4272,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

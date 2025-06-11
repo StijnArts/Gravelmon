@@ -81,7 +81,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.auumbull.desc"
@@ -90,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4274,
+  "nationalPokedexNumber": 4213,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

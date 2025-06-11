@@ -138,7 +138,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.epochdreepy.desc"
@@ -278,7 +279,8 @@
       ],
       "labels": [
         "blazing_emerald",
-        "gen8"
+        "gen8",
+        "pseudo_legendary"
       ],
       "pokedex": [
         "cobblemon.species.hoenniandreepy.desc"

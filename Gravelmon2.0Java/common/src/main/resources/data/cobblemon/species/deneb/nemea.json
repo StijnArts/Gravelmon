@@ -101,7 +101,8 @@
   "labels": [
     "deneb",
     "legendary",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.nemea.desc"
@@ -110,7 +111,7 @@
   "weight": 2855,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6151,
+  "nationalPokedexNumber": 6090,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

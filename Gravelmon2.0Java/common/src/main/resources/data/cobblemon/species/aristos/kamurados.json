@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "kamurados",
   "baseScale": 0.2,
   "cannotDynamax": false,
   "abilities": [
@@ -81,7 +82,8 @@
   ],
   "labels": [
     "aristos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kamurados.desc"
@@ -90,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2454,
+  "nationalPokedexNumber": 2393,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

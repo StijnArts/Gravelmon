@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Azagger",
   "baseScale": 0.10781249999999999,
   "cannotDynamax": false,
   "abilities": [
@@ -98,6 +99,7 @@
   ],
   "labels": [
     "not_modeled",
+    "fakemonevolution",
     "trizor",
     "instagram",
     "instagram"
@@ -109,7 +111,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 3614,
+  "nationalPokedexNumber": 3553,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

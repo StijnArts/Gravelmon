@@ -75,7 +75,8 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.elekto.desc"
@@ -99,7 +100,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5776,
+  "nationalPokedexNumber": 5715,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

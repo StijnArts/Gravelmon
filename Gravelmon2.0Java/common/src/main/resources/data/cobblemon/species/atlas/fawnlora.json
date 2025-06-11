@@ -112,7 +112,8 @@
   ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.fawnlora.desc"
@@ -136,7 +137,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 6876,
+  "nationalPokedexNumber": 6815,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

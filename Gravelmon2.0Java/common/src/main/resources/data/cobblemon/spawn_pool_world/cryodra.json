@@ -7,13 +7,13 @@
       "id": "cryodra-01",
       "pokemon": "cryodra",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
-      "level": "44-58",
-      "weight": 0.30000000000000004,
+      "bucket": "uncommon",
+      "level": "44-64",
+      "weight": 0.12,
       "condition": {
         "biomes": [
           "#cobblemon:is_frozen"

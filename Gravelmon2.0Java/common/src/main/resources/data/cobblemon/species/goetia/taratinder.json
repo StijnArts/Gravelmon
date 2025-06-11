@@ -88,7 +88,8 @@
   ],
   "labels": [
     "goetia",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.taratinder.desc"
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7856,
+  "nationalPokedexNumber": 7795,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

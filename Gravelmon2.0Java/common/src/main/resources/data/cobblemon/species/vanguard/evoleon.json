@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "evoleon",
   "baseScale": 0.12151898734177216,
   "cannotDynamax": false,
   "abilities": [
@@ -150,7 +151,9 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.evoleon.desc"
@@ -159,7 +162,7 @@
   "weight": 205,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5495,
+  "nationalPokedexNumber": 5434,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

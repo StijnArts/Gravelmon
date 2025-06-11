@@ -168,7 +168,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.singepent.desc"
@@ -192,7 +193,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8435,
+  "nationalPokedexNumber": 8374,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

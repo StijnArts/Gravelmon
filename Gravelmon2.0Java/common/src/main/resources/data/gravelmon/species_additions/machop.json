@@ -449,9 +449,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochmachopone_epochtwomachoke",
+          "id": "epochmachopone_machoke_epoch",
           "variant": "level_up",
-          "result": "epochtwomachoke",
+          "result": "machoke epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

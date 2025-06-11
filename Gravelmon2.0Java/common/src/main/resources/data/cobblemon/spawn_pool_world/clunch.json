@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "common",
-      "level": "6-28",
-      "weight": 6.0,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
@@ -36,8 +36,8 @@
       "type": "pokemon",
       "context": "fishing",
       "bucket": "common",
-      "level": "6-28",
-      "weight": 6.0,
+      "level": "6-26",
+      "weight": 5.0,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

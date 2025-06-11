@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "alpheon",
   "baseScale": 0.42105263157894735,
   "cannotDynamax": false,
   "abilities": [
@@ -88,7 +89,9 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.alpheon.desc"
@@ -97,7 +100,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4038,
+  "nationalPokedexNumber": 3977,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

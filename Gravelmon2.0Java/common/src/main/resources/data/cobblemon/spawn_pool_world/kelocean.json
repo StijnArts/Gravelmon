@@ -7,13 +7,13 @@
       "id": "kelocean-01",
       "pokemon": "kelocean",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "surface",
       "bucket": "rare",
-      "level": "40-59",
-      "weight": 0.8999999999999999,
+      "level": "40-60",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

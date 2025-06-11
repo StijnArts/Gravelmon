@@ -541,6 +541,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "solosis form=epoch",
       "baseScale": 0.2571428571428571,
       "cannotDynamax": false,
       "abilities": [
@@ -672,7 +673,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochduosionone.desc"
@@ -684,9 +687,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochduosionone_epochtworeuniclus",
+          "id": "epochduosionone_reuniclus_epoch",
           "variant": "level_up",
-          "result": "epochtworeuniclus",
+          "result": "reuniclus epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "23-46",
-      "weight": 3.0,
+      "level": "23-43",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "32-54",
-      "weight": 3.0,
+      "level": "32-52",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -65,9 +65,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "20-53",
-      "weight": 15.0,
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "31-59",
-      "weight": 1.0499999999999998,
+      "level": "31-51",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
@@ -117,15 +117,10 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "20-53",
-      "weight": 15.0,
+      "bucket": "uncommon",
+      "level": "20-40",
+      "weight": 1.2,
       "condition": {
-        "biomes": [
-          "#cobblemon:is_warm_ocean"
-        ]
-      },
-      "anticondition": {
         "biomes": [
           "#cobblemon:is_cold",
           "#cobblemon:is_frozen"
@@ -144,13 +139,13 @@
       "id": "novran_lapras-01",
       "pokemon": "lapras novran",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "29-54",
-      "weight": 6.0,
+      "level": "29-49",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"

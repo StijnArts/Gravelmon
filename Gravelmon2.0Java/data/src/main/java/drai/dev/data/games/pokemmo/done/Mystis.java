@@ -51,7 +51,7 @@ public class Mystis extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Veilily());
         addNewPokemon(new Meowtem());
         addNewPokemon(new Nekomancer());
-        addNewPokemon(new Lichuff()); //renamed from Zombark
+        addNewPokemon(new Zombark());
         addNewPokemon(new Decaynine());
         addNewPokemon(new Raggedoll());
         addNewPokemon(new Contamaggot());

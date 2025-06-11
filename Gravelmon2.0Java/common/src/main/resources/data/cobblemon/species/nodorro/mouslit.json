@@ -107,7 +107,8 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mouslit.desc"
@@ -131,7 +132,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8823,
+  "nationalPokedexNumber": 8762,
   "shoulderMountable": false,
   "hitbox": {
     "width": 0.125,

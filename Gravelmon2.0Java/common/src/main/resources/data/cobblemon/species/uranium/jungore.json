@@ -135,7 +135,8 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.jungore.desc"
@@ -159,7 +160,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2578,
+  "nationalPokedexNumber": 2517,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

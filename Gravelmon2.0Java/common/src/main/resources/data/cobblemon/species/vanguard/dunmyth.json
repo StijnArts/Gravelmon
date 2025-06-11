@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "dunmyth",
   "baseScale": 0.5625,
   "cannotDynamax": false,
   "abilities": [
@@ -167,7 +168,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dunmyth.desc"
@@ -191,7 +193,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5467,
+  "nationalPokedexNumber": 5406,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

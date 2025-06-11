@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "41-48",
-      "weight": 1.5,
+      "level": "41-61",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_savanna"
@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "34-58",
-      "weight": 1.5,
+      "level": "34-54",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_desert"
@@ -65,8 +65,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "31-54",
-      "weight": 1.0499999999999998,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -91,8 +91,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "31-54",
-      "weight": 0.6000000000000001,
+      "level": "31-51",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"

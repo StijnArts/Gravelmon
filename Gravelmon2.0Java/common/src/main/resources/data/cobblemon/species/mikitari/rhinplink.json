@@ -144,7 +144,8 @@
   ],
   "labels": [
     "mikitari",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.rhinplink.desc"
@@ -168,7 +169,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8358,
+  "nationalPokedexNumber": 8297,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.1875,

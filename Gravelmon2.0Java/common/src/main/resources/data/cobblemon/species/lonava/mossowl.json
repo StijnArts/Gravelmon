@@ -78,7 +78,8 @@
   ],
   "labels": [
     "lonava",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.mossowl.desc"
@@ -87,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4513,
+  "nationalPokedexNumber": 4452,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

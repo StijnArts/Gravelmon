@@ -41,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 63,
-    "attack": 33,
-    "defence": 69,
-    "special_attack": 79,
-    "special_defence": 60,
-    "speed": 54
+    "hp": 74,
+    "attack": 39,
+    "defence": 80,
+    "special_attack": 91,
+    "special_defence": 70,
+    "speed": 63
   },
   "evYield": {
     "hp": 0,
@@ -80,6 +80,7 @@
   "labels": [
     "mongratis",
     "not_modeled",
+    "pseudo_legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -105,7 +106,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8679,
+  "nationalPokedexNumber": 8618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

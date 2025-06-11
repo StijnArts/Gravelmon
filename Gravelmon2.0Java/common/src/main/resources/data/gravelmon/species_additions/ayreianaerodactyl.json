@@ -1,0 +1,184 @@
+{
+  "target": "cobblemon:ayreianaerodactyl",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "catchRate": 45,
+      "maleRatio": 0.875,
+      "baseExperienceYield": 60,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.425,
+      "cannotDynamax": false,
+      "abilities": [
+        "roughskin",
+        "chlorophyll"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 115,
+        "defence": 120,
+        "special_attack": 65,
+        "special_defence": 60,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "flying"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "25:roar",
+        "35:bulletseed",
+        "30:crunch",
+        "1:razorleaf",
+        "10:wingattack",
+        "55:doubleedge",
+        "20:acrobatics",
+        "40:takedown",
+        "45:rockslide",
+        "65:headsmash",
+        "5:rockblast",
+        "15:scaryface",
+        "50:woodhammer",
+        "60:bravebird",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:aquatail",
+        "tm:assurance",
+        "tm:attract",
+        "tm:brutalswing",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:crunch",
+        "tm:defog",
+        "tm:doubleteam",
+        "tm:dragonclaw",
+        "tm:dragondance",
+        "tm:dragonpulse",
+        "tm:dualwingbeat",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:facade",
+        "tm:firefang",
+        "tm:fly",
+        "tm:frustration",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:grassyglide",
+        "tm:hiddenpower",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:icefang",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:laserfocus",
+        "tm:leafstorm",
+        "tm:meteorbeam",
+        "tm:payback",
+        "tm:protect",
+        "tm:psychicfangs",
+        "tm:raindance",
+        "tm:reflect",
+        "tm:rest",
+        "tm:return",
+        "tm:roar",
+        "tm:rockblast",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:roost",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:scaryface",
+        "tm:skyattack",
+        "tm:skydrop",
+        "tm:sleeptalk",
+        "tm:smackdown",
+        "tm:snore",
+        "tm:stealthrock",
+        "tm:steelwing",
+        "tm:stoneedge",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:swagger",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:thief",
+        "tm:thunderfang",
+        "tm:torment",
+        "tm:toxic",
+        "egg:curse",
+        "egg:dragonbreath",
+        "egg:roost",
+        "egg:tailwind",
+        "egg:whirlwind",
+        "egg:wideguard"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianaerodactyl.desc"
+      ],
+      "height": 17,
+      "weight": 590,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

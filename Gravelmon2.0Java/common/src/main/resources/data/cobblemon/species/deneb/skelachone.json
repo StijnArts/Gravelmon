@@ -126,6 +126,7 @@
   ],
   "labels": [
     "deneb",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -136,7 +137,7 @@
   "weight": 93,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6163,
+  "nationalPokedexNumber": 6102,
   "shoulderMountable": false,
   "hitbox": {
     "width": 1.0,

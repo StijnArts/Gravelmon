@@ -84,7 +84,8 @@
   ],
   "labels": [
     "orohnhavai",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.petirex.desc"
@@ -108,7 +109,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 3986,
+  "nationalPokedexNumber": 3925,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

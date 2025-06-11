@@ -179,6 +179,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "poltchageist form=epoch",
       "baseScale": 0.14117647058823532,
       "cannotDynamax": false,
       "abilities": [
@@ -232,7 +233,16 @@
         "mineral",
         "amorphous"
       ],
-      "drops": {},
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:solid_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
       "moves": [
         "1:smokescreen",
         "4:acid",
@@ -318,7 +328,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochsinistchaone.desc"

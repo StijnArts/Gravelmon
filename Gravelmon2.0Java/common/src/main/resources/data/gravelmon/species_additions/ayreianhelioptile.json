@@ -1,0 +1,156 @@
+{
+  "target": "cobblemon:ayreianhelioptile",
+  "forms": [
+    {
+      "name": "Nostan",
+      "primaryType": "poison",
+      "secondaryType": "normal",
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.125,
+      "cannotDynamax": false,
+      "abilities": [
+        "dryskin"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 44,
+        "attack": 38,
+        "defence": 33,
+        "special_attack": 70,
+        "special_defence": 71,
+        "speed": 43
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "4:pound",
+        "12:quickattack",
+        "25:venoshock",
+        "8:acidspray",
+        "50:nastyplot",
+        "1:tailwhip",
+        "16:coil",
+        "30:uproar",
+        "45:stockpile",
+        "35:toxic",
+        "20:bulldoze",
+        "40:sludgebomb",
+        "tm:agility",
+        "tm:allyswitch",
+        "tm:attract",
+        "tm:bulldoze",
+        "tm:chargebeam",
+        "tm:confide",
+        "tm:cut",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:dragontail",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:facade",
+        "tm:frustration",
+        "tm:grassknot",
+        "tm:hiddenpower",
+        "tm:irontail",
+        "tm:lightscreen",
+        "tm:lowsweep",
+        "tm:magnetrise",
+        "tm:protect",
+        "tm:psychup",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:risingvoltage",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:scaleshot",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:substitute",
+        "tm:surf",
+        "tm:swagger",
+        "tm:swift",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:uturn",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "egg:glare",
+        "egg:dragonrush",
+        "egg:dragontail"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianhelioptile.desc"
+      ],
+      "height": 5,
+      "weight": 60,
+      "aspects": [
+        "nostan"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostan"
+  ]
+}

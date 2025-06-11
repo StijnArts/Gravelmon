@@ -76,7 +76,8 @@
   ],
   "labels": [
     "lagoone",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.leafin.desc"

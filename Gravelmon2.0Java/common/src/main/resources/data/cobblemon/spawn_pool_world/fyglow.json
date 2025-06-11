@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "7-32",
-      "weight": 3.0,
+      "level": "7-27",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland",

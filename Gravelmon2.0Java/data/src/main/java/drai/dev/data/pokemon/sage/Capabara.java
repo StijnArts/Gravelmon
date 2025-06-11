@@ -104,13 +104,16 @@ public class Capabara extends Pokemon {
                         new ItemDrop("cobblemon:quick_claw",10, 1,1),
                         new ItemDrop("minecraft:wool",45, 1,2),
                         new ItemDrop("minecraft:string",45, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 34, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.5, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

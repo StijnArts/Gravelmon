@@ -81,7 +81,8 @@
     "goetia",
     "not_modeled",
     "fakemon",
-    "fakemonevolution"
+    "fakemonevolution",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.quartzcoatl.desc"
@@ -90,7 +91,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8173,
+  "nationalPokedexNumber": 8112,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

@@ -137,6 +137,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "pseudo_legendary",
         "fakemon",
         "fakemonevolution"
       ],
@@ -272,6 +273,7 @@
       "labels": [
         "blazing_emerald",
         "gen8",
+        "pseudo_legendary",
         "fakemonevolution"
       ],
       "pokedex": [

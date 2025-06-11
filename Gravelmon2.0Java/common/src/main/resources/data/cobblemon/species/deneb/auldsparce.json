@@ -7,7 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dunsparce",
+  "preEvolution": "auldsparce",
   "baseScale": 1.4625,
   "cannotDynamax": false,
   "abilities": [
@@ -144,6 +144,7 @@
   "labels": [
     "vega",
     "not_modeled",
+    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [
@@ -153,7 +154,7 @@
   "weight": 2045,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6245,
+  "nationalPokedexNumber": 6184,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

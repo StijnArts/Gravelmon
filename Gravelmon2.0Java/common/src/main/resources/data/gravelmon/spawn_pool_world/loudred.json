@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-41",
-      "weight": 1.6500000000000001,
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_forest"
@@ -37,8 +37,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "22-45",
-      "weight": 1.7999999999999998,
+      "level": "22-42",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"

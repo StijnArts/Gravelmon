@@ -161,7 +161,8 @@
       "labels": [
         "gen2",
         "infinity",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.eghochikorita.desc"
@@ -329,7 +330,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochchikorita.desc"
@@ -502,7 +504,8 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.epochchikoritaone.desc"
@@ -514,9 +517,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochchikoritaone_epochtwobayleef",
+          "id": "epochchikoritaone_bayleef_epoch",
           "variant": "level_up",
-          "result": "epochtwobayleef",
+          "result": "bayleef epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [
@@ -608,6 +611,7 @@
       "labels": [
         "form",
         "not_modeled",
+        "starter",
         "instagram",
         "instagram"
       ],
@@ -789,7 +793,8 @@
       "labels": [
         "gen2",
         "vanguard",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ayreianchikorita.desc"
@@ -912,7 +917,8 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ionosianchikorita.desc"
@@ -1076,7 +1082,8 @@
       ],
       "labels": [
         "ishiria",
-        "not_modeled"
+        "not_modeled",
+        "starter"
       ],
       "pokedex": [
         "cobblemon.species.ishirianchikorita.desc"

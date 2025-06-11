@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "reavler",
   "baseScale": 0.27042253521126763,
   "cannotDynamax": false,
   "abilities": [
@@ -141,7 +142,8 @@
   ],
   "labels": [
     "norheim",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.reavler.desc"
@@ -150,7 +152,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4248,
+  "nationalPokedexNumber": 4187,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "rare",
-      "level": "35-45",
-      "weight": 0.15000000000000002,
+      "level": "35-55",
+      "weight": 0.05,
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"

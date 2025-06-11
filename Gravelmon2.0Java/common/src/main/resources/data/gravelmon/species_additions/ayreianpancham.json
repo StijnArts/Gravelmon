@@ -1,0 +1,127 @@
+{
+  "target": "cobblemon:ayreianpancham",
+  "forms": [
+    {
+      "name": "Nostantwo",
+      "primaryType": "fire",
+      "catchRate": 128,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.15,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironfist",
+        "blaze"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 67,
+        "attack": 82,
+        "defence": 62,
+        "special_attack": 43,
+        "special_defence": 46,
+        "speed": 48
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field",
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "28:firepunch",
+        "1:tackle",
+        "1:leer",
+        "24:slash",
+        "33:crunch",
+        "8:taunt",
+        "16:pursuit",
+        "44:entrainment",
+        "12:flamewheel",
+        "40:partingshot",
+        "4:ember",
+        "36:bodyslam",
+        "20:workup",
+        "egg:quash",
+        "egg:mefirst",
+        "egg:quickguard",
+        "egg:foulplay",
+        "egg:stormthrow",
+        "egg:powertrip",
+        "egg:seismictoss"
+      ],
+      "labels": [
+        "vanguard",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.ayreianpanchamone.desc"
+      ],
+      "height": 6,
+      "weight": 80,
+      "aspects": [
+        "nostantwo"
+      ],
+      "evolutions": [
+        {
+          "id": "ayreianpanchamone_ayreianpangoro",
+          "variant": "level_up",
+          "result": "ayreianpangoro",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 6.0,
+        "height": 6.0,
+        "fixed": false
+      }
+    }
+  ],
+  "features": [
+    "nostantwo"
+  ]
+}

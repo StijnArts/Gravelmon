@@ -23,7 +23,8 @@ public class Traplat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It burrows itself into the ground, leaving only its sturdy trap visible. When a threat approaches, the trap's retractable spikes will shoot up, providing an effective defense mechanism for Traplat. Its preferred habitats are rocky terrains, desert temples, and ruins. Traplat's red marking, which runs along the length of its body, is a warning sign to potential predators that it is not an easy target. In the wild, Traplat can often be found living in desert ruins or underground caverns, where i"),
-                List.of(),
+                List.of(new EvolutionEntry("trapolem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -70,10 +71,10 @@ public class Traplat extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OLYSOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_DESERT).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.DESERT_PYRAMID).build(),
                 List.of());
            setLangFileName("Traplat");
 

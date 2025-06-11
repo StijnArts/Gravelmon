@@ -7,13 +7,13 @@
       "id": "sharkastle-01",
       "pokemon": "sharkastle",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
       "context": "seafloor",
       "bucket": "uncommon",
-      "level": "35-51",
-      "weight": 1.5,
+      "level": "35-55",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

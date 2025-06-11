@@ -84,6 +84,7 @@
   "labels": [
     "midamis",
     "not_modeled",
+    "starter",
     "fakemon",
     "fakemonevolution"
   ],
@@ -109,7 +110,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5808,
+  "nationalPokedexNumber": 5747,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

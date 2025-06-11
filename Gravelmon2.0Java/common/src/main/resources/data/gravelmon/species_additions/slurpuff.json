@@ -306,6 +306,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "swirlix form=vesitan",
       "baseScale": 0.3490909090909091,
       "cannotDynamax": false,
       "abilities": [
@@ -380,7 +381,9 @@
       ],
       "labels": [
         "chaosinvestia",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.vesitanslurpuff.desc"

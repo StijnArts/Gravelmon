@@ -286,6 +286,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "rookidee form=epoch",
       "baseScale": 0.24615384615384617,
       "cannotDynamax": false,
       "abilities": [
@@ -395,7 +396,9 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochcorvisquireone.desc"
@@ -407,9 +410,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochcorvisquireone_epochtwocorviknight",
+          "id": "epochcorvisquireone_corviknight_epoch",
           "variant": "level_up",
-          "result": "epochtwocorviknight",
+          "result": "corviknight epoch",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

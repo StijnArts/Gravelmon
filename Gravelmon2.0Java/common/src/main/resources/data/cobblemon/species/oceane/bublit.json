@@ -73,7 +73,8 @@
   ],
   "labels": [
     "oceane",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bublit.desc"

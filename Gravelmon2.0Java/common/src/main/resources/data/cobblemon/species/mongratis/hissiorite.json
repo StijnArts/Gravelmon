@@ -88,7 +88,8 @@
   ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.hissiorite.desc"
@@ -112,7 +113,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8483,
+  "nationalPokedexNumber": 8422,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

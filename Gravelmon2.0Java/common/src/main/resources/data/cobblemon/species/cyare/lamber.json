@@ -114,7 +114,8 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.lamber.desc"
@@ -138,7 +139,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7294,
+  "nationalPokedexNumber": 7233,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,

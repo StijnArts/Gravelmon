@@ -187,6 +187,7 @@
       "labels": [
         "gen2",
         "infinity",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -356,6 +357,7 @@
       "labels": [
         "soulstones",
         "not_modeled",
+        "starter",
         "fakemon",
         "fakemonevolution"
       ],
@@ -385,6 +387,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "croconaw form=epoch",
       "baseScale": 0.736,
       "cannotDynamax": false,
       "abilities": [
@@ -512,7 +515,10 @@
       ],
       "labels": [
         "soulstones",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.epochferaligatrone.desc"
@@ -683,6 +689,7 @@
         "gen2",
         "vanguard",
         "not_modeled",
+        "starter",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -711,6 +718,7 @@
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
+      "preEvolution": "croconaw form=ionosian",
       "baseScale": 0.5468354430379747,
       "cannotDynamax": false,
       "abilities": [
@@ -787,7 +795,10 @@
       ],
       "labels": [
         "ionos",
-        "not_modeled"
+        "not_modeled",
+        "starter",
+        "fakemon",
+        "fakemonevolution"
       ],
       "pokedex": [
         "cobblemon.species.ionosianferaligatr.desc"

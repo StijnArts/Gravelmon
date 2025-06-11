@@ -88,7 +88,8 @@
   ],
   "labels": [
     "mastenia",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.turteller.desc"
@@ -97,7 +98,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8352,
+  "nationalPokedexNumber": 8291,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

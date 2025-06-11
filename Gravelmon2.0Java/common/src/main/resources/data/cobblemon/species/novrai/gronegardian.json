@@ -152,7 +152,8 @@
   ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "ultra_beast"
   ],
   "pokedex": [
     "cobblemon.species.gronegardian.desc"
@@ -161,7 +162,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6864,
+  "nationalPokedexNumber": 6803,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

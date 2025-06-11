@@ -124,7 +124,8 @@
   ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "pseudo_legendary"
   ],
   "pokedex": [
     "cobblemon.species.carbite.desc"

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-48",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_bamboo"
@@ -39,8 +39,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "36-47",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
@@ -68,7 +68,7 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "36-53",
-      "weight": 0.6000000000000001,
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -120,8 +120,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "ultra-rare",
-      "level": "32-45",
-      "weight": 0.30000000000000004,
+      "level": "36-53",
+      "weight": 0.4,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
