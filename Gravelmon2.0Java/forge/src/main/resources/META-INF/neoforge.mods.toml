@@ -44,7 +44,7 @@ side="BOTH"
 [[dependencies.gravelmon]]
 modId = "mega_showdown"
 mandatory = false
-versionRange = "[9.6.3,)"
+versionRange = "[9.7.3,)"
 ordering = "AFTER"
 side = "BOTH"
 [[mixins]]

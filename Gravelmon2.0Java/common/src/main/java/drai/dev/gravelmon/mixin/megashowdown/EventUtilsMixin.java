@@ -18,12 +18,11 @@ public class EventUtilsMixin {
             remap = false,
             cancellable = true
     )
-    private static void afterGetPokemon(Pokemon pokemon, boolean joinedEvent, CallbackInfo ci) {
-        if(joinedEvent) return;
-        if(!(pokemon.getAspects().stream().anyMatch(aspect->aspect.equalsIgnoreCase("mega")
+    private static void afterGetPokemon(Pokemon pokemon, CallbackInfo ci) {
+        if(pokemon.getAspects().stream().noneMatch(aspect->aspect.equalsIgnoreCase("mega")
                 ||aspect.toLowerCase().contains("mega_")
-                ||aspect.toLowerCase().contains("_mega")))) return;
-        if(ShowdownConfig.revertMegas.get() && !ShowdownConfig.multipleMegas.get()) {
+                ||aspect.toLowerCase().contains("_mega"))) return;
+        if(MegaShowdownConfig.revertMegas.get() && !MegaShowdownConfig.multipleMegas.get()) {
             MegaLogic.Devolve(pokemon, true);
         } else {
             new StringSpeciesFeature("mega_evolution", "none").apply(pokemon);

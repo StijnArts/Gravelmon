@@ -35,7 +35,7 @@
   },
   "recommends": {
     "packetfixer": ">=1.1",
-    "mega_showdown": ">=9.6.3"
+    "mega_showdown": ">=9.7.3"
   },
   "mixins": [
     "gravelmon.mixins.json"

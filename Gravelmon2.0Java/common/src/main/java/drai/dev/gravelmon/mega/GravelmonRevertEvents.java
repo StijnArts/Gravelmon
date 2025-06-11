@@ -33,7 +33,7 @@ public class GravelmonRevertEvents {
         battleFledEvent.getBattle().getPlayers().forEach(serverPlayer -> {
             PlayerPartyStore playerPartyStore = Cobblemon.INSTANCE.getStorage().getParty(serverPlayer);
             for (Pokemon pokemon: playerPartyStore){
-                EventUtils.revertFormesEnd(pokemon, false);
+                EventUtils.revertFormesEnd(pokemon);
 
                 if(pokemon.getEntity() != null){
                     pokemon.getEntity().removeEffect(MobEffects.GLOWING);
