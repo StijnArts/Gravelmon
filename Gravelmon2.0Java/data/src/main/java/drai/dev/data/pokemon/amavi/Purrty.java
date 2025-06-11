@@ -48,7 +48,6 @@ public class Purrty extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Purrty");
 

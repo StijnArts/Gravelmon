@@ -54,7 +54,6 @@ public class DeepWishiwashi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.MAXY, "30")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
                 List.of(new PokemonForm("School", true,
                         Type.GHOST, Type.DRAGON,
                         new Stats(45, 130, 140, 135, 140, 30),
@@ -76,8 +75,7 @@ public class DeepWishiwashi extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.MAXY, "30")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL),
-                        1.4, 0.3)));
+                        List.of(SpawnPreset.NATURAL))));
         this.setLangFileName("Wishiwashi");
         this.setCanSwim(true);
         this.setAvoidsLand(true);

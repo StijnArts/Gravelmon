@@ -77,7 +77,8 @@
   ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fossil"
   ],
   "pokedex": [
     "cobblemon.species.lasaur.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 2435,
+  "nationalPokedexNumber": 2472,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -2,6 +2,136 @@
   "target": "cobblemon:milcery",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "fairy",
+      "secondaryType": "poison",
+      "catchRate": 200,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 54,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32000000000000006,
+      "cannotDynamax": false,
+      "abilities": [
+        "stench",
+        "h:gooey"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 40,
+        "defence": 40,
+        "special_attack": 50,
+        "special_defence": 61,
+        "speed": 34
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy",
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:aromaticmist",
+        "5:sweetkiss",
+        "10:sweetscent",
+        "15:drainingkiss",
+        "20:aromatherapy",
+        "25:attract",
+        "30:acidarmor",
+        "35:dazzlinggleam",
+        "40:recover",
+        "45:mistyterrain",
+        "50:entrainment",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:charm",
+        "tm:attract",
+        "tm:facade",
+        "tm:helpinghand",
+        "tm:fling",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:mistyterrain",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:storedpower",
+        "tm:dazzlinggleam",
+        "tm:babydolleyes",
+        "tm:lastresort",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmilcery.desc"
+      ],
+      "height": 2,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianmilcery_alcremie_varitasian",
+          "variant": "level_up",
+          "result": "alcremie varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "29"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 1.875,
+        "height": 1.875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "poison",
       "secondaryType": "rock",
@@ -303,6 +433,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "epoch",
     "fabelian"
   ],

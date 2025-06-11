@@ -384,6 +384,20 @@
       "permanent": true
     },
     {
+      "id": "delibird_jollibird",
+      "variant": "level_up",
+      "result": "jollibird",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "38"
+        }
+      ],
+      "permanent": true
+    },
+    {
       "id": "delibird_blizentork",
       "variant": "level_up",
       "result": "blizentork",

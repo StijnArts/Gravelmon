@@ -29,6 +29,33 @@
       }
     },
     {
+      "id": "varitasian_mantyke-01",
+      "pokemon": "mantyke varitasian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "4-24",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_mantyke-01",
       "pokemon": "mantyke epoch",
       "presets": [

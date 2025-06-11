@@ -88,7 +88,7 @@ public class Raptorch extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
+
                 List.of());
     }
 }

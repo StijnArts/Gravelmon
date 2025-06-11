@@ -95,7 +95,6 @@ public class Fleumingo extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
     }

@@ -79,7 +79,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.cubtus.desc"
@@ -103,7 +104,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8894,
+  "nationalPokedexNumber": 8934,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

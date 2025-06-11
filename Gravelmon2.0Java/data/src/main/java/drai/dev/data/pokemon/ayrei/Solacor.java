@@ -114,7 +114,6 @@ public class Solacor extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.REEF),
-                0.28, 0.3,
                 List.of());
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

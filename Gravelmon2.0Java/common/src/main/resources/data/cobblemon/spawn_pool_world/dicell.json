@@ -13,7 +13,7 @@
       "context": "submerged",
       "bucket": "common",
       "level": "7-32",
-      "weight": 21.0,
+      "weight": 18.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"

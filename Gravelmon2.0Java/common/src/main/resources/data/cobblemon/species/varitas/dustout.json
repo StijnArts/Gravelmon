@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "Dustout",
   "baseScale": 0.5629629629629629,
   "cannotDynamax": false,
   "abilities": [
@@ -163,7 +164,8 @@
   ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dustout.desc"
@@ -172,7 +174,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2416,
+  "nationalPokedexNumber": 2442,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

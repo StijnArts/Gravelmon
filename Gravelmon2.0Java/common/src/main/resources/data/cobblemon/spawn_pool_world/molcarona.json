@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "50-68",
-      "weight": 0.30000000000000004,
+      "weight": 0.26,
       "condition": {
         "biomes": [
           "#cobblemon:is_sky",

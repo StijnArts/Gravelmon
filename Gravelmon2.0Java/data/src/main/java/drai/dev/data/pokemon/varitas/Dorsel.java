@@ -52,7 +52,6 @@ public class Dorsel extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

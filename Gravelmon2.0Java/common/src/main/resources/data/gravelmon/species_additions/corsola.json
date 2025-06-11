@@ -289,6 +289,20 @@
   ],
   "evolutions": [
     {
+      "id": "corsola_coreef",
+      "variant": "level_up",
+      "result": "Coreef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "38"
+        }
+      ],
+      "permanent": true
+    },
+    {
       "id": "corsola_corsoreef",
       "variant": "level_up",
       "result": "corsoreef",

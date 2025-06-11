@@ -749,25 +749,5 @@
     "forman",
     "hoennian",
     "ayreian"
-  ],
-  "evolutions": [
-    {
-      "id": "venonat_venomoth_cefiran",
-      "variant": "level_up",
-      "result": "venomoth cefiran",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": "35"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_spooky"
-        }
-      ],
-      "permanent": true
-    }
   ]
 }

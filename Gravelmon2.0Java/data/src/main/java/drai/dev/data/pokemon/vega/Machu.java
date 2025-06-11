@@ -104,7 +104,6 @@ public class Machu extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.43, 0.3,
                 List.of());
 
         this.setBaseScale(1);

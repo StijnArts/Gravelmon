@@ -44,7 +44,6 @@ public class AFleezer extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
                 List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);

@@ -621,6 +621,20 @@
       "permanent": true
     },
     {
+      "id": "dunsparce_dustout",
+      "variant": "level_up",
+      "result": "Dustout",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dig"
+        }
+      ],
+      "permanent": true
+    },
+    {
       "id": "dunsparce_dunseraph",
       "variant": "level_up",
       "result": "dunseraph",
@@ -686,20 +700,6 @@
         {
           "variant": "level",
           "minLevel": "39"
-        }
-      ],
-      "permanent": true
-    },
-    {
-      "id": "dunsparce_dustout",
-      "variant": "level_up",
-      "result": "Dustout",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "dig"
         }
       ],
       "permanent": true

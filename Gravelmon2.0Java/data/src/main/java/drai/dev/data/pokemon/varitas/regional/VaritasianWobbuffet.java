@@ -47,7 +47,6 @@ public class VaritasianWobbuffet extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Wobbuffet");
         addAdditionalEvolution("wynaut", new EvolutionEntry("wobbuffet varitasian", EvolutionType.LEVEL_UP, List.of(),

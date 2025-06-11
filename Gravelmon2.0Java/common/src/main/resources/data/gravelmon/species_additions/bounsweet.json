@@ -2,6 +2,166 @@
   "target": "cobblemon:bounsweet",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "ghost",
+      "secondaryType": "bug",
+      "catchRate": 235,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 42,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.2594594594594595,
+      "cannotDynamax": false,
+      "abilities": [
+        "unnerve",
+        "h:poisonheal"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 42,
+        "attack": 30,
+        "defence": 38,
+        "special_attack": 30,
+        "special_defence": 38,
+        "speed": 32
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:splash",
+        "5:playnice",
+        "9:rapidspin",
+        "13:razorleaf",
+        "17:sweetscent",
+        "21:magicalleaf",
+        "25:teeterdance",
+        "29:flail",
+        "33:aromaticmist",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:helpinghand",
+        "tm:endeavor",
+        "tm:bounce",
+        "tm:covet",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:zenheadbutt",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:round",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:bulletseed",
+        "tm:charm",
+        "tm:drainingkiss",
+        "tm:endure",
+        "tm:grassyglide",
+        "tm:grassyterrain",
+        "tm:leafstorm",
+        "tm:magicalleaf",
+        "tm:playrough",
+        "tm:swift",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:charm",
+        "tm:grasswhistle",
+        "tm:feint",
+        "tm:acupressure",
+        "tm:playrough",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianbounsweet.desc"
+      ],
+      "height": 3,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianbounsweet_steenee_varitasian",
+          "variant": "level_up",
+          "result": "steenee varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "18"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.3125,
+        "height": 2.3125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "light",
       "secondaryType": "dark",
@@ -473,6 +633,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "epoch",
     "epochtwo",
     "ferranian"

@@ -119,7 +119,6 @@ public class NovranPyukumuku extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Pyukumuku");
         this.setCanBreathUnderwater(true);

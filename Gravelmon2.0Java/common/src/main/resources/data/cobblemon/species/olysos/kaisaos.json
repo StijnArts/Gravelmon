@@ -78,7 +78,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.kaisaos.desc"
@@ -87,7 +88,7 @@
   "weight": 8940,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8938,
+  "nationalPokedexNumber": 9030,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.75,

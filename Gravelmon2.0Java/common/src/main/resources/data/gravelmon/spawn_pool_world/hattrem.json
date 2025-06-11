@@ -32,6 +32,33 @@
       }
     },
     {
+      "id": "varitasian_hattrem-01",
+      "pokemon": "hattrem varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_hattrem-01",
       "pokemon": "hattrem epoch",
       "presets": [

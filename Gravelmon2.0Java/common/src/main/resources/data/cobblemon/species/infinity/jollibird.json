@@ -8,7 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 39,
   "baseFriendship": 70,
-  "preEvolution": "jollibird",
+  "preEvolution": "delibird",
   "baseScale": 0.2434782608695652,
   "cannotDynamax": false,
   "abilities": [
@@ -61,16 +61,7 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": 1,
-    "entries": [
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
-  },
+  "drops": {},
   "moves": [
     "1:dazzlinggleam",
     "1:present",
@@ -161,13 +152,11 @@
     "egg:icywind",
     "egg:quickattack",
     "egg:rapidspin",
-    "egg:splash",
-    "tm:terablast"
+    "egg:splash"
   ],
   "labels": [
     "infinity",
     "not_modeled",
-    "fakemonevolution",
     "fakemonevolution"
   ],
   "pokedex": [

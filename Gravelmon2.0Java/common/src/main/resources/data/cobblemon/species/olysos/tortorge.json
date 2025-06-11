@@ -8,6 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "tortorge",
   "baseScale": 0.5419354838709678,
   "cannotDynamax": false,
   "abilities": [
@@ -119,7 +120,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tortorge.desc"
@@ -128,7 +130,7 @@
   "weight": 3402,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8924,
+  "nationalPokedexNumber": 8998,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.8125,

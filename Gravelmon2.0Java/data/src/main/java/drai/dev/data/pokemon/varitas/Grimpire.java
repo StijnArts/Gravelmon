@@ -95,7 +95,6 @@ public class Grimpire extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.MANSION),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Grimpire");
 setCanFly(true);

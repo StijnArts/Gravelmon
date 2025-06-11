@@ -2,6 +2,191 @@
   "target": "cobblemon:sudowoodo",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "catchRate": 65,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 144,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "mimejr form=varitasian",
+      "baseScale": 0.05242718446601942,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "rockhead",
+        "h:rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 100,
+        "defence": 115,
+        "special_attack": 30,
+        "special_defence": 65,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:woodhammer",
+        "5:flail",
+        "8:lowkick",
+        "12:rockthrow",
+        "15:mimic",
+        "19:feintattack",
+        "22:tearfullook",
+        "26:rocktomb",
+        "29:block",
+        "33:rockslide",
+        "36:counter",
+        "40:suckerpunch",
+        "43:doubleedge",
+        "47:stoneedge",
+        "50:hammerarm",
+        "54:headsmash",
+        "tm:firepunch",
+        "tm:icepunch",
+        "tm:thunderpunch",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:focuspunch",
+        "tm:helpinghand",
+        "tm:roleplay",
+        "tm:block",
+        "tm:covet",
+        "tm:earthpower",
+        "tm:stealthrock",
+        "tm:foulplay",
+        "tm:afteryou",
+        "tm:stompingtantrum",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:explosion",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:torment",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:taunt",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:calmmind",
+        "tm:fling",
+        "tm:rockpolish",
+        "tm:stoneedge",
+        "tm:smackdown",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:selfdestruct",
+        "tm:takedown",
+        "tm:submission",
+        "tm:fissure",
+        "tm:skullbash",
+        "tm:headbutt",
+        "tm:harden",
+        "tm:defensecurl",
+        "tm:selfdestruct",
+        "tm:curse",
+        "tm:endure",
+        "tm:rollout",
+        "tm:sandtomb",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasiansudowoodo.desc"
+      ],
+      "height": 9,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasiansudowoodo_sudoferno",
+          "variant": "item_interact",
+          "result": "sudoferno",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:fire_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 25.75,
+        "height": 25.75,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "grass",
@@ -650,6 +835,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "epoch",
     "amazeall",
     "novran",

@@ -77,7 +77,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.sharkin.desc"
@@ -101,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8900,
+  "nationalPokedexNumber": 8940,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "kirinirik",
   "baseScale": 0.5302325581395348,
   "cannotDynamax": false,
   "abilities": [
@@ -42,12 +43,12 @@
     }
   },
   "baseStats": {
-    "hp": 92,
-    "attack": 97,
-    "defence": 83,
-    "special_attack": 97,
-    "special_defence": 83,
-    "speed": 96
+    "hp": 87,
+    "attack": 91,
+    "defence": 78,
+    "special_attack": 91,
+    "special_defence": 78,
+    "speed": 91
   },
   "evYield": {
     "hp": 0,
@@ -81,7 +82,8 @@
   ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kirinirik.desc"
@@ -90,7 +92,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 2417,
+  "nationalPokedexNumber": 2443,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.375,

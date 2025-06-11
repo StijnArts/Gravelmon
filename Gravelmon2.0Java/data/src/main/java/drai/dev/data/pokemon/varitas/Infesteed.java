@@ -83,7 +83,6 @@ public class Infesteed extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Infesteed");
 

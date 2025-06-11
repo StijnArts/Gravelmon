@@ -1,0 +1,72 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.substitute",
+        "texture_width": 1357,
+        "texture_height": 1440,
+        "visible_bounds_width": 127.21875,
+        "visible_bounds_height": 154.6875,
+        "visible_bounds_offset": [
+          0,
+          23.90625,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "substitute",
+          "pivot": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "body",
+          "parent": "substitute",
+          "pivot": [
+            0,
+            0,
+            0
+          ],
+          "cubes": [
+            {
+              "origin": [
+                -678,
+                -1,
+                0
+              ],
+              "size": [
+                1357,
+                1440,
+                0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            },
+            {
+              "origin": [
+                -678,
+                -1,
+                0
+              ],
+              "size": [
+                1357,
+                1440,
+                0
+              ],
+              "uv": [
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

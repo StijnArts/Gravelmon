@@ -102,7 +102,6 @@ public class VaritasianSteenee extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Steenee");
 

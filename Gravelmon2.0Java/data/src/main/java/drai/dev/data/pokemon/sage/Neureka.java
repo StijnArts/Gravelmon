@@ -103,7 +103,7 @@ public class Neureka extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
-                0.3, 0.5,
+
                 List.of());
 
     }

@@ -2,6 +2,195 @@
   "target": "cobblemon:onix",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "rock",
+      "secondaryType": "psychic",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 77,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 1.1294117647058826,
+      "cannotDynamax": false,
+      "abilities": [
+        "levitate",
+        "sturdy",
+        "h:weakarmor"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 35,
+        "attack": 45,
+        "defence": 160,
+        "special_attack": 30,
+        "special_defence": 45,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "mineral"
+      ],
+      "drops": {},
+      "moves": [
+        "1:mudsport",
+        "4:curse",
+        "7:rockthrow",
+        "10:rocktomb",
+        "13:rage",
+        "16:stealthrock",
+        "19:rockpolish",
+        "20:gyroball",
+        "22:smackdown",
+        "25:dragonbreath",
+        "28:slam",
+        "31:screech",
+        "34:rockslide",
+        "37:sandtomb",
+        "40:irontail",
+        "43:dig",
+        "46:stoneedge",
+        "49:doubleedge",
+        "52:sandstorm",
+        "tm:bind",
+        "tm:snore",
+        "tm:irontail",
+        "tm:block",
+        "tm:dragondance",
+        "tm:earthpower",
+        "tm:ironhead",
+        "tm:stealthrock",
+        "tm:stompingtantrum",
+        "tm:roar",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:explosion",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:torment",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:taunt",
+        "tm:rocktomb",
+        "tm:gyroball",
+        "tm:payback",
+        "tm:rockpolish",
+        "tm:flashcannon",
+        "tm:stoneedge",
+        "tm:smackdown",
+        "tm:round",
+        "tm:bulldoze",
+        "tm:dragontail",
+        "tm:confide",
+        "tm:brutalswing",
+        "tm:toxic",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:earthquake",
+        "tm:fissure",
+        "tm:dig",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:selfdestruct",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:explosion",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:strength",
+        "tm:stealthrock",
+        "tm:block",
+        "tm:defensecurl",
+        "tm:dragontail",
+        "tm:flail",
+        "tm:rollout",
+        "tm:rockblast",
+        "tm:headsmash",
+        "tm:rockclimb",
+        "tm:wideguard",
+        "tm:heavyslam",
+        "tm:rototiller",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianonix.desc"
+      ],
+      "height": 32,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianonix_galactix",
+          "variant": "item_interact",
+          "result": "galactix",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.25,
+        "height": 4.25,
+        "fixed": false
+      }
+    },
+    {
       "name": "Trizoran",
       "primaryType": "rock",
       "secondaryType": "grass",
@@ -1170,6 +1359,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "trizoran",
     "epoch",
     "epochtwo",

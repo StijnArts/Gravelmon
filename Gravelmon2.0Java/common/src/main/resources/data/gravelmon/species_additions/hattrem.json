@@ -118,6 +118,148 @@
       }
     },
     {
+      "name": "Varitasian",
+      "primaryType": "psychic",
+      "secondaryType": "ground",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 130,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "hatenna form=varitasian",
+      "baseScale": 0.05656565656565657,
+      "cannotDynamax": false,
+      "abilities": [
+        "healer",
+        "anticipation",
+        "h:magicbounce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 57,
+        "attack": 40,
+        "defence": 65,
+        "special_attack": 86,
+        "special_defence": 73,
+        "speed": 49
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:disarmingvoice",
+        "15:aromatherapy",
+        "20:psybeam",
+        "25:healpulse",
+        "30:dazzlinggleam",
+        "37:calmmind",
+        "44:psychic",
+        "51:healingwish",
+        "tm:expandingforce",
+        "tm:magicalleaf",
+        "tm:thunderwave",
+        "tm:lightscreen",
+        "tm:safeguard",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:gigadrain",
+        "tm:charm",
+        "tm:attract",
+        "tm:facade",
+        "tm:helpinghand",
+        "tm:imprison",
+        "tm:round",
+        "tm:drainingkiss",
+        "tm:mysticalfire",
+        "tm:brutalswing",
+        "tm:psychic",
+        "tm:substitute",
+        "tm:psyshock",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:batonpass",
+        "tm:skillswap",
+        "tm:calmmind",
+        "tm:darkpulse",
+        "tm:storedpower",
+        "tm:playrough",
+        "tm:dazzlinggleam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianhattrem.desc"
+      ],
+      "height": 7,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianhattrem_hatterage",
+          "variant": "level_up",
+          "result": "hatterage",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "42"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 18.5625,
+        "height": 18.5625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "psychic",
       "secondaryType": "ghost",
@@ -825,6 +967,7 @@
   ],
   "features": [
     "lagoonan",
+    "varitasian",
     "epoch",
     "ayreian",
     "novran",

@@ -423,6 +423,6 @@ public abstract class WorldRepresentablePokemon {
     }
 
     public String getTexturePath() {
-        return textureDirectory.getAbsolutePath()+"\\" + getTextureName() + ".png";
+        return textureDirectory.getAbsolutePath()+ ".png";
     }
 }

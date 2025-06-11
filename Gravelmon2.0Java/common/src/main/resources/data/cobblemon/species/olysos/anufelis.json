@@ -85,6 +85,7 @@
   "labels": [
     "olysos",
     "not_modeled",
+    "legendary",
     "fakemon",
     "fakemonevolution"
   ],
@@ -95,7 +96,7 @@
   "weight": 2141,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8937,
+  "nationalPokedexNumber": 9029,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

@@ -118,6 +118,137 @@
       }
     },
     {
+      "name": "Varitasian",
+      "primaryType": "steel",
+      "secondaryType": "electric",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "slugma form=varitasian",
+      "baseScale": 0.42857142857142855,
+      "cannotDynamax": false,
+      "abilities": [
+        "lightningrod",
+        "magnetpull",
+        "h:static"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defence": 110,
+        "special_attack": 80,
+        "special_defence": 85,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "amorphous"
+      ],
+      "drops": {},
+      "moves": [
+        "1:metalclaw",
+        "1:thundershock",
+        "1:irondefense",
+        "1:bulkup",
+        "1:healbell",
+        "1:healbell",
+        "1:screech",
+        "1:leer",
+        "1:bulkup",
+        "1:calmmind",
+        "1:wish",
+        "1:wish",
+        "4:irontail",
+        "4:charge",
+        "4:calmmind",
+        "4:taunt",
+        "7:smartstrike",
+        "7:shockwave",
+        "7:taunt",
+        "7:substitute",
+        "10:mirrorshot",
+        "10:discharge",
+        "10:substitute",
+        "10:rest",
+        "13:flashcannon",
+        "13:thunderbolt",
+        "13:rest",
+        "16:steelbeam",
+        "16:thunder",
+        "19:metalclaw",
+        "19:thundershock",
+        "22:screech",
+        "22:leer",
+        "25:irontail",
+        "25:charge",
+        "28:smartstrike",
+        "28:thunderpunch",
+        "31:ironhead",
+        "31:discharge",
+        "34:meteormash",
+        "34:wildcharge",
+        "39:supercellslam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmagcargo.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.5,
+        "height": 3.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "poison",
       "secondaryType": "steel",
@@ -457,6 +588,7 @@
   ],
   "features": [
     "cefiran",
+    "varitasian",
     "epoch",
     "epochtwo",
     "mega"

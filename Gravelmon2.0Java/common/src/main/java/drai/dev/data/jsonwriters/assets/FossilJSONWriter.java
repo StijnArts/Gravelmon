@@ -103,7 +103,7 @@ public class FossilJSONWriter {
             variation.add("model", new JsonPrimitive("cobblemon:"+pokemon.getPlaceholderModelName(false)));
             var path = pokemon.getTexturePath();
             var file = new File(path);
-            if(!file.exists()) {
+            if(file.exists()) {
                 String textureDir = resourcesDir + "\\assets\\cobblemon\\textures\\fossils\\";
                 File targetFile = new File(textureDir, file.getName());
 

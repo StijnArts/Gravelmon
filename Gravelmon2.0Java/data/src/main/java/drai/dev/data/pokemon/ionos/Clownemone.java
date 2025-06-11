@@ -32,7 +32,6 @@ public class Clownemone extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
-                0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 1.05,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -165,12 +165,23 @@
       "pokedex": [
         "cobblemon.species.varitasianonix.desc"
       ],
-      "height": 42,
+      "height": 32,
       "weight": 165,
       "aspects": [
         "nostan"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "varitasianonix_galactix",
+          "variant": "item_interact",
+          "result": "galactix",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 6.0,

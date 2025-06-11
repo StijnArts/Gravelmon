@@ -97,7 +97,6 @@ public class Toxito extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.WATER_SURFACE),
-                0.3, 0.3,
                 List.of());
         this.setCanFly(true);
 

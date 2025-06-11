@@ -146,6 +146,174 @@
       }
     },
     {
+      "name": "Varitasian",
+      "primaryType": "water",
+      "secondaryType": "ground",
+      "catchRate": 25,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 163,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "mantyke form=varitasian",
+      "baseScale": 0.10181818181818182,
+      "cannotDynamax": false,
+      "abilities": [
+        "swiftswim",
+        "sandrush",
+        "h:sandveil"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 85,
+        "attack": 40,
+        "defence": 70,
+        "special_attack": 80,
+        "special_defence": 140,
+        "speed": 70
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1"
+      ],
+      "drops": {},
+      "moves": [
+        "1:roost",
+        "3:supersonic",
+        "7:bubblebeam",
+        "11:confuseray",
+        "14:wingattack",
+        "16:headbutt",
+        "19:waterpulse",
+        "23:wideguard",
+        "27:takedown",
+        "32:agility",
+        "36:airslash",
+        "39:aquaring",
+        "46:bounce",
+        "49:hydropump",
+        "tm:snore",
+        "tm:icywind",
+        "tm:helpinghand",
+        "tm:signalbeam",
+        "tm:bounce",
+        "tm:waterpulse",
+        "tm:tailwind",
+        "tm:aquatail",
+        "tm:seedbomb",
+        "tm:defog",
+        "tm:gunkshot",
+        "tm:ironhead",
+        "tm:liquidation",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:waterfall",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:snowscape",
+        "tm:facade",
+        "tm:rocktomb",
+        "tm:aerialace",
+        "tm:roost",
+        "tm:gigaimpact",
+        "tm:round",
+        "tm:scald",
+        "tm:acrobatics",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:mimic",
+        "tm:bide",
+        "tm:swift",
+        "tm:razorwind",
+        "tm:whirlwind",
+        "tm:takedown",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:airslash",
+        "tm:slam",
+        "tm:hydropump",
+        "tm:haze",
+        "tm:amnesia",
+        "tm:splash",
+        "tm:twister",
+        "tm:mirrorcoat",
+        "tm:mudsport",
+        "tm:watersport",
+        "tm:wideguard",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianmantine.desc"
+      ],
+      "height": 21,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 30.9375,
+        "height": 30.9375,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "water",
       "secondaryType": "electric",
@@ -609,6 +777,7 @@
   ],
   "features": [
     "seviian",
+    "varitasian",
     "epoch",
     "ayreian",
     "mahalian"

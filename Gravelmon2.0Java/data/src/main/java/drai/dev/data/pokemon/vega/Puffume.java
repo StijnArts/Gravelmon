@@ -97,7 +97,6 @@ public class Puffume extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.MANSION),
-                0.4, 0.3,
                 List.of());
         setCanFly(true);
     }

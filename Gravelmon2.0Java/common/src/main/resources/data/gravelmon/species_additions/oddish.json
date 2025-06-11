@@ -177,6 +177,119 @@
       }
     },
     {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.5714285714285714,
+      "cannotDynamax": false,
+      "abilities": [
+        "ironbarbs",
+        "h:waterabsorb"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:leer",
+        "4:megadrain",
+        "7:magicalleaf",
+        "10:gigadrain",
+        "13:energyball",
+        "16:solarbeam",
+        "19:leafage",
+        "22:leer",
+        "25:absorb",
+        "28:trailblaze",
+        "31:gigadrain",
+        "34:seedbomb",
+        "39:leafblade",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianoddish.desc"
+      ],
+      "height": 10,
+      "weight": 0,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianoddish_gloom_varitasian",
+          "variant": "level_up",
+          "result": "gloom varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "21"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.625,
+        "height": 2.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "grass",
       "secondaryType": "cosmic",
@@ -597,6 +710,7 @@
   ],
   "features": [
     "egho",
+    "varitasian",
     "epoch",
     "forman",
     "fabelian"

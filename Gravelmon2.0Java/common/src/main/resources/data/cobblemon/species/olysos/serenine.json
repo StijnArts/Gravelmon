@@ -8,11 +8,12 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "lichuff",
+  "preEvolution": "zombark form=olysosian",
   "baseScale": 0.5599999999999999,
   "cannotDynamax": false,
   "abilities": [
-    "keeneye"
+    "cursedbody",
+    "h:illuminate"
   ],
   "behaviour": {
     "resting": {
@@ -41,12 +42,12 @@
     }
   },
   "baseStats": {
-    "hp": 54,
-    "attack": 29,
-    "defence": 57,
-    "special_attack": 82,
-    "special_defence": 57,
-    "speed": 98
+    "hp": 70,
+    "attack": 37,
+    "defence": 74,
+    "special_attack": 106,
+    "special_defence": 74,
+    "speed": 126
   },
   "evYield": {
     "hp": 0,
@@ -94,7 +95,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8942,
+  "nationalPokedexNumber": 9053,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

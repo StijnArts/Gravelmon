@@ -32,7 +32,6 @@ public class Furrbee extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Furrbee");

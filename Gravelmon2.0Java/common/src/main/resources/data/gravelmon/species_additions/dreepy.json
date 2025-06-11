@@ -2,6 +2,131 @@
   "target": "cobblemon:dreepy",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "dragon",
+      "secondaryType": "water",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 54,
+      "experienceGroup": "slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22641509433962265,
+      "cannotDynamax": false,
+      "abilities": [
+        "hydration",
+        "infiltrator",
+        "h:regenerator"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 28,
+        "attack": 60,
+        "defence": 30,
+        "special_attack": 40,
+        "special_defence": 30,
+        "speed": 82
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "amorphous",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "tm:dracometeor",
+        "tm:thunderwave",
+        "tm:rest",
+        "tm:snore",
+        "tm:protect",
+        "tm:attract",
+        "tm:facade",
+        "tm:swift",
+        "tm:helpinghand",
+        "tm:round",
+        "tm:substitute",
+        "tm:endure",
+        "tm:sleeptalk",
+        "tm:batonpass",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:disable",
+        "tm:doubleteam",
+        "tm:dragontail",
+        "tm:grudge",
+        "tm:suckerpunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "pseudo_legendary"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasiandreepy.desc"
+      ],
+      "height": 5,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasiandreepy_drakloak_varitasian",
+          "variant": "level_up",
+          "result": "drakloak varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "50"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.3125,
+        "height": 3.3125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "steel",
       "secondaryType": "flying",
@@ -315,6 +440,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "epoch",
     "hoennian"
   ]

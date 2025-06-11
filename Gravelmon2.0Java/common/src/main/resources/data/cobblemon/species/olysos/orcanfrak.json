@@ -108,7 +108,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.orcanfrak.desc"
@@ -117,7 +118,7 @@
   "weight": 2035,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8902,
+  "nationalPokedexNumber": 8942,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

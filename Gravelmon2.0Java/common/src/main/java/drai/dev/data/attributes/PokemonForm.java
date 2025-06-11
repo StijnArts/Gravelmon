@@ -34,9 +34,7 @@ public class PokemonForm extends AbstractPokemon {
 
                        SpawnContext spawnContext, SpawnPool spawnPool,
                        int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                       List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
-                       double baseScale, double portraitScale
+                       List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets
 
     ) {
         super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
@@ -69,12 +67,10 @@ public class PokemonForm extends AbstractPokemon {
 
                        SpawnContext spawnContext, SpawnPool spawnPool,
                        int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                       List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
-                       double baseScale, double portraitScale
+                       List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets
 
     ) {
-        this(name, isBattleOnly, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, aspects, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets, baseScale, portraitScale);
+        this(name, isBattleOnly, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, aspects, dexEntries, evolutions, learnSet, labels, dropAmount, drops, spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight, spawnConditions, spawnAntiConditions, spawnPresets);
         this.secondaryType = secondaryType;
     }
 

@@ -41,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 60,
-    "attack": 32,
-    "defence": 63,
-    "special_attack": 91,
-    "special_defence": 63,
-    "speed": 108
+    "hp": 68,
+    "attack": 36,
+    "defence": 72,
+    "special_attack": 104,
+    "special_defence": 72,
+    "speed": 124
   },
   "evYield": {
     "hp": 0,
@@ -94,7 +94,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8908,
+  "nationalPokedexNumber": 8952,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.5,

@@ -113,7 +113,6 @@ public class AyreianHoothoot extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.25, 0.3,
                 List.of());
         this.setLangFileName("Hoothoot");
 

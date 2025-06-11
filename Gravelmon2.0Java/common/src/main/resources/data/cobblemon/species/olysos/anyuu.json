@@ -83,7 +83,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "legendary"
   ],
   "pokedex": [
     "cobblemon.species.anyuu.desc"
@@ -107,7 +108,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8936,
+  "nationalPokedexNumber": 9028,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

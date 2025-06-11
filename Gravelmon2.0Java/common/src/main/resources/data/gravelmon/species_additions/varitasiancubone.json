@@ -176,7 +176,22 @@
       "aspects": [
         "nostan"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "varitasiancubone_varitasianmarowak",
+          "variant": "level_up",
+          "result": "varitasianmarowak",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "28"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 6.0,

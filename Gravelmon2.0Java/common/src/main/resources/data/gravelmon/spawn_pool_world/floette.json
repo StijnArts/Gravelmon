@@ -29,6 +29,33 @@
       }
     },
     {
+      "id": "varitasian_floette-01",
+      "pokemon": "floette varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-35",
+      "weight": 1.3,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:pink_stained_glass"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_floette-01",
       "pokemon": "floette epoch",
       "presets": [

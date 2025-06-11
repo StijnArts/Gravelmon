@@ -44,7 +44,6 @@ public class Germite extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Germite");
 

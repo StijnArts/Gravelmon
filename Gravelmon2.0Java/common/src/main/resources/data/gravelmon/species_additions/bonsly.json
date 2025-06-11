@@ -2,6 +2,176 @@
   "target": "cobblemon:bonsly",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 58,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.18823529411764706,
+      "cannotDynamax": false,
+      "abilities": [
+        "sturdy",
+        "rockhead",
+        "h:rattled"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 50,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 10,
+        "special_defence": 45,
+        "speed": 10
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {},
+      "moves": [
+        "1:copycat",
+        "5:flail",
+        "8:lowkick",
+        "12:rockthrow",
+        "15:mimic",
+        "19:feintattack",
+        "22:tearfullook",
+        "26:rocktomb",
+        "29:block",
+        "33:rockslide",
+        "36:counter",
+        "40:suckerpunch",
+        "43:doubleedge",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:uproar",
+        "tm:helpinghand",
+        "tm:roleplay",
+        "tm:block",
+        "tm:covet",
+        "tm:earthpower",
+        "tm:stealthrock",
+        "tm:foulplay",
+        "tm:afteryou",
+        "tm:stompingtantrum",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:explosion",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:sandstorm",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:calmmind",
+        "tm:rockpolish",
+        "tm:smackdown",
+        "tm:round",
+        "tm:confide",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:selfdestruct",
+        "tm:takedown",
+        "tm:submission",
+        "tm:skullbash",
+        "tm:headbutt",
+        "tm:harden",
+        "tm:defensecurl",
+        "tm:selfdestruct",
+        "tm:curse",
+        "tm:endure",
+        "tm:rollout",
+        "tm:sandtomb",
+        "tm:tackle",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianbonsly.desc"
+      ],
+      "height": 4,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianbonsly_sudowoodo_varitasian",
+          "variant": "level_up",
+          "result": "sudowoodo varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "has_move",
+              "move": "mimic"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.1875,
+        "height": 3.1875,
+        "fixed": false
+      }
+    },
+    {
       "name": "Epoch",
       "primaryType": "ground",
       "secondaryType": "grass",
@@ -447,6 +617,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "epoch",
     "novran",
     "nodorran"

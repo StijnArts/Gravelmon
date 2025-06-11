@@ -86,7 +86,8 @@
   ],
   "labels": [
     "olysos",
-    "not_modeled"
+    "not_modeled",
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.mawrine.desc"
@@ -110,7 +111,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8901,
+  "nationalPokedexNumber": 8941,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,

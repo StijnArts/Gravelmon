@@ -4,6 +4,32 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
+      "id": "varitasian_drakloak-01",
+      "pokemon": "drakloak varitasian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 3.6,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_deep_ocean"
+        ],
+        "timeRange": "day"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:raw_gold_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_drakloak-01",
       "pokemon": "drakloak epoch",
       "presets": [

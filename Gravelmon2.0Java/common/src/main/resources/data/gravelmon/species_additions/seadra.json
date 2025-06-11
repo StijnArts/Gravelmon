@@ -2,6 +2,171 @@
   "target": "cobblemon:seadra",
   "forms": [
     {
+      "name": "Varitasian",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 154,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "horsea form=varitasian",
+      "baseScale": 0.1894736842105263,
+      "cannotDynamax": false,
+      "abilities": [
+        "poisonpoint",
+        "sniper",
+        "h:damp"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 65,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 45,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "dragon"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bubble",
+        "5:smokescreen",
+        "9:leer",
+        "13:watergun",
+        "17:twister",
+        "21:bubblebeam",
+        "26:focusenergy",
+        "31:brine",
+        "38:agility",
+        "45:dragonpulse",
+        "52:dragondance",
+        "60:hydropump",
+        "tm:snore",
+        "tm:icywind",
+        "tm:outrage",
+        "tm:signalbeam",
+        "tm:bounce",
+        "tm:waterpulse",
+        "tm:dragonpulse",
+        "tm:laserfocus",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:waterfall",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:snowscape",
+        "tm:facade",
+        "tm:gigaimpact",
+        "tm:flashcannon",
+        "tm:round",
+        "tm:scald",
+        "tm:confide",
+        "tm:toxic",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:rage",
+        "tm:mimic",
+        "tm:doubleteam",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:rest",
+        "tm:substitute",
+        "tm:terablast"
+      ],
+      "labels": [
+        "varitas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.varitasianseadra.desc"
+      ],
+      "height": 12,
+      "weight": 165,
+      "aspects": [
+        "varitasian"
+      ],
+      "evolutions": [
+        {
+          "id": "varitasianseadra_kingdra_varitasian",
+          "variant": "level_up",
+          "result": "kingdra varitasian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "45"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 9.5,
+        "height": 9.5,
+        "fixed": false
+      }
+    },
+    {
       "name": "Norheiman",
       "primaryType": "dragon",
       "catchRate": 65,
@@ -573,6 +738,7 @@
     }
   ],
   "features": [
+    "varitasian",
     "norheiman",
     "epoch",
     "epochtwo",

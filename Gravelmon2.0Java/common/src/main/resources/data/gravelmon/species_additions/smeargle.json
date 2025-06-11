@@ -956,6 +956,20 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "smeargle_smeartiste",
+      "variant": "level_up",
+      "result": "smeartiste",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "38"
+        }
+      ],
+      "permanent": true
     }
   ]
 }

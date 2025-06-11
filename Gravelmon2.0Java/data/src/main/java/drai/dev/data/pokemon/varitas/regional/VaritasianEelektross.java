@@ -89,7 +89,6 @@ public class VaritasianEelektross extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
                 List.of());
            setLangFileName("Eelektross");
         setCanBreathUnderwater(true);

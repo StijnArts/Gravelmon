@@ -61,6 +61,33 @@
       }
     },
     {
+      "id": "varitasian_altaria-01",
+      "pokemon": "altaria varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 0.026000000000000002,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_grassland"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_altaria-01",
       "pokemon": "altaria epoch",
       "presets": [

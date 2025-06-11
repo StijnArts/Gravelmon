@@ -114,7 +114,6 @@ public class DeltaEmolga extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
                 List.of(new PokemonForm(
                         "Blaze-Boost", true,
                         Type.FIRE, Type.DARK,
@@ -134,8 +133,7 @@ public class DeltaEmolga extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
                 ), List.of(),
-                        List.of(),
-                        0.48, 0.3
+                        List.of()
                 )));
         this.setLangFileName("Emolga");
         

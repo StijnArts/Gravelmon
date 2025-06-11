@@ -31,6 +31,34 @@
       }
     },
     {
+      "id": "varitasian_magcargo-01",
+      "pokemon": "magcargo varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-58",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "maxY": 0
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_magcargo-01",
       "pokemon": "magcargo epoch",
       "presets": [

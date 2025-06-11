@@ -88,7 +88,6 @@ public class RapidashX  extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
                 List.of(new PokemonForm("Storm", true,
                         Type.FLYING, Type.ELECTRIC,
                         new Stats(65, 80, 70, 140, 60, 145),
@@ -109,8 +108,7 @@ public class RapidashX  extends Pokemon {
                         ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, 0.0000, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_END))
                         ), List.of(),
-                        List.of(SpawnPreset.NATURAL),
-                        1.4, 0.3)));
+                        List.of(SpawnPreset.NATURAL))));
         this.setLangFileName("Rapidash");
         
         

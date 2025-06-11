@@ -39,7 +39,6 @@ public class Dicell extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

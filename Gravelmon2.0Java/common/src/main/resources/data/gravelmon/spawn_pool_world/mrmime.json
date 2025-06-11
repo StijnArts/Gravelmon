@@ -29,6 +29,32 @@
       }
     },
     {
+      "id": "varitasian_mrmime-01",
+      "pokemon": "mrmime varitasian",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-35",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_spooky"
+        ],
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
       "id": "epoch_mrmime-01",
       "pokemon": "mrmime epoch",
       "presets": [

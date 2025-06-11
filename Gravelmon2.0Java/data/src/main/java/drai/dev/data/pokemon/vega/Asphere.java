@@ -100,7 +100,7 @@ public class Asphere extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
+
                 List.of(new PokemonForm("Altair", true,
                         Type.ICE, Type.DRAGON,
                         new Stats(100, 140, 100, 150, 100, 130),
@@ -121,8 +121,7 @@ public class Asphere extends Pokemon {
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 12, 34, 0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL),
-                        1.4, 0.3),
+                        List.of(SpawnPreset.NATURAL)),
                         new PokemonForm("Sirius", true,
                                 Type.ELECTRIC, Type.DRAGON,
                                 new Stats(100, 100, 120, 150, 120, 130),
@@ -143,7 +142,6 @@ public class Asphere extends Pokemon {
                         ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 12, 34, 0, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_END))
                         ), List.of(),
-                                List.of(SpawnPreset.NATURAL),
-                                1.4, 0.3)));
+                                List.of(SpawnPreset.NATURAL))));
     }
 }
