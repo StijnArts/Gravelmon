@@ -42,12 +42,15 @@ public class Wreckyard extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 54, .1, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Wreckyard");
 
     }

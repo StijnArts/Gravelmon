@@ -27,12 +27,15 @@ public class Siscorp extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 25, 45, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

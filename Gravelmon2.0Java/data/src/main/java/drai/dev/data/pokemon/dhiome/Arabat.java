@@ -33,13 +33,16 @@ public class Arabat extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAIN_LIFE,53)           ),
                 List.of(Label.DHIOME),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 41, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Arabat");
 

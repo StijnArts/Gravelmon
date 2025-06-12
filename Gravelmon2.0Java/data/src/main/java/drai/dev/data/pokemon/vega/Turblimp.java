@@ -102,13 +102,16 @@ public class Turblimp extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 57, 1.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_SKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS, Biome.IS_SKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
     }
 }

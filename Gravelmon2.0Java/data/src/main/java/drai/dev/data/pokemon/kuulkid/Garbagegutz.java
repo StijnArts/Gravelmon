@@ -27,14 +27,17 @@ public class Garbagegutz extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_PLAINS)
+    .atNight()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Garbagegutz");
 
     }

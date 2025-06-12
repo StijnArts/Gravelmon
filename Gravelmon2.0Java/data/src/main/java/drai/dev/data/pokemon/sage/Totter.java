@@ -95,13 +95,16 @@ public class Totter extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 4, 25, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
 

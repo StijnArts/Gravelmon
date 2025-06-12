@@ -66,13 +66,16 @@ public class Chrysalix extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 48, 60, 0.54, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of())),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(48)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD, Biome.IS_FREEZING)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

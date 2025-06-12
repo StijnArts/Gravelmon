@@ -143,13 +143,14 @@ public class DeltaDragonite extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 45, 62, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .pseudoLegend()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_FRESHWATER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dragonite");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

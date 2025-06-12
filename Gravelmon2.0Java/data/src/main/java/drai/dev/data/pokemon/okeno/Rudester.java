@@ -39,13 +39,16 @@ public class Rudester extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,45)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 56, .06, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SKY, Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Rudester");
 
     }

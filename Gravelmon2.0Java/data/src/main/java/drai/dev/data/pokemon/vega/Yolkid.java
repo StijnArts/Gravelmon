@@ -63,12 +63,15 @@ public class Yolkid extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 15, 7.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.TREE_TOP),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(2)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.TREE_TOP)
+    .build(), List.of());
+	
     }
 }

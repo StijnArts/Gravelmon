@@ -43,13 +43,17 @@ public class Turbolibri  extends Pokemon {
                 ),
                 List.of(Label.FLUX),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 57, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_FLORAL)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
     }
 }

@@ -125,13 +125,16 @@ public class DeltaHaxorus extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 45, 68, 1.54, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Haxorus");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

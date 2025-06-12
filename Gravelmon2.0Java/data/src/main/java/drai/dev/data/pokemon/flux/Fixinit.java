@@ -50,13 +50,16 @@ public class Fixinit extends Pokemon {
                 ),
                 List.of(Label.FLUX),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 45, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"0")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(26)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .cantSeeSky()
+    .belowY(0)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

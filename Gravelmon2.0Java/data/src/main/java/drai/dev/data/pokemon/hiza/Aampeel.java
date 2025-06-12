@@ -38,13 +38,16 @@ public class Aampeel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,45)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 29, 48, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(29)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

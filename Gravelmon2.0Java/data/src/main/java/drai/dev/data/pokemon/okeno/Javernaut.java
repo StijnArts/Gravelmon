@@ -35,14 +35,18 @@ public class Javernaut extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NEAR_MUD),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NEAR_MUD)
+    .build(), List.of());
+	
            setLangFileName("Javernaut");
 
     }

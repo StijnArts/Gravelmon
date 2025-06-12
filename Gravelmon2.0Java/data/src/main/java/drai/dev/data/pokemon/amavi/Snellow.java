@@ -40,13 +40,17 @@ public class Snellow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,61)                   ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 28, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_AUTUMN))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(15)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .setAntiBiomes(Biome.IS_JUNGLE, Biome.IS_AUTUMN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Snellow");
 
     }

@@ -38,12 +38,13 @@ public class Impanzee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,49)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_FOREST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Impanzee");
 
     }

@@ -134,8 +134,7 @@ public class DeltaEmolga extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
                 ), List.of(),
-                        List.of(),
-                        0.48, 0.3
+                        List.of()
                 )));
         this.setLangFileName("Emolga");
         

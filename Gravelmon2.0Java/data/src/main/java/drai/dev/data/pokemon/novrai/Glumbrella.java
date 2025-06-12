@@ -96,15 +96,18 @@ public class Glumbrella extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .isRaining()
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Glumbrella");
 
     }

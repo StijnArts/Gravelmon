@@ -102,12 +102,15 @@ public class Galavagos extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 66, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_THERMAL, Biome.IS_NETHER_BASALT))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_THERMAL, Biome.IS_NETHER_BASALT)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setPreEvolution("torkoal");
         addAdditionalEvolution("torkoal", new EvolutionEntry("galavagos", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45"))));

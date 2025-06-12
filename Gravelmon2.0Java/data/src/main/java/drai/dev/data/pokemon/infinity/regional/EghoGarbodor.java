@@ -108,13 +108,16 @@ public class EghoGarbodor extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN5),
                 4, List.of(
                         new ItemDrop("minecraft:rotten_flesh",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 1.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.32, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Garbodor");
 
     }

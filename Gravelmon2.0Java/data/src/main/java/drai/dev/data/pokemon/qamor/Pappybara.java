@@ -42,13 +42,16 @@ public class Pappybara extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 1.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPRING)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
            setLangFileName("Pappybara");
 
     }

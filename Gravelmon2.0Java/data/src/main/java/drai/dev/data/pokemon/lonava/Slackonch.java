@@ -40,13 +40,16 @@ public class Slackonch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THRASH,59)         ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 33, 1.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Slackonch");

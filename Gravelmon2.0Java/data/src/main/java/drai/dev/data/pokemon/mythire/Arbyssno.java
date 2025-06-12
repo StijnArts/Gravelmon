@@ -97,12 +97,15 @@ public class Arbyssno extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANQUILIZE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 35, 53, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_CAVE)
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

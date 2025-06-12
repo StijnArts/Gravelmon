@@ -121,12 +121,15 @@ public class Kerohelion extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_CLIMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.ULTRA_RARE)
+    .setMinLevel(55)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.TRAIL_RUINS)
+    .build(), List.of());
+	
            setLangFileName("Kerohelion");
 
     }

@@ -95,12 +95,15 @@ public class DeltaVenipede extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 21, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_WASTELAND)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Venipede");
     }
 }

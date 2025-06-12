@@ -38,13 +38,16 @@ public class Phantocean extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

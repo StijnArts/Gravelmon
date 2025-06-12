@@ -22,12 +22,15 @@ public class Chatart extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BEACH)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         addAdditionalEvolution("chatot", new EvolutionEntry("chatart", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_BEACH.getId() + ":" + Biome.IS_BEACH.getName()))));
         setCanFly(true);

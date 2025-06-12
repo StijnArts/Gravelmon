@@ -53,12 +53,15 @@ public class HoennianBisharp extends Pokemon {
                 ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 50, 65, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(50)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Bisharp");
 
     }

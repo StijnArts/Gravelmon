@@ -112,12 +112,15 @@ public class Ballistikon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_CRASH,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 21, 46, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.SHIP_WRECK),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
+    .build(), List.of());
+	
            setLangFileName("Ballistikon");
 
     }

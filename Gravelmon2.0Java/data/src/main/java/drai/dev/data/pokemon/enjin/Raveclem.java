@@ -85,13 +85,16 @@ public class Raveclem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALD,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BEACH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Raveclem");
         setCanBreathUnderwater(true);
 

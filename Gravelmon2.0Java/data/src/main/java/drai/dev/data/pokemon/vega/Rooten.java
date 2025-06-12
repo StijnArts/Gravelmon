@@ -95,12 +95,16 @@ public class Rooten extends Pokemon {
                         ),
                 List.of(Label.VEGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY, Biome.IS_DECIDUOUS_FOREST)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

@@ -22,13 +22,14 @@ public class Topazeon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.AMETHYST_GEODE),
-                0.24, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .eeveelution()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
+    .build(), List.of());
+	
         addAdditionalEvolution("eevee", new EvolutionEntry("Topazeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.CURSE, "")),
                 List.of(),List.of(),"cobblemon:shiny_stone"));
            setLangFileName("Topazeon");

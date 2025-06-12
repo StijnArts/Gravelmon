@@ -102,13 +102,14 @@ public class DeltaDratini extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 15, 30, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .pseudoLegend()
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_FRESHWATER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dratini");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

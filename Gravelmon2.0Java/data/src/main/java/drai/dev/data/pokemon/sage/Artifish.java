@@ -114,13 +114,16 @@ public class Artifish extends Pokemon {
                         new ItemDrop("cobblemon:poke_ball",40, 1,2),
                         new ItemDrop("cobblemon:great_ball",30, 1,2),
                         new ItemDrop("cobblemon:ultra_ball", 10, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 47, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         
     }
 }

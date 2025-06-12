@@ -130,12 +130,13 @@ public class Carcoral extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.REEF, SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
            setLangFileName("Carcoral");
 

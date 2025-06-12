@@ -115,14 +115,15 @@ public class EghoTyphlosion extends Pokemon {
                 List.of(Label.GEN2,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:gunpowder",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 14, 27, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HILLS, Biome.IS_HIGHLANDS)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.32, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_HILLS, Biome.IS_HIGHLANDS)
+    .isThundering()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Typhlosion");
     }
 }

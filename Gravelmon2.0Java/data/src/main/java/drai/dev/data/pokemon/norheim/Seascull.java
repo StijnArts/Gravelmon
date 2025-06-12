@@ -38,14 +38,17 @@ public class Seascull extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISONDART,1)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Seascull");
         addAdditionalEvolution("wingull", new EvolutionEntry("seascull", EvolutionType.LEVEL_UP, List.of(),

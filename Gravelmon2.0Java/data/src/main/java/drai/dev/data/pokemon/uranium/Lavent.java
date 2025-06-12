@@ -95,11 +95,14 @@ public class Lavent extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 57, 5.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.STRONGHOLD),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .setSpawnPreset(SpawnPreset.STRONGHOLD)
+    .build(), List.of());
+	
     }
 }

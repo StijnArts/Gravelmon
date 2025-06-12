@@ -102,14 +102,15 @@ public class Mementori extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THROAT_CHOP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SKY)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

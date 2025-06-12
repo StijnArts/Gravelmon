@@ -27,13 +27,16 @@ public class Dradna extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 41, 65, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

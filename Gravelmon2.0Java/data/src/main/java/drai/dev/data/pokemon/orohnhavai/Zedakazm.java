@@ -44,12 +44,13 @@ public class Zedakazm extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,91)                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_SOUL_FIRE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_SOUL_FIRE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Zedakazm");
 
     }

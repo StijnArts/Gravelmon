@@ -90,13 +90,16 @@ public class Glavinug extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 58, 2.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

@@ -46,13 +46,16 @@ public class Surgeskit extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 32, 54, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_TAIGA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
            setLangFileName("Surgeskit");
         addAdditionalEvolution("surskit", new EvolutionEntry("surgeskit", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:thunder_stone"));

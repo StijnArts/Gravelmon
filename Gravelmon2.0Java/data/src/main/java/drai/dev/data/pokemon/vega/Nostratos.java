@@ -86,13 +86,17 @@ public class Nostratos extends Pokemon {
                 ),
                 List.of(Label.VEGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 67, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(50)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SKY, Biome.IS_MOUNTAIN)
+    .setAntiBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanFly(true);
     }
 }

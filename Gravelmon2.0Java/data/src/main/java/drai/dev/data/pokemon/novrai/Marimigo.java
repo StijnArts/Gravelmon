@@ -119,13 +119,16 @@ public class Marimigo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COTTON_GUARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 4, 29, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FOLIAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FOLIAGE)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

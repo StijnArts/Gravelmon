@@ -22,13 +22,16 @@ public class Shargill extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 45, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(23)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

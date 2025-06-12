@@ -144,12 +144,15 @@ public class EpochWooper extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TITANIASLAW, "egg")),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_VOLCANIC)
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setLangFileName("Wooper");

@@ -100,12 +100,16 @@ public class KaskadianAmbipom extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON, Label.GEN4),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC)
+    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Ambipom");
 
         addAdditionalEvolution("aipom", new EvolutionEntry("ambipom kaskadian", EvolutionType.LEVEL_UP, List.of(),

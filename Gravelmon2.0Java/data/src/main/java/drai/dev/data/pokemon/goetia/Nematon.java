@@ -32,13 +32,16 @@ public class Nematon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_SWAMP)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

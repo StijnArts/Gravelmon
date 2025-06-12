@@ -84,13 +84,16 @@ public class Lannelid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(1)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER, Biome.IS_SWAMP)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

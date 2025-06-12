@@ -92,12 +92,15 @@ public class CacturneX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN3),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 51, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.27, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Cacturne");
 
         

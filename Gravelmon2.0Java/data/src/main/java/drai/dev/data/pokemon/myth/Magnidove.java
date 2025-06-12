@@ -52,14 +52,17 @@ public class Magnidove extends Pokemon {
                 ),
                 List.of(Label.MYTH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 62, 2.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FLORAL)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MAGICAL, Biome.IS_FLORAL)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
         setHasGenderDifferences(true);
     }

@@ -106,13 +106,16 @@ public class Syrenade extends Pokemon {
                 ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 55, 68, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(55)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);

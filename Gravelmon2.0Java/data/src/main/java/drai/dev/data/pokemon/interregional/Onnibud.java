@@ -42,13 +42,16 @@ public class Onnibud extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 32, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_CROPS),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(19)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
+    .build(), List.of());
+	
            setLangFileName("Onnibud");
 
     }

@@ -133,13 +133,16 @@ public class EpochSandile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALKALINEBOMB,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 9, 28, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE, SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(9)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BEACH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE, SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Sandile");
 
     }

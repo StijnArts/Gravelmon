@@ -54,12 +54,13 @@ public class Oreon extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 34, 56, 0.001, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .eeveelution()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         
         this.setPreEvolution("eevee");
         addAdditionalEvolution("eevee", new EvolutionEntry("oreon", EvolutionType.ITEM_INTERACT, false, List.of(),

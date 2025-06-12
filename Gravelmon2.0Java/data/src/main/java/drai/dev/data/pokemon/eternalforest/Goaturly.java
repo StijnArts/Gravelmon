@@ -107,12 +107,15 @@ public class Goaturly extends Pokemon {
                 ),
                 List.of(Label.ETERNAL_FOREST),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 55, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_HIGHLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

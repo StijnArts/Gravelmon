@@ -75,13 +75,14 @@ public class Carbite extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:deepslate",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 28, 9, List.of(
-                        new SpawnCondition(SpawnConditionType.MAXY,"12"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .pseudoLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .belowY(12)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

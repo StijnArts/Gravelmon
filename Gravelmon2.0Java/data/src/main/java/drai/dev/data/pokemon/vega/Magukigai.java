@@ -94,11 +94,14 @@ public class Magukigai extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 45, 66, 0.02, List.of(
-                ), List.of(),
-                List.of(SpawnPreset.LAVA_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
+    .build(), List.of());
+	
         this.setPreEvolution("magcargo");
         addAdditionalEvolution("magcargo", new EvolutionEntry("magukigai", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"54"))));

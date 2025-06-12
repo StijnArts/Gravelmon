@@ -43,12 +43,15 @@ public class CefiranVenomoth extends Pokemon {
                 ),
                 List.of(Label.OPAL, Label.GEN1),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 45, 0.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Venomoth");
         setCanFly(true);
         addAdditionalEvolution("venonat", new EvolutionEntry("venomoth cefiran", EvolutionType.LEVEL_UP, List.of(),

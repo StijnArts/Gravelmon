@@ -39,14 +39,18 @@ public class Wolverage extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,53)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 34, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(23)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD)
+    .setAntiBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Wolverage");
 
     }

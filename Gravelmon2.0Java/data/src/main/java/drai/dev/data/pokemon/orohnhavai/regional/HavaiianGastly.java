@@ -83,12 +83,15 @@ public class HavaiianGastly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POLTERGEIST,"tm")      ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 31, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
             setLangFileName("Gastly");
             setCanFly(true);
     }

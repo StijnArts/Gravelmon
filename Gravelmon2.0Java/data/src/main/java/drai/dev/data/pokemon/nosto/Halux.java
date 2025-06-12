@@ -43,13 +43,16 @@ public class Halux extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,50)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SKY, Biome.IS_MAGICAL)
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

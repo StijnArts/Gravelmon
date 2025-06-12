@@ -85,14 +85,17 @@ public class Chromite extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 39, 56, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"30")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(39)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .belowY(30)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
     }

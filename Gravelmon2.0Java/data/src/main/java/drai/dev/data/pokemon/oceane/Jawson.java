@@ -42,13 +42,17 @@ public class Jawson extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_CHOP,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 22, 45, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

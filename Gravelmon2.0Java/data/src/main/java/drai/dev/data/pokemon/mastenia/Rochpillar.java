@@ -28,13 +28,16 @@ public class Rochpillar extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 4.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.FOLIAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(1)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE, Biome.IS_HIGHLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.FOLIAGE)
+    .build(), List.of());
+	
            setLangFileName("Rochpillar");
 
     }

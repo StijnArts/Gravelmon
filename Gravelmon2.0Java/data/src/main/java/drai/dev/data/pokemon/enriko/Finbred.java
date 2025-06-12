@@ -35,13 +35,16 @@ public class Finbred extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISHIOUS_REND,48)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 26, 43, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(26)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

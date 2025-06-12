@@ -42,13 +42,16 @@ public class Krustinger extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 32, 52, 1.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

@@ -28,14 +28,17 @@ public class Goobae extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_SWAMP)
+    .atNight()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanWalkOnWater(true);
            setLangFileName("Goobae");
 

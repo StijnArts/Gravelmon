@@ -75,12 +75,15 @@ public class ToxapexX  extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE, Label.GEN7),
                 1, List.of(
-                        new ItemDrop("gravelmon:xenolith",20, 1,1)), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 57, 0.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                        new ItemDrop("gravelmon:xenolith",20, 1,1)), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Toxapex");
 
     }

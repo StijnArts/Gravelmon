@@ -109,13 +109,16 @@ public class EpochMasquerainOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 41, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL, Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.FOLIAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TROPICAL, Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FOLIAGE)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Masquerain");
 

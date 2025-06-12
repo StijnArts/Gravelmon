@@ -40,13 +40,14 @@ public class Selveger extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,94)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .0006, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .legend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OLD_GROWTH_TAIGA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Selveger");
 
     }

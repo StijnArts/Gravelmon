@@ -44,13 +44,16 @@ public class Barbarrage extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_BOMB,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 35, 54, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.SHIP_WRECK),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

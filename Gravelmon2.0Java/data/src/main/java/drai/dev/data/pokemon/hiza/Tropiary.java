@@ -38,13 +38,16 @@ public class Tropiary extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,50)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 55, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE, SpawnPreset.FOLIAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPRING)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE, SpawnPreset.FOLIAGE)
+    .build(), List.of());
+	
            setLangFileName("Tropiary");
 
     }

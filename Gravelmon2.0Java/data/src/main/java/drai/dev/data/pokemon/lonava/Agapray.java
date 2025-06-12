@@ -67,12 +67,15 @@ public class Agapray extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TELEPORT,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 53, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(34)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Agapray");
 
     }

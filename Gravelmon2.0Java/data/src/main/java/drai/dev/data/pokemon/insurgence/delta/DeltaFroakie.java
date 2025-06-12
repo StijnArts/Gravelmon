@@ -103,13 +103,14 @@ public class DeltaFroakie extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_LUSH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Froakie");
     }
 }

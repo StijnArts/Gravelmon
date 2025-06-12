@@ -110,13 +110,16 @@ public class EghoTangela extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN1),
                 4, List.of(
                         new ItemDrop("minecraft:redstone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Tangela");
 
     }

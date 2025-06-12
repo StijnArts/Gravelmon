@@ -47,13 +47,17 @@ public class Moler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,48)      ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 26, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE,Biome.IS_SPRING))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .setAntiBiomes(Biome.IS_JUNGLE, Biome.IS_SPRING)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Moler");
 
     }

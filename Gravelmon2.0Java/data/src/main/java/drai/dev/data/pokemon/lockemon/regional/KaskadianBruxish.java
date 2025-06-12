@@ -74,12 +74,15 @@ public class KaskadianBruxish extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON, Label.GEN7),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 30, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(14)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_RIVER)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Bruxish");
 
         this.setAvoidsLand(true);

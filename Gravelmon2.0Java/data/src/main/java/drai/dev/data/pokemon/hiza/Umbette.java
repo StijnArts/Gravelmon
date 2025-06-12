@@ -42,14 +42,17 @@ public class Umbette extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 25, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"30")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(7)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .belowY(30)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

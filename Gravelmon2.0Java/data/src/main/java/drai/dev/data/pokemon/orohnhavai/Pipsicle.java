@@ -44,13 +44,16 @@ public class Pipsicle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,60)              ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_FREEZING)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Pipsicle");
 
     }

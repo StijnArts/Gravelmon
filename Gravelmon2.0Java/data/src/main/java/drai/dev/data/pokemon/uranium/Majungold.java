@@ -106,12 +106,13 @@ public class Majungold extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 56, 2.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.MINESHAFT),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.MINESHAFT)
+    .build(), List.of());
+	
     }
 }

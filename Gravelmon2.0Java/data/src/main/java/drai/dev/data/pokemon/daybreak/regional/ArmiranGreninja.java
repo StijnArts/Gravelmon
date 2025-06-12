@@ -68,13 +68,14 @@ public class ArmiranGreninja extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.DAYBREAK),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 54, 0.2, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"-20")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .cantSeeSky()
+    .belowY(-20)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Greninja");
     }
 }

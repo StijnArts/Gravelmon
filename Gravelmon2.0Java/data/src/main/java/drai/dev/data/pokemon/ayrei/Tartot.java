@@ -109,13 +109,16 @@ public class Tartot extends Pokemon {
                 ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 4, 25, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
 

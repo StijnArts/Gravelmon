@@ -186,8 +186,7 @@ public class Teranigrade extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.UNDERWATER),
-                        0.4, 0.5
+                        List.of(SpawnPreset.UNDERWATER)
                 ),
                         new PokemonForm(
                                 "ICE", false,
@@ -271,8 +270,7 @@ public class Teranigrade extends Pokemon {
                                 new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                                 new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                         ), List.of(),
-                                List.of(SpawnPreset.UNDERWATER),
-                                0.4, 0.5
+                                List.of(SpawnPreset.UNDERWATER)
                         ),
                         new PokemonForm(
                                 "Fire", false,
@@ -358,8 +356,7 @@ public class Teranigrade extends Pokemon {
                         ), SpawnContext.SUBMERGED, SpawnPool.RARE, 34, 43, 0.1, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
                         ), List.of(),
-                                List.of(SpawnPreset.UNDERLAVA),
-                                0.4, 0.5
+                                List.of(SpawnPreset.UNDERLAVA)
                         )));
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

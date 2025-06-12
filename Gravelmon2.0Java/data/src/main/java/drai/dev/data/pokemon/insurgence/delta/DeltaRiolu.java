@@ -116,13 +116,16 @@ public class DeltaRiolu extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 30, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.DESERT_PYRAMID),
-                0.2, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
+    .build(), List.of());
+	
         this.setLangFileName("Riolu");
         
         this.setBaseScale(0.9);

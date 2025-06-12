@@ -76,8 +76,7 @@ public class Drout extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                        List.of(SpawnPreset.NEAR_WATER),
-                        1.4, 0.3)));
+                        List.of(SpawnPreset.NEAR_WATER))));
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

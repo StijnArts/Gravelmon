@@ -30,13 +30,16 @@ public class Squarepair extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.KUULKID, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 18, 43, .9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(18)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Squarepair");

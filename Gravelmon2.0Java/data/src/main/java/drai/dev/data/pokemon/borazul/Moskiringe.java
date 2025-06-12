@@ -27,13 +27,16 @@ public class Moskiringe extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.BORAZUL),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 31, 54, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_SWAMP)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
         setCanFly(true);
         setCanWalkOnWater(true);
         setLangFileName("Moskiringe");

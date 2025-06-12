@@ -89,12 +89,13 @@ public class Spinerus extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 34, 0.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(2)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
     }
 }

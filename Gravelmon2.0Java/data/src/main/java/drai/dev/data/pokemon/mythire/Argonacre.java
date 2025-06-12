@@ -81,13 +81,16 @@ public class Argonacre extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 33, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.OCEAN_MONUMENT),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.OCEAN_MONUMENT)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

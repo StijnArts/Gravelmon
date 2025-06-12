@@ -46,13 +46,17 @@ public class Imbumi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_GRASSLAND)
+    .setAntiBiomes(Biome.IS_SAVANNA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
            setLangFileName("Imbumi");
 
     }

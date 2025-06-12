@@ -29,12 +29,15 @@ public class Pupage extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,1)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 22, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_BOOKSHELVES),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(8)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.NEAR_BOOKSHELVES)
+    .build(), List.of());
+	
            setLangFileName("Pupage");
 
     }

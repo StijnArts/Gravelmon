@@ -107,14 +107,15 @@ public class Quetzar extends Pokemon {
                 List.of(Label.SAGE),
                 3, List.of(
                         new ItemDrop("minecraft:emerald_block",90, 3,10)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 75, 0.0005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MINY,"271")
-                ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
-                1.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .legend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .aboveY(271)
+    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
+    .build(), List.of());
+	
 
     }
 }

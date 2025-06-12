@@ -45,12 +45,16 @@ public class Draccane extends Pokemon {
                 ),
                 List.of(Label.MYTH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 56, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.VILLAGE),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(30)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
     }
 }

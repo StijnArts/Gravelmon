@@ -44,13 +44,17 @@ public class Yggdraflygg extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_GRASSLAND)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

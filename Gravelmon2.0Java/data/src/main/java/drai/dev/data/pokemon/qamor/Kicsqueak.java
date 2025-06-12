@@ -45,13 +45,16 @@ public class Kicsqueak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(1)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT, Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Kicsqueak");
 
     }

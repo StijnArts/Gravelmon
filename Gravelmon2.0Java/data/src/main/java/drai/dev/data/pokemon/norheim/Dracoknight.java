@@ -42,13 +42,16 @@ public class Dracoknight extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BREAKING_SWIPE,1)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(55)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TAIGA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Dracoknight");
 

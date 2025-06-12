@@ -91,13 +91,16 @@ public class Perishroom extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:red_mushroom",50, 1,2),
                         new ItemDrop("minecraft:moss",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_DEEP_DARK, Biome.IS_MUSHROOM)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_LUSH, Biome.IS_DEEP_DARK, Biome.IS_MUSHROOM)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         
     }
 }

@@ -75,13 +75,15 @@ public class HoennianRegigigas extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 70, 0.000018, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.VILLAGE),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .legend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_ARID, Biome.IS_TEMPERATE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Regigigas");
 
         this.setCanFly(true);

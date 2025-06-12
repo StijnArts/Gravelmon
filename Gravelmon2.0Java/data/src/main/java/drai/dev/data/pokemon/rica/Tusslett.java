@@ -92,13 +92,16 @@ public class Tusslett extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SMASH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Tusslett");
 
     }

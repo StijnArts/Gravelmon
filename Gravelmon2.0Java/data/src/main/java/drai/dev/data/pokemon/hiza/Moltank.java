@@ -39,13 +39,16 @@ public class Moltank extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ERUPTION,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

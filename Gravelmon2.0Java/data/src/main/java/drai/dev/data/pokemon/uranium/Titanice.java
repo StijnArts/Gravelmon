@@ -97,12 +97,15 @@ public class Titanice extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 19, 54, 4.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(19)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_FROZEN_OCEAN)
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
 
     }
 }

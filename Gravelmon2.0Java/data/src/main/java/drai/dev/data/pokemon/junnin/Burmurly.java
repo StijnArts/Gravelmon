@@ -43,13 +43,14 @@ public class Burmurly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_ARMOR,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.TREE_TOP),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE, Biome.IS_SAVANNA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.TREE_TOP)
+    .build(), List.of());
+	
            setLangFileName("Burmurly");
 
     }

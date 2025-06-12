@@ -126,13 +126,16 @@ public class Aukward extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 5.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BEACH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Aukward");

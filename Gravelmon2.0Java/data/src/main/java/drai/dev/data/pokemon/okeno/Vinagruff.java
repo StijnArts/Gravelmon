@@ -109,13 +109,14 @@ public class Vinagruff extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COAST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

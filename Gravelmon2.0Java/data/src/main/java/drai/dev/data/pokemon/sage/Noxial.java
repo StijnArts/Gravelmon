@@ -213,8 +213,7 @@ public class Noxial extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 )));
 
     }

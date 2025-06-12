@@ -116,13 +116,17 @@ public class Pianon extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 51, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(24)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MAGICAL, Biome.IS_GRASSLAND)
+    .setAntiBiomes(Biome.IS_ARID)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

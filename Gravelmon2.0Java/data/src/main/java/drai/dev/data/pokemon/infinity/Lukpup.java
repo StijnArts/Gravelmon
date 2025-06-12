@@ -102,13 +102,14 @@ public class Lukpup extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "false"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .pseudoLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .isNotRaining()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

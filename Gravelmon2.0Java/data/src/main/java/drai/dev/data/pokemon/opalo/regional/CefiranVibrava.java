@@ -42,13 +42,16 @@ public class CefiranVibrava extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 44, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Vibrava");
         setCanFly(true);
         addAdditionalEvolution("trapinch", new EvolutionEntry("vibrava cefiran", EvolutionType.LEVEL_UP, List.of(),

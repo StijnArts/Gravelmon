@@ -89,13 +89,16 @@ public class Soakoth extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 30, 51, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(30)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
 
     }
 }

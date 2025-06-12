@@ -95,13 +95,16 @@ public class RicanGastrodon extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 31, 46, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         this.setLangFileName("Gastrodon");

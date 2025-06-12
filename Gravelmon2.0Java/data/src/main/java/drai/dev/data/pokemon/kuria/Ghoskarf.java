@@ -42,14 +42,17 @@ public class Ghoskarf extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,52)                    ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 45, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .canSeeSky()
+    .isRaining()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Ghoskarf");
 
     }

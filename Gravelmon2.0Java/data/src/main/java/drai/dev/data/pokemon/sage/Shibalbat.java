@@ -100,13 +100,16 @@ public class Shibalbat extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:gold_ingot",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.DESERT_PYRAMID),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
+    .build(), List.of());
+	
 
     }
 }

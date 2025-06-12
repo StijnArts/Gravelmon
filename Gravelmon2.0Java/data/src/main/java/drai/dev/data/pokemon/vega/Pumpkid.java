@@ -97,12 +97,15 @@ public class Pumpkid extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.43, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(8)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         
         this.setBaseScale(0.5);
         this.setHitbox(0.7,0.7);

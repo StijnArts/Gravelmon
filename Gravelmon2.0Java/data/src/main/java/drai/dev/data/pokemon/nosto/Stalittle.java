@@ -39,13 +39,16 @@ public class Stalittle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,46)           ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_DRIPSTONE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE, Biome.IS_DRIPSTONE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
            setLangFileName("Stalittle");
 
     }

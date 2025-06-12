@@ -65,13 +65,17 @@ public class Gobidus extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 65, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_PLATEAU))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .setAntiBiomes(Biome.IS_HILLS, Biome.IS_PLATEAU)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Gobidus");
 
     }

@@ -85,14 +85,17 @@ public class MysticReuniclus extends Pokemon {
                 ),
                 List.of(Label.AZURE, Label.GEN5),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 45, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY, "30")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .belowY(30)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Reuniclus");
 
         this.setCanFly(true);

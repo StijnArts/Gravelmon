@@ -69,13 +69,16 @@ public class Hazarachi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
                 List.of(Label.AVALOS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 59, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

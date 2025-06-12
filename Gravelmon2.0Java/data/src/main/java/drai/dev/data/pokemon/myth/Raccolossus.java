@@ -44,12 +44,16 @@ public class Raccolossus extends Pokemon {
                 ),
                 List.of(Label.MYTH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 67, 2.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(43)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_WASTELAND)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

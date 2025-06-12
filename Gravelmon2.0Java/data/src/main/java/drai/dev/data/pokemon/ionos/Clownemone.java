@@ -28,12 +28,15 @@ public class Clownemone extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 13, 32, 3.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Buggisk");

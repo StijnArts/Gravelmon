@@ -41,12 +41,15 @@ public class Lauves extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,47)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
+    .build(), List.of());
+	
            setLangFileName("Lauves");
 
     }

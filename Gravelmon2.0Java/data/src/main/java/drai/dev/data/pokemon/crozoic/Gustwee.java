@@ -28,13 +28,14 @@ public class Gustwee extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 14, 36, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .fossil()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Gustwee");
 

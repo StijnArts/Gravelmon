@@ -94,13 +94,14 @@ public class Diamat extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:diamond",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 60, 70, 0.4, List.of(
-                        new SpawnCondition(SpawnConditionType.MAXY,"-30"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.5, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .pseudoLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .belowY(-30)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

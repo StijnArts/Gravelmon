@@ -99,13 +99,17 @@ public class Capig extends Pokemon {
                         new ItemDrop("cobblemon:quick_claw",10, 1,1),
                         new ItemDrop("minecraft:wool",45, 1,2),
                         new ItemDrop("minecraft:string",45, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_DECIDUOUS_FOREST))),
-                List.of(SpawnPreset.NATURAL),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .setAntiBiomes(Biome.IS_PLAINS, Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

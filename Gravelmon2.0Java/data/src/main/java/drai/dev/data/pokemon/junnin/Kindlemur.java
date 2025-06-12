@@ -46,13 +46,14 @@ public class Kindlemur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_ARMOR,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.TREE_TOP),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE, Biome.IS_SAVANNA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.TREE_TOP)
+    .build(), List.of());
+	
            setLangFileName("Kindlemur");
 
     }

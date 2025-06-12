@@ -96,13 +96,16 @@ public class EpochCoalossal extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 56, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.GEMSTONES),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.GEMSTONES)
+    .build(), List.of());
+	
            setLangFileName("Coalossal");
 
     }

@@ -112,14 +112,18 @@ public class Carnibal extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:ice",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 48, 2.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN))),
-                List.of(SpawnPreset.NATURAL),
-                0.38, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .setAntiBiomes(Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

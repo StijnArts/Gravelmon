@@ -56,12 +56,15 @@ public class CefiranDugtrio extends Pokemon {
                 ),
                 List.of(Label.GEN1,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(26)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SAVANNA)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Dugtrio");
     }
 }

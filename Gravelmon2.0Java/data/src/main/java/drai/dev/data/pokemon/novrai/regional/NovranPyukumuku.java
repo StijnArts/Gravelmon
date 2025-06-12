@@ -115,12 +115,15 @@ public class NovranPyukumuku extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 37, 3.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_FROZEN_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
            setLangFileName("Pyukumuku");
         this.setCanBreathUnderwater(true);
 

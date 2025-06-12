@@ -79,13 +79,16 @@ public class Billserk extends Pokemon {
                         new MoveLearnSetEntry(Move.ROCKET_DRIVE,"egg")
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 44, 3.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                0, List.of(), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

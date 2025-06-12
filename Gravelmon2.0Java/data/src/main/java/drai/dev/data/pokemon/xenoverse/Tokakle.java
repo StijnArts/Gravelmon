@@ -156,8 +156,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 ),new PokemonForm(
                         "Blue", false,
                         Type.SOUND,
@@ -232,8 +231,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 ),new PokemonForm(
                         "Green", false,
                         Type.SOUND,
@@ -308,8 +306,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 ),new PokemonForm(
                         "Yellow", false,
                         Type.SOUND,
@@ -384,8 +381,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 ),new PokemonForm(
                         "Red", false,
                         Type.SOUND,
@@ -460,8 +456,7 @@ public class Tokakle extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE),
-                        0.4, 0.5
+                        List.of(SpawnPreset.VILLAGE)
                 )*/));
 
     }

@@ -48,13 +48,14 @@ public class Wasgrowl extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 45, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .pseudoLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setAvoidsLand(true);
         setCanSwim(true);
         setCanBreathUnderwater(true);

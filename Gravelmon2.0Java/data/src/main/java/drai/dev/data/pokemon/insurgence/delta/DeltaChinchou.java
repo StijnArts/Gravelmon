@@ -101,12 +101,15 @@ public class DeltaChinchou extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT, Biome.IS_NETHER_WASTELAND))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.25, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_DESERT, Biome.IS_NETHER_WASTELAND)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Chinchou");
 
         this.setHitbox(0.7, 0.6);

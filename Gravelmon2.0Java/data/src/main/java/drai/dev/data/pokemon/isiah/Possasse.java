@@ -42,13 +42,16 @@ public class Possasse extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MALICESTRIKE,62)                 ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.DESERT_PYRAMID),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
+    .build(), List.of());
+	
            setLangFileName("Possasse");
 
     }

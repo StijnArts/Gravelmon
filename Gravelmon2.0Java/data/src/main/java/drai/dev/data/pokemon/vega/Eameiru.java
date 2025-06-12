@@ -68,14 +68,17 @@ public class Eameiru extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 58, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY, Biome.IS_SKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SANDY, Biome.IS_SKY)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
         addAdditionalEvolution("skarmory", new EvolutionEntry("eameiru", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))));

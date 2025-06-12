@@ -93,8 +93,7 @@ public class SeviianWishiwashi extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL),
-                        1.4, 0.3)));
+                        List.of(SpawnPreset.NATURAL))));
         this.setLangFileName("Wishiwashi");
         this.setCanSwim(true);
         this.setAvoidsLand(true);

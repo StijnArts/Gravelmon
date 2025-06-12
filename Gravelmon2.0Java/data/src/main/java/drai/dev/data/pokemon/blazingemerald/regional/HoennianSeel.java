@@ -61,14 +61,18 @@ public class HoennianSeel extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.COMMON, 9, 33, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MINY, "48")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(9)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_COLD, Biome.IS_FREEZING)
+    .canSeeSky()
+    .aboveY(48)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setLangFileName("Seel");
 
         this.setCanSwim(true);

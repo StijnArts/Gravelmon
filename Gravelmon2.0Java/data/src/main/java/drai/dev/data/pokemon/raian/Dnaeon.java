@@ -22,12 +22,13 @@ public class Dnaeon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_CRIMSON))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .eeveelution()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_CRIMSON)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Dnaeon");
         addAdditionalEvolution("eevee", new EvolutionEntry("Dnaeon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:spider_eye"));

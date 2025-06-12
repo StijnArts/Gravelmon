@@ -115,12 +115,15 @@ public class Amberado extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIKE_CANNON,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 58, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.HONEY_TREE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.HONEY_TREE)
+    .build(), List.of());
+	
            setLangFileName("Amberado");
 
     }

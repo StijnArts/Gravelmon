@@ -39,13 +39,14 @@ public class Ambrachios extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,73)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 58, .8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OLD_GROWTH_TAIGA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Ambrachios");
 
     }

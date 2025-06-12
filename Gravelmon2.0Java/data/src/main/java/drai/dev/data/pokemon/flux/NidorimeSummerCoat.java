@@ -48,7 +48,6 @@ public class NidorimeSummerCoat extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
-                        0.3, 0.3,
                 List.of()
                 );
         setLangFileName("Nidorime");

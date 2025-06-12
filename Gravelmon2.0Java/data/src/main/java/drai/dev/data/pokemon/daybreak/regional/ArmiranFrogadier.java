@@ -68,13 +68,14 @@ public class ArmiranFrogadier extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.DAYBREAK),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 33, 2.0, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"0")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .cantSeeSky()
+    .belowY(0)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Frogadier");
     }
 }

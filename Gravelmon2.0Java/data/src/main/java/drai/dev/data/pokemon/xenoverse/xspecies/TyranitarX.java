@@ -90,12 +90,13 @@ public class TyranitarX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN2),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 55, 70, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.END_CITY),
-                0.29, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .pseudoLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.END_CITY)
+    .build(), List.of());
+	
         this.setLangFileName("Tyranitar");
 
         addAdditionalEvolution("tyranitar", new EvolutionEntry("tyranitar x", EvolutionType.ITEM_INTERACT, false, List.of(),

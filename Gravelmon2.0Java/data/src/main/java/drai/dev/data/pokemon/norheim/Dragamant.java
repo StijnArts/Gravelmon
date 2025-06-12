@@ -46,13 +46,16 @@ public class Dragamant extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,68)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.GEMSTONES),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.GEMSTONES)
+    .build(), List.of());
+	
            setLangFileName("Dragamant");
 
     }

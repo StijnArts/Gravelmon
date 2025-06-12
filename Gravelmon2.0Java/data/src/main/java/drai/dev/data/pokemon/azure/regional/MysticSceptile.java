@@ -40,12 +40,14 @@ public class MysticSceptile extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.AZURE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_ARID))),
-                List.of(SpawnPreset.NATURAL),
-                0.36, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_COLD, Biome.IS_ARID)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Sceptile");
         setCanFly(true);
     }

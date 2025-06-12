@@ -65,11 +65,15 @@ public class Skittail extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 19, 32, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
-                List.of(SpawnPreset.FRESHWATER),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(19)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND)
+    .setAntiBiomes(Biome.IS_OCEAN)
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
     }
 }

@@ -89,13 +89,16 @@ public class Ignishell extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:obsidian",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 9.0, List.of(
-                        new SpawnCondition(SpawnConditionType.MAXY,"-40"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .belowY(-40)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
 
     }
 }

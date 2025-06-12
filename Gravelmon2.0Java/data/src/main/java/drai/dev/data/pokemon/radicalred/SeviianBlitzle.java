@@ -72,12 +72,16 @@ public class SeviianBlitzle extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN5),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_PLAINS)
+    .setAntiBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Blitzle");
     }
 }

@@ -44,12 +44,15 @@ public class Beestical extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,66)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 54, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
-                ), List.of(),
-                List.of(SpawnPreset.HONEY_TREE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPRING)
+    .setSpawnPreset(SpawnPreset.HONEY_TREE)
+    .build(), List.of());
+	
            setLangFileName("Beestical");
 
     }

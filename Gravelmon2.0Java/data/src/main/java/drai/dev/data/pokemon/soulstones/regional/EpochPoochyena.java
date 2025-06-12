@@ -105,12 +105,16 @@ public class EpochPoochyena extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAUNT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 24, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Poochyena");
 
     }

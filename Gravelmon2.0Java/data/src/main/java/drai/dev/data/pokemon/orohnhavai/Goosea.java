@@ -47,13 +47,16 @@ public class Goosea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 2.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setCanFly(true);

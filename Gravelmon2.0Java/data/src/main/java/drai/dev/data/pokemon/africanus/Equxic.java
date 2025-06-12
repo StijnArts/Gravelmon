@@ -33,13 +33,14 @@ public class Equxic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_POISON,36)                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_SAVANNA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Equxic");

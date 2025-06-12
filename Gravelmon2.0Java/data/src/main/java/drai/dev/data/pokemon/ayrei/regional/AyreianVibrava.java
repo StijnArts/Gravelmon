@@ -107,13 +107,16 @@ public class AyreianVibrava extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FOLIAGE),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CHERRY_GROVE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FOLIAGE)
+    .build(), List.of());
+	
         this.setLangFileName("Vibrava");
         setCanFly(true);
     }

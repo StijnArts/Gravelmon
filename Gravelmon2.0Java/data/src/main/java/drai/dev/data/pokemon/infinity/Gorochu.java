@@ -116,13 +116,16 @@ public class Gorochu extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:redstone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 2.4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(36)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setPreEvolution("pikachu");
         
         setBaseScale(1);

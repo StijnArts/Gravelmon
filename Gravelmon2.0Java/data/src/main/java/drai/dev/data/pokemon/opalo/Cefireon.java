@@ -40,14 +40,15 @@ public class Cefireon extends Pokemon {
                 ),
                 List.of(Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.24, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SAVANNA)
+    .duringDaytime()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         addAdditionalEvolution("eevee", new EvolutionEntry("cefireon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:air_stone"));
     }

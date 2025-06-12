@@ -44,14 +44,17 @@ public class Ceresplit extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,75)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 54, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.MAXY,"20")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE)
+    .canSeeSky()
+    .belowY(20)
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
            setLangFileName("Ceresplit");
 
     }

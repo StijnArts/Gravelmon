@@ -78,14 +78,17 @@ public class Giragira extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 16, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.43, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SAVANNA)
+    .atNight()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         this.setPreEvolution("girafarig");
         addAdditionalEvolution("girafarig", new EvolutionEntry("giragira", EvolutionType.ITEM_INTERACT, false, List.of(),

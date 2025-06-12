@@ -109,14 +109,18 @@ public class Koberus extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS,Biome.IS_HILLS)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(29)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CAVE, Biome.IS_HIGHLANDS, Biome.IS_HILLS)
+    .setAntiBiomes(Biome.IS_COLD)
+    .duringDaytime()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

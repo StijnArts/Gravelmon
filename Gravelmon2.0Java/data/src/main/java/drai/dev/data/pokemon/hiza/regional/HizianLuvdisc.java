@@ -45,13 +45,16 @@ public class HizianLuvdisc extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,49)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 8, 33, 10, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(8)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Luvdisc");
             setCanBreathUnderwater(true);
             setAvoidsLand(true);

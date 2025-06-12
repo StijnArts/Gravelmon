@@ -39,14 +39,17 @@ public class Harpirit extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,48)                  ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 12, 35, 1.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
            setLangFileName("Harpirit");
         setCanSwim(true);
         setCanBreathUnderwater(true);

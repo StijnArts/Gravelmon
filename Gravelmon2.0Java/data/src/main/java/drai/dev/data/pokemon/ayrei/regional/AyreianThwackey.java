@@ -83,12 +83,13 @@ public class AyreianThwackey extends Pokemon {
                 ),
                 List.of(Label.GEN8,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 29, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_NETHER_FOREST)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Thwackey");
     }
 }

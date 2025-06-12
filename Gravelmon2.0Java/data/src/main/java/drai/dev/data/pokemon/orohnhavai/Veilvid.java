@@ -41,13 +41,16 @@ public class Veilvid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,50)        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 9, 32, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(9)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.FRESHWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

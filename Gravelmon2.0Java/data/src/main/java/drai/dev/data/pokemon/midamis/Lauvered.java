@@ -39,12 +39,15 @@ public class Lauvered extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,53)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 39, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(19)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
+    .build(), List.of());
+	
            setLangFileName("Lauvered");
 
     }

@@ -101,15 +101,18 @@ public class Chelonite extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:deepslate",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
-                        new SpawnCondition(SpawnConditionType.MINY, "180")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .atNight()
+    .aboveY(180)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setCanFly(true);
 
     }

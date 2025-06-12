@@ -109,13 +109,14 @@ public class EghoCharmeleon extends Pokemon {
                 List.of(Label.GEN1,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:coal",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 28, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.39, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BAMBOO)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Charmeleon");
         
         this.setBaseScale(0.8);

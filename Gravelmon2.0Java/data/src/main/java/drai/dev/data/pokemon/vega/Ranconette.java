@@ -110,12 +110,16 @@ public class Ranconette extends Pokemon {
                         ),
                 List.of(Label.VEGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 47, 65, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(47)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_COLD)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setPreEvolution("banette");
         addAdditionalEvolution("banette", new EvolutionEntry("ranconette", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"47"))));

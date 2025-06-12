@@ -116,12 +116,13 @@ public class Psysteed extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.37, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }

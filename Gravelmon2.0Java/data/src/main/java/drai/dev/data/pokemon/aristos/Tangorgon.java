@@ -42,14 +42,17 @@ public class Tangorgon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PERISH_SONG,64)              ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 54, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(27)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Tangorgon");
         addAdditionalEvolution("tangela", new EvolutionEntry("tangorgon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dusk_stone"));

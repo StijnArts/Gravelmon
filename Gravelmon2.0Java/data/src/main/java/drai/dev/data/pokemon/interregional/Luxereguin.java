@@ -40,13 +40,16 @@ public class Luxereguin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,55)             ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 44, 54, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_FROZEN_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(44)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_FREEZING, Biome.IS_FROZEN_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Luxereguin");

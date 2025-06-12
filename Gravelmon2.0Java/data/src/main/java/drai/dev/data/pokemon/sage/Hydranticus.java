@@ -97,13 +97,17 @@ public class Hydranticus extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:slime_ball",100, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 35, 56, 3.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN,Biome.IS_FRESHWATER))),
-                List.of(SpawnPreset.REEF),
-                0.3, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_LUKEWARM_OCEAN, Biome.IS_WARM_OCEAN)
+    .setAntiBiomes(Biome.IS_DEEP_OCEAN, Biome.IS_FRESHWATER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         this.setCanFly(true);
         setCanBreathUnderwater(true);
         this.setCanFly(true);

@@ -95,12 +95,16 @@ public class RelicRoserade extends Pokemon {
                 ),
                 List.of(Label.PHOENIX_RISING, Label.GEN4),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 41, 51, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FLORAL))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_FLORAL)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Roserade");
 
     }

@@ -110,12 +110,15 @@ public class Solacor extends Pokemon {
                 ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 43, 67, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(43)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
     }

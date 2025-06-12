@@ -46,13 +46,16 @@ public class Ziptide extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,5)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 21, 56, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_BEACH)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

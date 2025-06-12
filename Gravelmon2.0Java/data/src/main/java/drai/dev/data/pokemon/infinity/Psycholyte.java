@@ -85,13 +85,17 @@ public class Psycholyte extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 28, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MAGICAL, Biome.IS_MUSHROOM)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
-                List.of(SpawnPreset.NATURAL),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TAIGA, Biome.IS_MAGICAL, Biome.IS_MUSHROOM)
+    .setAntiBiomes(Biome.IS_SNOWY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
     }
 }

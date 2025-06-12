@@ -75,12 +75,16 @@ public class KaskadianDiggersby extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON, Label.GEN6),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 40, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_PLAINS))),
-                List.of(SpawnPreset.NATURAL),
-                0.19, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_PLAINS)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Diggersby");
 
     }

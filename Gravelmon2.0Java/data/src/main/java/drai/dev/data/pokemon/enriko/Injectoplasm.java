@@ -40,14 +40,17 @@ public class Injectoplasm extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HORN_DRILL,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 56, .6, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

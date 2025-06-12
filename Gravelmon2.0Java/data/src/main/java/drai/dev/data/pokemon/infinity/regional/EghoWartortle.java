@@ -104,13 +104,15 @@ public class EghoWartortle extends Pokemon {
                 List.of(Label.GEN1,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 29, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                List.of(SpawnPreset.NATURAL),
-                0.36, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .starter()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)
+    .setAntiBiomes(Biome.IS_FREEZING)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Wartortle");
         
         this.setBaseScale(1);

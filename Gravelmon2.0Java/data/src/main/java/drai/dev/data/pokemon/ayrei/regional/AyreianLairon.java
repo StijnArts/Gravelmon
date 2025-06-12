@@ -139,11 +139,14 @@ public class AyreianLairon extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 50, 2, List.of(
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_LAVA),
-                0.29, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
+    .build(), List.of());
+	
         this.setLangFileName("Lairon");
     }
 }

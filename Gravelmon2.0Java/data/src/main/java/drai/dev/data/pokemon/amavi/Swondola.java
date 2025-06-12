@@ -38,13 +38,16 @@ public class Swondola extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,49)        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 25, 45, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE, SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE, SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         setCanSwim(true);
         setAvoidsLand(true);
 

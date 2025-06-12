@@ -114,13 +114,16 @@ public class Howlequin extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:bone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 48, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY, Biome.IS_MAGICAL)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
 
         
         this.setBaseScale(0.5);

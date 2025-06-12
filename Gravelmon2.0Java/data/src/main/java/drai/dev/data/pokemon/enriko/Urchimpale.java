@@ -40,13 +40,17 @@ public class Urchimpale extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,52)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 25, 45, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_OCEAN)
+    .setAntiBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

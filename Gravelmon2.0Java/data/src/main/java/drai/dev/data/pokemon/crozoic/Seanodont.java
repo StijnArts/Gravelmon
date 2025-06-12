@@ -87,12 +87,13 @@ public class Seanodont extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 6, 35, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_LUSH))
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .fossil()
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER, Biome.IS_LUSH)
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Seanodont");

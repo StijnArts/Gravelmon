@@ -42,13 +42,16 @@ public class Christrap extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELLY_DRUM,60)                        ),
                 List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 52, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Christrap");
 
     }

@@ -43,13 +43,16 @@ public class Crickochet extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUILLOTINE,56)             ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 52, 60, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(52)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Crickochet");
 
     }

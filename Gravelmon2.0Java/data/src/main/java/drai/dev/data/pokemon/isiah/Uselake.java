@@ -31,13 +31,17 @@ public class Uselake extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAIL,25)),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 33, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(1)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_FRESHWATER)
+    .setAntiBiomes(Biome.IS_SWAMP)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

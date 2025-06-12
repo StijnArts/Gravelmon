@@ -74,13 +74,16 @@ public class HizianLileep extends drai.dev.data.pokemon.Pokemon {
                         ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 16, 35, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.ULTRA_RARE)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_DEEP_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Lileep");
 setCanBreathUnderwater(true);
     }

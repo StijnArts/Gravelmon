@@ -27,13 +27,16 @@ public class Groggymog extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_PLAINS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Groggymog");
 
     }

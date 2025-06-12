@@ -114,13 +114,16 @@ public class Gravollum extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:sandstone",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 51, 0.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
+    .build(), List.of());
+	
 
     }
 }

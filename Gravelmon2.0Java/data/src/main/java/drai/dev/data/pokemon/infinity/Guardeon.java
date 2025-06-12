@@ -96,14 +96,15 @@ public class Guardeon extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.27, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .eeveelution()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .duringDaytime()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
         
         
         this.setBaseScale(0.8);

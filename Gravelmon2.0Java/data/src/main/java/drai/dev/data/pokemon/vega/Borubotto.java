@@ -60,11 +60,14 @@ public class Borubotto extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 59, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD))
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COLD)
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
     }
 }

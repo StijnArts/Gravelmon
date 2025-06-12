@@ -95,14 +95,17 @@ public class EghoSpearow extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_HILLS, Biome.IS_TEMPERATE)
+    .atNight()
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Spearow");
         
         

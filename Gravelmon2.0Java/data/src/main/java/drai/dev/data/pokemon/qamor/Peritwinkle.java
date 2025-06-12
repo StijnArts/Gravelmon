@@ -48,14 +48,17 @@ public class Peritwinkle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INFESTATION,50)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 10, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
-                ), List.of(),
-                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .canSeeSky()
+    .atNight()
+    .isRaining()
+    .setSpawnPreset(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Peritwinkle");
 setCanFly(true);
     }

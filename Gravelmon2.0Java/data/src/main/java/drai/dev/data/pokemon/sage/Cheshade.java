@@ -103,14 +103,17 @@ public class Cheshade extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 28, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_PLAINS)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
 
     }
 }

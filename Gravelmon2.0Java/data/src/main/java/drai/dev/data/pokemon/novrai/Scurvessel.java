@@ -98,12 +98,15 @@ public class Scurvessel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 54, 65, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
-                ), List.of(),
-                List.of(SpawnPreset.SHIP_WRECK),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(54)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

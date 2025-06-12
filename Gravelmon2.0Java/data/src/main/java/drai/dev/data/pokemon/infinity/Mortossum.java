@@ -106,12 +106,15 @@ public class Mortossum extends Pokemon {
                 List.of(Label.INFINITY),
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 55, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(42)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
 
         
         setBaseScale(0.4);

@@ -42,13 +42,16 @@ public class Yamaki extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,62)           ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 54, 65, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.DESERT_PYRAMID),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(54)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DESERT)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
+    .build(), List.of());
+	
            setLangFileName("Yamaki");
 
     }

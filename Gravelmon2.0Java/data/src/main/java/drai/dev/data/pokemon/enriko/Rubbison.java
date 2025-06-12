@@ -41,13 +41,16 @@ public class Rubbison extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_BEAM,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 43, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_TUNDRA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SAVANNA, Biome.IS_TUNDRA)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Rubbison");
 
     }

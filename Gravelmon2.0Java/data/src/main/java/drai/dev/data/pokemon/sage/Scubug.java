@@ -93,14 +93,17 @@ public class Scubug extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 27, 38, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
-                        new SpawnCondition(SpawnConditionType.MAXY, "40"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(27)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_FRESHWATER)
+    .belowY(40)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
 

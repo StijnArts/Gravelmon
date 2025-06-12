@@ -114,13 +114,16 @@ public class AyreianDucklett extends Pokemon {
                 ),
                 List.of(Label.GEN5,Label.VANGUARD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 40, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE, Biome.IS_FLORAL, Biome.IS_MAGICAL)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NEAR_WATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CHERRY_GROVE, Biome.IS_FLORAL, Biome.IS_MAGICAL)
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
         this.setLangFileName("Ducklett");
         setCanFly(true);
         setCanSwim(true);

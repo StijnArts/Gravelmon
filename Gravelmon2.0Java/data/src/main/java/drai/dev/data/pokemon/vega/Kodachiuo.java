@@ -63,13 +63,16 @@ public class Kodachiuo extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.SUBMERGED, SpawnPool.COMMON, 14, 28, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN, Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(14)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN, Biome.IS_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

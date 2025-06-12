@@ -91,14 +91,18 @@ public class Toxito extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:spider_eye",100, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 2.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER,Biome.IS_SWAMP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.3, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_FRESHWATER, Biome.IS_SWAMP)
+    .setAntiBiomes(Biome.IS_COLD)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         this.setCanFly(true);
 
     }

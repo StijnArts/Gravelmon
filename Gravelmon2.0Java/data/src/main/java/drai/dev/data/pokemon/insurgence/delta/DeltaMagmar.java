@@ -101,13 +101,16 @@ public class DeltaMagmar extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 49, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.OCEAN_MONUMENT),
-                0.25, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(30)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OCEAN)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.OCEAN_MONUMENT)
+    .build(), List.of());
+	
         this.setLangFileName("Magmar");
     }
 }

@@ -25,12 +25,13 @@ public class Crawb extends Pokemon {
                 ),
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 33, 43, .0003, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DEEP_DARK)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
 
         setLangFileName("C.R.A.W.B.");

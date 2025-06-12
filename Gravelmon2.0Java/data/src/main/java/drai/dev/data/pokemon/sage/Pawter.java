@@ -94,13 +94,16 @@ public class Pawter extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:bone",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-            List.of(SpawnPreset.NEAR_WATER),
-                0.3, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(8)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_COAST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
 
     }
 }

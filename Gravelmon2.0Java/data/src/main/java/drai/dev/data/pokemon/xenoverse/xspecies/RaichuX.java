@@ -65,12 +65,15 @@ public class RaichuX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN1),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",20, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 33, 48, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.21, 0.3,
-                List.of());
+                new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.ULTRA_RARE)
+    .setMinLevel(33)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Raichu");
 
 

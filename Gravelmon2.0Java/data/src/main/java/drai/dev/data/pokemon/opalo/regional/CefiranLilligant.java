@@ -44,12 +44,15 @@ public class CefiranLilligant extends Pokemon {
                 ),
                 List.of(Label.GEN5,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 48, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(27)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CHERRY_GROVE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Lilligant");
     }
 }

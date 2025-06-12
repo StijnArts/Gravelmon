@@ -106,13 +106,16 @@ public class Terratetra extends Pokemon {
                 2, List.of(
                         new ItemDrop("cobblemon:hard_stone",10, 1,2),
                         new ItemDrop("minecraft:granite",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 46, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.5,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(24)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_ARID)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         
     }
 }

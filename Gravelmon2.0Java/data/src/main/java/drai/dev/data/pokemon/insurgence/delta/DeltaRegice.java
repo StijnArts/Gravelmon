@@ -116,13 +116,14 @@ public class DeltaRegice extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE, Label.LEGENDARY),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 69, 80, 0.003, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
-                ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
-                0.19, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_SANDY)
+    .isThundering()
+    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
+    .build(), List.of());
+	
         this.setLangFileName("Regice");
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

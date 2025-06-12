@@ -46,13 +46,14 @@ public class Angloch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,62)                  ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 12, 32, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                0.28, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .fossil()
+    .setContext(SpawnContext.SURFACE)
+    .setBiomes(Biome.IS_COLD_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
            setLangFileName("Angloch");
 
     }

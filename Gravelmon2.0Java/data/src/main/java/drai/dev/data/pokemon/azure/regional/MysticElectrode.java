@@ -85,12 +85,15 @@ public class MysticElectrode extends Pokemon {
                 ),
                 List.of(Label.AZURE, Label.GEN1),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.22, 0.3,
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(31)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         this.setLangFileName("Electrode");
         setCanFly(true);
 

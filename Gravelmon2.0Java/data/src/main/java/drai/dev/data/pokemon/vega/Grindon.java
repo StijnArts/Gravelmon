@@ -99,12 +99,13 @@ public class Grindon extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 34, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                0.4, 0.3,
-                List.of());
+                List.of(), new PokemonSpawnDataBuilder(1)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SNOWY_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
     }
 }
