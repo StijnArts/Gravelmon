@@ -91,12 +91,16 @@ public class VaritasianSwablu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 34, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_GRASSLAND)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Swablu");
         setCanFly(true);
     }

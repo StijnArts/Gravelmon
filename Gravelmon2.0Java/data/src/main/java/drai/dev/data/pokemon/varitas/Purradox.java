@@ -37,12 +37,16 @@ public class Purradox extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Purradox");
 
     }

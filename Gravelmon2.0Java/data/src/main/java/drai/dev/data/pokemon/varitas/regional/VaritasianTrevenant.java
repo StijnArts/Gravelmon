@@ -95,13 +95,17 @@ public class VaritasianTrevenant extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TAIGA)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Trevenant");
 
     }

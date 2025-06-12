@@ -33,12 +33,16 @@ public class VaritasianTynamo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE_BEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 5, 42, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
            setLangFileName("Tynamo");
         setCanBreathUnderwater(true);
         setCanSwim(true);

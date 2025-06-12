@@ -73,12 +73,16 @@ public class VaritasianImpidimp extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 30, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.MANSION),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(10)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.MANSION)
+    .build(), List.of());
+	
            setLangFileName("Impidimp");
 
     }

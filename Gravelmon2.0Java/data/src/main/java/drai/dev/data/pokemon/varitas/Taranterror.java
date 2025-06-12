@@ -41,12 +41,17 @@ public class Taranterror extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,57)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 34, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Taranterror");
 
     }

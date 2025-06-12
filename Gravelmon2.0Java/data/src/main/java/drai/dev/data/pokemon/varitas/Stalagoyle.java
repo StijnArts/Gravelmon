@@ -35,11 +35,15 @@ public class Stalagoyle extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 47, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DRIPSTONE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Stalagoyle");
 

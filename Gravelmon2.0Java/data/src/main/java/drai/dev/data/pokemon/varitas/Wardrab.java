@@ -43,12 +43,16 @@ public class Wardrab extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LASH_OUT,52)                  ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(3)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Wardrab");
 
     }

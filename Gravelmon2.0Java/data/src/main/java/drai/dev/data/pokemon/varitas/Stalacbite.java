@@ -41,11 +41,15 @@ public class Stalacbite extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 26, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(4)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DRIPSTONE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
            setLangFileName("Stalacbite");
 

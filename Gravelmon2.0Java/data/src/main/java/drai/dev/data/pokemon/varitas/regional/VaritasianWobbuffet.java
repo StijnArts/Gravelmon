@@ -42,12 +42,16 @@ public class VaritasianWobbuffet extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 40, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(15)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Wobbuffet");
         addAdditionalEvolution("wynaut", new EvolutionEntry("wobbuffet varitasian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15"))));

@@ -11,7 +11,7 @@ public class GravelmonJsonGenerator implements ModInitializer {
     {
         GameRegistry.registerGames();
         PostRegistration.postRegistration();
-        JSONOutputGenerator.generate(System.getProperty("user.dir").split("data")[0]+"common\\src\\main\\resources");
+//        JSONOutputGenerator.generate(System.getProperty("user.dir").split("data")[0]+"common\\src\\main\\resources");
     }
 
     @Override

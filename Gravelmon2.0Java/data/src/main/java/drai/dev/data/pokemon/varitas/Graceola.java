@@ -42,12 +42,17 @@ public class Graceola extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PETAL_DANCE,63)                ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 56, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(38)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Graceola");
 
     }

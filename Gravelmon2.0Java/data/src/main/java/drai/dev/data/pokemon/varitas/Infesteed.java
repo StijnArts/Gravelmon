@@ -78,12 +78,16 @@ public class Infesteed extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 45, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(25)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Infesteed");
 
     }

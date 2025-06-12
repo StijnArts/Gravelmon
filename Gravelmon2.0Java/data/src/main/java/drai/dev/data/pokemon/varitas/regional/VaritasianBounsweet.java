@@ -89,11 +89,15 @@ public class VaritasianBounsweet extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 21, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(1)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Bounsweet");
 
     }

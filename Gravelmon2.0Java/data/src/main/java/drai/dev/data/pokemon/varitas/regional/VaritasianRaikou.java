@@ -91,11 +91,13 @@ public class VaritasianRaikou extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .subLegend()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Raikou");
 
     }

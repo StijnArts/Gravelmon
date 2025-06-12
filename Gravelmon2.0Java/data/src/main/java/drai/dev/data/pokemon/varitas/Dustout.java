@@ -120,11 +120,15 @@ public class Dustout extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 61, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(43)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CHERRY_GROVE)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Dustout");
         addAdditionalEvolution("dunsparce", new EvolutionEntry("Dustout", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DIG.getName()))));

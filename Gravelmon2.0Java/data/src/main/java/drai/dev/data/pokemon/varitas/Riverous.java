@@ -41,12 +41,16 @@ public class Riverous extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 47, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_RIVER)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

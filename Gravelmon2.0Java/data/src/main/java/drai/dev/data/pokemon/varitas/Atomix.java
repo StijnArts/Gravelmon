@@ -47,11 +47,15 @@ public class Atomix extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,60)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(28)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Atomix");
 
     }

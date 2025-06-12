@@ -74,11 +74,15 @@ public class VaritasianAlcremie extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 50, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(22)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Alcremie");
 
     }

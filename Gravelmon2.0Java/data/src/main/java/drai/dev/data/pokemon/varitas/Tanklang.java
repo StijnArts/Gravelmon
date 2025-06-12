@@ -80,12 +80,16 @@ public class Tanklang extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 49, 52, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(49)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Tanklang");
 
     }

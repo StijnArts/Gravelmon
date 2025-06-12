@@ -112,13 +112,17 @@ public class VaritasianHitmonchan extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 46, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(20)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_MOUNTAIN)
+    .canSeeSky()
+    .atNight()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Hitmonchan");
 
     }

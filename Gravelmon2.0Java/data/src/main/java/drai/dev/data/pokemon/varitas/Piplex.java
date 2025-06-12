@@ -46,12 +46,16 @@ public class Piplex extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 47, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .isRaining()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Piplex");
 
     }

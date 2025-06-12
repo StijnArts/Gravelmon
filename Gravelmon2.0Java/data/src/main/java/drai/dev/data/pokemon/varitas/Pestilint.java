@@ -39,12 +39,16 @@ public class Pestilint extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COTTON_GUARD,60)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 26, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(11)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Pestilint");
 
     }

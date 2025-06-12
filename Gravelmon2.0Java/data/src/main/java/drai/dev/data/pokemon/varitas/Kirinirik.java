@@ -39,12 +39,16 @@ public class Kirinirik extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 65, .9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(41)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_CHERRY_GROVE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Kirinirik");
         addAdditionalEvolution("girafarig", new EvolutionEntry("kirinirik", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.OUTRAGE.getName()))));

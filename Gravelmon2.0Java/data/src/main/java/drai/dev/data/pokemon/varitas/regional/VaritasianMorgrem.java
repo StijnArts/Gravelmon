@@ -75,12 +75,16 @@ public class VaritasianMorgrem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THROAT_CHOP,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 40, .54, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.MANSION),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(32)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.MANSION)
+    .build(), List.of());
+	
            setLangFileName("Morgrem");
 
     }

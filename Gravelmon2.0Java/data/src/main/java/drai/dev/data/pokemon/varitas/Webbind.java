@@ -29,12 +29,17 @@ public class Webbind extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,1)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 22, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(11)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Webbind");
 
     }

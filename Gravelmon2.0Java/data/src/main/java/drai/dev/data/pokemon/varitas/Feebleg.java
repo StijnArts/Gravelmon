@@ -31,12 +31,17 @@ public class Feebleg extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUG_BITE,9)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 13, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(2)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .setAntiBiomes(Biome.IS_JUNGLE)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Feebleg");
 
     }

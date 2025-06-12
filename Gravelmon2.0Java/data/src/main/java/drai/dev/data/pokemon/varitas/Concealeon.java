@@ -112,12 +112,16 @@ public class Concealeon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 44, .3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(16)
+    .setWeight(SpawnWeight.ULTRA_RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_JUNGLE)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Concealeon");
 
     }

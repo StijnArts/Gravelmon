@@ -99,12 +99,16 @@ public class VaritasianYamask extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRAFTY_SHIELD,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 30, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.MANSION),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(5)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.MANSION)
+    .build(), List.of());
+	
            setLangFileName("Yamask");
 
     }

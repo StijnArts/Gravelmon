@@ -41,12 +41,16 @@ public class Fulgoryu extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,57)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(21)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BAMBOO)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
         setCanFly(true);
 
     }

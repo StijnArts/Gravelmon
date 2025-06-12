@@ -39,11 +39,15 @@ public class Volcamone extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 13, 32, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(13)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF)
+    .build(), List.of());
+	
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Volcamone");

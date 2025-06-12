@@ -80,6 +80,7 @@ public class Chimaooze extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
+                0.3, 0.3,
                 List.of(new PokemonForm("Monster", true,
                         Type.POISON, Type.FIGHTING,
                         new Stats(45, 130, 140, 135, 140, 30),
@@ -101,7 +102,8 @@ public class Chimaooze extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL))));
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
         setBaseScale(0.4);
         setHitbox(.6,.6);
         this.setHitbox(.7,.5);

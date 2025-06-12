@@ -92,13 +92,17 @@ public class VaritasianPhantump extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 1.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TAIGA)
+    .canSeeSky()
+    .duringDaytime()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Phantump");
 
     }

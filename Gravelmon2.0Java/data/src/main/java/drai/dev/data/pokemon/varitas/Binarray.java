@@ -41,11 +41,15 @@ public class Binarray extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 35, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
-                ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(35)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_END)
+    .setSpawnPreset(SpawnPreset.UNDERWATER)
+    .build(), List.of());
+	
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

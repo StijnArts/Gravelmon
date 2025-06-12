@@ -110,6 +110,87 @@ public class Pokemon extends AbstractPokemon {
         forms.forEach(form -> form.setFormOf(this));
     }
 
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, float d, float e, List<PokemonForm> forms) {
+        this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
+                new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight * 1.3d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+        ), forms);
+        needsUpdatedSpawnDefinition = true;
+    }
+
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, float d, float e, List<PokemonForm> forms) {
+        this(originalPokemon, aspect, name, primaryType, null, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, pokemonSpawnData, forms);
+    }
+
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, float d, float e, List<PokemonForm> forms) {
+        this(originalPokemon, aspect, name, primaryType, secondaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, List.of(
+                new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight * 1.3d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+        ), forms);
+        needsUpdatedSpawnDefinition = true;
+    }
+
+    public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Type secondaryType, Stats stats,
+                   List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio,
+                   int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups,
+                   List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount,
+                   List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, float d, float e, List<PokemonForm> forms) {
+        this(name, primaryType, secondaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship,
+                eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops, pokemonSpawnData, forms);
+        this.formAdditionAspect = aspect;
+        addAdditionalForm(originalPokemon, this);
+    }
+
+    public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities,
+                   Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio,
+                   int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles,
+                   List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops,
+                   SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel,
+                   double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions,
+                   List<SpawnPreset> spawnPresets, float d, float e, List<PokemonForm> forms) {
+        this(name, primaryType, secondaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield,
+                experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops,
+                List.of(
+                        new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight * 1.3d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+                ), forms);
+        needsUpdatedSpawnDefinition = true;
+
+    }
+
+    public Pokemon(String name, Type primaryType, Type secondaryType, Stats stats, List<Ability> abilities,
+                   Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio,
+                   int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles,
+                   List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops,
+                   List<PokemonSpawnData> pokemonSpawnData, float d, float e, List<PokemonForm> forms) {
+        this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield,
+                experienceGroup, baseFriendship, eggCycles, eggGroups, dexEntries, evolutions, learnSet, labels, dropAmount, drops,
+                pokemonSpawnData, forms);
+        this.secondaryType = secondaryType;
+    }
+
+    public Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height,
+                   int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
+                   int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> entries, List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext,
+                   SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, float d, float e, List<PokemonForm> forms) {
+        this(name, primaryType, stats, abilities, hiddenAbility, height, weight, evYield, catchRate, maleRatio, baseExperienceYield, experienceGroup, baseFriendship, eggCycles, eggGroups, entries, evolutions, learnSet, labels, dropAmount, drops, List.of(
+                new PokemonSpawnData(spawnContext, spawnPool, minSpawnLevel, maxSpawnLevel, spawnWeight * 1.3d, spawnConditions, spawnAntiConditions, spawnPresets, new ArrayList<>())
+        ), forms);
+        needsUpdatedSpawnDefinition = true;
+    }
+
+    public Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height,
+                   int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup,
+                   int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> entries, List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, float d, float e, List<PokemonForm> forms) {
+        super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
+                eggCycles, eggGroups, entries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, List.of(), height, weight, pokemonSpawnData);
+        this.forms = forms;
+        POKEMON_REGISTRY.put(getCleanName(), this);
+        forms.forEach(form -> form.setFormOf(this));
+    }
+
     public static Set<String> getKeysByValue(Map<String, List<Pokemon>> map, Pokemon value) {
         return map.entrySet().stream().filter(entry -> entry.getValue().contains(value)).map(Map.Entry::getKey).collect(Collectors.toSet());
     }

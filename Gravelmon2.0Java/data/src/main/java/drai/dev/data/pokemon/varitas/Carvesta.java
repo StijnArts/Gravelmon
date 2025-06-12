@@ -75,12 +75,16 @@ public class Carvesta extends drai.dev.data.pokemon.Pokemon {
                         ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 12, 43, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.REEF),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.RARE)
+    .setMinLevel(12)
+    .setWeight(SpawnWeight.RARE)
+    .setContext(SpawnContext.SEAFLOOR)
+    .setBiomes(Biome.IS_WARM_OCEAN)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.REEF)
+    .build(), List.of());
+	
            setLangFileName("Carvesta");
 setCanSwim(true);
 setCanBreathUnderwater(true);

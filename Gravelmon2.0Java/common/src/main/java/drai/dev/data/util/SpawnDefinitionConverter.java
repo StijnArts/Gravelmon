@@ -16,11 +16,12 @@ public class SpawnDefinitionConverter {
 
     public static void updateSpawnDefinitionInFile(Pokemon pokemon) {
         String className = pokemon.getClass().getName(); // e.g. "com.example.pokemon.MyPokemon"
-        if(!pokemon.needsUpdatedSpawnDefinition) {
+        if (!pokemon.needsUpdatedSpawnDefinition) {
             convertedClasses.add(className);
             return;
-        };
-        if(!convertedClasses.contains(className)) return;
+        }
+        ;
+        if (convertedClasses.contains(className)) return;
         Path filePath = Path.of("C:\\Users\\Stijn\\Desktop\\Gravelmon\\packaging\\Gravelmon2.0Java\\data\\src\\main\\java", className.replace('.', '/') + ".java");
         try {
             String content = Files.readString(filePath);
@@ -135,11 +136,9 @@ public class SpawnDefinitionConverter {
         for (SpawnCondition condition : old.getSpawnConditions()) {
             switch (condition.getConditionKind()) {
                 case CANSEESKY -> {
-                    if (condition.getCondition().equalsIgnoreCase("true")) {
-                        sb.append("    .canSeeSky()\n");
-                    } else if (condition.getCondition().equalsIgnoreCase("false")) {
-                        sb.append("    .cantSeeSky()\n");
-                    }
+                    if ("true".equalsIgnoreCase(condition.getCondition())) sb.append("    .canSeeSky()\n");
+                    else sb.append("    .cantSeeSky()\n");
+
                 }
                 case TIMERANGE -> {
                     if (condition.getCondition().equalsIgnoreCase("night")) {
@@ -149,12 +148,13 @@ public class SpawnDefinitionConverter {
                     }
                 }
                 case IS_RAINING -> {
-                    if ("true".equalsIgnoreCase(condition.getCondition()))
-                        sb.append("    .isRaining()\n");
-                    else
-                        sb.append("    .isNotRaining()\n");
+                    if ("true".equalsIgnoreCase(condition.getCondition())) sb.append("    .isRaining()\n");
+                    else sb.append("    .isNotRaining()\n");
                 }
-                case IS_THUNDERING -> sb.append("    .isThundering()\n");
+                case IS_THUNDERING -> {
+                    if ("true".equalsIgnoreCase(condition.getCondition())) sb.append("    .isThundering()\n");
+                    else sb.append("    .isNotThundering()\n");
+                }
                 case MINY -> sb.append("    .aboveY(").append(condition.getCondition()).append(")\n");
                 case MAXY -> sb.append("    .belowY(").append(condition.getCondition()).append(")\n");
                 case BIOMES -> sb.append(""); // Handled above

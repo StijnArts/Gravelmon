@@ -90,12 +90,16 @@ public class Grimpire extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 55, .2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
-                ), List.of(),
-                List.of(SpawnPreset.MANSION),
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(42)
+    .setWeight(SpawnWeight.COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .cantSeeSky()
+    .setSpawnPreset(SpawnPreset.MANSION)
+    .build(), List.of());
+	
            setLangFileName("Grimpire");
 setCanFly(true);
     }

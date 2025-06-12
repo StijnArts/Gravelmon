@@ -41,12 +41,14 @@ public class Lasaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,55)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 22, 38, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Lasaur");
 
     }

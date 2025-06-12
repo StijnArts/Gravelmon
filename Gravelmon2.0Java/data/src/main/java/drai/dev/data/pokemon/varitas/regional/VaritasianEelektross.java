@@ -84,12 +84,16 @@ public class VaritasianEelektross extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 45, 60, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(45)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.SUBMERGED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER)
+    .build(), List.of());
+	
            setLangFileName("Eelektross");
         setCanBreathUnderwater(true);
         setCanSwim(true);

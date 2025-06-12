@@ -46,12 +46,16 @@ public class Scrachty extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 60, 5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(39)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Scrachty");
 setCanFly(true);
     }

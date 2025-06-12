@@ -40,11 +40,15 @@ public class Germite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,47)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(6)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_DEEP_DARK)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Germite");
 
     }

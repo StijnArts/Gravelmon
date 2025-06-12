@@ -58,11 +58,15 @@ public class VaritasianMilcery extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 27, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(1)
+    .setPool(SpawnPool.COMMON)
+    .setMinLevel(2)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_SPOOKY)
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Milcery");
 
     }

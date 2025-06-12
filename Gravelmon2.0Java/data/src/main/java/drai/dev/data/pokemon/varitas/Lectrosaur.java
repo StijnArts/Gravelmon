@@ -42,12 +42,14 @@ public class Lectrosaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZAP_CANNON,65)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 41, 58, .4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .fossil()
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_BADLANDS)
+    .canSeeSky()
+    .setSpawnPreset(SpawnPreset.NATURAL)
+    .build(), List.of());
+	
            setLangFileName("Lectrosaur");
 
     }

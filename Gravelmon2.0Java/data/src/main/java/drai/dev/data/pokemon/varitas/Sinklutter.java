@@ -40,12 +40,16 @@ public class Sinklutter extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 57, .1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                List.of());
+                ), new PokemonSpawnDataBuilder(3)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(43)
+    .setWeight(SpawnWeight.VERY_COMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_OVERWORLD)
+    .isRaining()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Sinklutter");
 
     }

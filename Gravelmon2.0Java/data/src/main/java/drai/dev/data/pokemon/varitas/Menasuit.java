@@ -43,12 +43,16 @@ public class Menasuit extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LASH_OUT,52)                  ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 37, .5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
-                List.of());
+                ), new PokemonSpawnDataBuilder(2)
+    .setPool(SpawnPool.UNCOMMON)
+    .setMinLevel(26)
+    .setWeight(SpawnWeight.UNCOMMON)
+    .setContext(SpawnContext.GROUNDED)
+    .setBiomes(Biome.IS_TEMPERATE)
+    .atNight()
+    .setSpawnPreset(SpawnPreset.VILLAGE)
+    .build(), List.of());
+	
            setLangFileName("Menasuit");
 
     }
